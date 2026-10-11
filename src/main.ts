@@ -1,7 +1,7 @@
 import './style.css';
 import {ANSWERS,ALLOWED} from './words.ts';
 import {dateKey,dayIndex,score,status,submit,keyboardClues,choosePractice,shareText,type Run,type Clue} from './domain.ts';
-import {decode,emptySave,SAVE_KEY,recordDaily,statistics} from './persistence.ts';
+import {decode,emptySave,SAVE_KEY,recordDaily,statistics,synchronize} from './persistence.ts';
 
 const app=document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML=`
@@ -25,7 +25,7 @@ let typingOnButton=false;
 function persist(){try{localStorage.setItem(SAVE_KEY,JSON.stringify(save))}catch{storageAvailable=false;}}
 function sync(){
  const today=dateKey(new Date());
- if(storageAvailable){const raw=read();if(raw)save=decode(raw,today);else if(storageAvailable)save=emptySave(today);}
+ if(storageAvailable){const result=synchronize(save,today,()=>localStorage.getItem(SAVE_KEY));save=result.save;storageAvailable=result.available;}
  else if(save.date!==today)save=decode(JSON.stringify(save),today);
  return today;
 }

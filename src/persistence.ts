@@ -60,3 +60,9 @@ export function statistics(results:Record<string,string[]>,today:string){
  const current=last===today||last===yesterday?chain:0;
  return {played:dates.length,wins,percent:dates.length?Math.round(wins/dates.length*100):0,current,best,histogram};
 }
+
+/** Read external state before an action; a failing storage boundary must not freeze the UTC date. */
+export function synchronize(previous:Save,today:string,read:()=>string|null):{save:Save;available:boolean}{
+ try{return {save:decode(read(),today),available:true};}
+ catch{return {save:decode(JSON.stringify(previous),today),available:false};}
+}

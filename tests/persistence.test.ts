@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {decode,emptySave,recordDaily,statistics} from '../src/persistence.ts';
+import {decode,emptySave,recordDaily,statistics,synchronize} from '../src/persistence.ts';
 import {dailyAnswer,newRun,submit} from '../src/domain.ts';
 const today='2026-10-11';
 function win(date:string){return submit(newRun(dailyAnswer(date)),dailyAnswer(date)).run}
@@ -65,4 +65,15 @@ test('malformed duplicate guesses and overlong runs are discarded',()=>{
   const restored=decode(JSON.stringify({...s,daily:{guesses,draft:'ABCDEF'}}),today);
   assert.deepEqual(restored.daily,newRun(dailyAnswer(today)));
  }
+});
+
+test('storage read failure at midnight still rolls the in-memory daily run forward',()=>{
+ const s=emptySave('2026-10-10');s.daily.draft='CRA';s.practice.draft='APP';
+ const result=synchronize(s,today,()=>{throw new Error('Storage blocked')});
+ assert.equal(result.available,false);assert.equal(result.save.date,today);
+ assert.equal(result.save.daily.draft,'');assert.equal(result.save.practice.draft,'APP');
+});
+test('an externally cleared notebook resets state on the next action',()=>{
+ const s=emptySave(today);s.daily.draft='CRA';recordDaily(s,today,win(today));
+ assert.deepEqual(synchronize(s,today,()=>null).save,emptySave(today));
 });

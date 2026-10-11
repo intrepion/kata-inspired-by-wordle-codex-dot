@@ -21,10 +21,11 @@ let save=decode(read(),dateKey(new Date()));
 let message='Your next discovery starts with a guess.';
 let lastAccepted=false;
 let resetPending=false;
+let typingOnButton=false;
 function persist(){try{localStorage.setItem(SAVE_KEY,JSON.stringify(save))}catch{storageAvailable=false;}}
 function sync(){
  const today=dateKey(new Date());
- if(storageAvailable){const raw=read();if(raw)save=decode(raw,today);else if(save.date!==today)save=decode(JSON.stringify(save),today);}
+ if(storageAvailable){const raw=read();if(raw)save=decode(raw,today);else if(storageAvailable)save=emptySave(today);}
  else if(save.date!==today)save=decode(JSON.stringify(save),today);
  return today;
 }
@@ -63,16 +64,22 @@ function render(){
  if(daily&&outcome!=='playing'){
   const share=document.createElement('button');share.textContent='Copy spoiler-free result ↗';share.className='text-button';share.onclick=()=>void copyResult();actions.append(share);
  }
- const keys=keyboardClues(run);const keyboard=el('keyboard');keyboard.replaceChildren();
- for(const row of ['QWERTYUIOP','ASDFGHJKL','↵ZXCVBNM⌫']){
-  const line=document.createElement('div');line.className='key-row';
-  for(const key of row){
-   const button=document.createElement('button');const clue=keys[key];button.className=`key ${clue??''}${key==='↵'||key==='⌫'?' wide':''}`;
-   button.textContent=key==='↵'?'NOTE':key;
-   button.setAttribute('aria-label',key==='↵'?'Submit guess':key==='⌫'?'Erase letter':`${key}${clue?`, ${clueName[clue]}`:''}`);
-   if(clue){const small=document.createElement('small');small.textContent=symbol[clue];button.append(small);}
-   button.disabled=outcome!=='playing';button.onclick=()=>input(key);line.append(button);
-  }keyboard.append(line);
+ const keys=keyboardClues(run);const keyboard=el('keyboard');
+ if(!keyboard.childElementCount){
+  for(const row of ['QWERTYUIOP','ASDFGHJKL','↵ZXCVBNM⌫']){
+   const line=document.createElement('div');line.className='key-row';
+   for(const key of row){
+    const button=document.createElement('button');button.dataset.key=key;button.onclick=()=>input(key);line.append(button);
+   }keyboard.append(line);
+  }
+ }
+ for(const button of keyboard.querySelectorAll<HTMLButtonElement>('button')){
+  const key=button.dataset.key!;const clue=keys[key];
+  button.className=`key ${clue??''}${key==='↵'||key==='⌫'?' wide':''}`;
+  button.textContent=key==='↵'?'NOTE':key;
+  button.setAttribute('aria-label',key==='↵'?'Submit guess':key==='⌫'?'Erase letter':`${key}${clue?`, ${clueName[clue]}`:''}`);
+  if(clue){const small=document.createElement('small');small.textContent=symbol[clue];button.append(small);}
+  button.disabled=outcome!=='playing';
  }
  const stats=statistics(save.results,save.date);
  el('summary').innerHTML=`<span class="small-label">YOUR DAILY MARKS</span><div><strong>${stats.wins}</strong><span>words found</span></div><div><strong>${stats.current}</strong><span>day streak</span></div><button class="text-button" id="summary-stats">View your notebook ↗</button>`;
@@ -94,7 +101,7 @@ function input(key:string){
 }
 function setMode(mode:'daily'|'practice'){sync();save.mode=mode;message=mode==='daily'?'Your daily dispatch is waiting.':'Practice freely. Your daily marks stay separate.';persist();render();}
 function nextPractice(){sync();save.practice=choosePractice(save.practice.answer);save.mode='practice';message='A fresh page. A new possibility.';persist();dialog.close();render();}
-function modal(html:string){el('modal-content').innerHTML=html;if(!dialog.open)dialog.showModal();}
+function modal(html:string){el('modal-content').innerHTML=html;const heading=el('modal-content').querySelector('h2');if(heading){heading.id='dialog-title';dialog.setAttribute('aria-labelledby','dialog-title');}if(!dialog.open)dialog.showModal();}
 function openPracticeConfirm(){modal('<h2>Turn a fresh page?</h2><p>This replaces your unfinished practice fieldnotes. Your daily dispatch is safe.</p><div class="dialog-actions"><button id="keep-practice">Keep exploring</button><button id="next-practice" class="primary">Fresh practice</button></div>');el('keep-practice').onclick=()=>dialog.close();el('next-practice').onclick=nextPractice;}
 function openHelp(){modal(`<h2>A little field guide.</h2><p>Find a five-letter word in six guesses. Type letters or use the keyboard below the board; press Enter or NOTE to submit.</p><div class="help-clues"><p><b>✓ In place</b> — right letter, right spot.</p><p><b>↔ Elsewhere</b> — right letter, another spot.</p><p><b>× Not here</b> — no unmatched copy left.</p></div><h3>One letter, one clue.</h3><p>Repeated letters count only as often as they appear. Exact matches are reserved first.</p><p>If the answer is <b>APPLE</b>, guessing <b>ALLEY</b> gives:</p><div class="example">${score('APPLE','ALLEY').map((c,i)=>`<span class="tile ${c}"><b>${'ALLEY'[i]}</b><small>${symbol[c]}</small></span>`).join('')}</div><p>Only one L exists: the first L is elsewhere, the second L has no remaining copy. E is elsewhere; Y is absent.</p><h3>Two ways to explore.</h3><p><b>Daily dispatch:</b> one shared puzzle per UTC date. It changes at midnight UTC, even if your local date is different. Unfinished daily fieldnotes expire without a recorded loss.</p><p><b>Practice:</b> replay as often as you like. It resumes after reload and never changes daily statistics.</p><p>Words must be in our curated guide; unknown and repeated guesses use no turn. Winning or the sixth accepted guess completes the puzzle.</p><button id="start" class="primary">Let’s make a mark</button>`);el('start').onclick=()=>dialog.close();}
 function openStats(){sync();const s=statistics(save.results,save.date);modal(`<h2>Your daily notebook.</h2><p>Small discoveries, counted once.</p><div class="stats-grid"><div><b>${s.played}</b><span>Played</span></div><div><b>${s.percent}%</b><span>Win rate</span></div><div><b>${s.current}</b><span>Current streak</span></div><div><b>${s.best}</b><span>Best streak</span></div></div><h3>Fieldnotes to find the word</h3><div class="histogram">${s.histogram.map((count,i)=>`<div><span>${i+1}</span><div style="width:${Math.max(8,count/Math.max(1,...s.histogram)*100)}%"><b>${count}</b></div></div>`).join('')}</div><p class="fine-print">${s.wins} wins in ${s.played} completed daily dispatches. Streaks count consecutive UTC dates won. A loss or missed date breaks the streak. Yesterday’s winning streak remains current until today ends or is lost. Practice does not count.</p><p class="fine-print">Saved only in this browser. Clearing browser data or erasing the notebook removes these marks.</p>`);}
@@ -102,18 +109,26 @@ function openSettings(){modal(`<h2>Make yourself at home.</h2><label class="sett
 function openAbout(){modal(`<h2>A modest field guide.</h2><p>Morrowmark uses an original hand-curated collection of <b>${ALLOWED.size} accepted five-letter guesses</b>, including <b>${ANSWERS.length} answer words</b>. Compiled for this project and dedicated to the public domain under CC0 1.0.</p><p>This is a deliberately small English vocabulary, not a full dictionary. Some valid English words, regional spellings and inflections are missing. Answers favor familiar words; several inflected forms remain. The daily cycle repeats after ${ANSWERS.length} days.</p><p>No commercial game word lists, branding, art or assets were used. Word rules are inspired by the familiar five-letter deduction format; the presentation and writing are original.</p><p class="fine-print">Version 1 · Daily identity is based on UTC date and the frozen answer list. Your device clock determines the date; offline clock changes can change which dispatch appears.</p>`);}
 async function copyResult(){
  const text=shareText(save.date,save.daily);
- try{await navigator.clipboard.writeText(text);message='Result copied. The word stays between us.';render();}
- catch{modal('<h2>Your dispatch, without spoilers.</h2><p>Clipboard access was unavailable. Select and copy this text:</p><textarea id="share-text" readonly rows="11" aria-label="Spoiler-free result"></textarea>');(el('share-text') as HTMLTextAreaElement).value=text;}
+ modal('<h2>Your dispatch, without spoilers.</h2><p id="copy-status" role="status">Copying locally… You can also select and copy this text.</p><textarea id="share-text" readonly rows="11" aria-label="Spoiler-free result"></textarea>');
+ (el('share-text') as HTMLTextAreaElement).value=text;
+ try{
+  await Promise.race([navigator.clipboard.writeText(text),new Promise<never>((_,reject)=>setTimeout(()=>reject(new Error('Clipboard timeout')),1500))]);
+  if(dialog.open&&document.getElementById('copy-status'))el('copy-status').textContent='Copied locally. The word stays between us.';
+ }catch{
+  if(dialog.open&&document.getElementById('copy-status'))el('copy-status').textContent='Clipboard access was unavailable. Select and copy the text below.';
+ }
 }
 el('close').onclick=()=>dialog.close();dialog.addEventListener('close',()=>{resetPending=false;});
 el('help').onclick=openHelp;el('guide').onclick=openHelp;el('stats').onclick=openStats;el('settings').onclick=openSettings;el('about').onclick=openAbout;
 el('daily').onclick=()=>setMode('daily');el('practice').onclick=()=>setMode('practice');
+window.addEventListener('pointerdown',()=>{typingOnButton=false;});
 window.addEventListener('keydown',event=>{
+ if(event.key==='Tab')typingOnButton=false;
  if(event.ctrlKey||event.metaKey||event.altKey||dialog.open||event.target instanceof HTMLInputElement||event.target instanceof HTMLTextAreaElement)return;
  const key=event.key==='Enter'?'↵':event.key==='Backspace'?'⌫':event.key.toUpperCase();
  // Native buttons own Enter/Space activation; letter input still works while a key has focus.
- if(event.key==='Enter'&&event.target instanceof HTMLButtonElement)return;
- if(key==='↵'||key==='⌫'||/^[A-Z]$/.test(key)){event.preventDefault();if(event.target instanceof HTMLButtonElement)event.target.blur();input(key);}
+ if(event.key==='Enter'&&event.target instanceof HTMLButtonElement&&!typingOnButton)return;
+ if(key==='↵'||key==='⌫'||/^[A-Z]$/.test(key)){event.preventDefault();typingOnButton=true;input(key);}
 });
 function refresh(){const before=save.date;sync();if(before!==save.date)message='A fresh UTC dispatch has arrived.';render();}
 window.addEventListener('focus',refresh);window.addEventListener('storage',event=>{if(event.key===SAVE_KEY)refresh();});

@@ -1,0 +1,2 @@
+# Freeze daily identity and use UTC
+Daily answers use a frozen original v1 answer list with an epoch of 2026-01-01 UTC, rather than device timezone or an online service. This keeps each date stable and shared across browsers; changing the answer order would invalidate existing saves, so future vocabulary expansion must introduce a new daily version. UTC can roll over in the middle of a player's local day; the UI names UTC explicitly.

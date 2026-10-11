@@ -1,0 +1,2 @@
+# Standards
+Keep puzzle rules in pure, typed domain functions. Browser adapters own DOM, clock, storage and clipboard. Validate untrusted persisted data; infer results rather than trusting saved counters. No runtime packages, telemetry, external fonts or assets. Native accessible controls, visible focus, text/symbol clues, no user-provided HTML. Tests assert observable contracts with independent worked examples. Preserve the v1 answer order.

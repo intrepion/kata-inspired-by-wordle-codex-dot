@@ -1,0 +1,2 @@
+# Derive statistics from a local result ledger
+Store validated terminal daily runs keyed by date and derive statistics instead of incrementing counters. Duplicate submission/reload therefore cannot double-count; practice remains outside the ledger. Local storage keeps this private and serverless but can be cleared or edited by the user and cannot sync across devices. One browser tab is the supported active session; simultaneous tabs use latest persisted state before each action.

@@ -1,0 +1,13 @@
+# Separate Strict difficulty from Wordle-compatible Hard
+
+Normal and Hard retain their existing guess rules. Strict admits an accepted dictionary candidate only when treating it as a hypothetical answer reproduces the complete observed feedback for every previous guess. This checks all rows, not just the latest one. It does not restrict candidates to the current curated answers.
+
+Strict therefore fixes green positions; excludes each yellow's old position; requires at least all revealed green/yellow copies; rules out wholly gray letters; and caps a letter at its positive count whenever that row contains an additional gray copy. A gray copy's former position is excluded as well. Counts across rows combine as constraints rather than being added. This is a separate game option, not a claim about official Wordle Hard mode.
+
+The scorer-equivalence criterion is the authoritative admission rule; explanatory diagnostics name the violated position/letter/count and source fieldnote. The normal five-letter, dictionary, repeated-guess and terminal-run checks still apply first. Rejections preserve the same run, including draft and turn count.
+
+Settings uses a native Normal/Hard/Strict selector. A higher level can be chosen only before the first accepted guess; any lower level can be selected anytime. Lowering does not reset guesses, drafts or statistics. Upgrading again after a guess is blocked. This prevents claiming a stricter run after free-information guesses. Each daily/practice run retains its own difficulty; the preference applies to new daily puzzles and fresh practice. Normal shares retain the old text; Hard and Strict shares name their actual current level. A downgrade updates that label, and the UI does not award a stronger completion badge based on a former preference.
+
+Keep the v1 save key and legacy hard flag. An optional strict flag takes precedence, is validated by replay, and is canonicalized separately from Hard. Missing flags mean Normal. Old Hard runs remain Hard. Inconsistent flags are removed without discarding otherwise valid guesses/drafts; malformed preferences are ignored. A matching terminal daily ledger preserves difficulty; stale mismatching run metadata does not confer a stronger label. Historical ledger-only results remain Normal because their original difficulty was not recorded.
+
+The dictionary snapshot, original answer order, daily identity, game mechanics and existing local work are preserved. Tests compare all accepted words across worked feedback histories against hypothetical-answer scoring, in addition to literal examples, migration, mode transitions, preferences and spoiler-free share labels.

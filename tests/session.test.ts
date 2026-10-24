@@ -22,8 +22,8 @@ test('keyboard retains best evidence across guesses and duplicate copies',()=>{
 test('UTC midnight identity and rollover preserve completed history but abandon unfinished input',()=>{
  assert.equal(dateKey(new Date('2026-10-11T23:59:59Z')),'2026-10-11');
  assert.equal(dateKey(new Date('2026-10-12T00:00:00Z')),'2026-10-12');
- assert.equal(dailyAnswer('2026-01-01'),'ACORN');
- assert.equal(dailyAnswer('2026-01-02'),'ADAPT');
+ assert.equal(dailyAnswer('2026-01-01'),'ABACK');
+ assert.equal(dailyAnswer('2026-01-02'),'ABATE');
  const run={...newRun(dailyAnswer('2026-10-11')),draft:'CRA'};
  assert.equal(rollover('2026-10-11',run,'2026-10-11'),run);
  assert.deepEqual(rollover('2026-10-11',run,'2026-10-12'),newRun(dailyAnswer('2026-10-12')));

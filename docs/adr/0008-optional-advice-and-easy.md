@@ -1,0 +1,17 @@
+# Optional Suboptimal advice and clue-only Easy difficulty
+
+Suboptimal is a global Settings opt-in, off unless a saved boolean explicitly equals true. Old saves, including Evil saves, default off. The section appears below the keyboard in Daily, Practice and Evil only when requested and the round is active. No ranking worker or candidate analysis starts when neither Suboptimal nor Easy is requested. Drafts, rejections and repeated guesses reuse analysis; toggle-off, mode/history changes and gameover cancel workers and clear stale output.
+
+Both directions start from the same 3,493 curated answer universe filtered against every observed feedback row. Ordinary game code may score the already-submitted guesses to expose their public feedback, but the worker boundary contains only guesses, clue rows and visible completion state: never the selected answer, date or a prefiltered hidden-answer pool. Empty history always means all 3,493 answers. Equal visible clues produce equal advice regardless of the actual selected word.
+
+Suboptimal searches all unplayed accepted dictionary words that fit all prior clues, selecting the five largest worst-case feedback buckets. Ties remain alphabetical. Optimal (Easy) searches all unplayed accepted words, including exploratory guesses that do not fit the clues, and selects the smallest largest bucket. Optimal ties use fewer expected survivors (sum of squared bucket sizes divided by pool size, assuming uniform candidates), then prefer remaining candidate words, then alphabetical order. This is a one-step minimax ranking, not Shannon entropy or a globally optimal winning-strategy guarantee. Counts and tie-break assumptions are displayed. A singleton pool yields its sole inferred answer as a direct solve; completed rounds have no advice.
+
+Easy is an unrestricted difficulty for ordinary Daily/Practice only. It can be enabled on an unfinished game mid-round. Switching to Normal is allowed, but Hard/Strict upgrades after an accepted guess remain blocked. Easy cannot newly label an already completed game. Evil remains Normal-only; its Settings offers optional Suboptimal but no Easy/Hard/Strict control, preserving ordinary difficulties and preferences.
+
+Conservative assistance policy: enabling either advice option for an active round permanently marks that round Assisted, even if analysis is later canceled or advice is switched off. Enabling Easy marks the round immediately. This is disclosed in Settings; the marker means assistance was enabled, not proof that a recommendation was played. Downgrading, saving/reloading and matched completed-daily restoration preserve the marker, as do Evil snapshots. Mode bars and shares retain the Assisted label. Existing daily statistics remain combined and unchanged; no old result is retroactively inferred to be assisted from current preferences. Legacy boolean and named difficulty aliases remain readable. Missing or malformed opt-in values are off.
+
+Each advice direction uses a cancellable cached worker session keyed by public clue history plus ranking direction. Only requested sessions run. The same background scoring engine handles both; simultaneous opt-ins may run two independent sessions. Generation/key checks prevent stale replies, and only advice regions update on completion. No solver or new dictionary/answer data is introduced.
+
+Answer-guide v2 supersedes the original pool size; see ADR 0009.
+
+ADR 0010 supersedes the earlier Normal-only restriction for Evil; Evil now keeps its own Easy/Normal/Hard/Strict choice.

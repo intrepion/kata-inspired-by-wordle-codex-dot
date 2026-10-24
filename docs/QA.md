@@ -1,39 +1,44 @@
-# Delivery verification
+# Morrowmark verification
 
-## Actual Mac Chrome play
+## Current independent vocabulary replacement (2026-10-24)
 
-Executed through the user's Chrome browser using normal visible buttons and physical key events, against the built game at http://127.0.0.1:5198 on 2026-10-11 UTC. No hidden browser state was injected, no date override was installed, and no production answer backdoor exists. The deterministic current answer was calculated from the source solely for a controlled daily win; this is a QA solution, not evidence of unaided solving.
+SCOWL2020.12.07 revision5ef55f9c42730ebe4394a78b77855468a6f15dd2 replaces both extracted-game lists. Exact archive/source checksums and full retained terms are in WORDS-LICENSE.md. The source importer independently verifies27 original input files and reproduces the small filtered snapshot; offline generator --check verifies both modules. Current counts are3,493 common-tier answers and11,193 accepted guesses. Removed retired raw/generated lists, obsolete migration selection, old notice and superseded source-only decisions. No official NYT parity or legal warranty is claimed.
 
-- Opened tutorial and verified its APPLE / ALLEY worked example. Chrome's accessibility tree exposes each position, letter and clue, including the two different L clues.
-- Practice APPLE: incomplete AL rejected at 0 turns; reload restored AL draft; ALLEY submitted with ✓ ↔ × ↔ ×. Duplicate ALLEY and unknown ZZZZZ rejected at one turn. Backspace editing worked. Pointer keys entered APPLE and NOTE won in two guesses. Keyboard L upgraded from elsewhere to exact.
-- Switched to Daily, typed CRA, reloaded, restored CRA, finished CRANE and submitted. Switched to completed Practice and back; both histories remained distinct.
-- Daily loss: six accepted wrong guesses revealed the word and disabled input. Statistics showed one played, zero wins, zero streak. Reload and additional Enter did not add a result.
-- Sharing: clicked local spoiler-free share, inspected selectable result text and read the copied clipboard. Text contained only date, X/6, symbol rows and legend, without answer or guessed words. Named dialog announced copy success. Clipboard-denial fallback is implemented but not induced with browser permission changes.
-- Settings: high-contrast checkbox changed clue tones. Opened erase confirmation and chose Keep my notebook; daily loss, statistics and settings remained. Explicit erase was exercised only on this task's disposable QA notebook. Existing unrelated browser data was untouched.
-- Daily win after resetting disposable QA data: typed the known deterministic answer, submitted, pressed Enter again and reloaded. Statistics showed exactly one played, one win, 100%, current/best streak 1 and one histogram entry.
-- Practice loss after that win: six wrong guesses lost independently; daily statistics remained one played/one win. Fresh practice started another puzzle. Entered QQ; Fresh practice then Keep exploring retained QQ.
-- Focus regression retest: pointer-clicked Q then pressed Space; focused accessible key remained Q, draft changed Q to QQ. Key nodes now remain stable. Typed physical letters after selecting a mode, then Enter; submission worked without accidentally activating the mode. Native button activation remained available.
-- Responsive inspection: default viewport 1200×698, overrides 390×844, 320×740 and 768×1024. Narrow pointer keys worked; dialogs remained scrollable. A 5px navigation overflow at 320 was found, fixed, rebuilt and retested: clientWidth/scrollWidth both 305 (scrollbar excluded). At 390 and 768 they also matched. Overrides were reset.
-- Screenshots inspected: desktop fresh, desktop repeated letters, mobile/narrow practice and daily stats. Screenshots are actual Chrome renders; mobile images are viewport emulation, not physical devices.
-- Final runtime build reloaded and exercised after the storage fallback fix; Q/Space focus, incomplete guess, practice ALLEY and reset worked again. No application console errors. Warnings from an installed Chrome wallet extension were observed and are unrelated to the game.
-- Erased only this task's disposable QA notebook and left a fresh Daily dispatch open for the user.
+TDD source regression failed before production changes (/tmp/scowl-vocabulary-red.log,2315vs3493), then passed after replacement (/tmp/scowl-vocabulary-green.log). All108 tests, TypeScript and production build pass (/tmp/scowl-full.log). Existing data-specific fixtures now use independently licensed words. No scorer, largest-bucket algorithm, save validator, difficulty, advice metric/session or automatic-definition implementation change was needed.
 
-## Automated evidence
+Coverage includes every answer accepted, uppercase normalization/invalid/repeat input, duplicate-aware scorer/reference, Hard positive minima, Strict hypothetical-answer equivalence across the entire accepted dictionary, Easy/Suboptimal independent reference ranking, hidden-answer independence, stable ties, singleton solve, worker cancellation/stale/cache, gameover, all adaptive difficulties, clue consistency, forged out-of-pool caches, six-turn persistence/win/loss and daily UTC/statistics. Current dataset identifiers reset populated old notebooks once to defaults; current progress/settings/statistics/assistance survive repeated reloads. Only morrowmark.v1 is changed.
 
-18 public-domain/seam tests pass under Node 24: repeated-letter copy accounting; incomplete/invalid/duplicate rejection; terminal wins/losses; keyboard best-clue priority; UTC midnight date and stable epoch identity; practice random boundaries; spoofed/corrupt/unknown-version save validation; duplicate/overlong/post-win/future records; interrupted save restoration; ledger recovery/idempotence; streak continuation/missed date/loss/best streak; practice isolation; spoiler-free text; storage read failure during midnight rollover; external notebook clearing.
+Independent Python Counter scoring over the pinned snapshot confirms the reported trajectory3493→670→106→36→15→5 for AUDIO/ENTRY/BEACH/VALVE/GAFFE. Clues and sixth-turn outcomes are updated to the new pool. The two retired ending words are no longer dictionary members and cannot spend a turn. Candidate counts/advice/reveals refer to curated answers, never all matching accepted guesses.
 
-Strict TypeScript checking, production Vite build, `git diff --check`, and dependency audit pass (zero reported vulnerabilities). GitHub Actions checks strict types, domain tests, build and audit on every push/PR. Final commit/run evidence is provided with the delivery response; no CI pass is assumed from local tests.
+Independent Spec/Standards review reproduced the source snapshot and full notices, confirmed core mechanisms unchanged and focused tests passed. Stale SPEC and durable browser regression expectations were identified and updated for SCOWL.
 
-Date rollover, malformed saves and storage failure use deterministic clock/storage **fixtures at the domain/adapter seam**. They are not actual overnight browser tests or manually modified browser storage. No physical touch hardware, screen reader, Safari/Firefox, multi-tab concurrent race stress, or clipboard-permission-denial flow was tested. Single active tab is the supported editing model; storage is local and can be cleared/edited.
+## Durable isolated browser checks
 
-## Independent reviews
+Use optional PLAYWRIGHT_MODULE (module entry), BROWSER_EXECUTABLE, BASE_URL (default5298) and SCREENSHOT_DIR. These are separate QA tools, not runtime dependencies.
 
-Review baseline: documentation commit `188c9d7`; originating spec `docs/SPEC.md`; standards `CODING_STANDARDS.md` plus Matt Pocock's Fowler smell baseline. Two independent sub-agents reviewed Standards and Spec separately.
+- `node scripts/check-evil-replay.mjs`: desktop1280/mobile390, current curated initial/remaining counts, exact reported trajectory, each row feedback after reload, both rejected retired endings, current sixth-turn outcomes/shares, Easy/Suboptimal counts, full-pool deterministic win/reload. Inspect actual tile feedback, not an empty selector.
+- `node --import tsx scripts/check-inline-definitions.mjs`: synthetic external dictionary fixtures, not production definitions. Desktop/mobile every submitted/restored guess, all six rows, current advice lists in every mode, revealed answer dedupe, hidden-word exclusion, safe text, missing/offline/timeout, bounded requests/cache/cancellation, native expansion/focus/keyboard and unchanged game saves. Live one-word WiktionaryHTTP200 was separately verified; coverage remains incomplete.
+- Working-copy .local/qa-first-use.mjs: old-schema and current-schema/retired-dataset resets, unrelated origin storage preservation, allNormal/Suboptimaloff defaults, and newly saved game/results/preferences persisting after multiple reloads.
+- Working-copy .local/qa-absurd-difficulties.mjs: all four adaptive difficulties, independent ordinary preferences, actual-clue restrictions, Easy advice, assistance/shares, switching/reload and cancellation.
 
-**Standards:** Two findings: unnamed dialogs and keyboard buttons rebuilt/blurred on input. Fixed in `e65c5ed`; re-review confirmed both resolved, no new actionable findings. Browser evidence verified accessible dialog title and retained focused key.
+No user Chrome control; all disposable profiles close in finally. Viewport emulation is not physical device testing. Date/clock fixtures are not an actual overnight test. Built HTTP assets match the original checkout and local preview after transfer. The59 previously stopped other game servers must remain stopped; unrelated services remain untouched. Repository commit/push was subsequently authorized; no hosted deployment is included.
 
-**Spec:** No initial functional defects at `1ecf4b9`. Follow-up identified one storage-failure-at-midnight regression in `e65c5ed`. Fixed by `synchronize()` in `2fd80d5` and covered with red-before-green boundary tests. Independent re-review confirmed resolved and found no additional regression. Pending delivery evidence at review time was subsequently completed as recorded here and in the final response.
+## Existing definition TDD evidence
 
-## Local service
+Automatic-fetch and cached-publication red/green logs: /tmp/inline-auto-{red,green}.log and /tmp/inline-cache-{red,green}.log. Focus replacement was independently found, reproduced red and fixed with word/occurrence/control restoration; /tmp/inline-focus-{red,green}.log covers refresh/typing on summaries and source links. Fixed-source plain-text senses, license attribution and the two-request queue remain unchanged during vocabulary replacement.
 
-Port 5198 was probed free; existing servers on 5173–5197 were preserved. A detached, session-only Node server was launched using `scripts/detach.mjs`; PID and log are in ignored `.local/`. HTTP 200 and actual Chrome load were verified after the launcher exited. No boot/login autostart, security-setting change or public deployment occurred. Use the README restart command after stopping or rebooting. The static HTTP server is loopback-only; direct file launch is not supported.
+
+## Final replacement results
+
+Final fullcheck /tmp/scowl-final-full.log:108 tests pass, zero failures, TypeScript and production build pass. Source archive importer and generator --check pass. Both independent rechecks report no remaining findings. Desktop/mobile headless logs: /tmp/scowl-browser-replay.log (all10cases), /tmp/scowl-browser-reset.log (oldschema/current-schemaoldguide across bothviewports), /tmp/scowl-browser-definitions.log (allinlinecases), /tmp/scowl-browser-difficulties.log (all4levels/bothviewports, reload/preferences/shares/cancel). All profiles close and no pageerrors/overflow were observed.
+
+Full3493×11193 mobile analysis sample: Optimal2201ms, Suboptimal2147ms, typing5ms;31 animation frames over500ms with maxgap16.8ms (/tmp/scowl-browser-performance.log). Defaultoff createdzero workers; both workers terminated, toggling off/mode switching hid stale results. These are local samples, not hardware-independent timing guarantees. Screenshot .local/scowl-mobile.png visually inspected. About displays SCOWL/UKACD attribution and serves the complete notice. No other game server was started.
+
+
+## Easy opening guesses and authorized publication
+
+The user requested that Easy show Optimal suggestions on a brand-new round before any guess. The empty-history worker calculation already worked: the added public-seam regression passed before production UI changes (/tmp/openers-existing-contract.log). No absent first-turn engine behavior is claimed. The list was below the keyboard without explicit start guidance. A browser regression failed for missing zero-history guidance (/tmp/openers-ui-red.log); Easy now has a visible board hint and explicit opening loading/ready wording.
+
+Fullcheck /tmp/openers-full-check.log passes109 tests, TypeScript and build. Independent Standards/Spec reviews have no findings. Durable `node --import tsx scripts/check-easy-openers.mjs` passes1280/390 (/tmp/openers-ui-green.log): all3variants zero accepted guesses/drafts, all3493candidates/11193guess analysis, five opener words/inline definitions, Assisted marker, reload/cache/mode switches, fresh Practice/Absurd rounds, and hiding in Normal/Hard/Strict. Algorithm, save schema/dataset, difficulty selection, ranking/cancellation and defaultoff Suboptimal are unchanged.
+
+The current user explicitly authorized committing/pushing the completed features. Upstream main’s platform ignore-template commit is retained by fast-forward, with no force workflow. The candidate tree is scanned for credential patterns, local QA/build/dependency artifacts and retired extracted datasets. Full locked-dependency audit reports zero vulnerabilities. A targeted .gitattributes exception retains the exact upstream SCOWLREADME bytes (including its whitespace); license/source checks stay byte-identical. Hosted deployment and PR merge are outside this authorization.

@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {decode,emptySave,recordDaily,statistics,synchronize} from '../src/persistence.ts';
+import {decode,emptySave,recordDaily,statistics,synchronize,encode} from '../src/persistence.ts';
 import {dailyAnswer,newRun,submit} from '../src/domain.ts';
 const today='2026-10-11';
 function win(date:string){return submit(newRun(dailyAnswer(date)),dailyAnswer(date)).run}
@@ -76,4 +76,11 @@ test('storage read failure at midnight still rolls the in-memory daily run forwa
 test('an externally cleared notebook resets state on the next action',()=>{
  const s=emptySave(today);s.daily.draft='CRA';recordDaily(s,today,win(today));
  assert.deepEqual(synchronize(s,today,()=>null).save,emptySave(today));
+});
+
+test('expanded guesses survive reload alongside existing drafts and results',()=>{
+ const save=emptySave(today);save.daily=submit(save.daily,'adieu').run;
+ save.daily.draft='CRA';save.practice={answer:'APPLE',guesses:['ALLEY'],draft:'PUP'};
+ recordDaily(save,'2026-10-10',win('2026-10-10'));
+ assert.deepEqual(decode(encode(save),today),save);
 });

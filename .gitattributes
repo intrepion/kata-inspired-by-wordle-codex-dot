@@ -1,0 +1,2 @@
+# Preserve the byte-identical upstream source document, including its whitespace.
+docs/sources/scowl-2020.12.07-README.txt -whitespace

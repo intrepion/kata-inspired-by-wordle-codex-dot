@@ -1,0 +1,5797 @@
+aback A: abacker? | abackest?
+abate V: abated | abating | abates
+abbey N: abbeys
+abbot N: abbots
+abet V: abetted | abetting | abets
+abhor V: abhorred | abhorring | abhors
+abide V: abode, abided 1 | abiding | abides
+able A: abler | ablest
+abode N: abodes
+abode V?: aboded | aboding | abodes
+abort V: aborted | aborting | aborts
+about A: aboutter?, abouter<? 1 | abouttest?, aboutest<? 1
+about N?: abouts
+above A: abover? | abovest?
+above N: aboves
+abuse N: abuses
+abuse V: abused | abusing | abuses
+abyss N: abysses
+ace V: aced | acing | aces
+ache N: aches
+ache V: ached | aching | aches
+acid N: acids
+acorn N: acorns
+acre N: acres
+acrid A: acrider | acridest
+act V: acted | acting | acts
+actor N: actors
+acute A: acuter | acutest
+acute N: acutes
+adage N: adages
+adapt V: adapted | adapting | adapts
+add V: added | adding | adds
+adept A: adepter | adeptest
+adept N: adepts
+admit V: admitted | admitting | admits
+adobe N: adobes
+adopt V: adopted | adopting | adopts
+adore V: adored | adoring | adores
+adorn V: adorned | adorning | adorns
+adult A: adulter? | adultest?
+adult N: adults
+aeon N: aeons
+affix N: affixes
+affix V: affixed | affixing | affixes
+afoot A: afootter?, afooter<? 1 | afoottest?, afootest<? 1
+aft A: after | aftest?
+after N?: afters
+again A: againner?, againer<? 1 | againnest?, againest<? 1
+age V: aged | aging, ageing 1 | ages
+agent N: agents
+agent V: agented | agenting | agents
+agile A: agiler | agilest
+aging N: agings
+aglow A: aglower?, aglowwer<? 1 | aglowest?, aglowwest<? 1
+agony N: agonies
+agree V: agreed | agreeing | agrees
+ahead A: aheadder?, aheader<? 1 | aheaddest?, aheadest<? 1
+aid N: aids, aides!< 1
+aid V: aided | aiding | aids, aides!< 1
+aide N: aides
+aide V?: aided | aiding | aides
+ail V: ailed | ailing | ails
+aim V: aimed | aiming | aims
+air V: aired | airing | airs
+aisle N: aisles
+aisle V?: aisled | aisling | aisles
+alarm N: alarms
+alarm V: alarmed | alarming | alarms
+album N: albums, alba~ 1
+alert A: alerter | alertest
+alert N: alerts
+alert V: alerted | alerting | alerts
+alga N: algae, algas 2
+alias A: aliasser?, aliaser<? 1 | aliassest?, aliasest<? 1
+alias N: aliases
+alias V: aliased | aliasing | aliases
+alibi N: alibis, alibies 2
+alibi V: alibied | alibiing | alibis, alibies 2
+alien A: aliener | aliennest?, alienest<? 1
+alien N: aliens
+alien V: aliened | aliening | aliens
+align V: aligned | aligning | aligns
+alike A: aliker? | alikest?
+alive A: aliver? | alivest?
+allay V: allayed | allaying | allays
+alley N: alleys
+allot V: allotted | allotting | allots
+allow V: allowed | allowing | allows
+alloy N: alloys
+alloy V: alloyed | alloying | alloys
+aloft A: alofter? | aloftest?
+alone A: aloner? | alonest?
+along A: alonger? | alongest?
+aloof A: alooffer?, aloofer<? 1 | alooffest?, aloofest<? 1
+aloud A: aloudder?, alouder<? 1 | alouddest?, aloudest<? 1
+alpha A: alphaer? | alphaest?
+alpha N: alphas
+altar N: altars
+alter V: altered | altering | alters
+alto N: altos
+amass V: amassed | amassing | amasses
+amaze N: amazes
+amaze V: amazed | amazing | amazes
+amber A: amberrer?, amberer<? 1 | amberrest?, amberest<? 1
+amber N: ambers
+amble N: ambles
+amble V: ambled | ambling | ambles
+amend V: amended | amending | amends
+amiss A: amisser? | amissest?
+ample A: ampler | amplest
+amply A: amplier? | ampliest?
+amuse V: amused | amusing | amuses
+angel N: angels
+angel V: angeled | angeling | angels
+anger N: angers
+anger V: angered | angering | angers
+angle N: angles
+angle V: angled | angling | angles
+angry A: angrier | angriest
+angst N: angsts
+ankle N: ankles
+ankle V?: ankled | ankling | ankles
+annex N: annexes
+annex V: annexed | annexing | annexes
+annoy V: annoyed | annoying | annoys
+annul V: annulled | annulling | annuls
+antic A: anticer?, anticcer<? 1 | anticest?, anticcest<? 1
+antic N: antics
+antic V: anticked | anticking | antics
+anvil N: anvils
+anvil V?: anviled, anvilled 1 | anviling, anvilling 1 | anvils
+aorta N: aortas, aortae 1
+apart A: aparter? | apartest?
+ape V: aped | aping | apes
+appal V: appalled | appalling | appals
+appendix N: appendices {organ}, appendixes {supplement}
+apple N: apples
+apply V: applied | applying | applies
+apron N: aprons
+apron V: aproned | aproning | aprons
+apt A: apter | aptest
+aptly A: aptlier? | aptliest?
+arbor N: arbors, arbores< 1
+arc V: arced, arcked 1 | arcing, arcking 1 | arcs
+ardor N: ardors
+area N: areas, areae~ 1
+arena N: arenas
+argue V: argued | arguing | argues
+aria N: arias
+arise V: arose | arisen | arising | arises
+arm V: armed | arming | arms
+armor N: armors
+armor V: armored | armoring | armors
+aroma N: aromas
+array N: arrays
+array V: arrayed | arraying | arrays
+arrow N: arrows
+arrow V: arrowed | arrowing | arrows
+ars N?: arses
+arse N: arses
+arsis N?: arses
+arson N: arsons
+ash N: ashes
+ash V: ashed | ashing | ashes
+ashen A: ashenner?, ashener<? 1 | ashennest?, ashenest<? 1
+aside A: asider? | asidest?
+aside N: asides
+ask V: asked | asking | asks
+askew A: askewer?, askewwer<? 1 | askewest?, askewwest<? 1
+aspen A: aspenner?, aspener<? 1 | aspennest?, aspenest<? 1
+aspen N: aspens
+ass N: asses
+asses V?: assessed | assessing | assesses
+asset N: assets
+atlas N: atlases {book}, atlantes {sculpture}
+atom N: atoms
+atone V: atoned | atoning | atones
+attic N: attics
+audio N: audios
+audit N: audits
+audit V: audited | auditing | audits
+aunt N: aunts
+aura N: auras, aurae 1
+aural A: auraler?, auraller<? 1 | auralest?, aurallest<? 1
+auto N: autos
+auto V?: autoed | autoing | autos
+avail N: avails
+avail V: availed | availing | avails
+avert V: averted | averting | averts
+avoid V: avoided | avoiding | avoids
+avow V: avowed | avowing | avows
+await V: awaited | awaiting | awaits
+awake A: awaker? | awakest?
+awake V: awoke, awaked 1 | awoken, awaked 1, awoke 1.1 | awaking | awakes
+award N: awards
+award V: awarded | awarding | awards
+aware A: awarer | awarest
+awe V: awed | awing, aweing 2 | awes
+awful A: awfuller | awfullest
+ax V: axed | axing | axes
+axe V: axed | axing | axes
+axiom N: axioms
+axle N: axles
+azure A: azurer? | azurest?
+azure N: azures
+azure V: azured?, azureed? | azureing?, azuring? | azures
+babe N: babes
+back N: backs
+back V: backed | backing | backs
+bacon N: bacons
+bad A: worse, badder {slang} | worst, baddest {slang}
+badge N: badges
+badge V: badged | badging | badges
+badly A: badlier? | badliest?
+bagel N: bagels
+baggy A: baggier | baggiest
+baggy N?: baggies
+bail N: bails
+bail V: bailed | bailing | bails
+bait N: baits
+bait V: baited | baiting | baits
+bake N: bakes
+bake V: baked | baking | bakes
+baker N: bakers
+bal V?: baled!, balled< 1 | baling!, balling< 1 | bals, bales!< 1
+bald V: balded | balding | balds
+bale N: bales
+bale V: baled | baling | bales
+balk N: balks
+balk V: balked | balking | balks
+ball N: balls
+ball V: balled | balling | balls
+balm N: balms
+balmy A: balmier | balmiest
+ban N: bani {money}, bans {prohibition}
+banal A: banaler | banalest
+band N: bands
+band V: banded | banding | bands
+bandy A: bandier | bandiest
+bandy N: bandies
+bandy V: bandied | bandying | bandies
+bang N: bangs
+bang V: banged | banging | bangs
+banjo N: banjos, banjoes 1
+bank N: banks
+bank V: banked | banking | banks
+bar A?: barer! | barest!
+bar N: bars, bares!< 1
+bar V: barred, bared!< 1 | barring, baring!< 1 | bars, bares!< 1
+barb N: barbs
+barb V: barbed | barbing | barbs
+bard N: bards, bardes!< 1
+bard V: barded | barding | bards, bardes!< 1
+bare A: barer | barest
+bare V: bared | baring | bares
+barge N: barges
+barge V: barged | barging | barges
+bark N: barks
+bark V: barked | barking | barks
+barn N: barns
+barn V: barned | barning | barns
+baron N: barons
+bas A?: basser, baser!< 1 | bassest, basest!< 1
+bas V?: based! | basing! | bases, basses< 1
+base A: baser | basest
+base N: bases
+base V: based | basing | bases
+basic A: basicer?, basiccer<? 1 | basicest?, basiccest<? 1
+basic N: basics
+basil N: basils
+basin N: basins
+basis N: bases
+bask V: basked | basking | basks
+baste N: bastes
+baste V: basted | basting | bastes
+batch N: batches
+batch V: batched | batching | batches
+bath N: baths
+bath V: bathed | bathing | baths
+bathe N: bathes
+bathe V: bathed | bathing | bathes
+baton N: batons, baton~ 1
+baulk N: baulks
+baulk V: baulked | baulking | baulks
+bawdy A: bawdier | bawdiest
+bawdy N: bawdies
+bawl N: bawls
+bawl V: bawled | bawling | bawls
+bay V: bayed | baying | bays
+bayou N: bayous
+be V: was, wast 2 | were | been | being | am | are, art 2 | is | are
+beach N: beaches
+beach V: beached | beaching | beaches
+bead N: beads
+bead V: beaded | beading | beads
+beady A: beadier | beadiest
+beak N: beaks
+beak V: beaked | beakking?, beaking<? 1 | beaks
+beam N: beams
+beam V: beamed | beaming | beams
+bean N: beans
+bean V: beaned | beaning | beans
+bear N: bears, bear {:1}
+bear V: bore | borne, born 1 | bearing | bears
+beard N: beards
+beard V: bearded | bearding | beards
+beast N: beasts
+beat N: beats
+beat V: beat | beaten, beat 1 | beating | beats
+beech N: beeches
+beef N: beeves {animal}, beefs {complaint}
+beef V: beefed | beefing | beefs
+beefy A: beefier | beefiest
+beer N: beers
+beet N: beets
+befit V: befitted, befit~ 1 | befitting | befits
+begin V: began | begun | beginning | begins
+beige A: beiger? | beigest?
+beige N: beiges
+being N: beings
+belch N: belches
+belch V: belched | belching | belches
+belie V: belied | belying | belies
+bell N: bells, belles!< 1
+bell V: belled | belling | bells, belles!< 1
+belly N: bellies
+belly V: bellied | bellying | bellies
+below A: belower?, belowwer<? 1 | belowest?, belowwest<? 1
+below N?: belows
+belt N: belts
+belt V: belted | belting | belts
+bench N: benches
+bench V: benched | benching | benches
+bend N: bends
+bend V: bent | bending | bends
+bent N: bents
+beret N: berets
+berry N: berries
+berry V: berried | berrying | berries
+berth N: berths
+berth V: berthed | berthing | berths
+beset V: beset | besetting | besets
+best N: bests
+best V: bested | besting | bests
+bible N: bibles
+bid N: bids, bides!< 1
+bid V: bid, bade {command} | bidden, bid 0.1 | bidding, biding!< 1 | bids, bides!< 1
+bide V: bode, bided 1 | biding | bides
+bigot N: bigots
+bike N: bikes
+bike V: biked | biking | bikes
+bill N: bills
+bill V: billed | billing | bills
+bind N: binds
+bind V: bound | binding | binds
+bingo N: bingos
+biped A: bipedder?, bipeder<? 1 | bipeddest?, bipedest<? 1
+biped N: bipeds
+birch A: bircher? | birchest?
+birch N: birches
+birch V: birched | birching | birches
+bird N: birds
+bird V: birded | birding | birds
+birth N: births
+birth V: birthed | birthing | births
+bison N: bison, bisons 1
+bitch N: bitches
+bitch V: bitched | bitching | bitches
+bite N: bites
+bite V: bit | bitten | biting | bites
+blab N: blabs
+blab V: blabbed | blabbing | blabs
+black A: blacker | blackest
+black N: blacks
+black V: blacked | blacking | blacks
+blade N: blades
+blade V?: bladed | blading | blades
+blame A: blamer | blamest?
+blame N: blames
+blame V: blamed | blaming | blames
+bland A: blander | blandest
+blank A: blanker | blankest
+blank N: blanks
+blank V: blanked | blanking | blanks
+blare N: blares
+blare V: blared | blaring | blares
+blast N: blasts
+blast V: blasted | blasting | blasts
+blaze N: blazes
+blaze V: blazed | blazing | blazes
+bleak A: bleaker | bleakest
+bleak N: bleaks
+bleat N: bleats
+bleat V: bleated | bleating | bleats
+bleed N: bleeds
+bleed V: bled | bleeding | bleeds
+blend N: blends, blendes!< 1
+blend V: blended, blent 1 | blending | blends, blendes!< 1
+bless V: blessed, blest 1 | blessing | blesses
+blimp N: blimps
+blind A: blinder | blindest
+blind N: blinds
+blind V: blinded | blinding | blinds
+blink N: blinks
+blink V: blinked | blinking | blinks
+blip N: blips
+blip V: blipped | blipping | blips
+bliss N: blisses
+bliss V?: blissed | blissing | blisses
+blitz N: blitzes
+blitz V: blitzed | blitzing | blitzes
+blob N: blobs
+blob V: blobbed | blobbing | blobs
+bloc N: blocs
+bloc V?: blocked | blocking | blocs
+block N: blocks
+block V: blocked | blocking | blocks
+blond A: blonder | blondest
+blond N: blonds, blondes!< 1
+blood N: bloods
+blood V: blooded | blooding | bloods
+bloom N: blooms
+bloom V: bloomed | blooming | blooms
+blot N: blots
+blot V: blotted | blotting | blots
+blow N: blows
+blow V: blew, blowed 2 | blown, blowed 2 | blowing | blows
+blows N?: blowses
+blue A: bluer | bluest
+blue N: blues
+blue V: blued | bluing, blueing 1 | blues
+bluff A: bluffer | bluffest
+bluff N: bluffs
+bluff V: bluffed | bluffing | bluffs
+blunt A: blunter | bluntest
+blunt V: blunted | blunting | blunts
+blur N: blurs
+blur V: blurred | blurring | blurs
+blurb N: blurbs
+blurb V: blurbed | blurbing | blurbs
+blurt V: blurted | blurting | blurts
+blush A: blusher | blushest?
+blush N: blushes
+blush V: blushed | blushing | blushes
+boar N: boars
+board N: boards
+board V: boarded | boarding | boards
+boast N: boasts
+boast V: boasted | boasting | boasts
+boat N: boats
+boat V: boated | boating | boats
+bob N: bobs, bob {money}
+bod N: bods, bodes!< 1
+bod V?: boded! | boding! | bods, bodes!< 1
+bode V: boded | boding | bodes
+bogus A: bogusser?, boguser<? 1 | bogussest?, bogusest<? 1
+boil N: boils
+boil V: boiled | boiling | boils
+bolt N: bolts
+bolt V: bolted | bolting | bolts
+bomb N: bombs
+bomb V: bombed | bombing | bombs
+bond N: bonds
+bond V: bonded | bonding | bonds
+bone N: bones
+bone V: boned | boning | bones
+bonus N: bonuses
+boo V: booed | booing | boos
+booby N: boobies
+book N: books
+book V: booked | booking | books
+boom N: booms
+boom V: boomed | booming | booms
+boon N: boons, boa~ 1
+boor N: boors
+boost N: boosts
+boost V: boosted | boosting | boosts
+boot N: boots
+boot V: booted | booting | boots
+booth N: booths
+boots N?: bootses
+booty N: booties
+booze N: boozes
+booze V: boozed | boozing | boozes
+bor V?: bored! | boring! | bors, bores!< 1
+bore N: bores
+bore V: bored | boring | bores
+bosom A: bosommer?, bosomer<? 1 | bosommest?, bosomest<? 1
+bosom N: bosoms
+bosom V: bosomed | bosoming | bosoms
+bossy A: bossier | bossiest
+bossy N: bossies
+botch N: botches
+botch V: botched | botching | botches
+bough N: boughs
+bound N: bounds
+bound V: bounded | bounding | bounds
+bout N: bouts
+bow V: bowed | bowing | bows
+bowel N: bowels
+bowel V: boweled, bowelled 1 | boweling, bowelling 1 | bowels
+bowl N: bowls
+bowl V: bowled | bowling | bowls
+box N: boxes {container}, box {shrub}, boxes 0.1 {shrub}
+box V: boxed | boxing | boxes
+boxer N: boxers
+brace N: braces, brace {pair}
+brace V: braced | bracing | braces
+brag N: brags
+brag V: bragged | bragging | brags
+braid N: braids
+braid V: braided | braiding | braids
+brain N: brains
+brain V: brained | braining | brains
+brake N: brakes
+brake V: braked | braking | brakes
+brand N: brands
+brand V: branded | branding | brands
+brash A: brasher | brashest
+brash N: brashes
+brass A: brasser? | brassest?
+brass N: brasses
+brass V?: brassed | brassing | brasses
+brat N: brats
+brave A: braver | bravest
+brave N: braves
+brave V: braved | braving | braves
+bravo N: bravos, bravoes 2, bravi 2.1
+bravo V: bravoed | bravoing | bravos, bravoes 2
+brawl N: brawls
+brawl V: brawled | brawling | brawls
+brawn N: brawns
+bray N: brays
+bray V: brayed | braying | brays
+bread N: breads
+bread V: breaded | breading | breads
+break N: breaks
+break V: broke | broken | breaking | breaks
+breed N: breeds
+breed V: bred | breeding | breeds
+brew N: brews
+brew V: brewed | brewing | brews
+bribe N: bribes
+bribe V: bribed | bribing | bribes
+brick A: bricker? | brickest?
+brick N: bricks
+brick V: bricked | bricking | bricks
+bride N: brides
+brief A: briefer | briefest
+brief N: briefs
+brief V: briefed | briefing | briefs
+brim N: brims
+brim V: brimmed | brimming | brims
+brine N: brines
+brine V: brined | brining | brines
+bring V: brought | bringing | brings
+brink N: brinks
+briny A: brinier | briniest
+briny N: brinies
+brisk A: brisker | briskest
+brisk V: brisked | brisking | brisks
+broad A: broader | broadest
+broad N: broads
+broil N: broils
+broil V: broiled | broiling | broils
+brood A: brooder | brooddest?, broodest<? 1
+brood N: broods
+brood V: brooded | brooding | broods
+brook N: brooks
+brook V: brooked | brooking | brooks
+broom N: brooms
+broom V: broomed | brooming | brooms
+broth N: broths
+brow N: brows
+brown A: browner | brownest
+brown N: browns
+brown V: browned | browning | browns
+brows V?: browsed | browsing | browses
+brunt N: brunts
+brunt V?: brunted | brunting | brunts
+brush N: brushes
+brush V: brushed | brushing | brushes
+brute A: bruter | brutest?
+brute N: brutes
+brute V: bruted | bruting | brutes
+buck N: bucks, buck 0.1
+buck V: bucked | bucking | bucks
+buddy A: buddier | buddiest
+buddy N: buddies
+buddy V: buddied | buddying | buddies
+budge N: budges
+budge V: budged | budging | budges
+buff N: buffs
+buff V: buffed | buffing | buffs
+buggy A: buggier | buggiest
+buggy N: buggies
+bugle N: bugles
+bugle V: bugled | bugling | bugles
+build N: builds
+build V: built, builded 2 | building | builds
+bulb N: bulbs
+bulb V?: bulbed | bulbing | bulbs
+bulge N: bulges
+bulge V: bulged | bulging | bulges
+bulk N: bulks
+bulk V: bulked | bulking | bulks
+bulky A: bulkier | bulkiest
+bull N: bulls
+bull V: bulled | bulling | bulls
+bully A: bullier | bulliest
+bully N: bullies
+bully V: bullied | bullying | bullies
+bump N: bumps
+bump V: bumped | bumping | bumps
+bumpy A: bumpier | bumpiest
+bunch N: bunches
+bunch V: bunched | bunching | bunches
+bunk N: bunks
+bunk V: bunked | bunking | bunks
+bunny A: bunnier? | bunniest?
+bunny N: bunnies
+buoy N: buoys
+buoy V: buoyed | buoying | buoys
+burly A: burlier | burliest
+burn N: burns
+burn V: burned, burnt 1 | burning | burns
+burnt A: burnter? | burntest?
+burp N: burps
+burp V: burped | burping | burps
+burr N: burrs
+burr V: burred | burring | burrs
+burro N: burros
+burst N: bursts
+burst V: burst, bursted 1 | bursting | bursts
+bus N: buses, busses 1, bi~ 1
+bus V: bused, bussed 1 | busing, bussing 1 | buses, busses 1
+bushy A: bushier | bushiest
+bust N: busts
+bust V: busted, bust 1 | busting | busts
+butt N: butts
+butt V: butted | butting | butts
+butte N: buttes
+butte V?: butted | butting | buttes
+buxom A: buxomer | buxomest
+buyer N: buyers
+byte N: bytes
+byway N: byways
+cabin N: cabins
+cabin V: cabined | cabining | cabins
+cable N: cables
+cable V: cabled | cabling | cables
+cacao N: cacaos
+cache N: caches
+cache V: cached | caching | caches
+cactus N: cacti, cactuses 1, cactus 1.1
+cadet N: cadets
+cafe N: cafes, caves< 1
+cage N: cages
+cage V: caged | caging | cages
+cagey A: cagier | cagiest
+cake N: cakes
+cake V: caked | caking | cakes
+calk N: calks
+calk V: calked | calking | calks
+call N: calls
+call V: called | calling | calls
+calm N: calms
+calm V: calmed | calming | calms
+calve V: calved | calving | calves
+camel N: camels
+cameo A: cameoer? | cameoest?
+cameo N: cameos
+cameo V?: cameoed | cameoing | cameos
+camp N: camps
+camp V: camped | camping | camps
+can V: could {be_able}, canned {preserve} | canning | can {be_able}, canst 2 {be_able}, cans {preserve}
+canal N: canals
+canal V: canalled, canaled 1 | canalling, canaling 1 | canals
+candy N: candies
+candy V: candied | candying | candies
+cane N: canes
+cane V: caned | caning | canes
+canny A: cannier | canniest
+canoe N: canoes
+canoe V: canoed | canoing, canoeing 2 | canoes
+canon N: canons
+cap V: capped, caped!< 1 | capping, caping!< 1 | caps
+cape N: capes
+cape V: caped | caping | capes
+caper N: capers
+caper V: capered | capering | capers
+car N: cars, cares!< 1
+car V?: cared! | caring! | cars, cares!< 1
+carat N: carats
+card N: cards
+card V: carded | carding | cards
+care N: cares
+care V: cared | caring | cares
+cares V?: caressed | caressing | caresses
+cargo N: cargoes, cargos 1
+carol N: carols
+carol V: caroled, carolled 1 | caroling, carolling 1 | carols
+carp N: carp, carps {:1}
+carp V: carped | carping | carps
+carry N: carries
+carry V: carried | carrying | carries
+cart N: carts
+cart V: carted | carting | carts
+carve V: carved | carving | carves
+case N: cases
+case V: cased | casing | cases
+cask N: casks
+cask V: casked | casking | casks
+cast N: casts
+cast V: cast | casting | casts
+caste N: castes
+caste V?: casted | casting | castes
+catch N: catches
+catch V: caught | catching | catches
+cater V: catered | catering | caters
+caulk N: caulks
+caulk V: caulked | caulking | caulks
+cause N: causes
+cause V: caused | causing | causes
+cave N: caves
+cave V: caved | caving | caves
+caw V: cawed | cawing | caws
+cease N: ceases
+cease V: ceased | ceasing | ceases
+cedar A: cedarrer?, cedarer<? 1 | cedarrest?, cedarest<? 1
+cedar N: cedars
+cede V: ceded | ceding | cedes
+cedis N?: cedes
+cell N: cells
+cell V?: celled | celling | cells
+cello N: cellos, celli 1
+cent N: cents
+chafe N: chafes
+chafe V: chafed | chafing | chafes
+chaff N: chaffs
+chaff V: chaffed | chaffing | chaffs
+chain N: chains
+chain V: chained | chaining | chains
+chair N: chairs
+chair V: chaired | chairing | chairs
+chalk A: chalker? | chalkest?
+chalk N: chalks
+chalk V: chalked | chalking | chalks
+champ N: champs
+champ V: champed | champing | champs
+chant N: chants
+chant V: chanted | chanting | chants
+chao N?: chaos, chai~ 1
+chaos N: chaoses
+chap N: chaps
+chap V: chapped, chapt 1 | chapping | chaps
+char N: chars {charwoman}, char {fish}, chars {fish:1}
+char V: charred, chared!< 1 | charring, charing!< 1 | chars, chares!< 1
+charm N: charms
+charm V: charmed | charming | charms
+chart N: charts
+chart V: charted | charting | charts
+chase N: chases
+chase V: chased | chasing | chases
+chasm N: chasms
+chat N: chats
+chat V: chatted | chatting | chats
+cheap A: cheaper | cheapest
+cheap N: cheaps
+cheat N: cheats
+cheat V: cheated | cheating | cheats
+check A: checker | checkest?
+check N: checks
+check V: checked | checking | checks
+cheek A: cheekker?, cheeker<? 1 | cheekkest?, cheekest<? 1
+cheek N: cheeks
+cheek V: cheeked | cheeking | cheeks
+cheep N: cheeps
+cheep V: cheeped | cheeping | cheeps
+cheer N: cheers
+cheer V: cheered | cheering | cheers
+chef N: chefs
+chef V?: cheffed | cheffing | chefs
+cherub N: cherubs, cherubim {angel}, cherubims 1 {angel}
+chess N: chesses
+chest N: chests
+chew N: chews
+chew V: chewed | chewing | chews
+chewy A: chewier | chewiest
+chick N: chicks
+chide V: chided, chid 1 | chided, chid 1, chidden 1.1 | chiding | chides
+chief A: chiefer | chiefest
+chief N: chiefs
+child N: children
+child V?: childed | childing | childes!
+chili N: chilies, chilis 2
+chill A: chiller | chillest
+chill N: chills
+chill V: chilled | chilling | chills
+chime N: chimes
+chime V: chimed | chiming | chimes
+chimp N: chimps
+chin N: chins
+chin V: chinned, chined!< 1 | chinning, chining!< 1 | chins
+china A: chinaer? | chinaest?
+china N: chinas
+chink N: chinks
+chink V: chinked | chinking | chinks
+chip N: chips
+chip V: chipped | chipping | chips
+chips N?: chipses
+chirp N: chirps
+chirp V: chirped | chirping | chirps
+choir N: choirs
+choir V: choired | choiring | choirs
+choke N: chokes
+choke V: choked | choking | chokes
+choose V: chose | chosen | choosing | chooses
+chop N: chops
+chop V: chopped | chopping | chops
+chord N: chords
+chord V: chorded | chording | chords
+chore N: chores
+chore V?: chored | choring | chores
+chose N: choses
+chow N: chows
+chow V: chowed | chowing | chows
+chows V?: chowsed | chowsing | chowses
+chuck N: chucks
+chuck V: chucked | chucking | chucks
+chug N: chugs
+chug V: chugged | chugging | chugs
+chum N: chums, cha~ 1
+chum V: chummed | chumming | chums
+chunk N: chunks
+chunk V: chunked | chunking | chunks
+churn N: churns
+churn V: churned | churning | churns
+chute N: chutes
+chute V: chuted | chuting | chutes
+cider N: ciders
+cigar N: cigars
+cinch N: cinches
+cinch V: cinched | cinching | cinches
+circa A: circaer? | circaest?
+cit V?: cited! | citing! | cits
+cite N: cites
+cite V: cited | citing | cites
+cites N?: citesses
+civic A: civicer?, civiccer<? 1 | civicest?, civiccest<? 1
+civic N?: civics
+civil A: civiler?, civiller<? 1 | civilest?, civillest<? 1
+clack N: clacks
+clack V: clacked | clacking | clacks
+claim N: claims
+claim V: claimed | claiming | claims
+clam N: clams
+clam V: clammed | clamming | clams
+clamp N: clamps
+clamp V: clamped | clamping | clamps
+clan N: clans
+clang N: clangs
+clang V: clanged | clanging | clangs
+clank N: clanks
+clank V: clanked | clanking | clanks
+clap N: claps
+clap V: clapped | clapping | claps
+clash N: clashes
+clash V: clashed | clashing | clashes
+clasp N: clasps
+clasp V: clasped | clasping | clasps
+class A: classer | classest?
+class N: classes
+class V: classed | classing | classes
+claw N: claws
+claw V: clawed | clawing | claws
+clean A: cleaner | cleanest
+clean N: cleans
+clean V: cleaned | cleaning | cleans
+clear A: clearer | clearest
+clear N: clears
+clear V: cleared | clearing | clears
+cleat N: cleats
+cleat V: cleated | cleating | cleats
+cleave V: cleaved {split}, clove 0.1 {split}, cleaved {cling}, cleft 0.2 {split} | cleaved, cleft 0.1, cloven 0.2 | cleaving | cleaves
+clef N: clefs, cleves< 1
+cleft A: clefter? | cleftest?
+cleft N: clefts
+cleft V?: clefted | clefting | clefts
+clerk N: clerks
+clerk V: clerked | clerking | clerks
+click N: clicks
+click V: clicked | clicking | clicks
+cliff N: cliffs
+climb N: climbs
+climb V: climbed | climbing | climbs
+clime N: climes
+cling N: clings
+cling V: clung | clinging | clings
+clink N: clinks
+clink V: clinked | clinking | clinks
+clip N: clips
+clip V: clipped | clipped, clipt 1 | clipping | clips
+cloak N: cloaks, cloak~ 1
+cloak V: cloaked | cloaking | cloaks
+clock N: clocks
+clock V: clocked | clocking | clocks
+clod N: clods
+clod V?: clodded | clodding | clods
+clog N: clogs
+clog V: clogged | clogging | clogs
+clone N: clones
+clone V: cloned | cloning | clones
+close A: closer | closest
+close N: closes
+close V: closed | closing | closes
+clot N: clots
+clot V: clotted | clotting | clots
+cloth N: cloths
+cloth V?: clothed | clothing | cloths
+cloud N: clouds
+cloud V: clouded | clouding | clouds
+clout N: clouts
+clout V: clouted | clouting | clouts
+clove N: cloves
+clown N: clowns
+clown V: clowned | clowning | clowns
+club N: clubs
+club V: clubbed | clubbing | clubs
+cluck N: clucks
+cluck V: clucked | clucking | clucks
+clue N: clues
+clue V: clued | cluing, clueing 1 | clues
+clump N: clumps
+clump V: clumped | clumping | clumps
+coach A: coacher | coachest?
+coach N: coaches
+coach V: coached | coaching | coaches
+coal N: coals
+coal V: coaled | coaling | coals
+coast N: coasts
+coast V: coasted | coasting | coasts
+coat N: coats
+coat V: coated | coating | coats
+cobra N: cobras
+cock N: cocks
+cock V: cocked | cocking | cocks
+cocky A: cockier | cockiest
+cocky N: cockies
+cocoa N: cocoas
+cocoon N: cocoons, cocoa~ 1
+cod V: codded, coded!< 1 | codding, coding!< 1 | cods, codes!< 1
+code N: codes
+code V: coded | coding | codes
+coil N: coils
+coil V: coiled | coiling | coils
+coin N: coins
+coin V: coined | coining | coins
+coke N: cokes
+coke V: coked | coking | cokes
+cold N: colds
+colic N: colics
+colon N: colons, cola~ 1
+color A: colorer | colorrest?, colorest<? 1
+color N: colors
+color V: colored | coloring | colors
+colt N: colts
+coma N: comas {medicine}, comae {optics}
+comb N: combs
+comb V: combed | combing | combs
+come V: came | come | coming | comes
+comet N: comets
+comic A: comicer?, comiccer<? 1 | comicest?, comiccest<? 1
+comic N: comics
+comma N: commas, commata~ 1
+common N: commons, comma~ 1
+cone N: cones
+cone V: coned | coning | cones
+coo V: cooed | cooing | coos
+cook N: cooks
+cook V: cooked | cooking | cooks
+cool N: cools
+cool V: cooled | cooling | cools
+coop N: coops
+coop V: cooped | cooping | coops
+cop V: copped, coped!< 1 | copping, coping!< 1 | cops
+cope N: copes
+cope V: coped | coping | copes
+cor V?: cored! | coring! | cors, cores!< 1
+coral A: coraler?, coraller<? 1 | coralest?, corallest<? 1
+coral N: corals
+cord N: cords
+cord V: corded | cording | cords
+core N: cores
+core V: cored | coring | cores
+cork N: corks
+cork V: corked | corking | corks
+corn N: corns
+corn V: corned | corning | corns
+corny A: cornier | corniest
+corp N: corps
+corps N: corps
+corpus N: corpora, corpora {texts}, corpuses 1 {texts}
+cost N: costs
+cost V: cost, costed 2 | costing | costs
+couch N: couches
+couch V: couched | couching | couches
+cough N: coughs
+cough V: coughed | coughing | coughs
+could V: coulded? | coulding? | coulds?, couldes<? 1
+count N: counts
+count V: counted | counting | counts
+coup N: coups
+coup V: couped | couping | coups
+court N: courts
+court V: courted | courting | courts
+cove N: coves
+cove V: coved | coving | coves
+cover N: covers
+cover V: covered | covering | covers
+covet V: coveted | coveting | covets
+cow V: cowed | cowing | cows
+cower V: cowered | cowering | cowers
+coy A: coyer | coyest
+crab N: crabs
+crab V: crabbed | crabbing | crabs
+crack A: cracker | crackest?
+crack N: cracks
+crack V: cracked | cracking | cracks
+craft N: crafts
+craft V: crafted | crafting | crafts
+crag N: crags
+cram N: crams
+cram V: crammed | cramming | crams
+cramp N: cramps
+cramp V: cramped | cramping | cramps
+crane N: cranes
+crane V: craned | craning | cranes
+crank A: cranker | crankest
+crank N: cranks
+crank V: cranked | cranking | cranks
+crash A: crasher | crashest?
+crash N: crashes
+crash V: crashed | crashing | crashes
+crass A: crasser | crassest
+crate N: crates
+crate V: crated | crating | crates
+crave V: craved | craving | craves
+crawl N: crawls
+crawl V: crawled | crawling | crawls
+craze N: crazes
+craze V: crazed | crazing | crazes
+crazy A: crazier | craziest
+crazy N: crazies
+creak N: creaks
+creak V: creaked | creaking | creaks
+cream A: creamer | creammest?, creamest<? 1
+cream N: creams
+cream V: creamed | creaming | creams
+cree V?: creed | creeing | crees
+creed N: creeds
+creek N: creeks
+creep N: creeps
+creep V: crept | creeping | creeps
+crepe N: crepes
+crepe V: creped | creping | crepes
+crest N: crests
+crest V: crested | cresting | crests
+crew N: crews
+crew V: crewed | crewing | crews
+crib N: cribs
+crib V: cribbed | cribbing | cribs
+crime N: crimes
+crime V?: crimed | criming | crimes
+crisp A: crisper | crispest
+crisp N: crisps
+crisp V: crisped | crisping | crisps
+croak N: croaks
+croak V: croaked | croaking | croaks
+crock N: crocks
+crock V: crocked | crocking | crocks
+crony N: cronies
+crook A: crooker | crookest
+crook N: crooks
+crook V: crooked | crooking | crooks
+croon N: croons
+croon V: crooned | crooning | croons
+crop N: crops
+crop V: cropped | cropping | crops
+cross A: crosser | crossest
+cross N: crosses
+cross V: crossed | crossing | crosses
+crow N: crows
+crow V: crowed | crowing | crows
+crowd N: crowds
+crowd V: crowded | crowding | crowds
+crown N: crowns
+crown V: crowned | crowning | crowns
+crude A: cruder | crudest
+crude N: crudes
+cruel A: crueler, crueller 1 | cruelest, cruellest 1
+cruel N?: cruels
+crumb N: crumbs
+crumb V: crumbed | crumbing | crumbs
+crush N: crushes
+crush V: crushed | crushing | crushes
+crust N: crusts
+crust V: crusted | crusting | crusts
+cry N: cries
+cry V: cried | crying | cries
+crypt N: crypts
+cub V: cubbed, cubed!< 1 | cubbing, cubing!< 1 | cubs
+cube N: cubes
+cube V: cubed | cubing | cubes
+cubic A: cubicer?, cubiccer<? 1 | cubicest?, cubiccest<? 1
+cubic N: cubics
+cue V: cued | cuing, cueing 1 | cues
+cuff N: cuffs
+cuff V: cuffed | cuffing | cuffs
+cull N: culls
+cull V: culled | culling | culls
+cult N: cults
+cur N: curs, cures!< 1
+cur V?: curred, cured!< 1 | curring, curing!< 1 | curs, cures!< 1
+curb N: curbs
+curb V: curbed | curbing | curbs
+curd N: curds
+curd V: curded | curding | curds
+cure N: cures
+cure V: cured | curing | cures
+curio N: curios
+curl N: curls
+curl V: curled | curling | curls
+curly A: curlier | curliest
+curry N: curries
+curry V: curried | currying | curries
+curse N: curses
+curse V: cursed, curst 1 | cursing | curses
+curve N: curves
+curve V: curved | curving | curves
+cut A: cutter, cuter!< 1 | cutest
+cute A: cuter | cutest
+cycle N: cycles
+cycle V: cycled | cycling | cycles
+cyclops N: cyclops {flea}, cyclopes {giant}
+cynic A: cynicer?, cyniccer<? 1 | cynicest?, cyniccest<? 1
+cynic N: cynics
+cyst N: cysts
+czar N: czars
+daddy N: daddies
+daily A: dailier? | dailiest?
+daily N: dailies
+dairy N: dairies
+daisy N: daisies
+dally V: dallied | dallying | dallies
+dame N: dames
+damn N: damns
+damn V: damned | damning | damns
+damp N: damps
+damp V: damped | damping | damps
+dance N: dances
+dance V: danced | dancing | dances
+dandy A: dandier | dandiest
+dandy N: dandies
+dare N: dares
+dare V: dared, durst 2 | daring | dares
+daris N?: dares
+darn N: darns
+darn V: darned | darning | darns
+dart N: darts
+dart V: darted | darting | darts
+date N: dates
+date V: dated | dating | dates
+datum N: data, datums {reference_point}
+daub N: daubs
+daub V: daubed | daubing | daubs
+daunt V: daunted | daunting | daunts
+dawn N: dawns
+dawn V: dawned | dawning | dawns
+daze N: dazes
+daze V: dazed | dazing | dazes
+deal N: deals
+deal V: dealt | dealing | deals
+dean N: deans
+dean V?: deaned | deaning | deans
+dear N: dears
+death N: deaths
+debit N: debits
+debit V: debited | debiting | debits
+debt N: debts
+debug V: debugged | debugging | debugs
+debut N: debuts
+debut V: debuted | debuting | debuts
+decay N: decays
+decay V: decayed | decaying | decays
+deck N: decks
+deck V: decked | decking | decks
+decoy N: decoys
+decoy V: decoyed | decoying | decoys
+decry V: decried | decrying | decries
+deed N: deeds
+deed V: deeded | deeding | deeds
+deem V: deemed | deeming | deems
+deep N: deeps
+def A: deffer, defer< 1 | deffest
+defer V: deferred | deferring | defers
+deify V: deified | deifying | deifies
+deign V: deigned | deigning | deigns
+deity N: deities
+delay N: delays
+delay V: delayed | delaying | delays
+deli N: delis
+delis N?: deles
+delta N: deltas
+delve V: delved | delving | delves
+demon N: demons
+denim N: denims
+dense A: denser | densest
+dent N: dents
+dent V: dented | denting | dents
+depot N: depots
+depth N: depths
+desk N: desks
+deter V: deterred | deterring | deters
+devil N: devils
+devil V: deviled, devilled 1 | deviling, devilling 1 | devils
+dex N?: dexes, dices< 1
+dial N: dials
+dial V: dialed, dialled 1 | dialing, dialling 1 | dials
+diary N: diaries
+dice N: dices
+dice V: diced | dicing | dices
+die V: died | dying {expire}, dieing {shape} | dies
+diet N: diets
+diet V: dieted | dieting | diets
+digit N: digits
+dike N: dikes
+dike V: diked | diking | dikes
+dill N: dills
+dill V?: dilled | dilling | dills
+dim A: dimmer, dimer!< 1 | dimmest
+dime A: dimer | dimest?
+dime N: dimes
+dimer N: dimers
+dimly A: dimlier? | dimliest?
+din V: dinned, dined!< 1 | dinning, dining!< 1 | dins
+dine V: dined | dining | dines
+diner N: diners
+dingy A: dingier | dingiest
+dingy N?: dingies
+dire A: direr | direst
+dirge N: dirges
+dirty A: dirtier | dirtiest
+dirty V: dirtied | dirtying | dirties
+disc N: discs
+disc V: disced | discing | discs
+disco A: discoer? | discoest?
+disco N: discos, disci 2
+disco V: discoed | discoing | discos
+disk N: disks
+disk V: disked | disking | disks
+ditch N: ditches
+ditch V: ditched | ditching | ditches
+ditto A: dittoer? | dittoest?
+ditto N: dittos, dittoes 0.1
+ditto V: dittoed | dittoing | dittos, dittoes 0.1
+ditty N: ditties
+ditty V: dittied | dittying | ditties
+div A?: diver! | divest!
+div V?: dived! | diving! | divs
+dive A?: diver | divest
+dive N: dives
+dive V: dived, dove 1 | dived | diving | dives
+diver N: divers
+dizzy A: dizzier | dizziest
+dizzy V: dizzied | dizzying | dizzies
+do V: did, didst 2 | done | doing | does, dost 2, doth 2.1
+dock N: docks
+dock V: docked | docking | docks
+dodge N: dodges
+dodge V: dodged | dodging | dodges
+doer N: doers
+dogma N: dogmas, dogmata 1
+doily N: doilies
+doing N: doings
+dol N: dols, doles!< 1
+dol V?: doled!, dolled< 1 | doling!, dolling< 1 | dols, doles!< 1
+dole N: doles
+dole V: doled | doling | doles
+doll N: dolls
+doll V: dolled | dolling | dolls
+dolly N: dollies
+dolly V: dollied | dollying | dollies
+dom V?: domed! | doming! | doms
+dome N: domes
+dome V: domed | doming | domes
+dong N: dong {money}, dongs {penis}
+donor N: donors
+doom N: dooms
+doom V: doomed | dooming | dooms
+door N: doors
+door V?: doored | dooring | doors
+dop V?: dopped, doped!< 1 | dopping, doping!< 1 | dops
+dope N: dopes
+dope V: doped | doping | dopes
+dopey A: dopier | dopiest
+dos V?: dossed, dosed!< 1 | dossing, dosing!< 1 | doses, dosses< 1
+dose N: doses
+dose V: dosed | dosing | doses
+dot V: dotted, doted!< 1 | dotting, doting!< 1 | dots
+dote V: doted | doting | dotes
+doubt N: doubts
+doubt V: doubted | doubting | doubts
+dough N: doughs
+douse N: douses
+douse V: doused | dousing | douses
+dove N: doves
+dowdy A: dowdier | dowdiest
+dowdy N: dowdies
+down N: downs
+down V: downed | downing | downs
+downy A: downier | downiest
+dowry N: dowries
+doze N: dozes
+doze V: dozed | dozing | dozes
+dozen A: dozenner?, dozener<? 1 | dozennest?, dozenest<? 1
+dozen N: dozens, dozen {counting}
+dozen V: dozened | dozening | dozens
+drab N: drabs
+drab V: drabbed | drabbing | drabs
+draft N: drafts
+draft V: drafted | drafting | drafts
+drag N: drags
+drag V: dragged | dragging | drags
+drain N: drains
+drain V: drained | draining | drains
+drama N: dramas
+drape N: drapes
+drape V: draped | draping | drapes
+draw N: draws
+draw V: drew | drawn | drawing | draws
+drawl N: drawls
+drawl V: drawled | drawling | drawls
+dread A: dreader | dreaddest?, dreadest<? 1
+dread N: dreads
+dread V: dreaded | dreading | dreads
+dream N: dreams
+dream V: dreamed, dreamt 1 | dreaming | dreams
+dreg N: dregs
+dress A: dresser | dressest?
+dress N: dresses
+dress V: dressed | dressing | dresses
+drey A?: drier | driest
+drier N: driers
+drift N: drifts
+drift V: drifted | drifting | drifts
+drill N: drills
+drill V: drilled | drilling | drills
+drily A: drilier? | driliest?
+drink N: drinks
+drink V: drank | drunk, drank 1 | drinking | drinks
+drip N: drips
+drip V: dripped | dripping | drips
+drive N: drives
+drive V: drove | driven | driving | drives
+droll A: droller | drollest
+droll V: drolled | drolling | drolls
+drone N: drones
+drone V: droned | droning | drones
+drool N: drools
+drool V: drooled | drooling | drools
+droop N: droops
+droop V: drooped | drooping | droops
+drop N: drops
+drop V: dropped | dropping | drops
+dross N: drosses
+drove N: droves
+drove V: droved | droving | droves
+drown V: drowned | drowning | drowns
+drug N: drugs
+drug V: drugged | drugging | drugs
+drum N: drums
+drum V: drummed | drumming | drums
+drunk A: drunker | drunkest
+drunk N: drunks
+dry A: drier, dryer 2 | driest, dryest 2
+dry N: drys, dries 1
+dry V: dried | drying | dries
+dryer N: dryers
+dryly A: drylier? | dryliest?
+duck N: ducks, duck {:1}
+duck V: ducked | ducking | ducks
+duct N: ducts
+duct V: ducted | ducting | ducts
+dud N: duds, dudes!< 1
+dud V?: duded! | duding! | duds, dudes!< 1
+dude N: dudes
+dude V: duded | duding | dudes
+duel N: duels
+duel V: dueled, duelled 1 | dueling, duelling 1 | duels
+duet N: duets
+duet V: duetted | duetting | duets
+duke N: dukes
+duke V?: duked | duking | dukes
+dull V: dulled | dulling | dulls
+dully A: dullier? | dulliest?
+dummy A: dummier | dummiest
+dummy N: dummies
+dummy V: dummied | dummying | dummies
+dump N: dumps
+dump V: dumped | dumping | dumps
+dumpy A: dumpier | dumpiest
+dumpy N?: dumpies
+dunce N: dunces
+dune N: dunes
+dung N: dungs
+dung V: dunged | dunging | dungs
+dunk N: dunks
+dunk V: dunked | dunking | dunks
+dup V?: dupped, duped!< 1 | dupping, duping!< 1 | dups
+dupe N: dupes
+dupe V: duped | duping | dupes
+dusky A: duskier | duskiest
+dust N: dusts
+dust V: dusted | dusting | dusts
+dusty A: dustier | dustiest
+duvet N: duvets
+dwarf A: dwarfer | dwarfest
+dwarf N: dwarfs, dwarves 1
+dwarf V: dwarfed | dwarfing | dwarfs
+dwell N: dwells
+dwell V: dwelt, dwelled 1 | dwelling | dwells
+dye V: dyed | dyeing, dying 2 | dyes
+dying A: dyinger? | dyingest?
+dying N: dyings
+dyke V: dyked | dyking | dykes
+eager A: eagerer | eagerest
+eager N: eagers
+eagle N: eagles
+eagle V: eagled | eagling | eagles
+earl N: earls
+early A: earlier | earliest
+early N: earlies
+earn V: earned | earning | earns
+earth N: earths
+earth V: earthed | earthing | earths
+eas V?: eased | easing | eases
+ease N: eases
+ease V: eased | easing | eases
+easel N: easels
+eat V: ate | eaten | eating | eats
+eater N: eaters
+eave N: eaves
+ebb V: ebbed | ebbing | ebbs
+ebony A: ebonier? | eboniest?
+ebony N: ebonies
+edge A: edger | edgest?
+edge N: edges
+edge V: edged | edging | edges
+edger N: edgers
+edict N: edicts
+edit N: edits
+edit V: edited | editing | edits
+eerie A: eerier | eeriest
+egg V: egged | egging | eggs
+eight A: eighter | eightest?
+eight N: eights
+eject V: ejected | ejecting | ejects
+eke V: eked | eking | ekes
+elbow N: elbows
+elbow V: elbowed | elbowing | elbows
+eld A?: elder | eldest
+elder N: elders
+elect N: elect
+elect V: elected | electing | elects
+elegy N: elegies
+elf N: elves, elfs 2
+elite A: eliter? | elitest?
+elite N: elites
+elope V: eloped | eloping | elopes
+elude V: eluded | eluding | eludes
+email N: emails
+email V: emailed | emailing | emails
+embed V: embedded | embedding | embeds
+ember N: embers
+emir N: emirs
+emit V: emitted | emitting | emits
+empty A: emptier | emptiest
+empty N: empties
+empty V: emptied | emptying | empties
+enact V: enacted | enacting | enacts
+end V: ended | ending | ends
+endow V: endowed | endowing | endows
+enema N: enemas, enemata 1
+enemy A: enemier? | enemiest?
+enemy N: enemies
+enjoy V: enjoyed | enjoying | enjoys
+enrol V: enrolled | enrolling | enrols
+ensue V: ensued | ensuing | ensues
+enter V: entered | entering | enters
+entry N: entries
+envoy N: envoys
+epic N: epics
+epoch N: epochs
+equal A: equaler?, equaller<? 1 | equalest?, equallest<? 1
+equal N: equals
+equal V: equaled, equalled 1 | equaling, equalling 1 | equals
+equip V: equipped | equipping | equips
+erase V: erased | erasing | erases
+erect A: erecter | erectest?
+erect V: erected | erecting | erects
+erode V: eroded | eroding | erodes
+err V: erred | erring | errs
+error N: errors
+erupt V: erupted | erupting | erupts
+essay N: essays
+essay V: essayed | essaying | essays
+ether N: ethers
+ethic A: ethicer?, ethiccer<? 1 | ethicest?, ethiccest<? 1
+ethic N: ethics
+ethos N: ethoses
+evade V: evaded | evading | evades
+even N: evens
+even V: evened | evening | evens
+event N: events
+every A: everier? | everiest?
+evict V: evicted | evicting | evicts
+evil N: evils
+evoke V: evoked | evoking | evokes
+exact A: exacter | exactest
+exact V: exacted | exacting | exacts
+exalt V: exalted | exalting | exalts
+exam N: exams
+excel V: excelled | excelling | excels
+exert V: exerted | exerting | exerts
+exile N: exiles
+exile V: exiled | exiling | exiles
+exist V: existed | existing | exists
+exit N: exits
+exit V: exited | exiting | exits
+expel V: expelled | expelling | expels
+extol V: extolled | extolling | extols
+extra A: extraer? | extraest?
+extra N: extras
+exude V: exuded | exuding | exudes
+exult V: exulted | exulting | exults
+fable N: fables
+fable V: fabled | fabling | fables
+face N: faces
+face V: faced | facing | faces
+facet N: facets
+facet V: faceted, facetted 1 | faceting, facetting 1 | facets
+fact N: facts
+fad N: fads, fades!< 1
+fad V?: faded! | fading! | fads, fades!< 1
+fade N: fades
+fade V: faded | fading | fades
+fagot N: fagots
+fagot V?: fagoted | fagoting | fagots
+fail N: fails
+fail V: failed | failing | fails
+faint A: fainter | faintest
+faint N: faints
+faint V: fainted | fainting | faints
+fair N: fairs
+fair V: faired | fairing | fairs
+fairy A: fairier? | fairiest?
+fairy N: fairies
+faith N: faiths
+faith V?: faithed | faithing | faiths
+fake N: fakes
+fake V: faked | faking | fakes
+fall N: falls
+fall V: fell | fallen | falling | falls
+false A: falser | falsest
+fame V: famed | faming | fames
+fancy A: fancier | fanciest
+fancy N: fancies
+fancy V: fancied | fancying | fancies
+fang N: fangs
+fang V: fanged | fanging | fangs
+far V?: fared! | faring! | fares!
+farce N: farces
+farce V: farced | farcing | farces
+fare N: fares
+fare V: fared | faring | fares
+farm N: farms
+farm V: farmed | farming | farms
+fast N: fasts
+fast V: fasted | fasting | fasts
+fat V: fatted, fated!< 1 | fatting, fating!< 1 | fats
+fatal A: fataler?, fataller<? 1 | fatalest?, fatallest<? 1
+fate N: fates
+fate V: fated | fating | fates
+fatty A: fattier | fattiest
+fatty N: fatties
+fault N: faults
+fault V: faulted | faulting | faults
+fauna N: faunas, faunae 1
+favor N: favors
+favor V: favored | favoring | favors
+fawn N: fawns
+fawn V: fawned | fawning | fawns
+fax N: faxes, faces< 1
+faze V: fazed | fazing | fazes
+fear N: fears, feares!< 1
+fear V: feared | fearing | fears, feares!< 1
+feast N: feasts
+feast V: feasted | feasting | feasts
+feat N: feats
+feces N: feceses?, fecesses<? 1
+feed N: feeds
+feed V: fed | feeding | feeds
+feel N: feels
+feel V: felt | feeling | feels
+feign V: feigned | feigning | feigns
+feint N: feints
+feint V: feinted | feinting | feints
+fell N: fells
+fell V: felled | felling | fells
+felon A: felonner?, feloner<? 1 | felonnest?, felonest<? 1
+felon N: felons
+felt N: felts
+felt V: felted | felting | felts
+fence N: fences
+fence V: fenced | fencing | fences
+fend V: fended | fending | fends
+fern N: ferns
+ferry N: ferries
+ferry V: ferried | ferrying | ferries
+fet V?: fetted, feted!< 1 | fetting, feting!< 1 | fets
+fetch N: fetches
+fetch V: fetched | fetching | fetches
+fete V: feted | feting | fetes
+fetid A: fetider | fetidest
+fetus N: fetuses
+feud N: feuds
+feud V: feuded | feuding | feuds
+fever N: fevers
+fever V: fevered | fevering | fevers
+few A: fewer | fewest
+fiber N: fibers
+fibre N: fibres
+fiche N: fiches
+field N: fields
+field V: fielded | fielding | fields
+fiend N: fiends
+fiery A: fierier | fieriest
+fife N: fifes, fives< 1
+fifth A: fifther? | fifthest?
+fifth N: fifths
+fifty A: fiftier? | fiftiest?
+fifty N: fifties
+fight N: fights
+fight V: fought | fighting | fights
+fil V?: filed!, filled< 1 | filing!, filling< 1 | fils, files!< 1
+filch V: filched | filching | filches
+file N: files
+file V: filed | filing | files
+filet N: filets
+filet V: fileted | fileting | filets
+fill N: fills, filles!< 1
+fill V: filled | filling | fills, filles!< 1
+filly N: fillies
+film N: films
+film V: filmed | filming | films
+filmy A: filmier | filmiest
+filth N: filths
+fin A?: finner, finer!< 1 | finest!
+fin V: finned, fined!< 1 | finning, fining!< 1 | fins
+final A: finaler?, finaller<? 1 | finalest?, finallest<? 1
+final N: finals, finales!< 1
+finch N: finches
+find N: finds
+find V: found | finding | finds
+fine A: finer | finest
+fine N: fines
+fine V: fined | fining | fines
+finer N?: finers
+fines V?: finessed | finessing | finesses
+finis N: finises, fines~ 1
+fir N: firs, fires!< 1
+fir V?: fired! | firring, firing!< 1 | firs, fires!< 1
+fire N: fires
+fire V: fired | firing | fires
+firm N: firms
+firm V: firmed | firming | firms
+first A: firster? | firstest?
+first N: firsts
+fishy A: fishier | fishiest
+fist N: fists
+fist V: fisted | fisting | fists
+five A: fiver | fivest?
+five N: fives
+fiver N: fivers
+fix N: fixes, fices< 1
+fix V: fixed | fixing | fixes
+fizzy A: fizzier | fizziest
+flag N: flags
+flag V: flagged | flagging | flags
+flail N: flails
+flail V: flailed | flailing | flails
+flair N: flairs
+flake N: flakes
+flake V: flaked | flaking | flakes
+flaky A: flakier | flakiest
+flame N: flames
+flame V: flamed | flaming | flames
+flank N: flanks
+flank V: flanked | flanking | flanks
+flap N: flaps
+flap V: flapped | flapping | flaps
+flare N: flares
+flare V: flared | flaring | flares
+flash A: flasher | flashest
+flash N: flashes
+flash V: flashed | flashing | flashes
+flask N: flasks
+flat N: flats
+flat V: flatted | flatting | flats
+flaw N: flaws
+flaw V: flawed | flawing | flaws
+flea N: fleas
+fleck N: flecks
+fleck V: flecked | flecking | flecks
+flee V: fled | fleeing | flees
+fleet A: fleeter | fleetest
+fleet N: fleets
+fleet V: fleeted | fleeting | fleets
+flesh N: fleshes
+flesh V: fleshed | fleshing | fleshes
+fley A?: flier | fliest
+flick N: flicks
+flick V: flicked | flicking | flicks
+flier N: fliers
+fling N: flings
+fling V: flung | flinging | flings
+flint N: flints
+flint V: flinted | flinting | flints
+flip N: flips
+flip V: flipped | flipping | flips
+flirt N: flirts
+flirt V: flirted | flirting | flirts
+flit N: flits
+flit V: flitted, flited!< 1 | flitting, fliting!< 1 | flits
+float N: floats
+float V: floated | floating | floats
+flock N: flocks
+flock V: flocked | flocking | flocks
+flog V: flogged | flogging | flogs
+flood A: flooder | flooddest?, floodest<? 1
+flood N: floods
+flood V: flooded | flooding | floods
+floor N: floors
+floor V: floored | flooring | floors
+flop N: flops
+flop V: flopped | flopping | flops
+flora N: floras, florae 1
+floss N: flosses
+floss V: flossed | flossing | flosses
+flour N: flours
+flour V: floured | flouring | flours
+flout V: flouted | flouting | flouts
+flow N: flows
+flow V: flowed | flowing | flows
+flue N: flues
+fluff N: fluffs
+fluff V: fluffed | fluffing | fluffs
+fluid A: fluidder?, fluider<? 1 | fluiddest?, fluidest<? 1
+fluid N: fluids
+fluke N: flukes
+fluke V?: fluked | fluking | flukes
+flunk N: flunks
+flunk V: flunked | flunking | flunks
+flush A: flusher | flushest
+flush N: flushes
+flush V: flushed | flushing | flushes
+flute N: flutes
+flute V: fluted | fluting | flutes
+fly A: flier | fliest
+fly N: flies
+fly V: flew, flied {baseball} | flown | flying | flies
+flyer N: flyers
+foal N: foals
+foal V: foaled | foaling | foals
+foam N: foams
+foam V: foamed | foaming | foams
+foamy A: foamier | foamiest
+focal A: focaler?, focaller<? 1 | focalest?, focallest<? 1
+focus N: focuses, foci 1, focusses 1
+focus V: focused, focussed 1 | focusing, focussing 1 | focuses, focusses 1
+fogey N: fogeys
+foggy A: foggier | foggiest
+foil N: foils
+foil V: foiled | foiling | foils
+foist V: foisted | foisting | foists
+fold N: folds
+fold V: folded | folding | folds
+folk N: folks, folk 0.1
+folly N: follies
+font N: fonts
+food N: foods
+fool N: fools
+fool V: fooled | fooling | fools
+foot V: footed | footing | foots
+for N?: fores!
+foray N: forays
+foray V: forayed | foraying | forays
+force N: forces
+force V: forced | forcing | forces
+ford N: fords
+ford V: forded | fording | fords
+fore N: fores
+forge N: forges
+forge V: forged | forging | forges
+forgo V: forwent | forgone | forgoing | forgoes
+fork N: forks
+fork V: forked | forking | forks
+form N: forms
+form V: formed | forming | forms
+fort N: forts
+fort V: forted? | forting? | forts
+forte A: forter? | fortest?
+forte N: fortes
+forth A: forther? | forthest?
+forty A: fortier? | fortiest?
+forty N: forties
+forum N: forums, fora 1
+foul N: fouls
+foul V: fouled | fouling | fouls
+found N: founds
+found V: founded | founding | founds
+fount N: founts
+four N: fours
+fowl N: fowl, fowls {:1}
+fowl V: fowled | fowling | fowls
+fox N: foxes
+fox V: foxed | foxing | foxes
+foyer N: foyers
+frail A: frailer | frailest
+frail N: frails
+frame N: frames
+frame V: framed | framing | frames
+franc N: francs
+frank A: franker | frankest
+frank N: franks
+frank V: franked | franking | franks
+fraud N: frauds
+fray N: frays
+fray V: frayed | fraying | frays
+freak N: freaks
+freak V: freaked | freaking | freaks
+free A: freer | freest
+free N: frees
+free V: freed | freeing | frees
+freer N?: freers
+freeze V: froze | frozen | freezing | freezes
+fresh A: fresher | freshest
+fresh N: freshes
+fresh V: freshed | freshing | freshes
+fret N: frets
+fret V: fretted | fretting | frets
+friar N: friars
+frill N: frills
+frill V: frilled | frilling | frills
+frisk N: frisks
+frisk V: frisked | frisking | frisks
+frock N: frocks
+frock V: frocked | frocking | frocks
+frog N: frogs
+frog V: frogged | frogging | frogs
+frond N: fronds
+front A: fronter | frontest?
+front N: fronts
+front V: fronted | fronting | fronts
+frost N: frosts
+frost V: frosted | frosting | frosts
+froth N: froths
+froth V: frothed | frothing | froths
+frown N: frowns
+frown V: frowned | frowning | frowns
+fruit N: fruits
+fruit V: fruited | fruiting | fruits
+fry N: fry {fish}, fries {potatoes}
+fry V: fried | frying | fries
+fudge N: fudges
+fudge V: fudged | fudging | fudges
+fuel N: fuels
+fuel V: fueled, fuelled 1 | fueling, fuelling 1 | fuels
+full N: fulls
+full V: fulled | fulling | fulls
+fully A: fullier? | fulliest?
+fum V?: fumed! | fuming! | fums
+fume N: fumes
+fume V: fumed | fuming | fumes
+fund N: funds
+fund V: funded | funding | funds
+fungo N?: fungoes, fungi~ 1
+fungus N: fungi, funguses 1
+funny A: funnier | funniest
+funny N: funnies
+furl N: furls
+furl V: furled | furling | furls
+furor N: furors, furores!< 1
+furry A: furrier | furriest
+fuse N: fuses
+fuse V: fused | fusing | fuses
+fussy A: fussier | fussiest
+fuzz N: fuzz {cop}, fuzzes {fluff}
+fuzzy A: fuzzier | fuzziest
+gable N: gables
+gable V?: gabled | gabling | gables
+gaily A: gailier? | gailiest?
+gain N: gains
+gain V: gained | gaining | gains
+gait N: gaits
+gait V: gaited | gaiting | gaits
+gal N: gals, gales!< 1
+gal V?: galled | galling | gals, gales!< 1
+gala N: galas
+gale N: gales
+gall N: galls
+gall V: galled | galling | galls
+gam A?: gammer, gamer!< 1 | gamest!
+gam V?: gammed, gamed!< 1 | gamming, gaming!< 1 | gams
+game A: gamer | gamest
+game N: games
+game V: gamed | gaming | games
+gamer N?: gamers
+gamma N: gammas
+gammon N: gammons, gamma~ 1
+gamut N: gamuts
+gang N: gangs
+gang V: ganged | ganging | gangs
+gap V: gapped, gaped!< 1 | gapping, gaping!< 1 | gaps
+gape N: gapes
+gape V: gaped | gaping | gapes
+garb N: garbs
+garb V: garbed | garbing | garbs
+gas N: gases, gasses 1
+gas V: gassed | gassing | gases, gasses 1
+gasp N: gasps
+gasp V: gasped | gasping | gasps
+gat V?: gated! | gating! | gats
+gate N: gates
+gate V: gated | gating | gates
+gaudy A: gaudier | gaudiest
+gaudy N: gaudies
+gauge N: gauges
+gauge V: gauged | gauging | gauges
+gaunt A: gaunter | gauntest
+gaunt V?: gaunted | gaunting | gaunts
+gauze N: gauzes
+gavel N: gavels
+gavel V: gaveled, gavelled 1 | gaveling, gavelling 1 | gavels
+gawk N: gawks
+gawk V: gawked | gawking | gawks
+gawky A: gawkier | gawkiest
+gawky N?: gawkies
+gay A: gayer | gayest
+gaze N: gazes
+gaze V: gazed | gazing | gazes
+gear N: gears
+gear V: geared | gearing | gears
+geld N: gelds
+geld V: gelded, gelt 1 | gelding | gelds
+gene N: genes
+genes N?: geneses
+genie N: genies
+genius N: geniuses {brilliance}, genii {spirit}
+genre N: genres
+gent N: gents
+genu N: genus
+genus N: genera, genuses 1
+germ N: germs
+ghost N: ghosts
+ghost V: ghosted | ghosting | ghosts
+ghoul N: ghouls
+giant A: gianter? | giantest?
+giant N: giants
+gib V?: gibbed, gibed!< 1 | gibbing, gibing!< 1 | gibs
+gibe N: gibes
+gibe V: gibed | gibing | gibes
+giddy A: giddier | giddiest
+giddy V: giddied | giddying | giddies
+gif N?: gives
+gift N: gifts
+gift V: gifted | gifting | gifts
+gild N: gilds
+gild V: gilded, gilt 1 | gilding | gilds
+gill N: gills
+gill V: gilled | gilling | gills
+gilt N: gilts
+gimme N: gimmes
+girl N: girls
+girth N: girths
+girth V: girthed | girthing | girths
+give N: gives
+give V: gave | given | giving | gives
+given N: givens
+glad N: glads, glades!< 1
+glad V: gladded | gladding | glads, glades!< 1
+glade N: glades
+gland N: glands, glandes< 1
+glare N: glares
+glare V: glared | glaring | glares
+glass A: glasser? | glassest?
+glass N: glasses
+glass V: glassed | glassing | glasses
+glaze N: glazes
+glaze V: glazed | glazing | glazes
+gleam N: gleams
+gleam V: gleamed | gleaming | gleams
+glean V: gleaned | gleaning | gleans
+glen N: glens
+glide N: glides
+glide V: glided | gliding | glides
+glint N: glints
+glint V: glinted | glinting | glints
+gloat N: gloats
+gloat V: gloated | gloating | gloats
+globe N: globes
+globe V: globed | globing | globes
+gloom N: glooms
+gloom V: gloomed | glooming | glooms
+glory N: glories
+glory V: gloried | glorying | glories
+gloss N: glosses
+gloss V: glossed | glossing | glosses
+glove N: gloves
+glove V: gloved | gloving | gloves
+glow N: glows
+glow V: glowed | glowing | glows
+glue N: glues
+glue V: glued | gluing, glueing 1 | glues
+glut N: gluts
+glut V: glutted | glutting | gluts
+gnarl N: gnarls
+gnarl V: gnarled | gnarling | gnarls
+gnash N: gnashes
+gnash V: gnashed | gnashing | gnashes
+gnat N: gnats
+gnaw V: gnawed | gnawed, gnawn 1 | gnawing | gnaws
+gnome N: gnomes
+go V: went | gone | going | goes
+goad N: goads
+goad V: goaded | goading | goads
+goal N: goals
+goal V?: goaled | goaling | goals
+goat N: goats, goat 1
+godly A: godlier | godliest
+going N: goings
+gold N: golds
+golf N: golfs
+golf V: golfed | golfing | golfs
+goner N: goners
+gong N: gongs
+gong V: gonged | gonging | gongs
+good N: goods
+goody N: goodies
+gooey A: gooier | gooiest
+goof N: goofs
+goof V: goofed | goofing | goofs
+goofy A: goofier | goofiest
+goon N: goons, goa~ 1
+goose N: geese {bird}, gooses {poke}
+goose V: goosed | goosing | gooses
+gor V?: gored! | goring! | gores!
+gore N: gores
+gore V: gored | goring | gores
+gorge N: gorges
+gorge V: gorged | gorging | gorges
+gouge N: gouges
+gouge V: gouged | gouging | gouges
+gourd N: gourds, gourdes!< 1
+gown N: gowns
+gown V: gowned | gowning | gowns
+grab N: grabs
+grab V: grabbed | grabbing | grabs
+grace N: graces
+grace V: graced | gracing | graces
+grade A: grader | gradest?
+grade N: grades
+grade V: graded | grading | grades
+graft N: grafts
+graft V: grafted | grafting | grafts
+grain N: grains
+grain V: grained | graining | grains
+gram N: grams
+grand A: grander | grandest
+grand N: grand {money}, grands {piano}
+grant N: grants
+grant V: granted | granting | grants
+grape N: grapes
+grape V?: graped | graping | grapes
+graph N: graphs
+graph V: graphed | graphing | graphs
+grasp N: grasps
+grasp V: grasped | grasping | grasps
+grass N: grasses
+grass V: grassed | grassing | grasses
+grate N: grates
+grate V: grated | grating | grates
+grave A: graver | gravest
+grave N: graves
+grave V: graved | graven, graved 1 | graving | graves
+gravy N: gravies
+gray N: grays
+gray V: grayed | graying | grays
+graze N: grazes
+graze V: grazed | grazing | grazes
+great A: greater | greatest
+great N: greats
+gree V?: greed | greeing | grees
+greed N: greeds
+green A: greener | greenest
+green N: greens
+green V: greened | greening | greens
+greet V: greeted | greeting | greets
+grey N: greys
+grey V: greyed | greying | greys
+grid N: grids, grides!< 1
+grid V?: gridded, grided!< 1 | griding! | grids, grides!< 1
+grief N: griefs, grieves< 1
+grill N: grills, grilles!< 1
+grill V: grilled | grilling | grills, grilles!< 1
+grime N: grimes
+grime V: grimed | griming | grimes
+grimy A: grimier | grimiest
+grin N: grins
+grin V: grinned | grinning | grins
+grind N: grinds
+grind V: ground | grinding | grinds
+grip N: grips
+grip V: gripped, griped!< 1 | gripping, griping!< 1 | grips
+gripe N: gripes
+gripe V: griped | griping | gripes
+grit N: grits
+grit V: gritted | gritting | grits
+groan N: groans
+groan V: groaned | groaning | groans
+groin N: groins
+groin V: groined | groining | groins
+groom N: grooms
+groom V: groomed | grooming | grooms
+grope N: gropes
+grope V: groped | groping | gropes
+gross A: grosser | grossest
+gross N: gross {12_dozen}, grosses {total}
+gross V: grossed | grossing | grosses
+group A: grouper | grouppest?, groupest<? 1
+group N: groups
+group V: grouped | grouping | groups
+grove N: groves
+grow V: grew | grown | growing | grows
+growl N: growls
+growl V: growled | growling | growls
+grub N: grubs
+grub V: grubbed | grubbing | grubs
+gruel N: gruels
+gruel V?: grueled, gruelled 1 | grueling, gruelling 1 | gruels
+gruff A: gruffer | gruffest
+gruff V?: gruffed | gruffing | gruffs
+grunt N: grunts
+grunt V: grunted | grunting | grunts
+guard N: guards
+guard V: guarded | guarding | guards
+guess N: guesses
+guess V: guessed | guessing | guesses
+guest A: guester? | guestest?
+guest N: guests
+guest V: guested | guesting | guests
+guide N: guides
+guide V: guided | guiding | guides
+guild N: guilds
+guile N: guiles
+guile V?: guiled | guiling | guiles
+guilt N: guilts
+guise N: guises
+guise V: guised | guising | guises
+gulch N: gulches
+gulf N: gulfs
+gulf V: gulfed | gulfing | gulfs
+gull N: gulls
+gull V: gulled | gulling | gulls
+gully N: gullies
+gully V: gullied | gullying | gullies
+gulp N: gulps
+gulp V: gulped | gulping | gulps
+gummy A: gummier | gummiest
+guppy N: guppies
+guru N: gurus
+gust N: gusts
+gust V: gusted | gusting | gusts
+gusty A: gustier | gustiest
+guy V: guyed | guying | guys
+gybe V: gybed | gybing | gybes
+habit N: habits
+habit V: habited | habiting | habits
+hack N: hacks
+hack V: hacked | hacking | hacks
+hail N: hails
+hail V: hailed | hailing | hails
+hair N: hairs
+hairy A: hairier | hairiest
+hale A: haler | halest
+hale V: haled | haling | hales
+haler N: halers
+hall N: halls
+halo N: halos, haloes 1
+halo V: haloed | haloing | halos, haloes 1
+halon N?: halons
+halt N: halts
+halt V: halted | halting | halts
+halve V: halved | halving | halves
+hand N: hands
+hand V: handed | handing | hands
+handy A: handier | handiest
+hang N: hangs
+hang V: hung, hanged {execute} | hanging | hangs
+happy A: happier | happiest
+hardy A: hardier | hardiest
+hardy N: hardies
+hare N: hares, hare {:1}
+hare V: hared | haring | hares
+harem N: harems
+hark V: harked | harking | harks
+harm N: harms
+harm V: harmed | harming | harms
+harp N: harps
+harp V: harped | harping | harps
+harry V: harried | harrying | harries
+harsh A: harsher | harshest
+hart N: harts, hart {:1}
+haste N: hastes
+haste V: hasted | hasting | hastes
+hasty A: hastier | hastiest
+hat V: hatted, hated!< 1 | hatting, hating!< 1 | hats
+hatch N: hatches
+hatch V: hatched | hatching | hatches
+hate N: hates
+hate V: hated | hating | hates
+haul N: hauls
+haul V: hauled | hauling | hauls
+haunt N: haunts
+haunt V: haunted | haunting | haunts
+have N: haves
+haven N: havens
+haven V: havened | havening | havens
+havoc N: havocs
+havoc V: havocked | havocking | havocs
+hawk N: hawks
+hawk V: hawked | hawking | hawks
+hay V: hayed | haying | hays
+haze N: hazes
+haze V: hazed | hazing | hazes
+hazel A: hazeler?, hazeller<? 1 | hazelest?, hazellest<? 1
+hazel N: hazels
+head N: heads
+head V: headed | heading | heads
+heady A: headier | headiest
+heal V: healed | healing | heals
+heap N: heaps
+heap V: heaped | heaping | heaps
+hear V: heard | hearing | hears
+hears V?: hearsed | hearsing | hearses
+heart N: hearts
+heart V?: hearted | hearting | hearts
+heat N: heats
+heat V: heated | heating | heats
+heath N: heaths
+heave N: heaves
+heave V: heaved, hove {nautical} | heaving | heaves
+heavy A: heavier | heaviest
+heavy N: heavies
+hedge N: hedges
+hedge V: hedged | hedging | hedges
+heed N: heeds
+heed V: heeded | heeding | heeds
+heel N: heels
+heel V: heeled | heeling | heels
+hefty A: heftier | heftiest
+heir N: heirs
+heir V: heired | heiring | heirs
+hello N: hellos, helloes 2
+hello V: helloed | helloing | hellos, helloes 2
+helm N: helms
+helm V: helmed | helming | helms
+help N: helps
+help V: helped | helping | helps
+hence A: hencer? | hencest?
+hence N?: hences
+herb N: herbs
+herd N: herds
+herd V: herded | herding | herds
+heron N: herons
+hew V: hewed | hewed, hewn 1 | hewing | hews
+hick N: hicks
+hid V?: hided! | hiding! | hides!
+hide N: hides
+hide V: hid | hidden, hid 1 | hiding | hides
+high N: highs
+hike N: hikes
+hike V: hiked | hiking | hikes
+hiker N: hikers
+hill N: hills
+hill V: hilled | hilling | hills
+hilly A: hillier | hilliest
+hilt N: hilts
+hilt V: hilted | hilting | hilts
+hind N: hinds, hind {:1}
+hinge N: hinges
+hinge V: hinged | hinging | hinges
+hint N: hints
+hint V: hinted | hinting | hints
+hippy A: hippier | hippiest
+hippy N: hippies
+hire N: hires
+hire V: hired | hiring | hires
+hitch N: hitches
+hitch V: hitched | hitching | hitches
+hive N: hives
+hive V: hived | hiving | hives
+hoard N: hoards
+hoard V: hoarded | hoarding | hoards
+hobby N: hobbies
+hobo N: hobos, hoboes 0.1
+hobo V?: hoboed | hoboing | hobos, hoboes 0.1
+hock N: hocks
+hock V: hocked | hocking | hocks
+hoist N: hoists
+hoist V: hoisted | hoisting | hoists
+hold N: holds
+hold V: held | holding | holds
+hole N: holes
+hole V: holed | holing | holes
+holly N: hollies
+home N: homes
+home V: homed | homing | homes
+homey A: homier | homiest
+homey N: homeys
+hon V?: honed! | honing! | hons
+hone N: hones
+hone V: honed | honing | hones
+honey A: honier?, honeyer<? 1, honeyyer<? 1 | honiest?, honeyest<? 1, honeyyest<? 1
+honey N: honeys
+honey V: honeyed, honied 1 | honeying | honeys
+honk N: honks
+honk V: honked | honking | honks
+honor N: honors
+honor V: honored | honoring | honors
+hood N: hoods
+hood V: hooded | hooding | hoods
+hoof N: hoofs, hooves 1
+hoof V: hoofed | hoofing | hoofs
+hook N: hooks
+hook V: hooked | hooking | hooks
+hoop N: hoops
+hoop V: hooped | hooping | hoops
+hoot N: hoots
+hoot V: hooted | hooting | hoots
+hop V: hopped, hoped!< 1 | hopping, hoping!< 1 | hops
+hope N: hopes
+hope V: hoped | hoping | hopes
+horde N: hordes
+horde V: horded | hording | hordes
+horn N: horns
+horn V: horned | horning | horns
+horny A: hornier | horniest
+horse N: horses, horse {:1}
+horse V: horsed | horsing | horses
+hos V?: hosed! | hosing! | hoses, hosses< 1
+hose N: hoses {tube}, hose {stockings}
+hose V: hosed | hosing | hoses
+host N: hosts
+host V: hosted | hosting | hosts
+hotel N: hotels
+hotly A: hotlier? | hotliest?
+hound N: hounds
+hound V: hounded | hounding | hounds
+hour N: hours
+house N: houses
+house V: housed | housing | houses
+hovel N: hovels
+hovel V: hoveled, hovelled 1 | hoveling, hovelling 1 | hovels
+hover N: hovers
+hover V: hovered | hovering | hovers
+howl N: howls
+howl V: howled | howling | howls
+huff N: huffs
+huff V: huffed | huffing | huffs
+huffy A: huffier | huffiest
+hug A?: hugger, huger!< 1 | hugest!
+huge A: huger | hugest
+hulk N: hulks
+hulk V: hulked | hulking | hulks
+hull N: hulls
+hull V: hulled | hulling | hulls
+human A: humaner | humanest
+human N: humans
+humid A: humider | humidest
+humor N: humors
+humor V: humored | humoring | humors
+hump N: humps
+hump V: humped | humping | humps
+hunch N: hunches
+hunch V: hunched | hunching | hunches
+hunk N: hunks
+hunks N?: hunkses
+hunt N: hunts
+hunt V: hunted | hunting | hunts
+hurl N: hurls
+hurl V: hurled | hurling | hurls
+hurry N: hurries
+hurry V: hurried | hurrying | hurries
+hurt N: hurts
+hurt V: hurt | hurting | hurts
+husk N: husks
+husk V: husked | husking | husks
+husky A: huskier | huskiest
+husky N: huskies
+hutch N: hutches
+hutch V?: hutched | hutching | hutches
+hyena N: hyenas
+hymn N: hymns
+hymn V: hymned | hymning | hymns
+ice V: iced | icing | ices
+icing N: icings
+icon N: icons
+icy A: icier | iciest
+idea N: ideas
+ideal A: idealer?, idealler<? 1 | idealest?, ideallest<? 1
+ideal N: ideals
+idiom N: idioms
+idiot N: idiots
+idle A: idler | idlest
+idle V: idled | idling | idles
+idler N: idlers
+idles N?: idlesses
+idol N: idols
+igloo N: igloos
+ill A: worse, iller 2 | worst, illest 2
+image N: images
+image V: imaged | imaging | images
+impel V: impelled | impelling | impels
+imply V: implied | implying | implies
+in A: inner | innest?, inest<? 1
+inane A: inaner | inanest
+inane N: inanes
+incur V: incurred | incurring | incurs
+index N: indexes, indices 1
+index V: indexed | indexing | indexes
+inept A: inepter | ineptest
+inert A: inerter | inertest
+inert N?: inerts
+infer V: inferred | inferring | infers
+infix N: infixes
+infix V: infixed | infixing | infixes
+ink V: inked | inking | inks
+inlay N: inlays
+inlay V: inlaid | inlaying | inlays
+inlet N: inlets
+inlet V: inlet | inletting | inlets
+inner N?: inners
+input N: inputs
+input V: inputted, input 0.1 | inputting | inputs
+inter A: interrer?, interer<? 1 | interest
+inter V: interred | interring | inters
+iota N: iotas
+irate A: irater | iratest
+irk V: irked | irking | irks
+iron N: irons, ira~ 1
+iron V: ironed | ironing | irons
+irony A: ironier? | ironiest?
+irony N: ironies
+isle N: isles
+isle V: isled | isling | isles
+issue N: issues
+issue V: issued | issuing | issues
+itchy A: itchier | itchiest
+item N: items
+item V: itemed | iteming | items
+ivory A: ivorier? | ivoriest?
+ivory N: ivories
+ivy N: ivies
+jack N: jacks
+jack V: jacked | jacking | jacks
+jade N: jades
+jade V: jaded | jading | jades
+jail N: jails
+jail V: jailed | jailing | jails
+jamb N: jambs
+jamb V?: jambed | jambing | jambs
+jaunt N: jaunts
+jaunt V: jaunted | jaunting | jaunts
+jaw V: jawed | jawing | jaws
+jean N: jeans
+jeer N: jeers
+jeer V: jeered | jeering | jeers
+jell V: jelled | jelling | jells
+jelly N: jellies
+jelly V: jellied | jellying | jellies
+jerk N: jerks
+jerk V: jerked | jerking | jerks
+jerky A: jerkier | jerkiest
+jerky N: jerkies
+jest N: jests
+jest V: jested | jesting | jests
+jetty A: jettier | jettiest
+jetty N: jetties
+jetty V: jettied | jettying | jetties
+jewel N: jewels
+jewel V: jeweled, jewelled 1 | jeweling, jewelling 1 | jewels
+jib V: jibbed, jibed!< 1 | jibbing, jibing!< 1 | jibs
+jibe N: jibes
+jibe V: jibed | jibing | jibes
+jiffy N: jiffies
+jilt N: jilts
+jilt V: jilted | jilting | jilts
+join N: joins
+join V: joined | joining | joins
+joint A: jointer | jointest?
+joint N: joints
+joint V: jointed | jointing | joints
+joke N: jokes
+joke V: joked | joking | jokes
+joker N: jokers
+jolly A: jollier | jolliest
+jolly N: jollies
+jolly V: jollied | jollying | jollies
+jolt N: jolts
+jolt V: jolted | jolting | jolts
+joy V: joyed | joying | joys
+judge N: judges
+judge V: judged | judging | judges
+juice N: juices
+juice V: juiced | juicing | juices
+juicy A: juicier | juiciest
+jumbo A: jumboer? | jumboest?
+jumbo N: jumbos
+jump N: jumps
+jump V: jumped | jumping | jumps
+jumpy A: jumpier | jumpiest
+junk N: junks
+junk V: junked | junking | junks
+junta N: juntas
+juror N: jurors
+karat N: karats
+kayak N: kayaks
+kayak V: kayaked | kayaking | kayaks
+keel N: keels
+keel V: keeled | keeling | keels
+keen N: keens
+keen V: keened | keening | keens
+keep N: keeps
+keep V: kept | keeping | keeps
+kerb N: kerbs
+kerb V: kerbed | kerbing | kerbs
+key V: keyed | keying | keys
+khaki A: khakier? | khakiest?
+khaki N: khakis
+kick N: kicks
+kick V: kicked | kicking | kicks
+kill N: kills
+kill V: killed | killing | kills
+kiln N: kilns
+kiln V: kilned | kilning | kilns
+kilo N: kilos
+kilt N: kilts
+kilt V: kilted | kilting | kilts
+kind N: kinds
+kinda A: kindaer? | kindaest?
+king N: kings
+king V: kinged | kinging | kings
+kink N: kinks
+kink V: kinked | kinking | kinks
+kinky A: kinkier | kinkiest
+kiosk N: kiosks
+kip N: kip {money}, kips 0.1 {money}, kips {sleep}
+kit V: kitted, kited!< 1 | kitting, kiting!< 1 | kits
+kite N: kites
+kite V: kited | kiting | kites
+kitty N: kitties
+kiwi N: kiwis
+knack N: knacks
+knack V?: knacked | knacking | knacks
+knead V: kneaded | kneading | kneads
+knee N: knees
+knee V: kneed | kneeing | knees
+kneel N: kneels
+kneel V: knelt, kneeled 1 | kneeling | kneels
+knife N: knives
+knife V: knifed | knifing | knifes
+knit N: knits
+knit V: knitted | knitting | knits
+knob N: knobs
+knock N: knocks
+knock V: knocked | knocking | knocks
+knoll N: knolls
+knoll V: knolled | knolling | knolls
+knot N: knots
+knot V: knotted | knotting | knots
+know N: knows
+know V: knew | known | knowing | knows
+known N: knowns
+koala N: koalas
+kudo N?: kudos
+label N: labels
+label V: labeled, labelled 1 | labeling, labelling 1 | labels
+labor N: labors
+labor V: labored | laboring | labors
+lac V?: laced, lacked | lacing, lacking | lacs
+lace N: laces
+lace V: laced | lacing | laces
+lack N: lacks
+lack V: lacked | lacking | lacks
+lad N: lads, lades!< 1
+lad V?: laded! | lading! | lads, lades!< 1
+lade V: laded | laden, laded 1 | lading | lades
+laden V: ladened | ladening | ladens
+ladle N: ladles
+ladle V: ladled | ladling | ladles
+lager N: lagers
+lager V: lagered | lagering | lagers
+lair N: lairs
+lair V: laired | lairing | lairs
+lake N: lakes
+lake V?: laked | laking | lakes
+lam A?: lammer, lamer!< 1 | lamest!
+lam V: lammed, lamed!< 1 | lamming, laming!< 1 | lams
+lamb N: lambs
+lamb V: lambed | lambing | lambs
+lame A: lamer | lamest
+lame N: lames
+lame V: lamed | laming | lames
+lamed N?: lameds
+lamer N?: lamers
+lamp N: lamps
+lamp V: lamped | lamping | lamps
+lance N: lances
+lance V: lanced | lancing | lances
+land N: lands
+land V: landed | landing | lands
+lane N: lanes
+lanky A: lankier | lankiest
+lapel N: lapels
+lapse N: lapses
+lapse V: lapsed | lapsing | lapses
+lard N: lards
+lard V: larded | larding | lards
+large A: larger | largest
+large N: larges
+lark N: larks
+lark V: larked | larking | larks
+larva N: larvae, larvas 1
+laser N: lasers
+last N: lasts
+last V: lasted | lasting | lasts
+lat A?: latter, later!< 1 | latest!
+latch N: latches
+latch V: latched | latching | latches
+late A: later | latest
+latex N: latices, latexes 0.1
+lath N: laths, lath 1
+lath V: lathed | lathing | laths
+lathe N: lathes
+lathe V: lathed | lathing | lathes
+laud N: lauds
+laud V: lauded | lauding | lauds
+laugh N: laughs
+laugh V: laughed | laughing | laughs
+lawn N: lawns
+lax A: laxer | laxest
+lax N?: laxes, laces< 1
+lay A: layer | layest?, layyest<? 1
+layer N: layers
+layer V: layered | layering | layers
+leach N: leaches
+leach V: leached | leaching | leaches
+lead N: leads
+lead V: led, leaded {use_lead} | leading | leads
+leaf N: leaves, leafs 2
+leaf V: leafed | leafing | leafs
+leafy A: leafier | leafiest
+leak N: leaks
+leak V: leaked | leaking | leaks
+leaky A: leakier | leakiest
+lean N: leans
+lean V: leaned, leant 1 | leaning | leans
+leap N: leaps
+leap V: leaped, leapt 0.1, lept 1 | leaping | leaps
+learn V: learned, learnt 1 | learning | learns
+lease N: leases
+lease V: leased | leasing | leases
+leash N: leashes
+leash V: leashed | leashing | leashes
+least N: leasts
+leave N: leaves
+leave V: left, leaved {produce_leaves} | leaving | leaves
+ledge N: ledges
+ledge V: ledged | ledging | ledges
+leech N: leeches
+leech V: leeched | leeching | leeches
+leek N: leeks
+leer N: leers
+leer V: leered | leering | leers
+leery A: leerier | leeriest
+left N: lefts
+legal A: legaler?, legaller<? 1 | legalest?, legallest<? 1
+legal N: legals
+lemon N: lemons
+lemon V?: lemoned | lemoning | lemons
+lend V: lent | lending | lends
+leper N: lepers
+lepton N: lepta {money}, leptons {physics}
+less A: lesser | least, lessest 2
+letup N: letups
+levee N: levees
+levee V: leveed | leveeing | levees
+level A: leveller | levellest
+level N: levels
+level V: leveled, levelled 1 | leveling, levelling 1 | levels
+lever N: levers
+lever V: levered | levering | levers
+liar N: liars
+libel N: libels
+libel V: libeled, libelled 1 | libeling, libelling 1 | libels
+lick N: licks
+lick V: licked | licking | licks
+lie V: lied {fib}, lay {recline} | lain | lying | lies
+life N: lives
+lift N: lifts
+lift V: lifted | lifting | lifts
+light A: lighter | lightest
+light N: lights
+light V: lighted, lit 1 | lighting | lights
+like A: liker | likest
+like N: likes
+like V: liked | liking | likes
+liken V: likened | likening | likens
+liker N?: likers
+lilac A: lilacer?, lilaccer<? 1 | lilacest?, lilaccest<? 1
+lilac N: lilacs
+lilt N: lilts
+lilt V: lilted | lilting | lilts
+limb N: limbs
+limb V: limbed | limbing | limbs
+limbo N: limbos, limbi~ 1
+limbo V?: limboed | limboing | limbos
+lime N: limes
+lime V: limed | liming | limes
+limit N: limits
+limit V: limited | limiting | limits
+limp N: limps
+limp V: limped | limping | limps
+lin V?: lined! | lining! | lins
+line N: lines
+line V: lined | lining | lines
+linen A: linenner?, linener<? 1 | linennest?, linenest<? 1
+linen N: linens
+liner N: liners
+lingo N: lingoes, lingos 1
+link N: links
+link V: linked | linking | links
+lion N: lions
+lisp N: lisps
+lisp V: lisped | lisping | lisps
+list N: lists
+list V: listed | listing | lists
+lit A: litter, liter!< 1 | littest?, litest!<? 1
+lite A: liter | litest?
+liter N: liters
+lithe A: lither | lithest
+litre N: litres
+little A: littler, less 1, lesser 1.1 | littlest, least 1
+live A: liver | livest
+live V: lived | living | lives
+liven V: livened | livening | livens
+liver N: livers
+liver V: livered | livering | livers
+livid A: livider | lividest
+llama N: llamas
+load N: loads
+load V: loaded | loading | loads
+loaf N: loaves, loafs 2
+loaf V: loafed | loafing | loafs
+loan N: loans
+loan V: loaned | loaning | loans
+loath A: loather | loathest
+lobby N: lobbies
+lobby V: lobbied | lobbying | lobbies
+lobe N: lobes
+lobe V?: lobed | lobing | lobes
+local A: localer?, localler<? 1 | localest?, locallest<? 1
+local N: locals, locales!< 1
+local V: localed, localled 1 | localing, localling 1 | locals, locales!< 1
+lock N: locks
+lock V: locked | locking | locks
+lodge N: lodges
+lodge V: lodged | lodging | lodges
+loft N: lofts
+loft V: lofted | lofting | lofts
+lofty A: loftier | loftiest
+logic N: logics
+loin N: loins
+loll N: lolls
+loll V: lolled | lolling | lolls
+long N: longs
+long V: longed | longing | longs
+look N: looks
+look V: looked | looking | looks
+loom N: looms
+loom V: loomed | looming | looms
+loon N: loons
+loony A: loonier | looniest
+loony N: loonies
+loop N: loops
+loop V: looped | looping | loops
+loose A: looser | loosest
+loose V: loosed | loosing | looses
+loot N: loots
+loot V: looted | looting | loots
+lop V: lopped, loped!< 1 | lopping, loping!< 1 | lops
+lope N: lopes
+lope V: loped | loping | lopes
+lord N: lords
+lord V: lorded | lording | lords
+lorry N: lorries
+los N?: loses, losses< 1
+lose V: lost | losing | loses
+loser N: losers
+lotus N: lotuses, loti~ 1
+louse N: lice {insect}, louses {insult}
+louse V?: loused | lousing | louses
+lousy A: lousier | lousiest
+love N: loves
+love V: loved | loving | loves
+lover N: lovers
+low A: lower | lowest
+low V: lowed | lowing | lows
+lowe A?: lower | lowest
+lowe V?: lowed | lowing | lowes
+lower N: lowers
+lower V: lowered | lowering | lowers
+lowly A: lowlier | lowliest
+loyal A: loyaler, loyaller 1 | loyalest, loyallest 1
+lucid A: lucider | lucidest
+luck N: lucks
+luck V: lucked | lucking | lucks
+lucky A: luckier | luckiest
+lucky N: luckies
+lull N: lulls
+lull V: lulled | lulling | lulls
+lump N: lumps
+lump V: lumped | lumping | lumps
+lumpy A: lumpier | lumpiest
+lunar A: lunarrer?, lunarer<? 1 | lunarrest?, lunarest<? 1
+lunar N: lunars
+lunch N: lunches
+lunch V: lunched | lunching | lunches
+lung N: lungs
+lung V?: lunged | lunging | lungs
+lunge N: lunges
+lunge V: lunged | lunging, lungeing 2 | lunges
+lupin N: lupins
+lur V?: lured! | luring! | lurs, lures!< 1
+lurch N: lurches
+lurch V: lurched | lurching | lurches
+lure N: lures
+lure V: lured | luring | lures
+lurid A: lurider | luridest
+lurk N: lurks
+lurk V: lurked | lurking | lurks
+lust N: lusts
+lust V: lusted | lusting | lusts
+lusty A: lustier | lustiest
+lute N: lutes
+lute V: luted | luting | lutes
+lying N: lyings
+lymph N: lymphs
+lynch V: lynched | lynching | lynches
+lyre N: lyres
+lyric A: lyricer?, lyriccer<? 1 | lyricest?, lyriccest<? 1
+lyric N: lyrics
+lyric V: lyriced?, lyricked?, lyricced<? 1 | lyricing?, lyricking?, lyriccing<? 1 | lyrics
+mac V?: maced | macing | macs
+macaroni N: macaronis {fop}, macaronies 1 {fop}, macaronis {pasta}
+mace N: maces
+mace V: maced | macing | maces
+macho A: machoer? | machoest?
+macho N: machos
+madam N: madams {brothel}, mesdames {lady}
+madly A: madlier? | madliest?
+magic A: magicer?, magiccer<? 1 | magicest?, magiccest<? 1
+magic N: magics
+magic V?: magicked | magicking | magics
+maid N: maids
+mail N: mails, mailes!< 1
+mail V: mailed | mailing | mails, mailes!< 1
+maim N: maims
+maim V: maimed | maiming | maims
+main N: mains
+main V: mained | maining | mains
+maize N: maizes
+major A: majorrer?, majorer<? 1 | majorrest?, majorest<? 1
+major N: majors
+major V: majored | majoring | majors
+make N: makes
+make V: made | making | makes
+maker N: makers
+mal V?: malled | malling | males!
+male N: males
+malis N?: males
+mall N: malls
+mall V?: malled | malling | malls
+malt N: malts
+malt V: malted | malting | malts
+mama N: mamas
+mamma N: mammas, mammae {gland}
+mammon N: mammons, mamma~ 1
+mane N: manes
+mange N: manges
+mange V?: manged | manging | manges
+mango N: mangoes, mangos 1
+mangy A: mangier | mangiest
+mania N: manias
+manic A: manicer?, maniccer<? 1 | manicest?, maniccest<? 1
+manic N: manics
+manly A: manlier | manliest
+manor N: manors
+maple N: maples
+mar V: marred | marring | mars, mares!< 1
+march N: marches
+march V: marched | marching | marches
+mare N: mares
+maria N: marias?, mariae~? 1
+mark N: marks
+mark V: marked | marking | marks
+marry V: married | marrying | marries
+marsh N: marshes
+mart N: marts
+mart V?: marted | marting | marts
+mask N: masks
+mask V: masked | masking | masks
+mason N: masons, masa~ 1
+mason V: masoned | masoning | masons
+mast N: masts
+mast V: masted | masting | masts
+mat V: matted, mated!< 1 | matting, mating!< 1 | mats
+match N: matches
+match V: matched | matching | matches
+mate N: mates
+mate V: mated | mating | mates
+matt N: matts
+matt V: matted | matting | matts
+matte A: matter | mattest?
+matte N: mattes
+matte V: matted | matting | mattes
+maul N: mauls
+maul V: mauled | mauling | mauls
+mauve A: mauver | mauvest
+mauve N: mauves
+max N: maxes, maces< 1
+maxim N: maxims
+may V: might | may, mayst 2
+maybe A: mayber? | maybest?
+maybe N: maybes
+mayor N: mayors
+maze N: mazes
+maze V: mazed | mazing | mazes
+meal N: meals
+meal V?: mealed | mealing | meals
+mealy A: mealier | mealiest
+mealy N?: mealies
+mean N: means
+mean V: meant | meaning | means
+meat N: meats
+medal N: medals
+medal V: medaled, medalled 1 | medaling, medalling 1 | medals
+media A: mediaer? | mediaest?
+media N: medias, mediae~ 1
+medium N: media {communication}, mediums 1 {communication}, mediums {seance}
+meet N: meets
+meet V: met | meeting | meets
+melon N: melons, mela~ 1
+melt N: melts
+melt V: melted | melted, molten 1 | melting | melts
+memo N: memos
+mend N: mends
+mend V: mended | mending | mends
+menu N: menus
+meow N: meows
+meow V: meowed | meowing | meows
+mercy N: mercies
+mere N: meres
+mere V?: mered | mering | meres
+merge V: merged | merging | merges
+meris N?: merises, meres~ 1
+merit N: merits
+merit V: merited | meriting | merits
+merry A: merrier | merriest
+messy A: messier | messiest
+metal A: metaler?, metaller<? 1 | metalest?, metallest<? 1
+metal N: metals
+metal V: metaled, metalled 1 | metaling, metalling 1 | metals
+mete N: metes
+mete V: meted | meting | metes
+meter N: meters
+meter V: metered | metering | meters
+metis N: metisses, metes~ 1
+metre N: metres
+metre V: metred | metring | metres
+metro N: metros
+mew V: mewed | mewing | mews
+miaow N: miaows
+miaow V: miaowed | miaowing | miaows
+midst N: midsts
+mien N: miens
+might N: mights
+mike N: mikes
+mike V: miked | miking | mikes
+mil N: mils, miles!< 1
+mil V?: milled | milling | mils, miles!< 1
+mile N: miles
+milk N: milks
+milk V: milked | milking | milks
+milky A: milkier | milkiest
+mill N: mills, milles!< 1
+mill V: milled | milling | mills, milles!< 1
+mime N: mimes
+mime V: mimed | miming | mimes
+mimes N?: mimeses
+mimic A: mimicer?, mimiccer<? 1 | mimicest?, mimiccest<? 1
+mimic N: mimics
+mimic V: mimicked | mimicking | mimics
+mince N: minces
+mince V: minced | mincing | minces
+mind N: minds
+mind V: minded | minding | minds
+mine N: mines
+mine V: mined | mining | mines
+miner N: miners
+minis N?: mines
+mink N: mink, minks {:1}
+minor A: minorrer?, minorer<? 1 | minorrest?, minorest<? 1
+minor N: minors
+minor V: minored | minoring | minors
+mint N: mints
+mint V: minted | minting | mints
+minus A: minusser?, minuser<? 1 | minussest?, minusest<? 1
+minus N: minuses, mini~ 1
+mir V?: mired! | miring! | mirs, mires!< 1
+mire N: mires
+mire V: mired | miring | mires
+mirth N: mirths
+miser N: misers, miseres!< 1
+mist N: mists
+mist V: misted | misting | mists
+misty A: mistier | mistiest
+mite N: mites
+mitis N?: mitises, mites~ 1
+mitt N: mitts
+mix N: mixes
+mix V: mixed, mixt 2 | mixing | mixes
+mixer N: mixers
+moan N: moans
+moan V: moaned | moaning | moans
+moat N: moats
+moat V?: moated | moating | moats
+mock N: mocks
+mock V: mocked | mocking | mocks
+mod N: mods, modes!< 1
+mod V?: modded | modding | mods, modes!< 1
+modal A: modaler?, modaller<? 1 | modalest?, modallest<? 1
+modal N: modals
+mode N: modes
+model A: modeler | modelest?, modellest<? 1
+model N: models
+model V: modeled, modelled 1 | modeling, modelling 1 | models
+moist A: moister | moistest
+mol N: mols, moles!< 1
+molar A: molarrer?, molarer<? 1 | molarrest?, molarest<? 1
+molar N: molars
+mold N: molds
+mold V: molded | molding | molds
+moldy A: moldier | moldiest
+mole N: moles
+molt N: molts
+molt V: molted | molting | molts
+money N: moneys, monies 1
+monk N: monks
+month N: months
+moo V: mooed | mooing | moos
+mood N: moods
+moody A: moodier | moodiest
+moon N: moons, moa~ 1
+moon V: mooned | mooning | moons
+moor N: moors
+moor V: moored | mooring | moors
+moose N: moose
+moot N: moots
+moot V: mooted | mooting | moots
+mop V: mopped, moped!< 1 | mopping, moping!< 1 | mops
+mope N: mopes
+mope V: moped | moping | mopes
+moped N: mopeds
+moral A: moraller | moralest?, morallest<? 1
+moral N: morals, morales!< 1
+moral V?: moralled | moralling | morals, morales!< 1
+morn N: morns
+morn V?: morned | morning | morns
+moron N: morons, mora~ 1
+mossy A: mossier | mossiest
+mossy N?: mossies
+motel N: motels
+moth N: moths
+motif N: motifs, motives< 1
+motor A: motorrer?, motorer<? 1 | motorrest?, motorest<? 1
+motor N: motors
+motor V: motored | motoring | motors
+motto N: mottoes, mottos 1
+mould N: moulds
+mould V: moulded | moulding | moulds
+moult N: moults
+moult V: moulted | moulting | moults
+mound N: mounds
+mound V: mounded | mounding | mounds
+mount N: mounts
+mount V: mounted | mounting | mounts
+mourn V: mourned | mourning | mourns
+mouse N: mice
+mouse V: moused | mousing | mouses
+mousy A: mousier | mousiest
+mouth N: mouths
+mouth V: mouthed | mouthing | mouths
+move N: moves
+move V: moved | moving | moves
+mover N: movers
+movie N: movies
+mow V: mowed | mowed, mown 1 | mowing | mows
+mower N: mowers
+muck N: mucks
+muck V: mucked | mucking | mucks
+mucus N: mucuses
+muddy A: muddier | muddiest
+muddy V: muddied | muddying | muddies
+muff N: muffs
+muff V: muffed | muffing | muffs
+muggy A: muggier | muggiest
+mulch N: mulches
+mulch V: mulched | mulching | mulches
+mule N: mules
+mule V?: muled | muling | mules
+mull N: mulls
+mull V: mulled | mulling | mulls
+multi A: multier? | multiest?
+mummy N: mummies
+mummy V: mummied | mummying | mummies
+mump V?: mumped | mumping | mumps
+munch V: munched | munching | munches
+mural A: muraler?, muraller<? 1 | muralest?, murallest<? 1
+mural N: murals
+murky A: murkier | murkiest
+mus V?: mussed, mused!< 1 | mussing, musing!< 1 | muses, musses< 1
+muse N: muses
+muse V: mused | musing | muses
+mushy A: mushier | mushiest
+music N: musics
+music V?: musicked | musicking | musics
+must N: musts
+must V: musted | musting | musts
+musty A: mustier | mustiest
+musty N: musties
+mut A?: mutter, muter!< 1 | mutest!
+mut V?: muted! | muting! | muts
+mute A: muter | mutest
+mute N: mutes
+mute V: muted | muting | mutes
+mutt N: mutts
+myth N: myths
+nail N: nails
+nail V: nailed | nailing | nails
+naive A: naiver | naivest
+naive N?: naives
+naked A: nakeder | nakedest
+nam V?: named! | naming! | nams
+name N: names
+name V: named | naming | names
+nape N: napes
+nappy A: nappier | nappiest
+nappy N: nappies
+nasal A: nasaler?, nasaller<? 1 | nasalest?, nasallest<? 1
+nasal N: nasals
+nasty A: nastier | nastiest
+nasty N: nasties
+natty A: nattier | nattiest
+naval A: navaler?, navaller<? 1 | navalest?, navallest<? 1
+navel N: navels
+near V: neared | nearing | nears
+neck N: necks
+neck V: necked | necking | necks
+need N: needs
+need V: needed | needing | needs
+needy A: needier | neediest
+neigh N: neighs
+neigh V: neighed | neighing | neighs
+nerve N: nerves
+nerve V: nerved | nerving | nerves
+nest N: nests
+nest V: nested | nesting | nests
+never A: neverrer?, neverer<? 1 | neverrest?, neverest<? 1
+new A: newer | newest
+newly A: newlier? | newliest?
+newsy A: newsier | newsiest
+newsy N: newsies
+newt N: newts
+nice A: nicer | nicest
+niche N: niches
+niche V: niched | niching | niches
+nick N: nicks
+nick V: nicked | nicking | nicks
+niece N: nieces
+nifty A: niftier | niftiest
+nifty N: nifties
+night A: nighter? | nightest?
+night N: nights
+nine N: nines
+ninny N: ninnies
+ninth A: ninther? | ninthest?
+ninth N: ninths
+nippy A: nippier | nippiest
+noble A: nobler | noblest
+noble N: nobles
+nobly A: noblier? | nobliest?
+nod N: nods, nodes!< 1
+nod V: nodded | nodding | nods, nodes!< 1
+node N: nodes
+noise N: noises
+noise V: noised | noising | noises
+noisy A: noisier | noisiest
+nomad N: nomads, nomades!< 1
+nook N: nooks
+noose N: nooses
+noose V: noosed | noosing | nooses
+norm N: norms
+norm V?: normed | norming | norms
+north A: norther | northest?
+north N: norths
+nos V?: nosed! | nosing! | noses
+nose N: noses
+nose V: nosed | nosing | noses
+notch N: notches
+notch V: notched | notching | notches
+note N: notes
+note V: noted | noting | notes
+noun N: nouns
+novel A: noveler?, noveller<? 1 | novelest?, novellest<? 1
+novel N: novels
+nude A: nuder | nudest
+nude N: nudes
+nudge N: nudges
+nudge V: nudged | nudging | nudges
+null V: nulled | nulling | nulls
+numb V: numbed | numbing | numbs
+nurse N: nurses
+nurse V: nursed | nursing | nurses
+nutty A: nuttier | nuttiest
+nylon N: nylons
+nymph N: nymphs
+oar V: oared | oaring | oars
+oasis N: oases
+oath N: oaths
+obese A: obeser | obesest
+obey V: obeyed | obeying | obeys
+obo N?: oboes, obos, obi~ 1
+oboe N: oboes
+occur V: occurred | occurring | occurs
+ocean N: oceans
+octal A: octaler?, octaller<? 1 | octalest?, octallest<? 1
+odd A: odder | oddest
+oddly A: oddlier? | oddliest?
+odor N: odors
+odour N: odours
+off A: offer | offest?
+off V: offed | offing | offs
+offer N: offers
+offer V: offered | offering | offers
+often A: oftener | oftenest
+ogle N: ogles
+ogle V: ogled | ogling | ogles
+ogre N: ogres
+ogres N?: ogresses
+oil V: oiled | oiling | oils
+okay N: okays
+okay V: okayed | okaying | okays
+okra N: okras
+old A: older, elder 1 | oldest, eldest 1
+olden A: oldenner?, oldener<? 1 | oldennest?, oldenest<? 1
+olden V?: oldened | oldening | oldens
+olive A: oliver | olivest?
+olive N: olives
+omega N: omegas
+omen N: omens
+omen V: omened | omening | omens
+omit V: omitted | omitting | omits
+onion N: onions
+onion V?: onioned | onioning | onions
+onset N: onsets
+onset V?: onset | onsetting | onsets
+ooze N: oozes
+ooze V: oozed | oozing | oozes
+opal N: opals
+open N: opens
+open V: opened | opening | opens
+opera N: operas
+operon N?: operons, opera~ 1
+opium N: opiums
+opt V: opted | opting | opts
+optic A: opticer?, opticcer<? 1 | opticest?, opticcest<? 1
+optic N: optics
+opus N: opera, opuses 0.1
+oral N: orals
+orbit N: orbits
+orbit V: orbited | orbiting | orbits
+order N: orders
+order V: ordered | ordering | orders
+organ N: organs
+other A: otherrer?, otherer<? 1 | otherrest?, otherest<? 1
+other N: others
+otter N: otters, otter {:1}
+otter V?: ottered | ottering | otters
+ought N: oughts
+ought V: oughted | oughting | oughts
+ounce N: ounces
+oust V: ousted | ousting | ousts
+out A: outer | outtest?, outest<? 1
+out V: outed | outing | outs
+outdo V: outdid | outdone | outdoing | outdoes
+outer N?: outers
+oval N: ovals
+ovary N: ovaries
+oven N: ovens
+over N: overs
+over V: overred, overed< 1 | overing | overs
+overt A: overter? | overtest?
+owe V: owed | owing | owes
+own A: owner | ownest?
+own V: owned | owning | owns
+owner N: owners
+oxide N: oxides
+ozone N: ozones
+pac V?: paced, packed | pacing, packing | pacs
+pace N: paces
+pace V: paced | pacing | paces
+pack N: packs
+pack V: packed | packing | packs
+pact N: pacts
+paddy N: paddies
+pagan A: paganner?, paganer<? 1 | pagannest?, paganest<? 1
+pagan N: pagans
+page N: pages
+page V: paged | paging | pages
+pager N: pagers
+pail N: pails
+pain N: pains
+pain V: pained | paining | pains
+paint N: paints
+paint V: painted | painting | paints
+pair N: pairs
+pair V: paired | pairing | pairs
+pal A?: paler! | palest!
+pal N: pals, pales!< 1
+pal V: palled, paled! 2 | palling, paling! 2 | pals, pales!< 1
+pale A: paler | palest
+pale N: pales
+pale V: paled | paling | pales
+pall N: palls
+pall V: palled | palling | palls
+palm N: palms
+palm V: palmed | palming | palms
+panda N: pandas
+pane N: panes
+panel N: panels
+panel V: paneled, panelled 1 | paneling, panelling 1 | panels
+pang N: pangs
+pang V?: panged | panging | pangs
+panic N: panics
+panic V: panicked | panicking | panics
+pansy N: pansies
+pant N: pants
+pant V: panted | panting | pants
+papa N: papas
+papal A: papaler?, papaller<? 1 | papalest?, papallest<? 1
+paper A: paperer | paperrest?, paperest<? 1
+paper N: papers
+paper V: papered | papering | papers
+par N: pars, pares!< 1
+par V: parred, pared!< 1 | parring, paring!< 1 | pars, pares!< 1
+para N: paras {money}, para 1 {money}, paras {paramedic}
+parch V: parched | parching | parches
+pare V: pared | paring | pares
+pares N?: pareses
+paris N?: parises, pares~ 1
+park N: parks
+park V: parked | parking | parks
+parka N: parkas
+parse V: parsed | parsing | parses
+part N: parts
+part V: parted | parting | parts
+party A: partier | partiest?
+party N: parties
+party V: partied | partying | parties
+past N: pasts
+past V?: pasted | pasting | pasts
+pasta N: pastas
+paste N: pastes
+paste V: pasted | pasting | pastes
+pasty A: pastier | pastiest
+pasty N: pasties
+patch N: patches
+patch V: patched | patching | patches
+pate N: pates
+path N: paths
+patio N: patios
+patty N: patties
+pause N: pauses
+pause V: paused | pausing | pauses
+pave V: paved, paveed 2 | paving | paves
+pavis N: pavises, pavisses< 1, paves~ 1
+paw V: pawed | pawing | paws
+pawn N: pawns
+pawn V: pawned | pawning | pawns
+pax N: paxes, paces< 1
+pay A: payer | payest?, payyest<? 1
+pay V: paid, payed {slacken} | paying | pays
+payer N: payers
+peace N: peaces
+peace V: peaced | peacing | peaces
+peach N: peaches
+peach V: peached | peaching | peaches
+peak N: peaks
+peak V: peaked | peaking | peaks
+peal N: peals
+peal V: pealed | pealing | peals
+pear N: pears
+pearl A: pearler | pearlest?
+pearl N: pearls
+pearl V: pearled | pearling | pearls
+pecan N: pecans
+peck N: pecks
+peck V: pecked | pecking | pecks
+pedal A: pedaler, pedaller 1 | pedalest?, pedallest<? 1
+pedal N: pedals
+pedal V: pedaled, pedalled 1 | pedaling, pedalling 1 | pedals
+peek N: peeks
+peek V: peeked | peeking | peeks
+peel N: peels
+peel V: peeled | peeling | peels
+peep N: peeps
+peep V: peeped | peeping | peeps
+peer N: peers
+peer V: peered | peering | peers
+peeve N: peeves
+peeve V: peeved | peeving | peeves
+pelt N: pelts
+pelt V: pelted | pelting | pelts
+pen V: penned {enclose}, pent 2 {enclose}, penned {write} | penning, pening!< 1 | pens
+penal A: penaler?, penaller<? 1 | penalest?, penallest<? 1
+pend V: pended | pending | pends
+peni N?: penis
+penis N: penises, penes 1
+penny A: pennier? | penniest?
+penny N: pennies, pence {British}
+peon N: peons, pea~ 1
+peony N: peonies
+perch N: perch, perches {:1}
+perch V: perched | perching | perches
+peril N: perils
+peril V: periled, perilled 1 | periling, perilling 1 | perils
+perk N: perks
+perk V: perked | perking | perks
+perky A: perkier | perkiest
+pesky A: peskier | peskiest
+pest N: pests
+petal N: petals
+peter N: peters
+peter V: petered | petering | peters
+petty A: pettier | pettiest
+petty N?: petties
+phase N: phases
+phase V: phased | phasing | phases
+phone N: phones
+phone V: phoned | phoning | phones
+phony A: phonier | phoniest
+phony N: phonies
+phony V: phonied | phonying | phonies
+photo N: photos
+photo V: photoed | photoing | photos
+piano A: pianoer? | pianoest?
+piano N: pianos
+pick N: picks
+pick V: picked | picking | picks
+picky A: pickier | pickiest
+piece N: pieces
+piece V: pieced | piecing | pieces
+pier N: piers
+piety N: pieties
+pike N: pikes {fish}, pike {fish:1}, pikes {weapon}
+pike V: piked | piking | pikes
+pikis N?: pikes
+pile N: piles
+pile V: piled | piling | piles
+pilis N?: piles
+pill N: pills
+pill V: pilled | pilling | pills
+pilot A: pilotter?, piloter<? 1 | pilottest?, pilotest<? 1
+pilot N: pilots
+pilot V: piloted | piloting | pilots
+pin V: pinned, pined!< 1 | pinning, pining!< 1 | pins
+pinch N: pinches
+pinch V: pinched | pinching | pinches
+pine N: pines
+pine V: pined | pining | pines
+pink N: pinks
+pink V: pinked | pinking | pinks
+pint N: pints
+pious A: piousser?, piouser<? 1 | pioussest?, piousest<? 1
+pip V: pipped, piped!< 1 | pipping, piping!< 1 | pips
+pipe N: pipes
+pipe V: piped | piping | pipes
+pipis N?: pipes
+pique A: piquer? | piquest?
+pique N: piques
+pique V: piqued | piquing | piques
+pitch N: pitches
+pitch V: pitched | pitching | pitches
+pithy A: pithier | pithiest
+pivot N: pivots
+pivot V: pivoted | pivoting | pivots
+pixie A: pixier? | pixiest?
+pixie N: pixies
+pizza N: pizzas
+place N: places
+place V: placed | placing | places
+plaid A: plaidder?, plaider<? 1 | plaiddest?, plaidest<? 1
+plaid N: plaids
+plaid V?: plaided | plaiding | plaids
+plain A: plainer | plainest
+plain N: plains
+plain V: plained | plaining | plains
+plan N: plans
+plan V: planned, planed!< 1 | planning, planing!< 1 | plans
+plane A: planer | planest?
+plane N: planes
+plane V: planed | planing | planes
+plank N: planks
+plank V: planked | planking | planks
+plant N: plants
+plant V: planted | planting | plants
+plate N: plates
+plate V: plated | plating | plates
+play N: plays
+play V: played | playing | plays
+plaza N: plazas
+plea N: pleas
+plead V: pleaded, pled 1 | pleading | pleads
+pleas V?: pleased | pleasing | pleases
+pleat N: pleats
+pleat V: pleated | pleating | pleats
+plie V?: plied | plying | plies
+plod N: plods
+plod V: plodded | plodding | plods
+plop N: plops
+plop V: plopped | plopping | plops
+plot N: plots
+plot V: plotted | plotting | plots
+plow N: plows
+plow V: plowed | plowing | plows
+ploy N: ploys
+ploy V: ployed | ploying | ploys
+pluck N: plucks
+pluck V: plucked | plucking | plucks
+plug N: plugs
+plug V: plugged | plugging | plugs
+plum N: plums
+plum V?: plumed! | pluming! | plums
+plumb A: plumber | plumbest?
+plumb N: plumbs
+plumb V: plumbed | plumbing | plumbs
+plume N: plumes
+plume V: plumed | pluming | plumes
+plump A: plumper | plumpest
+plump N: plumps
+plump V: plumped | plumping | plumps
+plush A: plusher | plushest
+plush N: plushes
+ply N: plies
+ply V: plied | plying | plies
+poach V: poached | poaching | poaches
+poem N: poems
+poet N: poets
+point N: points
+point V: pointed | pointing | points
+poise N: poises
+poise V: poised | poising | poises
+poke N: pokes
+poke V: poked | poking | pokes
+poker N: pokers
+pokey A: pokier | pokiest
+pokey N: pokeys
+pol N: pols, poles!< 1
+pol V?: poled!, polled< 1 | poling!, polling< 1 | pols, poles!< 1
+polar A: polarrer?, polarer<? 1 | polarrest?, polarest<? 1
+polar N?: polars
+pole N: poles
+pole V: poled | poling | poles
+polio N: polios
+polis N?: poles
+polka N: polkas
+polka V: polkaed | polkaing | polkas
+poll N: polls
+poll V: polled | polling | polls
+polyp N: polyps
+pond N: ponds
+pond V: ponded | ponding | ponds
+pool N: pools
+pool V: pooled | pooling | pools
+poop N: poops
+poop V: pooped | pooping | poops
+poppy N: poppies
+porch N: porches
+pore N: pores
+pore V: pored | poring | pores
+port N: ports
+port V: ported | porting | ports
+pos V?: posed! | posing! | poses, posses< 1
+pose N: poses
+pose V: posed | posing | poses
+post N: posts
+post V: posted | posting | posts
+pouch N: pouches
+pouch V: pouched | pouching | pouches
+pound N: pounds
+pound V: pounded | pounding | pounds
+pour N: pours
+pour V: poured | pouring | pours
+pout N: pouts
+pout V: pouted | pouting | pouts
+power A: powerrer?, powerer<? 1 | powerrest?, powerest<? 1
+power N: powers
+power V: powered | powering | powers
+prank N: pranks
+prank V: pranked | pranking | pranks
+prawn N: prawns
+prawn V: prawned | prawning | prawns
+pray V: prayed | praying | prays
+preen N: preens
+preen V: preened | preening | preens
+press N: presses
+press V: pressed | pressing | presses
+prey N: preys
+prey V: preyed | preying | preys
+price N: prices
+price V: priced | pricing | prices
+prick N: pricks
+prick V: pricked | pricking | pricks
+pride N: prides
+pride V: prided | priding | prides
+prime A: primer | primest?
+prime N: primes
+prime V: primed | priming | primes
+primp V: primped | primping | primps
+print A: printer | printest?
+print N: prints
+print V: printed | printing | prints
+prior A: priorrer?, priorer<? 1 | priorrest?, priorest<? 1
+prior N: priors
+prise N: prises
+prise V: prised | prising | prises
+prism N: prisms
+privy A: privier | priviest
+privy N: privies
+prize A: prizer | prizest?
+prize N: prizes
+prize V: prized | prizing | prizes
+probe N: probes
+probe V: probed | probing | probes
+prod N: prods
+prod V: prodded | prodding | prods
+prom N: proms
+prone A: proner | pronest
+prone N: prones
+prong N: prongs
+prong V: pronged | pronging | prongs
+proof A: proofer | prooffest?, proofest<? 1
+proof N: proofs
+proof V: proofed | proofing | proofs
+prop N: props
+prop V: propped | propping | props
+prose A: proser | prosest?
+prose N: proses
+prose V: prosed | prosing | proses
+proud A: prouder | proudest
+prove V: proved | proved, proven 1 | proving | proves
+prow N: prows
+prowl N: prowls
+prowl V: prowled | prowling | prowls
+proxy A: proxier? | proxiest?
+proxy N: proxies
+prude N: prudes
+prune N: prunes
+prune V: pruned | pruning | prunes
+pry N: pries, prys< 1
+pry V: pried | prying | pries
+psalm N: psalms
+psalm V: psalmed | psalming | psalms
+psych V: psyched | psyching | psychs, psyches 2
+puck N: pucks
+puck V?: pucked | pucking | pucks
+pudgy A: pudgier | pudgiest
+puff N: puffs
+puff V: puffed | puffing | puffs
+puffy A: puffier | puffiest
+puke N: pukes
+puke V: puked | puking | pukes
+pull N: pulls
+pull V: pulled | pulling | pulls
+pulp N: pulps
+pulp V: pulped | pulping | pulps
+pulse N: pulses
+pulse V: pulsed | pulsing | pulses
+puma N: pumas, puma 1
+pump N: pumps
+pump V: pumped | pumping | pumps
+punch N: punches
+punch V: punched | punching | punches
+punk N: punks
+punt N: punts
+punt V: punted | punting | punts
+pupil N: pupils
+puppy N: puppies
+puppy V?: puppied | puppying | puppies
+pur A?: purer! | purest!
+pure A: purer | purest
+puree N: purees
+puree V: pureed | pureeing | purees
+purge N: purges
+purge V: purged | purging | purges
+purr N: purrs
+purr V: purred | purring | purrs
+purse N: purses
+purse V: pursed | pursing | purses
+pushy A: pushier | pushiest
+pussy A: pussier | pussiest
+pussy N: pussies
+putt N: putts
+putt V: putted | putting | putts
+putty N: putties
+putty V: puttied | puttying | putties
+pyre N: pyres
+quack A: quacker? | quackest?
+quack N: quacks
+quack V: quacked | quacking | quacks
+quail N: quail, quails {:1}
+quail V: quailed | quailing | quails
+quake N: quakes
+quake V: quaked | quaking | quakes
+qualm N: qualms
+quark N: quarks
+quart N: quarts
+quash V: quashed | quashing | quashes
+quay N: quays
+queen N: queens
+queen V: queened | queening | queens
+queer A: queerer | queerest
+queer N: queers
+queer V: queered | queering | queers
+quell V: quelled | quelling | quells
+query N: queries
+query V: queried | querying | queries
+quest N: quests
+quest V: quested | questing | quests
+queue N: queues
+queue V: queued | queuing, queueing 1 | queues
+quick A: quicker | quickest
+quick N: quicks
+quid N: quid {money}, quids {tobacco}
+quiet A: quieter | quietest
+quiet N: quiets
+quiet V: quieted | quieting | quiets
+quill N: quills
+quill V: quilled | quilling | quills
+quilt N: quilts
+quilt V: quilted | quilting | quilts
+quip N: quips
+quip V: quipped | quipping | quips
+quirk N: quirks
+quirk V: quirked | quirking | quirks
+quit V: quit, quitted 1 | quitting, quiting< 1 | quits
+quite A: quiter? | quitest?
+quite V?: quited | quiting | quites
+quota N: quotas
+quote N: quotes
+quote V: quoted | quoting | quotes
+quotum N?: quotums, quota~ 1
+rabbi N: rabbis, rabbies< 1
+rabid A: rabider | rabidest
+race A: racer | racest?
+race N: races
+race V: raced | racing | races
+racer N: racers
+rack N: racks
+rack V: racked | racking | racks
+radar N: radars
+radio A: radioer? | radioest?
+radio N: radios, radii~ 1
+radio V: radioed | radioing | radios
+radius N: radii, radiuses 1
+raft N: rafts
+raft V: rafted | rafting | rafts
+rag V: ragged, raged!< 1 | ragging, raging!< 1 | rags
+rage N: rages
+rage V: raged | raging | rages
+ragis N?: rages
+raid N: raids
+raid V: raided | raiding | raids
+rail N: rails, railes!< 1
+rail V: railed | railing | rails, railes!< 1
+rain N: rains
+rain V: rained | raining | rains
+rainy A: rainier | rainiest
+raise N: raises
+raise V: raised | raising | raises
+rake N: rakes
+rake V: raked | raking | rakes
+rakis N?: rakes
+rally N: rallies, rallyes!< 1
+rally V: rallied | rallying | rallies, rallyes!< 1
+ramp N: ramps
+ramp V: ramped | ramping | ramps
+ranch N: ranches
+ranch V: ranched | ranching | ranches
+rand N: rands {leather}, rand {money}
+range N: ranges
+range V: ranged | ranging | ranges
+rank N: ranks
+rank V: ranked | ranking | ranks
+rant N: rants
+rant V: ranted | ranting | rants
+rap V: rapped, raped!< 1 | rapping, raping!< 1 | raps
+rape N: rapes
+rape V: raped | raping | rapes
+rapid A: rapider | rapidest
+rapid N: rapids
+rare A: rarer | rarest
+rare V: rared | raring | rares
+rasp N: rasps
+rasp V: rasped | rasping | rasps
+rat V: ratted, rated!< 1 | ratting, rating!< 1 | rats
+rate N: rates
+rate V: rated | rating | rates
+ratio N: ratios
+ratty A: rattier | rattiest
+rave N: raves
+rave V: raved | raving | raves
+ravel N: ravels
+ravel V: raveled, ravelled 1 | raveling, ravelling 1 | ravels
+raven A: ravener | ravennest?, ravenest<? 1
+raven N: ravens
+raven V: ravened | ravening | ravens
+raw A: rawer | rawest
+rayon N: rayons, raya~ 1
+raze V: razed, razeed 2 | razing | razes
+razor N: razors
+razor V: razored | razoring | razors
+reach N: reaches
+reach V: reached | reaching | reaches
+react V: reacted | reacting | reacts
+read N: reads
+read V: read | reading, readding 2 | reads
+ready A: readier | readiest
+ready N: readies
+ready V: readied | readying | readies
+real N: reals {Portugese_money}, reis 1 {Portugese_money}, reals {Spanish_money}, reales 1 {Spanish_money}, reals {number}
+realm N: realms
+ream N: reams
+ream V: reamed | reaming | reams
+reap V: reaped | reaping | reaps
+rear N: rears
+rear V: reared | rearing | rears
+rebel A: rebeller | rebelest?, rebellest<? 1
+rebel N: rebels
+rebel V: rebelled | rebelling | rebels
+rebut V: rebutted | rebutting | rebuts
+recap N: recaps
+recap V: recapped | recapping | recaps
+recur V: recurred, recured!< 1 | recurring, recuring!< 1 | recurs, recures!< 1
+redo V: redid | redone | redoing | redoes
+reed N: reeds
+reed V: reeded | reeding | reeds
+reef N: reefs, reeves< 1
+reef V: reefed | reefing | reefs
+reek N: reeks
+reek V: reeked | reeking | reeks
+reel N: reels
+reel V: reeled | reeling | reels
+refer V: referred | referring | refers
+regal A: regaler | regalest?, regallest<? 1
+regal N: regals, regales!< 1
+regal V?: regaled! | regaling! | regals, regales!< 1
+reign N: reigns
+reign V: reigned | reigning | reigns
+rein N: reins
+rein V: reined | reining | reins
+relax V: relaxed | relaxing | relaxes
+relay N: relays
+relay V: relaid {lay_again}, relayed {pass_along} | relaying | relays
+relic N: relics
+remit N: remits
+remit V: remitted | remitting | remits
+rend V: rent, rended 2 | rending | rends
+renew V: renewed | renewing | renews
+rent N: rents
+rent V: rented | renting | rents
+repay V: repaid | repaying | repays
+repel V: repelled | repelling | repels
+reply N: replies
+reply V: replied | replying | replies
+reset N: resets
+reset V: reset | resetting | resets
+resin N: resins
+resin V: resined | resining | resins
+rest N: rests
+rest V: rested | resting | rests
+retch N: retches
+retch V: retched | retching | retches
+retread V: retreaded {tire}, retrod {walk_again} | retrodden | retreading | retreads
+retry V: retried | retrying | retries
+reuse V: reused | reusing | reuses
+revel N: revels
+revel V: reveled, revelled 1 | reveling, revelling 1 | revels
+revue N: revues
+rex N?: rexes, rices< 1
+rhino N: rhinos
+rhyme N: rhymes
+rhyme V: rhymed | rhyming | rhymes
+rice N: rices
+rice V: riced | ricing | rices
+rid V: rid, ridded 1 | ridding, riding!< 1 | rids, rides!< 1
+ride N: rides
+ride V: rode | ridden | riding | rides
+rider N: riders
+ridge N: ridges
+ridge V: ridged | ridging | ridges
+rif A?: rifer! | rifest!
+rife A: rifer | rifest
+rifle N: rifles
+rifle V: rifled | rifling | rifles
+rift N: rifts
+rift V: rifted | rifting | rifts
+right A: righter | rightest
+right N: rights
+right V: righted | righting | rights
+rigid A: rigider | rigidest
+rigor N: rigors
+rile V: riled | riling | riles
+rind N: rinds
+rind V?: rinded | rinding | rinds
+ring N: rings
+ring V: ringed {encircle}, rang {sound} | rung | ringing | rings
+rink N: rinks
+rink V?: rinked | rinking | rinks
+rinse N: rinses
+rinse V: rinsed | rinsing | rinses
+riot N: riots
+riot V: rioted | rioting | riots
+rip A?: ripper, riper!< 1 | ripest!
+ripe A: riper | ripest
+ripen V: ripened | ripening | ripens
+riper N?: ripers
+rise N: rises
+rise V: rose | risen | rising | rises
+riser N: risers
+risk N: risks
+risk V: risked | risking | risks
+risky A: riskier | riskiest
+rite N: rites
+rival A: rivaler?, rivaller<? 1 | rivalest?, rivallest<? 1
+rival N: rivals
+rival V: rivaled, rivalled 1 | rivaling, rivalling 1 | rivals
+river N: rivers
+rivet N: rivets
+rivet V: riveted, rivetted 1 | riveting, rivetting 1 | rivets
+roach N: roaches {fish}, roach {fish:1}, roaches {insect}
+roach V: roached | roaching | roaches
+road N: roads
+roam N: roams
+roam V: roamed | roaming | roams
+roar N: roars
+roar V: roared | roaring | roars
+roast A: roaster | roastest?
+roast N: roasts
+roast V: roasted | roasting | roasts
+rob V: robbed, robed!< 1 | robbing, robing!< 1 | robs
+robe N: robes
+robe V: robed | robing | robes
+robin N: robins
+robot N: robots
+rock N: rocks
+rock V: rocked | rocking | rocks
+rocky A: rockier | rockiest
+rodeo N: rodeos
+rodeo V: rodeoed | rodeoing | rodeos
+rogue A: roguer? | roguest?
+rogue N: rogues
+rogue V: rogued | roguing, rogueing 1 | rogues
+role N: roles
+roll N: rolls
+roll V: rolled | rolling | rolls
+roman A: romanner?, romaner<? 1 | romannest?, romanest<? 1
+roman N: romans
+romp N: romps
+romp V: romped | romping | romps
+roof N: roofs
+roof V: roofed | roofing | roofs
+rook N: rooks
+rook V: rooked | rooking | rooks
+room N: rooms
+room V: roomed | rooming | rooms
+roomy A: roomier | roomiest
+roomy N: roomies
+roost N: roosts
+roost V: roosted | roosting | roosts
+root N: roots
+root V: rooted | rooting | roots
+rope N: ropes
+rope V: roped | roping | ropes
+rose N: roses
+rose V: rosed | rosing | roses
+rotor N: rotors
+rouge N: rouges
+rouge V: rouged | rouging | rouges
+rough A: rougher | roughest
+rough N: roughs
+rough V: roughed | roughing | roughs
+round A: rounder | roundest
+round N: rounds
+round V: rounded | rounding | rounds
+rouse V: roused | rousing | rouses
+rout N: routs
+rout V: routed | routing | routs
+route N: routes
+route V: routed | routing, routeing 2 | routes
+row V: rowed | rowing | rows
+rowdy A: rowdier | rowdiest
+rowdy N: rowdies
+royal A: royaller | royallest
+royal N: royals
+rud A?: rudder, ruder!< 1 | rudest!
+ruddy A: ruddier | ruddiest
+ruddy V?: ruddied | ruddying | ruddies
+rude A: ruder | rudest
+rue V: rued | ruing, rueing 2 | rues
+ruff N: ruffs
+ruff V: ruffed | ruffing | ruffs
+rugby N: rugbies
+ruin N: ruins
+ruin V: ruined | ruining | ruins
+ruing N?: ruings
+rule N: rules
+rule V: ruled | ruling | rules
+ruler N: rulers
+ruler V?: rulered | rulering | rulers
+rummy A: rummier | rummiest
+rummy N: rummies
+rumor N: rumors
+rumor V: rumored | rumoring | rumors
+rump N: rumps
+rump V?: rumped | rumping | rumps
+rune N: runes
+rung N: rungs
+runny A: runnier | runniest
+runt N: runts
+rural A: ruraler?, ruraller<? 1 | ruralest?, rurallest<? 1
+rural N: rurals
+ruse N: ruses
+rust N: rusts
+rust V: rusted | rusting | rusts
+rusty A: rustier | rustiest
+saber N: sabers
+saber V: sabered | sabering | sabers
+sabre N: sabres
+sabre V: sabred | sabring | sabres
+sack N: sacks
+sack V: sacked | sacking | sacks
+sad V: sadded?, saded!<? 1 | sadding?, sading!<? 1 | sades
+sade N?: sades
+sadis N?: sades
+sadly A: sadlier? | sadliest?
+safe A: safer | safest
+safe N: safes, saves< 1
+sag A?: sagger, sager!< 1 | sagest!
+saga N: sagas
+sage A: sager | sagest
+sage N: sages
+sail N: sails
+sail V: sailed | sailing | sails
+saint A: sainter? | saintest?
+saint N: saints
+saint V: sainted | sainting | saints
+sal N?: sals, sales!< 1
+salad N: salads, salades!< 1
+sale N: sales
+sally N: sallies
+sally V: sallied | sallying | sallies
+salon N: salons
+salt N: salts
+salt V: salted | salting | salts
+salty A: saltier | saltiest
+salty N?: salties
+salve N: salves
+salve V: salved | salving | salves
+same N: sames
+san A?: saner! | sanest!
+sand N: sands
+sand V: sanded | sanding | sands
+sandy A: sandier | sandiest
+sane A: saner | sanest
+sang N: sangs
+sari N: saris
+sassy A: sassier | sassiest
+sassy N: sassies
+satin A: satinner?, satiner<? 1 | satinnest?, satinest<? 1
+satin N: satins
+satin V?: satined | satining | satins
+sauce N: sauces
+sauce V: sauced | saucing | sauces
+saucy A: saucier | sauciest
+sauna N: saunas
+sauna V: saunaed | saunaing | saunas
+save N: saves
+save V: saved | saving | saves
+saver N: savers
+savor N: savors
+savor V: savored | savoring | savors
+savvy A: savvier | savviest
+savvy N: savvies
+savvy V: savvied | savvying | savvies
+saw V: sawed | sawed, sawn 1 | sawing | saws
+scab N: scabs
+scab V: scabbed | scabbing | scabs
+scald A: scalder | scaldest?
+scald N: scalds
+scald V: scalded | scalding | scalds
+scale N: scales
+scale V: scaled | scaling | scales
+scalp N: scalps
+scalp V: scalped | scalping | scalps
+scaly A: scalier | scaliest
+scan N: scans
+scan V: scanned | scanning | scans
+scant A: scanter | scantest
+scant V: scanted | scanting | scants
+scar N: scars, scares!< 1
+scar V: scarred, scared!< 1 | scarring, scaring!< 1 | scars, scares!< 1
+scare N: scares
+scare V: scared | scaring | scares
+scarf N: scarves, scarfs 1
+scarf V: scarfed | scarfing | scarfs
+scary A: scarier | scariest
+scene N: scenes
+scene V?: scened | scening | scenes
+scent N: scents
+scent V: scented | scenting | scents
+scoff N: scoffs
+scoff V: scoffed | scoffing | scoffs
+scold N: scolds
+scold V: scolded | scolding | scolds
+scoop N: scoops
+scoop V: scooped | scooping | scoops
+scoot N: scoots
+scoot V: scooted | scooting | scoots
+scope N: scopes
+scope V: scoped | scoping | scopes
+score A: scorer | scorest?
+score N: scores, score {twenty}
+score V: scored | scoring | scores
+scorn N: scorns
+scorn V: scorned | scorning | scorns
+scour N: scours
+scour V: scoured | scouring | scours
+scout N: scouts
+scout V: scouted | scouting | scouts
+scowl N: scowls
+scowl V: scowled | scowling | scowls
+scram V: scrammed | scramming | scrams
+scrap A: scrapper, scraper!< 1 | scrappest?, scrapest!<? 1
+scrap N: scraps
+scrap V: scrapped, scraped!< 1 | scrapping, scraping!< 1 | scraps
+screw N: screws
+screw V: screwed | screwing | screws
+scrub A: scrubber | scrubbest?, scrubest<? 1
+scrub N: scrubs
+scrub V: scrubbed | scrubbing | scrubs
+scuff N: scuffs
+scuff V: scuffed | scuffing | scuffs
+scum N: scums
+scum V: scummed | scumming | scums
+seal N: seals, seals {animal}, seal {animal:1}
+seal V: sealed | sealing | seals
+seam N: seams
+seam V: seamed | seaming | seams
+sear N: sears
+sear V: seared | searing | sears
+seat N: seats
+seat V: seated | seating | seats
+sect N: sects
+sedan N: sedans
+seed N: seeds
+seed V: seeded | seeding | seeds
+seedy A: seedier | seediest
+seek N: seeks
+seek V: sought | seeking | seeks
+seem V: seemed | seeming | seems
+seep N: seeps
+seep V: seeped | seeping | seeps
+seize V: seized | seizing | seizes
+sell N: sells, selles!< 1
+sell V: sold | selling | sells, selles!< 1
+semen N: semens
+send N: sends
+send V: sent | sending | sends
+sense N: senses
+sense V: sensed | sensing | senses
+serum N: serums, sera 1
+serve N: serves
+serve V: served | serving | serves
+seven A: sevener | sevennest?, sevenest<? 1
+seven N: sevens
+sever A?: severer! | severest!
+sever V: severed | severing | severs
+sew V: sewed | sewn, sewed 1 | sewing | sews
+sewer N: sewers
+sewer V: sewered | sewering | sewers
+sex N: sexes, sices< 1
+sex V: sexed | sexing | sexes
+shack N: shacks
+shack V: shacked | shacking | shacks
+shade N: shades
+shade V: shaded | shading | shades
+shady A: shadier | shadiest
+shaft N: shafts
+shaft V: shafted | shafting | shafts
+shake N: shakes
+shake V: shook | shaken | shaking | shakes
+shaky A: shakier | shakiest
+shall V: should | shall, shalt 2
+sham N: shams
+sham V: shammed, shamed!< 1 | shamming, shaming!< 1 | shams
+shame N: shames
+shame V: shamed | shaming | shames
+shape N: shapes
+shape V: shaped | shaping | shapes
+share N: shares
+share V: shared | sharing | shares
+shark N: sharks
+shark V: sharked | sharking | sharks
+sharp A: sharper | sharpest
+sharp N: sharps
+sharp V: sharped | sharping | sharps
+shave N: shaves
+shave V: shaved | shaved, shaven 1 | shaving | shaves
+shawl N: shawls
+shawl V?: shawled | shawling | shawls
+sheaf N: sheaves, sheafs 2
+sheaf V: sheafed | sheafing | sheafs
+shear N: shears
+shear V: sheared | sheared, shorn 1 | shearing | shears
+shed N: sheds
+shed V: shed | shedding | sheds
+sheen A: sheenner?, sheener<? 1 | sheennest?, sheenest<? 1
+sheen N: sheens
+sheen V: sheened | sheening | sheens
+sheep N: sheep
+sheer A: sheerer | sheerest
+sheer N: sheers
+sheer V: sheered | sheering | sheers
+sheet N: sheets
+sheet V: sheeted | sheeting | sheets
+shelf N: shelves
+shelf V: shelfed | shelfing | shelfs
+shell A: sheller | shellest?
+shell N: shells
+shell V: shelled | shelling | shells
+shift N: shifts
+shift V: shifted | shifting | shifts
+shin N: shins
+shin V: shinned, shined!< 1 | shinning, shining!< 1 | shins
+shine N: shines
+shine V: shone, shined {polish} | shining | shines
+shiny A: shinier | shiniest
+ship N: ships
+ship V: shipped | shipping | ships
+shire N: shires
+shirk N: shirks
+shirk V: shirked | shirking | shirks
+shirt N: shirts
+shirt V: shirted | shirting | shirts
+shoal A: shoaler | shoalest
+shoal N: shoals
+shoal V: shoaled | shoaling | shoals
+shock A: shocker | shockest?
+shock N: shocks
+shock V: shocked | shocking | shocks
+shoe N: shoes, shoon 1
+shoe V: shod, shoed 1 | shod, shoed 1, shodden 1.1 | shoeing | shoes
+shoo V: shooed | shooing | shoos
+shook N: shooks
+shoot N: shoots
+shoot V: shot | shooting | shoots
+shop N: shops
+shop V: shopped | shopping | shops
+shore A: shorer | shorest?
+shore N: shores
+shore V: shored | shoring | shores
+short A: shorter | shortest
+short N: shorts
+short V: shorted | shorting | shorts
+shot N: shots, shot {bullet}
+shot V: shotted | shotting | shots
+shout N: shouts
+shout V: shouted | shouting | shouts
+shove N: shoves
+shove V: shoved | shoving | shoves
+show N: shows
+show V: showed | shown, showed 1 | showing | shows
+showy A: showier | showiest
+shred N: shreds
+shred V: shredded, shred~ 1 | shredding | shreds
+shrew N: shrews
+shrew V?: shrewed | shrewing | shrews
+shrub N: shrubs
+shrub V?: shrubbed | shrubbing | shrubs
+shrug N: shrugs
+shrug V: shrugged | shrugging | shrugs
+shuck N: shucks
+shuck V: shucked | shucking | shucks
+shun V: shunned | shunning | shuns
+shunt N: shunts
+shunt V: shunted | shunting | shunts
+shut N: shuts
+shut V: shut | shutting, shuting!< 1 | shuts
+shy A: shyer, shier 1 | shyest, shiest 1
+shy N: shies
+shy V: shied | shying | shies
+shyer N?: shyers
+sick N: sicks
+sick V: sicked | sicking | sicks
+side N: sides
+side V: sided | siding | sides
+sidle N: sidles
+sidle V: sidled | sidling | sidles
+siege N: sieges
+siege V: sieged | sieging | sieges
+sieve N: sieves
+sieve V: sieved | sieving | sieves
+sift V: sifted | sifting | sifts
+sigh N: sighs
+sigh V: sighed | sighing | sighs
+sight N: sights
+sight V: sighted | sighting | sights
+sigma N: sigmas
+sign N: signs
+sign V: signed | signing | signs
+silk N: silks
+silk V: silked | silking | silks
+sill N: sills
+silly A: sillier | silliest
+silly N: sillies
+silo N: silos
+silo V: siloed | siloing | silos
+silt N: silts
+silt V: silted | silting | silts
+since A: sincer? | sincest?
+sinew N: sinews
+sinew V: sinewed | sinewing | sinews
+sing N: sings
+sing V: sang | sung | singing | sings
+singe N: singes
+singe V: singed | singeing, singing 2 | singes
+sink N: sinks
+sink V: sank, sunk 1 | sunk, sunken 1 | sinking | sinks
+sinus N: sinuses
+sir N: sirs, sires!< 1
+sir V?: sirred, sired!< 1 | sirring, siring!< 1 | sirs, sires!< 1
+sire N: sires
+sire V: sired | siring | sires
+siren N: sirens
+siris N: sires
+sissy A: sissier | sissiest
+sissy N: sissies
+site N: sites
+site V: sited | siting | sites
+six N: sixes, sices< 1
+sixth A: sixther? | sixthest?
+sixth N: sixths
+sixty A: sixtier? | sixtiest?
+sixty N: sixties
+size A: sizer | sizest?
+size N: sizes
+size V: sized | sizing | sizes
+sizer N?: sizers
+skate N: skates {fish}, skate {fish:1}, skates {roller}
+skate V: skated | skating | skates
+skein N: skeins
+skein V?: skeined | skeining | skeins
+skew N: skews
+skew V: skewed | skewing | skews
+ski N: skis, ski 1, skies 2
+ski V: skied | skiing | skis, skies< 1
+skid N: skids
+skid V: skidded | skidding | skids
+skill N: skills
+skill V: skilled | skilling | skills
+skim N: skims
+skim V: skimmed | skimming | skims
+skimp V: skimped | skimping | skimps
+skin N: skins
+skin V: skinned | skinning | skins
+skip N: skips
+skip V: skipped | skipping | skips
+skirt N: skirts
+skirt V: skirted | skirting | skirts
+skit N: skits
+skit V?: skited! | skiting! | skits
+skulk N: skulks
+skulk V: skulked | skulking | skulks
+skull N: skulls
+skunk N: skunks, skunk {:1}
+skunk V: skunked | skunking | skunks
+sky N: skies
+sky V: skied, skyed 1 | skying | skies
+slab N: slabs
+slab V: slabbed | slabbing | slabs
+slack A: slacker | slackest
+slack N: slacks
+slack V: slacked | slacking | slacks
+slake V: slaked | slaking | slakes
+slam N: slams
+slam V: slammed | slamming | slams
+slang N: slangs
+slang V: slanged | slanging | slangs
+slant A: slanter? | slantest?
+slant N: slants
+slant V: slanted | slanting | slants
+slap N: slaps
+slap V: slapped | slapping | slaps
+slash N: slashes
+slash V: slashed | slashing | slashes
+slat N: slats
+slat V: slatted, slated!< 1 | slatting, slating!< 1 | slats
+slate N: slates
+slate V: slated | slating | slates
+slave A: slaver | slavest?
+slave N: slaves
+slave V: slaved | slaving | slaves
+slay V: slew | slain | slaying | slays
+sled N: sleds
+sled V: sledded | sledding | sleds
+sleek A: sleeker | sleekest
+sleek V: sleeked | sleeking | sleeks
+sleep N: sleeps
+sleep V: slept | sleeping | sleeps
+sleet N: sleets
+sleet V: sleeted | sleeting | sleets
+slew N: slews
+slew V: slewed | slewing | slews
+sley A?: slier | sliest
+slice N: slices
+slice V: sliced | slicing | slices
+slick A: slicker | slickest
+slick N: slicks
+slick V: slicked | slicking | slicks
+slide N: slides
+slide V: slid | sliding | slides
+slim V: slimmed, slimed!< 1 | slimming, sliming!< 1 | slims
+slime N: slimes
+slime V: slimed | sliming | slimes
+slimy A: slimier | slimiest
+sling N: slings
+sling V: slung | slinging | slings
+slink N: slinks
+slink V: slunk, slinked 1 | slinking | slinks
+slip N: slips
+slip V: slipped, sliped!< 1 | slipping, sliping!< 1 | slips
+slit N: slits
+slit V: slit {cut}, slitted {narrow} | slitting | slits
+slob N: slobs
+slog N: slogs
+slog V: slogged | slogging | slogs
+slop N: slops
+slop V: slopped, sloped!< 1 | slopping, sloping!< 1 | slops
+slope N: slopes
+slope V: sloped | sloping | slopes
+slosh N: sloshes
+slosh V: sloshed | sloshing | sloshes
+slot N: slots
+slot V: slotted | slotting | slots
+sloth N: sloths
+sloth V?: slothed | slothing | sloths
+slow V: slowed | slowing | slows
+slug N: slugs
+slug V: slugged | slugging | slugs
+slum N: slums
+slum V: slummed | slumming | slums
+slump N: slumps
+slump V: slumped | slumping | slumps
+slur N: slurs
+slur V: slurred | slurring | slurs
+slush N: slushes
+slush V: slushed | slushing | slushes
+slut N: sluts
+sly A: slier, slyer 1 | sliest, slyest 1
+slyly A: slylier? | slyliest?
+smack A: smacker | smackest?
+smack N: smacks
+smack V: smacked | smacking | smacks
+small A: smaller | smallest
+small N: smalls
+small V?: smalled | smalling | smalls
+smart A: smarter | smartest
+smart N: smarts
+smart V: smarted | smarting | smarts
+smash A: smasher | smashest?
+smash N: smashes
+smash V: smashed | smashing | smashes
+smear N: smears
+smear V: smeared | smearing | smears
+smell N: smells
+smell V: smelled, smelt 1 | smelling | smells
+smelt N: smelts, smelt {:1}
+smelt V: smelted | smelting | smelts
+smile N: smiles
+smile V: smiled | smiling | smiles
+smirk N: smirks
+smirk V: smirked | smirking | smirks
+smite V: smote | smitten, smote 1, smit 1.1 | smiting | smites
+smith N: smiths
+smith V: smithed | smithing | smiths
+smock N: smocks
+smock V: smocked | smocking | smocks
+smoke N: smokes
+smoke V: smoked | smoking | smokes
+smoky A: smokier | smokiest
+smoky N?: smokies
+smut N: smuts
+smut V: smutted | smutting | smuts
+snack N: snacks
+snack V: snacked | snacking | snacks
+snag N: snags
+snag V: snagged | snagging | snags
+snail N: snails
+snail V: snailed | snailing | snails
+snake N: snakes
+snake V: snaked | snaking | snakes
+snap N: snaps
+snap V: snapped | snapping | snaps
+snare N: snares
+snare V: snared | snaring | snares
+snarl N: snarls
+snarl V: snarled | snarling | snarls
+sneak A: sneaker | sneakkest?, sneakest<? 1
+sneak N: sneaks
+sneak V: sneaked, snuck 1 | sneaking | sneaks
+sneer N: sneers
+sneer V: sneered | sneering | sneers
+snide A: snider | snidest
+snide N?: snides
+sniff N: sniffs
+sniff V: sniffed | sniffing | sniffs
+snip N: snips
+snip V: snipped, sniped!< 1 | snipping, sniping!< 1 | snips
+snipe N: snipe, snipes {:1}
+snipe V: sniped | sniping | snipes
+snob N: snobs
+snoop N: snoops
+snoop V: snooped | snooping | snoops
+snore N: snores
+snore V: snored | snoring | snores
+snort N: snorts
+snort V: snorted | snorting | snorts
+snot N: snots
+snot V?: snotted | snotting | snots
+snout N: snouts
+snout V?: snouted | snouting | snouts
+snow N: snows
+snow V: snowed | snowing | snows
+snowy A: snowier | snowiest
+snub N: snubs
+snub V: snubbed | snubbing | snubs
+snuff A: snuffer | snuffest?
+snuff N: snuffs
+snuff V: snuffed | snuffing | snuffs
+snug N: snugs
+snug V: snugged | snugging | snugs
+soak N: soaks
+soak V: soaked | soaking | soaks
+soap N: soaps
+soap V: soaped | soaping | soaps
+soapy A: soapier | soapiest
+soar N: soars
+soar V: soared | soaring | soars
+sober A: soberer | soberest
+sober V: sobered | sobering | sobers
+sock N: socks, sox 1
+sock V: socked | socking | socks
+soda N: sodas
+sofa N: sofas
+soggy A: soggier | soggiest
+soil N: soils
+soil V: soiled | soiling | soils
+sol N: sols, soles!< 1
+sol V?: soled! | soling! | sols, soles!< 1
+solar A: solarrer?, solarer<? 1 | solarrest?, solarest<? 1
+solar N: solars
+sole N: sole {fish}, soles {fish:1}, soles {shoe}
+sole V: soled | soling | soles
+solid A: solider | solidest
+solid N: solids
+solo N: solos, soli 1
+solo V: soloed | soloing | solos
+solve V: solved | solving | solves
+song N: songs
+sonic A: sonicer?, soniccer<? 1 | sonicest?, soniccest<? 1
+sonic N?: sonics
+sooty A: sootier | sootiest
+sore A: sorer | sorest
+sore N: sores
+sore V?: sored | soring | sores
+sorry A: sorrier | sorriest
+sorry N: sorries
+sort N: sorts
+sort V: sorted | sorting | sorts
+soul N: souls
+sound A: sounder | soundest
+sound N: sounds
+sound V: sounded | sounding | sounds
+soup N: soups
+soup V: souped | souping | soups
+sour N: sours
+sour V: soured | souring | sours
+south A: souther | southest?
+south N: souths
+south V: southed | southing | souths
+sow V: sowed | sown, sowed 1 | sowing | sows
+space A: spacer | spacest?
+space N: spaces
+space V: spaced | spacing | spaces
+spade N: spades
+spade V: spaded | spading | spades
+span N: spans
+span V: spanned, spaned!< 1 | spanning, spaning!< 1 | spans
+spank N: spanks
+spank V: spanked | spanking | spanks
+spar N: spars, spares!< 1
+spar V: sparred, spared!< 1 | sparring, sparing!< 1 | spars, spares!< 1
+spare A: sparer | sparest
+spare N: spares
+spare V: spared | sparing | spares
+spark N: sparks
+spark V: sparked | sparking | sparks
+spars A?: sparser | sparsest
+spasm N: spasms
+spasm V?: spasmed | spasming | spasms
+spat N: spats {oyster}, spat 1 {oyster}, spats {quarrel}
+spat V: spatted | spatting | spats
+spate N: spates
+spawn N: spawns
+spawn V: spawned | spawning | spawns
+spay V: spayed | spaying | spays
+speak V: spoke, spake 2 | spoken, spoke 2 | speaking | speaks
+spear N: spears
+spear V: speared | spearing | spears
+speck N: specks
+speck V: specked | specking | specks
+speed N: speeds
+speed V: sped, speeded 1 | speeding | speeds
+spell N: spells
+spell V: spelled, spelt 1 | spelling | spells
+spelt N: spelts
+spend V: spent | spending | spends
+sperm N: sperms
+spew N: spews
+spew V: spewed | spewing | spews
+spice N: spices
+spice V: spiced | spicing | spices
+spicy A: spicier | spiciest
+spike N: spikes
+spike V: spiked | spiking | spikes
+spill N: spills
+spill V: spilled, spilt 1 | spilling | spills
+spin N: spins
+spin V: spun | spinning | spins
+spine N: spines
+spire N: spires
+spire V: spired | spiring | spires
+spit N: spits
+spit V: spitted {pierce}, spit {saliva}, spat 1 {saliva} | spitting, spiting!< 1 | spits
+spite N: spites
+spite V: spited | spiting | spites
+splat N: splats
+splat V: splatted | splatting | splats
+split N: splits
+split V: split | splitting | splits
+spoil N: spoils
+spoil V: spoiled, spoilt 1 | spoiling | spoils
+spoke N: spokes
+spoke V: spoked | spoking | spokes
+spoof N: spoofs
+spoof V: spoofed | spoofing | spoofs
+spook N: spooks
+spook V: spooked | spooking | spooks
+spool N: spools
+spool V: spooled | spooling | spools
+spoon N: spoons
+spoon V: spooned | spooning | spoons
+spore N: spores
+spore V: spored | sporing | spores
+sport A: sporter | sportest?
+sport N: sports
+sport V: sported | sporting | sports
+spot N: spots
+spot V: spotted | spotting | spots
+spout N: spouts
+spout V: spouted | spouting | spouts
+spray N: sprays
+spray V: sprayed | spraying | sprays
+spree N: sprees
+spree V: spreed | spreeing | sprees
+sprig N: sprigs
+sprig V: sprigged | sprigging | sprigs
+spud N: spuds
+spud V: spudded | spudding | spuds
+spunk N: spunks
+spunk V?: spunked | spunking | spunks
+spur N: spurs
+spur V: spurred | spurring | spurs
+spurn N: spurns
+spurn V: spurned | spurning | spurns
+spurt N: spurts
+spurt V: spurted | spurting | spurts
+spy N: spies
+spy V: spied | spying | spies
+squad N: squads
+squad V?: squadded | squadding | squads
+squat A: squatter | squattest
+squat N: squats
+squat V: squatted | squatting | squats
+squid N: squid, squids {:1}
+squid V?: squidded | squidding | squids
+stab N: stabs
+stab V: stabbed | stabbing | stabs
+stack N: stacks
+stack V: stacked | stacking | stacks
+staff A: staffer | staffest?
+staff N: staffs {people}, staves {rod_music}, staffs 0.1 {rod_music}
+staff V: staffed | staffing | staffs
+stag N: stags, stag 1
+stag V: stagged, staged!< 1 | stagging, staging!< 1 | stags
+stage N: stages
+stage V: staged | staging | stages
+staid A: staider | staidest
+stain N: stains
+stain V: stained | staining | stains
+stair N: stairs
+stake N: stakes
+stake V: staked | staking | stakes
+stale A: staler | stalest
+stale V: staled | staling | stales
+stalk N: stalks
+stalk V: stalked | stalking | stalks
+stall N: stalls
+stall V: stalled | stalling | stalls
+stamp N: stamps
+stamp V: stamped | stamping | stamps
+stand N: stands
+stand V: stood | standing | stands
+stank N?: stanks
+star N: stars, stares!< 1
+star V: starred, stared!< 1 | starring, staring!< 1 | stars, stares!< 1
+stare N: stares
+stare V: stared | staring | stares
+stark A: starker | starkest
+stark V?: starked | starking | starks
+start N: starts
+start V: started | starting | starts
+state A: stater | statest?
+state N: states
+state V: stated | stating | states
+stave N: staves
+stave V: staved, stove 1 | staving | staves
+stay N: stays
+stay V: stayed, staid 2 | staying | stays
+steak N: steaks
+steal N: steals, steales!< 1
+steal V: stole | stolen | stealing | steals, steales!< 1
+steam A: steamer | steammest?, steamest<? 1
+steam N: steams
+steam V: steamed | steaming | steams
+steel A: steeler?, steeller<? 1 | steelest?, steellest<? 1
+steel N: steels
+steel V: steeled | steeling | steels
+steep A: steeper | steepest
+steep N: steeps
+steep V: steeped | steeping | steeps
+steer N: steers, steer {:1}
+steer V: steered | steering | steers
+stem N: stems
+stem V: stemmed | stemming | stems
+step N: steps
+step V: stepped | stepping | steps
+stern A: sterner | sternest
+stern N: sterns
+stern V?: sterned | sterning | sterns
+stew N: stews
+stew V: stewed | stewing | stews
+stick N: sticks
+stick V: stuck | sticking | sticks
+stiff A: stiffer | stiffest
+stiff N: stiffs
+stiff V: stiffed | stiffing | stiffs
+still A: stiller | stillest
+still N: stills
+still V: stilled | stilling | stills
+sting N: stings
+sting V: stung | stinging | stings
+stink N: stinks
+stink V: stank, stunk 1 | stunk | stinking | stinks
+stint N: stints
+stint V: stinted | stinting | stints
+stir N: stirs
+stir V: stirred | stirring | stirs
+stock A: stocker | stockest?
+stock N: stocks
+stock V: stocked | stocking | stocks
+stoke V: stoked | stoking | stokes
+stole N: stoles
+stomp N: stomps
+stomp V: stomped | stomping | stomps
+stone A: stoner | stonest?
+stone N: stones {rock}, stone {weight}
+stone V: stoned | stoning | stones
+stony A: stonier | stoniest
+stool N: stools
+stool V: stooled | stooling | stools
+stoop N: stoops
+stoop V: stooped | stooping | stoops
+stop N: stops
+stop V: stopped, stoped!< 1 | stopping, stoping!< 1 | stops
+store A: storer | storest?
+store N: stores
+store V: stored | storing | stores
+stork N: storks
+storm N: storms
+storm V: stormed | storming | storms
+story N: stories
+story V: storied | storying | stories
+stout A: stouter | stoutest
+stout N: stouts
+stove N: stoves
+stove V: stoved | stoving | stoves
+stow V: stowed | stowing | stows
+strap N: straps
+strap V: strapped | strapping | straps
+straw A: strawer?, strawwer<? 1 | strawest?, strawwest<? 1
+straw N: straws
+straw V: strawed | strawing | straws
+stray A: strayer | strayest?, strayyest<? 1
+stray N: strays
+stray V: strayed | straying | strays
+strew V: strewed | strewed, strewn 0.1 | strewing | strews
+strip A: stripper, striper!< 1 | strippest?, stripest!<? 1
+strip N: strips
+strip V: stripped, stript 1 | stripping, striping!< 1 | strips
+strum N: strums
+strum V: strummed | strumming | strums
+strut N: struts
+strut V: strutted | strutting | struts
+stub N: stubs
+stub V: stubbed | stubbing | stubs
+stud N: studs
+stud V: studded | studding | studs
+study N: studies
+study V: studied | studying | studies
+stuff N: stuffs
+stuff V: stuffed | stuffing | stuffs
+stump N: stumps
+stump V: stumped | stumping | stumps
+stun N: stuns
+stun V: stunned | stunning | stuns
+stunt N: stunts
+stunt V: stunted | stunting | stunts
+style N: styles
+style V: styled | styling | styles
+suave A: suaver | suavest
+suck N: sucks
+suck V: sucked | sucking | sucks
+sue V: sued | suing | sues
+suede N: suedes
+suede V: sueded | sueding | suedes
+sugar N: sugars
+sugar V: sugared | sugaring | sugars
+suit N: suits
+suit V: suited | suiting | suits
+suite N: suites
+suite V?: suited | suiting | suites
+sulk N: sulks
+sulk V: sulked | sulking | sulks
+sulky A: sulkier | sulkiest
+sulky N: sulkies
+sunny A: sunnier | sunniest
+sunny N?: sunnies
+sunup N: sunups
+super A: superrer?, superer<? 1 | superrest?, superest<? 1
+super N: supers
+super V?: supered | supering | supers
+sure A: surer | surest
+surf N: surfs
+surf V: surfed | surfing | surfs
+surge N: surges
+surge V: surged | surging | surges
+surly A: surlier | surliest
+swab N: swabs
+swab V: swabbed | swabbing | swabs
+swamp A: swamper | swampest?
+swamp N: swamps
+swamp V: swamped | swamping | swamps
+swan N: swans, swan 1
+swan V: swanned | swanning | swans
+swap N: swaps
+swap V: swapped | swapping | swaps
+swarm N: swarms
+swarm V: swarmed | swarming | swarms
+swat N: swats
+swat V: swatted | swatting | swats
+sway N: sways
+sway V: swayed | swaying | sways
+swear V: swore | sworn | swearing | swears
+sweat N: sweats
+sweat V: sweat, sweated 1 | sweating | sweats
+sweep N: sweeps
+sweep V: swept | sweeping | sweeps
+sweet A: sweeter | sweetest
+sweet N: sweets
+swell A: sweller | swellest
+swell N: swells
+swell V: swelled | swollen, swelled 0.1 | swelling | swells
+swift A: swifter | swiftest
+swift N: swifts
+swift V?: swifted | swifting | swifts
+swig N: swigs
+swig V: swigged | swigging | swigs
+swill N: swills
+swill V: swilled | swilling | swills
+swim N: swims
+swim V: swam | swum | swimming | swims
+swine N: swine
+swing A: swinger | swingest?
+swing N: swings
+swing V: swung | swinging | swings
+swipe N: swipes
+swipe V: swiped | swiping | swipes
+swirl N: swirls
+swirl V: swirled | swirling | swirls
+swish A: swisher | swishest
+swish N: swishes
+swish V: swished | swishing | swishes
+swoon N: swoons
+swoon V: swooned | swooning | swoons
+swoop N: swoops
+swoop V: swooped | swooping | swoops
+sword N: swords
+sword V?: sworded | swording | swords
+syrup N: syrups
+syrup V: syruped | syruping | syrups
+tabby A: tabbier? | tabbiest?
+tabby N: tabbies
+tabby V: tabbied | tabbying | tabbies
+table N: tables
+table V: tabled | tabling | tables
+taboo A: tabooer? | tabooest?
+taboo N: taboos
+taboo V: tabooed | tabooing | taboos
+tacit A: tacitter?, taciter<? 1 | tacittest?, tacitest<? 1
+tack N: tacks
+tack V: tacked | tacking | tacks
+tacky A: tackier | tackiest
+tacky N?: tackies
+taco N: tacos
+tail N: tails
+tail V: tailed | tailing | tails
+taint N: taints
+taint V: tainted | tainting | taints
+take N: takes
+take V: took | taken | taking | takes
+taker N: takers
+tale N: tales
+talk N: talks
+talk V: talked | talking | talks
+tally N: tallies
+tally V: tallied | tallying | tallies
+talon N: talons, tala~ 1
+tam A?: tamer! | tamest!
+tam V?: tamed! | taming! | tams
+tame A: tamer | tamest
+tame V: tamed | taming | tames
+tamer N: tamers
+tamis N?: tamises, tames~ 1
+tang N: tangs
+tang V: tanged | tanging | tangs
+tango N: tangos, tangi~ 1
+tango V: tangoed | tangoing | tangos
+tank N: tanks
+tank V: tanked | tanking | tanks
+tap V: tapped, taped!< 1 | tapping, taping!< 1 | taps
+tape A: taper | tapest?
+tape N: tapes
+tape V: taped | taping | tapes
+taper N: tapers
+taper V: tapered | tapering | tapers
+tapis N: tapises, tapes~ 1
+tardy A: tardier | tardiest
+tardy N?: tardies
+tarry A: tarrier | tarriest
+tarry V: tarried | tarrying | tarries
+tart N: tarts
+tart V?: tarted | tarting | tarts
+task N: tasks
+task V: tasked | tasking | tasks
+taste N: tastes
+taste V: tasted | tasting | tastes
+tasty A: tastier | tastiest
+tatty A: tattier | tattiest
+tatty N?: tatties
+taunt N: taunts
+taunt V: taunted | taunting | taunts
+tawny A: tawnier | tawniest
+tawny N: tawnies
+tax N: taxes, taces< 1
+tax V: taxed | taxing | taxes
+taxi N: taxis, taxies 1
+taxi V: taxied | taxiing, taxying 1 | taxis, taxies 1
+taxis N: taxes
+teach N: teaches
+teach V: taught | teaching | teaches
+teak N: teaks
+team N: teams
+team V: teamed | teaming | teams
+tear N: tears
+tear V: teared {cry}, tore {rip} | torn | tearing | tears
+tease N: teases
+tease V: teased | teasing | teases
+teat N: teats
+teem V: teemed | teeming | teems
+teen N: teens
+tell N: tells
+tell V: told | telling | tells
+tempo N: tempos, tempi 1
+tempt V: tempted | tempting | tempts
+tend V: tended | tending | tends
+tenet N: tenets
+tenor A: tenorrer?, tenorer<? 1 | tenorrest?, tenorest<? 1
+tenor N: tenors
+tense A: tenser | tensest
+tense N: tenses
+tense V: tensed | tensing | tenses
+tent N: tents
+tent V: tented | tenting | tents
+tenth A: tenther? | tenthest?
+tenth N: tenths
+tepee N: tepees
+tepid A: tepider | tepidest
+term N: terms
+term V: termed | terming | terms
+terse A: terser | tersest
+test N: tests
+test V: tested | testing | tests
+text N: texts
+thank V: thanked | thanking | thanks
+thaw N: thaws
+thaw V: thawed | thawing | thaws
+theft N: thefts
+their A: theirrer?, theirer<? 1 | theirrest?, theirest<? 1
+their N?: theirs
+theme N: themes
+theme V: themed | theming | themes
+there A: therer? | therest?
+there N: theres
+these N: theses
+theta N: thetas
+thick A: thicker | thickest
+thick N: thicks
+thief N: thieves
+thigh N: thighs
+thin V: thinned | thinning | thins
+thing N: things
+think N: thinks
+think V: thought | thinking | thinks
+third A: thirder? | thirdest?
+third N: thirds
+third V?: thirded | thirding | thirds
+thong N: thongs
+thorn N: thorns
+thorn V: thorned | thorning | thorns
+those A: thoser? | thosest?
+those N: thoses?
+thou N: thous, thou {counting}
+thou V: thoued | thouing | thous
+three A: threer? | threest?
+three N: threes
+throb N: throbs
+throb V: throbbed | throbbing | throbs
+throw N: throws
+throw V: threw | thrown | throwing | throws
+thud N: thuds
+thud V: thudded | thudding | thuds
+thug N: thugs
+thumb N: thumbs
+thumb V: thumbed | thumbing | thumbs
+thump N: thumps
+thump V: thumped | thumping | thumps
+thyme N: thymes
+tiara N: tiaras
+tick N: ticks
+tick V: ticked | ticking | ticks
+tid V?: tided! | tiding! | tids, tides!< 1
+tidal A: tidaler?, tidaller<? 1 | tidalest?, tidallest<? 1
+tide N: tides
+tide V: tided | tiding | tides
+tie V: tied | tying, tieing 1 | ties
+tier N: tiers
+tier V: tiered | tiering | tiers
+tiff N: tiffs
+tiff V: tiffed | tiffing | tiffs
+tiger N: tigers
+tight A: tighter | tightest
+tight N?: tights
+til V?: tiled!, tilled< 1 | tiling!, tilling< 1 | tils, tiles!< 1
+tilde N: tildes
+tile N: tiles
+tile V: tiled | tiling | tiles
+till N: tills
+till V: tilled | tilling | tills
+tilt N: tilts
+tilt V: tilted | tilting | tilts
+time A: timer | timest?
+time N: times
+time V: timed | timing | times
+timer N: timers
+timid A: timider | timidest
+timid N: timids?, timides<? 1
+ting N: tings
+ting V: tinged | tinging | tings
+tinge N: tinges
+tinge V: tinged | tingeing, tinging 1 | tinges
+tinny A: tinnier | tinniest
+tinny N?: tinnies
+tint N: tints
+tint V: tinted | tinting | tints
+tipsy A: tipsier | tipsiest
+tire N: tires
+tire V: tired | tiring | tires
+tired A: tireder | tiredest
+title A: titler | titlest?
+title N: titles
+title V: titled | titling | titles
+toad N: toads
+toad V?: toadded | toadding | toads
+toast N: toasts
+toast V: toasted | toasting | toasts
+today A: todayer?, todayyer<? 1 | todayest?, todayyest<? 1
+today N: todays
+toga N: togas, togae 1
+toil N: toils, toiles!< 1
+toil V: toiled | toiling | toils, toiles!< 1
+token A: tokenner?, tokener<? 1 | tokennest?, tokenest<? 1
+token N: tokens
+token V: tokened | tokening | tokens
+toll N: tolls
+toll V: tolled | tolling | tolls
+tomb N: tombs
+tomb V: tombed | tombing | tombs
+tome N: tomes
+ton V?: toned! | toning! | tons
+tonal A: tonaler?, tonaller<? 1 | tonalest?, tonallest<? 1
+tone N: tones
+tone V: toned | toning | tones
+tong N: tongs
+tong V: tonged | tonging | tongs
+tonic A: tonicer?, toniccer<? 1 | tonicest?, toniccest<? 1
+tonic N: tonics
+tonne N: tonnes
+tool N: tools
+tool V: tooled | tooling | tools
+toot N: toots
+toot V: tooted | tooting | toots
+tooth N: teeth
+tooth V: toothed | toothing | tooths
+toots N?: tootses
+topaz N: topazes
+topic N: topics
+torch N: torches
+torch V: torched | torching | torches
+torso N: torsos, torsi 1, torsoes 2
+tot V: totted, toted!< 1 | totting, toting!< 1 | tots
+total A: totaler?, totaller? 1 | totalest?, totallest<? 1
+total N: totals
+total V: totaled, totalled 1 | totaling, totalling 1 | totals
+tote N: totes
+tote V: toted | toting | totes
+totem N: totems
+touch N: touches
+touch V: touched | touching | touches
+tough A: tougher | toughest
+tough N: toughs
+tough V?: toughed | toughing | toughs
+tour N: tours
+tour V: toured | touring | tours
+tout N: touts
+tout V: touted | touting | touts
+tow V: towed | towing | tows
+towel N: towels
+towel V: toweled, towelled 1 | toweling, towelling 1 | towels
+tower N: towers
+tower V: towered | towering | towers
+town N: towns
+toxic A: toxicer?, toxiccer<? 1 | toxicest?, toxiccest<? 1
+toxic N: toxics
+toxin N: toxins
+toy V: toyed | toying | toys
+trace N: traces
+trace V: traced | tracing | traces
+track N: tracks
+track V: tracked | tracking | tracks
+tract N: tracts
+trade A: trader | tradest?
+trade N: trades
+trade V: traded | trading | trades
+trail N: trails
+trail V: trailed | trailing | trails
+train N: trains
+train V: trained | training | trains
+trait N: traits
+tramp N: tramps
+tramp V: tramped | tramping | tramps
+trap N: traps
+trap V: trapped | trapping | traps
+trash N: trashes
+trash V: trashed | trashing | trashes
+trawl N: trawls
+trawl V: trawled | trawling | trawls
+tray N: trays
+tread N: treads
+tread V: trod | trodden, trod 1 | treading | treads
+treat N: treats
+treat V: treated | treating | treats
+tree N: trees
+tree V: treed | treeing | trees
+trek N: treks
+trek V: trekked | trekking | treks
+trend N: trends
+trend V: trended | trending | trends
+trial A: trialer?, trialler<? 1 | trialest?, triallest<? 1
+trial N: trials
+trial V: trialled | trialling | trials
+tribe N: tribes
+trick A: tricker | trickest?
+trick N: tricks
+trick V: tricked | tricking | tricks
+trie V?: tried | trying | tries
+trill N: trills
+trill V: trilled | trilling | trills
+trim N: trims
+trim V: trimmed | trimming | trims
+trio N: trios
+trios N?: trioses
+trip N: trips
+trip V: tripped | tripping | trips
+tripe N: tripes
+trips N?: tripses
+trite A: triter | tritest
+trite N?: trites
+troll N: trolls
+troll V: trolled | trolling | trolls
+troop N: troops
+troop V: trooped | trooping | troops
+trot N: trots
+trot V: trotted | trotting | trots
+trout N: trout, trouts {:1}
+truce N: truces
+truce V: truced | trucing | truces
+truck N: trucks
+truck V: trucked | trucking | trucks
+true A: truer | truest
+true N: trues
+true V: trued | truing, trueing 1 | trues
+truly A: trulier? | truliest?
+trump N: trumps
+trump V: trumped | trumping | trumps
+trunk N: trunks
+trunk V?: trunked | trunking | trunks
+trust N: trusts
+trust V: trusted | trusting | trusts
+truth N: truths
+try N: tries
+try V: tried | trying | tries
+tsar N: tsars
+tub V: tubbed, tubed!< 1 | tubbing, tubing!< 1 | tubs
+tuba N: tubae {Roman}, tubas {modern}
+tube N: tubes
+tube V: tubed | tubing | tubes
+tuck N: tucks
+tuck V: tucked | tucking | tucks
+tuft N: tufts
+tuft V: tufted | tufting | tufts
+tulip N: tulips
+tummy N: tummies
+tumor N: tumors
+tun V: tunned, tuned!< 1 | tunning, tuning!< 1 | tuns
+tuna N: tuna, tunas {:1}
+tune N: tunes
+tune V: tuned | tuning | tunes
+tuner N: tuners
+tunic N: tunics
+turf N: turfs, turves 1
+turf V: turfed | turfing | turfs
+turn N: turns
+turn V: turned | turning | turns
+tusk N: tusks
+tusk V: tusked | tusking | tusks
+tutor N: tutors
+tutor V: tutored | tutoring | tutors
+twang N: twangs
+twang V: twanged | twanging | twangs
+tweak N: tweaks
+tweak V: tweaked | tweaking | tweaks
+tweed N: tweeds
+tweet N: tweets
+tweet V: tweeted | tweeting | tweets
+twice A: twicer | twicest?
+twig N: twigs
+twig V: twigged | twigging | twigs
+twin N: twins
+twin V: twinned, twined!< 1 | twinning, twining!< 1 | twins
+twine N: twines
+twine V: twined | twining | twines
+twirl N: twirls
+twirl V: twirled | twirling | twirls
+twist N: twists
+twist V: twisted | twisting | twists
+tye V?: tyed | tyeing, tying | tyes
+type N: types
+type V: typed | typing | types
+tyre N: tyres
+tyre V: tyred | tyring | tyres
+udder N: udders
+ulcer N: ulcers
+ulcer V?: ulcered | ulcering | ulcers
+ultra A: ultraer? | ultraest?
+ultra N: ultras
+uncle N: uncles
+uncle V?: uncled | uncling | uncles
+uncut A: uncutter?, uncuter!<? 1 | uncuttest?, uncutest!<? 1
+under A: underrer?, underer<? 1 | underrest?, underest<? 1
+undo V: undid | undone | undoing | undoes
+undue A: unduer? | unduest?
+unfit A: unfitter | unfittest
+unfit V: unfitted, unfit~ 1 | unfitting | unfits
+unify V: unified | unifying | unifies
+union A: unionner?, unioner<? 1 | unionnest?, unionest<? 1
+union N: unions
+unit N: units
+unit V?: united! | uniting! | units
+unite N: unites
+unite V: united | uniting | unites
+unity N: unities
+unman V: unmanned | unmanning | unmans
+unsay V: unsaid | unsaying | unsays
+unset V?: unset | unsetting | unsets
+untie V: untied | untying | unties
+until V?: untiled!, untilled< 1 | untiling! | untiles!
+up A: upper | uppest?, upest<? 1
+up V: upped, up 1 | upping | ups
+upend V: upended | upending | upends
+upper N: uppers
+upset N: upsets
+upset V: upset | upsetting | upsets
+urban A: urbaner | urbanest
+urge N: urges
+urge V: urged | urging | urges
+urine N: urines
+usage N: usages
+use V: used | using | uses
+user N: users
+usher N: ushers
+usher V: ushered | ushering | ushers
+usual A: usualer?, usualler<? 1 | usualest?, usuallest<? 1
+usual N: usuals
+usurp V: usurped | usurping | usurps
+uterus N: uteri, uteruses 1
+utter A: utterer | utterest
+utter V: uttered | uttering | utters
+vague A: vaguer | vaguest
+vague V?: vagued | vagueing | vagues
+valet N: valets
+valet V: valeted | valeting | valets
+valid A: valider | validest
+valor N: valors
+value N: values
+value V: valued | valuing | values
+valve N: valves
+valve V: valved | valving | valves
+vane N: vanes
+vapor N: vapors
+vapor V: vapored | vaporing | vapors
+vas N: vases
+vase N: vases
+vast N: vasts
+vault N: vaults
+vault V: vaulted | vaulting | vaults
+veer N: veers
+veer V: veered | veering | veers
+veil N: veils
+veil V: veiled | veiling | veils
+vein N: veins
+vein V: veined | veining | veins
+vend V: vended | vending | vends
+venom N: venoms
+venom V: venomed | venoming | venoms
+vent N: vents
+vent V: vented | venting | vents
+venue N: venues
+verb N: verbs
+verge N: verges
+verge V: verged | verging | verges
+verse N: verses
+verse V: versed | versing | verses
+verve N: verves
+vest N: vests
+vest V: vested | vesting | vests
+vex V: vexed | vexing | vexes
+vial N: vials
+vial V: vialed, vialled 1 | vialing, vialling 1 | vials
+vicar N: vicars
+vice N: vices
+vice V: viced | vicing | vices
+video A: videoer? | videoest?
+video N: videos
+video V?: videoed | videoing | videos
+vie V: vied | vying | vies
+view N: views
+view V: viewed | viewing | views
+vigil N: vigils
+vigor N: vigors
+vile A: viler | vilest
+villa N: villas, villae 2
+vine N: vines
+vine V?: vined | vining | vines
+vinyl N: vinyls
+viola N: violas
+viper N: vipers
+viral A: viraler?, viraller<? 1 | viralest?, virallest<? 1
+virus N: viruses
+vis V?: vised! | vising! | vises
+visa N: visas
+visa V: visaed | visaing | visas
+vise N: vises
+vise V: vised, viseed 2 | vising, viseing 2 | vises
+visit N: visits
+visit V: visited | visiting | visits
+visor N: visors
+visor V: visored | visoring | visors
+vista N: vistas
+vista V?: vistaed | vistaing | vistas
+vital A: vitaler?, vitaller<? 1 | vitalest?, vitallest<? 1
+vital N?: vitals
+vivid A: vivider | vividest
+vocal A: vocaler?, vocaller<? 1 | vocalest?, vocallest<? 1
+vocal N: vocals
+vodka N: vodkas
+vogue A: voguer | voguest?
+vogue N: vogues
+vogue V?: vogued | vogueing, voguing | vogues
+voice N: voices
+voice V: voiced | voicing | voices
+void N: voids
+void V: voided | voiding | voids
+volt N: volts
+vomit N: vomits
+vomit V: vomited | vomiting | vomits
+vote N: votes
+vote V: voted | voting | votes
+voter N: voters
+vouch N: vouches
+vouch V: vouched | vouching | vouches
+vow V: vowed | vowing | vows
+vowel N: vowels
+vowel V: vowelled | vowelling | vowels
+wad N: wads, wades!< 1
+wad V: wadded, waded!< 1 | wadding, wading!< 1 | wads, wades!< 1
+wade N: wades
+wade V: waded | wading | wades
+wadis N?: wades
+wafer N: wafers
+wafer V: wafered | wafering | wafers
+waft N: wafts
+waft V: wafted | wafting | wafts
+wag V: wagged, waged!< 1 | wagging, waging!< 1 | wags
+wage N: wages
+wage V: waged | waging | wages
+wager N: wagers
+wager V: wagered | wagering | wagers
+wagon N: wagons
+wagon V: wagoned | wagoning | wagons
+waif N: waifs, waives< 1
+waif V?: waifed | waifing | waifs
+wail N: wails
+wail V: wailed | wailing | wails
+waist N: waists
+waist V?: waisted | waisting | waists
+wait N: waits
+wait V: waited | waiting | waits
+waive V: waived | waiving | waives
+wake N: wakes
+wake V: woke, waked 0.1 | waked, woken 1, woke 1.1 | waking | wakes
+waken V: wakened | wakening | wakens
+walk N: walks
+walk V: walked | walking | walks
+wall N: walls
+wall V: walled | walling | walls
+waltz N: waltzes
+waltz V: waltzed | waltzing | waltzes
+wan V: wanned, waned!< 1 | wanning, waning!< 1 | wans
+wand N: wands
+wane N: wanes
+wane V: waned | waning | wanes
+want N: wants
+want V: wanted | wanting | wants
+ward N: wards
+ward V: warded | warding | wards
+warm N: warms
+warm V: warmed | warming | warms
+warn V: warned | warning | warns
+warp N: warps
+warp V: warped | warping | warps
+wart N: warts
+wasp N: wasps
+waste A: waster | wastest?
+waste N: wastes
+waste V: wasted | wasting | wastes
+wat A?: watter, water< 1 | wattest
+watch N: watches
+watch V: watched | watching | watches
+water N: waters
+water V: watered | watering | waters
+watt N: watts
+wave N: waves
+wave V: waved | waving | waves
+waver N: wavers
+waver V: wavered | wavering | wavers
+wax N: waxes
+wax V: waxed | waxed, waxen 2 | waxing | waxes
+wean V: weaned | weaning | weans
+wear N: wears
+wear V: wore | worn | wearing | wears
+weary A: wearier | weariest
+weary V: wearied | wearying | wearies
+weave N: weaves
+weave V: wove {fabric}, weaved {zigzag} | woven | weaving | weaves
+wedge N: wedges
+wedge V: wedged | wedging | wedges
+wee A: weer | weest
+weed N: weeds
+weed V: weeded | weeding | weeds
+weeds N: weedses
+weedy A: weedier | weediest
+week N: weeks
+weep N: weeps
+weep V: wept | weeping | weeps
+weigh N: weighs
+weigh V: weighed | weighing | weighs
+weird A: weirder | weirdest
+weird N: weirds
+weird V?: weirded | weirding | weirds
+weld N: welds
+weld V: welded | welding | welds
+well N: wells
+well V: welled | welling | wells
+welt N: welts
+welt V: welted | welting | welts
+whack N: whacks
+whack V: whacked | whacking | whacks
+whale N: whales, whale {:1}
+whale V: whaled | whaling | whales
+wharf N: wharves, wharfs 1
+wharf V: wharfed | wharfing | wharfs
+what N: whats
+wheat N: wheats
+wheel N: wheels
+wheel V: wheeled | wheeling | wheels
+when N: whens
+where A: wherer? | wherest?
+where N: wheres
+whet N: whets
+whet V: whetted | whetting | whets
+which A: whicher? | whichest?
+which N: whiches?, whichs<? 1
+whiff N: whiffs
+whiff V: whiffed | whiffing | whiffs
+while N: whiles
+while V: whiled | whiling | whiles
+whim N: whims
+whim V?: whimmed | whimming | whims
+whine N: whines
+whine V: whined | whining | whines
+whip N: whips
+whip V: whipped | whipping | whips
+whir N: whirs
+whir V: whirred | whirring | whirs
+whirl N: whirls
+whirl V: whirled | whirling | whirls
+whirr N: whirrs
+whirr V: whirred | whirring | whirrs
+whisk N: whisks
+whisk V: whisked | whisking | whisks
+white A: whiter | whitest
+white N: whites
+white V: whited | whiting | whites
+whiting N: whitings {chalk}, whiting {fish}, whitings {fish:1}
+whizz N: whizzes
+whizz V: whizzed | whizzing | whizzes
+whole A: wholer? | wholest?
+whole N: wholes
+whoop N: whoops
+whoop V: whooped | whooping | whoops
+whore N: whores
+whore V: whored | whoring | whores
+whose A: whoser? | whosest?
+whose N: whoses?
+wick N: wicks
+wick V: wicked | wicking | wicks
+wide A: wider | widest
+widen V: widened | widening | widens
+widow N: widows
+widow V: widowed | widowing | widows
+width N: widths
+wield V: wielded | wielding | wields
+wife N: wives
+wild N: wilds
+wild V?: wilded | wilding | wilds
+will N: wills
+will V: willed, would {future}, wouldst 2 {future} | willing | wills, will {future}, wilt 2 {future}
+wilt N: wilts
+wilt V: wilted | wilting | wilts
+wince N: winces
+wince V: winced | wincing | winces
+winch N: winches
+winch V: winched | winching | winches
+wind N: winds
+wind V: winded {blow}, wound 1 {blow}, wound {curve}, winded 1 {curve}, winded {scent_tire} | winding | winds
+windy A: windier | windiest
+wine N: wines
+wine V: wined | wining | wines
+wing N: wings
+wing V: winged | winging | wings
+wink N: winks
+wink V: winked | winking | winks
+wipe N: wipes
+wipe V: wiped | wiping | wipes
+wiper N: wipers
+wire N: wires
+wire V: wired | wiring | wires
+wired N?: wireds
+wis A?: wiser! | wisest!
+wis V?: wissed, wised!< 1 | wissing, wising!< 1 | wises, wisses< 1
+wise A: wiser | wisest
+wise N: wises
+wise V: wised | wising | wises
+wisp N: wisps
+wisp V: wisped | wisping | wisps
+wispy A: wispier | wispiest
+witch N: witches
+witch V: witched | witching | witches
+witty A: wittier | wittiest
+wive V: wived | wiving | wives
+wolf V: wolfed | wolfing | wolfs
+woman A: womanner?, womaner<? 1 | womannest?, womanest<? 1
+woman N: women
+woman V: womaned | womaning | womans
+womb N: wombs
+woo V: wooed | wooing | woos
+wood N: woods
+wood V: wooded | wooding | woods
+woody A: woodier | woodiest
+woody N: woodies
+woof N: woofs
+woof V: woofed | woofing | woofs
+word N: words
+word V: worded | wording | words
+wordy A: wordier | wordiest
+work N: works
+work V: worked, wrought 1 | working | works
+world A: worlder? | worldest?
+world N: worlds
+worm N: worms
+worm V: wormed | worming | worms
+worry N: worries
+worry V: worried | worrying | worries
+worse N: worses
+worst N: worsts
+worst V: worsted | worsting | worsts
+worth A: worther? | worthest?
+worth N: worths
+worth V: worthed | worthing | worths
+would V: woulded? | woulding? | woulds
+wound A: wounder | woundest?
+wound N: wounds
+wound V: wounded | wounding | wounds
+woven N?: wovens
+wow V: wowed | wowing | wows
+wrap N: wraps
+wrap V: wrapped, wrapt 1 | wrapping | wraps
+wrath A: wrather? | wrathest?
+wrath N: wraths
+wrath V?: wrathed | wrathing | wraths
+wreak V: wreaked | wreaking | wreaks
+wreck N: wrecks
+wreck V: wrecked | wrecking | wrecks
+wren N: wrens
+wrest N: wrests
+wrest V: wrested | wresting | wrests
+wring N: wrings
+wring V: wrung | wringing | wrings
+wrist N: wrists
+writ N: writs
+write V: wrote | written, writ 1 | writing | writes
+wrong A: wronger | wrongest
+wrong N: wrongs
+wrong V: wronged | wronging | wrongs
+wry A: wryer, wrier 1 | wryest, wriest 1
+yacht N: yachts
+yacht V: yachted | yachting | yachts
+yank N: yanks
+yank V: yanked | yanking | yanks
+yard N: yards
+yard V: yarded | yarding | yards
+yarn N: yarns
+yarn V: yarned | yarning | yarns
+yawn N: yawns
+yawn V: yawned | yawning | yawns
+year N: years
+yearn V: yearned | yearning | yearns
+yeast N: yeasts
+yeast V: yeasted | yeasting | yeasts
+yell N: yells
+yell V: yelled | yelling | yells
+yelp N: yelps
+yelp V: yelped | yelping | yelps
+yen N: yens {craving}, yen {money}
+yes N: yeses, yesses 2
+yes V: yessed, yesed 2 | yessing, yesing 2 | yeses, yesses 2
+yield N: yields
+yield V: yielded | yielding | yields
+yodel N: yodels
+yodel V: yodeled, yodelled 1 | yodeling, yodelling 1 | yodels
+yok V?: yokked, yoked!< 1 | yokking, yoking!< 1 | yoks
+yoke N: yokes
+yoke V: yoked | yoking | yokes
+yokel N: yokels
+yolk N: yolks
+young A: younger | youngest
+young N: young
+your N: yours
+youth N: youths
+yowl N: yowls
+yowl V: yowled | yowling | yowls
+zebra N: zebras, zebra {:1}
+zero N: zeros, zeroes 1
+zero V: zeroed | zeroing | zeros, zeroes 1
+zest N: zests
+zest V: zested | zesting | zests
+zinc N: zincs
+zinc V: zincked, zinced 1 | zincking, zincing 1 | zincs, zincks 2
+zone N: zones
+zone V: zoned | zoning | zones
+zoom N: zooms
+zoom V: zoomed | zooming | zooms

@@ -5,7 +5,7 @@ import {ANSWERS,ALLOWED} from '../src/words.ts';
 
 test('Absurd can select answers only from the current curated pool while accepting broader guesses',()=>{
  const run=newImpossible();
- assert.equal(run.candidates.length,3493);
+ assert.equal(run.candidates.length,2103);
  assert.deepEqual(new Set(run.candidates),new Set(ANSWERS));
  assert.equal(run.candidates.includes('XYLEM'),false);assert.equal(ALLOWED.has('XYLEM'),true);
 });
@@ -23,7 +23,7 @@ test('all pre-update round formats reset to first-use defaults',()=>{
 
 import {impossibleShare} from '../src/impossible.ts';
 test('adaptive shares use the Absurd name and identify the curated count',()=>{
- const share=impossibleShare(newImpossible());assert.match(share,/Morrowmark · Absurd · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/3493 curated answers remain/);
+ const share=impossibleShare(newImpossible());assert.match(share,/Morrowmark · Absurd · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/2103 curated answers remain/);
 });
 
 import {submitImpossible,restoreImpossible,impossibleSnapshot,impossibleStatus} from '../src/impossible.ts';
@@ -53,12 +53,12 @@ test('new Absurd snapshots and all old naming aliases reconstruct the same curat
 });
 test('Absurd advice counts only curated candidates and ignores unsupported pool overrides',()=>{
  let run=newImpossible('easy');for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;
- assert.equal(run.candidates.length,5);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);
+ assert.equal(run.candidates.length,7);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);
  const oldScope={...observedClues(run),candidatePool:'accepted'};assert.deepEqual(possibleAnswers(oldScope),run.candidates);
- for(const kind of ['optimal','suboptimal'] as const)assert.equal(analyzeObservations(observedClues(run),kind).totalCandidates,5);
+ for(const kind of ['optimal','suboptimal'] as const)assert.equal(analyzeObservations(observedClues(run),kind).totalCandidates,7);
 });
 test('out-of-pool cached candidates cannot become an Absurd reveal and obsolete dataset snapshots fail closed',()=>{
  let run=newImpossible();for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;
- const forged=restoreImpossible({...impossibleSnapshot(run),answer:'XYLEM',candidates:['XYLEM'],candidatePool:'accepted'})!;assert.deepEqual(forged.candidates,run.candidates);const ended=submitImpossible(forged,'MAKES').run;assert.equal(ended.answer,'WAXES');assert.ok(ANSWERS.includes(ended.answer));
+ const forged=restoreImpossible({...impossibleSnapshot(run),answer:'XYLEM',candidates:['XYLEM'],candidatePool:'accepted'})!;assert.deepEqual(forged.candidates,run.candidates);const ended=submitImpossible(forged,'MAKES').run;assert.equal(ended.answer,'PAPER');assert.ok(ANSWERS.includes(ended.answer));
  assert.equal(restoreImpossible({...impossibleSnapshot(run),dataset:'curated-absurd-2315-v1'}),null);
 });

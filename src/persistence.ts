@@ -1,5 +1,5 @@
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
-import {ANSWERS,ALLOWED,ANSWER_DATASET} from './words.ts';
+import {ANSWERS,ALLOWED,ANSWER_DATASET,PREVIOUS_ANSWER_DATASET} from './words.ts';
 import {dailyAnswer, difficulty, DAY, newRun, status, submit, validDate, type Run,type Difficulty} from './domain.ts';
 export const SAVE_KEY='morrowmark.v1';
 export interface HistoricalResult {won:boolean;turns:number}
@@ -11,6 +11,7 @@ export function emptySave(date:string,mode:boolean|Difficulty=false):Save {
  return {version:3,dataset:ANSWER_DATASET,history:{},date,daily:newRun(dailyAnswer(date),mode),practice:newRun('APPLE',mode),mode:'daily',impossible:newImpossible(),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
 }
 function object(value:unknown):value is Record<string,unknown> {return typeof value==='object' && value!==null && !Array.isArray(value)}
+function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'?value:'daily'}
 function storedDifficulty(value:Record<string,unknown>):Difficulty {return value.difficulty==='easy'||value.difficulty==='hard'||value.difficulty==='strict'||value.difficulty==='normal'?value.difficulty:value.strictMode===true?'strict':value.hardMode===true?'hard':value.easyMode===true?'easy':'normal'}
 function validatedRun(value:unknown, answer:string):Run|null {
  if(!object(value)||!Array.isArray(value.guesses)||value.guesses.length>6) return null;
@@ -38,7 +39,9 @@ export function decode(raw:string|null,today:string):Save {
  const save=emptySave(today); if(!raw)return save;
  try{
   const value:unknown=JSON.parse(raw);
-  if(!object(value)||value.version!==3||value.dataset!==ANSWER_DATASET)return save;
+  if(!object(value)||value.version!==3)return save;
+  const replacedGuide=value.dataset===PREVIOUS_ANSWER_DATASET;
+  if(value.dataset!==ANSWER_DATASET&&!replacedGuide)return save;
   save.settings.hardMode=object(value.settings)&&(value.settings.hardMode===true||value.settings.difficulty==='hard');
   if(object(value.settings)&&(value.settings.easyMode===true||value.settings.difficulty==='easy')){save.settings.easyMode=true;save.settings.hardMode=false;}
   if(object(value.settings)&&value.settings.suboptimal===true)save.settings.suboptimal=true;
@@ -46,6 +49,14 @@ export function decode(raw:string|null,today:string):Save {
   save.daily=newRun(dailyAnswer(today),difficulty(save.settings));
   save.practice=newRun('APPLE',difficulty(save.settings));
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
+  if(replacedGuide){
+   // Read only preferences from the known previous guide, never its clues, answers or outcomes.
+   save.daily=newRun(dailyAnswer(today),validDate(value.date)&&value.date===today&&object(value.daily)?storedDifficulty(value.daily):difficulty(save.settings));
+   save.practice=newRun('APPLE',object(value.practice)?storedDifficulty(value.practice):difficulty(save.settings));
+   const adaptive=object(value.impossible)?value.impossible:object(value.absurd)?value.absurd:object(value.evil)?value.evil:null;
+   save.impossible=newImpossible(adaptive?storedDifficulty(adaptive):'normal');save.mode=storedMode(value.mode);
+   return save;
+  }
   if(object(value.history))for(const [date,result] of Object.entries(value.history)){
    if(validDate(date)&&date<=today&&object(result)&&typeof result.won==='boolean'&&Number.isInteger(result.turns)&&Number(result.turns)>=1&&Number(result.turns)<=6&&(result.won||result.turns===6))save.history[date]={won:result.won,turns:Number(result.turns)};
   }
@@ -68,7 +79,7 @@ export function decode(raw:string|null,today:string):Save {
    save.practice=validatedRun(value.practice,value.practice.answer)??save.practice;
   }
   save.impossible=restoreImpossible(value.impossible)??restoreImpossible(value.absurd)??restoreImpossible(value.evil)??newImpossible();
-  save.mode=value.mode==='evil'||value.mode==='absurd'?'impossible':value.mode==='practice'||value.mode==='impossible'?value.mode:'daily';
+  save.mode=storedMode(value.mode);
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
   return save;
  }catch{return save}

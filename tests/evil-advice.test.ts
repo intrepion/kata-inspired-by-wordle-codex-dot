@@ -50,10 +50,10 @@ test('legacy Impossible saves and Absurd aliases resume the same round and draft
 
 test('first-turn full-dictionary ranking has stable least-elimination fixtures',()=>{
  const run=newImpossible(),result=notRecommended(run);
- assert.equal(result.eligibleWords,11193);assert.equal(result.totalCandidates,3493);
- assert.deepEqual(result.suggestions.map(item=>[item.word,item.worstCaseLeft]),[['BUBBY',2290],['FUZZY',2283],['YUKKY',2280],['BUZZY',2248],['MUMMY',2228]]);
+ assert.equal(result.eligibleWords,11193);assert.equal(result.totalCandidates,2103);
+ assert.deepEqual(result.suggestions.map(item=>[item.word,item.worstCaseLeft]),[['IMMIX',1307],['JUGUM',1298],['YUKKY',1282],['KUDZU',1265],['FUZZY',1256]]);
  for(const item of result.suggestions){
   const groups=new Map<string,number>();for(const answer of run.candidates){const key=score(answer,item.word).join(',');groups.set(key,(groups.get(key)??0)+1);}
-  assert.equal(item.worstCaseLeft,Math.max(...groups.values()));assert.equal(item.guaranteedEliminations,3493-item.worstCaseLeft);
+  assert.equal(item.worstCaseLeft,Math.max(...groups.values()));assert.equal(item.guaranteedEliminations,2103-item.worstCaseLeft);
  }
 });

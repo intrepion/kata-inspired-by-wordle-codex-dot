@@ -1,0 +1,14 @@
+{
+  "version": "2016.01.19",
+  "revision": "5ef55f9c42730ebe4394a78b77855468a6f15dd2",
+  "archiveUrl": "https://codeload.github.com/en-wl/wordlist/tar.gz/5ef55f9c42730ebe4394a78b77855468a6f15dd2",
+  "archiveSha256": "933cd8edab9297fc8cb6358d7cb3d05a50371107d1431af61de09eaa875043ac",
+  "dataUrl": "https://raw.githubusercontent.com/en-wl/wordlist/5ef55f9c42730ebe4394a78b77855468a6f15dd2/agid/infl.txt",
+  "dataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+  "readmeUrl": "https://raw.githubusercontent.com/en-wl/wordlist/5ef55f9c42730ebe4394a78b77855468a6f15dd2/agid/README",
+  "readmeSha256": "d7e5fee4bd2d370c231581679e9d4f4a099cef0629f44aa64e0b0b46ed8a8167",
+  "snapshotSha256": "873a12300c5121520589b93006ba14a4cf5d7e6231ac4a75c338ce33bc451cb9",
+  "licenseSha256": "df2d10e9c7cf373500de49f1a87665e12d8d47726179291a10dcdffdefe94261",
+  "formatSha256": "ac526014bc4f12a75e29e4a131c19b3383c1b37a58e3450363405ed067c68816",
+  "licenseExtraction": "Unmodified upstream header plus complete COPYRIGHT AND SOURCE section; no permission terms altered."
+}

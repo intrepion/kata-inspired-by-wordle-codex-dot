@@ -1,0 +1,26 @@
+{
+  "exclude": {
+    "HIDED": "Reviewed past form of hide; AGID marks the inferred mapping uncertain. A rare bound-adjective use does not supply a common independent base sense.",
+    "SADES": "Reviewed noun plural of sade; AGID marks POS uncertain, but this is an inflected form without a common independent base sense."
+  },
+  "keep": {
+    "ABODE": "Independent noun meaning home/dwelling, not only past of abide.",
+    "BOUND": "Independent noun/verb meaning limit or leap, not only past of bind.",
+    "CLEFT": "Independent noun meaning fissure, not only an inflection of cleave.",
+    "CLOVE": "Independent spice noun, not only past of cleave.",
+    "CORPS": "Singular military unit as well as invariant plural; not merely plural of corp.",
+    "DROVE": "Independent noun for a herd/crowd, not only past of drive.",
+    "FOUND": "Independent base verb meaning establish, not only past of find.",
+    "GENUS": "Singular biological classification, despite AGID also listing a rare plural of genu.",
+    "MEANS": "Independent singular method/instrument sense: a means to an end; not only plural of mean.",
+    "MIGHT": "Independent noun meaning strength, not only modal past of may.",
+    "MOPED": "Independent vehicle noun, not only past of mope.",
+    "OPERA": "Independent singular musical drama, not merely Latin plural of opus.",
+    "SMELT": "Independent fish noun and metalworking base verb, not only past of smell.",
+    "SPELT": "Independent grain noun, not only past of spell.",
+    "SPOKE": "Independent wheel-part noun, not only past of speak.",
+    "STOLE": "Independent garment noun, not only past of steal.",
+    "STOVE": "Independent appliance noun, not only past of stave.",
+    "WOUND": "Independent injury noun/base verb, not only past of wind."
+  }
+}

@@ -22,7 +22,7 @@ test('duplicate-aware partitions exactly match every retained candidate',()=>{
 });
 const exploratory=['XYLEM','JAZZY','FUZZY','BOOZY','DIZZY','MAMMA'];
 test('full-pool play never empties or contradicts past clues; six turns persist',()=>{
- let run=newImpossible();assert.equal(run.candidates.length,3493);
+ let run=newImpossible();assert.equal(run.candidates.length,2103);
  for(const guess of exploratory){
   const next=submitImpossible(run,guess);assert.equal(next.error,undefined);run=next.run;
   assert.ok(run.candidates.length>0);
@@ -75,7 +75,7 @@ test('Impossible save corruption resets only the separate round and share is hon
 
 test('full-pool deterministic win resumes and rejects a post-win saved guess',()=>{
  let run=newImpossible();
- for(const guess of ['ALOES','TRUNK','BUMPH','DAMME','JUMPS','PUMPS'])run=submitImpossible(run,guess).run;
+ for(const guess of ['RAISE','MUHLY','CATCH','BOUGH','DOUGH'])run=submitImpossible(run,guess).run;
  assert.equal(impossibleStatus(run),'won');assert.equal(run.candidates.length,1);assert.deepEqual(run.feedback.at(-1),Array(5).fill('exact'));
  assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run);
  assert.equal(restoreImpossible({...impossibleSnapshot(run),guesses:[...run.guesses,'CRANE']}),null);
@@ -83,6 +83,6 @@ test('full-pool deterministic win resumes and rejects a post-win saved guess',()
 test('restart repeats identical full-pool feedback and surviving counts',()=>{
  const first=submitImpossible(newImpossible(),'ADIEU').run;
  const restarted=submitImpossible(newImpossible(),'ADIEU').run;
- assert.equal(first.candidates.length,430);assert.deepEqual(first.feedback,[['elsewhere','absent','absent','absent','absent']]);
+ assert.equal(first.candidates.length,251);assert.deepEqual(first.feedback,[['elsewhere','absent','absent','absent','absent']]);
  assert.deepEqual(restarted,first);
 });

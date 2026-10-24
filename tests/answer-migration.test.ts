@@ -19,9 +19,9 @@ test('corrupt or unsupported current data resets safely to defaults',()=>{
  assert.equal(restoreImpossible({...impossibleSnapshot(newImpossible()),dataset:'old'}),null);
 });
 test('ordinary schedule, practice, Absurd and advice use the current curated answer selection',()=>{
- assert.equal(new Set(ANSWERS).size,3493);assert.equal(ALLOWED.size,11193);for(const answer of ANSWERS)assert.ok(ALLOWED.has(answer));
+ assert.equal(new Set(ANSWERS).size,2103);assert.equal(ALLOWED.size,11193);for(const answer of ANSWERS)assert.ok(ALLOWED.has(answer));
  assert.equal(dailyAnswer('2026-01-01'),'ABACK');assert.equal(choosePractice('ABACK',()=>0).answer,'ABATE');assert.deepEqual(newImpossible().candidates,ANSWERS);assert.deepEqual(possibleAnswers({guesses:[],feedback:[]}),ANSWERS);
- let run=newImpossible();for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;assert.equal(possibleAnswers(observedClues(run)).length,5);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run);
+ let run=newImpossible();for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;assert.equal(possibleAnswers(observedClues(run)).length,7);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run);
 });
 test('current-format UTC rollover retains newly earned history and practice preferences',()=>{
  const save=emptySave('2026-04-01','strict');save.practice=newRun('APPLE','easy');save.practice.draft='CRA';save.daily=submit(save.daily,save.daily.answer).run;recordDaily(save,save.date,save.daily);

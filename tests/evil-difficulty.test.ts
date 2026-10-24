@@ -64,7 +64,7 @@ test('Absurd saves its own difficulty, old snapshots default Normal, malformed r
 });
 test('Easy advice is determined only by adaptive feedback and agrees with remaining curated candidates',()=>{
  const run=submitImpossible(newImpossible('easy'),'ALLEY').run;
- assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);assert.ok(ANSWERS.length===3493);
+ assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);assert.ok(ANSWERS.length===2103);
  const same={...run,answer:'ZZZZZ',candidates:[]};assert.deepEqual(observedClues(same),observedClues(run));
  assert.deepEqual(analyzeObservations(observedClues(same),'optimal'),analyzeObservations(observedClues(run),'optimal'));
  const equivalent={...newRun(run.candidates[0],'easy'),guesses:run.guesses};assert.deepEqual(analyzeObservations(observedClues(run),'optimal'),analyzeObservations(observedClues(equivalent),'optimal'));

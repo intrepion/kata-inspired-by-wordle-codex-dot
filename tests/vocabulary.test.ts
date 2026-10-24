@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 import {ANSWERS,ALLOWED} from '../src/words.ts';
 import {choosePractice,newRun,shareText,submit} from '../src/domain.ts';
 test('licensed SCOWL vocabulary has unique ASCII five-letter answers and separate accepted guesses',()=>{
- assert.equal(ANSWERS.length,3493);assert.equal(new Set(ANSWERS).size,3493);assert.equal(ALLOWED.size,11193);
+ assert.equal(ANSWERS.length,2103);assert.equal(new Set(ANSWERS).size,2103);assert.equal(ALLOWED.size,11193);
  for(const word of ALLOWED)assert.match(word,/^[A-Z]{5}$/);
  for(const word of ANSWERS)assert.equal(ALLOWED.has(word),true);
  assert.equal(ALLOWED.has('ALLEY'),true);assert.equal(ANSWERS.includes('ALLEY'),true);
@@ -38,7 +38,7 @@ test('pinned SCOWL inputs generate the exact answer/guess modules reproducibly',
  const raw=readFileSync(new URL('../src/data/scowl-five-letter.json',import.meta.url));assert.equal(createHash('sha256').update(raw).digest('hex'),manifest.snapshotSha256);assert.equal(Object.keys(manifest.files).length,27);
  assert.deepEqual([...ALLOWED],ACCEPTED_GUESSES);assert.deepEqual([...ALLOWED],[...ALLOWED].sort());
  const notice=readFileSync(new URL('../public/third-party/SCOWL-Copyright.txt',import.meta.url),'utf8');assert.match(notice,/Permission to use, copy, modify, distribute and sell/);assert.match(notice,/WordNet 1.6 Copyright 1997/);assert.match(notice,/J Ross Beresford 1993-1999/);
- assert.match(execFileSync(process.execPath,['scripts/generate-vocabulary.mjs','--check'],{encoding:'utf8'}),/3493 answers, 11193 guesses/);
+ assert.match(execFileSync(process.execPath,['scripts/generate-vocabulary.mjs','--check'],{encoding:'utf8'}),/2103 answers, 11193 guesses/);
 });
 test('invalid guesses leave the run, draft and turn count intact',()=>{
  const run={...newRun('APPLE'),draft:'ADI'};

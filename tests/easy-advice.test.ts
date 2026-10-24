@@ -24,7 +24,7 @@ test('Easy allows unrestricted midgame play and assistance survives downgrade, r
 });
 test('advice transport and initial pools are independent of hidden selected answer',()=>{
  const a=observedClues(newRun('APPLE','easy')),b=observedClues(newRun('LEVEL','easy'));
- assert.deepEqual(a,b);assert.equal(possibleAnswers(a).length,3493);assert.deepEqual(Object.keys(a).sort(),['feedback','finished','guesses']);
+ assert.deepEqual(a,b);assert.equal(possibleAnswers(a).length,2103);assert.deepEqual(Object.keys(a).sort(),['feedback','finished','guesses']);
  const first=submit(newRun('APPLE'),'ALLEY').run,second=submit(newRun('AMPLE'),'ALLEY').run;
  assert.deepEqual(observedClues(first),observedClues(second));assert.deepEqual(analyzeObservations(observedClues(first),'optimal'),analyzeObservations(observedClues(second),'optimal'));
 });
@@ -50,7 +50,7 @@ test('singleton Optimal solves directly; tied perfect information prefers remain
 test('legacy boolean and named difficulties migrate while optional assistance persists separately',()=>{
  const save=emptySave('2026-10-24');const raw=JSON.parse(encode(save));raw.practice={answer:'APPLE',guesses:[],draft:'',difficulty:'easy'};raw.settings={contrast:false,difficulty:'easy',suboptimal:true};
  const restored=decode(JSON.stringify(raw),save.date);assert.equal(difficulty(restored.practice),'easy');assert.equal(restored.practice.assisted,true);assert.equal(difficulty(restored.settings),'easy');assert.equal(restored.settings.suboptimal,true);
- assert.equal(ANSWERS.length,3493);
+ assert.equal(ANSWERS.length,2103);
 });
 test('new advice preferences do not retroactively mark an old completed daily result',()=>{
  const save=emptySave('2026-10-24');save.daily=submit(save.daily,save.daily.answer).run;recordDaily(save,save.date,save.daily);

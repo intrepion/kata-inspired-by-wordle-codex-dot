@@ -1,6 +1,14 @@
+# Current answer-form filtering verification
+
+The local filtered guide contains2,103 answers and the exact unchanged11,193 accepted guesses. AGID2016.01.19 source grammar, qualified mappings and reviewed exceptions remove recognized noun plural/past-tense forms; the source is not an exhaustive classifier. See ADR0019 and WORDS-LICENSE.md.
+
+TDD: /tmp/morph-plurals-red.log→green (BOOKS and irregulars), /tmp/morph-past-red.log→green (regular/irregular pasts), /tmp/morph-reviewed-red.log→green (HIDED review), /tmp/morph-migration-red.log→green (new dataset/known prior preferences). Tests protect GLASS/CLASS/FOCUS/BONUS, BLEED/GREED/NAKED/BIPED, invariant SHEEP, independent FOUND/WOUND/SPOKE, unchanged guess SHA, subset integrity and source/audit reproduction.
+
+Full /tmp/morph-final-check.log:117 tests, TypeScript and production build pass. Updated data-specific fixtures use an independent Counter feedback reference:2103→412→61→28→13→7 on the reported sequence. No scorer/adversary/difficulty/advice-metric or inline-definition logic was changed. Known previous SCOWL rounds/results restart once with validated preferences retained; current progress then persists normally.
+
 # Morrowmark verification
 
-## Current independent vocabulary replacement (2026-10-24)
+## Previously published independent vocabulary replacement (2026-10-24)
 
 SCOWL2020.12.07 revision5ef55f9c42730ebe4394a78b77855468a6f15dd2 replaces both extracted-game lists. Exact archive/source checksums and full retained terms are in WORDS-LICENSE.md. The source importer independently verifies27 original input files and reproduces the small filtered snapshot; offline generator --check verifies both modules. Current counts are3,493 common-tier answers and11,193 accepted guesses. Removed retired raw/generated lists, obsolete migration selection, old notice and superseded source-only decisions. No official NYT parity or legal warranty is claimed.
 
@@ -42,3 +50,10 @@ The user requested that Easy show Optimal suggestions on a brand-new round befor
 Fullcheck /tmp/openers-full-check.log passes109 tests, TypeScript and build. Independent Standards/Spec reviews have no findings. Durable `node --import tsx scripts/check-easy-openers.mjs` passes1280/390 (/tmp/openers-ui-green.log): all3variants zero accepted guesses/drafts, all3493candidates/11193guess analysis, five opener words/inline definitions, Assisted marker, reload/cache/mode switches, fresh Practice/Absurd rounds, and hiding in Normal/Hard/Strict. Algorithm, save schema/dataset, difficulty selection, ranking/cancellation and defaultoff Suboptimal are unchanged.
 
 The current user explicitly authorized committing/pushing the completed features. Upstream main’s platform ignore-template commit is retained by fast-forward, with no force workflow. The candidate tree is scanned for credential patterns, local QA/build/dependency artifacts and retired extracted datasets. Full locked-dependency audit reports zero vulnerabilities. A targeted .gitattributes exception retains the exact upstream SCOWLREADME bytes (including its whitespace); license/source checks stay byte-identical. Hosted deployment and PR merge are outside this authorization.
+
+
+## Final local answer-form verification
+
+117 tests/typecheck/build pass; both independent rechecks have no remaining findings. A same-date guard fixes the review-found Daily rollover issue, with red/green evidence in /tmp/morph-rollover-{red,green}.log. Browser logs /tmp/morph-browser-{replay,openers,saves-final,definitions,difficulties}.log pass desktop/mobile: exact revised trajectory and loss/win/reload, zero-history five Optimal openers/inline meanings, qualified old-save migration and unrelated storage, valid removed guesses, new drafts/results/preferences, expired Daily preference, all difficulties, safe definitions/network failures and cancellation. Durable migration regression: `node --import tsx scripts/check-answer-forms.mjs`, with the same optional Playwright/browser/baseURL/screenshot environment as other checks.
+
+Filtered2103×11193 full-pool sample: Optimal1313ms, Suboptimal1363ms, typing5ms,31frames/500ms with maxgap16.8ms (/tmp/morph-browser-performance.log). Both workers terminated, no ranking at defaultoff, no stale lists. Both source notices serve successfully. These are local samples, not hardware-independent guarantees. All browser profiles close in finally; no user Chrome control or other game server startup. The user subsequently gave separate authorization to commit/push this filtering update; no authority was inferred from the prior publication. Hosted deployment is excluded.

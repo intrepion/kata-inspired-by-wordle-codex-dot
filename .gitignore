@@ -110,3 +110,6 @@ Backups.backupdb
 MobileBackups.trash
 tmbootpicker.efi
 # END GitHub Global/macOS.gitignore
+
+# GitHub Pages project build
+dist-pages/

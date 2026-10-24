@@ -10,7 +10,8 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run typecheck && npm test && npm run build",
     "serve": "node scripts/serve.mjs",
-    "start:detached": "node scripts/detach.mjs"
+    "start:detached": "node scripts/detach.mjs",
+    "build:pages": "tsc --noEmit && vite build --base=/kata-inspired-by-wordle-codex-dot/ --outDir dist-pages"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

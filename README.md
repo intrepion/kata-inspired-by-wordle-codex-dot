@@ -20,7 +20,7 @@ Open http://127.0.0.1:5298. The launcher checks the port and refuses to replace 
 - Completed daily results count once by date. Played, wins, win rate, guess distribution, current and best streaks derive from the validated result ledger. A streak requires consecutive UTC dates won. Missing a date or losing breaks it; yesterday's winning streak remains current until today is lost or the next day is missed. Practice never counts.
 - Practice is independent, replayable and saved; first practice uses APPLE as a gentle repeated-letter introduction. Fresh practice selects another answer and asks before abandoning unfinished fieldnotes.
 - Drafts, guesses, mode, contrast and daily results persist in localStorage. Invalid saves are normalized or discarded. Storage failure is announced. Erasing requires confirmation; cancellation changes nothing. One browser tab is the supported active session; other tabs reload saved state before input, but simultaneous edits are not transactionally locked.
-- Share copies spoiler-free symbols locally with a selectable-text fallback; the app never posts externally. No account, telemetry, external fonts, paid services or public deployment. The public definition lookup is the only runtime API integration.
+- Share copies spoiler-free symbols locally with a selectable-text fallback; the app never posts externally. No account, telemetry, external fonts or paid services. The static game is published through GitHub Pages. The public definition lookup is the only runtime API integration.
 
 ## Difficulty and advice
 
@@ -57,7 +57,7 @@ Both lists are independently sourced, modified selections from **SCOWL 2020.12.0
 
 See [WORDS-LICENSE.md](WORDS-LICENSE.md) for archive/input checksums, exact selection and source-specific terms. The full upstream [Copyright/permission notices](public/third-party/SCOWL-Copyright.txt) ship with the site and are linked in About the words. They explicitly permit redistribution under the retained terms; no code MIT license is substituted for data permissions. Both retired Wordle-extracted snapshots, generated modules, old notice and obsolete migration list are removed. The previous source-specific permission uncertainty is no longer relied upon; this is not a legal warranty.
 
-Regenerate offline with `node scripts/generate-vocabulary.mjs`, or verify with `--check`. To reproduce the filtered input snapshot from the pinned official archive, run `python3 scripts/import-scowl.py /path/scowl-2020.12.07.tar.gz --check`. Builds do not download dictionaries. See [the replacement decision](docs/adr/0017-independent-scowl-vocabulary.md). The new dataset identifier restarts incompatible rounds/results once; valid difficulty, contrast and explicit advice preferences from the previous SCOWL guide are retained. New-guide progress persists normally. Repository publication requires explicit authorization; hosted deployment is separate.
+Regenerate offline with `node scripts/generate-vocabulary.mjs`, or verify with `--check`. To reproduce the filtered input snapshot from the pinned official archive, run `python3 scripts/import-scowl.py /path/scowl-2020.12.07.tar.gz --check`. Builds do not download dictionaries. See [the replacement decision](docs/adr/0017-independent-scowl-vocabulary.md). The new dataset identifier restarts incompatible rounds/results once; valid difficulty, contrast and explicit advice preferences from the previous SCOWL guide are retained. New-guide progress persists normally. Repository publication and the GitHub Pages pilot were explicitly authorized.
 
 ## Engineering and checks
 
@@ -96,4 +96,12 @@ At the user’s request, save schema 3 discards previous Morrowmark rounds, resu
 
 ## Answer-form curation
 
-The current guide excludes 1,390 entries from the original common-tier answer selection: 1,109 mapped noun plurals,279 mapped past-tense forms and two reviewed uncertain forms. All11,193 accepted guesses remain byte-identical. AGID2016.01.19 is pinned at the same official repository revision as SCOWL, with reproducible extraction and complete [AGID permission/source notices](public/third-party/AGID-Copyright.txt). The generated audit is src/data/answer-curation.json and reviewed decisions are src/data/answer-form-overrides.json. See [policy and limits](docs/adr/0019-answer-form-curation.md) and WORDS-LICENSE.md. The user subsequently authorized committing/pushing this filtering update; hosted deployment remains separate.
+The current guide excludes 1,390 entries from the original common-tier answer selection: 1,109 mapped noun plurals,279 mapped past-tense forms and two reviewed uncertain forms. All11,193 accepted guesses remain byte-identical. AGID2016.01.19 is pinned at the same official repository revision as SCOWL, with reproducible extraction and complete [AGID permission/source notices](public/third-party/AGID-Copyright.txt). The generated audit is src/data/answer-curation.json and reviewed decisions are src/data/answer-form-overrides.json. See [policy and limits](docs/adr/0019-answer-form-curation.md) and WORDS-LICENSE.md. The user subsequently authorized publishing this filtering update and a GitHub Pages pilot.
+
+## GitHub Pages pilot
+
+`npm run build:pages` builds `dist-pages/` with base `/kata-inspired-by-wordle-codex-dot/`. The Pages workflow checks the project before uploading this artifact; only its deploy job receives Pages write and OIDC permissions. Local `npm run build` and preview5298 continue to use root `dist/`.
+
+The home link and module worker resolve within the project path. Public project saves use `morrowmark.kata-inspired-by-wordle-codex-dot.v1`, independent of local root notebooks and other github.io projects; erase only removes the selected notebook. Saves are browser/origin local and do not transfer from localhost. Wiktionary definitions require its public cross-origin endpoint; unavailable definitions do not block play. The complete SCOWL/AGID notices ship in `third-party/`. Morrowmark is an original independent game, not affiliated with or endorsed by The New York Times or Wordle.
+
+GitHub currently redirects the project’s github.io URL to its existing account-level domain, `https://www.oliverforral.com/kata-inspired-by-wordle-codex-dot/`. No repository custom domain is configured. This pilot does not change account-wide domain settings.

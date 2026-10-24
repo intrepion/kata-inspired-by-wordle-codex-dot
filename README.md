@@ -105,3 +105,16 @@ The current guide excludes 1,390 entries from the original common-tier answer se
 The home link and module worker resolve within the project path. Public project saves use `morrowmark.kata-inspired-by-wordle-codex-dot.v1`, independent of local root notebooks and other github.io projects; erase only removes the selected notebook. Saves are browser/origin local and do not transfer from localhost. Wiktionary definitions require its public cross-origin endpoint; unavailable definitions do not block play. The complete SCOWL/AGID notices ship in `third-party/`. Morrowmark is an original independent game, not affiliated with or endorsed by The New York Times or Wordle.
 
 Public pilot: https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/. The user authorized removing the account-site custom-domain setting and its source CNAME so project sites use their default github.io URLs. No Cloudflare, DNS or registrar settings were changed. The project notebook remains scoped to this repository path.
+
+## Choose a word length
+
+Use **Word length**, above the board, to select4,5,6 or7 letters. Five remains the default. Daily, Practice and Absurd all use the selected length, with six attempts and all four difficulties. Switching opens/resumes a separate notebook: guesses, drafts, settings and daily statistics stay with their own length. Existing five-letter progress is preserved. Shares show the length. Erase saved notebook clears only the selected length.
+
+| Letters | Curated answers | Valid guesses |
+|---|---:|---:|
+|4|1,480|4,964|
+|5|2,103|11,193|
+|6|3,166|19,816|
+|7|4,138|29,870|
+
+All pools use the same pinned, licensed SCOWL/AGID curation policy. Exact reproducible sources, reviewed homographs and notebook behavior are documented in [the word-length decision](docs/adr/0020-selectable-word-length.md). Every answer is an accepted guess of the same length. Easy and optional Suboptimal search only the selected length; seven-letter opening analysis can take around ten seconds on this development machine, longer on slower devices. It runs in a cancellable worker with loading text so play can continue. Inline meanings cover displayed4–7-letter words when Wiktionary has an entry. The Pages build includes selectable lengths.

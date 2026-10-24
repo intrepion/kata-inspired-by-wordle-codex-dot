@@ -1,0 +1,26 @@
+{
+  "exclude": {},
+  "keep": {
+    "BENT": "Independent noun meaning inclination, not just past of bend.",
+    "BORE": "Independent base verb meaning drill and noun meaning tedious person, not only past of bear.",
+    "DICE": "Independent base verb meaning cut into cubes, not merely plural of die.",
+    "DOVE": "Independent bird noun, not only past of dive.",
+    "FELL": "Independent base verb meaning cut down, not only past of fall.",
+    "FELT": "Independent fabric noun/base verb, not only past of feel.",
+    "LEFT": "Independent direction/adjective sense, not only past of leave.",
+    "RENT": "Independent payment noun/base verb, not only past of rend.",
+    "ROSE": "Independent flower noun, not only past of rise.",
+    "SLEW": "Independent noun meaning a large number, not only past of slay.",
+    "DATA": "Common independent mass-noun sense in computing, besides historical plural of datum.",
+    "FEED": "Independent food noun/base verb, not only past of fee.",
+    "GILT": "Independent gold-surface noun, not only past of gild.",
+    "SHOT": "Independent projectile/attempt noun, not only past of shoot.",
+    "SPAT": "Independent quarrel noun/base verb, not only past of spit.",
+    "WEED": "Independent plant noun/base verb, not only past of wee.",
+    "GROUND": "Independent surface noun/base verb, not only past of grind.",
+    "OVERLAY": "Independent covering noun/base verb, not only past of overlie.",
+    "REBOUND": "Independent bounce noun/base verb, not only past of rebind.",
+    "THOUGHT": "Independent idea noun, not only past of think.",
+    "WORSTED": "Independent textile noun, not only past of worst."
+  }
+}

@@ -6,7 +6,7 @@ export interface DefinitionResult {word:string;entries:DefinitionEntry[];sourceU
 export type DefinitionFailure='network'|'timeout'|'invalid'|'cancelled';
 export class DefinitionError extends Error {constructor(readonly reason:DefinitionFailure){super(reason)}}
 const object=(value:unknown):value is Record<string,unknown>=>typeof value==='object'&&value!==null&&!Array.isArray(value);
-export function definitionWord(raw:string):string|null {return /^[a-z]{5}$/i.test(raw)?raw.toUpperCase():null}
+export function definitionWord(raw:string):string|null {return /^[a-z]{4,7}$/i.test(raw)?raw.toUpperCase():null}
 /** Extract readable text only. This output is always rendered with textContent, never as HTML. */
 export function definitionText(raw:unknown,limit=1800):string {
  if(typeof raw!=='string'||raw.length>20000)return '';

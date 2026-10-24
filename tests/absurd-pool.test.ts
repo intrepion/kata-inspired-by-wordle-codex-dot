@@ -23,7 +23,7 @@ test('all pre-update round formats reset to first-use defaults',()=>{
 
 import {impossibleShare} from '../src/impossible.ts';
 test('adaptive shares use the Absurd name and identify the curated count',()=>{
- const share=impossibleShare(newImpossible());assert.match(share,/Morrowmark · Absurd · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/2103 curated answers remain/);
+ const share=impossibleShare(newImpossible());assert.match(share,/Morrowmark · Absurd · 5 letters · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/2103 curated answers remain/);
 });
 
 import {submitImpossible,restoreImpossible,impossibleSnapshot,impossibleStatus} from '../src/impossible.ts';

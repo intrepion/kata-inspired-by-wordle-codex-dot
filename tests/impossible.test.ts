@@ -70,7 +70,7 @@ test('Impossible save corruption resets only the separate round and share is hon
  const run=submitImpossible(newImpossible(),'ADIEU').run;
  const data=JSON.parse(encode({...save,impossible:run})).impossible;
  assert.deepEqual(Object.keys(data).sort(),['dataset','difficulty','draft','guesses','version']);
- const text=impossibleShare(run);assert.match(text,/Absurd · adaptive · Normal/);assert.doesNotMatch(text,/ADIEU|UTC|Strict|Hard/);
+ const text=impossibleShare(run);assert.match(text,/Absurd · 5 letters · adaptive · Normal/);assert.doesNotMatch(text,/ADIEU|UTC|Strict|Hard/);
 });
 
 test('full-pool deterministic win resumes and rejects a post-win saved guess',()=>{

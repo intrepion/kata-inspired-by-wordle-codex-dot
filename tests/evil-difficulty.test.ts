@@ -48,9 +48,9 @@ test('difficulty changes block upgrades mid-round, permit downgrade/Easy, retain
  let run=newImpossible('strict');run.draft='CRA';run=submitImpossible(run,'ALLEY').run;run.draft='CRA';
  run=setImpossibleDifficulty(run,'hard').run;assert.equal(difficulty(run),'hard');assert.equal(run.draft,'CRA');assert.ok(setImpossibleDifficulty(run,'strict').error);
  run=setImpossibleDifficulty(run,'easy').run;assert.equal(run.assisted,true);assert.equal(difficulty(run),'easy');assert.ok(setImpossibleDifficulty(run,'hard').error);
- run=setImpossibleDifficulty(run,'normal').run;assert.equal(run.assisted,true);assert.equal(run.draft,'CRA');assert.match(impossibleShare(run),/Absurd · adaptive · Normal · Assisted/);
+ run=setImpossibleDifficulty(run,'normal').run;assert.equal(run.assisted,true);assert.equal(run.draft,'CRA');assert.match(impossibleShare(run),/Absurd · 5 letters · adaptive · Normal · Assisted/);
  const won=submitImpossible({...newImpossible(),candidates:['APPLE']},'APPLE').run;assert.ok(setImpossibleDifficulty(won,'easy').error);
- for(const level of levels){const fresh=newImpossible(level);assert.equal(difficulty(newImpossible(difficulty(fresh))),level);assert.match(impossibleShare(fresh),new RegExp(`Absurd · adaptive · ${level[0].toUpperCase()+level.slice(1)}`));}
+ for(const level of levels){const fresh=newImpossible(level);assert.equal(difficulty(newImpossible(difficulty(fresh))),level);assert.match(impossibleShare(fresh),new RegExp(`Absurd · 5 letters · adaptive · ${level[0].toUpperCase()+level.slice(1)}`));}
 });
 test('Absurd saves its own difficulty, old snapshots default Normal, malformed restriction histories fail safely',()=>{
  for(const ordinary of levels)for(const level of levels){

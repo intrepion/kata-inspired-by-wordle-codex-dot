@@ -1,0 +1,10 @@
+{
+  "lengths": [
+    4,
+    6,
+    7
+  ],
+  "scowlSnapshotSha256": "59211085687a63eb7af3b2b5bd583c887506fa095c9c04261f9bbdbccb5bcc3d",
+  "agidSnapshotSha256": "4bb5c9fee474b09ecbee2f849ec2abd7047cfa77ed0f019007519c1334a6dc8a",
+  "provenance": "Same archives, exact source revisions, input hashes and permission notices as scowl-source.json and agid-source.json. SCOWL general/American/British size80 guesses, size35 answer base; lowercase ASCII only."
+}

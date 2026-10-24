@@ -83,8 +83,8 @@ test('old saves migrate without changing guesses; inconsistent strict flags lose
 test('shares label actual difficulty after safe downgrades without revealing words',async()=>{
  const {shareText,setDifficulty}=await import('../src/domain.ts');
  let run=submit(newRun('APPLE','strict'),'APPLE').run;
- assert.match(shareText('2026-10-24',run),/UTC · Strict\n1\/6/);
- run=setDifficulty(run,'hard').run;assert.match(shareText('2026-10-24',run),/UTC · Hard\n1\/6/);
+ assert.match(shareText('2026-10-24',run),/UTC · 5 letters · Strict\n1\/6/);
+ run=setDifficulty(run,'hard').run;assert.match(shareText('2026-10-24',run),/UTC · 5 letters · Hard\n1\/6/);
  run=setDifficulty(run,'normal').run;assert.doesNotMatch(shareText('2026-10-24',run),/Strict|Hard|APPLE/);
 });
 

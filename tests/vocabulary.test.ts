@@ -18,7 +18,7 @@ test('practice chooses a different answer even at random boundaries',()=>{
 });
 test('share is local spoiler-free evidence, without answers or guesses',()=>{
  const text=shareText('2026-10-11',submit(newRun('APPLE'),'APPLE').run);
- assert.equal(text,'Morrowmark · 2026-10-11 UTC\n1/6\n■■■■■\n■ exact · ◩ elsewhere · □ absent');
+ assert.equal(text,'Morrowmark · 2026-10-11 UTC · 5 letters\n1/6\n■■■■■\n■ exact · ◩ elsewhere · □ absent');
  assert.equal(text.includes('APPLE'),false);
 });
 

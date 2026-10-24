@@ -13,7 +13,7 @@ export function curateAnswers(base,raw,overrides){
    const reasons=matches.get(word)??[];const reason={kind:pos==='N'?'plural':'past',lemma};if(!reasons.some(x=>x.kind===reason.kind&&x.lemma===lemma))reasons.push(reason);matches.set(word,reasons);
   }
  }
- for(const [word,reason] of Object.entries(overrides.keep)){if(!/^[A-Z]{5}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase())||!matches.has(word.toLowerCase()))throw new Error(`Invalid/redundant answer keep override: ${word}`);matches.delete(word.toLowerCase())}
- for(const [word,reason] of Object.entries(overrides.exclude)){if(!/^[A-Z]{5}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase()))throw new Error(`Invalid answer exclusion: ${word}`);matches.set(word.toLowerCase(),[{kind:'reviewed',reason}])}
+ for(const [word,reason] of Object.entries(overrides.keep)){if(!/^[A-Z]{4,7}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase())||!matches.has(word.toLowerCase()))throw new Error(`Invalid/redundant answer keep override: ${word}`);matches.delete(word.toLowerCase())}
+ for(const [word,reason] of Object.entries(overrides.exclude)){if(!/^[A-Z]{4,7}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase()))throw new Error(`Invalid answer exclusion: ${word}`);matches.set(word.toLowerCase(),[{kind:'reviewed',reason}])}
  return {answers:base.filter(word=>!matches.has(word)),removed:[...matches].sort(([a],[b])=>a<b?-1:a>b?1:0).map(([word,reasons])=>({word:word.toUpperCase(),reasons}))};
 }

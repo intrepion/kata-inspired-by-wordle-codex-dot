@@ -6,7 +6,7 @@ TDD: /tmp/morph-plurals-red.log→green (BOOKS and irregulars), /tmp/morph-past-
 
 Full /tmp/morph-final-check.log:117 tests, TypeScript and production build pass. Updated data-specific fixtures use an independent Counter feedback reference:2103→412→61→28→13→7 on the reported sequence. No scorer/adversary/difficulty/advice-metric or inline-definition logic was changed. Known previous SCOWL rounds/results restart once with validated preferences retained; current progress then persists normally.
 
-# Morrowmark verification
+# Lexi Conquest verification
 
 ## Previously published independent vocabulary replacement (2026-10-24)
 

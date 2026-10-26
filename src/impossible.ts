@@ -65,5 +65,5 @@ export function restoreImpossible(value:unknown):ImpossibleRun|null {
 }
 export function impossibleShare(run:ImpossibleRun):string {
  const glyph={exact:'■',elsewhere:'◩',absent:'□'};
- return `Morrowmark${run.language==='es-MX'?' · Español (México)':''} · Absurd · ${run.answer.length} letters · adaptive · ${difficulty(run)[0].toUpperCase()+difficulty(run).slice(1)}${run.assisted?' · Assisted':''}\n${impossibleStatus(run)==='won'?run.guesses.length:'X'}/6\n${run.feedback.map(row=>row.map(clue=>glyph[clue]).join('')).join('\n')}\n${run.candidates.length} possible ${run.candidates.length===1?'answer remains':'answers remain'}\n■ exact · ◩ elsewhere · □ absent`;
+ return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · Absurd · ${run.answer.length} letters · adaptive · ${difficulty(run)[0].toUpperCase()+difficulty(run).slice(1)}${run.assisted?' · Assisted':''}\n${impossibleStatus(run)==='won'?run.guesses.length:'X'}/6\n${run.feedback.map(row=>row.map(clue=>glyph[clue]).join('')).join('\n')}\n${run.candidates.length} possible ${run.candidates.length===1?'answer remains':'answers remain'}\n■ exact · ◩ elsewhere · □ absent`;
 }

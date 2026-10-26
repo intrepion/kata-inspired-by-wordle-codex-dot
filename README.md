@@ -1,8 +1,10 @@
-# Morrowmark
+# Lexi Conquest
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: five letters, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: four to seven letters, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+
+Formerly Morrowmark. Existing notebooks, preferences and storage keys stay compatible.
 
 ## Play locally
 
@@ -104,7 +106,7 @@ The current guide excludes 1,390 entries from the original common-tier answer se
 
 `npm run build:pages` builds `dist-pages/` with base `/kata-inspired-by-wordle-codex-dot/`. The Pages workflow checks the project before uploading this artifact; only its deploy job receives Pages write and OIDC permissions. Local `npm run build` and preview5298 continue to use root `dist/`.
 
-The home link and module worker resolve within the project path. Public project saves use `morrowmark.kata-inspired-by-wordle-codex-dot.v1`, independent of local root notebooks and other github.io projects; erase only removes the selected notebook. Saves are browser/origin local and do not transfer from localhost. Wiktionary definitions require its public cross-origin endpoint; unavailable definitions do not block play. The complete SCOWL/AGID notices ship in `third-party/`. Morrowmark is an original independent game, not affiliated with or endorsed by The New York Times or Wordle.
+The home link and module worker resolve within the project path. Public project saves use `morrowmark.kata-inspired-by-wordle-codex-dot.v1`, independent of local root notebooks and other github.io projects; erase only removes the selected notebook. Saves are browser/origin local and do not transfer from localhost. Wiktionary definitions require its public cross-origin endpoint; unavailable definitions do not block play. The complete SCOWL/AGID notices ship in `third-party/`. Lexi Conquest is an original independent game, not affiliated with or endorsed by The New York Times or Wordle.
 
 Public pilot: use the **Play Online** link above. The user authorized removing the account-site custom-domain setting and its source CNAME so project sites use their default github.io URLs. No Cloudflare, DNS or registrar settings were changed. The project notebook remains scoped to this repository path.
 

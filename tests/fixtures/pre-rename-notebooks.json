@@ -1,0 +1,62 @@
+{
+  "epoch": "2026-10-spanish-base-word-policy-v1",
+  "globalDifficulty": "strict",
+  "fixtures": [
+    {
+      "language": "en",
+      "length": 4,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.letters-4",
+      "raw": "{\"version\":3,\"dataset\":\"scowl-2020.12.07-4-answers-v1\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"DICE\",\"guesses\":[],\"draft\":\"CA\",\"strictMode\":true},\"practice\":{\"answer\":\"ABET\",\"guesses\":[\"ABET\"],\"draft\":\"\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"scowl-2020.12.07-4-absurd-v1\",\"wordLength\":4,\"difficulty\":\"strict\",\"guesses\":[\"ABET\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "en",
+      "length": 5,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1",
+      "raw": "{\"version\":3,\"dataset\":\"scowl-2020.12.07-answers-v2\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"CABIN\",\"guesses\":[],\"draft\":\"CA\",\"strictMode\":true},\"practice\":{\"answer\":\"ABACK\",\"guesses\":[\"ABACK\"],\"draft\":\"\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"scowl-2020.12.07-absurd-v2\",\"difficulty\":\"strict\",\"guesses\":[\"ABACK\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "en",
+      "length": 6,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.letters-6",
+      "raw": "{\"version\":3,\"dataset\":\"scowl-2020.12.07-6-answers-v1\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"BINDER\",\"guesses\":[],\"draft\":\"CA\",\"strictMode\":true},\"practice\":{\"answer\":\"ABACUS\",\"guesses\":[\"ABACUS\"],\"draft\":\"\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"scowl-2020.12.07-6-absurd-v1\",\"wordLength\":6,\"difficulty\":\"strict\",\"guesses\":[\"ABACUS\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "en",
+      "length": 7,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.letters-7",
+      "raw": "{\"version\":3,\"dataset\":\"scowl-2020.12.07-7-answers-v1\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"BEEFIER\",\"guesses\":[],\"draft\":\"CA\",\"strictMode\":true},\"practice\":{\"answer\":\"ABANDON\",\"guesses\":[\"ABANDON\"],\"draft\":\"\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"scowl-2020.12.07-7-absurd-v1\",\"wordLength\":7,\"difficulty\":\"strict\",\"guesses\":[\"ABANDON\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "es-MX",
+      "length": 4,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.es-MX.letters-4",
+      "raw": "{\"version\":3,\"dataset\":\"es-MX-wiktionary-wordfreq-4-v1\",\"language\":\"es-MX\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"NETO\",\"guesses\":[],\"draft\":\"ÑA\",\"language\":\"es-MX\",\"strictMode\":true},\"practice\":{\"answer\":\"ABAD\",\"guesses\":[\"ABAD\"],\"draft\":\"\",\"language\":\"es-MX\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"es-MX-wiktionary-wordfreq-absurd-4-v1\",\"language\":\"es-MX\",\"wordLength\":4,\"difficulty\":\"strict\",\"guesses\":[\"ABAD\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "es-MX",
+      "length": 5,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.es-MX",
+      "raw": "{\"version\":3,\"dataset\":\"es-MX-wiktionary-wordfreq-5-v1\",\"language\":\"es-MX\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"FICHA\",\"guesses\":[],\"draft\":\"ÑA\",\"language\":\"es-MX\",\"strictMode\":true},\"practice\":{\"answer\":\"ABAJO\",\"guesses\":[\"ABAJO\"],\"draft\":\"\",\"language\":\"es-MX\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"es-MX-wiktionary-wordfreq-absurd-5-v1\",\"language\":\"es-MX\",\"difficulty\":\"strict\",\"guesses\":[\"ABAJO\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "es-MX",
+      "length": 6,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.es-MX.letters-6",
+      "raw": "{\"version\":3,\"dataset\":\"es-MX-wiktionary-wordfreq-6-v1\",\"language\":\"es-MX\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"DECANO\",\"guesses\":[],\"draft\":\"ÑA\",\"language\":\"es-MX\",\"strictMode\":true},\"practice\":{\"answer\":\"ABARCA\",\"guesses\":[\"ABARCA\"],\"draft\":\"\",\"language\":\"es-MX\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"es-MX-wiktionary-wordfreq-absurd-6-v1\",\"language\":\"es-MX\",\"wordLength\":6,\"difficulty\":\"strict\",\"guesses\":[\"ABARCA\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    },
+    {
+      "language": "es-MX",
+      "length": 7,
+      "date": "2026-10-11",
+      "key": "morrowmark.kata-inspired-by-wordle-codex-dot.v1.es-MX.letters-7",
+      "raw": "{\"version\":3,\"dataset\":\"es-MX-wiktionary-wordfreq-7-v1\",\"language\":\"es-MX\",\"history\":{},\"date\":\"2026-10-11\",\"daily\":{\"answer\":\"CRUZADA\",\"guesses\":[],\"draft\":\"ÑA\",\"language\":\"es-MX\",\"strictMode\":true},\"practice\":{\"answer\":\"ABANICO\",\"guesses\":[\"ABANICO\"],\"draft\":\"\",\"language\":\"es-MX\"},\"mode\":\"impossible\",\"impossible\":{\"version\":2,\"dataset\":\"es-MX-wiktionary-wordfreq-absurd-7-v1\",\"language\":\"es-MX\",\"wordLength\":7,\"difficulty\":\"strict\",\"guesses\":[\"ABANICO\"],\"draft\":\"PA\"},\"results\":{},\"settings\":{\"contrast\":true,\"hardMode\":false,\"strictMode\":true,\"suboptimal\":true}}"
+    }
+  ]
+}

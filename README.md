@@ -170,3 +170,11 @@ Generated translation audits are local outputs, prepared automatically before te
 ## Local-first meanings
 
 Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. English has 17,676 words with selected Simple English Wiktionary senses (partial coverage), split into four static length chunks totalling 2.85 MB of JSON. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
+
+## Starting puzzles and viewing statistics
+
+New Daily, Practice and Absurd puzzles ask for a difficulty and **Start puzzle** before showing clues or advice. Unconfirmed setup choices do not count. After Start, statistics retain the easiest level used (Easy → Normal → Hard → Strict), including changes before the first guess. Reloads/navigation cannot reset that history; a distinct new Practice/Absurd round starts fresh. Resumed old games keep their progress.
+
+Use the **Statistics** icon to filter completed results by game mode, language, 4–7 letters, difficulty and assistance without changing the game. Old Daily totals are retained as **Legacy — difficulty unrecorded**; only the last saved completed Practice/Absurd round is recoverable. Earlier replayable history and unknown exposure are not invented. Daily streaks use consecutive UTC dates; Practice/Absurd streaks use consecutive recorded wins within the selected filters. See [statistics/start policy](docs/adr/0030-segmented-statistics-start-gate.md).
+
+**Give Up** is available on a started, unfinished puzzle. Its dialog offers every easier difficulty, or **Confirm Give Up** to end the puzzle as one loss and reveal the answer (one consistent surviving answer in Absurd). Choosing easier rules preserves the same puzzle and guesses; Cancel/Escape leave it unchanged. Give-ups retain the actual guess count, including zero, and never add fake rows or entries to the wins-only guess histogram. [Give-up policy](docs/adr/0031-give-up-confirmation.md).

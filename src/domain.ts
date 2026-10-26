@@ -14,7 +14,7 @@ export function score(answer:string, guess:string):Clue[] {
 }
 
 import {vocabulary} from './words.ts';
-export interface Run {answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean}
+export interface Run {answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean}
 export type Outcome = 'playing'|'won'|'lost';
 export const DAY=86_400_000;
 export function dateKey(now:Date):string {return now.toISOString().slice(0,10)}
@@ -29,7 +29,11 @@ export function newRun(answer:string,mode:boolean|Difficulty=false,language:Lang
  const selected=mode===true?'hard':mode===false?'normal':mode;
  return {answer,guesses:[],draft:'',...(language==='en'?{}:{language}),...(selected==='strict'?{strictMode:true}:selected==='hard'?{hardMode:true}:selected==='easy'?{easyMode:true,assisted:true}:{})};
 }
-export function status(run:Run):Outcome {return run.guesses.includes(run.answer)?'won':run.guesses.length>=6?'lost':'playing'}
+export function status(run:Run):Outcome {return run.guesses.includes(run.answer)?'won':run.gaveUp||run.guesses.length>=6?'lost':'playing'}
+/** Easier choices follow the configured Easy < Normal < Hard < Strict order. */
+export function easierDifficulties(level:Difficulty):Difficulty[] {const levels:Difficulty[]=['easy','normal','hard','strict'];return levels.slice(0,levels.indexOf(level)).reverse()}
+/** Finish without fabricating guesses or feedback; completed runs are immutable. */
+export function giveUp<T extends Run>(run:T):T {return status(run)==='playing'?{...run,gaveUp:true,draft:''}:run}
 export function submit(run:Run, raw:string):{run:Run;error?:string} {
  if(status(run)!=='playing') return {run,error:'This fieldnote is complete.'};
  const language=run.language??'en',guess=normalizeGuess(raw,language);
@@ -98,5 +102,5 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
 }
 export function shareText(date:string, run:Run):string {
  const glyph={exact:'■',elsewhere:'◩',absent:'□'};
- return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}\n${status(run)==='won'?run.guesses.length:'X'}/6\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n■ exact · ◩ elsewhere · □ absent`;
+ return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}\n${status(run)==='won'?run.guesses.length:'X'}/6\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n■ exact · ◩ elsewhere · □ absent`;
 }

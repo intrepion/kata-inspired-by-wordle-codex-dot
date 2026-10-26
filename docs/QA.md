@@ -1,3 +1,39 @@
+# Give Up verification (2026-10-26, local)
+
+275 tests, type checking and root/Pages builds pass. Six new public behavior
+regressions cover zero/partial-guess give-ups, immutable completion, actual guess
+counts/histograms, all modes/languages/lengths/difficulties, Daily authoritative
+restoration/rollover, adaptive candidates/feedback/reveal, easier choices and old saves.
+
+Isolated desktop/mobile checks pass all three modes: no button before Start or
+after completion; Cancel/Escape/backdrop/focus return; every easier option retains
+the same clues/draft/pool and records no result; Easy has no unavailable choice;
+confirmation/reload/rapid repeats record one loss. A stale external update safely
+cancels confirmation. Zero guesses remain zero; the reveal belongs to the actual
+answer pool. Legacy give-up preserves unrelated Daily totals and preferences.
+All runtime request checks record zero automatic external dictionary calls.
+Changes remain local and uncommitted; no push/deployment or disk cleanup.
+
+# Segmented statistics and confirmed starts (2026-10-26, local)
+
+269 tests pass, including 13 new public notebook/statistics/start regressions;
+type checking and root/Pages builds pass. TDD evidence: initial missing ledger
+boundary failed, then idempotent Practice counting passed; explicit Easy exposure
+before first guess failed before the monotone exposure implementation. Tests cover
+all three modes, English/Spanish, 4–7 letters, four levels, legacy migration,
+identity/reload, malformed data, UTC rollover, date-vs-recorded streaks, assistance,
+completed-result immutability and confirmed/unconfirmed setup.
+
+Isolated desktop/mobile checks on the Pages subpath and actual local port 5298
+pass setup with no board/hints/advice workers, remembered Easy → selected Strict
+before Start counting Strict, Easy Start → Strict before input counting Easy,
+zero-guess reload/navigation, repeated Start, distinct Absurd setup, stats filters
+without changing the active language/length, old saved totals, and fair shares.
+Dictionary regression checks pass every mode/language/length with zero automatic
+external requests; failed local-file recovery remains intact. Existing Pages
+asset/worker/notices/reload/home/erase-storage smoke tests pass with explicit Start.
+No dataset, reset epoch, old source or deployment changes were made. Work is local.
+
 # Local-first meanings verification (2026-10-26)
 
 256 tests, type checking, root production build, Pages-subpath build and dependency

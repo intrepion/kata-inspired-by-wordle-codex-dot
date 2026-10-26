@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/review_standards",
+  "scope": "Review of proposed narrow presentation policy, not a claim of completed implementation QA",
+  "approved": true,
+  "word": "ESCOCIA",
+  "sourceProposalSha256": "eb528897c26d570deb9bd45459af53630a9ee2ee826b9cf346273c44bd424ea6",
+  "sourceRecordSha256": "8ce4316a1d5eb28b409e59a3dc191d0428b014a55f2357a7d576043978b03c87",
+  "originalReviewedContext": "Selected nation in northern Great Britain. This proper name is distinct from lower-case escocia, the architectural moulding already translated; no new-word coverage credit.",
+  "approvedDisplayContext": "The nation in northern Great Britain; escocia also names an architectural moulding.",
+  "semanticAssessment": "Preserves the selected Scotland nation sense and true lower-case architectural homograph. Removes only internal selection/coverage bookkeeping; does not add a name, referent, meaning, translation, answer-eligibility rule or coverage credit.",
+  "guards": [
+    "Keep original proposal/context and independent approval bytes unchanged; do not assign the display value back into original context.",
+    "Use a separately named displayContext only for the ESCOCIA proper-name reading; all other meanings and default contexts remain unchanged.",
+    "Keep full reviewed context in audit and record the presentation value separately as runtimeContext. Prefer recording that extra field only when an override exists to avoid unrelated proof churn.",
+    "Preserve existing noun/moulding meaning, lowercase primary citation and capitalized proper-name source link.",
+    "Public check should reject selection/coverage bookkeeping in visible tags while still requiring Scotland and moulding meanings.",
+    "No production UI focus change, game/save/pool change, or generic rewrite of source metadata is authorized by this display review."
+  ]
+}

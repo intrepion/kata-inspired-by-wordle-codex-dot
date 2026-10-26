@@ -1,0 +1,1121 @@
+{
+  "review": "Independent model linguistic/data review, not native-human certification",
+  "words": {
+    "ESAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ESAS"
+    },
+    "UNAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "UNAS"
+    },
+    "UNOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "UNOS"
+    },
+    "VÍAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VÍAS"
+    },
+    "ACTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ACTOS"
+    },
+    "ARMAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ARMAS"
+    },
+    "ARTES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ARTES"
+    },
+    "AUTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "AUTOS"
+    },
+    "CABOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CABOS"
+    },
+    "CELOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CELOS"
+    },
+    "COPAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "COPAS"
+    },
+    "DAMAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "DAMAS"
+    },
+    "DATOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "DATOS"
+    },
+    "ELLAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ELLAS"
+    },
+    "ELLOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ELLOS"
+    },
+    "GAFAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GAFAS"
+    },
+    "GOTAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GOTAS"
+    },
+    "GUÍAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GUÍAS"
+    },
+    "HORAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "HORAS"
+    },
+    "MATES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MATES"
+    },
+    "MIRAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MIRAS"
+    },
+    "PAPAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PAPAS"
+    },
+    "PASOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PASOS"
+    },
+    "PENAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PENAS"
+    },
+    "SALES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "SALES"
+    },
+    "SEÑAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "SEÑAS"
+    },
+    "TOCAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TOCAS"
+    },
+    "TUYOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TUYOS"
+    },
+    "VACAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VACAS"
+    },
+    "VELAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VELAS"
+    },
+    "VERAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VERAS"
+    },
+    "AMOS": {
+      "exclude": "The independent source sense is obsolete; its ordinary plural use remains a valid guess.",
+      "reviewKind": "obsolete-or-plural",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "AMOS"
+    },
+    "ANDE": {
+      "exclude": "The independent adverb sense is marked nonstandard; its conjugated forms remain valid guesses.",
+      "reviewKind": "nonstandard-or-conjugation",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ANDE"
+    },
+    "GOLES": {
+      "exclude": "The independent source sense is marked rare; its ordinary plural use remains a valid guess.",
+      "reviewKind": "rare-or-plural",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GOLES"
+    },
+    "ROMA": {
+      "exclude": "The reviewed adjective is a feminine agreement form; the place-name use does not qualify as a base word.",
+      "reviewKind": "adjective-agreement",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ROMA"
+    },
+    "ADÁN": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ADÁN"
+    },
+    "CABE": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CABE"
+    },
+    "CREE": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CREE"
+    },
+    "DAME": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "DAME"
+    },
+    "DUDO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "DUDO"
+    },
+    "LUIS": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "LUIS"
+    },
+    "MATO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MATO"
+    },
+    "MATÓ": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MATÓ"
+    },
+    "NOTO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "NOTO"
+    },
+    "ODIA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ODIA"
+    },
+    "PEGO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PEGO"
+    },
+    "PEPE": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PEPE"
+    },
+    "RAFA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "RAFA"
+    },
+    "ROTA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ROTA"
+    },
+    "BRUNO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "BRUNO"
+    },
+    "BUSCO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "BUSCO"
+    },
+    "HADAS": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "HADAS"
+    },
+    "PONGO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PONGO"
+    },
+    "PORTA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PORTA"
+    },
+    "ROCHA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ROCHA"
+    },
+    "SUFRA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "SUFRA"
+    },
+    "TAXIS": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TAXIS"
+    },
+    "VERME": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-commonness-exclusion",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VERME"
+    },
+    "AFUERAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "AFUERAS"
+    },
+    "ALTURAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ALTURAS"
+    },
+    "AMORES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "AMORES"
+    },
+    "ANALES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ANALES"
+    },
+    "CAÍDOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CAÍDOS"
+    },
+    "CHINOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CHINOS"
+    },
+    "CHIVAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CHIVAS"
+    },
+    "CIENTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CIENTOS"
+    },
+    "COSTAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "COSTAS"
+    },
+    "CRECES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CRECES"
+    },
+    "CUARTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CUARTOS"
+    },
+    "CUENTAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CUENTAS"
+    },
+    "CURVAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CURVAS"
+    },
+    "DIETAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "DIETAS"
+    },
+    "DOBLES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "DOBLES"
+    },
+    "EFECTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "EFECTOS"
+    },
+    "ESCALAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESCALAS"
+    },
+    "ESPADAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESPADAS"
+    },
+    "ESPOSAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESPOSAS"
+    },
+    "FORMAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "FORMAS"
+    },
+    "GEMELAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "GEMELAS"
+    },
+    "GEMELOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "GEMELOS"
+    },
+    "HUESOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "HUESOS"
+    },
+    "INDIAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "INDIAS"
+    },
+    "LANZAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "LANZAS"
+    },
+    "LENTES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "LENTES"
+    },
+    "LLANOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "LLANOS"
+    },
+    "MODALES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MODALES"
+    },
+    "MOSCAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MOSCAS"
+    },
+    "MUELLES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MUELLES"
+    },
+    "OFICIOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "OFICIOS"
+    },
+    "ORILLAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ORILLAS"
+    },
+    "PALOMAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "PALOMAS"
+    },
+    "PARTES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "PARTES"
+    },
+    "RAÍCES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "RAÍCES"
+    },
+    "RELOJES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "RELOJES"
+    },
+    "RESTOS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "RESTOS"
+    },
+    "RUINAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "RUINAS"
+    },
+    "SOBRES": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "SOBRES"
+    },
+    "TABLAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "TABLAS"
+    },
+    "VISTAS": {
+      "exclude": "Reviewed plural form without a qualifying independent base-word sense.",
+      "reviewKind": "plural-only",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "VISTAS"
+    },
+    "TANTOS": {
+      "exclude": "Reviewed plural pronoun or plural-only noun form, without an independent nonplural base-word sense.",
+      "reviewKind": "grammar-or-source-policy",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "TANTOS"
+    },
+    "VARIOS": {
+      "exclude": "Reviewed plural pronoun or plural-only noun form, without an independent nonplural base-word sense.",
+      "reviewKind": "grammar-or-source-policy",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "VARIOS"
+    },
+    "USTEDES": {
+      "exclude": "Reviewed plural pronoun or plural-only noun form, without an independent nonplural base-word sense.",
+      "reviewKind": "grammar-or-source-policy",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "USTEDES"
+    },
+    "FOLLAR": {
+      "exclude": "The independent source senses are archaic or vulgar; this remains a valid guess.",
+      "reviewKind": "grammar-or-source-policy",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "FOLLAR"
+    },
+    "ACEPTO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ACEPTO"
+    },
+    "ALEGRA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ALEGRA"
+    },
+    "ECHADO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ECHADO"
+    },
+    "EXTRAS": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "EXTRAS"
+    },
+    "HELENA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "HELENA"
+    },
+    "MANOLO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MANOLO"
+    },
+    "MÁGICA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MÁGICA"
+    },
+    "NACIDA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "NACIDA"
+    },
+    "REGALA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "REGALA"
+    },
+    "REMERA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "REMERA"
+    },
+    "RIVERA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "RIVERA"
+    },
+    "SINGLE": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "SINGLE"
+    },
+    "AGUSTÍN": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "AGUSTÍN"
+    },
+    "ESCOBAR": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESCOBAR"
+    },
+    "ESCOCIA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESCOCIA"
+    },
+    "ESTRADA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESTRADA"
+    },
+    "ESTRENA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "ESTRENA"
+    },
+    "FACUNDO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "FACUNDO"
+    },
+    "INDIANA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "INDIANA"
+    },
+    "MACHADO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MACHADO"
+    },
+    "MALDITA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MALDITA"
+    },
+    "MANUELA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MANUELA"
+    },
+    "MIRANDA": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MIRANDA"
+    },
+    "SITUADO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "SITUADO"
+    },
+    "VIOLADO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "VIOLADO"
+    },
+    "QUIERO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "QUIERO"
+    },
+    "PENDEJO": {
+      "exclude": "Commonness review: the documented independent sense was not established as ordinary Mexican usage; spelling frequency alone is insufficient.",
+      "reviewKind": "reviewed-uncommon-homograph",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "PENDEJO"
+    },
+    "ABRA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ABRA"
+    },
+    "BASA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "BASA"
+    },
+    "FIJA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "FIJA"
+    },
+    "GAZA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GAZA"
+    },
+    "GREY": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GREY"
+    },
+    "JARA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "JARA"
+    },
+    "LEAN": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "LEAN"
+    },
+    "MOLA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MOLA"
+    },
+    "NASA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "NASA"
+    },
+    "PARE": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PARE"
+    },
+    "PIDO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PIDO"
+    },
+    "SENA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "SENA"
+    },
+    "SOTO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "SOTO"
+    },
+    "TITO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TITO"
+    },
+    "TUYA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TUYA"
+    },
+    "ACABE": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ACABE"
+    },
+    "ACABO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ACABO"
+    },
+    "APROX": {
+      "exclude": "Base-word review: this abbreviation-like spelling was not selected as a standalone possible answer.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "APROX"
+    },
+    "CHACO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CHACO"
+    },
+    "COREA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "COREA"
+    },
+    "CORTA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CORTA"
+    },
+    "GRITA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "GRITA"
+    },
+    "HENRY": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "HENRY"
+    },
+    "LUCIO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "LUCIO"
+    },
+    "MUTUA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "MUTUA"
+    },
+    "OTERO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "OTERO"
+    },
+    "PINTO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PINTO"
+    },
+    "PLENA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PLENA"
+    },
+    "PRIME": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PRIME"
+    },
+    "QUEDO": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "QUEDO"
+    },
+    "RAMÓN": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "RAMÓN"
+    },
+    "ROQUE": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "ROQUE"
+    },
+    "RUBIA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "RUBIA"
+    },
+    "TURCA": {
+      "exclude": "Commonness review: this spelling has a documented sense, but ordinary Mexican use of that independent sense remains uncertain.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "TURCA"
+    },
+    "CAGUE": {
+      "exclude": "Suitability review: coarse or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CAGUE"
+    },
+    "PORNO": {
+      "exclude": "Suitability review: coarse or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PORNO"
+    },
+    "CULO": {
+      "exclude": "Suitability review: coarse or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "CULO"
+    },
+    "VERGA": {
+      "exclude": "Suitability review: coarse or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-uncertain-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "VERGA"
+    },
+    "CABRÓN": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CABRÓN"
+    },
+    "CAGADO": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "CAGADO"
+    },
+    "IDIOTA": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "IDIOTA"
+    },
+    "MAMADA": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "MAMADA"
+    },
+    "PINCHE": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "PINCHE"
+    },
+    "TARADO": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "TARADO"
+    },
+    "PONERLA": {
+      "exclude": "Suitability review: coarse, insulting or explicit sexual usage makes this an unsuitable possible answer; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "review-67.json",
+      "evidenceWord": "PONERLA"
+    },
+    "COGER": {
+      "exclude": "Suitability review: this verb commonly has a coarse sexual reading in Mexican Spanish; it remains a valid guess.",
+      "reviewKind": "root-reviewed-suitability",
+      "evidenceReport": "lexical-evidence.json",
+      "evidenceWord": "COGER"
+    },
+    "PIJA": {
+      "exclude": "Commonness review: the retained source senses do not substantiate an ordinary Mexican independent meaning; the possible screw sense needs better source evidence.",
+      "reviewKind": "root-reviewed-missing-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "PIJA"
+    },
+    "BEBA": {
+      "exclude": "Commonness review: the available independent sense evidence does not establish ordinary Mexican usage; this remains a valid guess.",
+      "reviewKind": "root-reviewed-missing-ordinary-sense",
+      "evidenceReport": "review-45.json",
+      "evidenceWord": "BEBA"
+    },
+    "AMIGA": {
+      "preferredEvidence": {
+        "source": "supplemental",
+        "entry": 0,
+        "sense": 0,
+        "requiredText": [
+          "female equivalent",
+          "friend"
+        ]
+      },
+      "reviewKind": "reviewed-ordinary-singular-noun",
+      "reviewNote": "Independent ordinary feminine singular noun sense; grammatical gender alone does not make a noun plural or conjugated."
+    },
+    "CHICA": {
+      "preferredEvidence": {
+        "source": "supplemental",
+        "entry": 0,
+        "sense": 0,
+        "requiredText": [
+          "female equivalent",
+          "girl"
+        ]
+      },
+      "reviewKind": "reviewed-ordinary-singular-noun",
+      "reviewNote": "Independent ordinary feminine singular noun sense; grammatical gender alone does not make a noun plural or conjugated."
+    },
+    "GATA": {
+      "preferredEvidence": {
+        "source": "supplemental",
+        "entry": 0,
+        "sense": 0,
+        "requiredText": [
+          "female equivalent",
+          "cat"
+        ]
+      },
+      "reviewKind": "reviewed-ordinary-singular-noun",
+      "reviewNote": "Independent ordinary feminine singular noun sense; grammatical gender alone does not make a noun plural or conjugated."
+    },
+    "LISA": {
+      "preferredEvidence": {
+        "source": "lexical",
+        "entry": 0,
+        "sense": 1
+      },
+      "reviewKind": "reviewed-ordinary-fish-sense",
+      "reviewNote": "Use the broader marine-fish noun sense, not the separate central-Spain river-fish sense."
+    }
+  }
+}

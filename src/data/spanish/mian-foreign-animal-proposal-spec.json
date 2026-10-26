@@ -1,0 +1,273 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "Separate first-author source-adapter proposal for independent review; two exact Spanish raw lines freshly verified by hash, existing frozen English model/policy proof reused without changing its sense. No original English archive replay or production edits.",
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "englishSubjectPolicySha256": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+    "spanishNormalizerModuleSha256": "10919b3d40420050cf33dcd18c28da2b4e0b8ed01cd80be3a8f27848793195b2",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "prior16ProposalSha256": "23fc84357a949b0eaa4809b8b073c310c1d368a0228acf7a9bc03a21d4db9bb7",
+    "prior16ReviewSha256": "e12b4642544d6ab0b5422c6f9bb9dc75bb7adbbd666418f1c193a498c1847515",
+    "dataLicense": "CC-BY-SA-4.0",
+    "englishInflectionsLicense": "Retain separate permissive AGID original notices."
+  },
+  "proposals": [
+    {
+      "word": "MÍAN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they meow",
+      "sourceAdapter": "Exact Spanish-edition form description to existing reviewed English-source lexical predicate",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal cats only)",
+      "selectedFeatures": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "Cats making their characteristic meowing call; selected present third-person-plural reading. Spanish source marks this meowing lexical sense rare. No human imitation or urination sense.",
+      "sourceWord": {
+        "recordSha256": "97a645012b5d13e06e0996d28d874d4a539ff79bdbfbc92b11280ff1226403a2",
+        "word": "mían",
+        "pos": "verb",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de indicativo de miar."
+            ],
+            "tags": [
+              "form-of"
+            ],
+            "categories": [
+              "ES:Formas verbales en indicativo"
+            ],
+            "sense_index": "1",
+            "form_of": [
+              {
+                "word": "miar"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceWordSenseIndex": 0,
+      "sourceWordSense": {
+        "glosses": [
+          "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de indicativo de miar."
+        ],
+        "tags": [
+          "form-of"
+        ],
+        "categories": [
+          "ES:Formas verbales en indicativo"
+        ],
+        "sense_index": "1",
+        "form_of": [
+          {
+            "word": "miar"
+          }
+        ]
+      },
+      "sourceNormalization": {
+        "kind": "finite",
+        "tags": [
+          "ustedes-address",
+          "third-person",
+          "plural",
+          "present",
+          "indicative"
+        ],
+        "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de indicativo"
+      },
+      "sourceFeatures": {
+        "kind": "finite",
+        "tense": "present",
+        "person": "third-person",
+        "number": "plural",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "ustedes-address"
+        ]
+      },
+      "selectedSpanishAnimalMeaning": {
+        "recordSha256": "01662fc31a0c5eaa3b0a07fad7068e2cd756be574a053f8e84fb447fc305cbd7",
+        "word": "miar",
+        "pos": "verb",
+        "wordTags": [
+          "intransitive"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Emitir su voz el gato, similar a la onomatopeya miau."
+            ],
+            "tags": [
+              "rare"
+            ],
+            "categories": [
+              "ES:Términos infrecuentes"
+            ],
+            "sense_index": "1"
+          }
+        ]
+      },
+      "selectedSpanishAnimalSenseIndex": 0,
+      "englishLemmaProof": {
+        "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to meow"
+          ]
+        },
+        "lemmaRow": {
+          "word": "miar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to meow"
+              ]
+            }
+          ],
+          "recordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e"
+        }
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MIABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "miaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "miar",
+          "canonicalLemma": "miar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "ad168b0c2864ddfd",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "wordEvidenceKind": "explicit source table",
+          "spanishForm": null,
+          "tableForm": {
+            "form": "miaba",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "source": "conjugation",
+            "tableTags": []
+          },
+          "sourceArticle": "miar",
+          "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "lemmaGloss": "to meow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      },
+      "existingSubjectPolicy": {
+        "id": "ad168b0c2864ddfd",
+        "spanish": "miar",
+        "recordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "senseKey": "{\"glosses\": [\"to meow\"]}",
+        "frame": "meow",
+        "action": "it-only",
+        "reason": "Exact selected miar reading is a cat meowing; the human urination homograph is explicitly excluded by the notes.",
+        "auditPart": 1
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "sourceLinks": [
+        {
+          "label": "English reviewed lemma meaning",
+          "url": "https://en.wiktionary.org/wiki/miar#Spanish"
+        },
+        {
+          "label": "Spanish exact form evidence",
+          "url": "https://es.wiktionary.org/wiki/m%C3%ADan"
+        },
+        {
+          "label": "Spanish selected rare animal sense",
+          "url": "https://es.wiktionary.org/wiki/miar"
+        }
+      ],
+      "addressDisambiguation": "Original normalization retains ustedes-address as source morphology. This exception selects only animal ellos/ellas→they; formal you/ustedes is not approved and must not appear in active English text or selected runtime tags.",
+      "notes": "Selected generated English grammatical reading, not a source-provided whole English translation, example sentence or native/Mexican teaching certification."
+    }
+  ],
+  "preservedPriorHold": {
+    "word": "MÍAN",
+    "lemma": "miar",
+    "reason": "Potential additional exact Spanish-edition present-indicative form; kept separate because this batch is English word/table evidence. Requires its own foreign-adapter whole-source binding, not a guessed English word entry."
+  },
+  "counts": {
+    "newExactWordReadingsProposed": 1,
+    "freshSpanishRawRecords": 2,
+    "currentlyUncoveredByFiveLocalTranslationProviders": 1
+  },
+  "guards": [
+    "Prior16 English word/table batch hold remains archival. This new proposal uses a distinct exact Spanish-form adapter; it is not evidence of a missing English word entry or table cell.",
+    "Require independent approval binding source adapter, exact NFC word MÍAN, Spanish word raw hash/sense/normalization, English lemma hash/sense/model frame/policy, selected features and literal English.",
+    "No accent stripping: MÍAN is not MIAN, and no other spelling/person/tense is admitted.",
+    "No global it-only change, no humans/I/we/you/ustedes, commands, subjunctives, weather, reflexive SE or new English inflection rule.",
+    "Only selected Spanish cat-meowing rare label applies; unrelated pronominal urinary/vulgar/regional labels remain unselected.",
+    "Keep English lemma primary source and exact Spanish form/meaning citations; do not claim a retained English-source whole-word record for MÍAN.",
+    "Current Q61000 batch remains frozen; this is a possible later batch only. No actual coverage gain asserted."
+  ]
+}

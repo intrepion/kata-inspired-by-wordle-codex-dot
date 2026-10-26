@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "Independent source-bound learner display review only; no new lexical or grammatical authority.",
+  "inputSha256": "7e55fd645465d20ccef5195a0301be87445673386e86db6d52d2fc1177981815",
+  "baseProposalSha256": "0255a2a25fdbaa54c15a00f25ad857c595edf5a80d9787d8a90b372faa6bef22",
+  "baseReviewSha256": "6ed960c3232334579d9a805276171af02881a7cc124b97d236b41921ccf6a6db",
+  "approved": true,
+  "word": "RIELAN",
+  "lemma": "rielar",
+  "frame": "shimmer",
+  "english": "they shimmer",
+  "originalReviewedContext": "light or reflecting objects shimmering with tremulous light; preserve the poetic/literary register, no human personification",
+  "approvedDisplayContext": "Light or reflective objects shimmering with tremulous light; poetic/literary use.",
+  "alsoApprovedExactSpecDisplayContext": "Poetic or literary: lights or reflecting surfaces shimmer with a trembling light.",
+  "sourceIdentity": {
+    "englishLemmaRecordSha256": "bafb83b74b96121d62c317fa59d3bffa7eae9a8942798c19243b27664435c20a",
+    "englishLemmaSenseIndex": 0,
+    "englishWordRecordSha256": "b41f4971cf127f526ce3fe0d375c144e5aa6abc25136e0fe3e69001068c0f16a",
+    "spanishLemmaRecordSha256": "64127d925bb0b9627e06b2562522ddc9f2fdf729e1b84c10536ebb01a7efc520",
+    "spanishLemmaSenseIndex": 1
+  },
+  "guards": [
+    "Only this existing exact RIELAN reading; literal nonhuman third-person plural indicative, never humans, formal-you, commands, subjunctive or global plural permission.",
+    "Either exact approved display is a faithful learner rendering of the same poetic/literary tremulous-light restriction. Retain the original full context, source metadata and reviews unchanged in proof.",
+    "Display override must not change existing frame, English, grammatical features, profile, usage labels, source identities or other records."
+  ],
+  "productionEdits": false
+}

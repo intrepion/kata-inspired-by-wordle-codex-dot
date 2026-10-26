@@ -1,0 +1,474 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "First-author independent model reassessment of10 exact Spanish/MCR/English noun alignments, now corroborated against exact pinned Spanish Wiktionary raw lexical senses. Previous independent holds remain archival; new independent Spec review required before any admission. Not source-membership-only approval, source English quotation, native-human certification or measured coverage.",
+  "diagnosticSha256": "cb3d4453ad090be638d0392a97245fe9db0f5aab9d696e014c2970fe095bf6ab",
+  "sourcePins": {
+    "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+    "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+    "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+    "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+    "spanishLicense": "CC-BY-3.0",
+    "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+    "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+    "modifications": "Exact WordNet 3.0 noun-synset joins, independently reviewed selected English renderings, no quotations or examples.",
+    "englishNounDataSha256": "489f145e0f68877c0be5bd0eb4117adaaac52f38f6204eb8d85dbe2158b614cc",
+    "baselineCoverageAuditSha256": "4b48591f63123b81d3d254eb4eb581d15d5fdcc96ed8c8d65f12cd8e3ac43464",
+    "supplementalSpanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "supplementalSpanishLicense": "CC-BY-SA-4.0"
+  },
+  "proposals": [
+    {
+      "spanish": "alcea",
+      "word": "ALCEA",
+      "synset": "12173407-n",
+      "english": [
+        "hollyhock genus (Alcea)"
+      ],
+      "context": "Spanish source explicitly identifies Alcea as a plant genus; resolves prior common-name/genus uncertainty. Do not collapse genus to a single species.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "Alcea",
+          "genus Alcea"
+        ],
+        "definition": "genus of erect herbs of the Middle East having showy flowers: hollyhocks; in some classification systems synonymous with genus Althaea",
+        "recordSha256": "8b6d2d3a86c9c882fd22881c488b78a22ecfec935d8ece88a228b9c10156d8b6",
+        "spanishRecordSha256": "7f6106a0701bf77f9ff930e0ec1793b49de07819b797728cf9667fb6bcf07bff"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": false,
+        "specReason": "Spanish plant common name versus genus-level taxon; exact scope not independently established.",
+        "standardsReason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "14c666c1e3fd6a836e3ab402d4d81681a67bb64e2fb80ffbd183e2f1ea05dbe6",
+        "word": "alcea",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "(Alcea) Género de unas 80 especies aceptadas de las 120 descritas de plantas de flores perteneciente a la familia de las malváceas."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "feminine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/alcea"
+      }
+    },
+    {
+      "spanish": "atropa",
+      "word": "ATROPA",
+      "synset": "12898226-n",
+      "english": [
+        "belladonna plant genus (Atropa)"
+      ],
+      "context": "Spanish source explicitly identifies genus Atropa in Solanaceae; genus is intended, not a named individual plant.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "Atropa",
+          "genus Atropa"
+        ],
+        "definition": "belladonna",
+        "recordSha256": "f8060c22287814a4f6ba283f5d4bc6d22d8afca328b276f61b7a205ce6160d37",
+        "spanishRecordSha256": "e020b4a3ac2a9fb6bc0ae87d4c0da7e8b7b8c7d0f37b5af1b6edcf7782e977df"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": false,
+        "specReason": "Taxonomic genus rather than an ordinary belladonna common name; exact Spanish lexical scope unverified.",
+        "standardsReason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "afccfb35ba4778d1a5e9a839dd4fc8b9fe276ecfb60dfa72cf03afefe67fe9c5",
+        "word": "atropa",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "(Atropa) género de plantas dentro de la familia de las solanáceas."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "wordTags": [
+          "feminine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/atropa"
+      }
+    },
+    {
+      "spanish": "dula",
+      "word": "DULA",
+      "synset": "08542304-n",
+      "english": [
+        "common grazing land"
+      ],
+      "context": "Selected communal pasture sense, not irrigation allotment or the herd grazing on it.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "commons",
+          "common land"
+        ],
+        "definition": "a pasture subject to common use",
+        "recordSha256": "a83cabe4524f8f57f0c727c8ed1c5d9795fe98a78473d13a026aa5c036415d12",
+        "spanishRecordSha256": "7639cc3445aa6f80aca8c68d38678a70bd71e435f8df3b8671427570fa402cac"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "7a90631f5312c7eb8a778b3a90f43efbdfe3b975d74bc814c97e31c0578738fa",
+        "word": "dula",
+        "partOfSpeech": "noun",
+        "senseIndex": 1,
+        "glosses": [
+          "Porción de terreno comunal donde pastan libremente o por turnos los ganados de los vecinos de un pueblo."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/dula"
+      }
+    },
+    {
+      "spanish": "gabarro",
+      "word": "GABARRO",
+      "synset": "00072808-n",
+      "english": [
+        "error in calculations"
+      ],
+      "context": "Selected accidental accounting-error subset; source also permits malicious errors, which this narrow WordNet mistake rendering does not exhaust.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "miscalculation",
+          "misreckoning",
+          "misestimation"
+        ],
+        "definition": "a mistake in calculating",
+        "recordSha256": "5da36bac424550ee7cfcd5f277df4cdcd2770c3bfd8e0975894418bca248672f",
+        "spanishRecordSha256": "3e9ed1fb6c740c5b35384cfa0844bfc10886e3ea6cfc758a61fc76160892e803"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": false,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+      },
+      "selectedSpanishSenseIndex": 2,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "2319938262ace20b6221979b56d5343dbf4f249157d056fab0800c3d641f1f8b",
+        "word": "gabarro",
+        "partOfSpeech": "noun",
+        "senseIndex": 2,
+        "glosses": [
+          "Error que se halla en las cuentas, por error o malicia."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/gabarro"
+      }
+    },
+    {
+      "spanish": "gambuza",
+      "word": "GAMBUZA",
+      "synset": "04329477-n",
+      "english": [
+        "ship's provisions storeroom"
+      ],
+      "context": "Spanish narrows the broad WordNet storeroom concept to a merchant ship food store; not every storage room is a gambuza.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "storeroom",
+          "storage room",
+          "stowage"
+        ],
+        "definition": "a room in which things are stored",
+        "recordSha256": "6df0c354a56cb992600ff989fb30eaebf5fa4cb30e8c583a9ae4327ed6cbad89",
+        "spanishRecordSha256": "402a52225ad8928148a1a44659eacd90c4b08ca1577ffad017aa567a2e1920eb"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "cd8b8b633488d0baf162549cf338c53424e9bd70491969434790efb8fa803b5e",
+        "word": "gambuza",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "Depósito o despensa de los barcos mercantes donde se guardan los víveres"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "feminine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/gambuza"
+      }
+    },
+    {
+      "spanish": "maesa",
+      "word": "MAESA",
+      "synset": "02207345-n",
+      "english": [
+        "queen bee"
+      ],
+      "context": "Selected bee caste sense, distinct from a female teacher. Female/egg-laying biological role is source-bound, not inferred grammatical gender.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "queen bee"
+        ],
+        "definition": "fertile egg-laying female bee",
+        "recordSha256": "381636e8b7534c2358a14664f5f3009d2b6bcaddd45220af9b86a556e295d226",
+        "spanishRecordSha256": "4289a02920a1474c807582967e47eb5d98e46305ab356bc567cd995250db2236"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "c0bef685472b4349446f65c7ccd877a7a8d3b24b58b225f277c38f7847d83548",
+        "word": "maesa",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "La abeja reina de una colmena."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "feminine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/maesa"
+      }
+    },
+    {
+      "spanish": "pozanco",
+      "word": "POZANCO",
+      "synset": "09397607-n",
+      "english": [
+        "puddle left beside a river after floodwater recedes"
+      ],
+      "context": "Specific river-margin standing-water pool; not every rain puddle or a pool of another liquid.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "pool",
+          "puddle"
+        ],
+        "definition": "a small body of standing water (rainwater) or other liquid",
+        "recordSha256": "a5dd2f0fc61d290e125af944ecae65f35cd420505e741a08861a6f3d12698136",
+        "spanishRecordSha256": "bdb2580f43c61017c8aad9abf6beac60291efd44d5b7e29277304ec93745a2d8"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "7bc25364034593b56467df6d755e08e2bad7d9e347aeed548aa2ac59c647d501",
+        "word": "pozanco",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "Poza que queda en las orillas de los ríos al retirarse las aguas después de una avenida."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/pozanco"
+      }
+    },
+    {
+      "spanish": "quicial",
+      "word": "QUICIAL",
+      "synset": "03521431-n",
+      "english": [
+        "gate hinge post"
+      ],
+      "context": "Selected gate/door-support post on which hinges turn, not an entire window frame. Source doors include the gate use selected by the exact MCR synset.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "hinging post",
+          "swinging post"
+        ],
+        "definition": "the gatepost on which the gate is hung",
+        "recordSha256": "02f2070ccb4e67ee2ed3fb066d470b63e8a47c8fdec938dc5556f6867024173b",
+        "spanishRecordSha256": "c5fafd682304e3d97db41d7366574196dbc0e947b0d07aba965489a2f23cfaea"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "6453093f8d4faf846a03ce92641ed5d136ad8c25924c8ec35f384b90da9873ba",
+        "word": "quicial",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "El madero que por medio de pernios y bisagras afirma y sostiene las puertas y ventanas, para que revolviéndose se abran y cierren. Se toma muchas veces por lo mismo que quicio."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/quicial"
+      }
+    },
+    {
+      "spanish": "retallo",
+      "word": "RETALLO",
+      "synset": "04176747-n",
+      "english": [
+        "wall setback"
+      ],
+      "context": "Selected structural step where a wall recedes; not a plant shoot or financial offset.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "set-back",
+          "setoff",
+          "offset"
+        ],
+        "definition": "structure where a wall or building narrows abruptly",
+        "recordSha256": "a0964ba37ed22e92d31af194a3dd815a31161779f53df1bda9dcfb4202b91d1c",
+        "spanishRecordSha256": "4ab4f39c8ededfcef0bf9159cf65e25f4ea7f7cf4415362be2983c2268c29414"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": false,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "90e3893fb6fef952b269d8eef775d1d512221d86967251e1008338c7fbb016e1",
+        "word": "retallo",
+        "partOfSpeech": "noun",
+        "senseIndex": 0,
+        "glosses": [
+          "Qualquiera de los escalones que hay en una pared retallada."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/retallo"
+      }
+    },
+    {
+      "spanish": "terraja",
+      "word": "TERRAJA",
+      "synset": "03193754-n",
+      "english": [
+        "diestock"
+      ],
+      "context": "Selected tool holding external-thread-cutting dies, not the bell-founder template or insulting personal senses.",
+      "wordnetEvidence": {
+        "synonyms": [
+          "diestock"
+        ],
+        "definition": "a device that holds the dies that cut external threads on metal cylinders",
+        "recordSha256": "3e8ae0864e66802e3fff64e935ab631b60d3279870f569d17e1b28dfdd17f11f",
+        "spanishRecordSha256": "5ae8355c1acf726df347d1be14fb7ab5da8d6aad619c852027e96f9075fdb9f0"
+      },
+      "previousDecision": {
+        "specApproved": false,
+        "standardsApproved": true,
+        "specReason": "I cannot independently substantiate this exact Spanish lemma/synset meaning from model linguistic knowledge; conservatively withheld rather than approved from source presence alone.",
+        "standardsReason": null
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "recordSha256": "57f97dcf9b907fe6951ae02779e8a576b6a4332ed15691cbdaf2de18c1569042",
+        "word": "terraja",
+        "partOfSpeech": "noun",
+        "senseIndex": 1,
+        "glosses": [
+          "Herramienta formada por una barra de acero con una caja rectangular en el medio, donde se ajustan las piezas que sirven para labrar las roscas de los tornillos."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "feminine"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/terraja"
+      }
+    }
+  ],
+  "counts": {
+    "proposedWords": 10,
+    "proposedSensePairs": 10,
+    "actualNewCoverage": 0
+  },
+  "holds": [
+    {
+      "spanish": "chispeo",
+      "synset": "04952944-n",
+      "reason": "Only newly encountered noun alignment. Current retained Spanish entry does not supply an independent noun meaning; do not infer sparkling from an uncorroborated verb-form spelling or English synonym."
+    },
+    {
+      "spanish": "cícero",
+      "reason": "Its approximately4.5mm unit is not the exact one-sixth-inch pica synset."
+    },
+    {
+      "spanish": "termia",
+      "reason": "Not equivalent to the English100000-BTU therm."
+    },
+    {
+      "spanish": "protio",
+      "reason": "Hydrogen isotope, not plant genus Protium."
+    },
+    {
+      "spanish": "pruno",
+      "reason": "Spanish tree term, not English prison alcohol."
+    },
+    {
+      "spanish": "silaba",
+      "reason": "Accent distinction matters: not the Spanish noun sílaba."
+    }
+  ],
+  "attribution": "MCR contributors / CC BY3.0; Princeton WordNet3.0 original included license; supplemental Spanish Wiktionary contributors / CC BY-SA4.0. Preserve all original notices and exact source links/hashes if a derivative is later admitted; no legal certification or publication performed.",
+  "limits": [
+    "Ten is a conservative source-supported proposal count, not an exhaustive estimate that all119 noun spellings can be recovered. Further uncertain alignments need independent evidence.",
+    "Current K has independently translated some J-baseline gaps via another provider; do not double-count any such spelling. The ten selected here do not overlap K newly added80 nouns.",
+    "Raw record hashes bind exact original lines; WordNet quotation examples intentionally omitted from this research artifact.",
+    "No new corpus, download, paid service, account or production edit used."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "artifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "retainedResearchCacheSha256": "8dbf72b51a9d8ed14429d3297f889390ab168b162f4eda7198654ab5fa3b374b",
+  "candidateSha256": "e766337bfc705ff9ee838e1b7eaf2647b824bc50c1ea146fa78492f0401053f3",
+  "spanishContextSha256": "c7d5cec84b85fe37ddcb96689c268cef494074b033e10e342fa2a82e10d31173",
+  "license": "CC-BY-SA-4.0",
+  "method": "Frozen exact source synonym rows and target semantic records from the earlier pinned English raw-source scan, with separately replayed Spanish COPINO locality context. Two independent lexical reviews plus explicit selected-sense cross-review; no finite-form permission.",
+  "spanishContextSelection": {
+    "word": "copino",
+    "partOfSpeech": "noun",
+    "recordSha256": "d7e25fc3853df8d4419a65e1ec7bef62c89a80ddb3e86ba94f9e386e502de24d",
+    "senseIndex": 0,
+    "glosses": [
+      "Medida de capacidad para granos cuya equivalencia depende de la localidad."
+    ]
+  }
+}

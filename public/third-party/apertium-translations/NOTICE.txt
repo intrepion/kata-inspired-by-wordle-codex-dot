@@ -1,0 +1,36 @@
+Morrowmark: modified, bounded English morphological equivalents (2026-10-25)
+
+This is a modified selection, not an official Apertium release or a certified
+Mexican Spanish teaching corpus. Automatically derived data in
+src/data/spanish/morph-translations is identified as GPL-2.0, separately from
+CC BY-SA teaching/Wiktionary records. No Apertium English monodix is used.
+
+Apertium English-Spanish contributors:
+https://github.com/apertium/apertium-eng-spa/tree/b29ae922acd04a7542b44e36e3084e76698b5775
+Original bilingual dictionary, AUTHORS, README and complete COPYING accompany
+this notice. Apertium Spanish contributors:
+https://github.com/apertium/apertium-spa/tree/a904c4aba3bb13406ebeb85617c9cc665a582986
+Original Spanish metadix, AUTHORS, README and complete COPYING accompany it.
+The retained GPL version2 terms govern the derivative lexical data; the
+original license and warranty disclaimers are not changed. This is not a
+claim of a distribution exemption for separately loaded data.
+
+English inflections: AGID2016.01.19, Kevin Atkinson and contributors,
+https://github.com/en-wl/wordlist/tree/5ef55f9c42730ebe4394a78b77855468a6f15dd2/agid
+Original infl.txt and full AGID-Copyright.txt notices accompany this notice.
+
+Corresponding generation source: scripts/generate-morph-translations.py in
+the Morrowmark source tree. Input/output hashes and per-word analysis traces
+are retained in src/data/spanish/morph-translation-source.json and
+morph-translation-audit.json. Reproduce with Python3, no runtime translation
+service, account or paid model. The original input sources are included here.
+
+Transformations: expand only supported finite explicit paradigms; respect
+analysis/translation direction; skip disabled/alternative/regex/unsupported
+structures and context-dependent shortened adverbs. Join simple bilingual
+POS-matched prefixes. English forms use explicit AGID inflections; unknown
+paradigms, sense-qualified English homographs, unsupported moods/enclitics,
+and reviewed argument-changing mappings remain unavailable. Preserve source
+alternatives and grammar labels; no examples or sentence translations are
+invented. These context-free equivalents may contain source errors and do
+not supply every sense or analysis of a word.

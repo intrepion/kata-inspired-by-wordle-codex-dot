@@ -1,0 +1,16 @@
+{
+  "CLÍNICA": "lexical-evidence.json entry0/sense2: medical establishment, rather than bedside medical science.",
+  "CLÍNICO": "lexical-evidence.json entry0/sense1: relating to clinical medicine, not deathbed baptism.",
+  "COBRA": "lexical-evidence.json entry1/sense0: venomous snake.",
+  "COCA": "lexical-evidence.json entry5/sense1: cola-style soft drink.",
+  "COMBO": "lexical-evidence.json entry2/sense1: products sold together at one price.",
+  "CONDADO": "lexical-evidence.json entry0/sense2: administrative county.",
+  "CONSOLA": "lexical-evidence.json entry0/sense2: video game console.",
+  "CONVOY": "lexical-evidence.json entry0/sense2: vehicles traveling together.",
+  "CORREO": "lexical-evidence.json entry0/sense3: letters/packages, not carrier person.",
+  "CERRADO": "Input selected gloss is a malformed grammatical headword line; ordinary closed adjective used. Needs source-sense check during cross-review.",
+  "CONTADO": "Ordinary al contado meaning from model linguistic knowledge; different from input scarce adjective.",
+  "CIGARRO": "Independent cross-review: ordinary Mexican usage/model linguistic knowledge selected for teaching usefulness, or English/Spanish grammar corrected. No claim of dictionary-provided translation.",
+  "COLONIA": "Independent cross-review: ordinary Mexican usage/model linguistic knowledge selected for teaching usefulness, or English/Spanish grammar corrected. No claim of dictionary-provided translation.",
+  "COMERSE": "Independent cross-review: ordinary Mexican usage/model linguistic knowledge selected for teaching usefulness, or English/Spanish grammar corrected. No claim of dictionary-provided translation."
+}

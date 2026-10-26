@@ -1,0 +1,3668 @@
+{
+  "candidateSha256": "61abea75352a40025205d2dce7ae69bdb73f0e16a00513846cdc3277f516caca",
+  "proposedReviewSha256": "22b5fedf8528823134f6741a6250e0e14fbcddc4a2cbffe9222dbf3d3e7a15ac",
+  "otherReviewSha256": "9e95b4bdfab69210b088c128d66c1b4f33f4809bd3a2727f2945bfe0a9fd9cbc",
+  "batch": 2,
+  "proposedReviewer": "/root/review_standards",
+  "scope": "Explicit independent cross-review of the unchanged Standards selected Spanish-source meaning/frame/profile/context proposal. Different earlier Spec selection remains archival, not authority for this proposal. No conditional profile, subject or argument changes; reject if unsupported. Original safety withdrawals and exact-but-unsafe merged exclusions are not reopened. Selected readings are original model translations, not dictionary-provided English.",
+  "knownSafetyWithdrawalsExcluded": [],
+  "roots": [
+    {
+      "source": {
+        "spanish": "abayado",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "ABAYADA"
+        ],
+        "formSamples": [
+          {
+            "word": "ABAYADA",
+            "wordSource": "abayada",
+            "glosses": [
+              "Forma del femenino singular de abayado."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "singular",
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino singular"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "abayado",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras llanas",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:a.do",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Similar a la baya."
+                ],
+                "categories": [
+                  "ES:Botánica"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "b2ae7121279b02017a9ea11588787e12f6e436c8f23f4e487dcb4cdcfe67fa7e"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "abayado",
+        "partOfSpeech": "adj",
+        "recordSha256": "b2ae7121279b02017a9ea11588787e12f6e436c8f23f4e487dcb4cdcfe67fa7e",
+        "senseIndex": 0,
+        "frame": "berry-like",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Botany: resembling a berry.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "abayado",
+        "partOfSpeech": "adj",
+        "recordSha256": "b2ae7121279b02017a9ea11588787e12f6e436c8f23f4e487dcb4cdcfe67fa7e",
+        "senseIndex": 0,
+        "frame": "berrylike",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Similar to a berry.",
+        "notes": "Do not infer a particular berry species."
+      }
+    },
+    {
+      "source": {
+        "spanish": "agatino",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "AGATINA"
+        ],
+        "formSamples": [
+          {
+            "word": "AGATINA",
+            "wordSource": "agatina",
+            "glosses": [
+              "Forma del femenino de agatino."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "agatino",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -ino",
+              "ES:Palabras llanas",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.no",
+              "Español",
+              "Español-Francés",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Similar, por su aspecto, al mineral de ágata."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "08cb217c6525faf27742bd7edd942213a6aae5e2b33f68fc53ae6012479cceb0"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "agatino",
+        "partOfSpeech": "adj",
+        "recordSha256": "08cb217c6525faf27742bd7edd942213a6aae5e2b33f68fc53ae6012479cceb0",
+        "senseIndex": 0,
+        "frame": "agate-like",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Resembling agate in appearance.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "agatino",
+        "partOfSpeech": "adj",
+        "recordSha256": "08cb217c6525faf27742bd7edd942213a6aae5e2b33f68fc53ae6012479cceb0",
+        "senseIndex": 0,
+        "frame": "agatelike",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Similar in appearance to agate.",
+        "notes": "Mineral resemblance, not identity."
+      }
+    },
+    {
+      "source": {
+        "spanish": "alible",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "ALIBLES"
+        ],
+        "formSamples": [
+          {
+            "word": "ALIBLES",
+            "wordSource": "alibles",
+            "glosses": [
+              "Forma del plural de alible."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "alible",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [
+              "invariable en género"
+            ],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos invariables en género",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.ble",
+              "Español",
+              "Español-Alemán",
+              "Español-Esperanto",
+              "Español-Francés",
+              "Español-Inglés",
+              "Español-Italiano",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Capaz de nutrir o alimentar. El quimo destinado a la nutrición puede considerarse sustancia alible."
+                ],
+                "categories": [
+                  "ES:Fisiología"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "44ee58ec7c7374b321d508a47682356940d28d99aa4cf13554c958e7339d0bbc"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "alible",
+        "partOfSpeech": "adj",
+        "recordSha256": "44ee58ec7c7374b321d508a47682356940d28d99aa4cf13554c958e7339d0bbc",
+        "senseIndex": 0,
+        "frame": "nourishing",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Physiology: capable of supplying nourishment; adjective invariant in Spanish gender.",
+        "notes": "Selected Spanish source usage: invariable en género."
+      },
+      "priorOtherReview": {
+        "spanish": "alible",
+        "partOfSpeech": "adj",
+        "recordSha256": "44ee58ec7c7374b321d508a47682356940d28d99aa4cf13554c958e7339d0bbc",
+        "senseIndex": 0,
+        "frame": "nutritive",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Capable of feeding or nourishing.",
+        "notes": "Not a guarantee of a particular nutrient content."
+      }
+    },
+    {
+      "source": {
+        "spanish": "amohecer",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "AMOHECE",
+          "AMOHECÍ"
+        ],
+        "formSamples": [
+          {
+            "word": "AMOHECE",
+            "wordSource": "amohece",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del presente de indicativo de amohecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del presente de indicativo"
+            }
+          },
+          {
+            "word": "AMOHECE",
+            "wordSource": "amohece",
+            "glosses": [
+              "Segunda persona del singular (tú) del imperativo de amohecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "imperative"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del imperativo",
+              "adapter": null
+            }
+          },
+          {
+            "word": "AMOHECÍ",
+            "wordSource": "amohecí",
+            "glosses": [
+              "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de amohecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "amohecer",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras con el prefijo a-",
+              "ES:Palabras con el sufijo -ecer",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:eɾ",
+              "ES:Verbos",
+              "ES:Verbos de la segunda conjugación",
+              "ES:Verbos del paradigma parecer",
+              "ES:Verbos regulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Español-Alemán",
+              "Español-Catalán",
+              "Español-Checo",
+              "Español-Estonio",
+              "Español-Finés",
+              "Español-Francés",
+              "Español-Inglés",
+              "Español-Islandés",
+              "Español-Italiano",
+              "Español-Neerlandés",
+              "Español-Polaco",
+              "Español-Portugués",
+              "Español-Ruso",
+              "Español-Sueco",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Cubrir de moho."
+                ],
+                "tags": [
+                  "pronominal",
+                  "rare"
+                ],
+                "raw_tags": [
+                  "utci"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "2e1a0f66802057f0941ef1122b07d404ca482fc0fd615fdd8d319422602d7683"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "amohecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "2e1a0f66802057f0941ef1122b07d404ca482fc0fd615fdd8d319422602d7683",
+        "senseIndex": 0,
+        "frame": "cover with mold",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Rare transitive coating with mold; patient supplied by context, not a reflexive becoming-moldy substitution.",
+        "notes": "Selected Spanish source labels: transitive, pronominal, rare. Select the independently supported transitive reading, not an unsupported pronominal substitution."
+      },
+      "priorOtherReview": {
+        "spanish": "amohecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "2e1a0f66802057f0941ef1122b07d404ca482fc0fd615fdd8d319422602d7683",
+        "senseIndex": 0,
+        "frame": "cover with mold",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Mold spreads over a surface.",
+        "notes": "Rare literal mold agent; not personal molding or an invented operator."
+      }
+    },
+    {
+      "source": {
+        "spanish": "bocal",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "BOCALES"
+        ],
+        "formSamples": [
+          {
+            "word": "BOCALES",
+            "wordSource": "bocales",
+            "glosses": [
+              "Forma del plural de bocal."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "bocal",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [
+              "invariable en género"
+            ],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos invariables en género",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras con el sufijo -al",
+              "ES:Páginas sin audios",
+              "ES:Rimas:al",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Variante poco usada de bucal."
+                ],
+                "categories": [
+                  "ES:Variantes poco usadas"
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Presa, represa hídrica."
+                ],
+                "tags": [
+                  "Aragon"
+                ],
+                "categories": [
+                  "ES:Aragón",
+                  "ES:España"
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "0ddf70df303b466bb320fee2f7b8e9037865e1f3bb6e603f684ebe07c762e8c1"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "bocal",
+        "partOfSpeech": "adj",
+        "recordSha256": "0ddf70df303b466bb320fee2f7b8e9037865e1f3bb6e603f684ebe07c762e8c1",
+        "senseIndex": 0,
+        "frame": "oral",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Little-used variant of bucal, relating to the mouth; not the Aragonese reservoir noun.",
+        "notes": "Selected Spanish source usage: invariable en género."
+      },
+      "priorOtherReview": {
+        "spanish": "bocal",
+        "partOfSpeech": "adj",
+        "recordSha256": "0ddf70df303b466bb320fee2f7b8e9037865e1f3bb6e603f684ebe07c762e8c1",
+        "senseIndex": 0,
+        "frame": "buccal",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to the mouth.",
+        "notes": "Uncommon variant of bucal; not the Aragonese reservoir noun."
+      }
+    },
+    {
+      "source": {
+        "spanish": "bohordar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "BOHORDO"
+        ],
+        "formSamples": [
+          {
+            "word": "BOHORDO",
+            "wordSource": "bohordo",
+            "glosses": [
+              "Primera persona del singular (yo) del presente de indicativo de bohordar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del presente de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "bohordar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras con el sufijo -ar",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma amar",
+              "ES:Verbos intransitivos",
+              "ES:Verbos regulares",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Tirar bohordos (lanzas cortas) en los juegos y torneos de caballería."
+                ],
+                "tags": [
+                  "outdated"
+                ],
+                "categories": [
+                  "ES:Términos anticuados"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "caff3b2bdabdb8494a4697465772ecde39f2b2445cd0a7aa228fb4596cc719f1"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "bohordar",
+        "partOfSpeech": "verb",
+        "recordSha256": "caff3b2bdabdb8494a4697465772ecde39f2b2445cd0a7aa228fb4596cc719f1",
+        "senseIndex": 0,
+        "frame": "throw short lances in a tournament",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Archaic chivalric tournament activity.",
+        "notes": "Selected Spanish source labels: intransitive, outdated."
+      },
+      "priorOtherReview": {
+        "spanish": "bohordar",
+        "partOfSpeech": "verb",
+        "recordSha256": "caff3b2bdabdb8494a4697465772ecde39f2b2445cd0a7aa228fb4596cc719f1",
+        "senseIndex": 0,
+        "frame": "throw tournament javelins",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Cast short lances in chivalric games.",
+        "notes": "Outdated historical sport; human rider or participant."
+      }
+    },
+    {
+      "source": {
+        "spanish": "bribar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "BRIBAS"
+        ],
+        "formSamples": [
+          {
+            "word": "BRIBAS",
+            "wordSource": "bribas",
+            "glosses": [
+              "Segunda persona del singular (tú) del presente de indicativo de bribar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del presente de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "bribar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras con el sufijo -ar",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma amar",
+              "ES:Verbos intransitivos",
+              "ES:Verbos regulares",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Llevar un modo de vida pícaro y sin trabajar de modo estable."
+                ],
+                "tags": [
+                  "outdated"
+                ],
+                "categories": [
+                  "ES:Términos anticuados"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "ebdc7ebd4d74987e6b6222a365d25adda9aad581b646b1acbfe90347b69dea70"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "bribar",
+        "partOfSpeech": "verb",
+        "recordSha256": "ebdc7ebd4d74987e6b6222a365d25adda9aad581b646b1acbfe90347b69dea70",
+        "senseIndex": 0,
+        "frame": "live as an idle rogue",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Archaic roguish life without steady work; evaluative source description.",
+        "notes": "Selected Spanish source labels: intransitive, outdated."
+      },
+      "priorOtherReview": {
+        "spanish": "bribar",
+        "partOfSpeech": "verb",
+        "recordSha256": "ebdc7ebd4d74987e6b6222a365d25adda9aad581b646b1acbfe90347b69dea70",
+        "senseIndex": 0,
+        "frame": "live by roguery",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Lead a roguish life without steady work.",
+        "notes": "Outdated usage; not a universal synonym for unemployment."
+      }
+    },
+    {
+      "source": {
+        "spanish": "cienoso",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "CIENOSA"
+        ],
+        "formSamples": [
+          {
+            "word": "CIENOSA",
+            "wordSource": "cienosa",
+            "glosses": [
+              "Forma del femenino de cienoso."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "cienoso",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:o.so",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Repleto de cieno."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "5769cf975522a62c03851d96fa73822b6f1a485fd5cbbb3ff5cb23b898c57e3c"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "cienoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "5769cf975522a62c03851d96fa73822b6f1a485fd5cbbb3ff5cb23b898c57e3c",
+        "senseIndex": 0,
+        "frame": "muddy",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Full of silt or mire.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "cienoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "5769cf975522a62c03851d96fa73822b6f1a485fd5cbbb3ff5cb23b898c57e3c",
+        "senseIndex": 0,
+        "frame": "miry",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Full of mud or mire.",
+        "notes": "Material condition."
+      }
+    },
+    {
+      "source": {
+        "spanish": "denario",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "DENARIA"
+        ],
+        "formSamples": [
+          {
+            "word": "DENARIA",
+            "wordSource": "denaria",
+            "glosses": [
+              "Forma del femenino de denario."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "denario",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:a.ɾjo",
+              "Español",
+              "Español-Alemán",
+              "Español-Asturiano",
+              "Español-Francés",
+              "Español-Inglés",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que pertenece o concierne al número diez."
+                ],
+                "tags": [
+                  "masculine",
+                  "noun"
+                ],
+                "categories": [
+                  "ES:Adjetivos"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "7355f6978f6c4e4f1348663599558125d9f1c50139c5e04bfa7fc675fb7f324c"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "denario",
+        "partOfSpeech": "adj",
+        "recordSha256": "7355f6978f6c4e4f1348663599558125d9f1c50139c5e04bfa7fc675fb7f324c",
+        "senseIndex": 0,
+        "frame": "denary",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to the number ten; not the coin noun.",
+        "notes": "Selected Spanish source labels: masculine, noun."
+      },
+      "priorOtherReview": {
+        "spanish": "denario",
+        "partOfSpeech": "adj",
+        "recordSha256": "7355f6978f6c4e4f1348663599558125d9f1c50139c5e04bfa7fc675fb7f324c",
+        "senseIndex": 0,
+        "frame": "of ten",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to the number ten.",
+        "notes": "Adjectival reading, not the Roman coin noun."
+      }
+    },
+    {
+      "source": {
+        "spanish": "endentar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "ENDENTÉ",
+          "ENDENTÓ"
+        ],
+        "formSamples": [
+          {
+            "word": "ENDENTÉ",
+            "wordSource": "endenté",
+            "glosses": [
+              "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de endentar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+            }
+          },
+          {
+            "word": "ENDENTÓ",
+            "wordSource": "endentó",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito perfecto simple de indicativo de endentar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "endentar",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma pensar",
+              "ES:Verbos irregulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Encajar una cosa en otra, como los dientes y los piñones de las ruedas."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Enlazar dos piezas de madera mediante dientes."
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "Hacer que dos piezas encajen por sus extremos mediante dientes o rebajes, quedando el conjunto más sólido después de empernado."
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "3"
+              }
+            ],
+            "recordSha256": "51d5b0b5a3e630c98d31a8025a1762a4a908ae0cd425381526cc1c09369fded2"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "endentar",
+        "partOfSpeech": "verb",
+        "recordSha256": "51d5b0b5a3e630c98d31a8025a1762a4a908ae0cd425381526cc1c09369fded2",
+        "senseIndex": 1,
+        "frame": "join timber with interlocking teeth",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Woodworking toothed joint; explicit source-given timber, not an invented referent.",
+        "notes": "Selected Spanish source labels: transitive."
+      },
+      "priorOtherReview": {
+        "spanish": "endentar",
+        "partOfSpeech": "verb",
+        "recordSha256": "51d5b0b5a3e630c98d31a8025a1762a4a908ae0cd425381526cc1c09369fded2",
+        "senseIndex": 1,
+        "frame": "interlock timber",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Interlock wooden pieces using toothed joints.",
+        "notes": "Human joiner, not the timber as a personal agent."
+      }
+    },
+    {
+      "source": {
+        "spanish": "ensenar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "ENSENES"
+        ],
+        "formSamples": [
+          {
+            "word": "ENSENES",
+            "wordSource": "ensenes",
+            "glosses": [
+              "Segunda persona del singular (tú) del presente de subjuntivo de ensenar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "present",
+                "subjunctive"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del presente de subjuntivo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "ensenar",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras formadas por composición",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma amar",
+              "ES:Verbos regulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Esconder, poner en el seno una cosa."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Meter en una ensenada una embarcación."
+                ],
+                "tags": [
+                  "pronominal"
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "1de64ff48af22dbb73a05b1d62a7be3418c211b521bcb57381ed868ac8cefa08"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "ensenar",
+        "partOfSpeech": "verb",
+        "recordSha256": "1de64ff48af22dbb73a05b1d62a7be3418c211b521bcb57381ed868ac8cefa08",
+        "senseIndex": 0,
+        "frame": "hide",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Conceal something in the bosom; exact spelling ensenar, not enseñar.",
+        "notes": "Selected Spanish source labels: transitive."
+      },
+      "priorOtherReview": {
+        "spanish": "ensenar",
+        "partOfSpeech": "verb",
+        "recordSha256": "1de64ff48af22dbb73a05b1d62a7be3418c211b521bcb57381ed868ac8cefa08",
+        "senseIndex": 0,
+        "frame": "conceal",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Hide or tuck a thing in the bosom.",
+        "notes": "Transitive hiding, not accented enseñar teaching."
+      }
+    },
+    {
+      "source": {
+        "spanish": "estivo",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "ESTIVA",
+          "ESTIVAS"
+        ],
+        "formSamples": [
+          {
+            "word": "ESTIVA",
+            "wordSource": "estiva",
+            "glosses": [
+              "Forma del femenino de estivo."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          },
+          {
+            "word": "ESTIVAS",
+            "wordSource": "estivas",
+            "glosses": [
+              "Forma del femenino plural de estivo."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural",
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "estivo",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.bo",
+              "Español",
+              "Español-Italiano",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Perteneciente al estío."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "05b3a607ac55fb23595eb9b78f08c2957f46b054a9f5542acce5e08b181f59ff"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "estivo",
+        "partOfSpeech": "adj",
+        "recordSha256": "05b3a607ac55fb23595eb9b78f08c2957f46b054a9f5542acce5e08b181f59ff",
+        "senseIndex": 0,
+        "frame": "summer-related",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to summer, not a cooking/stewing homograph.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "estivo",
+        "partOfSpeech": "adj",
+        "recordSha256": "05b3a607ac55fb23595eb9b78f08c2957f46b054a9f5542acce5e08b181f59ff",
+        "senseIndex": 0,
+        "frame": "estival",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to summer.",
+        "notes": "Seasonal adjective, not an assertion that an event occurs every summer."
+      }
+    },
+    {
+      "source": {
+        "spanish": "frutecer",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "FRUTECE",
+          "FRUTECÍ"
+        ],
+        "formSamples": [
+          {
+            "word": "FRUTECE",
+            "wordSource": "frutece",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del presente de indicativo de frutecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del presente de indicativo"
+            }
+          },
+          {
+            "word": "FRUTECE",
+            "wordSource": "frutece",
+            "glosses": [
+              "Segunda persona del singular (tú) del imperativo de frutecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "imperative"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del imperativo",
+              "adapter": null
+            }
+          },
+          {
+            "word": "FRUTECÍ",
+            "wordSource": "frutecí",
+            "glosses": [
+              "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de frutecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "frutecer",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras con el sufijo -ecer",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:eɾ",
+              "ES:Verbos",
+              "ES:Verbos de la segunda conjugación",
+              "ES:Verbos del paradigma parecer",
+              "ES:Verbos intransitivos",
+              "ES:Verbos regulares",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Dar fruto una planta."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Producir utilidad algo, dar buenos resultados."
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "Ser útil algo, brindar utilidad o provecho."
+                ],
+                "sense_index": "3"
+              }
+            ],
+            "recordSha256": "e24c24667e4ed878d3ffeb690d338a423d1d8f86458e7631c6d2b92235c26def"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "frutecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "e24c24667e4ed878d3ffeb690d338a423d1d8f86458e7631c6d2b92235c26def",
+        "senseIndex": 0,
+        "frame": "bear fruit",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "A plant producing fruit; no imagined human fruit-bearing reading.",
+        "notes": "Selected Spanish source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command."
+      },
+      "priorOtherReview": {
+        "spanish": "frutecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "e24c24667e4ed878d3ffeb690d338a423d1d8f86458e7631c6d2b92235c26def",
+        "senseIndex": 0,
+        "frame": "produce fruit",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "A plant bears fruit.",
+        "notes": "Literal plant agent, not an invented human fruit producer."
+      }
+    },
+    {
+      "source": {
+        "spanish": "fusco",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "FUSCOS"
+        ],
+        "formSamples": [
+          {
+            "word": "FUSCOS",
+            "wordSource": "fuscos",
+            "glosses": [
+              "Forma del plural de fusco."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "fusco",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Páginas sin audios",
+              "ES:Rimas:us.ko",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "De color muy oscuro y apagado."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "raw_tags": [
+                  "Colores"
+                ],
+                "categories": [
+                  "ES:Colores",
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "af31d1bdb7b383dbc3304fbdb8531f51c5acc19a7939254c22123c93c4454fd9"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "fusco",
+        "partOfSpeech": "adj",
+        "recordSha256": "af31d1bdb7b383dbc3304fbdb8531f51c5acc19a7939254c22123c93c4454fd9",
+        "senseIndex": 0,
+        "frame": "very dark and dull-colored",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Rare color adjective, not a personality description.",
+        "notes": "Selected Spanish source labels: rare. Selected Spanish source usage: Colores."
+      },
+      "priorOtherReview": {
+        "spanish": "fusco",
+        "partOfSpeech": "adj",
+        "recordSha256": "af31d1bdb7b383dbc3304fbdb8531f51c5acc19a7939254c22123c93c4454fd9",
+        "senseIndex": 0,
+        "frame": "very dark",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Deep dull color.",
+        "notes": "Rare color adjective."
+      }
+    },
+    {
+      "source": {
+        "spanish": "gestero",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "GESTERA"
+        ],
+        "formSamples": [
+          {
+            "word": "GESTERA",
+            "wordSource": "gestera",
+            "glosses": [
+              "Forma del femenino de gestero."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "gestero",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -ero",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:e.ɾo",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que tiene por costumbre hacer muchos gestos o ademanes (movimientos del rostro y las manos al hablar)."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "448ac0890412ed576223f4c207cafcfe1ddf5ca46c24349b2c007d6de237c9b1"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "gestero",
+        "partOfSpeech": "adj",
+        "recordSha256": "448ac0890412ed576223f4c207cafcfe1ddf5ca46c24349b2c007d6de237c9b1",
+        "senseIndex": 0,
+        "frame": "much given to gesturing",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Habitually using many facial and hand gestures when speaking.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "gestero",
+        "partOfSpeech": "adj",
+        "recordSha256": "448ac0890412ed576223f4c207cafcfe1ddf5ca46c24349b2c007d6de237c9b1",
+        "senseIndex": 0,
+        "frame": "given to gesturing",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Habitually making many facial or hand gestures.",
+        "notes": "Disposition, not all nonverbal communication."
+      }
+    },
+    {
+      "source": {
+        "spanish": "gorrino",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "GORRINA"
+        ],
+        "formSamples": [
+          {
+            "word": "GORRINA",
+            "wordSource": "gorrina",
+            "glosses": [
+              "Forma del femenino de gorrino."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "gorrino",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Lemas",
+              "ES:Palabras de origen onomatopéyico",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.no",
+              "Español",
+              "Español-Alemán",
+              "Español-Asturiano",
+              "Español-Catalán",
+              "Español-Danés",
+              "Español-Esperanto",
+              "Español-Francés",
+              "Español-Galés",
+              "Español-Griego",
+              "Español-Ido",
+              "Español-Inglés",
+              "Español-Italiano",
+              "Español-Japonés",
+              "Español-Latín",
+              "Español-Mapuche",
+              "Español-Neerlandés",
+              "Español-Portugués",
+              "Español-Sueco",
+              "Español-Turco",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Persona sucia o desaliñada."
+                ],
+                "sense_index": "3"
+              },
+              {
+                "glosses": [
+                  "Persona que come sin moderación"
+                ],
+                "sense_index": "4"
+              },
+              {
+                "glosses": [
+                  "Persona ruin, inmoral o falta de vergüenza."
+                ],
+                "sense_index": "5"
+              }
+            ],
+            "recordSha256": "6356a84e7456f08a5197b72b70c6df90406b0192ecf89254f73e5e6df4070030"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "gorrino",
+        "partOfSpeech": "adj",
+        "recordSha256": "6356a84e7456f08a5197b72b70c6df90406b0192ecf89254f73e5e6df4070030",
+        "senseIndex": 0,
+        "frame": "filthy",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Disparaging description of a dirty or unkempt person; not the pig noun.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "gorrino",
+        "partOfSpeech": "adj",
+        "recordSha256": "6356a84e7456f08a5197b72b70c6df90406b0192ecf89254f73e5e6df4070030",
+        "senseIndex": 0,
+        "frame": "slovenly",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Dirty or untidy in appearance.",
+        "notes": "Personal adjective, not the pig noun or moral accusation."
+      }
+    },
+    {
+      "source": {
+        "spanish": "gredoso",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "GREDOSA"
+        ],
+        "formSamples": [
+          {
+            "word": "GREDOSA",
+            "wordSource": "gredosa",
+            "glosses": [
+              "Forma del femenino de gredoso."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "gredoso",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:o.so",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Perteneciente a la greda o que tiene sus cualidades."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "6b94cbb06a4367c8038e7ed265fafa44f318b81d12bf0dd458698587adfd3280"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "gredoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "6b94cbb06a4367c8038e7ed265fafa44f318b81d12bf0dd458698587adfd3280",
+        "senseIndex": 0,
+        "frame": "clayey",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to greda clay or having its properties.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "gredoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "6b94cbb06a4367c8038e7ed265fafa44f318b81d12bf0dd458698587adfd3280",
+        "senseIndex": 0,
+        "frame": "claylike",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Of or resembling greda clay.",
+        "notes": "Material property."
+      }
+    },
+    {
+      "source": {
+        "spanish": "gímnico",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "GÍMNICA"
+        ],
+        "formSamples": [
+          {
+            "word": "GÍMNICA",
+            "wordSource": "gímnica",
+            "glosses": [
+              "Forma del femenino de gímnico."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "gímnico",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras esdrújulas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:im.ni.ko",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Perteneciente a la lucha de los atletas, y a los bailes en que se imitaban estas luchas."
+                ],
+                "categories": [
+                  "ES:Deporte",
+                  "ES:Historia"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "ad11586e9e5eb31cb71f9772e3f5b48b6549968d539fa554b712afccb00c0c5f"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "gímnico",
+        "partOfSpeech": "adj",
+        "recordSha256": "ad11586e9e5eb31cb71f9772e3f5b48b6549968d539fa554b712afccb00c0c5f",
+        "senseIndex": 0,
+        "frame": "relating to athletic wrestling and its imitative dances",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Historical athletic contests and dances imitating them; not modern generic gymnastics alone.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "gímnico",
+        "partOfSpeech": "adj",
+        "recordSha256": "ad11586e9e5eb31cb71f9772e3f5b48b6549968d539fa554b712afccb00c0c5f",
+        "senseIndex": 0,
+        "frame": "of athletic wrestling",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Relating to athletes' wrestling and dances imitating it.",
+        "notes": "Historical gymnic sense; not all modern gymnastics."
+      }
+    },
+    {
+      "source": {
+        "spanish": "herbecer",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "HERBECE",
+          "HERBECÍ"
+        ],
+        "formSamples": [
+          {
+            "word": "HERBECE",
+            "wordSource": "herbece",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del presente de indicativo de herbecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del presente de indicativo"
+            }
+          },
+          {
+            "word": "HERBECE",
+            "wordSource": "herbece",
+            "glosses": [
+              "Segunda persona del singular (tú) del imperativo de herbecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "imperative"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del imperativo",
+              "adapter": null
+            }
+          },
+          {
+            "word": "HERBECÍ",
+            "wordSource": "herbecí",
+            "glosses": [
+              "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de herbecer."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "herbecer",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:eɾ",
+              "ES:Verbos",
+              "ES:Verbos de la segunda conjugación",
+              "ES:Verbos del paradigma parecer",
+              "ES:Verbos regulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Comenzar a crecer la hierba o césped en un terreno."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "2e9f6af073a1973e9b7a72038a021a5021df564ac0210764eaf01304e4dfee0f"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "herbecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "2e9f6af073a1973e9b7a72038a021a5021df564ac0210764eaf01304e4dfee0f",
+        "senseIndex": 0,
+        "frame": "begin to grow",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Rare grass growth; grass is the subject despite erroneous transitive row metadata.",
+        "notes": "Selected Spanish source labels: transitive, rare. Only the literal third-person singular it reading is approved; no human/formal-you subject or command."
+      },
+      "priorOtherReview": {
+        "spanish": "herbecer",
+        "partOfSpeech": "verb",
+        "recordSha256": "2e9f6af073a1973e9b7a72038a021a5021df564ac0210764eaf01304e4dfee0f",
+        "senseIndex": 0,
+        "frame": "sprout",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Grass begins to grow on ground.",
+        "notes": "Rare grass growth; human operator is not supported despite transitive header."
+      }
+    },
+    {
+      "source": {
+        "spanish": "hurgón",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "HURGONA"
+        ],
+        "formSamples": [
+          {
+            "word": "HURGONA",
+            "wordSource": "hurgona",
+            "glosses": [
+              "Forma del femenino de hurgón."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "hurgón",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras con el sufijo -ón",
+              "ES:Páginas sin audios",
+              "ES:Rimas:on",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que hurga, revuelve, escarba, fisga, aguija, pincha o atiza."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "3dc1d5a3debb73bd0bb4c48704400f727760b0a45822227216ecb7a31bffbc9c"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "hurgón",
+        "partOfSpeech": "adj",
+        "recordSha256": "3dc1d5a3debb73bd0bb4c48704400f727760b0a45822227216ecb7a31bffbc9c",
+        "senseIndex": 0,
+        "frame": "prying",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Prone to poking or probing into things; selected adjective within the source's physical/inquisitive range.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "hurgón",
+        "partOfSpeech": "adj",
+        "recordSha256": "3dc1d5a3debb73bd0bb4c48704400f727760b0a45822227216ecb7a31bffbc9c",
+        "senseIndex": 0,
+        "frame": "given to poking",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Disposed to poke, prod or stir.",
+        "notes": "Selected physical prodding reading; not every listed figurative prying sense."
+      }
+    },
+    {
+      "source": {
+        "spanish": "héctico",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "HÉCTICA"
+        ],
+        "formSamples": [
+          {
+            "word": "HÉCTICA",
+            "wordSource": "héctica",
+            "glosses": [
+              "Forma del femenino de héctico."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "héctico",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras esdrújulas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:ek.ti.ko",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que esta enfermo de tisis."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Que pertenece o concierne a la tisis"
+                ],
+                "categories": [
+                  "ES:Adjetivos"
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "d3b45842d22a6f6fe69729772488d85b73c07b5c6a32e5c61cd9b663d77a0f14"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "héctico",
+        "partOfSpeech": "adj",
+        "recordSha256": "d3b45842d22a6f6fe69729772488d85b73c07b5c6a32e5c61cd9b663d77a0f14",
+        "senseIndex": 1,
+        "frame": "consumptive",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Historical medical relating to phthisis/tuberculosis; not modern busy or hectic.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "héctico",
+        "partOfSpeech": "adj",
+        "recordSha256": "d3b45842d22a6f6fe69729772488d85b73c07b5c6a32e5c61cd9b663d77a0f14",
+        "senseIndex": 0,
+        "frame": "tubercular",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Suffering from consumption or tuberculosis.",
+        "notes": "Historical phthisis sense, not simply tired."
+      }
+    },
+    {
+      "source": {
+        "spanish": "jemal",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "JEMALES"
+        ],
+        "formSamples": [
+          {
+            "word": "JEMALES",
+            "wordSource": "jemales",
+            "glosses": [
+              "Forma del plural de jemal."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "jemal",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [
+              "invariable en género"
+            ],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos invariables en género",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras con el sufijo -al",
+              "ES:Páginas sin audios",
+              "ES:Rimas:al",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "De un jeme de longitud."
+                ],
+                "categories": [
+                  "ES:Metrología"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "1ba03f031c3a14d0b3efb0c4fbea1f148f85114e69f446edf2dc1a4026f08446"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "jemal",
+        "partOfSpeech": "adj",
+        "recordSha256": "1ba03f031c3a14d0b3efb0c4fbea1f148f85114e69f446edf2dc1a4026f08446",
+        "senseIndex": 0,
+        "frame": "a thumb-to-index-finger span long",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Metrology: one jeme, the spread between thumb and forefinger tips, not a fixed metric length.",
+        "notes": "Selected Spanish source usage: invariable en género."
+      },
+      "priorOtherReview": {
+        "spanish": "jemal",
+        "partOfSpeech": "adj",
+        "recordSha256": "1ba03f031c3a14d0b3efb0c4fbea1f148f85114e69f446edf2dc1a4026f08446",
+        "senseIndex": 0,
+        "frame": "one thumb-to-index span long",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Measuring a jeme, the span between thumb and index fingertip.",
+        "notes": "Traditional measure; not necessarily the broader thumb-to-little-finger span."
+      }
+    },
+    {
+      "source": {
+        "spanish": "lináceo",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "LINÁCEA"
+        ],
+        "formSamples": [
+          {
+            "word": "LINÁCEA",
+            "wordSource": "linácea",
+            "glosses": [
+              "Forma del femenino de lináceo."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "lináceo",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -áceo",
+              "ES:Palabras esdrújulas",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:a.se.o",
+              "ES:Rimas:a.θe.o",
+              "Español",
+              "Español-Francés",
+              "Español-Inglés",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "(Linaceae) Que pertenece a cierta familia de arbustos, plantas y hierbas presentes alrededor del planeta. Tienen germen dicotiledón (nacen con dos hojitas) y flores generalmente de cinco pétalos (pentámeras)."
+                ],
+                "tags": [
+                  "noun"
+                ],
+                "categories": [
+                  "ES:Botánica"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "f71e482d90f5aa2311d3f338ca3fdecb92eb1918c5d60b14f4548209b5a3648e"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "lináceo",
+        "partOfSpeech": "adj",
+        "recordSha256": "f71e482d90f5aa2311d3f338ca3fdecb92eb1918c5d60b14f4548209b5a3648e",
+        "senseIndex": 0,
+        "frame": "of the flax family",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Botany: belonging to Linaceae; not merely any five-petaled plant.",
+        "notes": "Selected Spanish source labels: noun."
+      },
+      "priorOtherReview": {
+        "spanish": "lináceo",
+        "partOfSpeech": "adj",
+        "recordSha256": "f71e482d90f5aa2311d3f338ca3fdecb92eb1918c5d60b14f4548209b5a3648e",
+        "senseIndex": 0,
+        "frame": "linaceous",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Of the flax family Linaceae.",
+        "notes": "Botanical family adjective."
+      }
+    },
+    {
+      "source": {
+        "spanish": "líneo",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "LÍNEOS"
+        ],
+        "formSamples": [
+          {
+            "word": "LÍNEOS",
+            "wordSource": "líneos",
+            "glosses": [
+              "Forma del plural de líneo."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "líneo",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -íneo",
+              "ES:Palabras esdrújulas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.ne.o",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "(Linaceae) Variante de lináceo."
+                ],
+                "tags": [
+                  "noun"
+                ],
+                "categories": [
+                  "ES:Botánica",
+                  "ES:Variantes"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "688c2e23cc3fee8f775f7c71e0791a3f9dea685e58a7dc221e6d8281e948d941"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "líneo",
+        "partOfSpeech": "adj",
+        "recordSha256": "688c2e23cc3fee8f775f7c71e0791a3f9dea685e58a7dc221e6d8281e948d941",
+        "senseIndex": 0,
+        "frame": "of the flax family",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Botanical Linaceae identifier anchors the lináceo variant; not the line-related líneo homograph.",
+        "notes": "Selected Spanish source labels: noun."
+      },
+      "priorOtherReview": {
+        "spanish": "líneo",
+        "partOfSpeech": "adj",
+        "recordSha256": "688c2e23cc3fee8f775f7c71e0791a3f9dea685e58a7dc221e6d8281e948d941",
+        "senseIndex": 0,
+        "frame": "linaceous",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Of the family Linaceae.",
+        "notes": "Resolved lináceo variant; not linear."
+      }
+    },
+    {
+      "source": {
+        "spanish": "mareoso",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "MAREOSA"
+        ],
+        "formSamples": [
+          {
+            "word": "MAREOSA",
+            "wordSource": "mareosa",
+            "glosses": [
+              "Forma del femenino de mareoso."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "mareoso",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -oso",
+              "ES:Palabras llanas",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:o.so",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que marea, que provoca mareo o malestar semejante."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Que marea, molesta, irrita, incordia o enerva con sus palabras u obras, generalmente repetidas."
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "ef33e53e90afbc59fa272355b9c4e72e0cf8b4ab6f5d58b8d4b99e2d4260af90"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "mareoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "ef33e53e90afbc59fa272355b9c4e72e0cf8b4ab6f5d58b8d4b99e2d4260af90",
+        "senseIndex": 1,
+        "frame": "annoying",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Repeatedly irritating another with words or acts; selected sense is not feeling dizzy.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "mareoso",
+        "partOfSpeech": "adj",
+        "recordSha256": "ef33e53e90afbc59fa272355b9c4e72e0cf8b4ab6f5d58b8d4b99e2d4260af90",
+        "senseIndex": 0,
+        "frame": "dizzying",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Causing dizziness or a similar malaise.",
+        "notes": "Causing adjective, not the person experiencing dizziness."
+      }
+    },
+    {
+      "source": {
+        "spanish": "mío",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "MÍOS"
+        ],
+        "formSamples": [
+          {
+            "word": "MÍOS",
+            "wordSource": "míos",
+            "glosses": [
+              "Forma del plural de mío."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "mío",
+            "pos": "adj",
+            "wordTags": [
+              "possessive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos posesivos",
+              "ES:Lemas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.o",
+              "Español",
+              "Español-Alemán",
+              "Español-Francés",
+              "Español-Inglés",
+              "Español-Italiano",
+              "Español-Maya yucateco",
+              "Español-Neerlandés",
+              "Español-Polaco",
+              "Español-Portugués",
+              "Español-Ruso",
+              "Español-Sardo",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Después de algunos sustantivos, indica afecto o cariño."
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "9d0ea0b3fbb52d9069e9a8a5acd1c204f74b52bbf3a9b646efb9b1721db31756"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "mío",
+        "partOfSpeech": "adj",
+        "recordSha256": "9d0ea0b3fbb52d9069e9a8a5acd1c204f74b52bbf3a9b646efb9b1721db31756",
+        "senseIndex": 0,
+        "frame": "my",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Selected affectionate postnominal possessive usage, as an expression of endearment; not an independent noun translation.",
+        "notes": "Selected Spanish source labels: possessive."
+      },
+      "priorOtherReview": {
+        "spanish": "mío",
+        "partOfSpeech": "adj",
+        "recordSha256": "9d0ea0b3fbb52d9069e9a8a5acd1c204f74b52bbf3a9b646efb9b1721db31756",
+        "senseIndex": 0,
+        "frame": "my dear",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Affectionate postnominal possessive, as with an endearing address.",
+        "notes": "Selected affectionate use; English expression may precede its noun rather than follow it."
+      }
+    },
+    {
+      "source": {
+        "spanish": "napar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "NAPAS"
+        ],
+        "formSamples": [
+          {
+            "word": "NAPAS",
+            "wordSource": "napas",
+            "glosses": [
+              "Segunda persona del singular (tú) del presente de indicativo de napar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "second-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "segunda persona del singular (tu) del presente de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "napar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma amar",
+              "ES:Verbos intransitivos",
+              "ES:Verbos regulares",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Dicho de una salsa, una crema, etc.: tomar una consistencia espesa que, cuando se sumerge en ella un utenisilio, se lo retira y se pasa el dedo, impide que los dos sectores en que se dividió se unifiquen."
+                ],
+                "tags": [
+                  "Argentina"
+                ],
+                "categories": [
+                  "ES:América",
+                  "ES:Argentina"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "52de404f42de898c08523998afb2f7deb03e045dc3257e9cb1accca2d9575c25"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "napar",
+        "partOfSpeech": "verb",
+        "recordSha256": "52de404f42de898c08523998afb2f7deb03e045dc3257e9cb1accca2d9575c25",
+        "senseIndex": 0,
+        "frame": "thicken to a spoon-coating consistency",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Argentine cooking: sauce or cream becomes thick enough that a finger-drawn line on a dipped utensil stays separate.",
+        "notes": "Selected Spanish source labels: intransitive, Argentina. Only the literal third-person singular it reading is approved; no human/formal-you subject or command."
+      },
+      "priorOtherReview": {
+        "spanish": "napar",
+        "partOfSpeech": "verb",
+        "recordSha256": "52de404f42de898c08523998afb2f7deb03e045dc3257e9cb1accca2d9575c25",
+        "senseIndex": 0,
+        "frame": "thicken",
+        "profile": "it-only",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "A sauce or cream acquires a thick coating consistency.",
+        "notes": "Argentine intransitive sauce subject; not a cook coating food with sauce."
+      }
+    },
+    {
+      "source": {
+        "spanish": "nervino",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "NERVINA"
+        ],
+        "formSamples": [
+          {
+            "word": "NERVINA",
+            "wordSource": "nervina",
+            "glosses": [
+              "Forma del femenino de nervino."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "nervino",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:i.no",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Epíteto de los remedios propios para confortar los nervios."
+                ],
+                "categories": [
+                  "ES:Medicina"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "c42b3e386ea230cce044cbeecc5ad7b47914b57bd7c8baff2c3a6d2df1df610c"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "nervino",
+        "partOfSpeech": "adj",
+        "recordSha256": "c42b3e386ea230cce044cbeecc5ad7b47914b57bd7c8baff2c3a6d2df1df610c",
+        "senseIndex": 0,
+        "frame": "nerve-strengthening",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Historical medicinal epithet for a remedy intended to fortify the nerves, not a claim of established clinical efficacy.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "nervino",
+        "partOfSpeech": "adj",
+        "recordSha256": "c42b3e386ea230cce044cbeecc5ad7b47914b57bd7c8baff2c3a6d2df1df610c",
+        "senseIndex": 0,
+        "frame": "intended to strengthen the nerves",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Said of remedies intended to fortify the nerves.",
+        "notes": "Historical remedy description, not independently verified medical efficacy."
+      }
+    },
+    {
+      "source": {
+        "spanish": "ninguno",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "NINGUNA"
+        ],
+        "formSamples": [
+          {
+            "word": "NINGUNA",
+            "wordSource": "ninguna",
+            "glosses": [
+              "Forma del femenino de ninguno."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "ninguno",
+            "pos": "adj",
+            "wordTags": [
+              "indeterminate"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos indeterminados",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del castellano antiguo",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:u.no",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Ni una sola de las cosas o personas señaladas por el sustantivo al que acompaña o sustituye este adjetivo indefinido."
+                ],
+                "raw_tags": [
+                  "delante de un sustantivo masculino se apocopa en ningún",
+                  "el plural se usa poco"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "3da8c396ef32a8e0b63c8ca655d18407ce7980921a50391009b0b586e31cea43"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "ninguno",
+        "partOfSpeech": "adj",
+        "recordSha256": "3da8c396ef32a8e0b63c8ca655d18407ce7980921a50391009b0b586e31cea43",
+        "senseIndex": 0,
+        "frame": "no",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Negative indefinite determiner, not any; ningún before a masculine singular noun, plural uncommon.",
+        "notes": "Selected Spanish source labels: indeterminate. Selected Spanish source usage: delante de un sustantivo masculino se apocopa en ningún; el plural se usa poco."
+      },
+      "priorOtherReview": {
+        "spanish": "ninguno",
+        "partOfSpeech": "adj",
+        "recordSha256": "3da8c396ef32a8e0b63c8ca655d18407ce7980921a50391009b0b586e31cea43",
+        "senseIndex": 0,
+        "frame": "no; not any",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Not a single member of the named class.",
+        "notes": "Adjectival negative determiner; English no works with singular and plural nouns."
+      }
+    },
+    {
+      "source": {
+        "spanish": "ocal",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "OCALES"
+        ],
+        "formSamples": [
+          {
+            "word": "OCALES",
+            "wordSource": "ocales",
+            "glosses": [
+              "Forma del plural de ocal."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural"
+              ],
+              "grammarPrefix": "forma del plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "ocal",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [
+              "invariable en género"
+            ],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos invariables en género",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras con el sufijo -al",
+              "ES:Páginas sin audios",
+              "ES:Rimas:al",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Dicho de un capullo de gusano de seda, que aloja a más de una larva, dejando un hueco considerable entre ambos."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Por extensión, dicho de la seda, procedente de un capullo ocal₁."
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "Por extensión, grande y vistoso."
+                ],
+                "tags": [
+                  "Andalusia"
+                ],
+                "categories": [
+                  "ES:Andalucía",
+                  "ES:España"
+                ],
+                "sense_index": "3"
+              },
+              {
+                "glosses": [
+                  "En especial, dicho de una fruta o flor, de tamaño excepcional y sabor delicado."
+                ],
+                "sense_index": "4"
+              }
+            ],
+            "recordSha256": "0d5b97ee468aaba62de0af8bf67a5ea6bfd80ec56886f0991d3c976dc3471a24"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "ocal",
+        "partOfSpeech": "adj",
+        "recordSha256": "0d5b97ee468aaba62de0af8bf67a5ea6bfd80ec56886f0991d3c976dc3471a24",
+        "senseIndex": 0,
+        "frame": "containing more than one silkworm larva",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Selected cocoon description, not generic showiness or fruit quality.",
+        "notes": "Selected Spanish source usage: invariable en género."
+      },
+      "priorOtherReview": {
+        "spanish": "ocal",
+        "partOfSpeech": "adj",
+        "recordSha256": "0d5b97ee468aaba62de0af8bf67a5ea6bfd80ec56886f0991d3c976dc3471a24",
+        "senseIndex": 0,
+        "frame": "containing multiple silkworm larvae",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "A silk cocoon housing more than one larva with space between them.",
+        "notes": "Selected cocoon property, not the separate showy fruit sense."
+      }
+    },
+    {
+      "source": {
+        "spanish": "oledero",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "OLEDERA"
+        ],
+        "formSamples": [
+          {
+            "word": "OLEDERA",
+            "wordSource": "oledera",
+            "glosses": [
+              "Forma del femenino de oledero."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "oledero",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -dero",
+              "ES:Palabras llanas",
+              "ES:Palabras tetrasílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:e.ɾo",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que despide o exhala olor; que huele."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "93b89e5cb60d55f8596f65a017e2ffd71d8ca4b316cfdc1f7681795e139149c4"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "oledero",
+        "partOfSpeech": "adj",
+        "recordSha256": "93b89e5cb60d55f8596f65a017e2ffd71d8ca4b316cfdc1f7681795e139149c4",
+        "senseIndex": 0,
+        "frame": "odorous",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Rare emitting an odor, not necessarily a bad smell.",
+        "notes": "Selected Spanish source labels: rare."
+      },
+      "priorOtherReview": {
+        "spanish": "oledero",
+        "partOfSpeech": "adj",
+        "recordSha256": "93b89e5cb60d55f8596f65a017e2ffd71d8ca4b316cfdc1f7681795e139149c4",
+        "senseIndex": 0,
+        "frame": "odor-emitting",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Giving off an odor.",
+        "notes": "Rare usage; not specifically a pleasant smell."
+      }
+    },
+    {
+      "source": {
+        "spanish": "oledor",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "OLEDORA"
+        ],
+        "formSamples": [
+          {
+            "word": "OLEDORA",
+            "wordSource": "oledora",
+            "glosses": [
+              "Forma del femenino de oledor."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "oledor",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras con el sufijo -dor",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:oɾ",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que tiene olfato o hace uso de él; que percibe olor."
+                ],
+                "tags": [
+                  "noun"
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Que despide o exhala olor."
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "ed3527c038e6d0e8b337efbfa012d95e624e72be0863db38f2f63cfd2f980b51"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "oledor",
+        "partOfSpeech": "adj",
+        "recordSha256": "ed3527c038e6d0e8b337efbfa012d95e624e72be0863db38f2f63cfd2f980b51",
+        "senseIndex": 1,
+        "frame": "odorous",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Giving off an odor, not a creature using its sense of smell.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "oledor",
+        "partOfSpeech": "adj",
+        "recordSha256": "ed3527c038e6d0e8b337efbfa012d95e624e72be0863db38f2f63cfd2f980b51",
+        "senseIndex": 1,
+        "frame": "odor-emitting",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Giving off an odor.",
+        "notes": "Not the separate agent perceiving a smell."
+      }
+    },
+    {
+      "source": {
+        "spanish": "refriar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "REFRIÉ",
+          "REFRIÓ"
+        ],
+        "formSamples": [
+          {
+            "word": "REFRIÉ",
+            "wordSource": "refrié",
+            "glosses": [
+              "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de refriar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+            }
+          },
+          {
+            "word": "REFRIÓ",
+            "wordSource": "refrió",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito perfecto simple de indicativo de refriar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "refriar",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma enviar",
+              "ES:Verbos irregulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Poner más frío algo"
+                ],
+                "tags": [
+                  "outdated"
+                ],
+                "categories": [
+                  "ES:Términos anticuados"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "d35861b761e6c24da9ec2370d69cfad92967a23d96471cb058badf2d4e8611d4"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "refriar",
+        "partOfSpeech": "verb",
+        "recordSha256": "d35861b761e6c24da9ec2370d69cfad92967a23d96471cb058badf2d4e8611d4",
+        "senseIndex": 0,
+        "frame": "cool",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Archaic transitive making something colder.",
+        "notes": "Selected Spanish source labels: transitive, outdated."
+      },
+      "priorOtherReview": {
+        "spanish": "refriar",
+        "partOfSpeech": "verb",
+        "recordSha256": "d35861b761e6c24da9ec2370d69cfad92967a23d96471cb058badf2d4e8611d4",
+        "senseIndex": 0,
+        "frame": "cool further",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Make something colder.",
+        "notes": "Outdated transitive actor."
+      }
+    },
+    {
+      "source": {
+        "spanish": "relingar",
+        "partOfSpeech": "verb",
+        "missingWords": [
+          "RELINGO",
+          "RELINGÓ"
+        ],
+        "formSamples": [
+          {
+            "word": "RELINGO",
+            "wordSource": "relingo",
+            "glosses": [
+              "Primera persona del singular (yo) del presente de indicativo de relingar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "first-person",
+                "singular",
+                "present",
+                "indicative"
+              ],
+              "grammarPrefix": "primera persona del singular (yo) del presente de indicativo"
+            }
+          },
+          {
+            "word": "RELINGÓ",
+            "wordSource": "relingó",
+            "glosses": [
+              "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito perfecto simple de indicativo de relingar."
+            ],
+            "normalized": {
+              "kind": "finite",
+              "tags": [
+                "usted-address",
+                "third-person",
+                "singular",
+                "preterite",
+                "indicative"
+              ],
+              "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito perfecto simple de indicativo"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "relingar",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma llegar",
+              "ES:Verbos regulares",
+              "ES:Verbos transitivos",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Izar una vela hasta que sus relingas de caída queden muy tirantes. Viene á ser lo mismo que reclamar."
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "En general, poner o coser las relingas a las velas; para lo cual cuando no se hace uso de empalomaduras, se mete la aguja por debajo de un cordón, y se pasa por la orilla de la vaina, de forma que el hilo quede embutido dentro de la colcha, dándole de trecho en trecho unas puntadas nombradas llaves, que abrazan diagonalmente la relinga por su parte exterior."
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "13d7d3a60bf0d3439101a444e910be602589d2f3f9117c58818d7f002d2bbc93"
+          },
+          {
+            "word": "relingar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:aɾ",
+              "ES:Verbos",
+              "ES:Verbos de la primera conjugación",
+              "ES:Verbos del paradigma llegar",
+              "ES:Verbos intransitivos",
+              "ES:Verbos regulares",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Tratándose del modo con que las velas reciben el viento, es lo mismo que flamear."
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "3"
+              },
+              {
+                "glosses": [
+                  "Escasear el viento hasta hacer tremular las velas; o buscar la relinga de barlovento. También se entiende por orzar hasta que toquen o flameen las velas."
+                ],
+                "categories": [
+                  "ES:Náutica"
+                ],
+                "sense_index": "4"
+              }
+            ],
+            "recordSha256": "9630df0055ce3ed72174b35714ce910aa7a8ab2f2324269411e1cf3c4749368f"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "relingar",
+        "partOfSpeech": "verb",
+        "recordSha256": "13d7d3a60bf0d3439101a444e910be602589d2f3f9117c58818d7f002d2bbc93",
+        "senseIndex": 1,
+        "frame": "sew boltropes onto sails",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Nautical fastening of a sail's edge ropes; human crew or sailmaker supported.",
+        "notes": "Selected Spanish source labels: transitive."
+      },
+      "priorOtherReview": {
+        "spanish": "relingar",
+        "partOfSpeech": "verb",
+        "recordSha256": "13d7d3a60bf0d3439101a444e910be602589d2f3f9117c58818d7f002d2bbc93",
+        "senseIndex": 0,
+        "frame": "hoist a sail taut",
+        "profile": "ordinary",
+        "aspectModes": [
+          "progressive"
+        ],
+        "context": "Raise a sail until its side ropes are tight.",
+        "notes": "Conventional crew operator; not the separate sail-fluttering or wind-agent readings."
+      }
+    },
+    {
+      "source": {
+        "spanish": "sutorio",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "SUTORIA"
+        ],
+        "formSamples": [
+          {
+            "word": "SUTORIA",
+            "wordSource": "sutoria",
+            "glosses": [
+              "Forma del femenino de sutorio."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "sutorio",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:o.ɾjo",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Se dice del arte de hacer zapatos."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Lo relacionado con este arte."
+                ],
+                "sense_index": "2"
+              }
+            ],
+            "recordSha256": "c13ab63aa311e94aa38623d37abdd943c746dc6c4a44449dd8b16c9c5083cdf8"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "sutorio",
+        "partOfSpeech": "adj",
+        "recordSha256": "c13ab63aa311e94aa38623d37abdd943c746dc6c4a44449dd8b16c9c5083cdf8",
+        "senseIndex": 1,
+        "frame": "relating to shoemaking",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Belonging to the craft of making shoes.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "sutorio",
+        "partOfSpeech": "adj",
+        "recordSha256": "c13ab63aa311e94aa38623d37abdd943c746dc6c4a44449dd8b16c9c5083cdf8",
+        "senseIndex": 1,
+        "frame": "shoemaking-related",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Of or relating to the craft of making shoes.",
+        "notes": "Craft adjective, not a shoemaker person noun."
+      }
+    },
+    {
+      "source": {
+        "spanish": "suyo",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "SUYA"
+        ],
+        "formSamples": [
+          {
+            "word": "SUYA",
+            "wordSource": "suya",
+            "glosses": [
+              "Forma del femenino singular de suyo"
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "singular",
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino singular"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "suyo",
+            "pos": "adj",
+            "wordTags": [
+              "possessive"
+            ],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos posesivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras llanas",
+              "ES:Palabras provenientes del latín",
+              "ES:Páginas sin audios",
+              "ES:Rimas:u.ʃo",
+              "ES:Rimas:u.ʒo",
+              "ES:Rimas:u.ʝo",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "De él, de ella, de ellos, de ellas."
+                ],
+                "raw_tags": [
+                  "pospuesto",
+                  "toma la forma su delante de un sustantivo."
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "De usted."
+                ],
+                "tags": [
+                  "formal"
+                ],
+                "raw_tags": [
+                  "pospuesto"
+                ],
+                "categories": [
+                  "ES:Términos formales"
+                ],
+                "sense_index": "3"
+              }
+            ],
+            "recordSha256": "85debd7d5d37ee4217827e28454c04e1bb000cb5413b4179c2bbbb6f998b4c70"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "suyo",
+        "partOfSpeech": "adj",
+        "recordSha256": "85debd7d5d37ee4217827e28454c04e1bb000cb5413b4179c2bbbb6f998b4c70",
+        "senseIndex": 0,
+        "frame": "his, her or their",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Postnominal third-person possessive; agreement marks the possessed noun, not the owner's gender. Formal your is a different unselected sense.",
+        "notes": "Selected Spanish source labels: possessive. Selected Spanish source usage: pospuesto; toma la forma su delante de un sustantivo.."
+      },
+      "priorOtherReview": {
+        "spanish": "suyo",
+        "partOfSpeech": "adj",
+        "recordSha256": "85debd7d5d37ee4217827e28454c04e1bb000cb5413b4179c2bbbb6f998b4c70",
+        "senseIndex": 0,
+        "frame": "his; her; their",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Belonging to a third-person possessor.",
+        "notes": "English possessive depends on possessor, not the Spanish agreement gender of the possession; no fabricated possessor identity."
+      }
+    },
+    {
+      "source": {
+        "spanish": "unidor",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "UNIDORA"
+        ],
+        "formSamples": [
+          {
+            "word": "UNIDORA",
+            "wordSource": "unidora",
+            "glosses": [
+              "Forma del femenino de unidor."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "unidor",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras agudas",
+              "ES:Palabras con el sufijo -dor",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:oɾ",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que une."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "d8ea568766041c0e6360c92579cd0b3a4df1b3344ad69b9ba9a70d5921b9c9ed"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "unidor",
+        "partOfSpeech": "adj",
+        "recordSha256": "d8ea568766041c0e6360c92579cd0b3a4df1b3344ad69b9ba9a70d5921b9c9ed",
+        "senseIndex": 0,
+        "frame": "uniting",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Joining things or people together; adjective rather than a named device.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "unidor",
+        "partOfSpeech": "adj",
+        "recordSha256": "d8ea568766041c0e6360c92579cd0b3a4df1b3344ad69b9ba9a70d5921b9c9ed",
+        "senseIndex": 0,
+        "frame": "joining",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Serving to unite things.",
+        "notes": "Adjective, not a complete finite clause."
+      }
+    },
+    {
+      "source": {
+        "spanish": "zarposo",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "ZARPOSA"
+        ],
+        "formSamples": [
+          {
+            "word": "ZARPOSA",
+            "wordSource": "zarposa",
+            "glosses": [
+              "Forma del femenino de zarposo."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "zarposo",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras con el sufijo -oso",
+              "ES:Palabras llanas",
+              "ES:Palabras trisílabas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:o.so",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Que lleva o tiene zarpas o cascarrias, barro que se queda en los bajos de las ropas por cercanía al suelo."
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "c7015203c45eeb59051e4e61b70a7173d5cc2ab10f0af1463ca6600e4c3d6baa"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "zarposo",
+        "partOfSpeech": "adj",
+        "recordSha256": "c7015203c45eeb59051e4e61b70a7173d5cc2ab10f0af1463ca6600e4c3d6baa",
+        "senseIndex": 0,
+        "frame": "mud-caked at the hem",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Clothing carrying dried mud near the ground, not a description of claws.",
+        "notes": ""
+      },
+      "priorOtherReview": {
+        "spanish": "zarposo",
+        "partOfSpeech": "adj",
+        "recordSha256": "c7015203c45eeb59051e4e61b70a7173d5cc2ab10f0af1463ca6600e4c3d6baa",
+        "senseIndex": 0,
+        "frame": "mud-encrusted at the hem",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Clothing with dirt or mud adhering near the ground.",
+        "notes": "Selected cascarrias sense, not having animal claws."
+      }
+    },
+    {
+      "source": {
+        "spanish": "zato",
+        "partOfSpeech": "adj",
+        "missingWords": [
+          "ZATA",
+          "ZATAS"
+        ],
+        "formSamples": [
+          {
+            "word": "ZATA",
+            "wordSource": "zata",
+            "glosses": [
+              "Forma del femenino de zato."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino"
+            }
+          },
+          {
+            "word": "ZATAS",
+            "wordSource": "zatas",
+            "glosses": [
+              "Forma del femenino plural de zato."
+            ],
+            "normalized": {
+              "kind": "agreement",
+              "tags": [
+                "plural",
+                "feminine"
+              ],
+              "grammarPrefix": "forma del femenino plural"
+            }
+          }
+        ],
+        "spanishMeanings": [
+          {
+            "word": "zato",
+            "pos": "adj",
+            "wordTags": [],
+            "wordRawTags": [],
+            "categories": [
+              "ES:Adjetivos",
+              "ES:Adjetivos regulares",
+              "ES:Lemas",
+              "ES:Palabras bisílabas",
+              "ES:Palabras de etimología sin precisar",
+              "ES:Palabras llanas",
+              "ES:Páginas sin audios",
+              "ES:Rimas:a.to",
+              "Español",
+              "Lemas"
+            ],
+            "senses": [
+              {
+                "glosses": [
+                  "Animal pachacho, pequeño y regordete."
+                ],
+                "tags": [
+                  "Venezuela"
+                ],
+                "categories": [
+                  "ES:América",
+                  "ES:Venezuela"
+                ],
+                "sense_index": "1"
+              }
+            ],
+            "recordSha256": "660767907f30a8e8161a3b43dc614dbbe0fedc47a877ec8d03fc43f571057a3f"
+          }
+        ]
+      },
+      "proposed": {
+        "spanish": "zato",
+        "partOfSpeech": "adj",
+        "recordSha256": "660767907f30a8e8161a3b43dc614dbbe0fedc47a877ec8d03fc43f571057a3f",
+        "senseIndex": 0,
+        "frame": "small and plump",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "Venezuelan description of a squat, chubby animal; preserve the animal scope.",
+        "notes": "Selected Spanish source labels: Venezuela."
+      },
+      "priorOtherReview": {
+        "spanish": "zato",
+        "partOfSpeech": "adj",
+        "recordSha256": "660767907f30a8e8161a3b43dc614dbbe0fedc47a877ec8d03fc43f571057a3f",
+        "senseIndex": 0,
+        "frame": "small and chubby",
+        "profile": "ordinary",
+        "aspectModes": [],
+        "context": "A short, plump animal.",
+        "notes": "Venezuelan adjective; animal-specific selected sense."
+      }
+    }
+  ]
+}

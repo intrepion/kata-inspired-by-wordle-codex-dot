@@ -1,0 +1,902 @@
+[
+  {
+    "word": "LOMA",
+    "translation": "small hill",
+    "example": "Subimos a la loma al amanecer.",
+    "exampleTranslation": "We climbed the small hill at dawn."
+  },
+  {
+    "word": "LORD",
+    "translation": "British peer",
+    "example": "El lord llegó al palacio.",
+    "exampleTranslation": "The British peer arrived at the palace."
+  },
+  {
+    "word": "LORO",
+    "translation": "parrot",
+    "example": "El loro picoteó una guayaba.",
+    "exampleTranslation": "The parrot pecked at a guava."
+  },
+  {
+    "word": "LOTERÍA",
+    "translation": "lottery",
+    "example": "Mi tía compró un boleto de lotería.",
+    "exampleTranslation": "My aunt bought a lottery ticket."
+  },
+  {
+    "word": "LOZANO",
+    "translation": "lush; vigorous",
+    "example": "El jardín luce lozano después de la lluvia.",
+    "exampleTranslation": "The garden looks lush after the rain."
+  },
+  {
+    "word": "LUCHA",
+    "translation": "fight; struggle",
+    "example": "La lucha entre los rivales fue breve.",
+    "exampleTranslation": "The fight between the rivals was brief."
+  },
+  {
+    "word": "LUCHAR",
+    "translation": "to fight; to wrestle",
+    "example": "Los contrincantes van a luchar en el ring.",
+    "exampleTranslation": "The opponents are going to fight in the ring."
+  },
+  {
+    "word": "LUCIR",
+    "translation": "to shine",
+    "example": "Vimos lucir las estrellas sobre el pueblo.",
+    "exampleTranslation": "We saw the stars shine above the town."
+  },
+  {
+    "word": "LUCRO",
+    "translation": "financial gain",
+    "example": "La asociación trabaja sin fines de lucro.",
+    "exampleTranslation": "The association operates without seeking financial gain."
+  },
+  {
+    "word": "LUEGO",
+    "translation": "afterward",
+    "example": "Primero comemos y luego salimos.",
+    "exampleTranslation": "First we eat, and afterward we go out."
+  },
+  {
+    "word": "LUGAR",
+    "translation": "place; space",
+    "example": "Hay lugar para otra silla.",
+    "exampleTranslation": "There is space for another chair."
+  },
+  {
+    "word": "LUNAR",
+    "translation": "mole on the skin",
+    "example": "Tengo un lunar en el hombro.",
+    "exampleTranslation": "I have a mole on my shoulder."
+  },
+  {
+    "word": "LUNES",
+    "translation": "Monday",
+    "example": "La biblioteca abre el lunes.",
+    "exampleTranslation": "The library opens on Monday."
+  },
+  {
+    "word": "LUTO",
+    "translation": "mourning",
+    "example": "La familia guardó luto por su abuelo.",
+    "exampleTranslation": "The family mourned their grandfather."
+  },
+  {
+    "word": "LÁMPARA",
+    "translation": "lamp",
+    "example": "La lámpara ilumina el escritorio.",
+    "exampleTranslation": "The lamp lights up the desk."
+  },
+  {
+    "word": "LÁPIZ",
+    "translation": "pencil",
+    "example": "Dibuja el círculo con un lápiz.",
+    "exampleTranslation": "Draw the circle with a pencil."
+  },
+  {
+    "word": "LÁSER",
+    "translation": "laser",
+    "example": "La máquina corta metal con un láser.",
+    "exampleTranslation": "The machine cuts metal with a laser."
+  },
+  {
+    "word": "LÁSTIMA",
+    "translation": "compassion; pity",
+    "example": "Sentí lástima por el perro abandonado.",
+    "exampleTranslation": "I felt pity for the abandoned dog."
+  },
+  {
+    "word": "LÍDER",
+    "translation": "leader",
+    "example": "La líder escuchó todas las propuestas.",
+    "exampleTranslation": "The leader listened to all the proposals."
+  },
+  {
+    "word": "LÍMITE",
+    "translation": "boundary",
+    "example": "El río marca el límite del terreno.",
+    "exampleTranslation": "The river marks the boundary of the property."
+  },
+  {
+    "word": "LÍNEA",
+    "translation": "line",
+    "example": "Traza una línea debajo del título.",
+    "exampleTranslation": "Draw a line below the title."
+  },
+  {
+    "word": "LÍQUIDO",
+    "translation": "liquid",
+    "example": "El jabón líquido está junto al lavabo.",
+    "exampleTranslation": "The liquid soap is next to the sink."
+  },
+  {
+    "word": "LÓGICA",
+    "translation": "logic",
+    "example": "Estudiamos lógica para evaluar argumentos.",
+    "exampleTranslation": "We study logic to evaluate arguments."
+  },
+  {
+    "word": "LÓGICO",
+    "translation": "logical",
+    "example": "Ese resultado parece lógico.",
+    "exampleTranslation": "That result seems logical."
+  },
+  {
+    "word": "MACHO",
+    "translation": "male animal",
+    "example": "El macho cuida el nido.",
+    "exampleTranslation": "The male guards the nest."
+  },
+  {
+    "word": "MACRO",
+    "translation": "programming macro",
+    "example": "El compilador expande esta macro.",
+    "exampleTranslation": "The compiler expands this macro."
+  },
+  {
+    "word": "MADERA",
+    "translation": "wood",
+    "example": "La mesa está hecha de madera.",
+    "exampleTranslation": "The table is made of wood."
+  },
+  {
+    "word": "MADERO",
+    "translation": "timber; wooden beam",
+    "example": "Un madero sostiene el techo.",
+    "exampleTranslation": "A wooden beam supports the roof."
+  },
+  {
+    "word": "MADRE",
+    "translation": "mother",
+    "example": "Su madre trabaja en el hospital.",
+    "exampleTranslation": "His mother works at the hospital."
+  },
+  {
+    "word": "MADUREZ",
+    "translation": "maturity; full development",
+    "example": "La fruta alcanzó su madurez en junio.",
+    "exampleTranslation": "The fruit reached maturity in June."
+  },
+  {
+    "word": "MADURO",
+    "translation": "ripe",
+    "example": "El mango ya está maduro.",
+    "exampleTranslation": "The mango is ripe now."
+  },
+  {
+    "word": "MAESTRE",
+    "translation": "senior military officer",
+    "example": "El maestre reunió a sus tropas.",
+    "exampleTranslation": "The senior military officer assembled his troops."
+  },
+  {
+    "word": "MAFIA",
+    "translation": "mafia",
+    "example": "La investigación reveló vínculos con la mafia.",
+    "exampleTranslation": "The investigation revealed ties to the mafia."
+  },
+  {
+    "word": "MAGIA",
+    "translation": "magic; sorcery",
+    "example": "En el cuento, la magia rompe el hechizo.",
+    "exampleTranslation": "In the story, magic breaks the spell."
+  },
+  {
+    "word": "MAGO",
+    "translation": "wizard; sorcerer",
+    "example": "El mago preparó una poción.",
+    "exampleTranslation": "The wizard prepared a potion."
+  },
+  {
+    "word": "MALDAD",
+    "translation": "wickedness",
+    "example": "Su maldad lastimó a muchas personas.",
+    "exampleTranslation": "His wickedness hurt many people."
+  },
+  {
+    "word": "MALDITO",
+    "translation": "wicked; evil",
+    "example": "El maldito tirano ordenó otro ataque.",
+    "exampleTranslation": "The wicked tyrant ordered another attack."
+  },
+  {
+    "word": "MALETA",
+    "translation": "suitcase",
+    "example": "Guardé la ropa en la maleta.",
+    "exampleTranslation": "I put the clothes in the suitcase."
+  },
+  {
+    "word": "MALO",
+    "translation": "poorly made; bad",
+    "example": "Ese arreglo es malo y no durará.",
+    "exampleTranslation": "That repair is poorly done and will not last."
+  },
+  {
+    "word": "MALTA",
+    "translation": "malt",
+    "example": "La cerveza lleva malta de cebada.",
+    "exampleTranslation": "The beer contains barley malt."
+  },
+  {
+    "word": "MALVADO",
+    "translation": "wicked",
+    "example": "El personaje malvado engaña al pueblo.",
+    "exampleTranslation": "The wicked character deceives the village."
+  },
+  {
+    "word": "MAMA",
+    "translation": "breast; mammary gland",
+    "example": "La doctora examinó cada mama.",
+    "exampleTranslation": "The doctor examined each breast."
+  },
+  {
+    "word": "MAMÁ",
+    "translation": "mom",
+    "example": "Mi mamá prepara el desayuno.",
+    "exampleTranslation": "My mom is making breakfast."
+  },
+  {
+    "word": "MANADA",
+    "translation": "herd; pack",
+    "example": "Una manada de lobos cruzó el bosque.",
+    "exampleTranslation": "A pack of wolves crossed the forest."
+  },
+  {
+    "word": "MANCHA",
+    "translation": "stain",
+    "example": "El café dejó una mancha en la camisa.",
+    "exampleTranslation": "The coffee left a stain on the shirt."
+  },
+  {
+    "word": "MANDA",
+    "translation": "religious vow",
+    "example": "Cumplió su manda al visitar el santuario.",
+    "exampleTranslation": "She fulfilled her religious vow by visiting the shrine."
+  },
+  {
+    "word": "MANDAR",
+    "translation": "to order; to command",
+    "example": "No basta con mandar; hay que escuchar.",
+    "exampleTranslation": "Giving orders is not enough; you have to listen."
+  },
+  {
+    "word": "MANDATO",
+    "translation": "order; command",
+    "example": "El mandato del director fue claro.",
+    "exampleTranslation": "The director's order was clear."
+  },
+  {
+    "word": "MANDE",
+    "translation": "pardon?; could you repeat that?",
+    "example": "¿Mande? No escuché la pregunta.",
+    "exampleTranslation": "Pardon? I did not hear the question."
+  },
+  {
+    "word": "MANDO",
+    "translation": "command; authority",
+    "example": "La capitana tiene el mando del equipo.",
+    "exampleTranslation": "The captain has command of the team."
+  },
+  {
+    "word": "MANEJAR",
+    "translation": "to handle",
+    "example": "Aprende a manejar estas herramientas con cuidado.",
+    "exampleTranslation": "Learn to handle these tools carefully."
+  },
+  {
+    "word": "MANEJO",
+    "translation": "handling",
+    "example": "El manejo de vidrio requiere cuidado.",
+    "exampleTranslation": "Handling glass requires care."
+  },
+  {
+    "word": "MANERA",
+    "translation": "way; method",
+    "example": "Encontramos otra manera de resolverlo.",
+    "exampleTranslation": "We found another way to solve it."
+  },
+  {
+    "word": "MANGA",
+    "translation": "sleeve",
+    "example": "La manga de mi camisa está rota.",
+    "exampleTranslation": "The sleeve of my shirt is torn."
+  },
+  {
+    "word": "MANGO",
+    "translation": "handle",
+    "example": "El mango del cuchillo es de madera.",
+    "exampleTranslation": "The knife handle is wooden."
+  },
+  {
+    "word": "MANSIÓN",
+    "translation": "mansion",
+    "example": "La mansión tiene un jardín enorme.",
+    "exampleTranslation": "The mansion has an enormous garden."
+  },
+  {
+    "word": "MANTA",
+    "translation": "blanket",
+    "example": "Me cubrí con una manta.",
+    "exampleTranslation": "I covered myself with a blanket."
+  },
+  {
+    "word": "MANTECA",
+    "translation": "lard; animal fat",
+    "example": "La receta lleva una cucharada de manteca.",
+    "exampleTranslation": "The recipe calls for a spoonful of lard."
+  },
+  {
+    "word": "MANTO",
+    "translation": "cloak",
+    "example": "Se cubrió los hombros con un manto.",
+    "exampleTranslation": "She covered her shoulders with a cloak."
+  },
+  {
+    "word": "MANUAL",
+    "translation": "manual; done by hand",
+    "example": "El bordado manual requiere paciencia.",
+    "exampleTranslation": "Embroidery done by hand requires patience."
+  },
+  {
+    "word": "MANÍA",
+    "translation": "obsession; intense enthusiasm",
+    "example": "Su manía por coleccionar sellos creció.",
+    "exampleTranslation": "His obsession with collecting stamps grew."
+  },
+  {
+    "word": "MAPUCHE",
+    "translation": "Mapuche",
+    "example": "La artista mapuche presentó sus tejidos.",
+    "exampleTranslation": "The Mapuche artist presented her textiles."
+  },
+  {
+    "word": "MARA",
+    "translation": "urban gang",
+    "example": "La comunidad busca alejar a los jóvenes de la mara.",
+    "exampleTranslation": "The community seeks to keep young people away from the gang."
+  },
+  {
+    "word": "MARATÓN",
+    "translation": "marathon; competition",
+    "example": "Participó en el maratón de la ciudad.",
+    "exampleTranslation": "She took part in the city's marathon."
+  },
+  {
+    "word": "MARCA",
+    "translation": "mark; marking",
+    "example": "La cuerda dejó una marca en la pared.",
+    "exampleTranslation": "The rope left a mark on the wall."
+  },
+  {
+    "word": "MARCADO",
+    "translation": "marking",
+    "example": "El marcado de las cajas facilita su entrega.",
+    "exampleTranslation": "Marking the boxes makes delivery easier."
+  },
+  {
+    "word": "MARCAR",
+    "translation": "to score",
+    "example": "El delantero espera marcar otro gol.",
+    "exampleTranslation": "The forward hopes to score another goal."
+  },
+  {
+    "word": "MARCHA",
+    "translation": "march; marching",
+    "example": "La marcha de los soldados levantó polvo.",
+    "exampleTranslation": "The soldiers' march stirred up dust."
+  },
+  {
+    "word": "MARCHAR",
+    "translation": "to march; to walk",
+    "example": "Los soldados van a marchar hasta el puente.",
+    "exampleTranslation": "The soldiers will march to the bridge."
+  },
+  {
+    "word": "MARCIAL",
+    "translation": "military; martial",
+    "example": "El desfile tuvo un aire marcial.",
+    "exampleTranslation": "The parade had a military air."
+  },
+  {
+    "word": "MAREA",
+    "translation": "tide",
+    "example": "La marea sube por la tarde.",
+    "exampleTranslation": "The tide rises in the afternoon."
+  },
+  {
+    "word": "MARFIL",
+    "translation": "ivory",
+    "example": "La pieza antigua está tallada en marfil.",
+    "exampleTranslation": "The antique piece is carved from ivory."
+  },
+  {
+    "word": "MARGEN",
+    "translation": "edge; bank",
+    "example": "Nos sentamos en el margen del río.",
+    "exampleTranslation": "We sat on the riverbank."
+  },
+  {
+    "word": "MARIANO",
+    "translation": "Marian; relating to Mary",
+    "example": "La iglesia organiza un festejo mariano.",
+    "exampleTranslation": "The church is organizing a Marian celebration."
+  },
+  {
+    "word": "MARIDO",
+    "translation": "husband",
+    "example": "Su marido llegó temprano.",
+    "exampleTranslation": "Her husband arrived early."
+  },
+  {
+    "word": "MARINA",
+    "translation": "navy",
+    "example": "La marina rescató a los pescadores.",
+    "exampleTranslation": "The navy rescued the fishers."
+  },
+  {
+    "word": "MARINO",
+    "translation": "marine; relating to the sea",
+    "example": "Estudiamos el ecosistema marino.",
+    "exampleTranslation": "We study the marine ecosystem."
+  },
+  {
+    "word": "MARQUÉS",
+    "translation": "marquess",
+    "example": "El marqués administraba tierras fronterizas.",
+    "exampleTranslation": "The marquess administered border lands."
+  },
+  {
+    "word": "MARRÓN",
+    "translation": "brown",
+    "example": "Eligió un abrigo marrón.",
+    "exampleTranslation": "She chose a brown coat."
+  },
+  {
+    "word": "MARTA",
+    "translation": "marten",
+    "example": "La marta se escondió entre las ramas.",
+    "exampleTranslation": "The marten hid among the branches."
+  },
+  {
+    "word": "MARTES",
+    "translation": "Tuesday",
+    "example": "El curso empieza el martes.",
+    "exampleTranslation": "The course starts on Tuesday."
+  },
+  {
+    "word": "MARZO",
+    "translation": "March",
+    "example": "Las clases terminan en marzo.",
+    "exampleTranslation": "Classes end in March."
+  },
+  {
+    "word": "MARÍA",
+    "translation": "Marie biscuit",
+    "example": "Serví una maría con el té.",
+    "exampleTranslation": "I served a Marie biscuit with the tea."
+  },
+  {
+    "word": "MASA",
+    "translation": "dough",
+    "example": "Amasa hasta que la masa quede suave.",
+    "exampleTranslation": "Knead until the dough is smooth."
+  },
+  {
+    "word": "MASACRE",
+    "translation": "massacre",
+    "example": "La comunidad recordó a las víctimas de la masacre.",
+    "exampleTranslation": "The community remembered the victims of the massacre."
+  },
+  {
+    "word": "MASAJE",
+    "translation": "massage",
+    "example": "Un masaje suave alivió la tensión.",
+    "exampleTranslation": "A gentle massage relieved the tension."
+  },
+  {
+    "word": "MASCOTA",
+    "translation": "pet",
+    "example": "Mi mascota duerme en su cama.",
+    "exampleTranslation": "My pet sleeps in its bed."
+  },
+  {
+    "word": "MASIVO",
+    "translation": "massive; having great mass",
+    "example": "Un bloque masivo de roca cerraba el paso.",
+    "exampleTranslation": "A massive block of rock blocked the way."
+  },
+  {
+    "word": "MATA",
+    "translation": "bush; small plant",
+    "example": "Plantamos una mata de romero.",
+    "exampleTranslation": "We planted a rosemary bush."
+  },
+  {
+    "word": "MATANZA",
+    "translation": "mass killing",
+    "example": "La novela relata una matanza durante la guerra.",
+    "exampleTranslation": "The novel recounts a mass killing during the war."
+  },
+  {
+    "word": "MATAR",
+    "translation": "to kill",
+    "example": "El veneno puede matar a los peces.",
+    "exampleTranslation": "The poison can kill the fish."
+  },
+  {
+    "word": "MATE",
+    "translation": "mate infusion",
+    "example": "Bebió mate durante la visita.",
+    "exampleTranslation": "She drank mate during the visit."
+  },
+  {
+    "word": "MATERIA",
+    "translation": "matter",
+    "example": "La materia ocupa espacio y tiene masa.",
+    "exampleTranslation": "Matter occupies space and has mass."
+  },
+  {
+    "word": "MATERNO",
+    "translation": "maternal",
+    "example": "El cuidado materno protege a las crías.",
+    "exampleTranslation": "Maternal care protects the young."
+  },
+  {
+    "word": "MATRIZ",
+    "translation": "parent entity; source",
+    "example": "La empresa matriz está en Puebla.",
+    "exampleTranslation": "The parent company is in Puebla."
+  },
+  {
+    "word": "MAYA",
+    "translation": "Maya; Mayan",
+    "example": "Visitamos un sitio arqueológico maya.",
+    "exampleTranslation": "We visited a Maya archaeological site."
+  },
+  {
+    "word": "MAYO",
+    "translation": "May",
+    "example": "La feria se celebra en mayo.",
+    "exampleTranslation": "The fair is held in May."
+  },
+  {
+    "word": "MAYOR",
+    "translation": "larger; greater",
+    "example": "Necesitamos un recipiente mayor.",
+    "exampleTranslation": "We need a larger container."
+  },
+  {
+    "word": "MAYORÍA",
+    "translation": "majority",
+    "example": "La mayoría apoyó la propuesta.",
+    "exampleTranslation": "The majority supported the proposal."
+  },
+  {
+    "word": "MAZO",
+    "translation": "mallet; sledgehammer",
+    "example": "Golpeó la estaca con un mazo.",
+    "exampleTranslation": "He struck the stake with a mallet."
+  },
+  {
+    "word": "MAÑANA",
+    "translation": "morning",
+    "example": "La mañana estaba fresca.",
+    "exampleTranslation": "The morning was cool."
+  },
+  {
+    "word": "MEDALLA",
+    "translation": "medal",
+    "example": "Recibió una medalla por su esfuerzo.",
+    "exampleTranslation": "She received a medal for her effort."
+  },
+  {
+    "word": "MEDIA",
+    "translation": "half",
+    "example": "Nos queda media hora para llegar.",
+    "exampleTranslation": "We have half an hour left to get there."
+  },
+  {
+    "word": "MEDIANA",
+    "translation": "road median",
+    "example": "La mediana separa los carriles de la carretera.",
+    "exampleTranslation": "The median separates the road's lanes."
+  },
+  {
+    "word": "MEDIANO",
+    "translation": "medium-sized",
+    "example": "Compramos un horno mediano.",
+    "exampleTranslation": "We bought a medium-sized oven."
+  },
+  {
+    "word": "MEDIDA",
+    "translation": "measurement",
+    "example": "La medida del terreno tomó una hora.",
+    "exampleTranslation": "Measuring the plot took an hour."
+  },
+  {
+    "word": "MEDINA",
+    "translation": "Arab city; medina",
+    "example": "Recorrimos la medina con una guía local.",
+    "exampleTranslation": "We toured the medina with a local guide."
+  },
+  {
+    "word": "MEDIO",
+    "translation": "half",
+    "example": "Solo necesito medio vaso de agua.",
+    "exampleTranslation": "I only need half a glass of water."
+  },
+  {
+    "word": "MEDIR",
+    "translation": "to measure",
+    "example": "Vamos a medir la puerta antes de comprarla.",
+    "exampleTranslation": "We are going to measure the door before buying it."
+  },
+  {
+    "word": "MEDITAR",
+    "translation": "to reflect; to ponder",
+    "example": "Necesito meditar sobre tu propuesta.",
+    "exampleTranslation": "I need to reflect on your proposal."
+  },
+  {
+    "word": "MEJILLA",
+    "translation": "cheek",
+    "example": "La niña tenía pintura en la mejilla.",
+    "exampleTranslation": "The girl had paint on her cheek."
+  },
+  {
+    "word": "MEJOR",
+    "translation": "better",
+    "example": "Este camino ofrece una vista mejor.",
+    "exampleTranslation": "This route offers a better view."
+  },
+  {
+    "word": "MEJORA",
+    "translation": "improvement",
+    "example": "Notamos una mejora en el servicio.",
+    "exampleTranslation": "We noticed an improvement in the service."
+  },
+  {
+    "word": "MEJORAR",
+    "translation": "to improve",
+    "example": "Queremos mejorar la iluminación del salón.",
+    "exampleTranslation": "We want to improve the room's lighting."
+  },
+  {
+    "word": "MELODÍA",
+    "translation": "melody; tuneful sound",
+    "example": "La melodía de su voz nos tranquilizó.",
+    "exampleTranslation": "The melody of her voice calmed us."
+  },
+  {
+    "word": "MEME",
+    "translation": "meme; unit of cultural information",
+    "example": "Un meme puede transmitirse entre generaciones.",
+    "exampleTranslation": "A meme can pass between generations."
+  },
+  {
+    "word": "MEMORIA",
+    "translation": "memory",
+    "example": "Mi abuela conserva una memoria excelente.",
+    "exampleTranslation": "My grandmother retains an excellent memory."
+  },
+  {
+    "word": "MENA",
+    "translation": "ore",
+    "example": "La mina produce mena de hierro.",
+    "exampleTranslation": "The mine produces iron ore."
+  },
+  {
+    "word": "MENCIÓN",
+    "translation": "mention",
+    "example": "Hizo una mención de tu trabajo.",
+    "exampleTranslation": "She made a mention of your work."
+  },
+  {
+    "word": "MENOR",
+    "translation": "smaller; lesser",
+    "example": "Este paquete tiene un tamaño menor.",
+    "exampleTranslation": "This package is smaller in size."
+  },
+  {
+    "word": "MENOS",
+    "translation": "less; fewer",
+    "example": "Hoy hay menos tráfico.",
+    "exampleTranslation": "There is less traffic today."
+  },
+  {
+    "word": "MENSAJE",
+    "translation": "message",
+    "example": "Dejé un mensaje para la directora.",
+    "exampleTranslation": "I left a message for the principal."
+  },
+  {
+    "word": "MENSUAL",
+    "translation": "monthly",
+    "example": "El pago mensual vence mañana.",
+    "exampleTranslation": "The monthly payment is due tomorrow."
+  },
+  {
+    "word": "MENTA",
+    "translation": "mint",
+    "example": "Agregué menta fresca al agua.",
+    "exampleTranslation": "I added fresh mint to the water."
+  },
+  {
+    "word": "MENTAL",
+    "translation": "mental",
+    "example": "El descanso favorece la salud mental.",
+    "exampleTranslation": "Rest supports mental health."
+  },
+  {
+    "word": "MENTE",
+    "translation": "mind",
+    "example": "Su mente encontró una solución creativa.",
+    "exampleTranslation": "Her mind found a creative solution."
+  },
+  {
+    "word": "MENTIR",
+    "translation": "to lie",
+    "example": "Prefiero decir la verdad que mentir.",
+    "exampleTranslation": "I would rather tell the truth than lie."
+  },
+  {
+    "word": "MENTIRA",
+    "translation": "lie",
+    "example": "Esa historia resultó ser una mentira.",
+    "exampleTranslation": "That story turned out to be a lie."
+  },
+  {
+    "word": "MENUDO",
+    "translation": "small; tiny",
+    "example": "Un grano menudo cayó al suelo.",
+    "exampleTranslation": "A tiny grain fell to the floor."
+  },
+  {
+    "word": "MENÚ",
+    "translation": "menu; meal selection",
+    "example": "El menú incluye sopa y ensalada.",
+    "exampleTranslation": "The menu includes soup and salad."
+  },
+  {
+    "word": "MERCED",
+    "translation": "favor; gracious gift",
+    "example": "El rey le concedió una merced.",
+    "exampleTranslation": "The king granted him a favor."
+  },
+  {
+    "word": "MERO",
+    "translation": "grouper",
+    "example": "El pescador liberó un mero pequeño.",
+    "exampleTranslation": "The fisher released a small grouper."
+  },
+  {
+    "word": "METAL",
+    "translation": "metal",
+    "example": "El metal conduce la electricidad.",
+    "exampleTranslation": "Metal conducts electricity."
+  },
+  {
+    "word": "METER",
+    "translation": "to put inside",
+    "example": "Puedes meter la ropa en esa bolsa.",
+    "exampleTranslation": "You can put the clothes inside that bag."
+  },
+  {
+    "word": "METERSE",
+    "translation": "to get inside",
+    "example": "El gato intenta meterse en la caja.",
+    "exampleTranslation": "The cat is trying to get inside the box."
+  },
+  {
+    "word": "METRO",
+    "translation": "meter",
+    "example": "La tabla mide un metro.",
+    "exampleTranslation": "The board measures one meter."
+  },
+  {
+    "word": "MEZCLA",
+    "translation": "mixture; mixing",
+    "example": "La mezcla de colores quedó uniforme.",
+    "exampleTranslation": "The mixture of colors was uniform."
+  },
+  {
+    "word": "MEZCLAR",
+    "translation": "to mix",
+    "example": "Hay que mezclar bien la harina y el agua.",
+    "exampleTranslation": "You have to mix the flour and water well."
+  },
+  {
+    "word": "MICRO",
+    "translation": "microphone (informal)",
+    "example": "Acerca el micro para que te escuchemos.",
+    "exampleTranslation": "Bring the microphone closer so we can hear you."
+  },
+  {
+    "word": "MIEDO",
+    "translation": "fear",
+    "example": "El ruido le causó miedo.",
+    "exampleTranslation": "The noise frightened her."
+  },
+  {
+    "word": "MIEMBRO",
+    "translation": "limb",
+    "example": "La lesión afectó un miembro del animal.",
+    "exampleTranslation": "The injury affected one of the animal's limbs."
+  },
+  {
+    "word": "MILAGRO",
+    "translation": "miracle",
+    "example": "La familia consideró su recuperación un milagro.",
+    "exampleTranslation": "The family considered his recovery a miracle."
+  },
+  {
+    "word": "MILENIO",
+    "translation": "millennium",
+    "example": "Un milenio abarca mil años.",
+    "exampleTranslation": "A millennium spans a thousand years."
+  },
+  {
+    "word": "MILICIA",
+    "translation": "militia",
+    "example": "La milicia estaba formada por voluntarios.",
+    "exampleTranslation": "The militia consisted of volunteers."
+  },
+  {
+    "word": "MILITAR",
+    "translation": "military",
+    "example": "El hospital militar recibió nuevos equipos.",
+    "exampleTranslation": "The military hospital received new equipment."
+  },
+  {
+    "word": "MILLA",
+    "translation": "mile",
+    "example": "Falta una milla para llegar.",
+    "exampleTranslation": "There is one mile left to go."
+  },
+  {
+    "word": "MILLÓN",
+    "translation": "million",
+    "example": "La ciudad supera el millón de habitantes.",
+    "exampleTranslation": "The city has more than a million residents."
+  },
+  {
+    "word": "MINA",
+    "translation": "mine",
+    "example": "La mina extrae cobre de la montaña.",
+    "exampleTranslation": "The mine extracts copper from the mountain."
+  },
+  {
+    "word": "MINERAL",
+    "translation": "mineral",
+    "example": "El cuarzo es un mineral común.",
+    "exampleTranslation": "Quartz is a common mineral."
+  },
+  {
+    "word": "MINERÍA",
+    "translation": "mining",
+    "example": "La minería sostiene parte de la economía local.",
+    "exampleTranslation": "Mining supports part of the local economy."
+  }
+]

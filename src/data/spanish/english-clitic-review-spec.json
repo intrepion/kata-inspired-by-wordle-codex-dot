@@ -1,0 +1,148 @@
+{
+  "inputSha256": "c26140c47ad181404825c8cdaae5c339b890027553fe7eb3932f1717c3623d77",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model linguistic review of all 107 retained senses across 91 spellings, both lemma records and the exact bound six-template policy, including 11 explicitly corroborated malformed-link additions; not native-human certification or exhaustive meanings.",
+  "approvedPolicy": true,
+  "guards": [
+    "Limit approval to DAR in the literal transfer/give sense and DECIR in the speech-content say/tell sense. Every output must be labelled a selected contextual meaning, not a universal translation of a lexicalized form.",
+    "Use a source verb form_of link to exactly dar or decir and explicit retained English clitic text. Read grammatical features from the same selected sense, including explicit gloss features where tags are only form-of. Never infer a stem, clitic, mood or person from a spelling suffix or from a different homograph record.",
+    "Require a single unambiguous supported mood/construction and sufficient source person/number/tense features for that construction. Infinitives and gerunds intentionally have no fixed subject; do not manufacture finite tense/person for them.",
+    "For a source explicitly identifying accusative lo/la/los/las, choose an inanimate direct object: it for singular, them for plural. DECIR additionally selects an utterance, word, name or other sayable content, not an arbitrary physical object. Preserve Spanish gender as a source feature without inventing English natural gender.",
+    "For source dative le/les choose a third-person recipient reading, preserving singular le versus plural les. Him/her are singular alternatives and them is plural in this bounded rule. Do not present the selected third-person reading as excluding formal you or other contextual le readings.",
+    "For me/te/nos/os whose case is not separately tagged, the bounded literal DAR/DECIR transfer/speech frame may select them as recipients. Explicit accusative or conflicting source case must not be silently recast as dative. This approval does not generalize that case choice to other verbs.",
+    "DAR recipient-only give me/you/us/etc and DECIR recipient-only tell me/you/us/etc are deliberately elliptical English fragments. Do not add it, something, a story or a destination merely to complete them. DAR direct-only give it/them and DECIR direct-only say it/them likewise leave an unexpressed recipient unexpressed.",
+    "For two-clitic forms require the source to identify both indirect and direct roles explicitly. Use give it/them to recipient or say it/them to recipient, preserving the selected roles and number; do not use tell it to recipient as a mechanical substitute.",
+    "Double se is permitted only where the same source sense explicitly identifies indirect le/les before a direct clitic. Since le/les is ambiguous in number, retain singular/plural recipient alternatives or label the chosen reading; do not claim that se itself fixes recipient number or reflexivity.",
+    "Withhold every single-se sense in the rejectedCases list. Matching subject person is insufficient to license a generic single-se reflexive translation of darse or decirse.",
+    "For first/second-person recipients, bind to myself/yourself/ourselves/yourselves only when the recoverable source subject/addressee is unambiguously the same person and number. DATE may be give yourself (an elliptical recipient reading). Otherwise retain me/you/us. Do not bind me to myself in DARME or DÁNDOME because infinitive/gerund subjects are unspecified.",
+    "Spanish grammatical third-person imperatives in these entries conventionally represent formal usted/ustedes commands: English imperative give/say/tell with implicit you, labelled formal singular/plural. Do not mechanically render them as he gives/they say or bind their recipients to a third-person reflexive subject. Preserve separate vos/vosotros/formal labels without claiming Mexico-specific usage.",
+    "Retain existing positively reviewed predicate, AGID, aspect and tense/construction restrictions. Source lemma senses such as DAR hit, occur, grow, surrender or feel like, and DECIR call/show or passive se, are not licensed by the give/say/tell template.",
+    "Keep exact source record hashes and selected sense evidence, construction, clitic roles, any gender/number alternatives and ellipsis limitations available in audit/labels. Do not turn these fragments into authored examples or claim independent human/native review.",
+    "A malformed form_of target literally dar/decir combined with CLITIC-TEXT may be normalized to dar/decir ONLY if the same selected source gloss explicitly identifies that exact root and identical clitic text. This is the sole exception for obtaining the exact lemma link required above. Do not infer suffixes, use another source sense, or disregard conflicting target extra/context. DÍGAME’s extra tell me is a matching translation, not a license to ignore arbitrary extras.",
+    "Bind this review to the exact policySha256 and its six DAR/DECIR templates. The recipient-only DECIR tell template is specifically approved by this clitic review; that does not authorize other tell frames, an unreviewed lexical predicate or a general change to the earlier phrase catalogue."
+  ],
+  "rejectedCases": [
+    {
+      "word": "DENSE",
+      "senseRows": [
+        7
+      ],
+      "recordSha256": "96487d70110a4bb51d995bad29e68cec32808beb2cbd68b85ee185869739d567",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DESE",
+      "senseRows": [
+        12
+      ],
+      "recordSha256": "6f55504222e6e82fa6b6fd9d869f0894589485bf6df4816033a818c4df030192",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DARSE",
+      "senseRows": [
+        15
+      ],
+      "recordSha256": "443e5af0f71d4c61d173481abe3d4ff85964942be447dbe6de34176ea3b7b3d0",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DECIRSE",
+      "senseRows": [
+        52
+      ],
+      "recordSha256": "6a37a3ddd972799d0c03468f2df7788e7625d5065bad70c6cf496d27ca82f57c",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DÁNDOSE",
+      "senseRows": [
+        68
+      ],
+      "recordSha256": "aca2a9a5506f1b4d5f022ac2b802cdd88e9095d30192ffe87872789ac7f80584",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DÍGASE",
+      "senseRows": [
+        69
+      ],
+      "recordSha256": "a689381367f0c565217257a5585703c42034015db4bbc66a4f580b1b187ec26e",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    },
+    {
+      "word": "DÍGANSE",
+      "senseRows": [
+        90
+      ],
+      "recordSha256": "59dd41955b3ebfd45440fae048c58d8679a0d6d7cbaf8b06742e1de186535e31",
+      "reason": "Withhold single se: may be reflexive, reciprocal, passive, impersonal or lexicalized dar(se)/decir(se); do not render with the ordinary give/say/tell clitic templates."
+    }
+  ],
+  "notes": [
+    "All 107 supplied senses were read, including 11 additions: DÍGAME, DÍMELO, DÍSELO, DÁRSELO, DÉMELO, DÁRTELO, DÁRMELO, DÉMELA, DÁRMELA, DÁRTELA and DÍMELA. Seven single-se senses remain withheld; the remaining 100 senses have no additional lexical counterexample to the guarded selected-frame policy, subject to implementation validation.",
+    "DAME → give me; DIME → tell me; DILA/DILO → say it (a word/utterance); DATE → give yourself; DARTE → to give you; DÁNDOTE → giving you. These intentionally do not supply omitted objects or recipients.",
+    "DÁMELO/DÁMELA → give it to me; DÁMELAS/DÁMELOS → give them to me; DÁNOSLO → give it to us; DÁSELO/DÁSELA → give it to him/her/them with an explicit recipient-number ambiguity/selected-reading label.",
+    "Selected literal readings do not cover colloquial DALE encouragement, DAR hit constructions, DECIR call/name idioms or all contextual reflexive/reciprocal interpretations. Their existence does not invalidate a clearly labelled ordinary give/say reading.",
+    "No code was inspected for the forthcoming helper; policy approval is conditional on these guards, not approval of an implementation.",
+    "Each of the 11 additions has an explicit same-row gloss matching its malformed root-plus-clitic target. DÍGAME selects formal-singular tell me; DÍMELO/DÍMELA select say it to me; DÍSELO selects say it to him/her/them; DÉMELO/DÉMELA select formal-singular give it to me; DÁRMELO/DÁRMELA select to give it to me; DÁRTELO/DÁRTELA select to give it to you; DÁRSELO selects to give it to him/her/them. Infinitive recipients remain nonreflexive selected readings with subject unspecified."
+  ],
+  "policySha256": "9533e6be2ae88d55dd9bd3732d48ce8c85e8783a0618e5e8731c9bd24f657e4f",
+  "addedEvidenceReviewed": [
+    {
+      "word": "DÍGAME",
+      "recordSha256": "a7de67018ce71a9bdb1d611dd5fb6e346612057f671d7c23f9c502cf311e81b9",
+      "formOfTarget": "decir combined with me"
+    },
+    {
+      "word": "DÍMELO",
+      "recordSha256": "be2108e4c65ab08ad7a8c802e047b40377a7534f8daa01d1f5ee2144e3ca0258",
+      "formOfTarget": "decir combined with indirect object me and direct object lo"
+    },
+    {
+      "word": "DÍSELO",
+      "recordSha256": "84ead55e38ce8230c140e340792f7a74ea96306e2aed0f14a1e5e3c4302a9d85",
+      "formOfTarget": "decir combined with indirect object le/les and direct object lo"
+    },
+    {
+      "word": "DÁRSELO",
+      "recordSha256": "312083a26b126406dc320c402b8c1af482c65b48f9908ea59fddf713f7147895",
+      "formOfTarget": "dar combined with indirect object le/les and direct object lo"
+    },
+    {
+      "word": "DÉMELO",
+      "recordSha256": "a22ea45563328a6a6dc86ad202af3fb95465aa27f850fb538ac985afb1412f3e",
+      "formOfTarget": "dar combined with indirect object me and direct object lo"
+    },
+    {
+      "word": "DÁRTELO",
+      "recordSha256": "a57f4d0d15bbee32d2af23d5d75f65a67fb3a0cbebdb46a016960c97a76ee59a",
+      "formOfTarget": "dar combined with indirect object te and direct object lo"
+    },
+    {
+      "word": "DÁRMELO",
+      "recordSha256": "b930d3fdb7e042d0af54713d9a23be4139e3be1b63d5845fc9bb0ae77024f888",
+      "formOfTarget": "dar combined with indirect object me and direct object lo"
+    },
+    {
+      "word": "DÉMELA",
+      "recordSha256": "eccca3d17a2b9da5fb2eff863194420683c81b4f562ce42560bf843ec6a63d84",
+      "formOfTarget": "dar combined with indirect object me and direct object la"
+    },
+    {
+      "word": "DÁRMELA",
+      "recordSha256": "1c8433edd02f63d77aebf1f9fb02f1216113d1b4a94e2829223211de12b24ecd",
+      "formOfTarget": "dar combined with indirect object me and direct object la"
+    },
+    {
+      "word": "DÁRTELA",
+      "recordSha256": "6aa040537eee66a58634f8049d4421312761563d336bd10d312c65e6b520f9cc",
+      "formOfTarget": "dar combined with indirect object te and direct object la"
+    },
+    {
+      "word": "DÍMELA",
+      "recordSha256": "615751ed2d65c39b62f297e57fd9cb4509ff10cad42a905a079a411f04ddc885",
+      "formOfTarget": "decir combined with indirect object me and direct object la"
+    }
+  ]
+}

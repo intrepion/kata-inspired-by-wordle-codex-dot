@@ -1,0 +1,841 @@
+{
+  "inputSha256": "7673ae49bcfd02c4304dae4c2f4ff8e0e6c5e6f08832be644efda163874fa071",
+  "reviewer": "/root/review_standards",
+  "method": "Independent second-author cross-review of all 128 exact existing Spec proposals, read with the selected English source sense/hash and every retained Spanish semantic sense in four batches of 32. Approval accepts the unchanged proposed meaningIndex, record hash, frame, profile and context; only aspectModes may be restricted to the stated subset. Prior different choices remain archival and their notes are not imported. This is original model linguistic judgment, not source-membership-only approval, native-human certification or a rendered-word coverage claim. Ordinary permits source-supported human agents/operators/patients and genuine personal figuratives; entity-only selected contexts require it-only rather than invented human personification. Mandatory pronominal substitutions, incompatible subject roles and resultative/middle-slot failures are withheld. Ordinary context-supplied trailing complements and grammatical word-level fragments are not rejected merely for lacking a full example sentence. Exact hyphenated/base frames remain subject to existing verified inflection guards; no qualified English past/participle override is supplied. No application/source edits or publication.",
+  "approved": [
+    {
+      "spanish": "acechar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Secret watching/stalking; no institutional-espionage assumption or new target is introduced. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "adherir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Causative attachment of one thing to another; Spanish transitive pegar supports human actors, not only self-adhesion. Selected English source labels: intransitive, reflexive, transitive."
+    },
+    {
+      "spanish": "aducir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Citing reasons or evidence in argument; not obsolete physical carrying. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "agradar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Please preserves the pleasing stimulus as subject; people may please others without experiencer reversal."
+    },
+    {
+      "spanish": "agrumar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive material clumping supports a human causer; not reflexive becoming lumpy. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "alijarar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human partitioning of uncultivated land is explicit in the English source; absence of a Spanish gloss is acknowledged. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "almenar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Add merlons to a building; the context-supplied adorned object need not be invented."
+    },
+    {
+      "spanish": "amantar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial covering another person loosely with bedding; nonreflexive transitive support is explicit. Selected English source labels: pronominal, transitive."
+    },
+    {
+      "spanish": "amarar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "The English source explicitly includes landing an aircraft on water, supporting conventional pilot/crew operation of that same aircraft. Preserve the landing event; do not infer a person forcing an unrelated craft down. Selected English source labels: intransitive."
+    },
+    {
+      "spanish": "anhelar",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Yearning for an unexpressed desired target is a faithful selected fragment, not obsolete panting. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "apencar",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Bearing unpleasant consequences; the burden remains contextual without changing who bears it."
+    },
+    {
+      "spanish": "arbolar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human hoisting of a flag or standard; excludes unrelated waves, planting and horse rearing."
+    },
+    {
+      "spanish": "asestar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Inflict a context-supplied blow or attack; no particular injury is fabricated. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "atañer",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Narrow it-only topic/matter relation; trailing with-complement stays contextual and no experiencer is promoted. Selected English source labels: impersonal, third-person."
+    },
+    {
+      "spanish": "atiesar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive making an object taut or stiff; human causer is supported. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "atildar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive tidying; not adding written accent marks. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "azufrar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Treating an object with sulfur is a human-capable process; object remains contextual. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "bachear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Patch road potholes; human maintenance worker and road patient are preserved. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "boquear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal human mouth-opening is supported, not limited to animal gasping."
+    },
+    {
+      "spanish": "campear",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Distinguishing oneself conspicuously is an explicit personal figurative; no animal-only restriction justified."
+    },
+    {
+      "spanish": "canecer",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Obsolete becoming grey-haired, supported by Spanish volverse cano; not causative greying of someone else. Selected English source labels: obsolete."
+    },
+    {
+      "spanish": "cargar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive battery charging; human operator rather than battery becoming charged by itself. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "chascar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Spanish explicitly supports finger-snapping as well as object clicks, so ordinary human sound-producing subjects are legitimate. Selected English source labels: intransitive, transitive."
+    },
+    {
+      "spanish": "chirlar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial noisy rapid talking; not food preparation. Selected English source labels: colloquial."
+    },
+    {
+      "spanish": "circuir",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Spatial surrounding can be a state or a human/group action; no special entity-only constraint."
+    },
+    {
+      "spanish": "cooptar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Existing group members elect another member; ordinary human voters are source-supported. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "demudar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Abrupt transitive alteration; human causer supported, not an unsupported reflexive self-change. Selected English source labels: reflexive, transitive."
+    },
+    {
+      "spanish": "deparar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Present something before another; excludes fate-only provision context."
+    },
+    {
+      "spanish": "desasir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Release a previously grasped object; human releaser supported and object may remain contextual."
+    },
+    {
+      "spanish": "desusar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Cease using a thing or custom; agent is the user, not an object becoming obsolete. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "diputar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Appoint another as a representative; appointer and appointee roles remain distinct."
+    },
+    {
+      "spanish": "divinar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rare/archaic guessing; no claim of certainty or a different physical divination act. Selected English source labels: rare, transitive."
+    },
+    {
+      "spanish": "embaír",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Cheating by making someone believe a falsehood; preserve explicitly evidenced defective forms only."
+    },
+    {
+      "spanish": "embobar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive fascination of another person is explicitly supported; mixed pronominal labels do not make it obligatorily reflexive. Selected English source labels: pronominal, transitive."
+    },
+    {
+      "spanish": "embolar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Blacken footwear with polish; human operator, shoes as patient."
+    },
+    {
+      "spanish": "encamar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Place an object on the ground; causative laying, not the agent lying down."
+    },
+    {
+      "spanish": "encimar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Elevated storage of an unexpressed object; not a change in who is stored."
+    },
+    {
+      "spanish": "enconar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Cause another person's irritation; not reflexively becoming angry. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "endiñar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Andalusian colloquial delivering a forceful blow."
+    },
+    {
+      "spanish": "endurar",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Patiently bearing a burden; not hardening a material or postponing an event."
+    },
+    {
+      "spanish": "engatar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial deception using flattery; target remains contextual. Selected English source labels: colloquial, transitive."
+    },
+    {
+      "spanish": "enlosar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human paving with stone slabs; source material is explicit."
+    },
+    {
+      "spanish": "enramar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human arrangement of branches for shade or ornament, distinct from a tree growing branches."
+    },
+    {
+      "spanish": "enrejar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Fit architectural bars or latticework; neither grating food nor an animal injury is selected."
+    },
+    {
+      "spanish": "entibar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human propping or shoring a structure; absent Spanish gloss is acknowledged, English transitive source explicit. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "escamar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human removing fish scales; fish are patients, not required agents."
+    },
+    {
+      "spanish": "escodar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human dressing stone with an edged hammer; excludes animal antler rubbing."
+    },
+    {
+      "spanish": "esterar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive covering an object with matting; target remains contextual. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "estufar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rioplatense annoyance of a person or animal; either may be the patient of a human causer. Selected English source labels: Rioplatense, transitive."
+    },
+    {
+      "spanish": "fenecer",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal human death/perishing is supported; not restricted to nonhuman lives. Selected English source labels: intransitive."
+    },
+    {
+      "spanish": "flechar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human shooting with an arrow; victim remains context-supplied, not invented. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "frangir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rare transitive dividing into parts; human agent supported. Selected English source labels: rare."
+    },
+    {
+      "spanish": "fruncir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Wrinkle or gather cloth/a surface; not automatically an intransitive human frown. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "gorrear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Argentine/Chilean colloquial infidelity; human partner is the actor, not ordinary fraud."
+    },
+    {
+      "spanish": "guarnir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Decorative garnishing of a context-supplied object; no food-only restriction or nautical sense imported."
+    },
+    {
+      "spanish": "hisopar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human sprinkling with a ritual aspergillum; patient remains contextual. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "incidir",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Have an influence on a matter; a human can legitimately influence it, and the affected topic remains contextual. Selected English source labels: intransitive."
+    },
+    {
+      "spanish": "jabonar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive rubbing another object with soap is explicit in Spanish; do not import reflexive self-washing from another sense. Selected English source labels: intransitive."
+    },
+    {
+      "spanish": "jalonar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Mark land with stakes; human surveyor supported, absent Spanish semantic gloss acknowledged. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "jubilar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial discarding a useless object; not a person retiring from employment. Selected English source labels: colloquial."
+    },
+    {
+      "spanish": "lapizar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal drawing/writing with a pencil; no scheduling idiom."
+    },
+    {
+      "spanish": "llenar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive filling of empty space; source context preserves the filler as agent despite the phrasal verb's other intransitive readings. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "macizar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Fill holes or voids; human causer supported by the English lexical sense."
+    },
+    {
+      "spanish": "madrear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Mexican vulgar severe beating; no mother-resemblance or souring-wine sense imported. Selected English source labels: Mexico, vulgar."
+    },
+    {
+      "spanish": "mantear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive blanket-tossing of another person; blanket is the source-given method, not a claim that the tossing agents themselves are inside it."
+    },
+    {
+      "spanish": "nortear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Correct narrow it-only Mexican north-wind weather reading; neither a person blowing nor another wind direction is invented. Selected English source labels: Mexico, impersonal, intransitive."
+    },
+    {
+      "spanish": "oliscar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human careful sniffing is supported; object stays contextual, no information-discovery metaphor. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "opugnar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human assault of a place or opposing force, not an affected passive party."
+    },
+    {
+      "spanish": "pastar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Explicit human farmer leading livestock to graze; animals are patients and must not force it-only. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "plasmar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human shaping of malleable material; not reflexive taking shape by itself. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "portear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transport of merchandise for payment; human carrier supported, not an avian or banging-door sense."
+    },
+    {
+      "spanish": "prender",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive human ignition is explicitly supported, distinct from an object catching fire by itself."
+    },
+    {
+      "spanish": "radicar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Formal residence/location supports human subjects as well as entities; place remains contextual. Selected English source labels: intransitive."
+    },
+    {
+      "spanish": "raquear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human beachcombing for useful washed-up objects; English semantic source explicit."
+    },
+    {
+      "spanish": "rebujar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Spain/colloquial transitive cloth-wrapping, with wrapped object contextual; no reflexive self-wrapping inferred. Selected English source labels: Spain."
+    },
+    {
+      "spanish": "recalar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Nautical landfall permits conventional human pilot/crew navigation language; not personifying water or importing the soaking sense."
+    },
+    {
+      "spanish": "recesar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Latin American taking a break in proceedings; human participants supported. Selected English source labels: Latin-America, intransitive."
+    },
+    {
+      "spanish": "recovar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Buy goods for profitable resale; neither goods nor a sale outcome is invented."
+    },
+    {
+      "spanish": "recrear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Exact hyphenated create-anew sense is semantically supported. Use only independently supported English morphology; approval does not authorize guessed re-created/re-creating forms or an override. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "recriar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human livestock rearing; animals are patients, not an animal-only agent. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "recusar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Legal challenge to another official's participation; not self-recusal or an assertion that disqualification succeeds."
+    },
+    {
+      "spanish": "religar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Tie an object again; repeat binding is supported by the Spanish definition, not religious affiliation."
+    },
+    {
+      "spanish": "remozar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive revamping of an old concept/appearance; not a subject becoming young independently."
+    },
+    {
+      "spanish": "reputar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Holding a judgment is a valid selected lexical fragment; no object or evaluative quality is fabricated, and no complete sentence is claimed. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "reteñir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human dyeing of an object again is explicit in Spanish despite row-level intransitive metadata."
+    },
+    {
+      "spanish": "roturar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human first cultivation of previously uncultivated soil; no ordinary repeat-plowing meaning imported."
+    },
+    {
+      "spanish": "sahumar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human scenting of an object by aromatic smoke; no purification-efficacy claim. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "satinar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human polishing or smoothing paper/fabric; not unsupported make-glossy small-clause morphology. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "sobrar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Spanish explicitly includes people who are unwanted or extra; surplus persons as subjects do not reverse the experiencer relation."
+    },
+    {
+      "spanish": "solazar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human entertaining another, rather than reflexive enjoyment. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "sondear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Conducting a survey, not soliciting political support or measuring depth."
+    },
+    {
+      "spanish": "sopesar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Figuratively assess pros and cons; evaluator remains the human subject."
+    },
+    {
+      "spanish": "tardar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "A person can take time; amount and following activity legitimately remain contextual in a word-level duration gloss."
+    },
+    {
+      "spanish": "tender",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive spreading of an object over a surface; not the agent lying down or tending toward a value. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "timbrar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human applying a postmark; no postal item is invented."
+    },
+    {
+      "spanish": "tontear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Spain: a person flirting in the early courtship phase; mutual context does not force an unsupported reciprocal clitic."
+    },
+    {
+      "spanish": "tornear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human lathe-work activity; workpiece can be contextual, not the human body being rotated by a lathe. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "trajear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human dressing another person is explicit in Spanish; wearer is the object, not the dresser. Selected English source labels: transitive."
+    },
+    {
+      "spanish": "transar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Mexican swindling of another; no unrelated negotiation or sexual sense imported. Selected English source labels: Mexico."
+    },
+    {
+      "spanish": "tranzar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Mexican colloquial conning; human deceiver supported by exact English transitive source. Selected English source labels: Mexico, colloquial, transitive."
+    },
+    {
+      "spanish": "trasver",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Literal perception through or beyond an intervening object; not detection of a deception."
+    },
+    {
+      "spanish": "ulcerar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive causing ulceration permits a human causer; no source restriction to an ulcerating wound as subject."
+    },
+    {
+      "spanish": "vaguear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human idling or lounging; no unsupported source-specific referent."
+    },
+    {
+      "spanish": "versear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected English lying/tall-tale sense; known colloquial Argentine/Rioplatense usage, not falsely attributed to the Spanish poetry extract."
+    },
+    {
+      "spanish": "yugular",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rare figurative abrupt ending of an activity; not a throat-cutting possessive frame."
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "adormir",
+      "reason": "Lull to sleep requires an intervening sleeper/patient in English; unchanged bare frame can lose the causative role. Needs an explicitly reviewed patient-bearing construction."
+    },
+    {
+      "spanish": "agostar",
+      "reason": "Selected context explicitly makes excessive heat the drying/scorching agent. Ordinary I/we parched is not supported by that selected sense; require it-only or separately reviewed human-causer evidence."
+    },
+    {
+      "spanish": "arroyar",
+      "reason": "Proposal expressly selects rain/water forming channels and excludes a person forming them. Ordinary conflicts with that entity-agent context; require it-only."
+    },
+    {
+      "spanish": "aterir",
+      "reason": "Selected context makes cold the causal agent. Ordinary human numbing-with-cold needs separately reviewed operator evidence or a revised restricted profile; retain defective-paradigm safeguards."
+    },
+    {
+      "spanish": "condecir",
+      "reason": "Selected context/notes make things correspond or harmonize; unrestricted human correspondence could mean exchanging messages. Require it-only or exact human-compatible sense evidence."
+    },
+    {
+      "spanish": "constar",
+      "reason": "Proposal explicitly makes an event/fact the recorded subject. Ordinary I was on record introduces a human-speaker reading not selected here; require it-only."
+    },
+    {
+      "spanish": "dimanar",
+      "reason": "Selected source explicitly concerns water or a thing proceeding from another. Ordinary human stem-from clauses are not established by this sense; require it-only or reviewed personal-origin evidence."
+    },
+    {
+      "spanish": "enverar",
+      "reason": "Selected context is fruit beginning to take ripe color. Ordinary human subjects would borrow a different metaphor; require it-only."
+    },
+    {
+      "spanish": "escocer",
+      "reason": "Proposal explicitly makes a body part the subject of smarting. Ordinary I was smarting can introduce emotional or whole-person sensation outside the selected context; require it-only or a separately reviewed personal sense."
+    },
+    {
+      "spanish": "escorar",
+      "reason": "Selected context/notes explicitly make a vessel the listing subject, not a human operator. Require it-only rather than unrestricted I/we list."
+    },
+    {
+      "spanish": "flagrar",
+      "reason": "Selected poetic blazing/light-emission reading does not independently establish unrestricted human subjects. Narrow the literal flame/light profile to it-only or provide a separately reviewed human-compatible sense."
+    },
+    {
+      "spanish": "flamear",
+      "reason": "Selected frame is an intransitive flame-emitting subject, expressly excluding human waving/sterilizing actions. Require it-only or separate literal human usage evidence; do not borrow other flamear senses."
+    },
+    {
+      "spanish": "florear",
+      "reason": "Unchanged context is producing flowers, not the distinct musical or persuasive human senses. Require a plant/entity it-only profile."
+    },
+    {
+      "spanish": "fucilar",
+      "reason": "Selected source and context concern emitting lightning or trembling light. Require it-only for the literal light-emitting entity; unqualified human flash would introduce other senses."
+    },
+    {
+      "spanish": "garrear",
+      "reason": "Context is a vessel involuntarily dragging its anchor. Ordinary I drag anchor may introduce a person deliberately pulling it; require it-only or separately reviewed conventional crew construction."
+    },
+    {
+      "spanish": "hocicar",
+      "reason": "Selected context explicitly makes an animal use its snout. Require it-only; human digging with a stick or kissing is a different unselected sense."
+    },
+    {
+      "spanish": "llamear",
+      "reason": "Selected intransitive emitting-flames context supports the burning entity, not an unrestricted human fire-setter. Require it-only or exact personal literal usage evidence."
+    },
+    {
+      "spanish": "musicar",
+      "reason": "Resultative set-to-music requires an intervening text/patient to preserve the causative role in English. Needs a reviewed explicit patient construction or a different source-supported frame such as musicalise."
+    },
+    {
+      "spanish": "ovillar",
+      "reason": "Bare roll into a ball makes the subject undergo curling, contradicting the proposed transitive maker context. Needs a reviewed intervening patient construction or different causative frame."
+    },
+    {
+      "spanish": "remirar",
+      "reason": "Exact look at again places again after a preposition whose object is absent, yielding malformed I looked at again. A revised frame such as look again at would require explicit cross-review rather than silent reordering."
+    },
+    {
+      "spanish": "retoñar",
+      "reason": "Selected context explicitly makes a plant produce new shoots. Require it-only; the separate recurrence sense cannot authorize human sprouting."
+    },
+    {
+      "spanish": "supurar",
+      "reason": "Exact context makes a wound/bodily site produce pus. Require it-only or separately reviewed whole-person usage, rather than ordinary I/we produce pus."
+    },
+    {
+      "spanish": "zurriar",
+      "reason": "Spanish selected definition makes a sounding thing produce a buzz/whir. Require it-only or exact human sound-production evidence; do not infer human imitation."
+    }
+  ]
+}

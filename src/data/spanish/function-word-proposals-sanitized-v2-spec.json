@@ -1,0 +1,3641 @@
+{
+  "author": "/root/review_spec",
+  "method": "Independent model-authored selected word-level English renderings, derived from exact retained English Wiktionary form/lemma senses and separately fresh-replayed Spanish Wiktionary corroboration where available. English renderings are model-authored derivatives, not claimed verbatim source quotations. No native-human certification, invented examples, generic form-rule authorization or complete-coverage claim. Requires independent review before integration.",
+  "sourcePins": {
+    "candidateFile": "/tmp/morrowmark-function-word-gap-triage.json",
+    "candidateSha256": "ca670a7a033a662114eeb4c1ea2c7e6fb3779d36033e8c3203bb2f673b033362",
+    "englishEvidenceFile": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/english-translation-evidence.json",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "spanishCorroborationFile": "/tmp/function-word-spanish-corroboration-spec.json",
+    "spanishCorroborationSha256": "8e2f1294151a7cad2e7072a803658a7053021011818a72e6031fdfcf265e1c51",
+    "spanishRawArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "spanishReplay": "29 selected lexical records freshly matched to original Spanish gzip lines, including raw line newline hashes. Spanish pos labels may be adjective where English labels determiner; corroboration does not overwrite the retained English POS.",
+    "englishReplay": "Every form and lemma object matched the retained pinned English evidence exactly. The original multi-gigabyte English archive was not freshly replayed.",
+    "coverageAuditFile": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/translation-coverage-audit.json",
+    "coverageAuditSha256": "13d5a1837a7de9b800d200bc389f9919c8dca5f35a2fc2c21a8a424f9d19b94e",
+    "coverageBaseline": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51895,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4725,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 61000,
+      "missing": 15670,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2579,
+          "missing": 345
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8346,
+          "missing": 1390
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17549,
+          "missing": 4242
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32526,
+          "missing": 9693
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    }
+  },
+  "proposals": [
+    {
+      "recordIndex": 0,
+      "word": "AQUELLA",
+      "partOfSpeech": "det",
+      "english": "that (over there)",
+      "context": "Feminine singular determiner: a grammatically feminine noun at some distance; English does not encode its grammatical gender.",
+      "source": {
+        "wordRecord": {
+          "word": "aquella",
+          "pos": "det",
+          "recordSha256": "ae8f68513c6e0fd1fb2e7323cb406e2af6814010f7955f8196fb51da53d120be",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of aquel"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "aquel"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of aquel"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "aquel"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/aquella#Spanish",
+        "lemma": "aquel",
+        "lemmaRecordSha256": "153a4670ae18d54c5b95a7ed12566bc4c5671301edf9f3092da639959eab7d88",
+        "lemmaRecord": {
+          "word": "aquel",
+          "pos": "det",
+          "recordSha256": "153a4670ae18d54c5b95a7ed12566bc4c5671301edf9f3092da639959eab7d88",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that (over there; implying some distance)"
+              ],
+              "tags": [
+                "also",
+                "postpositional"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that (over there; implying some distance)"
+          ],
+          "tags": [
+            "also",
+            "postpositional"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/aquel#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Used before a feminine singular noun for something over there.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 1,
+      "word": "AQUÉLLA",
+      "partOfSpeech": "pron",
+      "english": "that one (over there)",
+      "context": "Feminine singular demonstrative pronoun, selected distant referent. Retains the exact accented source spelling; this is not a claim that the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "aquélla",
+          "pos": "pron",
+          "recordSha256": "303ab9df85ac62a45dc56f128c892dce167f0bf5468e98c84fb61e28b2407c61",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of aquél"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "aquél"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of aquél"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "aquél"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/aqu%C3%A9lla#Spanish",
+        "lemma": "aquél",
+        "lemmaRecordSha256": "4d839f6915627aaf07f315e6f3d92abad13da3bc67262bc5376e543fef2ca530",
+        "lemmaRecord": {
+          "word": "aquél",
+          "pos": "pron",
+          "recordSha256": "4d839f6915627aaf07f315e6f3d92abad13da3bc67262bc5376e543fef2ca530",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that one (often with the meaning of \"over there\", sometimes contrasted with ése)"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that one (often with the meaning of \"over there\", sometimes contrasted with ése)"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/aqu%C3%A9l#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Refers to one grammatically feminine person or thing over there. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 2,
+      "word": "CUALES",
+      "partOfSpeech": "pron",
+      "english": "which",
+      "context": "Plural relative pronoun, normally in los cuales or las cuales; refers to plural antecedents. Not accented interrogative cuáles. Retains the English source formal/literary relative reading; Spanish cual sense 1 confirms the relative connection.",
+      "source": {
+        "wordRecord": {
+          "word": "cuales",
+          "pos": "pron",
+          "recordSha256": "8e0026bf92b70aa151149704d871c21fece059e489447aa589113e2abf35eb26",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of cual"
+              ],
+              "tags": [
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "cual"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of cual"
+          ],
+          "tags": [
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "cual"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cuales#Spanish",
+        "lemma": "cual",
+        "lemmaRecordSha256": "33134540d139d8a948042a8c267e44471e8fd07d3548bc63e24e6b332537debe",
+        "lemmaRecord": {
+          "word": "cual",
+          "pos": "pron",
+          "recordSha256": "33134540d139d8a948042a8c267e44471e8fd07d3548bc63e24e6b332537debe",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "suchlike, like (which), such as"
+              ],
+              "tags": [
+                "formal",
+                "literary",
+                "relative"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "suchlike, like (which), such as"
+          ],
+          "tags": [
+            "formal",
+            "literary",
+            "relative"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cual#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "9b33eac19148b2097aa915d559aa7fc6e2046c3dc3dae7d322a04e4956ec27de",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cual",
+          "record": {
+            "word": "cual",
+            "pos": "pron",
+            "pos_title": "Pronombre relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "irregular",
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 1,
+                "glosses": [
+                  "Conecta dos elementos de la oración, señalando el sustantivo o idea que se ha mencionado."
+                ],
+                "raw_tags": [
+                  "siempre va precedido del artículo determinado (el cual)",
+                  "aplicado en especial a objetos",
+                  "para personas es preferible usar 'quien' o 'que'"
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "977fc44d20b2be761838109a6baf9dc98273813fb04e036373cb5f75a62731e0",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuales",
+          "record": {
+            "word": "cuales",
+            "pos": "pron",
+            "pos_title": "Forma pronominal",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de cual"
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "cual"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "A plural relative pronoun, usually in los cuales or las cuales, referring back to things already mentioned. Formal or literary; not the question word cuáles.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": null,
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 3,
+      "word": "CUANTA",
+      "partOfSpeech": "det",
+      "english": "as much; however much",
+      "context": "Unaccented relative/quantity determiner modifying a feminine singular noun; selected amount reading, not interrogative cuánta or the separate unos cuantos construction.",
+      "source": {
+        "wordRecord": {
+          "word": "cuanta",
+          "pos": "det",
+          "recordSha256": "0cd1337fd829a16f27b425029520c9556026784f925521949b6b5cd9fc531145",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of cuanto"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "cuanto"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of cuanto"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "cuanto"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cuanta#Spanish",
+        "lemma": "cuanto",
+        "lemmaRecordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+        "lemmaRecord": {
+          "word": "cuanto",
+          "pos": "det",
+          "recordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "as much [of]; as many; however much; however many"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "as much [of]; as many; however much; however many"
+          ],
+          "tags": [
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cuanto#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "217776ba5b8a4ced721516981d60477a4507a4636faa6a97580bbb4715544ee1",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuanto",
+          "record": {
+            "word": "cuanto",
+            "pos": "adj",
+            "pos_title": "Adjetivo relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 1,
+                "glosses": [
+                  "Numeral que significa cantidad indeterminada, correlativo de tanto."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "06c6264c1341790b7e293d321222e640ea955cf02b6e27eaf05d464bad6c173e",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuanto",
+          "record": {
+            "word": "cuanto",
+            "pos": "pron",
+            "pos_title": "Pronombre relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "irregular",
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Todo, todo lo que."
+                ],
+                "sense_index": "4"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "97a955529d29ccb8ee2920476f02d30174141e4252713479874b5781b3abc51c",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuanta",
+          "record": {
+            "word": "cuanta",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino de cuanto."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "cuanto"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used with a feminine singular noun for an amount, in relative expressions such as “as much” or “however much.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 4,
+      "word": "CUANTAS",
+      "partOfSpeech": "det",
+      "english": "as many; however many",
+      "context": "Unaccented feminine plural relative/quantity determiner; plural count reading, not interrogative cuántas or unos cuantos.",
+      "source": {
+        "wordRecord": {
+          "word": "cuantas",
+          "pos": "det",
+          "recordSha256": "92bd93cbe31ffb9f06c4a8006ee91c72a3c27250419a52feb578cb0e3739a011",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of cuanto"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "cuanto"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of cuanto"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "cuanto"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cuantas#Spanish",
+        "lemma": "cuanto",
+        "lemmaRecordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+        "lemmaRecord": {
+          "word": "cuanto",
+          "pos": "det",
+          "recordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "as much [of]; as many; however much; however many"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "as much [of]; as many; however much; however many"
+          ],
+          "tags": [
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cuanto#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "217776ba5b8a4ced721516981d60477a4507a4636faa6a97580bbb4715544ee1",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuanto",
+          "record": {
+            "word": "cuanto",
+            "pos": "adj",
+            "pos_title": "Adjetivo relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 1,
+                "glosses": [
+                  "Numeral que significa cantidad indeterminada, correlativo de tanto."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "06c6264c1341790b7e293d321222e640ea955cf02b6e27eaf05d464bad6c173e",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuanto",
+          "record": {
+            "word": "cuanto",
+            "pos": "pron",
+            "pos_title": "Pronombre relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "irregular",
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Todo, todo lo que."
+                ],
+                "sense_index": "4"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "eb1226435380e88946a4b5a7a4fe62e728ee74bed55885986da2b4a30318fe2b",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cuantas",
+          "record": {
+            "word": "cuantas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de cuanto."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "cuanto"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used with a feminine plural noun for a number of things, in relative expressions such as “as many” or “however many.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 5,
+      "word": "CUYAS",
+      "partOfSpeech": "det",
+      "english": "whose",
+      "context": "Relative possessive determiner. Feminine plural agreement is with the things possessed, not the owner. Does not identify the owner as female or plural. Retains source formal label.",
+      "source": {
+        "wordRecord": {
+          "word": "cuyas",
+          "pos": "det",
+          "recordSha256": "f69a9868c5fc68751455d8bf42baef1a51da33d6e1a3f3b92c893a8c5cf8840b",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of cuyo (“whose”)"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "cuyo",
+                  "extra": "whose"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of cuyo (“whose”)"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "cuyo",
+              "extra": "whose"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cuyas#Spanish",
+        "lemma": "cuyo",
+        "lemmaRecordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+        "lemmaRecord": {
+          "word": "cuyo",
+          "pos": "det",
+          "recordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "whose"
+              ],
+              "tags": [
+                "formal",
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "whose"
+          ],
+          "tags": [
+            "formal",
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cuyo#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Means “whose” before feminine plural possessed things. The agreement describes those things, not the owner. Formal relative usage.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 6,
+      "word": "CUYOS",
+      "partOfSpeech": "det",
+      "english": "whose",
+      "context": "Relative possessive determiner. Masculine plural agreement is with the things possessed, not the owner. Does not identify the owner as male or plural. Retains source formal label.",
+      "source": {
+        "wordRecord": {
+          "word": "cuyos",
+          "pos": "det",
+          "recordSha256": "a391c41d0d8ef02a9f2c1d3cebf3756fe4667f3bca5a954e470c9d1d7cd94c61",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of cuyo (“whose”)"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "cuyo",
+                  "extra": "whose"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of cuyo (“whose”)"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "cuyo",
+              "extra": "whose"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cuyos#Spanish",
+        "lemma": "cuyo",
+        "lemmaRecordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+        "lemmaRecord": {
+          "word": "cuyo",
+          "pos": "det",
+          "recordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "whose"
+              ],
+              "tags": [
+                "formal",
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "whose"
+          ],
+          "tags": [
+            "formal",
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cuyo#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Means “whose” before masculine plural possessed things. The agreement describes those things, not the owner. Formal relative usage.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 7,
+      "word": "CUÁNTA",
+      "partOfSpeech": "det",
+      "english": "how much",
+      "context": "Accented feminine singular interrogative/exclamative quantity determiner; selected amount reading. Not unaccented relative cuanta.",
+      "source": {
+        "wordRecord": {
+          "word": "cuánta",
+          "pos": "det",
+          "recordSha256": "750cfb0982f58e57e06aaa5a8458f309e696b0d90926cf7238924400ddd85d61",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of cuánto"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "cuánto"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of cuánto"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "cuánto"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cu%C3%A1nta#Spanish",
+        "lemma": "cuánto",
+        "lemmaRecordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+        "lemmaRecord": {
+          "word": "cuánto",
+          "pos": "det",
+          "recordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "how much; how many"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "how much; how many"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cu%C3%A1nto#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "6475285db10d6390da963ec27379765b6aac5a5dbaa62ae17c4b206b4e687145",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "adj",
+            "pos_title": "Adjetivo interrogativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "interrogative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué número de o qué cantidad de."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "ff43904a53fea4f96390cd1e1ee5196182da16b1dfedad404a50da27703724fe",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "adj",
+            "pos_title": "Adjetivo exclamativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué cantidad de o qué número de."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "db1b208c104eefc1279208c0ae6131a4ce04d2f2fdddf053a1ae45b92961150d",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "pron",
+            "pos_title": "Pronombre interrogativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "interrogative",
+              "irregular"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué número o qué cantidad.; referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de"
+                ],
+                "sense_index": "3"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "79ddb657c12b0ae99cff5c26c6459383d3aa78da90c18e7d87c2a5a934cb2574",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "pron",
+            "pos_title": "Pronombre exclamativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué cantidad o qué número."
+                ],
+                "sense_index": "6"
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Asks or exclaims about an amount with a feminine singular noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 8,
+      "word": "CUÁNTOS",
+      "partOfSpeech": "det",
+      "english": "how many",
+      "context": "Accented masculine plural interrogative/exclamative quantity determiner; plural count reading. The source stray extra form_of target “how many” is an English gloss, not an authorized Spanish lemma or alias.",
+      "source": {
+        "wordRecord": {
+          "word": "cuántos",
+          "pos": "det",
+          "recordSha256": "a80eb155cd791b73bfb1e50407abcd8279a9b179d212a8506975612659330edc",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "masculine plural of cuánto, how many"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "cuánto"
+                },
+                {
+                  "word": "how many"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "masculine plural of cuánto, how many"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "cuánto"
+            },
+            {
+              "word": "how many"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/cu%C3%A1ntos#Spanish",
+        "lemma": "cuánto",
+        "lemmaRecordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+        "lemmaRecord": {
+          "word": "cuánto",
+          "pos": "det",
+          "recordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "how much; how many"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "how much; how many"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/cu%C3%A1nto#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "6475285db10d6390da963ec27379765b6aac5a5dbaa62ae17c4b206b4e687145",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "adj",
+            "pos_title": "Adjetivo interrogativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "interrogative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué número de o qué cantidad de."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "ff43904a53fea4f96390cd1e1ee5196182da16b1dfedad404a50da27703724fe",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "adj",
+            "pos_title": "Adjetivo exclamativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué cantidad de o qué número de."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "db1b208c104eefc1279208c0ae6131a4ce04d2f2fdddf053a1ae45b92961150d",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "pron",
+            "pos_title": "Pronombre interrogativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "interrogative",
+              "irregular"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué número o qué cantidad.; referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de"
+                ],
+                "sense_index": "3"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "79ddb657c12b0ae99cff5c26c6459383d3aa78da90c18e7d87c2a5a934cb2574",
+          "sourceUrl": "https://es.wiktionary.org/wiki/cu%C3%A1nto",
+          "record": {
+            "word": "cuánto",
+            "pos": "pron",
+            "pos_title": "Pronombre exclamativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Qué cantidad o qué número."
+                ],
+                "sense_index": "6"
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Asks or exclaims about a number of things with a masculine plural noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 9,
+      "word": "ESAS",
+      "partOfSpeech": "det",
+      "english": "those",
+      "context": "Feminine plural demonstrative determiner; English number changes from lemma that to those. No biological gender inferred.",
+      "source": {
+        "wordRecord": {
+          "word": "esas",
+          "pos": "det",
+          "recordSha256": "8162ecd8cdf761bdd6a40434821f6d80d31bd2910cffa5c9adac129a6f552134",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of ese; those"
+              ],
+              "tags": [
+                "demonstrative",
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "ese",
+                  "extra": "those"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of ese; those"
+          ],
+          "tags": [
+            "demonstrative",
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "ese",
+              "extra": "those"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/esas#Spanish",
+        "lemma": "ese",
+        "lemmaRecordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+        "lemmaRecord": {
+          "word": "ese",
+          "pos": "det",
+          "recordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that"
+              ],
+              "tags": [
+                "also",
+                "demonstrative",
+                "masculine",
+                "postpositional",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that"
+          ],
+          "tags": [
+            "also",
+            "demonstrative",
+            "masculine",
+            "postpositional",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/ese#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "cb45c7fbe00a77de04d7ef6f4c6caa51782af2f91361fda2a6b7305f68a47368",
+          "sourceUrl": "https://es.wiktionary.org/wiki/esas",
+          "record": {
+            "word": "esas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva y de pronombre",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of",
+              "pronoun"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de esa₂."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "esa"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a feminine plural noun to point out those people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 10,
+      "word": "ESOS",
+      "partOfSpeech": "det",
+      "english": "those",
+      "context": "Masculine plural demonstrative determiner; English number changes from lemma that to those. No biological gender inferred.",
+      "source": {
+        "wordRecord": {
+          "word": "esos",
+          "pos": "det",
+          "recordSha256": "f8889e53d2c438dbfd1abf51d3ca1c68b2eb3da857b3bbee33039b7586d48881",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of ese; those"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "ese",
+                  "extra": "those"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of ese; those"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "ese",
+              "extra": "those"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/esos#Spanish",
+        "lemma": "ese",
+        "lemmaRecordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+        "lemmaRecord": {
+          "word": "ese",
+          "pos": "det",
+          "recordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that"
+              ],
+              "tags": [
+                "also",
+                "demonstrative",
+                "masculine",
+                "postpositional",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that"
+          ],
+          "tags": [
+            "also",
+            "demonstrative",
+            "masculine",
+            "postpositional",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/ese#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "0165ef1128f482ac80e3b38c1b09823fac0fba44f22a65edfc450b716d0db514",
+          "sourceUrl": "https://es.wiktionary.org/wiki/esos",
+          "record": {
+            "word": "esos",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva y de pronombre",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of",
+              "pronoun"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de ese₂."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ese"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a masculine plural noun to point out those people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 11,
+      "word": "ESTA",
+      "partOfSpeech": "det",
+      "english": "this",
+      "context": "Feminine singular demonstrative determiner. Not está (a verb) or the dubious unrelated FreeDict entry previously held.",
+      "source": {
+        "wordRecord": {
+          "word": "esta",
+          "pos": "det",
+          "recordSha256": "ae50a7cd552dcc898ce1a2b1a645a8098f9bf3bdbf6ea784001fe7da49428de0",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of este"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "este"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of este"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "este"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/esta#Spanish",
+        "lemma": "este",
+        "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+        "lemmaRecord": {
+          "word": "este",
+          "pos": "det",
+          "recordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this"
+              ],
+              "tags": [
+                "also",
+                "demonstrative",
+                "masculine",
+                "postpositional",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this"
+          ],
+          "tags": [
+            "also",
+            "demonstrative",
+            "masculine",
+            "postpositional",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/este#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Used before a feminine singular noun to point out this person or thing.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 12,
+      "word": "ESTAS",
+      "partOfSpeech": "det",
+      "english": "these",
+      "context": "Feminine plural demonstrative determiner; English number changes from lemma this to these. Not estás (a verb).",
+      "source": {
+        "wordRecord": {
+          "word": "estas",
+          "pos": "det",
+          "recordSha256": "28e8a6f98a9b90724c6aad09c56eb50c362c2023752ed018e2dbe069cf460b33",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of este"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "este"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of este"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "este"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/estas#Spanish",
+        "lemma": "este",
+        "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+        "lemmaRecord": {
+          "word": "este",
+          "pos": "det",
+          "recordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this"
+              ],
+              "tags": [
+                "also",
+                "demonstrative",
+                "masculine",
+                "postpositional",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this"
+          ],
+          "tags": [
+            "also",
+            "demonstrative",
+            "masculine",
+            "postpositional",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/este#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "41342fc81c295e1e5d25fa6970776c6efa701ede413c06722c6d06cf72269289",
+          "sourceUrl": "https://es.wiktionary.org/wiki/estas",
+          "record": {
+            "word": "estas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva y de pronombre",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of",
+              "pronoun"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de este₂."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "este"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a feminine plural noun to point out these people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 13,
+      "word": "ESTOS",
+      "partOfSpeech": "det",
+      "english": "these",
+      "context": "Masculine plural demonstrative determiner; English number changes from lemma this to these.",
+      "source": {
+        "wordRecord": {
+          "word": "estos",
+          "pos": "det",
+          "recordSha256": "3d5f828ea1b2590975827c7e0c59b4adcafd5f180ff291eea76fa76db4187779",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "masculine plural of este"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "este"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "masculine plural of este"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "este"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/estos#Spanish",
+        "lemma": "este",
+        "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+        "lemmaRecord": {
+          "word": "este",
+          "pos": "det",
+          "recordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this"
+              ],
+              "tags": [
+                "also",
+                "demonstrative",
+                "masculine",
+                "postpositional",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this"
+          ],
+          "tags": [
+            "also",
+            "demonstrative",
+            "masculine",
+            "postpositional",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/este#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "1bcab8f289853df1e45cca829029733156c7a24cf3a9cf98ae6288db5256aae9",
+          "sourceUrl": "https://es.wiktionary.org/wiki/estos",
+          "record": {
+            "word": "estos",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva y de pronombre",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of",
+              "pronoun"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de este₂."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "este"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a masculine plural noun to point out these people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 14,
+      "word": "ESTOTRA",
+      "partOfSpeech": "pron",
+      "english": "this other one",
+      "context": "Obsolete feminine singular pronoun; preserves the lemma’s obsolete label and refers to one additional grammatically feminine referent.",
+      "source": {
+        "wordRecord": {
+          "word": "estotra",
+          "pos": "pron",
+          "recordSha256": "c6cc2cd6f7ff1317173b4640a615a63959ddb596d63bc06d45fa48c9f3e56b56",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of estotro"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "estotro"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of estotro"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "estotro"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/estotra#Spanish",
+        "lemma": "estotro",
+        "lemmaRecordSha256": "12389be76adf28222504d7fed21224f7dda33db2ba8eee5220b460a4931e066c",
+        "lemmaRecord": {
+          "word": "estotro",
+          "pos": "pron",
+          "recordSha256": "12389be76adf28222504d7fed21224f7dda33db2ba8eee5220b460a4931e066c",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "This other one"
+              ],
+              "tags": [
+                "masculine",
+                "obsolete",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "This other one"
+          ],
+          "tags": [
+            "masculine",
+            "obsolete",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/estotro#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "An obsolete pronoun for one other grammatically feminine person or thing nearby.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 15,
+      "word": "MUCHA",
+      "partOfSpeech": "det",
+      "english": "much; a lot of",
+      "context": "Feminine singular quantity determiner before a noun, selected amount reading. Grammatical gender has no English equivalent.",
+      "source": {
+        "wordRecord": {
+          "word": "mucha",
+          "pos": "det",
+          "recordSha256": "86472d01943c6db8708fe02754aec185cab9ab4c452c439414d53d4d43500443",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of mucho"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "mucho"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of mucho"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "mucho"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/mucha#Spanish",
+        "lemma": "mucho",
+        "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+        "lemmaRecord": {
+          "word": "mucho",
+          "pos": "det",
+          "recordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "much, a lot of"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "much, a lot of"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/mucho#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+          "sourceUrl": "https://es.wiktionary.org/wiki/mucho",
+          "record": {
+            "word": "mucho",
+            "pos": "adj",
+            "pos_title": "Adjetivo indeterminado",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "indeterminate"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Que abunda o es mayor o excede lo corriente."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "412a15b2bcd485cb6a18e6d3c87dca11f8ca7a6c56f91f198ab9712dbbc31f67",
+          "sourceUrl": "https://es.wiktionary.org/wiki/mucha",
+          "record": {
+            "word": "mucha",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino singular de mucho"
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mucho"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a feminine singular noun for a large amount.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 17,
+      "word": "MUCHAS",
+      "partOfSpeech": "det",
+      "english": "many; a lot of",
+      "context": "Feminine plural count determiner before a noun. Selects the lemma’s explicit in-plural meaning rather than mechanically reusing much.",
+      "source": {
+        "wordRecord": {
+          "word": "muchas",
+          "pos": "det",
+          "recordSha256": "14affb67576437fa32311a4eceb1190dc8e63e6b17c4020a6f87984049b0e2ff",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of mucho"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "mucho"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of mucho"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "mucho"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/muchas#Spanish",
+        "lemma": "mucho",
+        "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+        "lemmaRecord": {
+          "word": "mucho",
+          "pos": "det",
+          "recordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+          "senses": [
+            {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "many, a lot of"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 1,
+        "lemmaSense": {
+          "glosses": [
+            "many, a lot of"
+          ],
+          "tags": [
+            "in-plural",
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/mucho#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+          "sourceUrl": "https://es.wiktionary.org/wiki/mucho",
+          "record": {
+            "word": "mucho",
+            "pos": "adj",
+            "pos_title": "Adjetivo indeterminado",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "indeterminate"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Que abunda o es mayor o excede lo corriente."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "a4e06b6e36f7eabd9e90118356bff4c4a2181f4132649edab0f56f3b7c405ed9",
+          "sourceUrl": "https://es.wiktionary.org/wiki/muchas",
+          "record": {
+            "word": "muchas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de mucho."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mucho"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a feminine plural noun for a large number of people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 19,
+      "word": "MUCHOS",
+      "partOfSpeech": "det",
+      "english": "many; a lot of",
+      "context": "Masculine plural count determiner before a noun. Selects the lemma’s explicit in-plural meaning rather than mechanically reusing much.",
+      "source": {
+        "wordRecord": {
+          "word": "muchos",
+          "pos": "det",
+          "recordSha256": "98128c9c25b54bc23ec2bac09f56d0790ed0b993ec7d7fc76810ebe784886530",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "masculine plural of mucho"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "mucho"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "masculine plural of mucho"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "mucho"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/muchos#Spanish",
+        "lemma": "mucho",
+        "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+        "lemmaRecord": {
+          "word": "mucho",
+          "pos": "det",
+          "recordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+          "senses": [
+            {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "many, a lot of"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 1,
+        "lemmaSense": {
+          "glosses": [
+            "many, a lot of"
+          ],
+          "tags": [
+            "in-plural",
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/mucho#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+          "sourceUrl": "https://es.wiktionary.org/wiki/mucho",
+          "record": {
+            "word": "mucho",
+            "pos": "adj",
+            "pos_title": "Adjetivo indeterminado",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "indeterminate"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Que abunda o es mayor o excede lo corriente."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "b1419ebffd9748c685213e6e597e9755ebdaadada6e1e8e5e036866510a2a7a4",
+          "sourceUrl": "https://es.wiktionary.org/wiki/muchos",
+          "record": {
+            "word": "muchos",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de mucho."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mucho"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used before a masculine plural noun for a large number of people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 21,
+      "word": "QUIENES",
+      "partOfSpeech": "pron",
+      "english": "who; those who",
+      "context": "Unaccented plural relative referring to people; contextually those who. Not interrogative quiénes. English who itself has no singular/plural spelling distinction; the antecedents are plural.",
+      "source": {
+        "wordRecord": {
+          "word": "quienes",
+          "pos": "pron",
+          "recordSha256": "067b1793dad517b6cafb3f1d3984e32fc7c06ff20e8891b87fd653cf916d6723",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of quien"
+              ],
+              "tags": [
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "quien"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of quien"
+          ],
+          "tags": [
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "quien"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/quienes#Spanish",
+        "lemma": "quien",
+        "lemmaRecordSha256": "36ed6a6ef09b9c5a78a5228e324f5ea7dbed08745bdc83ec12fddf6044720fc6",
+        "lemmaRecord": {
+          "word": "quien",
+          "pos": "pron",
+          "recordSha256": "36ed6a6ef09b9c5a78a5228e324f5ea7dbed08745bdc83ec12fddf6044720fc6",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "who"
+              ],
+              "tags": [
+                "pronoun",
+                "relative"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "who"
+          ],
+          "tags": [
+            "pronoun",
+            "relative"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/quien#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "f9eb23689ab21b1f9ef1ebcca094ad9f9482ba1c84bd4e287e1069454aaf9f31",
+          "sourceUrl": "https://es.wiktionary.org/wiki/quien",
+          "record": {
+            "word": "quien",
+            "pos": "pron",
+            "pos_title": "Pronombre relativo, masculino y femenino",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "feminine",
+              "masculine"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Hace referencia a una persona ya referida o sobrentendida."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "db98ebe350ebb9698fee6ed1898e21cef03153233a0dc543b539c97fb1bd83bc",
+          "sourceUrl": "https://es.wiktionary.org/wiki/quienes",
+          "record": {
+            "word": "quienes",
+            "pos": "pron",
+            "pos_title": "Forma de Pronombre relativo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "relative"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del plural de quien."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "quien"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "A plural relative pronoun referring back to people, or meaning “those who.” It is not the question word quiénes.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": null,
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 22,
+      "word": "TANTA",
+      "partOfSpeech": "det",
+      "english": "so much; as much; that much",
+      "context": "Feminine singular quantity determiner, selected amount reading.",
+      "source": {
+        "wordRecord": {
+          "word": "tanta",
+          "pos": "det",
+          "recordSha256": "649554ba1d8bfdeff68f48c96ed2b61d2f8889315f20b1e5d10643941455146f",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of tanto"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "tanto"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of tanto"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "tanto"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/tanta#Spanish",
+        "lemma": "tanto",
+        "lemmaRecordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+        "lemmaRecord": {
+          "word": "tanto",
+          "pos": "det",
+          "recordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "so much; as much; that much"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "so much; as much; that much"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/tanto#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Used with a feminine singular noun for an amount: “so much,” “as much,” or “that much.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 23,
+      "word": "TANTAS",
+      "partOfSpeech": "det",
+      "english": "so many; as many; that many",
+      "context": "Feminine plural count determiner, selecting the lemma’s explicit in-plural sense.",
+      "source": {
+        "wordRecord": {
+          "word": "tantas",
+          "pos": "det",
+          "recordSha256": "0412f8c08ff2055e639ae11bd6505fd6db56500f145956586252b05c8fc20c08",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of tanto"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "tanto"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of tanto"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "tanto"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/tantas#Spanish",
+        "lemma": "tanto",
+        "lemmaRecordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+        "lemmaRecord": {
+          "word": "tanto",
+          "pos": "det",
+          "recordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+          "senses": [
+            {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "so many, as many, that many"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 1,
+        "lemmaSense": {
+          "glosses": [
+            "so many, as many, that many"
+          ],
+          "tags": [
+            "in-plural",
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/tanto#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "a453391c8d0b338fecdf4f332fb67bf467363a80b0be3facba82cb6b12c0d267",
+          "sourceUrl": "https://es.wiktionary.org/wiki/tantas",
+          "record": {
+            "word": "tantas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva y pronominal",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de tanto."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "tanto"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Used with a feminine plural noun for a number of things: “so many,” “as many,” or “that many.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 24,
+      "word": "TUYOS",
+      "partOfSpeech": "det",
+      "english": "your; yours",
+      "context": "Possessive for one familiar addressee (tú); grammatically masculine plural possessed items. Owner gender is unspecified. Your is normally postposed in Spanish (amigos tuyos); English ordering is not asserted to be identical.",
+      "source": {
+        "wordRecord": {
+          "word": "tuyos",
+          "pos": "det",
+          "recordSha256": "651b90d31fd4c06116e2532be260c060dc86833f2dcea7e965f62e456d0f3ba4",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of tuyo: yours, your"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "tuyo",
+                  "extra": "yours, your"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of tuyo: yours, your"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "tuyo",
+              "extra": "yours, your"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/tuyos#Spanish",
+        "lemma": "tuyo",
+        "lemmaRecordSha256": "b4ce3195fcb90c2825ceb90dc25ff59c1e4846f9e35d67f4d9a96286426ef849",
+        "lemmaRecord": {
+          "word": "tuyo",
+          "pos": "det",
+          "recordSha256": "b4ce3195fcb90c2825ceb90dc25ff59c1e4846f9e35d67f4d9a96286426ef849",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "yours, your"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "yours, your"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/tuyo#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "ed0b7b032f7d8731d8e2cbb5e08be4e09407b53582b6b4fb697137dffe122e30",
+          "sourceUrl": "https://es.wiktionary.org/wiki/tuyo",
+          "record": {
+            "word": "tuyo",
+            "pos": "pron",
+            "pos_title": "Pronombre posesivo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "possessive"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Pronombre posesivo de la segunda persona, que significa lo que le pertenece o le es propio."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "3dba63dce930c164cea0e7de88dd92bf7e5b157662036c8643e48ffcbcb2b816",
+          "sourceUrl": "https://es.wiktionary.org/wiki/tuyo",
+          "record": {
+            "word": "tuyo",
+            "pos": "adj",
+            "pos_title": "Adjetivo posesivo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "possessive"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Adjetivo posesivo de la segunda persona de singular."
+                ],
+                "raw_tags": [
+                  "pospuesto"
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to masculine plural things belonging to one familiar addressee, tú. It does not say whether the owner is male or female. In Spanish it commonly follows the noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 25,
+      "word": "TUYOS",
+      "partOfSpeech": "pron",
+      "english": "yours",
+      "context": "Possessive pronoun for one familiar addressee (tú), referring to masculine plural possessed items; not multiple owners or necessarily male owners.",
+      "source": {
+        "wordRecord": {
+          "word": "tuyos",
+          "pos": "pron",
+          "recordSha256": "07b962297d20125ca581a754899d317733302cddb4ce92ec38bdac06848021b2",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of tuyo: yours"
+              ],
+              "tags": [
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "tuyo",
+                  "extra": "yours"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of tuyo: yours"
+          ],
+          "tags": [
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "tuyo",
+              "extra": "yours"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/tuyos#Spanish",
+        "lemma": "tuyo",
+        "lemmaRecordSha256": "f7006c12feb0bf6c7f6d582b4ce5e97efde2f066aa0d7f5f910545e3f59fbf54",
+        "lemmaRecord": {
+          "word": "tuyo",
+          "pos": "pron",
+          "recordSha256": "f7006c12feb0bf6c7f6d582b4ce5e97efde2f066aa0d7f5f910545e3f59fbf54",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "yours"
+              ],
+              "tags": [
+                "masculine",
+                "singular"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "yours"
+          ],
+          "tags": [
+            "masculine",
+            "singular"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/tuyo#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "ed0b7b032f7d8731d8e2cbb5e08be4e09407b53582b6b4fb697137dffe122e30",
+          "sourceUrl": "https://es.wiktionary.org/wiki/tuyo",
+          "record": {
+            "word": "tuyo",
+            "pos": "pron",
+            "pos_title": "Pronombre posesivo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "possessive"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Pronombre posesivo de la segunda persona, que significa lo que le pertenece o le es propio."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        },
+        {
+          "recordSha256": "3dba63dce930c164cea0e7de88dd92bf7e5b157662036c8643e48ffcbcb2b816",
+          "sourceUrl": "https://es.wiktionary.org/wiki/tuyo",
+          "record": {
+            "word": "tuyo",
+            "pos": "adj",
+            "pos_title": "Adjetivo posesivo",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "possessive"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Adjetivo posesivo de la segunda persona de singular."
+                ],
+                "raw_tags": [
+                  "pospuesto"
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to masculine plural things belonging to one familiar addressee, tú. It does not say whether the owner is male or female.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 26,
+      "word": "ÉSAS",
+      "partOfSpeech": "pron",
+      "english": "those ones",
+      "context": "Feminine plural demonstrative pronoun. Selected demonstrative referents, not the separate slang vocative or the former reading. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "ésas",
+          "pos": "pron",
+          "recordSha256": "d2d49d96c20d5c8bb1149fcb24952fa4799946e0a082a5a01fab867af3fffd59",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of ése; those ones"
+              ],
+              "tags": [
+                "demonstrative",
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "ése",
+                  "extra": "those ones"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of ése; those ones"
+          ],
+          "tags": [
+            "demonstrative",
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "ése",
+              "extra": "those ones"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/%C3%A9sas#Spanish",
+        "lemma": "ése",
+        "lemmaRecordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+        "lemmaRecord": {
+          "word": "ése",
+          "pos": "pron",
+          "recordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that one"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that one"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/%C3%A9se#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "5c763de45d5e1922daed965d817991bc59c4b67679396612f809698297acfb2e",
+          "sourceUrl": "https://es.wiktionary.org/wiki/%C3%A9sas",
+          "record": {
+            "word": "ésas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de ése."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ése"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to those grammatically feminine people or things. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 27,
+      "word": "ÉSOS",
+      "partOfSpeech": "pron",
+      "english": "those ones",
+      "context": "Masculine plural demonstrative pronoun. Selected demonstrative referents, not the separate Mexico slang vocative or the former reading. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "ésos",
+          "pos": "pron",
+          "recordSha256": "f56b1ef392de84242ae0fd9636b0c6815c89d93231668484ed3ffea5d66caa84",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of ése; those ones"
+              ],
+              "tags": [
+                "demonstrative",
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "ése",
+                  "extra": "those ones"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of ése; those ones"
+          ],
+          "tags": [
+            "demonstrative",
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "ése",
+              "extra": "those ones"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/%C3%A9sos#Spanish",
+        "lemma": "ése",
+        "lemmaRecordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+        "lemmaRecord": {
+          "word": "ése",
+          "pos": "pron",
+          "recordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "that one"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "that one"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/%C3%A9se#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "2afe3df018b42f5091cb8d7467f41bbd5cb2994026238631bad55afe493c2f70",
+          "sourceUrl": "https://es.wiktionary.org/wiki/%C3%A9sos",
+          "record": {
+            "word": "ésos",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del masculino plural de ése."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ése"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to those grammatically masculine people or things. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 28,
+      "word": "ÉSTA",
+      "partOfSpeech": "pron",
+      "english": "this one",
+      "context": "Feminine singular demonstrative pronoun. Not the separate Spain noun-forgetting construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "ésta",
+          "pos": "pron",
+          "recordSha256": "6b63ae57ac7e872e46401fd02eadb9b4ca59fc710c832775c3446f5d4b685385",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine singular of éste"
+              ],
+              "tags": [
+                "feminine",
+                "form-of",
+                "singular"
+              ],
+              "form_of": [
+                {
+                  "word": "éste"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine singular of éste"
+          ],
+          "tags": [
+            "feminine",
+            "form-of",
+            "singular"
+          ],
+          "form_of": [
+            {
+              "word": "éste"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/%C3%A9sta#Spanish",
+        "lemma": "éste",
+        "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+        "lemmaRecord": {
+          "word": "éste",
+          "pos": "pron",
+          "recordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this one"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this one"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/%C3%A9ste#Spanish"
+      },
+      "spanishCorroboration": [],
+      "displayContext": "Refers to this grammatically feminine person or thing. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 29,
+      "word": "ÉSTAS",
+      "partOfSpeech": "pron",
+      "english": "these ones",
+      "context": "Feminine plural demonstrative pronoun; lemma this one becomes plural these ones. Not the separate Spain construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "éstas",
+          "pos": "pron",
+          "recordSha256": "71d8ff44bb7c88d07b5dc61608e8d6ccf8771ccd498e32d50a03f92595f3b16a",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "feminine plural of éste; those ones"
+              ],
+              "tags": [
+                "demonstrative",
+                "feminine",
+                "form-of",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "éste",
+                  "extra": "those ones"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "feminine plural of éste; those ones"
+          ],
+          "tags": [
+            "demonstrative",
+            "feminine",
+            "form-of",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "éste",
+              "extra": "those ones"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/%C3%A9stas#Spanish",
+        "lemma": "éste",
+        "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+        "lemmaRecord": {
+          "word": "éste",
+          "pos": "pron",
+          "recordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this one"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this one"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/%C3%A9ste#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "9b67f1d10384f9e8e5945675e63e833c61fc631f04989ca6934644bbef7a177e",
+          "sourceUrl": "https://es.wiktionary.org/wiki/%C3%A9stas",
+          "record": {
+            "word": "éstas",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del femenino plural de este."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "este"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to these grammatically feminine people or things nearby. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      },
+      "sourceCorrection": {
+        "field": "formSense.form_of[0].extra and child gloss suffix",
+        "retainedChildExtra": "those ones",
+        "approvedEnglish": "these ones",
+        "reason": "The child explicitly points to éste, whose selected sense is this one; exact Spanish éstas corroboration is feminine plural of este. English proximity comes from the selected lemma and plural from the child, not from the erroneous child English extra.",
+        "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+        "lemmaSenseIndex": 0,
+        "spanishRecordSha256": "9b67f1d10384f9e8e5945675e63e833c61fc631f04989ca6934644bbef7a177e",
+        "spanishSenseIndex": 0
+      }
+    },
+    {
+      "recordIndex": 30,
+      "word": "ÉSTOS",
+      "partOfSpeech": "pron",
+      "english": "these ones",
+      "context": "Masculine plural demonstrative pronoun; lemma this one becomes plural these ones. Not the separate Spain construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "source": {
+        "wordRecord": {
+          "word": "éstos",
+          "pos": "pron",
+          "recordSha256": "9b4c6a5c7447000b556ee21fecbf5ac447b7e37b73f921c96b9d76509df8384c",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "plural of éste; these ones"
+              ],
+              "tags": [
+                "demonstrative",
+                "form-of",
+                "masculine",
+                "plural"
+              ],
+              "form_of": [
+                {
+                  "word": "éste",
+                  "extra": "these ones"
+                }
+              ]
+            }
+          ]
+        },
+        "senseIndex": 0,
+        "formSense": {
+          "glosses": [
+            "plural of éste; these ones"
+          ],
+          "tags": [
+            "demonstrative",
+            "form-of",
+            "masculine",
+            "plural"
+          ],
+          "form_of": [
+            {
+              "word": "éste",
+              "extra": "these ones"
+            }
+          ]
+        },
+        "sourceUrl": "https://en.wiktionary.org/wiki/%C3%A9stos#Spanish",
+        "lemma": "éste",
+        "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+        "lemmaRecord": {
+          "word": "éste",
+          "pos": "pron",
+          "recordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+          "senses": [
+            {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "this one"
+              ],
+              "tags": [
+                "demonstrative",
+                "masculine"
+              ]
+            }
+          ]
+        },
+        "lemmaSenseIndex": 0,
+        "lemmaSense": {
+          "glosses": [
+            "this one"
+          ],
+          "tags": [
+            "demonstrative",
+            "masculine"
+          ]
+        },
+        "lemmaSourceUrl": "https://en.wiktionary.org/wiki/%C3%A9ste#Spanish"
+      },
+      "spanishCorroboration": [
+        {
+          "recordSha256": "f7efc63b67aac50249875e736caf98c1c4ee19ed632da93ed5e15a1fec8f2b2d",
+          "sourceUrl": "https://es.wiktionary.org/wiki/%C3%A9stos",
+          "record": {
+            "word": "éstos",
+            "pos": "adj",
+            "pos_title": "Forma adjetiva",
+            "lang_code": "es",
+            "lang": "Español",
+            "tags": [
+              "adjectival",
+              "form-of"
+            ],
+            "senses": [
+              {
+                "sourceSenseIndex": 0,
+                "glosses": [
+                  "Forma del masculino plural de este."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "este"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "displayContext": "Refers to these grammatically masculine people or things nearby. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    }
+  ],
+  "heldAnalyses": [
+    {
+      "recordIndex": 16,
+      "word": "MUCHA",
+      "partOfSpeech": "pron",
+      "recordSha256": "3013d36c3a48f71eeea900344051e52099c0f456591c5c7703fb643955a342fe",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    },
+    {
+      "recordIndex": 18,
+      "word": "MUCHAS",
+      "partOfSpeech": "pron",
+      "recordSha256": "056aa55b65b58318055e271e639292192f90396436b210a53e0ab97ccd0e15f2",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    },
+    {
+      "recordIndex": 20,
+      "word": "MUCHOS",
+      "partOfSpeech": "pron",
+      "recordSha256": "ab938fa893ecbb520bdfe2b3adf1b312f54334dc0ed1f9c48009497065aad809",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    }
+  ],
+  "counts": {
+    "inputAnalyses": 31,
+    "proposedAnalyses": 28,
+    "heldAnalyses": 3,
+    "distinctProposedSpellings": 27,
+    "actualNewCoverage": null,
+    "actualCurrentGapSpellings": 27
+  },
+  "guards": [
+    "Exact whole-word, case/accent-normalized lookup only; do not infer additional forms or accent-fold Spanish words.",
+    "Every English number choice is explicitly per word, not generic lemma substitution.",
+    "Grammatical gender and number agree with referents or possessed nouns, never invent owner gender or owner plurality.",
+    "Retain exact source usage labels only for selected senses; do not import unrelated Mexico slang/Spain senses.",
+    "Prior ESTA FreeDict hold remains archival; new ESTA proposal uses independent English demonstrative evidence.",
+    "All prior holds, source artifacts, pools, lessons and application files remain unchanged.",
+    "Source-derived records require CC BY-SA 4.0 attribution/source links and transparent model adaptation disclosure."
+  ],
+  "sanitization": {
+    "originalSha256": "66966f33bdf3fb2007f237ef706316eed2d3c8f95c56885509bd12a293e76696",
+    "semanticReviewSha256": "37faad93f86394d4da5e9f0b64338a041831892953f7dd5c18c06c864a9a103c",
+    "projectionScript": "/tmp/project-function-words-spec.py",
+    "status": "Sanitized derivative and display contexts await independent delta review. No production installation authorized by this file.",
+    "fieldPolicy": "Exact lexical whitelist and explicitly selected sense indices; excluded quotations/examples/media and unselected lexical material remain only in frozen local research. Source raw-line hashes identify original records, not projected JSON byte hashes."
+  }
+}

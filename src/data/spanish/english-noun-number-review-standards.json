@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic review of exact retained English senses and Spanish semantic evidence; Spec conclusions not consulted; not native-human certification.",
+  "englishLemmaRecordSha256": "3c06bc8468a5b065f69355113d66feebbe1120556e26ee55f0d1b1017dace564",
+  "englishLemmaSenseIndex": 0,
+  "englishLemmaGloss": "people",
+  "spanishFormRecordSha256": "f5f67b36a30df32567b67ac1c67c69e12e0aaf2f959d7f656d5805a60499857e",
+  "spanishFormSenseIndex": 0,
+  "spanishFormGloss": "plural of gente",
+  "spanishSemanticEvidence": {"word":"gente","partOfSpeech":"noun","senseIndex":0,"gloss":"Conjunto de personas.","separateSense":"Pueblo."},
+  "selectedEnglish": "people",
+  "numbermode": "human-collective English plural retained, not re-pluralized",
+  "context": "Selected ordinary human collection sense: Spanish plural gentes can denote people/persons without changing the English human plural people into ethnonational peoples.",
+  "limitations": ["This is an exact selected-sense mapping, not a global morphological rule for English people.","Peoples remains valid for distinct nations/ethnic communities, including appropriately selected PUEBLO senses; those are not this selected human collection sense.","Do not conflate the separate Mexican colloquial singular-person sense of gente or the Pueblo sense with the selected collective sense.","No change to Spanish source plural morphology or grammatical feminine gender is implied."]
+}

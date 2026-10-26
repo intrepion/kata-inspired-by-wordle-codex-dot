@@ -1,0 +1,53 @@
+{
+  "inputSha256": "c3388f334c78f16426a33f5ff309d897c2c48d70557b056407e4cc0e874f9fa8",
+  "parserSha256": "54d1514e24f30132a12f4a66ae0c4c4e418f9b5654762b7ff3607130265f5517",
+  "researchSha256": "8d91a226da4817715b49e81bb53444b7b13308ecaeaa6faee2f177a47c363c43",
+  "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+  "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "reviewer": "/root/review_standards",
+  "approvedPolicy": true,
+  "reviewedSamples": 118,
+  "reviewedUniqueGrammarPatterns": 62,
+  "guards": [
+    "Keep source word and linked lemma spelling/accents intact. Grammar-only accent/case folding must not create lexical aliases or merge accents.",
+    "Finite person/number/mood/tense must come from the explicit same-sense source grammar. Preserve competing source analyses separately; never infer from a suffix.",
+    "Preserve usted/ustedes semantic address metadata and adapt to the existing English imperative renderer: singular formal and plural non-Spain/ustedes commands must not become informal or Spain-only commands.",
+    "Futuro imperfecto is simple future. Pretérito imperfecto is imperfect. Futuro perfecto, condicional perfecto, compound/perfect, pluscuamperfecto and anterior constructions remain unsupported.",
+    "Withhold negative imperatives before English generation; retaining a negative flag during research does not authorize an affirmative imperative.",
+    "Inspect grammatical qualifiers after the exact linked lemma too. Explicit enclitic/pronoun/compound restrictions cannot be lost by cutting the prefix.",
+    "Only explicit participio pasado/pasivo descriptions are supported; bare, negated, active, present, future or compound participles remain unavailable. Past participle is a grammatical category, not a factual assertion of past time.",
+    "Agreement recognition must be anchored to explicit form-description prefixes and exact linked target boundaries. Do not treat a lexical lemma named femenino/masculino/plural/presente as grammar.",
+    "Noun forms still require independently approved countability, singular/plural, selected sense and real female counterpart mappings. Grammatical feminine alone must not fabricate English female kinship/person/animal terms.",
+    "Adjective agreement can retain the same English adjective only under matching POS/selected source meaning and retained usage restrictions.",
+    "Voseo tagging for tú, vos descriptions means voseo-compatible, not voseo-exclusive; retain shared-person variants honestly.",
+    "All normalized research candidates must still pass the existing approved lexical predicate, source-usage, subject-profile, aspect, AGID and unknown-form constraints. Grammar recovery alone is not translated-word coverage."
+  ],
+  "issues": [],
+  "rejectedPatterns": [
+    "… de <linked lemma> (con el pronombre enclítico) or any other nonpunctuation post-target qualifier",
+    "… del futuro perfecto de indicativo …",
+    "… del condicional perfecto …",
+    "… del imperativo negativo …",
+    "Bare participio; participio no pasado; participio activo/presente/futuro",
+    "Exact lexical target accent/Ñ mismatches or contradictory formal-address number metadata"
+  ],
+  "notes": "Independent model review reread all 118 v2 samples covering 62 grammar patterns and independently recomputed every normalization exactly. Read-only counterexample checks passed: usted/ustedes imperative adapter and recorded reason; original-source semantic third-person alternatives retained; post-target enclitic qualifier rejection; negative and perfect-compound withholding; futuro imperfecto versus pretérito imperfecto; explicit past/passive participles only; exact NFC lexical target preserving PAPÁ/PAPA and Ñ/N distinctions; FEMENINO lemma excluded from grammar markers. The v1 issues are resolved in this exact parser/sample version. This approves bounded grammar recognition only; 16,197 potential research words are not verified translations and still require existing lexical/predicate/subject/aspect/AGID/countability/gender safeguards. No project source edits, new linguistic examples counted as coverage, or native-Mexican certification.",
+  "resolvedIssues": [
+    {
+      "case": "Samples 5/6 LOSE/PIRE and 22/23 CROEN/HALEN formal imperative headers",
+      "reason": "Source usted/ustedes forms normalize as second-person singular/plural without a formal-address feature; the existing renderer labels these informal singular / Spain plural. A typed address/register adapter is required before reuse."
+    },
+    {
+      "case": "Sample 85 QUEJATE / quejarse (con el pronombre enclítico)",
+      "reason": "The post-target explicit enclitic qualifier is omitted from prefix checks, so an unsupported combined/reflexive form is normalized as a bare imperative."
+    },
+    {
+      "case": "Isolated source-style future-perfect and conditional-perfect descriptions",
+      "reason": "Futuro perfecto and condicional perfecto are accepted as simple future/conditional because only compuesto/pluscuamperfecto/anterior are excluded. These should be withheld."
+    },
+    {
+      "case": "Negative imperative source-style description",
+      "reason": "Normalizer returns an imperative plus negative flag; a production caller must explicitly reject it instead of rendering a positive command."
+    }
+  ]
+}

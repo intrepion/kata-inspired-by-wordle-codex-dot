@@ -1,0 +1,266 @@
+{
+  "inputSha256": "dfd1d5b36abb83f70d0067fb54d8f5e781e2e111b3a0daae3d68a0c9a926516a",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model semantic/English-inflection review and exact pinned raw source replay; no native-human certification.",
+  "approved": [
+    {
+      "spanish": "merar",
+      "sourceKind": "reviewed-spanish",
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035",
+      "senseIndex": 0,
+      "frame": "die",
+      "existingEffectiveProfile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "approvedSlots": {
+        "past": [
+          "died"
+        ],
+        "pastParticiple": [
+          "died"
+        ],
+        "gerund": [
+          "dying"
+        ],
+        "thirdPersonSingular": [
+          "dies"
+        ]
+      }
+    }
+  ],
+  "held": [],
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "spanishManifestSha256": "1fe0edb67fc2ea0be8206be2ee92bafa6ccb388bcc4fc0942da3e81c12cbbc3c",
+    "spanishCandidateSha256": "ea944b42d27f740934de308bbc3414bf52037b28292deb4b1bd6af3a2feaf886",
+    "spanishEvidenceSha256": "a679ad80315a6ca21739b8a2b2dc791717c68dd0803c92a8c3a414690da758e4",
+    "dualApprovalSha256": "bd2845fd66809184dd2d88ce53c7d9f7e7e2abac09f370f500b35e1ad871d119",
+    "existingReviewHashes": {
+      "spanish-derived-review-spec.json": "9135b58eadbced7ea0a999565a5776f8c65ee1ab8f00396828842ee985633819",
+      "spanish-derived-review-standards.json": "471755d7e52a2285a33779ce5854433c2c7a9955e28bddf365a2f779dd135833"
+    },
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "spanishLexicalLicense": "CC-BY-SA-4.0",
+    "agidLicense": "Separate permissive original AGID notices; not GPL because of its containing directory."
+  },
+  "rawRecordsVerified": 27,
+  "formSensesVerified": 34,
+  "sourceFormIdentities": [
+    {
+      "word": "MERABA",
+      "recordSha256": "406a579d08b6309ff3f1afae14ceed3dacba184fd3c05c3db9130952a5d880e1",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERABA",
+      "recordSha256": "406a579d08b6309ff3f1afae14ceed3dacba184fd3c05c3db9130952a5d880e1",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERABAN",
+      "recordSha256": "cdd1ee78b0d5c47ad0b22871146a4e0c11aef2b0937103f2495e29e2570f7f67",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERABAS",
+      "recordSha256": "6bd9d8a66706cfb006cbc8cd371367dfc467875321e6d1205c1c93ce9398774b",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERAMOS",
+      "recordSha256": "49899ff23121171b04bc6b1b08635c8d24c6fb6c972f2fda12566929502d9f8a",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERAMOS",
+      "recordSha256": "49899ff23121171b04bc6b1b08635c8d24c6fb6c972f2fda12566929502d9f8a",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERAN",
+      "recordSha256": "f7ffd820f747d27298a9edaac0842c62592fa8633a6813098393cc6c6b84f2c0",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARA",
+      "recordSha256": "e3f0c40565b04eb8d5e72f8afcd9647355c74e0268cbb9f97560502700a98cc2",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARA",
+      "recordSha256": "e3f0c40565b04eb8d5e72f8afcd9647355c74e0268cbb9f97560502700a98cc2",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERARAN",
+      "recordSha256": "4272cdc86efab450cc058d97834ffc88e5fb65edae24442837b794a92ec74371",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARAS",
+      "recordSha256": "aa61620db18eecbae56b8e5855d4d203f924936313551b5e6664cf14c7052b88",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARE",
+      "recordSha256": "452814d09e8226e5bf6acc72a59f4d6976e774d2388663bdfd9cc49da4ffa4b4",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARE",
+      "recordSha256": "452814d09e8226e5bf6acc72a59f4d6976e774d2388663bdfd9cc49da4ffa4b4",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERAREN",
+      "recordSha256": "f7532fea5fed06af00f388914bb40cf3c7eb7e5b7cad754d8b1d09edbaf6e443",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARES",
+      "recordSha256": "81104f6a61ea2994e9819009763d44655cb6976ebd606508f55db183f8756720",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARON",
+      "recordSha256": "482d2a1396ba04a7ae08737d270e47ece909fe39b51415dac9a38b767cd1dae9",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÁ",
+      "recordSha256": "8c227aa6af6a01f293331b180996275fe4e3b02fb27ff20adb7f56ead680a9fe",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÁN",
+      "recordSha256": "e22c38f1700428d608ed3d811448ffbfd73346018d674b483ee1e0f57b8e2452",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÁS",
+      "recordSha256": "d6f8f4ef4f636492f5f527819eb13684fee6fee839cc29943502c98dcd75b367",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÉ",
+      "recordSha256": "a7d897dc2b1a76388123575bcab3267050a83f932d4527534296635413aa6ee4",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÍA",
+      "recordSha256": "91745810da206da3564c724824e7dd58b12a8a23b7557af20f41c9d3867b1cf1",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERARÍA",
+      "recordSha256": "91745810da206da3564c724824e7dd58b12a8a23b7557af20f41c9d3867b1cf1",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERASE",
+      "recordSha256": "ecde0b83378a79979e29513eae2b4e19d9b568ca31d02cbee628e78a3db5e1b8",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERASE",
+      "recordSha256": "ecde0b83378a79979e29513eae2b4e19d9b568ca31d02cbee628e78a3db5e1b8",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MERASEN",
+      "recordSha256": "fef6f1655a6606d6a58f069b22cb0ac42922b0dc9b19f04a1d1b4d8215e59eef",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERASES",
+      "recordSha256": "793fe2eb3164cb0baf43bfe40eebfc93b4f82ba28542a0573753aa81a9c691c8",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERASTE",
+      "recordSha256": "ee174a9b03f6c652b4231b699e549d2a99ff7bf64b160c3c48db8ff8b3b50832",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MEREMOS",
+      "recordSha256": "d4782c1d31450cbb4f5afef5a08d595da756cb2740f2f72556e702c225ab8a11",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MEREMOS",
+      "recordSha256": "d4782c1d31450cbb4f5afef5a08d595da756cb2740f2f72556e702c225ab8a11",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MEREN",
+      "recordSha256": "f68c49834078888fac814369978757d06418b981651dcdb1ffd8be2fd2912408",
+      "senseIndex": 1,
+      "sourceSenseIndex": "2"
+    },
+    {
+      "word": "MEREN",
+      "recordSha256": "f68c49834078888fac814369978757d06418b981651dcdb1ffd8be2fd2912408",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERES",
+      "recordSha256": "6c3b5a28fb462e4a8ec9e9041455ca795bf774158124ef72e5be2a6769374443",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERÉ",
+      "recordSha256": "e669989342b6160da66f2182bad7d03a3f8902fa3ef97f6921b85fc6fe6c8e35",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    },
+    {
+      "word": "MERÓ",
+      "recordSha256": "2b6ab39a95db0c2a49de9364359d123b1cf4d586199d31ba1098f7bd659fcab7",
+      "senseIndex": 0,
+      "sourceSenseIndex": "1"
+    }
+  ],
+  "notes": [
+    "The first combined archive pass verified the exact MERAR lexical raw record and26 form records. A separate retained replay then matched all34 supplied form senses and normalizations; omitted printed source sense numbers were restored here.",
+    "Llegar a su final la vida de uno is the intransitive slang life-ending sense, matching expire rather than manufacture/shape with a die. Ordinary human subjects and progressive dying are legitimate for this sense."
+  ],
+  "guards": [
+    "Exact reviewed-spanish + MERAR + b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035 + zero-based sense0 (printed2) + frame die + ordinary profile only.",
+    "No global DIE guard waiver, no changes to previous qualified policies or other roots.",
+    "AGID three-slot died serves past and participle; select dying {expire}, exclude dieing {shape}; dies is third-singular.",
+    "Preserve slang/intransitive qualifiers and existing progressive-only approval, explicit grammar and clitic guards.",
+    "Historical26spellings/34form-senses are evidence, not actual newly translated coverage."
+  ]
+}

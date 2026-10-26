@@ -1,0 +1,5208 @@
+{
+  "review": "Independent model linguistic/data review; not native-human certification",
+  "coverage": {
+    "sixLetter": 995,
+    "sevenLetter": 1092,
+    "total": 2087,
+    "allCandidateWordsScanned": true,
+    "method": "All words/POS/first qualifying gloss scanned in batches; complete surviving senses and original lexical entries checked for every reported exclusion/flag, plus systematic source-category checks."
+  },
+  "exclusions": {
+    "AFUERAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.98,
+      "sourceUrl": "https://es.wiktionary.org/wiki/afueras",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Terreno contiguo a una población"
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "200708a891dbecbc7d5e490b08122754d0633f3cf9f8a7ffe6050303508a7cca",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Terreno despejado alrededor de una plaza a defender, que impide a los atacantes acercarse a cubierto"
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "200708a891dbecbc7d5e490b08122754d0633f3cf9f8a7ffe6050303508a7cca",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ALTURAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.15,
+      "sourceUrl": "https://es.wiktionary.org/wiki/alturas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "El cielo."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "9ce589adbb5737e08240616767bd8da8d90b2aafcda35a47d69ff1ea15ed9b19",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:u.ɾas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "AMORES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.95,
+      "sourceUrl": "https://es.wiktionary.org/wiki/amores",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Relación de tipo afectivo, sexual o de pareja con alguien."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "ab2f925a97f83ef8af18f33e67c44764a72992911ec3e4e3ec915491c6a1f23d",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.ɾes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de manifestaciones de cariño, tales como caricias, lisonjas, piropos, requiebros, etc."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "ab2f925a97f83ef8af18f33e67c44764a72992911ec3e4e3ec915491c6a1f23d",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.ɾes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "gloss": [
+            "(Turgenia latifolia) Planta umbelífera cuyo fruto, con forma de elipse y erizada, tiene espinas tiesas que se adhieren a la ropa, siendo común en los campos cultivados. Crece hasta unos 30 centímetros de altura, tiene hojas anchas y dentadas, y flores rojizas o púrpura."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "ab2f925a97f83ef8af18f33e67c44764a72992911ec3e4e3ec915491c6a1f23d",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.ɾes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ANALES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.66,
+      "sourceUrl": "https://es.wiktionary.org/wiki/anales",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de los registros o crónicas sobre un evento, lugar, periodo, etc."
+          ],
+          "tags": [
+            "figurative",
+            "masculine"
+          ],
+          "rawSha256": "16cdb371e42ea7b789dd45af12cacd0af43aacd3a619b61f772f1c583586abcb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.les",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CAÍDOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.73,
+      "sourceUrl": "https://es.wiktionary.org/wiki/caídos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Réditos ya devengados de alguna renta."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "4bfc4f16d95d52ab5aee43c56a2e4c705881ef57303363345f797e0fc5d446cd",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.dos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "En el papel rayado las líneas que dirigen la escritura."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "4bfc4f16d95d52ab5aee43c56a2e4c705881ef57303363345f797e0fc5d446cd",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.dos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CHINOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.37,
+      "sourceUrl": "https://es.wiktionary.org/wiki/chinos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Juego de azar que consiste en intentar adivinar el número total de monedas que varios jugadores (al menos 2) guardan en su mano cerrada. Se utilizan 3 monedas por jugador y se pueden sacar 0, 1, 2 o 3 monedas. El juego se usa típicamente como fórmula de echar a suertes."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "8741ba317d20139f1fa9ca16fe2aab633b3a1eddc4985dead9f66a36c977c49d",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.nos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CHIVAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.52,
+      "sourceUrl": "https://es.wiktionary.org/wiki/chivas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de artículos personales o que son propiedad de alguien en particular."
+          ],
+          "tags": [
+            "Guatemala",
+            "Mexico",
+            "feminine"
+          ],
+          "rawSha256": "b16098e6f6114f05341f669f0aa83e5699321ed7c6c62dcb288ebf1e8ea1ec83",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.bas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Granos de maíz abiertos como rositas al tostarse."
+          ],
+          "tags": [
+            "Mexico",
+            "feminine"
+          ],
+          "rawSha256": "b16098e6f6114f05341f669f0aa83e5699321ed7c6c62dcb288ebf1e8ea1ec83",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.bas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CIENTOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.55,
+      "sourceUrl": "https://es.wiktionary.org/wiki/cientos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Tributo que se compone del cuatro por ciento de las cosas que se venden y pagan alcabalas."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c1e12dd60f6d8d707ea4fbbf1c8372549ccd7aff29d5f23571a97156cba7485a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:en.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "COSTAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.14,
+      "sourceUrl": "https://es.wiktionary.org/wiki/costas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de gastos de un proceso legal o judicial."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "a8bd45a7a9901d9b73d86887cd00799d54c376ec4d45b96966c90372ae5232ca",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:os.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CRECES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.51,
+      "sourceUrl": "https://es.wiktionary.org/wiki/creces",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Devolución del préstamo hecho a panaderos, agricultores etc. en especie con unos intereses (generalmente bajos) llamados creces."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "ee03dda33afc02483a5c6032ab2b4f229307edc5faee3c0bf44d3e5cba5d21fb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ses",
+            "ES:Rimas:e.θes",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Indicio de que algo va a crecer. Muchacho de creces."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "ee03dda33afc02483a5c6032ab2b4f229307edc5faee3c0bf44d3e5cba5d21fb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ses",
+            "ES:Rimas:e.θes",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Aumento o superioridad."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "ee03dda33afc02483a5c6032ab2b4f229307edc5faee3c0bf44d3e5cba5d21fb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ses",
+            "ES:Rimas:e.θes",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CUARTOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.22,
+      "sourceUrl": "https://es.wiktionary.org/wiki/cuartos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Miembros del cuerpo del animal robusto y fornido; y entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "61241985c6983f448c4e9547ebf31ab40d15472ceb68b8e243b97e83687faa30",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:aɾ.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Dinero."
+          ],
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "rawSha256": "61241985c6983f448c4e9547ebf31ab40d15472ceb68b8e243b97e83687faa30",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:aɾ.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CUENTAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.97,
+      "sourceUrl": "https://es.wiktionary.org/wiki/cuentas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de operaciones matemáticas con que calcula su situación económica una empresa."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "fe241280474a15e56c62ee2e2587efaa580115c354325a1a22e9bfb113c1d60c",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:en.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "CURVAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.83,
+      "sourceUrl": "https://es.wiktionary.org/wiki/curvas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto visual de las formas del cuerpo humano, en particular si son armoniosas o atractivas."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "5cad4c6a150f68a381aaf384b3896f57d14b60c2a7e53b45c0fe01db0c818a0c",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:uɾ.bas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "DIETAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.59,
+      "sourceUrl": "https://es.wiktionary.org/wiki/dietas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Estipendio que se da a los que ejecutan algunas comisiones o encargos por cada día que se ocupan en ellos, o por el tiempo que emplean en realizarlos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "c5fe2957301a7567a56dbc6f5fb0d971905da3d737a781023c3ed4d4dcfb8fae",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "DOBLES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.93,
+      "sourceUrl": "https://es.wiktionary.org/wiki/dobles",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "En el tenis y otros deportes similares, partido que se juega con dos jugadores por lado."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "f016232fb7236007a9e7134b755770f7f742048ba8b875886a9d9c9acf75cd6e",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.bles",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "EFECTOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.85,
+      "sourceUrl": "https://es.wiktionary.org/wiki/efectos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Bienes, enseres."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c551978c425a0a5f25d00e6d1eec1b1b36bcff3baa8dc2cc7e6347f9679d76ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:ek.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Efectos especiales."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c551978c425a0a5f25d00e6d1eec1b1b36bcff3baa8dc2cc7e6347f9679d76ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:ek.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ESCALAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.69,
+      "sourceUrl": "https://es.wiktionary.org/wiki/escalas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Ejercicios que se hacen practicar a los que se dedican al canto o a la música, para adquirir buen sonido y entonación."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "36114eb43398998e16cbcec320f52d039dd0607f0296914c616d6b3802ca7e15",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.las",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ESPADAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.78,
+      "sourceUrl": "https://es.wiktionary.org/wiki/espadas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "En el juego de naipes con baraja española, nombre del palo que contiene representaciones de espadas."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "0545009a0ffbc8afa7f90ebed502f576b7eb3d7da3a141e26657441dad167da1",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.das",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ESPOSAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.93,
+      "sourceUrl": "https://es.wiktionary.org/wiki/esposas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Utensilio formado por dos aros metálicos unidos por un eslabón que se colocan en las muñecas de una persona para limitar sus movimientos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "8e0d12de5789f78479e69f7bd81f3cc88d922bc12d94842dd65722111c5515fa",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.sas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "FORMAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 5.04,
+      "sourceUrl": "https://es.wiktionary.org/wiki/formas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de reglas o acciones externas relacionadas con la buena educación y el comportamiento que se considera adecuado o refinado dentro del protocolo social, las costumbres, la urbanidad o la tradición."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "ba640b4d7528ce4d0bd3e098dfee6cd15111836dd2487e567ccb810280eb4ecb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:oɾ.mas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de características que conforman la imagen visual del cuerpo humano, en particular las consideradas atractivas o deseables."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "ba640b4d7528ce4d0bd3e098dfee6cd15111836dd2487e567ccb810280eb4ecb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:oɾ.mas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "GEMELAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.64,
+      "sourceUrl": "https://es.wiktionary.org/wiki/gemelas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Fajas paralelas en los escudos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "5596144b0a664bb00f8288362bb1bd9847c38f1bfb629ed943b05b81240ce328",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.las",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "GEMELOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.76,
+      "sourceUrl": "https://es.wiktionary.org/wiki/gemelos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Anteojos"
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "78e89ae11db075b5beeb0ddfec5dbdbb88ef38557ee20df6707b621b8eac63d0",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.los",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Juego de dos botones iguales o de algún broche que consta de dos barritas u otras figuras de metal, nácar, etc.; sirven para abrochar el cuello y puños de las camisolas y antiguamente servían para pasar de ojal a ojal en las levitas, fraques, etc., a fin de cerrarlos ante el pecho."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "78e89ae11db075b5beeb0ddfec5dbdbb88ef38557ee20df6707b621b8eac63d0",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.los",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "gloss": [
+            "Nombre de dos músculos gruesos bífidos y aplanados, que constituyen la mayor parte de la pantorrilla."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "78e89ae11db075b5beeb0ddfec5dbdbb88ef38557ee20df6707b621b8eac63d0",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.los",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "HUESOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.23,
+      "sourceUrl": "https://es.wiktionary.org/wiki/huesos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Restos mortales de un ser humano."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "44e064c21a8e48c6df41e53f9490d48854349167e8ee5a938771696aec12187a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.sos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "INDIAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.09,
+      "sourceUrl": "https://es.wiktionary.org/wiki/indias",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Riquezas, preciosidades."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "cae654bcd7092cbf7738dca4fcdeef08ed4f84f9c5f48543a057e22ea8fd9ad2",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:in.djas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "LANZAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.53,
+      "sourceUrl": "https://es.wiktionary.org/wiki/lanzas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Tipo de impuesto o pago de ciertos nobles o gente de altos cargos daba al rey a cambio de no tener que participar en campañas de guerra."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "c5e7c7ff9f6483972b9dc3a3d5a63813a21dc434647f1ec0c886440703bee7ab",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:an.sas",
+            "ES:Rimas:an.θas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "LENTES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.05,
+      "sourceUrl": "https://es.wiktionary.org/wiki/lentes",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Instrumento óptico formado por un marco o armazón que soporta sendas lentes unidas por un arco que se apoya en la nariz, y dos patillas que ayudan a sostenerlas. Se usan para compensar defectos en la visión, protección o simplemente por motivos estéticos."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "f02f00adcd33ef11ad0a8d0589da0c765202108f5fbf618f8d6be816960b2d12",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:en.tes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "LLANOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.64,
+      "sourceUrl": "https://es.wiktionary.org/wiki/llanos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "En las medias y calcetas de aguja, puntos en que no se crecen ni menguan."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "eae8dccdab2d629714efde1d2faa0ca1b0e0b36b375b7fac32e3f49cdb370f36",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.nos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Región extensa de tierras planas."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "eae8dccdab2d629714efde1d2faa0ca1b0e0b36b375b7fac32e3f49cdb370f36",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.nos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "MODALES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.56,
+      "sourceUrl": "https://es.wiktionary.org/wiki/modales",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Acciones externas de cada persona, con que se hace reparar y se singulariza entre las demás, dando a conocer su buena o mala educación. Antes era sustantivo ambiguo."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "5634e471bb64a4ab90eb210ff2a6e37648274f5751bb20f15b5a296eef082dad",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.les",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "MOSCAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.72,
+      "sourceUrl": "https://es.wiktionary.org/wiki/moscas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Chispa que salta desde el fuego de la chimenea, brasero o lumbre."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "7364acd458d841bf82bb790fd29bee40b07ef1870ccfeec8f738ba94a99f0ffc",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:os.kas",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "MUELLES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.51,
+      "sourceUrl": "https://es.wiktionary.org/wiki/muelles",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Tenazas grandes que se usan en las casas de moneda para agarrar los rieles y tejos durante la fundición y echarlos en la copela."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "73cf3e0eaecb86aab96aa68e6674abfcd3a65e53d756166b1a60b1efdc260a69",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ʃes",
+            "ES:Rimas:e.ʎes",
+            "ES:Rimas:e.ʒes",
+            "ES:Rimas:e.ʝes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "OFICIOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.75,
+      "sourceUrl": "https://es.wiktionary.org/wiki/oficios",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de las ceremonias o funciones eclesiásticas, en particular las católicas y de Semana Santa."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "4dcf785f864a17aa15c248d8344cc0b0a87ca0e4c7584a8481c6eac5121aea94",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.sjos",
+            "ES:Rimas:i.θjos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "ORILLAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.9,
+      "sourceUrl": "https://es.wiktionary.org/wiki/orillas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Barrios de la periferia de una ciudad."
+          ],
+          "tags": [
+            "Argentina",
+            "Bolivia",
+            "Cuba",
+            "Mexico",
+            "Nicaragua",
+            "Uruguay",
+            "Venezuela",
+            "feminine"
+          ],
+          "rawSha256": "0f03b106a46c4deabbdcc341dd7a212d2fcf0f3767819de8537822f7d11ac1fb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.ʃas",
+            "ES:Rimas:i.ʎas",
+            "ES:Rimas:i.ʒas",
+            "ES:Rimas:i.ʝas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "PALOMAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.66,
+      "sourceUrl": "https://es.wiktionary.org/wiki/palomas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Pequeñas olas coronadas de espuma blanca, que hace el mar cuando empieza a soplar un viento fresco."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "422addbb86cad8d913b8d1383868a7dca1c23bcebdaa0711b25381b2c91e4614",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.mas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "PARTES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 5.14,
+      "sourceUrl": "https://es.wiktionary.org/wiki/partes",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Órganos sexuales, considerados solo en su porción anatómica externa."
+          ],
+          "tags": [
+            "colloquial",
+            "euphemism",
+            "masculine"
+          ],
+          "rawSha256": "e06eb81cc286fe57dd30608655e487c4361e94aee56653237c99f8532122b8c6",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:aɾ.tes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "RAÍCES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.35,
+      "sourceUrl": "https://es.wiktionary.org/wiki/raíces",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Origen de una persona, tanto familiar, como en cuanto al lugar de donde procede."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "a2faf1af7266d10e235469382186d2c380a290dd5161b78146aabed1d3fc3215",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.ses",
+            "ES:Rimas:i.θes",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "RELOJES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.77,
+      "sourceUrl": "https://es.wiktionary.org/wiki/relojes",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Pico de cigüeña."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "880b9010db132d1204c2e0405f9d2a8ea3ecec03ccf620a8fa650897e0dcef2a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.xes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "RESTOS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.42,
+      "sourceUrl": "https://es.wiktionary.org/wiki/restos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Lo que queda de algo tras haber sido destruido."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c28e82dcccbc5563c7afeb833df40ff82f8b8d23a469ce0a46e0b10700817b4a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:es.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Sobras (de la comida)."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c28e82dcccbc5563c7afeb833df40ff82f8b8d23a469ce0a46e0b10700817b4a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:es.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Restos mortales."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "c28e82dcccbc5563c7afeb833df40ff82f8b8d23a469ce0a46e0b10700817b4a",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:es.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "RUINAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.06,
+      "sourceUrl": "https://es.wiktionary.org/wiki/ruinas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Lo que queda de un edificio, una ciudad o una civilización destruidos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d46055e9ef576382c38aa2d6aa2bdcf2d6712011883bf9f86d895b684f48e944",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.nas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "SOBRES": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 3.6,
+      "sourceUrl": "https://es.wiktionary.org/wiki/sobres",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Verga y vela que van en los masteleros de sobrejuanete, sobre los masteleros de juanete."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "11bff187b8bb7f35609e34256d219f1495e8192299a756020a0cfe75d75ab1b9",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.bɾes",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "TABLAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.07,
+      "sourceUrl": "https://es.wiktionary.org/wiki/tablas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Situación de un partido, especialmente en las damas y el ajedrez, en la que ninguno de los dos jugadores se lleva la victoria."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Por extensión, situación en donde la partida está igualada."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Espacio donde se realiza la representación de una obra y, por metonimia, la actividad profesional del teatro en general."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "gloss": [
+            "Valla, barrera o tablazón que hay alrededor del ruedo o arena dentro de la cual se lidian los toros."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "gloss": [
+            "Antiguo juego, similar al de las damas, en que las piezas o trebejos se mueven según lo que indiquen los dados."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "gloss": [
+            "Piedras planas sobre las que, según la Biblia, se inscribieron los diez mandamientos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 6,
+          "pos": "noun",
+          "gloss": [
+            "Conjunto de tres tablillas que se hacen sonar, para diferentes funciones tradicionales, como indicar la cercanía de un leproso, despertar a los frailes de conventos, etc."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "d4cc05ddedfe1def69e42d86ea18804c5693d313bcbc50f84e5b38a1df0cf9ac",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.blas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "VISTAS": {
+      "kind": "plural-only",
+      "reason": "Every surviving noun sense is explicitly categorized ES:Sustantivos solo en plural; ES:Lemas does not make this a singular/base answer.",
+      "zipf": 4.2,
+      "sourceUrl": "https://es.wiktionary.org/wiki/vistas",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Concurrencia de dos o más sujetos que se ven para fin determinado."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4a2fa05d8e2772e4df704db4c8566545106759ac1e03cb12db32cfec07244592",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:is.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Regalos que recíprocamente se hacen los novios."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4a2fa05d8e2772e4df704db4c8566545106759ac1e03cb12db32cfec07244592",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:is.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4a2fa05d8e2772e4df704db4c8566545106759ac1e03cb12db32cfec07244592",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:is.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "gloss": [
+            "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4a2fa05d8e2772e4df704db4c8566545106759ac1e03cb12db32cfec07244592",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:is.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "gloss": [
+            "Cuello, pechera y puños de la camisa."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4a2fa05d8e2772e4df704db4c8566545106759ac1e03cb12db32cfec07244592",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:is.tas",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "TANTOS": {
+      "kind": "grammar-or-source-policy",
+      "reason": "Plural indefinite pronoun of tanto; remaining noun sense is explicitly plural-only truco points.",
+      "zipf": 4.81,
+      "sourceUrl": "https://es.wiktionary.org/wiki/tantos",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "pron",
+          "gloss": [
+            "En el orden de cuentas vale el número indeterminado.."
+          ],
+          "tags": [
+            "indefinite"
+          ],
+          "rawSha256": "6ec1c56a68cf34dd66e1f8cdcd229d1fb50ec65ce3997d2a7579abacf7d155fd",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Pronombres",
+            "ES:Pronombres indeterminados",
+            "ES:Páginas sin audios",
+            "ES:Rimas:an.tos"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "En el truco, puntos con los que se cuenta para jugar el envido."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "241bed7b19377f77225f32798c3524ad91f010ab09dfbf02240b496cd88b3dc8",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:an.tos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos solo en plural"
+          ]
+        }
+      ]
+    },
+    "VARIOS": {
+      "kind": "grammar-or-source-policy",
+      "reason": "Indefinite plural quantifier algunos/unos cuantos; noun senses are plural collections or miscellaneous items.",
+      "zipf": 5.4,
+      "sourceUrl": "https://es.wiktionary.org/wiki/varios",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Algunos, unos cuantos."
+          ],
+          "tags": [
+            "indeterminate",
+            "irregular"
+          ],
+          "rawSha256": "ea43ac2ac9ebb35fe43e27de8927ccffa6dccfb0993af12a63ec4bfcfe545627",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos indeterminados",
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.ɾjos",
+            "ES:Sustantivos irregulares"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "En la prensa, sección que incluye artículos o anuncios diversos que no caen dentro de los otros apartados o clasificaciones."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "abab0da687a502ab580965fdbfa82e622495219eecd13d14ed2eced07361dcef",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.ɾjos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Cualquier tipo de cosas diversas que está reunida sin clasificar en archivos, cajas u otro lugar."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "abab0da687a502ab580965fdbfa82e622495219eecd13d14ed2eced07361dcef",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.ɾjos",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos"
+          ]
+        }
+      ]
+    },
+    "USTEDES": {
+      "kind": "grammar-or-source-policy",
+      "reason": "Selected source explicitly defines second-person plural pronoun; the singular use is restricted to Chiloé and does not qualify for Mexico.",
+      "zipf": 5.15,
+      "sourceUrl": "https://es.wiktionary.org/wiki/ustedes",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "pron",
+          "gloss": [
+            "Pronombre nominativo de la segunda persona en plural."
+          ],
+          "tags": [
+            "personal"
+          ],
+          "rawSha256": "4c024f4dfd9cb5bd3fb6faaa72035d2d2cf488f146fa9300cf7312797e13fedb",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Pronombres",
+            "ES:Pronombres personales",
+            "ES:Rimas:e.des"
+          ]
+        }
+      ]
+    },
+    "FOLLAR": {
+      "kind": "grammar-or-source-policy",
+      "reason": "Only surviving prototype sense says Variante anticuada de hollar and has category ES:Variantes anticuadas; modern sexual sense is explicitly vulgar.",
+      "zipf": 3.61,
+      "sourceUrl": "https://es.wiktionary.org/wiki/follar",
+      "evidence": [
+        {
+          "entry": 4,
+          "sense": 0,
+          "pos": "verb",
+          "gloss": [
+            "Variante anticuada de hollar."
+          ],
+          "tags": [
+            "transitive"
+          ],
+          "rawSha256": "ff63588e0892c83964d042c33e394409ba6d3af662faa732052759221f98c04c",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras agudas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:aɾ",
+            "ES:Verbos",
+            "ES:Verbos de la primera conjugación",
+            "ES:Verbos del paradigma contar",
+            "ES:Verbos irregulares",
+            "ES:Verbos transitivos"
+          ]
+        }
+      ]
+    },
+    "ACEPTO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only qualifying adjective means agradable/bien recibido, a learned uncommon adjective; ordinary frequency is readily explained by acepto, the first-person finite verb. Common independent sense not demonstrated.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.05,
+      "sourceUrl": "https://es.wiktionary.org/wiki/acepto",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Agradable, bien recibido, admitido con gusto."
+          ],
+          "tags": [],
+          "rawSha256": "90f3e155ce415b58b9b660afd4143fc32c897ef9ac4371610a68f801f456bd3e",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:ep.to"
+          ]
+        }
+      ]
+    },
+    "ALEGRA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is a specialist nautical drill for boring pumps; ordinary usage is finite alegrar, not this tool.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.19,
+      "sourceUrl": "https://es.wiktionary.org/wiki/alegra",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Especie de barrena para taladrar las bombas."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "6d67ed84c1dee0b9bd5c5091773c43b487e8017c8d8ce30412004846f9080d5f",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.gɾa",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "ECHADO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only Mexico-qualifying independent sense is a person commissioned to spy; heraldic reclining sense is region-tagged elsewhere. Ordinary echado is a participle, not this rare espionage noun.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.91,
+      "sourceUrl": "https://es.wiktionary.org/wiki/echado",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Encargado de espiar o averiguar alguna cosa o para echar alguna especie."
+          ],
+          "tags": [
+            "noun"
+          ],
+          "rawSha256": "2c41c569aebdeefcd036dfeccad927ba871dd5a69339b63ae692a444dfa88df2",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do"
+          ]
+        }
+      ]
+    },
+    "EXTRAS": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Source labels an invariant singular imitation-diamond material, not ordinary plural extras (film performers or additions). That specialist homograph does not establish commonness of this sense.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.82,
+      "sourceUrl": "https://es.wiktionary.org/wiki/extras",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Composición que imita el diamante."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "375648aae7ccd073426c7b9ea9c5767d9ca1192dd151ea145e2839fe8a764087",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:eks.tɾas",
+            "ES:Sustantivos",
+            "ES:Sustantivos invariables",
+            "ES:Sustantivos masculinos"
+          ]
+        }
+      ]
+    },
+    "HELENA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only common-noun evidence is the special name for single-flame St Elmo fire; personal-name frequency does not establish that rare nautical sense.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.66,
+      "sourceUrl": "https://es.wiktionary.org/wiki/helena",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Fuego de Santelmo (fenómeno atmosférico), cuando se presenta con unallama sola."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "7a994fbe8972526ba713a628ddb7024b26bdd201feeebc507d02e1f0ff8328af",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de origen epónimo",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.na",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "MANOLO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent senses describe an eighteenth/nineteenth-century Madrid stock character and valiente by extension; not an ordinary Mexican noun.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.59,
+      "sourceUrl": "https://es.wiktionary.org/wiki/manolo",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Personaje característico de las clases plebeyas de Madrid durante los siglos 18 y 19 por su vestimenta y desenfado."
+          ],
+          "tags": [
+            "feminine",
+            "masculine"
+          ],
+          "rawSha256": "2a5c19710a6a1f12a644c00027e77fd99318f2122187f5d97e727e1e4f8daa56",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de origen epónimo",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.lo",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos masculinos y femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Por extensión, valiente."
+          ],
+          "tags": [
+            "feminine",
+            "masculine"
+          ],
+          "rawSha256": "2a5c19710a6a1f12a644c00027e77fd99318f2122187f5d97e727e1e4f8daa56",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de origen epónimo",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.lo",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos masculinos y femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "MÁGICA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is a variant of magia; ordinary frequency is explained by feminine mágico, not an ordinary independent noun.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.96,
+      "sourceUrl": "https://es.wiktionary.org/wiki/mágica",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Variante de magia."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "4527732b4e2b7619fa8260c699a2a1ace28fcd7bd7b61c750fa29553fce091cf",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras esdrújulas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.xi.ka",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "NACIDA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is nacencia; ordinary usage is feminine participle/adjective of nacido. No ordinary independent noun sense demonstrated.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.84,
+      "sourceUrl": "https://es.wiktionary.org/wiki/nacida",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Nacencia."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "e788e14e445b00e5f6d387b3603fd5468a22c07e3bc866ea7074a0460e2c6312",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "REGALA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is a highly specialized ship gunwale plank; ordinary frequency is finite regalar.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.59,
+      "sourceUrl": "https://es.wiktionary.org/wiki/regala",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Tablón o tabloncillo que cubre las cabezas o extremos de los reveses de las ligazones y forma la parte superior de la borda, con la que a veces se equivoca como equivalente."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "115ab987013232075a11484a02e2605957772151ecf3f2c09c302d747ac51571",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.la",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "REMERA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Mexico-qualifying evidence is an anatomical flight feather; everyday T-shirt senses are explicitly Argentina/Paraguay/Uruguay. Not a common Mexican answer supported by overall word frequency.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.66,
+      "sourceUrl": "https://es.wiktionary.org/wiki/remera",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Pluma de las alas de las aves voladoras que sirven para darle sustentación y empuje al volar."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "8675113fa37e75ede5a330f04af7d1c73209afa8dcde8330b4206cd4cb39b711",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾa",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "RIVERA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only lexical senses are a small watercourse and its dry bed; ordinary Mexican frequency is readily inflated by the surname. Prefer ordinary ribera; this is a commonness judgment, not a spelling correction.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.44,
+      "sourceUrl": "https://es.wiktionary.org/wiki/rivera",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Curso pequeño de agua."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "3e645a07f1b2cc7af45d882cedf42cc1b503da4fd27ee33047a08f1829626e92",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾa",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Cauce seco de una rivera₁."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "3e645a07f1b2cc7af45d882cedf42cc1b503da4fd27ee33047a08f1829626e92",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾa",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "SINGLE": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only source sense is a specialist nautical adjective for a single-running rope, not the common music loanword. Source does not establish commonness of the qualifying sense.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.77,
+      "sourceUrl": "https://es.wiktionary.org/wiki/single",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Dícese de cualquier cabo que laborea sencillo, como la braza, el amantillo, etc. cuando uno de sus chicotes está hecho firme en el peñol de la verga."
+          ],
+          "tags": [],
+          "rawSha256": "c4517aa66bace98410246111318d4865bba280eb2c484c64d25fe03c80b9f032",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos invariables en género",
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del inglés",
+            "ES:Páginas sin audios",
+            "ES:Rimas:in.gle"
+          ]
+        }
+      ]
+    },
+    "AGUSTÍN": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only lexical evidence is a preparation of boiled grape must with flour/spices/fruit; personal-name frequency does not make that dish common.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.19,
+      "sourceUrl": "https://es.wiktionary.org/wiki/agustín",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Se dice de la masa de mosto (jugo de uva antes de convertirse en vino) cocido con harina, especias y, en ocasiones, pedazos de fruta picada."
+          ],
+          "tags": [
+            "masculine",
+            "noun"
+          ],
+          "rawSha256": "ee51a10a0b32533d8ba81ea75cb5f820bc35be68135b73341cfc50a3a9a01610",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras agudas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:in"
+          ]
+        }
+      ]
+    },
+    "ESCOBAR": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only qualifying noun means a stand of broom shrubs; verb barrer is Aragon-tagged. Surname frequency does not establish commonness of that plant-community noun.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.88,
+      "sourceUrl": "https://es.wiktionary.org/wiki/escobar",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Lugar donde hay muchas escobas (tipo de arbusto)"
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "4c17235bfa3deae5fd529cf149a358618711f4412f13f4c36c7e33320d0b71bc",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras agudas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:aɾ",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "ESCOCIA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only qualifying common noun is a specific concave architectural molding; country-name frequency does not establish commonness of that sense.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.8,
+      "sourceUrl": "https://es.wiktionary.org/wiki/escocia",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Moldura de perfil cóncavo, compuesta de dos curvas de diferente radio cuyo borde inferior es saledizo. Se llamaba así porque al colocarse en la basa de las columnas proporcionaba el efecto de luz y sombra."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "434acc10e0cd46dcb95ca9ce8748fd617c1a81f564d3a9d14c4cdf7d6959c9a2",
+          "categories": [
+            "ES:Arquitectura",
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:o.sja",
+            "ES:Rimas:o.θja",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "ESTRADA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Independent senses are estrada=path/road and specialist regional shelf/path senses; ordinary Mexican frequency is readily surname-inflated. Not ordinary carretera/camino.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.75,
+      "sourceUrl": "https://es.wiktionary.org/wiki/estrada",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Ruta o senda surgida por caminar entre dos o más lugares."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "66c88ebf873d1eff115dc20b29f48975e4d259c0d558a90d8bda24e00dc3d201",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Vía construida ex profeso para transitar por ella."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "66c88ebf873d1eff115dc20b29f48975e4d259c0d558a90d8bda24e00dc3d201",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "gloss": [
+            "Tabla colgante sujetada por medio de cuerdas, a modo de alacena, donde se colocan víveres y otros insumos (Salamanca)."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "66c88ebf873d1eff115dc20b29f48975e4d259c0d558a90d8bda24e00dc3d201",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "gloss": [
+            "Camino entre dos bardas, setos o vallados (Vizcaya)."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "66c88ebf873d1eff115dc20b29f48975e4d259c0d558a90d8bda24e00dc3d201",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "gloss": [
+            "Lugar donde se sientan las mujeres."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "66c88ebf873d1eff115dc20b29f48975e4d259c0d558a90d8bda24e00dc3d201",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "ESTRENA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only qualifying noun is an old gift of thanks; debut sense is explicitly outdated or Catalonia-tagged. Ordinary current frequency is finite estrenar.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.62,
+      "sourceUrl": "https://es.wiktionary.org/wiki/estrena",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Regalo o presente obsequiado a modo de agradecimiento por alguna alegría o beneficio recibidos."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "b56b05579d1ceab357918275e6f0e8f56a71870db57143ecb522d4150a3abd31",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.na",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "FACUNDO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only adjective is que tiene facundia (eloquent), an uncommon learned homograph of the common personal name.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.6,
+      "sourceUrl": "https://es.wiktionary.org/wiki/facundo",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Que tiene facundia."
+          ],
+          "tags": [],
+          "rawSha256": "e19b264e2f74151751bb8876e721262d28b8dc96de2d6d1fa5e1105ccd786341",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:un.do"
+          ]
+        }
+      ]
+    },
+    "INDIANA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only lexical noun is printed linen/cotton cloth; place-name frequency does not establish commonness of this historical textile term.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.55,
+      "sourceUrl": "https://es.wiktionary.org/wiki/indiana",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Tela de lino o algodón, o mezcla de ambos, pintado por un solo lado."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "976badfbc63c5f45412ba7622582f93db67916618368af34f1e3c2361675a935",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.na",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "MACHADO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only noun is a wood-cutting tool and adjective borracho; these uncommon homographs do not inherit common surname frequency.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.77,
+      "sourceUrl": "https://es.wiktionary.org/wiki/machado",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Herramienta para cortar madera."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "63f3518bbef560491372c0d44e367992ebca8bdb94f6c80835307b2ac4b93a9c",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras con el sufijo -ado",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos regulares"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Borracho."
+          ],
+          "tags": [
+            "colloquial"
+          ],
+          "rawSha256": "fa425fa1be4bba72c67086b94fd60e8c166df2720bf59be0ece636c44bc83227",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras con el sufijo -ado",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do"
+          ]
+        }
+      ]
+    },
+    "MALDITA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is a colloquial name for the tongue; everyday usage is feminine maldito. No ordinary independent noun sense demonstrated.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.25,
+      "sourceUrl": "https://es.wiktionary.org/wiki/maldita",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "La lengua de la boca."
+          ],
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "rawSha256": "4fbcdfb3c9836bd28c3ee773e43584016adaaa061879b431886a2bfb60170655",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:i.ta",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "MANUELA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only nonvulgar noun is a historical four-seat folding-roof carriage; other sense is explicitly vulgar masturbation. Personal-name frequency does not establish commonness of the carriage.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.75,
+      "sourceUrl": "https://es.wiktionary.org/wiki/manuela",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Carro de caballos con cuatro asientos enfrentados y cubierta plegable."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "913afb585453142200a804020aad9d0c38c4cffa0a8915f9fda1a88567a26831",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de origen epónimo",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.la",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "MIRANDA": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is a high lookout; common surname/place/name usage does not establish commonness of this lexical sense.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.22,
+      "sourceUrl": "https://es.wiktionary.org/wiki/miranda",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Paraje alto desde el cual se descubre gran extensión de terreno."
+          ],
+          "tags": [
+            "feminine"
+          ],
+          "rawSha256": "5ffa6f46212efaf30ca13939eac6e1f5f5d93b9c63ddcda9b4c44dfb21d20cdf",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:an.da",
+            "ES:Sustantivos",
+            "ES:Sustantivos femeninos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "SITUADO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent noun is an assigned salary/rent secured on productive assets; overall frequency reflects the participle situado, not this specialist historical noun.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.35,
+      "sourceUrl": "https://es.wiktionary.org/wiki/situado",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "gloss": [
+            "Salario, sueldo o renta señalados sobre algunos bienes productivos."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "99e505d535fcb452e08c71064f6034c9f876929bdb15d789c6f66cc3c442f651",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras de etimología sin precisar",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    },
+    "VIOLADO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only nonparticipial lexical evidence is a light-violet color name. Ordinary frequency reflects the participle of violar; the color homograph is not ordinary violeta/morado.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 3.63,
+      "sourceUrl": "https://es.wiktionary.org/wiki/violado",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "De color similar al de las violetas, una tonalidad clara de morado."
+          ],
+          "tags": [],
+          "rawSha256": "6a68c385d457eff427de78d135bc482a230cf5231937288bf9797562f3034869",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "gloss": [
+            "Que ha sido forzado."
+          ],
+          "tags": [],
+          "rawSha256": "4afec960819ed996f7d0edefdfd335ffb65fa6dfd1c2262d195b165a7c724371",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras formadas por sufijo participio",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adj",
+          "gloss": [
+            "Que ha sido víctima de un abuso sexual."
+          ],
+          "tags": [],
+          "rawSha256": "4afec960819ed996f7d0edefdfd335ffb65fa6dfd1c2262d195b165a7c724371",
+          "categories": [
+            "ES:Adjetivos",
+            "ES:Adjetivos regulares",
+            "ES:Lemas",
+            "ES:Palabras formadas por sufijo participio",
+            "ES:Palabras llanas",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:a.do"
+          ]
+        }
+      ]
+    },
+    "QUIERO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only independent interjection is a specialized acceptance call in truco/envido. Ordinary quiero is finite querer; this regional card-game use does not support a common Mexican base answer.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 5.79,
+      "sourceUrl": "https://es.wiktionary.org/wiki/quiero",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "gloss": [
+            "En el juego del truco, forma de aceptar cualquier canto o apuesta que se plantee durante el envido o el truco, sin aumentar más."
+          ],
+          "tags": [],
+          "rawSha256": "985c3ee0aa6510af1e711b2663ee1a778270e4f30875cdd1e46bac3f8065e17d",
+          "categories": [
+            "ES:Interjecciones",
+            "ES:Lemas",
+            "ES:Palabras bisílabas",
+            "ES:Palabras endógenas",
+            "ES:Palabras llanas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.ɾo"
+          ]
+        }
+      ]
+    },
+    "PENDEJO": {
+      "kind": "reviewed-uncommon-homograph",
+      "reason": "Only nonoffensive selected noun is an individual pubic hair, from an obsolete anatomical base sense; ordinary Mexican use is explicitly derogatory/vulgar. Unmarked anatomical homograph does not justify commonness.",
+      "judgment": "Independent model commonness judgment from all surviving source senses; token Zipf is not a sense frequency.",
+      "zipf": 4.31,
+      "sourceUrl": "https://es.wiktionary.org/wiki/pendejo",
+      "evidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "gloss": [
+            "Por extensión, cada uno de los vellos que crece en el pendejo₁, el perineo y la ingle de los humanos adultos."
+          ],
+          "tags": [
+            "masculine"
+          ],
+          "rawSha256": "fb5505e6e54f641e1ce52b2a690d75b9625576442b0f1d9d428ef5401426b40c",
+          "categories": [
+            "ES:Lemas",
+            "ES:Palabras llanas",
+            "ES:Palabras provenientes del latín",
+            "ES:Palabras trisílabas",
+            "ES:Páginas sin audios",
+            "ES:Rimas:e.xo",
+            "ES:Sustantivos",
+            "ES:Sustantivos masculinos",
+            "ES:Sustantivos regulares"
+          ]
+        }
+      ]
+    }
+  },
+  "suitabilityFlags": {
+    "CABRÓN": "Source has ordinary male-goat noun and several Mexican colloquial senses; also a strong Mexican profanity/insult. Flag for product suitability, not automatic exclusion of the independent goat sense.",
+    "CAGADO": "Literal source adjective contains excrement and figurative senses explicitly vulgar; ordinary Mexican register is coarse. Suitability flag distinct from suffix/participle filtering.",
+    "IDIOTA": "Modern ordinary senses are personal insults/clinical idiocy; several are explicitly derogatory. The untagged clinical sense should not be treated as a neutral learner-register escape.",
+    "MAMADA": "Independent breastfeeding noun is legitimate; Mexican colloquial/sexual/slang associations make this a suitability review, not an automatic grammar exclusion.",
+    "PINCHE": "Kitchen assistant sense is independent; source also explicitly gives Mexican derogatory/vulgar insult/expletive senses. Flag register, do not infer all senses are grammatical forms.",
+    "TARADO": "Independent defect-bearing adjective exists; source also explicitly records derogatory and Mexican insult senses. Separate register choice from morphology.",
+    "PONERLA": "Only independent lexical source sense is penetrar sexualmente. Review sexual slang suitability and attached-clitic base-word policy; do not call it a finite conjugation."
+  },
+  "preserveNotes": {
+    "words": [
+      "BUENAS",
+      "CIELOS",
+      "FIRMES",
+      "SALUDOS",
+      "GRACIAS",
+      "ANDANDO",
+      "VOLANDO",
+      "SUMANDO",
+      "VIERNES",
+      "JUEVES",
+      "MARTES",
+      "COSMOS",
+      "CORPUS",
+      "CAMPUS",
+      "ESTATUS",
+      "CRISIS",
+      "CATORCE",
+      "CIENTO",
+      "QUINCE",
+      "OCHENTA",
+      "NOVENTA",
+      "BRASIL",
+      "ZAPATA",
+      "ALEGRO",
+      "COCIDO",
+      "NACIDO",
+      "VENCIDA",
+      "SEGUIDA",
+      "SUPREMA",
+      "VICARIO",
+      "CONCHA"
+    ],
+    "reason": "Retain ordinary independent senses and fixed lexical interjections/adverbs; preserve singular S endings and numeral lemmas. ANDANDO/VOLANDO qualify as independent ordinary intj/adv under broadened POS policy, not a blind suffix exemption. COCIDO has ordinary lexicalized cooked-food usage; NACIDO includes Mexican noun divieso; SUMANDO is the mathematical noun."
+  },
+  "decisions": {
+    "ABANICO": "no-objection",
+    "ABARCA": "no-objection",
+    "ABDOMEN": "no-objection",
+    "ABIERTO": "no-objection",
+    "ABISMO": "no-objection",
+    "ABOGADO": "no-objection",
+    "ABORDAR": "no-objection",
+    "ABORTO": "no-objection",
+    "ABRAZAR": "no-objection",
+    "ABRAZO": "no-objection",
+    "ABRIGO": "no-objection",
+    "ABRIRSE": "no-objection",
+    "ABSURDO": "no-objection",
+    "ABUELO": "no-objection",
+    "ABUSAR": "no-objection",
+    "ACABADO": "no-objection",
+    "ACABAR": "no-objection",
+    "ACCEDER": "no-objection",
+    "ACCESO": "no-objection",
+    "ACCIÓN": "no-objection",
+    "ACEITE": "no-objection",
+    "ACENTO": "no-objection",
+    "ACEPTAR": "no-objection",
+    "ACEPTO": "exclude",
+    "ACERCAR": "no-objection",
+    "ACIERTO": "no-objection",
+    "ACLARAR": "no-objection",
+    "ACOGER": "no-objection",
+    "ACOGIDA": "no-objection",
+    "ACORDAR": "no-objection",
+    "ACORDE": "no-objection",
+    "ACTITUD": "no-objection",
+    "ACTIVAR": "no-objection",
+    "ACTIVO": "no-objection",
+    "ACTUAL": "no-objection",
+    "ACTUAR": "no-objection",
+    "ACUARIO": "no-objection",
+    "ACUDIR": "no-objection",
+    "ACUERDO": "no-objection",
+    "ACUSADO": "no-objection",
+    "ACUSAR": "no-objection",
+    "ADAPTAR": "no-objection",
+    "ADEMÁS": "no-objection",
+    "ADENTRO": "no-objection",
+    "ADICIÓN": "no-objection",
+    "ADICTO": "no-objection",
+    "ADJUNTO": "no-objection",
+    "ADMIRAR": "no-objection",
+    "ADMITIR": "no-objection",
+    "ADONDE": "no-objection",
+    "ADOPTAR": "no-objection",
+    "ADORNO": "no-objection",
+    "ADUANA": "no-objection",
+    "ADULTO": "no-objection",
+    "AFECTAR": "no-objection",
+    "AFECTO": "no-objection",
+    "AFICIÓN": "no-objection",
+    "AFIRMAR": "no-objection",
+    "AFUERA": "no-objection",
+    "AFUERAS": "exclude",
+    "AGARRAR": "no-objection",
+    "AGARRE": "no-objection",
+    "AGENCIA": "no-objection",
+    "AGENDA": "no-objection",
+    "AGENTE": "no-objection",
+    "AGONÍA": "no-objection",
+    "AGOSTO": "no-objection",
+    "AGOTADO": "no-objection",
+    "AGRADO": "no-objection",
+    "AGREGAR": "no-objection",
+    "AGRESOR": "no-objection",
+    "AGUJERO": "no-objection",
+    "AGUSTÍN": "exclude",
+    "AHORITA": "no-objection",
+    "AHORRAR": "no-objection",
+    "AHORRO": "no-objection",
+    "AISLADO": "no-objection",
+    "AJEDREZ": "no-objection",
+    "AJUSTAR": "no-objection",
+    "AJUSTE": "no-objection",
+    "ALAMBRE": "no-objection",
+    "ALAMEDA": "no-objection",
+    "ALARMA": "no-objection",
+    "ALCALDE": "no-objection",
+    "ALCANCE": "no-objection",
+    "ALCOHOL": "no-objection",
+    "ALEGRA": "exclude",
+    "ALEGRE": "no-objection",
+    "ALEGRO": "no-objection",
+    "ALEGRÍA": "no-objection",
+    "ALEJADO": "no-objection",
+    "ALEJAR": "no-objection",
+    "ALEMÁN": "no-objection",
+    "ALENTAR": "no-objection",
+    "ALERGIA": "no-objection",
+    "ALERTA": "no-objection",
+    "ALGODÓN": "no-objection",
+    "ALGUIEN": "no-objection",
+    "ALGUNO": "no-objection",
+    "ALIADO": "no-objection",
+    "ALIANZA": "no-objection",
+    "ALIENTO": "no-objection",
+    "ALIVIAR": "no-objection",
+    "ALIVIO": "no-objection",
+    "ALLENDE": "no-objection",
+    "ALMACÉN": "no-objection",
+    "ALTERAR": "no-objection",
+    "ALTEZA": "no-objection",
+    "ALTITUD": "no-objection",
+    "ALTURA": "no-objection",
+    "ALTURAS": "exclude",
+    "ALUMNO": "no-objection",
+    "ALUSIÓN": "no-objection",
+    "AMABLE": "no-objection",
+    "AMANTE": "no-objection",
+    "AMARGO": "no-objection",
+    "AMATEUR": "no-objection",
+    "AMENAZA": "no-objection",
+    "AMISTAD": "no-objection",
+    "AMORES": "exclude",
+    "AMOROSO": "no-objection",
+    "AMPARO": "no-objection",
+    "AMPLIAR": "no-objection",
+    "AMPLIO": "no-objection",
+    "ANALES": "exclude",
+    "ANCHURA": "no-objection",
+    "ANCIANO": "no-objection",
+    "ANDALUZ": "no-objection",
+    "ANDANDO": "no-objection",
+    "ANDINO": "no-objection",
+    "ANGULAR": "no-objection",
+    "ANHELO": "no-objection",
+    "ANILLO": "no-objection",
+    "ANIMAL": "no-objection",
+    "ANIMAR": "no-objection",
+    "ANOCHE": "no-objection",
+    "ANORMAL": "no-objection",
+    "ANOTAR": "no-objection",
+    "ANSIOSO": "no-objection",
+    "ANTAÑO": "no-objection",
+    "ANTENA": "no-objection",
+    "ANTIGUO": "no-objection",
+    "ANTOJO": "no-objection",
+    "ANULAR": "no-objection",
+    "ANUNCIO": "no-objection",
+    "ANÓNIMO": "no-objection",
+    "APAGADO": "no-objection",
+    "APAGAR": "no-objection",
+    "APAGÓN": "no-objection",
+    "APARATO": "no-objection",
+    "APARTE": "no-objection",
+    "APELAR": "no-objection",
+    "APENAS": "no-objection",
+    "APETITO": "no-objection",
+    "APLAUSO": "no-objection",
+    "APLICAR": "no-objection",
+    "APLIQUE": "no-objection",
+    "APORTAR": "no-objection",
+    "APORTE": "no-objection",
+    "APOSTAR": "no-objection",
+    "APOYAR": "no-objection",
+    "APRECIO": "no-objection",
+    "APRETAR": "no-objection",
+    "APROBAR": "no-objection",
+    "APUESTA": "no-objection",
+    "APUESTO": "no-objection",
+    "APUNTAR": "no-objection",
+    "APÓSTOL": "no-objection",
+    "AQUELLO": "no-objection",
+    "ARCHIVO": "no-objection",
+    "ARCILLA": "no-objection",
+    "ARMADA": "no-objection",
+    "ARMADO": "no-objection",
+    "ARMARIO": "no-objection",
+    "ARMONÍA": "no-objection",
+    "ARQUERO": "no-objection",
+    "ARREGLO": "no-objection",
+    "ARRESTO": "no-objection",
+    "ARRIBA": "no-objection",
+    "ARROJAR": "no-objection",
+    "ARROYO": "no-objection",
+    "ARSENAL": "no-objection",
+    "ARTERIA": "no-objection",
+    "ARTISTA": "no-objection",
+    "ASALTO": "no-objection",
+    "ASCENSO": "no-objection",
+    "ASEDIO": "no-objection",
+    "ASESINO": "no-objection",
+    "ASESOR": "no-objection",
+    "ASFALTO": "no-objection",
+    "ASIENTO": "no-objection",
+    "ASIGNAR": "no-objection",
+    "ASISTIR": "no-objection",
+    "ASOMBRO": "no-objection",
+    "ASPECTO": "no-objection",
+    "ASPIRAR": "no-objection",
+    "ASUMIR": "no-objection",
+    "ASUNTO": "no-objection",
+    "ASUSTAR": "no-objection",
+    "ATACAR": "no-objection",
+    "ATAQUE": "no-objection",
+    "ATENDER": "no-objection",
+    "ATENTO": "no-objection",
+    "ATLETA": "no-objection",
+    "ATRAER": "no-objection",
+    "ATRAPAR": "no-objection",
+    "AUGUSTO": "no-objection",
+    "AUMENTO": "no-objection",
+    "AUNQUE": "no-objection",
+    "AURORA": "no-objection",
+    "AUSENTE": "no-objection",
+    "AUSTRAL": "no-objection",
+    "AUTISMO": "no-objection",
+    "AUTOBÚS": "no-objection",
+    "AUTORÍA": "no-objection",
+    "AUXILIO": "no-objection",
+    "AVANCE": "no-objection",
+    "AVANZAR": "no-objection",
+    "AVATAR": "no-objection",
+    "AVENIDA": "no-objection",
+    "AVISAR": "no-objection",
+    "AYUDAR": "no-objection",
+    "AZTECA": "no-objection",
+    "AZUFRE": "no-objection",
+    "AZÚCAR": "no-objection",
+    "AÑADIR": "no-objection",
+    "BAILAR": "no-objection",
+    "BAJADA": "no-objection",
+    "BALANCE": "no-objection",
+    "BALANZA": "no-objection",
+    "BALCÓN": "no-objection",
+    "BALLENA": "no-objection",
+    "BALLET": "no-objection",
+    "BANDEJA": "no-objection",
+    "BANDERA": "no-objection",
+    "BARATO": "no-objection",
+    "BARRERA": "no-objection",
+    "BARRIGA": "no-objection",
+    "BARRIL": "no-objection",
+    "BARRIO": "no-objection",
+    "BARROCO": "no-objection",
+    "BASADO": "no-objection",
+    "BASTÓN": "no-objection",
+    "BASURA": "no-objection",
+    "BATALLA": "no-objection",
+    "BATERÍA": "no-objection",
+    "BATIDO": "no-objection",
+    "BAÑERA": "no-objection",
+    "BEBIDA": "no-objection",
+    "BELLEZA": "no-objection",
+    "BESTIA": "no-objection",
+    "BIBLIA": "no-objection",
+    "BIGOTE": "no-objection",
+    "BILLETE": "no-objection",
+    "BLANCA": "no-objection",
+    "BLANCO": "no-objection",
+    "BLANDO": "no-objection",
+    "BLOQUE": "no-objection",
+    "BLOQUEO": "no-objection",
+    "BODEGA": "no-objection",
+    "BOICOT": "no-objection",
+    "BOLETO": "no-objection",
+    "BOLETÍN": "no-objection",
+    "BOLICHE": "no-objection",
+    "BOLÍVAR": "no-objection",
+    "BONDAD": "no-objection",
+    "BONITO": "no-objection",
+    "BORRAR": "no-objection",
+    "BOSQUE": "no-objection",
+    "BOTELLA": "no-objection",
+    "BRASIL": "no-objection",
+    "BRECHA": "no-objection",
+    "BRIGADA": "no-objection",
+    "BRILLAR": "no-objection",
+    "BRILLO": "no-objection",
+    "BRINDAR": "no-objection",
+    "BRONCA": "no-objection",
+    "BRONCE": "no-objection",
+    "BRUTAL": "no-objection",
+    "BUDISTA": "no-objection",
+    "BUENAS": "no-objection",
+    "BURBUJA": "no-objection",
+    "BUSCAR": "no-objection",
+    "BÁRBARO": "no-objection",
+    "BÁSICO": "no-objection",
+    "BÉISBOL": "no-objection",
+    "BÓVEDA": "no-objection",
+    "CABALLO": "no-objection",
+    "CABAÑA": "no-objection",
+    "CABELLO": "no-objection",
+    "CABEZA": "no-objection",
+    "CABIDA": "no-objection",
+    "CABILDO": "no-objection",
+    "CABINA": "no-objection",
+    "CABRÓN": "suitability-review",
+    "CACERÍA": "no-objection",
+    "CACIQUE": "no-objection",
+    "CADENA": "no-objection",
+    "CADERA": "no-objection",
+    "CADÁVER": "no-objection",
+    "CAGADO": "suitability-review",
+    "CAJERO": "no-objection",
+    "CALCIO": "no-objection",
+    "CALDERA": "no-objection",
+    "CALIBRE": "no-objection",
+    "CALIDAD": "no-objection",
+    "CALLADO": "no-objection",
+    "CALLAR": "no-objection",
+    "CALMAR": "no-objection",
+    "CALZADA": "no-objection",
+    "CALZADO": "no-objection",
+    "CAMBIAR": "no-objection",
+    "CAMBIO": "no-objection",
+    "CAMINAR": "no-objection",
+    "CAMINO": "no-objection",
+    "CAMISA": "no-objection",
+    "CAMIÓN": "no-objection",
+    "CAMPANA": "no-objection",
+    "CAMPAÑA": "no-objection",
+    "CAMPEÓN": "no-objection",
+    "CAMPUS": "no-objection",
+    "CANARIO": "no-objection",
+    "CANASTA": "no-objection",
+    "CANCHA": "no-objection",
+    "CANCIÓN": "no-objection",
+    "CANELA": "no-objection",
+    "CANSADO": "no-objection",
+    "CANTADO": "no-objection",
+    "CANTAR": "no-objection",
+    "CANTERA": "no-objection",
+    "CANTÓN": "no-objection",
+    "CAPILLA": "no-objection",
+    "CAPITAL": "no-objection",
+    "CAPITÁN": "no-objection",
+    "CAPTAR": "no-objection",
+    "CAPTURA": "no-objection",
+    "CARACOL": "no-objection",
+    "CARBONO": "no-objection",
+    "CARBÓN": "no-objection",
+    "CARGADA": "no-objection",
+    "CARGAR": "no-objection",
+    "CARIBE": "no-objection",
+    "CARIDAD": "no-objection",
+    "CARISMA": "no-objection",
+    "CARIÑO": "no-objection",
+    "CARNET": "no-objection",
+    "CARPETA": "no-objection",
+    "CARRERA": "no-objection",
+    "CARRIL": "no-objection",
+    "CARRITO": "no-objection",
+    "CARTEL": "no-objection",
+    "CARTERA": "no-objection",
+    "CARTÓN": "no-objection",
+    "CASADO": "no-objection",
+    "CASARSE": "no-objection",
+    "CASCADA": "no-objection",
+    "CASERO": "no-objection",
+    "CASILLA": "no-objection",
+    "CASINO": "no-objection",
+    "CASITA": "no-objection",
+    "CASTAÑO": "no-objection",
+    "CASTIGO": "no-objection",
+    "CASTING": "no-objection",
+    "CASTRO": "no-objection",
+    "CASUAL": "no-objection",
+    "CATALÁN": "no-objection",
+    "CATORCE": "no-objection",
+    "CAUCHO": "no-objection",
+    "CAUDAL": "no-objection",
+    "CAUSAR": "no-objection",
+    "CAVIDAD": "no-objection",
+    "CAZADOR": "no-objection",
+    "CAÍDOS": "exclude",
+    "CEBOLLA": "no-objection",
+    "CELESTE": "no-objection",
+    "CELOSO": "no-objection",
+    "CELULAR": "no-objection",
+    "CEMENTO": "no-objection",
+    "CENIZA": "no-objection",
+    "CENSURA": "no-objection",
+    "CENTAVO": "no-objection",
+    "CENTRAL": "no-objection",
+    "CENTRO": "no-objection",
+    "CEPILLO": "no-objection",
+    "CERCANO": "no-objection",
+    "CEREAL": "no-objection",
+    "CEREBRO": "no-objection",
+    "CERRADO": "no-objection",
+    "CERRAR": "no-objection",
+    "CERTEZA": "no-objection",
+    "CERVEZA": "no-objection",
+    "CESIÓN": "no-objection",
+    "CHALECO": "no-objection",
+    "CHANCE": "no-objection",
+    "CHARLA": "no-objection",
+    "CHARLAR": "no-objection",
+    "CHEQUE": "no-objection",
+    "CHICLE": "no-objection",
+    "CHILENA": "no-objection",
+    "CHILENO": "no-objection",
+    "CHINOS": "exclude",
+    "CHISPA": "no-objection",
+    "CHISTE": "no-objection",
+    "CHIVAS": "exclude",
+    "CHOCAR": "no-objection",
+    "CHOFER": "no-objection",
+    "CHOQUE": "no-objection",
+    "CHORRO": "no-objection",
+    "CHUPAR": "no-objection",
+    "CICLÓN": "no-objection",
+    "CIELOS": "no-objection",
+    "CIENCIA": "no-objection",
+    "CIENTO": "no-objection",
+    "CIENTOS": "exclude",
+    "CIERRE": "no-objection",
+    "CIERTO": "no-objection",
+    "CIGARRO": "no-objection",
+    "CINISMO": "no-objection",
+    "CINTURA": "no-objection",
+    "CIRUGÍA": "no-objection",
+    "CIUDAD": "no-objection",
+    "CLARÍN": "no-objection",
+    "CLIENTE": "no-objection",
+    "CLÁSICO": "no-objection",
+    "CLÉRIGO": "no-objection",
+    "CLÍNICA": "no-objection",
+    "CLÍNICO": "no-objection",
+    "COBARDE": "no-objection",
+    "COBRAR": "no-objection",
+    "COCAÍNA": "no-objection",
+    "COCIDO": "no-objection",
+    "COCINA": "no-objection",
+    "COCINAR": "no-objection",
+    "CODICIA": "no-objection",
+    "COHETE": "no-objection",
+    "COLAPSO": "no-objection",
+    "COLCHÓN": "no-objection",
+    "COLEGA": "no-objection",
+    "COLEGIO": "no-objection",
+    "COLGADO": "no-objection",
+    "COLGAR": "no-objection",
+    "COLINA": "no-objection",
+    "COLLAR": "no-objection",
+    "COLOCAR": "no-objection",
+    "COLONIA": "no-objection",
+    "COLUMNA": "no-objection",
+    "COMANDO": "no-objection",
+    "COMARCA": "no-objection",
+    "COMBATE": "no-objection",
+    "COMEDIA": "no-objection",
+    "COMEDOR": "no-objection",
+    "COMENTO": "no-objection",
+    "COMERSE": "no-objection",
+    "COMETA": "no-objection",
+    "COMETER": "no-objection",
+    "COMIDA": "no-objection",
+    "COMITÉ": "no-objection",
+    "COMPLOT": "no-objection",
+    "COMPRA": "no-objection",
+    "COMPRAR": "no-objection",
+    "COMPÁS": "no-objection",
+    "COMUNA": "no-objection",
+    "COMUNAL": "no-objection",
+    "CONCEJO": "no-objection",
+    "CONCHA": "no-objection",
+    "CONDADO": "no-objection",
+    "CONDENA": "no-objection",
+    "CONEJO": "no-objection",
+    "CONFIAR": "no-objection",
+    "CONFORT": "no-objection",
+    "CONFUSO": "no-objection",
+    "CONMIGO": "no-objection",
+    "CONOCER": "no-objection",
+    "CONSEJO": "no-objection",
+    "CONSIGO": "no-objection",
+    "CONSOLA": "no-objection",
+    "CONSUMO": "no-objection",
+    "CONTADO": "no-objection",
+    "CONTAR": "no-objection",
+    "CONTEO": "no-objection",
+    "CONTIGO": "no-objection",
+    "CONTRA": "no-objection",
+    "CONTROL": "no-objection",
+    "CONVOY": "no-objection",
+    "COPIAR": "no-objection",
+    "CORAJE": "no-objection",
+    "CORAZÓN": "no-objection",
+    "CORBATA": "no-objection",
+    "CORDERO": "no-objection",
+    "CORDIAL": "no-objection",
+    "CORDURA": "no-objection",
+    "CORDÓN": "no-objection",
+    "COREANO": "no-objection",
+    "CORONA": "no-objection",
+    "CORONEL": "no-objection",
+    "CORPUS": "no-objection",
+    "CORRAL": "no-objection",
+    "CORREA": "no-objection",
+    "CORREO": "no-objection",
+    "CORRER": "no-objection",
+    "CORRIDA": "no-objection",
+    "CORRIDO": "no-objection",
+    "CORTADA": "no-objection",
+    "CORTADO": "no-objection",
+    "CORTAR": "no-objection",
+    "CORTEZA": "no-objection",
+    "CORTINA": "no-objection",
+    "CORTÉS": "no-objection",
+    "COSECHA": "no-objection",
+    "COSMOS": "no-objection",
+    "COSTADO": "no-objection",
+    "COSTAR": "no-objection",
+    "COSTAS": "exclude",
+    "COSTOSO": "no-objection",
+    "CREADOR": "no-objection",
+    "CRECER": "no-objection",
+    "CRECES": "exclude",
+    "CRECIDO": "no-objection",
+    "CRESPO": "no-objection",
+    "CRESTA": "no-objection",
+    "CREÍBLE": "no-objection",
+    "CREÍDO": "no-objection",
+    "CRIADA": "no-objection",
+    "CRIADO": "no-objection",
+    "CRIANZA": "no-objection",
+    "CRIMEN": "no-objection",
+    "CRIOLLO": "no-objection",
+    "CRISIS": "no-objection",
+    "CRISTAL": "no-objection",
+    "CRISTO": "no-objection",
+    "CROATA": "no-objection",
+    "CRUCERO": "no-objection",
+    "CRUCIAL": "no-objection",
+    "CRUZADA": "no-objection",
+    "CRUZADO": "no-objection",
+    "CRUZAR": "no-objection",
+    "CRÁNEO": "no-objection",
+    "CRÉDITO": "no-objection",
+    "CRÍTICA": "no-objection",
+    "CRÍTICO": "no-objection",
+    "CRÓNICA": "no-objection",
+    "CUADRA": "no-objection",
+    "CUADRO": "no-objection",
+    "CUANDO": "no-objection",
+    "CUANTO": "no-objection",
+    "CUARTA": "no-objection",
+    "CUARTEL": "no-objection",
+    "CUARTO": "no-objection",
+    "CUARTOS": "exclude",
+    "CUATRO": "no-objection",
+    "CUBANO": "no-objection",
+    "CUBRIR": "no-objection",
+    "CUCHARA": "no-objection",
+    "CUELLO": "no-objection",
+    "CUENCA": "no-objection",
+    "CUENTA": "no-objection",
+    "CUENTAS": "exclude",
+    "CUENTO": "no-objection",
+    "CUERDA": "no-objection",
+    "CUERNO": "no-objection",
+    "CUERPO": "no-objection",
+    "CUERVO": "no-objection",
+    "CUESTA": "no-objection",
+    "CUIDADO": "no-objection",
+    "CUIDAR": "no-objection",
+    "CULPAR": "no-objection",
+    "CULTIVO": "no-objection",
+    "CULTURA": "no-objection",
+    "CUMBIA": "no-objection",
+    "CUMBRE": "no-objection",
+    "CUMPLE": "no-objection",
+    "CUMPLIR": "no-objection",
+    "CURIOSO": "no-objection",
+    "CURSAR": "no-objection",
+    "CURVAS": "exclude",
+    "CUÁNDO": "no-objection",
+    "CUÁNTO": "no-objection",
+    "CUÑADO": "no-objection",
+    "CÁLCULO": "no-objection",
+    "CÁLIDO": "no-objection",
+    "CÁMARA": "no-objection",
+    "CÁNCER": "no-objection",
+    "CÁPSULA": "no-objection",
+    "CÁRCEL": "no-objection",
+    "CÁTEDRA": "no-objection",
+    "CÉDULA": "no-objection",
+    "CÉLEBRE": "no-objection",
+    "CÉLULA": "no-objection",
+    "CÉSPED": "no-objection",
+    "CÍNICO": "no-objection",
+    "CÍRCULO": "no-objection",
+    "CÍVICO": "no-objection",
+    "CÓDIGO": "no-objection",
+    "CÓLERA": "no-objection",
+    "CÓMICO": "no-objection",
+    "CÓMODA": "no-objection",
+    "CÓMODO": "no-objection",
+    "CÓNSUL": "no-objection",
+    "CÓRDOBA": "no-objection",
+    "CÚPULA": "no-objection",
+    "DAMASCO": "no-objection",
+    "DEBAJO": "no-objection",
+    "DEBATE": "no-objection",
+    "DEBATIR": "no-objection",
+    "DEBIDO": "no-objection",
+    "DECANO": "no-objection",
+    "DECENTE": "no-objection",
+    "DECIDIR": "no-objection",
+    "DECLIVE": "no-objection",
+    "DECRETO": "no-objection",
+    "DEDICAR": "no-objection",
+    "DEDUCIR": "no-objection",
+    "DEFECTO": "no-objection",
+    "DEFENSA": "no-objection",
+    "DEFINIR": "no-objection",
+    "DEJADO": "no-objection",
+    "DEJARSE": "no-objection",
+    "DELANTE": "no-objection",
+    "DELFÍN": "no-objection",
+    "DELGADO": "no-objection",
+    "DELIRIO": "no-objection",
+    "DELITO": "no-objection",
+    "DEMANDA": "no-objection",
+    "DEMONIO": "no-objection",
+    "DEMORA": "no-objection",
+    "DENTAL": "no-objection",
+    "DENTRO": "no-objection",
+    "DEPORTE": "no-objection",
+    "DERECHA": "no-objection",
+    "DERECHO": "no-objection",
+    "DERIVA": "no-objection",
+    "DERRAME": "no-objection",
+    "DERROTA": "no-objection",
+    "DESAFÍO": "no-objection",
+    "DESEAR": "no-objection",
+    "DESFILE": "no-objection",
+    "DESNUDO": "no-objection",
+    "DESPIDO": "no-objection",
+    "DESPUÉS": "no-objection",
+    "DESTINO": "no-objection",
+    "DESVIAR": "no-objection",
+    "DESVÍO": "no-objection",
+    "DETALLE": "no-objection",
+    "DETENER": "no-objection",
+    "DETRÁS": "no-objection",
+    "DIABLO": "no-objection",
+    "DIARIO": "no-objection",
+    "DIARREA": "no-objection",
+    "DIBUJAR": "no-objection",
+    "DIBUJO": "no-objection",
+    "DICTADO": "no-objection",
+    "DIENTE": "no-objection",
+    "DIETAS": "exclude",
+    "DIFUNTO": "no-objection",
+    "DIFÍCIL": "no-objection",
+    "DIGITAL": "no-objection",
+    "DILEMA": "no-objection",
+    "DINERO": "no-objection",
+    "DIPLOMA": "no-objection",
+    "DIRECTA": "no-objection",
+    "DIRECTO": "no-objection",
+    "DIRIGIR": "no-objection",
+    "DISEÑAR": "no-objection",
+    "DISEÑO": "no-objection",
+    "DISFRAZ": "no-objection",
+    "DISPARO": "no-objection",
+    "DISPUTA": "no-objection",
+    "DIVERSO": "no-objection",
+    "DIVIDIR": "no-objection",
+    "DIVINO": "no-objection",
+    "DIVISA": "no-objection",
+    "DIÁLOGO": "no-objection",
+    "DOBLAJE": "no-objection",
+    "DOBLAR": "no-objection",
+    "DOBLES": "exclude",
+    "DOCENA": "no-objection",
+    "DOCENTE": "no-objection",
+    "DOCTOR": "no-objection",
+    "DOMINAR": "no-objection",
+    "DOMINGO": "no-objection",
+    "DOMINIO": "no-objection",
+    "DOMINÓ": "no-objection",
+    "DONANTE": "no-objection",
+    "DORADO": "no-objection",
+    "DORMIR": "no-objection",
+    "DORSAL": "no-objection",
+    "DOTADO": "no-objection",
+    "DRAGÓN": "no-objection",
+    "DRENAJE": "no-objection",
+    "DULZURA": "no-objection",
+    "DURANTE": "no-objection",
+    "DUREZA": "no-objection",
+    "DÉCADA": "no-objection",
+    "DÉCIMA": "no-objection",
+    "DÉCIMO": "no-objection",
+    "DÉFICIT": "no-objection",
+    "ECHADO": "exclude",
+    "ECLIPSE": "no-objection",
+    "ECUADOR": "no-objection",
+    "EDICIÓN": "no-objection",
+    "EDITAR": "no-objection",
+    "EDITOR": "no-objection",
+    "EDUCADO": "no-objection",
+    "EDUCAR": "no-objection",
+    "EFECTO": "no-objection",
+    "EFECTOS": "exclude",
+    "EFICAZ": "no-objection",
+    "EGIPCIO": "no-objection",
+    "EGOÍSMO": "no-objection",
+    "EGOÍSTA": "no-objection",
+    "EJEMPLO": "no-objection",
+    "EJERCER": "no-objection",
+    "ELECTO": "no-objection",
+    "ELEGIDO": "no-objection",
+    "ELEGIR": "no-objection",
+    "ELENCO": "no-objection",
+    "ELEVADO": "no-objection",
+    "ELEVAR": "no-objection",
+    "EMBARGO": "no-objection",
+    "EMBLEMA": "no-objection",
+    "EMIGRAR": "no-objection",
+    "EMISIÓN": "no-objection",
+    "EMITIR": "no-objection",
+    "EMOCIÓN": "no-objection",
+    "EMOTIVO": "no-objection",
+    "EMPATE": "no-objection",
+    "EMPATÍA": "no-objection",
+    "EMPEZAR": "no-objection",
+    "EMPEÑO": "no-objection",
+    "EMPIECE": "no-objection",
+    "EMPLEAR": "no-objection",
+    "EMPLEO": "no-objection",
+    "EMPRESA": "no-objection",
+    "EMPUJAR": "no-objection",
+    "EMPUJE": "no-objection",
+    "ENCAJAR": "no-objection",
+    "ENCAJE": "no-objection",
+    "ENCANTO": "no-objection",
+    "ENCARAR": "no-objection",
+    "ENCARGO": "no-objection",
+    "ENCIMA": "no-objection",
+    "ENEMIGO": "no-objection",
+    "ENERGÍA": "no-objection",
+    "ENFERMO": "no-objection",
+    "ENFOQUE": "no-objection",
+    "ENGAÑAR": "no-objection",
+    "ENGAÑO": "no-objection",
+    "ENIGMA": "no-objection",
+    "ENLACE": "no-objection",
+    "ENOJADO": "no-objection",
+    "ENOJAR": "no-objection",
+    "ENORME": "no-objection",
+    "ENSAYO": "no-objection",
+    "ENSEÑA": "no-objection",
+    "ENSEÑAR": "no-objection",
+    "ENTERAR": "no-objection",
+    "ENTERO": "no-objection",
+    "ENTIDAD": "no-objection",
+    "ENTORNO": "no-objection",
+    "ENTRADA": "no-objection",
+    "ENTRAR": "no-objection",
+    "ENTREGA": "no-objection",
+    "ENVIADA": "no-objection",
+    "ENVIADO": "no-objection",
+    "ENVIAR": "no-objection",
+    "ENVIDIA": "no-objection",
+    "EQUIDAD": "no-objection",
+    "EQUIPO": "no-objection",
+    "ERMITA": "no-objection",
+    "EROSIÓN": "no-objection",
+    "ERUDITO": "no-objection",
+    "ESCALA": "no-objection",
+    "ESCALAR": "no-objection",
+    "ESCALAS": "exclude",
+    "ESCALÓN": "no-objection",
+    "ESCAPAR": "no-objection",
+    "ESCAPE": "no-objection",
+    "ESCASEZ": "no-objection",
+    "ESCASO": "no-objection",
+    "ESCAÑO": "no-objection",
+    "ESCENA": "no-objection",
+    "ESCLAVA": "no-objection",
+    "ESCLAVO": "no-objection",
+    "ESCOBAR": "exclude",
+    "ESCOCIA": "exclude",
+    "ESCOGER": "no-objection",
+    "ESCOLAR": "no-objection",
+    "ESCOLTA": "no-objection",
+    "ESCORIA": "no-objection",
+    "ESCRIBA": "no-objection",
+    "ESCRITO": "no-objection",
+    "ESCUCHA": "no-objection",
+    "ESCUDO": "no-objection",
+    "ESCUELA": "no-objection",
+    "ESENCIA": "no-objection",
+    "ESFERA": "no-objection",
+    "ESPACIO": "no-objection",
+    "ESPADA": "no-objection",
+    "ESPADAS": "exclude",
+    "ESPALDA": "no-objection",
+    "ESPAÑOL": "no-objection",
+    "ESPECIE": "no-objection",
+    "ESPEJO": "no-objection",
+    "ESPERA": "no-objection",
+    "ESPERAR": "no-objection",
+    "ESPESOR": "no-objection",
+    "ESPINA": "no-objection",
+    "ESPIRAL": "no-objection",
+    "ESPONJA": "no-objection",
+    "ESPOSA": "no-objection",
+    "ESPOSAS": "exclude",
+    "ESPOSO": "no-objection",
+    "ESPUMA": "no-objection",
+    "ESQUEMA": "no-objection",
+    "ESQUINA": "no-objection",
+    "ESTABLE": "no-objection",
+    "ESTADIO": "no-objection",
+    "ESTADO": "no-objection",
+    "ESTADÍA": "no-objection",
+    "ESTAFA": "no-objection",
+    "ESTATAL": "no-objection",
+    "ESTATUA": "no-objection",
+    "ESTATUS": "no-objection",
+    "ESTELA": "no-objection",
+    "ESTELAR": "no-objection",
+    "ESTERO": "no-objection",
+    "ESTILO": "no-objection",
+    "ESTIMA": "no-objection",
+    "ESTRADA": "exclude",
+    "ESTRENA": "exclude",
+    "ESTRENO": "no-objection",
+    "ESTRÉS": "no-objection",
+    "ESTUDIO": "no-objection",
+    "ETERNO": "no-objection",
+    "EUROPEO": "no-objection",
+    "EVACUAR": "no-objection",
+    "EVADIR": "no-objection",
+    "EVALUAR": "no-objection",
+    "EVASIÓN": "no-objection",
+    "EVENTO": "no-objection",
+    "EVITAR": "no-objection",
+    "EXACTO": "no-objection",
+    "EXAMEN": "no-objection",
+    "EXCEPTO": "no-objection",
+    "EXCESO": "no-objection",
+    "EXCUSA": "no-objection",
+    "EXIGIR": "no-objection",
+    "EXILIO": "no-objection",
+    "EXISTIR": "no-objection",
+    "EXITOSO": "no-objection",
+    "EXPERTO": "no-objection",
+    "EXPONER": "no-objection",
+    "EXPRESO": "no-objection",
+    "EXTENSO": "no-objection",
+    "EXTERNO": "no-objection",
+    "EXTRAER": "no-objection",
+    "EXTRAS": "exclude",
+    "EXTRAÑO": "no-objection",
+    "EXTREMO": "no-objection",
+    "FACCIÓN": "no-objection",
+    "FACHADA": "no-objection",
+    "FACIAL": "no-objection",
+    "FACTOR": "no-objection",
+    "FACTURA": "no-objection",
+    "FACUNDO": "exclude",
+    "FALLAR": "no-objection",
+    "FALLIDO": "no-objection",
+    "FALTAR": "no-objection",
+    "FAMILIA": "no-objection",
+    "FAMOSO": "no-objection",
+    "FATIGA": "no-objection",
+    "FAUSTO": "no-objection",
+    "FEBRERO": "no-objection",
+    "FEDERAL": "no-objection",
+    "FESTEJO": "no-objection",
+    "FESTIVO": "no-objection",
+    "FIABLE": "no-objection",
+    "FIANZA": "no-objection",
+    "FICCIÓN": "no-objection",
+    "FIEBRE": "no-objection",
+    "FIERRO": "no-objection",
+    "FIESTA": "no-objection",
+    "FIGURA": "no-objection",
+    "FILIAL": "no-objection",
+    "FILMAR": "no-objection",
+    "FILTRAR": "no-objection",
+    "FILTRO": "no-objection",
+    "FINGIR": "no-objection",
+    "FIRMAR": "no-objection",
+    "FIRMES": "no-objection",
+    "FIRMEZA": "no-objection",
+    "FISCAL": "no-objection",
+    "FLAUTA": "no-objection",
+    "FLECHA": "no-objection",
+    "FLUIDEZ": "no-objection",
+    "FLUIDO": "no-objection",
+    "FOLLAR": "exclude",
+    "FOLLETO": "no-objection",
+    "FOMENTO": "no-objection",
+    "FORENSE": "no-objection",
+    "FORMAL": "no-objection",
+    "FORMAR": "no-objection",
+    "FORMAS": "exclude",
+    "FORMATO": "no-objection",
+    "FORTUNA": "no-objection",
+    "FORZADO": "no-objection",
+    "FORZAR": "no-objection",
+    "FRACASO": "no-objection",
+    "FRANCO": "no-objection",
+    "FRANCÉS": "no-objection",
+    "FRANJA": "no-objection",
+    "FRASCO": "no-objection",
+    "FRAUDE": "no-objection",
+    "FRENAR": "no-objection",
+    "FRENTE": "no-objection",
+    "FRESCO": "no-objection",
+    "FRONTAL": "no-objection",
+    "FRÁGIL": "no-objection",
+    "FUENTE": "no-objection",
+    "FUERTE": "no-objection",
+    "FUERZA": "no-objection",
+    "FUNCIÓN": "no-objection",
+    "FUNDAR": "no-objection",
+    "FUNERAL": "no-objection",
+    "FURIOSO": "no-objection",
+    "FUSIÓN": "no-objection",
+    "FUTBOL": "no-objection",
+    "FUTURO": "no-objection",
+    "FÁBRICA": "no-objection",
+    "FÉRTIL": "no-objection",
+    "FÍSICA": "no-objection",
+    "FÍSICO": "no-objection",
+    "FÓRMULA": "no-objection",
+    "FÓSFORO": "no-objection",
+    "FÚTBOL": "no-objection",
+    "GACETA": "no-objection",
+    "GALAXIA": "no-objection",
+    "GALERÍA": "no-objection",
+    "GALLEGO": "no-objection",
+    "GALLINA": "no-objection",
+    "GANADO": "no-objection",
+    "GANADOR": "no-objection",
+    "GANARSE": "no-objection",
+    "GANCHO": "no-objection",
+    "GARAJE": "no-objection",
+    "GASTAR": "no-objection",
+    "GEMELAS": "exclude",
+    "GEMELOS": "exclude",
+    "GENERAL": "no-objection",
+    "GENERAR": "no-objection",
+    "GENIAL": "no-objection",
+    "GENTIL": "no-objection",
+    "GENUINO": "no-objection",
+    "GERENTE": "no-objection",
+    "GESTIÓN": "no-objection",
+    "GESTOR": "no-objection",
+    "GIGANTE": "no-objection",
+    "GINEBRA": "no-objection",
+    "GLOBAL": "no-objection",
+    "GLORIA": "no-objection",
+    "GOLPEAR": "no-objection",
+    "GORILA": "no-objection",
+    "GRABADO": "no-objection",
+    "GRABAR": "no-objection",
+    "GRACIA": "no-objection",
+    "GRACIAS": "no-objection",
+    "GRADUAL": "no-objection",
+    "GRANADA": "no-objection",
+    "GRANDE": "no-objection",
+    "GRANITO": "no-objection",
+    "GRANJA": "no-objection",
+    "GRATIS": "no-objection",
+    "GREMIO": "no-objection",
+    "GRIEGO": "no-objection",
+    "GRIETA": "no-objection",
+    "GRITAR": "no-objection",
+    "GROSERO": "no-objection",
+    "GRUESA": "no-objection",
+    "GRUESO": "no-objection",
+    "GRUPAL": "no-objection",
+    "GRÁFICA": "no-objection",
+    "GRÁFICO": "no-objection",
+    "GUANTE": "no-objection",
+    "GUARANÍ": "no-objection",
+    "GUARDA": "no-objection",
+    "GUARDAR": "no-objection",
+    "GUARDIA": "no-objection",
+    "GUERRA": "no-objection",
+    "GUINEA": "no-objection",
+    "GUSANO": "no-objection",
+    "GUSTAR": "no-objection",
+    "GÉNERO": "no-objection",
+    "GÉNESIS": "no-objection",
+    "HABERSE": "no-objection",
+    "HABLADO": "no-objection",
+    "HABLAR": "no-objection",
+    "HACERSE": "no-objection",
+    "HALLAR": "no-objection",
+    "HAMBRE": "no-objection",
+    "HARINA": "no-objection",
+    "HAZAÑA": "no-objection",
+    "HEBREO": "no-objection",
+    "HECHIZO": "no-objection",
+    "HELADA": "no-objection",
+    "HELADO": "no-objection",
+    "HELENA": "exclude",
+    "HEMBRA": "no-objection",
+    "HERIDA": "no-objection",
+    "HERIDO": "no-objection",
+    "HERMANO": "no-objection",
+    "HERMOSO": "no-objection",
+    "HEROÍNA": "no-objection",
+    "HERRERO": "no-objection",
+    "HIDALGO": "no-objection",
+    "HIERBA": "no-objection",
+    "HIERRO": "no-objection",
+    "HIGIENE": "no-objection",
+    "HINCHA": "no-objection",
+    "HISPANO": "no-objection",
+    "HOCICO": "no-objection",
+    "HOGUERA": "no-objection",
+    "HOLANDA": "no-objection",
+    "HOMBRE": "no-objection",
+    "HOMBRO": "no-objection",
+    "HONESTO": "no-objection",
+    "HONRADO": "no-objection",
+    "HONRAR": "no-objection",
+    "HORARIO": "no-objection",
+    "HORROR": "no-objection",
+    "HOSTIA": "no-objection",
+    "HOSTIL": "no-objection",
+    "HUELGA": "no-objection",
+    "HUELLA": "no-objection",
+    "HUERTA": "no-objection",
+    "HUERTO": "no-objection",
+    "HUESOS": "exclude",
+    "HUMANO": "no-objection",
+    "HUMEDAD": "no-objection",
+    "HUMILDE": "no-objection",
+    "HURACÁN": "no-objection",
+    "HUÉSPED": "no-objection",
+    "HÁBITAT": "no-objection",
+    "HÁBITO": "no-objection",
+    "HÍBRIDO": "no-objection",
+    "HÍGADO": "no-objection",
+    "HÚMEDO": "no-objection",
+    "HÚNGARO": "no-objection",
+    "IDIOMA": "no-objection",
+    "IDIOTA": "suitability-review",
+    "IGLESIA": "no-objection",
+    "IGNORAR": "no-objection",
+    "IGUALA": "no-objection",
+    "IGUALAR": "no-objection",
+    "ILEGAL": "no-objection",
+    "ILUSIÓN": "no-objection",
+    "ILUSTRE": "no-objection",
+    "ILÍCITO": "no-objection",
+    "IMAGEN": "no-objection",
+    "IMITAR": "no-objection",
+    "IMPACTO": "no-objection",
+    "IMPEDIR": "no-objection",
+    "IMPERIO": "no-objection",
+    "IMPONER": "no-objection",
+    "IMPRESO": "no-objection",
+    "IMPULSO": "no-objection",
+    "INCAPAZ": "no-objection",
+    "INCLUIR": "no-objection",
+    "INCLUSO": "no-objection",
+    "INDIANA": "exclude",
+    "INDIAS": "exclude",
+    "INDICAR": "no-objection",
+    "INDICIO": "no-objection",
+    "INERCIA": "no-objection",
+    "INFAME": "no-objection",
+    "INFANTA": "no-objection",
+    "INFANTE": "no-objection",
+    "INFARTO": "no-objection",
+    "INFELIZ": "no-objection",
+    "INFIEL": "no-objection",
+    "INFLUIR": "no-objection",
+    "INFORME": "no-objection",
+    "INGENIO": "no-objection",
+    "INGENUO": "no-objection",
+    "INGLÉS": "no-objection",
+    "INGRESO": "no-objection",
+    "INICIAL": "no-objection",
+    "INICIAR": "no-objection",
+    "INICIO": "no-objection",
+    "INJUSTO": "no-objection",
+    "INMENSO": "no-objection",
+    "INMORAL": "no-objection",
+    "INMUNE": "no-objection",
+    "INODORO": "no-objection",
+    "INSECTO": "no-objection",
+    "INSULAR": "no-objection",
+    "INSULTO": "no-objection",
+    "INTENSO": "no-objection",
+    "INTENTO": "no-objection",
+    "INTERNO": "no-objection",
+    "INTERÉS": "no-objection",
+    "INTRIGA": "no-objection",
+    "INUSUAL": "no-objection",
+    "INVADIR": "no-objection",
+    "INVENTO": "no-objection",
+    "INVITAR": "no-objection",
+    "INÉDITO": "no-objection",
+    "INÚTIL": "no-objection",
+    "IRONÍA": "no-objection",
+    "IRÓNICO": "no-objection",
+    "ISRAELÍ": "no-objection",
+    "JACINTO": "no-objection",
+    "JAPONÉS": "no-objection",
+    "JARDÍN": "no-objection",
+    "JERSEY": "no-objection",
+    "JORNADA": "no-objection",
+    "JUEVES": "no-objection",
+    "JUGADOR": "no-objection",
+    "JUGUETE": "no-objection",
+    "JUICIO": "no-objection",
+    "JULIANA": "no-objection",
+    "JUNIOR": "no-objection",
+    "JUNTAR": "no-objection",
+    "JURADO": "no-objection",
+    "JUVENIL": "no-objection",
+    "JUZGADO": "no-objection",
+    "JUZGAR": "no-objection",
+    "LABORAL": "no-objection",
+    "LADRÓN": "no-objection",
+    "LAGUNA": "no-objection",
+    "LAMENTO": "no-objection",
+    "LANZADA": "no-objection",
+    "LANZAR": "no-objection",
+    "LANZAS": "exclude",
+    "LATERAL": "no-objection",
+    "LATINO": "no-objection",
+    "LATITUD": "no-objection",
+    "LAUREL": "no-objection",
+    "LAVADO": "no-objection",
+    "LEALTAD": "no-objection",
+    "LECCIÓN": "no-objection",
+    "LECHUGA": "no-objection",
+    "LECTOR": "no-objection",
+    "LECTURA": "no-objection",
+    "LEGADO": "no-objection",
+    "LEGIÓN": "no-objection",
+    "LEJANO": "no-objection",
+    "LENGUA": "no-objection",
+    "LENTES": "exclude",
+    "LESIÓN": "no-objection",
+    "LEVANTE": "no-objection",
+    "LEYENDA": "no-objection",
+    "LIBERAL": "no-objection",
+    "LIBERAR": "no-objection",
+    "LIBRETA": "no-objection",
+    "LIDERAR": "no-objection",
+    "LIDIAR": "no-objection",
+    "LIENZO": "no-objection",
+    "LIGADA": "no-objection",
+    "LIGADO": "no-objection",
+    "LIGERO": "no-objection",
+    "LIMITAR": "no-objection",
+    "LIMPIAR": "no-objection",
+    "LIMPIO": "no-objection",
+    "LINAJE": "no-objection",
+    "LINEAL": "no-objection",
+    "LISTADO": "no-objection",
+    "LITERAL": "no-objection",
+    "LITORAL": "no-objection",
+    "LLAMADA": "no-objection",
+    "LLAMADO": "no-objection",
+    "LLAMAR": "no-objection",
+    "LLANOS": "exclude",
+    "LLANTO": "no-objection",
+    "LLANURA": "no-objection",
+    "LLEGADA": "no-objection",
+    "LLEGAR": "no-objection",
+    "LLENAR": "no-objection",
+    "LLEVAR": "no-objection",
+    "LLORAR": "no-objection",
+    "LLOVER": "no-objection",
+    "LLUVIA": "no-objection",
+    "LOCURA": "no-objection",
+    "LOGRADO": "no-objection",
+    "LOGRAR": "no-objection",
+    "LOTERÍA": "no-objection",
+    "LOZANO": "no-objection",
+    "LUCHAR": "no-objection",
+    "LÁMPARA": "no-objection",
+    "LÁSTIMA": "no-objection",
+    "LÍMITE": "no-objection",
+    "LÍQUIDO": "no-objection",
+    "LÓGICA": "no-objection",
+    "LÓGICO": "no-objection",
+    "MACHADO": "exclude",
+    "MADERA": "no-objection",
+    "MADERO": "no-objection",
+    "MADUREZ": "no-objection",
+    "MADURO": "no-objection",
+    "MAESTRE": "no-objection",
+    "MAESTRO": "no-objection",
+    "MALDAD": "no-objection",
+    "MALDITA": "exclude",
+    "MALDITO": "no-objection",
+    "MALETA": "no-objection",
+    "MALVADO": "no-objection",
+    "MAMADA": "suitability-review",
+    "MANADA": "no-objection",
+    "MANCHA": "no-objection",
+    "MANDAR": "no-objection",
+    "MANDATO": "no-objection",
+    "MANEJAR": "no-objection",
+    "MANEJO": "no-objection",
+    "MANERA": "no-objection",
+    "MANOLO": "exclude",
+    "MANSIÓN": "no-objection",
+    "MANTECA": "no-objection",
+    "MANUAL": "no-objection",
+    "MANUELA": "exclude",
+    "MANZANA": "no-objection",
+    "MAPUCHE": "no-objection",
+    "MARATÓN": "no-objection",
+    "MARCADO": "no-objection",
+    "MARCAR": "no-objection",
+    "MARCHA": "no-objection",
+    "MARCHAR": "no-objection",
+    "MARCIAL": "no-objection",
+    "MARFIL": "no-objection",
+    "MARGEN": "no-objection",
+    "MARIANO": "no-objection",
+    "MARIDO": "no-objection",
+    "MARINA": "no-objection",
+    "MARINO": "no-objection",
+    "MARQUÉS": "no-objection",
+    "MARRÓN": "no-objection",
+    "MARTES": "no-objection",
+    "MASACRE": "no-objection",
+    "MASAJE": "no-objection",
+    "MASCOTA": "no-objection",
+    "MASIVO": "no-objection",
+    "MATANZA": "no-objection",
+    "MATERIA": "no-objection",
+    "MATERNO": "no-objection",
+    "MATRIZ": "no-objection",
+    "MAYORÍA": "no-objection",
+    "MAÑANA": "no-objection",
+    "MEDALLA": "no-objection",
+    "MEDIANA": "no-objection",
+    "MEDIANO": "no-objection",
+    "MEDIDA": "no-objection",
+    "MEDINA": "no-objection",
+    "MEDITAR": "no-objection",
+    "MEJILLA": "no-objection",
+    "MEJORA": "no-objection",
+    "MEJORAR": "no-objection",
+    "MELODÍA": "no-objection",
+    "MEMORIA": "no-objection",
+    "MENCIÓN": "no-objection",
+    "MENSAJE": "no-objection",
+    "MENSUAL": "no-objection",
+    "MENTAL": "no-objection",
+    "MENTIR": "no-objection",
+    "MENTIRA": "no-objection",
+    "MENUDO": "no-objection",
+    "MERCADO": "no-objection",
+    "MERCED": "no-objection",
+    "METERSE": "no-objection",
+    "MEZCLA": "no-objection",
+    "MEZCLAR": "no-objection",
+    "MIEMBRO": "no-objection",
+    "MILAGRO": "no-objection",
+    "MILENIO": "no-objection",
+    "MILICIA": "no-objection",
+    "MILITAR": "no-objection",
+    "MILLÓN": "no-objection",
+    "MINERAL": "no-objection",
+    "MINERO": "no-objection",
+    "MINERÍA": "no-objection",
+    "MINORÍA": "no-objection",
+    "MINUTO": "no-objection",
+    "MIRADA": "no-objection",
+    "MIRADO": "no-objection",
+    "MIRADOR": "no-objection",
+    "MIRANDA": "exclude",
+    "MISERIA": "no-objection",
+    "MISIÓN": "no-objection",
+    "MOCHILA": "no-objection",
+    "MOCIÓN": "no-objection",
+    "MODALES": "exclude",
+    "MODELO": "no-objection",
+    "MODERNO": "no-objection",
+    "MODESTO": "no-objection",
+    "MOISÉS": "no-objection",
+    "MOJADO": "no-objection",
+    "MOLESTO": "no-objection",
+    "MOLINO": "no-objection",
+    "MOMENTO": "no-objection",
+    "MONARCA": "no-objection",
+    "MONEDA": "no-objection",
+    "MONITOR": "no-objection",
+    "MONTADO": "no-objection",
+    "MONTAJE": "no-objection",
+    "MONTAR": "no-objection",
+    "MONTAÑA": "no-objection",
+    "MONTERO": "no-objection",
+    "MONTÓN": "no-objection",
+    "MORADA": "no-objection",
+    "MORADO": "no-objection",
+    "MORENA": "no-objection",
+    "MORENO": "no-objection",
+    "MORIRSE": "no-objection",
+    "MORTAL": "no-objection",
+    "MOSCAS": "exclude",
+    "MOSTAZA": "no-objection",
+    "MOSTRAR": "no-objection",
+    "MOTIVO": "no-objection",
+    "MOVERSE": "no-objection",
+    "MUDANZA": "no-objection",
+    "MUDARSE": "no-objection",
+    "MUEBLE": "no-objection",
+    "MUELLE": "no-objection",
+    "MUELLES": "exclude",
+    "MUERTE": "no-objection",
+    "MUERTO": "no-objection",
+    "MUESTRA": "no-objection",
+    "MUNDIAL": "no-objection",
+    "MURALLA": "no-objection",
+    "MUSICAL": "no-objection",
+    "MUÑECA": "no-objection",
+    "MUÑECO": "no-objection",
+    "MÁGICA": "exclude",
+    "MÁGICO": "no-objection",
+    "MÁLAGA": "no-objection",
+    "MÁQUINA": "no-objection",
+    "MÁRMOL": "no-objection",
+    "MÁRTIR": "no-objection",
+    "MÁSCARA": "no-objection",
+    "MÁSTER": "no-objection",
+    "MÁXIMA": "no-objection",
+    "MÁXIMO": "no-objection",
+    "MÉDICO": "no-objection",
+    "MÉDULA": "no-objection",
+    "MÉRITO": "no-objection",
+    "MÉTODO": "no-objection",
+    "MÍNIMO": "no-objection",
+    "MÍTICO": "no-objection",
+    "MÓDULO": "no-objection",
+    "MÚSCULO": "no-objection",
+    "MÚSICA": "no-objection",
+    "MÚSICO": "no-objection",
+    "NACIDA": "exclude",
+    "NACIDO": "no-objection",
+    "NACIÓN": "no-objection",
+    "NARANJA": "no-objection",
+    "NATIVO": "no-objection",
+    "NATURAL": "no-objection",
+    "NAVAJA": "no-objection",
+    "NAVARRO": "no-objection",
+    "NAVEGAR": "no-objection",
+    "NAVIDAD": "no-objection",
+    "NEGADO": "no-objection",
+    "NEGARSE": "no-objection",
+    "NEGOCIO": "no-objection",
+    "NERVIO": "no-objection",
+    "NEUTRAL": "no-objection",
+    "NEVADA": "no-objection",
+    "NEVERA": "no-objection",
+    "NEWTON": "no-objection",
+    "NIEBLA": "no-objection",
+    "NINGUNO": "no-objection",
+    "NINGÚN": "no-objection",
+    "NOBLEZA": "no-objection",
+    "NOCIÓN": "no-objection",
+    "NOMBRAR": "no-objection",
+    "NOMBRE": "no-objection",
+    "NOMINAL": "no-objection",
+    "NORESTE": "no-objection",
+    "NORMAL": "no-objection",
+    "NOTABLE": "no-objection",
+    "NOTARIO": "no-objection",
+    "NOTICIA": "no-objection",
+    "NOTORIO": "no-objection",
+    "NOVEDAD": "no-objection",
+    "NOVELA": "no-objection",
+    "NOVENA": "no-objection",
+    "NOVENO": "no-objection",
+    "NOVENTA": "no-objection",
+    "NUBLADO": "no-objection",
+    "NUCLEAR": "no-objection",
+    "NUESTRO": "no-objection",
+    "NÓMINA": "no-objection",
+    "NÚCLEO": "no-objection",
+    "NÚMERO": "no-objection",
+    "OBISPO": "no-objection",
+    "OBJETO": "no-objection",
+    "OBLIGAR": "no-objection",
+    "OBRADOR": "no-objection",
+    "OBRERA": "no-objection",
+    "OBRERO": "no-objection",
+    "OBTENER": "no-objection",
+    "OCASIÓN": "no-objection",
+    "OCHENTA": "no-objection",
+    "OCTAVA": "no-objection",
+    "OCTAVO": "no-objection",
+    "OCTUBRE": "no-objection",
+    "OCULAR": "no-objection",
+    "OCULTAR": "no-objection",
+    "OCULTO": "no-objection",
+    "OCUPADO": "no-objection",
+    "OCUPAR": "no-objection",
+    "OCURRIR": "no-objection",
+    "OCÉANO": "no-objection",
+    "OFENDER": "no-objection",
+    "OFENSA": "no-objection",
+    "OFERTA": "no-objection",
+    "OFICIAL": "no-objection",
+    "OFICINA": "no-objection",
+    "OFICIO": "no-objection",
+    "OFICIOS": "exclude",
+    "OFRECER": "no-objection",
+    "OFRENDA": "no-objection",
+    "OLVIDAR": "no-objection",
+    "OLVIDO": "no-objection",
+    "OMBLIGO": "no-objection",
+    "OMISIÓN": "no-objection",
+    "OPCIÓN": "no-objection",
+    "OPERAR": "no-objection",
+    "OPINAR": "no-objection",
+    "OPINIÓN": "no-objection",
+    "OPUESTO": "no-objection",
+    "ORACIÓN": "no-objection",
+    "ORADOR": "no-objection",
+    "ORDENAR": "no-objection",
+    "ORGASMO": "no-objection",
+    "ORGULLO": "no-objection",
+    "ORIENTE": "no-objection",
+    "ORIGEN": "no-objection",
+    "ORILLA": "no-objection",
+    "ORILLAS": "exclude",
+    "OSCURO": "no-objection",
+    "OTORGAR": "no-objection",
+    "OXÍGENO": "no-objection",
+    "PADECER": "no-objection",
+    "PADRINO": "no-objection",
+    "PADRÓN": "no-objection",
+    "PAGADO": "no-objection",
+    "PAISAJE": "no-objection",
+    "PALABRA": "no-objection",
+    "PALACIO": "no-objection",
+    "PALANCA": "no-objection",
+    "PALETA": "no-objection",
+    "PALIZA": "no-objection",
+    "PALOMA": "no-objection",
+    "PALOMAS": "exclude",
+    "PANAMÁ": "no-objection",
+    "PANCHO": "no-objection",
+    "PANTANO": "no-objection",
+    "PAQUETE": "no-objection",
+    "PARADA": "no-objection",
+    "PARADO": "no-objection",
+    "PARAJE": "no-objection",
+    "PARAÍSO": "no-objection",
+    "PARCELA": "no-objection",
+    "PARCHE": "no-objection",
+    "PARCIAL": "no-objection",
+    "PARECER": "no-objection",
+    "PAREJA": "no-objection",
+    "PARODIA": "no-objection",
+    "PARQUE": "no-objection",
+    "PARTES": "exclude",
+    "PARTIDA": "no-objection",
+    "PARTIDO": "no-objection",
+    "PARTIR": "no-objection",
+    "PASADA": "no-objection",
+    "PASADO": "no-objection",
+    "PASAJE": "no-objection",
+    "PASARSE": "no-objection",
+    "PASCUA": "no-objection",
+    "PASEAR": "no-objection",
+    "PASILLO": "no-objection",
+    "PASIVO": "no-objection",
+    "PASIÓN": "no-objection",
+    "PASTEL": "no-objection",
+    "PASTOR": "no-objection",
+    "PATADA": "no-objection",
+    "PATENTE": "no-objection",
+    "PATRIA": "no-objection",
+    "PATRÓN": "no-objection",
+    "PAYASO": "no-objection",
+    "PAÑUELO": "no-objection",
+    "PECADO": "no-objection",
+    "PEDAZO": "no-objection",
+    "PEDIDO": "no-objection",
+    "PEINADO": "no-objection",
+    "PELEAR": "no-objection",
+    "PELIGRO": "no-objection",
+    "PELOTA": "no-objection",
+    "PELUCHE": "no-objection",
+    "PENDEJO": "exclude",
+    "PENSAR": "no-objection",
+    "PENSIÓN": "no-objection",
+    "PEQUEÑO": "no-objection",
+    "PERDER": "no-objection",
+    "PERDIDA": "no-objection",
+    "PERDIDO": "no-objection",
+    "PERDÓN": "no-objection",
+    "PEREZA": "no-objection",
+    "PERFIL": "no-objection",
+    "PERFUME": "no-objection",
+    "PERIODO": "no-objection",
+    "PERMISO": "no-objection",
+    "PERRITO": "no-objection",
+    "PERSONA": "no-objection",
+    "PERUANO": "no-objection",
+    "PERÍODO": "no-objection",
+    "PESADO": "no-objection",
+    "PESCADO": "no-objection",
+    "PESCAR": "no-objection",
+    "PICADA": "no-objection",
+    "PICADO": "no-objection",
+    "PICANTE": "no-objection",
+    "PIEDAD": "no-objection",
+    "PIEDRA": "no-objection",
+    "PIENSO": "no-objection",
+    "PIERNA": "no-objection",
+    "PILETA": "no-objection",
+    "PILLADO": "no-objection",
+    "PILOTO": "no-objection",
+    "PINCHE": "suitability-review",
+    "PINTADA": "no-objection",
+    "PINTAR": "no-objection",
+    "PINTOR": "no-objection",
+    "PINTURA": "no-objection",
+    "PIONERO": "no-objection",
+    "PIRATA": "no-objection",
+    "PISCINA": "no-objection",
+    "PISTOLA": "no-objection",
+    "PIZARRA": "no-objection",
+    "PLACER": "no-objection",
+    "PLANCHA": "no-objection",
+    "PLANEAR": "no-objection",
+    "PLANETA": "no-objection",
+    "PLANTA": "no-objection",
+    "PLANTAR": "no-objection",
+    "PLANTEL": "no-objection",
+    "PLASMA": "no-objection",
+    "PLATINO": "no-objection",
+    "PLATÓN": "no-objection",
+    "PLURAL": "no-objection",
+    "PLÁTANO": "no-objection",
+    "POBLADO": "no-objection",
+    "POBREZA": "no-objection",
+    "PODRIDO": "no-objection",
+    "POESÍA": "no-objection",
+    "POLACO": "no-objection",
+    "POLICÍA": "no-objection",
+    "PONERLA": "suitability-review",
+    "PONERSE": "no-objection",
+    "POPULAR": "no-objection",
+    "POQUITO": "no-objection",
+    "PORCIÓN": "no-objection",
+    "PORQUE": "no-objection",
+    "PORQUÉ": "no-objection",
+    "PORTADA": "no-objection",
+    "PORTAL": "no-objection",
+    "PORTERO": "no-objection",
+    "PORTEÑO": "no-objection",
+    "POSADA": "no-objection",
+    "POSEER": "no-objection",
+    "POSIBLE": "no-objection",
+    "POSTAL": "no-objection",
+    "POSTRE": "no-objection",
+    "POSTURA": "no-objection",
+    "POTABLE": "no-objection",
+    "POTASIO": "no-objection",
+    "POTENTE": "no-objection",
+    "POTOSÍ": "no-objection",
+    "POÉTICO": "no-objection",
+    "PRECIO": "no-objection",
+    "PRECISO": "no-objection",
+    "PREDIO": "no-objection",
+    "PREMIO": "no-objection",
+    "PREMISA": "no-objection",
+    "PRENDA": "no-objection",
+    "PRENDER": "no-objection",
+    "PRENSA": "no-objection",
+    "PRESIÓN": "no-objection",
+    "PRESTAR": "no-objection",
+    "PRESTO": "no-objection",
+    "PREVIO": "no-objection",
+    "PRIETO": "no-objection",
+    "PRIMER": "no-objection",
+    "PRIMERA": "no-objection",
+    "PRIMERO": "no-objection",
+    "PRISIÓN": "no-objection",
+    "PRIVADO": "no-objection",
+    "PROBAR": "no-objection",
+    "PROCESO": "no-objection",
+    "PROFETA": "no-objection",
+    "PROMESA": "no-objection",
+    "PRONTO": "no-objection",
+    "PROPIO": "no-objection",
+    "PROVEER": "no-objection",
+    "PRUEBA": "no-objection",
+    "PRÓJIMO": "no-objection",
+    "PRÓLOGO": "no-objection",
+    "PRÓXIMO": "no-objection",
+    "PUEBLO": "no-objection",
+    "PUENTE": "no-objection",
+    "PUERTA": "no-objection",
+    "PUERTO": "no-objection",
+    "PUESTA": "no-objection",
+    "PUESTO": "no-objection",
+    "PULGAR": "no-objection",
+    "PULMÓN": "no-objection",
+    "PUNTUAL": "no-objection",
+    "PUREZA": "no-objection",
+    "PUÑADO": "no-objection",
+    "PÁGINA": "no-objection",
+    "PÁJARO": "no-objection",
+    "PÁLIDO": "no-objection",
+    "PÁNICO": "no-objection",
+    "PÁRRAFO": "no-objection",
+    "PÁRROCO": "no-objection",
+    "PÉRDIDA": "no-objection",
+    "PÉSIMO": "no-objection",
+    "PÓLVORA": "no-objection",
+    "PÚBLICO": "no-objection",
+    "PÚRPURA": "no-objection",
+    "QUECHUA": "no-objection",
+    "QUEDAR": "no-objection",
+    "QUEMADA": "no-objection",
+    "QUEMADO": "no-objection",
+    "QUEMAR": "no-objection",
+    "QUERER": "no-objection",
+    "QUERIDO": "no-objection",
+    "QUIEBRA": "no-objection",
+    "QUIERO": "exclude",
+    "QUIETO": "no-objection",
+    "QUIJOTE": "no-objection",
+    "QUINCE": "no-objection",
+    "QUINTA": "no-objection",
+    "QUINTO": "no-objection",
+    "QUITAR": "no-objection",
+    "QUIZÁS": "no-objection",
+    "QUÍMICA": "no-objection",
+    "QUÍMICO": "no-objection",
+    "RACIAL": "no-objection",
+    "RACISMO": "no-objection",
+    "RACISTA": "no-objection",
+    "RADIAL": "no-objection",
+    "RADICAL": "no-objection",
+    "RANCHO": "no-objection",
+    "RAPIDEZ": "no-objection",
+    "RASTRO": "no-objection",
+    "RATITO": "no-objection",
+    "RAÍCES": "exclude",
+    "REACTOR": "no-objection",
+    "REBAÑO": "no-objection",
+    "REBELDE": "no-objection",
+    "RECETA": "no-objection",
+    "RECHAZO": "no-objection",
+    "RECIBIR": "no-objection",
+    "RECIBO": "no-objection",
+    "RECIBÍ": "no-objection",
+    "RECINTO": "no-objection",
+    "RECITAL": "no-objection",
+    "RECIÉN": "no-objection",
+    "RECLAMO": "no-objection",
+    "RECOGER": "no-objection",
+    "RECORTE": "no-objection",
+    "RECREO": "no-objection",
+    "RECTOR": "no-objection",
+    "RECURSO": "no-objection",
+    "REDONDA": "no-objection",
+    "REDONDO": "no-objection",
+    "REDUCIR": "no-objection",
+    "REFLEJO": "no-objection",
+    "REFORMA": "no-objection",
+    "REFUGIO": "no-objection",
+    "REGALA": "exclude",
+    "REGALAR": "no-objection",
+    "REGALO": "no-objection",
+    "REGENTE": "no-objection",
+    "REGIÓN": "no-objection",
+    "REGRESO": "no-objection",
+    "REGULAR": "no-objection",
+    "RELATO": "no-objection",
+    "RELIEVE": "no-objection",
+    "RELLENO": "no-objection",
+    "RELOJES": "exclude",
+    "REMATE": "no-objection",
+    "REMEDIO": "no-objection",
+    "REMERA": "exclude",
+    "REMOTO": "no-objection",
+    "REMOVER": "no-objection",
+    "RENCOR": "no-objection",
+    "RENDIR": "no-objection",
+    "RENOVAR": "no-objection",
+    "REPARAR": "no-objection",
+    "REPARTO": "no-objection",
+    "REPASO": "no-objection",
+    "REPENTE": "no-objection",
+    "REPETIR": "no-objection",
+    "REPLETO": "no-objection",
+    "REPORTE": "no-objection",
+    "REPOSO": "no-objection",
+    "RESACA": "no-objection",
+    "RESCATE": "no-objection",
+    "RESERVA": "no-objection",
+    "RESEÑA": "no-objection",
+    "RESPETO": "no-objection",
+    "RESPIRO": "no-objection",
+    "RESTOS": "exclude",
+    "RESUMEN": "no-objection",
+    "RETENER": "no-objection",
+    "RETIRAR": "no-objection",
+    "RETIRO": "no-objection",
+    "RETORNO": "no-objection",
+    "RETRATO": "no-objection",
+    "REUNIR": "no-objection",
+    "REUNIÓN": "no-objection",
+    "REVELAR": "no-objection",
+    "REVISAR": "no-objection",
+    "REVISTA": "no-objection",
+    "REVIVIR": "no-objection",
+    "REVOCAR": "no-objection",
+    "REÍRSE": "no-objection",
+    "RIBERA": "no-objection",
+    "RIESGO": "no-objection",
+    "RINCÓN": "no-objection",
+    "RIQUEZA": "no-objection",
+    "RITUAL": "no-objection",
+    "RIVERA": "exclude",
+    "RODAJE": "no-objection",
+    "RODILLA": "no-objection",
+    "ROMANA": "no-objection",
+    "ROMANCE": "no-objection",
+    "ROMANO": "no-objection",
+    "ROMERO": "no-objection",
+    "ROMPER": "no-objection",
+    "ROSADO": "no-objection",
+    "ROSARIO": "no-objection",
+    "ROSTRO": "no-objection",
+    "ROTURA": "no-objection",
+    "RUINAS": "exclude",
+    "RUPTURA": "no-objection",
+    "RUTINA": "no-objection",
+    "RÁPIDO": "no-objection",
+    "RÉCORD": "no-objection",
+    "RÉGIMEN": "no-objection",
+    "RÉPLICA": "no-objection",
+    "SABANA": "no-objection",
+    "SABROSO": "no-objection",
+    "SACARSE": "no-objection",
+    "SAGRADO": "no-objection",
+    "SALADO": "no-objection",
+    "SALARIO": "no-objection",
+    "SALIDA": "no-objection",
+    "SALIRSE": "no-objection",
+    "SALIVA": "no-objection",
+    "SALMÓN": "no-objection",
+    "SALTAR": "no-objection",
+    "SALUDA": "no-objection",
+    "SALUDAR": "no-objection",
+    "SALUDO": "no-objection",
+    "SALUDOS": "no-objection",
+    "SALVADO": "no-objection",
+    "SALVAJE": "no-objection",
+    "SALVAR": "no-objection",
+    "SANCHO": "no-objection",
+    "SANCIÓN": "no-objection",
+    "SANGRE": "no-objection",
+    "SANIDAD": "no-objection",
+    "SAQUEO": "no-objection",
+    "SAUDITA": "no-objection",
+    "SECCIÓN": "no-objection",
+    "SECRETO": "no-objection",
+    "SECTOR": "no-objection",
+    "SECUELA": "no-objection",
+    "SECULAR": "no-objection",
+    "SEGUIDA": "no-objection",
+    "SEGUIDO": "no-objection",
+    "SEGUIR": "no-objection",
+    "SEGUNDA": "no-objection",
+    "SEGUNDO": "no-objection",
+    "SEGURO": "no-objection",
+    "SEMANA": "no-objection",
+    "SEMANAL": "no-objection",
+    "SEMBRAR": "no-objection",
+    "SEMILLA": "no-objection",
+    "SENADO": "no-objection",
+    "SENADOR": "no-objection",
+    "SENDERO": "no-objection",
+    "SENSATO": "no-objection",
+    "SENSUAL": "no-objection",
+    "SENTADA": "no-objection",
+    "SENTADO": "no-objection",
+    "SENTAR": "no-objection",
+    "SENTIDO": "no-objection",
+    "SENTIR": "no-objection",
+    "SEPARAR": "no-objection",
+    "SEQUÍA": "no-objection",
+    "SERBIO": "no-objection",
+    "SERMÓN": "no-objection",
+    "SERRANO": "no-objection",
+    "SERVIR": "no-objection",
+    "SESENTA": "no-objection",
+    "SESIÓN": "no-objection",
+    "SETENTA": "no-objection",
+    "SEVERO": "no-objection",
+    "SEXUAL": "no-objection",
+    "SEÑALAR": "no-objection",
+    "SEÑORA": "no-objection",
+    "SEÑORÍA": "no-objection",
+    "SIEMBRA": "no-objection",
+    "SIEMPRE": "no-objection",
+    "SIERRA": "no-objection",
+    "SIESTA": "no-objection",
+    "SILLÓN": "no-objection",
+    "SIMILAR": "no-objection",
+    "SIMPLE": "no-objection",
+    "SINCERO": "no-objection",
+    "SINGLE": "exclude",
+    "SIRENA": "no-objection",
+    "SISTEMA": "no-objection",
+    "SITUADO": "exclude",
+    "SOBRES": "exclude",
+    "SOBRINA": "no-objection",
+    "SOBRINO": "no-objection",
+    "SOCIAL": "no-objection",
+    "SOCORRO": "no-objection",
+    "SOLANO": "no-objection",
+    "SOLDADO": "no-objection",
+    "SOLEDAD": "no-objection",
+    "SOLEMNE": "no-objection",
+    "SOLISTA": "no-objection",
+    "SOLTAR": "no-objection",
+    "SOLTERO": "no-objection",
+    "SOMBRA": "no-objection",
+    "SOMETER": "no-objection",
+    "SONIDO": "no-objection",
+    "SONRISA": "no-objection",
+    "SOPORTE": "no-objection",
+    "SORTEO": "no-objection",
+    "SUBASTA": "no-objection",
+    "SUBIDA": "no-objection",
+    "SUBLIME": "no-objection",
+    "SUCEDER": "no-objection",
+    "SUCESO": "no-objection",
+    "SUCESOR": "no-objection",
+    "SUDESTE": "no-objection",
+    "SUEGRA": "no-objection",
+    "SUEGRO": "no-objection",
+    "SUELDO": "no-objection",
+    "SUELTA": "no-objection",
+    "SUELTO": "no-objection",
+    "SUERTE": "no-objection",
+    "SUFRIDO": "no-objection",
+    "SUFRIR": "no-objection",
+    "SUGERIR": "no-objection",
+    "SUICIDA": "no-objection",
+    "SUJETO": "no-objection",
+    "SULTÁN": "no-objection",
+    "SUMANDO": "no-objection",
+    "SUMARSE": "no-objection",
+    "SUPERAR": "no-objection",
+    "SUPONER": "no-objection",
+    "SUPREMA": "no-objection",
+    "SUPREMO": "no-objection",
+    "SURESTE": "no-objection",
+    "SURGIR": "no-objection",
+    "SUSPIRO": "no-objection",
+    "SÁBADO": "no-objection",
+    "SÁTIRA": "no-objection",
+    "SÉPTIMA": "no-objection",
+    "SÉPTIMO": "no-objection",
+    "SÍMBOLO": "no-objection",
+    "SÍNTOMA": "no-objection",
+    "SÓLIDO": "no-objection",
+    "SÓTANO": "no-objection",
+    "TABACO": "no-objection",
+    "TABLAS": "exclude",
+    "TABLERO": "no-objection",
+    "TALENTO": "no-objection",
+    "TALLER": "no-objection",
+    "TAMAÑO": "no-objection",
+    "TAMBIÉN": "no-objection",
+    "TAMBOR": "no-objection",
+    "TAMPOCO": "no-objection",
+    "TANQUE": "no-objection",
+    "TANTOS": "exclude",
+    "TARADO": "suitability-review",
+    "TARDAR": "no-objection",
+    "TARIFA": "no-objection",
+    "TARJETA": "no-objection",
+    "TATUAJE": "no-objection",
+    "TAXISTA": "no-objection",
+    "TEATRAL": "no-objection",
+    "TEATRO": "no-objection",
+    "TECLADO": "no-objection",
+    "TEJADO": "no-objection",
+    "TEJIDO": "no-objection",
+    "TEMBLAR": "no-objection",
+    "TEMBLOR": "no-objection",
+    "TEMPLE": "no-objection",
+    "TEMPLO": "no-objection",
+    "TENDIDO": "no-objection",
+    "TENEDOR": "no-objection",
+    "TENSIÓN": "no-objection",
+    "TEORÍA": "no-objection",
+    "TEQUILA": "no-objection",
+    "TERAPIA": "no-objection",
+    "TERCER": "no-objection",
+    "TERCERA": "no-objection",
+    "TERCERO": "no-objection",
+    "TERCIO": "no-objection",
+    "TERNURA": "no-objection",
+    "TERRAZA": "no-objection",
+    "TERRENO": "no-objection",
+    "TERROR": "no-objection",
+    "TESORO": "no-objection",
+    "TESTIGO": "no-objection",
+    "TEXTIL": "no-objection",
+    "TEXTURA": "no-objection",
+    "TEÓRICO": "no-objection",
+    "TIBURÓN": "no-objection",
+    "TIEMPO": "no-objection",
+    "TIENDA": "no-objection",
+    "TIERNO": "no-objection",
+    "TIERRA": "no-objection",
+    "TIMBRE": "no-objection",
+    "TIRADA": "no-objection",
+    "TIRADO": "no-objection",
+    "TIRANO": "no-objection",
+    "TIRANÍA": "no-objection",
+    "TITULAR": "no-objection",
+    "TOALLA": "no-objection",
+    "TOBILLO": "no-objection",
+    "TOCADO": "no-objection",
+    "TODAVÍA": "no-objection",
+    "TOLERAR": "no-objection",
+    "TOMARSE": "no-objection",
+    "TOMATE": "no-objection",
+    "TORNEO": "no-objection",
+    "TORREÓN": "no-objection",
+    "TORTUGA": "no-objection",
+    "TORTURA": "no-objection",
+    "TRABAJO": "no-objection",
+    "TRAGAR": "no-objection",
+    "TRAIDOR": "no-objection",
+    "TRAMPA": "no-objection",
+    "TRASERO": "no-objection",
+    "TRATADO": "no-objection",
+    "TRATAR": "no-objection",
+    "TRAUMA": "no-objection",
+    "TRAVÉS": "no-objection",
+    "TRAZADO": "no-objection",
+    "TRAZAR": "no-objection",
+    "TREGUA": "no-objection",
+    "TREINTA": "no-objection",
+    "TRIBUNA": "no-objection",
+    "TRIBUTO": "no-objection",
+    "TRIPLE": "no-objection",
+    "TRISTE": "no-objection",
+    "TRIUNFO": "no-objection",
+    "TRONCO": "no-objection",
+    "TRÁFICO": "no-objection",
+    "TRÁGICO": "no-objection",
+    "TRÁILER": "no-objection",
+    "TRÁMITE": "no-objection",
+    "TSUNAMI": "no-objection",
+    "TUBERÍA": "no-objection",
+    "TUITEAR": "no-objection",
+    "TURISMO": "no-objection",
+    "TURISTA": "no-objection",
+    "TUTELA": "no-objection",
+    "TÁCTICA": "no-objection",
+    "TÉCNICA": "no-objection",
+    "TÉCNICO": "no-objection",
+    "TÉRMICA": "no-objection",
+    "TÉRMINO": "no-objection",
+    "TÍMIDO": "no-objection",
+    "TÍPICO": "no-objection",
+    "TÍTULO": "no-objection",
+    "TÓXICO": "no-objection",
+    "UBICADO": "no-objection",
+    "UBICAR": "no-objection",
+    "UMBRAL": "no-objection",
+    "UNIDAD": "no-objection",
+    "UNIRSE": "no-objection",
+    "UNÁNIME": "no-objection",
+    "URANIO": "no-objection",
+    "URBANO": "no-objection",
+    "URGENTE": "no-objection",
+    "USARSE": "no-objection",
+    "USTEDES": "exclude",
+    "USUARIO": "no-objection",
+    "UTOPÍA": "no-objection",
+    "VACANTE": "no-objection",
+    "VACUNA": "no-objection",
+    "VAGINA": "no-objection",
+    "VALIDEZ": "no-objection",
+    "VALIDO": "no-objection",
+    "VALIOSO": "no-objection",
+    "VALORAR": "no-objection",
+    "VAMPIRO": "no-objection",
+    "VARIAR": "no-objection",
+    "VARIOS": "exclude",
+    "VECINO": "no-objection",
+    "VEGETAL": "no-objection",
+    "VEINTE": "no-objection",
+    "VELADA": "no-objection",
+    "VENCER": "no-objection",
+    "VENCIDA": "no-objection",
+    "VENDER": "no-objection",
+    "VENDIDO": "no-objection",
+    "VENENO": "no-objection",
+    "VENTAJA": "no-objection",
+    "VENTANA": "no-objection",
+    "VENTURA": "no-objection",
+    "VERANO": "no-objection",
+    "VERBAL": "no-objection",
+    "VERDAD": "no-objection",
+    "VEREDA": "no-objection",
+    "VERSIÓN": "no-objection",
+    "VERSUS": "no-objection",
+    "VESTIDO": "no-objection",
+    "VESTIR": "no-objection",
+    "VIABLE": "no-objection",
+    "VIAJAR": "no-objection",
+    "VIAJERO": "no-objection",
+    "VICARIO": "no-objection",
+    "VIDRIO": "no-objection",
+    "VIENTO": "no-objection",
+    "VIENTRE": "no-objection",
+    "VIERNES": "no-objection",
+    "VIGENTE": "no-objection",
+    "VIGILAR": "no-objection",
+    "VILLANO": "no-objection",
+    "VINAGRE": "no-objection",
+    "VIOLADO": "exclude",
+    "VIOLAR": "no-objection",
+    "VIOLETA": "no-objection",
+    "VIOLÍN": "no-objection",
+    "VIRGEN": "no-objection",
+    "VIRREY": "no-objection",
+    "VIRTUAL": "no-objection",
+    "VIRTUD": "no-objection",
+    "VISIBLE": "no-objection",
+    "VISITA": "no-objection",
+    "VISITAR": "no-objection",
+    "VISIÓN": "no-objection",
+    "VISTAS": "exclude",
+    "VISTAZO": "no-objection",
+    "VISUAL": "no-objection",
+    "VOCERO": "no-objection",
+    "VOLANDO": "no-objection",
+    "VOLANTE": "no-objection",
+    "VOLCÁN": "no-objection",
+    "VOLUMEN": "no-objection",
+    "VOLVER": "no-objection",
+    "VOMITAR": "no-objection",
+    "VUELTA": "no-objection",
+    "VUELTO": "no-objection",
+    "VULGAR": "no-objection",
+    "VÁLIDO": "no-objection",
+    "VÁLVULA": "no-objection",
+    "VÍCTIMA": "no-objection",
+    "VÍNCULO": "no-objection",
+    "VÍSPERA": "no-objection",
+    "WHISKY": "no-objection",
+    "ZAPATA": "no-objection",
+    "ZAPATO": "no-objection",
+    "ZÓCALO": "no-objection",
+    "ÁGUILA": "no-objection",
+    "ÁMBITO": "no-objection",
+    "ÁNGULO": "no-objection",
+    "ÁRBITRO": "no-objection",
+    "ÉNFASIS": "no-objection",
+    "ÉTNICO": "no-objection",
+    "ÍNDICE": "no-objection",
+    "ÍNDOLE": "no-objection",
+    "ÍNTIMO": "no-objection",
+    "ÓPTICA": "no-objection",
+    "ÓRBITA": "no-objection",
+    "ÓRGANO": "no-objection",
+    "ÚLTIMO": "no-objection"
+  }
+}

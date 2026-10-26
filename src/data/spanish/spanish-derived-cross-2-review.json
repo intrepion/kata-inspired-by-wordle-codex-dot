@@ -1,0 +1,262 @@
+{
+  "inputSha256": "5b2e0c9807279d34491b26001a6fcb3e2935083cb384de565b700b4b0c6eba04",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model cross-review of every unchanged proposed source record/POS/sense/frame/profile/context in the 39-root batch. Each approval confirms the exact new selected Spanish dictionary meaning rendered in original model English; different prior selections remain archival, not automatic authority or blended context. These are word-level lexical or grammatical fragments, not complete examples, dictionary-provided English, native-human certification or actual form-coverage counts. Every selected source record and zero-based sense was checked; contexts preserve regional, archaic, technical and subject restrictions. Only the explicit aspect subset is approved. No inferred mandatory clitic, changed profile, guessed English irregular form, new source scope or fabricated noun/object is authorized. Number-sensitive function words were assessed separately from English-invariant adjectives and possessives.",
+  "approved": [
+    {
+      "spanish": "abayado",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Botanical resemblance, not identity with a berry."
+    },
+    {
+      "spanish": "agatino",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Appearance of agate, not necessarily made of agate."
+    },
+    {
+      "spanish": "alible",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Capacity to nourish; no invented nutrient or clinical effect."
+    },
+    {
+      "spanish": "amohecer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Confirm only the explicit transitive coating cause; human treatment of an object is compatible with that operation. Do not substitute personal mold growth, an experiencer reversal or an implicit se construction. Keep rare usage."
+    },
+    {
+      "spanish": "bocal",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Selected mouth-related oral sense; no assumption that it means spoken rather than written."
+    },
+    {
+      "spanish": "bohordar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human tournament participant throws short lances; keep historical/archaic setting."
+    },
+    {
+      "spanish": "bribar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Evaluative old roguish-lifestyle sense; not every person lacking steady employment."
+    },
+    {
+      "spanish": "cienoso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Material full of mire or silt, not a moral accusation."
+    },
+    {
+      "spanish": "denario",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Denary as a property of ten, not the denarius coin."
+    },
+    {
+      "spanish": "endentar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human joiner interlocks timber; teeth are features of the joint, not the worker using anatomical teeth."
+    },
+    {
+      "spanish": "ensenar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive concealment in the bosom; do not accent-fold into enseñar."
+    },
+    {
+      "spanish": "estivo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Seasonal adjective, not a finite estivating or cooking operation."
+    },
+    {
+      "spanish": "frutecer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal plant agent. Bear means produce fruit; no unauthorized sense-qualified past/participle override."
+    },
+    {
+      "spanish": "fusco",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Dark and dull describes color only; retain rare usage."
+    },
+    {
+      "spanish": "gestero",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Disposition to use facial or hand gestures, not an invented mental condition."
+    },
+    {
+      "spanish": "gorrino",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Physical uncleanliness of a person, not the separate animal noun or moral sexual sense."
+    },
+    {
+      "spanish": "gredoso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Greda/clay qualities; not an assertion about every clay mineral."
+    },
+    {
+      "spanish": "gímnico",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Historical wrestling and imitative dances, not unrestricted modern gymnastics."
+    },
+    {
+      "spanish": "herbecer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Grass is the growth subject; the transitive header does not authorize I grow grass causation or a formal-you command."
+    },
+    {
+      "spanish": "hurgón",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Prying or probing disposition is within the source hurgar/fisgar alternatives; no finite personal verb is generated from the adjective."
+    },
+    {
+      "spanish": "héctico",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Historical consumption-related adjective; not modern English hectic or a new diagnosis."
+    },
+    {
+      "spanish": "jemal",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Thumb-to-index span, not a thumb-to-little-finger span or a fixed metric measurement."
+    },
+    {
+      "spanish": "lináceo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Linaceae family identity, not any plant with five petals."
+    },
+    {
+      "spanish": "líneo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Resolve only the botanical lináceo variant, not an unrelated linear adjective."
+    },
+    {
+      "spanish": "mareoso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Causing annoyance through repeated words or acts, not the dizzy experiencer."
+    },
+    {
+      "spanish": "mío",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Affectionate possessive remains lexical context; English my is invariant across the possessed noun gender and number, not an independent translation mine in every syntax."
+    },
+    {
+      "spanish": "napar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Sauce thickens; cook coating food is a different agent construction and is not authorized."
+    },
+    {
+      "spanish": "nervino",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Retain historical medicinal epithet and intended function; not a claim of verified efficacy."
+    },
+    {
+      "spanish": "ninguno",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "English attributive no is usable with both singular and plural nouns; no much/many-style number mismatch."
+    },
+    {
+      "spanish": "ocal",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Cocoon housing multiple larvae; not the separate showy fruit sense."
+    },
+    {
+      "spanish": "oledero",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Emitting odor without inventing pleasantness or foulness."
+    },
+    {
+      "spanish": "oledor",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Odor emitter, not a person or animal perceiving smell."
+    },
+    {
+      "spanish": "refriar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human-compatible transitive cooling cause; retain outdated usage."
+    },
+    {
+      "spanish": "relingar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Sailmaker or crew member sews edge ropes; sail is patient, not a personified sewing agent."
+    },
+    {
+      "spanish": "sutorio",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Resolve this art from the preceding source definition about making shoes; no unrelated art substituted."
+    },
+    {
+      "spanish": "suyo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "English possessor gender choices are genuine alternatives; Spanish agreement does not identify the owner. This differs from selecting much versus many based on the possessed noun number."
+    },
+    {
+      "spanish": "unidor",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Joining property, not an invented named machine or an independently inflected finite predicate."
+    },
+    {
+      "spanish": "zarposo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Clothing hem carries adhering mud; do not reinterpret zarpas as animal claws."
+    },
+    {
+      "spanish": "zato",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Animal-specific Venezuelan physical property; no human or personality interpretation inferred."
+    }
+  ],
+  "rejected": []
+}

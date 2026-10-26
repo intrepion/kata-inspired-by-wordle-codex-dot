@@ -1,0 +1,527 @@
+{
+  "inputSha256": "34e7327da7a5368dd75d77ff0c6ffe57e305f75bbe15fc942caf70fe11f60588",
+  "reviewer": "/root/review_standards",
+  "approved": [
+    {
+      "spanish": "abono"
+    },
+    {
+      "spanish": "achín"
+    },
+    {
+      "spanish": "adarme"
+    },
+    {
+      "spanish": "alarde"
+    },
+    {
+      "spanish": "alfiz"
+    },
+    {
+      "spanish": "algara"
+    },
+    {
+      "spanish": "almud"
+    },
+    {
+      "spanish": "alodio"
+    },
+    {
+      "spanish": "apego"
+    },
+    {
+      "spanish": "arriero"
+    },
+    {
+      "spanish": "atún"
+    },
+    {
+      "spanish": "ayate"
+    },
+    {
+      "spanish": "ayo"
+    },
+    {
+      "spanish": "baca"
+    },
+    {
+      "spanish": "batel"
+    },
+    {
+      "spanish": "bledo"
+    },
+    {
+      "spanish": "blocao"
+    },
+    {
+      "spanish": "bocata"
+    },
+    {
+      "spanish": "bonga"
+    },
+    {
+      "spanish": "bulla"
+    },
+    {
+      "spanish": "báculo"
+    },
+    {
+      "spanish": "cabria"
+    },
+    {
+      "spanish": "cacique"
+    },
+    {
+      "spanish": "carota"
+    },
+    {
+      "spanish": "cateto"
+    },
+    {
+      "spanish": "cayada"
+    },
+    {
+      "spanish": "cayado"
+    },
+    {
+      "spanish": "cañar"
+    },
+    {
+      "spanish": "cel"
+    },
+    {
+      "spanish": "cerero"
+    },
+    {
+      "spanish": "chicote"
+    },
+    {
+      "spanish": "chivato"
+    },
+    {
+      "spanish": "chulapo"
+    },
+    {
+      "spanish": "cierzo"
+    },
+    {
+      "spanish": "cirio"
+    },
+    {
+      "spanish": "cocada"
+    },
+    {
+      "spanish": "codal"
+    },
+    {
+      "spanish": "cora"
+    },
+    {
+      "spanish": "cordero"
+    },
+    {
+      "spanish": "coroza"
+    },
+    {
+      "spanish": "costeño"
+    },
+    {
+      "spanish": "coñazo"
+    },
+    {
+      "spanish": "cuatro"
+    },
+    {
+      "spanish": "cubil"
+    },
+    {
+      "spanish": "cuño"
+    },
+    {
+      "spanish": "diablo"
+    },
+    {
+      "spanish": "dogo"
+    },
+    {
+      "spanish": "efe"
+    },
+    {
+      "spanish": "ele"
+    },
+    {
+      "spanish": "eme"
+    },
+    {
+      "spanish": "ene"
+    },
+    {
+      "spanish": "enigma"
+    },
+    {
+      "spanish": "ese"
+    },
+    {
+      "spanish": "espino"
+    },
+    {
+      "spanish": "espira"
+    },
+    {
+      "spanish": "eñe"
+    },
+    {
+      "spanish": "filloa"
+    },
+    {
+      "spanish": "filón"
+    },
+    {
+      "spanish": "fisco"
+    },
+    {
+      "spanish": "flan"
+    },
+    {
+      "spanish": "florero"
+    },
+    {
+      "spanish": "fogueo"
+    },
+    {
+      "spanish": "folla"
+    },
+    {
+      "spanish": "froga"
+    },
+    {
+      "spanish": "fusta"
+    },
+    {
+      "spanish": "gaje"
+    },
+    {
+      "spanish": "garita"
+    },
+    {
+      "spanish": "genio"
+    },
+    {
+      "spanish": "gorjeo"
+    },
+    {
+      "spanish": "hache"
+    },
+    {
+      "spanish": "hayedo"
+    },
+    {
+      "spanish": "hemina"
+    },
+    {
+      "spanish": "herma"
+    },
+    {
+      "spanish": "hocino"
+    },
+    {
+      "spanish": "hulero"
+    },
+    {
+      "spanish": "inca"
+    },
+    {
+      "spanish": "jalifa"
+    },
+    {
+      "spanish": "jeme"
+    },
+    {
+      "spanish": "jota"
+    },
+    {
+      "spanish": "jácara"
+    },
+    {
+      "spanish": "kazako"
+    },
+    {
+      "spanish": "lasca"
+    },
+    {
+      "spanish": "librea"
+    },
+    {
+      "spanish": "llanero"
+    },
+    {
+      "spanish": "mamey"
+    },
+    {
+      "spanish": "manteo"
+    },
+    {
+      "spanish": "mantero"
+    },
+    {
+      "spanish": "meaja"
+    },
+    {
+      "spanish": "medina"
+    },
+    {
+      "spanish": "meme"
+    },
+    {
+      "spanish": "memela"
+    },
+    {
+      "spanish": "menina"
+    },
+    {
+      "spanish": "metate"
+    },
+    {
+      "spanish": "miaja"
+    },
+    {
+      "spanish": "mimo"
+    },
+    {
+      "spanish": "mitayo"
+    },
+    {
+      "spanish": "mitote"
+    },
+    {
+      "spanish": "mogote"
+    },
+    {
+      "spanish": "mucamo"
+    },
+    {
+      "spanish": "mía"
+    },
+    {
+      "spanish": "mújol"
+    },
+    {
+      "spanish": "múleo"
+    },
+    {
+      "spanish": "nardo"
+    },
+    {
+      "spanish": "odeón"
+    },
+    {
+      "spanish": "ojota"
+    },
+    {
+      "spanish": "palazo"
+    },
+    {
+      "spanish": "pavía"
+    },
+    {
+      "spanish": "paúl"
+    },
+    {
+      "spanish": "pelta"
+    },
+    {
+      "spanish": "potaje"
+    },
+    {
+      "spanish": "pósito"
+    },
+    {
+      "spanish": "quena"
+    },
+    {
+      "spanish": "rafa"
+    },
+    {
+      "spanish": "rapaza"
+    },
+    {
+      "spanish": "recova"
+    },
+    {
+      "spanish": "redila"
+    },
+    {
+      "spanish": "redor"
+    },
+    {
+      "spanish": "regate"
+    },
+    {
+      "spanish": "retama"
+    },
+    {
+      "spanish": "retoño"
+    },
+    {
+      "spanish": "rezo"
+    },
+    {
+      "spanish": "ribazo"
+    },
+    {
+      "spanish": "rimero"
+    },
+    {
+      "spanish": "roda"
+    },
+    {
+      "spanish": "rodal"
+    },
+    {
+      "spanish": "roleo"
+    },
+    {
+      "spanish": "rorro"
+    },
+    {
+      "spanish": "ros"
+    },
+    {
+      "spanish": "ruana"
+    },
+    {
+      "spanish": "ruedo"
+    },
+    {
+      "spanish": "régulo"
+    },
+    {
+      "spanish": "salema"
+    },
+    {
+      "spanish": "sarao"
+    },
+    {
+      "spanish": "sargo"
+    },
+    {
+      "spanish": "sesma"
+    },
+    {
+      "spanish": "sexmo"
+    },
+    {
+      "spanish": "sope"
+    },
+    {
+      "spanish": "soplón"
+    },
+    {
+      "spanish": "sota"
+    },
+    {
+      "spanish": "talega"
+    },
+    {
+      "spanish": "tanate"
+    },
+    {
+      "spanish": "tejar"
+    },
+    {
+      "spanish": "tete"
+    },
+    {
+      "spanish": "tisana"
+    },
+    {
+      "spanish": "tizón"
+    },
+    {
+      "spanish": "toesa"
+    },
+    {
+      "spanish": "tomín"
+    },
+    {
+      "spanish": "tongo"
+    },
+    {
+      "spanish": "torito"
+    },
+    {
+      "spanish": "trasgo"
+    },
+    {
+      "spanish": "tumbo"
+    },
+    {
+      "spanish": "tun"
+    },
+    {
+      "spanish": "utrero"
+    },
+    {
+      "spanish": "uve"
+    },
+    {
+      "spanish": "vagido"
+    },
+    {
+      "spanish": "varazo"
+    },
+    {
+      "spanish": "varga"
+    },
+    {
+      "spanish": "vecero"
+    },
+    {
+      "spanish": "veda"
+    },
+    {
+      "spanish": "yaya"
+    },
+    {
+      "spanish": "yayo"
+    },
+    {
+      "spanish": "yero"
+    },
+    {
+      "spanish": "yunta"
+    },
+    {
+      "spanish": "zagala"
+    },
+    {
+      "spanish": "zanca"
+    },
+    {
+      "spanish": "zaque"
+    },
+    {
+      "spanish": "zarzo"
+    },
+    {
+      "spanish": "zeta"
+    },
+    {
+      "spanish": "zuncho"
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "edil",
+      "reason": "Modern edil is ordinarily a councillor, not necessarily a mayor; this over-specific source gloss is not independently reliable. Historical meaningIndex 1 aedile/aediles is a sound alternative."
+    },
+    {
+      "spanish": "gallo",
+      "reason": "Actual female child is GALLA, explicitly a woman/gal, not GALLINA. Rooster/hen would assign the wrong meaning to this source child. Human meaningIndex 9 guy/guys with gal/gals is the reviewed safe alternative."
+    },
+    {
+      "spanish": "nueve",
+      "reason": "The proposed English plural digit nines is not a sound plural of digit nine. Use nine/nines or digit 9/digits 9 instead."
+    }
+  ]
+}

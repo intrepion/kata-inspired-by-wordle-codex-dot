@@ -1,0 +1,80 @@
+{
+  "reviewer": "/root/review_standards",
+  "scope": "Read-only Spanish-edition form adapter, 22 compiled additions; source recognition is not translation coverage.",
+  "withholdAdapterAdditions": [
+    {
+      "word": "REÍNA",
+      "wordRecordSha256": "390a78ba9bf341385b5099c3065ec1e2a31b71e8891a4ab0467ca0ba9c76bfa2",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNAN",
+      "wordRecordSha256": "33512a8a68e415561233a370deed48f98086002e0c029fd1a45fdc6c181a7d44",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNAS",
+      "wordRecordSha256": "fb9204a5b58e46eab7cad890e12eacc4de4df4ad1467d5bff73e8b25501c6017",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNE",
+      "wordRecordSha256": "3ca8fd3637a8c5988acf3bac9c028ccc5d6741123c8cf3c80f6b5c8e41934700",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNEN",
+      "wordRecordSha256": "c56ac79a026ccaf95a618970a570cf582e15ff74ae2d14593f16b097112964c0",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNES",
+      "wordRecordSha256": "bb882e5ff70962526e0f3002a6ab5cf6264d62d66d396fa753774e1d1efd3717",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "REÍNO",
+      "wordRecordSha256": "91726f923e86bddc79ad3da2626355036de4058947d7868d9bcaab59a7ae914e",
+      "lemmaRecordSha256": "0f60ace07b3c0a74666f9a43ee3dbde713f65f00b9971ac2ce26b5c952392ba3",
+      "reason": "Questionable accented spelling not independently established by grammar templates"
+    },
+    {
+      "word": "TOBOSA",
+      "wordRecordSha256": "f38255981e4c849eedfc553d223e0da7fadf3d362d392c4d626b097f946e7479",
+      "lemmaRecordSha256": "f5e1bc28db5d0ef83b6c46db74dc99c1575ccf6c1ab94b39ec93636c7cc6e14a",
+      "reason": "Cross-source adjective homograph needs useful sense-specific English rendering and context; lemma gender inventory also contaminates form tags"
+    },
+    {
+      "word": "TOBOSAS",
+      "wordRecordSha256": "e9d0d36141d9c1d4703c17cdc1dac0b9c0345c77f4a0f6c10eed333c0426a638",
+      "lemmaRecordSha256": "f5e1bc28db5d0ef83b6c46db74dc99c1575ccf6c1ab94b39ec93636c7cc6e14a",
+      "reason": "Cross-source adjective homograph needs useful sense-specific English rendering and context; lemma gender inventory also contaminates form tags"
+    }
+  ],
+  "otherFindings": [
+    "Runtime agreement tags should exclude lemma gender/number inventories when the form supplies explicit gender/number."
+  ],
+  "checked": [
+    "Exact NFC target identity",
+    "Negative command and compound future rejected",
+    "Usted/ustedes positive command adaptation",
+    "ATUER forms target nonreflexive atorar/clog rather than get stuck",
+    "AFOGARE subjunctive future distinct from AFOGARÉ indicative future, archaic alias path retained",
+    "ANDAS(E/N/S) hypothetical imperfect subjunctive readings preserve persons",
+    "Separate Spanish form and English semantic citations retained"
+  ],
+  "publicLookupRegressions": [
+    "AFOGARE: if I should drown, subjunctive future contingency label, archaic alias warning, both source links",
+    "AFOGARÉ: I will drown, indicative future; do not conflate with AFOGARE",
+    "ANDASEN: if they walked and if you (plural) walked; hypothetical rather than simple past claim",
+    "ATUERE: clog! formal singular, alongside present that-clause readings",
+    "ATUEREN: clog! plural, not Spain-only vosotros label",
+    "REÍNO and TOBOSAS: no Spanish-adapter addition, while any independent prior provider remains intact"
+  ]
+}

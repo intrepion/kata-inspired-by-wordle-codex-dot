@@ -1,0 +1,1525 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "First-author model English translations of fifty individually selected self-contained Spanish nonverb lexical senses. All50 original raw-line hashes/word/POS/sense identities matched from pinned gzip. Independent Standards cross-review required; not source-supplied English quotations or human/native certification.",
+  "scope": "Exact currently uncovered Q spellings, selected noun/adjective meanings only; all older meanings/holds remain unchanged. No answer, guess, save or application edits.",
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz",
+    "baselineCoverageAuditSha256": "2658735d670671a327fbb7687787e97f73c1c941205789ed03acc0a9d121b226",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51895,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4725,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 61000,
+      "missing": 15670,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2579,
+          "missing": 345
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8346,
+          "missing": 1390
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17549,
+          "missing": 4242
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32526,
+          "missing": 9693
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "triageSha256": "57b232c71877321f2d34da4ff4481060a86992e92426b8189dd5b9f90f48ff3b"
+  },
+  "proposals": [
+    {
+      "word": "GURDA",
+      "partOfSpeech": "adj",
+      "sourceWord": "gurda",
+      "senseIndex": 0,
+      "english": "foolish or silly",
+      "context": "Selected colloquial Lunfardo adjective; no claim that this is neutral or exclusive Mexican usage.",
+      "source": {
+        "recordSha256": "8ca726e9c22578b5200568c48cc85bc7cb64ea1182b7270f6efd2ff6e91880c3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/gurda",
+        "word": "gurda",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [
+          "invariable en género"
+        ],
+        "senseIndex": 0,
+        "glosses": [
+          "Necio; insensanto; simple."
+        ],
+        "tags": [
+          "Lunfardo",
+          "colloquial"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Argentina",
+          "ES:Lunfardo",
+          "ES:Términos coloquiales"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HACHEE",
+      "partOfSpeech": "noun",
+      "sourceWord": "hachee",
+      "senseIndex": 0,
+      "english": "a traditional Dutch stew of diced meat, fish or poultry and vegetables",
+      "context": "Selected dish description, not a complete recipe or a claim that every hachee uses all these protein types together.",
+      "source": {
+        "recordSha256": "21b96d30f0067ff4bb2a9f83c09491bb81e0d37d5aea2a1c09c0584fe9ba8026",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hachee",
+        "word": "hachee",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Estofado tradicional holandés hecho con carne, pescado o ave en dados y verdura"
+        ],
+        "tags": [],
+        "rawTags": [
+          "Gastronomía"
+        ],
+        "categories": [
+          "ES:Gastronomía"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HARENSE",
+      "partOfSpeech": "adj",
+      "sourceWord": "harense",
+      "senseIndex": 1,
+      "english": "from or relating to Haro in La Rioja, Spain",
+      "context": "Selected adjective of origin or association, not a generic surname or an independently invented English demonym.",
+      "source": {
+        "recordSha256": "130c5a105f5bf655b7aba96679a72aadcd93b8ad8cf618d773f1afe2f5bbc94e",
+        "sourceUrl": "https://es.wiktionary.org/wiki/harense",
+        "word": "harense",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [
+          "invariable en género"
+        ],
+        "senseIndex": 1,
+        "glosses": [
+          "Se dice de algo que proviene o tiene relación con Haro, en La Rioja, España."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HARTERA",
+      "partOfSpeech": "noun",
+      "sourceWord": "hartera",
+      "senseIndex": 0,
+      "english": "boredom, weariness or annoyance",
+      "context": "Selected colloquial state, distinct from the separate intoxication sense. Preserve the four supplied regional labels.",
+      "source": {
+        "recordSha256": "66a6d8dc8924378a4226ecfadc596efddfd12c89db01cb4079784ba9a0b2db49",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hartera",
+        "word": "hartera",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Estado de aburrimiento, fastidio, cansancio, molestia o pereza."
+        ],
+        "tags": [
+          "Colombia",
+          "Cuba",
+          "Nicaragua",
+          "Puerto-Rico",
+          "colloquial"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Caribe",
+          "ES:Colombia",
+          "ES:Cuba",
+          "ES:Nicaragua",
+          "ES:Puerto Rico",
+          "ES:Términos coloquiales"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HATERÍA",
+      "partOfSpeech": "noun",
+      "sourceWord": "hatería",
+      "senseIndex": 0,
+      "english": "a supply of food for several days for herders, labourers or miners",
+      "context": "Selected provisions sense; no fixed number of days or nutritional requirement inferred.",
+      "source": {
+        "recordSha256": "e36566d6b51d8adf14b91fc8d5804fa02899509090cd6e56e030e792388c5df9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hater%C3%ADa",
+        "word": "hatería",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Provisión de víveres con que para algunos días se abastece a los pastores, jornaleros y mineros."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HAVO",
+      "partOfSpeech": "noun",
+      "sourceWord": "havo",
+      "senseIndex": 0,
+      "english": "a honeycomb",
+      "context": "Selected bee-comb noun, not a hive as a whole.",
+      "source": {
+        "recordSha256": "44e15ea816220f721a75a5fbd5e05d669c2c4fc9cd007109a74d7459f5a89860",
+        "sourceUrl": "https://es.wiktionary.org/wiki/havo",
+        "word": "havo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Panal de abejas."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HAZANA",
+      "partOfSpeech": "noun",
+      "sourceWord": "hazana",
+      "senseIndex": 0,
+      "english": "work or a task",
+      "context": "Outdated source sense; preserve exact spelling HAZANA, without changing N to Ñ or borrowing the meaning of hazaña.",
+      "source": {
+        "recordSha256": "527a6f7adea4635bc015ba6d326d2bf2d78f5a83ece7bcdf21692e5baab9636b",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hazana",
+        "word": "hazana",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Trabajo o tarea."
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HELGADO",
+      "partOfSpeech": "adj",
+      "sourceWord": "helgado",
+      "senseIndex": 0,
+      "english": "having sparse, uneven teeth",
+      "context": "Selected descriptive adjective; not a dental diagnosis or a general claim about health.",
+      "source": {
+        "recordSha256": "1cfc30c3005961fb65ea017e90f4b9e645c692325b2f0de92e06ab9c883ae2ff",
+        "sourceUrl": "https://es.wiktionary.org/wiki/helgado",
+        "word": "helgado",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Que tiene los dientes ralos y desiguales."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Anatomía"
+        ],
+        "topics": [
+          "anatomy"
+        ]
+      }
+    },
+    {
+      "word": "HELOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "helor",
+      "senseIndex": 0,
+      "english": "intense, piercing cold",
+      "context": "Selected cold noun, not a current weather report.",
+      "source": {
+        "recordSha256": "4c869492778e3356776865d4bbebd2e102cfd413d9be12506f92080dc8165842",
+        "sourceUrl": "https://es.wiktionary.org/wiki/helor",
+        "word": "helor",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Frío intenso y agudo."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HIDRIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "hidria",
+      "senseIndex": 0,
+      "english": "a large ancient water jar",
+      "context": "Selected historical vessel; no number of handles, archaeological date or specific culture not supplied by the source is added.",
+      "source": {
+        "recordSha256": "338e87375cf35c7ae27a20884064157dcea2e47c25cb54fb472c1ee0b4b5a137",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hidria",
+        "word": "hidria",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Vasija grande, a modo de cántaro o tinaja, que usaron los antiguos para contener agua."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HONDAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "hondazo",
+      "senseIndex": 0,
+      "english": "a shot made with a sling",
+      "context": "Selected sling shot, not a gunshot or a claim about any particular target.",
+      "source": {
+        "recordSha256": "0502333c5016af0e6a35674a7a0e03a37c7a0b510d6084f3e4700dcab74c0d85",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hondazo",
+        "word": "hondazo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Tiro realizado con una honda."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "HOYANCA",
+      "partOfSpeech": "noun",
+      "sourceWord": "hoyanca",
+      "senseIndex": 0,
+      "english": "a communal grave in a cemetery",
+      "context": "Selected colloquial cemetery sense; no violent cause of death or unmarked burial is inferred.",
+      "source": {
+        "recordSha256": "e8a1724441eb09c40868732bd5302c3348b57dd982c68e75d8981d7c32e0273c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hoyanca",
+        "word": "hoyanca",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "La fosa común que se encuentra en los cementerios."
+        ],
+        "tags": [
+          "colloquial"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos coloquiales"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HUANGO",
+      "partOfSpeech": "noun",
+      "sourceWord": "huango",
+      "senseIndex": 1,
+      "english": "a string of garlic or onions",
+      "context": "Selected Ecuadorian storage-string sense, not the separate hairstyle description.",
+      "source": {
+        "recordSha256": "9de12bdbf1547ec5a8964a5908d034c01399249e19a0e47cbf27ee1e3b593179",
+        "sourceUrl": "https://es.wiktionary.org/wiki/huango",
+        "word": "huango",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Ristra (de ajos o de cebollas)."
+        ],
+        "tags": [
+          "Ecuador"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Ecuador"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "HURRACO",
+      "partOfSpeech": "noun",
+      "sourceWord": "hurraco",
+      "senseIndex": 0,
+      "english": "a head ornament formerly worn by women",
+      "context": "Selected historical ornament, without inventing its material or shape.",
+      "source": {
+        "recordSha256": "02d3c57b27297822e378b7633eb287e6f78c53af0292605796940ac6bb65bb3a",
+        "sourceUrl": "https://es.wiktionary.org/wiki/hurraco",
+        "word": "hurraco",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Adorno que llevaban las mujeres en la cabeza."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "IGNAVIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "ignavia",
+      "senseIndex": 0,
+      "english": "laziness, indolence or lack of resolve",
+      "context": "Selected quality noun; not a diagnosis or judgment of a particular person.",
+      "source": {
+        "recordSha256": "0fa872a19d6f0ab12e3bee41083e89d249d7480612aadaf9538e17645a3baed5",
+        "sourceUrl": "https://es.wiktionary.org/wiki/ignavia",
+        "word": "ignavia",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pereza, desidia, flojedad de ánimo."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ILIENSE",
+      "partOfSpeech": "adj",
+      "sourceWord": "iliense",
+      "senseIndex": 0,
+      "english": "from or relating to ancient Troy",
+      "context": "Selected historical adjective; noun-use label remains source inventory, without adding a modern nationality.",
+      "source": {
+        "recordSha256": "12bc16c6b2538219dc644e2206ccbfe5fc31478f55a353fdb786e3e531ecc3f3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/iliense",
+        "word": "iliense",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [
+          "invariable en género"
+        ],
+        "senseIndex": 0,
+        "glosses": [
+          "Originario, relativo a, o propio de antigua Troya."
+        ],
+        "tags": [
+          "noun"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Gentilicios"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "IMBELE",
+      "partOfSpeech": "adj",
+      "sourceWord": "imbele",
+      "senseIndex": 0,
+      "english": "weak and unable to fight or defend oneself",
+      "context": "Selected adjective chiefly used in poetry; this is a static dictionary gloss, not a new person-inflection rule.",
+      "source": {
+        "recordSha256": "6f8dfbe3c8767c21d661969391a24a5813770aca4571819366f41168482dd6e6",
+        "sourceUrl": "https://es.wiktionary.org/wiki/imbele",
+        "word": "imbele",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [
+          "invariable en género"
+        ],
+        "senseIndex": 0,
+        "glosses": [
+          "Incapaz de guerrear, de defenderse; débil, flaco, sin fuerzas ni resistencia."
+        ],
+        "tags": [],
+        "rawTags": [
+          "úsase más en poesía"
+        ],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "INCASTO",
+      "partOfSpeech": "adj",
+      "sourceWord": "incasto",
+      "senseIndex": 0,
+      "english": "unchaste",
+      "context": "Selected adjective meaning not chaste, without substituting the separate dishonesty sense.",
+      "source": {
+        "recordSha256": "5237914ffdc9dbd1c73f1907b7a24f94c8ee5f19d656f883a49c1dd9677f9f43",
+        "sourceUrl": "https://es.wiktionary.org/wiki/incasto",
+        "word": "incasto",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Que no es casto."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "INCENSO",
+      "partOfSpeech": "noun",
+      "sourceWord": "incenso",
+      "senseIndex": 0,
+      "english": "incense, an aromatic resin preparation burned for fragrance",
+      "context": "Outdated word form; no therapeutic effects or religious efficacy are asserted.",
+      "source": {
+        "recordSha256": "5d41e062aaefd23f56f69c4804b4f17eec05cda9cc17ba86f425b2b117a34bc2",
+        "sourceUrl": "https://es.wiktionary.org/wiki/incenso",
+        "word": "incenso",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Preparación de resinas aromáticas vegetales, a las que a menudo se añaden aceites esenciales de origen animal o vegetal, de forma que al arder desprenda un humo fragante con fines religiosos, terapéuticos o estéticos."
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "ISBA",
+      "partOfSpeech": "noun",
+      "sourceWord": "isba",
+      "senseIndex": 0,
+      "english": "a traditional Russian log house",
+      "context": "Selected rustic Russian dwelling; no modern building specification or construction advice.",
+      "source": {
+        "recordSha256": "2b7346400c8ea14ccddc6e0e66b0ebb0e39f5e27cd3672376fd8a08d89c80855",
+        "sourceUrl": "https://es.wiktionary.org/wiki/isba",
+        "word": "isba",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Casa rústica rusa, construida con troncos, sin clavos, y con sus intersticios tapados con arcilla."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Construcción"
+        ],
+        "topics": [
+          "construction"
+        ]
+      }
+    },
+    {
+      "word": "JABARDO",
+      "partOfSpeech": "noun",
+      "sourceWord": "jabardo",
+      "senseIndex": 0,
+      "english": "an unusually small swarm of bees",
+      "context": "Selected hive-produced swarm, not the separate colloquial crowd sense.",
+      "source": {
+        "recordSha256": "463f4df550620955c18059a99aa6a650234cffba45218d84f23eab76b57610e7",
+        "sourceUrl": "https://es.wiktionary.org/wiki/jabardo",
+        "word": "jabardo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Enjambre producido por una colmena que, por diversas causas, resulta más pequeño de lo habitual."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JARRAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "jarrazo",
+      "senseIndex": 0,
+      "english": "a blow struck with a jug or pitcher",
+      "context": "Selected noun; no actual victim, injury or instructions are invented.",
+      "source": {
+        "recordSha256": "145648579f91f322217800cc69bc39d31319ac5400757a827268dcc1fc185feb",
+        "sourceUrl": "https://es.wiktionary.org/wiki/jarrazo",
+        "word": "jarrazo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Golpe que se da con un jarro o jarra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JIFA",
+      "partOfSpeech": "noun",
+      "sourceWord": "jifa",
+      "senseIndex": 0,
+      "english": "slaughterhouse waste",
+      "context": "Selected material discarded during livestock slaughter and butchering, not every edible offal product.",
+      "source": {
+        "recordSha256": "dc918c3364c96ccd58dc98c4ee1abf11c4b24cb19b6d09f03960dd3c861ac02d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/jifa",
+        "word": "jifa",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Lo que se arroja o lo que falta y quitan en los mataderos cuando se matan y descuartizan las reses para el público."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JOYANTE",
+      "partOfSpeech": "adj",
+      "sourceWord": "joyante",
+      "senseIndex": 0,
+      "english": "fine and lustrous, of silk",
+      "context": "Source says this is used almost only in the phrase seda joyante; keep that restricted textile context visible.",
+      "source": {
+        "recordSha256": "8ad0c39dc82128cbe0f446afa78174d3745d08f9b0e05f53b2724a6c9e5b40f1",
+        "sourceUrl": "https://es.wiktionary.org/wiki/joyante",
+        "word": "joyante",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [
+          "invariable en género"
+        ],
+        "senseIndex": 0,
+        "glosses": [
+          "Dicho de la seda, fina y lustrosa. Úsase casi solo en la locución sustantiva seda joyante."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JOYOSA",
+      "partOfSpeech": "noun",
+      "sourceWord": "joyosa",
+      "senseIndex": 0,
+      "english": "a sword",
+      "context": "Selected slang common-noun weapon sense, not a named historical sword or the adjective joyful.",
+      "source": {
+        "recordSha256": "d0ef94a3cbedfb79876d2e897d0f1463f1a2df645e511c48754ac527190f293c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/joyosa",
+        "word": "joyosa",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Espada (Arma blanca que consiste en una hoja de metal larga, aguda y cortante; guarnición y empuñadura.)."
+        ],
+        "tags": [
+          "slang"
+        ],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JUBETE",
+      "partOfSpeech": "noun",
+      "sourceWord": "jubete",
+      "senseIndex": 0,
+      "english": "a waist-length leather military garment covered with iron mail",
+      "context": "Selected historical garment worn by Spanish soldiers up to the late fifteenth century; not a modern protective-equipment certification.",
+      "source": {
+        "recordSha256": "c142adf1b8036c0728707b1acc6bdf1e63f855dbcdb6d974bdac0bb86a9f21e9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/jubete",
+        "word": "jubete",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Prenda de vestir que cubre el cuerpo ajustado hasta la cintura confeccionado con piel y cubierto con una malla de hierro, empleado por los soldados españoles hasta finales del siglo XV."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "JUNCAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "juncar",
+      "senseIndex": 0,
+      "english": "a stand of rushes",
+      "context": "Selected place where many rush plants grow, not every wetland or all reeds.",
+      "source": {
+        "recordSha256": "484d8532e137da03e0969e3449b47ad4276f7f21677181836b6f917ca85d8842",
+        "sourceUrl": "https://es.wiktionary.org/wiki/juncar",
+        "word": "juncar",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Sitio en donde se crían muchos juncos."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LACERIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "laceria",
+      "senseIndex": 1,
+      "english": "toil, fatigue or hardship",
+      "context": "Selected work-and-hardship sense, not the separate medical syndrome description.",
+      "source": {
+        "recordSha256": "61c37e620b708877134753a015ba288e16193628678452c40f0f7cbb4ceb70b4",
+        "sourceUrl": "https://es.wiktionary.org/wiki/laceria",
+        "word": "laceria",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Trabajo, fatiga, molestia."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LAPÍDEO",
+      "partOfSpeech": "adj",
+      "sourceWord": "lapídeo",
+      "senseIndex": 1,
+      "english": "of or relating to stone",
+      "context": "Selected adjective, not a person's name or a generated form rule.",
+      "source": {
+        "recordSha256": "ec2137af334ee9d1be9ea186bfac41bf5407be47a7706070810030d46983081a",
+        "sourceUrl": "https://es.wiktionary.org/wiki/lap%C3%ADdeo",
+        "word": "lapídeo",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Que pertenece a la piedra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LARARIO",
+      "partOfSpeech": "noun",
+      "sourceWord": "larario",
+      "senseIndex": 0,
+      "english": "a household altar to the Lares in ancient Rome",
+      "context": "Selected ancient domestic religious altar; Lares are the source's household deities, not a contemporary religious requirement.",
+      "source": {
+        "recordSha256": "6272e81e237fc985d5df4f3ab343b58c7dbb4f0911410b9fce6ccc05871ba338",
+        "sourceUrl": "https://es.wiktionary.org/wiki/larario",
+        "word": "larario",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Entre los antiguos romanos, altar que se destinaba en cada casa a los lares, divinidades del hogar"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Mitología"
+        ],
+        "topics": [
+          "mythology"
+        ]
+      }
+    },
+    {
+      "word": "LARGOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "largor",
+      "senseIndex": 0,
+      "english": "length, the larger principal dimension of a flat figure",
+      "context": "Selected dimensional noun; does not give every use of length or redefine latitude in modern geography.",
+      "source": {
+        "recordSha256": "8409a8b6a369e98ef4303efb4ec8276fe7ea642fa2770c759477d3d54aa6b5f8",
+        "sourceUrl": "https://es.wiktionary.org/wiki/largor",
+        "word": "largor",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Longitud (La mayor de las dos dimensiones principales que tienen las cosas o figuras planas, en contraposición a la menor que se llama latitud)."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LAUNA",
+      "partOfSpeech": "noun",
+      "sourceWord": "launa",
+      "senseIndex": 0,
+      "english": "a sheet or plate of metal",
+      "context": "Outdated selected sense; separate armour plates and Andalusian clay meanings are not automatically included.",
+      "source": {
+        "recordSha256": "3a863adbf18bd9e96c1a13d90b604e6e95e250c197bb27d9ff13b18358caa4d2",
+        "sourceUrl": "https://es.wiktionary.org/wiki/launa",
+        "word": "launa",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Lámina o plancha de metal."
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LECHUZO",
+      "partOfSpeech": "adj",
+      "sourceWord": "lechuzo",
+      "senseIndex": 0,
+      "english": "less than one year old, of a mule",
+      "context": "Selected age adjective, not the separate figurative moral or nocturnal senses.",
+      "source": {
+        "recordSha256": "e61125fb67a1484e7427342d7f93fd6c3da7e3390003fe3c8cdd3d2bfde6c239",
+        "sourceUrl": "https://es.wiktionary.org/wiki/lechuzo",
+        "word": "lechuzo",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Se dice del mulo o mula que aun no cumple la edad de un año."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LESTE",
+      "partOfSpeech": "noun",
+      "sourceWord": "leste",
+      "senseIndex": 0,
+      "english": "an easterly wind",
+      "context": "Selected Chilean wind sense; not a fresh endorsement of the separate source explanation about Earth's rotation.",
+      "source": {
+        "recordSha256": "0db82e06cbb79804338366faa714c69d0bcae467b2b8f1eee2d682453a151025",
+        "sourceUrl": "https://es.wiktionary.org/wiki/leste",
+        "word": "leste",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Viento que sopla desde el este."
+        ],
+        "tags": [
+          "Chile"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Chile"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LIBREJO",
+      "partOfSpeech": "noun",
+      "sourceWord": "librejo",
+      "senseIndex": 0,
+      "english": "a book regarded as worthless or contemptible",
+      "context": "Derogatory source usage; this reflects the term's judgment, not a review of any particular book.",
+      "source": {
+        "recordSha256": "690e4a5c32b8919ace0dcc5329fe161b3a72cd7f0da22aea3d368a9e095b8fd0",
+        "sourceUrl": "https://es.wiktionary.org/wiki/librejo",
+        "word": "librejo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Libro indeseable o digno de desprecio."
+        ],
+        "tags": [
+          "derogatory"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos despectivos"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LIBRETE",
+      "partOfSpeech": "noun",
+      "sourceWord": "librete",
+      "senseIndex": 1,
+      "english": "a small book or notebook with basic information",
+      "context": "Selected information-booklet sense, not the separate foot warmer or disparaging-book senses.",
+      "source": {
+        "recordSha256": "a2f52e040affb9a0349533a912fbda9a8d9908cc13d43e457a5e640efcd82dbc",
+        "sourceUrl": "https://es.wiktionary.org/wiki/librete",
+        "word": "librete",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Libro o cuaderno pequeño, con algún tipo de información básica."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LIMETA",
+      "partOfSpeech": "noun",
+      "sourceWord": "limeta",
+      "senseIndex": 0,
+      "english": "a bulbous wine flask with a long neck",
+      "context": "Selected Spain-labelled vessel, not a citrus fruit.",
+      "source": {
+        "recordSha256": "f9f6d1f9df63119dee596a548e466bf1fccdbc833a8fece743f0b62054f61229",
+        "sourceUrl": "https://es.wiktionary.org/wiki/limeta",
+        "word": "limeta",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Vasija para vino, panzuda y de cuello largo."
+        ],
+        "tags": [
+          "Spain"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:España",
+          "ES:Europa"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LINDAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "lindazo",
+      "senseIndex": 0,
+      "english": "a boundary, especially one defined by markers or a bank",
+      "context": "Rare noun sense. The markers need not be stones; a bank may also define the boundary. Not the separate augmentative adjective based on lindo.",
+      "source": {
+        "recordSha256": "dc01f505c7a5e22fbaed8f06798992ed329eb4118ae02df868892fe95d631fb5",
+        "sourceUrl": "https://es.wiktionary.org/wiki/lindazo",
+        "word": "lindazo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Linde, y en especial si se halla señalado con mojones, o por medio de un ribazo."
+        ],
+        "tags": [
+          "rare"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos infrecuentes"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LISTERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "listero",
+      "senseIndex": 0,
+      "english": "a foreman or clerk who keeps the daily workforce register on a job",
+      "context": "Selected worker-roll responsibility; no employment-law rule or modern time-clock procedure is inferred.",
+      "source": {
+        "recordSha256": "eaae0888c5e6589b7648713daadd49e66d8acd3d9fdbf30fb9febb9bfc85ef68",
+        "sourceUrl": "https://es.wiktionary.org/wiki/listero",
+        "word": "listero",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Operario, especie de capataz o sobrestante, encargado de llevar el alta y baja de una cuadrilla de jornaleros que trabajan cada día en una obra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LLOREDO",
+      "partOfSpeech": "noun",
+      "sourceWord": "lloredo",
+      "senseIndex": 0,
+      "english": "a laurel grove",
+      "context": "Selected laurel-covered ground; no particular botanical species not named by the source is added.",
+      "source": {
+        "recordSha256": "bb87c9e6d75682527a6cc62ea9b3bc4417ed7ca3d665bfe29f8f0f68ac1c653d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/lloredo",
+        "word": "lloredo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Terreno poblado de laureles"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "LUDADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "ludada",
+      "senseIndex": 0,
+      "english": "a decorative forehead band formerly worn by women",
+      "context": "Selected historical ornament; no material is invented.",
+      "source": {
+        "recordSha256": "cb816d7bf4d6b377b3454fe9656a9b8aca0c1d6ec68bbe7d1d7e0c67bb53b8c0",
+        "sourceUrl": "https://es.wiktionary.org/wiki/ludada",
+        "word": "ludada",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Venda que, como adorno, se ponían las mujeres en la frente."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Vestimenta"
+        ],
+        "categories": [
+          "ES:Vestimenta"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "LUMA",
+      "partOfSpeech": "noun",
+      "sourceWord": "luma",
+      "senseIndex": 0,
+      "english": "one hundredth of an Armenian dram",
+      "context": "Selected monetary denomination, not an exchange rate, a claim about circulating coins, the tree or a Chilean baton.",
+      "source": {
+        "recordSha256": "74581cf4275e32bed7f68765fc861018f2e76bcca8245aad778ae3e3589bc5ae",
+        "sourceUrl": "https://es.wiktionary.org/wiki/luma",
+        "word": "luma",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Centésima parte de un dram, la unidad monetaria de Armenia."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "MACELO",
+      "partOfSpeech": "noun",
+      "sourceWord": "macelo",
+      "senseIndex": 0,
+      "english": "a slaughterhouse",
+      "context": "Rare selected public meat-supply establishment, not the distinct historical market concept from another source.",
+      "source": {
+        "recordSha256": "1aec69e39c088deafb717040b28a98c6ea1fe8b4102aa304c02ad504d70d201d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/macelo",
+        "word": "macelo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Lugar donde se sacrifican reses y ganado y se tratan o preparan para abastecimiento y provisión públicos."
+        ],
+        "tags": [
+          "rare"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos infrecuentes"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "MACONA",
+      "partOfSpeech": "noun",
+      "sourceWord": "macona",
+      "senseIndex": 0,
+      "english": "a large basket without handles",
+      "context": "Selected basket noun; no material or regional craft claim added.",
+      "source": {
+        "recordSha256": "5bf955e4ed3e837cb7add9ddc5399a8f318fb7a66fafb4bb071b5f9a47e665d9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/macona",
+        "word": "macona",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Cesta grande sin asas."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "MAGANTO",
+      "partOfSpeech": "adj",
+      "sourceWord": "maganto",
+      "senseIndex": 0,
+      "english": "downcast after a misfortune",
+      "context": "Rare adjective describing dejection after an adverse event; not a clinical diagnosis.",
+      "source": {
+        "recordSha256": "c559128ce333a998fd1eb0a899fb655d782e56a7b1383d200defc599ff4deff4",
+        "sourceUrl": "https://es.wiktionary.org/wiki/maganto",
+        "word": "maganto",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Dícese de quien, debido a un acontecimiento desafortunado, se encuentra alicaído."
+        ],
+        "tags": [
+          "adjective",
+          "rare"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos infrecuentes"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "MAJANO",
+      "partOfSpeech": "noun",
+      "sourceWord": "majano",
+      "senseIndex": 0,
+      "english": "a heap of loose stones on farmland, at a crossroads or on a boundary",
+      "context": "Selected stone heap; no particular human purpose or construction technique is inferred.",
+      "source": {
+        "recordSha256": "bedc9459c15be289977b91610fdcc0d4e73ddb85baf58381498c6775ff7c1ddf",
+        "sourceUrl": "https://es.wiktionary.org/wiki/majano",
+        "word": "majano",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Montón de cantos sueltos que se forma en las tierras de labor o en las encrucijadas y división de términos."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "MAJOLAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "majolar",
+      "senseIndex": 0,
+      "english": "land newly planted with grapevines",
+      "context": "Outdated selected vineyard sense, not the separate place full of majuelos whose plant sense would need its own review.",
+      "source": {
+        "recordSha256": "8741140e1c74449a4d20f5d7b9f817582ce886f1af5ca9029af23e7c136c1ef4",
+        "sourceUrl": "https://es.wiktionary.org/wiki/majolar",
+        "word": "majolar",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Tierra recién plantada de viñas"
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "MAMBLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "mambla",
+      "senseIndex": 0,
+      "english": "a small, rounded hill",
+      "context": "Selected landform; source's breast-shape comparison is not expanded into an unrelated anatomical sense.",
+      "source": {
+        "recordSha256": "d054714139efc69f3c5d4eb93b3e7f8c1ccc1264b803385c635389b1ebd41c7b",
+        "sourceUrl": "https://es.wiktionary.org/wiki/mambla",
+        "word": "mambla",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pequeña elevación del terreno con forma redondeada como una mama de mujer."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Topografía"
+        ],
+        "topics": [
+          "topography"
+        ]
+      }
+    },
+    {
+      "word": "MANGOTE",
+      "partOfSpeech": "noun",
+      "sourceWord": "mangote",
+      "senseIndex": 1,
+      "english": "the cuff of a garment",
+      "context": "Selected cuff sense, not the separate sleeve-bottom or clerk's protective oversleeve meanings.",
+      "source": {
+        "recordSha256": "f24bb492dc6c31ae5ac1992f3f6e7bb9dc7741bb3f613532d93136302cf91639",
+        "sourceUrl": "https://es.wiktionary.org/wiki/mangote",
+        "word": "mangote",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Puño de una prenda."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "MANIOTA",
+      "partOfSpeech": "noun",
+      "sourceWord": "maniota",
+      "senseIndex": 0,
+      "english": "a rope hobble for an animal's forelegs",
+      "context": "Selected foreleg restraint, not human hands or the separately described iron-chain version. No tying procedure is provided.",
+      "source": {
+        "recordSha256": "c78b41ed7e2197a2755ac3f18fdc90863d0d2356cbc8b942f4c996dff8415e6c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/maniota",
+        "word": "maniota",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Cuerda con que se atan las manos de una bestia para que no huya."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    }
+  ],
+  "preservedHoldWords": [
+    "ABEY",
+    "ALEZO",
+    "ALUNADO",
+    "ASTER",
+    "BALAJ",
+    "BARDAJE",
+    "BELEZ",
+    "CAMITA",
+    "CARTETA",
+    "CATITE",
+    "CHIS",
+    "DROSERA",
+    "ESAS",
+    "ESTA",
+    "GAVIERO",
+    "LISERA",
+    "PIJA",
+    "TATE"
+  ],
+  "counts": {
+    "proposedWords": 50,
+    "rawRecordsMatched": 50,
+    "currentlyUncoveredSpellings": 50
+  },
+  "guards": [
+    "Exact source identity/POS/sense/rendering/context must be independently approved before compilation. No blank-gloss filling or whole-root alias propagation.",
+    "Keep all source usage labels, including outdated/rare/formal/literary/regional/colloquial/derogatory and JOYANTE fixed-phrase scope.",
+    "No new grammatical forms, generic identity fallback, possible-answer changes or current medical/legal/taxonomic claims.",
+    "Money/physical/historical terms are lexical meanings, not exchange rates, treatment instructions or current institutional rules.",
+    "English is an original reviewed derivative of Spanish Wiktionary CC BY-SA4, not a dictionary-provided full English equivalent or example.",
+    "Fifty is a proposal/current-gap count, not integrated new coverage. No production edits."
+  ]
+}

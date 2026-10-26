@@ -1,0 +1,61 @@
+{
+  "inputSha256": "b0b7af4e58b863b89c4e6c940d54f1999906260c60c318bdd9c3e14b03caaea4",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model review of exact cat-meowing meaning, source-edition adapter, accent identity and selected they-only grammar; two exact Spanish raw lines replayed, retained English lemma/policy and pinned AGID independently checked. No fresh English raw-archive replay or native-human certification.",
+  "approved": [
+    {
+      "word": "MÍAN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they meow",
+      "sourceAdapter": "Exact Spanish-edition form description to existing reviewed English-source lexical predicate",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal cats only)",
+      "selectedFeatures": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "Cats making their characteristic meowing call; selected present third-person-plural reading. Spanish source marks this meowing lexical sense rare. No human imitation or urination sense.",
+      "spanishFormRecordSha256": "97a645012b5d13e06e0996d28d874d4a539ff79bdbfbc92b11280ff1226403a2",
+      "spanishFormSenseIndex": 0,
+      "spanishAnimalRecordSha256": "01662fc31a0c5eaa3b0a07fad7068e2cd756be574a053f8e84fb447fc305cbd7",
+      "spanishAnimalSenseIndex": 0,
+      "englishLemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "englishLemmaSenseIndex": 0,
+      "existingSubjectPolicyId": "ad168b0c2864ddfd",
+      "notes": "Exact selected Spanish lexical sense is rare cat meowing. Human urinary/pronominal meanings, accentless MIAN and ustedes-address are unselected. This closes a previously explicit source-edition hold through a separate reviewed adapter, never by inventing an English word entry."
+    }
+  ],
+  "held": [],
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "englishSubjectPolicySha256": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+    "spanishNormalizerModuleSha256": "10919b3d40420050cf33dcd18c28da2b4e0b8ed01cd80be3a8f27848793195b2",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "prior16ProposalSha256": "23fc84357a949b0eaa4809b8b073c310c1d368a0228acf7a9bc03a21d4db9bb7",
+    "prior16ReviewSha256": "e12b4642544d6ab0b5422c6f9bb9dc75bb7adbbd666418f1c193a498c1847515",
+    "dataLicense": "CC-BY-SA-4.0",
+    "englishInflectionsLicense": "Retain separate permissive AGID original notices."
+  },
+  "checks": {
+    "spanishRawRecordsReplayed": 2,
+    "retainedEnglishLemmaAndPolicyVerified": true,
+    "pinnedAGIDVerified": true,
+    "normalizationAndFeaturesReproduced": true,
+    "priorEnglishOnlyHoldUnchanged": true,
+    "accentSensitiveIdentity": true
+  },
+  "guards": [
+    "Only exact MÍAN raw record/sense and normalization, English miar meow sense/policy, and present3plural indicative features may return they meow.",
+    "Raw ustedes-address remains in audit only; selected runtime subject/grammar tags must exclude human/formal-you address.",
+    "Selected Spanish rare label must be visible; no urinary, vulgar, pronominal or unrelated regional labels may leak from another sense.",
+    "Keep English lemma primary source plus exact Spanish form and rare-animal-meaning citations.",
+    "No MIAN, SE, command, subjunctive, other tense or global profile permission; original16 hold and all rejected artifacts remain unchanged.",
+    "One potential missing spelling, not an actual coverage claim until integration."
+  ]
+}

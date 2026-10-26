@@ -1,0 +1,18 @@
+{
+  "inputSha256": "4b52e0b8adf6a95c2aab705cb8c990e80148723500138bf83987cc2cc2b6f6bf",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model exact-proposal review of the separate ALEZO correction. Original raw source identity was independently verified in the prior 81-record scan; no source or production edits.",
+  "approved": [
+    {
+      "word": "ALEZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alezo",
+      "recordSha256": "613bf18827d02eafd6e2a2c2c1bb2632658b2364f0e40b0e42016e422461874b",
+      "senseIndex": 0,
+      "english": "strip of cloth",
+      "context": "A band-shaped piece of cloth; the retained Spanish lienzo does not establish linen fiber, so the English material is deliberately unspecified.",
+      "notes": "Cloth preserves the supported generic lienzo material and strip preserves en forma de faja. No flax/linen fiber, weaving method or further form authority is inferred."
+    }
+  ],
+  "held": []
+}

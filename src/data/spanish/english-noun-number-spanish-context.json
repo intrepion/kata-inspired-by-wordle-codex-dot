@@ -1,0 +1,49 @@
+{
+  "sourceUrl": "https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz",
+  "artifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+  "license": "CC-BY-SA-4.0",
+  "records": [
+    {
+      "word": "gente",
+      "pos": "noun",
+      "wordTags": [
+        "feminine"
+      ],
+      "senses": [
+        {
+          "glosses": [
+            "Conjunto de personas."
+          ]
+        },
+        {
+          "glosses": [
+            "Pueblo."
+          ]
+        },
+        {
+          "glosses": [
+            "Grupo de personas con respecto a su líder."
+          ]
+        },
+        {
+          "glosses": [
+            "Grupo de personas que habitan un mismo lugar."
+          ],
+          "tags": [
+            "colloquial"
+          ]
+        },
+        {
+          "glosses": [
+            "Persona o individuo."
+          ],
+          "tags": [
+            "Mexico",
+            "colloquial"
+          ]
+        }
+      ],
+      "recordSha256": "09626bca760e43e65e284c86907c25a0d85742fe0c0f372764b1899b2d9f85da"
+    }
+  ]
+}

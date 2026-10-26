@@ -1,0 +1,195 @@
+{
+  "inputSha256": "4620732923375afbba81497204344974b80dab694a1092bcf7688ec3317e9370",
+  "reviewer": "/root/review_spec",
+  "approved": [
+    {
+      "id": "91899e413134da16"
+    },
+    {
+      "id": "c87db198f4f0ee73"
+    },
+    {
+      "id": "f26cfa6d6034d6c5"
+    },
+    {
+      "id": "dcac67136ef8e5f9"
+    },
+    {
+      "id": "02e02385f42cade2"
+    },
+    {
+      "id": "2a4051baa5ca666e"
+    },
+    {
+      "id": "8117b6099931562c"
+    },
+    {
+      "id": "139749b00fe50a67"
+    },
+    {
+      "id": "7a16f20b0603ecbd"
+    },
+    {
+      "id": "2fb1086607af7796"
+    },
+    {
+      "id": "fc6819ac3ef45fce"
+    },
+    {
+      "id": "c42011dec50d5376"
+    },
+    {
+      "id": "78d8d5d964093af7"
+    },
+    {
+      "id": "cddb158f3379f91f"
+    },
+    {
+      "id": "82e9f3f4bac2c343"
+    },
+    {
+      "id": "7775bce105723b45"
+    },
+    {
+      "id": "581891f11f0dc1a9"
+    },
+    {
+      "id": "1170f62c617b1e08"
+    },
+    {
+      "id": "fd10cc9b2f75f350"
+    },
+    {
+      "id": "f00dce7167c488ca"
+    },
+    {
+      "id": "fa8deb4bc46c7d5b"
+    },
+    {
+      "id": "a4e9cd66bff73a97"
+    },
+    {
+      "id": "b20fa4acd4d93635"
+    },
+    {
+      "id": "ff3739c854fdbfa7"
+    },
+    {
+      "id": "76fc9aaa974b5d13"
+    },
+    {
+      "id": "ad168b0c2864ddfd"
+    },
+    {
+      "id": "2e03a69c0f944cc5"
+    },
+    {
+      "id": "698114413a189b58"
+    },
+    {
+      "id": "9958a5cfa5d11e84"
+    },
+    {
+      "id": "9b30840a00ced86d"
+    },
+    {
+      "id": "cf8c474aa8ec7bf7"
+    },
+    {
+      "id": "285639cf50831dbe"
+    },
+    {
+      "id": "4c170bea6b91ad7a"
+    },
+    {
+      "id": "3431afe52f34ba00"
+    },
+    {
+      "id": "c3d02edb5371838f"
+    },
+    {
+      "id": "a62d202c6c5d15cd"
+    },
+    {
+      "id": "08de46512a78043a"
+    },
+    {
+      "id": "e65d9ddc8d3ee136"
+    },
+    {
+      "id": "9d7cd23bec4c0fe1"
+    },
+    {
+      "id": "72fff560ea97d37a"
+    },
+    {
+      "id": "3d89e63c96071e83"
+    },
+    {
+      "id": "cac51ea28deb74b9"
+    },
+    {
+      "id": "8d6040e8fef7d8ae"
+    },
+    {
+      "id": "9ba35f01df344fdb"
+    },
+    {
+      "id": "0264e21129d547f0"
+    },
+    {
+      "id": "6dffe3b00a8e00f8"
+    },
+    {
+      "id": "0e1300884eae51db"
+    },
+    {
+      "id": "4284539e33c8e776"
+    },
+    {
+      "id": "a818d37adba446c9"
+    },
+    {
+      "id": "7cf7cb66be7b1c65"
+    },
+    {
+      "id": "cab690bd38941460"
+    },
+    {
+      "id": "6bc77a35e1f7f976"
+    },
+    {
+      "id": "53b4df2b9ba14fd6"
+    },
+    {
+      "id": "508d6c1d3304b3ab"
+    },
+    {
+      "id": "09a7eaf517d82df9"
+    },
+    {
+      "id": "cbc5e12ed206e6a6"
+    },
+    {
+      "id": "2ee5c62fa4846b04"
+    },
+    {
+      "id": "84ea69749df847f9"
+    },
+    {
+      "id": "d113ba07fbe66f5a"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "9385ea6c5224339a",
+      "reason": "Mamar has a literal human milk-taking infant reading, not just young animals. Pinned Spanish extract verb record 423d645652355810b9b5c137db7ba5644accbda5f7f0d9be16c18c71f3f08f21, zero-based sense 0, describes suction using the lips/throat, especially maternal milk from the breast, and marks use also intransitive (utci). A human former infant can truthfully say I suckled. Preserve the offspring-as-subject meaning; do not substitute the caregiver feeding role.",
+      "proposedAction": "keep"
+    },
+    {
+      "id": "135c4e7146f32a49",
+      "reason": "Pinned Spanish extract trinar verb record 6a2708a9327f977206a21664af864e05083873a8b29dfdfb6f9f0f736b797eac, zero-based sense 1, gives Hacer trinos without the bird restriction attached to sense 0. Producing musical trills is human-capable and English warble permits singing with such ornaments. A blanket animal-only restriction loses this supported musical reading; preserve the musical sense rather than infer personification from the bird sense.",
+      "proposedAction": "keep"
+    }
+  ]
+}

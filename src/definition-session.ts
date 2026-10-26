@@ -9,7 +9,7 @@ export class DefinitionSession {
  get state(){return this.current}
  private emit(state:DefinitionState){this.current=state;this.publish(state)}
  private cancel(){this.generation++;if(this.timer!==null)clearTimeout(this.timer);this.timer=null;if(this.current.phase!=='hidden')this.client.cancel(this.current.word)}
- open(raw:string){const word=definitionWord(raw);if(!word)return;this.cancel();const cached=this.client.peek(word);this.emit(cached?{phase:cached.entries.length?'ready':'missing',word,result:cached}:{phase:'idle',word})}
+ open(raw:string){const word=this.client.normalizeWord(raw);if(!word)return;this.cancel();const cached=this.client.peek(word);this.emit(cached?{phase:cached.entries.length?'ready':'missing',word,result:cached}:{phase:'idle',word})}
  request(){
   if(this.current.phase==='hidden'||this.current.phase==='loading')return;
   const word=this.current.word;this.cancel();const generation=this.generation;this.emit({phase:'loading',word});

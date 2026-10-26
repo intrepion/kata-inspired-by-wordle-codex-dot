@@ -1,0 +1,902 @@
+[
+  {
+    "word": "GUARDIA",
+    "translation": "guard; protective force",
+    "example": "La guardia vigilaba la entrada.",
+    "exampleTranslation": "The guard watched the entrance."
+  },
+  {
+    "word": "GUERRA",
+    "translation": "war",
+    "example": "La guerra desplazó a muchas familias.",
+    "exampleTranslation": "The war displaced many families."
+  },
+  {
+    "word": "GUIAR",
+    "translation": "to guide",
+    "example": "La vecina nos va a guiar al mercado.",
+    "exampleTranslation": "The neighbor will guide us to the market."
+  },
+  {
+    "word": "GUINEA",
+    "translation": "guinea (historic British gold coin)",
+    "example": "El museo conserva una guinea de oro.",
+    "exampleTranslation": "The museum preserves a gold guinea."
+  },
+  {
+    "word": "GUSANO",
+    "translation": "worm",
+    "example": "Un gusano se mueve en la tierra.",
+    "exampleTranslation": "A worm moves through the soil."
+  },
+  {
+    "word": "GUSTAR",
+    "translation": "to like; to be pleasing",
+    "example": "Ese libro te va a gustar.",
+    "exampleTranslation": "You are going to like that book."
+  },
+  {
+    "word": "GUSTO",
+    "translation": "taste (sense)",
+    "example": "El gusto permite distinguir sabores.",
+    "exampleTranslation": "Taste allows us to distinguish flavors."
+  },
+  {
+    "word": "GÉNERO",
+    "translation": "type; category",
+    "example": "La novela pertenece al género histórico.",
+    "exampleTranslation": "The novel belongs to the historical genre."
+  },
+  {
+    "word": "GÉNESIS",
+    "translation": "origin; beginning",
+    "example": "El artículo explica la génesis del proyecto.",
+    "exampleTranslation": "The article explains the project's origins."
+  },
+  {
+    "word": "HABER",
+    "translation": "to have (auxiliary)",
+    "example": "Pudo haber llegado antes.",
+    "exampleTranslation": "He could have arrived earlier."
+  },
+  {
+    "word": "HABERSE",
+    "translation": "to have (with a reflexive participle)",
+    "example": "Parece haberse perdido en el camino.",
+    "exampleTranslation": "He seems to have gotten lost on the way."
+  },
+  {
+    "word": "HABLA",
+    "translation": "speech; ability to speak",
+    "example": "La terapia mejoró su habla.",
+    "exampleTranslation": "The therapy improved her speech."
+  },
+  {
+    "word": "HABLADO",
+    "translation": "way of speaking",
+    "example": "Su hablado tranquilo inspira confianza.",
+    "exampleTranslation": "Her calm way of speaking inspires trust."
+  },
+  {
+    "word": "HABLAR",
+    "translation": "to speak; to talk",
+    "example": "Me gusta hablar con mis vecinos.",
+    "exampleTranslation": "I like talking with my neighbors."
+  },
+  {
+    "word": "HACER",
+    "translation": "to make; to do",
+    "example": "Vamos a hacer una mesa.",
+    "exampleTranslation": "We are going to make a table."
+  },
+  {
+    "word": "HACERSE",
+    "translation": "to become",
+    "example": "Quiere hacerse médico.",
+    "exampleTranslation": "He wants to become a doctor."
+  },
+  {
+    "word": "HACHA",
+    "translation": "axe",
+    "example": "El hacha tiene mango de madera.",
+    "exampleTranslation": "The axe has a wooden handle."
+  },
+  {
+    "word": "HACIA",
+    "translation": "toward",
+    "example": "Caminamos hacia el parque.",
+    "exampleTranslation": "We walked toward the park."
+  },
+  {
+    "word": "HALLAR",
+    "translation": "to find",
+    "example": "Logramos hallar la dirección.",
+    "exampleTranslation": "We managed to find the address."
+  },
+  {
+    "word": "HAMBRE",
+    "translation": "hunger",
+    "example": "Tengo hambre después de caminar.",
+    "exampleTranslation": "I am hungry after walking."
+  },
+  {
+    "word": "HARINA",
+    "translation": "flour",
+    "example": "La masa lleva harina de maíz.",
+    "exampleTranslation": "The dough contains corn flour."
+  },
+  {
+    "word": "HARTO",
+    "translation": "fed up",
+    "example": "Estoy harto de tanto ruido.",
+    "exampleTranslation": "I am fed up with all this noise."
+  },
+  {
+    "word": "HASTA",
+    "translation": "until; as far as",
+    "example": "Esperamos hasta las ocho.",
+    "exampleTranslation": "We waited until eight."
+  },
+  {
+    "word": "HAYA",
+    "translation": "beech tree",
+    "example": "El haya pierde sus hojas en otoño.",
+    "exampleTranslation": "The beech tree loses its leaves in autumn."
+  },
+  {
+    "word": "HAZAÑA",
+    "translation": "feat; heroic achievement",
+    "example": "La expedición logró una gran hazaña.",
+    "exampleTranslation": "The expedition accomplished a great feat."
+  },
+  {
+    "word": "HEBREO",
+    "translation": "Hebrew; relating to the Hebrew people",
+    "example": "El manuscrito hebreo está en la vitrina.",
+    "exampleTranslation": "The Hebrew manuscript is in the display case."
+  },
+  {
+    "word": "HECHIZO",
+    "translation": "spell; enchantment",
+    "example": "La bruja del cuento lanzó un hechizo.",
+    "exampleTranslation": "The witch in the story cast a spell."
+  },
+  {
+    "word": "HECHO",
+    "translation": "deed; fact",
+    "example": "Ese hecho cambió la historia.",
+    "exampleTranslation": "That event changed history."
+  },
+  {
+    "word": "HELADA",
+    "translation": "frost; freeze",
+    "example": "La helada dañó las plantas.",
+    "exampleTranslation": "The frost damaged the plants."
+  },
+  {
+    "word": "HELADO",
+    "translation": "icy; very cold",
+    "example": "El viento helado nos hizo volver.",
+    "exampleTranslation": "The icy wind made us turn back."
+  },
+  {
+    "word": "HEMBRA",
+    "translation": "female (animal)",
+    "example": "La hembra cuida a sus crías.",
+    "exampleTranslation": "The female cares for her young."
+  },
+  {
+    "word": "HERIDA",
+    "translation": "wound",
+    "example": "La herida está sanando.",
+    "exampleTranslation": "The wound is healing."
+  },
+  {
+    "word": "HERIDO",
+    "translation": "injured; wounded",
+    "example": "El pájaro herido recibió atención.",
+    "exampleTranslation": "The injured bird received care."
+  },
+  {
+    "word": "HERIR",
+    "translation": "to wound; to injure",
+    "example": "El vidrio puede herir a alguien.",
+    "exampleTranslation": "The glass could injure someone."
+  },
+  {
+    "word": "HERMOSO",
+    "translation": "beautiful",
+    "example": "El paisaje es hermoso.",
+    "exampleTranslation": "The scenery is beautiful."
+  },
+  {
+    "word": "HEROÍNA",
+    "translation": "heroin (drug)",
+    "example": "El programa informa sobre los riesgos de la heroína.",
+    "exampleTranslation": "The program provides information about the risks of heroin."
+  },
+  {
+    "word": "HERRERO",
+    "translation": "blacksmith",
+    "example": "El herrero reparó la reja.",
+    "exampleTranslation": "The blacksmith repaired the gate."
+  },
+  {
+    "word": "HIDALGO",
+    "translation": "of the lower nobility",
+    "example": "El caballero hidalgo aparece en la novela.",
+    "exampleTranslation": "The gentleman of noble birth appears in the novel."
+  },
+  {
+    "word": "HIELO",
+    "translation": "ice",
+    "example": "El hielo se derrite.",
+    "exampleTranslation": "The ice is melting."
+  },
+  {
+    "word": "HIERBA",
+    "translation": "herb; nonwoody plant",
+    "example": "Una hierba creció entre las piedras.",
+    "exampleTranslation": "A plant grew between the stones."
+  },
+  {
+    "word": "HIERRO",
+    "translation": "iron",
+    "example": "El hierro puede oxidarse.",
+    "exampleTranslation": "Iron can rust."
+  },
+  {
+    "word": "HIGIENE",
+    "translation": "hygiene",
+    "example": "La higiene previene enfermedades.",
+    "exampleTranslation": "Hygiene prevents illnesses."
+  },
+  {
+    "word": "HIJO",
+    "translation": "son; child",
+    "example": "Su hijo estudia medicina.",
+    "exampleTranslation": "Her son studies medicine."
+  },
+  {
+    "word": "HIMNO",
+    "translation": "anthem; hymn",
+    "example": "El coro cantó el himno.",
+    "exampleTranslation": "The choir sang the anthem."
+  },
+  {
+    "word": "HINCHA",
+    "translation": "enthusiastic sports fan",
+    "example": "El hincha celebró el gol.",
+    "exampleTranslation": "The fan celebrated the goal."
+  },
+  {
+    "word": "HINDÚ",
+    "translation": "Hindu",
+    "example": "La familia hindú celebró su festividad.",
+    "exampleTranslation": "The Hindu family celebrated their festival."
+  },
+  {
+    "word": "HISPANO",
+    "translation": "Hispanic; relating to Spanish-speaking cultures",
+    "example": "El festival hispano reúne a varios países.",
+    "exampleTranslation": "The Hispanic festival brings together several countries."
+  },
+  {
+    "word": "HITO",
+    "translation": "milestone; landmark",
+    "example": "La apertura fue un hito para el barrio.",
+    "exampleTranslation": "The opening was a milestone for the neighborhood."
+  },
+  {
+    "word": "HOCICO",
+    "translation": "snout; muzzle",
+    "example": "El perro metió el hocico en el agua.",
+    "exampleTranslation": "The dog put its muzzle in the water."
+  },
+  {
+    "word": "HOGAR",
+    "translation": "home",
+    "example": "Encontramos un hogar acogedor.",
+    "exampleTranslation": "We found a welcoming home."
+  },
+  {
+    "word": "HOGUERA",
+    "translation": "bonfire",
+    "example": "Nos sentamos cerca de la hoguera.",
+    "exampleTranslation": "We sat near the bonfire."
+  },
+  {
+    "word": "HOLA",
+    "translation": "hello",
+    "example": "Hola, ¿cómo estás?",
+    "exampleTranslation": "Hello, how are you?"
+  },
+  {
+    "word": "HOLANDA",
+    "translation": "fine linen or cotton fabric",
+    "example": "La cortina es de holanda fina.",
+    "exampleTranslation": "The curtain is made of fine linen fabric."
+  },
+  {
+    "word": "HOMBRE",
+    "translation": "man; human being",
+    "example": "El hombre esperaba en la parada.",
+    "exampleTranslation": "The man waited at the stop."
+  },
+  {
+    "word": "HOMBRO",
+    "translation": "shoulder",
+    "example": "La mochila me lastimó el hombro.",
+    "exampleTranslation": "The backpack hurt my shoulder."
+  },
+  {
+    "word": "HONDA",
+    "translation": "sling",
+    "example": "La honda era de cuero.",
+    "exampleTranslation": "The sling was made of leather."
+  },
+  {
+    "word": "HONDO",
+    "translation": "deep",
+    "example": "El pozo es hondo.",
+    "exampleTranslation": "The well is deep."
+  },
+  {
+    "word": "HONESTO",
+    "translation": "honest",
+    "example": "El vendedor fue honesto.",
+    "exampleTranslation": "The salesperson was honest."
+  },
+  {
+    "word": "HONOR",
+    "translation": "honor; integrity",
+    "example": "Cumplió su promesa por honor.",
+    "exampleTranslation": "He kept his promise out of honor."
+  },
+  {
+    "word": "HONRA",
+    "translation": "honor; good reputation",
+    "example": "Defendió la honra de su familia.",
+    "exampleTranslation": "She defended her family's honor."
+  },
+  {
+    "word": "HONRADO",
+    "translation": "honest; upright",
+    "example": "Es un trabajador honrado.",
+    "exampleTranslation": "He is an honest worker."
+  },
+  {
+    "word": "HONRAR",
+    "translation": "to honor",
+    "example": "Queremos honrar su memoria.",
+    "exampleTranslation": "We want to honor her memory."
+  },
+  {
+    "word": "HORNO",
+    "translation": "oven",
+    "example": "El pan está en el horno.",
+    "exampleTranslation": "The bread is in the oven."
+  },
+  {
+    "word": "HORROR",
+    "translation": "horror",
+    "example": "El relato le produjo horror.",
+    "exampleTranslation": "The story filled him with horror."
+  },
+  {
+    "word": "HOSTIA",
+    "translation": "communion wafer; host",
+    "example": "El sacerdote alzó la hostia.",
+    "exampleTranslation": "The priest raised the communion wafer."
+  },
+  {
+    "word": "HOSTIL",
+    "translation": "hostile",
+    "example": "El ambiente se volvió hostil.",
+    "exampleTranslation": "The atmosphere became hostile."
+  },
+  {
+    "word": "HOTEL",
+    "translation": "hotel",
+    "example": "El hotel está cerca del centro.",
+    "exampleTranslation": "The hotel is near downtown."
+  },
+  {
+    "word": "HOYO",
+    "translation": "hole",
+    "example": "Hay un hoyo en el camino.",
+    "exampleTranslation": "There is a hole in the road."
+  },
+  {
+    "word": "HUECO",
+    "translation": "hollow",
+    "example": "El tronco está hueco.",
+    "exampleTranslation": "The trunk is hollow."
+  },
+  {
+    "word": "HUELGA",
+    "translation": "strike (work stoppage)",
+    "example": "Los trabajadores iniciaron una huelga.",
+    "exampleTranslation": "The workers went on strike."
+  },
+  {
+    "word": "HUELLA",
+    "translation": "footprint; trace",
+    "example": "La huella quedó en el lodo.",
+    "exampleTranslation": "The footprint was left in the mud."
+  },
+  {
+    "word": "HUERTA",
+    "translation": "vegetable garden; cultivated plot",
+    "example": "La huerta produce jitomates.",
+    "exampleTranslation": "The vegetable garden produces tomatoes."
+  },
+  {
+    "word": "HUERTO",
+    "translation": "vegetable garden",
+    "example": "Sembramos zanahorias en el huerto.",
+    "exampleTranslation": "We planted carrots in the vegetable garden."
+  },
+  {
+    "word": "HUESO",
+    "translation": "bone",
+    "example": "El hueso está intacto.",
+    "exampleTranslation": "The bone is intact."
+  },
+  {
+    "word": "HUEVO",
+    "translation": "egg",
+    "example": "Rompí un huevo para preparar la masa.",
+    "exampleTranslation": "I cracked an egg to prepare the dough."
+  },
+  {
+    "word": "HUIDA",
+    "translation": "flight; escape",
+    "example": "La huida terminó en el bosque.",
+    "exampleTranslation": "The escape ended in the forest."
+  },
+  {
+    "word": "HUIDO",
+    "translation": "escaped; on the run",
+    "example": "El preso huido fue encontrado.",
+    "exampleTranslation": "The escaped prisoner was found."
+  },
+  {
+    "word": "HUIR",
+    "translation": "to flee",
+    "example": "Tuvieron que huir del incendio.",
+    "exampleTranslation": "They had to flee the fire."
+  },
+  {
+    "word": "HUMANO",
+    "translation": "human",
+    "example": "El cuerpo humano necesita agua.",
+    "exampleTranslation": "The human body needs water."
+  },
+  {
+    "word": "HUMEDAD",
+    "translation": "humidity; dampness",
+    "example": "La humedad dañó la pared.",
+    "exampleTranslation": "Dampness damaged the wall."
+  },
+  {
+    "word": "HUMILDE",
+    "translation": "humble; modest",
+    "example": "Aunque ganó, siguió siendo humilde.",
+    "exampleTranslation": "Even though she won, she remained humble."
+  },
+  {
+    "word": "HUMO",
+    "translation": "smoke",
+    "example": "El humo salía por la chimenea.",
+    "exampleTranslation": "Smoke came out of the chimney."
+  },
+  {
+    "word": "HUMOR",
+    "translation": "mood; sense of humor",
+    "example": "Hoy estoy de buen humor.",
+    "exampleTranslation": "I am in a good mood today."
+  },
+  {
+    "word": "HURACÁN",
+    "translation": "hurricane",
+    "example": "El huracán se alejó de la costa.",
+    "exampleTranslation": "The hurricane moved away from the coast."
+  },
+  {
+    "word": "HUÉSPED",
+    "translation": "guest",
+    "example": "El huésped pidió otra toalla.",
+    "exampleTranslation": "The guest asked for another towel."
+  },
+  {
+    "word": "HÁBIL",
+    "translation": "skillful",
+    "example": "Es hábil con las herramientas.",
+    "exampleTranslation": "She is skillful with tools."
+  },
+  {
+    "word": "HÁBITAT",
+    "translation": "habitat",
+    "example": "El bosque es su hábitat natural.",
+    "exampleTranslation": "The forest is its natural habitat."
+  },
+  {
+    "word": "HÁBITO",
+    "translation": "habit",
+    "example": "Leer es un buen hábito.",
+    "exampleTranslation": "Reading is a good habit."
+  },
+  {
+    "word": "HÉROE",
+    "translation": "hero",
+    "example": "El héroe del cuento ayudó al pueblo.",
+    "exampleTranslation": "The story's hero helped the village."
+  },
+  {
+    "word": "HÍBRIDO",
+    "translation": "hybrid",
+    "example": "El vehículo híbrido consume menos combustible.",
+    "exampleTranslation": "The hybrid vehicle uses less fuel."
+  },
+  {
+    "word": "HÍGADO",
+    "translation": "liver",
+    "example": "El hígado procesa nutrientes.",
+    "exampleTranslation": "The liver processes nutrients."
+  },
+  {
+    "word": "HÚMEDO",
+    "translation": "damp; moist",
+    "example": "El suelo está húmedo.",
+    "exampleTranslation": "The ground is damp."
+  },
+  {
+    "word": "HÚNGARO",
+    "translation": "Hungarian",
+    "example": "Un violinista húngaro dio el concierto.",
+    "exampleTranslation": "A Hungarian violinist gave the concert."
+  },
+  {
+    "word": "IDEAL",
+    "translation": "ideal; perfectly suitable",
+    "example": "Este lugar es ideal para descansar.",
+    "exampleTranslation": "This place is ideal for resting."
+  },
+  {
+    "word": "IDIOMA",
+    "translation": "language",
+    "example": "Quiero aprender otro idioma.",
+    "exampleTranslation": "I want to learn another language."
+  },
+  {
+    "word": "IGLESIA",
+    "translation": "church",
+    "example": "La iglesia tiene dos torres.",
+    "exampleTranslation": "The church has two towers."
+  },
+  {
+    "word": "IGNORAR",
+    "translation": "not to know; to be unaware of",
+    "example": "Podemos ignorar un dato importante sin querer.",
+    "exampleTranslation": "We may be unaware of an important fact without meaning to be."
+  },
+  {
+    "word": "IGUAL",
+    "translation": "equal; the same",
+    "example": "Los dos vasos son de igual tamaño.",
+    "exampleTranslation": "The two glasses are the same size."
+  },
+  {
+    "word": "IGUALA",
+    "translation": "monthly professional retainer",
+    "example": "El contador cobra una iguala mensual.",
+    "exampleTranslation": "The accountant charges a monthly retainer."
+  },
+  {
+    "word": "IGUALAR",
+    "translation": "to equalize; to make equal",
+    "example": "Hay que igualar la altura de las patas.",
+    "exampleTranslation": "We need to make the legs equal in height."
+  },
+  {
+    "word": "ILEGAL",
+    "translation": "illegal",
+    "example": "Ese cobro es ilegal.",
+    "exampleTranslation": "That charge is illegal."
+  },
+  {
+    "word": "ILUSIÓN",
+    "translation": "illusion",
+    "example": "El reflejo creó una ilusión.",
+    "exampleTranslation": "The reflection created an illusion."
+  },
+  {
+    "word": "ILUSTRE",
+    "translation": "distinguished; illustrious",
+    "example": "La ilustre investigadora recibió un premio.",
+    "exampleTranslation": "The distinguished researcher received an award."
+  },
+  {
+    "word": "ILÍCITO",
+    "translation": "unlawful; illicit",
+    "example": "El negocio ilícito fue clausurado.",
+    "exampleTranslation": "The unlawful business was shut down."
+  },
+  {
+    "word": "IMAGEN",
+    "translation": "image",
+    "example": "La imagen muestra el río.",
+    "exampleTranslation": "The image shows the river."
+  },
+  {
+    "word": "IMITAR",
+    "translation": "to imitate",
+    "example": "El niño intenta imitar el canto del pájaro.",
+    "exampleTranslation": "The boy tries to imitate the bird's song."
+  },
+  {
+    "word": "IMPACTO",
+    "translation": "impact; collision",
+    "example": "El impacto rompió la caja.",
+    "exampleTranslation": "The impact broke the box."
+  },
+  {
+    "word": "IMPEDIR",
+    "translation": "to prevent",
+    "example": "El candado puede impedir la entrada.",
+    "exampleTranslation": "The lock can prevent entry."
+  },
+  {
+    "word": "IMPERIO",
+    "translation": "empire",
+    "example": "El mapa muestra un imperio antiguo.",
+    "exampleTranslation": "The map shows an ancient empire."
+  },
+  {
+    "word": "IMPONER",
+    "translation": "to impose",
+    "example": "No podemos imponer esa condición.",
+    "exampleTranslation": "We cannot impose that condition."
+  },
+  {
+    "word": "IMPRESO",
+    "translation": "printed document; form",
+    "example": "Entregaron un impreso con las instrucciones.",
+    "exampleTranslation": "They handed out a printed sheet with instructions."
+  },
+  {
+    "word": "IMPULSO",
+    "translation": "impulse; push",
+    "example": "Un impulso movió la lancha.",
+    "exampleTranslation": "A push moved the boat."
+  },
+  {
+    "word": "IMÁN",
+    "translation": "magnet",
+    "example": "El imán atrajo el clavo.",
+    "exampleTranslation": "The magnet attracted the nail."
+  },
+  {
+    "word": "INCA",
+    "translation": "Inca ruler",
+    "example": "El inca gobernaba desde el Cuzco.",
+    "exampleTranslation": "The Inca ruler governed from Cusco."
+  },
+  {
+    "word": "INCAPAZ",
+    "translation": "unable; incapable",
+    "example": "Se sentía incapaz de resolverlo solo.",
+    "exampleTranslation": "He felt unable to solve it alone."
+  },
+  {
+    "word": "INCLUIR",
+    "translation": "to include",
+    "example": "Debemos incluir todas las páginas.",
+    "exampleTranslation": "We must include all the pages."
+  },
+  {
+    "word": "INCLUSO",
+    "translation": "even",
+    "example": "Incluso mi abuelo participó.",
+    "exampleTranslation": "Even my grandfather took part."
+  },
+  {
+    "word": "INDICAR",
+    "translation": "to indicate; to point out",
+    "example": "La señal debe indicar la salida.",
+    "exampleTranslation": "The sign should indicate the exit."
+  },
+  {
+    "word": "INDICIO",
+    "translation": "clue; indication",
+    "example": "El ruido fue un indicio del problema.",
+    "exampleTranslation": "The noise was a clue to the problem."
+  },
+  {
+    "word": "INDIO",
+    "translation": "Indian; from India",
+    "example": "El cocinero indio preparó el arroz.",
+    "exampleTranslation": "The Indian cook prepared the rice."
+  },
+  {
+    "word": "INERCIA",
+    "translation": "inertia",
+    "example": "La inercia mantiene el movimiento sin fuerzas externas.",
+    "exampleTranslation": "Inertia maintains motion in the absence of external forces."
+  },
+  {
+    "word": "INFAME",
+    "translation": "disgraceful; dishonorable",
+    "example": "El acto infame fue condenado.",
+    "exampleTranslation": "The disgraceful act was condemned."
+  },
+  {
+    "word": "INFANTA",
+    "translation": "infanta; royal princess",
+    "example": "La infanta visitó el palacio.",
+    "exampleTranslation": "The princess visited the palace."
+  },
+  {
+    "word": "INFANTE",
+    "translation": "young child",
+    "example": "El infante duerme tranquilo.",
+    "exampleTranslation": "The young child sleeps peacefully."
+  },
+  {
+    "word": "INFARTO",
+    "translation": "infarction; heart attack",
+    "example": "Recibió atención después de un infarto.",
+    "exampleTranslation": "He received care after a heart attack."
+  },
+  {
+    "word": "INFELIZ",
+    "translation": "unhappy",
+    "example": "El personaje se sentía infeliz.",
+    "exampleTranslation": "The character felt unhappy."
+  },
+  {
+    "word": "INFIEL",
+    "translation": "unfaithful",
+    "example": "El marido infiel aparece en la novela.",
+    "exampleTranslation": "The unfaithful husband appears in the novel."
+  },
+  {
+    "word": "INFLUIR",
+    "translation": "to influence",
+    "example": "El clima puede influir en la cosecha.",
+    "exampleTranslation": "Weather can influence the harvest."
+  },
+  {
+    "word": "INFORME",
+    "translation": "report",
+    "example": "El informe explica los resultados.",
+    "exampleTranslation": "The report explains the results."
+  },
+  {
+    "word": "INGENIO",
+    "translation": "ingenuity",
+    "example": "Resolvió el problema con ingenio.",
+    "exampleTranslation": "She solved the problem with ingenuity."
+  },
+  {
+    "word": "INGENUO",
+    "translation": "naive; trusting",
+    "example": "El joven ingenuo creyó la historia.",
+    "exampleTranslation": "The naive young man believed the story."
+  },
+  {
+    "word": "INGLÉS",
+    "translation": "English; from England",
+    "example": "Un escritor inglés dio la charla.",
+    "exampleTranslation": "An English writer gave the talk."
+  },
+  {
+    "word": "INGRESO",
+    "translation": "entry; admission",
+    "example": "El ingreso al edificio requiere permiso.",
+    "exampleTranslation": "Entry to the building requires permission."
+  },
+  {
+    "word": "INICIAL",
+    "translation": "initial; first",
+    "example": "El plan inicial cambió.",
+    "exampleTranslation": "The initial plan changed."
+  },
+  {
+    "word": "INICIAR",
+    "translation": "to begin; to start",
+    "example": "Vamos a iniciar la reunión.",
+    "exampleTranslation": "We will start the meeting."
+  },
+  {
+    "word": "INICIO",
+    "translation": "beginning; start",
+    "example": "El inicio fue sencillo.",
+    "exampleTranslation": "The beginning was simple."
+  },
+  {
+    "word": "INJUSTO",
+    "translation": "unfair; unjust",
+    "example": "El reparto fue injusto.",
+    "exampleTranslation": "The distribution was unfair."
+  },
+  {
+    "word": "INMENSO",
+    "translation": "immense; huge",
+    "example": "El bosque es inmenso.",
+    "exampleTranslation": "The forest is immense."
+  },
+  {
+    "word": "INMORAL",
+    "translation": "immoral; unethical",
+    "example": "El fraude fue un acto inmoral.",
+    "exampleTranslation": "The fraud was an immoral act."
+  },
+  {
+    "word": "INMUNE",
+    "translation": "immune",
+    "example": "El organismo no es inmune a todo.",
+    "exampleTranslation": "The body is not immune to everything."
+  },
+  {
+    "word": "INODORO",
+    "translation": "odorless",
+    "example": "El gas es inodoro.",
+    "exampleTranslation": "The gas is odorless."
+  },
+  {
+    "word": "INSECTO",
+    "translation": "insect",
+    "example": "Un insecto se posó en la hoja.",
+    "exampleTranslation": "An insect landed on the leaf."
+  },
+  {
+    "word": "INSULAR",
+    "translation": "island-related; insular",
+    "example": "La región insular depende del transporte marítimo.",
+    "exampleTranslation": "The island region depends on sea transport."
+  },
+  {
+    "word": "INSULTO",
+    "translation": "insult",
+    "example": "El insulto interrumpió la conversación.",
+    "exampleTranslation": "The insult interrupted the conversation."
+  },
+  {
+    "word": "INTENSO",
+    "translation": "intense",
+    "example": "El calor es intenso.",
+    "exampleTranslation": "The heat is intense."
+  },
+  {
+    "word": "INTENTO",
+    "translation": "attempt",
+    "example": "El segundo intento salió mejor.",
+    "exampleTranslation": "The second attempt went better."
+  },
+  {
+    "word": "INTERNO",
+    "translation": "internal; inner",
+    "example": "El patio interno tiene plantas.",
+    "exampleTranslation": "The inner courtyard has plants."
+  },
+  {
+    "word": "INTERÉS",
+    "translation": "interest",
+    "example": "Mostró interés por la historia.",
+    "exampleTranslation": "She showed an interest in history."
+  },
+  {
+    "word": "INTRIGA",
+    "translation": "intrigue; secret maneuvering",
+    "example": "La intriga política domina la novela.",
+    "exampleTranslation": "Political intrigue dominates the novel."
+  },
+  {
+    "word": "INUSUAL",
+    "translation": "unusual",
+    "example": "Fue una visita inusual.",
+    "exampleTranslation": "It was an unusual visit."
+  }
+]

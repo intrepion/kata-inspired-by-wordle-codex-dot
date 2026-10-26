@@ -1,0 +1,337 @@
+{
+  "author": "/root/review_spec",
+  "method": "Versioned deterministic single-field byte replacement on the frozen sanitized-v1 lexical projection, following independent Standards presentation hold. No semantic/source/grammar scope expansion.",
+  "baseDerivative": {
+    "file": "/tmp/function-word-proposals-sanitized-spec.json",
+    "sha256": "0c7d0b60ccff5f80dc70fba4a7263dfab35b5cbf946a3cc0511b5f7c642798fd"
+  },
+  "baseProjectionManifest": {
+    "file": "/tmp/function-word-sanitization-manifest-spec.json",
+    "sha256": "5252024b75dfff3d356213496a4ff6a66f2927d2e62de3700e0f3a0833f59324"
+  },
+  "baseProjectionScript": {
+    "file": "/tmp/project-function-words-spec.py",
+    "sha256": "429fcf447c3154f5d44a468e20ea77fb5829971ab4f3f9af42db752debc8fb44"
+  },
+  "independentReview": {
+    "file": "/tmp/function-word-sanitization-review-standards.json",
+    "sha256": "03c136b19d13c61f29e97782ca94526e9f0ca374379490221d3ffc84fdc81e82"
+  },
+  "derivative": {
+    "file": "/tmp/function-word-proposals-sanitized-v2-spec.json",
+    "sha256": "3455b20d6a21707b71129658d3e964a0db31dd2f4beca0e40bcbfdf2907c8d6d"
+  },
+  "projectionScript": {
+    "file": "/tmp/project-function-words-v2-spec.py",
+    "sha256": "809328c1ee659c5f2706e44c6d9caf9ef81b5b4220dea4d2189a5832810c23a7"
+  },
+  "changes": [
+    {
+      "pointer": "/proposals/2/displayContext",
+      "recordIndex": 2,
+      "word": "CUALES",
+      "before": "A plural relative pronoun, usually in los cuales or las cuales, referring back to people or things. Formal or literary; not the question word cuáles.",
+      "after": "A plural relative pronoun, usually in los cuales or las cuales, referring back to things already mentioned. Formal or literary; not the question word cuáles.",
+      "reason": "The selected English literal which applies to things in this displayed reading; people-relative who/whom alternatives are not added."
+    }
+  ],
+  "proof": {
+    "exactlyOneScalarReplacement": true,
+    "allOtherBytesUnchanged": true,
+    "all28EnglishReadingsAndOriginalContextsUnchanged": true,
+    "allLexicalExtractsAndRawHashesUnchanged": true,
+    "allExplicitOriginalSourceSenseIndexMappingsUnchanged": true,
+    "allChildGrammarUnchanged": true,
+    "allOther27DisplaysUnchanged": true,
+    "all31PartitionAndThreeMUCHOpronounHoldsUnchanged": true,
+    "noForbiddenExampleQuoteMediaPayloadKeys": true
+  },
+  "fieldPolicy": {
+    "spanishRowWhitelist": [
+      "word",
+      "pos",
+      "pos_title",
+      "lang_code",
+      "lang",
+      "tags",
+      "raw_tags"
+    ],
+    "spanishSenseWhitelist": [
+      "glosses",
+      "tags",
+      "raw_tags",
+      "sense_index",
+      "form_of"
+    ],
+    "englishRowWhitelist": [
+      "word",
+      "pos",
+      "recordSha256"
+    ],
+    "englishSenseWhitelist": [
+      "glosses",
+      "tags",
+      "raw_tags",
+      "form_of",
+      "alt_of"
+    ],
+    "allExcludedFields": "Dropped, not relocated into another production field. Original research remains local.",
+    "rawHashes": "Unmodified original raw-line SHA256 identities retained; sanitized records are extracts, not full raw responses."
+  },
+  "spanishRecordDecisions": [
+    {
+      "recordSha256": "9b33eac19148b2097aa915d559aa7fc6e2046c3dc3dae7d322a04e4956ec27de",
+      "word": "cual",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        1
+      ]
+    },
+    {
+      "recordSha256": "977fc44d20b2be761838109a6baf9dc98273813fb04e036373cb5f75a62731e0",
+      "word": "cuales",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "217776ba5b8a4ced721516981d60477a4507a4636faa6a97580bbb4715544ee1",
+      "word": "cuanto",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        1
+      ]
+    },
+    {
+      "recordSha256": "06c6264c1341790b7e293d321222e640ea955cf02b6e27eaf05d464bad6c173e",
+      "word": "cuanto",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "97a955529d29ccb8ee2920476f02d30174141e4252713479874b5781b3abc51c",
+      "word": "cuanta",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "eb1226435380e88946a4b5a7a4fe62e728ee74bed55885986da2b4a30318fe2b",
+      "word": "cuantas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "6475285db10d6390da963ec27379765b6aac5a5dbaa62ae17c4b206b4e687145",
+      "word": "cuánto",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "ff43904a53fea4f96390cd1e1ee5196182da16b1dfedad404a50da27703724fe",
+      "word": "cuánto",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "db1b208c104eefc1279208c0ae6131a4ce04d2f2fdddf053a1ae45b92961150d",
+      "word": "cuánto",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "79ddb657c12b0ae99cff5c26c6459383d3aa78da90c18e7d87c2a5a934cb2574",
+      "word": "cuánto",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "40c76bfe03f40e83edac201d69373c692a1207f8ef86fc28108f5f1ff56b3492",
+      "word": "esas",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [],
+      "reason": "Unrelated sense/POS record omitted in full."
+    },
+    {
+      "recordSha256": "cb45c7fbe00a77de04d7ef6f4c6caa51782af2f91361fda2a6b7305f68a47368",
+      "word": "esas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "0165ef1128f482ac80e3b38c1b09823fac0fba44f22a65edfc450b716d0db514",
+      "word": "esos",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "41342fc81c295e1e5d25fa6970776c6efa701ede413c06722c6d06cf72269289",
+      "word": "estas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "1bcab8f289853df1e45cca829029733156c7a24cf3a9cf98ae6288db5256aae9",
+      "word": "estos",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+      "word": "mucho",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "29f0318871f4b5266b6a3b0f64f0fae8729844a81d782e521a13fe0b57b019e5",
+      "word": "mucho",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [],
+      "reason": "Unrelated sense/POS record omitted in full."
+    },
+    {
+      "recordSha256": "412a15b2bcd485cb6a18e6d3c87dca11f8ca7a6c56f91f198ab9712dbbc31f67",
+      "word": "mucha",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "a4e06b6e36f7eabd9e90118356bff4c4a2181f4132649edab0f56f3b7c405ed9",
+      "word": "muchas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "b1419ebffd9748c685213e6e597e9755ebdaadada6e1e8e5e036866510a2a7a4",
+      "word": "muchos",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "f9eb23689ab21b1f9ef1ebcca094ad9f9482ba1c84bd4e287e1069454aaf9f31",
+      "word": "quien",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "db98ebe350ebb9698fee6ed1898e21cef03153233a0dc543b539c97fb1bd83bc",
+      "word": "quienes",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "a453391c8d0b338fecdf4f332fb67bf467363a80b0be3facba82cb6b12c0d267",
+      "word": "tantas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "ed0b7b032f7d8731d8e2cbb5e08be4e09407b53582b6b4fb697137dffe122e30",
+      "word": "tuyo",
+      "partOfSpeech": "pron",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "3dba63dce930c164cea0e7de88dd92bf7e5b157662036c8643e48ffcbcb2b816",
+      "word": "tuyo",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "5c763de45d5e1922daed965d817991bc59c4b67679396612f809698297acfb2e",
+      "word": "ésas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "2afe3df018b42f5091cb8d7467f41bbd5cb2994026238631bad55afe493c2f70",
+      "word": "ésos",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "9b67f1d10384f9e8e5945675e63e833c61fc631f04989ca6934644bbef7a177e",
+      "word": "éstas",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    },
+    {
+      "recordSha256": "f7efc63b67aac50249875e736caf98c1c4ee19ed632da93ed5e15a1fec8f2b2d",
+      "word": "éstos",
+      "partOfSpeech": "adj",
+      "selectedSenseIndices": [
+        0
+      ]
+    }
+  ],
+  "dropCounts": {
+    "uniqueOriginalSpanishRecords": 29,
+    "uniqueKeptSpanishRecords": 27,
+    "wholeUnrelatedRecordsDropped": 2,
+    "retainedSelectedSenses": 27,
+    "unselectedSensesDroppedFromKeptRecords": 8,
+    "excludedFieldOccurrencesInKeptUniqueRecords": {
+      "record.antonyms": 1,
+      "record.categories": 27,
+      "record.etymology_links": 11,
+      "record.etymology_texts": 11,
+      "record.forms": 10,
+      "record.hyphenations": 27,
+      "record.idioms": 4,
+      "record.proverbs": 1,
+      "record.related": 1,
+      "record.sounds": 27,
+      "record.synonyms": 1,
+      "record.translations": 8,
+      "sense.categories": 16,
+      "sense.examples": 6
+    }
+  },
+  "status": "Pending independent display-only delta review; no production writes. V1 research/projection/review artifacts remain unchanged. The v1 projectionScript metadata retained inside derivative describes its unchanged lexical origin; this manifest binds the new v2 display projection."
+}

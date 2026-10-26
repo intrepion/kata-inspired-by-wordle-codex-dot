@@ -1,0 +1,184 @@
+{
+  "inputSha256": "6a39ed28c4ea5bc0f967d8fe95c47b044e812874fc731d68b1ea90c682b5d284",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic cross-review of all eight exact proposed source senses, roles, aspect policies and English slots, with pinned raw replay and independent normalizer/renderer reproduction. Not source-membership-only approval or native-human certification.",
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "normalizerModuleSha256": "10919b3d40420050cf33dcd18c28da2b4e0b8ed01cd80be3a8f27848793195b2",
+    "baselineCoverageAuditSha256": "ae1eaf4e37a9e5c7f7441b4b410b24c6389d7f8a1ded7657dda06ead3b629135",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51879,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4490,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 60749,
+      "missing": 15921,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2564,
+          "missing": 360
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8315,
+          "missing": 1421
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17489,
+          "missing": 4302
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32381,
+          "missing": 9838
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "dataLicense": "CC-BY-SA-4.0",
+    "agidNotice": "Separate permissive original AGID notices, not GPL because of containing directory.",
+    "subjectRestrictionPolicyHashes": {
+      "english-subject-policy.json": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+      "morph-subject-policy.json": "621fb32b5ff63f013c377e85a2237b9e836c9131a318bbcb379b94e33e3e9e40"
+    }
+  },
+  "approved": [
+    {
+      "spanish": "gañir",
+      "partOfSpeech": "verb",
+      "recordSha256": "250ef17e445793d6a95a4c38f2c7142c9b78d01c1d5d656e25e2eea56567f08c",
+      "senseIndex": 2,
+      "frame": "breathe noisily and forcefully",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Explicit personal breathing reading: a person breathes noisily and forcefully. No promotion of the dog-yelp or bird-call senses to human subjects.",
+      "notes": "The selected source explicitly says a person breathes noisily. This is not human promotion of the separate animal yelp/call senses; breathe inflects as the only predicate head."
+    },
+    {
+      "spanish": "nevar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0f9f5989dd966af6a8ca76a0c12ecf5443e37bf3ee368cc6347f180563d9870a",
+      "senseIndex": 0,
+      "frame": "whiten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected transitive causation: make something white, by giving it white color or spreading white things on it. Not the separate impersonal snow-falling/weather reading.",
+      "notes": "Exact transitive whitening causation licenses a human agent and contextual patient. Weather snow-falling remains separate and impersonally restricted."
+    },
+    {
+      "spanish": "piar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a9cb4790b08015389a470d0b0d6e100306a56a7110cb4e5679dcd65d4dac8cf9",
+      "senseIndex": 2,
+      "frame": "drink wine",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected slang transitive consumption of liquor, especially wine. Wine is an explicit source-given selected subset, not a bird making cries.",
+      "notes": "Selected slang liquor consumption explicitly includes wine; wine is a reviewed subset, not a bird metaphor. The source sense says transitive; broad header intransitive must be scoped as inventory or suppressed for this selected reading, while retaining raw audit metadata."
+    },
+    {
+      "spanish": "helar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9017133f6da4692210e89d2cabdc74bce54b6b6610224b0cdb6f1a8936ee4de9",
+      "senseIndex": 2,
+      "frame": "discourage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected transitive causing someone to lose heart; human agent with contextual affected person. Not weather, freezing a liquid, or an unlicensed removal of pronominal SE.",
+      "notes": "Source explicitly gives causative discouragement of someone, not freezing weather or a reflexive become-discouraged reading. Bare transitive trailing ellipsis is a selected word-level predicate with contextual patient."
+    },
+    {
+      "spanish": "calar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ab68e9412b3bc8d499e254d08406787751e441749eb57b94b63b732dfecb4fe3",
+      "senseIndex": 3,
+      "frame": "examine closely",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected transitive attentive examination of a contextual patient. Not liquid penetrating a material, a vessel drawing water, or pronominal putting on a hat.",
+      "notes": "Attentive examination is explicitly a separate source sense. It authorizes no personal-liquid soaking, hat clitic or vessel-only expansion."
+    },
+    {
+      "spanish": "balar",
+      "partOfSpeech": "verb",
+      "recordSha256": "027f315503938880845469a6db8596287659710a1a587e92db655cd9979655d9",
+      "senseIndex": 1,
+      "frame": "yearn",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Explicit source desire/longing reading, with a contextual desired object; not a sheep or deer bleating and no personification of that animal sense.",
+      "notes": "Source explicitly describes anxious desire/longing. Yearn is a valid human intransitive predicate with a contextual desired object; animal bleating restrictions remain unchanged."
+    },
+    {
+      "spanish": "manar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ac7bf6848ed1d88093e88b99bf121477dd4afb7bf218216cebb81a6c985bc33f",
+      "senseIndex": 0,
+      "frame": "release liquid",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected causative transitive making liquid flow or letting it out. Human operator is licensed; liquid is the patient, unlike the separate intransitive liquid-emission reading.",
+      "notes": "Separate transitive source is making/letting liquid flow. Human operator and explicit generic liquid patient are supported; this does not promote the intransitive flowing-liquid sense."
+    },
+    {
+      "spanish": "tutear",
+      "partOfSpeech": "verb",
+      "recordSha256": "927e97df905fab018ff0d5d499500f4eefa1d4f25f2d9a173c0d0b57ac1169bd",
+      "senseIndex": 0,
+      "frame": "address someone as tú",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Use the familiar singular second-person pronoun tú, and its associated form of address, when addressing a person. Someone is the human addressee implicit in tratar de tú; no claim that tú-address inherently means disrespect or is exclusive to Mexico.",
+      "notes": "Address someone as tú preserves the familiar singular pronoun and human addressee without implying disrespect or Mexico exclusivity. Someone is an explicit generic grammatical addressee, not a concrete invented person."
+    }
+  ],
+  "rejected": [],
+  "checks": {
+    "rawRecordsReplayed": 155,
+    "explicitFormSensesVerified": 173,
+    "rawFormSensesByRoot": {
+      "gañir": 25,
+      "nevar": 23,
+      "piar": 22,
+      "helar": 22,
+      "calar": 20,
+      "balar": 20,
+      "manar": 19,
+      "tutear": 22
+    },
+    "guardedCandidateWordUnion": 143,
+    "englishAgidSlotsVerified": 8,
+    "priorRestrictionsPreserved": true,
+    "rawArchiveSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad"
+  },
+  "guards": [
+    "Approve only unchanged selected sense/frame/profile/context; no old animal/weather/SE restrictions are altered.",
+    "PIAR selected slang transitive meaning must not be displayed as intransitive merely because of a broader source header; retain original inventory in audit.",
+    "Existing explicit-form, unsupported-mood, clitic, spelling and subject guards remain mandatory.",
+    "No generic used-to paraphrase or state-past approval added.",
+    "143 candidate gap spellings are independently reproduced potential readings, not actual global-union additions before integration."
+  ]
+}

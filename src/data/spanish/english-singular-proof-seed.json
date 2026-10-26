@@ -1,0 +1,1788 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Frozen inherited singular proof seed for reproducible generator bootstrap. This is not a full generated translation audit.",
+  "proposalInputs": [
+    {
+      "file": "nonhuman-indicative2-proposals-standards.json",
+      "sha256": "23fc84357a949b0eaa4809b8b073c310c1d368a0228acf7a9bc03a21d4db9bb7",
+      "archivedSingularAuditSha256": "e893d9d595e721eed26e497388319829a0a434ebf9b43781a900ba9c1e0bc89e"
+    },
+    {
+      "file": "nonhuman-indicative3-proposals-standards.json",
+      "sha256": "0255a2a25fdbaa54c15a00f25ad857c595edf5a80d9787d8a90b372faa6bef22",
+      "archivedSingularAuditSha256": "2ddeb13e20d1373266c0fae287615c4dded729cbbbc63cdf86e1f5bd1feba472"
+    }
+  ],
+  "evidence": {
+    "AMBLA": [
+      {
+        "kind": "rendered-form",
+        "word": "ambla",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "amblar",
+        "canonicalLemma": "amblar",
+        "spellingAliasChain": null,
+        "englishLemma": "amble",
+        "english": [
+          "it ambles"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "b57906001a5f18fc",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "fbc3b0ebad491c528c14eb91d685e3d1610d83339bae9745986a455e0d4a0802",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "ambla",
+        "lemmaRecordSha256": "786cffbf0285c0fe4d0e8ea608e0c74dfcce222aa963d06d0db0af5f76d6a500",
+        "lemmaGloss": "to amble (to move along by using both legs on one side, and then the other)",
+        "lemmaUsageInventory": [
+          "intransitive",
+          "of a quadruped"
+        ],
+        "agidLine": "amble V: ambled | ambling | ambles",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "AOVA": [
+      {
+        "kind": "rendered-form",
+        "word": "aova",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "aovar",
+        "canonicalLemma": "aovar",
+        "spellingAliasChain": null,
+        "englishLemma": "lay eggs",
+        "english": [
+          "it lays eggs"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "dcac67136ef8e5f9",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "da83c05f410dec1f0a674e89e3b2c73c20771ba71f6c9f596815895c7d0f0b0d",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "aova",
+        "lemmaRecordSha256": "5b75c9dd9c58425997a37ef680ad5f1e1343ba67e474b6ef9da7e03e11ab44cd",
+        "lemmaGloss": "to lay eggs",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "lay V: laid | laying | lays",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "APEONA": [
+      {
+        "kind": "rendered-form",
+        "word": "apeona",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "apeonar",
+        "canonicalLemma": "apeonar",
+        "spellingAliasChain": null,
+        "englishLemma": "run",
+        "english": [
+          "it runs"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "42d3df5f69d2964a",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "cf242547f4914eb2c52aa2673951b8b4df5954696852958163b9fc0c7b58a3bc",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "apeona",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "apeonar",
+        "lemmaRecordSha256": "cf242547f4914eb2c52aa2673951b8b4df5954696852958163b9fc0c7b58a3bc",
+        "lemmaGloss": "of a bird: to run",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "run V: ran | run | running | runs",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "ARRUABA": [
+      {
+        "kind": "rendered-form",
+        "word": "arruaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "arruar",
+        "canonicalLemma": "arruar",
+        "spellingAliasChain": null,
+        "englishLemma": "grunt",
+        "english": [
+          "it was grunting"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "02e02385f42cade2",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "c7b36a4e825f8a9dcdb7120b84d0b096e2fdc7641c096b664e1352645717c963",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "arruaba",
+        "lemmaRecordSha256": "a69752b1ce071f4cbd6641705a16f9021f5e86e6329fe6312927b469dbbbcd26",
+        "lemmaGloss": "to grunt",
+        "lemmaUsageInventory": [
+          "of boars"
+        ],
+        "agidLine": "grunt V: grunted | grunting | grunts",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CADUCA": [
+      {
+        "kind": "rendered-form",
+        "word": "caduca",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "caducar",
+        "canonicalLemma": "caducar",
+        "spellingAliasChain": null,
+        "englishLemma": "expire",
+        "english": [
+          "it expires"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": null,
+        "wordRecordSha256": "c19533f683a7e13b738be52ac50e8142a7828b0b0a6e05ae9f0aaafe6ad87bf3",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "caduca",
+        "lemmaRecordSha256": "196e3d3fd2e9573d107a7b4b836f87247397767cf3ef168bfe72b0e1a5e068c4",
+        "lemmaGloss": "to expire",
+        "lemmaUsageInventory": [],
+        "agidLine": "expire V: expired | expiring | expires",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CHOZPA": [
+      {
+        "kind": "rendered-form",
+        "word": "chozpa",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "chozpar",
+        "canonicalLemma": "chozpar",
+        "spellingAliasChain": null,
+        "englishLemma": "hop happily",
+        "english": [
+          "it hops happily"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "7a16f20b0603ecbd",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "4bf15d67896921410c298c1cab318f9c19f3dbb3f610c216706b48a6edd7978e",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "chozpa",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "chozpar",
+        "lemmaRecordSha256": "4bf15d67896921410c298c1cab318f9c19f3dbb3f610c216706b48a6edd7978e",
+        "lemmaGloss": "(of a lamb or goat) to hop happily",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "hop V: hopped, hoped!< 1 | hopping, hoping!< 1 | hops",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CLOCABA": [
+      {
+        "kind": "rendered-form",
+        "word": "clocaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "clocar",
+        "canonicalLemma": "clocar",
+        "spellingAliasChain": null,
+        "englishLemma": "cluck",
+        "english": [
+          "it was clucking"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "0043ab8321f3322a",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "3d977dd03a3e3f687c507552e3824da12e2c59f3411667f6641dabd001a736fc",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "clocaba",
+        "lemmaRecordSha256": "9843833384a88d2bbb9ff3cede2e7916d30f870dc40422f59d8826afe32dcc0c",
+        "lemmaGloss": "to cluck",
+        "lemmaUsageInventory": [],
+        "agidLine": "cluck V: clucked | clucking | clucks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "COCEA": [
+      {
+        "kind": "rendered-form",
+        "word": "cocea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "cocear",
+        "canonicalLemma": "cocear",
+        "spellingAliasChain": null,
+        "englishLemma": "kick",
+        "english": [
+          "it kicks"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "2606ebbe04216c1a",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "77a193834df01a87e5e51f97b15d05136dc92916a08c1a523a7e516db25d44f5",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "cocea",
+        "lemmaRecordSha256": "4abf988b4caef140220be14e93bcdffafa08ccc424e16ba6dbb277f50f32298d",
+        "lemmaGloss": "to kick",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "kick V: kicked | kicking | kicks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CORNEE": [
+      {
+        "kind": "rendered-form",
+        "word": "cornee",
+        "features": {
+          "kind": "finite",
+          "tense": "subjunctive-present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "present",
+            "singular",
+            "subjunctive",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "cornear",
+        "canonicalLemma": "cornear",
+        "spellingAliasChain": null,
+        "englishLemma": "gore",
+        "english": [
+          "that it gore"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "fc6819ac3ef45fce",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "e26f5ee0dfee08de8534ca29395f81c71ddd3ad5ee1098dcc64ca5c0a05e42bd",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "cornee",
+        "lemmaRecordSha256": "5ccef01d127a5ec8a54eb2a4f9e5c74f8309864d34171f042689ada1932cffd3",
+        "lemmaGloss": "to gore (pierce with the horns)",
+        "lemmaUsageInventory": [],
+        "agidLine": "gore V: gored | goring | gores",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CROABA": [
+      {
+        "kind": "rendered-form",
+        "word": "croaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "croar",
+        "canonicalLemma": "croar",
+        "spellingAliasChain": null,
+        "englishLemma": "croak",
+        "english": [
+          "it was croaking"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "a75ceb587ce75db6",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "599f54cf8cf53cd225223a819b31953e68b3a43c7d8adb06e6f1f692f5da586f",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "croaba",
+        "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+        "lemmaGloss": "to ribbit, to croak",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "croak V: croaked | croaking | croaks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "CRUJA": [
+      {
+        "kind": "rendered-form",
+        "word": "cruja",
+        "features": {
+          "kind": "finite",
+          "tense": "subjunctive-present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "present",
+            "singular",
+            "subjunctive",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "crujir",
+        "canonicalLemma": "crujir",
+        "spellingAliasChain": null,
+        "englishLemma": "creak",
+        "english": [
+          "that it creak"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "c42011dec50d5376",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "3746a3b4745c1b6b180a603caf44fab7234f379efa1a46453f304f17a190f9a9",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "cruja",
+        "lemmaRecordSha256": "db16005c7d628a89431d8d15a2a12d0cb1210bf0a65983b05599cd3e0de2495c",
+        "lemmaGloss": "to creak, to crack (high-pitched, sharp sound)",
+        "lemmaUsageInventory": [],
+        "agidLine": "creak V: creaked | creaking | creaks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "DESOVA": [
+      {
+        "kind": "rendered-form",
+        "word": "desova",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "desovar",
+        "canonicalLemma": "desovar",
+        "spellingAliasChain": null,
+        "englishLemma": "spawn",
+        "english": [
+          "it spawns"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": null,
+        "wordRecordSha256": "65cc62c5a56b52f0d163feb6b148ef5a8dd2760f590eb0f2de80fdab07b9a3c7",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "desova",
+        "lemmaRecordSha256": "1ddcbd95f7a4051865048fa3598b6998173bdc860c7b6d865aee8029c4449129",
+        "lemmaGloss": "to spawn, lay eggs",
+        "lemmaUsageInventory": [],
+        "agidLine": "spawn V: spawned | spawning | spawns",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "EMBEBA": [
+      {
+        "kind": "rendered-form",
+        "word": "embeba",
+        "features": {
+          "kind": "finite",
+          "tense": "subjunctive-present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "present",
+            "singular",
+            "subjunctive",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "embeber",
+        "canonicalLemma": "embeber",
+        "spellingAliasChain": null,
+        "englishLemma": "absorb",
+        "english": [
+          "that it absorb"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "f7e6e54c755f5abe",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "7b23d631badac1de4a64ceadcfd2d582e3970ba9557cc46a649cace7e6254187",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "embeba",
+        "lemmaRecordSha256": "c669bf92936fb3550f8f4f880b46ec739205a5d44823fafee9499a92dad081c7",
+        "lemmaGloss": "to absorb, to soak up, to imbibe",
+        "lemmaUsageInventory": [
+          "transitive"
+        ],
+        "agidLine": "absorb V: absorbed | absorbing | absorbs",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "FLUIRÁ": [
+      {
+        "kind": "rendered-form",
+        "word": "fluirá",
+        "features": {
+          "kind": "finite",
+          "tense": "future",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "future",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "fluir",
+        "canonicalLemma": "fluir",
+        "spellingAliasChain": null,
+        "englishLemma": "flow",
+        "english": [
+          "it will flow"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "7775bce105723b45",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "347e8479df064aa6461ad7f3a6e1cfabfc2cfb890ced5a439ed6e1582b08299b",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "fluirá",
+        "lemmaRecordSha256": "dacc376f910b33a83232ec20df300da15a6228d70033d78c9ccd1f7c73ba47aa",
+        "lemmaGloss": "to flow",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "flow V: flowed | flowing | flows",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "FRECE": [
+      {
+        "kind": "rendered-form",
+        "word": "frece",
+        "features": {
+          "kind": "finite",
+          "tense": "subjunctive-present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "present",
+            "singular",
+            "subjunctive",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "frezar",
+        "canonicalLemma": "frezar",
+        "spellingAliasChain": null,
+        "englishLemma": "spawn",
+        "english": [
+          "that it spawn"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 1,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "fbf0b1053a04fa52",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "586ba533657e3d062a919448636b130a10170334f1ceac2d9cea38914fb2e4ee",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "frece",
+        "lemmaRecordSha256": "1e458b813152cc001adb6109c47c4de0d8214ca42315c48265e402de042f97b4",
+        "lemmaGloss": "to spawn",
+        "lemmaUsageInventory": [],
+        "agidLine": "spawn V: spawned | spawning | spawns",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "GORJEA": [
+      {
+        "kind": "rendered-form",
+        "word": "gorjea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "gorjear",
+        "canonicalLemma": "gorjear",
+        "spellingAliasChain": null,
+        "englishLemma": "chirp",
+        "english": [
+          "it chirps"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "581891f11f0dc1a9",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "03795f3bf286a97be0c439cc6ad57ba6f0db1129fc8637fa5cfb2f84dd7041dc",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "gorjea",
+        "lemmaRecordSha256": "e4bb9c6973cc0f7c3141e0797932f5bde17fde016df91c8b2d7ada1b3a479e85",
+        "lemmaGloss": "to chirp",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "chirp V: chirped | chirping | chirps",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "GRAJEA": [
+      {
+        "kind": "rendered-form",
+        "word": "grajea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "grajear",
+        "canonicalLemma": "grajear",
+        "spellingAliasChain": null,
+        "englishLemma": "caw",
+        "english": [
+          "it caws"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "185d693492222e30",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "1c9ae5faa65b0b28a705058e6355c5acd4cb1ed25c1fc9e6654ab69c4ed9de23",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "grajea",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "grajear",
+        "lemmaRecordSha256": "1c9ae5faa65b0b28a705058e6355c5acd4cb1ed25c1fc9e6654ab69c4ed9de23",
+        "lemmaGloss": "to caw",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "caw V: cawed | cawing | caws",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "GRAZNA": [
+      {
+        "kind": "rendered-form",
+        "word": "grazna",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "graznar",
+        "canonicalLemma": "graznar",
+        "spellingAliasChain": null,
+        "englishLemma": "squawk",
+        "english": [
+          "it squawks"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "81bf05eb76efbba0",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "a3f8cb4d801b5ef8688921bec169fc828317b3fc7972a4be4c44927a553e2ac8",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "grazna",
+        "lemmaRecordSha256": "079261ffd52ca9ec9f4b59484c595c34f012daacac5a7f2f6f701f687ef64497",
+        "lemmaGloss": "to squawk",
+        "lemmaUsageInventory": [],
+        "agidLine": "squawk V: squawked | squawking | squawks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "GRILLA": [
+      {
+        "kind": "rendered-form",
+        "word": "grilla",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "grillar",
+        "canonicalLemma": "grillar",
+        "spellingAliasChain": null,
+        "englishLemma": "chirp",
+        "english": [
+          "it chirps"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "fd10cc9b2f75f350",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "2e8187d8aa6cc8f3b8a29d5b9b31eb340349a5881be74b409c2712de966971a2",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "grilla",
+        "lemmaRecordSha256": "6d514cc58718c84db7efe87cb0c4fce7e8985986d7e9fcf7074a27bc8ce04ce4",
+        "lemmaGloss": "to sing, chirp; to make noise",
+        "lemmaUsageInventory": [
+          "of a cricket"
+        ],
+        "agidLine": "chirp V: chirped | chirping | chirps",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "LINDA": [
+      {
+        "kind": "rendered-form",
+        "word": "linda",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "lindar",
+        "canonicalLemma": "lindar",
+        "spellingAliasChain": null,
+        "englishLemma": "abut",
+        "english": [
+          "it abuts"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "6e4a062a078b1598",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "0e7cb66142e0a2367f4ff3edb4013e3039f84dbee369ae5b8b479de6b480eaf3",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "linda",
+        "lemmaRecordSha256": "f7f646671da7a0bd933cc0ce70547caef81876c0afa07536075ddfbe1b2abb32",
+        "lemmaGloss": "to abut",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "abut V: abutted | abutting | abuts",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "MAYABA": [
+      {
+        "kind": "rendered-form",
+        "word": "mayaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "mayar",
+        "canonicalLemma": "mayar",
+        "spellingAliasChain": null,
+        "englishLemma": "meow",
+        "english": [
+          "it was meowing"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "a35c69b556b8d627",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "05051834b54f020a2d74ea6677d1263cb23c6729139db4e01411bb09241ce135",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "mayaba",
+        "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+        "lemmaGloss": "to miaow",
+        "lemmaUsageInventory": [],
+        "agidLine": "meow V: meowed | meowing | meows",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "MELABA": [
+      {
+        "kind": "rendered-form",
+        "word": "melaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "melar",
+        "canonicalLemma": "melar",
+        "spellingAliasChain": null,
+        "englishLemma": "fill the combs with honey",
+        "english": [
+          "it was filling the combs with honey"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 2,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "76fc9aaa974b5d13",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "6dccf71453eaea6c529021c5be2d4e8ccbe82a9f61c0ad4d4d86de05bbfb64cd",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "melaba",
+        "lemmaRecordSha256": "0c82bf1da16232e1b6e47f23b271ea80724aed2f1202f3735e337e79caa4fd5d",
+        "lemmaGloss": "to fill the combs with honey",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "fill V: filled | filling | fills, filles!< 1",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "MIABA": [
+      {
+        "kind": "rendered-form",
+        "word": "miaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "miar",
+        "canonicalLemma": "miar",
+        "spellingAliasChain": null,
+        "englishLemma": "meow",
+        "english": [
+          "it was meowing"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "ad168b0c2864ddfd",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "miaba",
+          "tags": [
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "miar",
+        "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "lemmaGloss": "to meow",
+        "lemmaUsageInventory": [],
+        "agidLine": "meow V: meowed | meowing | meows",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "MIAÑA": [
+      {
+        "kind": "rendered-form",
+        "word": "miaña",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "miañar",
+        "canonicalLemma": "miañar",
+        "spellingAliasChain": null,
+        "englishLemma": "meow",
+        "english": [
+          "it meows"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "eafb048f5871b350",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "1e7f069d8319abf00cdc0c64c15078f417134a07cf16afb3ea4cb6b8ff8f64cc",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "miaña",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "miañar",
+        "lemmaRecordSha256": "1e7f069d8319abf00cdc0c64c15078f417134a07cf16afb3ea4cb6b8ff8f64cc",
+        "lemmaGloss": "to meow",
+        "lemmaUsageInventory": [],
+        "agidLine": "meow V: meowed | meowing | meows",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "MUGÍA": [
+      {
+        "kind": "rendered-form",
+        "word": "mugía",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "mugir",
+        "canonicalLemma": "mugir",
+        "spellingAliasChain": null,
+        "englishLemma": "moo",
+        "english": [
+          "it was mooing"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "eb6b6d7f0b08a891",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "02c6edd4034678002fb99deb82a3a98b36c769f00ee181ca8c3d57bffc6fafde",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "mugía",
+        "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+        "lemmaGloss": "to moo",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "moo V: mooed | mooing | moos",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "OVABA": [
+      {
+        "kind": "rendered-form",
+        "word": "ovaba",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "ovar",
+        "canonicalLemma": "ovar",
+        "spellingAliasChain": null,
+        "englishLemma": "lay eggs",
+        "english": [
+          "it was laying eggs"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "2e03a69c0f944cc5",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "801c913f38bc9b69e0d5278fe8433b967e9528eed8e90a201b41ca339ee230c7",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "ovaba",
+        "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+        "lemmaGloss": "to lay eggs",
+        "lemmaUsageInventory": [],
+        "agidLine": "lay V: laid | laying | lays",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "PACÍA": [
+      {
+        "kind": "rendered-form",
+        "word": "pacía",
+        "features": {
+          "kind": "finite",
+          "tense": "imperfect",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "first-person",
+            "imperfect",
+            "indicative",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "pacer",
+        "canonicalLemma": "pacer",
+        "spellingAliasChain": null,
+        "englishLemma": "graze",
+        "english": [
+          "it was grazing"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "698114413a189b58",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "f3f4d577b7bdb968070f0b00c555bff3d98b62a6617a99ae05cf944d08dd7c4f",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "pacía",
+        "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+        "lemmaGloss": "to graze, to pasture",
+        "lemmaUsageInventory": [],
+        "agidLine": "graze V: grazed | grazing | grazes",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "PARPA": [
+      {
+        "kind": "rendered-form",
+        "word": "parpa",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "parpar",
+        "canonicalLemma": "parpar",
+        "spellingAliasChain": null,
+        "englishLemma": "quack",
+        "english": [
+          "it quacks"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "9958a5cfa5d11e84",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "9e09fa1f2b076b274973cc2ac09a958d121401b561cead58a20a39f77cf59958",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "parpa",
+        "lemmaRecordSha256": "0627c9c587b4fb9fbbe3a5c619e5a058da0ca83814975c13390ca67ab5e95a0e",
+        "lemmaGloss": "to quack",
+        "lemmaUsageInventory": [],
+        "agidLine": "quack V: quacked | quacking | quacks",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "PASTEA": [
+      {
+        "kind": "rendered-form",
+        "word": "pastea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "pastear",
+        "canonicalLemma": "pastear",
+        "spellingAliasChain": null,
+        "englishLemma": "graze",
+        "english": [
+          "it grazes"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "9b30840a00ced86d",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "79684a7f41515c53953ab0a3a9e3e5f7d682efd09b822d6f69c06fe3240b4f3a",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "pastea",
+        "lemmaRecordSha256": "6651ec9ea86ae0c873104a762b00d02089d2a866abf25daae791198248584f71",
+        "lemmaGloss": "to graze",
+        "lemmaUsageInventory": [],
+        "agidLine": "graze V: grazed | grazing | grazes",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "RATONA": [
+      {
+        "kind": "rendered-form",
+        "word": "ratona",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "ratonar",
+        "canonicalLemma": "ratonar",
+        "spellingAliasChain": null,
+        "englishLemma": "gnaw",
+        "english": [
+          "it gnaws"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": null,
+        "wordRecordSha256": "8a0ccf540c2d55f84383c1040aab67797d822bf640ce54bd6ed94f8c4f1bfe40",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "ratona",
+        "lemmaRecordSha256": "2db8e461e7c4ba84401271696915a3936034ff3ad386818dce770bca1760edff",
+        "lemmaGloss": "to gnaw, to nibble",
+        "lemmaUsageInventory": [
+          "transitive"
+        ],
+        "agidLine": "gnaw V: gnawed | gnawed, gnawn 1 | gnawing | gnaws",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "RELUCE": [
+      {
+        "kind": "rendered-form",
+        "word": "reluce",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "relucir",
+        "canonicalLemma": "relucir",
+        "spellingAliasChain": null,
+        "englishLemma": "glisten",
+        "english": [
+          "it glistens"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "2868c84420e73a33",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "a0240bbb3a50a2648fb2d727f523e258ff3bdecea5f9392c04f9f70e84942acd",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "reluce",
+        "lemmaRecordSha256": "0a8efcd85c12cf7432a4530283bd381c2205597a141c3a855447cd5ea3f580bc",
+        "lemmaGloss": "to glisten",
+        "lemmaUsageInventory": [],
+        "agidLine": "glisten V: glistened | glistening | glistens",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "RESALE": [
+      {
+        "kind": "rendered-form",
+        "word": "resale",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "resalir",
+        "canonicalLemma": "resalir",
+        "spellingAliasChain": null,
+        "englishLemma": "jut out",
+        "english": [
+          "it juts out"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "baef76d1ef356176",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "7e34d0a4c15e32bc6116ea97e7cd179c155af17aecbdaba7de4f4dc1d07e9cee",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "resale",
+        "lemmaRecordSha256": "f14914b50244f41bc68079854475b420ef23e5afa0a9a480975c39bd90e467ab",
+        "lemmaGloss": "to stick out; to jut out",
+        "lemmaUsageInventory": [],
+        "agidLine": "jut V: jutted | jutting | juts",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "RIELA": [
+      {
+        "kind": "rendered-form",
+        "word": "riela",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "rielar",
+        "canonicalLemma": "rielar",
+        "spellingAliasChain": null,
+        "englishLemma": "shimmer",
+        "english": [
+          "it shimmers"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "a62d202c6c5d15cd",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "d9883523097a774e32bef5af5008b11c14935a435415a65cb7ec6fd515ad7894",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "riela",
+        "lemmaRecordSha256": "bafb83b74b96121d62c317fa59d3bffa7eae9a8942798c19243b27664435c20a",
+        "lemmaGloss": "to shimmer, glimmer, glisten",
+        "lemmaUsageInventory": [
+          "poetic"
+        ],
+        "agidLine": "shimmer V: shimmered | shimmering | shimmers",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "ROZNA": [
+      {
+        "kind": "rendered-form",
+        "word": "rozna",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "roznar",
+        "canonicalLemma": "roznar",
+        "spellingAliasChain": null,
+        "englishLemma": "bray",
+        "english": [
+          "it brays"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 1,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "f8e959e6ee0fab0a",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "6342c24ea66cbd81aa5b1215952059f86b38118699e24bb2779bd3097da40c79",
+        "wordEvidenceKind": "explicit source table",
+        "spanishForm": null,
+        "tableForm": {
+          "form": "rozna",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "sourceArticle": "roznar",
+        "lemmaRecordSha256": "6342c24ea66cbd81aa5b1215952059f86b38118699e24bb2779bd3097da40c79",
+        "lemmaGloss": "to bray",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "bray V: brayed | braying | brays",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "TITILA": [
+      {
+        "kind": "rendered-form",
+        "word": "titila",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "titilar",
+        "canonicalLemma": "titilar",
+        "spellingAliasChain": null,
+        "englishLemma": "twinkle",
+        "english": [
+          "it twinkles"
+        ],
+        "additionalVerbReview": null,
+        "subjectPolicy": {
+          "id": "72fff560ea97d37a",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "f967ddf284f199cc393e4b653dfffeb21cf1b08e9e5b4109aba25d011a84e40c",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "titila",
+        "lemmaRecordSha256": "aab19e696ea810b9c05c90fc37e1931c32de14a64649ea955fbff68d2bb1c566",
+        "lemmaGloss": "to twinkle",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "twinkle V: twinkled | twinkling | twinkles",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "VERDEA": [
+      {
+        "kind": "rendered-form",
+        "word": "verdea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "verdear",
+        "canonicalLemma": "verdear",
+        "spellingAliasChain": null,
+        "englishLemma": "turn green",
+        "english": [
+          "it turns green"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "9fe2cf1f2ea3eb4c",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "879a7a67895990a3d3e08af82b6e67d20cc25102cff99d6583d7c10651d24002",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "verdea",
+        "lemmaRecordSha256": "00fdf8cf0a128b733832beaad2bd3692c7de21035c7ee3f7c7291eca6f2b6be2",
+        "lemmaGloss": "to turn green",
+        "lemmaUsageInventory": [],
+        "agidLine": "turn V: turned | turning | turns",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ],
+    "ZUREA": [
+      {
+        "kind": "rendered-form",
+        "word": "zurea",
+        "features": {
+          "kind": "finite",
+          "tense": "present",
+          "person": "third-person",
+          "number": "singular",
+          "tags": [
+            "indicative",
+            "present",
+            "singular",
+            "third-person"
+          ]
+        },
+        "spanishLemma": "zurear",
+        "canonicalLemma": "zurear",
+        "spellingAliasChain": null,
+        "englishLemma": "coo",
+        "english": [
+          "it coos"
+        ],
+        "additionalVerbReview": {
+          "meaningIndex": 0,
+          "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+        },
+        "subjectPolicy": {
+          "id": "33131a72457657dc",
+          "action": "it-only",
+          "effectiveProfile": "it-only"
+        },
+        "wordRecordSha256": "13c6d949de4d3952cc8ebe93202ce4e075e406aa2bb7602f618a5f1f01465c18",
+        "wordEvidenceKind": "source word entry",
+        "spanishForm": null,
+        "tableForm": null,
+        "sourceArticle": "zurea",
+        "lemmaRecordSha256": "04a994dd2ba215e45abe502f8277c30c5d39c44510f88bdb3f11825f67c0cbb8",
+        "lemmaGloss": "to coo",
+        "lemmaUsageInventory": [
+          "intransitive"
+        ],
+        "agidLine": "coo V: cooed | cooing | coos",
+        "nonhumanPluralReview": null,
+        "qualifiedSlotReview": null,
+        "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+      }
+    ]
+  }
+}

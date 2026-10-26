@@ -1,0 +1,902 @@
+[
+  {
+    "word": "SUBLIME",
+    "translation": "sublime; majestic",
+    "example": "La vista del valle era sublime.",
+    "exampleTranslation": "The view of the valley was sublime."
+  },
+  {
+    "word": "SUCEDER",
+    "translation": "to happen",
+    "example": "Eso puede suceder en cualquier momento.",
+    "exampleTranslation": "That can happen at any time."
+  },
+  {
+    "word": "SUCESO",
+    "translation": "event",
+    "example": "El suceso cambió la vida del pueblo.",
+    "exampleTranslation": "The event changed the town's life."
+  },
+  {
+    "word": "SUCESOR",
+    "translation": "successor",
+    "example": "El sucesor del director mantuvo el proyecto.",
+    "exampleTranslation": "The director's successor kept the project going."
+  },
+  {
+    "word": "SUCIO",
+    "translation": "dirty",
+    "example": "El mantel está sucio.",
+    "exampleTranslation": "The tablecloth is dirty."
+  },
+  {
+    "word": "SUDESTE",
+    "translation": "southeast",
+    "example": "El viento viene del sudeste.",
+    "exampleTranslation": "The wind comes from the southeast."
+  },
+  {
+    "word": "SUDOR",
+    "translation": "sweat",
+    "example": "El sudor le corría por la frente.",
+    "exampleTranslation": "Sweat ran down his forehead."
+  },
+  {
+    "word": "SUECO",
+    "translation": "Swedish",
+    "example": "El diseño sueco llamó nuestra atención.",
+    "exampleTranslation": "The Swedish design caught our attention."
+  },
+  {
+    "word": "SUEGRA",
+    "translation": "mother-in-law",
+    "example": "Mi suegra prepara un café delicioso.",
+    "exampleTranslation": "My mother-in-law makes delicious coffee."
+  },
+  {
+    "word": "SUEGRO",
+    "translation": "father-in-law",
+    "example": "Su suegro cultiva flores.",
+    "exampleTranslation": "Her father-in-law grows flowers."
+  },
+  {
+    "word": "SUELDO",
+    "translation": "salary",
+    "example": "Recibió su primer sueldo.",
+    "exampleTranslation": "She received her first salary."
+  },
+  {
+    "word": "SUELO",
+    "translation": "ground; floor",
+    "example": "La pelota cayó al suelo.",
+    "exampleTranslation": "The ball fell to the ground."
+  },
+  {
+    "word": "SUELTA",
+    "translation": "release",
+    "example": "La suelta de aves fue al amanecer.",
+    "exampleTranslation": "The release of birds took place at dawn."
+  },
+  {
+    "word": "SUELTO",
+    "translation": "loose",
+    "example": "El tornillo está suelto.",
+    "exampleTranslation": "The screw is loose."
+  },
+  {
+    "word": "SUERO",
+    "translation": "serum; whey",
+    "example": "El suero se separó de la leche.",
+    "exampleTranslation": "The whey separated from the milk."
+  },
+  {
+    "word": "SUERTE",
+    "translation": "luck",
+    "example": "Tuvo suerte en el sorteo.",
+    "exampleTranslation": "She was lucky in the drawing."
+  },
+  {
+    "word": "SUEÑO",
+    "translation": "sleepiness",
+    "example": "Tengo sueño después del viaje.",
+    "exampleTranslation": "I feel sleepy after the trip."
+  },
+  {
+    "word": "SUFRIDO",
+    "translation": "long-suffering",
+    "example": "El personaje sufrido soportó muchas dificultades.",
+    "exampleTranslation": "The long-suffering character endured many hardships."
+  },
+  {
+    "word": "SUFRIR",
+    "translation": "to suffer",
+    "example": "No quiero sufrir por ese recuerdo.",
+    "exampleTranslation": "I do not want to suffer over that memory."
+  },
+  {
+    "word": "SUGERIR",
+    "translation": "to suggest",
+    "example": "Puedo sugerir otra solución.",
+    "exampleTranslation": "I can suggest another solution."
+  },
+  {
+    "word": "SUICIDA",
+    "translation": "person who attempts suicide",
+    "example": "El suicida sobrevivió y recibió atención médica.",
+    "exampleTranslation": "The person who attempted suicide survived and received medical care."
+  },
+  {
+    "word": "SUITE",
+    "translation": "suite",
+    "example": "La suite tiene dos habitaciones.",
+    "exampleTranslation": "The suite has two rooms."
+  },
+  {
+    "word": "SUIZO",
+    "translation": "Swiss",
+    "example": "El reloj suizo funciona bien.",
+    "exampleTranslation": "The Swiss watch works well."
+  },
+  {
+    "word": "SUJETO",
+    "translation": "grammatical subject",
+    "example": "El sujeto concuerda con el verbo.",
+    "exampleTranslation": "The subject agrees with the verb."
+  },
+  {
+    "word": "SULTÁN",
+    "translation": "sultan",
+    "example": "El sultán recibió a los viajeros.",
+    "exampleTranslation": "The sultan received the travelers."
+  },
+  {
+    "word": "SUMA",
+    "translation": "sum",
+    "example": "La suma de dos y tres es cinco.",
+    "exampleTranslation": "The sum of two and three is five."
+  },
+  {
+    "word": "SUMANDO",
+    "translation": "addend",
+    "example": "Cada sumando aporta una cantidad al total.",
+    "exampleTranslation": "Each addend contributes an amount to the total."
+  },
+  {
+    "word": "SUMAR",
+    "translation": "to add",
+    "example": "Debes sumar ambos resultados.",
+    "exampleTranslation": "You need to add both results."
+  },
+  {
+    "word": "SUMARSE",
+    "translation": "to add oneself; to join",
+    "example": "Decidió sumarse al proyecto.",
+    "exampleTranslation": "She decided to join the project."
+  },
+  {
+    "word": "SUMO",
+    "translation": "utmost",
+    "example": "Revisó el documento con sumo cuidado.",
+    "exampleTranslation": "He checked the document with utmost care."
+  },
+  {
+    "word": "SUPERAR",
+    "translation": "to surpass",
+    "example": "Logró superar su marca anterior.",
+    "exampleTranslation": "She managed to surpass her previous record."
+  },
+  {
+    "word": "SUPONER",
+    "translation": "to suppose",
+    "example": "No debemos suponer que todos saben.",
+    "exampleTranslation": "We should not suppose that everyone knows."
+  },
+  {
+    "word": "SUPREMA",
+    "translation": "boneless fish cut",
+    "example": "Sirvieron una suprema de pescado.",
+    "exampleTranslation": "They served a boneless cut of fish."
+  },
+  {
+    "word": "SUPREMO",
+    "translation": "supreme; highest",
+    "example": "El tribunal supremo revisó el caso.",
+    "exampleTranslation": "The supreme court reviewed the case."
+  },
+  {
+    "word": "SURESTE",
+    "translation": "southeast",
+    "example": "Viajaron hacia el sureste.",
+    "exampleTranslation": "They traveled southeast."
+  },
+  {
+    "word": "SURGIR",
+    "translation": "to spring up; to emerge",
+    "example": "Vimos surgir agua de la roca.",
+    "exampleTranslation": "We saw water spring from the rock."
+  },
+  {
+    "word": "SUSPIRO",
+    "translation": "sigh",
+    "example": "Soltó un suspiro de alivio.",
+    "exampleTranslation": "She let out a sigh of relief."
+  },
+  {
+    "word": "SUSTO",
+    "translation": "fright",
+    "example": "El ruido me dio un susto.",
+    "exampleTranslation": "The noise gave me a fright."
+  },
+  {
+    "word": "SUTIL",
+    "translation": "fine; delicate",
+    "example": "Un hilo sutil unía las piezas.",
+    "exampleTranslation": "A fine thread joined the pieces."
+  },
+  {
+    "word": "SUYO",
+    "translation": "his; hers; theirs",
+    "example": "El cuaderno azul es suyo.",
+    "exampleTranslation": "The blue notebook is hers."
+  },
+  {
+    "word": "SÁBADO",
+    "translation": "Saturday",
+    "example": "Nos reunimos el sábado.",
+    "exampleTranslation": "We are meeting on Saturday."
+  },
+  {
+    "word": "SÁTIRA",
+    "translation": "satire",
+    "example": "La sátira critica los abusos del poder.",
+    "exampleTranslation": "The satire criticizes abuses of power."
+  },
+  {
+    "word": "SÉPTIMA",
+    "translation": "seventh; musical interval",
+    "example": "El acorde incluye una séptima.",
+    "exampleTranslation": "The chord includes a seventh."
+  },
+  {
+    "word": "SÉPTIMO",
+    "translation": "seventh",
+    "example": "Es el séptimo libro de la serie.",
+    "exampleTranslation": "It is the seventh book in the series."
+  },
+  {
+    "word": "SÍMBOLO",
+    "translation": "symbol",
+    "example": "La paloma es un símbolo de paz.",
+    "exampleTranslation": "The dove is a symbol of peace."
+  },
+  {
+    "word": "SÍNTOMA",
+    "translation": "symptom",
+    "example": "El cansancio fue el primer síntoma.",
+    "exampleTranslation": "Tiredness was the first symptom."
+  },
+  {
+    "word": "SÓLIDO",
+    "translation": "solid; firm",
+    "example": "El bloque sólido resistió el peso.",
+    "exampleTranslation": "The solid block withstood the weight."
+  },
+  {
+    "word": "SÓLO",
+    "translation": "only",
+    "example": "Sólo necesito un minuto.",
+    "exampleTranslation": "I only need a minute."
+  },
+  {
+    "word": "SÓTANO",
+    "translation": "basement",
+    "example": "Guardamos las cajas en el sótano.",
+    "exampleTranslation": "We keep the boxes in the basement."
+  },
+  {
+    "word": "SÚPER",
+    "translation": "great; excellent",
+    "example": "La película estuvo súper.",
+    "exampleTranslation": "The movie was great."
+  },
+  {
+    "word": "TABACO",
+    "translation": "tobacco",
+    "example": "El tabaco se secaba bajo techo.",
+    "exampleTranslation": "The tobacco was drying under a roof."
+  },
+  {
+    "word": "TABLA",
+    "translation": "board; plank",
+    "example": "La tabla de madera está lisa.",
+    "exampleTranslation": "The wooden board is smooth."
+  },
+  {
+    "word": "TABLERO",
+    "translation": "board",
+    "example": "El tablero de ajedrez tiene cuadros claros y oscuros.",
+    "exampleTranslation": "The chessboard has light and dark squares."
+  },
+  {
+    "word": "TACO",
+    "translation": "taco",
+    "example": "Pedí un taco de frijoles.",
+    "exampleTranslation": "I ordered a bean taco."
+  },
+  {
+    "word": "TACTO",
+    "translation": "touch",
+    "example": "Reconoció la tela por el tacto.",
+    "exampleTranslation": "She recognized the fabric by touch."
+  },
+  {
+    "word": "TAJO",
+    "translation": "cut; gash",
+    "example": "El cuchillo dejó un tajo en el cuero.",
+    "exampleTranslation": "The knife left a gash in the leather."
+  },
+  {
+    "word": "TALENTO",
+    "translation": "talent; ability",
+    "example": "Su talento para entender problemas sorprendió al grupo.",
+    "exampleTranslation": "Her ability to understand problems surprised the group."
+  },
+  {
+    "word": "TALLA",
+    "translation": "carving",
+    "example": "La talla en madera requiere precisión.",
+    "exampleTranslation": "Wood carving requires precision."
+  },
+  {
+    "word": "TALLER",
+    "translation": "workshop",
+    "example": "El taller repara bicicletas.",
+    "exampleTranslation": "The workshop repairs bicycles."
+  },
+  {
+    "word": "TAMAÑO",
+    "translation": "size",
+    "example": "La caja tiene el tamaño adecuado.",
+    "exampleTranslation": "The box is the right size."
+  },
+  {
+    "word": "TAMBIÉN",
+    "translation": "also; too",
+    "example": "Yo también quiero participar.",
+    "exampleTranslation": "I also want to participate."
+  },
+  {
+    "word": "TAMBOR",
+    "translation": "drum",
+    "example": "El tambor marcó el ritmo.",
+    "exampleTranslation": "The drum kept the rhythm."
+  },
+  {
+    "word": "TAMPOCO",
+    "translation": "neither; not either",
+    "example": "Yo tampoco conozco la respuesta.",
+    "exampleTranslation": "I do not know the answer either."
+  },
+  {
+    "word": "TANGO",
+    "translation": "tango",
+    "example": "La orquesta tocó un tango.",
+    "exampleTranslation": "The orchestra played a tango."
+  },
+  {
+    "word": "TANQUE",
+    "translation": "tank",
+    "example": "El tanque almacena agua.",
+    "exampleTranslation": "The tank stores water."
+  },
+  {
+    "word": "TANTO",
+    "translation": "so much",
+    "example": "No esperaba tanto apoyo.",
+    "exampleTranslation": "I did not expect so much support."
+  },
+  {
+    "word": "TAPA",
+    "translation": "lid",
+    "example": "Cierra bien la tapa.",
+    "exampleTranslation": "Close the lid tightly."
+  },
+  {
+    "word": "TAPAR",
+    "translation": "to cover",
+    "example": "Necesitas tapar la olla.",
+    "exampleTranslation": "You need to cover the pot."
+  },
+  {
+    "word": "TAPIA",
+    "translation": "earthen wall",
+    "example": "La tapia rodea el jardín.",
+    "exampleTranslation": "The earthen wall surrounds the garden."
+  },
+  {
+    "word": "TARDAR",
+    "translation": "to take time; to be delayed",
+    "example": "Podemos tardar una hora en llegar.",
+    "exampleTranslation": "It may take us an hour to arrive."
+  },
+  {
+    "word": "TAREA",
+    "translation": "task; work",
+    "example": "La tarea exige concentración.",
+    "exampleTranslation": "The task requires concentration."
+  },
+  {
+    "word": "TARIFA",
+    "translation": "rate; fee schedule",
+    "example": "La tarifa incluye el equipaje.",
+    "exampleTranslation": "The rate includes baggage."
+  },
+  {
+    "word": "TARJETA",
+    "translation": "card",
+    "example": "Escribió un mensaje en la tarjeta.",
+    "exampleTranslation": "She wrote a message on the card."
+  },
+  {
+    "word": "TARTA",
+    "translation": "tart; cake",
+    "example": "Preparó una tarta de manzana.",
+    "exampleTranslation": "She made an apple tart."
+  },
+  {
+    "word": "TASA",
+    "translation": "rate; ratio",
+    "example": "La tasa de crecimiento disminuyó.",
+    "exampleTranslation": "The growth rate decreased."
+  },
+  {
+    "word": "TATUAJE",
+    "translation": "tattoo",
+    "example": "El tatuaje representa una flor.",
+    "exampleTranslation": "The tattoo depicts a flower."
+  },
+  {
+    "word": "TAXI",
+    "translation": "taxi",
+    "example": "Tomamos un taxi al hospital.",
+    "exampleTranslation": "We took a taxi to the hospital."
+  },
+  {
+    "word": "TAXISTA",
+    "translation": "taxi driver",
+    "example": "El taxista conoce bien la ciudad.",
+    "exampleTranslation": "The taxi driver knows the city well."
+  },
+  {
+    "word": "TEATRAL",
+    "translation": "theatrical",
+    "example": "La obra teatral empieza pronto.",
+    "exampleTranslation": "The theatrical performance starts soon."
+  },
+  {
+    "word": "TEATRO",
+    "translation": "theater; dramatic literature",
+    "example": "Estudia teatro en la universidad.",
+    "exampleTranslation": "She studies theater at university."
+  },
+  {
+    "word": "TECHO",
+    "translation": "roof",
+    "example": "La lluvia golpeaba el techo.",
+    "exampleTranslation": "Rain was hitting the roof."
+  },
+  {
+    "word": "TECLADO",
+    "translation": "keyboard",
+    "example": "El teclado tiene una tecla rota.",
+    "exampleTranslation": "The keyboard has a broken key."
+  },
+  {
+    "word": "TEJADO",
+    "translation": "roof",
+    "example": "El tejado necesita nuevas tejas.",
+    "exampleTranslation": "The roof needs new tiles."
+  },
+  {
+    "word": "TEJIDO",
+    "translation": "weave; woven fabric",
+    "example": "El tejido de la manta es fino.",
+    "exampleTranslation": "The blanket has a fine weave."
+  },
+  {
+    "word": "TELA",
+    "translation": "cloth; fabric",
+    "example": "La tela es de algodón.",
+    "exampleTranslation": "The fabric is cotton."
+  },
+  {
+    "word": "TELE",
+    "translation": "TV",
+    "example": "Vimos las noticias en la tele.",
+    "exampleTranslation": "We watched the news on TV."
+  },
+  {
+    "word": "TELÓN",
+    "translation": "theater curtain",
+    "example": "El telón se abrió lentamente.",
+    "exampleTranslation": "The theater curtain opened slowly."
+  },
+  {
+    "word": "TEMA",
+    "translation": "topic",
+    "example": "El tema de hoy es el agua.",
+    "exampleTranslation": "Today's topic is water."
+  },
+  {
+    "word": "TEMBLAR",
+    "translation": "to tremble",
+    "example": "El frío lo hizo temblar.",
+    "exampleTranslation": "The cold made him tremble."
+  },
+  {
+    "word": "TEMBLOR",
+    "translation": "tremor; shaking",
+    "example": "El temblor de sus manos disminuyó.",
+    "exampleTranslation": "The shaking in his hands decreased."
+  },
+  {
+    "word": "TEMER",
+    "translation": "to fear",
+    "example": "Es normal temer lo desconocido.",
+    "exampleTranslation": "It is normal to fear the unknown."
+  },
+  {
+    "word": "TEMOR",
+    "translation": "fear",
+    "example": "Sintió temor al oír el ruido.",
+    "exampleTranslation": "She felt fear when she heard the noise."
+  },
+  {
+    "word": "TEMPLE",
+    "translation": "composure",
+    "example": "Mantuvo el temple durante la emergencia.",
+    "exampleTranslation": "She kept her composure during the emergency."
+  },
+  {
+    "word": "TEMPLO",
+    "translation": "temple",
+    "example": "El templo conserva pinturas antiguas.",
+    "exampleTranslation": "The temple preserves old paintings."
+  },
+  {
+    "word": "TENDIDO",
+    "translation": "laying out; installation",
+    "example": "El tendido de cables terminó ayer.",
+    "exampleTranslation": "The laying of cables finished yesterday."
+  },
+  {
+    "word": "TENER",
+    "translation": "to have; to own",
+    "example": "Quiere tener una bicicleta.",
+    "exampleTranslation": "She wants to have a bicycle."
+  },
+  {
+    "word": "TENIA",
+    "translation": "tapeworm",
+    "example": "El veterinario detectó una tenia.",
+    "exampleTranslation": "The veterinarian detected a tapeworm."
+  },
+  {
+    "word": "TENIS",
+    "translation": "tennis",
+    "example": "Jugamos tenis los domingos.",
+    "exampleTranslation": "We play tennis on Sundays."
+  },
+  {
+    "word": "TENOR",
+    "translation": "tenor singer",
+    "example": "El tenor interpretó una canción.",
+    "exampleTranslation": "The tenor performed a song."
+  },
+  {
+    "word": "TENSIÓN",
+    "translation": "tension",
+    "example": "La tensión estiró la cuerda.",
+    "exampleTranslation": "The tension stretched the rope."
+  },
+  {
+    "word": "TEORÍA",
+    "translation": "theory",
+    "example": "La teoría explica el fenómeno.",
+    "exampleTranslation": "The theory explains the phenomenon."
+  },
+  {
+    "word": "TEQUILA",
+    "translation": "tequila",
+    "example": "Sirvieron una copa de tequila.",
+    "exampleTranslation": "They served a glass of tequila."
+  },
+  {
+    "word": "TERAPIA",
+    "translation": "therapy",
+    "example": "La terapia ayudó a recuperar el movimiento.",
+    "exampleTranslation": "Therapy helped restore movement."
+  },
+  {
+    "word": "TERCER",
+    "translation": "third",
+    "example": "Vive en el tercer piso.",
+    "exampleTranslation": "He lives on the third floor."
+  },
+  {
+    "word": "TERCERA",
+    "translation": "third; musical interval",
+    "example": "El acorde incluye una tercera.",
+    "exampleTranslation": "The chord includes a third."
+  },
+  {
+    "word": "TERCERO",
+    "translation": "third",
+    "example": "Fue el tercero en responder.",
+    "exampleTranslation": "He was the third to answer."
+  },
+  {
+    "word": "TERCIO",
+    "translation": "one third",
+    "example": "Un tercio del terreno tiene árboles.",
+    "exampleTranslation": "One third of the plot has trees."
+  },
+  {
+    "word": "TERNURA",
+    "translation": "tenderness",
+    "example": "La abuela lo abrazó con ternura.",
+    "exampleTranslation": "Grandmother hugged him tenderly."
+  },
+  {
+    "word": "TERRAZA",
+    "translation": "terrace",
+    "example": "Tomamos café en la terraza.",
+    "exampleTranslation": "We had coffee on the terrace."
+  },
+  {
+    "word": "TERRENO",
+    "translation": "plot of land; ground",
+    "example": "El terreno está listo para sembrar.",
+    "exampleTranslation": "The land is ready for sowing."
+  },
+  {
+    "word": "TERROR",
+    "translation": "terror",
+    "example": "La tormenta le causó terror.",
+    "exampleTranslation": "The storm terrified her."
+  },
+  {
+    "word": "TESIS",
+    "translation": "thesis; proposition",
+    "example": "Defendió su tesis con argumentos claros.",
+    "exampleTranslation": "She defended her thesis with clear arguments."
+  },
+  {
+    "word": "TESORO",
+    "translation": "treasure",
+    "example": "El tesoro contenía monedas de plata.",
+    "exampleTranslation": "The treasure contained silver coins."
+  },
+  {
+    "word": "TEST",
+    "translation": "test",
+    "example": "El test evalúa la comprensión.",
+    "exampleTranslation": "The test assesses comprehension."
+  },
+  {
+    "word": "TESTIGO",
+    "translation": "witness",
+    "example": "El testigo describió lo que vio.",
+    "exampleTranslation": "The witness described what he saw."
+  },
+  {
+    "word": "TEXTIL",
+    "translation": "textile",
+    "example": "La industria textil utiliza algodón.",
+    "exampleTranslation": "The textile industry uses cotton."
+  },
+  {
+    "word": "TEXTO",
+    "translation": "text",
+    "example": "El texto explica las instrucciones.",
+    "exampleTranslation": "The text explains the instructions."
+  },
+  {
+    "word": "TEXTURA",
+    "translation": "texture",
+    "example": "La tela tiene una textura suave.",
+    "exampleTranslation": "The fabric has a soft texture."
+  },
+  {
+    "word": "TEÓRICO",
+    "translation": "theoretical",
+    "example": "El modelo teórico necesita pruebas.",
+    "exampleTranslation": "The theoretical model needs testing."
+  },
+  {
+    "word": "TIBIA",
+    "translation": "tibia; shinbone",
+    "example": "La tibia conecta la rodilla con el tobillo.",
+    "exampleTranslation": "The tibia connects the knee with the ankle."
+  },
+  {
+    "word": "TIBURÓN",
+    "translation": "shark",
+    "example": "El tiburón nadó lejos de la costa.",
+    "exampleTranslation": "The shark swam far from the coast."
+  },
+  {
+    "word": "TIENDA",
+    "translation": "shop; store",
+    "example": "La tienda vende frutas.",
+    "exampleTranslation": "The shop sells fruit."
+  },
+  {
+    "word": "TIERNO",
+    "translation": "tender; soft",
+    "example": "El pan sigue tierno.",
+    "exampleTranslation": "The bread is still soft."
+  },
+  {
+    "word": "TIGRE",
+    "translation": "tiger",
+    "example": "El tigre descansaba bajo un árbol.",
+    "exampleTranslation": "The tiger rested beneath a tree."
+  },
+  {
+    "word": "TIMBRE",
+    "translation": "doorbell; bell",
+    "example": "El timbre sonó dos veces.",
+    "exampleTranslation": "The doorbell rang twice."
+  },
+  {
+    "word": "TINA",
+    "translation": "bathtub",
+    "example": "Llenó la tina con agua.",
+    "exampleTranslation": "She filled the bathtub with water."
+  },
+  {
+    "word": "TINTA",
+    "translation": "ink",
+    "example": "La tinta manchó el papel.",
+    "exampleTranslation": "The ink stained the paper."
+  },
+  {
+    "word": "TINTO",
+    "translation": "dark red",
+    "example": "El mantel tinto combina con los platos.",
+    "exampleTranslation": "The dark red tablecloth matches the plates."
+  },
+  {
+    "word": "TIPO",
+    "translation": "type; representative example",
+    "example": "Este tipo de árbol necesita poca agua.",
+    "exampleTranslation": "This type of tree needs little water."
+  },
+  {
+    "word": "TIRA",
+    "translation": "strip",
+    "example": "Cortó una tira de papel.",
+    "exampleTranslation": "She cut a strip of paper."
+  },
+  {
+    "word": "TIRADA",
+    "translation": "throw",
+    "example": "La tirada llevó la pelota lejos.",
+    "exampleTranslation": "The throw sent the ball far away."
+  },
+  {
+    "word": "TIRADO",
+    "translation": "very easy",
+    "example": "El ejercicio estaba tirado.",
+    "exampleTranslation": "The exercise was very easy."
+  },
+  {
+    "word": "TIRANO",
+    "translation": "tyrannical; oppressive",
+    "example": "El gobernante tirano prohibió las protestas.",
+    "exampleTranslation": "The tyrannical ruler banned protests."
+  },
+  {
+    "word": "TIRANÍA",
+    "translation": "tyranny",
+    "example": "La población rechazó la tiranía.",
+    "exampleTranslation": "The population rejected tyranny."
+  },
+  {
+    "word": "TIRAR",
+    "translation": "to throw",
+    "example": "No debes tirar basura al suelo.",
+    "exampleTranslation": "You should not throw trash on the ground."
+  },
+  {
+    "word": "TIRO",
+    "translation": "shot",
+    "example": "El tiro se oyó a lo lejos.",
+    "exampleTranslation": "The shot was heard in the distance."
+  },
+  {
+    "word": "TITULAR",
+    "translation": "headline",
+    "example": "El titular resume la noticia.",
+    "exampleTranslation": "The headline summarizes the news."
+  },
+  {
+    "word": "TOALLA",
+    "translation": "towel",
+    "example": "La toalla está seca.",
+    "exampleTranslation": "The towel is dry."
+  },
+  {
+    "word": "TOBILLO",
+    "translation": "ankle",
+    "example": "Se torció el tobillo.",
+    "exampleTranslation": "She twisted her ankle."
+  },
+  {
+    "word": "TOCA",
+    "translation": "nun's headdress",
+    "example": "La monja llevaba una toca blanca.",
+    "exampleTranslation": "The nun wore a white headdress."
+  },
+  {
+    "word": "TOCADO",
+    "translation": "headdress",
+    "example": "El tocado estaba adornado con flores.",
+    "exampleTranslation": "The headdress was decorated with flowers."
+  },
+  {
+    "word": "TOCAR",
+    "translation": "to touch",
+    "example": "Puedes tocar la tela para sentir su textura.",
+    "exampleTranslation": "You can touch the fabric to feel its texture."
+  },
+  {
+    "word": "TODAVÍA",
+    "translation": "still",
+    "example": "Todavía queda café.",
+    "exampleTranslation": "There is still coffee left."
+  },
+  {
+    "word": "TODO",
+    "translation": "all; whole",
+    "example": "Todo el equipo participó.",
+    "exampleTranslation": "The whole team participated."
+  },
+  {
+    "word": "TOLERAR",
+    "translation": "to tolerate",
+    "example": "No puede tolerar tanto ruido.",
+    "exampleTranslation": "She cannot tolerate so much noise."
+  },
+  {
+    "word": "TOMA",
+    "translation": "taking; receiving",
+    "example": "La toma de decisiones exige información.",
+    "exampleTranslation": "Decision-making requires information."
+  },
+  {
+    "word": "TOMARSE",
+    "translation": "to take for oneself",
+    "example": "Decidió tomarse un descanso.",
+    "exampleTranslation": "She decided to take a break."
+  },
+  {
+    "word": "TOMATE",
+    "translation": "tomato plant",
+    "example": "El tomate necesita sol para crecer.",
+    "exampleTranslation": "The tomato plant needs sun to grow."
+  },
+  {
+    "word": "TOMO",
+    "translation": "volume of a book",
+    "example": "Consultó el segundo tomo.",
+    "exampleTranslation": "She consulted the second volume."
+  },
+  {
+    "word": "TONO",
+    "translation": "pitch",
+    "example": "El tono de la flauta era agudo.",
+    "exampleTranslation": "The flute's pitch was high."
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "word": "INVADIR",
+    "translation": "to invade",
+    "example": "El ejército intentó invadir el territorio.",
+    "exampleTranslation": "The army tried to invade the territory."
+  },
+  {
+    "word": "INVENTO",
+    "translation": "invention",
+    "example": "El invento ahorra energía.",
+    "exampleTranslation": "The invention saves energy."
+  },
+  {
+    "word": "INVITAR",
+    "translation": "to invite",
+    "example": "Quiero invitar a mis vecinos.",
+    "exampleTranslation": "I want to invite my neighbors."
+  },
+  {
+    "word": "INÉDITO",
+    "translation": "unpublished",
+    "example": "El cuento inédito quedó en una libreta.",
+    "exampleTranslation": "The unpublished story remained in a notebook."
+  },
+  {
+    "word": "INÚTIL",
+    "translation": "useless",
+    "example": "El cable roto es inútil.",
+    "exampleTranslation": "The broken cable is useless."
+  },
+  {
+    "word": "IRANÍ",
+    "translation": "Iranian",
+    "example": "Una cineasta iraní presentó su película.",
+    "exampleTranslation": "An Iranian filmmaker presented her film."
+  },
+  {
+    "word": "IRONÍA",
+    "translation": "irony",
+    "example": "Su comentario estaba lleno de ironía.",
+    "exampleTranslation": "Her comment was full of irony."
+  },
+  {
+    "word": "IRSE",
+    "translation": "to leave; to go away",
+    "example": "Decidieron irse antes de la lluvia.",
+    "exampleTranslation": "They decided to leave before the rain."
+  },
+  {
+    "word": "IRÓNICO",
+    "translation": "ironic",
+    "example": "El final irónico sorprendió al público.",
+    "exampleTranslation": "The ironic ending surprised the audience."
+  },
+  {
+    "word": "ISLAM",
+    "translation": "Islam",
+    "example": "La clase estudia la historia del islam.",
+    "exampleTranslation": "The class studies the history of Islam."
+  },
+  {
+    "word": "ISRAELÍ",
+    "translation": "Israeli",
+    "example": "Una escritora israelí dio la charla.",
+    "exampleTranslation": "An Israeli writer gave the talk."
+  },
+  {
+    "word": "JABÓN",
+    "translation": "soap",
+    "example": "Lávate las manos con jabón.",
+    "exampleTranslation": "Wash your hands with soap."
+  },
+  {
+    "word": "JACINTO",
+    "translation": "hyacinth",
+    "example": "El jacinto floreció en la maceta.",
+    "exampleTranslation": "The hyacinth blossomed in the pot."
+  },
+  {
+    "word": "JAMÁS",
+    "translation": "never",
+    "example": "Jamás olvidaré ese viaje.",
+    "exampleTranslation": "I will never forget that trip."
+  },
+  {
+    "word": "JAMÓN",
+    "translation": "ham",
+    "example": "El sándwich lleva jamón.",
+    "exampleTranslation": "The sandwich contains ham."
+  },
+  {
+    "word": "JAPONÉS",
+    "translation": "Japanese",
+    "example": "El jardín japonés tiene un estanque.",
+    "exampleTranslation": "The Japanese garden has a pond."
+  },
+  {
+    "word": "JAULA",
+    "translation": "cage",
+    "example": "La jaula está vacía.",
+    "exampleTranslation": "The cage is empty."
+  },
+  {
+    "word": "JAZZ",
+    "translation": "jazz",
+    "example": "Escuchamos jazz en la plaza.",
+    "exampleTranslation": "We listened to jazz in the square."
+  },
+  {
+    "word": "JEREZ",
+    "translation": "sherry",
+    "example": "La receta lleva un poco de jerez.",
+    "exampleTranslation": "The recipe calls for a little sherry."
+  },
+  {
+    "word": "JERSEY",
+    "translation": "jersey knit fabric",
+    "example": "La camiseta es de jersey suave.",
+    "exampleTranslation": "The T-shirt is made of soft jersey fabric."
+  },
+  {
+    "word": "JORNADA",
+    "translation": "workday; day's activity",
+    "example": "La jornada terminó a las cinco.",
+    "exampleTranslation": "The workday ended at five."
+  },
+  {
+    "word": "JOVEN",
+    "translation": "young",
+    "example": "El árbol joven necesita cuidado.",
+    "exampleTranslation": "The young tree needs care."
+  },
+  {
+    "word": "JUDAS",
+    "translation": "traitor; betrayer",
+    "example": "El judas del cuento traicionó a sus amigos.",
+    "exampleTranslation": "The traitor in the story betrayed his friends."
+  },
+  {
+    "word": "JUDÍO",
+    "translation": "Jewish",
+    "example": "El museo presenta arte judío.",
+    "exampleTranslation": "The museum presents Jewish art."
+  },
+  {
+    "word": "JUEGO",
+    "translation": "game; play",
+    "example": "El juego terminó en empate.",
+    "exampleTranslation": "The game ended in a tie."
+  },
+  {
+    "word": "JUEVES",
+    "translation": "Thursday",
+    "example": "Nos vemos el jueves.",
+    "exampleTranslation": "We will see each other on Thursday."
+  },
+  {
+    "word": "JUEZ",
+    "translation": "judge",
+    "example": "El juez escuchó a los testigos.",
+    "exampleTranslation": "The judge heard the witnesses."
+  },
+  {
+    "word": "JUGADOR",
+    "translation": "player",
+    "example": "El jugador entró al campo.",
+    "exampleTranslation": "The player entered the field."
+  },
+  {
+    "word": "JUGAR",
+    "translation": "to play",
+    "example": "Vamos a jugar en el patio.",
+    "exampleTranslation": "We will play in the courtyard."
+  },
+  {
+    "word": "JUGUETE",
+    "translation": "toy",
+    "example": "El juguete es de madera.",
+    "exampleTranslation": "The toy is wooden."
+  },
+  {
+    "word": "JUICIO",
+    "translation": "judgment; opinion",
+    "example": "Su juicio sobre el asunto fue acertado.",
+    "exampleTranslation": "Her judgment on the matter was sound."
+  },
+  {
+    "word": "JULIANA",
+    "translation": "julienne; thin vegetable strips",
+    "example": "Corta la zanahoria en juliana.",
+    "exampleTranslation": "Cut the carrot into julienne strips."
+  },
+  {
+    "word": "JULIO",
+    "translation": "July",
+    "example": "Las vacaciones empiezan en julio.",
+    "exampleTranslation": "The vacation starts in July."
+  },
+  {
+    "word": "JUNIO",
+    "translation": "June",
+    "example": "Mi cumpleaños es en junio.",
+    "exampleTranslation": "My birthday is in June."
+  },
+  {
+    "word": "JUNIOR",
+    "translation": "junior; entry-level worker",
+    "example": "Empezó como junior en el equipo de diseño.",
+    "exampleTranslation": "She started as a junior on the design team."
+  },
+  {
+    "word": "JUNTA",
+    "translation": "meeting",
+    "example": "La junta empieza pronto.",
+    "exampleTranslation": "The meeting starts soon."
+  },
+  {
+    "word": "JUNTAR",
+    "translation": "to put together; to gather",
+    "example": "Vamos a juntar las sillas.",
+    "exampleTranslation": "We will put the chairs together."
+  },
+  {
+    "word": "JUNTO",
+    "translation": "together; next to",
+    "example": "El banco está junto al árbol.",
+    "exampleTranslation": "The bench is beside the tree."
+  },
+  {
+    "word": "JURA",
+    "translation": "oath-taking",
+    "example": "La jura del cargo fue pública.",
+    "exampleTranslation": "The oath-taking ceremony was public."
+  },
+  {
+    "word": "JURADO",
+    "translation": "jury",
+    "example": "El jurado escuchó las pruebas.",
+    "exampleTranslation": "The jury heard the evidence."
+  },
+  {
+    "word": "JUSTA",
+    "translation": "joust",
+    "example": "La película muestra una justa medieval.",
+    "exampleTranslation": "The film shows a medieval joust."
+  },
+  {
+    "word": "JUSTO",
+    "translation": "fair; just",
+    "example": "El reparto fue justo.",
+    "exampleTranslation": "The distribution was fair."
+  },
+  {
+    "word": "JUVENIL",
+    "translation": "youth; youthful",
+    "example": "El equipo juvenil ganó.",
+    "exampleTranslation": "The youth team won."
+  },
+  {
+    "word": "JUZGADO",
+    "translation": "court; courthouse",
+    "example": "Entregó los documentos en el juzgado.",
+    "exampleTranslation": "She submitted the documents at the courthouse."
+  },
+  {
+    "word": "JUZGAR",
+    "translation": "to judge",
+    "example": "No debemos juzgar sin escuchar.",
+    "exampleTranslation": "We should not judge without listening."
+  },
+  {
+    "word": "KARMA",
+    "translation": "karma",
+    "example": "La novela relaciona sus actos con el karma.",
+    "exampleTranslation": "The novel links her actions to karma."
+  },
+  {
+    "word": "KILO",
+    "translation": "kilogram; kilo",
+    "example": "Compré un kilo de frijoles.",
+    "exampleTranslation": "I bought a kilo of beans."
+  },
+  {
+    "word": "LABIO",
+    "translation": "lip",
+    "example": "Me lastimé el labio.",
+    "exampleTranslation": "I hurt my lip."
+  },
+  {
+    "word": "LABOR",
+    "translation": "work; task",
+    "example": "Su labor ayuda al barrio.",
+    "exampleTranslation": "Her work helps the neighborhood."
+  },
+  {
+    "word": "LABORAL",
+    "translation": "work-related; employment-related",
+    "example": "El horario laboral cambió.",
+    "exampleTranslation": "The working hours changed."
+  },
+  {
+    "word": "LADRÓN",
+    "translation": "thieving; thief",
+    "example": "El personaje ladrón roba una joya.",
+    "exampleTranslation": "The thieving character steals a jewel."
+  },
+  {
+    "word": "LAGUNA",
+    "translation": "lagoon; small lake",
+    "example": "La laguna refleja las montañas.",
+    "exampleTranslation": "The lagoon reflects the mountains."
+  },
+  {
+    "word": "LAMA",
+    "translation": "lama (Buddhist religious teacher)",
+    "example": "El lama explicó la meditación.",
+    "exampleTranslation": "The lama explained meditation."
+  },
+  {
+    "word": "LAMENTO",
+    "translation": "lament; expression of sorrow",
+    "example": "Su lamento se oyó desde lejos.",
+    "exampleTranslation": "Her lament could be heard from afar."
+  },
+  {
+    "word": "LANCE",
+    "translation": "dramatic incident",
+    "example": "Ese lance cambió la trama.",
+    "exampleTranslation": "That incident changed the plot."
+  },
+  {
+    "word": "LANZA",
+    "translation": "spear",
+    "example": "La lanza tenía punta de piedra.",
+    "exampleTranslation": "The spear had a stone tip."
+  },
+  {
+    "word": "LANZADA",
+    "translation": "spear thrust",
+    "example": "La lanzada atravesó el escudo.",
+    "exampleTranslation": "The spear thrust pierced the shield."
+  },
+  {
+    "word": "LANZAR",
+    "translation": "to throw; to launch",
+    "example": "Puedes lanzar la pelota.",
+    "exampleTranslation": "You can throw the ball."
+  },
+  {
+    "word": "LAPSO",
+    "translation": "period of time",
+    "example": "El lapso entre ambos trenes es breve.",
+    "exampleTranslation": "The interval between the two trains is short."
+  },
+  {
+    "word": "LARGO",
+    "translation": "long",
+    "example": "El camino es largo.",
+    "exampleTranslation": "The road is long."
+  },
+  {
+    "word": "LATA",
+    "translation": "can; tin",
+    "example": "Abrí una lata de frijoles.",
+    "exampleTranslation": "I opened a can of beans."
+  },
+  {
+    "word": "LATERAL",
+    "translation": "side; lateral",
+    "example": "La puerta lateral está abierta.",
+    "exampleTranslation": "The side door is open."
+  },
+  {
+    "word": "LATINO",
+    "translation": "Latin American; Latino",
+    "example": "El festival latino reúne música de varios países.",
+    "exampleTranslation": "The Latin American festival brings together music from several countries."
+  },
+  {
+    "word": "LATITUD",
+    "translation": "latitude",
+    "example": "El mapa indica la latitud.",
+    "exampleTranslation": "The map shows the latitude."
+  },
+  {
+    "word": "LATÍN",
+    "translation": "Latin language",
+    "example": "El texto está en latín.",
+    "exampleTranslation": "The text is in Latin."
+  },
+  {
+    "word": "LAUREL",
+    "translation": "bay tree; bay leaf",
+    "example": "La sopa lleva una hoja de laurel.",
+    "exampleTranslation": "The soup contains a bay leaf."
+  },
+  {
+    "word": "LAVA",
+    "translation": "lava",
+    "example": "La lava se enfrió lentamente.",
+    "exampleTranslation": "The lava cooled slowly."
+  },
+  {
+    "word": "LAVADO",
+    "translation": "washed-out; faded",
+    "example": "El color lavado de la tela ya casi no se nota.",
+    "exampleTranslation": "The fabric's faded color is barely visible now."
+  },
+  {
+    "word": "LAVAR",
+    "translation": "to wash",
+    "example": "Voy a lavar la ropa.",
+    "exampleTranslation": "I am going to wash the clothes."
+  },
+  {
+    "word": "LEAL",
+    "translation": "loyal",
+    "example": "Es un amigo leal.",
+    "exampleTranslation": "He is a loyal friend."
+  },
+  {
+    "word": "LEALTAD",
+    "translation": "loyalty",
+    "example": "Su lealtad nunca estuvo en duda.",
+    "exampleTranslation": "Her loyalty was never in doubt."
+  },
+  {
+    "word": "LECCIÓN",
+    "translation": "lesson",
+    "example": "La lección trata sobre los volcanes.",
+    "exampleTranslation": "The lesson is about volcanoes."
+  },
+  {
+    "word": "LECHO",
+    "translation": "bed; resting place",
+    "example": "Prepararon un lecho de mantas.",
+    "exampleTranslation": "They prepared a bed of blankets."
+  },
+  {
+    "word": "LECHUGA",
+    "translation": "lettuce",
+    "example": "La ensalada lleva lechuga.",
+    "exampleTranslation": "The salad contains lettuce."
+  },
+  {
+    "word": "LECTOR",
+    "translation": "reading; reader",
+    "example": "El público lector eligió su novela favorita.",
+    "exampleTranslation": "The reading public chose its favorite novel."
+  },
+  {
+    "word": "LECTURA",
+    "translation": "reading",
+    "example": "La lectura ocupa mis tardes.",
+    "exampleTranslation": "Reading fills my afternoons."
+  },
+  {
+    "word": "LEER",
+    "translation": "to read",
+    "example": "Me gusta leer de noche.",
+    "exampleTranslation": "I like to read at night."
+  },
+  {
+    "word": "LEGADO",
+    "translation": "legacy",
+    "example": "Su legado sigue vivo en la escuela.",
+    "exampleTranslation": "Her legacy lives on in the school."
+  },
+  {
+    "word": "LEGAL",
+    "translation": "legal",
+    "example": "Buscamos una solución legal.",
+    "exampleTranslation": "We are seeking a legal solution."
+  },
+  {
+    "word": "LEGIÓN",
+    "translation": "legion (ancient Roman army unit)",
+    "example": "La legión marchó hacia la ciudad.",
+    "exampleTranslation": "The legion marched toward the city."
+  },
+  {
+    "word": "LEGO",
+    "translation": "lay; not ordained",
+    "example": "El hermano lego cuidaba el huerto.",
+    "exampleTranslation": "The lay brother tended the garden."
+  },
+  {
+    "word": "LEJANO",
+    "translation": "distant",
+    "example": "El pueblo lejano se ve desde aquí.",
+    "exampleTranslation": "The distant village can be seen from here."
+  },
+  {
+    "word": "LEJOS",
+    "translation": "far away",
+    "example": "La estación está lejos.",
+    "exampleTranslation": "The station is far away."
+  },
+  {
+    "word": "LENGUA",
+    "translation": "tongue",
+    "example": "La sopa caliente me quemó la lengua.",
+    "exampleTranslation": "The hot soup burned my tongue."
+  },
+  {
+    "word": "LENTE",
+    "translation": "lens",
+    "example": "El lente concentra la luz.",
+    "exampleTranslation": "The lens focuses the light."
+  },
+  {
+    "word": "LENTO",
+    "translation": "slow",
+    "example": "El tren es lento.",
+    "exampleTranslation": "The train is slow."
+  },
+  {
+    "word": "LESIÓN",
+    "translation": "injury",
+    "example": "La lesión necesita reposo.",
+    "exampleTranslation": "The injury requires rest."
+  },
+  {
+    "word": "LETAL",
+    "translation": "lethal; deadly",
+    "example": "El veneno puede ser letal.",
+    "exampleTranslation": "The poison can be lethal."
+  },
+  {
+    "word": "LETRA",
+    "translation": "letter (of an alphabet)",
+    "example": "Mi nombre empieza con esta letra.",
+    "exampleTranslation": "My name begins with this letter."
+  },
+  {
+    "word": "LEVANTE",
+    "translation": "east",
+    "example": "La ventana mira hacia el levante.",
+    "exampleTranslation": "The window faces east."
+  },
+  {
+    "word": "LEVE",
+    "translation": "slight; minor",
+    "example": "La herida es leve.",
+    "exampleTranslation": "The wound is minor."
+  },
+  {
+    "word": "LEYENDA",
+    "translation": "legend",
+    "example": "Mi abuela contó una leyenda.",
+    "exampleTranslation": "My grandmother told a legend."
+  },
+  {
+    "word": "LEÑA",
+    "translation": "firewood",
+    "example": "Recogimos leña seca.",
+    "exampleTranslation": "We gathered dry firewood."
+  },
+  {
+    "word": "LEÓN",
+    "translation": "lion",
+    "example": "El león descansaba a la sombra.",
+    "exampleTranslation": "The lion rested in the shade."
+  },
+  {
+    "word": "LIBERAL",
+    "translation": "liberal",
+    "example": "El partido liberal presentó su propuesta.",
+    "exampleTranslation": "The liberal party presented its proposal."
+  },
+  {
+    "word": "LIBERAR",
+    "translation": "to free; to release",
+    "example": "Van a liberar al ave recuperada.",
+    "exampleTranslation": "They will release the recovered bird."
+  },
+  {
+    "word": "LIBRA",
+    "translation": "pound (weight)",
+    "example": "La caja pesa una libra.",
+    "exampleTranslation": "The box weighs one pound."
+  },
+  {
+    "word": "LIBRE",
+    "translation": "free",
+    "example": "El perro corre libre por el patio.",
+    "exampleTranslation": "The dog runs freely around the courtyard."
+  },
+  {
+    "word": "LIBRETA",
+    "translation": "notebook",
+    "example": "Escribí la receta en mi libreta.",
+    "exampleTranslation": "I wrote the recipe in my notebook."
+  },
+  {
+    "word": "LICEO",
+    "translation": "secondary school",
+    "example": "El liceo organizó una feria de ciencias.",
+    "exampleTranslation": "The secondary school organized a science fair."
+  },
+  {
+    "word": "LICOR",
+    "translation": "liqueur; liquor",
+    "example": "La receta incluye licor de naranja.",
+    "exampleTranslation": "The recipe includes orange liqueur."
+  },
+  {
+    "word": "LIDERAR",
+    "translation": "to lead",
+    "example": "Ella va a liderar el equipo.",
+    "exampleTranslation": "She will lead the team."
+  },
+  {
+    "word": "LIDIA",
+    "translation": "struggle; fight",
+    "example": "La lidia diaria con el tráfico cansa.",
+    "exampleTranslation": "The daily struggle with traffic is tiring."
+  },
+  {
+    "word": "LIDIAR",
+    "translation": "to deal with",
+    "example": "Debemos lidiar con los retrasos.",
+    "exampleTranslation": "We must deal with the delays."
+  },
+  {
+    "word": "LIENZO",
+    "translation": "canvas",
+    "example": "Pintó el paisaje sobre un lienzo.",
+    "exampleTranslation": "She painted the landscape on a canvas."
+  },
+  {
+    "word": "LIGA",
+    "translation": "rubber band",
+    "example": "Sujetó los lápices con una liga.",
+    "exampleTranslation": "She fastened the pencils with a rubber band."
+  },
+  {
+    "word": "LIGADA",
+    "translation": "linked; connected (feminine)",
+    "example": "La noticia está ligada al viaje.",
+    "exampleTranslation": "The news is connected to the trip."
+  },
+  {
+    "word": "LIGADO",
+    "translation": "linked; connected",
+    "example": "El proyecto está ligado a la escuela.",
+    "exampleTranslation": "The project is linked to the school."
+  },
+  {
+    "word": "LIGAR",
+    "translation": "to tie; to bind",
+    "example": "Vamos a ligar las ramas con cuerda.",
+    "exampleTranslation": "We will tie the branches with rope."
+  },
+  {
+    "word": "LIGERO",
+    "translation": "lightweight",
+    "example": "El bolso es ligero.",
+    "exampleTranslation": "The bag is lightweight."
+  },
+  {
+    "word": "LIMA",
+    "translation": "file (tool)",
+    "example": "Alisó el borde con una lima.",
+    "exampleTranslation": "She smoothed the edge with a file."
+  },
+  {
+    "word": "LIMBO",
+    "translation": "limbo; uncertain state",
+    "example": "El trámite quedó en el limbo.",
+    "exampleTranslation": "The procedure was left in limbo."
+  },
+  {
+    "word": "LIMITAR",
+    "translation": "to limit",
+    "example": "Hay que limitar el consumo de agua.",
+    "exampleTranslation": "We need to limit water use."
+  },
+  {
+    "word": "LIMPIAR",
+    "translation": "to clean",
+    "example": "Voy a limpiar la mesa.",
+    "exampleTranslation": "I am going to clean the table."
+  },
+  {
+    "word": "LIMPIO",
+    "translation": "clean",
+    "example": "El vaso está limpio.",
+    "exampleTranslation": "The glass is clean."
+  },
+  {
+    "word": "LINAJE",
+    "translation": "lineage",
+    "example": "El relato sigue el linaje de la familia.",
+    "exampleTranslation": "The story traces the family's lineage."
+  },
+  {
+    "word": "LINDO",
+    "translation": "pretty; lovely",
+    "example": "El jardín está lindo.",
+    "exampleTranslation": "The garden looks lovely."
+  },
+  {
+    "word": "LINEAL",
+    "translation": "linear",
+    "example": "El dibujo tiene una estructura lineal.",
+    "exampleTranslation": "The drawing has a linear structure."
+  },
+  {
+    "word": "LISA",
+    "translation": "mullet (fish)",
+    "example": "La lisa nadaba cerca de la orilla.",
+    "exampleTranslation": "The mullet was swimming near the shore."
+  },
+  {
+    "word": "LISTA",
+    "translation": "list",
+    "example": "Anoté los ingredientes en una lista.",
+    "exampleTranslation": "I wrote the ingredients on a list."
+  },
+  {
+    "word": "LISTADO",
+    "translation": "list; listing",
+    "example": "El listado incluye todos los nombres.",
+    "exampleTranslation": "The list includes all the names."
+  },
+  {
+    "word": "LISTO",
+    "translation": "ready",
+    "example": "El desayuno está listo.",
+    "exampleTranslation": "Breakfast is ready."
+  },
+  {
+    "word": "LITERAL",
+    "translation": "literal; word-for-word",
+    "example": "La traducción literal suena extraña.",
+    "exampleTranslation": "The literal translation sounds strange."
+  },
+  {
+    "word": "LITORAL",
+    "translation": "coastal",
+    "example": "La zona litoral tiene manglares.",
+    "exampleTranslation": "The coastal area has mangroves."
+  },
+  {
+    "word": "LITRO",
+    "translation": "liter",
+    "example": "Necesito un litro de agua.",
+    "exampleTranslation": "I need a liter of water."
+  },
+  {
+    "word": "LLAMA",
+    "translation": "flame",
+    "example": "La llama de la vela se apagó.",
+    "exampleTranslation": "The candle's flame went out."
+  },
+  {
+    "word": "LLAMADA",
+    "translation": "call",
+    "example": "Recibí una llamada de mi hermana.",
+    "exampleTranslation": "I received a call from my sister."
+  },
+  {
+    "word": "LLAMADO",
+    "translation": "call; appeal",
+    "example": "Hicieron un llamado a la calma.",
+    "exampleTranslation": "They made an appeal for calm."
+  },
+  {
+    "word": "LLAMAR",
+    "translation": "to call; to name",
+    "example": "Podemos llamar a la perrita Luna.",
+    "exampleTranslation": "We can call the puppy Luna."
+  },
+  {
+    "word": "LLANO",
+    "translation": "flat; level",
+    "example": "El terreno es llano.",
+    "exampleTranslation": "The ground is flat."
+  },
+  {
+    "word": "LLANTO",
+    "translation": "crying; weeping",
+    "example": "El llanto cesó al llegar su madre.",
+    "exampleTranslation": "The crying stopped when his mother arrived."
+  },
+  {
+    "word": "LLANURA",
+    "translation": "plain; flat land",
+    "example": "La llanura se extiende hasta el río.",
+    "exampleTranslation": "The plain stretches to the river."
+  },
+  {
+    "word": "LLAVE",
+    "translation": "key",
+    "example": "La llave está en mi bolsa.",
+    "exampleTranslation": "The key is in my bag."
+  },
+  {
+    "word": "LLEGADA",
+    "translation": "arrival",
+    "example": "Esperamos su llegada.",
+    "exampleTranslation": "We await her arrival."
+  },
+  {
+    "word": "LLEGAR",
+    "translation": "to arrive",
+    "example": "Voy a llegar temprano.",
+    "exampleTranslation": "I will arrive early."
+  },
+  {
+    "word": "LLENAR",
+    "translation": "to fill",
+    "example": "Debes llenar el recipiente.",
+    "exampleTranslation": "You need to fill the container."
+  },
+  {
+    "word": "LLENO",
+    "translation": "full",
+    "example": "El vaso está lleno.",
+    "exampleTranslation": "The glass is full."
+  },
+  {
+    "word": "LLEVAR",
+    "translation": "to take; to carry",
+    "example": "Voy a llevar pan a la reunión.",
+    "exampleTranslation": "I will take bread to the meeting."
+  },
+  {
+    "word": "LLORAR",
+    "translation": "to cry",
+    "example": "La película me hizo llorar.",
+    "exampleTranslation": "The film made me cry."
+  },
+  {
+    "word": "LLORO",
+    "translation": "weeping; crying",
+    "example": "El lloro del bebé se calmó.",
+    "exampleTranslation": "The baby's crying subsided."
+  },
+  {
+    "word": "LLOVER",
+    "translation": "to rain",
+    "example": "Parece que va a llover.",
+    "exampleTranslation": "It looks as if it will rain."
+  },
+  {
+    "word": "LLUVIA",
+    "translation": "rain",
+    "example": "La lluvia refrescó el aire.",
+    "exampleTranslation": "The rain cooled the air."
+  },
+  {
+    "word": "LOBO",
+    "translation": "wolf",
+    "example": "El lobo siguió el rastro.",
+    "exampleTranslation": "The wolf followed the trail."
+  },
+  {
+    "word": "LOCAL",
+    "translation": "local",
+    "example": "El mercado local vende fruta.",
+    "exampleTranslation": "The local market sells fruit."
+  },
+  {
+    "word": "LOCO",
+    "translation": "crazy; irrational",
+    "example": "Ese plan parece loco.",
+    "exampleTranslation": "That plan seems crazy."
+  },
+  {
+    "word": "LOCURA",
+    "translation": "madness; foolishness",
+    "example": "Viajar sin agua sería una locura.",
+    "exampleTranslation": "Traveling without water would be madness."
+  },
+  {
+    "word": "LOGO",
+    "translation": "logo",
+    "example": "El logo aparece en la caja.",
+    "exampleTranslation": "The logo appears on the box."
+  },
+  {
+    "word": "LOGRADO",
+    "translation": "successful; well-executed",
+    "example": "El retrato quedó muy logrado.",
+    "exampleTranslation": "The portrait turned out very well."
+  },
+  {
+    "word": "LOGRAR",
+    "translation": "to achieve; to manage",
+    "example": "Podemos lograr el objetivo juntos.",
+    "exampleTranslation": "We can achieve the goal together."
+  },
+  {
+    "word": "LOGRO",
+    "translation": "achievement",
+    "example": "Terminar el curso fue un logro.",
+    "exampleTranslation": "Finishing the course was an achievement."
+  }
+]

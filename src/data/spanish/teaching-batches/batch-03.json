@@ -1,0 +1,902 @@
+[
+  {
+    "word": "BLOG",
+    "translation": "blog",
+    "example": "Publicó fotos en su blog.",
+    "exampleTranslation": "She posted photos on her blog."
+  },
+  {
+    "word": "BLOQUE",
+    "translation": "block of solid material",
+    "example": "Movieron un bloque de piedra.",
+    "exampleTranslation": "They moved a stone block."
+  },
+  {
+    "word": "BLOQUEO",
+    "translation": "blockage; blocking",
+    "example": "El bloqueo impidió el paso.",
+    "exampleTranslation": "The blockage prevented passage."
+  },
+  {
+    "word": "BLUES",
+    "translation": "blues music",
+    "example": "Escuchamos blues durante la cena.",
+    "exampleTranslation": "We listened to blues during dinner."
+  },
+  {
+    "word": "BLUSA",
+    "translation": "blouse",
+    "example": "Su blusa tiene flores.",
+    "exampleTranslation": "Her blouse has flowers on it."
+  },
+  {
+    "word": "BOBO",
+    "translation": "foolish; silly",
+    "example": "Fue un error bobo.",
+    "exampleTranslation": "It was a silly mistake."
+  },
+  {
+    "word": "BODA",
+    "translation": "wedding",
+    "example": "La boda será en junio.",
+    "exampleTranslation": "The wedding will be in June."
+  },
+  {
+    "word": "BODEGA",
+    "translation": "wine cellar",
+    "example": "El vino está en la bodega.",
+    "exampleTranslation": "The wine is in the cellar."
+  },
+  {
+    "word": "BOICOT",
+    "translation": "boycott; deliberate obstruction",
+    "example": "El boicot frenó las ventas.",
+    "exampleTranslation": "The boycott slowed sales."
+  },
+  {
+    "word": "BOLA",
+    "translation": "ball; sphere",
+    "example": "Hizo una bola de papel.",
+    "exampleTranslation": "He made a paper ball."
+  },
+  {
+    "word": "BOLETO",
+    "translation": "ticket",
+    "example": "Compré un boleto de autobús.",
+    "exampleTranslation": "I bought a bus ticket."
+  },
+  {
+    "word": "BOLETÍN",
+    "translation": "newsletter; bulletin",
+    "example": "El boletín anuncia las actividades.",
+    "exampleTranslation": "The newsletter announces the activities."
+  },
+  {
+    "word": "BOLICHE",
+    "translation": "bowling",
+    "example": "Jugamos boliche el sábado.",
+    "exampleTranslation": "We went bowling on Saturday."
+  },
+  {
+    "word": "BOLSO",
+    "translation": "handbag; bag",
+    "example": "Guardé las llaves en mi bolso.",
+    "exampleTranslation": "I put the keys in my bag."
+  },
+  {
+    "word": "BOLÍVAR",
+    "translation": "bolivar (Venezuelan currency)",
+    "example": "El coleccionista mostró un bolívar.",
+    "exampleTranslation": "The collector showed a bolivar."
+  },
+  {
+    "word": "BOMBA",
+    "translation": "pump",
+    "example": "La bomba lleva agua al tanque.",
+    "exampleTranslation": "The pump carries water to the tank."
+  },
+  {
+    "word": "BONDAD",
+    "translation": "kindness; goodness",
+    "example": "Recordamos su bondad.",
+    "exampleTranslation": "We remember her kindness."
+  },
+  {
+    "word": "BONO",
+    "translation": "voucher; redeemable certificate",
+    "example": "Usé un bono para la compra.",
+    "exampleTranslation": "I used a voucher for the purchase."
+  },
+  {
+    "word": "BONUS",
+    "translation": "bonus",
+    "example": "Recibimos un bonus por las ventas.",
+    "exampleTranslation": "We received a sales bonus."
+  },
+  {
+    "word": "BORDA",
+    "translation": "side of a ship",
+    "example": "La ola golpeó la borda.",
+    "exampleTranslation": "The wave struck the ship's side."
+  },
+  {
+    "word": "BORDO",
+    "translation": "outer side of a ship",
+    "example": "Pintaron el bordo del barco.",
+    "exampleTranslation": "They painted the ship's outer side."
+  },
+  {
+    "word": "BORRA",
+    "translation": "one-year-old ewe",
+    "example": "La borra pastaba con el rebaño.",
+    "exampleTranslation": "The year-old ewe grazed with the flock."
+  },
+  {
+    "word": "BORRAR",
+    "translation": "to erase",
+    "example": "Puedes borrar la respuesta.",
+    "exampleTranslation": "You can erase the answer."
+  },
+  {
+    "word": "BOTÍN",
+    "translation": "ankle boot",
+    "example": "El botín me queda ajustado.",
+    "exampleTranslation": "The ankle boot fits snugly."
+  },
+  {
+    "word": "BOXEO",
+    "translation": "boxing",
+    "example": "Mi hermano practica boxeo.",
+    "exampleTranslation": "My brother practices boxing."
+  },
+  {
+    "word": "BRASIL",
+    "translation": "brazilwood tree",
+    "example": "Plantaron un brasil en el jardín.",
+    "exampleTranslation": "They planted a brazilwood tree in the garden."
+  },
+  {
+    "word": "BRECHA",
+    "translation": "gap; breach",
+    "example": "La tormenta abrió una brecha en el muro.",
+    "exampleTranslation": "The storm opened a gap in the wall."
+  },
+  {
+    "word": "BREVE",
+    "translation": "brief; short",
+    "example": "La visita fue breve.",
+    "exampleTranslation": "The visit was brief."
+  },
+  {
+    "word": "BRIGADA",
+    "translation": "work crew; team",
+    "example": "Una brigada limpió el parque.",
+    "exampleTranslation": "A work crew cleaned the park."
+  },
+  {
+    "word": "BRINDAR",
+    "translation": "to make a toast",
+    "example": "Vamos a brindar por tu graduación.",
+    "exampleTranslation": "We will toast your graduation."
+  },
+  {
+    "word": "BRISA",
+    "translation": "breeze",
+    "example": "La brisa movía las cortinas.",
+    "exampleTranslation": "The breeze moved the curtains."
+  },
+  {
+    "word": "BRONCA",
+    "translation": "anger; irritation",
+    "example": "La injusticia le dio bronca.",
+    "exampleTranslation": "The injustice made him angry."
+  },
+  {
+    "word": "BRONCE",
+    "translation": "bronze",
+    "example": "La campana es de bronce.",
+    "exampleTranslation": "The bell is bronze."
+  },
+  {
+    "word": "BROTE",
+    "translation": "bud; shoot",
+    "example": "Apareció un brote en la rama.",
+    "exampleTranslation": "A shoot appeared on the branch."
+  },
+  {
+    "word": "BRUTAL",
+    "translation": "brutal; violent",
+    "example": "La película muestra un ataque brutal.",
+    "exampleTranslation": "The film shows a brutal attack."
+  },
+  {
+    "word": "BRUTO",
+    "translation": "uncultured; lacking understanding",
+    "example": "El personaje bruto no escucha razones.",
+    "exampleTranslation": "The uncultured character will not listen to reason."
+  },
+  {
+    "word": "BUDISTA",
+    "translation": "Buddhist",
+    "example": "Visitamos un templo budista.",
+    "exampleTranslation": "We visited a Buddhist temple."
+  },
+  {
+    "word": "BUEN",
+    "translation": "good (before a masculine noun)",
+    "example": "Fue un buen día.",
+    "exampleTranslation": "It was a good day."
+  },
+  {
+    "word": "BUENAS",
+    "translation": "good afternoon; hello",
+    "example": "Buenas, ¿cómo les va?",
+    "exampleTranslation": "Hello, how are you all?"
+  },
+  {
+    "word": "BULTO",
+    "translation": "large bundle; parcel",
+    "example": "El bulto contiene ropa.",
+    "exampleTranslation": "The bundle contains clothes."
+  },
+  {
+    "word": "BUQUE",
+    "translation": "large ship",
+    "example": "El buque llegó al puerto.",
+    "exampleTranslation": "The ship arrived at the port."
+  },
+  {
+    "word": "BURBUJA",
+    "translation": "bubble",
+    "example": "Una burbuja subió a la superficie.",
+    "exampleTranslation": "A bubble rose to the surface."
+  },
+  {
+    "word": "BURLA",
+    "translation": "mockery; taunt",
+    "example": "La burla hizo sentir mal al niño.",
+    "exampleTranslation": "The taunt upset the boy."
+  },
+  {
+    "word": "BURRO",
+    "translation": "donkey",
+    "example": "El burro bebió agua.",
+    "exampleTranslation": "The donkey drank water."
+  },
+  {
+    "word": "BUSCA",
+    "translation": "search",
+    "example": "Salimos en busca del perro.",
+    "exampleTranslation": "We went out in search of the dog."
+  },
+  {
+    "word": "BUSTO",
+    "translation": "bust (sculpture)",
+    "example": "El museo exhibe un busto de mármol.",
+    "exampleTranslation": "The museum displays a marble bust."
+  },
+  {
+    "word": "BÁRBARO",
+    "translation": "barbarian; relating to peoples beyond ancient Rome",
+    "example": "El pueblo bárbaro aparece en el mapa histórico.",
+    "exampleTranslation": "The barbarian community appears on the historical map."
+  },
+  {
+    "word": "BÁSICO",
+    "translation": "basic; fundamental",
+    "example": "El descanso es básico para la salud.",
+    "exampleTranslation": "Rest is fundamental to health."
+  },
+  {
+    "word": "BÉISBOL",
+    "translation": "baseball",
+    "example": "Jugamos béisbol los domingos.",
+    "exampleTranslation": "We play baseball on Sundays."
+  },
+  {
+    "word": "BÓVEDA",
+    "translation": "vault; curved ceiling",
+    "example": "La bóveda tiene pinturas.",
+    "exampleTranslation": "The vaulted ceiling has paintings."
+  },
+  {
+    "word": "CABAÑA",
+    "translation": "rustic cabin",
+    "example": "Dormimos en una cabaña.",
+    "exampleTranslation": "We slept in a cabin."
+  },
+  {
+    "word": "CABIDA",
+    "translation": "capacity; room to fit",
+    "example": "No hay cabida para otra mesa.",
+    "exampleTranslation": "There is no room for another table."
+  },
+  {
+    "word": "CABILDO",
+    "translation": "cathedral chapter",
+    "example": "El cabildo se reunió en la catedral.",
+    "exampleTranslation": "The cathedral chapter met in the cathedral."
+  },
+  {
+    "word": "CABINA",
+    "translation": "ship's cabin",
+    "example": "La tripulación descansó en la cabina.",
+    "exampleTranslation": "The crew rested in the cabin."
+  },
+  {
+    "word": "CABRA",
+    "translation": "goat",
+    "example": "La cabra subió al cerro.",
+    "exampleTranslation": "The goat climbed the hill."
+  },
+  {
+    "word": "CACA",
+    "translation": "poop; feces",
+    "example": "Recoge la caca del perro.",
+    "exampleTranslation": "Pick up the dog's poop."
+  },
+  {
+    "word": "CACERÍA",
+    "translation": "hunting expedition",
+    "example": "La cacería comenzó al amanecer.",
+    "exampleTranslation": "The hunting expedition began at dawn."
+  },
+  {
+    "word": "CACHO",
+    "translation": "piece; chunk",
+    "example": "Dame un cacho de pan.",
+    "exampleTranslation": "Give me a piece of bread."
+  },
+  {
+    "word": "CACIQUE",
+    "translation": "Taíno chief",
+    "example": "El relato describe a un cacique taíno.",
+    "exampleTranslation": "The account describes a Taíno chief."
+  },
+  {
+    "word": "CADA",
+    "translation": "each; every",
+    "example": "Cada mesa tiene cuatro sillas.",
+    "exampleTranslation": "Each table has four chairs."
+  },
+  {
+    "word": "CADERA",
+    "translation": "hip",
+    "example": "Me lastimé la cadera.",
+    "exampleTranslation": "I hurt my hip."
+  },
+  {
+    "word": "CADÁVER",
+    "translation": "dead body; corpse",
+    "example": "Encontraron el cadáver durante la búsqueda.",
+    "exampleTranslation": "They found the body during the search."
+  },
+  {
+    "word": "CAER",
+    "translation": "to fall",
+    "example": "La hoja empezó a caer.",
+    "exampleTranslation": "The leaf began to fall."
+  },
+  {
+    "word": "CALCIO",
+    "translation": "calcium",
+    "example": "La leche contiene calcio.",
+    "exampleTranslation": "Milk contains calcium."
+  },
+  {
+    "word": "CALDERA",
+    "translation": "large cauldron",
+    "example": "Calentaron agua en una caldera de metal.",
+    "exampleTranslation": "They heated water in a metal cauldron."
+  },
+  {
+    "word": "CALIBRE",
+    "translation": "bore; internal diameter",
+    "example": "Medimos el calibre del tubo.",
+    "exampleTranslation": "We measured the pipe's bore."
+  },
+  {
+    "word": "CALLADO",
+    "translation": "quiet; not talkative",
+    "example": "Mi primo es callado.",
+    "exampleTranslation": "My cousin is quiet."
+  },
+  {
+    "word": "CALLAR",
+    "translation": "to be silent",
+    "example": "Prefiero callar y escuchar.",
+    "exampleTranslation": "I prefer to be silent and listen."
+  },
+  {
+    "word": "CALMA",
+    "translation": "stillness; calm",
+    "example": "El lago estaba en calma.",
+    "exampleTranslation": "The lake was still."
+  },
+  {
+    "word": "CALMAR",
+    "translation": "to calm",
+    "example": "La música ayuda a calmar al bebé.",
+    "exampleTranslation": "Music helps calm the baby."
+  },
+  {
+    "word": "CALVO",
+    "translation": "bald",
+    "example": "El señor calvo llevaba sombrero.",
+    "exampleTranslation": "The bald man wore a hat."
+  },
+  {
+    "word": "CALZADA",
+    "translation": "roadway",
+    "example": "Cruza la calzada con cuidado.",
+    "exampleTranslation": "Cross the roadway carefully."
+  },
+  {
+    "word": "CALZADO",
+    "translation": "footwear",
+    "example": "Ese calzado protege del frío.",
+    "exampleTranslation": "That footwear protects against the cold."
+  },
+  {
+    "word": "CAMBIAR",
+    "translation": "to change; to replace",
+    "example": "Necesito cambiar la pila.",
+    "exampleTranslation": "I need to replace the battery."
+  },
+  {
+    "word": "CAMPAÑA",
+    "translation": "campaign",
+    "example": "La campaña promueve la lectura.",
+    "exampleTranslation": "The campaign promotes reading."
+  },
+  {
+    "word": "CAMPUS",
+    "translation": "university campus",
+    "example": "El campus tiene una biblioteca.",
+    "exampleTranslation": "The campus has a library."
+  },
+  {
+    "word": "CANARIO",
+    "translation": "Canarian; from the Canary Islands",
+    "example": "Un músico canario dio el concierto.",
+    "exampleTranslation": "A Canarian musician gave the concert."
+  },
+  {
+    "word": "CANASTA",
+    "translation": "basket",
+    "example": "Llevamos fruta en la canasta.",
+    "exampleTranslation": "We carried fruit in the basket."
+  },
+  {
+    "word": "CANO",
+    "translation": "gray-haired",
+    "example": "Mi abuelo ya está cano.",
+    "exampleTranslation": "My grandfather is gray-haired now."
+  },
+  {
+    "word": "CANON",
+    "translation": "canon; established artistic rules",
+    "example": "El pintor siguió el canon clásico.",
+    "exampleTranslation": "The painter followed the classical canon."
+  },
+  {
+    "word": "CANSADO",
+    "translation": "tired",
+    "example": "Estoy cansado después del viaje.",
+    "exampleTranslation": "I am tired after the journey."
+  },
+  {
+    "word": "CANTADO",
+    "translation": "openly declared (a vote)",
+    "example": "El voto cantado no era secreto.",
+    "exampleTranslation": "The openly declared vote was not secret."
+  },
+  {
+    "word": "CANTE",
+    "translation": "singing",
+    "example": "El cante llenó el teatro.",
+    "exampleTranslation": "The singing filled the theater."
+  },
+  {
+    "word": "CANTERA",
+    "translation": "quarry",
+    "example": "Extraen piedra de la cantera.",
+    "exampleTranslation": "They extract stone from the quarry."
+  },
+  {
+    "word": "CANTO",
+    "translation": "singing; song",
+    "example": "Escuché el canto del coro.",
+    "exampleTranslation": "I heard the choir singing."
+  },
+  {
+    "word": "CANTÓN",
+    "translation": "home (informal Mexican usage)",
+    "example": "Nos vemos en mi cantón.",
+    "exampleTranslation": "We will meet at my place."
+  },
+  {
+    "word": "CAPA",
+    "translation": "cape; cloak",
+    "example": "La capa le cubría los hombros.",
+    "exampleTranslation": "The cape covered her shoulders."
+  },
+  {
+    "word": "CAPILLA",
+    "translation": "chapel",
+    "example": "La capilla está junto a la iglesia.",
+    "exampleTranslation": "The chapel is beside the church."
+  },
+  {
+    "word": "CAPITÁN",
+    "translation": "captain (military leader)",
+    "example": "El capitán dirigió a la tropa.",
+    "exampleTranslation": "The captain led the troops."
+  },
+  {
+    "word": "CAPO",
+    "translation": "criminal boss",
+    "example": "El capo fue detenido por la policía.",
+    "exampleTranslation": "The criminal boss was arrested by the police."
+  },
+  {
+    "word": "CARBONO",
+    "translation": "carbon",
+    "example": "El grafito contiene carbono.",
+    "exampleTranslation": "Graphite contains carbon."
+  },
+  {
+    "word": "CARGADA",
+    "translation": "teasing; taunting",
+    "example": "La cargada terminó cuando pidió respeto.",
+    "exampleTranslation": "The teasing stopped when he asked for respect."
+  },
+  {
+    "word": "CARGAR",
+    "translation": "to load",
+    "example": "Vamos a cargar las cajas en la mula.",
+    "exampleTranslation": "We are going to load the boxes onto the mule."
+  },
+  {
+    "word": "CARGO",
+    "translation": "position; post",
+    "example": "Aceptó un cargo en la cooperativa.",
+    "exampleTranslation": "She accepted a position in the cooperative."
+  },
+  {
+    "word": "CARIBE",
+    "translation": "Carib person",
+    "example": "El guía explicó la historia del pueblo caribe.",
+    "exampleTranslation": "The guide explained the history of the Carib people."
+  },
+  {
+    "word": "CARIDAD",
+    "translation": "charity; compassion",
+    "example": "Su caridad ayudó a muchas familias.",
+    "exampleTranslation": "Her charity helped many families."
+  },
+  {
+    "word": "CARISMA",
+    "translation": "charisma",
+    "example": "Su carisma atrajo al público.",
+    "exampleTranslation": "Her charisma drew the audience in."
+  },
+  {
+    "word": "CARNET",
+    "translation": "identification card; membership card",
+    "example": "Mostré mi carnet de la biblioteca.",
+    "exampleTranslation": "I showed my library card."
+  },
+  {
+    "word": "CARO",
+    "translation": "expensive",
+    "example": "Ese abrigo es caro.",
+    "exampleTranslation": "That coat is expensive."
+  },
+  {
+    "word": "CARPA",
+    "translation": "carp (fish)",
+    "example": "Una carpa nadaba en el estanque.",
+    "exampleTranslation": "A carp was swimming in the pond."
+  },
+  {
+    "word": "CARRIL",
+    "translation": "lane",
+    "example": "El autobús circula por su carril.",
+    "exampleTranslation": "The bus travels in its lane."
+  },
+  {
+    "word": "CARRITO",
+    "translation": "shopping cart",
+    "example": "El carrito está lleno.",
+    "exampleTranslation": "The shopping cart is full."
+  },
+  {
+    "word": "CARTEL",
+    "translation": "poster; sign",
+    "example": "Pegamos un cartel en la puerta.",
+    "exampleTranslation": "We put a poster on the door."
+  },
+  {
+    "word": "CASADO",
+    "translation": "married",
+    "example": "Mi hermano está casado.",
+    "exampleTranslation": "My brother is married."
+  },
+  {
+    "word": "CASAR",
+    "translation": "to marry; to perform a marriage",
+    "example": "El juez los va a casar mañana.",
+    "exampleTranslation": "The judge will marry them tomorrow."
+  },
+  {
+    "word": "CASARSE",
+    "translation": "to get married",
+    "example": "Decidieron casarse en mayo.",
+    "exampleTranslation": "They decided to get married in May."
+  },
+  {
+    "word": "CASCADA",
+    "translation": "waterfall",
+    "example": "La cascada se oye desde aquí.",
+    "exampleTranslation": "The waterfall can be heard from here."
+  },
+  {
+    "word": "CASI",
+    "translation": "almost",
+    "example": "Casi perdimos el autobús.",
+    "exampleTranslation": "We almost missed the bus."
+  },
+  {
+    "word": "CASILLA",
+    "translation": "compartment; box in a grid",
+    "example": "Escribe tu nombre en la casilla.",
+    "exampleTranslation": "Write your name in the box."
+  },
+  {
+    "word": "CASINO",
+    "translation": "casino",
+    "example": "El casino estaba junto al hotel.",
+    "exampleTranslation": "The casino was beside the hotel."
+  },
+  {
+    "word": "CASITA",
+    "translation": "little house",
+    "example": "La casita tiene un patio.",
+    "exampleTranslation": "The little house has a courtyard."
+  },
+  {
+    "word": "CASO",
+    "translation": "case; instance",
+    "example": "Analizamos un caso de la enfermedad.",
+    "exampleTranslation": "We analyzed a case of the disease."
+  },
+  {
+    "word": "CASTA",
+    "translation": "caste; hereditary group",
+    "example": "El relato describe una casta privilegiada.",
+    "exampleTranslation": "The account describes a privileged caste."
+  },
+  {
+    "word": "CASTING",
+    "translation": "audition; casting process",
+    "example": "El casting será el lunes.",
+    "exampleTranslation": "The audition will be on Monday."
+  },
+  {
+    "word": "CASTRO",
+    "translation": "ancient fortified settlement",
+    "example": "Visitamos un castro durante el viaje.",
+    "exampleTranslation": "We visited an ancient fortified settlement on the trip."
+  },
+  {
+    "word": "CASUAL",
+    "translation": "chance; accidental",
+    "example": "Fue un encuentro casual.",
+    "exampleTranslation": "It was a chance encounter."
+  },
+  {
+    "word": "CATALÁN",
+    "translation": "Catalan",
+    "example": "Un escritor catalán presentó su libro.",
+    "exampleTranslation": "A Catalan writer presented his book."
+  },
+  {
+    "word": "CATORCE",
+    "translation": "fourteen",
+    "example": "Compramos catorce naranjas.",
+    "exampleTranslation": "We bought fourteen oranges."
+  },
+  {
+    "word": "CAUCE",
+    "translation": "riverbed; channel",
+    "example": "El río salió de su cauce.",
+    "exampleTranslation": "The river overflowed its banks."
+  },
+  {
+    "word": "CAUCHO",
+    "translation": "rubber",
+    "example": "La suela es de caucho.",
+    "exampleTranslation": "The sole is rubber."
+  },
+  {
+    "word": "CAUDAL",
+    "translation": "flow; volume of flowing water",
+    "example": "El caudal del río aumentó.",
+    "exampleTranslation": "The river flow increased."
+  },
+  {
+    "word": "CAUSAR",
+    "translation": "to cause",
+    "example": "La lluvia puede causar inundaciones.",
+    "exampleTranslation": "Rain can cause flooding."
+  },
+  {
+    "word": "CAVIDAD",
+    "translation": "hollowness; cavity",
+    "example": "La cavidad del tronco servía de refugio.",
+    "exampleTranslation": "The hollow in the trunk provided shelter."
+  },
+  {
+    "word": "CAYO",
+    "translation": "cay; small low island",
+    "example": "La lancha se acercó al cayo.",
+    "exampleTranslation": "The boat approached the cay."
+  },
+  {
+    "word": "CAZA",
+    "translation": "hunting",
+    "example": "La caza está regulada en la reserva.",
+    "exampleTranslation": "Hunting is regulated in the reserve."
+  },
+  {
+    "word": "CAZADOR",
+    "translation": "hunter",
+    "example": "El cazador siguió las huellas.",
+    "exampleTranslation": "The hunter followed the tracks."
+  },
+  {
+    "word": "CAZAR",
+    "translation": "to hunt",
+    "example": "Está prohibido cazar en esta zona.",
+    "exampleTranslation": "Hunting is prohibited in this area."
+  },
+  {
+    "word": "CAÍDA",
+    "translation": "fall",
+    "example": "La caída le lastimó la rodilla.",
+    "exampleTranslation": "The fall hurt her knee."
+  },
+  {
+    "word": "CAÍDO",
+    "translation": "downhearted; discouraged",
+    "example": "Lo vi muy caído después de la noticia.",
+    "exampleTranslation": "I saw him looking very down after the news."
+  },
+  {
+    "word": "CAÑA",
+    "translation": "cane; hollow plant stalk",
+    "example": "Cortamos una caña para sostener la planta.",
+    "exampleTranslation": "We cut a cane to support the plant."
+  },
+  {
+    "word": "CAÑO",
+    "translation": "pipe",
+    "example": "El agua sale por ese caño.",
+    "exampleTranslation": "The water comes out through that pipe."
+  },
+  {
+    "word": "CAÑÓN",
+    "translation": "long hollow tube; barrel",
+    "example": "El cañón del arma estaba frío.",
+    "exampleTranslation": "The gun barrel was cold."
+  },
+  {
+    "word": "CEDER",
+    "translation": "to cede; to let someone use",
+    "example": "Voy a ceder mi asiento.",
+    "exampleTranslation": "I am going to give up my seat."
+  },
+  {
+    "word": "CELDA",
+    "translation": "prison cell",
+    "example": "La celda tenía una ventana pequeña.",
+    "exampleTranslation": "The cell had a small window."
+  },
+  {
+    "word": "CELESTE",
+    "translation": "heavenly; celestial",
+    "example": "El mapa muestra la bóveda celeste.",
+    "exampleTranslation": "The map shows the celestial sphere."
+  },
+  {
+    "word": "CELO",
+    "translation": "religious zeal",
+    "example": "El monje trabajaba con celo religioso.",
+    "exampleTranslation": "The monk worked with religious zeal."
+  },
+  {
+    "word": "CELOSO",
+    "translation": "jealous",
+    "example": "El personaje celoso teme perder a su pareja.",
+    "exampleTranslation": "The jealous character fears losing his partner."
+  },
+  {
+    "word": "CELTA",
+    "translation": "Celtic",
+    "example": "El museo conserva una pieza celta.",
+    "exampleTranslation": "The museum preserves a Celtic artifact."
+  },
+  {
+    "word": "CEMENTO",
+    "translation": "cement",
+    "example": "Mezclaron cemento con arena y agua.",
+    "exampleTranslation": "They mixed cement with sand and water."
+  },
+  {
+    "word": "CENA",
+    "translation": "dinner; evening meal",
+    "example": "La cena está lista.",
+    "exampleTranslation": "Dinner is ready."
+  },
+  {
+    "word": "CENAR",
+    "translation": "to have dinner",
+    "example": "Vamos a cenar a las ocho.",
+    "exampleTranslation": "We are going to have dinner at eight."
+  },
+  {
+    "word": "CENIZA",
+    "translation": "ash",
+    "example": "Retiramos la ceniza de la fogata.",
+    "exampleTranslation": "We removed the ash from the campfire."
+  },
+  {
+    "word": "CENSO",
+    "translation": "census",
+    "example": "El censo contó a los habitantes.",
+    "exampleTranslation": "The census counted the inhabitants."
+  },
+  {
+    "word": "CENSURA",
+    "translation": "disapproval; criticism",
+    "example": "Su conducta recibió una censura pública.",
+    "exampleTranslation": "His conduct received public criticism."
+  },
+  {
+    "word": "CENTAVO",
+    "translation": "hundredth part",
+    "example": "Un centavo representa la centésima parte de un peso.",
+    "exampleTranslation": "A centavo represents one hundredth of a peso."
+  },
+  {
+    "word": "CENTRAL",
+    "translation": "central",
+    "example": "El patio central recibe mucha luz.",
+    "exampleTranslation": "The central courtyard gets plenty of light."
+  },
+  {
+    "word": "CENTRO",
+    "translation": "center; midpoint",
+    "example": "Marca el centro de la línea.",
+    "exampleTranslation": "Mark the midpoint of the line."
+  },
+  {
+    "word": "CEPILLO",
+    "translation": "brush",
+    "example": "Limpié la mesa con un cepillo.",
+    "exampleTranslation": "I cleaned the table with a brush."
+  },
+  {
+    "word": "CERA",
+    "translation": "wax",
+    "example": "La vela está hecha de cera.",
+    "exampleTranslation": "The candle is made of wax."
+  },
+  {
+    "word": "CERCANO",
+    "translation": "nearby; close",
+    "example": "El pueblo cercano tiene un mercado.",
+    "exampleTranslation": "The nearby town has a market."
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "inputSha256": "7b55aa1d08de21ca19c7391b1ec4124f41fb7eae554733e91d0909b63c903ebe",
+  "deltaProofSha256": "52d5286f29538f74ab6f64e8b0cb4c766f782b3755c2eb849d5ba9ca8255d30b",
+  "originalCandidateSha256": "10b51829f25b55dde0352ea56d83b2bbd90685efe26df537e639e8244cc4d772",
+  "originalReviewSha256": "fa8c56901bf1650ac018d4d7b0703c752a34a8b7e7a59676a6bac7665eba5c08",
+  "reviewer": "/root/review_standards",
+  "method": "Independent exact two-field delta and semantic recheck; original candidate/review/holds preserved. No source edits or native-human certification.",
+  "approved": true,
+  "correctedApproval": {
+    "proposalIndex": 37,
+    "word": "LINDAZO",
+    "partOfSpeech": "noun",
+    "sourceWord": "lindazo",
+    "senseIndex": 0,
+    "english": "a boundary, especially one defined by markers or a bank",
+    "context": "Rare noun sense. The markers need not be stones; a bank may also define the boundary. Not the separate augmentative adjective based on lindo.",
+    "recordSha256": "dc01f505c7a5e22fbaed8f06798992ed329eb4118ae02df868892fe95d631fb5",
+    "notes": "Markers correctly translates mojones without imposing stone construction. Bank is the physical ribazo/earthen-bank sense in this boundary context, not a financial institution."
+  },
+  "changedJSONPointers": [
+    "/proposals/37/english",
+    "/proposals/37/context"
+  ],
+  "allOtherBytesUnchanged": true,
+  "preservedOriginalApprovedRows": 48,
+  "preservedArchivalLINDAZOHold": true,
+  "remainingHeldWords": [
+    "MANGOTE"
+  ],
+  "scope": "Adds one separately reviewed corrected lexical reading to the existing48 approvals; no form, gender, answer-eligibility or other sense authority."
+}

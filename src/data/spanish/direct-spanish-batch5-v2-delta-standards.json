@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "Separate metadata-only correction after exact selected source sense check. Original proposal remains frozen.",
+  "originalFile": "/tmp/direct-spanish-batch5-proposals-standards.json",
+  "originalSha256": "53b56db05380ca5a4cda0c07e13a890201aa73f530e8f0f3e9558b37a14d5672",
+  "revisedFile": "/tmp/direct-spanish-batch5-proposals-v2-standards.json",
+  "revisedSha256": "be82fce3b04514f27249cf1898da42630519a3b97f39d7a4e1c906507e20e92c",
+  "changes": [
+    {
+      "jsonPointer": "/proposals/47/context",
+      "word": "DROSERA",
+      "before": "Selected carnivorous plant genus; no medicinal uses inferred.",
+      "after": "Selected carnivorous plant in the genus Drosera; no medicinal uses inferred.",
+      "reason": "Source selects any species/member of Drosera; English a sundew denotes a plant, not the taxonomic genus as a whole."
+    }
+  ],
+  "other65SemanticAndSourceRowsUnchanged": true,
+  "allOtherBytesUnchanged": true,
+  "selectedEnglishUnchanged": "a sundew (Drosera)",
+  "sourceRecordSha256": "48b540ad7351a385be21e33fb2289eabad1fa9b17a50ed5142a552c5aedcc429",
+  "senseIndex": 0
+}

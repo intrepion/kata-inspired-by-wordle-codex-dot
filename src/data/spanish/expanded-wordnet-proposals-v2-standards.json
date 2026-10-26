@@ -1,0 +1,1899 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "Bounded first-author independent model lexical proposals from actual checksum-verified English WordNet verb/adjective files + exact MCR Spanish mapping + independently inspected Spanish raw sense.25 exact pairs selected after scanning143 English definitions;118 deferred, not claimed fully linguistically adjudicated. No English finite rendering, form-generation authority, example sentence or native-human certification.",
+  "inputSha256": "147292be92e42bfb82e86f0ec246fa3582f8108f1cc077619f131b0556c91972",
+  "sourcePins": {
+    "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+    "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+    "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+    "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+    "spanishLicense": "CC-BY-3.0",
+    "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+    "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+    "modifications": "Exact MCR Spanish-lemma joins to Princeton WordNet 3.0 verb and adjective/satellite-adjective synsets from the pinned data.verb and data.adj files; adverb data.adv was checksum-verified and yielded no remaining baseline matches. Selected original model English lexical renderings are corroborated against exact pinned Spanish Wiktionary raw senses. No noun-only join claim, generated inflections, quotations or examples. English satellite-adjective source POS s is retained as actualWordNetPOS while its MCR synset join uses the normalized a suffix.",
+    "englishExpandedFileHashes": {
+      "data.verb": "7fff397e93b4fb152fdaee116747cf1c40d7badedccb4b63f5503e8e962d9102",
+      "data.adj": "f24b635368be441501c9b8001e9271fd3b30b203f00d91e332979e6f8fe35646",
+      "data.adv": "e66dbbda0e0359e41b7f225bff71dd0c263dc7c66c1b61abc9ba334973d92979"
+    },
+    "supplementalSpanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "supplementalSpanishLicense": "CC-BY-SA-4.0"
+  },
+  "proposals": [
+    {
+      "candidateIndex": 1,
+      "spanish": "canular",
+      "word": "CANULAR",
+      "partOfSpeech": "adj",
+      "synset": "02264807-a",
+      "actualWordNetPOS": "s",
+      "english": [
+        "tube-shaped"
+      ],
+      "context": "Adjective morphology, not the separate cannulating verb; source explicitly says cannula-shaped.",
+      "sourceEvidence": {
+        "sourceFile": "data.adj",
+        "synonyms": [
+          "tubular",
+          "cannular",
+          "tubelike",
+          "tube-shaped",
+          "vasiform"
+        ],
+        "definition": "constituting a tube; having hollow tubes (as for the passage of fluids)",
+        "recordSha256": "d3ef5cbe243612438c94ef535588a7da86c52fb9f4190dd4126b5cd69d34db2d",
+        "spanishRecordSha256": "61284f81cc286ccb688c74ae620fafe9d6ade10e5bff34db444df4469acea58e"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "canular",
+        "partOfSpeech": "adj",
+        "recordSha256": "6ca5eaaeafd10de34e349f0662181853c69a8506ef6d8955f89ead1c61eb3010",
+        "senseIndex": 0,
+        "glosses": [
+          "Con forma de cánula."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [],
+        "wordRawTags": [
+          "invariable en género"
+        ],
+        "sourceUrl": "https://es.wiktionary.org/wiki/canular"
+      }
+    },
+    {
+      "candidateIndex": 16,
+      "spanish": "aliarse",
+      "word": "ALIARSE",
+      "partOfSpeech": "verb",
+      "synset": "02430191-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to form an alliance"
+      ],
+      "context": "Act jointly with others toward a common objective; lexical whole pronominal word, not an inflected ally rule.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "ally"
+        ],
+        "definition": "become an ally or associate, as by a treaty or marriage",
+        "recordSha256": "92a18e3a3aa7dc7964705bc5c00ed118d03c6f48ec65bfbdc5b2c6327768ce40",
+        "spanishRecordSha256": "94bba337b446cc9d3dc340b2ddfdbb860a113c7929cf001b07896981b6211670"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "aliarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "2c183bb80316e8e083bc187e8d4726b72b9e678ba5c367535c7ecc8b3402cc5f",
+        "senseIndex": 0,
+        "glosses": [
+          "Actuar con otros para un objetivo común."
+        ],
+        "tags": [
+          "transitive"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/aliarse"
+      }
+    },
+    {
+      "candidateIndex": 23,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "partOfSpeech": "verb",
+      "synset": "02696801-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to rise above a surface"
+      ],
+      "context": "Selected literal elevating/protruding reading, not animal rearing, standing up or rebellion borrowed from other synsets.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "rise",
+          "lift",
+          "rear"
+        ],
+        "definition": "rise up",
+        "recordSha256": "f13554270cfef51f5daf7bc1365be1eebdd8d9fb9449ebe388d24c7489789678",
+        "spanishRecordSha256": "4d1231e73c56cb65942f5b927a8c300f1cc1211317f0ede6fdf9fda78707a839"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "alzarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "6d1732adf741fabe6998b17f42efbdadb03d47c31f840f5544326a30d9e04869",
+        "senseIndex": 0,
+        "glosses": [
+          "Sobresalir, elevarse sobre una superficie o plano."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/alzarse"
+      }
+    },
+    {
+      "candidateIndex": 26,
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "partOfSpeech": "verb",
+      "synset": "01087197-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to prepare oneself for war"
+      ],
+      "context": "Exact prepararse para la guerra sense; no actual conflict, plan or weapon detail invented.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "arm",
+          "build up",
+          "fortify",
+          "gird"
+        ],
+        "definition": "prepare oneself for a military confrontation",
+        "recordSha256": "d2371a6107688a839028d67e475a210040b1f6e7e9685f58e93055bc25c9e489",
+        "spanishRecordSha256": "6b9c2036e3ba143002fbbe0a44cc70eaf5befa7c5a5dab97636f8d8e3b8f4ad6"
+      },
+      "selectedSpanishSenseIndex": 2,
+      "supplementalSpanishEvidence": {
+        "word": "armarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "5d570d78e6f1f04c950df101e65f6ba2937a1e2d7947fefa406cf01e676698b7",
+        "senseIndex": 2,
+        "glosses": [
+          "Prepararse para la guerra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/armarse"
+      }
+    },
+    {
+      "candidateIndex": 27,
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "partOfSpeech": "verb",
+      "synset": "02334867-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to arm oneself"
+      ],
+      "context": "Reflexive argument is explicitly oneself in Spanish; WordNet supply-with-arms concept is narrowed to self-arming, not arming someone else.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "arm"
+        ],
+        "definition": "supply with arms",
+        "recordSha256": "ce73623f564eb2d8a3b8df7c944709a373242120ef9c4ca696aae1652d67c793",
+        "spanishRecordSha256": "db68f4c4a5a6522e7cba6bced794a45681e092f161959114930449f15a02da3a"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "armarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "5d570d78e6f1f04c950df101e65f6ba2937a1e2d7947fefa406cf01e676698b7",
+        "senseIndex": 0,
+        "glosses": [
+          "Proveerse de armas."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/armarse"
+      }
+    },
+    {
+      "candidateIndex": 32,
+      "spanish": "asirse",
+      "word": "ASIRSE",
+      "partOfSpeech": "verb",
+      "synset": "01216331-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to cling tightly"
+      ],
+      "context": "Grip/hold on to a contextual thing, not exploit a pretext or contend with another person.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "cling",
+          "hang"
+        ],
+        "definition": "hold on tightly or tenaciously",
+        "recordSha256": "fdfee40e5d69f005cc47c880aaaa569ed1f91d643a2ee51e4a7a5f631c5dc776",
+        "spanishRecordSha256": "25be9a9a535b3d20b4c40ca904bf2add4238c6467521811f20c31948d31a986b"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "asirse",
+        "partOfSpeech": "verb",
+        "recordSha256": "035df07b81baa49df218e0850f13a8c9f71bd7d0acc3f97f1977fa8d71caa7ae",
+        "senseIndex": 0,
+        "glosses": [
+          "Agarrarse de alguna cosa."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/asirse"
+      }
+    },
+    {
+      "candidateIndex": 42,
+      "spanish": "calarse",
+      "word": "CALARSE",
+      "partOfSpeech": "verb",
+      "synset": "01862340-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to stall (of an engine)"
+      ],
+      "context": "Intransitive abrupt stopping of an engine; not a person stalling someone or an aircraft aerodynamic stall.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "stall",
+          "conk"
+        ],
+        "definition": "come to a stop",
+        "recordSha256": "a857243ffc94c7bcd754c9f5e535cf2f3baa2f6a3e5c7093d2e476688ae61c09",
+        "spanishRecordSha256": "82e67297e178d3ce9ad0048dfeb5933e7dc4a8e295fbf2d96dfbd68edf4f8701"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "calarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "4036b2afae9d35cabdfb28d69d9831963b6a117c97079ecb25b2d318c8e1718c",
+        "senseIndex": 0,
+        "glosses": [
+          "Detenerse de modo brusco o inesperado un motor."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/calarse"
+      }
+    },
+    {
+      "candidateIndex": 45,
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "partOfSpeech": "verb",
+      "synset": "00618057-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to make a mistake"
+      ],
+      "context": "Colloquial selected error sense, not filtering through material or entering uninvited.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "stumble",
+          "slip up",
+          "trip up"
+        ],
+        "definition": "make an error",
+        "recordSha256": "9d9d1b987ba51f72bc7eb62ed7daf62d54678ce4cc23452dccabf2ff2d3236aa",
+        "spanishRecordSha256": "e56373079d90fbd6235a2f40f0ac4802d6a7b3630db09159caabe1bf4a5ba91c"
+      },
+      "selectedSpanishSenseIndex": 2,
+      "supplementalSpanishEvidence": {
+        "word": "colarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "78bf6b561845cdf6bda8bbc2dcabcb2d07f36e6bb601dbc3ef30940f94c4d6b7",
+        "senseIndex": 2,
+        "glosses": [
+          "Equivocarse, cometer errores o hacer lo incorrecto."
+        ],
+        "tags": [
+          "colloquial"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/colarse"
+      }
+    },
+    {
+      "candidateIndex": 47,
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "partOfSpeech": "verb",
+      "synset": "02657080-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to enter an event uninvited"
+      ],
+      "context": "Selected meeting/party gatecrashing; not physical collision or computer failure.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "crash"
+        ],
+        "definition": "occupy, usually uninvited",
+        "recordSha256": "1e8840f0c7a50806207a2353dc2217858afa65fc98ec833bd62f29f4d31064bd",
+        "spanishRecordSha256": "0a6bd387a04320507d13a18bf69c3231d2c72c88546aff20ef901a823a57a9ec"
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "word": "colarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "78bf6b561845cdf6bda8bbc2dcabcb2d07f36e6bb601dbc3ef30940f94c4d6b7",
+        "senseIndex": 1,
+        "glosses": [
+          "Entrar en una reunión, fiesta o acto social sin pagar la entrada ni tener invitación."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/colarse"
+      }
+    },
+    {
+      "candidateIndex": 62,
+      "spanish": "fijarse",
+      "word": "FIJARSE",
+      "partOfSpeech": "verb",
+      "synset": "00616670-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to pay attention"
+      ],
+      "context": "Attention to something in context; not decide something or Cuban exam-copying.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "attend to",
+          "take to heart"
+        ],
+        "definition": "get down to; pay attention to; take seriously",
+        "recordSha256": "0bd903a155fe0dec987f9683b5a010a7f2e79cc7b5d93ceed0389dfdccafa326",
+        "spanishRecordSha256": "0ea1877db3eab8dec0f78bddd0e83f008e28ecd6a04ddeef28363de9c5f85cb3"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "fijarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "16ad16b1c38babd4d251abcb57f6c33442b9c63d0cd3d38b4f7afd622ecb2316",
+        "senseIndex": 0,
+        "glosses": [
+          "Prestar atención a algo."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/fijarse"
+      }
+    },
+    {
+      "candidateIndex": 66,
+      "spanish": "grisear",
+      "word": "GRISEAR",
+      "partOfSpeech": "verb",
+      "synset": "00289392-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to turn gray"
+      ],
+      "context": "Literal gradual acquisition of gray color. Also proposed in the separate40-frame draft; do not double-count or automatically add inflection authority.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "grey",
+          "gray"
+        ],
+        "definition": "turn grey",
+        "recordSha256": "f7aaf578e9cbad4f94f0ea475a20713b60deb662ef35e3551856d29919365738",
+        "spanishRecordSha256": "b2e7c57fe36cbb3a97093590bb77807922e009f1424cf0d6796205e11bcd2038"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "grisear",
+        "partOfSpeech": "verb",
+        "recordSha256": "73ad5725ac1d0f67301253d848ab083f35d01e8a1edb16a77087f47b99e9cb83",
+        "senseIndex": 0,
+        "glosses": [
+          "Ir adquiriendo algo un tono gris."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "intransitive"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/grisear"
+      }
+    },
+    {
+      "candidateIndex": 68,
+      "spanish": "guiarse",
+      "word": "GUIARSE",
+      "partOfSpeech": "verb",
+      "synset": "02159427-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to use clues or ideas as a guide"
+      ],
+      "context": "Clues/signals/ideas/motivation guide a decision; not causatively guide another person.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "guide",
+          "guide on"
+        ],
+        "definition": "use as a guide",
+        "recordSha256": "3a567f5616d2ba951b75ac8f660b7f6b043536c45ae2375434e09a2ea3400993",
+        "spanishRecordSha256": "b2181db054fec8c93edebf06f196993700fa4f06fc0b778f0e94fffb90485689"
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "word": "guiarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "a0949fb0f85ac12fdea88ab71561304051808a02fcd6b0c5dd39a8bb3f014d2a",
+        "senseIndex": 1,
+        "glosses": [
+          "Dejarse llevar, tomar una decisión, por indicios, señales, ideas o motivaciones."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/guiarse"
+      }
+    },
+    {
+      "candidateIndex": 74,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "partOfSpeech": "verb",
+      "synset": "00374135-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to freeze into ice"
+      ],
+      "context": "Liquid becomes ice; inchoative, never a person causing something else to freeze.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "freeze"
+        ],
+        "definition": "change to ice",
+        "recordSha256": "3e9318d103d5897b3f567545c7808cfed859e8561e59aa8cfcc80abefb3b82ba",
+        "spanishRecordSha256": "fef4cc526aebcacbfd8a910eb880e76d21559c8ccf59efa3bcc3dfc90ece318e"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "helarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "1d834e73b594508122ba40a45aefc3c797c022a49101378dc6dab3fca3753fbd",
+        "senseIndex": 0,
+        "glosses": [
+          "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+        ],
+        "tags": [
+          "transitive"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/helarse"
+      }
+    },
+    {
+      "candidateIndex": 76,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "partOfSpeech": "verb",
+      "synset": "00445711-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to solidify from cooling"
+      ],
+      "context": "A formerly molten/liquid substance becomes solid through cooling; not causative freezing of an external patient.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "freeze",
+          "freeze out",
+          "freeze down"
+        ],
+        "definition": "change from a liquid to a solid when cold",
+        "recordSha256": "8ef0ace517ef69dcb614a3af1b3e0ce96f7cea486299bd02dda1d4833cc54f2d",
+        "spanishRecordSha256": "b3af8666f1e95322dac1c048d15ff0d8bed22290198defd369fac33286793cb2"
+      },
+      "selectedSpanishSenseIndex": 2,
+      "supplementalSpanishEvidence": {
+        "word": "helarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "1d834e73b594508122ba40a45aefc3c797c022a49101378dc6dab3fca3753fbd",
+        "senseIndex": 2,
+        "glosses": [
+          "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/helarse"
+      }
+    },
+    {
+      "candidateIndex": 88,
+      "spanish": "ligarse",
+      "word": "LIGARSE",
+      "partOfSpeech": "verb",
+      "synset": "01356750-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to bond firmly (physical attachment)"
+      ],
+      "context": "Selected physical firm bond, not every moral alliance or regional telephone/castigation sense.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "adhere",
+          "hold fast",
+          "bond",
+          "bind",
+          "stick",
+          "stick to"
+        ],
+        "definition": "stick to firmly",
+        "recordSha256": "ab8bdb17311914bed9490a7134824e36a1119a8db7f600e67a6b22e482800eed",
+        "spanishRecordSha256": "3af2adde8c44828d5b822ec87d441f3f1a281f3cdb8c2772566330370def8fb8"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "ligarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "8a3c88c7fd635b83b2be29d4eaddbd0aa0db7b920e76b5c56ec4868b47f86422",
+        "senseIndex": 0,
+        "glosses": [
+          "Adquirir, crear o contraer un vínculo firme con otro(s), que puede ser físico o moral."
+        ],
+        "tags": [
+          "transitive"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/ligarse"
+      }
+    },
+    {
+      "candidateIndex": 92,
+      "spanish": "medirse",
+      "word": "MEDIRSE",
+      "partOfSpeech": "verb",
+      "synset": "01072262-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to measure oneself against others in competition"
+      ],
+      "context": "Comparison/confrontation establishes one's strength; not literal measuring a garment or self-restraint in speech.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "compete",
+          "vie",
+          "contend"
+        ],
+        "definition": "compete for something; engage in a contest; measure oneself against others",
+        "recordSha256": "ce674de5454ce244828046b71da9e5f31b5d856501c284a9bceea9f768394f2a",
+        "spanishRecordSha256": "b265b367f1135dca0a996238cf32e26a88984c65d56e9f5d702ed239fa064ae7"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "medirse",
+        "partOfSpeech": "verb",
+        "recordSha256": "ec570858836010f00c99d13e8f55fa70486ef3735ccc1d2a69d686fa6976942b",
+        "senseIndex": 0,
+        "glosses": [
+          "Establecer la propia fuerza o intensidad, al compararlo o enfrentarlo con otro elemento o con alguna circunstancia."
+        ],
+        "tags": [
+          "transitive"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/medirse"
+      }
+    },
+    {
+      "candidateIndex": 95,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "partOfSpeech": "verb",
+      "synset": "00849332-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to mock someone by imitation"
+      ],
+      "context": "Selected derisive-imitation WordNet reading within Spanish burlarse; does not assert all mocking is imitation.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "mock"
+        ],
+        "definition": "imitate with mockery and derision",
+        "recordSha256": "b5ab4c2ec7513e206561abdb97041287c23043ddfd996e5152abf3473b0dacae",
+        "spanishRecordSha256": "007124e8f945d588f529cbe8638099b847f6af76d4220ace3343e7c3512e532a"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "mofarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "f37f434c461cdf4d87fc1cb6596b6315615addc0e2c39f475c3500bf9f7f22e6",
+        "senseIndex": 0,
+        "glosses": [
+          "Burlarse de alguien."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/mofarse"
+      }
+    },
+    {
+      "candidateIndex": 96,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "partOfSpeech": "verb",
+      "synset": "00850192-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to jeer at someone"
+      ],
+      "context": "Selected contemptuous derision, not merely smiling or persistent harassment automatically inferred from other synsets.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "jeer",
+          "scoff",
+          "flout",
+          "barrack",
+          "gibe"
+        ],
+        "definition": "laugh at with contempt and derision",
+        "recordSha256": "a8491038a420b537a2ce77f4d4bb68c392e30df453752896a8083f20aa565ae8",
+        "spanishRecordSha256": "42429458ba1a2d9ca6b51b1404a110fbcd6a7c10767aa30ec82655cae2e69fac"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "mofarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "f37f434c461cdf4d87fc1cb6596b6315615addc0e2c39f475c3500bf9f7f22e6",
+        "senseIndex": 0,
+        "glosses": [
+          "Burlarse de alguien."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/mofarse"
+      }
+    },
+    {
+      "candidateIndex": 103,
+      "spanish": "picarse",
+      "word": "PICARSE",
+      "partOfSpeech": "verb",
+      "synset": "00848894-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to take offense"
+      ],
+      "context": "Be angry or offended at something; not injecting drugs, wine souring or an animal being in heat.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "bristle at",
+          "bridle at",
+          "bridle up",
+          "bristle up"
+        ],
+        "definition": "show anger or indignation",
+        "recordSha256": "1f11d4dd339cba373f80b2813142811f822162dd505dec1b4dc014dab985a94a",
+        "spanishRecordSha256": "67513f53d976e987711da2f4a8719f502f7599cdf21363ee2d71e24de111331a"
+      },
+      "selectedSpanishSenseIndex": 3,
+      "supplementalSpanishEvidence": {
+        "word": "picarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "cd23632a3df07269becb5ba0e4a19241fabee3eea3f9eb0dc2a7af6e19640118",
+        "senseIndex": 3,
+        "glosses": [
+          "Enojarse u ofenderse de alguna cosa."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/picarse"
+      }
+    },
+    {
+      "candidateIndex": 114,
+      "spanish": "raerse",
+      "word": "RAERSE",
+      "partOfSpeech": "verb",
+      "synset": "01369204-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to wear away through rubbing"
+      ],
+      "context": "Inchoative wear, not a person actively scraping another object; actual cause/abrasion sense comes from the English synset.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "fray",
+          "frazzle"
+        ],
+        "definition": "wear away by rubbing",
+        "recordSha256": "f23d1fcd7f812183a88317421533fd6c082ce0c6cfa18122a97b3b857ad826c9",
+        "spanishRecordSha256": "4b8e90e0528d9011ce1c49605f67a7556d09f9588fbf3b0cbc1db950747c284f"
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "word": "raerse",
+        "partOfSpeech": "verb",
+        "recordSha256": "48a7f1b29a4413fe87d97dc8bf003dfc79a175465c6a2a41f90886e3c0a6b53e",
+        "senseIndex": 1,
+        "glosses": [
+          "Desgastarse."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/raerse"
+      }
+    },
+    {
+      "candidateIndex": 117,
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "partOfSpeech": "verb",
+      "synset": "02380980-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to chicken out"
+      ],
+      "context": "Back down from a difficult/frightening situation at the last moment; not spontaneous splitting of a material.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "chicken out",
+          "back off",
+          "pull out",
+          "back down",
+          "bow out"
+        ],
+        "definition": "remove oneself from an obligation",
+        "recordSha256": "f4933686252cafc7860f8ed98abd0bb8dc64bec2b7aba2e28b739d0058656461",
+        "spanishRecordSha256": "1147898894859b30f29275b311ae5390417293d59d5034da34ab413c8a4ac8cf"
+      },
+      "selectedSpanishSenseIndex": 0,
+      "supplementalSpanishEvidence": {
+        "word": "rajarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "9e3fd3780b90a41a132529e47e13579dd0eee90b920c047236f53cf006a8bcb6",
+        "senseIndex": 0,
+        "glosses": [
+          "Acobardarse, desistirse de alguna situación díficil o temerosa en el último momento."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/rajarse"
+      }
+    },
+    {
+      "candidateIndex": 124,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "partOfSpeech": "verb",
+      "synset": "00219403-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to dry up (of a river)"
+      ],
+      "context": "A river loses its water; selected inchoative sense, not wiping a person with an invented towel.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "dry",
+          "dry out"
+        ],
+        "definition": "become dry or drier",
+        "recordSha256": "10c23113d1f9e710af047f959487335d47cae011d5e20edcf243d797ac260aa6",
+        "spanishRecordSha256": "d9085f948ac5aa6ece2814427bbe3ed7b3ceaa7665ddd31aace473496850f8ca"
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "word": "secarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "51ba91889294ad313037d8652b13c823a0c82f3768a15a51c15f9e226ed186de",
+        "senseIndex": 1,
+        "glosses": [
+          "Dicho de un río: quedarse sin agua."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/secarse"
+      }
+    },
+    {
+      "candidateIndex": 126,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "partOfSpeech": "verb",
+      "synset": "00421917-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to wither (of a plant)"
+      ],
+      "context": "Plant loses greenness/vigor, matching freshness/vitality loss; not total mummification or human weight loss.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "fade",
+          "wither"
+        ],
+        "definition": "lose freshness, vigor, or vitality",
+        "recordSha256": "0d8add3643ca294a8d496b686a86b06d423c7fcf51354e200c667e3216648d62",
+        "spanishRecordSha256": "a6d3760ea92f2d3cbe1d9e53bc805d15dc5c8dc60f5faed84772e921afef03fe"
+      },
+      "selectedSpanishSenseIndex": 2,
+      "supplementalSpanishEvidence": {
+        "word": "secarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "51ba91889294ad313037d8652b13c823a0c82f3768a15a51c15f9e226ed186de",
+        "senseIndex": 2,
+        "glosses": [
+          "Dicho de una planta: perder su verdor, vigor o lozanía."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/secarse"
+      }
+    },
+    {
+      "candidateIndex": 134,
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "partOfSpeech": "verb",
+      "synset": "01426397-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to have sex with someone"
+      ],
+      "context": "Spanish source marks this selected copulation sense Spain/vulgar; distinct from falling, lying down or eating. No example or actual partners invented.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "sleep together",
+          "roll in the hay",
+          "love",
+          "make out",
+          "make love",
+          "sleep with",
+          "get laid",
+          "have sex",
+          "know",
+          "do it",
+          "be intimate",
+          "have intercourse",
+          "have it away",
+          "have it off",
+          "screw",
+          "fuck",
+          "jazz",
+          "eff",
+          "hump",
+          "lie with",
+          "bed",
+          "have a go at it",
+          "bang",
+          "get it on",
+          "bonk"
+        ],
+        "definition": "have sexual intercourse with",
+        "recordSha256": "61bda28ce493cc3a9935ba82549e29aef3c56a1cf42dc6189b7fd60425c863df",
+        "spanishRecordSha256": "594d2b6a10e6ad191dabe43f004c0ec59b9d923a51a1eddb0139cf8af6e2ce75"
+      },
+      "selectedSpanishSenseIndex": 3,
+      "supplementalSpanishEvidence": {
+        "word": "tirarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "41411d4676ca8f6b1f19c0f6fb0b44d34a80682c861678159766c3174685a37a",
+        "senseIndex": 3,
+        "glosses": [
+          "Copular con otra persona."
+        ],
+        "tags": [
+          "Spain",
+          "vulgar"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/tirarse"
+      }
+    },
+    {
+      "candidateIndex": 137,
+      "spanish": "tocarse",
+      "word": "TOCARSE",
+      "partOfSpeech": "verb",
+      "synset": "00047172-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to put on a hat"
+      ],
+      "context": "Head-covering self-use explicitly includes hats; not a generic transitively hatting another person or every scarf use.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "synonyms": [
+          "hat"
+        ],
+        "definition": "put on or wear a hat",
+        "recordSha256": "cfdf4517e0705ad263f7686ce52fdd405db7bdd7ad9879ecccbdf091171944b8",
+        "spanishRecordSha256": "a062e260e43d2ec2b484d75c9c24d409049455b8b539716135f4cff35ebaa094"
+      },
+      "selectedSpanishSenseIndex": 1,
+      "supplementalSpanishEvidence": {
+        "word": "tocarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "f22a7446e46c5bb21a80c4844ad34c16cc65a41602c81a1ef8521cf4f794055f",
+        "senseIndex": 1,
+        "glosses": [
+          "Cubrirse la cabeza, esto es, ponerse la gorra, sombrero, mantilla, pañuelo, etc."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/tocarse"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "candidateIndex": 0,
+      "spanish": "brotado",
+      "word": "BROTADO",
+      "synset": "02491421-a",
+      "reason": "BROTADO retained source is a participle form-reference, not independently established standalone adjective use."
+    },
+    {
+      "candidateIndex": 2,
+      "spanish": "fungoso",
+      "word": "FUNGOSO",
+      "synset": "02832678-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 3,
+      "spanish": "granoso",
+      "word": "GRANOSO",
+      "synset": "00365799-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 4,
+      "spanish": "hebroso",
+      "word": "HEBROSO",
+      "synset": "02413851-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 5,
+      "spanish": "icoroso",
+      "word": "ICOROSO",
+      "synset": "02851709-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 6,
+      "spanish": "latvio",
+      "word": "LATVIO",
+      "synset": "02962818-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 7,
+      "spanish": "laxista",
+      "word": "LAXISTA",
+      "synset": "00287275-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 8,
+      "spanish": "lujado",
+      "word": "LUJADO",
+      "synset": "01318510-a",
+      "reason": "LUJADO retained source is a participle form-reference; no Spanish adjectival POS inferred solely from the English adjective synset."
+    },
+    {
+      "candidateIndex": 9,
+      "spanish": "muchos",
+      "word": "MUCHOS",
+      "synset": "01551633-a",
+      "reason": "MUCHOS needs exact Spanish adjective/determiner and plural evidence; English adjective synset alone must not imply Spanish POS/word-form permission."
+    },
+    {
+      "candidateIndex": 10,
+      "spanish": "perlino",
+      "word": "PERLINO",
+      "synset": "00390943-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 11,
+      "spanish": "quiloso",
+      "word": "QUILOSO",
+      "synset": "02851122-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 12,
+      "spanish": "rombal",
+      "word": "ROMBAL",
+      "synset": "02948892-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 13,
+      "spanish": "sanioso",
+      "word": "SANIOSO",
+      "synset": "02851709-a",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 14,
+      "spanish": "adjurar",
+      "word": "ADJURAR",
+      "synset": "00759657-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 15,
+      "spanish": "ajarse",
+      "word": "AJARSE",
+      "synset": "02041877-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 17,
+      "spanish": "aliarse",
+      "word": "ALIARSE",
+      "synset": "02434737-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 18,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01981623-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 19,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01981933-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 20,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01982044-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 21,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01983264-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 22,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "02583139-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 24,
+      "spanish": "apearse",
+      "word": "APEARSE",
+      "synset": "01958452-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 25,
+      "spanish": "apearse",
+      "word": "APEARSE",
+      "synset": "01978576-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 28,
+      "spanish": "asarse",
+      "word": "ASARSE",
+      "synset": "00319886-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 29,
+      "spanish": "asarse",
+      "word": "ASARSE",
+      "synset": "00324560-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 30,
+      "spanish": "asearse",
+      "word": "ASEARSE",
+      "synset": "00035758-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 31,
+      "spanish": "asearse",
+      "word": "ASEARSE",
+      "synset": "00040766-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 33,
+      "spanish": "ballar",
+      "word": "BALLAR",
+      "synset": "01895263-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 34,
+      "spanish": "barbear",
+      "word": "BARBEAR",
+      "synset": "00037298-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 35,
+      "spanish": "basarse",
+      "word": "BASARSE",
+      "synset": "02663643-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 36,
+      "spanish": "batanar",
+      "word": "BATANAR",
+      "synset": "01399305-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 37,
+      "spanish": "beberse",
+      "word": "BEBERSE",
+      "synset": "01202374-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 38,
+      "spanish": "befar",
+      "word": "BEFAR",
+      "synset": "00850192-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 39,
+      "spanish": "befarse",
+      "word": "BEFARSE",
+      "synset": "00850501-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 40,
+      "spanish": "besarse",
+      "word": "BESARSE",
+      "synset": "01431230-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 41,
+      "spanish": "bravear",
+      "word": "BRAVEAR",
+      "synset": "00883226-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 43,
+      "spanish": "calarse",
+      "word": "CALARSE",
+      "synset": "01862776-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 44,
+      "spanish": "cocerse",
+      "word": "COCERSE",
+      "synset": "00328128-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 46,
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "synset": "02060437-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 48,
+      "spanish": "correar",
+      "word": "CORREAR",
+      "synset": "01415162-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 49,
+      "spanish": "correar",
+      "word": "CORREAR",
+      "synset": "01704030-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 50,
+      "spanish": "crearse",
+      "word": "CREARSE",
+      "synset": "01655505-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 51,
+      "spanish": "curarse",
+      "word": "CURARSE",
+      "synset": "00099184-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 52,
+      "spanish": "curarse",
+      "word": "CURARSE",
+      "synset": "00270561-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 53,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "00017674-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 54,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "00017865-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 55,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "01985029-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 56,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "01985424-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 57,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "02061495-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 58,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "02482425-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 59,
+      "spanish": "embijar",
+      "word": "EMBIJAR",
+      "synset": "00535148-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 60,
+      "spanish": "fiarse",
+      "word": "FIARSE",
+      "synset": "00688377-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 61,
+      "spanish": "fiarse",
+      "word": "FIARSE",
+      "synset": "02481819-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 63,
+      "spanish": "freírse",
+      "word": "FREÍRSE",
+      "synset": "00325328-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 64,
+      "spanish": "freírse",
+      "word": "FREÍRSE",
+      "synset": "02738241-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 65,
+      "spanish": "girarse",
+      "word": "GIRARSE",
+      "synset": "01878949-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 67,
+      "spanish": "guiarse",
+      "word": "GUIARSE",
+      "synset": "00150776-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 69,
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01257953-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 70,
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01260428-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 71,
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01260685-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 72,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00078138-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 73,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00370921-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 75,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00375865-v",
+      "reason": "English cause-to-freeze is causative; Spanish freeze-become-ice is inchoative. Do not reverse argument roles."
+    },
+    {
+      "candidateIndex": 77,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "02758581-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 78,
+      "spanish": "jamarse",
+      "word": "JAMARSE",
+      "synset": "01168468-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 79,
+      "spanish": "jugarse",
+      "word": "JUGARSE",
+      "synset": "01138911-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 80,
+      "spanish": "jugarse",
+      "word": "JUGARSE",
+      "synset": "01155687-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 81,
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "00035758-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 82,
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "00036362-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 83,
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "02741960-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 84,
+      "spanish": "leerse",
+      "word": "LEERSE",
+      "synset": "00625119-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 85,
+      "spanish": "leerse",
+      "word": "LEERSE",
+      "synset": "00626428-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 86,
+      "spanish": "liarse",
+      "word": "LIARSE",
+      "synset": "01327816-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 87,
+      "spanish": "liarse",
+      "word": "LIARSE",
+      "synset": "01791973-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 89,
+      "spanish": "maderar",
+      "word": "MADERAR",
+      "synset": "01258828-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 90,
+      "spanish": "matarse",
+      "word": "MATARSE",
+      "synset": "01146382-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 91,
+      "spanish": "mecerse",
+      "word": "MECERSE",
+      "synset": "01875295-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 93,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00029518-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 94,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00032539-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 97,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00850501-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 98,
+      "spanish": "mojarse",
+      "word": "MOJARSE",
+      "synset": "01376082-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 99,
+      "spanish": "mojarse",
+      "word": "MOJARSE",
+      "synset": "01578513-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 100,
+      "spanish": "nausear",
+      "word": "NAUSEAR",
+      "synset": "00088209-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 101,
+      "spanish": "nausear",
+      "word": "NAUSEAR",
+      "synset": "02195191-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 102,
+      "spanish": "notarse",
+      "word": "NOTARSE",
+      "synset": "02730471-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 104,
+      "spanish": "picarse",
+      "word": "PICARSE",
+      "synset": "01199365-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 105,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "00415635-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 106,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01543731-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 107,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01543998-v",
+      "reason": "English show somebody to a seat is causative; Spanish settling/perching does not supply this role."
+    },
+    {
+      "candidateIndex": 108,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01978700-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 109,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01979901-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 110,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01986185-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 111,
+      "spanish": "pudelar",
+      "word": "PUDELAR",
+      "synset": "01473729-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 112,
+      "spanish": "pudelar",
+      "word": "PUDELAR",
+      "synset": "01484267-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 113,
+      "spanish": "rachear",
+      "word": "RACHEAR",
+      "synset": "02770019-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 115,
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "synset": "00309310-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 116,
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "synset": "00336260-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 118,
+      "spanish": "rampar",
+      "word": "RAMPAR",
+      "synset": "01885845-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 119,
+      "spanish": "resinar",
+      "word": "RESINAR",
+      "synset": "00069166-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 120,
+      "spanish": "rizarse",
+      "word": "RIZARSE",
+      "synset": "01223833-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 121,
+      "spanish": "roerse",
+      "word": "ROERSE",
+      "synset": "01369204-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 122,
+      "spanish": "rosarse",
+      "word": "ROSARSE",
+      "synset": "00103317-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 123,
+      "spanish": "saberse",
+      "word": "SABERSE",
+      "synset": "00343180-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 125,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "00242205-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 127,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "01394335-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 128,
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01971929-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 129,
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01985923-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 130,
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01989873-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 131,
+      "spanish": "taparse",
+      "word": "TAPARSE",
+      "synset": "00361388-v",
+      "reason": "English weather clouding is not corroborated by Spanish covering oneself for protection."
+    },
+    {
+      "candidateIndex": 132,
+      "spanish": "taparse",
+      "word": "TAPARSE",
+      "synset": "01334744-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 133,
+      "spanish": "tesarse",
+      "word": "TESARSE",
+      "synset": "00420549-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 135,
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "synset": "01978436-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 136,
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "synset": "02097204-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 138,
+      "spanish": "toparse",
+      "word": "TOPARSE",
+      "synset": "02108791-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 139,
+      "spanish": "velarse",
+      "word": "VELARSE",
+      "synset": "00312990-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 140,
+      "spanish": "velarse",
+      "word": "VELARSE",
+      "synset": "02158034-v",
+      "reason": "Not positively adjudicated in this bounded first subset. Requires an independently selected matching Spanish lexical sense/POS/role before admission; lack of approval does not assert the meaning is nonexistent."
+    },
+    {
+      "candidateIndex": 141,
+      "spanish": "venirse",
+      "word": "VENIRSE",
+      "synset": "02197360-v",
+      "reason": "Spanish selected ejaculation evidence is not proof of orgasm; do not conflate those events."
+    },
+    {
+      "candidateIndex": 142,
+      "spanish": "zafarse",
+      "word": "ZAFARSE",
+      "synset": "02227362-v",
+      "reason": "Throw away an object is not automatically free/disengage oneself or a mechanism slipping out of place."
+    }
+  ],
+  "counts": {
+    "sourcePairs": 143,
+    "sourceVerbPairs": 129,
+    "sourceAdjectivePairs": 14,
+    "sourceAdverbPairs": 0,
+    "firstSubsetPairs": 25,
+    "firstSubsetWords": 20,
+    "deferredPairs": 118,
+    "actualAddedCoverage": 0
+  },
+  "licensing": "MCR contributors / CC BY3.0; Princeton WordNet3.0 original license; Spanish Wiktionary contributors / CC BY-SA4.0 supplemental lexical evidence. No publication or legal certification.",
+  "limits": [
+    "Independent Spec review required for exact English wording, source identity and contexts before production.",
+    "Full Spanish words ending in -SE are lexical entries here. This does not authorize stripping SE, generating any finite form, or applying direct-object/reflexive clitic templates.",
+    "Explicit source part of speech is retained separately from English synset POS, including satellite adjectives; no POS inferred from English alone.",
+    "Selected English may narrow a broad synset using the explicit Spanish context; it does not claim exhaustive senses or examples.",
+    "No corpus download performed by this reviewer; only provided verified local files used.",
+    "GRISEAR is already pending via the40-frame first-author draft; consolidate providers and do not double-count.",
+    "Do not surface unreviewed grammatical gender inventory as certified; preserve source regional/colloquial/vulgar/technical labels and coreference/role context."
+  ]
+}

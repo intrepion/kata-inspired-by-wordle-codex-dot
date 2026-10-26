@@ -1,0 +1,14 @@
+{
+  "proposalSha256": "6d5d10d357efd16e63c5b27e394a5b050587f17e2f4b380a0355779fad55ca01",
+  "reviewer": "/root/review_standards",
+  "method": "First-author independent model source-bound research curation; not a second-author review, human signature or native certification.",
+  "scope": {
+    "templates": 100,
+    "sourceRecords": 392,
+    "distinctPotentialWords": 389
+  },
+  "statement": "I authored all 100 source-bound selected lemma-sense/template proposals and their context/usage annotations. The 392 source records were mechanically filtered and retained as potential applications with exact evidence; I did not individually positively approve all 392 word/template applications in that research artifact. Its explicit candidate status and independent word-level review requirement must be preserved.",
+  "allTemplatesFirstAuthorProposed": true,
+  "all392SourceWordTemplateApplicationsPositivelyProposed": false,
+  "independentSecondAuthorApproval": false
+}

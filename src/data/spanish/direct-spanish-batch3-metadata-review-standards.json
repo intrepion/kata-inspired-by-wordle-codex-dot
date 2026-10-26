@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/review_standards",
+  "scope": "Independent lexical metadata follow-up, no production changes or new source definitions copied",
+  "originalProposalSha256": "b28998b7a8927be147658b2d62a43a74fb9d3b5287916e2dc873eb40e5f8814b",
+  "genderPolicy": {
+    "approved": true,
+    "policy": "Keep all original source gender/POS metadata intact in provenance audit. The selected English noun-meaning panel need not assert Spanish grammatical gender unless independently reviewed; suppress unreviewed gender/number/countability inventory while preserving semantic usage restrictions. Do not convert source grammatical gender into biological sex or invent English male/female referents.",
+    "sourceIssues": [
+      {
+        "word": "ACEBEDA",
+        "retainedSourceClaim": "masculine",
+        "primaryReference": "https://dle.rae.es/acebeda",
+        "independentCheck": "Official DLE classifies the noun as feminine. Local pinned Wiktionary masculine metadata conflicts; do not display it as validated gender."
+      },
+      {
+        "word": "ALFANA",
+        "retainedSourceClaim": "masculine",
+        "primaryReference": "https://dle.rae.es/alfana",
+        "independentCheck": "Official DLE classifies the noun as feminine. This does not make the English referent necessarily a mare; horse remains appropriate for the selected Spanish meaning."
+      }
+    ],
+    "primarySourceUse": "Only lexical grammatical facts and links recorded; no official dictionary definitions, example sentences or proprietary content imported into distributable data."
+  },
+  "cornuto": {
+    "recordSha256": "4e3e278a24ff038886e7ece0a848e86678a1d50a86f41426b245dc2608e5d9ed",
+    "senseIndex": 0,
+    "partOfSpeech": "adj",
+    "selectedEnglish": "horned",
+    "requiredVisibleUsage": "Completely obsolete as a free adjective; retained in the fixed logic expressions argumento cornuto and silogismo cornuto.",
+    "sourceEvidence": "Pinned Spanish source sense raw_tags explicitly says completely obsolete and maintained for two expressions; the source idiom inventory supplies those two exact expressions.",
+    "primaryReference": "https://dle.rae.es/cornuto",
+    "independentCheck": "Official entry currently lists the same two fixed-expression links rather than an unrestricted adjective definition.",
+    "policy": "Do not strip the construction/obsolete qualifier as merely opaque metadata; retain raw tags in audit and provide a clear English usage warning. No cuckold reading is invented."
+  }
+}

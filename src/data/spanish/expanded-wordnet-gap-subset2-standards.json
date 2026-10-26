@@ -1,0 +1,820 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "Bounded new first-author model lexical/source/role review of11 whole-word pronominal verb entries, prioritized by still-uncovered distinct spellings under verified M audit and excluding first25 proposal spellings. Exact whole-word and explicitly linked base/synonym raw senses replayed from the existing pinned Spanish archive. Independent review required before admission; no finite/reflexive-family inference, examples, native-human certification or actual coverage claim.",
+  "baseline": {
+    "translated": 60429,
+    "missing": 16241,
+    "auditSha256": "8f6ea9e12777ac7cea96c5c3b000f46e90d8e3f29ce19fa776e283c36d542c38"
+  },
+  "prioritization": {
+    "deferredPairsStillMissingExcludingPriorProposedSpellings": 95,
+    "distinctWords": 64,
+    "newProposedPairs": 11,
+    "newProposedWords": 11
+  },
+  "sourcePins": {
+    "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+    "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+    "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+    "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+    "spanishLicense": "CC-BY-3.0",
+    "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+    "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+    "modifications": "Exact MCR Spanish whole-word joins to actual pinned WordNet3.0 verb synsets, with literal source word/base-or-synonym sense corroboration from the existing Spanish Wiktionary snapshot. Static lexical English meanings only; no generated inflections, English noun-only claim, examples or corpus download.",
+    "englishExpandedFileHashes": {
+      "data.verb": "7fff397e93b4fb152fdaee116747cf1c40d7badedccb4b63f5503e8e962d9102",
+      "data.adj": "f24b635368be441501c9b8001e9271fd3b30b203f00d91e332979e6f8fe35646",
+      "data.adv": "e66dbbda0e0359e41b7f225bff71dd0c263dc7c66c1b61abc9ba334973d92979"
+    },
+    "supplementalSpanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "supplementalSpanishLicense": "CC-BY-SA-4.0"
+  },
+  "inputHashes": {
+    "originalCandidateSha256": "147292be92e42bfb82e86f0ec246fa3582f8108f1cc077619f131b0556c91972",
+    "preservedPriorProposalSha256": "526f868e60e461efedd1afbf7c6409ed4f60958b4aac3a97f35f884efdb3e60a"
+  },
+  "proposals": [
+    {
+      "originalCandidateIndex": 31,
+      "word": "ASEARSE",
+      "spanish": "asearse",
+      "partOfSpeech": "verb",
+      "synset": "00040766-v",
+      "english": [
+        "to make oneself clean or presentable"
+      ],
+      "context": "Whole pronominal self-grooming use; source base explicitly cleaning/arranging appearance, not causatively grooming someone else.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "clean up"
+        ],
+        "definition": "make oneself clean, presentable or neat",
+        "recordSha256": "264aafc01506b25ed5d474d3e86950d3ae3dac6bf786bf5a1bd2a1b940830dae",
+        "spanishRecordSha256": "135f98aab9f8c79ec9c123e5491e03c4138282a10ca588bb7eafdc0b7cc1d894"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "asearse",
+        "partOfSpeech": "verb",
+        "recordSha256": "e91b406e9dddbc68c85ed60f0348d5c678a72cbe11c4c1ff01a088a3172e132e",
+        "senseIndex": 0,
+        "glosses": [
+          "Asear (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/asearse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "asear",
+          "partOfSpeech": "verb",
+          "recordSha256": "03386617d7a9a4109cad01c3e5752cbeac77189c88053d0042eb249542fbd3fe",
+          "senseIndex": 0,
+          "glosses": [
+            "Limpiar o arreglar la apariencia."
+          ],
+          "tags": [],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/asear"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 35,
+      "word": "BASARSE",
+      "spanish": "basarse",
+      "partOfSpeech": "verb",
+      "synset": "02663643-v",
+      "english": [
+        "to be based on something"
+      ],
+      "context": "Lexical construction requiring a contextual basis; something is an argument slot, not an invented particular object. No finite or generic base-on rule authorized.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "repose on",
+          "rest on",
+          "build on",
+          "build upon"
+        ],
+        "definition": "be based on; of theories and claims, for example",
+        "recordSha256": "62ad93bb1389cfc374e47654dc0f0e71f03d7821b5d1be1b09b7b5a11aeb2e57",
+        "spanishRecordSha256": "9ac2902cf80d6791809afd4820970c2cbeb8436535bc50998892b69fab8df7ed"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "basarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "fd033247261897d04effe76cd281cf43cbabe998238fdd801b99b0de4da41bb4",
+        "senseIndex": 0,
+        "glosses": [
+          "Emplear algo como base o sustentación, especialmente para un concepto o teoría."
+        ],
+        "tags": [
+          "transitive"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/basarse"
+      },
+      "supportingSpanishEvidence": []
+    },
+    {
+      "originalCandidateIndex": 40,
+      "word": "BESARSE",
+      "spanish": "besarse",
+      "partOfSpeech": "verb",
+      "synset": "01431230-v",
+      "english": [
+        "to kiss one another"
+      ],
+      "context": "Selected reciprocal use of this whole pronominal word, not universal interpretation of every SE form. Retain source colloquial label; no actual people or example scene.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "snog",
+          "kiss",
+          "buss",
+          "osculate"
+        ],
+        "definition": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+        "recordSha256": "95f846080cbb3d15a17ef46f5718417509c83d534f6e885f0f2d18ce2131c1b1",
+        "spanishRecordSha256": "74b1a84681fd4982088a3d7dbf5fa6f596ec3532ecd9acc691f5e13992741ac2"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "besarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "dbf0aac39c6a3ed2d00512862e6e0100e1a6db45c1d466bbafc9f01c5e31f413",
+        "senseIndex": 0,
+        "glosses": [
+          "Besar (uso pronominal de ...)"
+        ],
+        "tags": [
+          "colloquial"
+        ],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/besarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "besar",
+          "partOfSpeech": "verb",
+          "recordSha256": "ab2d1fdcc56268b76b01d43e7030497339719abf50629036006a1b3c639e063d",
+          "senseIndex": 0,
+          "glosses": [
+            "Tocar con los labios como una muestra de amor, aprecio o respeto."
+          ],
+          "tags": [
+            "colloquial"
+          ],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/besar"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 44,
+      "word": "COCERSE",
+      "spanish": "cocerse",
+      "partOfSpeech": "verb",
+      "synset": "00328128-v",
+      "english": [
+        "to be cooked in boiling water"
+      ],
+      "context": "Selected food-undergoing-cooking reading; not a human boiling oneself, plotting or intoxication. English WordNet includes the be-immersed reading.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "boil"
+        ],
+        "definition": "immerse or be immersed in a boiling liquid, often for cooking purposes",
+        "recordSha256": "9f4a23353ddd3dcd6d265d82dfdd57cb988cefdf3458bba099f7b8b3dc95960b",
+        "spanishRecordSha256": "d6f6475ea8058cb40aa1803f559901aee0eec3f2fa0bd82f3df33790021e1f26"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "cocerse",
+        "partOfSpeech": "verb",
+        "recordSha256": "9ac685997dde911e001e1d7fa2c1edecff749e4e506db4ce6fc40866d8e7d95e",
+        "senseIndex": 0,
+        "glosses": [
+          "Cocer (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/cocerse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "cocer",
+          "partOfSpeech": "verb",
+          "recordSha256": "a936da9af502897489d8a3d2d88adb45cb2b1f27562ee87a4eedefa5e764c317",
+          "senseIndex": 0,
+          "glosses": [
+            "Cocinar sumergiendo los alimentos en agua muy caliente o hirviendo."
+          ],
+          "tags": [],
+          "rawTags": [
+            "Gastronomía"
+          ],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/cocer"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 55,
+      "word": "ECHARSE",
+      "spanish": "echarse",
+      "partOfSpeech": "verb",
+      "synset": "01985029-v",
+      "english": [
+        "to lie down"
+      ],
+      "context": "Explicit source synonym TENDERSE resolves to extending oneself horizontally to rest; not dog commands, murder, sleeping necessarily or fast movement.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "lie down",
+          "lie"
+        ],
+        "definition": "assume a reclining position",
+        "recordSha256": "c498a3b72562ffbdf3b432803ca833716be9acbfcc3d2742146f4a289b4cdf9b",
+        "spanishRecordSha256": "5127aa3cbcb0016a10f686786302addd17215043a2ed4f34805f63bd90163138"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "echarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "1d50ed298ea710fab2f85b61ce33e4a06714df5195352fbf268b975933d1df01",
+        "senseIndex": 0,
+        "glosses": [
+          "Tenderse."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/echarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "tenderse",
+          "partOfSpeech": "verb",
+          "recordSha256": "1311a19d1d4dca653ba559362851407364e20e2d82aecc444c72316bb760b6bb",
+          "senseIndex": 0,
+          "glosses": [
+            "Extenderse horizontalmente, normalmente reposando sobre una superficie lisa."
+          ],
+          "tags": [],
+          "rawTags": [],
+          "wordTags": [
+            "pronominal"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/tenderse"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 60,
+      "word": "FIARSE",
+      "spanish": "fiarse",
+      "partOfSpeech": "verb",
+      "synset": "00688377-v",
+      "english": [
+        "to trust someone"
+      ],
+      "context": "Selected confidence-in-a-person sense; not credit sales, entrusting an object or allowing something without fear.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "trust",
+          "swear",
+          "rely",
+          "bank"
+        ],
+        "definition": "have confidence or faith in",
+        "recordSha256": "e14f6cd4a5772c1c94bb6288f505f3121f4a35237f3664b6644a7eb184d7bf06",
+        "spanishRecordSha256": "96658e62af5064f3ae78e8c01074a5023559f51c3cf26ddb28e744fae0e8c192"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "fiarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "b3c5cc717e873e52aa5e80dc25f5d7b506ce0684c1f96cfad1ddc1660d6fa1cc",
+        "senseIndex": 0,
+        "glosses": [
+          "Fiar (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/fiarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "fiar",
+          "partOfSpeech": "verb",
+          "recordSha256": "57f59487fe68314bcbfbaa833b0167e4de6b61398d38a26985beb4b3a76dc461",
+          "senseIndex": 0,
+          "glosses": [
+            "Tener confianza en alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [],
+          "wordTags": [
+            "intransitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/fiar"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 78,
+      "word": "JAMARSE",
+      "spanish": "jamarse",
+      "partOfSpeech": "verb",
+      "synset": "01168468-v",
+      "english": [
+        "to eat"
+      ],
+      "context": "Selected whole pronominal eating sense; base source labels Spain/colloquial are provenance-scoped, not a Mexican-only claim.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "eat"
+        ],
+        "definition": "take in solid food",
+        "recordSha256": "959d206013d954794e8d006a891ecfed8abb92fa26a56c73b7795ca505289693",
+        "spanishRecordSha256": "0f6752283f92557ec1ac12f98940bfc42a2c56c975594b49b4a4fd94c3d21a40"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "jamarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "21484136043a7079a4b5b563aff2e150de5e0d4d2fc27a6d1b8917e1081d2826",
+        "senseIndex": 0,
+        "glosses": [
+          "Jamar (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/jamarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "jamar",
+          "partOfSpeech": "verb",
+          "recordSha256": "cb07ff3fec02877588b060dde6a3012e280d8b65c63adab2b7266296c259a88a",
+          "senseIndex": 0,
+          "glosses": [
+            "Comer, devorar."
+          ],
+          "tags": [
+            "Spain",
+            "colloquial"
+          ],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/jamar"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 81,
+      "word": "LAVARSE",
+      "spanish": "lavarse",
+      "partOfSpeech": "verb",
+      "synset": "00035758-v",
+      "english": [
+        "to wash oneself"
+      ],
+      "context": "Whole pronominal self-washing, with liquid/water; not laundering money, textile washability or causatively washing somebody else.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "cleanse",
+          "clean"
+        ],
+        "definition": "clean one's body or parts thereof, as by washing",
+        "recordSha256": "57d52e2ef03e3251e135e33ecb14d3c8c204149d1c1c0ce7955d7a5e55e5051d",
+        "spanishRecordSha256": "c3ffa1275583fc7554d9281cf1d3bc1e8f3c327c564e0d53df9b95a8d93a102f"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "lavarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "770f8d58043aad800c0b49ef6d0efda6f28bde2cc5e4d0d44bef8c164e4f589d",
+        "senseIndex": 0,
+        "glosses": [
+          "Lavar (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/lavarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "lavar",
+          "partOfSpeech": "verb",
+          "recordSha256": "0b5fef84baa9f024891165e86d7dc34860863017b8d64b1fb3b3c31e52dc64c9",
+          "senseIndex": 0,
+          "glosses": [
+            "Limpiar con un medio líquido, especialmente con agua."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/lavar"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 84,
+      "word": "LEERSE",
+      "spanish": "leerse",
+      "partOfSpeech": "verb",
+      "synset": "00625119-v",
+      "english": [
+        "to read"
+      ],
+      "context": "Source marks LEERSE as emphatic pronominal LEER; selected interpreting written/printed signs, not an English reflexive object or forced reading-aloud claim.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "read"
+        ],
+        "definition": "interpret something that is written or printed",
+        "recordSha256": "92e6898e3bfafc2f92aa49dccfd0b87827ecab37e1b5b6fcad4e3d7c1317b471",
+        "spanishRecordSha256": "1ec460bbeef067eb1f0b41011dd0c1c01ff4ff55cb78cfc8505725c9df06d98c"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "leerse",
+        "partOfSpeech": "verb",
+        "recordSha256": "18887d04414a2902b98b3bb9093dbdec5c29868d58b14a179d226ab8e4f3ba9d",
+        "senseIndex": 0,
+        "glosses": [
+          "Leer."
+        ],
+        "tags": [],
+        "rawTags": [
+          "enfático"
+        ],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/leerse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "leer",
+          "partOfSpeech": "verb",
+          "recordSha256": "879db5edb208d1c062a86b8d15c34f77198b957fe0c2de457ed3a4b4f72666ce",
+          "senseIndex": 0,
+          "glosses": [
+            "Interpretar lo impreso o lo escrito por el conocimiento de los signos."
+          ],
+          "tags": [],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/leer"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 91,
+      "word": "MECERSE",
+      "spanish": "mecerse",
+      "partOfSpeech": "verb",
+      "synset": "01875295-v",
+      "english": [
+        "to rock back and forth"
+      ],
+      "context": "Intransitive/reflexive body movement, not moving a different object, milking or nurturing hopes.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "rock",
+          "sway",
+          "shake"
+        ],
+        "definition": "move back and forth or sideways",
+        "recordSha256": "30d529b9c69458c3b92f94984ac17580d827d67addbf55c43fb183cae7a56102",
+        "spanishRecordSha256": "588cde3cf1433fac9dbe124356b5a012bf9cd8946168cb2ce850b9c025aab9a4"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "mecerse",
+        "partOfSpeech": "verb",
+        "recordSha256": "a7763c6412558ff8590897df27bec943fc93ad6849c6f00c161025ba2a74022d",
+        "senseIndex": 0,
+        "glosses": [
+          "Mecer (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/mecerse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "mecer",
+          "partOfSpeech": "verb",
+          "recordSha256": "229600ca4cc5cbb2a81cfee7694f63593a973a68488b5cfb2ba78f2a7e2453ae",
+          "senseIndex": 0,
+          "glosses": [
+            "Mover un cuerpo de un lado a otro oscilatoriamente"
+          ],
+          "tags": [],
+          "rawTags": [],
+          "wordTags": [
+            "transitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/mecer"
+        }
+      ]
+    },
+    {
+      "originalCandidateIndex": 108,
+      "word": "POSARSE",
+      "spanish": "posarse",
+      "partOfSpeech": "verb",
+      "synset": "01978700-v",
+      "english": [
+        "to alight (of a flying animal)"
+      ],
+      "context": "Selected bird/flying-animal coming to rest after flight; never the causative assign-another-person-a-seat synset.",
+      "sourceEvidence": {
+        "sourceFile": "data.verb",
+        "actualSynsetPOS": "v",
+        "synonyms": [
+          "alight",
+          "light",
+          "perch"
+        ],
+        "definition": "to come to rest, settle",
+        "recordSha256": "33db5e56b9140125c19cbb315b83209599ca0d86a45a89b4d59e92cb71804112",
+        "spanishRecordSha256": "2ba06099098f85ca72478a4436bb29d5a29fe186cd25f8bfd87d6f2bdbf9b589"
+      },
+      "wholeWordSpanishSenseIndex": 0,
+      "lexicalWholeWordOnly": true,
+      "inflectionAuthority": false,
+      "wholeWordSpanishEvidence": {
+        "word": "posarse",
+        "partOfSpeech": "verb",
+        "recordSha256": "58f6a8ac0bbea68e02e58389df8d5400f320a1f576064cf4cf4919c2eb958ed1",
+        "senseIndex": 0,
+        "glosses": [
+          "Posar (uso pronominal de ...)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "wordTags": [
+          "pronominal"
+        ],
+        "wordRawTags": [],
+        "sourceUrl": "https://es.wiktionary.org/wiki/posarse"
+      },
+      "supportingSpanishEvidence": [
+        {
+          "word": "posar",
+          "partOfSpeech": "verb",
+          "recordSha256": "76b3e126afaa929e111228e716e39c4b8fb53a00727a75d4a7a161d07d7dff97",
+          "senseIndex": 2,
+          "glosses": [
+            "Dicho de un ave o de cualquier otro animal que vuela: Pararse, asentarse en un sitio o lugar o sobre una cosa después de haber volado."
+          ],
+          "tags": [
+            "transitive"
+          ],
+          "rawTags": [],
+          "wordTags": [
+            "intransitive"
+          ],
+          "wordRawTags": [],
+          "sourceUrl": "https://es.wiktionary.org/wiki/posar"
+        }
+      ]
+    }
+  ],
+  "explicitHolds": [
+    {
+      "originalCandidateIndex": 51,
+      "word": "CURARSE",
+      "reason": "Existing Spanish sense follow a treatment does not by itself establish successful healing; obtain a precise additional result-state lexical anchor before using that supplemental sense as proof."
+    },
+    {
+      "originalCandidateIndex": 75,
+      "word": "HELARSE",
+      "reason": "Causative English cause to freeze is not inchoative Spanish become ice; already-covered-word redundant sense also deprioritized."
+    },
+    {
+      "originalCandidateIndex": 107,
+      "word": "POSARSE",
+      "reason": "Assign another person a seat reverses the selected settling subject; do not treat as reciprocal/reflexive landing."
+    },
+    {
+      "originalCandidateIndex": 141,
+      "word": "VENIRSE",
+      "reason": "Ejaculation and orgasm are distinct; selected Spanish ejaculation sense alone is not confirmation of the orgasm synset."
+    },
+    {
+      "originalCandidateIndex": 142,
+      "word": "ZAFARSE",
+      "reason": "Throw away an external object does not match get free oneself or mechanism dislocation."
+    },
+    {
+      "originalCandidateIndex": 122,
+      "word": "ROSARSE",
+      "reason": "Explicit ROSARSE→SONROSARSE alias exists, but SONROSARSE itself points to SONROSAR. Full exact three-record chain remains unbound in this subset; no positive source identity invented."
+    }
+  ],
+  "otherDeferredCandidateIndices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    24,
+    25,
+    28,
+    29,
+    30,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    41,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    59,
+    61,
+    63,
+    64,
+    65,
+    69,
+    70,
+    71,
+    79,
+    80,
+    82,
+    83,
+    85,
+    86,
+    87,
+    89,
+    90,
+    98,
+    99,
+    100,
+    101,
+    102,
+    105,
+    106,
+    107,
+    109,
+    110,
+    111,
+    112,
+    113,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    138,
+    139,
+    140,
+    141,
+    142
+  ],
+  "limits": [
+    "English WordNet synonyms/definitions are primary lexical concepts; explicit Spanish source links plus model review bind the correct role/voice/coreference. They do not authorize removing SE or generating a single new inflected spelling.",
+    "A plain English read gloss remains a genuine lexical meaning for emphatic LEERSE; no English reflexive read oneself construction is invented.",
+    "BASARSE meaning is a specific base-dependence relation with a required contextual argument slot, not a generic form-of fallback or a complete example sentence.",
+    "Regional/colloquial labels on supporting base senses must remain provenance-scoped and visible rather than becoming an invented universal region for the whole word.",
+    "All original frozen proposals/reviews remain unchanged; other deferred pairs are not claimed exhaustively adjudicated by this small slice.",
+    "No production edits, new downloads, publication or account/service use."
+  ]
+}

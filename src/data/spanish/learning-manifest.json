@@ -1,0 +1,57 @@
+{
+  "files": {
+    "learning-authored.tsv": "8269364d2c43b7b4da955f389b3f1c23e3b3d6967a11c665cc08de5256145455",
+    "wiktionary-snapshot.json": "855c76407a9901428280b198eae2c6603900ed13e314b0f17ef9307f70b949d0",
+    "definition-selection.json": "bbfb72dfb992a0cc6a6b3ba071923247a8b1b409084f0293019f171292f07ec8",
+    "opener-support.json": "9223be308adc1c6184abd82a6ed56d2a3970d1529bcef0646edc57c060e53dc7",
+    "expanded-support.json": "d88dd5484c0d443a0d5cb803e2eca839ebb74445989875d061dc63e696a534ec",
+    "answer-policy.json": "82508adc798f967107f26e85c2436a059e7fc6ef8264fd5051002b737b3b9f75"
+  },
+  "review": {
+    "kind": "independent-model",
+    "authoredEntries": 439,
+    "humanNativeCertification": false,
+    "primaryDefinitions": 439,
+    "sourceLimits": [
+      "SALA source definition is broader room; authored living-room gloss is reviewed separately.",
+      "Structured source payloads omit some regional labels; Mexican-context glosses are authored/model-reviewed, not certified by empty labels."
+    ],
+    "openerBatch": {
+      "count": 18,
+      "review": "independent-model",
+      "humanNativeCertification": false,
+      "limitations": "Includes literary/archaic forms; invented old-style examples are explicitly labelled. ABINARE and ABROMAN use translated Spanish base meanings plus reviewed inflections, with pinned conjugation tables."
+    },
+    "expandedAnswerBatch": {
+      "newAnswers": 304,
+      "newExploratoryOpeners": 17,
+      "curatedAnswersPerLength": 100,
+      "authoredReviewPerLength": {
+        "4": 76,
+        "5": 76,
+        "6": 76,
+        "7": 76
+      },
+      "sourceSenseReviewPerLength": {
+        "4": 76,
+        "5": 76,
+        "6": 76,
+        "7": 76
+      },
+      "kind": "independent-model",
+      "humanNativeCertification": false,
+      "policy": "Preserve previous118 records. Common singular nouns, base adjectives and infinitives; independent noun homographs reviewed. All17 new Easy openers teaching-only, with uncommon/derogatory usage labels."
+    },
+    "verbPolicyAudit": {
+      "entries": 400,
+      "nouns": 322,
+      "baseAdjectives": 20,
+      "infinitives": 58,
+      "removed": 0,
+      "kind": "independent-model",
+      "humanNativeCertification": false
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "modifications": "Selected Spanish senses; authored short glosses/examples/translations, plain-text rendering. Wiktionary contributors are the source of definitions only."
+}

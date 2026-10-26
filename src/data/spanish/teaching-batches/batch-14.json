@@ -1,0 +1,902 @@
+[
+  {
+    "word": "PARRA",
+    "translation": "grapevine",
+    "example": "La parra da sombra al patio.",
+    "exampleTranslation": "The grapevine shades the courtyard."
+  },
+  {
+    "word": "PARTE",
+    "translation": "part",
+    "example": "Falta una parte del rompecabezas.",
+    "exampleTranslation": "One part of the puzzle is missing."
+  },
+  {
+    "word": "PARTIDA",
+    "translation": "departure",
+    "example": "La partida del tren se retrasó.",
+    "exampleTranslation": "The train's departure was delayed."
+  },
+  {
+    "word": "PARTIDO",
+    "translation": "match; game",
+    "example": "El partido comienza esta tarde.",
+    "exampleTranslation": "The match begins this afternoon."
+  },
+  {
+    "word": "PARTIR",
+    "translation": "to divide; to split",
+    "example": "Vamos a partir el pan.",
+    "exampleTranslation": "We are going to divide the bread."
+  },
+  {
+    "word": "PARTO",
+    "translation": "childbirth; delivery",
+    "example": "El parto ocurrió sin complicaciones.",
+    "exampleTranslation": "The delivery occurred without complications."
+  },
+  {
+    "word": "PASA",
+    "translation": "raisin",
+    "example": "Una pasa cayó del pan.",
+    "exampleTranslation": "A raisin fell out of the bread."
+  },
+  {
+    "word": "PASADA",
+    "translation": "pass; passing",
+    "example": "Una pasada del trapo quitó el polvo.",
+    "exampleTranslation": "One pass of the cloth removed the dust."
+  },
+  {
+    "word": "PASADO",
+    "translation": "past",
+    "example": "Recordamos el pasado con cariño.",
+    "exampleTranslation": "We remember the past fondly."
+  },
+  {
+    "word": "PASAJE",
+    "translation": "passage; passing",
+    "example": "El pasaje del agua erosionó la piedra.",
+    "exampleTranslation": "The passage of water eroded the stone."
+  },
+  {
+    "word": "PASAR",
+    "translation": "to pass; to transfer",
+    "example": "Puedes pasar el plato a tu hermana.",
+    "exampleTranslation": "You can pass the plate to your sister."
+  },
+  {
+    "word": "PASARSE",
+    "translation": "to move over",
+    "example": "Decidió pasarse al otro lado del río.",
+    "exampleTranslation": "He decided to move over to the other side of the river."
+  },
+  {
+    "word": "PASCUA",
+    "translation": "Passover",
+    "example": "La familia celebra la Pascua judía.",
+    "exampleTranslation": "The family celebrates Passover."
+  },
+  {
+    "word": "PASE",
+    "translation": "pass",
+    "example": "El pase llegó al compañero.",
+    "exampleTranslation": "The pass reached the teammate."
+  },
+  {
+    "word": "PASEAR",
+    "translation": "to stroll",
+    "example": "Nos gusta pasear por el centro.",
+    "exampleTranslation": "We like to stroll downtown."
+  },
+  {
+    "word": "PASEO",
+    "translation": "walk; stroll",
+    "example": "Dimos un paseo junto al río.",
+    "exampleTranslation": "We took a walk beside the river."
+  },
+  {
+    "word": "PASILLO",
+    "translation": "hallway",
+    "example": "La luz del pasillo está encendida.",
+    "exampleTranslation": "The hallway light is on."
+  },
+  {
+    "word": "PASIVO",
+    "translation": "passive",
+    "example": "Mantuvo un papel pasivo en la discusión.",
+    "exampleTranslation": "He maintained a passive role in the discussion."
+  },
+  {
+    "word": "PASIÓN",
+    "translation": "passion",
+    "example": "Habla de la música con pasión.",
+    "exampleTranslation": "She speaks about music with passion."
+  },
+  {
+    "word": "PASO",
+    "translation": "step",
+    "example": "Dio un paso hacia la puerta.",
+    "exampleTranslation": "She took a step toward the door."
+  },
+  {
+    "word": "PASTA",
+    "translation": "paste",
+    "example": "La pasta de papel se secó.",
+    "exampleTranslation": "The paper paste dried."
+  },
+  {
+    "word": "PASTEL",
+    "translation": "cake",
+    "example": "Compartimos un pastel de chocolate.",
+    "exampleTranslation": "We shared a chocolate cake."
+  },
+  {
+    "word": "PASTO",
+    "translation": "fodder; grazing grass",
+    "example": "El ganado necesita pasto fresco.",
+    "exampleTranslation": "The cattle need fresh grass."
+  },
+  {
+    "word": "PASTOR",
+    "translation": "shepherd",
+    "example": "El pastor reunió a las ovejas.",
+    "exampleTranslation": "The shepherd gathered the sheep."
+  },
+  {
+    "word": "PATA",
+    "translation": "animal's leg",
+    "example": "El perro levantó una pata.",
+    "exampleTranslation": "The dog lifted one leg."
+  },
+  {
+    "word": "PATADA",
+    "translation": "kick",
+    "example": "La patada impulsó el balón.",
+    "exampleTranslation": "The kick propelled the ball."
+  },
+  {
+    "word": "PATENTE",
+    "translation": "obvious; evident",
+    "example": "El cambio era patente.",
+    "exampleTranslation": "The change was evident."
+  },
+  {
+    "word": "PATIO",
+    "translation": "courtyard",
+    "example": "Desayunamos en el patio.",
+    "exampleTranslation": "We had breakfast in the courtyard."
+  },
+  {
+    "word": "PATRIA",
+    "translation": "homeland",
+    "example": "Recordaba los paisajes de su patria.",
+    "exampleTranslation": "She remembered her homeland's landscapes."
+  },
+  {
+    "word": "PATRÓN",
+    "translation": "patron saint",
+    "example": "El patrón del pueblo tiene una fiesta anual.",
+    "exampleTranslation": "The town's patron saint has an annual celebration."
+  },
+  {
+    "word": "PAUSA",
+    "translation": "pause",
+    "example": "Hicimos una pausa para descansar.",
+    "exampleTranslation": "We took a pause to rest."
+  },
+  {
+    "word": "PAUTA",
+    "translation": "guideline",
+    "example": "La pauta facilita el trabajo del equipo.",
+    "exampleTranslation": "The guideline makes the team's work easier."
+  },
+  {
+    "word": "PAYASO",
+    "translation": "clown",
+    "example": "El payaso hizo reír al público.",
+    "exampleTranslation": "The clown made the audience laugh."
+  },
+  {
+    "word": "PAÍS",
+    "translation": "country",
+    "example": "Recorrieron el país en autobús.",
+    "exampleTranslation": "They traveled across the country by bus."
+  },
+  {
+    "word": "PAÑUELO",
+    "translation": "handkerchief",
+    "example": "Se secó la frente con un pañuelo.",
+    "exampleTranslation": "He dried his forehead with a handkerchief."
+  },
+  {
+    "word": "PEAJE",
+    "translation": "toll",
+    "example": "Pagamos el peaje antes de entrar.",
+    "exampleTranslation": "We paid the toll before entering."
+  },
+  {
+    "word": "PECADO",
+    "translation": "sin",
+    "example": "Pidió perdón por su pecado.",
+    "exampleTranslation": "He asked forgiveness for his sin."
+  },
+  {
+    "word": "PECHO",
+    "translation": "chest",
+    "example": "Respiró hondo y levantó el pecho.",
+    "exampleTranslation": "She breathed deeply and raised her chest."
+  },
+  {
+    "word": "PEDAZO",
+    "translation": "piece",
+    "example": "Compartimos un pedazo de pan.",
+    "exampleTranslation": "We shared a piece of bread."
+  },
+  {
+    "word": "PEDIDO",
+    "translation": "purchase order",
+    "example": "El pedido especifica veinte sillas.",
+    "exampleTranslation": "The purchase order specifies twenty chairs."
+  },
+  {
+    "word": "PEDIR",
+    "translation": "to ask for",
+    "example": "Voy a pedir ayuda.",
+    "exampleTranslation": "I am going to ask for help."
+  },
+  {
+    "word": "PEDO",
+    "translation": "fart",
+    "example": "El perro soltó un pedo.",
+    "exampleTranslation": "The dog farted."
+  },
+  {
+    "word": "PEGA",
+    "translation": "gluing; adhesion",
+    "example": "La pega del cartón quedó firme.",
+    "exampleTranslation": "The glued cardboard held firmly."
+  },
+  {
+    "word": "PEGAR",
+    "translation": "to glue",
+    "example": "Necesito pegar esta etiqueta.",
+    "exampleTranslation": "I need to glue on this label."
+  },
+  {
+    "word": "PEINADO",
+    "translation": "with hair styled",
+    "example": "Llegó bien peinado a la ceremonia.",
+    "exampleTranslation": "He arrived at the ceremony with his hair neatly styled."
+  },
+  {
+    "word": "PELEA",
+    "translation": "fight",
+    "example": "La pelea terminó pronto.",
+    "exampleTranslation": "The fight ended quickly."
+  },
+  {
+    "word": "PELEAR",
+    "translation": "to fight",
+    "example": "Prefiero conversar antes que pelear.",
+    "exampleTranslation": "I would rather talk than fight."
+  },
+  {
+    "word": "PELIGRO",
+    "translation": "danger",
+    "example": "El letrero advierte del peligro.",
+    "exampleTranslation": "The sign warns of danger."
+  },
+  {
+    "word": "PELOTA",
+    "translation": "ball",
+    "example": "La pelota rodó hacia la calle.",
+    "exampleTranslation": "The ball rolled toward the street."
+  },
+  {
+    "word": "PELUCHE",
+    "translation": "plush fabric",
+    "example": "El cojín está forrado de peluche.",
+    "exampleTranslation": "The cushion is covered in plush fabric."
+  },
+  {
+    "word": "PENAL",
+    "translation": "criminal; relating to crimes",
+    "example": "El caso llegó al tribunal penal.",
+    "exampleTranslation": "The case reached the criminal court."
+  },
+  {
+    "word": "PENE",
+    "translation": "penis",
+    "example": "El médico explicó la anatomía del pene.",
+    "exampleTranslation": "The doctor explained the anatomy of the penis."
+  },
+  {
+    "word": "PENSAR",
+    "translation": "to think",
+    "example": "Necesito pensar antes de responder.",
+    "exampleTranslation": "I need to think before answering."
+  },
+  {
+    "word": "PENSIÓN",
+    "translation": "pension",
+    "example": "La pensión se deposita cada mes.",
+    "exampleTranslation": "The pension is deposited each month."
+  },
+  {
+    "word": "PEOR",
+    "translation": "worse",
+    "example": "La segunda tormenta fue peor.",
+    "exampleTranslation": "The second storm was worse."
+  },
+  {
+    "word": "PEQUEÑO",
+    "translation": "small",
+    "example": "El jardín es pequeño.",
+    "exampleTranslation": "The garden is small."
+  },
+  {
+    "word": "PERDER",
+    "translation": "to lose",
+    "example": "No quiero perder las llaves.",
+    "exampleTranslation": "I do not want to lose the keys."
+  },
+  {
+    "word": "PERDIDA",
+    "translation": "missed call",
+    "example": "Te dejé una perdida al llegar.",
+    "exampleTranslation": "I left you a missed call when I arrived."
+  },
+  {
+    "word": "PERDIDO",
+    "translation": "lost; without direction",
+    "example": "El viajero perdido pidió ayuda.",
+    "exampleTranslation": "The lost traveler asked for help."
+  },
+  {
+    "word": "PERDÓN",
+    "translation": "forgiveness",
+    "example": "Le pidió perdón a su amiga.",
+    "exampleTranslation": "He asked his friend for forgiveness."
+  },
+  {
+    "word": "PEREZA",
+    "translation": "laziness",
+    "example": "La pereza le impidió terminar.",
+    "exampleTranslation": "Laziness kept him from finishing."
+  },
+  {
+    "word": "PERFIL",
+    "translation": "profile; outline",
+    "example": "El dibujo muestra su perfil.",
+    "exampleTranslation": "The drawing shows her profile."
+  },
+  {
+    "word": "PERFUME",
+    "translation": "perfume",
+    "example": "El perfume tiene aroma de rosas.",
+    "exampleTranslation": "The perfume smells of roses."
+  },
+  {
+    "word": "PERIODO",
+    "translation": "period; span of time",
+    "example": "El periodo de espera terminó.",
+    "exampleTranslation": "The waiting period ended."
+  },
+  {
+    "word": "PERLA",
+    "translation": "pearl",
+    "example": "La perla brillaba en el collar.",
+    "exampleTranslation": "The pearl shone in the necklace."
+  },
+  {
+    "word": "PERMISO",
+    "translation": "permission",
+    "example": "Pidió permiso para entrar.",
+    "exampleTranslation": "She asked permission to enter."
+  },
+  {
+    "word": "PERO",
+    "translation": "but",
+    "example": "Quiero ir, pero está lloviendo.",
+    "exampleTranslation": "I want to go, but it is raining."
+  },
+  {
+    "word": "PERRA",
+    "translation": "female dog",
+    "example": "La perra cuida a sus cachorros.",
+    "exampleTranslation": "The female dog looks after her puppies."
+  },
+  {
+    "word": "PERRITO",
+    "translation": "little dog",
+    "example": "El perrito duerme en su cama.",
+    "exampleTranslation": "The little dog sleeps in its bed."
+  },
+  {
+    "word": "PERSA",
+    "translation": "Persian language",
+    "example": "Aprende persa para leer poesía.",
+    "exampleTranslation": "She is learning Persian to read poetry."
+  },
+  {
+    "word": "PERSONA",
+    "translation": "person",
+    "example": "Una persona esperaba afuera.",
+    "exampleTranslation": "A person was waiting outside."
+  },
+  {
+    "word": "PERUANO",
+    "translation": "Peruvian",
+    "example": "El cocinero peruano preparó ceviche.",
+    "exampleTranslation": "The Peruvian cook prepared ceviche."
+  },
+  {
+    "word": "PERÍODO",
+    "translation": "period; span of time",
+    "example": "El período de inscripción dura dos semanas.",
+    "exampleTranslation": "The registration period lasts two weeks."
+  },
+  {
+    "word": "PESA",
+    "translation": "weighing weight",
+    "example": "La pesa equilibró la balanza.",
+    "exampleTranslation": "The weight balanced the scales."
+  },
+  {
+    "word": "PESADO",
+    "translation": "heavy",
+    "example": "El costal está pesado.",
+    "exampleTranslation": "The sack is heavy."
+  },
+  {
+    "word": "PESAR",
+    "translation": "to weigh",
+    "example": "Hay que pesar la fruta.",
+    "exampleTranslation": "The fruit must be weighed."
+  },
+  {
+    "word": "PESCA",
+    "translation": "fishing",
+    "example": "La pesca sostiene a la comunidad.",
+    "exampleTranslation": "Fishing supports the community."
+  },
+  {
+    "word": "PESCADO",
+    "translation": "fish caught for food",
+    "example": "El pescado está fresco.",
+    "exampleTranslation": "The fish is fresh."
+  },
+  {
+    "word": "PESCAR",
+    "translation": "to fish",
+    "example": "Aprendió a pescar en el lago.",
+    "exampleTranslation": "He learned to fish in the lake."
+  },
+  {
+    "word": "PESO",
+    "translation": "weight",
+    "example": "El peso del paquete dobló la caja.",
+    "exampleTranslation": "The package's weight bent the box."
+  },
+  {
+    "word": "PESTE",
+    "translation": "plague",
+    "example": "La peste causó muchas muertes.",
+    "exampleTranslation": "The plague caused many deaths."
+  },
+  {
+    "word": "PEÑA",
+    "translation": "large rock",
+    "example": "Descansamos junto a una peña.",
+    "exampleTranslation": "We rested beside a large rock."
+  },
+  {
+    "word": "PIANO",
+    "translation": "piano",
+    "example": "Mi hermana toca el piano.",
+    "exampleTranslation": "My sister plays the piano."
+  },
+  {
+    "word": "PICA",
+    "translation": "pike; long spear",
+    "example": "El soldado sostenía una pica.",
+    "exampleTranslation": "The soldier held a pike."
+  },
+  {
+    "word": "PICADA",
+    "translation": "narrow woodland trail",
+    "example": "Seguimos la picada entre los árboles.",
+    "exampleTranslation": "We followed the narrow trail among the trees."
+  },
+  {
+    "word": "PICADO",
+    "translation": "perforated design pattern",
+    "example": "El artesano siguió el patrón picado.",
+    "exampleTranslation": "The artisan followed the perforated pattern."
+  },
+  {
+    "word": "PICANTE",
+    "translation": "spicy; pungent",
+    "example": "El sabor picante del chile es intenso.",
+    "exampleTranslation": "The chili's spicy flavor is intense."
+  },
+  {
+    "word": "PICO",
+    "translation": "beak",
+    "example": "El ave abrió el pico.",
+    "exampleTranslation": "The bird opened its beak."
+  },
+  {
+    "word": "PIEDAD",
+    "translation": "compassion; mercy",
+    "example": "Mostró piedad por el animal herido.",
+    "exampleTranslation": "She showed compassion for the injured animal."
+  },
+  {
+    "word": "PIEDRA",
+    "translation": "stone",
+    "example": "La casa está construida con piedra.",
+    "exampleTranslation": "The house is built of stone."
+  },
+  {
+    "word": "PIENSO",
+    "translation": "dry animal feed",
+    "example": "El ganado recibió pienso al amanecer.",
+    "exampleTranslation": "The cattle received dry feed at dawn."
+  },
+  {
+    "word": "PIERNA",
+    "translation": "leg",
+    "example": "Me duele la pierna derecha.",
+    "exampleTranslation": "My right leg hurts."
+  },
+  {
+    "word": "PIEZA",
+    "translation": "piece; component",
+    "example": "Falta una pieza del motor.",
+    "exampleTranslation": "A component of the engine is missing."
+  },
+  {
+    "word": "PILA",
+    "translation": "pile; stack",
+    "example": "La pila de libros creció.",
+    "exampleTranslation": "The stack of books grew."
+  },
+  {
+    "word": "PILAR",
+    "translation": "pillar",
+    "example": "El pilar sostiene el techo.",
+    "exampleTranslation": "The pillar supports the roof."
+  },
+  {
+    "word": "PILETA",
+    "translation": "small holy-water basin",
+    "example": "La pileta de piedra conserva agua bendita.",
+    "exampleTranslation": "The small stone basin holds holy water."
+  },
+  {
+    "word": "PILLADO",
+    "translation": "tag; chasing game",
+    "example": "Los niños juegan al pillado.",
+    "exampleTranslation": "The children are playing tag."
+  },
+  {
+    "word": "PILOTO",
+    "translation": "pilot",
+    "example": "La piloto aterrizó el avión.",
+    "exampleTranslation": "The pilot landed the plane."
+  },
+  {
+    "word": "PINO",
+    "translation": "pine tree",
+    "example": "El pino da sombra al jardín.",
+    "exampleTranslation": "The pine tree shades the garden."
+  },
+  {
+    "word": "PINTA",
+    "translation": "small contrasting spot",
+    "example": "El ave tiene una pinta blanca.",
+    "exampleTranslation": "The bird has a small white spot."
+  },
+  {
+    "word": "PINTADA",
+    "translation": "painted slogan; graffiti",
+    "example": "Una pintada cubría el muro.",
+    "exampleTranslation": "A painted slogan covered the wall."
+  },
+  {
+    "word": "PINTAR",
+    "translation": "to paint",
+    "example": "Vamos a pintar un paisaje.",
+    "exampleTranslation": "We are going to paint a landscape."
+  },
+  {
+    "word": "PINTOR",
+    "translation": "painter",
+    "example": "El pintor mezcló los colores.",
+    "exampleTranslation": "The painter mixed the colors."
+  },
+  {
+    "word": "PINTURA",
+    "translation": "painting; the art",
+    "example": "Estudia pintura en la universidad.",
+    "exampleTranslation": "She studies painting at the university."
+  },
+  {
+    "word": "PIOLA",
+    "translation": "twine",
+    "example": "Amarró el paquete con piola.",
+    "exampleTranslation": "He tied the package with twine."
+  },
+  {
+    "word": "PIONERO",
+    "translation": "pioneer",
+    "example": "Fue pionero en el uso de esa técnica.",
+    "exampleTranslation": "He pioneered the use of that technique."
+  },
+  {
+    "word": "PIPA",
+    "translation": "smoking pipe",
+    "example": "La pipa de madera estaba vacía.",
+    "exampleTranslation": "The wooden smoking pipe was empty."
+  },
+  {
+    "word": "PIRATA",
+    "translation": "pirate; practicing piracy",
+    "example": "El barco pirata salió de la bahía.",
+    "exampleTranslation": "The pirate ship left the bay."
+  },
+  {
+    "word": "PISAR",
+    "translation": "to step on",
+    "example": "Evita pisar las flores.",
+    "exampleTranslation": "Avoid stepping on the flowers."
+  },
+  {
+    "word": "PISCINA",
+    "translation": "swimming pool",
+    "example": "La piscina está abierta.",
+    "exampleTranslation": "The swimming pool is open."
+  },
+  {
+    "word": "PISO",
+    "translation": "floor",
+    "example": "El piso de la cocina está limpio.",
+    "exampleTranslation": "The kitchen floor is clean."
+  },
+  {
+    "word": "PISTA",
+    "translation": "track; trail",
+    "example": "La pista del venado cruza el lodo.",
+    "exampleTranslation": "The deer's trail crosses the mud."
+  },
+  {
+    "word": "PISTOLA",
+    "translation": "pistol",
+    "example": "La pistola quedó guardada bajo llave.",
+    "exampleTranslation": "The pistol was kept locked away."
+  },
+  {
+    "word": "PITO",
+    "translation": "whistle",
+    "example": "El árbitro sopló el pito.",
+    "exampleTranslation": "The referee blew the whistle."
+  },
+  {
+    "word": "PIZARRA",
+    "translation": "blackboard",
+    "example": "La maestra escribió en la pizarra.",
+    "exampleTranslation": "The teacher wrote on the blackboard."
+  },
+  {
+    "word": "PIZZA",
+    "translation": "pizza",
+    "example": "Compartimos una pizza de verduras.",
+    "exampleTranslation": "We shared a vegetable pizza."
+  },
+  {
+    "word": "PIÑA",
+    "translation": "pineapple",
+    "example": "Cortamos una piña para compartir.",
+    "exampleTranslation": "We cut up a pineapple to share."
+  },
+  {
+    "word": "PLACA",
+    "translation": "metal plate",
+    "example": "La placa de acero protege el motor.",
+    "exampleTranslation": "The steel plate protects the engine."
+  },
+  {
+    "word": "PLACER",
+    "translation": "pleasure",
+    "example": "Leer junto al fuego es un placer.",
+    "exampleTranslation": "Reading by the fire is a pleasure."
+  },
+  {
+    "word": "PLAGA",
+    "translation": "pest infestation",
+    "example": "La plaga dañó la cosecha.",
+    "exampleTranslation": "The pest infestation damaged the harvest."
+  },
+  {
+    "word": "PLAN",
+    "translation": "plan",
+    "example": "El plan incluye una visita al museo.",
+    "exampleTranslation": "The plan includes a museum visit."
+  },
+  {
+    "word": "PLANA",
+    "translation": "page; one side of a sheet",
+    "example": "Llenó una plana con ejercicios.",
+    "exampleTranslation": "She filled a page with exercises."
+  },
+  {
+    "word": "PLANCHA",
+    "translation": "clothes iron",
+    "example": "La plancha quitó las arrugas de la camisa.",
+    "exampleTranslation": "The iron removed the wrinkles from the shirt."
+  },
+  {
+    "word": "PLANEAR",
+    "translation": "to plan",
+    "example": "Debemos planear el viaje.",
+    "exampleTranslation": "We need to plan the trip."
+  },
+  {
+    "word": "PLANETA",
+    "translation": "planet",
+    "example": "Marte es un planeta.",
+    "exampleTranslation": "Mars is a planet."
+  },
+  {
+    "word": "PLANO",
+    "translation": "geometric plane",
+    "example": "El plano se extiende en dos dimensiones.",
+    "exampleTranslation": "The plane extends in two dimensions."
+  },
+  {
+    "word": "PLANTA",
+    "translation": "plant",
+    "example": "La planta necesita luz.",
+    "exampleTranslation": "The plant needs light."
+  },
+  {
+    "word": "PLANTAR",
+    "translation": "to plant",
+    "example": "Vamos a plantar un árbol.",
+    "exampleTranslation": "We are going to plant a tree."
+  },
+  {
+    "word": "PLANTEL",
+    "translation": "school campus; school",
+    "example": "El plantel tiene una biblioteca.",
+    "exampleTranslation": "The school campus has a library."
+  },
+  {
+    "word": "PLASMA",
+    "translation": "blood plasma",
+    "example": "El plasma transporta sustancias por el cuerpo.",
+    "exampleTranslation": "Plasma carries substances around the body."
+  },
+  {
+    "word": "PLATA",
+    "translation": "silver",
+    "example": "El anillo está hecho de plata.",
+    "exampleTranslation": "The ring is made of silver."
+  },
+  {
+    "word": "PLATINO",
+    "translation": "platinum",
+    "example": "El platino resiste la corrosión.",
+    "exampleTranslation": "Platinum resists corrosion."
+  },
+  {
+    "word": "PLATÓN",
+    "translation": "large plate; platter",
+    "example": "Sirvió la fruta en un platón.",
+    "exampleTranslation": "She served the fruit on a platter."
+  },
+  {
+    "word": "PLAZA",
+    "translation": "town square",
+    "example": "La plaza se llenó de visitantes.",
+    "exampleTranslation": "The town square filled with visitors."
+  },
+  {
+    "word": "PLAZO",
+    "translation": "deadline; allotted time",
+    "example": "El plazo termina mañana.",
+    "exampleTranslation": "The deadline is tomorrow."
+  },
+  {
+    "word": "PLENO",
+    "translation": "full",
+    "example": "El árbol está en pleno florecimiento.",
+    "exampleTranslation": "The tree is in full bloom."
+  },
+  {
+    "word": "PLOMO",
+    "translation": "lead",
+    "example": "El plomo es un metal pesado.",
+    "exampleTranslation": "Lead is a heavy metal."
+  },
+  {
+    "word": "PLURAL",
+    "translation": "composed of several elements",
+    "example": "La sociedad plural reúne distintas voces.",
+    "exampleTranslation": "The plural society brings together different voices."
+  },
+  {
+    "word": "PLUS",
+    "translation": "surcharge",
+    "example": "El servicio nocturno tiene un plus.",
+    "exampleTranslation": "The night service carries a surcharge."
+  },
+  {
+    "word": "POBLADO",
+    "translation": "small agricultural settlement",
+    "example": "El poblado está junto al río.",
+    "exampleTranslation": "The settlement lies beside the river."
+  },
+  {
+    "word": "POBRE",
+    "translation": "poor",
+    "example": "La familia pobre recibió apoyo.",
+    "exampleTranslation": "The poor family received support."
+  },
+  {
+    "word": "POBREZA",
+    "translation": "poverty",
+    "example": "El programa busca reducir la pobreza.",
+    "exampleTranslation": "The program seeks to reduce poverty."
+  },
+  {
+    "word": "POCO",
+    "translation": "little; not much",
+    "example": "Hoy dormí poco.",
+    "exampleTranslation": "I slept little today."
+  },
+  {
+    "word": "PODER",
+    "translation": "ability; power",
+    "example": "Tiene el poder de decidir.",
+    "exampleTranslation": "She has the power to decide."
+  },
+  {
+    "word": "PODIO",
+    "translation": "podium",
+    "example": "La ganadora subió al podio.",
+    "exampleTranslation": "The winner stepped onto the podium."
+  },
+  {
+    "word": "PODRIDO",
+    "translation": "rotten",
+    "example": "El durazno está podrido.",
+    "exampleTranslation": "The peach is rotten."
+  },
+  {
+    "word": "POEMA",
+    "translation": "poem",
+    "example": "Escribió un poema para su abuela.",
+    "exampleTranslation": "She wrote a poem for her grandmother."
+  },
+  {
+    "word": "POESÍA",
+    "translation": "poetry",
+    "example": "La poesía expresa sus emociones.",
+    "exampleTranslation": "Poetry expresses her emotions."
+  },
+  {
+    "word": "POETA",
+    "translation": "poet",
+    "example": "El poeta leyó su obra.",
+    "exampleTranslation": "The poet read his work."
+  },
+  {
+    "word": "POLACO",
+    "translation": "Polish",
+    "example": "El artista polaco expuso sus cuadros.",
+    "exampleTranslation": "The Polish artist exhibited his paintings."
+  }
+]

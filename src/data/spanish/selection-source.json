@@ -1,0 +1,66 @@
+{
+  "policyVersion": "wiktionary-wordfreq-v1",
+  "minimumZipf": 3.5,
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/large_es.msgpack.gz",
+    "artifactSha256": "14f326b4f68d517f9b8b99c1e26ef56a508d2dc8d0ee7a9e6e8732ddab1aa65e",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "notes": "General Spanish spelling frequency, not sense-specific or Mexico-specific. Zipf3.5 is approximately3.16 occurrences per million. Data reflects historical mixed corpora, not a current exhaustive lexicon. Complete pinned README retains underlying acknowledgments and freely available SUBTLEX credits."
+  },
+  "wiktionary": {
+    "edition": "Spanish-language Wiktionary",
+    "author": "Wiktionary contributors",
+    "extractor": "Wiktextract, hosted by Kaikki; exact extractor revision for this Spanish-edition artifact is not stated on its download listing.",
+    "artifactUrl": "https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz",
+    "artifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "lastModified": "2026-10-21T11:23:31Z",
+    "retrieved": "2026-10-25",
+    "etag": "\"6ad8a0b3-6271ae7\"",
+    "dataLicense": "CC-BY-SA-4.0",
+    "rawDownloadIndex": "https://kaikki.org/dictionary/rawdata.html",
+    "modifications": "Retain accepted4–7letter Spanish entries with Zipf>=3.5; extract only POS/title/tags/categories/senses, remove quotations/examples/translations/media, retain raw-line SHA256. No postprocessed merged Kaikki data is used.",
+    "limitations": "Spanish-edition extraction is a work in progress. Missing labels, incomplete senses and imperfect grammar/commonness classification remain possible. Word-level source/history links use https://es.wiktionary.org/wiki/<word> and its history; exact source revisions are not provided in the raw artifact."
+  },
+  "inputs": {
+    "lexical-evidence.json": "a9028810bcd21fd054b4ae988e5056e07648d6e1801bcb004eea2b09d7cb2648",
+    "frequency-evidence.json": "6b86854712ff4a34e8f30e34c9395356c48dd6da4e73f41cda72ce5183c1ab24",
+    "selection-overrides.json": "7a7a75e29a657b3c82bf22810bad89bcdcee3da34e7e728d38e10c42ccbbf173",
+    "review-45.json": "c99c19abc5f3b4ba80110ac88bdeac69a90a61314f3081857eb68076406ef729",
+    "review-67.json": "e3110abb43127afc005fcfd968eae434df6b9029b8d2c643a324edfb3ce9f026",
+    "supplemental-senses.json": "a8797b8c36b99e5a8bb08a65c75000d6ce0ecc6a00a5ecb5c460c5a9b80eaa8a"
+  },
+  "review": {
+    "provisionalCandidates": 3512,
+    "fourFiveLetterReviewed": 1425,
+    "sixSevenLetterReviewed": 2087,
+    "method": "Independent model scan of all provisional candidates, full-sense checks for flagged entries, source-label filtering and explicit root review decisions. Not human/native certification. Commonness/suitability overrides are judgments, not measured sense frequencies."
+  },
+  "counts": {
+    "4": 468,
+    "5": 857,
+    "6": 949,
+    "7": 1059
+  },
+  "teachingCoverage": {
+    "4": 96,
+    "5": 96,
+    "6": 91,
+    "7": 79
+  },
+  "grammarPolicy": "Require documented independent, nonplural base-word senses. Exclude conjugated-only forms, gerund/participle-only forms, adjective agreement-only forms and plural-only noun/pronoun senses. Keep ordinary independent noun/adjective senses and lexicalized uninflected adverbs/interjections/function words; singular feminine noun meanings are not excluded merely for grammatical gender. Source labels and reviewed decisions exclude unsuitable archaic/rare/offensive/regional senses. No suffix-only heuristic, no count cap, no translation requirement.",
+  "remainingGap": "Frequency is attached to spellings, not senses; selected sense commonness and Mexican suitability cannot be certified exhaustively.190 frequency-qualified accepted forms have no retained Spanish-edition lexical entry and do not qualify automatically.",
+  "supplementalNounEvidence": {
+    "file": "supplemental-senses.json",
+    "words": [
+      "AMIGA",
+      "CHICA",
+      "GATA"
+    ],
+    "source": "Spanish noun entries in the English-language Wiktionary definition API; exact responses and SHA256 retained. Generator validates the noun part of speech and reviewed definition text before choosing these ordinary senses. No new teaching records.",
+    "license": "CC-BY-SA-4.0"
+  }
+}

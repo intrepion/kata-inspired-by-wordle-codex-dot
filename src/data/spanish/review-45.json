@@ -1,0 +1,5975 @@
+{
+  "scope": {
+    "reviewed": 1425,
+    "fourLetter": 508,
+    "fiveLetter": 917,
+    "method": "Independent model reading of every proposed 4/5-letter candidate, followed by all selected senses and raw lexical metadata for flagged cases. No native-speaker certification. Frequency is spelling-level and does not establish sense-specific commonness.",
+    "proposedSha256": "d2f58517b54f36f3d6697c36fd35ccc4c35eafbeb837bf3a40695e41d3871666"
+  },
+  "exclude": {
+    "ESAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.39,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "pron",
+          "tags": [],
+          "gloss": [
+            "Se reifere vagamente a una situación, argumento o circunstancia frente a la cual se tiene una reacción negativa, reprobatoria o escéptica."
+          ]
+        }
+      ]
+    },
+    "UNAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.35,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "article",
+          "tags": [
+            "indeterminate"
+          ],
+          "gloss": [
+            "Artículo indeterminado femenino plural.."
+          ]
+        }
+      ]
+    },
+    "UNOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.61,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "indeterminate"
+          ],
+          "gloss": [
+            "Cantidad aproximada o imprecisa."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [
+            "indeterminate"
+          ],
+          "gloss": [
+            "Que no se sabe la cantidad, cantidad indeterminada y pequeña."
+          ]
+        }
+      ]
+    },
+    "VÍAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.45,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Mandatos o leyes bíblicas."
+          ]
+        }
+      ]
+    },
+    "ACTOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.76,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Actas de un concilio."
+          ]
+        }
+      ]
+    },
+    "ARMAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.05,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Conjunto de los instrumentos que tiene un guerrero -o un grupo de estos- para atacar o defenderse."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Conjunto de todas las fuerzas militares de un Estado o país."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Conjunto de medios biológicos que tiene un organismo para defenderse de enfermedades, virus y agentes nocivos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Profesión en el campo militar, o dedicación a este tipo de actividad."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Manera o conjunto de medios para obtener un resultado."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cada uno de los elementos gráficos (figuras, símbolos, señales, etc.) que decoran un escudo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 6,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Figura gráfica, generalmente en forma de escudo, que representa un apellido, familia, Estado, población, etc."
+          ]
+        }
+      ]
+    },
+    "ARTES": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.58,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Disciplinas necesarias para el desarrollo cívico de las personas libres en oposición a los oficios serviles (como la agricultura)."
+          ]
+        }
+      ]
+    },
+    "AUTOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.57,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Actuaciones en una causa judicial."
+          ]
+        }
+      ]
+    },
+    "CABOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.58,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En las personas, ojos, cejas y pelo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En los caballos y yeguas los pies, el hocico y la crin."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Las piezas sueltas que se usan con el vestido, como son medias, zapatos, sombrero, etc."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En los caballos todo lo que no es la silla y el aderezo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En las fábricas de telas los hilos que queden de ellas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Las varias especies que se han tocado en algún asunto o discurso."
+          ]
+        }
+      ]
+    },
+    "CELOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.94,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Recelo de que la persona amada haya mudado o mude su cariño."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Recelo que alguien siente de que cualquier cosa que disfrute o pretenda llegue a ser alcanzado por otra persona."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Envidia."
+          ]
+        }
+      ]
+    },
+    "COPAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.11,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "En el juego de naipes con baraja española, nombre del palo que contiene representaciones de copas."
+          ]
+        }
+      ]
+    },
+    "DAMAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.14,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Juego que se ejecuta, en un tablero de 64 escaques, con 24 piezas, si es a la española, y en uno de 100 escaques y con 40 piezas, si es a la polonesa, de las cuales tiene 12 o 20 cada jugador, donde gana el juego quien logra comer todas al contrario, si se juega al gana gana, y al revés, si se juega al gana pierde."
+          ]
+        }
+      ]
+    },
+    "DATOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.32,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "gloss": [
+            "Datos móviles."
+          ]
+        }
+      ]
+    },
+    "ELLAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.15,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "pron",
+          "tags": [
+            "personal"
+          ],
+          "gloss": [
+            "Nominativo del pronombre personal femenino para la tercera persona del plural."
+          ]
+        }
+      ]
+    },
+    "ELLOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.8,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "pron",
+          "tags": [
+            "personal"
+          ],
+          "gloss": [
+            "Nominativo y dativo del pronombre personal de la tercera persona del plural. Con preposición, se emplea también en los casos oblicuos."
+          ]
+        }
+      ]
+    },
+    "GAFAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.03,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Gafas que tienen otro uso distinto que el de corregir defectos en la visión."
+          ]
+        }
+      ]
+    },
+    "GOTAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.83,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Medicamento o sustancia que se emplea o se dosifica por pequeñas cantidades (gotas), y generalmente se administra con gotero o cuentagotas."
+          ]
+        }
+      ]
+    },
+    "GUÍAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.88,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cuerdas con que se dirigen o gobiernan los animales de tiro (caballos, perros, etc.) en ciertos vehículos."
+          ]
+        }
+      ]
+    },
+    "HORAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 5.46,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Libro sacro con oraciones, iluminaciones y devociones para recitar en determinados momentos del día."
+          ]
+        }
+      ]
+    },
+    "MATES": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.78,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "gloss": [
+            "Matemáticas."
+          ]
+        }
+      ]
+    },
+    "MIRAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.2,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cañones que se ponen en dos portas, mayores que las de los costados, que están en el castillo a uno y otro lado del bauprés."
+          ]
+        }
+      ]
+    },
+    "PAPAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.19,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Puches o sopas claras que se dan a los niños."
+          ]
+        }
+      ]
+    },
+    "PASOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.65,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En algunos deportes, en especial el baloncesto y el balonmano, falta que consiste en dar más de tres pasos con la pelota en la mano sin botarla."
+          ]
+        }
+      ]
+    },
+    "PENAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.25,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Galeras."
+          ]
+        }
+      ]
+    },
+    "SALES": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.17,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Mezcla de diversos compuestos salinos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Sustancia química que se usa para reanimar a las personas desmayadas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Sustancia que se disuelve en el agua de una bañera para perfumarla."
+          ]
+        }
+      ]
+    },
+    "SEÑAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.65,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Dirección: datos del domicilio o forma de contacto de alguien."
+          ]
+        }
+      ]
+    },
+    "TOCAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.54,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Nombre con que se concedía el abono de dos mensualidades a las viudas de empleados para los gastos de funeral y lutos."
+          ]
+        }
+      ]
+    },
+    "TUYOS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 3.92,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Los que son del partido, o son allegados o parientes de la persona con quien se habla."
+          ]
+        }
+      ]
+    },
+    "VACAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.01,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "gloss": [
+            "Vacaciones."
+          ]
+        }
+      ]
+    },
+    "VELAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.05,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Moco que cuelga de las narices de un niño."
+          ]
+        }
+      ]
+    },
+    "VERAS": {
+      "category": "plural-only",
+      "reason": "The surviving senses are plural noun/pronoun/article/determiner usages, not an independent invariant singular or noninflecting base word. Lexicalized plural-noun meanings still do not meet the approved no-plural answer policy.",
+      "zipf": 4.12,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Realidad, verdad y seriedad en las cosas que se hacen o dicen, o la eficacia, fervor y actividad con que se ejecutan."
+          ]
+        }
+      ]
+    },
+    "AMOS": {
+      "category": "obsolete-or-plural",
+      "reason": "Only proposed base gloss explicitly says “Variante obsoleta de ambos”; other raw entry is plural of amo. High frequency cannot rescue the obsolete adjective.",
+      "zipf": 3.83,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Variante obsoleta de ambos."
+          ]
+        }
+      ]
+    },
+    "ANDE": {
+      "category": "nonstandard-or-conjugation",
+      "reason": "Selected adverb has raw usage tag “subestándar” (not handled by prototype); remaining raw entries are finite forms of andar. Exclude for nonstandard adverb, not simply because the spelling is also conjugated.",
+      "zipf": 3.59,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Indaga acerca del movimiento o dirección de la acción."
+          ]
+        }
+      ]
+    },
+    "GOLES": {
+      "category": "rare-or-plural",
+      "reason": "Only proposed independent sense explicitly says “Variante poco usada de gules” (heraldry); ordinary high-frequency usage is plural of gol.",
+      "zipf": 4.54,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "adjective",
+            "masculine"
+          ],
+          "gloss": [
+            "Variante poco usada de gules."
+          ]
+        }
+      ]
+    },
+    "ROMA": {
+      "category": "adjective-agreement",
+      "reason": "The blunt/blunt-nosed adjective is feminine singular of romo even though extraction presents it as a bare adjective lemma; Roma the city is a proper name. No independent ordinary common-noun sense in supplied evidence.",
+      "zipf": 4.63,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que no tiene punta o filo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Por extensión, de naríz poco puntiaguda."
+          ]
+        }
+      ]
+    },
+    "ADÁN": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected common-noun sense is a ragged/unkempt man, an uncommon use in contemporary Mexican Spanish; frequency is confounded with the personal name Adán. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.68,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Hombre pobremente vestido, desaliñado o harapiento."
+          ]
+        }
+      ]
+    },
+    "CABE": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only surviving noun sense is figurative “Perjuicio”; ordinary CABE is a finite form of caber. No ordinary Mexican noun sense established. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.63,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "figurative",
+            "masculine"
+          ],
+          "gloss": [
+            "Perjuicio."
+          ]
+        }
+      ]
+    },
+    "CREE": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Surviving senses concern the Cree people/language, not the ordinary creer conjugation. This specific ethnolinguistic homograph is not an ordinary learner word; spelling frequency is confounded with cree=believes. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 5.02,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Perteneciente o relativo a una etnia amerindia, nativa de la región de los Grandes Lagos en Norteamérica, históricamente cazadores de la fauna subártica y secundariamente recolectores."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Perteneciente o relativo a la lengua hablada por los miembros de esta etnia."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Lengua algonquina, polisintética, de la rama central, cuyos diversos dialectos conforman el habla nativa más extendida en el Canadá actual."
+          ]
+        }
+      ]
+    },
+    "DAME": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is a named Cuban salsa dance figure; ordinary dame is dar plus enclitic me. The specialist dance name should not inherit command frequency. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.37,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Figura simple dentro de la salsa cubana, donde se cambia a la pareja por el dile que no a la siguiente chica."
+          ]
+        }
+      ]
+    },
+    "DUDO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is the particular dice game dudo. Common spelling frequency is confounded with dudo=I doubt; no ordinary Mexican commonness established for game name. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.27,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "juego de dados popular en Latinoamérica, donde el objetivo es tirar los dados ocultándolos del rival e ir haciendo especulaciones sobre la cantidad de repeticiones de un determinado número en la mesa."
+          ]
+        }
+      ]
+    },
+    "LUIS": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected common-noun sense is an obsolete French gold coin minted circa1640–1793; personal-name frequency does not make that historical currency an ordinary word. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 5.07,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Moneda de oro antigua, que equivalía a veinte francos. Se acuñó aproximadamente entre 1640 y 1793."
+          ]
+        }
+      ]
+    },
+    "MATO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is “Conjunto de matas”; this is uncommon contemporary Mexican wording, while mato=I kill supplies a frequent conjugation homograph. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.15,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Conjunto de matas."
+          ]
+        }
+      ]
+    },
+    "MATÓ": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is a Catalan regional fresh cheese; frequency is confounded with mató=killed. The regional specialty is not established as ordinary Mexican vocabulary. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.3,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Tipo de queso fresco, típico de la gastronomía de Cataluña, elaborado con leche de cabra u oveja."
+          ]
+        }
+      ]
+    },
+    "NOTO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is the south wind; uncommon/literary technical sense, confounded with noto=I notice. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.67,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Viento que sopla de la parte del Sur."
+          ]
+        }
+      ]
+    },
+    "ODIA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is the Odia language of Odisha; spelling frequency is confounded with odia=hates. No ordinary Mexican commonness established for this specific language name. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.11,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Lengua indoeuropea que es la oficial del estado indio de Orissa."
+          ]
+        }
+      ]
+    },
+    "PEGO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only surviving noun is a particular card-cheating trick involving two cards stuck together; specialist/uncommon sense, confounded with pego=I stick/hit. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.76,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Fullería que consiste en pegar disimuladamente dos naipes para que salgan como uno solo, cuando le convenga al tramposo."
+          ]
+        }
+      ]
+    },
+    "PEPE": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is an unripe/unpalatable melon, not a generally ordinary Mexican sense. Personal-name Pepe frequency cannot establish that sense frequency. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.04,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "gloss": [
+            "Melón no muy agradable de comer por falta de madurez."
+          ]
+        }
+      ]
+    },
+    "RAFA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Selected meanings are specialized masonry bonding piers and irrigation-level adjustment. Ordinary commonness not established; spelling frequency is confounded with the nickname Rafa. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.56,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Pilar de cascote, piedra o ladrillo, yeso o cal, que, intercalados entre tapias, forman las cabeceras de las mismas y sirven de gobierno y trabazón a la pared."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Elevación temporal de las aguas de una acequia para posibilitar el riego de unos terrenos más altos."
+          ]
+        }
+      ]
+    },
+    "ROTA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Selected senses are explicitly antiquated derrota, a nautical route, rattan-like palms, or an archaic Welsh instrument. None establishes an ordinary Mexican sense; rota=broken is the feminine of roto. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.94,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Variante anticuada de derrota."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Rumbo o dirección que llevan en su navegación las embarcaciones o naves."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Nombre de diversas plantas vivaces, de la familia de las palmas, con tallos que alcanzan gran longitud, nudosos a trechos, delgados, sarmentosos y muy fuertes; hojas abrazadoras en los nudos, lisas y flexibles, zarcillos espinosos, flores de tres pétalos, y fruto abayado y rojo como la cereza. Vive en los bosques de la India y otros países de Oriente, y de su tallo se hacen bastones."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Instrumento arcaico de cuerda pulsada de la familia de los de caja sonora sin mango, punteados con plectro o con los dedos. Asociado particularmente con la música galesa, alguna vez ampliamente difundida y ejecutada por toda Europa gracias a los bardos galeses."
+          ]
+        }
+      ]
+    },
+    "BRUNO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected nouns are an Asturian/Cantabrian plum and its tree, explicitly localized in the gloss. The personal name Bruno supplies an unrelated frequent spelling. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.99,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Ciruela pequeña y muy negra que se coge en Asturias y la Montaña."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Árbol que la da."
+          ]
+        }
+      ]
+    },
+    "BUSCO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected base noun is a specialized lock-door threshold. This should not inherit the frequency of busco=I look for. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.31,
+      "sourceEvidence": [
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Umbral de una puerta de esclusa."
+          ]
+        }
+      ]
+    },
+    "HADAS": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected base noun is a Hebrew ritual myrtle offering; that specialized transliteration must not inherit the common plural hadas=fairies frequency. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.71,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Ofrenda de ramas de mirto con sus hojas que forma parte de las arba minim, las cuatro especies que los judíos piadosos ofrecen como parte de la festividad de Sucot."
+          ]
+        }
+      ]
+    },
+    "PONGO": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Selected nouns are an anthropoid ape and an Andean river gorge. They are uncommon Mexican learner senses; frequency is confounded with pongo=I put. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.54,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Especie de mono antropomorfo."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cañón angosto y profundo (también llamado cluse), entallado por los ríos andinos a través de los obstáculos montañosos en su descenso hacia la llanura amazónica. Muchos pongos constituyen, aguas arriba, el límite de navegabilidad de los ríos."
+          ]
+        }
+      ]
+    },
+    "PORTA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected nouns are naval hull/gun openings and mandilete. These specialist senses should not inherit porta=carries frequency. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.77,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cada una de las aberturas, a modo de ventanas, que se practican en los costados y en la popa de los buques, para dar luz y ventilación al interior de los mismos, para verificar su carga y descarga y muy principalmente para el juego de la artillería."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Mandilete."
+          ]
+        }
+      ]
+    },
+    "ROCHA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only surviving nouns concern land clearing/cleared land; ordinary Mexican use is not established and proper-name/other-language frequency can confound the spelling. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.54,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Acción o efecto de rochar, desmalezar."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Terreno desmalezado o rochado."
+          ]
+        }
+      ]
+    },
+    "SUFRA": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is a specialized draft-horse harness strap; this should not inherit frequency from sufra=suffer (subjunctive). This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.51,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Correón que sostiene las varas, apoyado en el sillín de la caballería de tiro."
+          ]
+        }
+      ]
+    },
+    "TAXIS": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Source supports a real singular biological orientation/movement term. It is not a plural in that sense, but is a specialist sense whose frequency is confounded with the ordinary plural of taxi; exclude for commonness, not an S suffix. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 3.89,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Movimiento de orientación o crecimiento con el que reacciona un organismo frente a un estímulo externo."
+          ]
+        }
+      ]
+    },
+    "VERME": {
+      "category": "reviewed-commonness-exclusion",
+      "reason": "Only selected noun is the formal/literary worm sense; ordinary contemporary Mexican usage is gusano. Frequency is confounded with ver+me, so this rare homograph does not qualify automatically. This is a linguistic selection judgment, not a measured sense-frequency finding.",
+      "zipf": 4.03,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cualquier animal invertebrado de forma tubular o aplanada pero siempre elongada y ápodo, sea ésta su forma adulta —como en los anélidos, nematodos y platelmintos— o una fase previa —como en las larvas de muchos insectos."
+          ]
+        }
+      ]
+    }
+  },
+  "reviewRequired": {
+    "ABRA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Cove/opening noun is legitimate; spelling frequency may be dominated by abrir subjunctive. Decide whether abra noun meets ordinary Mexican commonness; not conjugated-only.",
+      "zipf": 3.94,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Entrada de mar en tierra, de menor proporción que una bahía, que ofrece resguardo para que los buques puedan fondear en ella."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Zona apta para el cruce de una cordillera entre las montañas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Hendidura que los sismos han provocado en el suelo."
+          ]
+        }
+      ]
+    },
+    "BASA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Architectural column base is legitimate; second gloss explicitly says poco usada de base. Check commonness of architecture sense separately from basa verb frequency.",
+      "zipf": 4.33,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Asiento de la columna."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Variante poco usada de base."
+          ]
+        }
+      ]
+    },
+    "BEBA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Selected grape variety is obscure, but raw source also explicitly records feminine singular noun of bebe. Do not exclude ordinary baby-girl noun solely for being a feminine noun form; source-sense override may be needed.",
+      "zipf": 3.51,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Variante de eva (uva)."
+          ]
+        }
+      ]
+    },
+    "FIJA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Only selected noun is a specialized masonry tool; regional sure-bet noun may need separate evidence. Common adjective fija is feminine of fijo, not a base-adjective rescue.",
+      "zipf": 4.22,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Herramienta en forma de paleta que sirve para introducir o sacar material de espacios estrechos entre ladrillos, adoquines, columnas, etc."
+          ]
+        }
+      ]
+    },
+    "GAZA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source explicitly has Mexico-inclusive loop/lazo sense, which is legitimate. Check whether sufficiently ordinary; spelling frequency can be dominated by Gaza the place.",
+      "zipf": 3.75,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Lazo anudado o cosido en el extremo de un cabo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "Costa-Rica",
+            "Cuba",
+            "Mexico",
+            "Puerto-Rico",
+            "feminine"
+          ],
+          "gloss": [
+            "Lazo cualquiera, en especial el que se emplea para mantener algo cerrado."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Cissa spp., Cyanopica spp., Pica spp., Urocissa spp.) Cualquiera de trece especies de aves paseriformes de la familia del cuervo, caracterizadas por su larga cola, su ruidoso graznido y un vistoso plumaje de base blanca y negra."
+          ]
+        }
+      ]
+    },
+    "GREY": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Flock/congregation senses are valid but often formal/religious; frequency may reflect English grey or the surname. Needs sense-commonness decision.",
+      "zipf": 3.8,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Grupo de animales que pastan y se desplazan juntos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Por analogía: Congregación de fieles cristianos bajo sus legítimos pastores."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine",
+            "ironic"
+          ],
+          "gloss": [
+            "Conjunto de personas unidas por la religión, nacionalidad, etnia o algún otro rasgo común."
+          ]
+        }
+      ]
+    },
+    "JARA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Rockrose and pointed wooden weapon are legitimate senses, but ordinary Mexican frequency is unclear and surname Jara may inflate spelling frequency.",
+      "zipf": 3.67,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Cistus ladanifer) Mata o arbusto con ramas leñosas y erguidas, de color pardo rojizo, de 1 a 2 metros de altura, hojas pecioladas, elípticas, agudas de color verde oscuro por la parte superior y blanquecina por el envés, sus flores son grandes, de color blanco (jara estepa y estepa negra) de color lila brillante la estepa blanca, todas con corola de gran tamaño y blanca, en ramos pedunculados y terminales, con brácteas coriáceas, sépalos ovalados y vellosos con brácteas y fruto capsular, aovado, sedoso con cinco ventallas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Palo de punta aguzada y endurecido al fuego, que se emplea como arma arrojadiza."
+          ]
+        }
+      ]
+    },
+    "LEAN": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Only source sense is codeine/promethazine recreational-drug drink. Modern slang may be known, but spelling frequency can reflect lean verb or English. Assess adult/drug context separately from grammar.",
+      "zipf": 3.93,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Bebida de drogas recreativas, la cual es preparada mezclando jarabe para la tos o resfriado con receta médica que contiene codeína y prometazina con refresco y dulces."
+          ]
+        }
+      ]
+    },
+    "MOLA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Medical hydatidiform mole and textile senses are real; source also has an ancient sacrificial-flour sense. Decide commonness without relying on the Spain colloquial verb mola.",
+      "zipf": 3.67,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Harina de escanda, tostada y mezclada con sal, que se usaba para quemar reses en los sacrificios antiguos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Masa abultada informe que aparece en el útero, dando la apariencia de un embarazo."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Textil cosido en paneles con diseños complejos y múltiples capas usando una técnica de appliqué inverso."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Adorno de mola."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "gloss": [
+            "Amoladora."
+          ]
+        }
+      ]
+    },
+    "NASA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Fishing-trap noun is real; frequency is strongly confounded with agency NASA. Check noun familiarity before retaining.",
+      "zipf": 3.97,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cesta de red o mimbre, en forma de embudo, usada para la pesca"
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "noun"
+          ],
+          "gloss": [
+            "Propio de, relativo o perteneciente a un pueblo amerindio que habita el departamento del Cauca en la zona andina del suroccidente de la República de Colombia."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Propio de o relativo a la lengua de este pueblo, de clasificación incierta."
+          ]
+        }
+      ]
+    },
+    "PARE": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Noun stop/stop mechanism exists, but common frequency can reflect parar imperative/subjunctive and non-Mexican stop-sign usage. Do not label conjugated-only without checking noun.",
+      "zipf": 3.92,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Acción o efecto de parar."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Mecanismo que detiene o corta una acción mecánica.^([cita requerida])."
+          ]
+        }
+      ]
+    },
+    "PIDO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Raw source documents a standalone playground pause interjection and noun, not merely pedir conjugation. Verify ordinary Mexican playground usage; mancha in the gloss suggests regional provenance requiring review.",
+      "zipf": 4.57,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "En juegos infantiles como la mancha, utilizada para pedir una pausa o descanso."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En juegos infantiles como la mancha, zona destinada para el descanso."
+          ]
+        }
+      ]
+    },
+    "PIJA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Proposed adjective is feminine of pijo (snob) and not a base adjective. However Mexican hardware pija=screw is an ordinary benign independent noun missing from this extract. Seek that source before excluding; no blanket vulgar-homograph exclusion.",
+      "zipf": 3.94,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Variante de pijo (esnob)."
+          ]
+        }
+      ]
+    },
+    "SENA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Plant senna and die face with six dots are legitimate but frequency can reflect Seine/SENA proper names. Check commonness; not plural-only.",
+      "zipf": 3.59,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Senna) Arbusto del Levante, de la familia de las papilonáceas, parecido a la casia, y cuyas hojas se usan en infusión como purgantes."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Conjunto de seis puntos señalados en una de las caras del dado."
+          ]
+        }
+      ]
+    },
+    "SOTO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Wooded riverside/grove noun is real but formal and common surname frequency may dominate. Needs sense-specific commonness decision.",
+      "zipf": 3.96,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Sitio que en las riberas o vegas está poblado de árboles y arbustos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Sitio poblado de malezas, matas y árboles."
+          ]
+        }
+      ]
+    },
+    "TITO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source explicitly documents Mexico colloquial grandfather but marks citation needed. Do not drop automatically because other botanical senses are obscure; verify local familial usage.",
+      "zipf": 3.8,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Planta anual de la familia papilionácea que florece en junio y es de España, con tallo herbáceo y ramoso, flores moradas y blancas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Semilla de la almorta."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "Mexico",
+            "colloquial",
+            "feminine",
+            "masculine"
+          ],
+          "gloss": [
+            "Abuelo.^([cita requerida])"
+          ]
+        }
+      ]
+    },
+    "TUYA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Thuja ornamental tree is legitimate; frequency may reflect feminine possessive. Check nursery/tree sense commonness, not grammar by suffix.",
+      "zipf": 4.47,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Árbol de la familia de los cipreses (Cupressaceae) en ser de figura piramidal y tener las hojas siempre verdes."
+          ]
+        }
+      ]
+    },
+    "ZUMO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Valid shared juice noun. Less usual than jugo in Mexico, but no supplied exclusive Spain label; do not assert non-Mexican-only without evidence.",
+      "zipf": 3.51,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Líquido que se extrae de un sólido, en especial de un vegetal, mediante presión, infusión o molienda."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "figurative",
+            "masculine"
+          ],
+          "gloss": [
+            "Lo provechoso o más sustancial de algo."
+          ]
+        }
+      ]
+    },
+    "ACABE": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Action/result of finishing noun exists, but ordinary frequency may reflect acabar subjunctive; assess Mexican noun commonness independently.",
+      "zipf": 4.11,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Acción o efecto de acabar."
+          ]
+        }
+      ]
+    },
+    "ACABO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Ending/completion noun exists but sounds formal/old compared with acabo=I finish; source does not flag rarity. Needs commonness decision.",
+      "zipf": 4.77,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Acabamiento o fin."
+          ]
+        }
+      ]
+    },
+    "APROX": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source labels colloquial adverb, but standard use is normally abbreviation aprox. Determine whether abbreviations are eligible; do not add an unsupported grammatical ban silently.",
+      "zipf": 3.79,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Aproximadamente."
+          ]
+        }
+      ]
+    },
+    "CHACO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Nunchaku noun may be recognized in martial arts; frequency also reflects Chaco region. Neither a form-only case nor automatically Mexico-only; assess familiarity.",
+      "zipf": 3.84,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Arma tradicional de las artes marciales asiáticas formada básicamente por dos palos cortos, generalmente de entre 30 y 60 cm unidos en sus extremos por una cuerda o cadena."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Fruto del chaco."
+          ]
+        }
+      ]
+    },
+    "COREA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Real neurological chorea noun; frequency strongly confounded with Korea the country. Decide whether specialist medical sense is sufficiently familiar.",
+      "zipf": 4.5,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Afección que se caracteriza por la presencia de convulsiones y que afecta principalmente a los niños."
+          ]
+        }
+      ]
+    },
+    "CORTA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Forestry felling noun is valid but frequency may mostly reflect feminine adjective/verb. Needs commonness decision.",
+      "zipf": 4.64,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Acción de cortar árboles, arbustos y otras plantas en los bosques. Dícese también de los cañaverales."
+          ]
+        }
+      ]
+    },
+    "CROSS": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Boxing punch is a real borrowed noun; frequency can reflect English cross/names. Assess specialized sports familiarity.",
+      "zipf": 3.61,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Golpe similar al gancho, pero hecho de forma más recta. Es considerado el golpe más potente."
+          ]
+        }
+      ]
+    },
+    "GRITA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Shouting/clamor noun is real but much less everyday than grito; frequent grita=shouts can dominate. Needs commonness review.",
+      "zipf": 3.98,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Ruido fuerte que hace un grupo de personas con sus voces."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Expresión en voces altas y desordenadas de protesta o rechazo por parte de un grupo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Voz que da el cazador o la cazadora para alertar al azor cuando sale la perdiz."
+          ]
+        }
+      ]
+    },
+    "HENRY": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Real SI-unit variant of henrio; personal name Henry can dominate. Retain only if that technical unit is accepted as ordinary enough.",
+      "zipf": 4.3,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Variante de henrio"
+          ]
+        }
+      ]
+    },
+    "HUIDO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source gives independent adjective escaped/fugitive, rather than only a participle entry. Determine whether lexicalized sense is ordinary; do not ban solely because it derives from huir.",
+      "zipf": 3.52,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "que ha escapado, que se ha fugado."
+          ]
+        }
+      ]
+    },
+    "LICEO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "School/cultural-association noun is valid. Local use varies; source does not establish exclusive non-Mexican restriction.",
+      "zipf": 3.97,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Centro de enseñanza de muchos países generalmente institucionalizado para enseñanzas medias."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Asociación cultural creada por socios particulares."
+          ]
+        }
+      ]
+    },
+    "LUCIO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Pike fish is an independent noun and shiny adjective exists; personal-name frequency may dominate. Assess fish/commonness rather than reject solely as a name.",
+      "zipf": 3.59,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Terso, lúcido, brillante."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Pez de río muy grande y voraz."
+          ]
+        }
+      ]
+    },
+    "MUTUA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Independent mutual-association noun may be primarily non-Mexican; source only says variant of mutual. Needs regional/commonness evidence.",
+      "zipf": 3.72,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Variante de mutual (entidad sin ánimo de lucro)."
+          ]
+        }
+      ]
+    },
+    "NUEVA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Independent news noun is valid but commonly plural/formulaic; check singular ordinary usage (una buena nueva) rather than exclude feminine adjective mechanically.",
+      "zipf": 5.67,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "La especie o noticia de alguna cosa que no se ha dicho o no se ha oído antes."
+          ]
+        }
+      ]
+    },
+    "OTERO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Hill/viewpoint noun is real but formal and surname-confounded. Needs commonness decision.",
+      "zipf": 3.51,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Pequeña elevación aislada de tierra, desde donde se contempla u otea un llano."
+          ]
+        }
+      ]
+    },
+    "PINTO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Mexico-tagged carate disease noun is valid, while ordinary spotted adjective is tagged Central-America only in extract. Verify ordinary Mexican pinto adjective if retaining via common spotted/bean usage.",
+      "zipf": 3.9,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "Mexico",
+            "masculine"
+          ],
+          "gloss": [
+            "Carate."
+          ]
+        }
+      ]
+    },
+    "PLENA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Puerto Rican musical genre is an independent noun, but common spelling frequency can reflect feminine pleno. Geographic origin alone is not a usage-region ban; assess genre familiarity.",
+      "zipf": 4.43,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Género de música, canto y baile originario de Puerto Rico."
+          ]
+        }
+      ]
+    },
+    "PRIME": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source offers peak/heyday noun, but recent English/brand use may dominate. Assess whether established ordinary Mexican borrowing, not simply a common proper brand.",
+      "zipf": 3.71,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Apogeo, auge, cénit."
+          ]
+        }
+      ]
+    },
+    "QUEDO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Quiet/low-voiced senses are independent but formal/literary sounding in contemporary Mexico. Common quedarse conjugation cannot establish their frequency.",
+      "zipf": 4.55,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Quieto, pacífico."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [],
+          "gloss": [
+            "Con voz baja o que apenas se oye."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adv",
+          "tags": [],
+          "gloss": [
+            "Con tiento."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Variante de quedada (acción de quedarse)."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Sirve para contener a uno."
+          ]
+        }
+      ]
+    },
+    "RAMÓN": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Only selected senses concern fodder branches; personal name can inflate frequency. Ordinary Mexican ramón breadnut-tree sense may warrant independent source rescue.",
+      "zipf": 4.41,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Las ramas que cortan los pastores para apacentar los ganados en tiempos de muchas nieves."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Las ramas que caen resultado de podar algunos árboles como los olivos."
+          ]
+        }
+      ]
+    },
+    "ROQUE": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Only selected adjective is sleepy/asleep, associated with quedarse roque; likely non-Mexican colloquial use, and name frequency can dominate. Need Mexican evidence before retention.",
+      "zipf": 3.78,
+      "sourceEvidence": [
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Somnoliento, adormecido."
+          ]
+        }
+      ]
+    },
+    "RUBIA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Beer and madder-plant nouns exist; female blond adjective is not a base-adjective rescue. Check ordinary Mexican beer/plant use; do not reject merely from feminine ending.",
+      "zipf": 4.05,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Moneda de peseta fabricada a partir de la II República, cuando pasó a emplearse metal de aleación amarillento con rostro de mujer de cabellera suelta."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cerveza de color amarillo, por oposición a otras como la negra o la roja."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Rubia tinctorum) Planta vivaz de la familia de las rubiáceas (Rubiaceae), tallo cuadrado, voluble y espinoso de uno a dos metros de largo, hojas lanceoladas con espinas en el margen, en verticilos cuádruplos o séxtuplos, flores pequeñas, amarillentas, en racimos axilares o terminales, fruto carnoso de color negro, con dos semillas, y raíces delgadas, largas y rojizas. Originaria de Oriente y cultivada en Europa se utiliza para el tratamiento de cálculos urinarios y renales. De su raíz roja se obtiene el ácido ruberítrico, del que obtiene alizarina, un colorante muy utilizado en tintorería."
+          ]
+        }
+      ]
+    },
+    "TURCA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Selected senses are a Chilean bird and a toxic vine. Check commonness or independently documented singular Turkish-woman noun; adjective agreement alone is not a base-adjective rescue.",
+      "zipf": 3.65,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Pteroptochos megapodius) Ave de unos 23-24cm de longitud, de color café con una línea blanca supraciliar y la parte inferior del pecho y vientre de color blanco con barras cafés y negras; patas con garras grandes y cola vertical. Vive principalmente en el suelo en donde se alimenta de lombrices, insectos y otros invertebrados. Anida en cuevas que pueden medir dos metros de profundidad. Su hábitat son las laderas de cerros secas cubiertas de matas y matorrales desde la Región de Atacama hasta la Región del Biobío, en Chile."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Bryonia dioica) Planta trepadora de la familia de las Cucurbitáceas con zarcillos, hojas pentalobuladas, flores azuladas o blancas; el fruto es una baya de color rojo. La planta es tóxica y tiene uso en medicina natural como purgante y rubefaciente. Los brotes tiernos son comestibles."
+          ]
+        }
+      ]
+    },
+    "CAGUE": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Only ordinary proposed meaning refers to cagarse; review Mexican vulgar register at word level. No source-supported ordinary benign sense has been established.",
+      "zipf": 3.52,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "gloss": [
+            "Acción o efecto de cagarse₂."
+          ]
+        }
+      ]
+    },
+    "PORNO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Ordinary meanings are pornography/pornographic material; explicit-adult-content suitability decision should be stated separately from grammatical eligibility.",
+      "zipf": 4.37,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Pornográfico; que pertenece o concierne a la pornografía."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "gloss": [
+            "Pornografía."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine",
+            "masculine"
+          ],
+          "gloss": [
+            "Película pornográfica."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine",
+            "masculine"
+          ],
+          "gloss": [
+            "Excesivo intento de apelar a los gustos de un determinado grupo."
+          ]
+        }
+      ]
+    },
+    "CULO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Has legitimate bottom/end/residue senses in addition to vulgar anatomy; assess ordinary Mexican benign usage separately, not a blanket ban from an offensive secondary sense.",
+      "zipf": 4.77,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Por analogía, conjunto de la musculatura de las ancas de los cuadrúpedos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Extremo posterior o basal de un objeto."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Pequeña cantidad de líquido que queda en un recipiente."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cara plana de la taba."
+          ]
+        }
+      ]
+    },
+    "VERGA": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Benign surviving senses are chiefly nautical/technical; dominant ordinary Mexican reading is vulgar. Explicit word-level Mexican suitability review is needed; do not claim every sense is offensive.",
+      "zipf": 4.36,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Palo horizontal que sostiene una vela de un barco y que es transversal a un mástil."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Pieza arqueada que conforma la parte frontal del mecanismo en la ballesta, y cuya tensión dispara el lance o virote."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Varilla de plomo utilizada para fijar los vidrios de las ventanas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Rama fina y larga como las que se usan para golpear o para hacer cercos."
+          ]
+        }
+      ]
+    },
+    "BOBO": {
+      "category": "ambiguous-commonness-or-suitability",
+      "reason": "Source adjective targets low intelligence; can be an insult but is not automatically severe/offensive in every context. Word-level suitability review rather than morphology ban.",
+      "zipf": 3.69,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Corto de inteligencia y entendimiento."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Personaje del teatro español, que se caracteriza por su falta de inteligencia."
+          ]
+        }
+      ]
+    }
+  },
+  "retainWithSenseNote": {
+    "AGUAS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain via entry1/sense0 Mexico colloquial warning interjection, not plural-noun entry0. Independently lexicalized interjection is permitted by expanded POS policy.",
+      "zipf": 4.7,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cuerpos de aguas (mares, ríos, lagos, canales, etc.)."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "Mexico",
+            "feminine"
+          ],
+          "gloss": [
+            "Forma abreviada de \"aguas frescas\"."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [
+            "Mexico",
+            "colloquial"
+          ],
+          "gloss": [
+            "Exclamación con la que se advierte a alguien que tenga cuidado con algo, incluso en forma de amenaza;."
+          ]
+        }
+      ]
+    },
+    "RAYOS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain source interjection expressing surprise/displeasure; standalone lexicalized exclamation, not only plural rayos.",
+      "zipf": 4.26,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Expresa sorpresa, disgusto o falta de compresión."
+          ]
+        }
+      ]
+    },
+    "VAMOS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain documented standalone encouragement interjection, not only finite ir.",
+      "zipf": 5.49,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Denota una forma de estimular o aupar a una persona o animal o de darle ánimos."
+          ]
+        }
+      ]
+    },
+    "ANDA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain via documented surprise/disagreement interjection; do not rely on the uncommon processional-frame noun alone.",
+      "zipf": 4.77,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Bastidor o armazón, sostenido por banzos, que apoyado en los hombros de los porteadores se emplea para el transporte de objetos voluminosos, o su exhibición pública en las procesiones."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "En particular, aquel que se usa para transportar el ataúd durante las exequias."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Interjección que denota sorpresa."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Interjección que se usa para hace ver que no se está de acuerdo con lo que el interlocutor ha dicho o para hacerlo actuar de modo diferente."
+          ]
+        }
+      ]
+    },
+    "SALE": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain source agreement/readiness interjection, common Mexican sale; not merely salir conjugation.",
+      "zipf": 5.03,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [
+            "Mexico"
+          ],
+          "gloss": [
+            "Indica que se está de acuerdo con algo o que se está dispuesto para una acción."
+          ]
+        }
+      ]
+    },
+    "MANDE": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain documented clarification/request-to-repeat interjection used in Mexico; not merely mandar subjunctive.",
+      "zipf": 3.96,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [
+            "Mexico"
+          ],
+          "gloss": [
+            "Indica que el escuchador no entendió el mensaje."
+          ]
+        }
+      ]
+    },
+    "DALE": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain documented acceptance interjection; not conjugated-only dar+le.",
+      "zipf": 4.6,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [
+            "colloquial"
+          ],
+          "gloss": [
+            "Se emplea para mostrar aceptación."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Se emplea para presionar o apurar a alguien para que haga algo."
+          ]
+        }
+      ]
+    },
+    "OIGA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain documented attention-getting interjection under current broadened POS policy, subject to consistent treatment of lexicalized commands.",
+      "zipf": 3.79,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "intj",
+          "tags": [],
+          "gloss": [
+            "Usado para llamar la atención de alguien."
+          ]
+        }
+      ]
+    },
+    "GATA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary feminine cat noun should not be replaced in teaching by plant/servant senses. Raw source has a noun-form entry explicitly linking to gato; preserve ordinary benign noun with correct evidence if feminine singular nouns qualify.",
+      "zipf": 3.69,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "(Ononis spinosa) Planta papilionácea muy común en los sembrados. Es un arbusto espinoso."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "Mexico",
+            "feminine"
+          ],
+          "gloss": [
+            "Sirvienta."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Nubecita pegada en los montes, que parece subir gateando."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "Central-America",
+            "Cuba",
+            "Mexico",
+            "feminine"
+          ],
+          "gloss": [
+            "(Galeus arae) Pez marino de hasta cuatro metros que se pesca en las aguas del Atlántico. Su carne es poco apreciada."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 6,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Protección como tejadillo que antiguamente usaban los soldados que se acercaban a un muro para minarlo."
+          ]
+        }
+      ]
+    },
+    "AMIGA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary female-friend noun exists but first proposed senses are schoolteacher/school. Obtain/select ordinary friend noun evidence; do not let old school senses falsely justify commonness.",
+      "zipf": 4.81,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "La maestra de escuela de niñas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "La escuela de niñas."
+          ]
+        }
+      ]
+    },
+    "CHICA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary girl/young-woman noun is everyday Mexican Spanish; first proposed sense is a mus card-game call. Use ordinary noun evidence, not rare card-game homograph.",
+      "zipf": 4.97,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "En el mus: jugada en la que se tiene las cartas de menor numeración."
+          ]
+        }
+      ]
+    },
+    "NIÑA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Use ordinary child/girl noun source sense0/1 or0/2, not only eye-pupil sense0/0.",
+      "zipf": 4.84,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Pupila del ojo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Mujer en la infancia."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Por extension, chica adolescente que aún no llega a la mayoría de edad."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "gloss": [
+            "Mujer joven respecto de una persona de mucha más edad."
+          ]
+        }
+      ]
+    },
+    "JEFA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Use woman-boss or Mexican mother sense if source supports, not only first gloss wife of boss.",
+      "zipf": 4.03,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "feminine"
+          ],
+          "gloss": [
+            "Mujer del jefe."
+          ]
+        }
+      ]
+    },
+    "ANIME": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Use entry1/sense0 Japanese animation, not resin/tree homographs.",
+      "zipf": 4.17,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Material pegajoso, generalmente de color chocolate pálido, que se extrae de la savia de diversos árboles, especialmente del género Hymenaea."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "America",
+            "masculine"
+          ],
+          "gloss": [
+            "Árbol maderable de América tropical, perteneciente a la familia de las papilionáceas que puede llegar a unos siete metros de altura, con flores amarillas en ramillete, frutos en vaina y madera de color rojizo."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Estilo de animación de procedencia japonesa, caracterizado por personajes humanos con ojos grandes y rostro infantil o estilizado."
+          ]
+        }
+      ]
+    },
+    "MARÍA": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Cookie noun entry0/sense1 is an ordinary benign Mexican sense; do not drop for ancient coin, proper-name or drug senses.",
+      "zipf": 5.07,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Antigua moneda de plata, acuñada en España hacia fines del siglo XVII, por orden de la regente Mariana de Austria."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Galleta dulce, de forma redonda, hecha con harina de trigo, azúcar y aceite y aromatizada con vainilla, nombrada en honor de la gran duquesa María Alexandrovna de Rusia."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine",
+            "slang"
+          ],
+          "gloss": [
+            "(Cannabis sativa indica) Variedad del cáñamo, de escaso valor como textil y alta concentración de tetrahidrocannabinol, cultivada para su uso como narcótico."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine",
+            "slang"
+          ],
+          "gloss": [
+            "Picadura de las sumidades floridas de esta planta, utilizada como psicoactivo."
+          ]
+        }
+      ]
+    },
+    "NEGRO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain ordinary black-color adjective; offensive secondary usage is not a word-wide reason for exclusion.",
+      "zipf": 5.1,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "masculine",
+            "noun"
+          ],
+          "gloss": [
+            "De color extremadamente oscuro, propio de los cuerpos que no reflejan nada de luz o de la oscuridad más absoluta."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [
+            "noun"
+          ],
+          "gloss": [
+            "Dicho de un ser humano, perteneciente total o parcialmente por su ascendencia a los pueblos que habitaban la mayor parte del continente africano, cuya piel tiene una alta concentración de melanina y un color que va del pardo claro al castaño muy oscuro. Por analogía con su coloración, se aplica también a algunas poblaciones nativas de Australia y del sudeste asiático."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Propio de la población negra de un país o de las culturas africanas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Dicho de la piel o de una persona, más oscura que lo habitual entre los caucásicos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que ha perdido su color normal, que es oscuro o ha ennegrecido."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Dicho de la piel de la persona, que ha ennegrecido, temporalmente, por haber estado expuesta al sol."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 6,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que no está limpio."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 7,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que carece de iluminación."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 9,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de un género literario y del cine que explotan las tramas sórdidas y tenebrosas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 10,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de lo relacionado con la hechicería y supersticiones que invocan el mal o al diablo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 11,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de lo que se hace al margen de la ley."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 12,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de un tipo de tabaco que se caracteriza por ser picante y fuerte. Se opone a tabaco rubio."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 13,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de lo que se ha vuelto complicado, enredado u oscuro de comprender y resolver."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 14,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de quien ha bebido en exceso ^([cita requerida])."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "America",
+            "Spain",
+            "masculine"
+          ],
+          "gloss": [
+            "Tratamiento de cariño hacia una persona muy cercana y querida."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Persona que recibe un pago por hacer un trabajo que aparecerá como obra de otra persona. Suele hacerse en medios literarios, para aumentar las ganancias de un autor prestigioso, o para escribir biografías de personalidades públicas carentes de todo don literario."
+          ]
+        }
+      ]
+    },
+    "VINO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain independent ordinary wine noun despite venir preterite homograph.",
+      "zipf": 4.96,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Bebida alcohólica elaborada a partir de la fermentación de la uva, con o sin los hollejos."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "De color rojo intenso, como el del vino₁ tinto."
+          ]
+        }
+      ]
+    },
+    "TRAJE": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain independent ordinary suit/clothing noun despite traer preterite homograph.",
+      "zipf": 4.38,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "El modo particular de vestir."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "El vestido completo de mujer u hombre."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cualquier disfraz completo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "La ropa externa, particularmente la que es característica de una época, cultura o tradición."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Ambo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 5,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Persona enviada por un superior para dar la cara, generalmente frente a la prensa, en una situación de extrema presión."
+          ]
+        }
+      ]
+    },
+    "DADO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain ordinary die/dice singular noun despite dar participle.",
+      "zipf": 5.23,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Pequeño objeto con forma de cubo cuyas seis caras están marcadas con puntos que representan los números del uno al seis y que se usa en algunos juegos de azar. Por extensión, pieza poliédrica con las caras numeradas u otros símbolos."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Pieza cúbica de un material duro usado en máquinas y que sirve de apoyo a los tornillos, ejes, y otros elementos para mantenerlos en equilibrio."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En las banderas, paralelogramo de distinto color que su fondo."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Base de una columna."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que a menudo hace algo o propende a algo."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que se ha fijado o determinado."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 2,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de algo hipotético."
+          ]
+        }
+      ]
+    },
+    "OÍDO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain ordinary hearing/ear noun despite oír participle.",
+      "zipf": 4.49,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Sentido mediante el cual percibimos el sonido."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Órgano por el cual se percibe el sonido."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Capacidad de algunas personas para reconocer y repetir melodías."
+          ]
+        }
+      ]
+    },
+    "HECHO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain ordinary fact/deed noun despite hacer participle.",
+      "zipf": 5.79,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Acción u obra producida."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Cosa que sucede o sucedió."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Algo que es objetivamente cierto."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de lo que ha alcanzado su nivel de maduración, o que ya está completo, terminado."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Semejante a."
+          ]
+        }
+      ]
+    },
+    "VISTO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain ordinary read-receipt noun and documented lexical adjectives, not only ver participle.",
+      "zipf": 5.36,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Ya suficientemente considerado como para proceder a dictar sentencia."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "De uso tan extendido que resulta vulgar o anticuado."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que queda a la vista en una construcción."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Sección de un texto legal o administrativo que enumera la normativa relevante para la decisión."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En aplicaciones de mensajería, señal de confirmación que recibe un usuario una vez que el destinatario recibió y leyó su mensaje."
+          ]
+        }
+      ]
+    },
+    "FRITO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Documented ordinary lexical food adjective is not automatically participle-only; preserve via that sense.",
+      "zipf": 3.64,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que ha sido cocinado en aceite hirviendo, manteca o grasa muy caliente."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "adj",
+          "tags": [
+            "America",
+            "colloquial"
+          ],
+          "gloss": [
+            "Que ha quedado muy complicado o en pésimo estado."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 4,
+          "pos": "adj",
+          "tags": [
+            "America",
+            "colloquial"
+          ],
+          "gloss": [
+            "Que ha quedado muerto."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Alimento que ha sido preparado pasándolo por manteca o aceite hirviendo."
+          ]
+        }
+      ]
+    },
+    "ROTO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary lexical broken adjective is independent enough under approved CANSADO-style policy; no ADO/TO suffix ban.",
+      "zipf": 4.29,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Destrozado parcial o totalmente."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Referido a un aparato, que no funciona."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Agotado, muy cansado."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Personaje característico de la ciudad chilena. El huaso (personaje del campo) y el roto chileno (personaje de la ciudad), son los chilenos por antonomasia, los personajes que caracterizan la chilenidad. El roto es una persona pobre, alegre, buena para la talla y valerosa."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "colloquial",
+            "masculine"
+          ],
+          "gloss": [
+            "Ano."
+          ]
+        }
+      ]
+    },
+    "AMADO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Documented beloved/dear lexical adjective can qualify; no automatic ADO suffix exclusion.",
+      "zipf": 4.21,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "noun"
+          ],
+          "gloss": [
+            "Querido o extremadamente apreciado."
+          ]
+        }
+      ]
+    },
+    "ASADO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary roasted lexical food adjective can qualify; no automatic ADO suffix exclusion.",
+      "zipf": 3.85,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Cocido por convección directa del calor a través del aire."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [
+            "colloquial",
+            "figurative"
+          ],
+          "gloss": [
+            "Que sufre de mucho calor."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Carne asada."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Carne, en especial de vacuno, cocinada a las brasas sobre un asador o una parrilla.\n:*Ámbito: Argentina, Chile, Perú."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 3,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "La reunión social de carácter festivo que se hace para consumir estos platos."
+          ]
+        }
+      ]
+    },
+    "ATADO": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Documented dependent/lacking-autonomy adjective is lexical, not simply a bare participle reference.",
+      "zipf": 3.81,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que depende totalmente de otras personas, que carece de autonomía."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Conjunto de cosas atadas, y a veces reunidas como fardo, paquete o bulto."
+          ]
+        }
+      ]
+    },
+    "TENIS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular sport noun; shoe-plural usage does not invalidate sport.",
+      "zipf": 4.23,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Deporte que consiste en golpear con una raqueta una pelota para lanzarla de un lugar a otro."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Calzado deportivo"
+          ]
+        }
+      ]
+    },
+    "ALIAS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular alias/nickname noun.",
+      "zipf": 3.88,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Nombre con que se conoce a alguien, además del de pila u original."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Palabra o grupo de palabras que están asociados unívocamente con una cuenta bancaria o billetera digital, usada como identificación junto con el CVU o CBU para hacer transacciones."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "En un tipo de dato definido arbitrariamente por el programador, etiqueta que se elige para poder identificarlo unívocamente."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [],
+          "gloss": [
+            "Por otro nombre."
+          ]
+        }
+      ]
+    },
+    "ATLAS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular map-book noun.",
+      "zipf": 3.83,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Colección de mapas en un volumen."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Colección de láminas organizadas temáticamente."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Primera de las vértebras cervicales."
+          ]
+        }
+      ]
+    },
+    "LUNES": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular weekday noun.",
+      "zipf": 4.81,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Primer día de la semana laboral y segundo de la semana eclesiástica. Sigue al domingo y antecede al martes."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Segundo día de la semana litúrgica y del mungo anglosajón."
+          ]
+        }
+      ]
+    },
+    "TESIS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular thesis noun.",
+      "zipf": 4.35,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Proposición o conclusión para debate"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "trabajo universitario original presentado por el aspirante a título doctoral en una facultad"
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "golpe en el movimiento de la mano con que se marca alternativamente el compás"
+          ]
+        }
+      ]
+    },
+    "DOSIS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular dose noun.",
+      "zipf": 4.26,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Una cantidad de medicamento que se aplica o se toma como parte de un tratatamiento médico."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "feminine"
+          ],
+          "gloss": [
+            "Cantidad de algo."
+          ]
+        }
+      ]
+    },
+    "VIRUS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain invariant singular virus noun.",
+      "zipf": 4.45,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Agente infeccioso compuesto de ácido nucleico rodeado por proteínas, y que sólo se reproduce dentro de sus célula hospedadoras, usando los orgánulos de éstas."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Programa informático que modifica otros programas incluyendo en ellos copias de sí mismo causando daños a nivel de software."
+          ]
+        }
+      ]
+    },
+    "ANTES": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain noninflecting adverb despite S ending.",
+      "zipf": 5.82,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [
+            "place"
+          ],
+          "gloss": [
+            "Indica que algo tiene lugar primero o previo en un orden de sucesión en el espacio."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [],
+          "gloss": [
+            "Indica que algo ocurre primero en el tiempo, que precede o es previo."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [
+            "mood"
+          ],
+          "gloss": [
+            "Indica precedencia, primacía, prioridad o preferencia."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 0,
+          "pos": "conj",
+          "tags": [
+            "adversative"
+          ],
+          "gloss": [
+            "Introduce una idea o frase que contradice y se prefiere a otra previa: por el contrario."
+          ]
+        },
+        {
+          "entry": 4,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que antecede, precede o está primero en el espacio o el tiempo."
+          ]
+        }
+      ]
+    },
+    "MENOS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain noninflecting adverb despite S ending.",
+      "zipf": 5.84,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [
+            "comparative"
+          ],
+          "gloss": [
+            "Comparativo irregular de poco, que indica disminución o inferioridad."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adv",
+          "tags": [
+            "comparative"
+          ],
+          "gloss": [
+            "Cuando acompaña a una cantidad, indica que hay un cierto número indeterminado e inferior de la misma."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "adv",
+          "tags": [
+            "comparative"
+          ],
+          "gloss": [
+            "En oraciones negativas, introduce un argumento que refuerza la negación."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "adv",
+          "tags": [
+            "comparative"
+          ],
+          "gloss": [
+            "Introduce una idea de rechazo más poderosa que otra que se menciona."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 0,
+          "pos": "conj",
+          "tags": [],
+          "gloss": [
+            "En la operación aritmética de la resta, indica las cantidades."
+          ]
+        },
+        {
+          "entry": 1,
+          "sense": 1,
+          "pos": "conj",
+          "tags": [],
+          "gloss": [
+            "Indica que algo o alguien es la excepción."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Usado frente a un guarismo, indica una cantidad negativa en contraposición a los guarismos naturales o positivos."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Símbolo matemático consistente en una raya horizontal (-), que se utiliza para la resta."
+          ]
+        },
+        {
+          "entry": 2,
+          "sense": 2,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Signo (-) que expresa el carácter negativo de una cantidad, spin, carga eléctrica, etc."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Ante sustantivos contables en plural, indica que un determinado número de entidades es bajo en comparación con otro sobrentendido o explícito."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Ante sustantivos no contables en singular, expresa que una determinada cantidad es menor que otra sobrentendida o explícita."
+          ]
+        },
+        {
+          "entry": 3,
+          "sense": 2,
+          "pos": "adj",
+          "tags": [
+            "colloquial",
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Ante sustantivos contables en singular usados como no contables, denota ponderación."
+          ]
+        },
+        {
+          "entry": 4,
+          "sense": 0,
+          "pos": "pron",
+          "tags": [
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Número o cantidad inferior de algo mencionado."
+          ]
+        },
+        {
+          "entry": 4,
+          "sense": 1,
+          "pos": "pron",
+          "tags": [
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Menos importante."
+          ]
+        },
+        {
+          "entry": 4,
+          "sense": 2,
+          "pos": "pron",
+          "tags": [
+            "comparative",
+            "indefinite"
+          ],
+          "gloss": [
+            "Menos cosas."
+          ]
+        }
+      ]
+    },
+    "JAMÁS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain noninflecting adverb despite S ending.",
+      "zipf": 4.95,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adv",
+          "tags": [],
+          "gloss": [
+            "En ninguna oportunidad, momento u ocasión."
+          ]
+        }
+      ]
+    },
+    "TRAS": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain preposition despite S ending.",
+      "zipf": 5.43,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "prep",
+          "tags": [],
+          "gloss": [
+            "Indica que va o está detrás de algo o alguien."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "prep",
+          "tags": [],
+          "gloss": [
+            "Indica posterioridad."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 2,
+          "pos": "prep",
+          "tags": [],
+          "gloss": [
+            "Se usa para indicar una persecución o seguimiento."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 3,
+          "pos": "prep",
+          "tags": [],
+          "gloss": [
+            "Indica que algo se agrega o suma a lo anterior."
+          ]
+        }
+      ]
+    },
+    "BLUES": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Retain singular musical-genre noun despite S ending.",
+      "zipf": 3.65,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Estilo musical vocal e instrumental, basado en la utilización de notas de baja altura y de un patrón repetitivo, que suele seguir una estructura de doce compases. En Estados Unidos se desarrolló en el folklore de las comunidades afroamericanas."
+          ]
+        }
+      ]
+    },
+    "BUEN": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary apocopated bueno allomorph; do not introduce an unsupported ban on standard apocope.",
+      "zipf": 5.52,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "irregular"
+          ],
+          "gloss": [
+            "Variante de bueno."
+          ]
+        }
+      ]
+    },
+    "GRAN": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary apocopated grande allomorph; standard apocope is not conjugation/plural.",
+      "zipf": 5.84,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "irregular"
+          ],
+          "gloss": [
+            "Apócope de grande."
+          ]
+        }
+      ]
+    },
+    "ALGÚN": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary apocopated alguno determiner; standard apocope is not conjugation/plural.",
+      "zipf": 5.41,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [
+            "indeterminate"
+          ],
+          "gloss": [
+            "Variante de alguno."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [
+            "indeterminate"
+          ],
+          "gloss": [
+            "Variante de alguna."
+          ]
+        }
+      ]
+    },
+    "ANAL": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary anatomical adjective is not intrinsically an offensive sense; assess content policy consistently rather than suppress all anatomy.",
+      "zipf": 3.75,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Que pertenece o concierne al ano."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "adj",
+          "tags": [],
+          "gloss": [
+            "Se dice de la persona que es compulsiva, terca, obsesionada con la pulcritud y la precisión, resultado de inmadurez emocional."
+          ]
+        }
+      ]
+    },
+    "PENE": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary anatomical noun is not intrinsically obscene; any adult/anatomy restriction must be an explicit separate editorial rule.",
+      "zipf": 4.13,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Órgano eréctil que presenta el macho de los vertebrados, homólogo del clítoris femenino, en el que desembocan los conductos del tracto genitourinario. En algunos animales se retrae en la ingle, y sólo se extiende durante la excreción y la cópula; en el ser humano no es retráctil. Está compuesto en su mayor parte por tejidos esponjosos, llamados cuerpos cavernosos, que al saturarse de sangre producen la erección."
+          ]
+        }
+      ]
+    },
+    "SEMEN": {
+      "category": "independent-ordinary-or-invariant",
+      "reason": "Ordinary biological noun is not intrinsically obscene; any anatomy restriction must be explicit and separate.",
+      "zipf": 3.61,
+      "sourceEvidence": [
+        {
+          "entry": 0,
+          "sense": 0,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Secreción fluida de los genitales de los mamíferos, que contiene los espermatozoides, excretada en la eyaculación."
+          ]
+        },
+        {
+          "entry": 0,
+          "sense": 1,
+          "pos": "noun",
+          "tags": [
+            "masculine"
+          ],
+          "gloss": [
+            "Embrión de las plantas espermatófitas, producto de la evolución del óvulo fecundado por el polen, y normalmente envuelto en un tegumento duro que lo protege."
+          ]
+        }
+      ]
+    }
+  },
+  "policyFindings": [
+    "Broadened ordinary base adverbs, prepositions, conjunctions, numerals, pronouns and independently lexicalized interjections are linguistically reasonable; noun/adj/infinitive-only would add an unsupported exclusion.",
+    "Inspect raw_tags and gloss text in addition to normalized tags: ANDE has raw subestándar; AMOS/GOLES explicitly state obsolete/rare in gloss but lack matching normalized tags.",
+    "Plural-only noun meanings can be bare lemma entries lacking plural tags: combine source text/usage with morphology, preserving invariant singulars and standalone interjections.",
+    "A feminine singular common noun can be an ordinary eligible lexical item even if extractor calls it form-of; do not rescue it using a different obscure noun sense. Base-adjective agreement forms remain distinct.",
+    "Spelling-level Zipf cannot establish eligible-sense frequency, especially for common verb forms, personal names and place names. Commonness exclusions in this review are model linguistic judgments, not measured sense-frequency statistics.",
+    "The prototype allows obsolete/archaic/rare alternative senses whenever another sense qualifies. Eligibility should use a qualifying ordinary sense, and teaching should select that sense rather than the first surviving rare/technical entry.",
+    "Labels such as botanical range or musical origin in a gloss do not by themselves prove a word is exclusively used in that region. Do not impose geographic-name based word bans.",
+    "No blanket prohibition on words having vulgar secondary senses: NEGRO and ordinary benign nouns must survive. Separately review words whose ordinary Mexican reading is offensive while surviving benign senses are specialized."
+  ],
+  "reviewedWords": [
+    "ABAD",
+    "ABAJO",
+    "ABONO",
+    "ABRA",
+    "ABRIL",
+    "ABRIR",
+    "ABUSO",
+    "ACABE",
+    "ACABO",
+    "ACASO",
+    "ACERA",
+    "ACERO",
+    "ACOSO",
+    "ACTA",
+    "ACTO",
+    "ACTOR",
+    "ACTOS",
+    "ADIÓS",
+    "ADOBE",
+    "ADÁN",
+    "AFÁN",
+    "AGRO",
+    "AGUA",
+    "AGUAS",
+    "AGUDO",
+    "AGUJA",
+    "AHORA",
+    "AIRE",
+    "AJENO",
+    "ALBA",
+    "ALDEA",
+    "ALFA",
+    "ALGO",
+    "ALGÚN",
+    "ALIAS",
+    "ALLÁ",
+    "ALLÍ",
+    "ALMA",
+    "ALTA",
+    "ALTAR",
+    "ALTO",
+    "AMADO",
+    "AMAR",
+    "AMIGA",
+    "AMIGO",
+    "AMOR",
+    "AMOS",
+    "AMÉN",
+    "ANAL",
+    "ANCHO",
+    "ANDA",
+    "ANDAR",
+    "ANDE",
+    "ANEXO",
+    "ANIME",
+    "ANTE",
+    "ANTES",
+    "ANUAL",
+    "APODO",
+    "APOYO",
+    "APROX",
+    "APTO",
+    "APURO",
+    "AQUEL",
+    "AQUÉL",
+    "AQUÍ",
+    "ARAÑA",
+    "ARCA",
+    "ARCE",
+    "ARCO",
+    "ARENA",
+    "ARMA",
+    "ARMAR",
+    "ARMAS",
+    "AROMA",
+    "ARROZ",
+    "ARTE",
+    "ARTES",
+    "ASADO",
+    "ASCO",
+    "ASEO",
+    "ASILO",
+    "ASMA",
+    "ASTA",
+    "ATADO",
+    "ATAÚD",
+    "ATLAS",
+    "ATROZ",
+    "ATRÁS",
+    "ATÚN",
+    "AUDAZ",
+    "AUGE",
+    "AULA",
+    "AURA",
+    "AUTO",
+    "AUTOR",
+    "AUTOS",
+    "AVAL",
+    "AVENA",
+    "AVISO",
+    "AVIÓN",
+    "AYER",
+    "AYUDA",
+    "AYUNO",
+    "AZAR",
+    "AZUL",
+    "AÉREO",
+    "BABA",
+    "BAHÍA",
+    "BAILE",
+    "BAJA",
+    "BAJAR",
+    "BAJO",
+    "BAJÓN",
+    "BALA",
+    "BALÓN",
+    "BANCA",
+    "BANCO",
+    "BANDA",
+    "BANDO",
+    "BARBA",
+    "BARCA",
+    "BARCO",
+    "BARDO",
+    "BARRA",
+    "BARRO",
+    "BARÓN",
+    "BASA",
+    "BASE",
+    "BASTA",
+    "BATA",
+    "BATE",
+    "BAÑO",
+    "BEBA",
+    "BEBER",
+    "BEBÉ",
+    "BECA",
+    "BELGA",
+    "BELLO",
+    "BELÉN",
+    "BESAR",
+    "BESO",
+    "BETA",
+    "BICHO",
+    "BICI",
+    "BIEN",
+    "BLOG",
+    "BLUES",
+    "BLUSA",
+    "BOBO",
+    "BOCA",
+    "BODA",
+    "BOLA",
+    "BOLSA",
+    "BOLSO",
+    "BOMBA",
+    "BONO",
+    "BONUS",
+    "BORDA",
+    "BORDE",
+    "BORDO",
+    "BORRA",
+    "BOTA",
+    "BOTE",
+    "BOTÍN",
+    "BOTÓN",
+    "BOXEO",
+    "BRAVO",
+    "BRAZO",
+    "BREVE",
+    "BRISA",
+    "BROMA",
+    "BROTE",
+    "BRUJA",
+    "BRUNO",
+    "BRUTO",
+    "BUEN",
+    "BUENO",
+    "BULTO",
+    "BUQUE",
+    "BURLA",
+    "BURRO",
+    "BUSCA",
+    "BUSCO",
+    "BUSTO",
+    "CABE",
+    "CABLE",
+    "CABO",
+    "CABOS",
+    "CABRA",
+    "CACA",
+    "CACAO",
+    "CACHO",
+    "CADA",
+    "CAER",
+    "CAFÉ",
+    "CAGUE",
+    "CAJA",
+    "CAJÓN",
+    "CALA",
+    "CALDO",
+    "CALLE",
+    "CALMA",
+    "CALOR",
+    "CALVO",
+    "CAMA",
+    "CAMPO",
+    "CANAL",
+    "CANO",
+    "CANON",
+    "CANTE",
+    "CANTO",
+    "CAOS",
+    "CAPA",
+    "CAPAZ",
+    "CAPO",
+    "CARA",
+    "CARGA",
+    "CARGO",
+    "CARNE",
+    "CARO",
+    "CARPA",
+    "CARRO",
+    "CARTA",
+    "CASA",
+    "CASAR",
+    "CASCO",
+    "CASI",
+    "CASO",
+    "CASTA",
+    "CAUCE",
+    "CAUSA",
+    "CAYO",
+    "CAZA",
+    "CAZAR",
+    "CAÍDA",
+    "CAÍDO",
+    "CAÑA",
+    "CAÑO",
+    "CAÑÓN",
+    "CEDER",
+    "CELDA",
+    "CELO",
+    "CELOS",
+    "CELTA",
+    "CENA",
+    "CENAR",
+    "CENSO",
+    "CERA",
+    "CERCA",
+    "CERCO",
+    "CERDA",
+    "CERDO",
+    "CERO",
+    "CERRO",
+    "CESAR",
+    "CESE",
+    "CESTA",
+    "CHACO",
+    "CHAPA",
+    "CHAT",
+    "CHEF",
+    "CHICA",
+    "CHICO",
+    "CHILE",
+    "CHINO",
+    "CHIP",
+    "CHIVO",
+    "CHOTA",
+    "CICLO",
+    "CIEGA",
+    "CIEGO",
+    "CIELO",
+    "CIEN",
+    "CIFRA",
+    "CIMA",
+    "CINCO",
+    "CINE",
+    "CINTA",
+    "CIRCO",
+    "CITA",
+    "CITAR",
+    "CIVIL",
+    "CLAN",
+    "CLARA",
+    "CLARO",
+    "CLASE",
+    "CLAVE",
+    "CLAVO",
+    "CLERO",
+    "CLIC",
+    "CLIMA",
+    "CLIP",
+    "CLON",
+    "CLORO",
+    "CLUB",
+    "COBRA",
+    "COBRE",
+    "COCA",
+    "COCHE",
+    "COCO",
+    "CODO",
+    "COGER",
+    "COJO",
+    "COLA",
+    "COLE",
+    "COLMO",
+    "COLON",
+    "COLOR",
+    "COLÓN",
+    "COMA",
+    "COMBO",
+    "COMER",
+    "COMO",
+    "COMÚN",
+    "CONDE",
+    "CONO",
+    "CONTÉ",
+    "COPA",
+    "COPAS",
+    "COPIA",
+    "CORAL",
+    "COREA",
+    "CORO",
+    "CORRO",
+    "CORTA",
+    "CORTE",
+    "CORTO",
+    "COSA",
+    "COSTA",
+    "COSTE",
+    "COSTO",
+    "CRACK",
+    "CREAR",
+    "CREE",
+    "CREER",
+    "CREMA",
+    "CRIAR",
+    "CROSS",
+    "CRUCE",
+    "CRUDA",
+    "CRUDO",
+    "CRUEL",
+    "CRUZ",
+    "CRUZA",
+    "CRÍA",
+    "CUAL",
+    "CUAN",
+    "CUBA",
+    "CUBO",
+    "CUERO",
+    "CUEVA",
+    "CULO",
+    "CULPA",
+    "CULTO",
+    "CUNA",
+    "CUOTA",
+    "CUPO",
+    "CURA",
+    "CURAR",
+    "CURSO",
+    "CURVA",
+    "CUYO",
+    "CUÁL",
+    "CUÁN",
+    "CÉSAR",
+    "CÓMIC",
+    "CÓMO",
+    "DADO",
+    "DALE",
+    "DAMA",
+    "DAMAS",
+    "DAME",
+    "DANZA",
+    "DANÉS",
+    "DARSE",
+    "DATA",
+    "DATO",
+    "DATOS",
+    "DAÑAR",
+    "DAÑO",
+    "DEBE",
+    "DEBER",
+    "DEBUT",
+    "DECIR",
+    "DEDO",
+    "DEJAR",
+    "DEJE",
+    "DEJO",
+    "DELTA",
+    "DEMO",
+    "DEMÁS",
+    "DENSO",
+    "DESDE",
+    "DESEO",
+    "DEUDA",
+    "DIANA",
+    "DICHA",
+    "DICHO",
+    "DIETA",
+    "DIEZ",
+    "DIGNO",
+    "DIJE",
+    "DISCO",
+    "DOBLE",
+    "DOCE",
+    "DOLER",
+    "DOLOR",
+    "DONA",
+    "DONAR",
+    "DONDE",
+    "DOSIS",
+    "DRAMA",
+    "DROGA",
+    "DUAL",
+    "DUCHA",
+    "DUDA",
+    "DUDAR",
+    "DUDO",
+    "DUELO",
+    "DUEÑA",
+    "DUEÑO",
+    "DULCE",
+    "DUQUE",
+    "DURAR",
+    "DURO",
+    "DÉBIL",
+    "DÓLAR",
+    "DÓNDE",
+    "ECHAR",
+    "EDAD",
+    "ELLA",
+    "ELLAS",
+    "ELLO",
+    "ELLOS",
+    "ENANO",
+    "ENERO",
+    "ENOJO",
+    "ENTE",
+    "ENTRE",
+    "ENVÍO",
+    "ERROR",
+    "ESAS",
+    "ESPÍA",
+    "ESQUÍ",
+    "ESTAR",
+    "ESTE",
+    "ETAPA",
+    "ETNIA",
+    "EURO",
+    "EXTRA",
+    "FALDA",
+    "FALLA",
+    "FALLO",
+    "FALSO",
+    "FALTA",
+    "FALTO",
+    "FAMA",
+    "FARO",
+    "FARSA",
+    "FASE",
+    "FATAL",
+    "FAUNA",
+    "FAVOR",
+    "FECHA",
+    "FELIZ",
+    "FERIA",
+    "FEROZ",
+    "FERRY",
+    "FETO",
+    "FIBRA",
+    "FICHA",
+    "FIEL",
+    "FIJA",
+    "FIJAR",
+    "FIJO",
+    "FILA",
+    "FILM",
+    "FILO",
+    "FINAL",
+    "FINCA",
+    "FINO",
+    "FIRMA",
+    "FIRME",
+    "FLACO",
+    "FLOJO",
+    "FLOR",
+    "FLORA",
+    "FLOTA",
+    "FLUJO",
+    "FOCO",
+    "FONDO",
+    "FORMA",
+    "FORO",
+    "FORRO",
+    "FOSA",
+    "FOTO",
+    "FRASE",
+    "FRAY",
+    "FRENO",
+    "FRESA",
+    "FRITO",
+    "FRUTA",
+    "FRUTO",
+    "FRÍA",
+    "FRÍO",
+    "FUEGO",
+    "FUERA",
+    "FUERO",
+    "FUGA",
+    "FUMAR",
+    "FURIA",
+    "FUSIL",
+    "FÁCIL",
+    "GAFAS",
+    "GALA",
+    "GALLO",
+    "GALÁN",
+    "GAMA",
+    "GANAR",
+    "GARRA",
+    "GARZA",
+    "GASTO",
+    "GATA",
+    "GATO",
+    "GAZA",
+    "GENIO",
+    "GENTE",
+    "GESTO",
+    "GIRA",
+    "GIRAR",
+    "GIRO",
+    "GLOBO",
+    "GOLES",
+    "GOLF",
+    "GOLFO",
+    "GOLPE",
+    "GOMA",
+    "GORDO",
+    "GORRA",
+    "GORRO",
+    "GOTA",
+    "GOTAS",
+    "GOZAR",
+    "GOZO",
+    "GRADO",
+    "GRAN",
+    "GRANO",
+    "GRASA",
+    "GRAVE",
+    "GREY",
+    "GRIPE",
+    "GRIS",
+    "GRITA",
+    "GRITO",
+    "GRUPO",
+    "GUAPO",
+    "GUIAR",
+    "GUSTO",
+    "GUÍA",
+    "GUÍAS",
+    "HABER",
+    "HABLA",
+    "HACER",
+    "HACHA",
+    "HACIA",
+    "HADAS",
+    "HARTO",
+    "HASTA",
+    "HAYA",
+    "HECHO",
+    "HENRY",
+    "HERIR",
+    "HIELO",
+    "HIJO",
+    "HILO",
+    "HIMNO",
+    "HINDÚ",
+    "HITO",
+    "HOGAR",
+    "HOJA",
+    "HOLA",
+    "HONDA",
+    "HONDO",
+    "HONOR",
+    "HONRA",
+    "HORA",
+    "HORAS",
+    "HORNO",
+    "HOTEL",
+    "HOYO",
+    "HUECO",
+    "HUESO",
+    "HUEVO",
+    "HUIDA",
+    "HUIDO",
+    "HUIR",
+    "HUMO",
+    "HUMOR",
+    "HÁBIL",
+    "HÉROE",
+    "IDEA",
+    "IDEAL",
+    "IGUAL",
+    "IMÁN",
+    "INCA",
+    "INDIO",
+    "IRANÍ",
+    "IRIS",
+    "IRSE",
+    "ISLA",
+    "ISLAM",
+    "JABÓN",
+    "JAMÁS",
+    "JAMÓN",
+    "JARA",
+    "JAULA",
+    "JAZZ",
+    "JEFA",
+    "JEFE",
+    "JEREZ",
+    "JOVEN",
+    "JOYA",
+    "JUDAS",
+    "JUDÍO",
+    "JUEGO",
+    "JUEZ",
+    "JUGAR",
+    "JUGO",
+    "JULIO",
+    "JUNIO",
+    "JUNTA",
+    "JUNTO",
+    "JURA",
+    "JUSTA",
+    "JUSTO",
+    "KARMA",
+    "KILO",
+    "LABIO",
+    "LABOR",
+    "LADO",
+    "LAGO",
+    "LAMA",
+    "LANA",
+    "LANCE",
+    "LANZA",
+    "LAPSO",
+    "LARGO",
+    "LATA",
+    "LATÍN",
+    "LAVA",
+    "LAVAR",
+    "LAZO",
+    "LEAL",
+    "LEAN",
+    "LECHE",
+    "LECHO",
+    "LEER",
+    "LEGAL",
+    "LEGO",
+    "LEJOS",
+    "LEMA",
+    "LENTE",
+    "LENTO",
+    "LETAL",
+    "LETRA",
+    "LEVE",
+    "LEÑA",
+    "LEÓN",
+    "LIBRA",
+    "LIBRE",
+    "LIBRO",
+    "LICEO",
+    "LICOR",
+    "LIDIA",
+    "LIGA",
+    "LIGAR",
+    "LIMA",
+    "LIMBO",
+    "LIMÓN",
+    "LINDO",
+    "LINO",
+    "LISA",
+    "LISTA",
+    "LISTO",
+    "LITRO",
+    "LLAMA",
+    "LLANO",
+    "LLAVE",
+    "LLENO",
+    "LLORO",
+    "LOBO",
+    "LOCAL",
+    "LOCO",
+    "LODO",
+    "LOGO",
+    "LOGRO",
+    "LOMA",
+    "LOMO",
+    "LORD",
+    "LORO",
+    "LOTE",
+    "LUCHA",
+    "LUCIO",
+    "LUCIR",
+    "LUCRO",
+    "LUEGO",
+    "LUGAR",
+    "LUIS",
+    "LUJO",
+    "LUNA",
+    "LUNAR",
+    "LUNES",
+    "LUTO",
+    "LÁPIZ",
+    "LÁSER",
+    "LÍDER",
+    "LÍNEA",
+    "MACHO",
+    "MACRO",
+    "MADRE",
+    "MAFIA",
+    "MAGIA",
+    "MAGO",
+    "MALO",
+    "MALTA",
+    "MAMA",
+    "MAMÁ",
+    "MANDA",
+    "MANDE",
+    "MANDO",
+    "MANGA",
+    "MANGO",
+    "MANO",
+    "MANTA",
+    "MANTO",
+    "MANÍA",
+    "MAPA",
+    "MARA",
+    "MARCA",
+    "MARCO",
+    "MAREA",
+    "MARTA",
+    "MARZO",
+    "MARÍA",
+    "MASA",
+    "MATA",
+    "MATAR",
+    "MATE",
+    "MATES",
+    "MATO",
+    "MATÓ",
+    "MAYA",
+    "MAYO",
+    "MAYOR",
+    "MAZO",
+    "MAÍZ",
+    "MEDIA",
+    "MEDIO",
+    "MEDIR",
+    "MEJOR",
+    "MEME",
+    "MENA",
+    "MENOR",
+    "MENOS",
+    "MENTA",
+    "MENTE",
+    "MENÚ",
+    "MERO",
+    "MESA",
+    "META",
+    "METAL",
+    "METER",
+    "METRO",
+    "MICRO",
+    "MIEDO",
+    "MIEL",
+    "MILLA",
+    "MINA",
+    "MIRA",
+    "MIRAR",
+    "MIRAS",
+    "MISA",
+    "MISIL",
+    "MISMO",
+    "MISS",
+    "MITAD",
+    "MITIN",
+    "MITO",
+    "MIXTO",
+    "MODA",
+    "MODO",
+    "MOLA",
+    "MOLDE",
+    "MONA",
+    "MONJA",
+    "MONJE",
+    "MONO",
+    "MONTA",
+    "MONTE",
+    "MONTO",
+    "MORA",
+    "MORAL",
+    "MORIR",
+    "MORO",
+    "MORRO",
+    "MOSCA",
+    "MOTA",
+    "MOTO",
+    "MOTOR",
+    "MOTÍN",
+    "MOVER",
+    "MOZO",
+    "MUCHO",
+    "MUDA",
+    "MUDAR",
+    "MUDO",
+    "MUJER",
+    "MULA",
+    "MULTA",
+    "MUNDO",
+    "MURAL",
+    "MURO",
+    "MUSA",
+    "MUSEO",
+    "MUTUA",
+    "MUTUO",
+    "MÓVIL",
+    "NACER",
+    "NADA",
+    "NADAR",
+    "NADIE",
+    "NANA",
+    "NARCO",
+    "NARIZ",
+    "NASA",
+    "NATAL",
+    "NAVAL",
+    "NAVE",
+    "NAZI",
+    "NEGAR",
+    "NEGRA",
+    "NEGRO",
+    "NENA",
+    "NENE",
+    "NETA",
+    "NETO",
+    "NIDO",
+    "NIETO",
+    "NIEVE",
+    "NINJA",
+    "NIVEL",
+    "NIÑA",
+    "NIÑEZ",
+    "NIÑO",
+    "NOBEL",
+    "NOBLE",
+    "NOCHE",
+    "NOMÁS",
+    "NORMA",
+    "NORTE",
+    "NOTA",
+    "NOTAR",
+    "NOTO",
+    "NOVA",
+    "NOVIO",
+    "NUBE",
+    "NUCA",
+    "NUDO",
+    "NUEVA",
+    "NUEVE",
+    "NUEVO",
+    "NULO",
+    "NUNCA",
+    "OASIS",
+    "OBRA",
+    "OBVIO",
+    "OCHO",
+    "OCIO",
+    "ODIA",
+    "ODIAR",
+    "ODIO",
+    "OESTE",
+    "OIGA",
+    "OJALÁ",
+    "OLER",
+    "OLIVA",
+    "OLLA",
+    "OLOR",
+    "OMEGA",
+    "ONCE",
+    "ONDA",
+    "OPTAR",
+    "ORAL",
+    "ORDEN",
+    "OREJA",
+    "ORINA",
+    "OTERO",
+    "OTOÑO",
+    "OTRO",
+    "OVEJA",
+    "OÍDO",
+    "PACTO",
+    "PADRE",
+    "PAGA",
+    "PAGAR",
+    "PAGO",
+    "PAJA",
+    "PALA",
+    "PALMA",
+    "PALO",
+    "PAMPA",
+    "PANA",
+    "PANDA",
+    "PANEL",
+    "PANZA",
+    "PAPA",
+    "PAPAS",
+    "PAPEL",
+    "PAPÁ",
+    "PARA",
+    "PARAR",
+    "PARDO",
+    "PARE",
+    "PARED",
+    "PARO",
+    "PARRA",
+    "PARTE",
+    "PARTO",
+    "PASA",
+    "PASAR",
+    "PASE",
+    "PASEO",
+    "PASO",
+    "PASOS",
+    "PASTA",
+    "PASTO",
+    "PATA",
+    "PATIO",
+    "PATO",
+    "PAUSA",
+    "PAUTA",
+    "PAVO",
+    "PAÍS",
+    "PEAJE",
+    "PECHO",
+    "PEDIR",
+    "PEDO",
+    "PEGA",
+    "PEGAR",
+    "PEGO",
+    "PELEA",
+    "PELO",
+    "PENA",
+    "PENAL",
+    "PENAS",
+    "PENE",
+    "PEOR",
+    "PEPE",
+    "PERA",
+    "PERLA",
+    "PERO",
+    "PERRA",
+    "PERRO",
+    "PERSA",
+    "PESA",
+    "PESAR",
+    "PESCA",
+    "PESO",
+    "PESTE",
+    "PEÑA",
+    "PIANO",
+    "PICA",
+    "PICO",
+    "PIDO",
+    "PIEL",
+    "PIEZA",
+    "PIJA",
+    "PILA",
+    "PILAR",
+    "PINO",
+    "PINTA",
+    "PINTO",
+    "PIOLA",
+    "PIPA",
+    "PISAR",
+    "PISO",
+    "PISTA",
+    "PITO",
+    "PIZZA",
+    "PIÑA",
+    "PLACA",
+    "PLAGA",
+    "PLAN",
+    "PLANA",
+    "PLANO",
+    "PLATA",
+    "PLATO",
+    "PLAYA",
+    "PLAZA",
+    "PLAZO",
+    "PLENA",
+    "PLENO",
+    "PLOMO",
+    "PLUMA",
+    "PLUS",
+    "POBRE",
+    "POCO",
+    "PODER",
+    "PODIO",
+    "POEMA",
+    "POETA",
+    "POLAR",
+    "POLLA",
+    "POLLO",
+    "POLO",
+    "POLVO",
+    "PONER",
+    "PONGO",
+    "PORNO",
+    "PORRO",
+    "PORTA",
+    "PORTE",
+    "POSTA",
+    "POSTE",
+    "POZO",
+    "PRADO",
+    "PRESA",
+    "PRESO",
+    "PRIMA",
+    "PRIME",
+    "PRIMO",
+    "PRISA",
+    "PROFE",
+    "PROSA",
+    "PUES",
+    "PULSO",
+    "PUMA",
+    "PUNK",
+    "PUNTA",
+    "PUNTO",
+    "PURO",
+    "PUÑO",
+    "QUEDA",
+    "QUEDO",
+    "QUEJA",
+    "QUEMA",
+    "QUESO",
+    "QUIEN",
+    "QUITA",
+    "QUIZÁ",
+    "QUIÉN",
+    "RABIA",
+    "RACHA",
+    "RADAR",
+    "RADIO",
+    "RAFA",
+    "RAJA",
+    "RAMA",
+    "RAMO",
+    "RAMÓN",
+    "RANA",
+    "RANGO",
+    "RARO",
+    "RASGO",
+    "RATA",
+    "RATO",
+    "RATÓN",
+    "RAYA",
+    "RAYO",
+    "RAYOS",
+    "RAZA",
+    "RAZÓN",
+    "RAÍZ",
+    "REAL",
+    "RECTA",
+    "RECTO",
+    "REGLA",
+    "REINA",
+    "REINO",
+    "RELAX",
+    "RELOJ",
+    "RENAL",
+    "RENTA",
+    "RESTA",
+    "RESTO",
+    "RETO",
+    "REVÉS",
+    "REZAR",
+    "REZO",
+    "REÍR",
+    "RICO",
+    "RIEGO",
+    "RIFLE",
+    "RIGOR",
+    "RIMA",
+    "RIOJA",
+    "RISA",
+    "RITMO",
+    "RITO",
+    "RIVAL",
+    "RIÑÓN",
+    "ROBAR",
+    "ROBLE",
+    "ROBO",
+    "ROBOT",
+    "ROCA",
+    "ROCHA",
+    "ROCK",
+    "ROCÍO",
+    "RODAR",
+    "RODEO",
+    "ROJA",
+    "ROJO",
+    "ROLLO",
+    "ROMA",
+    "RONDA",
+    "ROPA",
+    "ROQUE",
+    "ROSA",
+    "ROTA",
+    "ROTO",
+    "RUBIA",
+    "RUBIO",
+    "RUBRO",
+    "RUEDA",
+    "RUEGO",
+    "RUGBY",
+    "RUIDO",
+    "RUINA",
+    "RUMBO",
+    "RUMOR",
+    "RURAL",
+    "RUSO",
+    "RUTA",
+    "SABER",
+    "SABIO",
+    "SABOR",
+    "SACA",
+    "SACAR",
+    "SACO",
+    "SAGA",
+    "SALA",
+    "SALDO",
+    "SALE",
+    "SALES",
+    "SALIR",
+    "SALSA",
+    "SALTO",
+    "SALUD",
+    "SALVA",
+    "SALVE",
+    "SALVO",
+    "SALÓN",
+    "SANO",
+    "SANTO",
+    "SAPO",
+    "SAQUE",
+    "SECA",
+    "SECO",
+    "SECTA",
+    "SEDA",
+    "SEDE",
+    "SEGÚN",
+    "SEIS",
+    "SELLO",
+    "SELVA",
+    "SEMEN",
+    "SENA",
+    "SENDA",
+    "SENO",
+    "SERIE",
+    "SERIO",
+    "SEXO",
+    "SEXTA",
+    "SEXTO",
+    "SEÑAL",
+    "SEÑAS",
+    "SEÑOR",
+    "SHOW",
+    "SIDA",
+    "SIETE",
+    "SIGLO",
+    "SIGNO",
+    "SILLA",
+    "SILVA",
+    "SINO",
+    "SIRIO",
+    "SISMO",
+    "SITIO",
+    "SOBRA",
+    "SOBRE",
+    "SOCIO",
+    "SODA",
+    "SODIO",
+    "SOFÁ",
+    "SOJA",
+    "SOLAR",
+    "SOLO",
+    "SONAR",
+    "SONDA",
+    "SOPA",
+    "SORDO",
+    "SOTO",
+    "SOÑAR",
+    "SUAVE",
+    "SUBIR",
+    "SUCIO",
+    "SUDOR",
+    "SUECO",
+    "SUELO",
+    "SUERO",
+    "SUEÑO",
+    "SUFRA",
+    "SUITE",
+    "SUIZO",
+    "SUMA",
+    "SUMAR",
+    "SUMO",
+    "SUSTO",
+    "SUTIL",
+    "SUYO",
+    "SÓLO",
+    "SÚPER",
+    "TABLA",
+    "TACO",
+    "TACTO",
+    "TAJO",
+    "TALLA",
+    "TANGO",
+    "TANTO",
+    "TAPA",
+    "TAPAR",
+    "TAPIA",
+    "TARDE",
+    "TAREA",
+    "TARTA",
+    "TASA",
+    "TAXI",
+    "TAXIS",
+    "TAZA",
+    "TECHO",
+    "TELA",
+    "TELE",
+    "TELÓN",
+    "TEMA",
+    "TEMER",
+    "TEMOR",
+    "TENER",
+    "TENIA",
+    "TENIS",
+    "TENOR",
+    "TESIS",
+    "TEST",
+    "TEXTO",
+    "TIBIA",
+    "TIGRE",
+    "TINA",
+    "TINTA",
+    "TINTO",
+    "TIPO",
+    "TIRA",
+    "TIRAR",
+    "TIRO",
+    "TITO",
+    "TOCA",
+    "TOCAR",
+    "TOCAS",
+    "TODO",
+    "TOMA",
+    "TOMAR",
+    "TOMO",
+    "TONO",
+    "TONTO",
+    "TOPE",
+    "TOPO",
+    "TOQUE",
+    "TORNO",
+    "TORO",
+    "TORPE",
+    "TORRE",
+    "TORTA",
+    "TOTAL",
+    "TOUR",
+    "TRABA",
+    "TRAER",
+    "TRAGO",
+    "TRAJE",
+    "TRAMA",
+    "TRAMO",
+    "TRAPO",
+    "TRAS",
+    "TRATA",
+    "TRATO",
+    "TRAZA",
+    "TRECE",
+    "TREN",
+    "TRES",
+    "TRIBU",
+    "TRIGO",
+    "TRONO",
+    "TROPA",
+    "TROZO",
+    "TRUCO",
+    "TRÍO",
+    "TUBO",
+    "TUIT",
+    "TUMBA",
+    "TUMOR",
+    "TURBO",
+    "TURCA",
+    "TURCO",
+    "TURNO",
+    "TUTOR",
+    "TUYA",
+    "TUYO",
+    "TUYOS",
+    "TÚNEL",
+    "UNAS",
+    "UNIR",
+    "UNIÓN",
+    "UNOS",
+    "URNA",
+    "USAR",
+    "USTED",
+    "USUAL",
+    "VACA",
+    "VACAS",
+    "VACÍO",
+    "VAGO",
+    "VAGÓN",
+    "VAINA",
+    "VALE",
+    "VALER",
+    "VALLA",
+    "VALLE",
+    "VALOR",
+    "VALÍA",
+    "VAMOS",
+    "VANO",
+    "VAPOR",
+    "VARA",
+    "VARÓN",
+    "VASCO",
+    "VASO",
+    "VAYA",
+    "VEGA",
+    "VEJEZ",
+    "VELA",
+    "VELAR",
+    "VELAS",
+    "VELO",
+    "VELOZ",
+    "VENA",
+    "VENDA",
+    "VENIA",
+    "VENIR",
+    "VENTA",
+    "VENUS",
+    "VERA",
+    "VERAS",
+    "VERBO",
+    "VERDE",
+    "VERGA",
+    "VERME",
+    "VERSE",
+    "VERSO",
+    "VETO",
+    "VIAJE",
+    "VICIO",
+    "VIDA",
+    "VIDEO",
+    "VIEJA",
+    "VIEJO",
+    "VIGOR",
+    "VILLA",
+    "VINO",
+    "VIOLA",
+    "VIRAL",
+    "VIRUS",
+    "VISA",
+    "VISTA",
+    "VISTO",
+    "VITAL",
+    "VIUDA",
+    "VIVA",
+    "VIVIR",
+    "VIVO",
+    "VIÑA",
+    "VOCAL",
+    "VODKA",
+    "VOLAR",
+    "VOTAR",
+    "VOTO",
+    "VUELO",
+    "VÍAS",
+    "YANG",
+    "YERBA",
+    "YERNO",
+    "YESO",
+    "ZONA",
+    "ZORRA",
+    "ZORRO",
+    "ZUMO",
+    "ÁCIDO",
+    "ÁLBUM",
+    "ÁNGEL",
+    "ÁNIMO",
+    "ÁRABE",
+    "ÁRBOL",
+    "ÁREA",
+    "ÉLITE",
+    "ÉPICA",
+    "ÉPICO",
+    "ÉPOCA",
+    "ÉSTE",
+    "ÉTICA",
+    "ÉTICO",
+    "ÉXITO",
+    "ÉXODO",
+    "ÍDOLO",
+    "ÓPERA",
+    "ÚNICO",
+    "ÚTERO",
+    "ÚTIL"
+  ]
+}

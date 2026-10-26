@@ -1,0 +1,454 @@
+{
+  "inputSha256": "e1cd688a862b732a1e6dd99f01f5bc092da2a43fea0bfa12dca39ecac0054dfb",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model linguistic/source review of all 25 proposed lexical mappings, not native-human certification. Matched exact raw Spanish word/POS/sense hashes and selected lexical fields against pinned gzip, and exact MCR and WordNet lines against verified local source files. No production edits.",
+  "approved": [
+    {
+      "candidateIndex": 1,
+      "spanish": "canular",
+      "word": "CANULAR",
+      "partOfSpeech": "adj",
+      "synset": "02264807-a",
+      "actualWordNetPOS": "s",
+      "english": [
+        "tube-shaped"
+      ],
+      "context": "Adjective morphology, not the separate cannulating verb; source explicitly says cannula-shaped.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "6ca5eaaeafd10de34e349f0662181853c69a8506ef6d8955f89ead1c61eb3010",
+      "wordnetRecordSha256": "d3ef5cbe243612438c94ef535588a7da86c52fb9f4190dd4126b5cd69d34db2d",
+      "mcrRecordSha256": "61284f81cc286ccb688c74ae620fafe9d6ade10e5bff34db444df4469acea58e",
+      "notes": "Adjective only, tube/cannula-shaped; invariable gender source does not make it the unrelated medical verb."
+    },
+    {
+      "candidateIndex": 16,
+      "spanish": "aliarse",
+      "word": "ALIARSE",
+      "partOfSpeech": "verb",
+      "synset": "02430191-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to form an alliance"
+      ],
+      "context": "Act jointly with others toward a common objective; lexical whole pronominal word, not an inflected ally rule.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "2c183bb80316e8e083bc187e8d4726b72b9e678ba5c367535c7ecc8b3402cc5f",
+      "wordnetRecordSha256": "92a18e3a3aa7dc7964705bc5c00ed118d03c6f48ec65bfbdc5b2c6327768ce40",
+      "mcrRecordSha256": "94bba337b446cc9d3dc340b2ddfdbb860a113c7929cf001b07896981b6211670",
+      "notes": "Whole pronominal lexical alliance meaning; no ally finite paradigm or SE stripping approved."
+    },
+    {
+      "candidateIndex": 23,
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "partOfSpeech": "verb",
+      "synset": "02696801-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to rise above a surface"
+      ],
+      "context": "Selected literal elevating/protruding reading, not animal rearing, standing up or rebellion borrowed from other synsets.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "6d1732adf741fabe6998b17f42efbdadb03d47c31f840f5544326a30d9e04869",
+      "wordnetRecordSha256": "f13554270cfef51f5daf7bc1365be1eebdd8d9fb9449ebe388d24c7489789678",
+      "mcrRecordSha256": "4d1231e73c56cb65942f5b927a8c300f1cc1211317f0ede6fdf9fda78707a839",
+      "notes": "Literal protruding/rising above a surface, not unrelated rebellion/rearing."
+    },
+    {
+      "candidateIndex": 26,
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "partOfSpeech": "verb",
+      "synset": "01087197-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to prepare oneself for war"
+      ],
+      "context": "Exact prepararse para la guerra sense; no actual conflict, plan or weapon detail invented.",
+      "selectedSpanishSenseIndex": 2,
+      "spanishRecordSha256": "5d570d78e6f1f04c950df101e65f6ba2937a1e2d7947fefa406cf01e676698b7",
+      "wordnetRecordSha256": "d2371a6107688a839028d67e475a210040b1f6e7e9685f58e93055bc25c9e489",
+      "mcrRecordSha256": "6b9c2036e3ba143002fbbe0a44cc70eaf5befa7c5a5dab97636f8d8e3b8f4ad6",
+      "notes": "Self-preparation or self-provision of arms follows each distinct selected Spanish sense; keep the two proofs separate."
+    },
+    {
+      "candidateIndex": 27,
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "partOfSpeech": "verb",
+      "synset": "02334867-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to arm oneself"
+      ],
+      "context": "Reflexive argument is explicitly oneself in Spanish; WordNet supply-with-arms concept is narrowed to self-arming, not arming someone else.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "5d570d78e6f1f04c950df101e65f6ba2937a1e2d7947fefa406cf01e676698b7",
+      "wordnetRecordSha256": "ce73623f564eb2d8a3b8df7c944709a373242120ef9c4ca696aae1652d67c793",
+      "mcrRecordSha256": "db68f4c4a5a6522e7cba6bced794a45681e092f161959114930449f15a02da3a",
+      "notes": "Self-preparation or self-provision of arms follows each distinct selected Spanish sense; keep the two proofs separate."
+    },
+    {
+      "candidateIndex": 32,
+      "spanish": "asirse",
+      "word": "ASIRSE",
+      "partOfSpeech": "verb",
+      "synset": "01216331-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to cling tightly"
+      ],
+      "context": "Grip/hold on to a contextual thing, not exploit a pretext or contend with another person.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "035df07b81baa49df218e0850f13a8c9f71bd7d0acc3f97f1977fa8d71caa7ae",
+      "wordnetRecordSha256": "fdfee40e5d69f005cc47c880aaaa569ed1f91d643a2ee51e4a7a5f631c5dc776",
+      "mcrRecordSha256": "25be9a9a535b3d20b4c40ca904bf2add4238c6467521811f20c31948d31a986b",
+      "notes": "Holding/clinging to a contextual thing; no invented object or pretext sense."
+    },
+    {
+      "candidateIndex": 42,
+      "spanish": "calarse",
+      "word": "CALARSE",
+      "partOfSpeech": "verb",
+      "synset": "01862340-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to stall (of an engine)"
+      ],
+      "context": "Intransitive abrupt stopping of an engine; not a person stalling someone or an aircraft aerodynamic stall.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "4036b2afae9d35cabdfb28d69d9831963b6a117c97079ecb25b2d318c8e1718c",
+      "wordnetRecordSha256": "a857243ffc94c7bcd754c9f5e535cf2f3baa2f6a3e5c7093d2e476688ae61c09",
+      "mcrRecordSha256": "82e67297e178d3ce9ad0048dfeb5933e7dc4a8e295fbf2d96dfbd68edf4f8701",
+      "notes": "Engine comes to a stop; no human-caused stalling or aircraft sense."
+    },
+    {
+      "candidateIndex": 45,
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "partOfSpeech": "verb",
+      "synset": "00618057-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to make a mistake"
+      ],
+      "context": "Colloquial selected error sense, not filtering through material or entering uninvited.",
+      "selectedSpanishSenseIndex": 2,
+      "spanishRecordSha256": "78bf6b561845cdf6bda8bbc2dcabcb2d07f36e6bb601dbc3ef30940f94c4d6b7",
+      "wordnetRecordSha256": "9d9d1b987ba51f72bc7eb62ed7daf62d54678ce4cc23452dccabf2ff2d3236aa",
+      "mcrRecordSha256": "e56373079d90fbd6235a2f40f0ac4802d6a7b3630db09159caabe1bf4a5ba91c",
+      "notes": "Separate colloquial mistake and gatecrashing readings retain their respective source senses; not computer/physical crash."
+    },
+    {
+      "candidateIndex": 47,
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "partOfSpeech": "verb",
+      "synset": "02657080-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to enter an event uninvited"
+      ],
+      "context": "Selected meeting/party gatecrashing; not physical collision or computer failure.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "78bf6b561845cdf6bda8bbc2dcabcb2d07f36e6bb601dbc3ef30940f94c4d6b7",
+      "wordnetRecordSha256": "1e8840f0c7a50806207a2353dc2217858afa65fc98ec833bd62f29f4d31064bd",
+      "mcrRecordSha256": "0a6bd387a04320507d13a18bf69c3231d2c72c88546aff20ef901a823a57a9ec",
+      "notes": "Separate colloquial mistake and gatecrashing readings retain their respective source senses; not computer/physical crash."
+    },
+    {
+      "candidateIndex": 62,
+      "spanish": "fijarse",
+      "word": "FIJARSE",
+      "partOfSpeech": "verb",
+      "synset": "00616670-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to pay attention"
+      ],
+      "context": "Attention to something in context; not decide something or Cuban exam-copying.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "16ad16b1c38babd4d251abcb57f6c33442b9c63d0cd3d38b4f7afd622ecb2316",
+      "wordnetRecordSha256": "0bd903a155fe0dec987f9683b5a010a7f2e79cc7b5d93ceed0389dfdccafa326",
+      "mcrRecordSha256": "0ea1877db3eab8dec0f78bddd0e83f008e28ecd6a04ddeef28363de9c5f85cb3",
+      "notes": "Attention to a contextual target; not causative fixing."
+    },
+    {
+      "candidateIndex": 66,
+      "spanish": "grisear",
+      "word": "GRISEAR",
+      "partOfSpeech": "verb",
+      "synset": "00289392-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to turn gray"
+      ],
+      "context": "Literal gradual acquisition of gray color. Also proposed in the separate40-frame draft; do not double-count or automatically add inflection authority.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "73ad5725ac1d0f67301253d848ab083f35d01e8a1edb16a77087f47b99e9cb83",
+      "wordnetRecordSha256": "f7aaf578e9cbad4f94f0ea475a20713b60deb662ef35e3551856d29919365738",
+      "mcrRecordSha256": "b2e7c57fe36cbb3a97093590bb77807922e009f1424cf0d6796205e11bcd2038",
+      "notes": "Literal becoming gray; lexical approval overlaps new-frame provider and grants no fresh personal inflections."
+    },
+    {
+      "candidateIndex": 68,
+      "spanish": "guiarse",
+      "word": "GUIARSE",
+      "partOfSpeech": "verb",
+      "synset": "02159427-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to use clues or ideas as a guide"
+      ],
+      "context": "Clues/signals/ideas/motivation guide a decision; not causatively guide another person.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "a0949fb0f85ac12fdea88ab71561304051808a02fcd6b0c5dd39a8bb3f014d2a",
+      "wordnetRecordSha256": "3a567f5616d2ba951b75ac8f660b7f6b043536c45ae2375434e09a2ea3400993",
+      "mcrRecordSha256": "b2181db054fec8c93edebf06f196993700fa4f06fc0b778f0e94fffb90485689",
+      "notes": "Using contextual clues/ideas for one’s own decision; no guiding another person."
+    },
+    {
+      "candidateIndex": 74,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "partOfSpeech": "verb",
+      "synset": "00374135-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to freeze into ice"
+      ],
+      "context": "Liquid becomes ice; inchoative, never a person causing something else to freeze.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "1d834e73b594508122ba40a45aefc3c797c022a49101378dc6dab3fca3753fbd",
+      "wordnetRecordSha256": "3e9318d103d5897b3f567545c7808cfed859e8561e59aa8cfcc80abefb3b82ba",
+      "mcrRecordSha256": "fef4cc526aebcacbfd8a910eb880e76d21559c8ccf59efa3bcc3dfc90ece318e",
+      "notes": "Inchoative change in liquid/material, never an agent causing another thing to freeze; misleading source transitive tag does not alter the selected roles."
+    },
+    {
+      "candidateIndex": 76,
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "partOfSpeech": "verb",
+      "synset": "00445711-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to solidify from cooling"
+      ],
+      "context": "A formerly molten/liquid substance becomes solid through cooling; not causative freezing of an external patient.",
+      "selectedSpanishSenseIndex": 2,
+      "spanishRecordSha256": "1d834e73b594508122ba40a45aefc3c797c022a49101378dc6dab3fca3753fbd",
+      "wordnetRecordSha256": "8ef0ace517ef69dcb614a3af1b3e0ce96f7cea486299bd02dda1d4833cc54f2d",
+      "mcrRecordSha256": "b3af8666f1e95322dac1c048d15ff0d8bed22290198defd369fac33286793cb2",
+      "notes": "Inchoative change in liquid/material, never an agent causing another thing to freeze; misleading source transitive tag does not alter the selected roles."
+    },
+    {
+      "candidateIndex": 88,
+      "spanish": "ligarse",
+      "word": "LIGARSE",
+      "partOfSpeech": "verb",
+      "synset": "01356750-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to bond firmly (physical attachment)"
+      ],
+      "context": "Selected physical firm bond, not every moral alliance or regional telephone/castigation sense.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "8a3c88c7fd635b83b2be29d4eaddbd0aa0db7b920e76b5c56ec4868b47f86422",
+      "wordnetRecordSha256": "ab8bdb17311914bed9490a7134824e36a1119a8db7f600e67a6b22e482800eed",
+      "mcrRecordSha256": "3af2adde8c44828d5b822ec87d441f3f1a281f3cdb8c2772566330370def8fb8",
+      "notes": "Narrow physical firm attachment subset, not every social connection or regional telephone meaning."
+    },
+    {
+      "candidateIndex": 92,
+      "spanish": "medirse",
+      "word": "MEDIRSE",
+      "partOfSpeech": "verb",
+      "synset": "01072262-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to measure oneself against others in competition"
+      ],
+      "context": "Comparison/confrontation establishes one's strength; not literal measuring a garment or self-restraint in speech.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "ec570858836010f00c99d13e8f55fa70486ef3735ccc1d2a69d686fa6976942b",
+      "wordnetRecordSha256": "ce674de5454ce244828046b71da9e5f31b5d856501c284a9bceea9f768394f2a",
+      "mcrRecordSha256": "b265b367f1135dca0a996238cf32e26a88984c65d56e9f5d702ed239fa064ae7",
+      "notes": "Competitive comparison with others; not literal self-measurement or speech restraint."
+    },
+    {
+      "candidateIndex": 95,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "partOfSpeech": "verb",
+      "synset": "00849332-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to mock someone by imitation"
+      ],
+      "context": "Selected derisive-imitation WordNet reading within Spanish burlarse; does not assert all mocking is imitation.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "f37f434c461cdf4d87fc1cb6596b6315615addc0e2c39f475c3500bf9f7f22e6",
+      "wordnetRecordSha256": "b5ab4c2ec7513e206561abdb97041287c23043ddfd996e5152abf3473b0dacae",
+      "mcrRecordSha256": "007124e8f945d588f529cbe8638099b847f6af76d4220ace3343e7c3512e532a",
+      "notes": "Imitation-based mockery and contemptuous jeering are separate valid selected subsets of burlarse, not exhaustive equivalents."
+    },
+    {
+      "candidateIndex": 96,
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "partOfSpeech": "verb",
+      "synset": "00850192-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to jeer at someone"
+      ],
+      "context": "Selected contemptuous derision, not merely smiling or persistent harassment automatically inferred from other synsets.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "f37f434c461cdf4d87fc1cb6596b6315615addc0e2c39f475c3500bf9f7f22e6",
+      "wordnetRecordSha256": "a8491038a420b537a2ce77f4d4bb68c392e30df453752896a8083f20aa565ae8",
+      "mcrRecordSha256": "42429458ba1a2d9ca6b51b1404a110fbcd6a7c10767aa30ec82655cae2e69fac",
+      "notes": "Imitation-based mockery and contemptuous jeering are separate valid selected subsets of burlarse, not exhaustive equivalents."
+    },
+    {
+      "candidateIndex": 103,
+      "spanish": "picarse",
+      "word": "PICARSE",
+      "partOfSpeech": "verb",
+      "synset": "00848894-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to take offense"
+      ],
+      "context": "Be angry or offended at something; not injecting drugs, wine souring or an animal being in heat.",
+      "selectedSpanishSenseIndex": 3,
+      "spanishRecordSha256": "cd23632a3df07269becb5ba0e4a19241fabee3eea3f9eb0dc2a7af6e19640118",
+      "wordnetRecordSha256": "1f11d4dd339cba373f80b2813142811f822162dd505dec1b4dc014dab985a94a",
+      "mcrRecordSha256": "67513f53d976e987711da2f4a8719f502f7599cdf21363ee2d71e24de111331a",
+      "notes": "Taking offense/anger, without drug/wine/animal-heat readings."
+    },
+    {
+      "candidateIndex": 114,
+      "spanish": "raerse",
+      "word": "RAERSE",
+      "partOfSpeech": "verb",
+      "synset": "01369204-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to wear away through rubbing"
+      ],
+      "context": "Inchoative wear, not a person actively scraping another object; actual cause/abrasion sense comes from the English synset.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "48a7f1b29a4413fe87d97dc8bf003dfc79a175465c6a2a41f90886e3c0a6b53e",
+      "wordnetRecordSha256": "f23d1fcd7f812183a88317421533fd6c082ce0c6cfa18122a97b3b857ad826c9",
+      "mcrRecordSha256": "4b8e90e0528d9011ce1c49605f67a7556d09f9588fbf3b0cbc1db950747c284f",
+      "notes": "Inchoative abrasion/wearing away, not an agent scraping another object."
+    },
+    {
+      "candidateIndex": 117,
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "partOfSpeech": "verb",
+      "synset": "02380980-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to chicken out"
+      ],
+      "context": "Back down from a difficult/frightening situation at the last moment; not spontaneous splitting of a material.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "9e3fd3780b90a41a132529e47e13579dd0eee90b920c047236f53cf006a8bcb6",
+      "wordnetRecordSha256": "f4933686252cafc7860f8ed98abd0bb8dc64bec2b7aba2e28b739d0058656461",
+      "mcrRecordSha256": "1147898894859b30f29275b311ae5390417293d59d5034da34ab413c8a4ac8cf",
+      "notes": "Backing out through fear, not splitting material."
+    },
+    {
+      "candidateIndex": 124,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "partOfSpeech": "verb",
+      "synset": "00219403-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to dry up (of a river)"
+      ],
+      "context": "A river loses its water; selected inchoative sense, not wiping a person with an invented towel.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "51ba91889294ad313037d8652b13c823a0c82f3768a15a51c15f9e226ed186de",
+      "wordnetRecordSha256": "10c23113d1f9e710af047f959487335d47cae011d5e20edcf243d797ac260aa6",
+      "mcrRecordSha256": "d9085f948ac5aa6ece2814427bbe3ed7b3ceaa7665ddd31aace473496850f8ca",
+      "notes": "Separate river drying and plant withering contexts prevent generic causative readings."
+    },
+    {
+      "candidateIndex": 126,
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "partOfSpeech": "verb",
+      "synset": "00421917-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to wither (of a plant)"
+      ],
+      "context": "Plant loses greenness/vigor, matching freshness/vitality loss; not total mummification or human weight loss.",
+      "selectedSpanishSenseIndex": 2,
+      "spanishRecordSha256": "51ba91889294ad313037d8652b13c823a0c82f3768a15a51c15f9e226ed186de",
+      "wordnetRecordSha256": "0d8add3643ca294a8d496b686a86b06d423c7fcf51354e200c667e3216648d62",
+      "mcrRecordSha256": "a6d3760ea92f2d3cbe1d9e53bc805d15dc5c8dc60f5faed84772e921afef03fe",
+      "notes": "Separate river drying and plant withering contexts prevent generic causative readings."
+    },
+    {
+      "candidateIndex": 134,
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "partOfSpeech": "verb",
+      "synset": "01426397-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to have sex with someone"
+      ],
+      "context": "Spanish source marks this selected copulation sense Spain/vulgar; distinct from falling, lying down or eating. No example or actual partners invented.",
+      "selectedSpanishSenseIndex": 3,
+      "spanishRecordSha256": "41411d4676ca8f6b1f19c0f6fb0b44d34a80682c861678159766c3174685a37a",
+      "wordnetRecordSha256": "61bda28ce493cc3a9935ba82549e29aef3c56a1cf42dc6189b7fd60425c863df",
+      "mcrRecordSha256": "594d2b6a10e6ad191dabe43f004c0ec59b9d923a51a1eddb0139cf8af6e2ce75",
+      "notes": "Spain/vulgar copulation label is required; no neutral Mexican usage claim or invented participants."
+    },
+    {
+      "candidateIndex": 137,
+      "spanish": "tocarse",
+      "word": "TOCARSE",
+      "partOfSpeech": "verb",
+      "synset": "00047172-v",
+      "actualWordNetPOS": "v",
+      "english": [
+        "to put on a hat"
+      ],
+      "context": "Head-covering self-use explicitly includes hats; not a generic transitively hatting another person or every scarf use.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "f22a7446e46c5bb21a80c4844ad34c16cc65a41602c81a1ef8521cf4f794055f",
+      "wordnetRecordSha256": "cfdf4517e0705ad263f7686ce52fdd405db7bdd7ad9879ecccbdf091171944b8",
+      "mcrRecordSha256": "a062e260e43d2ec2b484d75c9c24d409049455b8b539716135f4cff35ebaa094",
+      "notes": "Selected self-head-covering with a hat; not general touching or every scarf use."
+    }
+  ],
+  "held": [],
+  "counts": {
+    "reviewedPairs": 25,
+    "approvedPairs": 25,
+    "heldProposedPairs": 0,
+    "uniqueProposedWords": 20,
+    "explicitlyDeferredNotAdjudicated": 118
+  },
+  "requiredMetadataCorrections": [
+    {
+      "field": "sourcePins.modifications",
+      "issue": "Currently says noun-synset joins although this batch uses verb and adjective/satellite adjective synsets. Correct downstream manifest or a separately versioned proposal; retain original reviewed candidate bytes/hash."
+    }
+  ],
+  "guards": [
+    "Lexical whole words and exact selected meanings only. No new finite inflection, participle, adjective agreement, clitic composition or SE stripping authority.",
+    "Preserve selected contexts, source regional/register labels and roles despite conflicting POS/transitivity source tags.",
+    "GRISEAR overlaps the separately approved new-frame batch; deduplicate rather than claim a newly covered word.",
+    "The 118 deferred candidates remain unadjudicated; VENIRSE ejaculation evidence does not establish orgasm and remains deferred.",
+    "Runtime grammatical gender not independently certified. Model-derived English is not verbatim dictionary translation, native certification or Mexican-only usage.",
+    "Counts are lexical mappings, not new runtime coverage."
+  ]
+}

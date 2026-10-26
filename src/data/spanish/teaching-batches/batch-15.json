@@ -1,0 +1,902 @@
+[
+  {
+    "word": "POLAR",
+    "translation": "polar",
+    "example": "El aire polar enfrió la región.",
+    "exampleTranslation": "Polar air cooled the region."
+  },
+  {
+    "word": "POLICÍA",
+    "translation": "police",
+    "example": "La policía investigó el robo.",
+    "exampleTranslation": "The police investigated the theft."
+  },
+  {
+    "word": "POLLA",
+    "translation": "young hen",
+    "example": "La polla empezó a poner huevos.",
+    "exampleTranslation": "The young hen began laying eggs."
+  },
+  {
+    "word": "POLLO",
+    "translation": "chick; young chicken",
+    "example": "El pollo seguía a la gallina.",
+    "exampleTranslation": "The chick followed the hen."
+  },
+  {
+    "word": "POLO",
+    "translation": "pole",
+    "example": "El eje atraviesa cada polo.",
+    "exampleTranslation": "The axis passes through each pole."
+  },
+  {
+    "word": "POLVO",
+    "translation": "dust",
+    "example": "El polvo cubría los muebles.",
+    "exampleTranslation": "Dust covered the furniture."
+  },
+  {
+    "word": "PONER",
+    "translation": "to put inside",
+    "example": "Voy a poner la fruta en la bolsa.",
+    "exampleTranslation": "I am going to put the fruit in the bag."
+  },
+  {
+    "word": "PONERSE",
+    "translation": "to set; of the sun",
+    "example": "El sol está por ponerse.",
+    "exampleTranslation": "The sun is about to set."
+  },
+  {
+    "word": "POPULAR",
+    "translation": "popular; relating to the people",
+    "example": "El arte popular refleja la vida cotidiana.",
+    "exampleTranslation": "Popular art reflects everyday life."
+  },
+  {
+    "word": "POQUITO",
+    "translation": "a little",
+    "example": "Agrega poquito azúcar.",
+    "exampleTranslation": "Add a little sugar."
+  },
+  {
+    "word": "PORCIÓN",
+    "translation": "portion",
+    "example": "Guardó una porción de sopa.",
+    "exampleTranslation": "She saved a portion of soup."
+  },
+  {
+    "word": "PORQUE",
+    "translation": "because",
+    "example": "Me quedé porque llovía.",
+    "exampleTranslation": "I stayed because it was raining."
+  },
+  {
+    "word": "PORQUÉ",
+    "translation": "reason",
+    "example": "No entiendo el porqué de la demora.",
+    "exampleTranslation": "I do not understand the reason for the delay."
+  },
+  {
+    "word": "PORRO",
+    "translation": "relating to violent campus gangs",
+    "example": "El grupo porro intimidó a los estudiantes.",
+    "exampleTranslation": "The violent campus gang intimidated the students."
+  },
+  {
+    "word": "PORTADA",
+    "translation": "title page",
+    "example": "La portada indica el autor y la editorial.",
+    "exampleTranslation": "The title page gives the author and publisher."
+  },
+  {
+    "word": "PORTAL",
+    "translation": "entrance hall",
+    "example": "Esperamos en el portal del edificio.",
+    "exampleTranslation": "We waited in the building's entrance hall."
+  },
+  {
+    "word": "PORTE",
+    "translation": "transport; carriage",
+    "example": "El porte de la mercancía tomó dos días.",
+    "exampleTranslation": "Transporting the goods took two days."
+  },
+  {
+    "word": "PORTERO",
+    "translation": "doorkeeper",
+    "example": "El portero abrió la entrada.",
+    "exampleTranslation": "The doorkeeper opened the entrance."
+  },
+  {
+    "word": "PORTEÑO",
+    "translation": "from Buenos Aires",
+    "example": "El escritor porteño presentó su libro.",
+    "exampleTranslation": "The writer from Buenos Aires presented his book."
+  },
+  {
+    "word": "POSADA",
+    "translation": "inn",
+    "example": "Pasamos la noche en una posada.",
+    "exampleTranslation": "We spent the night at an inn."
+  },
+  {
+    "word": "POSEER",
+    "translation": "to possess; to own",
+    "example": "Aspira a poseer una casa.",
+    "exampleTranslation": "She aspires to own a house."
+  },
+  {
+    "word": "POSIBLE",
+    "translation": "possible",
+    "example": "La solución es posible.",
+    "exampleTranslation": "The solution is possible."
+  },
+  {
+    "word": "POSTA",
+    "translation": "relay horses",
+    "example": "La posta permitía cambiar de caballo.",
+    "exampleTranslation": "The relay horses made it possible to change mounts."
+  },
+  {
+    "word": "POSTAL",
+    "translation": "postal",
+    "example": "El servicio postal entregó la carta.",
+    "exampleTranslation": "The postal service delivered the letter."
+  },
+  {
+    "word": "POSTE",
+    "translation": "post",
+    "example": "El semáforo está en ese poste.",
+    "exampleTranslation": "The traffic light is on that post."
+  },
+  {
+    "word": "POSTRE",
+    "translation": "dessert",
+    "example": "Pedimos fruta de postre.",
+    "exampleTranslation": "We ordered fruit for dessert."
+  },
+  {
+    "word": "POSTURA",
+    "translation": "posture; pose",
+    "example": "Corrigió su postura al sentarse.",
+    "exampleTranslation": "She corrected her posture when sitting down."
+  },
+  {
+    "word": "POTABLE",
+    "translation": "safe to drink",
+    "example": "El agua ya es potable.",
+    "exampleTranslation": "The water is safe to drink now."
+  },
+  {
+    "word": "POTASIO",
+    "translation": "potassium",
+    "example": "El plátano contiene potasio.",
+    "exampleTranslation": "Bananas contain potassium."
+  },
+  {
+    "word": "POTENTE",
+    "translation": "powerful",
+    "example": "El motor potente subió la pendiente.",
+    "exampleTranslation": "The powerful engine climbed the slope."
+  },
+  {
+    "word": "POTOSÍ",
+    "translation": "fortune; great wealth",
+    "example": "Ese cuadro vale un potosí.",
+    "exampleTranslation": "That painting is worth a fortune."
+  },
+  {
+    "word": "POZO",
+    "translation": "well",
+    "example": "Sacaron agua del pozo.",
+    "exampleTranslation": "They drew water from the well."
+  },
+  {
+    "word": "POÉTICO",
+    "translation": "poetic",
+    "example": "Su lenguaje poético cautivó al público.",
+    "exampleTranslation": "Her poetic language captivated the audience."
+  },
+  {
+    "word": "PRADO",
+    "translation": "meadow",
+    "example": "Las vacas pastan en el prado.",
+    "exampleTranslation": "The cows graze in the meadow."
+  },
+  {
+    "word": "PRECIO",
+    "translation": "price",
+    "example": "El precio incluye la entrega.",
+    "exampleTranslation": "The price includes delivery."
+  },
+  {
+    "word": "PRECISO",
+    "translation": "necessary",
+    "example": "Es preciso revisar los datos.",
+    "exampleTranslation": "It is necessary to review the data."
+  },
+  {
+    "word": "PREDIO",
+    "translation": "property; plot of land",
+    "example": "El predio tiene dos hectáreas.",
+    "exampleTranslation": "The property covers two hectares."
+  },
+  {
+    "word": "PREMIO",
+    "translation": "award",
+    "example": "Recibió un premio por su investigación.",
+    "exampleTranslation": "She received an award for her research."
+  },
+  {
+    "word": "PREMISA",
+    "translation": "premise",
+    "example": "El argumento parte de una premisa falsa.",
+    "exampleTranslation": "The argument starts from a false premise."
+  },
+  {
+    "word": "PRENDA",
+    "translation": "garment",
+    "example": "Esta prenda es de algodón.",
+    "exampleTranslation": "This garment is made of cotton."
+  },
+  {
+    "word": "PRENDER",
+    "translation": "to turn on",
+    "example": "Puedes prender la lámpara.",
+    "exampleTranslation": "You can turn on the lamp."
+  },
+  {
+    "word": "PRENSA",
+    "translation": "press; compressing machine",
+    "example": "La prensa aplastó el cartón.",
+    "exampleTranslation": "The press flattened the cardboard."
+  },
+  {
+    "word": "PRESA",
+    "translation": "dam",
+    "example": "La presa retiene el agua del río.",
+    "exampleTranslation": "The dam holds back the river's water."
+  },
+  {
+    "word": "PRESIÓN",
+    "translation": "pressure",
+    "example": "La presión deformó el recipiente.",
+    "exampleTranslation": "The pressure deformed the container."
+  },
+  {
+    "word": "PRESO",
+    "translation": "imprisoned",
+    "example": "El acusado sigue preso.",
+    "exampleTranslation": "The accused remains imprisoned."
+  },
+  {
+    "word": "PRESTAR",
+    "translation": "to lend",
+    "example": "Te puedo prestar mi libro.",
+    "exampleTranslation": "I can lend you my book."
+  },
+  {
+    "word": "PRESTO",
+    "translation": "ready; prompt",
+    "example": "Se mostró presto a colaborar.",
+    "exampleTranslation": "He was ready to help."
+  },
+  {
+    "word": "PREVIO",
+    "translation": "previous; prior",
+    "example": "El acuerdo previo sigue vigente.",
+    "exampleTranslation": "The prior agreement remains in force."
+  },
+  {
+    "word": "PRIETO",
+    "translation": "tight; densely packed",
+    "example": "El nudo prieto no se deshizo.",
+    "exampleTranslation": "The tight knot did not come undone."
+  },
+  {
+    "word": "PRIMA",
+    "translation": "work bonus",
+    "example": "Recibió una prima por su desempeño.",
+    "exampleTranslation": "She received a bonus for her performance."
+  },
+  {
+    "word": "PRIMER",
+    "translation": "first",
+    "example": "Este es mi primer viaje.",
+    "exampleTranslation": "This is my first trip."
+  },
+  {
+    "word": "PRIMERA",
+    "translation": "first-class category",
+    "example": "Compró un boleto de primera.",
+    "exampleTranslation": "She bought a first-class ticket."
+  },
+  {
+    "word": "PRIMERO",
+    "translation": "first",
+    "example": "Fue el primero en llegar.",
+    "exampleTranslation": "He was the first to arrive."
+  },
+  {
+    "word": "PRIMO",
+    "translation": "cousin",
+    "example": "Mi primo vive en Mérida.",
+    "exampleTranslation": "My cousin lives in Mérida."
+  },
+  {
+    "word": "PRISA",
+    "translation": "haste",
+    "example": "La prisa provocó un error.",
+    "exampleTranslation": "Haste caused a mistake."
+  },
+  {
+    "word": "PRISIÓN",
+    "translation": "prison",
+    "example": "La prisión tiene una biblioteca.",
+    "exampleTranslation": "The prison has a library."
+  },
+  {
+    "word": "PRIVADO",
+    "translation": "private",
+    "example": "Respetaron su espacio privado.",
+    "exampleTranslation": "They respected her private space."
+  },
+  {
+    "word": "PROBAR",
+    "translation": "to test",
+    "example": "Quiero probar el nuevo mecanismo.",
+    "exampleTranslation": "I want to test the new mechanism."
+  },
+  {
+    "word": "PROCESO",
+    "translation": "process",
+    "example": "El proceso requiere varias etapas.",
+    "exampleTranslation": "The process requires several stages."
+  },
+  {
+    "word": "PROFE",
+    "translation": "teacher; informal",
+    "example": "La profe explicó el ejercicio.",
+    "exampleTranslation": "The teacher explained the exercise."
+  },
+  {
+    "word": "PROFETA",
+    "translation": "prophet",
+    "example": "El profeta anunció una nueva era.",
+    "exampleTranslation": "The prophet announced a new era."
+  },
+  {
+    "word": "PROMESA",
+    "translation": "promise",
+    "example": "Cumplió su promesa de volver.",
+    "exampleTranslation": "She kept her promise to return."
+  },
+  {
+    "word": "PRONTO",
+    "translation": "quick; prompt",
+    "example": "Deseamos un pronto regreso.",
+    "exampleTranslation": "We wish for a prompt return."
+  },
+  {
+    "word": "PROPIO",
+    "translation": "one's own",
+    "example": "Tiene su propio taller.",
+    "exampleTranslation": "She has her own workshop."
+  },
+  {
+    "word": "PROSA",
+    "translation": "prose",
+    "example": "La autora escribe en prosa.",
+    "exampleTranslation": "The author writes in prose."
+  },
+  {
+    "word": "PROVEER",
+    "translation": "to provide",
+    "example": "Buscan proveer agua a la comunidad.",
+    "exampleTranslation": "They seek to provide water to the community."
+  },
+  {
+    "word": "PRUEBA",
+    "translation": "test",
+    "example": "La prueba confirmó el resultado.",
+    "exampleTranslation": "The test confirmed the result."
+  },
+  {
+    "word": "PRÓJIMO",
+    "translation": "fellow human being",
+    "example": "Ayudar al prójimo fortalece la comunidad.",
+    "exampleTranslation": "Helping one's fellow human beings strengthens the community."
+  },
+  {
+    "word": "PRÓLOGO",
+    "translation": "prologue; foreword",
+    "example": "El prólogo presenta la obra.",
+    "exampleTranslation": "The foreword introduces the work."
+  },
+  {
+    "word": "PRÓXIMO",
+    "translation": "near; next",
+    "example": "El próximo pueblo está cerca.",
+    "exampleTranslation": "The next town is nearby."
+  },
+  {
+    "word": "PUENTE",
+    "translation": "bridge",
+    "example": "El puente cruza el arroyo.",
+    "exampleTranslation": "The bridge crosses the stream."
+  },
+  {
+    "word": "PUERTO",
+    "translation": "port; harbor",
+    "example": "El puerto recibe barcos de carga todos los días.",
+    "exampleTranslation": "The port receives cargo ships every day."
+  },
+  {
+    "word": "PUES",
+    "translation": "well; then",
+    "example": "Pues sí, acepto la invitación.",
+    "exampleTranslation": "Well yes, I accept the invitation."
+  },
+  {
+    "word": "PUESTA",
+    "translation": "setting; placing",
+    "example": "La puesta del sol fue hermosa.",
+    "exampleTranslation": "The sunset was beautiful."
+  },
+  {
+    "word": "PUESTO",
+    "translation": "market stall",
+    "example": "El puesto vende fruta fresca.",
+    "exampleTranslation": "The stall sells fresh fruit."
+  },
+  {
+    "word": "PULGAR",
+    "translation": "thumb",
+    "example": "Se lastimó el pulgar.",
+    "exampleTranslation": "She hurt her thumb."
+  },
+  {
+    "word": "PULMÓN",
+    "translation": "lung",
+    "example": "El pulmón intercambia gases.",
+    "exampleTranslation": "The lung exchanges gases."
+  },
+  {
+    "word": "PULSO",
+    "translation": "pulse",
+    "example": "La enfermera tomó su pulso.",
+    "exampleTranslation": "The nurse checked his pulse."
+  },
+  {
+    "word": "PUMA",
+    "translation": "puma; cougar",
+    "example": "El puma cruzó el sendero.",
+    "exampleTranslation": "The puma crossed the trail."
+  },
+  {
+    "word": "PUNK",
+    "translation": "punk rock",
+    "example": "La banda toca punk.",
+    "exampleTranslation": "The band plays punk rock."
+  },
+  {
+    "word": "PUNTA",
+    "translation": "point; sharp tip",
+    "example": "La punta del lápiz se rompió.",
+    "exampleTranslation": "The pencil's tip broke."
+  },
+  {
+    "word": "PUNTO",
+    "translation": "point",
+    "example": "Marcó un punto en la recta.",
+    "exampleTranslation": "She marked a point on the line."
+  },
+  {
+    "word": "PUNTUAL",
+    "translation": "punctual",
+    "example": "El tren llegó puntual.",
+    "exampleTranslation": "The train arrived on time."
+  },
+  {
+    "word": "PUREZA",
+    "translation": "purity",
+    "example": "Midieron la pureza del agua.",
+    "exampleTranslation": "They measured the water's purity."
+  },
+  {
+    "word": "PURO",
+    "translation": "pure; uncontaminated",
+    "example": "El aire de la montaña es puro.",
+    "exampleTranslation": "The mountain air is pure."
+  },
+  {
+    "word": "PUÑADO",
+    "translation": "handful",
+    "example": "Agregó un puñado de semillas.",
+    "exampleTranslation": "She added a handful of seeds."
+  },
+  {
+    "word": "PUÑO",
+    "translation": "fist",
+    "example": "Cerró el puño con fuerza.",
+    "exampleTranslation": "He clenched his fist tightly."
+  },
+  {
+    "word": "PÁGINA",
+    "translation": "page",
+    "example": "Leí una página más.",
+    "exampleTranslation": "I read one more page."
+  },
+  {
+    "word": "PÁJARO",
+    "translation": "bird",
+    "example": "Un pájaro canta afuera.",
+    "exampleTranslation": "A bird is singing outside."
+  },
+  {
+    "word": "PÁLIDO",
+    "translation": "pale",
+    "example": "El muro tiene un tono pálido.",
+    "exampleTranslation": "The wall has a pale color."
+  },
+  {
+    "word": "PÁNICO",
+    "translation": "panic",
+    "example": "El ruido causó pánico.",
+    "exampleTranslation": "The noise caused panic."
+  },
+  {
+    "word": "PÁRRAFO",
+    "translation": "paragraph",
+    "example": "El párrafo resume la idea.",
+    "exampleTranslation": "The paragraph summarizes the idea."
+  },
+  {
+    "word": "PÁRROCO",
+    "translation": "parish priest",
+    "example": "El párroco visitó a la familia.",
+    "exampleTranslation": "The parish priest visited the family."
+  },
+  {
+    "word": "PÉRDIDA",
+    "translation": "loss",
+    "example": "La pérdida del documento retrasó todo.",
+    "exampleTranslation": "The loss of the document delayed everything."
+  },
+  {
+    "word": "PÉSIMO",
+    "translation": "terrible; very bad",
+    "example": "El servicio fue pésimo.",
+    "exampleTranslation": "The service was terrible."
+  },
+  {
+    "word": "PÓLVORA",
+    "translation": "gunpowder",
+    "example": "La pólvora debe almacenarse con cuidado.",
+    "exampleTranslation": "Gunpowder must be stored carefully."
+  },
+  {
+    "word": "PÚBLICO",
+    "translation": "audience",
+    "example": "El público aplaudió al final.",
+    "exampleTranslation": "The audience applauded at the end."
+  },
+  {
+    "word": "PÚRPURA",
+    "translation": "purple",
+    "example": "La tela púrpura brillaba.",
+    "exampleTranslation": "The purple fabric shone."
+  },
+  {
+    "word": "QUECHUA",
+    "translation": "Quechua language family",
+    "example": "El quechua se habla en varios países.",
+    "exampleTranslation": "Quechua is spoken in several countries."
+  },
+  {
+    "word": "QUEDA",
+    "translation": "curfew",
+    "example": "El toque de queda empezaba al anochecer.",
+    "exampleTranslation": "The curfew began at dusk."
+  },
+  {
+    "word": "QUEDAR",
+    "translation": "to remain; to be left",
+    "example": "Debe quedar espacio para pasar.",
+    "exampleTranslation": "There must be room left to get through."
+  },
+  {
+    "word": "QUEJA",
+    "translation": "complaint",
+    "example": "Presentó una queja por el ruido.",
+    "exampleTranslation": "She filed a complaint about the noise."
+  },
+  {
+    "word": "QUEMA",
+    "translation": "burning",
+    "example": "La quema dañó el terreno.",
+    "exampleTranslation": "The burning damaged the land."
+  },
+  {
+    "word": "QUEMADA",
+    "translation": "burn",
+    "example": "La quemada le dolía.",
+    "exampleTranslation": "The burn hurt."
+  },
+  {
+    "word": "QUEMADO",
+    "translation": "dodgeball-like game",
+    "example": "Jugamos quemado en el patio.",
+    "exampleTranslation": "We played dodgeball in the courtyard."
+  },
+  {
+    "word": "QUEMAR",
+    "translation": "to burn",
+    "example": "No debemos quemar la basura.",
+    "exampleTranslation": "We should not burn trash."
+  },
+  {
+    "word": "QUERER",
+    "translation": "to want",
+    "example": "Es normal querer descansar.",
+    "exampleTranslation": "It is normal to want to rest."
+  },
+  {
+    "word": "QUERIDO",
+    "translation": "beloved; dear",
+    "example": "Su querido maestro volvió a visitarlos.",
+    "exampleTranslation": "Their beloved teacher came back to visit them."
+  },
+  {
+    "word": "QUIEBRA",
+    "translation": "bankruptcy",
+    "example": "La empresa se declaró en quiebra.",
+    "exampleTranslation": "The company declared bankruptcy."
+  },
+  {
+    "word": "QUIEN",
+    "translation": "who; the person who",
+    "example": "Quien llegue primero abre la puerta.",
+    "exampleTranslation": "Whoever arrives first opens the door."
+  },
+  {
+    "word": "QUIETO",
+    "translation": "still; motionless",
+    "example": "El perro permaneció quieto.",
+    "exampleTranslation": "The dog remained still."
+  },
+  {
+    "word": "QUIJOTE",
+    "translation": "thigh armor",
+    "example": "El quijote protegía el muslo del caballero.",
+    "exampleTranslation": "The thigh armor protected the knight's thigh."
+  },
+  {
+    "word": "QUINCE",
+    "translation": "fifteen",
+    "example": "La caja contiene quince piezas.",
+    "exampleTranslation": "The box contains fifteen pieces."
+  },
+  {
+    "word": "QUINTA",
+    "translation": "small rural estate",
+    "example": "La quinta produce hortalizas.",
+    "exampleTranslation": "The small rural estate produces vegetables."
+  },
+  {
+    "word": "QUINTO",
+    "translation": "fifth",
+    "example": "Llegó en quinto lugar.",
+    "exampleTranslation": "He finished in fifth place."
+  },
+  {
+    "word": "QUITA",
+    "translation": "debt reduction",
+    "example": "El banco aceptó una quita de la deuda.",
+    "exampleTranslation": "The bank accepted a reduction of the debt."
+  },
+  {
+    "word": "QUITAR",
+    "translation": "to take away; to remove",
+    "example": "Hay que quitar la nieve del techo.",
+    "exampleTranslation": "The snow must be removed from the roof."
+  },
+  {
+    "word": "QUIZÁ",
+    "translation": "perhaps",
+    "example": "Quizá llueva mañana.",
+    "exampleTranslation": "Perhaps it will rain tomorrow."
+  },
+  {
+    "word": "QUIZÁS",
+    "translation": "perhaps",
+    "example": "Quizás encontremos otra ruta.",
+    "exampleTranslation": "Perhaps we will find another route."
+  },
+  {
+    "word": "QUIÉN",
+    "translation": "who?",
+    "example": "¿Quién llamó anoche?",
+    "exampleTranslation": "Who called last night?"
+  },
+  {
+    "word": "QUÍMICA",
+    "translation": "chemistry",
+    "example": "Estudia química en la universidad.",
+    "exampleTranslation": "She studies chemistry at university."
+  },
+  {
+    "word": "QUÍMICO",
+    "translation": "chemical",
+    "example": "El análisis químico detectó sal.",
+    "exampleTranslation": "The chemical analysis detected salt."
+  },
+  {
+    "word": "RABIA",
+    "translation": "rabies",
+    "example": "La vacuna previene la rabia.",
+    "exampleTranslation": "The vaccine prevents rabies."
+  },
+  {
+    "word": "RACHA",
+    "translation": "winning streak",
+    "example": "Tuvo una buena racha en el torneo.",
+    "exampleTranslation": "She had a winning streak in the tournament."
+  },
+  {
+    "word": "RACIAL",
+    "translation": "racial",
+    "example": "La discriminación racial causa daño.",
+    "exampleTranslation": "Racial discrimination causes harm."
+  },
+  {
+    "word": "RACISMO",
+    "translation": "racism",
+    "example": "La escuela combate el racismo.",
+    "exampleTranslation": "The school combats racism."
+  },
+  {
+    "word": "RACISTA",
+    "translation": "racist",
+    "example": "Rechazaron el comentario racista.",
+    "exampleTranslation": "They rejected the racist remark."
+  },
+  {
+    "word": "RADAR",
+    "translation": "radar",
+    "example": "El radar detectó la embarcación.",
+    "exampleTranslation": "The radar detected the vessel."
+  },
+  {
+    "word": "RADIAL",
+    "translation": "radial",
+    "example": "El diseño radial parte del centro.",
+    "exampleTranslation": "The radial design extends from the center."
+  },
+  {
+    "word": "RADICAL",
+    "translation": "radical; fundamental",
+    "example": "El plan necesita un cambio radical.",
+    "exampleTranslation": "The plan needs a radical change."
+  },
+  {
+    "word": "RADIO",
+    "translation": "radio",
+    "example": "Escuchamos las noticias en el radio.",
+    "exampleTranslation": "We listened to the news on the radio."
+  },
+  {
+    "word": "RAJA",
+    "translation": "slit; cut",
+    "example": "El cuchillo dejó una raja en la tela.",
+    "exampleTranslation": "The knife left a slit in the fabric."
+  },
+  {
+    "word": "RAMA",
+    "translation": "branch",
+    "example": "El pájaro descansó en una rama.",
+    "exampleTranslation": "The bird rested on a branch."
+  },
+  {
+    "word": "RAMO",
+    "translation": "bouquet",
+    "example": "Le regaló un ramo de flores.",
+    "exampleTranslation": "He gave her a bouquet of flowers."
+  },
+  {
+    "word": "RANCHO",
+    "translation": "ranch; farm",
+    "example": "El rancho cría ganado.",
+    "exampleTranslation": "The ranch raises cattle."
+  },
+  {
+    "word": "RANGO",
+    "translation": "rank",
+    "example": "Su rango determina sus responsabilidades.",
+    "exampleTranslation": "Her rank determines her responsibilities."
+  },
+  {
+    "word": "RAPIDEZ",
+    "translation": "speed; quickness",
+    "example": "Respondió con rapidez.",
+    "exampleTranslation": "He responded quickly."
+  },
+  {
+    "word": "RARO",
+    "translation": "unusual; rare",
+    "example": "Ese fenómeno es raro.",
+    "exampleTranslation": "That phenomenon is unusual."
+  },
+  {
+    "word": "RASGO",
+    "translation": "trait; feature",
+    "example": "La paciencia es su mejor rasgo.",
+    "exampleTranslation": "Patience is her best trait."
+  },
+  {
+    "word": "RASTRO",
+    "translation": "track; trace",
+    "example": "El rastro del animal seguía visible.",
+    "exampleTranslation": "The animal's track remained visible."
+  },
+  {
+    "word": "RATA",
+    "translation": "rat",
+    "example": "Una rata cruzó el callejón.",
+    "exampleTranslation": "A rat crossed the alley."
+  },
+  {
+    "word": "RATITO",
+    "translation": "little while",
+    "example": "Descansa un ratito.",
+    "exampleTranslation": "Rest for a little while."
+  },
+  {
+    "word": "RATO",
+    "translation": "while; short time",
+    "example": "Esperamos un rato.",
+    "exampleTranslation": "We waited a while."
+  },
+  {
+    "word": "RATÓN",
+    "translation": "mouse",
+    "example": "El ratón se escondió detrás de la caja.",
+    "exampleTranslation": "The mouse hid behind the box."
+  },
+  {
+    "word": "RAYA",
+    "translation": "line; stripe",
+    "example": "Dibujó una raya en el suelo.",
+    "exampleTranslation": "She drew a line on the ground."
+  },
+  {
+    "word": "RAYO",
+    "translation": "ray of sunlight",
+    "example": "Un rayo de sol iluminó la mesa.",
+    "exampleTranslation": "A ray of sunlight lit the table."
+  },
+  {
+    "word": "RAYOS",
+    "translation": "darn!",
+    "example": "¡Rayos, olvidé las llaves!",
+    "exampleTranslation": "Darn, I forgot the keys!"
+  },
+  {
+    "word": "RAZA",
+    "translation": "lineage; breed",
+    "example": "Ese perro pertenece a una raza pequeña.",
+    "exampleTranslation": "That dog belongs to a small breed."
+  },
+  {
+    "word": "RAZÓN",
+    "translation": "reason; rational thought",
+    "example": "Usa la razón para evaluar el argumento.",
+    "exampleTranslation": "Use reason to assess the argument."
+  },
+  {
+    "word": "RAÍZ",
+    "translation": "root cause",
+    "example": "Buscamos la raíz del problema.",
+    "exampleTranslation": "We are looking for the root cause of the problem."
+  }
+]

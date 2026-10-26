@@ -1,0 +1,902 @@
+[
+  {
+    "word": "MINORÍA",
+    "translation": "minority",
+    "example": "Una minoría votó en contra.",
+    "exampleTranslation": "A minority voted against it."
+  },
+  {
+    "word": "MINUTO",
+    "translation": "minute",
+    "example": "Espera un minuto, por favor.",
+    "exampleTranslation": "Wait a minute, please."
+  },
+  {
+    "word": "MIRA",
+    "translation": "sight; aiming device",
+    "example": "Ajustó la mira del telescopio.",
+    "exampleTranslation": "She adjusted the telescope's sight."
+  },
+  {
+    "word": "MIRADA",
+    "translation": "look; glance",
+    "example": "Su mirada recorrió el salón.",
+    "exampleTranslation": "Her gaze swept across the room."
+  },
+  {
+    "word": "MIRADO",
+    "translation": "considerate",
+    "example": "Es un vecino muy mirado.",
+    "exampleTranslation": "He is a very considerate neighbor."
+  },
+  {
+    "word": "MIRADOR",
+    "translation": "lookout; viewpoint",
+    "example": "Subimos al mirador para ver el valle.",
+    "exampleTranslation": "We climbed to the lookout to see the valley."
+  },
+  {
+    "word": "MIRAR",
+    "translation": "to look at",
+    "example": "Me gusta mirar el paisaje.",
+    "exampleTranslation": "I like to look at the scenery."
+  },
+  {
+    "word": "MISA",
+    "translation": "Mass",
+    "example": "La misa empieza a las ocho.",
+    "exampleTranslation": "Mass starts at eight."
+  },
+  {
+    "word": "MISERIA",
+    "translation": "poverty; destitution",
+    "example": "La sequía agravó la miseria.",
+    "exampleTranslation": "The drought worsened the poverty."
+  },
+  {
+    "word": "MISIL",
+    "translation": "missile",
+    "example": "El misil cayó lejos del puerto.",
+    "exampleTranslation": "The missile fell far from the port."
+  },
+  {
+    "word": "MISIÓN",
+    "translation": "assignment; mission",
+    "example": "Su misión era entregar el informe.",
+    "exampleTranslation": "Her assignment was to deliver the report."
+  },
+  {
+    "word": "MISMO",
+    "translation": "same",
+    "example": "Usamos el mismo diccionario.",
+    "exampleTranslation": "We use the same dictionary."
+  },
+  {
+    "word": "MISS",
+    "translation": "beauty-pageant winner",
+    "example": "La miss recibió la corona.",
+    "exampleTranslation": "The beauty-pageant winner received the crown."
+  },
+  {
+    "word": "MITAD",
+    "translation": "half",
+    "example": "Compartimos la mitad del pastel.",
+    "exampleTranslation": "We shared half the cake."
+  },
+  {
+    "word": "MITIN",
+    "translation": "political rally",
+    "example": "Asistimos al mitin del domingo.",
+    "exampleTranslation": "We attended Sunday's political rally."
+  },
+  {
+    "word": "MITO",
+    "translation": "myth",
+    "example": "El mito explica el origen del sol.",
+    "exampleTranslation": "The myth explains the sun's origin."
+  },
+  {
+    "word": "MIXTO",
+    "translation": "mixed",
+    "example": "El combustible mixto contiene dos componentes.",
+    "exampleTranslation": "The mixed fuel contains two components."
+  },
+  {
+    "word": "MOCHILA",
+    "translation": "backpack",
+    "example": "Guardé agua en la mochila.",
+    "exampleTranslation": "I packed water in the backpack."
+  },
+  {
+    "word": "MOCIÓN",
+    "translation": "motion; formal proposal",
+    "example": "La asamblea aprobó la moción.",
+    "exampleTranslation": "The assembly approved the motion."
+  },
+  {
+    "word": "MODA",
+    "translation": "fashion; trend",
+    "example": "Esa moda volvió este año.",
+    "exampleTranslation": "That fashion returned this year."
+  },
+  {
+    "word": "MODELO",
+    "translation": "model; schematic representation",
+    "example": "El modelo representa el sistema solar.",
+    "exampleTranslation": "The model represents the solar system."
+  },
+  {
+    "word": "MODERNO",
+    "translation": "modern",
+    "example": "El edificio tiene un diseño moderno.",
+    "exampleTranslation": "The building has a modern design."
+  },
+  {
+    "word": "MODESTO",
+    "translation": "modest",
+    "example": "Es modesto al hablar de sus logros.",
+    "exampleTranslation": "He is modest when discussing his achievements."
+  },
+  {
+    "word": "MOISÉS",
+    "translation": "wicker bassinet",
+    "example": "El bebé duerme en el moisés.",
+    "exampleTranslation": "The baby sleeps in the wicker bassinet."
+  },
+  {
+    "word": "MOJADO",
+    "translation": "wet",
+    "example": "El piso sigue mojado.",
+    "exampleTranslation": "The floor is still wet."
+  },
+  {
+    "word": "MOLDE",
+    "translation": "mold",
+    "example": "Vierte la mezcla en el molde.",
+    "exampleTranslation": "Pour the mixture into the mold."
+  },
+  {
+    "word": "MOLESTO",
+    "translation": "annoying; bothersome",
+    "example": "El ruido resulta molesto.",
+    "exampleTranslation": "The noise is annoying."
+  },
+  {
+    "word": "MOLINO",
+    "translation": "mill",
+    "example": "El molino convierte maíz en harina.",
+    "exampleTranslation": "The mill turns corn into flour."
+  },
+  {
+    "word": "MOMENTO",
+    "translation": "moment",
+    "example": "Descansa un momento.",
+    "exampleTranslation": "Rest for a moment."
+  },
+  {
+    "word": "MONA",
+    "translation": "female monkey",
+    "example": "La mona carga a su cría.",
+    "exampleTranslation": "The female monkey carries her baby."
+  },
+  {
+    "word": "MONARCA",
+    "translation": "monarch",
+    "example": "El monarca recibió a la delegación.",
+    "exampleTranslation": "The monarch received the delegation."
+  },
+  {
+    "word": "MONEDA",
+    "translation": "coin",
+    "example": "Encontré una moneda antigua.",
+    "exampleTranslation": "I found an old coin."
+  },
+  {
+    "word": "MONITOR",
+    "translation": "group leader; instructor",
+    "example": "El monitor explicó la actividad.",
+    "exampleTranslation": "The instructor explained the activity."
+  },
+  {
+    "word": "MONJA",
+    "translation": "nun",
+    "example": "La monja trabaja en la escuela.",
+    "exampleTranslation": "The nun works at the school."
+  },
+  {
+    "word": "MONJE",
+    "translation": "hermit; solitary monk",
+    "example": "El monje vivía en una cueva.",
+    "exampleTranslation": "The hermit lived in a cave."
+  },
+  {
+    "word": "MONTA",
+    "translation": "mounting; riding",
+    "example": "La monta requiere equilibrio.",
+    "exampleTranslation": "Riding requires balance."
+  },
+  {
+    "word": "MONTADO",
+    "translation": "assembly; mounting",
+    "example": "El montado del motor tomó horas.",
+    "exampleTranslation": "Assembling the engine took hours."
+  },
+  {
+    "word": "MONTAJE",
+    "translation": "assembly",
+    "example": "Terminamos el montaje del escenario.",
+    "exampleTranslation": "We finished assembling the stage."
+  },
+  {
+    "word": "MONTAR",
+    "translation": "to ride (a horse)",
+    "example": "Aprendió a montar a caballo.",
+    "exampleTranslation": "She learned to ride a horse."
+  },
+  {
+    "word": "MONTAÑA",
+    "translation": "mountain",
+    "example": "La montaña está cubierta de nieve.",
+    "exampleTranslation": "The mountain is covered in snow."
+  },
+  {
+    "word": "MONTE",
+    "translation": "mountain; high hill",
+    "example": "Subimos al monte por un sendero.",
+    "exampleTranslation": "We climbed the mountain along a trail."
+  },
+  {
+    "word": "MONTERO",
+    "translation": "hunter",
+    "example": "El montero siguió las huellas del venado.",
+    "exampleTranslation": "The hunter followed the deer's tracks."
+  },
+  {
+    "word": "MONTO",
+    "translation": "total amount",
+    "example": "El monto incluye los impuestos.",
+    "exampleTranslation": "The total amount includes taxes."
+  },
+  {
+    "word": "MONTÓN",
+    "translation": "heap; pile",
+    "example": "Hay un montón de ropa.",
+    "exampleTranslation": "There is a pile of clothes."
+  },
+  {
+    "word": "MORA",
+    "translation": "delay in payment",
+    "example": "La mora genera intereses.",
+    "exampleTranslation": "Late payment generates interest."
+  },
+  {
+    "word": "MORADA",
+    "translation": "dwelling; home",
+    "example": "Su morada tiene un patio.",
+    "exampleTranslation": "Her dwelling has a courtyard."
+  },
+  {
+    "word": "MORADO",
+    "translation": "purple",
+    "example": "El listón es morado.",
+    "exampleTranslation": "The ribbon is purple."
+  },
+  {
+    "word": "MORAL",
+    "translation": "moral; relating to conduct",
+    "example": "Debatieron una cuestión moral.",
+    "exampleTranslation": "They debated a moral issue."
+  },
+  {
+    "word": "MORENA",
+    "translation": "brunette; dark-haired woman",
+    "example": "La morena llevaba un sombrero azul.",
+    "exampleTranslation": "The dark-haired woman wore a blue hat."
+  },
+  {
+    "word": "MORENO",
+    "translation": "dark brown",
+    "example": "El pan tiene un tono moreno.",
+    "exampleTranslation": "The bread has a dark brown color."
+  },
+  {
+    "word": "MORIR",
+    "translation": "to die",
+    "example": "Sin agua, la planta puede morir.",
+    "exampleTranslation": "Without water, the plant can die."
+  },
+  {
+    "word": "MORIRSE",
+    "translation": "to die",
+    "example": "El árbol viejo empezó a morirse.",
+    "exampleTranslation": "The old tree began to die."
+  },
+  {
+    "word": "MORO",
+    "translation": "Moorish; from ancient Mauretania",
+    "example": "El comerciante moro cruzó el estrecho.",
+    "exampleTranslation": "The Moorish merchant crossed the strait."
+  },
+  {
+    "word": "MORRO",
+    "translation": "small rocky hill",
+    "example": "El faro está sobre un morro.",
+    "exampleTranslation": "The lighthouse stands on a small rocky hill."
+  },
+  {
+    "word": "MORTAL",
+    "translation": "mortal; relating to death",
+    "example": "El relato describe la condición mortal.",
+    "exampleTranslation": "The story describes the mortal condition."
+  },
+  {
+    "word": "MOSCA",
+    "translation": "fly",
+    "example": "Una mosca entró por la ventana.",
+    "exampleTranslation": "A fly came through the window."
+  },
+  {
+    "word": "MOSTAZA",
+    "translation": "mustard plant",
+    "example": "La mostaza florece en primavera.",
+    "exampleTranslation": "The mustard plant flowers in spring."
+  },
+  {
+    "word": "MOSTRAR",
+    "translation": "to show",
+    "example": "Quiero mostrar mis dibujos.",
+    "exampleTranslation": "I want to show my drawings."
+  },
+  {
+    "word": "MOTA",
+    "translation": "speck",
+    "example": "Una mota de polvo flotaba.",
+    "exampleTranslation": "A speck of dust was floating."
+  },
+  {
+    "word": "MOTIVO",
+    "translation": "reason",
+    "example": "Explicó el motivo de su visita.",
+    "exampleTranslation": "She explained the reason for her visit."
+  },
+  {
+    "word": "MOTOR",
+    "translation": "engine; motor",
+    "example": "El motor consume poca gasolina.",
+    "exampleTranslation": "The engine uses little gasoline."
+  },
+  {
+    "word": "MOTÍN",
+    "translation": "mutiny; riot",
+    "example": "El motín interrumpió la navegación.",
+    "exampleTranslation": "The mutiny interrupted the voyage."
+  },
+  {
+    "word": "MOVER",
+    "translation": "to move something",
+    "example": "Ayúdame a mover la mesa.",
+    "exampleTranslation": "Help me move the table."
+  },
+  {
+    "word": "MOVERSE",
+    "translation": "to move oneself",
+    "example": "El perro necesita moverse más.",
+    "exampleTranslation": "The dog needs to move more."
+  },
+  {
+    "word": "MOZO",
+    "translation": "waiter",
+    "example": "El mozo trajo los platos.",
+    "exampleTranslation": "The waiter brought the plates."
+  },
+  {
+    "word": "MUCHO",
+    "translation": "much; a lot of",
+    "example": "Hay mucho trabajo pendiente.",
+    "exampleTranslation": "There is a lot of work left."
+  },
+  {
+    "word": "MUDA",
+    "translation": "change; shedding",
+    "example": "La muda de piel duró varios días.",
+    "exampleTranslation": "Shedding the skin took several days."
+  },
+  {
+    "word": "MUDANZA",
+    "translation": "change",
+    "example": "Noté una mudanza en su ánimo.",
+    "exampleTranslation": "I noticed a change in his mood."
+  },
+  {
+    "word": "MUDAR",
+    "translation": "to change",
+    "example": "La oruga va a mudar de aspecto.",
+    "exampleTranslation": "The caterpillar is going to change its appearance."
+  },
+  {
+    "word": "MUDARSE",
+    "translation": "to move house",
+    "example": "Planea mudarse a Querétaro.",
+    "exampleTranslation": "She plans to move to Querétaro."
+  },
+  {
+    "word": "MUDO",
+    "translation": "unable to speak; silent",
+    "example": "El personaje mudo se comunica con gestos.",
+    "exampleTranslation": "The character who cannot speak communicates with gestures."
+  },
+  {
+    "word": "MUEBLE",
+    "translation": "piece of furniture",
+    "example": "Ese mueble necesita una reparación.",
+    "exampleTranslation": "That piece of furniture needs a repair."
+  },
+  {
+    "word": "MUELLE",
+    "translation": "dock; pier",
+    "example": "El barco llegó al muelle.",
+    "exampleTranslation": "The boat arrived at the dock."
+  },
+  {
+    "word": "MUERTE",
+    "translation": "death",
+    "example": "La muerte del árbol nos entristeció.",
+    "exampleTranslation": "The tree's death saddened us."
+  },
+  {
+    "word": "MUERTO",
+    "translation": "dead",
+    "example": "El árbol muerto cayó anoche.",
+    "exampleTranslation": "The dead tree fell last night."
+  },
+  {
+    "word": "MUESTRA",
+    "translation": "display; showing",
+    "example": "La muestra de sus cuadros atrajo visitantes.",
+    "exampleTranslation": "The showing of her paintings attracted visitors."
+  },
+  {
+    "word": "MULA",
+    "translation": "mule",
+    "example": "La mula cargaba dos costales.",
+    "exampleTranslation": "The mule carried two sacks."
+  },
+  {
+    "word": "MULTA",
+    "translation": "tax fine",
+    "example": "Pagó una multa por declarar tarde.",
+    "exampleTranslation": "He paid a tax fine for filing late."
+  },
+  {
+    "word": "MUNDIAL",
+    "translation": "world championship",
+    "example": "Su equipo ganó el mundial.",
+    "exampleTranslation": "Her team won the world championship."
+  },
+  {
+    "word": "MUNDO",
+    "translation": "world; all existence",
+    "example": "Quiere conocer más del mundo.",
+    "exampleTranslation": "She wants to learn more about the world."
+  },
+  {
+    "word": "MURAL",
+    "translation": "relating to a wall",
+    "example": "La pintura mural cubre la entrada.",
+    "exampleTranslation": "The wall painting covers the entrance."
+  },
+  {
+    "word": "MURALLA",
+    "translation": "defensive wall",
+    "example": "La muralla rodeaba la ciudad.",
+    "exampleTranslation": "The defensive wall surrounded the city."
+  },
+  {
+    "word": "MUSA",
+    "translation": "Muse of Greek mythology",
+    "example": "Cada musa protegía un arte.",
+    "exampleTranslation": "Each Muse protected an art."
+  },
+  {
+    "word": "MUSEO",
+    "translation": "museum",
+    "example": "El museo conserva objetos antiguos.",
+    "exampleTranslation": "The museum preserves ancient objects."
+  },
+  {
+    "word": "MUSICAL",
+    "translation": "musical",
+    "example": "Su formación musical empezó temprano.",
+    "exampleTranslation": "Her musical training began early."
+  },
+  {
+    "word": "MUTUO",
+    "translation": "mutual",
+    "example": "El respeto mutuo facilita el diálogo.",
+    "exampleTranslation": "Mutual respect makes dialogue easier."
+  },
+  {
+    "word": "MUÑECA",
+    "translation": "wrist",
+    "example": "Me lastimé la muñeca.",
+    "exampleTranslation": "I hurt my wrist."
+  },
+  {
+    "word": "MUÑECO",
+    "translation": "doll; toy figure",
+    "example": "El muñeco está sobre la cama.",
+    "exampleTranslation": "The doll is on the bed."
+  },
+  {
+    "word": "MÁGICO",
+    "translation": "magical",
+    "example": "El cuento describe un bosque mágico.",
+    "exampleTranslation": "The story describes a magical forest."
+  },
+  {
+    "word": "MÁLAGA",
+    "translation": "Málaga sweet wine",
+    "example": "Sirvieron una copa de málaga.",
+    "exampleTranslation": "They served a glass of Málaga sweet wine."
+  },
+  {
+    "word": "MÁQUINA",
+    "translation": "machine",
+    "example": "La máquina corta la tela.",
+    "exampleTranslation": "The machine cuts the fabric."
+  },
+  {
+    "word": "MÁRMOL",
+    "translation": "marble",
+    "example": "La escalera está hecha de mármol.",
+    "exampleTranslation": "The staircase is made of marble."
+  },
+  {
+    "word": "MÁRTIR",
+    "translation": "martyr",
+    "example": "El pueblo recordó al mártir.",
+    "exampleTranslation": "The village remembered the martyr."
+  },
+  {
+    "word": "MÁSCARA",
+    "translation": "mask",
+    "example": "Usó una máscara en el desfile.",
+    "exampleTranslation": "She wore a mask in the parade."
+  },
+  {
+    "word": "MÁSTER",
+    "translation": "master's degree",
+    "example": "Terminó un máster en ingeniería.",
+    "exampleTranslation": "She completed a master's degree in engineering."
+  },
+  {
+    "word": "MÁXIMA",
+    "translation": "maxim; guiding principle",
+    "example": "Su máxima era actuar con honestidad.",
+    "exampleTranslation": "His guiding principle was to act honestly."
+  },
+  {
+    "word": "MÁXIMO",
+    "translation": "maximum; greatest",
+    "example": "Alcanzó su máximo nivel.",
+    "exampleTranslation": "She reached her highest level."
+  },
+  {
+    "word": "MÉDICO",
+    "translation": "medical",
+    "example": "El equipo médico llegó temprano.",
+    "exampleTranslation": "The medical team arrived early."
+  },
+  {
+    "word": "MÉDULA",
+    "translation": "bone marrow",
+    "example": "La médula produce células sanguíneas.",
+    "exampleTranslation": "Bone marrow produces blood cells."
+  },
+  {
+    "word": "MÉRITO",
+    "translation": "merit",
+    "example": "El premio reconoce su mérito.",
+    "exampleTranslation": "The award recognizes her merit."
+  },
+  {
+    "word": "MÉTODO",
+    "translation": "method",
+    "example": "Probamos un método diferente.",
+    "exampleTranslation": "We tried a different method."
+  },
+  {
+    "word": "MÍNIMO",
+    "translation": "minimum; smallest",
+    "example": "El cambio fue mínimo.",
+    "exampleTranslation": "The change was minimal."
+  },
+  {
+    "word": "MÍTICO",
+    "translation": "mythical",
+    "example": "El dragón es un ser mítico.",
+    "exampleTranslation": "The dragon is a mythical being."
+  },
+  {
+    "word": "MÓDULO",
+    "translation": "spacecraft module",
+    "example": "El módulo se separó de la nave.",
+    "exampleTranslation": "The module separated from the spacecraft."
+  },
+  {
+    "word": "MÓVIL",
+    "translation": "movable",
+    "example": "La pared móvil divide el salón.",
+    "exampleTranslation": "The movable wall divides the room."
+  },
+  {
+    "word": "MÚSCULO",
+    "translation": "muscle",
+    "example": "Ese ejercicio fortalece el músculo.",
+    "exampleTranslation": "That exercise strengthens the muscle."
+  },
+  {
+    "word": "MÚSICA",
+    "translation": "music",
+    "example": "La música llenó el patio.",
+    "exampleTranslation": "Music filled the courtyard."
+  },
+  {
+    "word": "MÚSICO",
+    "translation": "musician",
+    "example": "El músico afinó la guitarra.",
+    "exampleTranslation": "The musician tuned the guitar."
+  },
+  {
+    "word": "NACER",
+    "translation": "to be born",
+    "example": "El potrillo está por nacer.",
+    "exampleTranslation": "The foal is about to be born."
+  },
+  {
+    "word": "NACIDO",
+    "translation": "born",
+    "example": "El cachorro recién nacido duerme.",
+    "exampleTranslation": "The newborn puppy is sleeping."
+  },
+  {
+    "word": "NACIÓN",
+    "translation": "nation",
+    "example": "La nación comparte una historia compleja.",
+    "exampleTranslation": "The nation shares a complex history."
+  },
+  {
+    "word": "NADA",
+    "translation": "nothing",
+    "example": "No quedó nada en la caja.",
+    "exampleTranslation": "Nothing was left in the box."
+  },
+  {
+    "word": "NADAR",
+    "translation": "to swim",
+    "example": "Aprendió a nadar en el río.",
+    "exampleTranslation": "She learned to swim in the river."
+  },
+  {
+    "word": "NADIE",
+    "translation": "nobody",
+    "example": "Nadie contestó el teléfono.",
+    "exampleTranslation": "Nobody answered the phone."
+  },
+  {
+    "word": "NANA",
+    "translation": "nanny",
+    "example": "La nana cuida a los niños.",
+    "exampleTranslation": "The nanny looks after the children."
+  },
+  {
+    "word": "NARCO",
+    "translation": "drug trafficker",
+    "example": "La policía detuvo al narco.",
+    "exampleTranslation": "The police arrested the drug trafficker."
+  },
+  {
+    "word": "NARIZ",
+    "translation": "nose",
+    "example": "Me cubrí la nariz del polvo.",
+    "exampleTranslation": "I covered my nose against the dust."
+  },
+  {
+    "word": "NATAL",
+    "translation": "relating to birth",
+    "example": "Volvió a su ciudad natal.",
+    "exampleTranslation": "She returned to her birth city."
+  },
+  {
+    "word": "NATIVO",
+    "translation": "native",
+    "example": "El maíz nativo crece en la región.",
+    "exampleTranslation": "Native corn grows in the region."
+  },
+  {
+    "word": "NATURAL",
+    "translation": "natural",
+    "example": "La cueva es una formación natural.",
+    "exampleTranslation": "The cave is a natural formation."
+  },
+  {
+    "word": "NAVAJA",
+    "translation": "razor",
+    "example": "El barbero afiló la navaja.",
+    "exampleTranslation": "The barber sharpened the razor."
+  },
+  {
+    "word": "NAVAL",
+    "translation": "naval; maritime",
+    "example": "El curso naval incluye navegación.",
+    "exampleTranslation": "The maritime course includes navigation."
+  },
+  {
+    "word": "NAVARRO",
+    "translation": "from Navarre",
+    "example": "El escritor navarro presentó su novela.",
+    "exampleTranslation": "The writer from Navarre presented his novel."
+  },
+  {
+    "word": "NAVE",
+    "translation": "ship",
+    "example": "La nave salió del puerto.",
+    "exampleTranslation": "The ship left the port."
+  },
+  {
+    "word": "NAVEGAR",
+    "translation": "to sail; to navigate",
+    "example": "Aprendimos a navegar con calma.",
+    "exampleTranslation": "We learned to sail calmly."
+  },
+  {
+    "word": "NAVIDAD",
+    "translation": "Christmas",
+    "example": "Celebramos Navidad en familia.",
+    "exampleTranslation": "We celebrate Christmas as a family."
+  },
+  {
+    "word": "NAZI",
+    "translation": "Nazi",
+    "example": "El régimen nazi persiguió a millones.",
+    "exampleTranslation": "The Nazi regime persecuted millions."
+  },
+  {
+    "word": "NEGADO",
+    "translation": "inept",
+    "example": "Es negado para el dibujo.",
+    "exampleTranslation": "He is inept at drawing."
+  },
+  {
+    "word": "NEGAR",
+    "translation": "to say no; to deny",
+    "example": "No quiso negar su participación.",
+    "exampleTranslation": "She did not want to deny her involvement."
+  },
+  {
+    "word": "NEGARSE",
+    "translation": "to refuse",
+    "example": "Decidió negarse a participar.",
+    "exampleTranslation": "He decided to refuse to participate."
+  },
+  {
+    "word": "NEGOCIO",
+    "translation": "shop; business premises",
+    "example": "El negocio abre a las nueve.",
+    "exampleTranslation": "The shop opens at nine."
+  },
+  {
+    "word": "NEGRA",
+    "translation": "quarter note",
+    "example": "La negra dura un pulso aquí.",
+    "exampleTranslation": "The quarter note lasts one beat here."
+  },
+  {
+    "word": "NEGRO",
+    "translation": "black",
+    "example": "Compró un sombrero negro.",
+    "exampleTranslation": "She bought a black hat."
+  },
+  {
+    "word": "NENA",
+    "translation": "young woman; affectionate address",
+    "example": "Nena, te guardé un lugar.",
+    "exampleTranslation": "Sweetheart, I saved you a place."
+  },
+  {
+    "word": "NENE",
+    "translation": "small boy",
+    "example": "El nene juega con bloques.",
+    "exampleTranslation": "The little boy plays with blocks."
+  },
+  {
+    "word": "NERVIO",
+    "translation": "nerve",
+    "example": "La lesión afectó un nervio.",
+    "exampleTranslation": "The injury affected a nerve."
+  },
+  {
+    "word": "NETA",
+    "translation": "truth",
+    "example": "Dime la neta, por favor.",
+    "exampleTranslation": "Tell me the truth, please."
+  },
+  {
+    "word": "NETO",
+    "translation": "net (after deductions)",
+    "example": "El peso neto aparece en la etiqueta.",
+    "exampleTranslation": "The net weight appears on the label."
+  },
+  {
+    "word": "NEUTRAL",
+    "translation": "neutral",
+    "example": "El árbitro mantuvo una postura neutral.",
+    "exampleTranslation": "The referee maintained a neutral position."
+  },
+  {
+    "word": "NEVADA",
+    "translation": "snowfall",
+    "example": "La nevada cubrió los caminos.",
+    "exampleTranslation": "The snowfall covered the roads."
+  },
+  {
+    "word": "NEVERA",
+    "translation": "refrigerator",
+    "example": "Guardamos el queso en la nevera.",
+    "exampleTranslation": "We keep the cheese in the refrigerator."
+  },
+  {
+    "word": "NEWTON",
+    "translation": "newton; unit of force",
+    "example": "La fuerza aumentó un newton.",
+    "exampleTranslation": "The force increased by one newton."
+  },
+  {
+    "word": "NIEBLA",
+    "translation": "fog",
+    "example": "La niebla cubrió la carretera.",
+    "exampleTranslation": "Fog covered the highway."
+  },
+  {
+    "word": "NIETO",
+    "translation": "grandson",
+    "example": "Su nieto estudia medicina.",
+    "exampleTranslation": "Her grandson studies medicine."
+  },
+  {
+    "word": "NIEVE",
+    "translation": "snow",
+    "example": "La nieve cayó durante la noche.",
+    "exampleTranslation": "Snow fell during the night."
+  },
+  {
+    "word": "NINGUNO",
+    "translation": "none; not one",
+    "example": "Ninguno de los libros está roto.",
+    "exampleTranslation": "None of the books is torn."
+  },
+  {
+    "word": "NINGÚN",
+    "translation": "not a single",
+    "example": "No falta ningún documento.",
+    "exampleTranslation": "Not a single document is missing."
+  },
+  {
+    "word": "NINJA",
+    "translation": "ninja",
+    "example": "El ninja cumplió una misión secreta.",
+    "exampleTranslation": "The ninja carried out a secret mission."
+  },
+  {
+    "word": "NIVEL",
+    "translation": "level; elevation",
+    "example": "El agua alcanzó ese nivel.",
+    "exampleTranslation": "The water reached that level."
+  },
+  {
+    "word": "NIÑA",
+    "translation": "girl",
+    "example": "La niña juega en el patio.",
+    "exampleTranslation": "The girl plays in the courtyard."
+  }
+]

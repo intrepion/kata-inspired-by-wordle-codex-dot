@@ -58,7 +58,8 @@ $RECYCLE.BIN/
 __MACOSX/
 .AppleDouble
 .LSOverride
-Icon[]
+Icon[
+]
 
 # Resource forks
 ._*
@@ -79,7 +80,8 @@ Icon[]
 .file
 .disk_label*
 lost+found
-.HFS+ Private Directory Data[]
+.HFS+ Private Directory Data[
+]
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -113,3 +115,24 @@ tmbootpicker.efi
 
 # GitHub Pages project build
 dist-pages/
+
+# Reproducible local audit outputs; tests prepare these from pinned inputs.
+__pycache__/
+*.pyc
+src/data/spanish/english-translation-audit.json
+src/data/spanish/spanish-derived-translation-audit.json
+src/data/spanish/morph-translation-audit.json
+src/data/spanish/wordnet-translation-audit.json
+src/data/spanish/translation-coverage-audit.json
+# Historical planning; current feature/provenance documentation lives in the ADRs.
+docs/translation-coverage.md
+
+# Local implementation-review history; semantic source approvals remain versioned.
+src/data/spanish/common-labels-bounded-qa-review-standards.json
+src/data/spanish/direct6-code-review-standards.json
+src/data/spanish/english-template-loader-review-standards.json
+src/data/spanish/function-word-code-review-standards.json
+src/data/spanish/inline-definition-test-settlement-review-standards.json
+src/data/spanish/mian-adapter-code-review-standards.json
+src/data/spanish/nonhuman3-implementation-review-spec.json
+src/data/spanish/priority12-code-review-standards.json

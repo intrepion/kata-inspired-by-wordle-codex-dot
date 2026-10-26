@@ -1,0 +1,27 @@
+{
+  "artifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+  "sourceUrl": "https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz",
+  "license": "CC-BY-SA-4.0",
+  "records": [
+    {
+      "word": "copino",
+      "pos": "noun",
+      "wordTags": [
+        "masculine"
+      ],
+      "senses": [
+        {
+          "glosses": [
+            "Medida de capacidad para granos cuya equivalencia depende de la localidad."
+          ]
+        },
+        {
+          "glosses": [
+            "Copa o vaso pequeño"
+          ]
+        }
+      ],
+      "recordSha256": "d7e25fc3853df8d4419a65e1ec7bef62c89a80ddb3e86ba94f9e386e502de24d"
+    }
+  ]
+}

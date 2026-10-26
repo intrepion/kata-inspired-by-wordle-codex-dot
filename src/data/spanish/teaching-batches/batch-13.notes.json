@@ -1,0 +1,11 @@
+{
+  "NORMA": "lexical-evidence.json NORMA entry0 sense2: ordinary rule rather than craft square.",
+  "OBRADOR": "lexical-evidence.json OBRADOR entry1 sense0: workshop noun instead of rare adjective.",
+  "NOTAR": "lexical-evidence.json NOTAR entry0 sense1: ordinary observing sense.",
+  "PANDA": "Ordinary meaning from model linguistic knowledge; not claimed from selected source anchor. Retained extract may omit this sense; independent cross-review required.",
+  "PAGADO": "Ordinary meaning or idiomatic usage from model linguistic knowledge; no source translation claim. Preferred over uncommon supplied sense; independent cross-review required.",
+  "PARADO": "Ordinary meaning or idiomatic usage from model linguistic knowledge; no source translation claim. Preferred over uncommon supplied sense; independent cross-review required.",
+  "NOVA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PALABRA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PARADA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim."
+}

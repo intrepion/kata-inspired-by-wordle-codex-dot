@@ -1,0 +1,902 @@
+[
+  {
+    "word": "TONTO",
+    "translation": "silly; foolish",
+    "example": "El comentario tonto no ayudó.",
+    "exampleTranslation": "The silly comment did not help."
+  },
+  {
+    "word": "TOPE",
+    "translation": "stop; limit of movement",
+    "example": "El cajón llegó al tope.",
+    "exampleTranslation": "The drawer reached its stopping point."
+  },
+  {
+    "word": "TOPO",
+    "translation": "mole",
+    "example": "El topo cavó un túnel.",
+    "exampleTranslation": "The mole dug a tunnel."
+  },
+  {
+    "word": "TOQUE",
+    "translation": "touch",
+    "example": "Un toque suave bastó para despertarlo.",
+    "exampleTranslation": "A gentle touch was enough to wake him."
+  },
+  {
+    "word": "TORNEO",
+    "translation": "tournament",
+    "example": "El torneo reúne a ocho equipos.",
+    "exampleTranslation": "The tournament brings together eight teams."
+  },
+  {
+    "word": "TORNO",
+    "translation": "potter's wheel",
+    "example": "La alfarera modeló el barro en el torno.",
+    "exampleTranslation": "The potter shaped the clay on the wheel."
+  },
+  {
+    "word": "TORO",
+    "translation": "bull",
+    "example": "El toro descansaba bajo un árbol.",
+    "exampleTranslation": "The bull rested under a tree."
+  },
+  {
+    "word": "TORPE",
+    "translation": "clumsy; slow-moving",
+    "example": "El cachorro torpe tropezó con la manta.",
+    "exampleTranslation": "The clumsy puppy tripped over the blanket."
+  },
+  {
+    "word": "TORRE",
+    "translation": "tower",
+    "example": "La torre se ve desde lejos.",
+    "exampleTranslation": "The tower can be seen from far away."
+  },
+  {
+    "word": "TORREÓN",
+    "translation": "keep; fortified tower",
+    "example": "El torreón protegía el castillo.",
+    "exampleTranslation": "The fortified tower protected the castle."
+  },
+  {
+    "word": "TORTA",
+    "translation": "Mexican sandwich",
+    "example": "Pedí una torta de queso.",
+    "exampleTranslation": "I ordered a cheese sandwich."
+  },
+  {
+    "word": "TORTUGA",
+    "translation": "turtle; tortoise",
+    "example": "La tortuga caminó hacia el agua.",
+    "exampleTranslation": "The turtle walked toward the water."
+  },
+  {
+    "word": "TORTURA",
+    "translation": "torture",
+    "example": "El informe condena la tortura.",
+    "exampleTranslation": "The report condemns torture."
+  },
+  {
+    "word": "TOTAL",
+    "translation": "total; whole",
+    "example": "El costo total incluye impuestos.",
+    "exampleTranslation": "The total cost includes taxes."
+  },
+  {
+    "word": "TOUR",
+    "translation": "tour",
+    "example": "El tour incluye tres ciudades.",
+    "exampleTranslation": "The tour includes three cities."
+  },
+  {
+    "word": "TRABA",
+    "translation": "obstacle",
+    "example": "La falta de dinero fue una traba.",
+    "exampleTranslation": "The lack of money was an obstacle."
+  },
+  {
+    "word": "TRAER",
+    "translation": "to bring",
+    "example": "Puedes traer tu cuaderno.",
+    "exampleTranslation": "You can bring your notebook."
+  },
+  {
+    "word": "TRAGAR",
+    "translation": "to swallow",
+    "example": "Me cuesta tragar esa pastilla.",
+    "exampleTranslation": "I find it hard to swallow that pill."
+  },
+  {
+    "word": "TRAGO",
+    "translation": "sip; mouthful of liquid",
+    "example": "Bebió un trago de agua.",
+    "exampleTranslation": "She drank a mouthful of water."
+  },
+  {
+    "word": "TRAIDOR",
+    "translation": "treacherous; disloyal",
+    "example": "El soldado traidor reveló el plan.",
+    "exampleTranslation": "The disloyal soldier revealed the plan."
+  },
+  {
+    "word": "TRAJE",
+    "translation": "suit",
+    "example": "Llevó un traje azul a la boda.",
+    "exampleTranslation": "He wore a blue suit to the wedding."
+  },
+  {
+    "word": "TRAMA",
+    "translation": "weft",
+    "example": "La trama cruza los hilos de la urdimbre.",
+    "exampleTranslation": "The weft crosses the warp threads."
+  },
+  {
+    "word": "TRAMO",
+    "translation": "stretch; section",
+    "example": "Ese tramo del camino está cerrado.",
+    "exampleTranslation": "That stretch of road is closed."
+  },
+  {
+    "word": "TRAMPA",
+    "translation": "trap",
+    "example": "La trampa estaba vacía.",
+    "exampleTranslation": "The trap was empty."
+  },
+  {
+    "word": "TRAPO",
+    "translation": "rag",
+    "example": "Limpió la mesa con un trapo.",
+    "exampleTranslation": "She cleaned the table with a rag."
+  },
+  {
+    "word": "TRAS",
+    "translation": "behind; after",
+    "example": "El perro corrió tras la pelota.",
+    "exampleTranslation": "The dog ran after the ball."
+  },
+  {
+    "word": "TRASERO",
+    "translation": "rear; back",
+    "example": "La puerta del patio trasero está abierta.",
+    "exampleTranslation": "The backyard door is open."
+  },
+  {
+    "word": "TRATA",
+    "translation": "human trafficking",
+    "example": "La campaña combate la trata de personas.",
+    "exampleTranslation": "The campaign combats human trafficking."
+  },
+  {
+    "word": "TRATADO",
+    "translation": "treaty",
+    "example": "Los países firmaron un tratado.",
+    "exampleTranslation": "The countries signed a treaty."
+  },
+  {
+    "word": "TRATAR",
+    "translation": "to discuss; to address",
+    "example": "Debemos tratar ese asunto mañana.",
+    "exampleTranslation": "We must discuss that matter tomorrow."
+  },
+  {
+    "word": "TRATO",
+    "translation": "agreement; deal",
+    "example": "Llegaron a un trato justo.",
+    "exampleTranslation": "They reached a fair deal."
+  },
+  {
+    "word": "TRAUMA",
+    "translation": "psychological trauma",
+    "example": "Recibió apoyo para superar el trauma.",
+    "exampleTranslation": "She received support to overcome the trauma."
+  },
+  {
+    "word": "TRAVÉS",
+    "translation": "through; in a través de",
+    "example": "La luz entra a través del vidrio.",
+    "exampleTranslation": "Light enters through the glass."
+  },
+  {
+    "word": "TRAZA",
+    "translation": "plan; design",
+    "example": "La traza del edificio conserva un patio central.",
+    "exampleTranslation": "The building's design retains a central courtyard."
+  },
+  {
+    "word": "TRAZADO",
+    "translation": "layout; drawing of a route",
+    "example": "El trazado de la carretera sigue el río.",
+    "exampleTranslation": "The road's route follows the river."
+  },
+  {
+    "word": "TRAZAR",
+    "translation": "to draw; to trace",
+    "example": "Vamos a trazar una línea recta.",
+    "exampleTranslation": "We are going to draw a straight line."
+  },
+  {
+    "word": "TRECE",
+    "translation": "thirteen",
+    "example": "Llegaron trece invitados.",
+    "exampleTranslation": "Thirteen guests arrived."
+  },
+  {
+    "word": "TREGUA",
+    "translation": "truce",
+    "example": "La tregua permitió entregar alimentos.",
+    "exampleTranslation": "The truce allowed food to be delivered."
+  },
+  {
+    "word": "TREINTA",
+    "translation": "thirty",
+    "example": "El boleto cuesta treinta pesos.",
+    "exampleTranslation": "The ticket costs thirty pesos."
+  },
+  {
+    "word": "TREN",
+    "translation": "train",
+    "example": "El tren sale a las ocho.",
+    "exampleTranslation": "The train leaves at eight."
+  },
+  {
+    "word": "TRES",
+    "translation": "three",
+    "example": "Compramos tres libros.",
+    "exampleTranslation": "We bought three books."
+  },
+  {
+    "word": "TRIBU",
+    "translation": "tribe; taxonomic rank",
+    "example": "La tribu agrupa varios géneros de plantas.",
+    "exampleTranslation": "The tribe groups several plant genera."
+  },
+  {
+    "word": "TRIBUNA",
+    "translation": "speaking platform",
+    "example": "La oradora subió a la tribuna.",
+    "exampleTranslation": "The speaker stepped onto the platform."
+  },
+  {
+    "word": "TRIBUTO",
+    "translation": "tax; tribute",
+    "example": "El tributo sostenía los gastos del reino.",
+    "exampleTranslation": "The tax covered the kingdom's expenses."
+  },
+  {
+    "word": "TRIGO",
+    "translation": "wheat",
+    "example": "El trigo madura en el campo.",
+    "exampleTranslation": "Wheat ripens in the field."
+  },
+  {
+    "word": "TRIPLE",
+    "translation": "triple",
+    "example": "El recipiente tiene capacidad triple.",
+    "exampleTranslation": "The container has triple the capacity."
+  },
+  {
+    "word": "TRISTE",
+    "translation": "sad",
+    "example": "El niño estaba triste.",
+    "exampleTranslation": "The boy was sad."
+  },
+  {
+    "word": "TRIUNFO",
+    "translation": "victory; success",
+    "example": "El triunfo alegró al equipo.",
+    "exampleTranslation": "The victory delighted the team."
+  },
+  {
+    "word": "TRONCO",
+    "translation": "tree trunk",
+    "example": "El tronco sostiene las ramas.",
+    "exampleTranslation": "The trunk supports the branches."
+  },
+  {
+    "word": "TRONO",
+    "translation": "throne",
+    "example": "La reina se sentó en el trono.",
+    "exampleTranslation": "The queen sat on the throne."
+  },
+  {
+    "word": "TROPA",
+    "translation": "troop",
+    "example": "La tropa avanzó a caballo.",
+    "exampleTranslation": "The troop advanced on horseback."
+  },
+  {
+    "word": "TROZO",
+    "translation": "piece",
+    "example": "Cortó un trozo de queso.",
+    "exampleTranslation": "She cut a piece of cheese."
+  },
+  {
+    "word": "TRUCO",
+    "translation": "trick",
+    "example": "El mago mostró un truco nuevo.",
+    "exampleTranslation": "The magician showed a new trick."
+  },
+  {
+    "word": "TRÁFICO",
+    "translation": "traffic",
+    "example": "El tráfico retrasó el autobús.",
+    "exampleTranslation": "Traffic delayed the bus."
+  },
+  {
+    "word": "TRÁGICO",
+    "translation": "tragic",
+    "example": "El accidente tuvo un desenlace trágico.",
+    "exampleTranslation": "The accident had a tragic outcome."
+  },
+  {
+    "word": "TRÁILER",
+    "translation": "tractor-trailer truck",
+    "example": "El tráiler transporta alimentos.",
+    "exampleTranslation": "The tractor-trailer transports food."
+  },
+  {
+    "word": "TRÁMITE",
+    "translation": "administrative procedure",
+    "example": "El trámite requiere una firma.",
+    "exampleTranslation": "The procedure requires a signature."
+  },
+  {
+    "word": "TRÍO",
+    "translation": "trio",
+    "example": "El trío interpretó una canción.",
+    "exampleTranslation": "The trio performed a song."
+  },
+  {
+    "word": "TSUNAMI",
+    "translation": "tsunami",
+    "example": "La alerta de tsunami activó la evacuación.",
+    "exampleTranslation": "The tsunami warning triggered the evacuation."
+  },
+  {
+    "word": "TUBERÍA",
+    "translation": "piping",
+    "example": "La tubería lleva agua al pueblo.",
+    "exampleTranslation": "The piping carries water to the town."
+  },
+  {
+    "word": "TUBO",
+    "translation": "tube; pipe",
+    "example": "El agua pasa por ese tubo.",
+    "exampleTranslation": "Water passes through that pipe."
+  },
+  {
+    "word": "TUIT",
+    "translation": "tweet; short social-media post",
+    "example": "Publicó un tuit sobre el concierto.",
+    "exampleTranslation": "She posted a tweet about the concert."
+  },
+  {
+    "word": "TUITEAR",
+    "translation": "to tweet",
+    "example": "Le gusta tuitear sobre libros.",
+    "exampleTranslation": "She likes to tweet about books."
+  },
+  {
+    "word": "TUMBA",
+    "translation": "grave; tomb",
+    "example": "La tumba estaba cubierta de flores.",
+    "exampleTranslation": "The grave was covered with flowers."
+  },
+  {
+    "word": "TUMOR",
+    "translation": "tumor",
+    "example": "El estudio detectó un tumor.",
+    "exampleTranslation": "The study detected a tumor."
+  },
+  {
+    "word": "TURBO",
+    "translation": "turbocharger",
+    "example": "El turbo aumenta la potencia del motor.",
+    "exampleTranslation": "The turbocharger increases the engine's power."
+  },
+  {
+    "word": "TURCO",
+    "translation": "Turkish",
+    "example": "El cocinero turco preparó pan.",
+    "exampleTranslation": "The Turkish cook made bread."
+  },
+  {
+    "word": "TURISMO",
+    "translation": "tourism",
+    "example": "El turismo genera empleo local.",
+    "exampleTranslation": "Tourism generates local employment."
+  },
+  {
+    "word": "TURISTA",
+    "translation": "tourist",
+    "example": "El turista pidió un mapa.",
+    "exampleTranslation": "The tourist asked for a map."
+  },
+  {
+    "word": "TURNO",
+    "translation": "turn",
+    "example": "Espera tu turno para hablar.",
+    "exampleTranslation": "Wait your turn to speak."
+  },
+  {
+    "word": "TUTELA",
+    "translation": "guardianship",
+    "example": "La niña quedó bajo tutela de su tía.",
+    "exampleTranslation": "The girl came under her aunt's guardianship."
+  },
+  {
+    "word": "TUTOR",
+    "translation": "guardian",
+    "example": "El tutor firmó la autorización.",
+    "exampleTranslation": "The guardian signed the permission form."
+  },
+  {
+    "word": "TUYO",
+    "translation": "yours",
+    "example": "El lápiz rojo es tuyo.",
+    "exampleTranslation": "The red pencil is yours."
+  },
+  {
+    "word": "TÁCTICA",
+    "translation": "tactics; strategy",
+    "example": "La táctica del equipo funcionó.",
+    "exampleTranslation": "The team's tactics worked."
+  },
+  {
+    "word": "TÉCNICA",
+    "translation": "technique",
+    "example": "La técnica requiere práctica.",
+    "exampleTranslation": "The technique requires practice."
+  },
+  {
+    "word": "TÉCNICO",
+    "translation": "technical",
+    "example": "El informe técnico explica la falla.",
+    "exampleTranslation": "The technical report explains the fault."
+  },
+  {
+    "word": "TÉRMICA",
+    "translation": "thermal; rising warm-air column",
+    "example": "El ave aprovechó una térmica para elevarse.",
+    "exampleTranslation": "The bird used a thermal to gain height."
+  },
+  {
+    "word": "TÉRMINO",
+    "translation": "end; limit",
+    "example": "Llegamos al término del recorrido.",
+    "exampleTranslation": "We reached the end of the route."
+  },
+  {
+    "word": "TÍMIDO",
+    "translation": "shy",
+    "example": "El niño tímido habló poco.",
+    "exampleTranslation": "The shy boy spoke little."
+  },
+  {
+    "word": "TÍPICO",
+    "translation": "typical",
+    "example": "El plato típico lleva maíz.",
+    "exampleTranslation": "The typical dish contains corn."
+  },
+  {
+    "word": "TÍTULO",
+    "translation": "title",
+    "example": "El título del libro despertó su interés.",
+    "exampleTranslation": "The book's title aroused her interest."
+  },
+  {
+    "word": "TÓXICO",
+    "translation": "toxic",
+    "example": "El producto tóxico está guardado.",
+    "exampleTranslation": "The toxic product is stored away."
+  },
+  {
+    "word": "TÚNEL",
+    "translation": "tunnel",
+    "example": "El tren cruzó el túnel.",
+    "exampleTranslation": "The train passed through the tunnel."
+  },
+  {
+    "word": "UBICADO",
+    "translation": "sensible; grounded",
+    "example": "Es un joven ubicado y respetuoso.",
+    "exampleTranslation": "He is a sensible and respectful young man."
+  },
+  {
+    "word": "UBICAR",
+    "translation": "to locate; to position",
+    "example": "Podemos ubicar la mesa aquí.",
+    "exampleTranslation": "We can position the table here."
+  },
+  {
+    "word": "UMBRAL",
+    "translation": "threshold",
+    "example": "Se detuvo en el umbral.",
+    "exampleTranslation": "She stopped at the threshold."
+  },
+  {
+    "word": "UNIDAD",
+    "translation": "unit",
+    "example": "El metro es una unidad de longitud.",
+    "exampleTranslation": "The meter is a unit of length."
+  },
+  {
+    "word": "UNIR",
+    "translation": "to join",
+    "example": "Necesitas unir las dos piezas.",
+    "exampleTranslation": "You need to join the two pieces."
+  },
+  {
+    "word": "UNIRSE",
+    "translation": "to unite; to join together",
+    "example": "Decidieron unirse para ayudar.",
+    "exampleTranslation": "They decided to unite to help."
+  },
+  {
+    "word": "UNIÓN",
+    "translation": "union; joining",
+    "example": "La unión de las piezas quedó firme.",
+    "exampleTranslation": "The joining of the pieces was secure."
+  },
+  {
+    "word": "UNÁNIME",
+    "translation": "unanimous",
+    "example": "La decisión fue unánime.",
+    "exampleTranslation": "The decision was unanimous."
+  },
+  {
+    "word": "URANIO",
+    "translation": "uranium",
+    "example": "El uranio es un elemento radiactivo.",
+    "exampleTranslation": "Uranium is a radioactive element."
+  },
+  {
+    "word": "URBANO",
+    "translation": "urban",
+    "example": "El transporte urbano conecta los barrios.",
+    "exampleTranslation": "Urban transport connects the neighborhoods."
+  },
+  {
+    "word": "URGENTE",
+    "translation": "urgent",
+    "example": "El asunto es urgente.",
+    "exampleTranslation": "The matter is urgent."
+  },
+  {
+    "word": "URNA",
+    "translation": "urn",
+    "example": "La urna contiene cenizas.",
+    "exampleTranslation": "The urn contains ashes."
+  },
+  {
+    "word": "USAR",
+    "translation": "to use",
+    "example": "Puedes usar mi computadora.",
+    "exampleTranslation": "You can use my computer."
+  },
+  {
+    "word": "USARSE",
+    "translation": "to be worn; to be in fashion",
+    "example": "Ese sombrero dejó de usarse.",
+    "exampleTranslation": "That hat stopped being worn."
+  },
+  {
+    "word": "USTED",
+    "translation": "you; formal singular",
+    "example": "¿Usted conoce este camino?",
+    "exampleTranslation": "Do you know this road?"
+  },
+  {
+    "word": "USUAL",
+    "translation": "usual",
+    "example": "Tomamos la ruta usual.",
+    "exampleTranslation": "We took the usual route."
+  },
+  {
+    "word": "USUARIO",
+    "translation": "user",
+    "example": "Cada usuario tiene una cuenta.",
+    "exampleTranslation": "Each user has an account."
+  },
+  {
+    "word": "UTOPÍA",
+    "translation": "utopia",
+    "example": "La novela describe una utopía.",
+    "exampleTranslation": "The novel describes a utopia."
+  },
+  {
+    "word": "VACA",
+    "translation": "cow",
+    "example": "La vaca pastaba junto al río.",
+    "exampleTranslation": "The cow grazed beside the river."
+  },
+  {
+    "word": "VACANTE",
+    "translation": "vacant post; opening",
+    "example": "La empresa anunció una vacante.",
+    "exampleTranslation": "The company announced a job opening."
+  },
+  {
+    "word": "VACUNA",
+    "translation": "vaccine",
+    "example": "La vacuna se conserva en frío.",
+    "exampleTranslation": "The vaccine is kept cold."
+  },
+  {
+    "word": "VACÍO",
+    "translation": "empty",
+    "example": "El vaso está vacío.",
+    "exampleTranslation": "The glass is empty."
+  },
+  {
+    "word": "VAGINA",
+    "translation": "vagina",
+    "example": "La ilustración muestra la anatomía de la vagina.",
+    "exampleTranslation": "The illustration shows the anatomy of the vagina."
+  },
+  {
+    "word": "VAGO",
+    "translation": "lazy",
+    "example": "El personaje vago evitaba trabajar.",
+    "exampleTranslation": "The lazy character avoided work."
+  },
+  {
+    "word": "VAGÓN",
+    "translation": "railway car",
+    "example": "El vagón transporta mercancías.",
+    "exampleTranslation": "The railway car carries goods."
+  },
+  {
+    "word": "VAINA",
+    "translation": "sheath",
+    "example": "Guardó el cuchillo en su vaina.",
+    "exampleTranslation": "He put the knife in its sheath."
+  },
+  {
+    "word": "VALE",
+    "translation": "voucher",
+    "example": "El vale sirve para comprar alimentos.",
+    "exampleTranslation": "The voucher can be used to buy food."
+  },
+  {
+    "word": "VALER",
+    "translation": "to be worth",
+    "example": "La pieza puede valer mucho.",
+    "exampleTranslation": "The piece may be worth a lot."
+  },
+  {
+    "word": "VALIDEZ",
+    "translation": "validity",
+    "example": "Revisaron la validez del documento.",
+    "exampleTranslation": "They checked the document's validity."
+  },
+  {
+    "word": "VALIDO",
+    "translation": "royal favorite",
+    "example": "El valido aconsejaba al rey.",
+    "exampleTranslation": "The royal favorite advised the king."
+  },
+  {
+    "word": "VALIOSO",
+    "translation": "valuable",
+    "example": "Tu consejo fue valioso.",
+    "exampleTranslation": "Your advice was valuable."
+  },
+  {
+    "word": "VALLA",
+    "translation": "fence",
+    "example": "La valla rodea el huerto.",
+    "exampleTranslation": "The fence surrounds the garden."
+  },
+  {
+    "word": "VALLE",
+    "translation": "valley",
+    "example": "El valle está entre dos montañas.",
+    "exampleTranslation": "The valley lies between two mountains."
+  },
+  {
+    "word": "VALOR",
+    "translation": "value",
+    "example": "Reconocieron el valor de su ayuda.",
+    "exampleTranslation": "They recognized the value of her help."
+  },
+  {
+    "word": "VALORAR",
+    "translation": "to value",
+    "example": "Debemos valorar el esfuerzo de todos.",
+    "exampleTranslation": "We should value everyone's effort."
+  },
+  {
+    "word": "VALÍA",
+    "translation": "worth; merit",
+    "example": "Demostró su valía con trabajo constante.",
+    "exampleTranslation": "She proved her worth through steady work."
+  },
+  {
+    "word": "VAMOS",
+    "translation": "come on; let's go",
+    "example": "¡Vamos, ya casi llegas!",
+    "exampleTranslation": "Come on, you are almost there!"
+  },
+  {
+    "word": "VAMPIRO",
+    "translation": "vampire",
+    "example": "El vampiro del cuento evita el sol.",
+    "exampleTranslation": "The vampire in the story avoids sunlight."
+  },
+  {
+    "word": "VANO",
+    "translation": "fruitless; futile",
+    "example": "El esfuerzo fue vano.",
+    "exampleTranslation": "The effort was futile."
+  },
+  {
+    "word": "VAPOR",
+    "translation": "vapor; steam",
+    "example": "El vapor salió de la olla.",
+    "exampleTranslation": "Steam came out of the pot."
+  },
+  {
+    "word": "VARA",
+    "translation": "long thin stick",
+    "example": "Usó una vara para alcanzar la fruta.",
+    "exampleTranslation": "He used a long stick to reach the fruit."
+  },
+  {
+    "word": "VARIAR",
+    "translation": "to vary; to change",
+    "example": "Puedes variar los ingredientes.",
+    "exampleTranslation": "You can vary the ingredients."
+  },
+  {
+    "word": "VARÓN",
+    "translation": "male human; man",
+    "example": "El formulario distingue entre mujer y varón.",
+    "exampleTranslation": "The form distinguishes between woman and man."
+  },
+  {
+    "word": "VASCO",
+    "translation": "Basque",
+    "example": "El escritor vasco presentó su novela.",
+    "exampleTranslation": "The Basque writer presented his novel."
+  },
+  {
+    "word": "VASO",
+    "translation": "glass; drinking vessel",
+    "example": "Llenó el vaso de agua.",
+    "exampleTranslation": "She filled the glass with water."
+  },
+  {
+    "word": "VAYA",
+    "translation": "wow!; well!",
+    "example": "¡Vaya, qué sorpresa!",
+    "exampleTranslation": "Wow, what a surprise!"
+  },
+  {
+    "word": "VECINO",
+    "translation": "neighboring",
+    "example": "El pueblo vecino está cerca.",
+    "exampleTranslation": "The neighboring town is nearby."
+  },
+  {
+    "word": "VEGA",
+    "translation": "fertile river plain",
+    "example": "La vega produce hortalizas.",
+    "exampleTranslation": "The fertile river plain produces vegetables."
+  },
+  {
+    "word": "VEGETAL",
+    "translation": "plant; vegetable organism",
+    "example": "El cactus es un vegetal adaptado al desierto.",
+    "exampleTranslation": "The cactus is a plant adapted to the desert."
+  },
+  {
+    "word": "VEINTE",
+    "translation": "twenty",
+    "example": "El grupo tiene veinte alumnos.",
+    "exampleTranslation": "The group has twenty students."
+  },
+  {
+    "word": "VEJEZ",
+    "translation": "old age",
+    "example": "Disfruta su vejez cerca de la familia.",
+    "exampleTranslation": "She enjoys her old age close to family."
+  },
+  {
+    "word": "VELADA",
+    "translation": "evening gathering",
+    "example": "La velada incluyó música y poesía.",
+    "exampleTranslation": "The evening gathering included music and poetry."
+  },
+  {
+    "word": "VELAR",
+    "translation": "to stay awake at night",
+    "example": "La enfermera tuvo que velar toda la noche.",
+    "exampleTranslation": "The nurse had to stay awake all night."
+  },
+  {
+    "word": "VELO",
+    "translation": "veil",
+    "example": "El velo cubría su cabello.",
+    "exampleTranslation": "The veil covered her hair."
+  },
+  {
+    "word": "VELOZ",
+    "translation": "fast; swift",
+    "example": "El ave veloz cruzó el cielo.",
+    "exampleTranslation": "The swift bird crossed the sky."
+  },
+  {
+    "word": "VENA",
+    "translation": "vein",
+    "example": "La vena lleva sangre al corazón.",
+    "exampleTranslation": "The vein carries blood to the heart."
+  },
+  {
+    "word": "VENCER",
+    "translation": "to defeat",
+    "example": "El equipo logró vencer al rival.",
+    "exampleTranslation": "The team managed to defeat its rival."
+  },
+  {
+    "word": "VENCIDA",
+    "translation": "victory; success after attempts",
+    "example": "A la tercera va la vencida.",
+    "exampleTranslation": "The third time is the charm."
+  },
+  {
+    "word": "VENDA",
+    "translation": "bandage",
+    "example": "La venda protege la herida.",
+    "exampleTranslation": "The bandage protects the wound."
+  },
+  {
+    "word": "VENDER",
+    "translation": "to sell",
+    "example": "Quiere vender su bicicleta.",
+    "exampleTranslation": "She wants to sell her bicycle."
+  },
+  {
+    "word": "VENDIDO",
+    "translation": "bought off; disloyal",
+    "example": "El funcionario vendido aceptó el soborno.",
+    "exampleTranslation": "The corrupt official accepted the bribe."
+  },
+  {
+    "word": "VENENO",
+    "translation": "poison",
+    "example": "El frasco contiene veneno.",
+    "exampleTranslation": "The bottle contains poison."
+  },
+  {
+    "word": "VENIA",
+    "translation": "permission; leave",
+    "example": "Con su venia, explicaré lo ocurrido.",
+    "exampleTranslation": "With your permission, I will explain what happened."
+  },
+  {
+    "word": "VENIR",
+    "translation": "to come",
+    "example": "Puedes venir mañana.",
+    "exampleTranslation": "You can come tomorrow."
+  },
+  {
+    "word": "VENTA",
+    "translation": "sale",
+    "example": "La venta de la casa terminó ayer.",
+    "exampleTranslation": "The house sale was completed yesterday."
+  },
+  {
+    "word": "VENTAJA",
+    "translation": "advantage",
+    "example": "Conocer el camino nos da ventaja.",
+    "exampleTranslation": "Knowing the route gives us an advantage."
+  },
+  {
+    "word": "VENTURA",
+    "translation": "happiness; good fortune",
+    "example": "Les deseamos paz y ventura.",
+    "exampleTranslation": "We wish them peace and happiness."
+  }
+]

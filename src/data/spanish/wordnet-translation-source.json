@@ -1,0 +1,11 @@
+{
+  "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+  "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+  "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+  "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+  "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+  "spanishLicense": "CC-BY-3.0",
+  "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+  "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+  "modifications": "Exact WordNet 3.0 noun-synset joins, independently reviewed selected English renderings, no quotations or examples."
+}

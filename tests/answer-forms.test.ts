@@ -13,7 +13,7 @@ test('singular S words, non-past ED words and documented independent base senses
 });
 test('reviewed past HIDED is excluded despite an uncertain source mapping, without removing its accepted guess',()=>{assert.equal(ANSWERS.includes('HIDED'),false);assert.equal(ALLOWED.has('HIDED'),true)});
 
-test('accepted guess snapshot stays byte-identical and every curated answer remains accepted',async()=>{
+test('accepted guess snapshot stays byte-identical and every possible answer remains accepted',async()=>{
  const {createHash}=await import('node:crypto');const {readFileSync}=await import('node:fs');
  assert.equal(ALLOWED.size,11193);const raw=readFileSync(new URL('../src/data/scowl-guesses.ts',import.meta.url));assert.equal(createHash('sha256').update(raw).digest('hex'),'c21cf2200683f2a5da7291824fd304e56759bca0e631c54efc8273a06d29c00d');assert.equal(ANSWERS.length,2103);assert.equal(new Set(ANSWERS).size,ANSWERS.length);for(const word of ANSWERS)assert.ok(ALLOWED.has(word));
  for(const word of ['SADES','SHOOK','CHOSE','MEDIA','TIRED','BURNT','SPENT']){assert.ok(!ANSWERS.includes(word),word);assert.ok(ALLOWED.has(word),word)}

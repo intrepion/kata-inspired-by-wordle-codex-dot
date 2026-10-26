@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "originalLearningSha256": "2615459011ece0b665c15139f87ec79c86667a14754b24466e1cd2476b78fd85",
+  "answerSelectionSha256": "df36555cf288b1cdff497eb1d8517549ad6f9e16afedaf6663409f757cd9b680",
+  "beforeAnswerCoverage": 362,
+  "answerCoverage": 3333,
+  "newRecords": 2971,
+  "originalRecords": 439,
+  "totalRecords": 3410,
+  "authorship": "Original AI-authored educational translations and examples",
+  "review": "Independent model cross-review of every new record; no human/native certification",
+  "meaningPolicy": "Source meanings are research anchors, not attributed translations. Ordinary model-knowledge meanings may be selected when the retained extract is incomplete; batch notes identify decisions. English translation, Spanish example and English rendering were reviewed for alignment and natural Mexican Spanish. Dictionary definitions/attribution remain a separate unchanged provider.",
+  "license": "CC-BY-SA-4.0",
+  "batches": [
+    {
+      "number": 1,
+      "file": "batch-01.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "4211db3a39444c1975bcb0210f6efe10fd70d2bfdb9890477a461ea5308b6ffa",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "No substantive corrections required."
+      ]
+    },
+    {
+      "number": 2,
+      "file": "batch-02.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "d68b5def73ac0f3cca8f474bc01a73da71c753e12ad37f01501e292b16c1afed",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "BIBLIA: corrected proper-name capitalization and narrowed translation to Bible."
+      ]
+    },
+    {
+      "number": 3,
+      "file": "batch-03.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "a576e7a0e3b8fae9dc0a0d3a6db88724de947165e579a551cc3f284f672a139a",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "BÁRBARO: corrected English people/appears disagreement.",
+        "CARRIL: selected ordinary lane meaning with aligned example.",
+        "CAPO: selected ordinary criminal-boss meaning for Mexican usage."
+      ]
+    },
+    {
+      "number": 4,
+      "file": "batch-04.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "a0f9eda8b76d22d0f9ad3091c62e6c1452bcecc009970040ff5398517aa72ea6",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "CIGARRO: corrected Mexican everyday cigarette meaning and English rendering.",
+        "COMERSE: selected ordinary eating sense with natural infinitive example.",
+        "COLONIA: selected ordinary Mexican neighborhood meaning."
+      ]
+    },
+    {
+      "number": 5,
+      "file": "batch-05.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "9479dcfea8154643428dd95d8c850d7d78918cbf0fcb69a2eb3b5911093c721e",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "CREÍDO: selected ordinary conceited sense, avoiding awkward estar creído construction.",
+        "DEJARSE: clarified appearance-neglect context and English rendering.",
+        "DEBE debit-side accounting sense, CRIADA maid and CERRADO closed (batch04) independently confirmed from linguistic knowledge despite incomplete/malformed source anchors."
+      ]
+    },
+    {
+      "number": 6,
+      "file": "batch-06.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "930a5bc8685037fc70b86d014611b60466a0bd6f6d3697cd7a2527ccb2364bed",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "DICHO: removed redundant article in dicho acuerdo.",
+        "DÉCIMA: replaced contextless missing tenth-of-second example with winning-margin context.",
+        "DONANTE: used natural donor noun and aligned rendering.",
+        "ENERGÍA: corrected example to convert solar energy into electricity."
+      ]
+    },
+    {
+      "number": 7,
+      "file": "batch-07.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "997172091d4bcc9ee7998905d030e015faf041afbdb6d083cb05610a2323074b",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "No substantive corrections required."
+      ]
+    },
+    {
+      "number": 8,
+      "file": "batch-08.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "18eaaadfb00db241c452f8e567a2eae4b08cbaea9a31bd5c534b45b78f499c5c",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "No substantive corrections required."
+      ]
+    },
+    {
+      "number": 9,
+      "file": "batch-09.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "8d5df9354bac0ff51a58f14449da516d089a8d037764fa831fbc1ef20e224457",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "No substantive corrections required."
+      ]
+    },
+    {
+      "number": 10,
+      "file": "batch-10.json",
+      "author": "/root/review_spec",
+      "reviewer": "/root/review_standards",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "a6b23c97fb80d46fa2310adddc1840a746ae68c2b1f2ab0c48d643cc6f149e03",
+      "notes": [
+        "Independently read every record and available author notes; reviewed Spanish naturalness, meaning/homographs, accents, target occurrence and faithful natural English. Original AI-authored text, independently model-reviewed, not native-human-certified.",
+        "Ordinary senses noted as model linguistic knowledge are approved on that basis, without claiming the source extract supplied translations.",
+        "No substantive corrections required."
+      ]
+    },
+    {
+      "number": 11,
+      "file": "batch-11.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "4967de844d074dc5c81990b2902ad7392a208b46f9ea4d5ff09a6d2b258e3151",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: MASCOTA, MAYORÍA, MICRO.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 12,
+      "file": "batch-12.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "291a28a467931071a693d246d31e10c5fc880739fd829c9bb433771adc443d9d",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: MONTAR, MORADA, NAVIDAD, NEGARSE, NETO, NEVERA.",
+        "NEGARSE construction corrected; MONTAR rendering aligned to riding; NEVERA refrigerator, NETO net weight and NAVIDAD Christmas use ordinary senses.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 13,
+      "file": "batch-13.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "cc36f56b04f9ae2bf4bb6fdd8e5c31430229ebd21662163e623fe8b45f5cf42c",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: NOVA, PALABRA, PARADA.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 14,
+      "file": "batch-14.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "ac318dd1e124f8fe039c371b52ae9b038a6422bb2175e9f58c8a110da8f83075",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: PILOTO, PIZARRA, PIÑA, PLANA, PLANCHA, PLANTEL.",
+        "Ordinary Mexican-useful senses chosen for PIÑA pineapple and PLANTEL school; natural English for PLANA.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 15,
+      "file": "batch-15.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "cc631f34dee2d875205aa3a8f5b47cb906d474efdf2fb58eaa70c15be7d8f656",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: PUERTO, QUEDAR, QUERIDO, RADICAL, RASGO.",
+        "PUERTO example no longer repeats old BARCO. QUEDAR uses a natural impersonal construction.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 16,
+      "file": "batch-16.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "06debb584cfb8b40d59196950572e033f7a7e336a7a2d0d4f4d77e3cad4a89c0",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: REAL, REFLEJO, REGULAR, RENAL.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 17,
+      "file": "batch-17.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "de59a70e39308fe500b1ef207af7dadfa29bbd8b1b189f9da9ee598e5a37f2b0",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: SALARIO, SECRETO.",
+        "SALARIO quincena rendered twice a month rather than every two weeks.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 18,
+      "file": "batch-18.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "aeffab5a54fb743721c09fed627ebe74e7eff23d772f4cca9d064f2c7cda5cce",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Refined: SUCESOR, TITULAR.",
+        "TITULAR uses ordinary headline sense instead of the unnatural principal professor rendering.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 19,
+      "file": "batch-19.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 150,
+      "reviewedSha256": "c9cafac594d7bcc410bc48e25e577da59008b483dfd1be10c716a58edb0c5199",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    },
+    {
+      "number": 20,
+      "file": "batch-20.json",
+      "author": "/root/review_standards",
+      "reviewer": "/root/review_spec",
+      "status": "approved",
+      "reviewedCount": 121,
+      "reviewedSha256": "79ab4f414eaeddcb2f9b2154905dab498083d9a1c970984cc9e33f8ca4cdad1f",
+      "notes": [
+        "All records independently read for meaning, Mexican Spanish naturalness, accents, agreement, target use and English alignment. Independent model review, not native-human certification.",
+        "Per-batch and combined 2,971-record structural validation passed after corrections."
+      ]
+    }
+  ]
+}

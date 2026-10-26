@@ -1,0 +1,1980 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "Independent model lexical/inflection review of every actual approved Spanish-sense/frame binding exposed by the bounded qualified-AGID diagnosis. Slot choices are literal tokens from the current pinned AGID row, tied to exact Spanish source kind, lemma record, zero-based sense/key and unchanged reviewed English frame. No global English-head whitelist or inferred regular spelling is authorized. Three-slot AGID V rows explicitly share their past/past-participle slot under the existing source parser convention; four-slot rows do not. Existing English predicate, subject, aspect, source grammar, usage, licensing and clause guards remain mandatory. Numeric AGID annotations are retained uninterpreted as evidence. This is one independent review/proposal, not production changes, native-human certification or verified additional word coverage.",
+  "sourcePins": {
+    "englishManifestSha256": "5cc79c3053dc0aa7d0db3ef228d82b8df616df56a5b7027c9e9f490826af9520",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "englishDiagnosisSha256": "c350b433326931a857e859975c22a9dd879436e9c7dc6e59ef44d645ac77768a",
+    "spanishDiagnosisSha256": "ce738c685e979ad746454c2ce65053d21e348ddd764e1aa23437983a314921fb"
+  },
+  "counts": {
+    "exactSpanishSenseFrames": 26,
+    "englishHeads": 16,
+    "baselineMissingCandidateSpellings": 86,
+    "approvedPastSlots": 26,
+    "approvedPastParticipleSlots": 24,
+    "withheldPastParticipleSlots": 2
+  },
+  "approved": [
+    {
+      "spanish": "dejar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "3e775d1b180aaa32f87cbbd13a44024f4906e1898d1cdaf5ffffb95025089c32",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to leave (to place)"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to leave (to place)\"], \"tags\": [\"transitive\"]}",
+      "frame": "leave",
+      "englishHead": "leave",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "left"
+        ],
+        "pastParticiple": [
+          "left"
+        ],
+        "gerund": [
+          "leaving"
+        ],
+        "thirdPersonSingular": [
+          "leaves"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "left, leaved {produce_leaves}",
+          "selectedRawTokens": [
+            "left"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "left, leaved {produce_leaves}",
+          "selectedRawTokens": [
+            "left"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "leaving",
+          "selectedRawTokens": [
+            "leaving"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "leaves",
+          "selectedRawTokens": [
+            "leaves"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "leave V: left, leaved {produce_leaves} | leaving | leaves",
+      "agidLineSha256": "506dad86e3e11ff39fab7cc48ee8ea1c9c6a2ff4233c83a0e38edb790bdbe8e1",
+      "candidateWords": [
+        "DEJARA",
+        "DEJARAN",
+        "DEJARAS",
+        "DEJARON",
+        "DEJASE",
+        "DEJASEN",
+        "DEJASES",
+        "DEJASTE",
+        "DEJÉ",
+        "DEJÓ"
+      ],
+      "notes": "Placement/leaving of an object uses left, not leaf production leaved."
+    },
+    {
+      "spanish": "brillar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "56c1c81c37014b3d04e2a88663e3a0a33cfa8c5234445c0e1a4a5fe2c25fd2f7",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to shine"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to shine\"]}",
+      "frame": "shine",
+      "englishHead": "shine",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "shone"
+        ],
+        "pastParticiple": [
+          "shone"
+        ],
+        "gerund": [
+          "shining"
+        ],
+        "thirdPersonSingular": [
+          "shines"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "shone, shined {polish}",
+          "selectedRawTokens": [
+            "shone"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "shone, shined {polish}",
+          "selectedRawTokens": [
+            "shone"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "shining",
+          "selectedRawTokens": [
+            "shining"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "shines",
+          "selectedRawTokens": [
+            "shines"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "shine V: shone, shined {polish} | shining | shines",
+      "agidLineSha256": "6e16498c58e76fd333194c09739a0bf28cf8cf5c3a61f6de2dc2039751fa2fbb",
+      "candidateWords": [
+        "BRILLÉ"
+      ],
+      "notes": "Light-emission or independently retained shining reading uses shone, not the qualified polishing shined."
+    },
+    {
+      "spanish": "comandar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "79d6dc66506c04f8d3b75db26825ed13dd5f6f3db25982fdfee4f3f933c961db",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to lead"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to lead\"]}",
+      "frame": "lead",
+      "englishHead": "lead",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "led"
+        ],
+        "pastParticiple": [
+          "led"
+        ],
+        "gerund": [
+          "leading"
+        ],
+        "thirdPersonSingular": [
+          "leads"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "led"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "led"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "leading",
+          "selectedRawTokens": [
+            "leading"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "leads",
+          "selectedRawTokens": [
+            "leads"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "lead V: led, leaded {use_lead} | leading | leads",
+      "agidLineSha256": "dbf2f63ff641a3703d90b7781d0360eb29c7fdf2650b2fe94e15897823f7d8c1",
+      "candidateWords": [
+        "COMANDÉ",
+        "COMANDÓ"
+      ],
+      "notes": "Leading/commanding uses led, not covering with the metal lead."
+    },
+    {
+      "spanish": "desgajar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "0edf96bf92c007b1fcb481e288e09bf3e498e3052ce7567e665bc0f529ea8685",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to tear off"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to tear off\"], \"tags\": [\"transitive\"]}",
+      "frame": "tear off",
+      "englishHead": "tear",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "tore"
+        ],
+        "pastParticiple": [
+          "torn"
+        ],
+        "gerund": [
+          "tearing"
+        ],
+        "thirdPersonSingular": [
+          "tears"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "teared {cry}, tore {rip}",
+          "selectedRawTokens": [
+            "tore {rip}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "torn",
+          "selectedRawTokens": [
+            "torn"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "tearing",
+          "selectedRawTokens": [
+            "tearing"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "tears",
+          "selectedRawTokens": [
+            "tears"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "tear V: teared {cry}, tore {rip} | torn | tearing | tears",
+      "agidLineSha256": "3a09b9df809f5d69a28bb6c68dcd656c97da7b62a49dccf43994adbb992a71ba",
+      "candidateWords": [
+        "DESGAJÉ",
+        "DESGAJÓ"
+      ],
+      "notes": "Physical ripping off uses tore/torn; crying teared is a different English sense."
+    },
+    {
+      "spanish": "enlatar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "5b7aeadea503beab86544bbe513c84dbd698bb7e0a4902c686ee3af0942be0c4",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to can (to seal in a can)"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to can (to seal in a can)\"], \"tags\": [\"transitive\"]}",
+      "frame": "can",
+      "englishHead": "can",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "canned"
+        ],
+        "pastParticiple": [
+          "canned"
+        ],
+        "gerund": [
+          "canning"
+        ],
+        "thirdPersonSingular": [
+          "cans"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "could {be_able}, canned {preserve}",
+          "selectedRawTokens": [
+            "canned {preserve}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "could {be_able}, canned {preserve}",
+          "selectedRawTokens": [
+            "canned {preserve}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "canning",
+          "selectedRawTokens": [
+            "canning"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "can {be_able}, canst 2 {be_able}, cans {preserve}",
+          "selectedRawTokens": [
+            "cans {preserve}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "can V: could {be_able}, canned {preserve} | canning | can {be_able}, canst 2 {be_able}, cans {preserve}",
+      "agidLineSha256": "393a14689d1a2b4b0afd283ea5d9597c16d3d42715063fa1c5664af31da43ffb",
+      "candidateWords": [
+        "ENLATÉ",
+        "ENLATÓ"
+      ],
+      "notes": "Sealing in a can selects preserve: canned/cans; modal could/can/canst is not authorized."
+    },
+    {
+      "spanish": "escupir",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "75e690666d275218e2e8e18c2c96ce977fa0aa6339a699066fd005359b9e5e3a",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to spit, to spit out (evacuate saliva or another substance from the mouth)"
+        ],
+        "tags": [
+          "intransitive",
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to spit, to spit out (evacuate saliva or another substance from the mouth)\"], \"tags\": [\"intransitive\", \"transitive\"]}",
+      "frame": "spit",
+      "englishHead": "spit",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "spit",
+          "spat"
+        ],
+        "pastParticiple": [
+          "spit",
+          "spat"
+        ],
+        "gerund": [
+          "spitting"
+        ],
+        "thirdPersonSingular": [
+          "spits"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "spitted {pierce}, spit {saliva}, spat 1 {saliva}",
+          "selectedRawTokens": [
+            "spit {saliva}",
+            "spat 1 {saliva}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "spitted {pierce}, spit {saliva}, spat 1 {saliva}",
+          "selectedRawTokens": [
+            "spit {saliva}",
+            "spat 1 {saliva}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "spitting, spiting!< 1",
+          "selectedRawTokens": [
+            "spitting"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "spits",
+          "selectedRawTokens": [
+            "spits"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "spit V: spitted {pierce}, spit {saliva}, spat 1 {saliva} | spitting, spiting!< 1 | spits",
+      "agidLineSha256": "9668564989d20f06604860a790f4c8d076329a04c0b83f5bc2375c9b00ee7849",
+      "candidateWords": [
+        "ESCUPIÓ"
+      ],
+      "notes": "Mouth expulsion selects saliva: spit or spat. Spitted {pierce} is excluded. Numeric AGID variant annotations are retained verbatim without a guessed ranking interpretation."
+    },
+    {
+      "spanish": "licitar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "7a940ab1e688f057075ecaeea4380f95feedc02137d936728908f4d8c33485da",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to bid"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to bid\"]}",
+      "frame": "bid",
+      "englishHead": "bid",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "bid"
+        ],
+        "pastParticiple": [
+          "bid"
+        ],
+        "gerund": [
+          "bidding"
+        ],
+        "thirdPersonSingular": [
+          "bids"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "bid, bade {command}",
+          "selectedRawTokens": [
+            "bid"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "bidden, bid 0.1",
+          "selectedRawTokens": [
+            "bid 0.1"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "bidding, biding!< 1",
+          "selectedRawTokens": [
+            "bidding"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "bids, bides!< 1",
+          "selectedRawTokens": [
+            "bids"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "bid V: bid, bade {command} | bidden, bid 0.1 | bidding, biding!< 1 | bids, bides!< 1",
+      "agidLineSha256": "02c764b0b163b06cac45e3305c8f3cf7ef5cbfbc09bd2f6760ec9e743b31e10a",
+      "candidateWords": [
+        "LICITÉ",
+        "LICITÓ"
+      ],
+      "notes": "Auction/tender bidding selects bid for both past and participle. Bade {command} is excluded; bidden is not selected for this auction reading."
+    },
+    {
+      "spanish": "liderar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "eb07a3e4d956b6d03db0d6339509eda06b3a21e745c44a23f2f803b3c5bc8625",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to lead"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to lead\"]}",
+      "frame": "lead",
+      "englishHead": "lead",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "led"
+        ],
+        "pastParticiple": [
+          "led"
+        ],
+        "gerund": [
+          "leading"
+        ],
+        "thirdPersonSingular": [
+          "leads"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "led"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "led"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "leading",
+          "selectedRawTokens": [
+            "leading"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "leads",
+          "selectedRawTokens": [
+            "leads"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "lead V: led, leaded {use_lead} | leading | leads",
+      "agidLineSha256": "dbf2f63ff641a3703d90b7781d0360eb29c7fdf2650b2fe94e15897823f7d8c1",
+      "candidateWords": [
+        "LIDERÉ",
+        "LIDERÓ"
+      ],
+      "notes": "Leadership uses led, not metal treatment leaded."
+    },
+    {
+      "spanish": "tributar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "bbd2e62e811b5cbaa70e0ddd0b0aeb2c8a3332e8a0547b0f04527e6f9b3321a4",
+      "senseIndex": 1,
+      "sourceSense": {
+        "glosses": [
+          "to pay a tax"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to pay a tax\"]}",
+      "frame": "pay a tax",
+      "englishHead": "pay",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "paid"
+        ],
+        "pastParticiple": [
+          "paid"
+        ],
+        "gerund": [
+          "paying"
+        ],
+        "thirdPersonSingular": [
+          "pays"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "paying",
+          "selectedRawTokens": [
+            "paying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "pays",
+          "selectedRawTokens": [
+            "pays"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "pay V: paid, payed {slacken} | paying | pays",
+      "agidLineSha256": "aed21fed927fecd2618255e31a0b8606dab78f0c1f743e37de0aff614e9ba6eb",
+      "candidateWords": [
+        "TRIBUTÉ",
+        "TRIBUTÓ"
+      ],
+      "notes": "Paying a tax uses paid; nautical slackening payed is excluded."
+    },
+    {
+      "spanish": "volar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "c929736dce3cd8ebff071b9601b97b753b443a7fb6fdce6b61b0e56b36058c78",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to fly, to fly away"
+        ],
+        "tags": [
+          "intransitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to fly, to fly away\"], \"tags\": [\"intransitive\"]}",
+      "frame": "fly",
+      "englishHead": "fly",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "flew"
+        ],
+        "pastParticiple": [
+          "flown"
+        ],
+        "gerund": [
+          "flying"
+        ],
+        "thirdPersonSingular": [
+          "flies"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "flew, flied {baseball}",
+          "selectedRawTokens": [
+            "flew"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "flown",
+          "selectedRawTokens": [
+            "flown"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "flying",
+          "selectedRawTokens": [
+            "flying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "flies",
+          "selectedRawTokens": [
+            "flies"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "fly V: flew, flied {baseball} | flown | flying | flies",
+      "agidLineSha256": "c1e35f92607bdb7c2ca2fc867675e20a04b80af991c62b6e2126f3086eaf2985",
+      "candidateWords": [
+        "VOLARA",
+        "VOLARAN",
+        "VOLARAS",
+        "VOLARON",
+        "VOLASE",
+        "VOLASEN",
+        "VOLASES",
+        "VOLASTE",
+        "VOLÉ",
+        "VOLÓ"
+      ],
+      "notes": "Flight uses flew/flown; baseball flied is excluded. Existing human/crew or other subject policy is not broadened."
+    },
+    {
+      "spanish": "morir",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "2e7c9aaa8943cb0071c33335f84ab8329480b471c53117009c52afc5123f479d",
+      "senseIndex": 1,
+      "sourceSense": {
+        "glosses": [
+          "to die, to fade (to come to an end)"
+        ],
+        "tags": [
+          "intransitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to die, to fade (to come to an end)\"], \"tags\": [\"intransitive\"]}",
+      "frame": "die",
+      "englishHead": "die",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "died"
+        ],
+        "pastParticiple": [
+          "died"
+        ],
+        "gerund": [
+          "dying"
+        ],
+        "thirdPersonSingular": [
+          "dies"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "died",
+          "selectedRawTokens": [
+            "died"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "died",
+          "selectedRawTokens": [
+            "died"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "dying {expire}, dieing {shape}",
+          "selectedRawTokens": [
+            "dying {expire}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "dies",
+          "selectedRawTokens": [
+            "dies"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "die V: died | dying {expire}, dieing {shape} | dies",
+      "agidLineSha256": "f69a89bcacd52d0b6a8091eb2226dff03cc81e2c799b35f4ce5a269ef1f25a53",
+      "candidateWords": [
+        "MORISTE",
+        "MURIERA",
+        "MURIESE",
+        "MURIÓ"
+      ],
+      "notes": "Ending life selects died and expiry dying, not shaping dieing. This exact MORIR source binding does not override the separate Spanish-derived DIE guard for other roots."
+    },
+    {
+      "spanish": "pagar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "e7494b7226d1649d6c35c55dcc3ed8e6fcc7bbe07bb00a111b443853088d0d79",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to pay"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to pay\"], \"tags\": [\"transitive\"]}",
+      "frame": "pay",
+      "englishHead": "pay",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "paid"
+        ],
+        "pastParticiple": [
+          "paid"
+        ],
+        "gerund": [
+          "paying"
+        ],
+        "thirdPersonSingular": [
+          "pays"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "paying",
+          "selectedRawTokens": [
+            "paying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "pays",
+          "selectedRawTokens": [
+            "pays"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "pay V: paid, payed {slacken} | paying | pays",
+      "agidLineSha256": "aed21fed927fecd2618255e31a0b8606dab78f0c1f743e37de0aff614e9ba6eb",
+      "candidateWords": [
+        "PAGARA",
+        "PAGARAN",
+        "PAGARAS",
+        "PAGARON",
+        "PAGASE",
+        "PAGASEN",
+        "PAGASES",
+        "PAGASTE",
+        "PAGÓ"
+      ],
+      "notes": "Monetary payment uses paid; nautical slackening payed is excluded."
+    },
+    {
+      "spanish": "mesar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "e966d59c7fe6f6938519a3369c18b8c006173c7673381794cb9b0e30ff32cc53",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to pull out; to tear out (hair)"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to pull out; to tear out (hair)\"]}",
+      "frame": "tear out",
+      "englishHead": "tear",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "tore"
+        ],
+        "pastParticiple": [
+          "torn"
+        ],
+        "gerund": [
+          "tearing"
+        ],
+        "thirdPersonSingular": [
+          "tears"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "teared {cry}, tore {rip}",
+          "selectedRawTokens": [
+            "tore {rip}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "torn",
+          "selectedRawTokens": [
+            "torn"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "tearing",
+          "selectedRawTokens": [
+            "tearing"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "tears",
+          "selectedRawTokens": [
+            "tears"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "tear V: teared {cry}, tore {rip} | torn | tearing | tears",
+      "agidLineSha256": "3a09b9df809f5d69a28bb6c68dcd656c97da7b62a49dccf43994adbb992a71ba",
+      "candidateWords": [
+        "MESARA",
+        "MESARAN",
+        "MESARAS",
+        "MESARON",
+        "MESASE",
+        "MESASEN",
+        "MESASES",
+        "MESASTE",
+        "MESÉ",
+        "MESÓ"
+      ],
+      "notes": "Pulling out hair is ripping: tore/torn; not crying teared."
+    },
+    {
+      "spanish": "mentir",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "c05460c66fe982da0fab94e042fe938c27eab3a8bcb56cb51de7f0493d53797d",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to lie (say something untrue)"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to lie (say something untrue)\"]}",
+      "frame": "lie",
+      "englishHead": "lie",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "lied"
+        ],
+        "gerund": [
+          "lying"
+        ],
+        "thirdPersonSingular": [
+          "lies"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "lied {fib}, lay {recline}",
+          "selectedRawTokens": [
+            "lied {fib}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "lying",
+          "selectedRawTokens": [
+            "lying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "lies",
+          "selectedRawTokens": [
+            "lies"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {
+        "pastParticiple": "Saying something untrue selects past lied {fib}. AGID supplies only lain in its separate participle slot, which belongs to reclining; no participle lied is invented from linguistic knowledge or the past slot."
+      },
+      "agidRawLine": "lie V: lied {fib}, lay {recline} | lain | lying | lies",
+      "agidLineSha256": "b358e062ba4b45b71cd21d427c445b20da0218f5bf215f646a0144218d26801b",
+      "candidateWords": [
+        "MINTIÓ"
+      ],
+      "notes": "Saying something untrue selects past lied {fib}. AGID supplies only lain in its separate participle slot, which belongs to reclining; no participle lied is invented from linguistic knowledge or the past slot."
+    },
+    {
+      "spanish": "lucir",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "a8e69d827925ac1019c7bd0a06b95e7bca36140c2661a04c0738c97ebfd34d7f",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to shine"
+        ],
+        "tags": [
+          "intransitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to shine\"], \"tags\": [\"intransitive\"]}",
+      "frame": "shine",
+      "englishHead": "shine",
+      "existingEffectiveProfile": "it-only",
+      "approvedSlots": {
+        "past": [
+          "shone"
+        ],
+        "pastParticiple": [
+          "shone"
+        ],
+        "gerund": [
+          "shining"
+        ],
+        "thirdPersonSingular": [
+          "shines"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "shone, shined {polish}",
+          "selectedRawTokens": [
+            "shone"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "shone, shined {polish}",
+          "selectedRawTokens": [
+            "shone"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "shining",
+          "selectedRawTokens": [
+            "shining"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "shines",
+          "selectedRawTokens": [
+            "shines"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "shine V: shone, shined {polish} | shining | shines",
+      "agidLineSha256": "6e16498c58e76fd333194c09739a0bf28cf8cf5c3a61f6de2dc2039751fa2fbb",
+      "candidateWords": [
+        "LUCIERA",
+        "LUCIESE",
+        "LUCIÓ"
+      ],
+      "notes": "The selected intransitive shining sense uses shone; wearing/sporting and polishing are different readings."
+    },
+    {
+      "spanish": "degollar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "16c7d78de439f2a1c868efec0d3e91a1399c67f62d4fa4a7180d6229fa65f014",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to slit the throat"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to slit the throat\"], \"tags\": [\"transitive\"]}",
+      "frame": "slit a throat",
+      "englishHead": "slit",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "slit"
+        ],
+        "pastParticiple": [
+          "slit"
+        ],
+        "gerund": [
+          "slitting"
+        ],
+        "thirdPersonSingular": [
+          "slits"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "slit {cut}, slitted {narrow}",
+          "selectedRawTokens": [
+            "slit {cut}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "slit {cut}, slitted {narrow}",
+          "selectedRawTokens": [
+            "slit {cut}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "slitting",
+          "selectedRawTokens": [
+            "slitting"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "slits",
+          "selectedRawTokens": [
+            "slits"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "slit V: slit {cut}, slitted {narrow} | slitting | slits",
+      "agidLineSha256": "d01b2493e4de90b0ca0274aec7a112d9ba8f0e99fc2b4a5123ce999688439e9b",
+      "candidateWords": [
+        "DEGOLLÉ",
+        "DEGOLLÓ"
+      ],
+      "notes": "Throat cutting selects slit {cut}; slitted {narrow} is not selected. Existing patient/subject and fixed frame remain unchanged."
+    },
+    {
+      "spanish": "guindar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "b615d29ecbf42c22c0a33cb9c66840adfff4203ae6364eb3e6cd6a91ae06d233",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to hang up"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to hang up\"]}",
+      "frame": "hang up",
+      "englishHead": "hang",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "hung"
+        ],
+        "pastParticiple": [
+          "hung"
+        ],
+        "gerund": [
+          "hanging"
+        ],
+        "thirdPersonSingular": [
+          "hangs"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "hung, hanged {execute}",
+          "selectedRawTokens": [
+            "hung"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "hung, hanged {execute}",
+          "selectedRawTokens": [
+            "hung"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "hanging",
+          "selectedRawTokens": [
+            "hanging"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "hangs",
+          "selectedRawTokens": [
+            "hangs"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "hang V: hung, hanged {execute} | hanging | hangs",
+      "agidLineSha256": "1ab926f390ea54bd5e886cef2360c6673dd87ee70312ad2d6ee7e4c905b41346",
+      "candidateWords": [
+        "GUINDÉ",
+        "GUINDÓ"
+      ],
+      "notes": "Hanging/suspending or the retained hang-up reading uses hung, not execution hanged."
+    },
+    {
+      "spanish": "bobinar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "e7f221f0572fa0ea1196d00bf7389cc5c8348fbfa3876fff40e84ff5f6242f25",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to wind, to wind up"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to wind, to wind up\"], \"tags\": [\"transitive\"]}",
+      "frame": "wind",
+      "englishHead": "wind",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "wound"
+        ],
+        "pastParticiple": [
+          "wound"
+        ],
+        "gerund": [
+          "winding"
+        ],
+        "thirdPersonSingular": [
+          "winds"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "winded {blow}, wound 1 {blow}, wound {curve}, winded 1 {curve}, winded {scent_tire}",
+          "selectedRawTokens": [
+            "wound {curve}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "winded {blow}, wound 1 {blow}, wound {curve}, winded 1 {curve}, winded {scent_tire}",
+          "selectedRawTokens": [
+            "wound {curve}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "winding",
+          "selectedRawTokens": [
+            "winding"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "winds",
+          "selectedRawTokens": [
+            "winds"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "wind V: winded {blow}, wound 1 {blow}, wound {curve}, winded 1 {curve}, winded {scent_tire} | winding | winds",
+      "agidLineSha256": "955cb26b1160a041de920c6a81ffd8e07246e88bb376803b00e2cf8821e60cf4",
+      "candidateWords": [
+        "BOBINÉ",
+        "BOBINÓ"
+      ],
+      "notes": "Winding material into a coil selects wound {curve}; blowing and scent/tiring winded are excluded. No other rare variant is needed."
+    },
+    {
+      "spanish": "pechar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "a6232c8489898ad3fe4ca25f0288ad8e4c00b9983675cbb32b1404cb0dcc0eb6",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to pay a tax or other tribute"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to pay a tax or other tribute\"]}",
+      "frame": "pay a tax",
+      "englishHead": "pay",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "paid"
+        ],
+        "pastParticiple": [
+          "paid"
+        ],
+        "gerund": [
+          "paying"
+        ],
+        "thirdPersonSingular": [
+          "pays"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "paying",
+          "selectedRawTokens": [
+            "paying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "pays",
+          "selectedRawTokens": [
+            "pays"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "pay V: paid, payed {slacken} | paying | pays",
+      "agidLineSha256": "aed21fed927fecd2618255e31a0b8606dab78f0c1f743e37de0aff614e9ba6eb",
+      "candidateWords": [
+        "PECHARA",
+        "PECHASE",
+        "PECHÉ",
+        "PECHÓ"
+      ],
+      "notes": "Paying tax or tribute uses paid, not nautical payed."
+    },
+    {
+      "spanish": "anillar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "cec75464eb305ad0cc775a70937b3a302cf6de521db86357d67b75849ef13f68",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to ring (put a ring on e.g. an animal)"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to ring (put a ring on e.g. an animal)\"]}",
+      "frame": "ring",
+      "englishHead": "ring",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "ringed"
+        ],
+        "gerund": [
+          "ringing"
+        ],
+        "thirdPersonSingular": [
+          "rings"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "ringed {encircle}, rang {sound}",
+          "selectedRawTokens": [
+            "ringed {encircle}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "ringing",
+          "selectedRawTokens": [
+            "ringing"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "rings",
+          "selectedRawTokens": [
+            "rings"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {
+        "pastParticiple": "Putting a ring around something selects past ringed {encircle}. AGID supplies only rung in its separate participle slot; do not invent ringed there from the past spelling."
+      },
+      "agidRawLine": "ring V: ringed {encircle}, rang {sound} | rung | ringing | rings",
+      "agidLineSha256": "8eee794fe5d62030738447de30db2d48b172bab5ea1c698d31e600be8c74c1e4",
+      "candidateWords": [
+        "ANILLÉ",
+        "ANILLÓ"
+      ],
+      "notes": "Putting a ring around something selects past ringed {encircle}. AGID supplies only rung in its separate participle slot; do not invent ringed there from the past spelling."
+    },
+    {
+      "spanish": "rezagar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "30b3f913eeff012dcda0d30599ac3d40d86935c3364270ae48bd267aac40ab92",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to leave behind"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to leave behind\"]}",
+      "frame": "leave behind",
+      "englishHead": "leave",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "left"
+        ],
+        "pastParticiple": [
+          "left"
+        ],
+        "gerund": [
+          "leaving"
+        ],
+        "thirdPersonSingular": [
+          "leaves"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "left, leaved {produce_leaves}",
+          "selectedRawTokens": [
+            "left"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "left, leaved {produce_leaves}",
+          "selectedRawTokens": [
+            "left"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "leaving",
+          "selectedRawTokens": [
+            "leaving"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "leaves",
+          "selectedRawTokens": [
+            "leaves"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "leave V: left, leaved {produce_leaves} | leaving | leaves",
+      "agidLineSha256": "506dad86e3e11ff39fab7cc48ee8ea1c9c6a2ff4233c83a0e38edb790bdbe8e1",
+      "candidateWords": [
+        "REZAGUÉ",
+        "REZAGÓ"
+      ],
+      "notes": "Leaving behind uses left, not leaf-producing leaved."
+    },
+    {
+      "spanish": "escotar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "3bb147439f05d6d821f7297fc155414d848120c1065eca0bbb26dd0692fd64f8",
+      "senseIndex": 1,
+      "sourceSense": {
+        "glosses": [
+          "to pay one's share of the cost"
+        ],
+        "tags": [
+          "intransitive"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to pay one's share of the cost\"], \"tags\": [\"intransitive\"]}",
+      "frame": "pay a share of joint expenses",
+      "englishHead": "pay",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "paid"
+        ],
+        "pastParticiple": [
+          "paid"
+        ],
+        "gerund": [
+          "paying"
+        ],
+        "thirdPersonSingular": [
+          "pays"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "paid, payed {slacken}",
+          "selectedRawTokens": [
+            "paid"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "paying",
+          "selectedRawTokens": [
+            "paying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "pays",
+          "selectedRawTokens": [
+            "pays"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "pay V: paid, payed {slacken} | paying | pays",
+      "agidLineSha256": "aed21fed927fecd2618255e31a0b8606dab78f0c1f743e37de0aff614e9ba6eb",
+      "candidateWords": [
+        "ESCOTÉ",
+        "ESCOTÓ"
+      ],
+      "notes": "Paying a share of costs uses paid, not nautical slackening payed; do not invent a particular payer possessive."
+    },
+    {
+      "spanish": "envidar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "9f02aae58dbfec8cdd0ed03daa2082a721a66c84ca284b56b5db43d8eb9c93ec",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to bid"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to bid\"]}",
+      "frame": "bid",
+      "englishHead": "bid",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "bid"
+        ],
+        "pastParticiple": [
+          "bid"
+        ],
+        "gerund": [
+          "bidding"
+        ],
+        "thirdPersonSingular": [
+          "bids"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "bid, bade {command}",
+          "selectedRawTokens": [
+            "bid"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "bidden, bid 0.1",
+          "selectedRawTokens": [
+            "bid 0.1"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "bidding, biding!< 1",
+          "selectedRawTokens": [
+            "bidding"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "bids, bides!< 1",
+          "selectedRawTokens": [
+            "bids"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "bid V: bid, bade {command} | bidden, bid 0.1 | bidding, biding!< 1 | bids, bides!< 1",
+      "agidLineSha256": "02c764b0b163b06cac45e3305c8f3cf7ef5cbfbc09bd2f6760ec9e743b31e10a",
+      "candidateWords": [
+        "ENVIDÉ",
+        "ENVIDÓ"
+      ],
+      "notes": "Card-game bidding uses bid for past and participle; command/invitation bade/bidden is not selected."
+    },
+    {
+      "spanish": "emplomar",
+      "sourceKind": "english-wiktionary",
+      "partOfSpeech": "verb",
+      "recordSha256": "5e53f5f5b6696c94ce9b04f499a33ddf59dcbcbef8166bcb140752c46412a6b8",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "to lead (cover with lead)"
+        ]
+      },
+      "sourceSenseKey": "{\"glosses\": [\"to lead (cover with lead)\"]}",
+      "frame": "lead",
+      "englishHead": "lead",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "leaded"
+        ],
+        "pastParticiple": [
+          "leaded"
+        ],
+        "gerund": [
+          "leading"
+        ],
+        "thirdPersonSingular": [
+          "leads"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "leaded {use_lead}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "led, leaded {use_lead}",
+          "selectedRawTokens": [
+            "leaded {use_lead}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "leading",
+          "selectedRawTokens": [
+            "leading"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "leads",
+          "selectedRawTokens": [
+            "leads"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "lead V: led, leaded {use_lead} | leading | leads",
+      "agidLineSha256": "dbf2f63ff641a3703d90b7781d0360eb29c7fdf2650b2fe94e15897823f7d8c1",
+      "candidateWords": [
+        "EMPLOMÉ",
+        "EMPLOMÓ"
+      ],
+      "notes": "Covering with lead selects leaded {use_lead}, not leadership led. This contrast must remain bound to this exact Spanish sense."
+    },
+    {
+      "spanish": "amajadar",
+      "sourceKind": "reviewed-spanish",
+      "partOfSpeech": "verb",
+      "recordSha256": "750ddb728b88d85e592ce580259a985f536a6766cfceab3802042d8ba42fd21f",
+      "senseIndex": 1,
+      "sourceSense": {
+        "glosses": [
+          "Reunir al ganado en un redil o una majada."
+        ],
+        "raw_tags": [
+          "utci"
+        ],
+        "sense_index": "2"
+      },
+      "sourceSenseKey": "{\"glosses\": [\"Reunir al ganado en un redil o una majada.\"], \"raw_tags\": [\"utci\"], \"sense_index\": \"2\"}",
+      "frame": "pen livestock",
+      "englishHead": "pen",
+      "existingEffectiveProfile": "ordinary",
+      "approvedSlots": {
+        "past": [
+          "penned"
+        ],
+        "pastParticiple": [
+          "penned"
+        ],
+        "gerund": [
+          "penning"
+        ],
+        "thirdPersonSingular": [
+          "pens"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "penned {enclose}, pent 2 {enclose}, penned {write}",
+          "selectedRawTokens": [
+            "penned {enclose}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "penned {enclose}, pent 2 {enclose}, penned {write}",
+          "selectedRawTokens": [
+            "penned {enclose}"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "penning, pening!< 1",
+          "selectedRawTokens": [
+            "penning"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "pens",
+          "selectedRawTokens": [
+            "pens"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "pen V: penned {enclose}, pent 2 {enclose}, penned {write} | penning, pening!< 1 | pens",
+      "agidLineSha256": "1117d56639ffc66099c1c3bee51c315216cccd34cce26021bf4f4564d8b17195",
+      "candidateWords": [
+        "AMAJADÉ",
+        "AMAJADÓ"
+      ],
+      "notes": "Enclosing livestock selects penned {enclose}; the identically written writing token is not the semantic authority. Rare pent is not selected."
+    },
+    {
+      "spanish": "pairar",
+      "sourceKind": "reviewed-spanish",
+      "partOfSpeech": "verb",
+      "recordSha256": "97aee99b90be1071cbc087f28ef29d91ca80167e665fbb5c021a0fa2aedaf37b",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "Estar quieta la nave con las velas tendidas y largas las escotas; ponerse o estar al pairo."
+        ],
+        "categories": [
+          "ES:Náutica"
+        ],
+        "sense_index": "1"
+      },
+      "sourceSenseKey": "{\"categories\": [\"ES:Náutica\"], \"glosses\": [\"Estar quieta la nave con las velas tendidas y largas las escotas; ponerse o estar al pairo.\"], \"sense_index\": \"1\"}",
+      "frame": "lie to",
+      "englishHead": "lie",
+      "existingEffectiveProfile": "it-only",
+      "approvedSlots": {
+        "past": [
+          "lay"
+        ],
+        "pastParticiple": [
+          "lain"
+        ],
+        "gerund": [
+          "lying"
+        ],
+        "thirdPersonSingular": [
+          "lies"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "lied {fib}, lay {recline}",
+          "selectedRawTokens": [
+            "lay {recline}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 1,
+          "rawSlot": "lain",
+          "selectedRawTokens": [
+            "lain"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "gerund": {
+          "rawSlotIndex": 2,
+          "rawSlot": "lying",
+          "selectedRawTokens": [
+            "lying"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 3,
+          "rawSlot": "lies",
+          "selectedRawTokens": [
+            "lies"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "lie V: lied {fib}, lay {recline} | lain | lying | lies",
+      "agidLineSha256": "b358e062ba4b45b71cd21d427c445b20da0218f5bf215f646a0144218d26801b",
+      "candidateWords": [
+        "PAIRARA",
+        "PAIRASE",
+        "PAIRÓ"
+      ],
+      "notes": "A vessel remaining stationary/lying to uses the physical-rest lie paradigm lay/lain, not truth-telling lied. Preserve the existing it-only vessel subject and nautical tail to."
+    }
+  ],
+  "withheldSlots": [
+    {
+      "spanish": "mentir",
+      "sourceKind": "english-wiktionary",
+      "recordSha256": "c05460c66fe982da0fab94e042fe938c27eab3a8bcb56cb51de7f0493d53797d",
+      "senseIndex": 0,
+      "frame": "lie",
+      "slot": "pastParticiple",
+      "reason": "Saying something untrue selects past lied {fib}. AGID supplies only lain in its separate participle slot, which belongs to reclining; no participle lied is invented from linguistic knowledge or the past slot."
+    },
+    {
+      "spanish": "anillar",
+      "sourceKind": "english-wiktionary",
+      "recordSha256": "cec75464eb305ad0cc775a70937b3a302cf6de521db86357d67b75849ef13f68",
+      "senseIndex": 0,
+      "frame": "ring",
+      "slot": "pastParticiple",
+      "reason": "Putting a ring around something selects past ringed {encircle}. AGID supplies only rung in its separate participle slot; do not invent ringed there from the past spelling."
+    }
+  ],
+  "excludedScope": [
+    "No other source records, homographs, aliases, mandatory clitics, subjects or meaning frames are approved by matching the English head.",
+    "The separately diagnosed 26 MERAR spellings remain outside this 86-word proposal and its exact source bindings.",
+    "All four English slots are recorded for precise semantic completeness; the 86 count refers only to the frozen diagnosed missing spellings, not every additional form these slots might eventually support."
+  ]
+}

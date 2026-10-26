@@ -1,0 +1,902 @@
+[
+  {
+    "word": "NIÑEZ",
+    "translation": "childhood",
+    "example": "Pasó su niñez en Oaxaca.",
+    "exampleTranslation": "She spent her childhood in Oaxaca."
+  },
+  {
+    "word": "NOBEL",
+    "translation": "Nobel laureate",
+    "example": "El nobel habló sobre sus investigaciones.",
+    "exampleTranslation": "The Nobel laureate spoke about his research."
+  },
+  {
+    "word": "NOBLE",
+    "translation": "noble; aristocratic",
+    "example": "La familia noble vivía en el castillo.",
+    "exampleTranslation": "The noble family lived in the castle."
+  },
+  {
+    "word": "NOBLEZA",
+    "translation": "nobility",
+    "example": "Admiramos la nobleza de su conducta.",
+    "exampleTranslation": "We admire the nobility of her conduct."
+  },
+  {
+    "word": "NOCIÓN",
+    "translation": "notion; basic knowledge",
+    "example": "Tengo una noción del problema.",
+    "exampleTranslation": "I have a basic understanding of the problem."
+  },
+  {
+    "word": "NOMBRAR",
+    "translation": "to name",
+    "example": "Decidieron nombrar al perro Coco.",
+    "exampleTranslation": "They decided to name the dog Coco."
+  },
+  {
+    "word": "NOMBRE",
+    "translation": "name",
+    "example": "Escribe tu nombre aquí.",
+    "exampleTranslation": "Write your name here."
+  },
+  {
+    "word": "NOMINAL",
+    "translation": "nominal; relating to a name",
+    "example": "La lista nominal incluye ambos apellidos.",
+    "exampleTranslation": "The list of names includes both surnames."
+  },
+  {
+    "word": "NOMÁS",
+    "translation": "just; only",
+    "example": "Quiero nomás un café.",
+    "exampleTranslation": "I just want a coffee."
+  },
+  {
+    "word": "NORESTE",
+    "translation": "northeast",
+    "example": "El viento viene del noreste.",
+    "exampleTranslation": "The wind comes from the northeast."
+  },
+  {
+    "word": "NORMA",
+    "translation": "standard; rule",
+    "example": "La norma exige equipo de protección.",
+    "exampleTranslation": "The rule requires protective equipment."
+  },
+  {
+    "word": "NORMAL",
+    "translation": "normal; usual",
+    "example": "Es normal sentir nervios.",
+    "exampleTranslation": "It is normal to feel nervous."
+  },
+  {
+    "word": "NORTE",
+    "translation": "north",
+    "example": "La brújula señala el norte.",
+    "exampleTranslation": "The compass points north."
+  },
+  {
+    "word": "NOTA",
+    "translation": "mark; identifying sign",
+    "example": "Dejó una nota al margen para reconocer el pasaje.",
+    "exampleTranslation": "She left a mark in the margin to identify the passage."
+  },
+  {
+    "word": "NOTABLE",
+    "translation": "noteworthy",
+    "example": "Su avance fue notable.",
+    "exampleTranslation": "Her progress was noteworthy."
+  },
+  {
+    "word": "NOTAR",
+    "translation": "to notice",
+    "example": "Pude notar un cambio en su voz.",
+    "exampleTranslation": "I could notice a change in her voice."
+  },
+  {
+    "word": "NOTARIO",
+    "translation": "notary",
+    "example": "El notario revisó la escritura.",
+    "exampleTranslation": "The notary reviewed the deed."
+  },
+  {
+    "word": "NOTICIA",
+    "translation": "knowledge; awareness",
+    "example": "No tenía noticia del acuerdo.",
+    "exampleTranslation": "I had no knowledge of the agreement."
+  },
+  {
+    "word": "NOTORIO",
+    "translation": "widely known; obvious",
+    "example": "Su talento era notorio.",
+    "exampleTranslation": "Her talent was widely known."
+  },
+  {
+    "word": "NOVA",
+    "translation": "nova",
+    "example": "Una nova apareció en la imagen del cielo.",
+    "exampleTranslation": "A nova appeared in the image of the sky."
+  },
+  {
+    "word": "NOVEDAD",
+    "translation": "newness; novelty",
+    "example": "La novedad del método despertó interés.",
+    "exampleTranslation": "The method's novelty sparked interest."
+  },
+  {
+    "word": "NOVELA",
+    "translation": "novel",
+    "example": "La novela transcurre en Veracruz.",
+    "exampleTranslation": "The novel is set in Veracruz."
+  },
+  {
+    "word": "NOVENA",
+    "translation": "nine-day prayer devotion",
+    "example": "La familia comenzó una novena.",
+    "exampleTranslation": "The family began a nine-day prayer devotion."
+  },
+  {
+    "word": "NOVENO",
+    "translation": "ninth",
+    "example": "Llegó en noveno lugar.",
+    "exampleTranslation": "He finished in ninth place."
+  },
+  {
+    "word": "NOVENTA",
+    "translation": "ninety",
+    "example": "El boleto cuesta noventa pesos.",
+    "exampleTranslation": "The ticket costs ninety pesos."
+  },
+  {
+    "word": "NOVIO",
+    "translation": "groom; bridegroom",
+    "example": "El novio esperaba junto al altar.",
+    "exampleTranslation": "The groom waited beside the altar."
+  },
+  {
+    "word": "NUBLADO",
+    "translation": "cloudy",
+    "example": "El cielo sigue nublado.",
+    "exampleTranslation": "The sky is still cloudy."
+  },
+  {
+    "word": "NUCLEAR",
+    "translation": "nuclear; relating to a nucleus",
+    "example": "La membrana nuclear protege el núcleo celular.",
+    "exampleTranslation": "The nuclear membrane protects the cell nucleus."
+  },
+  {
+    "word": "NUDO",
+    "translation": "knot",
+    "example": "Haz un nudo en la cuerda.",
+    "exampleTranslation": "Tie a knot in the rope."
+  },
+  {
+    "word": "NUESTRO",
+    "translation": "our",
+    "example": "Este es nuestro jardín.",
+    "exampleTranslation": "This is our garden."
+  },
+  {
+    "word": "NUEVA",
+    "translation": "piece of news",
+    "example": "La nueva llegó al pueblo al anochecer.",
+    "exampleTranslation": "The news reached the town at dusk."
+  },
+  {
+    "word": "NUEVE",
+    "translation": "nine",
+    "example": "La reunión empieza a las nueve.",
+    "exampleTranslation": "The meeting starts at nine."
+  },
+  {
+    "word": "NUEVO",
+    "translation": "new",
+    "example": "El árbol nuevo necesita agua.",
+    "exampleTranslation": "The new tree needs water."
+  },
+  {
+    "word": "NULO",
+    "translation": "legally void",
+    "example": "El contrato resultó nulo.",
+    "exampleTranslation": "The contract turned out to be legally void."
+  },
+  {
+    "word": "NUNCA",
+    "translation": "never",
+    "example": "Nunca olvido ese viaje.",
+    "exampleTranslation": "I never forget that trip."
+  },
+  {
+    "word": "NÓMINA",
+    "translation": "list; register",
+    "example": "Su nombre aparece en la nómina.",
+    "exampleTranslation": "Her name appears on the register."
+  },
+  {
+    "word": "NÚCLEO",
+    "translation": "core; center",
+    "example": "El núcleo del proyecto sigue intacto.",
+    "exampleTranslation": "The core of the project remains intact."
+  },
+  {
+    "word": "NÚMERO",
+    "translation": "number",
+    "example": "El número indica la cantidad.",
+    "exampleTranslation": "The number indicates the quantity."
+  },
+  {
+    "word": "OASIS",
+    "translation": "oasis",
+    "example": "Hallaron agua en el oasis.",
+    "exampleTranslation": "They found water at the oasis."
+  },
+  {
+    "word": "OBISPO",
+    "translation": "bishop",
+    "example": "El obispo visitó la parroquia.",
+    "exampleTranslation": "The bishop visited the parish."
+  },
+  {
+    "word": "OBJETO",
+    "translation": "object; thing",
+    "example": "Ese objeto es muy pesado.",
+    "exampleTranslation": "That object is very heavy."
+  },
+  {
+    "word": "OBLIGAR",
+    "translation": "to compel; to force",
+    "example": "No puedes obligar a nadie a participar.",
+    "exampleTranslation": "You cannot force anyone to participate."
+  },
+  {
+    "word": "OBRADOR",
+    "translation": "workshop",
+    "example": "El obrador prepara pan cada mañana.",
+    "exampleTranslation": "The workshop prepares bread every morning."
+  },
+  {
+    "word": "OBRERA",
+    "translation": "worker insect",
+    "example": "La obrera llevó alimento al hormiguero.",
+    "exampleTranslation": "The worker ant took food to the anthill."
+  },
+  {
+    "word": "OBRERO",
+    "translation": "working-class; manual-working",
+    "example": "El sector obrero pidió mejores salarios.",
+    "exampleTranslation": "The manual-working sector requested better wages."
+  },
+  {
+    "word": "OBTENER",
+    "translation": "to obtain",
+    "example": "Necesitamos obtener un permiso.",
+    "exampleTranslation": "We need to obtain a permit."
+  },
+  {
+    "word": "OBVIO",
+    "translation": "obvious",
+    "example": "El error parece obvio.",
+    "exampleTranslation": "The error seems obvious."
+  },
+  {
+    "word": "OCASIÓN",
+    "translation": "opportunity",
+    "example": "Aproveché la ocasión para preguntar.",
+    "exampleTranslation": "I took the opportunity to ask."
+  },
+  {
+    "word": "OCHENTA",
+    "translation": "eighty",
+    "example": "Compramos ochenta semillas.",
+    "exampleTranslation": "We bought eighty seeds."
+  },
+  {
+    "word": "OCHO",
+    "translation": "eight",
+    "example": "La caja contiene ocho vasos.",
+    "exampleTranslation": "The box contains eight glasses."
+  },
+  {
+    "word": "OCIO",
+    "translation": "leisure",
+    "example": "Dedica su tiempo de ocio a leer.",
+    "exampleTranslation": "She spends her leisure time reading."
+  },
+  {
+    "word": "OCTAVA",
+    "translation": "octave",
+    "example": "Cantó una octava más arriba.",
+    "exampleTranslation": "She sang an octave higher."
+  },
+  {
+    "word": "OCTAVO",
+    "translation": "eighth",
+    "example": "Vive en el octavo piso.",
+    "exampleTranslation": "He lives on the eighth floor."
+  },
+  {
+    "word": "OCTUBRE",
+    "translation": "October",
+    "example": "La cosecha empieza en octubre.",
+    "exampleTranslation": "The harvest begins in October."
+  },
+  {
+    "word": "OCULAR",
+    "translation": "ocular; relating to the eye",
+    "example": "La revisión ocular fue breve.",
+    "exampleTranslation": "The eye examination was brief."
+  },
+  {
+    "word": "OCULTAR",
+    "translation": "to hide",
+    "example": "Intentó ocultar la sorpresa.",
+    "exampleTranslation": "She tried to hide the surprise."
+  },
+  {
+    "word": "OCULTO",
+    "translation": "hidden",
+    "example": "El sendero estaba oculto entre árboles.",
+    "exampleTranslation": "The trail was hidden among trees."
+  },
+  {
+    "word": "OCUPADO",
+    "translation": "busy",
+    "example": "El médico está muy ocupado.",
+    "exampleTranslation": "The doctor is very busy."
+  },
+  {
+    "word": "OCUPAR",
+    "translation": "to occupy; to take up space",
+    "example": "La mesa va a ocupar toda la esquina.",
+    "exampleTranslation": "The table will take up the entire corner."
+  },
+  {
+    "word": "OCURRIR",
+    "translation": "to happen",
+    "example": "Eso puede ocurrir sin aviso.",
+    "exampleTranslation": "That can happen without warning."
+  },
+  {
+    "word": "OCÉANO",
+    "translation": "ocean",
+    "example": "El barco cruzó el océano.",
+    "exampleTranslation": "The ship crossed the ocean."
+  },
+  {
+    "word": "ODIAR",
+    "translation": "to hate",
+    "example": "No quiero odiar a nadie.",
+    "exampleTranslation": "I do not want to hate anyone."
+  },
+  {
+    "word": "ODIO",
+    "translation": "hatred",
+    "example": "El odio dañó su amistad.",
+    "exampleTranslation": "Hatred damaged their friendship."
+  },
+  {
+    "word": "OESTE",
+    "translation": "west",
+    "example": "El sol se oculta por el oeste.",
+    "exampleTranslation": "The sun sets in the west."
+  },
+  {
+    "word": "OFENDER",
+    "translation": "to offend",
+    "example": "No quiso ofender a sus vecinos.",
+    "exampleTranslation": "She did not want to offend her neighbors."
+  },
+  {
+    "word": "OFENSA",
+    "translation": "offense; insult",
+    "example": "Pidió disculpas por la ofensa.",
+    "exampleTranslation": "He apologized for the insult."
+  },
+  {
+    "word": "OFERTA",
+    "translation": "offer; promise",
+    "example": "Aceptó la oferta de ayuda.",
+    "exampleTranslation": "She accepted the offer of help."
+  },
+  {
+    "word": "OFICIAL",
+    "translation": "official",
+    "example": "Consultamos el informe oficial.",
+    "exampleTranslation": "We consulted the official report."
+  },
+  {
+    "word": "OFICINA",
+    "translation": "office",
+    "example": "La oficina está cerrada.",
+    "exampleTranslation": "The office is closed."
+  },
+  {
+    "word": "OFICIO",
+    "translation": "trade; occupation",
+    "example": "Aprendió el oficio de carpintero.",
+    "exampleTranslation": "He learned the carpenter's trade."
+  },
+  {
+    "word": "OFRECER",
+    "translation": "to offer",
+    "example": "Puedo ofrecer ayuda con la tarea.",
+    "exampleTranslation": "I can offer help with the assignment."
+  },
+  {
+    "word": "OFRENDA",
+    "translation": "religious offering",
+    "example": "Dejó una ofrenda en el santuario.",
+    "exampleTranslation": "She left an offering at the shrine."
+  },
+  {
+    "word": "OIGA",
+    "translation": "excuse me; listen",
+    "example": "Oiga, se le cayó su cartera.",
+    "exampleTranslation": "Excuse me, you dropped your wallet."
+  },
+  {
+    "word": "OJALÁ",
+    "translation": "hopefully; I hope",
+    "example": "Ojalá llueva esta tarde.",
+    "exampleTranslation": "I hope it rains this afternoon."
+  },
+  {
+    "word": "OLIVA",
+    "translation": "olive",
+    "example": "Una oliva adornaba la ensalada.",
+    "exampleTranslation": "An olive decorated the salad."
+  },
+  {
+    "word": "OLVIDAR",
+    "translation": "to forget",
+    "example": "No quiero olvidar la dirección.",
+    "exampleTranslation": "I do not want to forget the address."
+  },
+  {
+    "word": "OLVIDO",
+    "translation": "forgetting; loss of memory",
+    "example": "El olvido de la cita causó problemas.",
+    "exampleTranslation": "Forgetting the appointment caused problems."
+  },
+  {
+    "word": "OMBLIGO",
+    "translation": "navel",
+    "example": "La cicatriz está junto al ombligo.",
+    "exampleTranslation": "The scar is next to the navel."
+  },
+  {
+    "word": "OMEGA",
+    "translation": "omega",
+    "example": "La fórmula termina con una omega.",
+    "exampleTranslation": "The formula ends with an omega."
+  },
+  {
+    "word": "OMISIÓN",
+    "translation": "omission",
+    "example": "La omisión de una firma retrasó el trámite.",
+    "exampleTranslation": "The omission of a signature delayed the process."
+  },
+  {
+    "word": "ONCE",
+    "translation": "eleven",
+    "example": "Llegaron once estudiantes.",
+    "exampleTranslation": "Eleven students arrived."
+  },
+  {
+    "word": "ONDA",
+    "translation": "wave",
+    "example": "La piedra produjo una onda en el agua.",
+    "exampleTranslation": "The stone made a wave in the water."
+  },
+  {
+    "word": "OPCIÓN",
+    "translation": "choice",
+    "example": "Siempre tienes la opción de preguntar.",
+    "exampleTranslation": "You always have the choice to ask."
+  },
+  {
+    "word": "OPERAR",
+    "translation": "to operate; to function",
+    "example": "La planta puede operar sin interrupciones.",
+    "exampleTranslation": "The plant can operate without interruptions."
+  },
+  {
+    "word": "OPINAR",
+    "translation": "to give an opinion",
+    "example": "Todos pueden opinar en la reunión.",
+    "exampleTranslation": "Everyone can give an opinion at the meeting."
+  },
+  {
+    "word": "OPINIÓN",
+    "translation": "opinion",
+    "example": "Tu opinión merece respeto.",
+    "exampleTranslation": "Your opinion deserves respect."
+  },
+  {
+    "word": "OPTAR",
+    "translation": "to choose",
+    "example": "Puedes optar por el tren.",
+    "exampleTranslation": "You can choose the train."
+  },
+  {
+    "word": "OPUESTO",
+    "translation": "opposite",
+    "example": "Tomaron el camino opuesto.",
+    "exampleTranslation": "They took the opposite road."
+  },
+  {
+    "word": "ORACIÓN",
+    "translation": "sentence",
+    "example": "La oración contiene un verbo.",
+    "exampleTranslation": "The sentence contains a verb."
+  },
+  {
+    "word": "ORADOR",
+    "translation": "public speaker",
+    "example": "El orador habló con claridad.",
+    "exampleTranslation": "The speaker spoke clearly."
+  },
+  {
+    "word": "ORAL",
+    "translation": "oral; relating to the mouth",
+    "example": "La higiene oral previene problemas.",
+    "exampleTranslation": "Oral hygiene prevents problems."
+  },
+  {
+    "word": "ORDEN",
+    "translation": "order; arrangement",
+    "example": "Colocó los libros en orden.",
+    "exampleTranslation": "She put the books in order."
+  },
+  {
+    "word": "ORDENAR",
+    "translation": "to tidy up",
+    "example": "Vamos a ordenar la cocina.",
+    "exampleTranslation": "We are going to tidy up the kitchen."
+  },
+  {
+    "word": "OREJA",
+    "translation": "ear",
+    "example": "El perro levantó una oreja.",
+    "exampleTranslation": "The dog raised one ear."
+  },
+  {
+    "word": "ORGASMO",
+    "translation": "orgasm",
+    "example": "El orgasmo forma parte de la respuesta sexual.",
+    "exampleTranslation": "Orgasm is part of the sexual response."
+  },
+  {
+    "word": "ORGULLO",
+    "translation": "pride; arrogance",
+    "example": "Su orgullo le impidió aceptar ayuda.",
+    "exampleTranslation": "His pride prevented him from accepting help."
+  },
+  {
+    "word": "ORIENTE",
+    "translation": "east",
+    "example": "La ventana mira al oriente.",
+    "exampleTranslation": "The window faces east."
+  },
+  {
+    "word": "ORIGEN",
+    "translation": "origin",
+    "example": "Investigamos el origen del río.",
+    "exampleTranslation": "We investigated the river's origin."
+  },
+  {
+    "word": "ORILLA",
+    "translation": "edge",
+    "example": "Colocó el vaso en la orilla de la mesa.",
+    "exampleTranslation": "She put the glass at the edge of the table."
+  },
+  {
+    "word": "ORINA",
+    "translation": "urine",
+    "example": "La muestra de orina llegó al laboratorio.",
+    "exampleTranslation": "The urine sample reached the laboratory."
+  },
+  {
+    "word": "OSCURO",
+    "translation": "dark",
+    "example": "El cuarto está oscuro.",
+    "exampleTranslation": "The room is dark."
+  },
+  {
+    "word": "OTORGAR",
+    "translation": "to grant",
+    "example": "Decidieron otorgar el permiso.",
+    "exampleTranslation": "They decided to grant the permit."
+  },
+  {
+    "word": "OTOÑO",
+    "translation": "autumn",
+    "example": "Las hojas caen en otoño.",
+    "exampleTranslation": "Leaves fall in autumn."
+  },
+  {
+    "word": "OTRO",
+    "translation": "another; other",
+    "example": "Necesito otro lápiz.",
+    "exampleTranslation": "I need another pencil."
+  },
+  {
+    "word": "OVEJA",
+    "translation": "sheep",
+    "example": "La oveja descansaba bajo el árbol.",
+    "exampleTranslation": "The sheep was resting under the tree."
+  },
+  {
+    "word": "OXÍGENO",
+    "translation": "oxygen",
+    "example": "El tanque contiene oxígeno.",
+    "exampleTranslation": "The tank contains oxygen."
+  },
+  {
+    "word": "PACTO",
+    "translation": "pact; agreement",
+    "example": "Firmaron un pacto de cooperación.",
+    "exampleTranslation": "They signed a cooperation agreement."
+  },
+  {
+    "word": "PADECER",
+    "translation": "to suffer from",
+    "example": "Puede padecer dolor durante la recuperación.",
+    "exampleTranslation": "He may suffer pain during recovery."
+  },
+  {
+    "word": "PADRE",
+    "translation": "father",
+    "example": "Mi padre cultiva maíz.",
+    "exampleTranslation": "My father grows corn."
+  },
+  {
+    "word": "PADRINO",
+    "translation": "godfather; religious sponsor",
+    "example": "Su padrino asistió al bautizo.",
+    "exampleTranslation": "Her godfather attended the baptism."
+  },
+  {
+    "word": "PADRÓN",
+    "translation": "population register",
+    "example": "Su familia figura en el padrón.",
+    "exampleTranslation": "Her family appears in the population register."
+  },
+  {
+    "word": "PAGA",
+    "translation": "payment",
+    "example": "La paga llegó el viernes.",
+    "exampleTranslation": "The payment arrived on Friday."
+  },
+  {
+    "word": "PAGADO",
+    "translation": "paid; paid for",
+    "example": "El boleto ya está pagado.",
+    "exampleTranslation": "The ticket has already been paid for."
+  },
+  {
+    "word": "PAGAR",
+    "translation": "to pay",
+    "example": "Voy a pagar la cuenta.",
+    "exampleTranslation": "I am going to pay the bill."
+  },
+  {
+    "word": "PAGO",
+    "translation": "payment",
+    "example": "El pago quedó registrado.",
+    "exampleTranslation": "The payment was recorded."
+  },
+  {
+    "word": "PAISAJE",
+    "translation": "landscape",
+    "example": "El paisaje cambia con las estaciones.",
+    "exampleTranslation": "The landscape changes with the seasons."
+  },
+  {
+    "word": "PAJA",
+    "translation": "straw",
+    "example": "El granero está lleno de paja.",
+    "exampleTranslation": "The barn is full of straw."
+  },
+  {
+    "word": "PALA",
+    "translation": "shovel",
+    "example": "Cavó el hoyo con una pala.",
+    "exampleTranslation": "He dug the hole with a shovel."
+  },
+  {
+    "word": "PALABRA",
+    "translation": "word",
+    "example": "No entendí la última palabra.",
+    "exampleTranslation": "I did not understand the last word."
+  },
+  {
+    "word": "PALACIO",
+    "translation": "palace",
+    "example": "El palacio conserva sus jardines.",
+    "exampleTranslation": "The palace retains its gardens."
+  },
+  {
+    "word": "PALANCA",
+    "translation": "lever",
+    "example": "La palanca levantó la piedra.",
+    "exampleTranslation": "The lever lifted the stone."
+  },
+  {
+    "word": "PALETA",
+    "translation": "artist's palette",
+    "example": "Mezcló azul y verde en la paleta.",
+    "exampleTranslation": "She mixed blue and green on the palette."
+  },
+  {
+    "word": "PALIZA",
+    "translation": "beating",
+    "example": "La víctima denunció la paliza.",
+    "exampleTranslation": "The victim reported the beating."
+  },
+  {
+    "word": "PALMA",
+    "translation": "palm tree",
+    "example": "La palma crece junto al mar.",
+    "exampleTranslation": "The palm tree grows beside the sea."
+  },
+  {
+    "word": "PALOMA",
+    "translation": "pigeon; dove",
+    "example": "Una paloma se posó en el techo.",
+    "exampleTranslation": "A pigeon landed on the roof."
+  },
+  {
+    "word": "PAMPA",
+    "translation": "South American grassland",
+    "example": "El ganado pastaba en la pampa.",
+    "exampleTranslation": "The cattle grazed on the South American grassland."
+  },
+  {
+    "word": "PANA",
+    "translation": "corduroy",
+    "example": "Llevaba un pantalón de pana.",
+    "exampleTranslation": "He wore corduroy trousers."
+  },
+  {
+    "word": "PANAMÁ",
+    "translation": "Panama hat",
+    "example": "Usó un panamá para protegerse del sol.",
+    "exampleTranslation": "She wore a Panama hat for protection from the sun."
+  },
+  {
+    "word": "PANCHO",
+    "translation": "calm; relaxed",
+    "example": "Se quedó tan pancho tras la noticia.",
+    "exampleTranslation": "He remained completely relaxed after the news."
+  },
+  {
+    "word": "PANDA",
+    "translation": "panda",
+    "example": "El panda comía bambú.",
+    "exampleTranslation": "The panda was eating bamboo."
+  },
+  {
+    "word": "PANEL",
+    "translation": "decorative wall panel",
+    "example": "El panel de madera tiene una moldura.",
+    "exampleTranslation": "The wooden panel has a molding."
+  },
+  {
+    "word": "PANTANO",
+    "translation": "swamp",
+    "example": "El sendero bordea el pantano.",
+    "exampleTranslation": "The trail skirts the swamp."
+  },
+  {
+    "word": "PANZA",
+    "translation": "belly",
+    "example": "El gato duerme con la panza arriba.",
+    "exampleTranslation": "The cat sleeps belly up."
+  },
+  {
+    "word": "PAQUETE",
+    "translation": "package",
+    "example": "El paquete llegó esta mañana.",
+    "exampleTranslation": "The package arrived this morning."
+  },
+  {
+    "word": "PARA",
+    "translation": "for; in order to",
+    "example": "Estudio para aprender.",
+    "exampleTranslation": "I study in order to learn."
+  },
+  {
+    "word": "PARADA",
+    "translation": "bus stop; stop",
+    "example": "La parada del autobús está cerca.",
+    "exampleTranslation": "The bus stop is nearby."
+  },
+  {
+    "word": "PARADO",
+    "translation": "stopped; stationary",
+    "example": "El autobús está parado junto a la plaza.",
+    "exampleTranslation": "The bus is stopped beside the square."
+  },
+  {
+    "word": "PARAJE",
+    "translation": "spot; place in the countryside",
+    "example": "Descansamos en un paraje tranquilo.",
+    "exampleTranslation": "We rested in a quiet countryside spot."
+  },
+  {
+    "word": "PARAR",
+    "translation": "to stop",
+    "example": "Hay que parar el vehículo aquí.",
+    "exampleTranslation": "The vehicle must be stopped here."
+  },
+  {
+    "word": "PARAÍSO",
+    "translation": "paradise",
+    "example": "El relato describe el paraíso eterno.",
+    "exampleTranslation": "The account describes eternal paradise."
+  },
+  {
+    "word": "PARCELA",
+    "translation": "plot of land",
+    "example": "Sembraron maíz en la parcela.",
+    "exampleTranslation": "They planted corn on the plot."
+  },
+  {
+    "word": "PARCHE",
+    "translation": "patch",
+    "example": "Puso un parche sobre el agujero.",
+    "exampleTranslation": "She placed a patch over the hole."
+  },
+  {
+    "word": "PARCIAL",
+    "translation": "partial",
+    "example": "La revisión parcial dejó dudas.",
+    "exampleTranslation": "The partial review left doubts."
+  },
+  {
+    "word": "PARDO",
+    "translation": "brown; dun",
+    "example": "El conejo tiene pelo pardo.",
+    "exampleTranslation": "The rabbit has brown fur."
+  },
+  {
+    "word": "PARECER",
+    "translation": "to seem",
+    "example": "Puede parecer difícil al principio.",
+    "exampleTranslation": "It may seem difficult at first."
+  },
+  {
+    "word": "PARED",
+    "translation": "wall",
+    "example": "Colgamos el cuadro en la pared.",
+    "exampleTranslation": "We hung the painting on the wall."
+  },
+  {
+    "word": "PAREJA",
+    "translation": "pair; matched set",
+    "example": "La pareja de guantes quedó en la mesa.",
+    "exampleTranslation": "The pair of gloves was left on the table."
+  },
+  {
+    "word": "PARO",
+    "translation": "work stoppage; strike",
+    "example": "El paro suspendió la producción.",
+    "exampleTranslation": "The strike halted production."
+  },
+  {
+    "word": "PARODIA",
+    "translation": "parody",
+    "example": "La película es una parodia del género.",
+    "exampleTranslation": "The film is a parody of the genre."
+  },
+  {
+    "word": "PARQUE",
+    "translation": "park",
+    "example": "Caminamos por el parque.",
+    "exampleTranslation": "We walked through the park."
+  }
+]

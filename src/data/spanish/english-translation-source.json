@@ -1,0 +1,27 @@
+{
+  "edition": "English-language Wiktionary",
+  "contributors": "Wiktionary contributors",
+  "extractor": "Wiktextract raw extract hosted by Kaikki; no deprecated postprocessed multi-source dictionary used",
+  "artifactUrl": "https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz",
+  "artifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "artifactBytes": 3082192147,
+  "dumpDate": "2026-10-01",
+  "stableHeaders": {
+    "Content-Length": "3082192147",
+    "Last-Modified": "Wed, 21 Oct 2026 11:23:03 GMT",
+    "ETag": "\"6ad8a097-b7b68513\""
+  },
+  "dataLicense": "CC-BY-SA-4.0",
+  "rightsUrl": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+  "rawIndex": "https://kaikki.org/dictionary/rawdata.html",
+  "evidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+  "modifications": "Retain accepted4\u20137letter Spanish entries and non-form Spanish lemmas referenced by English/Spanish form records. Keep word/POS/sense glosses/tags/form_of/alt_of and original raw record hashes; omit quotation examples, media and other fields. Source claims can be incomplete or erroneous; no native/Mexican certification. Referenced alternative-form targets and recursively referenced lexical lemmas retained from the identical verified raw snapshot; no extra source edition mixed.",
+  "englishInflections": {
+    "version": "2016.01.19",
+    "dataUrl": "https://raw.githubusercontent.com/en-wl/wordlist/5ef55f9c42730ebe4394a78b77855468a6f15dd2/agid/infl.txt",
+    "dataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "licenseSha256": "df2d10e9c7cf373500de49f1a87665e12d8d47726179291a10dcdffdefe94261"
+  },
+  "formTablesSha256": "03ee079049afe5af8174e90748701c5c46eedf67cf95342c4cc81c443c0c3cf4",
+  "formTablesNote": "A second bounded streaming pass over the identical SHA-pinned raw archive retains explicit forms/tags/table contexts and source record hashes. No guessed suffix morphology."
+}

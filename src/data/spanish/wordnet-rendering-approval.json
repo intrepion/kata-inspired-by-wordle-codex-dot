@@ -1,0 +1,223 @@
+{
+  "inputSha256": "9f1ebd30929f089701403db3ce26b8f04014d3a268c6319f6cc9cba68eadf6e6",
+  "reviewer": "/root/review_standards",
+  "approvedPairs": [
+    {
+      "spanish": "acedia",
+      "synset": "00758795-n"
+    },
+    {
+      "spanish": "ailanto",
+      "synset": "12717072-n"
+    },
+    {
+      "spanish": "alnico",
+      "synset": "14716358-n"
+    },
+    {
+      "spanish": "babaza",
+      "synset": "05416678-n"
+    },
+    {
+      "spanish": "babera",
+      "synset": "02818254-n"
+    },
+    {
+      "spanish": "barbote",
+      "synset": "02818254-n"
+    },
+    {
+      "spanish": "bita",
+      "synset": "02864593-n"
+    },
+    {
+      "spanish": "casuca",
+      "synset": "03547054-n"
+    },
+    {
+      "spanish": "cierva",
+      "synset": "02431441-n"
+    },
+    {
+      "spanish": "enaguas",
+      "synset": "03920737-n"
+    },
+    {
+      "spanish": "enaguas",
+      "synset": "04230808-n"
+    },
+    {
+      "spanish": "follada",
+      "synset": "00846021-n"
+    },
+    {
+      "spanish": "fugado",
+      "synset": "10062905-n"
+    },
+    {
+      "spanish": "furriel",
+      "synset": "10498986-n"
+    },
+    {
+      "spanish": "gavota",
+      "synset": "00533224-n"
+    },
+    {
+      "spanish": "gradas",
+      "synset": "04300741-n"
+    },
+    {
+      "spanish": "harem",
+      "synset": "03494105-n"
+    },
+    {
+      "spanish": "helicón",
+      "synset": "03512030-n"
+    },
+    {
+      "spanish": "idiocia",
+      "synset": "05646926-n"
+    },
+    {
+      "spanish": "invar",
+      "synset": "14921414-n"
+    },
+    {
+      "spanish": "josa",
+      "synset": "06994700-n"
+    },
+    {
+      "spanish": "lavazas",
+      "synset": "14836851-n"
+    },
+    {
+      "spanish": "mimador",
+      "synset": "10395390-n"
+    },
+    {
+      "spanish": "minutas",
+      "synset": "06508112-n"
+    },
+    {
+      "spanish": "moca",
+      "synset": "07920989-n"
+    },
+    {
+      "spanish": "nabiza",
+      "synset": "07736256-n"
+    },
+    {
+      "spanish": "orzo",
+      "synset": "07699682-n"
+    },
+    {
+      "spanish": "partera",
+      "synset": "10314836-n"
+    },
+    {
+      "spanish": "paseata",
+      "synset": "00311809-n"
+    },
+    {
+      "spanish": "pataca",
+      "synset": "07719058-n"
+    },
+    {
+      "spanish": "pineda",
+      "synset": "09392402-n"
+    },
+    {
+      "spanish": "portes",
+      "synset": "13306346-n"
+    },
+    {
+      "spanish": "ramito",
+      "synset": "04287610-n"
+    },
+    {
+      "spanish": "rececho",
+      "synset": "00320625-n"
+    },
+    {
+      "spanish": "remonte",
+      "synset": "03002341-n"
+    },
+    {
+      "spanish": "romanó",
+      "synset": "06969822-n"
+    },
+    {
+      "spanish": "sanies",
+      "synset": "05417472-n"
+    },
+    {
+      "spanish": "servo",
+      "synset": "04176295-n"
+    },
+    {
+      "spanish": "siena",
+      "synset": "04973386-n"
+    },
+    {
+      "spanish": "sierva",
+      "synset": "09865068-n"
+    },
+    {
+      "spanish": "sillico",
+      "synset": "03004275-n"
+    },
+    {
+      "spanish": "silvano",
+      "synset": "10685480-n"
+    },
+    {
+      "spanish": "soba",
+      "synset": "00854000-n"
+    },
+    {
+      "spanish": "sobeo",
+      "synset": "00854000-n"
+    },
+    {
+      "spanish": "tejano",
+      "synset": "09745834-n"
+    },
+    {
+      "spanish": "terrina",
+      "synset": "07880213-n"
+    },
+    {
+      "spanish": "trastos",
+      "synset": "04345288-n"
+    },
+    {
+      "spanish": "trinca",
+      "synset": "07986066-n"
+    },
+    {
+      "spanish": "trisca",
+      "synset": "00553823-n"
+    },
+    {
+      "spanish": "uzbeco",
+      "synset": "06927363-n"
+    },
+    {
+      "spanish": "verdete",
+      "synset": "03899612-n"
+    },
+    {
+      "spanish": "veteado",
+      "synset": "04951071-n"
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "06277992-n"
+    },
+    {
+      "spanish": "áloes",
+      "synset": "02698366-n"
+    }
+  ],
+  "rejectedPairs": []
+}

@@ -23,7 +23,7 @@ export class AdviceSession {
   const cached=this.cache.get(key);
   if(cached){this.cancel();this.cache.delete(key);this.cache.set(key,cached);this.emit({phase:'ready',key,result:cached});return;}
   const total=possibleAnswers(run).length;
-  if(kind==='suboptimal'&&total<=1){this.cancel();this.emit({phase:'unavailable',message:total===1?'One curated answer remains; information ranking is not meaningful.':'No curated answers match these clues.'});return;}
+  if(kind==='suboptimal'&&total<=1){this.cancel();this.emit({phase:'unavailable',message:total===1?'One possible answer remains; information ranking is not meaningful.':'No possible answers match these clues.'});return;}
   this.cancel();const generation=this.generation;
   this.pendingKey=key;this.emit({phase:'loading',key,total});
   try{
@@ -39,7 +39,7 @@ export class AdviceSession {
     this.emit({phase:'ready',key,result:reply.result});
    };
    worker.onerror=()=>{if(generation!==this.generation)return;this.cancel();this.emit({phase:'error',key,message:'Analysis unavailable. All accepted guesses remain playable.'});};
-   worker.postMessage({key,observations:{...(run.wordLength===undefined||run.wordLength===5?{}:{wordLength:run.wordLength}),guesses:[...run.guesses],feedback:run.feedback.map(row=>[...row]),finished:run.finished},kind});
+   worker.postMessage({key,observations:{...(run.language?{language:run.language}:{}),...(run.wordLength===undefined||run.wordLength===5?{}:{wordLength:run.wordLength}),guesses:[...run.guesses],feedback:run.feedback.map(row=>[...row]),finished:run.finished},kind});
   }catch{this.cancel();this.emit({phase:'error',key,message:'Analysis unavailable. All accepted guesses remain playable.'});}
  }
  stop():void {this.cancel();this.emit({phase:'hidden'});}

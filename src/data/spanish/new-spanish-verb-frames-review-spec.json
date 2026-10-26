@@ -1,0 +1,722 @@
+{
+  "inputSha256": "28c3ef8dac0d89fec27bbaee816f81997a58eab1795d31ddadee4dde7a9a97e9",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model linguistic/source review of every proposed frame and all retained holds; not native-human certification. Exact raw Spanish lexical and form records verified against pinned gzip, selected lexical fields excluding source examples. English inflection raw lines checked in pinned AGID. No project edits.",
+  "approved": [
+    {
+      "spanish": "edrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f22d0aa6e00a9001e81f4b54d3321547016aba3ec6d525f2f2a23b6470ba4869",
+      "senseIndex": 0,
+      "frame": "plow fields a second time",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Agricultural second plowing, resolved only through explicit edrar→binar senses1–2 and selected BINAR sense1. No mass-celebrating homograph.",
+      "notes": "Two exact raw records checked, including BINAR sense 1 and its sense-specific reverse EDRAR synonym; only second plowing, not vineyard digging or Mass."
+    },
+    {
+      "spanish": "jasar",
+      "partOfSpeech": "verb",
+      "recordSha256": "15eba2d2b5b7022c398bbc0a99b4bb2643c7aed267ec62373168c88fa0b76a66",
+      "senseIndex": 0,
+      "frame": "make cuts in meat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare meat-cutting sense; generic meat/cuts are supplied by the definition, not an invented event.",
+      "notes": "Rare cuts-in-meat reading; source supplies the generic meat object."
+    },
+    {
+      "spanish": "filar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1bcd0cffd6f2fba530844f99cf4b104f921cbede29aab0c1ffdd52f80b907d65",
+      "senseIndex": 1,
+      "frame": "observe",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected watching/looking sense, not obsolete spinning or paying out a sail rope.",
+      "notes": "Selected observing sense; no spinning or rope-paying reading inherited."
+    },
+    {
+      "spanish": "hitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "255dfdd130d4239d7e52955981997453dbbd18b0673016036b5543104d126726",
+      "senseIndex": 0,
+      "frame": "place boundary markers",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Set markers to indicate boundaries, limits or distances.",
+      "notes": "Boundary markers are explicit source objects; no particular boundary invented."
+    },
+    {
+      "spanish": "pirar",
+      "partOfSpeech": "verb",
+      "recordSha256": "edfec2025db0bc83a95bc3e88812f680d3a24d15512a93ad0a7509b9a232327c",
+      "senseIndex": 2,
+      "frame": "hallucinate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Argentine colloquial hallucination sense; not mandatory-pronominal escaping.",
+      "notes": "Argentine colloquial hallucination reading, separate from pronominal leaving."
+    },
+    {
+      "spanish": "pujar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6c2c1f09eab986a4dfb66aec257c5131de3f6a33867a6170073892376798712d",
+      "senseIndex": 0,
+      "frame": "strain against resistance",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Exert effort to move forward or continue despite resistance; not auction bidding or an invented success.",
+      "notes": "Effort against resistance, not successful advance or auction bidding."
+    },
+    {
+      "spanish": "arcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1d48e690b6ee9f1f8d5a63d51a540dca1ed595870bdfc28090b45cc384d84241",
+      "senseIndex": 0,
+      "frame": "arch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause something to take an arch shape; human agent with contextual patient, not retching.",
+      "notes": "Causative shaping of a contextual object, not personal retching."
+    },
+    {
+      "spanish": "oponer",
+      "partOfSpeech": "verb",
+      "recordSha256": "bbf969da8f0df8cc516e2809a4713f1d310c62b6e8944e3234f5304c66049dec",
+      "senseIndex": 1,
+      "frame": "argue the opposite",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Present an opposing concept or reason; selected nonpronominal argumentation sense, not physically opposing oneself.",
+      "notes": "Opposing argumentation; no reflexive construction imported."
+    },
+    {
+      "spanish": "asonar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e8f41712303bc6281b6b2d5d37fd2583bb929559246576b06d505aa424f08348",
+      "senseIndex": 0,
+      "frame": "set text to music",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outdated causative musical setting; text is a generic object explicitly supplied by source. Not word-only rhyme or mandatory-pronominal gathering.",
+      "notes": "Outdated musical-setting sense; text is explicit in source."
+    },
+    {
+      "spanish": "bullir",
+      "partOfSpeech": "verb",
+      "recordSha256": "00c1cad968f5bd3339b12f7a547b3b75d8d9cf90a2ef2ffcd498920a7e501346",
+      "senseIndex": 0,
+      "frame": "shake",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected causative transitive agitation by an agent; not boiling liquid as subject or personal figurative movement.",
+      "notes": "Exact transitive entry supports agent moving/shaking a patient; no liquid-only subject inherited."
+    },
+    {
+      "spanish": "ominar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f9110311042874d5e9aa51e1df1aadc1816949af18c091c606ba687584030d3a",
+      "senseIndex": 0,
+      "frame": "predict calamities",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected prediction of future calamities, explicitly emphasized by source; no claim a prediction is true.",
+      "notes": "Selected calamity-prediction subset of source; not proof the prediction is true."
+    },
+    {
+      "spanish": "pajear",
+      "partOfSpeech": "verb",
+      "recordSha256": "bd92280fd3f81390e2148d76425d4e057386a7d7b13d1d4551cd344e06200501",
+      "senseIndex": 2,
+      "frame": "tell lies",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colombian/Salvadoran/Uruguayan colloquial false-information sense; not animal straw eating or other vulgar homographs.",
+      "notes": "Colombia/El Salvador/Uruguay colloquial lies sense; no vulgar alternative substituted."
+    },
+    {
+      "spanish": "albear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e7b58a8962e0c912f6bec24bf93ffb176de33218ebe88be9860c193e82550fde",
+      "senseIndex": 0,
+      "frame": "whiten walls",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Andalusian/Canarian wall-whitening sense; not a thing showing whiteness or target shooting.",
+      "notes": "Wall whitening with Andalusia/Canaries labels retained."
+    },
+    {
+      "spanish": "añilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8077f28d781aa936f9cc6f671ba1a60ebca2e91577c34c7d84a899e64ed6a685",
+      "senseIndex": 0,
+      "frame": "dye with indigo",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dye using indigo; unspecified material remains contextual, no invented cloth or location.",
+      "notes": "Indigo dyeing with contextual patient; no invented cloth. Use unqualified AGID dyeing, not annotated dying alternative."
+    },
+    {
+      "spanish": "cecear",
+      "partOfSpeech": "verb",
+      "recordSha256": "5bd8d7f5113d24050665b5d369770afd0d179bcbfd84829260d01a2f0d67f317",
+      "senseIndex": 0,
+      "frame": "pronounce /s/ like /θ/",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Speech articulation as supplied by source; no unsupported speech-disorder judgment.",
+      "notes": "Phonetic articulation only; /s/ and /θ/ notation is meaningful, not a diagnosis."
+    },
+    {
+      "spanish": "fulgir",
+      "partOfSpeech": "verb",
+      "recordSha256": "cbf7be251fc81145599796db89fbfb852ef7720c5c5774f818bdfcfd7e39e39e",
+      "senseIndex": 2,
+      "frame": "excel",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Explicit personal outstanding-skill/quality sense, not literal light-only emission. Human-capable use is sourced, not personification.",
+      "notes": "Explicit outstanding skills/qualities reading supports human subjects; no light-only inference."
+    },
+    {
+      "spanish": "irisar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d781545e1b3f625d241b6d4b9f52029ea189993ce314efb44e8a07e6de966bbd",
+      "senseIndex": 0,
+      "frame": "split light into its colors",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause dispersion of light into constituent colors; generic light/colors are supplied by definition.",
+      "notes": "Selected causative light-dispersion gloss supports an operator; source intransitive POS discrepancy must remain audit-visible."
+    },
+    {
+      "spanish": "zapear",
+      "partOfSpeech": "verb",
+      "recordSha256": "7b568b0be189b6bd4c38a0e418ebbe5e7c9c41bab7e978be7d9ade795605d938",
+      "senseIndex": 0,
+      "frame": "switch television channels rapidly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rapid repeated channel changing with remote, without watching a program long; not animal scaring or denied playing card.",
+      "notes": "Rapid channel switching; not generic turning on television."
+    },
+    {
+      "spanish": "apurar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bf0aaa597a32a509c9e1fd1e4a7e899507165e7e6d33c3adb565263ec1df52ba",
+      "senseIndex": 6,
+      "frame": "purify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare removal of impurities from a material such as gold or silver; not rushing or reflexive distress.",
+      "notes": "Rare purification sense, not hurry or pronominal distress."
+    },
+    {
+      "spanish": "cundir",
+      "partOfSpeech": "verb",
+      "recordSha256": "7022e1d83e48d4e479144c4f1f303805edf78a9b8e316b82dd34ab0411bb2c1d",
+      "senseIndex": 0,
+      "frame": "season food",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Salamanca food-flavoring sense with spices/seasonings, not liquid propagation as subject.",
+      "notes": "Salamanca food-seasoning sense with explicit food patient, not spreading."
+    },
+    {
+      "spanish": "arenar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5a76dd43846c5c80d4aa73bb3247f1708e4506e6cb1f364dad95ec901ce5968a",
+      "senseIndex": 1,
+      "frame": "scrub with sand",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rub something using sand; contextual patient, no actual object invented.",
+      "notes": "Sand as instrument, contextual scrubbed patient."
+    },
+    {
+      "spanish": "bizcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "44fc5b95dd5b713dd4747c329352da9ed594e87e17575956be90cabce68334ed",
+      "senseIndex": 0,
+      "frame": "wink",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected blinking one eye sense, not looking cross-eyed.",
+      "notes": "Selected one-eye winking, not strabismus."
+    },
+    {
+      "spanish": "ciclar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d2f9c646d53529c053f1d0d170167a25fde615d8d39b6e242b5e5e6d6bc4b341",
+      "senseIndex": 0,
+      "frame": "polish gemstones",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Polish and brighten precious stones; not speeding a process cycle.",
+      "notes": "Gemstone polishing, not cycling."
+    },
+    {
+      "spanish": "encovar",
+      "partOfSpeech": "verb",
+      "recordSha256": "115576485b1462788aa788d3584cd772869bdeb23eca54e13d26bf93562ceea7",
+      "senseIndex": 1,
+      "frame": "store",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected guarding/enclosing/containing sense without mandatory pronominal marker; not forcing a person to hide.",
+      "notes": "Selected nonpronominal storing/containing sense."
+    },
+    {
+      "spanish": "tarjar",
+      "partOfSpeech": "verb",
+      "recordSha256": "343a15524a3cfd16c09d3413787602e55076586aaffa3e905e57e34239c9d56a",
+      "senseIndex": 0,
+      "frame": "cross out writing",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Bolivian/Chilean/Peruvian cancellation of written text with a line.",
+      "notes": "Crossing out written matter, with Bolivia/Chile/Peru labels."
+    },
+    {
+      "spanish": "acodar",
+      "partOfSpeech": "verb",
+      "recordSha256": "196ce8ece3e2895d36019ff6c74033793060367c15ede30328cc7a822158a58a",
+      "senseIndex": 1,
+      "frame": "layer a plant shoot",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Horticultural layering: bury a shoot while leaving its tip exposed so it develops roots. Not human leaning on an elbow.",
+      "notes": "Human horticultural layering of a shoot; plant is patient, not required human subject."
+    },
+    {
+      "spanish": "desdar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a21360a2465c1f41eec4a239df3e90f54c68df4bdee0628ba34cd8fa6142b9b7",
+      "senseIndex": 1,
+      "frame": "unfasten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Undo a button, clasp or buckle; not the separate counter-winding sense.",
+      "notes": "Unfastening a closure, not counter-winding."
+    },
+    {
+      "spanish": "moscar",
+      "partOfSpeech": "verb",
+      "recordSha256": "38b97ec0f76ddeb587fb1c264385a5e62eb7a398f668e40ed313990de8aa16c9",
+      "senseIndex": 0,
+      "frame": "notch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make a notch in a body/object; no imaginary referent.",
+      "notes": "Notching a contextual body/object."
+    },
+    {
+      "spanish": "atrever",
+      "partOfSpeech": "verb",
+      "recordSha256": "6b781ca090bdb5a210373cf5a9e8e711cfd59f48279d83f73d8e16609cf2d180",
+      "senseIndex": 0,
+      "frame": "act disrespectfully",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outdated nonpronominal insolence sense; not modern mandatory atreverse construction.",
+      "notes": "Explicit outdated nonpronominal disrespect sense; modern atreverse not stripped."
+    },
+    {
+      "spanish": "chinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "aa8a6058e1c6fe234e2c1015a2bd7d99457e678995b6dd67cc2ead890cacb4ba",
+      "senseIndex": 0,
+      "frame": "embed pebbles in masonry plaster",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Insert small stones in masonry rendering; generic stones/rendering are source-given. Not the rechinar alias.",
+      "notes": "Pebbles inserted into masonry rendering; no rechinar reading."
+    },
+    {
+      "spanish": "afelpar",
+      "partOfSpeech": "verb",
+      "recordSha256": "75118868ee4ce693c876bbe91039557eab1c61ebf08b6a762fa6695473f6b602",
+      "senseIndex": 0,
+      "frame": "give fabric a plush appearance",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make cloth look like plush; no invented fiber composition or unsupported thickness.",
+      "notes": "Human treatment gives cloth plush appearance, no fiber-composition claim."
+    },
+    {
+      "spanish": "arrizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1769813c8295390c61386313928d2b3382279e48adf067b4dcd33e76f556b450",
+      "senseIndex": 1,
+      "frame": "reef sails",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Reduce exposed sail area by fastening part of the sail to the yard; human sailor, not vessel-only natural movement.",
+      "notes": "Sailors reef sails; vessel is not the required agent."
+    },
+    {
+      "spanish": "baldar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9d7b3e3b69b8e5c7dab708ac8b2ed5b3d012af6c8e9ccc179a704c45bddc3a70",
+      "senseIndex": 2,
+      "frame": "disable",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected obsolete generic rendering-useless sense; not illness/accident-only disabling someone in the separate pronominal sense.",
+      "notes": "Obsolete transitive rendering-useless reading."
+    },
+    {
+      "spanish": "grisear",
+      "partOfSpeech": "verb",
+      "recordSha256": "73ad5725ac1d0f67301253d848ab083f35d01e8a1edb16a77087f47b99e9cb83",
+      "senseIndex": 0,
+      "frame": "turn gray",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A thing gradually acquires a gray color; only literal third-singular entity reading, no imagined human actor.",
+      "notes": "Literal thing turning gray; keep it-only with no human/formal-you fallback."
+    },
+    {
+      "spanish": "rebelar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6c456adf2ae10477b230e80cb5ffd8bbdbb91c4df4de4544b18fd844957837bd",
+      "senseIndex": 0,
+      "frame": "incite rebellion",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause a person/group to act against an authority/rule; no mandatory reflexive subject or supplied actual rebels.",
+      "notes": "Human causation of rebellion, separate from reflexive rebelling."
+    },
+    {
+      "spanish": "silabar",
+      "partOfSpeech": "verb",
+      "recordSha256": "44ea15c51df188e316c4001d90c338a431087f355ed1f44cfdcbac420bd48c48",
+      "senseIndex": 0,
+      "frame": "separate syllables",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Indicate syllable divisions in pronunciation or writing; generic syllables are source-given.",
+      "notes": "Indicating syllable divisions by pronunciation/writing."
+    },
+    {
+      "spanish": "soguear",
+      "partOfSpeech": "verb",
+      "recordSha256": "a25bb8361ae77847441bb3524541eac5f00f6073f10ab7fe6bcce980d20e6904",
+      "senseIndex": 2,
+      "frame": "borrow money",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected Argentine money-borrowing sense, not Costa Rican rope tying or removing dew from crops.",
+      "notes": "Argentine borrowing-money sense, not rope tying."
+    },
+    {
+      "spanish": "frutar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e2d014926bae017399776d0a4e0c3e0018211311e87d27423f5c02b3d2cf9cc7",
+      "senseIndex": 0,
+      "frame": "produce fruit",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A tree or plant bears fruit; literal plant third-singular only, not human metaphorical fruition.",
+      "notes": "Plant/tree produces fruit; only literal third-singular it, no weather or human role."
+    },
+    {
+      "spanish": "florar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0632756e49772a0207a4cc72016c1bb251e6e741feddcb35a1a4846636a7cc53",
+      "senseIndex": 0,
+      "frame": "flower",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A plant/tree produces flowers; literal plant third-singular only, not a human figurative actor.",
+      "notes": "Plant/tree flowers; only literal third-singular it, no personification."
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "constar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3c26b78c27d72dee814c298288d1da423a1e36e23c33b4fbdc7b46fd278b552a",
+      "senseIndex": 1,
+      "frame": "demonstrate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected causative making something reliably evident; not an event being recorded or a fact with a dative experiencer.",
+      "reason": "Unchanged ordinary-profile demonstrate frame not approved. Raw entry explicitly intransitive; isolated Hacer algo fehacientemente manifiesto o evidente gloss does not establish human-agent transitive CONSTAR. Ordinary evidential/recorded-fact usage has different subject/experiencer roles. Require separate construction evidence before any I/we demonstrate generation."
+    }
+  ],
+  "retainedHolds": [
+    {
+      "spanish": "arfar",
+      "partOfSpeech": "verb",
+      "reason": "Vessel/sea-caused pitching needs a literal entity profile and nautical wording review; no personal I/we or personification shortcut."
+    },
+    {
+      "spanish": "lañar",
+      "partOfSpeech": "verb",
+      "reason": "Pinned raw Spanish verb sense is no-gloss; related grapar is not a selected synonymous definition. Do not borrow Galician English-Wiktionary meanings."
+    },
+    {
+      "spanish": "ociar",
+      "partOfSpeech": "verb",
+      "reason": "Both pinned Spanish source POS entries have no gloss; do not borrow Ido English-Wiktionary meanings or infer from ocio."
+    },
+    {
+      "spanish": "rorar",
+      "partOfSpeech": "verb",
+      "reason": "Pinned raw lexical sense has no gloss; no weather or human dripping frame guessed."
+    },
+    {
+      "spanish": "azoar",
+      "partOfSpeech": "verb",
+      "reason": "No retained semantic gloss; source form count is not a meaning."
+    },
+    {
+      "spanish": "hozar",
+      "partOfSpeech": "verb",
+      "reason": "Literal snout-rooting is animal-specific; no human agricultural frame invented."
+    },
+    {
+      "spanish": "boyar",
+      "partOfSpeech": "verb",
+      "reason": "Refloating is expressly a vessel subject; no human actor substituted for the vessel."
+    },
+    {
+      "spanish": "layar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; a tool-name inference is insufficient."
+    },
+    {
+      "spanish": "lujar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; no guessed luxury or dislocation meaning."
+    },
+    {
+      "spanish": "befar",
+      "partOfSpeech": "verb",
+      "reason": "Both source entries have no gloss; known cognates are not exact sense evidence."
+    },
+    {
+      "spanish": "bojar",
+      "partOfSpeech": "verb",
+      "reason": "Both source entries have no gloss; no inferred navigation or perimeter frame."
+    },
+    {
+      "spanish": "buzar",
+      "partOfSpeech": "verb",
+      "reason": "Source constrains subject to a metal vein or ground stratum sloping downward; no human action or underwater-diving guess."
+    },
+    {
+      "spanish": "cuñar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; no inferred minting/wedging synonym."
+    },
+    {
+      "spanish": "mocar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "mugar",
+      "partOfSpeech": "verb",
+      "reason": "Fish spawning/fertilization senses are animal-specific; not ordinary personal profile."
+    },
+    {
+      "spanish": "pupar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "arlar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "bagar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "poyar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; no oven-fee or human support frame guessed."
+    },
+    {
+      "spanish": "corar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "humar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; do not replace by human smoke sense from another word."
+    },
+    {
+      "spanish": "rilar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "rolar",
+      "partOfSpeech": "verb",
+      "reason": "Principal selected circular movement is wind-related; Chilean communication sense needs its own context/role review."
+    },
+    {
+      "spanish": "cusir",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss; spelling similarity to coser is not an explicit exact synonym proof."
+    },
+    {
+      "spanish": "erar",
+      "partOfSpeech": "verb",
+      "reason": "No retained lexical gloss."
+    },
+    {
+      "spanish": "urgir",
+      "partOfSpeech": "verb",
+      "reason": "Source contains urgency/dative/subject-construction ambiguities; no generic require or hurry frame supplied without precise argument review."
+    },
+    {
+      "spanish": "yermar",
+      "partOfSpeech": "verb",
+      "reason": "Faithful leave-land-uncultivated frame uses sense-qualified LEAVE; needs exact additional source-bound AGID slot review rather than guessed forms."
+    },
+    {
+      "spanish": "basar",
+      "partOfSpeech": "verb",
+      "reason": "Physical and theoretical basing needs an intervening object and base complement; no malformed base on or invented concrete base."
+    }
+  ],
+  "sourceChecks": {
+    "rawDistinctRecordsRequired": 635,
+    "rawDistinctRecordsMatched": 635,
+    "proposedFramesReviewed": 40,
+    "sourceFormRecordsChecked": 865,
+    "englishAgidLinesChecked": 40,
+    "edrarTwoRecordProof": {
+      "word": "binar",
+      "pos": "verb",
+      "recordSha256": "0f333a0a71c683d63bc52c5adbe68a0ed432d73775124a3a615df8462c02dd08",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "Dar segunda reja a las tierras de labor."
+        ],
+        "topics": [
+          "agriculture"
+        ],
+        "categories": [
+          "ES:Agricultura"
+        ],
+        "sense_index": "1"
+      },
+      "wordTags": [
+        "transitive"
+      ],
+      "synonymLinks": [
+        {
+          "word": "edrar",
+          "sense_index": "1",
+          "sense": "Dar segunda reja a las tierras de labor."
+        }
+      ]
+    }
+  },
+  "guards": [
+    "Unchanged exact source root/record/sense/frame/profile/context only; preserve all source usage tags.",
+    "Apply original positive source-form normalizer and known-English-inflection guards; no suffix inference, accent folding, clitic or mandatory-SE inference.",
+    "it-only admits only supported literal third-singular entity reading; formal usted is not an English it reading, no personal imperative fallback.",
+    "All approvals retain progressive only as selected background-process reading, not universal aspect equivalence.",
+    "Generic objects explicitly in definitions are permissible lexical frames; no actual referents, examples, destinations or hidden subjects invented.",
+    "EDRAR must retain both original and target raw hashes, selected BINAR sense and reciprocal synonym proof.",
+    "Counts are reviewed source frames/form records, not independently measured new runtime coverage."
+  ],
+  "counts": {
+    "approvedFrames": 39,
+    "withheldProposedFrames": 1,
+    "retainedOriginalHolds": 28,
+    "approvedOrdinary": 36,
+    "approvedItOnly": 3
+  }
+}

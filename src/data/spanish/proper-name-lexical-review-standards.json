@@ -1,0 +1,360 @@
+{
+  "inputSha256": "eb528897c26d570deb9bd45459af53630a9ee2ee826b9cf346273c44bd424ea6",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model review of all27 exact named-entity meanings, English referents and selected context; raw-source replay and capitalization/POS/sense checks supplement semantic review rather than replacing it. No native-human certification or generic identity fallback.",
+  "approved": [
+    {
+      "proposalIndex": 0,
+      "word": "PERÚ",
+      "partOfSpeech": "name",
+      "sourceWord": "Perú",
+      "senseIndex": 0,
+      "english": "Peru, a country in South America",
+      "context": "Country identity; source border descriptions are not needed for this English lexical rendering.",
+      "recordSha256": "52b2e1c6915ce4f81a902d96235f80f4037af6ff12249a82d65255274bf7bcaa",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 1,
+      "word": "ESCOCIA",
+      "partOfSpeech": "name",
+      "sourceWord": "Escocia",
+      "senseIndex": 0,
+      "english": "Scotland",
+      "context": "Selected nation in northern Great Britain. This proper name is distinct from lower-case escocia, the architectural moulding already translated; no new-word coverage credit.",
+      "recordSha256": "8ce4316a1d5eb28b409e59a3dc191d0428b014a55f2357a7d576043978b03c87",
+      "notes": "Scotland is the selected capitalized country name. Lower-case escocia scotia moulding must remain as a separate existing meaning. No new-word credit."
+    },
+    {
+      "proposalIndex": 2,
+      "word": "GALES",
+      "partOfSpeech": "name",
+      "sourceWord": "Gales",
+      "senseIndex": 0,
+      "english": "Wales",
+      "context": "Selected named nation of the United Kingdom; not the lower-case plural of gal. Source historical principality wording is not carried forward.",
+      "recordSha256": "30a70efb89824b56124d8d8fe76cadb17d817be2d5f4c43d7e4536b2bbd7db17",
+      "notes": "Wales is the named nation; no claim about the source obsolete principality wording is imported."
+    },
+    {
+      "proposalIndex": 3,
+      "word": "GANTE",
+      "partOfSpeech": "name",
+      "sourceWord": "Gante",
+      "senseIndex": 0,
+      "english": "Ghent, a city in Belgium",
+      "context": "Selected Belgian city; no contemporary capital/government claim is necessary.",
+      "recordSha256": "5d8db6dab166ba73fb1bd75bcfea510c59b8507d5a27a814e9031b1313b8d7a2",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 4,
+      "word": "MALINAS",
+      "partOfSpeech": "name",
+      "sourceWord": "Malinas",
+      "senseIndex": 0,
+      "english": "Mechelen (also Mechlin), a city in Belgium",
+      "context": "Selected Spanish city exonym; not lower-case adjective malinas. Obsolete population figure is not carried into English. English city-name forms are model-reviewed choices, not quoted source equivalents.",
+      "recordSha256": "d13da8fba393b9fafec871337cb5ddf32cb3c239be01c792fcefc3bcb5328840",
+      "notes": "Mechelen and Mechlin are appropriate English city-name forms for this Belgian city, rather than the French form Malines or an adjectival homograph."
+    },
+    {
+      "proposalIndex": 5,
+      "word": "TRÍPOLI",
+      "partOfSpeech": "name",
+      "sourceWord": "Trípoli",
+      "senseIndex": 0,
+      "english": "Tripoli, a city in Libya",
+      "context": "Selected Libyan city, not the separate Lebanese Tripoli sense; no current governmental role claim required.",
+      "recordSha256": "862b7f94a19befc99fefa6ed5f67cfb646c152dd34787084694f8dded01078eb",
+      "notes": "Selected Libyan city, not the Lebanese namesake."
+    },
+    {
+      "proposalIndex": 6,
+      "word": "COLOMBO",
+      "partOfSpeech": "name",
+      "sourceWord": "Colombo",
+      "senseIndex": 0,
+      "english": "Colombo, a city in Sri Lanka",
+      "context": "Source uses historical Ceilán (Ceylon). English names the same city and country; avoids repeating an unqualified current-capital assertion.",
+      "recordSha256": "e0d81bf0ee8b930da81995528f394d7724794cc7df1ca8340e278fdc1b47924f",
+      "notes": "Sri Lanka is the same country called Ceilán/Ceylon in the historical source wording; selected city identity does not assert current capital status."
+    },
+    {
+      "proposalIndex": 7,
+      "word": "ZAMBIA",
+      "partOfSpeech": "name",
+      "sourceWord": "Zambia",
+      "senseIndex": 0,
+      "english": "Zambia, an African country",
+      "context": "Country identity only; no current borders or colonial-status assertion.",
+      "recordSha256": "6fb1e9387d801cab315d1c21484ecff29f3d04fc19a918101df295d6fc22b19c",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 8,
+      "word": "CARACAS",
+      "partOfSpeech": "name",
+      "sourceWord": "Caracas",
+      "senseIndex": 0,
+      "english": "Caracas, a city in Venezuela",
+      "context": "Selected city identity; no current capital-status or population claim required.",
+      "recordSha256": "528737eaa5b75aebabd70ad6257dafd6ba451a89718655333e265856cb7ac0a9",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 9,
+      "word": "AQUILEA",
+      "partOfSpeech": "name",
+      "sourceWord": "Aquilea",
+      "senseIndex": 0,
+      "english": "Aquileia, a city in Italy",
+      "context": "Selected Italian city exonym, not a plant with similar spelling.",
+      "recordSha256": "fecc89683f741bd5b82a8b9a5dc054bb7051cbb5928eea40ef784ae9bc61ffc8",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 10,
+      "word": "MILÁN",
+      "partOfSpeech": "name",
+      "sourceWord": "Milán",
+      "senseIndex": 0,
+      "english": "Milan, a city in Italy",
+      "context": "Selected northern Italian city; not surname or given-name senses.",
+      "recordSha256": "28de393bd5be4a28880caab8127e46af0adf389722f2d42644b25bfefcb796c9",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 11,
+      "word": "MARTE",
+      "partOfSpeech": "name",
+      "sourceWord": "Marte",
+      "senseIndex": 0,
+      "english": "Mars, the planet",
+      "context": "Selected planetary proper name, not Roman deity or a finite verb spelling.",
+      "recordSha256": "b41a813c826b7929e80f20cb3c1fc0ad3292c55d255521b1b9199ce2a45bf3d3",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 12,
+      "word": "JÚPITER",
+      "partOfSpeech": "name",
+      "sourceWord": "Júpiter",
+      "senseIndex": 1,
+      "english": "Jupiter, the planet",
+      "context": "Selected planet, not deity. The source obsolete nine-planet count is deliberately not reproduced.",
+      "recordSha256": "8c1721aae73c5227be16dee70271f64bd0ae11797deb1665a24fa3db19c24b4a",
+      "notes": "Planet sense only; no nine-planet-count assertion."
+    },
+    {
+      "proposalIndex": 13,
+      "word": "SATURNO",
+      "partOfSpeech": "name",
+      "sourceWord": "Saturno",
+      "senseIndex": 0,
+      "english": "Saturn, the planet",
+      "context": "Selected planetary proper name.",
+      "recordSha256": "811e79f0da7484d48abfd0a3c5378fe55290334b39a8bb332838a9328122c2a0",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 14,
+      "word": "JAÉN",
+      "partOfSpeech": "name",
+      "sourceWord": "Jaén",
+      "senseIndex": 0,
+      "english": "Jaén, a city in Spain",
+      "context": "Selected Andalusian city, not the province or surname.",
+      "recordSha256": "f5f48414927d0727bf3903e8dfad27871b95d80738384fceb2a1617ab0721e52",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 15,
+      "word": "PORCUNA",
+      "partOfSpeech": "name",
+      "sourceWord": "Porcuna",
+      "senseIndex": 0,
+      "english": "Porcuna, a town in Jaén, Spain",
+      "context": "Exact town identity supplied by the source; no generic unknown-name identity rule.",
+      "recordSha256": "841520bea910a0bd448448549a313b991b903a4ee062483a509c752287787007",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 16,
+      "word": "MIRANDA",
+      "partOfSpeech": "name",
+      "sourceWord": "Miranda",
+      "senseIndex": 0,
+      "english": "Miranda, a state in Venezuela",
+      "context": "Selected administrative place name, not surname or given name.",
+      "recordSha256": "9a0549ee2abcb7ef6096bfc0f939d1fc0014c51f81663e662823169e4a2d4955",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 17,
+      "word": "MURCIA",
+      "partOfSpeech": "name",
+      "sourceWord": "Murcia",
+      "senseIndex": 0,
+      "english": "Murcia, a city in Spain",
+      "context": "Selected city, not province, autonomous region or surname; foundation-date claim omitted.",
+      "recordSha256": "67bf5ec8c7d3394a6fdbe0cb123a9ce1847aea9f3d70448055bfa242409909b1",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 18,
+      "word": "ELCHE",
+      "partOfSpeech": "name",
+      "sourceWord": "Elche",
+      "senseIndex": 0,
+      "english": "Elche, a city in Spain",
+      "context": "Selected city identity; no current administrative status claim needed.",
+      "recordSha256": "1347943016d3d49f780eb6b247c3d0132b88a45eca95c98db074701ae92f7105",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 19,
+      "word": "AGÜITAS",
+      "partOfSpeech": "name",
+      "sourceWord": "Agüitas",
+      "senseIndex": 0,
+      "english": "Agüitas, a short name for Aguascalientes in Mexico",
+      "context": "Source explicitly identifies the shortened city/state name. Preserve diaeresis and accent identity; no general diminutive-name composition.",
+      "recordSha256": "cc2a2b5d2ffdf0d28fd23491b6b9e1b0be4b8e3d175dcfc6e9eb9061e9e98609",
+      "notes": "Explicit source abbreviation of Aguascalientes city/state; preserve ü and source capitalization, not a generic diminutive-name inference."
+    },
+    {
+      "proposalIndex": 20,
+      "word": "BRETAÑA",
+      "partOfSpeech": "name",
+      "sourceWord": "Bretaña",
+      "senseIndex": 1,
+      "english": "Brittany, a region of France",
+      "context": "Selected French region, not Great Britain, and not every use referring to the peninsula.",
+      "recordSha256": "21190a8dbd6e68e8de671b23d72804ffc602a6b676326010132f708a366b8c2d",
+      "notes": "French Brittany region, not Great Britain."
+    },
+    {
+      "proposalIndex": 21,
+      "word": "ARTIGAS",
+      "partOfSpeech": "name",
+      "sourceWord": "Artigas",
+      "senseIndex": 1,
+      "english": "Artigas, a city in Uruguay",
+      "context": "Selected city, not department or surname.",
+      "recordSha256": "947e2ec5751c2764d3d935458097d53345872c20ef603205bec998403d4000e7",
+      "notes": "Selected Uruguayan city, not department or surname."
+    },
+    {
+      "proposalIndex": 22,
+      "word": "YORK",
+      "partOfSpeech": "name",
+      "sourceWord": "York",
+      "senseIndex": 0,
+      "english": "York, a city in England",
+      "context": "Selected English city, not North American namesakes, dynastic name or peninsula. Source county-capital assertion omitted.",
+      "recordSha256": "632c722e6ee3f0e3d4d4d7174899416f9b31e7ade55fd8fcf2461fef74ff53a1",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 23,
+      "word": "ARGOS",
+      "partOfSpeech": "name",
+      "sourceWord": "Argos",
+      "senseIndex": 0,
+      "english": "Argos, a city in Greece",
+      "context": "Selected Peloponnesian city; no modern capital-status claim or Argos retail-name sense.",
+      "recordSha256": "03a750787ce1959f55cf3e535fef04ff5b179ef0685703bdc763038c48e2bb60",
+      "notes": "Exact capitalized named-entity sense and chosen English referent align; no unrelated surname, common noun or contemporary status claim is imported."
+    },
+    {
+      "proposalIndex": 24,
+      "word": "CALDAS",
+      "partOfSpeech": "name",
+      "sourceWord": "Caldas",
+      "senseIndex": 0,
+      "english": "Caldas, a department of Colombia",
+      "context": "Select the exact regional source record, not the separate surname record.",
+      "recordSha256": "6d0d0d89c209c742941615c36e0d97780348332b58c111d9ba11617c36f8550a",
+      "notes": "Selected Colombian department, not surname."
+    },
+    {
+      "proposalIndex": 25,
+      "word": "BORNEO",
+      "partOfSpeech": "name",
+      "sourceWord": "Borneo",
+      "senseIndex": 0,
+      "english": "Borneo, an island in Southeast Asia",
+      "context": "Selected island identity, without current international boundary details.",
+      "recordSha256": "967530a59aad85025db36df6c2e4538dc17de704e8a616d24c36dc3ebfc0632d",
+      "notes": "Exact island sense; lower-case action noun borneo is not this proper-name selection."
+    },
+    {
+      "proposalIndex": 26,
+      "word": "RUAN",
+      "partOfSpeech": "name",
+      "sourceWord": "Ruan",
+      "senseIndex": 0,
+      "english": "Rouen, a city in France",
+      "context": "Select the exact French-city source record, not its separate surname or male-given-name records.",
+      "recordSha256": "16d9c3df9dd6ef1febe6dc4487e5b2fd8c98f1e614150dbe12e3c9e6e9d8418b",
+      "notes": "Exact French-city record supports Rouen; surname and given-name rows remain separate."
+    }
+  ],
+  "held": [],
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "license": "CC-BY-SA-4.0",
+    "baselineCoverageAuditSha256": "cf60b392fad34350780db3e5ed9c4a326eb8dee46105bdc13194769785a411a0",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51879,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4699,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 60958,
+      "missing": 15712,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2575,
+          "missing": 349
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8340,
+          "missing": 1396
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17537,
+          "missing": 4254
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32506,
+          "missing": 9713
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "researchSha256": "a271347618118d0dfe022861cfda25ead6c808b20061f4f59a52a40fb29b6006"
+  },
+  "checks": {
+    "rawRecordsReplayed": 27,
+    "uniqueNamedSensesReviewed": 27,
+    "currentlyMissingSpellings": 26,
+    "existingESCOCIAMouldingPresent": true,
+    "capitalizedSourceWordAndSourceURLsVerified": true,
+    "explicitEnglishTranslationMetadataVerified": true
+  },
+  "guards": [
+    "Preserve existing lower-case/common-noun meanings, especially ESCOCIA scotia. Adding a name sense must append rather than replace them.",
+    "Names are source-specific lexical readings of accepted guesses, not automatic answer eligibility or general unchanged-name fallback.",
+    "Retain source capitalization in citation URLs and original raw grammar in audit; do not assert unreviewed grammatical gender in English panels.",
+    "LATVIA and QUINTÍN remain held; no GPL FreeDict data or inferred identity mapping is admitted."
+  ]
+}

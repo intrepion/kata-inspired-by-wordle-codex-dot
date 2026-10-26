@@ -1,0 +1,902 @@
+[
+  {
+    "word": "DESVÍO",
+    "translation": "detour; diversion",
+    "example": "El desvío pasa por el pueblo.",
+    "exampleTranslation": "The detour goes through the village."
+  },
+  {
+    "word": "DETALLE",
+    "translation": "detail",
+    "example": "Me explicó cada detalle del plan.",
+    "exampleTranslation": "She explained every detail of the plan."
+  },
+  {
+    "word": "DETENER",
+    "translation": "to stop",
+    "example": "Hay que detener la fuga de agua.",
+    "exampleTranslation": "We need to stop the water leak."
+  },
+  {
+    "word": "DETRÁS",
+    "translation": "behind",
+    "example": "El perro duerme detrás de la puerta.",
+    "exampleTranslation": "The dog sleeps behind the door."
+  },
+  {
+    "word": "DEUDA",
+    "translation": "debt",
+    "example": "Terminó de pagar su deuda.",
+    "exampleTranslation": "He finished paying his debt."
+  },
+  {
+    "word": "DIABLO",
+    "translation": "devil",
+    "example": "El diablo aparece en el cuento.",
+    "exampleTranslation": "The devil appears in the story."
+  },
+  {
+    "word": "DIANA",
+    "translation": "target; bull's-eye",
+    "example": "La flecha dio en la diana.",
+    "exampleTranslation": "The arrow hit the bull's-eye."
+  },
+  {
+    "word": "DIARREA",
+    "translation": "diarrhea",
+    "example": "La diarrea puede causar deshidratación.",
+    "exampleTranslation": "Diarrhea can cause dehydration."
+  },
+  {
+    "word": "DIBUJAR",
+    "translation": "to draw",
+    "example": "Me gusta dibujar árboles.",
+    "exampleTranslation": "I like drawing trees."
+  },
+  {
+    "word": "DICHA",
+    "translation": "happiness; joy",
+    "example": "La noticia nos llenó de dicha.",
+    "exampleTranslation": "The news filled us with joy."
+  },
+  {
+    "word": "DICHO",
+    "translation": "aforementioned; said",
+    "example": "Dicho acuerdo sigue vigente.",
+    "exampleTranslation": "The aforementioned agreement remains in effect."
+  },
+  {
+    "word": "DICTADO",
+    "translation": "dictation",
+    "example": "Hicimos un dictado en clase.",
+    "exampleTranslation": "We did a dictation exercise in class."
+  },
+  {
+    "word": "DIETA",
+    "translation": "diet",
+    "example": "El médico recomendó una dieta equilibrada.",
+    "exampleTranslation": "The doctor recommended a balanced diet."
+  },
+  {
+    "word": "DIEZ",
+    "translation": "ten",
+    "example": "Necesito diez pesos.",
+    "exampleTranslation": "I need ten pesos."
+  },
+  {
+    "word": "DIFUNTO",
+    "translation": "deceased; late",
+    "example": "Recordamos a nuestro difunto abuelo.",
+    "exampleTranslation": "We remember our late grandfather."
+  },
+  {
+    "word": "DIFÍCIL",
+    "translation": "difficult",
+    "example": "El ejercicio es difícil.",
+    "exampleTranslation": "The exercise is difficult."
+  },
+  {
+    "word": "DIGITAL",
+    "translation": "digital",
+    "example": "Guardé una copia digital.",
+    "exampleTranslation": "I saved a digital copy."
+  },
+  {
+    "word": "DIGNO",
+    "translation": "worthy; deserving",
+    "example": "Su trabajo es digno de reconocimiento.",
+    "exampleTranslation": "Her work deserves recognition."
+  },
+  {
+    "word": "DIJE",
+    "translation": "pendant; charm",
+    "example": "El dije tiene forma de luna.",
+    "exampleTranslation": "The pendant is shaped like a moon."
+  },
+  {
+    "word": "DILEMA",
+    "translation": "dilemma",
+    "example": "Tengo un dilema con esas dos opciones.",
+    "exampleTranslation": "I have a dilemma about those two options."
+  },
+  {
+    "word": "DIPLOMA",
+    "translation": "diploma; certificate",
+    "example": "Recibió un diploma al terminar el curso.",
+    "exampleTranslation": "She received a certificate on completing the course."
+  },
+  {
+    "word": "DIRECTA",
+    "translation": "direct drive; forward gear",
+    "example": "El conductor puso la directa.",
+    "exampleTranslation": "The driver shifted into direct drive."
+  },
+  {
+    "word": "DIRECTO",
+    "translation": "direct; straight",
+    "example": "Tomamos el camino directo.",
+    "exampleTranslation": "We took the direct route."
+  },
+  {
+    "word": "DIRIGIR",
+    "translation": "to direct; to manage",
+    "example": "Ella va a dirigir el proyecto.",
+    "exampleTranslation": "She will lead the project."
+  },
+  {
+    "word": "DISCO",
+    "translation": "disc",
+    "example": "El disco de metal es delgado.",
+    "exampleTranslation": "The metal disc is thin."
+  },
+  {
+    "word": "DISEÑAR",
+    "translation": "to design",
+    "example": "Quiero diseñar una casa.",
+    "exampleTranslation": "I want to design a house."
+  },
+  {
+    "word": "DISEÑO",
+    "translation": "design",
+    "example": "El diseño muestra dos ventanas.",
+    "exampleTranslation": "The design shows two windows."
+  },
+  {
+    "word": "DISFRAZ",
+    "translation": "costume; disguise",
+    "example": "Su disfraz parece de pirata.",
+    "exampleTranslation": "His costume looks like a pirate's."
+  },
+  {
+    "word": "DISPARO",
+    "translation": "shot; gunshot",
+    "example": "Escucharon un disparo lejano.",
+    "exampleTranslation": "They heard a distant gunshot."
+  },
+  {
+    "word": "DISPUTA",
+    "translation": "dispute",
+    "example": "Resolvieron la disputa hablando.",
+    "exampleTranslation": "They settled the dispute by talking."
+  },
+  {
+    "word": "DIVERSO",
+    "translation": "different; varied",
+    "example": "El grupo es diverso.",
+    "exampleTranslation": "The group is diverse."
+  },
+  {
+    "word": "DIVIDIR",
+    "translation": "to divide",
+    "example": "Vamos a dividir el pan.",
+    "exampleTranslation": "We are going to divide the bread."
+  },
+  {
+    "word": "DIVINO",
+    "translation": "divine",
+    "example": "El mural representa un ser divino.",
+    "exampleTranslation": "The mural depicts a divine being."
+  },
+  {
+    "word": "DIVISA",
+    "translation": "foreign currency",
+    "example": "El banco cambió la divisa.",
+    "exampleTranslation": "The bank exchanged the foreign currency."
+  },
+  {
+    "word": "DIÁLOGO",
+    "translation": "dialogue; conversation",
+    "example": "El diálogo ayudó a resolver el problema.",
+    "exampleTranslation": "The dialogue helped solve the problem."
+  },
+  {
+    "word": "DOBLAJE",
+    "translation": "dubbing",
+    "example": "El doblaje está en español.",
+    "exampleTranslation": "The dubbing is in Spanish."
+  },
+  {
+    "word": "DOBLE",
+    "translation": "double",
+    "example": "Pedimos una porción doble.",
+    "exampleTranslation": "We ordered a double portion."
+  },
+  {
+    "word": "DOCE",
+    "translation": "twelve",
+    "example": "La caja contiene doce lápices.",
+    "exampleTranslation": "The box contains twelve pencils."
+  },
+  {
+    "word": "DOCENA",
+    "translation": "dozen",
+    "example": "Compré una docena de huevos.",
+    "exampleTranslation": "I bought a dozen eggs."
+  },
+  {
+    "word": "DOCENTE",
+    "translation": "teaching; educational",
+    "example": "Su labor docente inspira a muchos.",
+    "exampleTranslation": "Her teaching work inspires many people."
+  },
+  {
+    "word": "DOCTOR",
+    "translation": "doctor; physician",
+    "example": "El doctor revisó mi garganta.",
+    "exampleTranslation": "The doctor examined my throat."
+  },
+  {
+    "word": "DOLER",
+    "translation": "to hurt; to ache",
+    "example": "Me empezó a doler la cabeza.",
+    "exampleTranslation": "My head began to ache."
+  },
+  {
+    "word": "DOMINAR",
+    "translation": "to control; to master",
+    "example": "Quiero dominar esta técnica.",
+    "exampleTranslation": "I want to master this technique."
+  },
+  {
+    "word": "DOMINIO",
+    "translation": "control; command",
+    "example": "Tiene buen dominio del tema.",
+    "exampleTranslation": "She has a good command of the subject."
+  },
+  {
+    "word": "DOMINÓ",
+    "translation": "dominoes",
+    "example": "Jugamos dominó después de cenar.",
+    "exampleTranslation": "We played dominoes after dinner."
+  },
+  {
+    "word": "DONA",
+    "translation": "doughnut",
+    "example": "La dona tiene chocolate.",
+    "exampleTranslation": "The doughnut has chocolate on it."
+  },
+  {
+    "word": "DONANTE",
+    "translation": "donor",
+    "example": "El donante entregó los materiales.",
+    "exampleTranslation": "The donor handed over the materials."
+  },
+  {
+    "word": "DONAR",
+    "translation": "to donate",
+    "example": "Vamos a donar ropa.",
+    "exampleTranslation": "We are going to donate clothes."
+  },
+  {
+    "word": "DONDE",
+    "translation": "where",
+    "example": "Nos vemos donde está la fuente.",
+    "exampleTranslation": "We will meet where the fountain is."
+  },
+  {
+    "word": "DORADO",
+    "translation": "golden; gold-colored",
+    "example": "El marco es dorado.",
+    "exampleTranslation": "The frame is gold-colored."
+  },
+  {
+    "word": "DORSAL",
+    "translation": "dorsal; relating to the back",
+    "example": "El pez tiene una aleta dorsal.",
+    "exampleTranslation": "The fish has a dorsal fin."
+  },
+  {
+    "word": "DOSIS",
+    "translation": "dose",
+    "example": "La etiqueta indica la dosis.",
+    "exampleTranslation": "The label states the dose."
+  },
+  {
+    "word": "DOTADO",
+    "translation": "gifted; talented",
+    "example": "Es un alumno dotado para la música.",
+    "exampleTranslation": "He is a student with a gift for music."
+  },
+  {
+    "word": "DRAGÓN",
+    "translation": "dragon",
+    "example": "El dragón del cuento cuida un tesoro.",
+    "exampleTranslation": "The dragon in the story guards a treasure."
+  },
+  {
+    "word": "DRAMA",
+    "translation": "drama; serious play",
+    "example": "Vimos un drama en el teatro.",
+    "exampleTranslation": "We watched a drama at the theater."
+  },
+  {
+    "word": "DRENAJE",
+    "translation": "drainage",
+    "example": "El drenaje evita la acumulación de agua.",
+    "exampleTranslation": "The drainage prevents water from collecting."
+  },
+  {
+    "word": "DROGA",
+    "translation": "drug",
+    "example": "El folleto explica los efectos de esa droga.",
+    "exampleTranslation": "The leaflet explains that drug's effects."
+  },
+  {
+    "word": "DUAL",
+    "translation": "dual",
+    "example": "El programa tiene un propósito dual.",
+    "exampleTranslation": "The program has a dual purpose."
+  },
+  {
+    "word": "DUCHA",
+    "translation": "shower",
+    "example": "Tomé una ducha después de correr.",
+    "exampleTranslation": "I took a shower after running."
+  },
+  {
+    "word": "DUDAR",
+    "translation": "to doubt; to hesitate",
+    "example": "No debes dudar en pedir ayuda.",
+    "exampleTranslation": "You should not hesitate to ask for help."
+  },
+  {
+    "word": "DUELO",
+    "translation": "grief; mourning",
+    "example": "La familia atraviesa un periodo de duelo.",
+    "exampleTranslation": "The family is going through a period of mourning."
+  },
+  {
+    "word": "DUEÑA",
+    "translation": "female owner",
+    "example": "La dueña abrió la tienda.",
+    "exampleTranslation": "The owner opened the shop."
+  },
+  {
+    "word": "DUEÑO",
+    "translation": "owner",
+    "example": "El dueño cuida el jardín.",
+    "exampleTranslation": "The owner looks after the garden."
+  },
+  {
+    "word": "DULZURA",
+    "translation": "sweetness",
+    "example": "La fruta tiene mucha dulzura.",
+    "exampleTranslation": "The fruit is very sweet."
+  },
+  {
+    "word": "DUQUE",
+    "translation": "duke",
+    "example": "El duque vivía en ese palacio.",
+    "exampleTranslation": "The duke lived in that palace."
+  },
+  {
+    "word": "DURANTE",
+    "translation": "during",
+    "example": "Llovió durante la noche.",
+    "exampleTranslation": "It rained during the night."
+  },
+  {
+    "word": "DURAR",
+    "translation": "to last",
+    "example": "El viaje puede durar dos horas.",
+    "exampleTranslation": "The journey may last two hours."
+  },
+  {
+    "word": "DUREZA",
+    "translation": "hardness",
+    "example": "Probamos la dureza de la piedra.",
+    "exampleTranslation": "We tested the stone's hardness."
+  },
+  {
+    "word": "DURO",
+    "translation": "hard",
+    "example": "El suelo está duro.",
+    "exampleTranslation": "The ground is hard."
+  },
+  {
+    "word": "DÉBIL",
+    "translation": "weak",
+    "example": "El viento es débil.",
+    "exampleTranslation": "The wind is weak."
+  },
+  {
+    "word": "DÉCADA",
+    "translation": "decade",
+    "example": "La tienda abrió hace una década.",
+    "exampleTranslation": "The shop opened a decade ago."
+  },
+  {
+    "word": "DÉCIMA",
+    "translation": "tenth part",
+    "example": "Ganó por una décima de segundo.",
+    "exampleTranslation": "She won by a tenth of a second."
+  },
+  {
+    "word": "DÉCIMO",
+    "translation": "tenth",
+    "example": "Vive en el décimo piso.",
+    "exampleTranslation": "He lives on the tenth floor."
+  },
+  {
+    "word": "DÉFICIT",
+    "translation": "deficit; shortfall",
+    "example": "El presupuesto tiene un déficit.",
+    "exampleTranslation": "The budget has a deficit."
+  },
+  {
+    "word": "DÓLAR",
+    "translation": "dollar",
+    "example": "Guardé un dólar de recuerdo.",
+    "exampleTranslation": "I kept a dollar as a souvenir."
+  },
+  {
+    "word": "DÓNDE",
+    "translation": "where (question)",
+    "example": "¿Dónde dejaste la bolsa?",
+    "exampleTranslation": "Where did you leave the bag?"
+  },
+  {
+    "word": "ECHAR",
+    "translation": "to throw; to put into",
+    "example": "Voy a echar la carta al buzón.",
+    "exampleTranslation": "I am going to put the letter in the mailbox."
+  },
+  {
+    "word": "ECLIPSE",
+    "translation": "eclipse",
+    "example": "Observamos el eclipse con protección.",
+    "exampleTranslation": "We watched the eclipse with protection."
+  },
+  {
+    "word": "ECUADOR",
+    "translation": "equator",
+    "example": "El ecuador divide la Tierra en dos hemisferios.",
+    "exampleTranslation": "The equator divides Earth into two hemispheres."
+  },
+  {
+    "word": "EDICIÓN",
+    "translation": "editing; edition",
+    "example": "La nueva edición corrige varios errores.",
+    "exampleTranslation": "The new edition corrects several errors."
+  },
+  {
+    "word": "EDITAR",
+    "translation": "to edit",
+    "example": "Necesito editar el texto.",
+    "exampleTranslation": "I need to edit the text."
+  },
+  {
+    "word": "EDITOR",
+    "translation": "publishing; editing",
+    "example": "El equipo editor revisó las páginas.",
+    "exampleTranslation": "The editorial team reviewed the pages."
+  },
+  {
+    "word": "EDUCADO",
+    "translation": "polite; well-mannered",
+    "example": "El niño fue muy educado.",
+    "exampleTranslation": "The boy was very polite."
+  },
+  {
+    "word": "EDUCAR",
+    "translation": "to educate",
+    "example": "Educar requiere escuchar y orientar.",
+    "exampleTranslation": "Educating requires listening and guidance."
+  },
+  {
+    "word": "EFECTO",
+    "translation": "effect; result",
+    "example": "El efecto fue inmediato.",
+    "exampleTranslation": "The effect was immediate."
+  },
+  {
+    "word": "EFICAZ",
+    "translation": "effective",
+    "example": "El método es eficaz.",
+    "exampleTranslation": "The method is effective."
+  },
+  {
+    "word": "EGIPCIO",
+    "translation": "Egyptian",
+    "example": "El museo exhibe un objeto egipcio.",
+    "exampleTranslation": "The museum displays an Egyptian object."
+  },
+  {
+    "word": "EGOÍSMO",
+    "translation": "selfishness",
+    "example": "Su egoísmo afectó al equipo.",
+    "exampleTranslation": "His selfishness affected the team."
+  },
+  {
+    "word": "EGOÍSTA",
+    "translation": "selfish",
+    "example": "No seas egoísta con los juguetes.",
+    "exampleTranslation": "Do not be selfish with the toys."
+  },
+  {
+    "word": "EJERCER",
+    "translation": "to practice a profession",
+    "example": "Quiere ejercer la medicina.",
+    "exampleTranslation": "She wants to practice medicine."
+  },
+  {
+    "word": "ELECTO",
+    "translation": "elected; not yet in office",
+    "example": "El alcalde electo presentó a su equipo.",
+    "exampleTranslation": "The mayor-elect introduced his team."
+  },
+  {
+    "word": "ELEGIDO",
+    "translation": "chosen person",
+    "example": "El elegido para representar al grupo fue Luis.",
+    "exampleTranslation": "Luis was the one chosen to represent the group."
+  },
+  {
+    "word": "ELEGIR",
+    "translation": "to choose",
+    "example": "Podemos elegir otra fecha.",
+    "exampleTranslation": "We can choose another date."
+  },
+  {
+    "word": "ELENCO",
+    "translation": "cast",
+    "example": "El elenco ensayó toda la tarde.",
+    "exampleTranslation": "The cast rehearsed all afternoon."
+  },
+  {
+    "word": "ELEVADO",
+    "translation": "high; raised",
+    "example": "El costo es elevado.",
+    "exampleTranslation": "The cost is high."
+  },
+  {
+    "word": "ELEVAR",
+    "translation": "to raise",
+    "example": "Hay que elevar la mesa un poco.",
+    "exampleTranslation": "We need to raise the table a little."
+  },
+  {
+    "word": "ELLA",
+    "translation": "she; her",
+    "example": "Ella vive cerca del parque.",
+    "exampleTranslation": "She lives near the park."
+  },
+  {
+    "word": "ELLO",
+    "translation": "it; that (neuter pronoun)",
+    "example": "No sabía nada de ello.",
+    "exampleTranslation": "I knew nothing about it."
+  },
+  {
+    "word": "EMBARGO",
+    "translation": "seizure of assets",
+    "example": "El juez ordenó el embargo.",
+    "exampleTranslation": "The judge ordered the seizure of assets."
+  },
+  {
+    "word": "EMBLEMA",
+    "translation": "emblem",
+    "example": "El águila es el emblema del equipo.",
+    "exampleTranslation": "The eagle is the team's emblem."
+  },
+  {
+    "word": "EMIGRAR",
+    "translation": "to emigrate",
+    "example": "Decidieron emigrar por trabajo.",
+    "exampleTranslation": "They decided to emigrate for work."
+  },
+  {
+    "word": "EMISIÓN",
+    "translation": "emission; broadcast",
+    "example": "La emisión de gases disminuyó.",
+    "exampleTranslation": "Gas emissions decreased."
+  },
+  {
+    "word": "EMITIR",
+    "translation": "to emit; to send out",
+    "example": "La lámpara puede emitir luz azul.",
+    "exampleTranslation": "The lamp can emit blue light."
+  },
+  {
+    "word": "EMOCIÓN",
+    "translation": "emotion; excitement",
+    "example": "Sintió emoción al volver.",
+    "exampleTranslation": "She felt excited to return."
+  },
+  {
+    "word": "EMOTIVO",
+    "translation": "emotional; moving",
+    "example": "Fue un encuentro emotivo.",
+    "exampleTranslation": "It was a moving reunion."
+  },
+  {
+    "word": "EMPATE",
+    "translation": "tie; draw",
+    "example": "El partido terminó en empate.",
+    "exampleTranslation": "The match ended in a draw."
+  },
+  {
+    "word": "EMPATÍA",
+    "translation": "empathy",
+    "example": "Escuchó con empatía.",
+    "exampleTranslation": "She listened with empathy."
+  },
+  {
+    "word": "EMPEZAR",
+    "translation": "to begin; to start",
+    "example": "Vamos a empezar temprano.",
+    "exampleTranslation": "We are going to start early."
+  },
+  {
+    "word": "EMPEÑO",
+    "translation": "determination; effort",
+    "example": "Estudia con mucho empeño.",
+    "exampleTranslation": "He studies with great determination."
+  },
+  {
+    "word": "EMPIECE",
+    "translation": "beginning; start",
+    "example": "El empiece de la obra fue lento.",
+    "exampleTranslation": "The start of the work was slow."
+  },
+  {
+    "word": "EMPLEAR",
+    "translation": "to employ",
+    "example": "La empresa va a emplear más personal.",
+    "exampleTranslation": "The company will employ more staff."
+  },
+  {
+    "word": "EMPLEO",
+    "translation": "employment; job",
+    "example": "Encontró empleo cerca de casa.",
+    "exampleTranslation": "She found work near home."
+  },
+  {
+    "word": "EMPRESA",
+    "translation": "company; business",
+    "example": "La empresa fabrica muebles.",
+    "exampleTranslation": "The company makes furniture."
+  },
+  {
+    "word": "EMPUJAR",
+    "translation": "to push",
+    "example": "Debes empujar la puerta.",
+    "exampleTranslation": "You need to push the door."
+  },
+  {
+    "word": "EMPUJE",
+    "translation": "push; thrust",
+    "example": "El empuje movió el carrito.",
+    "exampleTranslation": "The push moved the cart."
+  },
+  {
+    "word": "ENANO",
+    "translation": "dwarf; unusually small",
+    "example": "El árbol enano cabe en una maceta.",
+    "exampleTranslation": "The dwarf tree fits in a pot."
+  },
+  {
+    "word": "ENCAJAR",
+    "translation": "to fit into",
+    "example": "La pieza debe encajar en la ranura.",
+    "exampleTranslation": "The piece must fit into the slot."
+  },
+  {
+    "word": "ENCAJE",
+    "translation": "fit; interlocking",
+    "example": "El encaje de las piezas es preciso.",
+    "exampleTranslation": "The pieces fit together precisely."
+  },
+  {
+    "word": "ENCANTO",
+    "translation": "charm",
+    "example": "El pueblo tiene mucho encanto.",
+    "exampleTranslation": "The village has a lot of charm."
+  },
+  {
+    "word": "ENCARAR",
+    "translation": "to face; to confront",
+    "example": "Debemos encarar el problema.",
+    "exampleTranslation": "We must face the problem."
+  },
+  {
+    "word": "ENCARGO",
+    "translation": "assignment; errand",
+    "example": "Tengo un encargo para ti.",
+    "exampleTranslation": "I have an errand for you."
+  },
+  {
+    "word": "ENCIMA",
+    "translation": "on top; above",
+    "example": "El libro está encima de la mesa.",
+    "exampleTranslation": "The book is on the table."
+  },
+  {
+    "word": "ENEMIGO",
+    "translation": "hostile; opposing",
+    "example": "El ejército enemigo se retiró.",
+    "exampleTranslation": "The opposing army withdrew."
+  },
+  {
+    "word": "ENERGÍA",
+    "translation": "energy",
+    "example": "El panel convierte la energía solar en electricidad.",
+    "exampleTranslation": "The panel converts solar energy into electricity."
+  },
+  {
+    "word": "ENERO",
+    "translation": "January",
+    "example": "El curso empieza en enero.",
+    "exampleTranslation": "The course begins in January."
+  },
+  {
+    "word": "ENFERMO",
+    "translation": "ill; sick",
+    "example": "Mi hermano está enfermo.",
+    "exampleTranslation": "My brother is ill."
+  },
+  {
+    "word": "ENFOQUE",
+    "translation": "focus; approach",
+    "example": "El enfoque de la cámara es preciso.",
+    "exampleTranslation": "The camera's focus is precise."
+  },
+  {
+    "word": "ENGAÑAR",
+    "translation": "to deceive",
+    "example": "No debemos engañar a nadie.",
+    "exampleTranslation": "We must not deceive anyone."
+  },
+  {
+    "word": "ENGAÑO",
+    "translation": "deception; deceit",
+    "example": "Descubrieron el engaño.",
+    "exampleTranslation": "They discovered the deception."
+  },
+  {
+    "word": "ENIGMA",
+    "translation": "riddle; puzzle",
+    "example": "El enigma tenía una respuesta sencilla.",
+    "exampleTranslation": "The riddle had a simple answer."
+  },
+  {
+    "word": "ENLACE",
+    "translation": "link; connection",
+    "example": "El puente sirve de enlace entre pueblos.",
+    "exampleTranslation": "The bridge links the villages."
+  },
+  {
+    "word": "ENOJADO",
+    "translation": "angry",
+    "example": "Está enojado por el retraso.",
+    "exampleTranslation": "He is angry about the delay."
+  },
+  {
+    "word": "ENOJAR",
+    "translation": "to annoy; to make angry",
+    "example": "No quiero enojar a mi hermana.",
+    "exampleTranslation": "I do not want to annoy my sister."
+  },
+  {
+    "word": "ENOJO",
+    "translation": "anger",
+    "example": "Su enojo duró poco.",
+    "exampleTranslation": "Her anger did not last long."
+  },
+  {
+    "word": "ENORME",
+    "translation": "enormous; huge",
+    "example": "El árbol es enorme.",
+    "exampleTranslation": "The tree is enormous."
+  },
+  {
+    "word": "ENSAYO",
+    "translation": "rehearsal; practice",
+    "example": "El ensayo empieza a las seis.",
+    "exampleTranslation": "The rehearsal starts at six."
+  },
+  {
+    "word": "ENSEÑA",
+    "translation": "emblem; flag",
+    "example": "La enseña del club ondeaba en la entrada.",
+    "exampleTranslation": "The club's flag flew at the entrance."
+  },
+  {
+    "word": "ENSEÑAR",
+    "translation": "to teach",
+    "example": "Me gusta enseñar matemáticas.",
+    "exampleTranslation": "I enjoy teaching mathematics."
+  },
+  {
+    "word": "ENTE",
+    "translation": "entity; being",
+    "example": "El relato menciona un ente misterioso.",
+    "exampleTranslation": "The story mentions a mysterious being."
+  },
+  {
+    "word": "ENTERAR",
+    "translation": "to inform",
+    "example": "Voy a enterar al director de lo ocurrido.",
+    "exampleTranslation": "I am going to inform the director of what happened."
+  },
+  {
+    "word": "ENTERO",
+    "translation": "whole; complete",
+    "example": "Comió un mango entero.",
+    "exampleTranslation": "She ate a whole mango."
+  },
+  {
+    "word": "ENTIDAD",
+    "translation": "entity",
+    "example": "La entidad tiene personalidad jurídica.",
+    "exampleTranslation": "The entity has legal personality."
+  },
+  {
+    "word": "ENTORNO",
+    "translation": "surroundings; environment",
+    "example": "El entorno de la escuela es tranquilo.",
+    "exampleTranslation": "The school's surroundings are peaceful."
+  },
+  {
+    "word": "ENTRADA",
+    "translation": "admission ticket",
+    "example": "Compré una entrada para el concierto.",
+    "exampleTranslation": "I bought a concert ticket."
+  },
+  {
+    "word": "ENTRAR",
+    "translation": "to enter",
+    "example": "Puedes entrar ahora.",
+    "exampleTranslation": "You can come in now."
+  },
+  {
+    "word": "ENTRE",
+    "translation": "between; among",
+    "example": "La tienda está entre dos casas.",
+    "exampleTranslation": "The shop is between two houses."
+  },
+  {
+    "word": "ENTREGA",
+    "translation": "delivery",
+    "example": "La entrega será mañana.",
+    "exampleTranslation": "The delivery will be tomorrow."
+  },
+  {
+    "word": "ENVIADA",
+    "translation": "female envoy; messenger",
+    "example": "La enviada presentó el mensaje.",
+    "exampleTranslation": "The envoy presented the message."
+  },
+  {
+    "word": "ENVIADO",
+    "translation": "envoy; messenger",
+    "example": "El enviado trajo la respuesta.",
+    "exampleTranslation": "The envoy brought the reply."
+  },
+  {
+    "word": "ENVIAR",
+    "translation": "to send",
+    "example": "Voy a enviar el paquete.",
+    "exampleTranslation": "I am going to send the package."
+  }
+]

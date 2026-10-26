@@ -1,0 +1,32 @@
+{
+  "inputSha256": "e766337bfc705ff9ee838e1b7eaf2647b824bc50c1ea146fa78492f0401053f3",
+  "originalReviewSha256": "39094f00cf6ae721459cb33357a248030e16293f8527e72e71f3cebd058cd64c",
+  "reviewer": "/root/review_standards",
+  "method": "Independent follow-up of exactly COPINO case 12 and PANILLA case 38. Rechecked the supplied exact English source rows, their historical usage tags and inline glosses. Also read retained Spanish COPINO noun senses in /tmp/guess-spanish-records.json, whose first sense explicitly makes capacity locality-dependent. Narrowed English wording and separated source usage labels from inline text. Original artifact is preserved; no application edits, target-sense expansion or finite-form authorization.",
+  "approved": [
+    {
+      "caseIndex": 12,
+      "word": "COPINO",
+      "sourceRecordSha256": "29184c6ad5b631c2fed14cdd954ba6a5cec2b0407f80957281ae3daa72b4ec18",
+      "targetRecordSha256": null,
+      "targetSenseIndex": null,
+      "english": "a traditional dry measure (about 2.3 L in the cited sense; capacity varies by locality)",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Grain-capacity measure. About 2.3 L is the selected English-source sense, not a universal conversion; the retained Spanish COPINO noun sense 0 explicitly says equivalence depends on locality.",
+      "notes": "Source sense labels: historical, masculine. English meaning is explicitly present in the source synonym gloss; no target sense is inferred. Historical is explicitly supplied as a source sense tag, not as part of the inline English gloss; retained as a usage qualification rather than an added assertion in the English wording. Lexical noun meaning only; no finite-form permission."
+    },
+    {
+      "caseIndex": 38,
+      "word": "PANILLA",
+      "sourceRecordSha256": "9d7cbe4d532035383dd94a3cf5c04bd60dffe31bc3747829f586d5842a5fdc7f",
+      "targetRecordSha256": null,
+      "targetSenseIndex": null,
+      "english": "a Spanish quarter-pound measure",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Explicit inline quarter-pound measure sense; no modern metric equivalence and no expansion to unrelated cuarterón senses.",
+      "notes": "Source sense labels: feminine, historical. English meaning is explicitly present in the source synonym gloss; no target sense is inferred. Historical is explicitly supplied as a source sense tag, not as part of the inline English gloss; retained as a usage qualification rather than an added assertion in the English wording. Lexical noun meaning only; no finite-form permission."
+    }
+  ]
+}

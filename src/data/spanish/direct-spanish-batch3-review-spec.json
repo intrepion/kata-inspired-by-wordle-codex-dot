@@ -1,0 +1,827 @@
+{
+  "inputSha256": "b28998b7a8927be147658b2d62a43a74fb9d3b5287916e2dc873eb40e5f8814b",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model second-author linguistic review of every one of the 81 unchanged proposed English renderings against its selected Spanish lexical definition, POS and context. An independent local scan also verified all 81 exact original decompressed raw-line SHA256 values, POS/sense indices, lexical glosses and usage inventories in the pinned archive, without copying media, quotations or examples. Approvals confirm original model English renderings of the chosen lexical sense, not English dictionary quotations, complete coverage, native-human/Mexican certification or universal modern usage. Existing source historical/regional/technical and construction restrictions remain part of each reading. No new inflection, alias, metaphorical or fixed-expression authority is granted. Changes to a held proposal require a new exact proposal/review.",
+  "approved": [
+    {
+      "word": "ANTIER",
+      "partOfSpeech": "adv",
+      "sourceWord": "antier",
+      "recordSha256": "66b0a98e5c384d0d17384662ac75501638955540d930c5dcfc681bbd1cc6fb62",
+      "senseIndex": 0,
+      "english": "the day before yesterday",
+      "context": "Regional American/Andalusian colloquial usage; not exclusively Mexican.",
+      "notes": "Day before yesterday is exact. Retain American/Andalusian colloquial scope; not exclusively Mexican."
+    },
+    {
+      "word": "MANSITO",
+      "partOfSpeech": "adv",
+      "sourceWord": "mansito",
+      "recordSha256": "6a75e1c22c1defa418d396ca86756b2e4c507e92b390353bbb5ef8dd37d21e4d",
+      "senseIndex": 0,
+      "english": "very slowly",
+      "context": "Selected adverbial manner, not the adjective meaning meek or tame.",
+      "notes": "Adverbial slowness, not an adjective describing tameness or meekness."
+    },
+    {
+      "word": "CHIST",
+      "partOfSpeech": "intj",
+      "sourceWord": "chist",
+      "recordSha256": "fd1e7b8cf8bd9138b89c62547b3a1a8561db09bcf163a0463dea1a52a50e5831",
+      "senseIndex": 0,
+      "english": "hush!",
+      "context": "An interjection used to ask for silence; not CHIS urine.",
+      "notes": "Silence-seeking interjection is distinct from CHIS and other sound or urine homographs."
+    },
+    {
+      "word": "HUIFA",
+      "partOfSpeech": "intj",
+      "sourceWord": "huifa",
+      "recordSha256": "89625697628f596bd02665befdec07590eb68d4d6ae50d78b6fbb217aec235c9",
+      "senseIndex": 0,
+      "english": "an exclamation of joy",
+      "context": "Chilean usage, especially in cueca; no invented English regional interjection.",
+      "notes": "A semantic explanation of a Chilean cueca exclamation is useful; it does not invent a supposedly equivalent English regional shout."
+    },
+    {
+      "word": "SERINGA",
+      "partOfSpeech": "intj",
+      "sourceWord": "seringa",
+      "recordSha256": "06b1968ed19ae5d923b0e0993b98d3b31ba9d3fe011d4e3d713c0ccdd1ffa9fd",
+      "senseIndex": 0,
+      "english": "no way!",
+      "context": "Selected Costa Rican colloquial refusal, not other noun homographs.",
+      "notes": "Refusal sense with Costa Rican colloquial label, not a syringe or tree noun."
+    },
+    {
+      "word": "OXTE",
+      "partOfSpeech": "intj",
+      "sourceWord": "oxte",
+      "recordSha256": "6fecdb48ed7b6d9952c9726851e23f737a666522e4bbd6ec9f12e71a51e64705",
+      "senseIndex": 0,
+      "english": "an exclamation of annoyed rejection",
+      "context": "Used to reject an unwelcome person or thing; no unsupported vulgar English substitute.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ABARCÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "abarcón",
+      "recordSha256": "62314d1187ec18467e53e0350c5c0a146ca7555b19157743a061e51d6ccf7ae8",
+      "senseIndex": 1,
+      "english": "pipe-support clamp",
+      "context": "A small metal ring or clamp supporting piping with threaded rods; not the historical carriage fitting.",
+      "notes": "Technical pipe-support clamp; no carriage fitting or unsupported clamp material is substituted."
+    },
+    {
+      "word": "ABITÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "abitón",
+      "recordSha256": "15274040d0451910040df5118d755ab9c661093c9a43772dde1277453e509ad3",
+      "senseIndex": 0,
+      "english": "wooden mooring post on a ship",
+      "context": "Nautical fitting; source specifies upright timber, not every modern bollard material.",
+      "notes": "Wooden upright nautical rope-securing fitting; do not broaden the material to all modern metal bollards."
+    },
+    {
+      "word": "ADOBERA",
+      "partOfSpeech": "noun",
+      "sourceWord": "adobera",
+      "recordSha256": "2c73a7ee7761332c0f8fea5c90fa7bea30cda54640a01ad659e935be8a11145b",
+      "senseIndex": 3,
+      "english": "brick-shaped cheese seasoned with chili",
+      "context": "Selected Mexican cheese sense, not an adobe mold or workshop.",
+      "notes": "Exact selected Mexican cheese definition with brick shape and chili seasoning, not every cheese sold under related names."
+    },
+    {
+      "word": "AJICERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajicero",
+      "recordSha256": "ee17bef27f41cfdf46fb4e2189fb0783c5e030dfe83af08d55a08e8d39456469",
+      "senseIndex": 0,
+      "english": "chili container for the table",
+      "context": "Selected container sense, not a chili seller; do not invent the container material.",
+      "notes": "Container placed on the table, not a chili seller or an invented container material."
+    },
+    {
+      "word": "ACEBEDA",
+      "partOfSpeech": "noun",
+      "sourceWord": "acebeda",
+      "recordSha256": "04aaefcb1b193760bff5ee7abba134a88b5198da63a779dd22846e196a61bc41",
+      "senseIndex": 0,
+      "english": "holly grove",
+      "context": "A place populated with holly trees.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ADARAJA",
+      "partOfSpeech": "noun",
+      "sourceWord": "adaraja",
+      "recordSha256": "e7c8923ad6ad9380b2ece62729c934b6c6d810766bcf38ed55d275069c6b2e93",
+      "senseIndex": 0,
+      "english": "toothed masonry joint left for later work",
+      "context": "Projecting or recessed bricks left to bond a later continuation of a wall.",
+      "notes": "Bonding teeth in unfinished masonry; preserve usual plural usage and continuation-of-work purpose."
+    },
+    {
+      "word": "ADARCE",
+      "partOfSpeech": "noun",
+      "sourceWord": "adarce",
+      "recordSha256": "a256bf380791c458523108234b398cd1040bc976548bf7728ca1833aeb609f54",
+      "senseIndex": 0,
+      "english": "porous salt crust",
+      "context": "A salt deposit on objects or plants exposed to the sea; omit historical treatment claim.",
+      "notes": "Porous salt deposit is exact; historical skin-treatment statement is deliberately not turned into efficacy advice."
+    },
+    {
+      "word": "ADEHALA",
+      "partOfSpeech": "noun",
+      "sourceWord": "adehala",
+      "recordSha256": "b50fb360527ab91d048a7b695e81b52611ffd3004a769c993d44f81a4c9523ec",
+      "senseIndex": 0,
+      "english": "free extra included in a sale",
+      "context": "An extra given without charge above the main purchase.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ADIPSIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "adipsia",
+      "recordSha256": "0662e3d96f23d52830743cc5580d20ad7154d8eb8aba7f764569b28f6a0b0e85",
+      "senseIndex": 0,
+      "english": "absence of thirst",
+      "context": "Medical term, not medical advice or a claim about cause.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ADRAL",
+      "partOfSpeech": "noun",
+      "sourceWord": "adral",
+      "recordSha256": "b054d666c8b0e70a7c13c55f82c30eba8cac22f8bdfb55c641a31db69b745a56",
+      "senseIndex": 0,
+      "english": "cart-side slat",
+      "context": "A slat or rod along a cart or carriage side to keep cargo from falling.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "AGACHÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "agachón",
+      "recordSha256": "303973d0d4b89003bf0fce2044cafc18bffade1651f51eca879166d5ba6cfd06",
+      "senseIndex": 0,
+      "english": "secondhand clothing shop",
+      "context": "Selected Honduran colloquial shop sense, not Mexican submissive-person adjective.",
+      "notes": "Honduran colloquial/festive shop sense; no Mexican personal-submissiveness meaning imported."
+    },
+    {
+      "word": "AGUAÑÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "aguañón",
+      "recordSha256": "87841c0c1a205f1d5569063c309364bcf5d67e38511f6d2b4c1229def482f960",
+      "senseIndex": 0,
+      "english": "master builder of hydraulic works",
+      "context": "Construction occupation; do not imply a modern licensed engineering credential.",
+      "notes": "Master constructor of hydraulic works; not an invented credentialed engineer title."
+    },
+    {
+      "word": "AGUJAL",
+      "partOfSpeech": "noun",
+      "sourceWord": "agujal",
+      "recordSha256": "4bd177ed82c32f28aeccb4285fb441d29f71d5981dc2bb5ee14725689149f3f6",
+      "senseIndex": 0,
+      "english": "rammed-earth formwork tie hole",
+      "context": "A hole left in a wall after withdrawing the formwork ties; source concerns tapial construction.",
+      "notes": "Hole left by removing rammed-earth formwork ties; no different drilling method inferred."
+    },
+    {
+      "word": "AGUJAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "agujazo",
+      "recordSha256": "4b5ab747dbc21523469612923fc9619195414e4c242b079fdbbec3f8e8791a20",
+      "senseIndex": 0,
+      "english": "needle prick",
+      "context": "A puncture made with a needle.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "AIJADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "aijada",
+      "recordSha256": "cf3a3c9518f0989eec81c8a73d55d2aa986224a25918d3b94c21b16b73936376",
+      "senseIndex": 0,
+      "english": "ox goad",
+      "context": "A long metal-tipped rod used to urge a team of draft animals onward.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "AJARACA",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajaraca",
+      "recordSha256": "09890f9dee21e78467d6fd1410652191fe44566ecf9752004b7ce3feae05f7e0",
+      "senseIndex": 0,
+      "english": "interlacing wall ornament",
+      "context": "A decoration of intersecting lines on walls or moldings.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "AJERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajero",
+      "recordSha256": "4869dfb118c9c3c19677eed1a4f9f88ef21c1e49269e81ffccddf38fb842967b",
+      "senseIndex": 0,
+      "english": "garlic seller",
+      "context": "Selected seller sense; no assumed gender of the person.",
+      "notes": "Garlic seller with no invented biological sex; English occupation can be neutral."
+    },
+    {
+      "word": "AJICOLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajicola",
+      "recordSha256": "f4245949894aa3fdc7e0db7a4cd23d97ba503f08865a02305a8d195eda25f65e",
+      "senseIndex": 0,
+      "english": "glue made from goatskin scraps boiled with garlic",
+      "context": "Historical craft material; no preparation instructions or unsupported chemical composition.",
+      "notes": "Selected traditional glue composition follows the source; no extra recipe steps, quantities or effectiveness invented."
+    },
+    {
+      "word": "AJONUEZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajonuez",
+      "recordSha256": "fc5e15b4e4a9e60e02e6ad575f610e5291df992e5d056b1c7082801205e4b71c",
+      "senseIndex": 0,
+      "english": "garlic-and-nutmeg sauce",
+      "context": "The source says nutmeg, not ordinary walnuts.",
+      "notes": "Nutmeg is explicit nuez moscada, not walnuts."
+    },
+    {
+      "word": "ALADAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "aladar",
+      "recordSha256": "2c51c923934c4646737907d1103555921740e07a9971ceecbfdd22b1eedd3571",
+      "senseIndex": 0,
+      "english": "lock of hair at the temple",
+      "context": "Hair over the temples; not necessarily a sideburn.",
+      "notes": "Temple hair, without forcing the narrower sideburn interpretation."
+    },
+    {
+      "word": "ALAMBOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "alambor",
+      "recordSha256": "929de1359c9d49ba104e71315370fbf6fcf6b6e9b35435ab1c9ed3f2e0d365c5",
+      "senseIndex": 0,
+      "english": "ornamental edging",
+      "context": "An ornate finishing element placed along an edge.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alazo",
+      "recordSha256": "0b24894dd04519a21be07c36402670904f5309cfe7abf81a2bc8b05353298c13",
+      "senseIndex": 0,
+      "english": "blow with a wing",
+      "context": "A stroke delivered by a wing.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALBARCA",
+      "partOfSpeech": "noun",
+      "sourceWord": "albarca",
+      "recordSha256": "2071a441249c17fd24218adbb030aaf1310a8b7d8d7fd612f953fc83677ea980",
+      "senseIndex": 0,
+      "english": "leather or rubber sandal fastened with straps",
+      "context": "A traditional sandal tied over the instep and ankle.",
+      "notes": "Leather or rubber sandal with straps; source supports the material alternatives and fastening position."
+    },
+    {
+      "word": "ALBARSA",
+      "partOfSpeech": "noun",
+      "sourceWord": "albarsa",
+      "recordSha256": "23b8a4d25adacf55578d14328160d5e50d5f6a02daa8a179224d9ead92bc3b50",
+      "senseIndex": 0,
+      "english": "basket for fishing equipment",
+      "context": "A carrying basket for fishing implements, not automatically a fish catch basket.",
+      "notes": "Basket transports fishing implements, not necessarily caught fish."
+    },
+    {
+      "word": "ALBENDA",
+      "partOfSpeech": "noun",
+      "sourceWord": "albenda",
+      "recordSha256": "978b0dc49efca28f51fedf76e1c3cafe5786d58e2f7a8f50cc5421fd7c9d4668",
+      "senseIndex": 0,
+      "english": "white decorative hanging cloth",
+      "context": "Decorated with floral or animal motifs.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALBORGA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alborga",
+      "recordSha256": "2a55798c7504460ce0b34a15b226b36a146d1c0d37ce89a414f3fc0a59ad5150",
+      "senseIndex": 0,
+      "english": "rustic rope or esparto footwear",
+      "context": "Espadrille-like footwear; not a specific modern shoe brand.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALBUGO",
+      "partOfSpeech": "noun",
+      "sourceWord": "albugo",
+      "recordSha256": "feb1a44a245067984c8bfa385a44b4b20b8b6d40b0c780d549cb11f16ad75f89",
+      "senseIndex": 0,
+      "english": "white opacity in the cornea",
+      "context": "Selected ocular mark; do not infer a diagnosis beyond the source definition.",
+      "notes": "Corneal white opacity meaning; no added etiology or diagnostic advice."
+    },
+    {
+      "word": "ALCABOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "alcabor",
+      "recordSha256": "8ebfdbcd9be1a88be2eabe7416556ed6257535106771a857393c27d442ed3079",
+      "senseIndex": 0,
+      "english": "space inside an oven or chimney hood",
+      "context": "The empty space within the hood.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALCEDO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alcedo",
+      "recordSha256": "bef371811aada2384a12da69fd0aedee186483de42b4a163234213ce8ab3ed59",
+      "senseIndex": 0,
+      "english": "maple-covered land",
+      "context": "Selected common-noun land sense, not a surname.",
+      "notes": "Common land-with-maples noun, not a surname or kingfisher taxon."
+    },
+    {
+      "word": "ALCOLLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alcolla",
+      "recordSha256": "40615f086c93d4f9b0a66888e01c61d0ec5a747733daf3a43a14e185ba365865",
+      "senseIndex": 0,
+      "english": "glass or earthenware vessel",
+      "context": "Preserve outdated usage.",
+      "notes": "Vessel materials follow source; preserve outdated usage."
+    },
+    {
+      "word": "ALDIZA",
+      "partOfSpeech": "noun",
+      "sourceWord": "aldiza",
+      "recordSha256": "b3d3fa0e7dbe1526a06e8048ef86d26a1ee67793b10d1e18297be3fb7bd3b68d",
+      "senseIndex": 0,
+      "english": "elderly woman",
+      "context": "Exact female referent is present in the definition; no additional pejorative English wording.",
+      "notes": "Female elderly referent is explicit; no extra insulting wording added."
+    },
+    {
+      "word": "ALEDA",
+      "partOfSpeech": "noun",
+      "sourceWord": "aleda",
+      "recordSha256": "b9ef5cf60ec8e261ab32478316eccda3c0a08b756844dcd05f460966686a2c4d",
+      "senseIndex": 0,
+      "english": "wax lining the inside of a beehive",
+      "context": "Source says wax, not propolis or honey.",
+      "notes": "Source says beeswax lining, not propolis or honey."
+    },
+    {
+      "word": "ALEPÍN",
+      "partOfSpeech": "noun",
+      "sourceWord": "alepín",
+      "recordSha256": "6d141b7ff484e0da7bdf82d55bccbc3b4de609530f9beb26e53137d70ac53bed",
+      "senseIndex": 0,
+      "english": "silk-warp and wool-weft fabric",
+      "context": "Fabric historically made in Aleppo; preserve warp/weft distinction.",
+      "notes": "Silk warp and wool weft are kept distinct; retain historical Aleppo context."
+    },
+    {
+      "word": "ALFANA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alfana",
+      "recordSha256": "a31d380d4884e37e7f44bf330089ba3cd3b409d98fc780f88c4a1542b7891fa6",
+      "senseIndex": 0,
+      "english": "large graceful horse",
+      "context": "Source does not establish mare-only gender.",
+      "notes": "English horse remains sex-neutral; source does not substantiate a mare-only rendering."
+    },
+    {
+      "word": "ALFARAZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "alfaraz",
+      "recordSha256": "766bccc06167aa787b9384e44c228e22e535ff30dfe01b059899bda4da0c1240",
+      "senseIndex": 0,
+      "english": "light-cavalry horse",
+      "context": "A horse used in light cavalry.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALGORFA",
+      "partOfSpeech": "noun",
+      "sourceWord": "algorfa",
+      "recordSha256": "4a24daf57a605d3ca007f463d4d329810d7e60fdd2d4b925ab6e09ddda3d7b52",
+      "senseIndex": 0,
+      "english": "raised grain-storage space",
+      "context": "An elevated place used to store grain.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALGUAZA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alguaza",
+      "recordSha256": "88b62b52c742bc8921b2bec1d5815a3e904b57d9155e45faab6fc2025d17b8e1",
+      "senseIndex": 0,
+      "english": "leather hinge strap",
+      "context": "A leather strip joining movable and fixed parts of a door or window.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALGUERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alguero",
+      "recordSha256": "73719688ddc5bb86d9ccadbcfc1148e539f51880c173a0cb0cd975266d627126",
+      "senseIndex": 0,
+      "english": "seaweed grower, collector or trader",
+      "context": "Occupation involving algae; preserve the supplied alternatives without inventing a species.",
+      "notes": "All three source occupational alternatives are retained; no named species invented."
+    },
+    {
+      "word": "ALJEZAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "aljezar",
+      "recordSha256": "5a42785fa3e616bb2d978ba5a177066c44728aa7d90578e55129d29b7bde5b7f",
+      "senseIndex": 0,
+      "english": "gypsum-rich land",
+      "context": "Ground containing abundant gypsum mineral.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ALMANTA",
+      "partOfSpeech": "noun",
+      "sourceWord": "almanta",
+      "recordSha256": "a93a82258e6d0537f2ffede63c6b393be7bcbad1502bac4637d4d0fe83aaeb26",
+      "senseIndex": 0,
+      "english": "space between vineyard or olive-grove rows",
+      "context": "The gap between planted rows, not the row itself.",
+      "notes": "Gap between planted rows, not the planted row itself."
+    },
+    {
+      "word": "ALMEJAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "almejar",
+      "recordSha256": "2ee4750b7a0fa1d720c52a14be07ef41b5cc573c1407eaa69d3a3061b311ec19",
+      "senseIndex": 0,
+      "english": "clam bed or breeding ground",
+      "context": "Source does not require a human-operated farm.",
+      "notes": "Clam bed/breeding place may be natural; no human aquaculture operator invented."
+    },
+    {
+      "word": "ALQUEZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "alquez",
+      "recordSha256": "6f1e2433034b55a31342fe6b573da1fc92e686a7cda4a5db6d53af4890615049",
+      "senseIndex": 0,
+      "english": "wine measure of twelve cántaras",
+      "context": "Traditional measure; no universal liter conversion because cántara varies.",
+      "notes": "Twelve cántaras is exact; no universal liter conversion inferred from a variable traditional unit."
+    },
+    {
+      "word": "AMITO",
+      "partOfSpeech": "noun",
+      "sourceWord": "amito",
+      "recordSha256": "53b020b29524125ae62cf5ccdef7402c79b3b6847654af08118ef7500a16b992",
+      "senseIndex": 0,
+      "english": "amice",
+      "context": "Liturgical cloth covering neck and shoulders, worn beneath an alb.",
+      "notes": "Amice is the English liturgical garment; alb is distinct from the amice."
+    },
+    {
+      "word": "ANADINO",
+      "partOfSpeech": "noun",
+      "sourceWord": "anadino",
+      "recordSha256": "7824cb36179e1c0892404c5ecce2dfca152e219499e3d59e8c2a619fa7295b1c",
+      "senseIndex": 0,
+      "english": "duckling",
+      "context": "Young duck, not an adjective authorizing unrelated derivations.",
+      "notes": "Young duck; no separate invented adjective or inflection authority."
+    },
+    {
+      "word": "ANCÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "ancón",
+      "recordSha256": "1e3012a32ef99448e6985c58ba9884dedfd3e47cf875c4fbee5b4a4350cf6816",
+      "senseIndex": 0,
+      "english": "small anchorage cove",
+      "context": "A small inlet where vessels can anchor.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ANEJIR",
+      "partOfSpeech": "noun",
+      "sourceWord": "anejir",
+      "recordSha256": "c447d077e287b2c487ceafb454091045f2a78e90671bb743ce98f8ac217fbae7",
+      "senseIndex": 0,
+      "english": "popular saying in singable verse",
+      "context": "A saying expressed in verse that can be sung.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ARJÉ",
+      "partOfSpeech": "noun",
+      "sourceWord": "arjé",
+      "recordSha256": "5b88d67017037fb196c53ae3eb0cd2a230ec18d23b2d6fa42262dcdd7880280c",
+      "senseIndex": 0,
+      "english": "first principle of the universe",
+      "context": "Philosophical constitutive foundation, not a modern scientific claim.",
+      "notes": "A philosophical first constitutive principle; not a scientific assertion about the universe."
+    },
+    {
+      "word": "ABUHADO",
+      "partOfSpeech": "adj",
+      "sourceWord": "abuhado",
+      "recordSha256": "1c695a6abca003b57a7137ddb6c1bd119e300f3e3dd42ee8031a4dc1247ed426",
+      "senseIndex": 0,
+      "english": "swollen",
+      "context": "Selected inflammation sense, not the separate pale-skin sense.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ACAMADO",
+      "partOfSpeech": "adj",
+      "sourceWord": "acamado",
+      "recordSha256": "a3223b0913b741baac4fa175555addb2372503f044e0aa2676e0554bc8c03d2d",
+      "senseIndex": 0,
+      "english": "flattened by rain or wind",
+      "context": "Said of crops, hemp, flax or similar material lying over each other.",
+      "notes": "Agricultural lodging/flattening by rain or wind; no actor or figurative human submission implied."
+    },
+    {
+      "word": "ACERINO",
+      "partOfSpeech": "adj",
+      "sourceWord": "acerino",
+      "recordSha256": "34b7de1adf4b508459368089053ed920be8aa738c1fdf8ca644aae6d9625a7ec",
+      "senseIndex": 0,
+      "english": "made of steel",
+      "context": "Preserve literary label; not the separate figurative strong/penetrating sense.",
+      "notes": "Literal steel composition with literary label; not figurative penetrating strength."
+    },
+    {
+      "word": "ACETOSO",
+      "partOfSpeech": "adj",
+      "sourceWord": "acetoso",
+      "recordSha256": "0077aefb9e8587d7cae55469fe97928178b2ca9c2cf6f48aacda735d01153bee",
+      "senseIndex": 1,
+      "english": "relating to vinegar",
+      "context": "Selected relation sense, not a universal sour-taste gloss.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "ADJUTOR",
+      "partOfSpeech": "adj",
+      "sourceWord": "adjutor",
+      "recordSha256": "a356000a2883dcaac27e9d69fbdd4e17c36562daf9683b633614c2a583fa2273",
+      "senseIndex": 0,
+      "english": "helping; assisting",
+      "context": "The selected source also permits noun use; no invented professional title.",
+      "notes": "Adjectival assistance; allowed noun inventory does not invent an official role."
+    },
+    {
+      "word": "ALOQUE",
+      "partOfSpeech": "adj",
+      "sourceWord": "aloque",
+      "recordSha256": "829818acfefe05a162d73ea374021b32bcc18d49483e2d85bb288852eb8888b6",
+      "senseIndex": 0,
+      "english": "light red",
+      "context": "Color sense; no inferred wine designation.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "AVETADO",
+      "partOfSpeech": "adj",
+      "sourceWord": "avetado",
+      "recordSha256": "bcb74b92352a41c612efff5c2cb3dc8df9e22be075ecf03311ffc41eb2903071",
+      "senseIndex": 0,
+      "english": "veined",
+      "context": "Having streaks or veins in a material.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "BIDENTE",
+      "partOfSpeech": "adj",
+      "sourceWord": "bidente",
+      "recordSha256": "64aef579d31100d68f096181341898a419ff2b9e701441eb717aad3a8e89b168",
+      "senseIndex": 0,
+      "english": "two-toothed",
+      "context": "Preserve literary label; no invented anatomical referent.",
+      "notes": "Two teeth only; retain literary label and do not invent whose anatomy."
+    },
+    {
+      "word": "BIFORME",
+      "partOfSpeech": "adj",
+      "sourceWord": "biforme",
+      "recordSha256": "3e61146622405dc00636dc0d1b9813892ef963d7b4fd47542106e853ce47f13e",
+      "senseIndex": 0,
+      "english": "having two forms",
+      "context": "Preserve literary label.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "CORNUTO",
+      "partOfSpeech": "adj",
+      "sourceWord": "cornuto",
+      "recordSha256": "4e3e278a24ff038886e7ece0a848e86678a1d50a86f41426b245dc2608e5d9ed",
+      "senseIndex": 0,
+      "english": "horned",
+      "context": "Literal possession of horns; no cuckold sense invented.",
+      "notes": "Horn possession matches the lexical definition. Preserve the complete source restriction: completely obsolete, recorded for survival in two fixed expressions. This approval does not license modern standalone usage, new phrases or further morphological forms."
+    },
+    {
+      "word": "DIANDRO",
+      "partOfSpeech": "adj",
+      "sourceWord": "diandro",
+      "recordSha256": "ed054c524c15d19aa3b09fa960dbb1e2000d29ae05bbe1123d3005d4a3c86f07",
+      "senseIndex": 0,
+      "english": "having two stamens",
+      "context": "Botanical flower sense.",
+      "notes": "Exactly two stamens in a flower; not merely two male animals."
+    },
+    {
+      "word": "ELATO",
+      "partOfSpeech": "adj",
+      "sourceWord": "elato",
+      "recordSha256": "30bbe63c8e7f7f932b595526a5a54debb65d68111378b94c2583ea2d93bff49e",
+      "senseIndex": 0,
+      "english": "arrogant; haughty",
+      "context": "Preserve outdated label.",
+      "notes": "Haughty/arrogant with obsolete usage, not physical altitude as another possible etymological sense."
+    },
+    {
+      "word": "FUMANTE",
+      "partOfSpeech": "adj",
+      "sourceWord": "fumante",
+      "recordSha256": "3514e3282b9eb1beefbccf7192a15c0cf2406ac42b23dfd235d771c055a106fc",
+      "senseIndex": 0,
+      "english": "fuming at room temperature",
+      "context": "A substance giving off visible gas or vapor under ambient conditions; not a person smoking.",
+      "notes": "Visible gas or vapor at room temperature; no person-smoking or anger metaphor."
+    },
+    {
+      "word": "HELABLE",
+      "partOfSpeech": "adj",
+      "sourceWord": "helable",
+      "recordSha256": "6f16db001fadcdf423aa6ba76eff366d558b05fdeb4ada9f3e45065d100d95c7",
+      "senseIndex": 0,
+      "english": "freezable",
+      "context": "Capable of freezing or being frozen; no new temperature promise.",
+      "notes": "The selected English meaning and supplied context align with the exact lexical definition; no additional referent, process, region or metaphor is introduced."
+    },
+    {
+      "word": "JARCIO",
+      "partOfSpeech": "adj",
+      "sourceWord": "jarcio",
+      "recordSha256": "8fd22cb1c3f6406a9734284784a760a878e768395888254450bb6578f820a96e",
+      "senseIndex": 0,
+      "english": "drunk",
+      "context": "Preserve Mexican regional label; not native certification.",
+      "notes": "Drunkenness after alcohol is explicit, as is Mexican source label; no human/native certification follows."
+    },
+    {
+      "word": "LIENTO",
+      "partOfSpeech": "adj",
+      "sourceWord": "liento",
+      "recordSha256": "3fa35a75b27f74a9eaa486094b290f2d9073a60e531addfec788e4c48751a41c",
+      "senseIndex": 0,
+      "english": "slightly damp",
+      "context": "Somewhat wet.",
+      "notes": "Slightly moist, not heavily soaked."
+    },
+    {
+      "word": "LLECO",
+      "partOfSpeech": "adj",
+      "sourceWord": "lleco",
+      "recordSha256": "3e90fd702f976f92db297af16cdb53a977f3eb8c6ff5985a6b1f3fdf75f37bcb",
+      "senseIndex": 0,
+      "english": "never cultivated",
+      "context": "Said of land or fields that have never been tilled.",
+      "notes": "Never-cultivated land, not merely a currently fallow field."
+    },
+    {
+      "word": "MUJO",
+      "partOfSpeech": "adj",
+      "sourceWord": "mujo",
+      "recordSha256": "b21c6f61371d11df89482075a3d30b6199c998c5fba297683ebcf162d1dc77a7",
+      "senseIndex": 0,
+      "english": "brownish gray",
+      "context": "Preserve Argentine label.",
+      "notes": "Color intermediate between brown and ashen gray; retain Argentine scope."
+    },
+    {
+      "word": "RAJABLE",
+      "partOfSpeech": "adj",
+      "sourceWord": "rajable",
+      "recordSha256": "03c212cec69b6ab9ce81ffb96f46bd491b8c5b7a4d46700ff4a2b3d7d8b89168",
+      "senseIndex": 0,
+      "english": "splittable",
+      "context": "Capable of splitting; no mechanical strength guarantee.",
+      "notes": "Ability to split, not a certified mechanical-strength property."
+    },
+    {
+      "word": "SEDEÑO",
+      "partOfSpeech": "adj",
+      "sourceWord": "sedeño",
+      "recordSha256": "9886bfda924c3ce6b04f721100bb64546193784fa925f386be6fd9099ff05d1e",
+      "senseIndex": 0,
+      "english": "made of or resembling silk",
+      "context": "Silk material or silk-like quality.",
+      "notes": "Silk composition or similarity; both alternatives are explicit."
+    },
+    {
+      "word": "SUPERNO",
+      "partOfSpeech": "adj",
+      "sourceWord": "superno",
+      "recordSha256": "1d37bbb761f08024756e3e609cdc665da94c4b0153e3af595b40366c5c4f9516",
+      "senseIndex": 0,
+      "english": "supreme; highest",
+      "context": "No additional religious attribution inferred.",
+      "notes": "Supreme/highest only; no new theological attribution."
+    },
+    {
+      "word": "TRENADO",
+      "partOfSpeech": "adj",
+      "sourceWord": "trenado",
+      "recordSha256": "69b094ee90436aa3ed79f367c3e790e32a809e533c94c5dc1565a68943101492",
+      "senseIndex": 0,
+      "english": "formed as a mesh, lattice or braid",
+      "context": "Preserve structural alternatives, not merely hairstyle.",
+      "notes": "Mesh, lattice and braid structures are explicit alternatives, not exclusively hair."
+    },
+    {
+      "word": "VENUSTO",
+      "partOfSpeech": "adj",
+      "sourceWord": "venusto",
+      "recordSha256": "d11bd1716e40a9bddb4a52b8a47f4cbb32057ddbca4383ddb7bddd1e6f94c677",
+      "senseIndex": 0,
+      "english": "beautiful and graceful",
+      "context": "Both beauty and grace are supported.",
+      "notes": "Both beauty and grace are supported."
+    },
+    {
+      "word": "ZARIANO",
+      "partOfSpeech": "adj",
+      "sourceWord": "zariano",
+      "recordSha256": "91a200b131c042519fa9970a079a5fff88c8ee8a603c5850e86821cee017dbfd",
+      "senseIndex": 0,
+      "english": "tsar-related",
+      "context": "Relating to a tsar; spelling normalized in final English to tsar-related.",
+      "notes": "Tsar-related is faithful; no particular country, reign or dynasty invented."
+    },
+    {
+      "word": "ZOÓFAGO",
+      "partOfSpeech": "adj",
+      "sourceWord": "zoófago",
+      "recordSha256": "790c73c1d3f85e776653db93e82b40c4d85f912801255e5954e69bd396d975a7",
+      "senseIndex": 0,
+      "english": "feeding on animal matter",
+      "context": "Animals as food matter; not necessarily only hunting live prey.",
+      "notes": "Animal material as food, not necessarily exclusively living prey or hunting."
+    },
+    {
+      "word": "SEPTENO",
+      "partOfSpeech": "num",
+      "sourceWord": "septeno",
+      "recordSha256": "3679eeeb1e7075353ebfb9918fcf6998073a9f4652802549a0504da8caf0e6b8",
+      "senseIndex": 0,
+      "english": "seventh",
+      "context": "Ordinal position; not the separate one-seventh fraction sense.",
+      "notes": "Ordinal seventh; not a fraction or sevenfold adjective."
+    },
+    {
+      "word": "TRECENO",
+      "partOfSpeech": "num",
+      "sourceWord": "treceno",
+      "recordSha256": "a71b5674b184395de3b18c9f783526028be8c0d4989617cc2f22bfd0dfd604f8",
+      "senseIndex": 0,
+      "english": "thirteenth",
+      "context": "Ordinal position; not the one-thirteenth fraction sense.",
+      "notes": "Ordinal thirteenth; not one thirteenth as a fraction."
+    }
+  ],
+  "held": [
+    {
+      "word": "ALEZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alezo",
+      "recordSha256": "613bf18827d02eafd6e2a2c2c1bb2632658b2364f0e40b0e42016e422461874b",
+      "senseIndex": 0,
+      "reason": "The unchanged English linen specifies a fiber not established by the source pedazo de lienzo. Lienzo can denote cloth/canvas of linen, hemp or cotton; context only says a band-shaped piece of cloth. Revise English to strip of cloth or provide exact linen-specific evidence in a new proposal. Do not silently amend the approved wording."
+    }
+  ],
+  "sourceQualityNotes": [
+    "Raw Spanish gender tags are preserved upstream-source metadata, not independently certified by this English-meaning review. ACEBEDA and ALFANA masculine metadata deserve a separate check; neither English translation invents a biological sex.",
+    "CORNUTO is lexically translatable as horned only with the retained completely-obsolete/fixed-expression usage restriction; no standalone modern-use or example claim is approved."
+  ],
+  "counts": {
+    "proposalsReviewed": 81,
+    "approved": 80,
+    "held": 1,
+    "originalRawLineHashesVerified": 81
+  }
+}

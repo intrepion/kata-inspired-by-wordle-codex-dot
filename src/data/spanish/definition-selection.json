@@ -1,0 +1,1771 @@
+{
+  "CASA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MESA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GATO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LUNA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AGUA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MANO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PIEL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PELO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ROPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "SOPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VELA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "SALA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TAZA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OLLA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAJA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOCA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PATO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "RANA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NIÑO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAFÉ": {
+    "entry": 1,
+    "sense": 0
+  },
+  "MAÍZ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VINO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PERRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LIBRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PAPEL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ÁRBOL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LECHE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FRUTA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "QUESO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PLATO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "SILLA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NOCHE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TARDE": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CALLE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PLAYA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MUJER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AMIGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VERDE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DULCE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FELIZ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VIVIR": {
+    "entry": 0,
+    "sense": 2
+  },
+  "TOMAR": {
+    "entry": 0,
+    "sense": 7
+  },
+  "FUEGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LIMÓN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "PLUMA": {
+    "entry": 0,
+    "sense": 4
+  },
+  "CAMINO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "PUERTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMIDA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COCINA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CANTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BAILAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORRER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DORMIR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FIESTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "REGALO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DINERO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TIEMPO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CIUDAD": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PUEBLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CONEJO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ACEITE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AZÚCAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FRIJOL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOSQUE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TIERRA": {
+    "entry": 0,
+    "sense": 3
+  },
+  "CAMISA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "JARDÍN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMIÓN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COBIJA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ESCUELA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FAMILIA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MERCADO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TRABAJO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VENTANA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CABALLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AMISTAD": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALEGRÍA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMPRAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COCINAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMINAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHARLAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AUTOBÚS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CELULAR": {
+    "entry": 1,
+    "sense": 0
+  },
+  "NARANJA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "DURAZNO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GUAYABA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MANZANA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PLÁTANO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUCHARA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "TENEDOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HERMANO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MAESTRA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "VIERNES": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AÑOS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CASAS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NIÑOS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMIÓ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CALA": {
+    "entry": 1,
+    "sense": 1
+  },
+  "COLA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "LOCA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "ALCA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAOS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LOASE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OSARE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LOARE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MARCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ORASE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BONITA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BONITO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MERINO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "MINERO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "ABRUMEN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ACALMAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABINARE": {
+    "baseEntry": "abinar",
+    "sourceText": "Dar la segunda [[labranza]] o [[cavar]] por segunda vez las tierras.",
+    "definitionTranslation": "First- or third-person singular archaic future subjunctive of abinar: to till or dig the land a second time.",
+    "definitionPartOfSpeech": "Verb · translated base meaning and reviewed inflection"
+  },
+  "ABROMAN": {
+    "baseEntry": "abromar",
+    "sourceText": "{{plm|abrumar}}",
+    "definitionTranslation": "Third-person plural present indicative of obsolete abromar, meaning abrumar: to overwhelm.",
+    "definitionPartOfSpeech": "Verb · translated base meaning and reviewed inflection"
+  },
+  "AIRE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AMOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ARTE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AULA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BAÑO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "BASE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BEBÉ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BESO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOTE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "BUEY": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CABO": {
+    "entry": 0,
+    "sense": 4
+  },
+  "CINE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CITA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CODO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUNA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DATO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DEDO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DUDA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "EDAD": {
+    "entry": 0,
+    "sense": 0
+  },
+  "EURO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FARO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FINO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FLAN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FLOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "FOCO": {
+    "entry": 0,
+    "sense": 2
+  },
+  "FOTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GOMA": {
+    "entry": 0,
+    "sense": 4
+  },
+  "GOTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GRIS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GUÍA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HADA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HILO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HOJA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HORA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "IDEA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "IRIS": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ISLA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "JADE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "JEFE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "JOYA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "JUGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LADO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LAGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LANA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LAZO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LEMA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LINO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LODO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LOMO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "LOTE": {
+    "entry": 0,
+    "sense": 2
+  },
+  "LUJO": {
+    "entry": 0,
+    "sense": 2
+  },
+  "LUPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MAPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "META": {
+    "entry": 0,
+    "sense": 1
+  },
+  "MIEL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MODO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MONO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MOTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "MURO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NIDO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NUBE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "NUCA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OBRA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OÍDO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "OJAL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OLER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "OLOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ORAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PALO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PAPA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "PAPÁ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PAVO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "PENA": {
+    "entry": 0,
+    "sense": 3
+  },
+  "PERA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABRIR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACTOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AGUJA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AJENO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALDEA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ANCHO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ÁNGEL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ÁNIMO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AROMA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ARROZ": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ASTRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ATAJO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AVENA": {
+    "entry": 0,
+    "sense": 2
+  },
+  "AVIÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AYUDA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BANCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BARBA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BARCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BARRO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "BEBER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BELLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BESAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BICHO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOLSA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BORDE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOTÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BRAVO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BRAZO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BROMA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BRUJA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BUENO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CABLE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CACAO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CAJÓN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CALDO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CALOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMPO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CANAL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAOBA": {
+    "entry": 1,
+    "sense": 1
+  },
+  "CAPAZ": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARGA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARNE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CARRO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CARTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CASCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAUSA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CERCA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CERDO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CHICO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHILE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CIELO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CINTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CLARO": {
+    "entry": 0,
+    "sense": 4
+  },
+  "CLASE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CLAVE": {
+    "entry": 0,
+    "sense": 2
+  },
+  "COBRE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COCER": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COCHE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COLOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DOLOR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COPIA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORAL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORTE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COSER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COSTA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CREAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CREMA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CRIAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CRUDO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUERO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUEVA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CULPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CURSO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CURVA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DANZA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABUELO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABRIGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACABAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACENTO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ADORNO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AFECTO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "AGENTE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AGOSTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AHORRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AJUSTE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALEGRE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALTURA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AMABLE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ANILLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ANIMAL": {
+    "entry": 1,
+    "sense": 0
+  },
+  "APAGAR": {
+    "entry": 0,
+    "sense": 3
+  },
+  "APOYAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ARROYO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ASUNTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AYUDAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BASURA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BEBIDA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BLANCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOCINA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "BOMBÓN": {
+    "entry": 0,
+    "sense": 2
+  },
+  "BORDAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BRILLO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "BUSCAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CABEZA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CADENA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAJERO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CÁMARA": {
+    "entry": 0,
+    "sense": 3
+  },
+  "CAMBIO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CANCHA": {
+    "entry": 0,
+    "sense": 2
+  },
+  "CANELA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CANSAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAPTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARBÓN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CARIÑO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARTÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CASERO": {
+    "entry": 0,
+    "sense": 2
+  },
+  "CEREAL": {
+    "entry": 0,
+    "sense": 2
+  },
+  "CEREZA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CHARCO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHICLE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHISPA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHOCAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CIERTO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COBRAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CÓDIGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COLGAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COLINA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COLCHA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMETA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CÓMICO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CONCHA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CONTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COPIAR": {
+    "entry": 0,
+    "sense": 3
+  },
+  "CORONA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COSTAL": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CRECER": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUADRO": {
+    "entry": 0,
+    "sense": 2
+  },
+  "CUARTO": {
+    "entry": 1,
+    "sense": 14
+  },
+  "CUELLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUENTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUERDA": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CUERPO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CUIDAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DEBATE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DECENA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DESEAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DIARIO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "DIBUJO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DIENTE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "DOBLAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABRAZAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABRIGAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ABURRIR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACAMPAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACEPTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ACORDAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ACTITUD": {
+    "entry": 0,
+    "sense": 1
+  },
+  "MAESTRO": {
+    "entry": 0,
+    "sense": 2
+  },
+  "ADOPTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ADORNAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AFECTAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AGRADAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AHORRAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DOMINGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ALGODÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ANCIANO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "ANUNCIO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "APARATO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "APETITO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "APRETAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "APROBAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "APUNTAR": {
+    "entry": 0,
+    "sense": 3
+  },
+  "ARCHIVO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ARREGLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ARRUGAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "ASIENTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ATENDER": {
+    "entry": 0,
+    "sense": 1
+  },
+  "AUMENTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "AVANZAR": {
+    "entry": 0,
+    "sense": 1
+  },
+  "AZULEJO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "BANDERA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "ESPALDA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BELLEZA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BILLETE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOLILLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BOTELLA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BRILLAR": {
+    "entry": 0,
+    "sense": 0
+  },
+  "BUÑUELO": {
+    "baseEntry": "buñuelo",
+    "sourceText": "Alimento compuesto de masa de [[harina]] que se fríe en abundante [[aceite]].",
+    "definitionTranslation": "A food made from flour dough fried in plenty of oil. The dough may contain water, milk, egg or yeast, and may have a sweet or savory filling.",
+    "definitionPartOfSpeech": "Noun · translated Spanish entry"
+  },
+  "CABELLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAFETAL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CALCETA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CALIDAD": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMARÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMPANA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAMPEÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CANCIÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "EJEMPLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CAPITAL": {
+    "entry": 2,
+    "sense": 0
+  },
+  "CAPTURA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARACOL": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARPETA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARRERA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARRETA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CARTERA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CASTAÑO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CASTIGO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CEBOLLA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CEREBRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CERILLO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "GALLETA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "HORARIO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "CHAYOTE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CHORIZO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CIRUELA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CLIENTE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COLEGIO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COMEDIA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "COMETER": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CONOCER": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CONSEJO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORAZÓN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CRÉDITO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CRUCERO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CULTURA": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DERECHO": {
+    "entry": 1,
+    "sense": 0
+  },
+  "DEPORTE": {
+    "entry": 0,
+    "sense": 0
+  },
+  "DALO": {
+    "entry": 0,
+    "sense": 1
+  },
+  "LAMO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORLA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CAREA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "LACRO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORLE": {
+    "entry": 0,
+    "sense": 1
+  },
+  "RALEO": {
+    "baseEntry": "ralear",
+    "sourceText": "Hacer [[ralo|rala]] alguna cosa perdiendo la densidad opacidad o solidez que ántes tenia.",
+    "definitionTranslation": "First-person singular present indicative of ralear: to make something less dense or more sparse, such as thinning plants.",
+    "definitionPartOfSpeech": "Verb · translated Spanish meaning and reviewed inflection"
+  },
+  "COBREN": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CIERNO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "COBRAN": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CORNEA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CRETINO": {
+    "entry": 1,
+    "sense": 1
+  },
+  "CRUENTO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "CETRINO": {
+    "entry": 0,
+    "sense": 0
+  },
+  "APRENDA": {
+    "entry": 0,
+    "sense": 1
+  },
+  "CONREA": {
+    "baseEntry": "conrear",
+    "sourceText": "{{plm|cultivar}}",
+    "definitionTranslation": "Third-person singular present indicative or second-person singular imperative of uncommon conrear: to cultivate.",
+    "definitionPartOfSpeech": "Verb · translated base meaning and reviewed inflection"
+  },
+  "CINTERO": {
+    "baseEntry": "rubanier",
+    "sourceText": "Celui qui [[fabrique]], qui [[vendre|vend]] du [[ruban]].",
+    "definitionTranslation": "Spanish cintero, linked as the equivalent of French rubanier: a person who makes or sells ribbons.",
+    "definitionPartOfSpeech": "Noun · translated French entry linked to Spanish cintero",
+    "mappingText": "{{trad-|es|cintero}}"
+  }
+}

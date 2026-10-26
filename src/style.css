@@ -23,3 +23,7 @@
 
 .word-length-setting{display:flex;gap:12px;align-items:center;font-size:12px;margin:15px 0 5px}.word-length-setting select{padding:8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink)}.length-help{font:11px/1.6 Arial;color:var(--muted);margin:7px 0 16px}.board{width:min(calc(var(--word-length,5) * 62px),100%)}
 @media(max-width:680px){.board-row{gap:5px}.board{width:min(calc(var(--word-length,5) * 62px),100%)}.tile{min-width:0}.board[data-word-length="7"] .tile b{font-size:24px}.board[data-word-length="7"] .tile{height:45px}}
+
+.learning-material{border-left:2px solid var(--line);padding-left:9px;margin:7px 0}.learning-material p{margin:5px 0}.learning-material strong{font-size:10px;color:var(--ink);font-weight:600}.learning-material span{display:inline}.learning-material p:nth-child(2) span{font-style:italic}.keyboard[data-language="es-MX"] .key-row:last-child{margin-top:5px}
+
+.dictionary-translation{border-left:2px solid var(--line);padding-left:9px;margin:7px 0}.dictionary-translation p{margin:5px 0}.dictionary-translation strong{font-size:10px;font-weight:600}

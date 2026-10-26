@@ -1,0 +1,1449 @@
+{
+  "author": "/root/review_spec",
+  "method": "Independent model-authored, exact-word selected English meanings and grammatical equivalents derived from pinned dictionary evidence. Not verbatim dictionary translations, complete example sentences, native-human certification or generic morphology authorization. Independent Standards source/grammar review required before any integration.",
+  "sourcePins": {
+    "englishEvidence": {
+      "file": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/english-translation-evidence.json",
+      "sha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+      "proof": "Exact retained word/lemma objects and original raw-record hashes; no fresh multi-gigabyte English replay."
+    },
+    "spanishLexicalInventory": {
+      "file": "/tmp/priority12-spanish-lexical-proof-spec.json",
+      "sha256": "77489531a9adf14b532778a0742c3c610685ec18c7d250e5c40e736392af77af",
+      "rawArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+      "proof": "Fresh raw gzip line SHA256 replay for relevant words, immediately projected to lexical fields. Production proposals embed only selected senses with explicit original zero-based indices, no examples/media/quotations."
+    },
+    "coverageAudit": {
+      "file": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/translation-coverage-audit.json",
+      "sha256": "13d5a1837a7de9b800d200bc389f9919c8dca5f35a2fc2c21a8a424f9d19b94e",
+      "translated": 61000,
+      "missing": 15670
+    },
+    "sourceLicense": "Wiktionary lexical extracts and model-adapted renderings require CC BY-SA 4.0 attribution; existing source notices retained. No legal-certification claim.",
+    "proposalBuilder": "/tmp/author-priority12-spec.py",
+    "proposalBuilderSha256": "38665ba7a63cd98debc4b174c5f341ad897ab2039f3e5f3bc2488da5c79a1833"
+  },
+  "proposals": [
+    {
+      "recordIndex": 0,
+      "word": "AYÚDAME",
+      "partOfSpeech": "verb",
+      "english": [
+        "help me"
+      ],
+      "kind": "positive-imperative-personal-object",
+      "selectedGrammar": {
+        "mood": "imperative",
+        "polarity": "positive",
+        "subjectPerson": "second",
+        "subjectNumber": "singular",
+        "objectPerson": "first",
+        "objectNumber": "singular"
+      },
+      "displayContext": "A command to one person asking them to help the speaker.",
+      "proofContext": "Selected direct personal object me, not reflexive or dative composition. Exact source explicitly identifies ayudar combined with me; no generic me/te suffix rule.",
+      "source": {
+        "englishForm": {
+          "word": "ayúdame",
+          "partOfSpeech": "verb",
+          "recordSha256": "421db25a39f10367563abe0c677bb6efa7cc80ef876b8c07adec62ddf48c498f",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "second-person singular imperative of ayudar combined with me"
+            ],
+            "tags": [
+              "form-of",
+              "imperative",
+              "object-first-person",
+              "object-singular",
+              "second-person",
+              "singular"
+            ],
+            "form_of": [
+              {
+                "word": "ayudar"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ay%C3%BAdame#Spanish"
+        },
+        "englishLemma": {
+          "word": "ayudar",
+          "partOfSpeech": "verb",
+          "recordSha256": "6204f9ecddb2168274c7969f01f6bceaf3cc30f0afd1633a5c80b29f2d9a2690",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "to help"
+            ],
+            "tags": [
+              "transitive"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ayudar#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "imperative",
+          "object-first-person",
+          "object-singular",
+          "second-person",
+          "singular"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "86e2797f50362736986a1e1a2ec9be72e19208a85ddd5880d8540284e4ebad30",
+            "word": "ayudar",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo transitivo",
+            "rowTags": [
+              "transitive"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Contribuir esfuerzo o recursos para la realización de algo."
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/ayudar"
+          }
+        ],
+        "spanishFormCorroboration": "No exact Spanish form record found in the pinned raw extract; retained English form grammar is the exact form evidence. Spanish selected lemma meaning corroborates semantics."
+      }
+    },
+    {
+      "recordIndex": 1,
+      "word": "VERTE",
+      "partOfSpeech": "verb",
+      "english": [
+        "to see you"
+      ],
+      "kind": "infinitive-personal-object",
+      "selectedGrammar": {
+        "mood": "infinitive",
+        "subject": "unspecified",
+        "objectPerson": "second",
+        "objectNumber": "singular"
+      },
+      "displayContext": "An infinitive meaning to see one familiar addressee; the person doing the seeing is not specified.",
+      "proofContext": "Selected literal transitive sight sense with nonreflexive te→you. Does not license see yourself, reciprocal meanings, actor identity, SE rules or generic personal clitics.",
+      "source": {
+        "englishForm": {
+          "word": "verte",
+          "partOfSpeech": "verb",
+          "recordSha256": "050239ccbe742cb5056953d9a542834591d590c9d5edcf86cfc301c5e99f8748",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "infinitive of ver combined with te"
+            ],
+            "tags": [
+              "form-of",
+              "infinitive",
+              "object-second-person",
+              "object-singular"
+            ],
+            "form_of": [
+              {
+                "word": "ver"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/verte#Spanish"
+        },
+        "englishLemma": {
+          "word": "ver",
+          "partOfSpeech": "verb",
+          "recordSha256": "820982a122dd8c28b979437d3023630832910bb6f43b87b8333990e85111df84",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "to see, to spot"
+            ],
+            "tags": [
+              "literally",
+              "transitive"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ver#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "infinitive",
+          "object-second-person",
+          "object-singular"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "e015a643d63407e1857b970d2cb319e347f671738f2d13bb67bf984874933f90",
+            "word": "ver",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo transitivo",
+            "rowTags": [
+              "transitive"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Percibir algo con los ojos a través de la luz que, reflejada en los objetos, impacta en ellos. Es uno de los cinco sentidos tradicionalmente reconocidos en el ser humano, y el de más importancia en la mayoría de las personas en cuanto a la comprensión de su entorno."
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/ver"
+          }
+        ],
+        "spanishFormCorroboration": "No exact Spanish form record found in the pinned raw extract; retained English form grammar is the exact form evidence. Spanish selected lemma meaning corroborates semantics."
+      }
+    },
+    {
+      "recordIndex": 2,
+      "word": "VERNOS",
+      "partOfSpeech": "verb",
+      "english": [
+        "to see us"
+      ],
+      "kind": "infinitive-personal-object",
+      "selectedGrammar": {
+        "mood": "infinitive",
+        "subject": "unspecified",
+        "objectPerson": "first",
+        "objectNumber": "plural"
+      },
+      "displayContext": "An infinitive meaning to see us; the person doing the seeing is not specified.",
+      "proofContext": "Selected literal transitive sight sense with nonreflexive nos→us. Does not license see ourselves/each other or infer a subject from the object.",
+      "source": {
+        "englishForm": {
+          "word": "vernos",
+          "partOfSpeech": "verb",
+          "recordSha256": "61dd70d00187d7b386679694c0da2e39377c56e6169f390c90d9d2d13ee48245",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "infinitive of ver combined with nos"
+            ],
+            "tags": [
+              "form-of",
+              "infinitive",
+              "object-first-person",
+              "object-plural"
+            ],
+            "form_of": [
+              {
+                "word": "ver"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/vernos#Spanish"
+        },
+        "englishLemma": {
+          "word": "ver",
+          "partOfSpeech": "verb",
+          "recordSha256": "820982a122dd8c28b979437d3023630832910bb6f43b87b8333990e85111df84",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "to see, to spot"
+            ],
+            "tags": [
+              "literally",
+              "transitive"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ver#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "infinitive",
+          "object-first-person",
+          "object-plural"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "e015a643d63407e1857b970d2cb319e347f671738f2d13bb67bf984874933f90",
+            "word": "ver",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo transitivo",
+            "rowTags": [
+              "transitive"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Percibir algo con los ojos a través de la luz que, reflejada en los objetos, impacta en ellos. Es uno de los cinco sentidos tradicionalmente reconocidos en el ser humano, y el de más importancia en la mayoría de las personas en cuanto a la comprensión de su entorno."
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/ver"
+          }
+        ],
+        "spanishFormCorroboration": "No exact Spanish form record found in the pinned raw extract; retained English form grammar is the exact form evidence. Spanish selected lemma meaning corroborates semantics."
+      }
+    },
+    {
+      "recordIndex": 3,
+      "word": "ROPAS",
+      "partOfSpeech": "noun",
+      "english": [
+        "clothes",
+        "clothing"
+      ],
+      "kind": "sense-bound-noun-number",
+      "selectedGrammar": {
+        "partOfSpeech": "noun",
+        "spanishNumber": "plural",
+        "spanishGender": "feminine",
+        "englishNumberMode": "lexical-clothes-or-mass-clothing"
+      },
+      "displayContext": "Clothes or clothing. English clothing stays uncountable, even though the Spanish form is plural.",
+      "proofContext": "Selected clothing collective sense. No pluralization of clothes into clotheses or clothing into clothings; does not globally override other meanings or English plural rules.",
+      "source": {
+        "englishForm": {
+          "word": "ropas",
+          "partOfSpeech": "noun",
+          "recordSha256": "894f5844cae253b1c475a6c0d0a351e9d500882c88646b97384cdb8dc22121a5",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "plural of ropa"
+            ],
+            "tags": [
+              "feminine",
+              "form-of",
+              "plural"
+            ],
+            "form_of": [
+              {
+                "word": "ropa"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ropas#Spanish"
+        },
+        "englishLemma": {
+          "word": "ropa",
+          "partOfSpeech": "noun",
+          "recordSha256": "d3d0d32717bcf91eb073cf0f480ff30ce9f5671f6883f0264df18fa0861cf057",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "garment, clothing, clothes, robes"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/ropa#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "feminine",
+          "plural"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "60ac5bb0751a13adc4595adcaca0afd681f9ffc9c6b24d9cc8a7fc6a3bf90a86",
+            "word": "ropa",
+            "partOfSpeech": "noun",
+            "posTitle": "Sustantivo femenino",
+            "rowTags": [
+              "feminine"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Conjunto de las piezas de tela u otro material que las personas utilizan para cubrirse, a efectos de protegerse del clima y adornarse."
+              ],
+              "raw_tags": [
+                "Vestimenta"
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/ropa"
+          },
+          {
+            "recordSha256": "5bfb86adaba9b7a1a7b87cdf029b2ea62aeffc95dabd0b894f0df0deb2c22bc1",
+            "word": "ropas",
+            "partOfSpeech": "noun",
+            "posTitle": "Forma sustantiva",
+            "rowTags": [
+              "form-of",
+              "substantive"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Forma del plural de ropa."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "ropa"
+                }
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/ropas"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 4,
+      "word": "PÁGS",
+      "partOfSpeech": "noun",
+      "english": [
+        "pages"
+      ],
+      "kind": "explicit-plural-abbreviation-chain",
+      "selectedGrammar": {
+        "partOfSpeech": "noun",
+        "spanishNumber": "plural",
+        "spanishGender": "feminine",
+        "abbreviation": true
+      },
+      "displayContext": "An abbreviation for pages, as in a reference to several pages of a book.",
+      "proofContext": "Exact source chain págs→pág→página, with explicit plural/abbreviation metadata. No punctuation removal, accent folding, inferred alias or expansion to other abbreviations.",
+      "source": {
+        "englishForm": {
+          "word": "págs",
+          "partOfSpeech": "noun",
+          "recordSha256": "ef161f37539f884d591216036f02b53bb7699087b76ecd3333178eda704a6c22",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "plural of pág (“pages”)"
+            ],
+            "tags": [
+              "feminine",
+              "form-of",
+              "plural"
+            ],
+            "form_of": [
+              {
+                "word": "pág",
+                "extra": "pages"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/p%C3%A1gs#Spanish"
+        },
+        "englishLemma": {
+          "word": "pág",
+          "partOfSpeech": "noun",
+          "recordSha256": "966498701400b25343efdb81c23e4902ec829bd10b99184c888dfd643be6550a",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "abbreviation of página: p (page)"
+            ],
+            "tags": [
+              "abbreviation",
+              "alt-of",
+              "feminine"
+            ],
+            "alt_of": [
+              {
+                "word": "página",
+                "extra": "p (page)"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/p%C3%A1g#Spanish"
+        },
+        "englishAliasTargets": [
+          {
+            "word": "página",
+            "partOfSpeech": "noun",
+            "recordSha256": "11d094260f560cdc4206ccd56264071a68405c483a36c2409f13773c8befe1d7",
+            "sourceSenseIndex": 0,
+            "sense": {
+              "glosses": [
+                "page"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            },
+            "sourceUrl": "https://en.wiktionary.org/wiki/p%C3%A1gina#Spanish"
+          }
+        ],
+        "requiredSourceFormTags": [
+          "feminine",
+          "plural"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "f2a1cf22a5bb4b28f73daf145d6f85bd2171492aec4b1a5fd17113e1bf6f1186",
+            "word": "página",
+            "partOfSpeech": "noun",
+            "posTitle": "Sustantivo femenino",
+            "rowTags": [
+              "feminine"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Cada una de las dos caras de una hoja impresa."
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/p%C3%A1gina"
+          }
+        ],
+        "spanishFormCorroboration": "No exact Spanish form record found in the pinned raw extract; retained English form grammar is the exact form evidence. Spanish selected lemma meaning corroborates semantics."
+      }
+    },
+    {
+      "recordIndex": 5,
+      "word": "HUBO",
+      "partOfSpeech": "verb",
+      "english": [
+        "there was",
+        "there were"
+      ],
+      "kind": "third-singular-existential",
+      "selectedGrammar": {
+        "mood": "indicative",
+        "tense": "preterite",
+        "spanishPerson": "third",
+        "spanishNumber": "singular",
+        "construction": "existential-no-actor"
+      },
+      "displayContext": "Past existence: there was one thing, or there were several things. Spanish uses the singular form in this construction.",
+      "proofContext": "Selected impersonal existence only. English was/were follows the number of what existed; Spanish remains third singular. Not personal possession, perfect auxiliary, obligation or plural Spanish existential authority.",
+      "source": {
+        "englishForm": {
+          "word": "hubo",
+          "partOfSpeech": "verb",
+          "recordSha256": "3d7f7fa73f764fce210c81e96d305d834578e306cd0c31abacc389cff4508a94",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "third-person singular preterite indicative of haber"
+            ],
+            "tags": [
+              "form-of",
+              "indicative",
+              "preterite",
+              "singular",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "haber"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/hubo#Spanish"
+        },
+        "englishLemma": {
+          "word": "haber",
+          "partOfSpeech": "verb",
+          "recordSha256": "78aba82c049d1775a9a7584c59fb2f625ca3154c54663de5d7f4d205e6a7f0af",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "to exist; there be; “there is”, “there are” (hay); “there was”, “there were” (hubo/había)"
+            ],
+            "tags": [
+              "impersonal"
+            ],
+            "raw_tags": [
+              "in third-person singular existential only"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/haber#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "indicative",
+          "preterite",
+          "singular",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "b014ce10f91ef8e1e493cb2b3aed08ff518676218817d4ce206226555c06e435",
+            "word": "haber",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo impersonal",
+            "rowTags": [
+              "impersonal"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Indica la existencia de algo. Estar o existir en alguna parte."
+              ],
+              "raw_tags": [
+                "funciona como terciopersonal",
+                "es decir",
+                "solamente se conjuga en tercera persona del singular",
+                "en presente de indicativo toma la forma especial hay",
+                "es también impersonal",
+                "es decir",
+                "carece de sujeto explícito",
+                "siendo el sustantivo un complemento directo",
+                "razón por la cual en todos los tiempos se utiliza únicamente la conjugación de la tercera persona en singular"
+              ],
+              "sense_index": "3"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/haber"
+          },
+          {
+            "recordSha256": "b7235e93ecf7a06e9554d1d1f73e337c78e34b4276b9826b7a27f3adc6eeb29b",
+            "word": "hubo",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito perfecto simple de indicativo de haber."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "haber"
+                }
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/hubo"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 6,
+      "word": "HABRÁ",
+      "partOfSpeech": "verb",
+      "english": [
+        "there will be"
+      ],
+      "kind": "third-singular-existential",
+      "selectedGrammar": {
+        "mood": "indicative",
+        "tense": "future",
+        "spanishPerson": "third",
+        "spanishNumber": "singular",
+        "construction": "existential-no-actor"
+      },
+      "displayContext": "Future existence: there will be something or some things. Spanish uses the singular form in this construction.",
+      "proofContext": "Selected future existence, not the conjectural perfect use habrá+participle. No actor possession or global HAVE rendering.",
+      "source": {
+        "englishForm": {
+          "word": "habrá",
+          "partOfSpeech": "verb",
+          "recordSha256": "5f946a216554ccbaa75812934e67d7d459395eaaf10e1f6b9c4dfc29ca8ecf73",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "third-person singular future indicative of haber"
+            ],
+            "tags": [
+              "form-of",
+              "future",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "haber"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/habr%C3%A1#Spanish"
+        },
+        "englishLemma": {
+          "word": "haber",
+          "partOfSpeech": "verb",
+          "recordSha256": "78aba82c049d1775a9a7584c59fb2f625ca3154c54663de5d7f4d205e6a7f0af",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "to exist; there be; “there is”, “there are” (hay); “there was”, “there were” (hubo/había)"
+            ],
+            "tags": [
+              "impersonal"
+            ],
+            "raw_tags": [
+              "in third-person singular existential only"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/haber#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "future",
+          "indicative",
+          "singular",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "b014ce10f91ef8e1e493cb2b3aed08ff518676218817d4ce206226555c06e435",
+            "word": "haber",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo impersonal",
+            "rowTags": [
+              "impersonal"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Indica la existencia de algo. Estar o existir en alguna parte."
+              ],
+              "raw_tags": [
+                "funciona como terciopersonal",
+                "es decir",
+                "solamente se conjuga en tercera persona del singular",
+                "en presente de indicativo toma la forma especial hay",
+                "es también impersonal",
+                "es decir",
+                "carece de sujeto explícito",
+                "siendo el sustantivo un complemento directo",
+                "razón por la cual en todos los tiempos se utiliza únicamente la conjugación de la tercera persona en singular"
+              ],
+              "sense_index": "3"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/haber"
+          },
+          {
+            "recordSha256": "a10097e0a66f5d1a5822c24be8ddd5549c9c8abed48cf4f5d6ed452980929ec7",
+            "word": "habrá",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del futuro de indicativo de haber."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "haber"
+                }
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/habr%C3%A1"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 7,
+      "word": "HABRÍA",
+      "partOfSpeech": "verb",
+      "english": [
+        "there would be"
+      ],
+      "kind": "third-singular-existential",
+      "selectedGrammar": {
+        "mood": "conditional",
+        "spanishPerson": "third",
+        "spanishNumber": "singular",
+        "construction": "existential-no-actor"
+      },
+      "displayContext": "Conditional existence: there would be something or some things under a condition.",
+      "proofContext": "Selects only third singular from the source first/third-person homograph. Impersonal existence, not I would have, possession, perfect auxiliary or conjectural perfect.",
+      "source": {
+        "englishForm": {
+          "word": "habría",
+          "partOfSpeech": "verb",
+          "recordSha256": "44949f126b82720e7b6d72029297b614cc0537dab202304e0d96e4cf61cfca75",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "first/third-person singular conditional of haber"
+            ],
+            "tags": [
+              "conditional",
+              "first-person",
+              "form-of",
+              "singular",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "haber"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/habr%C3%ADa#Spanish"
+        },
+        "englishLemma": {
+          "word": "haber",
+          "partOfSpeech": "verb",
+          "recordSha256": "78aba82c049d1775a9a7584c59fb2f625ca3154c54663de5d7f4d205e6a7f0af",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "to exist; there be; “there is”, “there are” (hay); “there was”, “there were” (hubo/había)"
+            ],
+            "tags": [
+              "impersonal"
+            ],
+            "raw_tags": [
+              "in third-person singular existential only"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/haber#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "conditional",
+          "singular",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "b014ce10f91ef8e1e493cb2b3aed08ff518676218817d4ce206226555c06e435",
+            "word": "haber",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo impersonal",
+            "rowTags": [
+              "impersonal"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Indica la existencia de algo. Estar o existir en alguna parte."
+              ],
+              "raw_tags": [
+                "funciona como terciopersonal",
+                "es decir",
+                "solamente se conjuga en tercera persona del singular",
+                "en presente de indicativo toma la forma especial hay",
+                "es también impersonal",
+                "es decir",
+                "carece de sujeto explícito",
+                "siendo el sustantivo un complemento directo",
+                "razón por la cual en todos los tiempos se utiliza únicamente la conjugación de la tercera persona en singular"
+              ],
+              "sense_index": "3"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/haber"
+          },
+          {
+            "recordSha256": "3255b46a9b98e835680cdf1c8b38d75fd04e86bd3ba69c44f3bae6028b9526c9",
+            "word": "habría",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 1,
+            "sense": {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del condicional de haber."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "haber"
+                }
+              ],
+              "sense_index": "2"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/habr%C3%ADa"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 8,
+      "word": "HUBIERA",
+      "partOfSpeech": "verb",
+      "english": [
+        "(if) there were"
+      ],
+      "kind": "third-singular-existential",
+      "selectedGrammar": {
+        "mood": "subjunctive",
+        "tense": "imperfect",
+        "spanishPerson": "third",
+        "spanishNumber": "singular",
+        "construction": "selected-hypothetical-existential-clause"
+      },
+      "displayContext": "A selected hypothetical meaning: if there were something or some things. This is not a statement that they existed.",
+      "proofContext": "Selected simple hypothetical if-clause, not a universal translation of imperfect subjunctive. No omitted participle is invented: hubiera+participle perfect constructions remain separate and unsupported here. Select third singular only.",
+      "source": {
+        "englishForm": {
+          "word": "hubiera",
+          "partOfSpeech": "verb",
+          "recordSha256": "373b7afd25513b0e091a4b0577352075bd36145d528325fb1ff77bb1f43f5401",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "first/third-person singular imperfect subjunctive of haber"
+            ],
+            "tags": [
+              "first-person",
+              "form-of",
+              "imperfect",
+              "singular",
+              "subjunctive",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "haber"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/hubiera#Spanish"
+        },
+        "englishLemma": {
+          "word": "haber",
+          "partOfSpeech": "verb",
+          "recordSha256": "78aba82c049d1775a9a7584c59fb2f625ca3154c54663de5d7f4d205e6a7f0af",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "to exist; there be; “there is”, “there are” (hay); “there was”, “there were” (hubo/había)"
+            ],
+            "tags": [
+              "impersonal"
+            ],
+            "raw_tags": [
+              "in third-person singular existential only"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/haber#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "imperfect",
+          "singular",
+          "subjunctive",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "b014ce10f91ef8e1e493cb2b3aed08ff518676218817d4ce206226555c06e435",
+            "word": "haber",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo impersonal",
+            "rowTags": [
+              "impersonal"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Indica la existencia de algo. Estar o existir en alguna parte."
+              ],
+              "raw_tags": [
+                "funciona como terciopersonal",
+                "es decir",
+                "solamente se conjuga en tercera persona del singular",
+                "en presente de indicativo toma la forma especial hay",
+                "es también impersonal",
+                "es decir",
+                "carece de sujeto explícito",
+                "siendo el sustantivo un complemento directo",
+                "razón por la cual en todos los tiempos se utiliza únicamente la conjugación de la tercera persona en singular"
+              ],
+              "sense_index": "3"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/haber"
+          },
+          {
+            "recordSha256": "6e08e1698cb63b52b4f270fb4eda04ae27564fc4326756decb732dede91f3e07",
+            "word": "hubiera",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 1,
+            "sense": {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de subjuntivo de haber."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "haber"
+                }
+              ],
+              "sense_index": "2"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/hubiera"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 9,
+      "word": "HUBIESE",
+      "partOfSpeech": "verb",
+      "english": [
+        "(if) there were"
+      ],
+      "kind": "third-singular-existential",
+      "selectedGrammar": {
+        "mood": "subjunctive",
+        "tense": "imperfect",
+        "spanishPerson": "third",
+        "spanishNumber": "singular",
+        "construction": "selected-hypothetical-existential-clause"
+      },
+      "displayContext": "A selected hypothetical meaning: if there were something or some things. This is not a statement that they existed.",
+      "proofContext": "Selected simple hypothetical if-clause, not a universal translation of imperfect subjunctive. No omitted participle is invented: hubiese+participle perfect constructions remain separate and unsupported here. Select third singular only.",
+      "source": {
+        "englishForm": {
+          "word": "hubiese",
+          "partOfSpeech": "verb",
+          "recordSha256": "17196d0a63280ac99ccf3f3fceaa84c0c4c331d4293f875f69b54e3f48d580a9",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "first/third-person singular imperfect subjunctive of haber"
+            ],
+            "tags": [
+              "first-person",
+              "form-of",
+              "imperfect",
+              "singular",
+              "subjunctive",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "haber"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/hubiese#Spanish"
+        },
+        "englishLemma": {
+          "word": "haber",
+          "partOfSpeech": "verb",
+          "recordSha256": "78aba82c049d1775a9a7584c59fb2f625ca3154c54663de5d7f4d205e6a7f0af",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "to exist; there be; “there is”, “there are” (hay); “there was”, “there were” (hubo/había)"
+            ],
+            "tags": [
+              "impersonal"
+            ],
+            "raw_tags": [
+              "in third-person singular existential only"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/haber#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "imperfect",
+          "singular",
+          "subjunctive",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "b014ce10f91ef8e1e493cb2b3aed08ff518676218817d4ce206226555c06e435",
+            "word": "haber",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo impersonal",
+            "rowTags": [
+              "impersonal"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Indica la existencia de algo. Estar o existir en alguna parte."
+              ],
+              "raw_tags": [
+                "funciona como terciopersonal",
+                "es decir",
+                "solamente se conjuga en tercera persona del singular",
+                "en presente de indicativo toma la forma especial hay",
+                "es también impersonal",
+                "es decir",
+                "carece de sujeto explícito",
+                "siendo el sustantivo un complemento directo",
+                "razón por la cual en todos los tiempos se utiliza únicamente la conjugación de la tercera persona en singular"
+              ],
+              "sense_index": "3"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/haber"
+          },
+          {
+            "recordSha256": "edb92e60a6cc85ea6f8a290f27279b92febae4593e29637e7289bef0e1d08a53",
+            "word": "hubiese",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 1,
+            "sense": {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de subjuntivo de haber."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "haber"
+                }
+              ],
+              "sense_index": "2"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/hubiese"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 10,
+      "word": "SOLÍA",
+      "partOfSpeech": "verb",
+      "english": [
+        "I used to",
+        "he used to",
+        "she used to",
+        "it used to"
+      ],
+      "kind": "imperfect-only-habitual-auxiliary",
+      "selectedGrammar": {
+        "mood": "indicative",
+        "tense": "imperfect",
+        "subjectPersons": [
+          "first",
+          "third"
+        ],
+        "subjectNumber": "singular",
+        "construction": "habitual-auxiliary-following-infinitive-required"
+      },
+      "displayContext": "Describes a past habit or regular occurrence. This phrase normally needs a following action, such as another verb.",
+      "proofContext": "English used to is the explicitly imperfect-only source sense of soler, not ordinary use and not a blanket imperfect translation. These are alternative word-level auxiliary fragments, not complete sentences. Selected literal first/third-person readings exclude formal-you substitution.",
+      "source": {
+        "englishForm": {
+          "word": "solía",
+          "partOfSpeech": "verb",
+          "recordSha256": "bdfa406d10b07ab40f5f612f6e67d3c6ae90d088bdad4bb89f4e40cdde29c0af",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "first/third-person singular imperfect indicative of soler"
+            ],
+            "tags": [
+              "first-person",
+              "form-of",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "soler"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/sol%C3%ADa#Spanish"
+        },
+        "englishLemma": {
+          "word": "soler",
+          "partOfSpeech": "verb",
+          "recordSha256": "58abece5a55be2ceac95b5c1b2f92e1ad6468ecc320507e32d0336ec47b76060",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "used to"
+            ],
+            "tags": [
+              "imperfect"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/soler#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "first-person",
+          "imperfect",
+          "indicative",
+          "singular",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "d4e4ffbd52b1341796ce6d71978fd1bb183dde3991388a1e6f6cd23e02f70cc4",
+            "word": "soler",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo auxiliar y defectivo",
+            "rowTags": [
+              "auxiliary"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Acostumbrar, ser frecuente."
+              ],
+              "raw_tags": [
+                "utc3"
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/soler"
+          },
+          {
+            "recordSha256": "18fe6c48b1a2712bf4d0a6da1bf4399a3b3d5f5762d64bf224672c7ad9888a92",
+            "word": "solía",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Primera persona del singular (yo) del pretérito imperfecto de indicativo de soler."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "soler"
+                }
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/sol%C3%ADa"
+          },
+          {
+            "recordSha256": "18fe6c48b1a2712bf4d0a6da1bf4399a3b3d5f5762d64bf224672c7ad9888a92",
+            "word": "solía",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 1,
+            "sense": {
+              "sourceSenseIndex": 1,
+              "glosses": [
+                "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de indicativo de soler."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "soler"
+                }
+              ],
+              "sense_index": "2"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/sol%C3%ADa"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    },
+    {
+      "recordIndex": 11,
+      "word": "SOLÍAN",
+      "partOfSpeech": "verb",
+      "english": [
+        "they used to"
+      ],
+      "kind": "imperfect-only-habitual-auxiliary",
+      "selectedGrammar": {
+        "mood": "indicative",
+        "tense": "imperfect",
+        "subjectPerson": "third",
+        "subjectNumber": "plural",
+        "construction": "habitual-auxiliary-following-infinitive-required"
+      },
+      "displayContext": "They regularly did something in the past. The English phrase normally needs a following action.",
+      "proofContext": "Selected literal they, not formal-you ustedes. Explicit imperfect-only source sense of soler, not ordinary use; word-level auxiliary fragment, no invented following action.",
+      "source": {
+        "englishForm": {
+          "word": "solían",
+          "partOfSpeech": "verb",
+          "recordSha256": "20520968f24ac379c5df542a4e07ca7eb772b43bf51f415f3bd99c329d1767ce",
+          "sourceSenseIndex": 0,
+          "sense": {
+            "glosses": [
+              "third-person plural imperfect indicative of soler"
+            ],
+            "tags": [
+              "form-of",
+              "imperfect",
+              "indicative",
+              "plural",
+              "third-person"
+            ],
+            "form_of": [
+              {
+                "word": "soler"
+              }
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/sol%C3%ADan#Spanish"
+        },
+        "englishLemma": {
+          "word": "soler",
+          "partOfSpeech": "verb",
+          "recordSha256": "58abece5a55be2ceac95b5c1b2f92e1ad6468ecc320507e32d0336ec47b76060",
+          "sourceSenseIndex": 2,
+          "sense": {
+            "glosses": [
+              "used to"
+            ],
+            "tags": [
+              "imperfect"
+            ]
+          },
+          "sourceUrl": "https://en.wiktionary.org/wiki/soler#Spanish"
+        },
+        "englishAliasTargets": [],
+        "requiredSourceFormTags": [
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "spanishSelectedLexicalProof": [
+          {
+            "recordSha256": "d4e4ffbd52b1341796ce6d71978fd1bb183dde3991388a1e6f6cd23e02f70cc4",
+            "word": "soler",
+            "partOfSpeech": "verb",
+            "posTitle": "Verbo auxiliar y defectivo",
+            "rowTags": [
+              "auxiliary"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Acostumbrar, ser frecuente."
+              ],
+              "raw_tags": [
+                "utc3"
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/soler"
+          },
+          {
+            "recordSha256": "d8bc01f88a279ed92cfc3d8f16b27f2903c42d34d0b79892ea97cf6ba7fba90f",
+            "word": "solían",
+            "partOfSpeech": "verb",
+            "posTitle": "Forma verbal",
+            "rowTags": [
+              "form-of"
+            ],
+            "rowRawTags": [],
+            "sourceSenseIndex": 0,
+            "sense": {
+              "sourceSenseIndex": 0,
+              "glosses": [
+                "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de soler."
+              ],
+              "tags": [
+                "form-of"
+              ],
+              "form_of": [
+                {
+                  "word": "soler"
+                }
+              ],
+              "sense_index": "1"
+            },
+            "sourceUrl": "https://es.wiktionary.org/wiki/sol%C3%ADan"
+          }
+        ],
+        "spanishFormCorroboration": "Fresh exact form record available."
+      }
+    }
+  ],
+  "counts": {
+    "exactProposedSpellings": 12,
+    "currentlyMissingSpellings": 12,
+    "achievedCoverage": 0
+  },
+  "guards": [
+    "Admit only these exact whole-word/source/sense/grammar bindings if independently approved; no generic clitic, pronoun, alias, existential or auxiliary rule follows.",
+    "No suffix decomposition, accent folding, punctuation stripping, actor/object invention or arbitrary English lemma substitution.",
+    "AYÚDAME/VERTE/VERNOS are selected nonreflexive personal-object readings; all other SE/reflexive/dative/argument holds remain.",
+    "ROPAS has only selected lexical clothes/clothing English outputs; no automatic double pluralization or global mass-noun policy.",
+    "PÁGS uses only the exact source plural abbreviation chain to page; no inferred spelling aliases.",
+    "All five HABER readings select impersonal third singular existence. Never actor possession, first-person output, Spanish plural existence, perfect/obligation construction or a global HAVE permission.",
+    "HUBIERA/HUBIESE use explicitly labelled selected hypothetical if-clauses, not all-context equivalents or invented had-been constructions.",
+    "SOLER equivalents are incomplete grammatical auxiliary fragments requiring a following action. No blanket used to for arbitrary Spanish imperfects, and no ordinary-English USE inflection.",
+    "All existing role/SE/argument/auxiliary holds remain archived and in force; these materially specific proposals do not silently override them.",
+    "Source-casework/proofContext stay audit-only; only approved displayContext and selected grammatical values may be learner-facing.",
+    "No app/code/pool/answer/save/lesson changes, publication or runtime AI requests."
+  ]
+}

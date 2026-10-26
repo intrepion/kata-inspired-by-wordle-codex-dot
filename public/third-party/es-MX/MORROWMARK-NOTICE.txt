@@ -1,0 +1,17 @@
+Morrowmark modified Spanish spelling selection
+
+Source: Recursos Lingüísticos Abiertos del Español (RLA-es), version2.9 es_MX.
+https://github.com/sbosio/rla-es/tree/ea82c1214ead57740798acf66a1e18e5ac874c41
+Original authors, copyright and offered licenses: see unchanged README.txt and LICENSE.md.
+Morrowmark selects the offered Mozilla Public License1.1 option for its modified spelling-data files. See MPL-1.1.txt. The original dictionary/affix sources are available beside this notice. Modified source metadata and generators: src/data/spanish/, scripts/import-spanish.py and scripts/generate-spanish.mjs in the Morrowmark source repository.
+
+Changes: expand with pinned nspell2.1.5 (MIT, build only), retain accepted lowercase NFC Spanish-letter forms of length4–7, uppercase without accent folding, and select a separate reviewed learner answer set. No claim of exhaustive, frequent or uniquely Mexican vocabulary.
+
+Separate teaching selection: CC BY-SA4.0.
+Definitions: Wiktionary contributors, English Wiktionary Spanish-entry senses and selected translated Spanish meanings/inflections; CINTERO uses the French rubanier trade entry explicitly linked to Spanish; specific source/revision attribution accompanies each entry and is retained in src/data/spanish/wiktionary-snapshot.json. Selected senses and plain-text rendering are modifications.
+https://creativecommons.org/licenses/by-sa/4.0/
+Glosses, Spanish examples and English sentence renderings: Morrowmark AI-assisted educational material, independently model-reviewed, not human/native-certified or source quotations. Released alongside the modified teaching selection under CC BY-SA4.0. See the source repository's WORDS-LICENSE.md and ADR0021 for source hashes, coverage and review limits.
+
+No FreeDict data, images, audio, paid API or runtime AI service is bundled.
+
+Historical teaching-linked guide:400 former possible answers,439 complete teaching records. Current eligibility is independent of teaching; see ../spanish-selection/NOTICE.txt and WORDS-LICENSE.md. New source extracts omit unrelated languages and unselected third-party quotations; upstream hashes and pinned revision links are retained. All118 previous records remain unchanged. See expanded-support.json and the review manifest for translation mapping, source evidence and model-review limits.

@@ -1,0 +1,902 @@
+[
+  {
+    "word": "REACTOR",
+    "translation": "jet engine",
+    "example": "El reactor impulsó el avión.",
+    "exampleTranslation": "The jet engine propelled the plane."
+  },
+  {
+    "word": "REAL",
+    "translation": "real; genuine",
+    "example": "El peligro es real.",
+    "exampleTranslation": "The danger is real."
+  },
+  {
+    "word": "REBAÑO",
+    "translation": "flock; herd",
+    "example": "El rebaño pastaba junto al río.",
+    "exampleTranslation": "The flock grazed beside the river."
+  },
+  {
+    "word": "REBELDE",
+    "translation": "rebellious",
+    "example": "El grupo rebelde desafió la orden.",
+    "exampleTranslation": "The rebellious group defied the order."
+  },
+  {
+    "word": "RECETA",
+    "translation": "recipe",
+    "example": "La receta lleva maíz y frijoles.",
+    "exampleTranslation": "The recipe calls for corn and beans."
+  },
+  {
+    "word": "RECHAZO",
+    "translation": "rejection",
+    "example": "El rechazo de la propuesta sorprendió al equipo.",
+    "exampleTranslation": "The rejection of the proposal surprised the team."
+  },
+  {
+    "word": "RECIBIR",
+    "translation": "to receive",
+    "example": "Esperamos recibir el paquete hoy.",
+    "exampleTranslation": "We expect to receive the package today."
+  },
+  {
+    "word": "RECIBO",
+    "translation": "receipt",
+    "example": "Guarda el recibo de la compra.",
+    "exampleTranslation": "Keep the purchase receipt."
+  },
+  {
+    "word": "RECIBÍ",
+    "translation": "acknowledgment of receipt",
+    "example": "Firmó el recibí del paquete.",
+    "exampleTranslation": "She signed the acknowledgment of receipt for the package."
+  },
+  {
+    "word": "RECINTO",
+    "translation": "enclosed area; venue",
+    "example": "El recinto abre a las diez.",
+    "exampleTranslation": "The venue opens at ten."
+  },
+  {
+    "word": "RECITAL",
+    "translation": "recital",
+    "example": "El recital de piano fue breve.",
+    "exampleTranslation": "The piano recital was brief."
+  },
+  {
+    "word": "RECIÉN",
+    "translation": "recently; just",
+    "example": "El pan está recién hecho.",
+    "exampleTranslation": "The bread is freshly made."
+  },
+  {
+    "word": "RECLAMO",
+    "translation": "complaint; protest",
+    "example": "Presentó un reclamo por el cobro.",
+    "exampleTranslation": "She filed a complaint about the charge."
+  },
+  {
+    "word": "RECOGER",
+    "translation": "to pick up",
+    "example": "Voy a recoger la pelota.",
+    "exampleTranslation": "I am going to pick up the ball."
+  },
+  {
+    "word": "RECORTE",
+    "translation": "cut; reduction",
+    "example": "El recorte del presupuesto afectó al proyecto.",
+    "exampleTranslation": "The budget cut affected the project."
+  },
+  {
+    "word": "RECREO",
+    "translation": "school recess",
+    "example": "Los niños salieron al recreo.",
+    "exampleTranslation": "The children went out for recess."
+  },
+  {
+    "word": "RECTA",
+    "translation": "straight line",
+    "example": "La recta pasa por ambos puntos.",
+    "exampleTranslation": "The line passes through both points."
+  },
+  {
+    "word": "RECTO",
+    "translation": "straight",
+    "example": "El camino es recto.",
+    "exampleTranslation": "The road is straight."
+  },
+  {
+    "word": "RECTOR",
+    "translation": "university head; rector",
+    "example": "El rector inauguró la biblioteca.",
+    "exampleTranslation": "The university head opened the library."
+  },
+  {
+    "word": "RECURSO",
+    "translation": "appeal; recourse",
+    "example": "Presentaron un recurso ante el juez.",
+    "exampleTranslation": "They filed an appeal before the judge."
+  },
+  {
+    "word": "REDONDA",
+    "translation": "whole note",
+    "example": "La redonda dura cuatro tiempos aquí.",
+    "exampleTranslation": "The whole note lasts four beats here."
+  },
+  {
+    "word": "REDONDO",
+    "translation": "round",
+    "example": "El plato es redondo.",
+    "exampleTranslation": "The plate is round."
+  },
+  {
+    "word": "REDUCIR",
+    "translation": "to reduce",
+    "example": "Queremos reducir el consumo de agua.",
+    "exampleTranslation": "We want to reduce water consumption."
+  },
+  {
+    "word": "REFLEJO",
+    "translation": "reflection",
+    "example": "Vi mi reflejo en el agua.",
+    "exampleTranslation": "I saw my reflection in the water."
+  },
+  {
+    "word": "REFORMA",
+    "translation": "reform",
+    "example": "La reforma cambió el procedimiento.",
+    "exampleTranslation": "The reform changed the procedure."
+  },
+  {
+    "word": "REFUGIO",
+    "translation": "shelter",
+    "example": "Buscamos refugio de la tormenta.",
+    "exampleTranslation": "We sought shelter from the storm."
+  },
+  {
+    "word": "REGALAR",
+    "translation": "to give as a gift",
+    "example": "Quiero regalar un libro a mi hermana.",
+    "exampleTranslation": "I want to give my sister a book."
+  },
+  {
+    "word": "REGENTE",
+    "translation": "governing; ruling",
+    "example": "La autoridad regente dictó nuevas medidas.",
+    "exampleTranslation": "The governing authority issued new measures."
+  },
+  {
+    "word": "REGIÓN",
+    "translation": "region",
+    "example": "La región produce mucho café.",
+    "exampleTranslation": "The region produces a lot of coffee."
+  },
+  {
+    "word": "REGLA",
+    "translation": "rule",
+    "example": "La regla exige respetar los turnos.",
+    "exampleTranslation": "The rule requires taking turns fairly."
+  },
+  {
+    "word": "REGRESO",
+    "translation": "return",
+    "example": "Su regreso alegró a la familia.",
+    "exampleTranslation": "Her return delighted the family."
+  },
+  {
+    "word": "REGULAR",
+    "translation": "regular; steady",
+    "example": "El ritmo regular facilita el ejercicio.",
+    "exampleTranslation": "The steady rhythm makes the exercise easier."
+  },
+  {
+    "word": "REINA",
+    "translation": "queen",
+    "example": "La reina recibió al embajador.",
+    "exampleTranslation": "The queen received the ambassador."
+  },
+  {
+    "word": "REINO",
+    "translation": "kingdom",
+    "example": "El reino tenía una extensa costa.",
+    "exampleTranslation": "The kingdom had an extensive coastline."
+  },
+  {
+    "word": "RELATO",
+    "translation": "account; story",
+    "example": "Su relato despertó nuestra curiosidad.",
+    "exampleTranslation": "Her account aroused our curiosity."
+  },
+  {
+    "word": "RELAX",
+    "translation": "relaxation",
+    "example": "El jardín invita al relax.",
+    "exampleTranslation": "The garden invites relaxation."
+  },
+  {
+    "word": "RELIEVE",
+    "translation": "relief; raised design",
+    "example": "El relieve de la puerta representa flores.",
+    "exampleTranslation": "The door's raised design depicts flowers."
+  },
+  {
+    "word": "RELLENO",
+    "translation": "filled; stuffed",
+    "example": "El pan relleno lleva queso.",
+    "exampleTranslation": "The stuffed bread contains cheese."
+  },
+  {
+    "word": "RELOJ",
+    "translation": "clock; watch",
+    "example": "El reloj marca las tres.",
+    "exampleTranslation": "The clock shows three o'clock."
+  },
+  {
+    "word": "REMATE",
+    "translation": "finishing shot",
+    "example": "El remate del delantero entró en la portería.",
+    "exampleTranslation": "The forward's finishing shot went into the goal."
+  },
+  {
+    "word": "REMEDIO",
+    "translation": "remedy",
+    "example": "Buscó un remedio para la tos.",
+    "exampleTranslation": "She sought a remedy for her cough."
+  },
+  {
+    "word": "REMOTO",
+    "translation": "remote; distant",
+    "example": "El pueblo remoto tiene una escuela.",
+    "exampleTranslation": "The remote village has a school."
+  },
+  {
+    "word": "REMOVER",
+    "translation": "to move; to stir",
+    "example": "Hay que remover la mezcla.",
+    "exampleTranslation": "The mixture needs stirring."
+  },
+  {
+    "word": "RENAL",
+    "translation": "renal; relating to the kidneys",
+    "example": "El médico revisó la función renal.",
+    "exampleTranslation": "The doctor checked kidney function."
+  },
+  {
+    "word": "RENCOR",
+    "translation": "resentment",
+    "example": "No guarda rencor por lo ocurrido.",
+    "exampleTranslation": "She holds no resentment over what happened."
+  },
+  {
+    "word": "RENDIR",
+    "translation": "to subdue; to make surrender",
+    "example": "El ejército intentó rendir la fortaleza.",
+    "exampleTranslation": "The army tried to force the fortress to surrender."
+  },
+  {
+    "word": "RENOVAR",
+    "translation": "to renew",
+    "example": "Vamos a renovar la fachada.",
+    "exampleTranslation": "We are going to renew the facade."
+  },
+  {
+    "word": "RENTA",
+    "translation": "rental income",
+    "example": "La casa produce una renta mensual.",
+    "exampleTranslation": "The house produces monthly rental income."
+  },
+  {
+    "word": "REPARAR",
+    "translation": "to repair",
+    "example": "Necesito reparar la bicicleta.",
+    "exampleTranslation": "I need to repair the bicycle."
+  },
+  {
+    "word": "REPARTO",
+    "translation": "cast",
+    "example": "El reparto incluye actores locales.",
+    "exampleTranslation": "The cast includes local actors."
+  },
+  {
+    "word": "REPASO",
+    "translation": "review",
+    "example": "Hicimos un repaso antes del examen.",
+    "exampleTranslation": "We reviewed before the exam."
+  },
+  {
+    "word": "REPENTE",
+    "translation": "sudden occurrence",
+    "example": "De repente empezó a llover.",
+    "exampleTranslation": "Suddenly it started raining."
+  },
+  {
+    "word": "REPETIR",
+    "translation": "to repeat",
+    "example": "¿Puedes repetir la pregunta?",
+    "exampleTranslation": "Can you repeat the question?"
+  },
+  {
+    "word": "REPLETO",
+    "translation": "full; packed",
+    "example": "El auditorio estaba repleto.",
+    "exampleTranslation": "The auditorium was packed."
+  },
+  {
+    "word": "REPORTE",
+    "translation": "report",
+    "example": "El reporte describe lo sucedido.",
+    "exampleTranslation": "The report describes what happened."
+  },
+  {
+    "word": "REPOSO",
+    "translation": "rest",
+    "example": "El médico recomendó reposo.",
+    "exampleTranslation": "The doctor recommended rest."
+  },
+  {
+    "word": "RESACA",
+    "translation": "receding surf",
+    "example": "La resaca arrastró arena hacia el mar.",
+    "exampleTranslation": "The receding surf carried sand out to sea."
+  },
+  {
+    "word": "RESCATE",
+    "translation": "rescue",
+    "example": "El rescate terminó al amanecer.",
+    "exampleTranslation": "The rescue ended at dawn."
+  },
+  {
+    "word": "RESERVA",
+    "translation": "reserve; stock kept aside",
+    "example": "Guardamos una reserva de agua.",
+    "exampleTranslation": "We kept a reserve of water."
+  },
+  {
+    "word": "RESEÑA",
+    "translation": "review; short account",
+    "example": "La reseña resume el libro.",
+    "exampleTranslation": "The review summarizes the book."
+  },
+  {
+    "word": "RESPETO",
+    "translation": "respect",
+    "example": "Escuchó al maestro con respeto.",
+    "exampleTranslation": "She listened to the teacher respectfully."
+  },
+  {
+    "word": "RESPIRO",
+    "translation": "breath; breathing",
+    "example": "Un respiro profundo le ayudó a calmarse.",
+    "exampleTranslation": "A deep breath helped her calm down."
+  },
+  {
+    "word": "RESTA",
+    "translation": "subtraction",
+    "example": "La resta da como resultado cinco.",
+    "exampleTranslation": "The subtraction results in five."
+  },
+  {
+    "word": "RESTO",
+    "translation": "remainder",
+    "example": "Guardamos el resto del pan.",
+    "exampleTranslation": "We saved the rest of the bread."
+  },
+  {
+    "word": "RESUMEN",
+    "translation": "summary",
+    "example": "El resumen contiene las ideas principales.",
+    "exampleTranslation": "The summary contains the main ideas."
+  },
+  {
+    "word": "RETENER",
+    "translation": "to detain",
+    "example": "No pueden retener al visitante aquí.",
+    "exampleTranslation": "They cannot detain the visitor here."
+  },
+  {
+    "word": "RETIRAR",
+    "translation": "to remove",
+    "example": "Debemos retirar la caja del paso.",
+    "exampleTranslation": "We must remove the box from the walkway."
+  },
+  {
+    "word": "RETIRO",
+    "translation": "withdrawal; departure",
+    "example": "Su retiro de la reunión fue discreto.",
+    "exampleTranslation": "Her departure from the meeting was discreet."
+  },
+  {
+    "word": "RETO",
+    "translation": "challenge",
+    "example": "Resolverlo fue un reto.",
+    "exampleTranslation": "Solving it was a challenge."
+  },
+  {
+    "word": "RETORNO",
+    "translation": "return",
+    "example": "El retorno al pueblo tomó horas.",
+    "exampleTranslation": "Returning to the village took hours."
+  },
+  {
+    "word": "RETRATO",
+    "translation": "portrait",
+    "example": "El retrato muestra a su abuela.",
+    "exampleTranslation": "The portrait shows her grandmother."
+  },
+  {
+    "word": "REUNIR",
+    "translation": "to reunite; to gather",
+    "example": "Queremos reunir a la familia.",
+    "exampleTranslation": "We want to reunite the family."
+  },
+  {
+    "word": "REUNIÓN",
+    "translation": "meeting",
+    "example": "La reunión empieza pronto.",
+    "exampleTranslation": "The meeting starts soon."
+  },
+  {
+    "word": "REVELAR",
+    "translation": "to reveal",
+    "example": "No quiso revelar el secreto.",
+    "exampleTranslation": "She did not want to reveal the secret."
+  },
+  {
+    "word": "REVISAR",
+    "translation": "to examine; to check",
+    "example": "Necesito revisar el documento.",
+    "exampleTranslation": "I need to check the document."
+  },
+  {
+    "word": "REVISTA",
+    "translation": "magazine",
+    "example": "Compró una revista de ciencia.",
+    "exampleTranslation": "She bought a science magazine."
+  },
+  {
+    "word": "REVIVIR",
+    "translation": "to come back to life",
+    "example": "La planta parece revivir con el agua.",
+    "exampleTranslation": "The plant seems to come back to life with the water."
+  },
+  {
+    "word": "REVOCAR",
+    "translation": "to revoke",
+    "example": "El juez puede revocar la orden.",
+    "exampleTranslation": "The judge can revoke the order."
+  },
+  {
+    "word": "REVÉS",
+    "translation": "reverse side",
+    "example": "El revés de la tela es más claro.",
+    "exampleTranslation": "The reverse side of the fabric is lighter."
+  },
+  {
+    "word": "REZAR",
+    "translation": "to pray",
+    "example": "La familia se reunió para rezar.",
+    "exampleTranslation": "The family gathered to pray."
+  },
+  {
+    "word": "REZO",
+    "translation": "prayer; praying",
+    "example": "El rezo duró unos minutos.",
+    "exampleTranslation": "The prayer lasted a few minutes."
+  },
+  {
+    "word": "REÍR",
+    "translation": "to laugh",
+    "example": "El cuento nos hizo reír.",
+    "exampleTranslation": "The story made us laugh."
+  },
+  {
+    "word": "REÍRSE",
+    "translation": "to laugh",
+    "example": "No podía dejar de reírse.",
+    "exampleTranslation": "She could not stop laughing."
+  },
+  {
+    "word": "RIBERA",
+    "translation": "riverbank; shore",
+    "example": "Caminamos por la ribera del río.",
+    "exampleTranslation": "We walked along the riverbank."
+  },
+  {
+    "word": "RICO",
+    "translation": "rich",
+    "example": "El comerciante rico donó libros.",
+    "exampleTranslation": "The wealthy merchant donated books."
+  },
+  {
+    "word": "RIEGO",
+    "translation": "irrigation; watering",
+    "example": "El riego mantiene húmeda la tierra.",
+    "exampleTranslation": "Irrigation keeps the soil moist."
+  },
+  {
+    "word": "RIESGO",
+    "translation": "risk",
+    "example": "El puente representa un riesgo.",
+    "exampleTranslation": "The bridge poses a risk."
+  },
+  {
+    "word": "RIFLE",
+    "translation": "rifle",
+    "example": "El rifle quedó descargado y guardado.",
+    "exampleTranslation": "The rifle was left unloaded and stored away."
+  },
+  {
+    "word": "RIGOR",
+    "translation": "severity; strictness",
+    "example": "El rigor del castigo causó debate.",
+    "exampleTranslation": "The severity of the punishment caused debate."
+  },
+  {
+    "word": "RIMA",
+    "translation": "rhyme",
+    "example": "El poema tiene una rima sencilla.",
+    "exampleTranslation": "The poem has a simple rhyme."
+  },
+  {
+    "word": "RINCÓN",
+    "translation": "corner",
+    "example": "La silla está en el rincón.",
+    "exampleTranslation": "The chair is in the corner."
+  },
+  {
+    "word": "RIOJA",
+    "translation": "Rioja wine",
+    "example": "Sirvieron un rioja con la cena.",
+    "exampleTranslation": "They served a Rioja wine with dinner."
+  },
+  {
+    "word": "RIQUEZA",
+    "translation": "wealth",
+    "example": "La riqueza no garantiza felicidad.",
+    "exampleTranslation": "Wealth does not guarantee happiness."
+  },
+  {
+    "word": "RISA",
+    "translation": "laughter",
+    "example": "Su risa llenó el salón.",
+    "exampleTranslation": "Her laughter filled the room."
+  },
+  {
+    "word": "RITMO",
+    "translation": "rhythm",
+    "example": "Sigue el ritmo del tambor.",
+    "exampleTranslation": "Follow the drum's rhythm."
+  },
+  {
+    "word": "RITO",
+    "translation": "rite; ritual",
+    "example": "El rito reúne a la comunidad.",
+    "exampleTranslation": "The rite brings the community together."
+  },
+  {
+    "word": "RITUAL",
+    "translation": "ritual; relating to a rite",
+    "example": "El canto ritual abre la ceremonia.",
+    "exampleTranslation": "The ritual song opens the ceremony."
+  },
+  {
+    "word": "RIVAL",
+    "translation": "rival; competing",
+    "example": "El equipo rival llegó temprano.",
+    "exampleTranslation": "The opposing team arrived early."
+  },
+  {
+    "word": "RIÑÓN",
+    "translation": "kidney",
+    "example": "El riñón filtra la sangre.",
+    "exampleTranslation": "The kidney filters the blood."
+  },
+  {
+    "word": "ROBAR",
+    "translation": "to steal; to rob",
+    "example": "Intentaron robar la caja fuerte.",
+    "exampleTranslation": "They tried to steal the safe."
+  },
+  {
+    "word": "ROBLE",
+    "translation": "oak",
+    "example": "El roble conserva un tronco robusto.",
+    "exampleTranslation": "The oak has a sturdy trunk."
+  },
+  {
+    "word": "ROBO",
+    "translation": "theft; robbery",
+    "example": "Denunciaron el robo de la bicicleta.",
+    "exampleTranslation": "They reported the bicycle theft."
+  },
+  {
+    "word": "ROBOT",
+    "translation": "robot",
+    "example": "El robot clasifica paquetes.",
+    "exampleTranslation": "The robot sorts packages."
+  },
+  {
+    "word": "ROCA",
+    "translation": "rock",
+    "example": "La roca tiene vetas oscuras.",
+    "exampleTranslation": "The rock has dark veins."
+  },
+  {
+    "word": "ROCK",
+    "translation": "rock music",
+    "example": "La banda toca rock.",
+    "exampleTranslation": "The band plays rock music."
+  },
+  {
+    "word": "ROCÍO",
+    "translation": "dew",
+    "example": "El rocío cubría el pasto.",
+    "exampleTranslation": "Dew covered the grass."
+  },
+  {
+    "word": "RODAJE",
+    "translation": "filming",
+    "example": "El rodaje empieza mañana.",
+    "exampleTranslation": "Filming starts tomorrow."
+  },
+  {
+    "word": "RODAR",
+    "translation": "to roll",
+    "example": "La pelota empezó a rodar.",
+    "exampleTranslation": "The ball began to roll."
+  },
+  {
+    "word": "RODEO",
+    "translation": "detour; going around",
+    "example": "Dimos un rodeo para evitar la obra.",
+    "exampleTranslation": "We took a detour to avoid the construction."
+  },
+  {
+    "word": "RODILLA",
+    "translation": "knee",
+    "example": "Se raspó la rodilla.",
+    "exampleTranslation": "She scraped her knee."
+  },
+  {
+    "word": "ROJA",
+    "translation": "red card",
+    "example": "El árbitro mostró la roja.",
+    "exampleTranslation": "The referee showed the red card."
+  },
+  {
+    "word": "ROJO",
+    "translation": "red",
+    "example": "El coche rojo se detuvo.",
+    "exampleTranslation": "The red car stopped."
+  },
+  {
+    "word": "ROLLO",
+    "translation": "roll",
+    "example": "Compró un rollo de papel.",
+    "exampleTranslation": "She bought a roll of paper."
+  },
+  {
+    "word": "ROMANA",
+    "translation": "steelyard balance",
+    "example": "El vendedor pesó el saco con una romana.",
+    "exampleTranslation": "The seller weighed the sack with a steelyard balance."
+  },
+  {
+    "word": "ROMANCE",
+    "translation": "Romance; descended from Latin",
+    "example": "El español es una lengua romance.",
+    "exampleTranslation": "Spanish is a Romance language."
+  },
+  {
+    "word": "ROMANO",
+    "translation": "Roman",
+    "example": "El acueducto romano sigue en pie.",
+    "exampleTranslation": "The Roman aqueduct still stands."
+  },
+  {
+    "word": "ROMERO",
+    "translation": "rosemary",
+    "example": "Agregó romero a las papas.",
+    "exampleTranslation": "She added rosemary to the potatoes."
+  },
+  {
+    "word": "ROMPER",
+    "translation": "to break",
+    "example": "Evita romper el vidrio.",
+    "exampleTranslation": "Avoid breaking the glass."
+  },
+  {
+    "word": "RONDA",
+    "translation": "round; patrol",
+    "example": "La ronda nocturna pasó por la plaza.",
+    "exampleTranslation": "The night patrol passed through the square."
+  },
+  {
+    "word": "ROSA",
+    "translation": "rose",
+    "example": "Una rosa floreció en el jardín.",
+    "exampleTranslation": "A rose bloomed in the garden."
+  },
+  {
+    "word": "ROSADO",
+    "translation": "pink",
+    "example": "El vestido rosado tiene flores.",
+    "exampleTranslation": "The pink dress has flowers."
+  },
+  {
+    "word": "ROSARIO",
+    "translation": "rosary prayer",
+    "example": "La familia rezó el rosario.",
+    "exampleTranslation": "The family prayed the rosary."
+  },
+  {
+    "word": "ROSTRO",
+    "translation": "face",
+    "example": "Su rostro se iluminó al verme.",
+    "exampleTranslation": "Her face lit up when she saw me."
+  },
+  {
+    "word": "ROTO",
+    "translation": "broken",
+    "example": "El vaso está roto.",
+    "exampleTranslation": "The glass is broken."
+  },
+  {
+    "word": "ROTURA",
+    "translation": "breakage; tear",
+    "example": "La rotura de la tubería causó una fuga.",
+    "exampleTranslation": "The pipe's breakage caused a leak."
+  },
+  {
+    "word": "RUBIO",
+    "translation": "blond",
+    "example": "El niño rubio lleva una gorra.",
+    "exampleTranslation": "The blond boy is wearing a cap."
+  },
+  {
+    "word": "RUBRO",
+    "translation": "heading; category label",
+    "example": "El rubro indica los gastos de viaje.",
+    "exampleTranslation": "The heading identifies travel expenses."
+  },
+  {
+    "word": "RUEDA",
+    "translation": "wheel",
+    "example": "La rueda gira sin dificultad.",
+    "exampleTranslation": "The wheel turns easily."
+  },
+  {
+    "word": "RUEGO",
+    "translation": "plea",
+    "example": "Escucharon su ruego de ayuda.",
+    "exampleTranslation": "They listened to his plea for help."
+  },
+  {
+    "word": "RUGBY",
+    "translation": "rugby",
+    "example": "El equipo juega rugby los sábados.",
+    "exampleTranslation": "The team plays rugby on Saturdays."
+  },
+  {
+    "word": "RUIDO",
+    "translation": "noise",
+    "example": "El ruido me despertó.",
+    "exampleTranslation": "The noise woke me up."
+  },
+  {
+    "word": "RUINA",
+    "translation": "ruin; destruction",
+    "example": "El abandono llevó el edificio a la ruina.",
+    "exampleTranslation": "Neglect brought the building to ruin."
+  },
+  {
+    "word": "RUMBO",
+    "translation": "direction; course",
+    "example": "El barco cambió de rumbo.",
+    "exampleTranslation": "The ship changed course."
+  },
+  {
+    "word": "RUMOR",
+    "translation": "rumor",
+    "example": "El rumor circuló por el pueblo.",
+    "exampleTranslation": "The rumor spread through the town."
+  },
+  {
+    "word": "RUPTURA",
+    "translation": "break; breakup",
+    "example": "La ruptura del acuerdo sorprendió a todos.",
+    "exampleTranslation": "The agreement's breakdown surprised everyone."
+  },
+  {
+    "word": "RURAL",
+    "translation": "rural",
+    "example": "La escuela rural tiene un huerto.",
+    "exampleTranslation": "The rural school has a vegetable garden."
+  },
+  {
+    "word": "RUSO",
+    "translation": "Russian person",
+    "example": "El ruso aprendió español.",
+    "exampleTranslation": "The Russian learned Spanish."
+  },
+  {
+    "word": "RUTA",
+    "translation": "route; road",
+    "example": "La ruta atraviesa la montaña.",
+    "exampleTranslation": "The route crosses the mountain."
+  },
+  {
+    "word": "RUTINA",
+    "translation": "routine",
+    "example": "Caminar forma parte de mi rutina.",
+    "exampleTranslation": "Walking is part of my routine."
+  },
+  {
+    "word": "RÁPIDO",
+    "translation": "fast",
+    "example": "El tren rápido llegó antes.",
+    "exampleTranslation": "The fast train arrived earlier."
+  },
+  {
+    "word": "RÉCORD",
+    "translation": "record",
+    "example": "La atleta rompió el récord.",
+    "exampleTranslation": "The athlete broke the record."
+  },
+  {
+    "word": "RÉGIMEN",
+    "translation": "political regime",
+    "example": "El régimen cambió tras las elecciones.",
+    "exampleTranslation": "The regime changed after the elections."
+  },
+  {
+    "word": "RÉPLICA",
+    "translation": "reply",
+    "example": "Su réplica fue breve.",
+    "exampleTranslation": "Her reply was brief."
+  },
+  {
+    "word": "SABANA",
+    "translation": "savanna",
+    "example": "Los animales cruzan la sabana.",
+    "exampleTranslation": "The animals cross the savanna."
+  },
+  {
+    "word": "SABER",
+    "translation": "knowledge",
+    "example": "Compartió su saber con los alumnos.",
+    "exampleTranslation": "She shared her knowledge with the students."
+  },
+  {
+    "word": "SABIO",
+    "translation": "wise",
+    "example": "El anciano sabio escuchó con paciencia.",
+    "exampleTranslation": "The wise elder listened patiently."
+  },
+  {
+    "word": "SABOR",
+    "translation": "flavor",
+    "example": "La sopa tiene buen sabor.",
+    "exampleTranslation": "The soup has a good flavor."
+  },
+  {
+    "word": "SABROSO",
+    "translation": "tasty",
+    "example": "El guiso quedó sabroso.",
+    "exampleTranslation": "The stew turned out tasty."
+  },
+  {
+    "word": "SACA",
+    "translation": "large sack",
+    "example": "Llenaron una saca de correspondencia.",
+    "exampleTranslation": "They filled a large sack with mail."
+  },
+  {
+    "word": "SACAR",
+    "translation": "to take out",
+    "example": "Voy a sacar la ropa de la lavadora.",
+    "exampleTranslation": "I am going to take the clothes out of the washing machine."
+  }
+]

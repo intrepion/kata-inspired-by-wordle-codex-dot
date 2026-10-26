@@ -1,0 +1,11 @@
+Morrowmark modified Spanish selection metadata
+
+Frequency data: wordfreq v3.0.2, Robyn Speer and contributors, revision372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b. Data CC BY-SA4.0; software MIT. The full pinned README and MIT notice are included. Its underlying acknowledgments, including Marc Brysbaert and SUBTLEX coauthors, must remain. SUBTLEX is freely available data. Wordfreq frequency is general Spanish, not Mexico-specific or sense-specific.
+
+Lexical metadata: Spanish Wiktionary contributors, extracted by Wiktextract and hosted by Kaikki, raw Spanish-edition artifact last modified2026-10-21. Data CC BY-SA4.0. Official Wiktionary rights metadata and full CC BY-SA4.0 legal terms are included. Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data, LREC2022, pp1317–1325. See https://kaikki.org/dictionary/rawdata.html.
+
+Changes: retain selected frequency/POS/sense/usage metadata, omit quotations/examples/translations/media and unrelated languages, record source hashes, apply documented frequency/grammar/usage criteria and explicit model-reviewed decisions. Supplemental Spanish noun evidence from English Wiktionary is validated and attributed by exact response hashes. Source entry/history links remain attributable through the source URLs recorded in the repository. No exact per-entry revision ID is supplied by the bulk extract.
+
+Possible-answer eligibility is independent of teaching. The original selection expansion retained439 teaching records and initially left most new answers without lessons. Teaching later expanded independently: current coverage is recorded in the translation/teaching audits, not that historical selection count. No exhaustive Spanish coverage, native-human review, current official Wordle parity, sense-specific frequency, or uniquely Mexican commonness is claimed. Commonness/suitability overrides are explicitly identified model judgments. The separate RLA-es spelling sources and notices remain under their offered MPL1.1 terms.
+
+Source files, checksums, policy, complete attribution and deterministic generation are documented in WORDS-LICENSE.md and src/data/spanish/selection-source.json. Preserve these notices and the CC BY-SA4.0 attribution/ShareAlike terms in redistribution. This notice does not add restrictions to those terms or claim a legal warranty.

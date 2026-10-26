@@ -1,0 +1,2413 @@
+{
+  "candidateSha256": "61abea75352a40025205d2dce7ae69bdb73f0e16a00513846cdc3277f516caca",
+  "inputSha256": "61abea75352a40025205d2dce7ae69bdb73f0e16a00513846cdc3277f516caca",
+  "reviewer": "deterministic intersection compiler",
+  "method": "Exact selected source record/POS/sense/frame/profile agreement of two independent model translations; aspect intersection. No pronominal construction or partial text-similarity approval. Lexical agreements are not compiled word coverage.",
+  "reviewHashes": {
+    "spanish-only-lemma-review-spec-2.json": "9e95b4bdfab69210b088c128d66c1b4f33f4809bd3a2727f2945bfe0a9fd9cbc",
+    "spanish-only-lemma-review-standards-2.json": "22b5fedf8528823134f6741a6250e0e14fbcddc4a2cbffe9222dbf3d3e7a15ac"
+  },
+  "reviewers": [
+    "/root/review_spec",
+    "/root/review_standards"
+  ],
+  "approved": [
+    {
+      "spanish": "acusón",
+      "partOfSpeech": "adj",
+      "recordSha256": "f015f8d0c4374cfbca8cbd305c4d12ab7fd1b006f63d650ac9ec3c6d3ce1f0d2",
+      "senseIndex": 0,
+      "frame": "tattling",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Habitually accusing or informing on others.; Colloquial prone to accuse or tell on others; attributive adjective, not an invented example.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Habitually accusing or informing on others.",
+          "notes": "Colloquial disposition; not a proven criminal accusation.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Colloquial prone to accuse or tell on others; attributive adjective, not an invented example.",
+          "notes": "Selected Spanish source labels: colloquial, noun.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "amarecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "a719c895366fd9cc33080b7b45d29d072e0f4cc3cc7ff4f51f90a12b76813b70",
+      "senseIndex": 0,
+      "frame": "mate with a ewe",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A ram covers a ewe.; A ram mating with a ewe; animal-only agent, not a human reading.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A ram covers a ewe.",
+          "notes": "Literal ram as agent; not a shepherd causing breeding.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "A ram mating with a ewe; animal-only agent, not a human reading.",
+          "notes": "Selected Spanish source labels: transitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "amativo",
+      "partOfSpeech": "adj",
+      "recordSha256": "119729611ee0c35333fcac9228ad9359a05dca3225ecdefea6d44e686f0bd9c7",
+      "senseIndex": 0,
+      "frame": "amorous",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Disposed to love.; Inclined to love.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Disposed to love.",
+          "notes": "Disposition, not an assertion of current sexual behavior.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Inclined to love.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "amorecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "ec0830b5bde9ea1a7a28dda8b03337301f0a9539211f191071121a115562bb9f",
+      "senseIndex": 0,
+      "frame": "mate with a ewe",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A ram covers a ewe.; A ram mating with a ewe; literal animal-only agent.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A ram covers a ewe.",
+          "notes": "Literal animal mating; no personal agent.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "A ram mating with a ewe; literal animal-only agent.",
+          "notes": "Selected Spanish source labels: transitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "anuloso",
+      "partOfSpeech": "adj",
+      "recordSha256": "8e7ef2dd216b6536d495cd02a647d557fd64c6f4ea9c91bf9e1fe7e1e075d56a",
+      "senseIndex": 0,
+      "frame": "ring-shaped",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Shaped like a ring.; Having the shape of a ring.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Shaped like a ring.",
+          "notes": "Not the separate composed-of-rings sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Having the shape of a ring.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "anélido",
+      "partOfSpeech": "adj",
+      "recordSha256": "f34208e30ddf761a0ce2699d545c984827c1353b876978607ff12057d318312f",
+      "senseIndex": 0,
+      "frame": "annelid",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Relating to ring-segmented wormlike animals such as earthworms.; Zoology: relating to segmented soft-bodied worms such as earthworms and leeches.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Relating to ring-segmented wormlike animals such as earthworms.",
+          "notes": "Zoological adjective; not every segmented animal.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Zoology: relating to segmented soft-bodied worms such as earthworms and leeches.",
+          "notes": "Selected Spanish source labels: noun.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "aprevenir",
+      "partOfSpeech": "verb",
+      "recordSha256": "fbac77140437ebe021e835297c580ef7e4afdc36cd82d52161941d8326a99811",
+      "senseIndex": 0,
+      "frame": "foresee",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Anticipate something that will happen.; Andalusia, Colombia and Guatemala: perceive a future occurrence in advance.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Anticipate something that will happen.",
+          "notes": "Andalusian, Colombian and Guatemalan usage; selected anticipation sense, not necessarily taking precautions.",
+          "aspectModes": [
+            "state-past"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Andalusia, Colombia and Guatemala: perceive a future occurrence in advance.",
+          "notes": "Selected Spanish source labels: transitive, Andalusia, Colombia, Guatemala.",
+          "aspectModes": [
+            "state-past"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "aretino",
+      "partOfSpeech": "adj",
+      "recordSha256": "f16c203d0309491a4b52cf649d963adb18935ff11d97f478cf85e52edecb71db",
+      "senseIndex": 1,
+      "frame": "Aretine",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of or relating to Arezzo in Italy.; Relating to Arezzo in Italy; adjective, not a personal name.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of or relating to Arezzo in Italy.",
+          "notes": "Geographical adjective, not an unsupported personal surname sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to Arezzo in Italy; adjective, not a personal name.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "aridecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "f725ab780839304b1ca2ae13799cbcb650908c96652df12b2a2b05f72d5ea03d",
+      "senseIndex": 0,
+      "frame": "desiccate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause something to become dry or barren.; Transitive make dry or arid; selected physical drying rather than an invented tediousness referent.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Cause something to become dry or barren.",
+          "notes": "Transitive causer is supported; intransitive and figurative tediousness readings are separate.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Transitive make dry or arid; selected physical drying rather than an invented tediousness referent.",
+          "notes": "Selected Spanish source labels: transitive, pronominal. Select the independently supported transitive reading, not an unsupported pronominal substitution.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "asativo",
+      "partOfSpeech": "adj",
+      "recordSha256": "064e003191d63885f0e0ec69d16527447cf1a11a6a7fafd20c322160d4c25694",
+      "senseIndex": 0,
+      "frame": "cookable in its own juices",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Able to cook without added moisture.; Able to cook without added liquid.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Able to cook without added moisture.",
+          "notes": "Food or material property, not an example or cooking instruction.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Able to cook without added liquid.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "bascoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "f1a5d6fd959941695fbcd507ba447571d6d723aa395d2a4bb7787b8cc495b727",
+      "senseIndex": 0,
+      "frame": "nauseated",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Suffering nausea or retching.; Suffering retching or nausea, the selected bascas sense.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Suffering nausea or retching.",
+          "notes": "Selected bodily bascas sense; not unrelated weather humidity.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Suffering retching or nausea, the selected bascas sense.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "bigardo",
+      "partOfSpeech": "adj",
+      "recordSha256": "dd9f044fbf25f91d08e745ec5b06e7b5706af82c488c32f38373c7c49109f22a",
+      "senseIndex": 0,
+      "frame": "idle",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Lazy or unwilling to work.; Lazy or work-shy; not the separate licentious-monk sense.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Lazy or unwilling to work.",
+          "notes": "Selected sloth sense, not the separate robust physique or licentious monk senses.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Lazy or work-shy; not the separate licentious-monk sense.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "bóvido",
+      "partOfSpeech": "adj",
+      "recordSha256": "279ec9b5fdc4a7c20bf354808b89698be9e44f1130636927d8bc87e78d35da07",
+      "senseIndex": 0,
+      "frame": "bovid",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of or relating to the Bovidae family.; Relating to the Bovidae family, including cattle, goats and gazelles; not a noun-only translation.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of or relating to the Bovidae family.",
+          "notes": "Zoological adjective, not a claim about every ruminant.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to the Bovidae family, including cattle, goats and gazelles; not a noun-only translation.",
+          "notes": "Selected Spanish source labels: noun.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cabrero",
+      "partOfSpeech": "adj",
+      "recordSha256": "e8dbd665f2aa78f1988e036006b0900bf2cf96cf7d49a8d15d0dd60f60af58b6",
+      "senseIndex": 0,
+      "frame": "irritable",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Bad-tempered or easily annoyed.; Argentine colloquial bad-tempered sense, distinct from goat herding.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Bad-tempered or easily annoyed.",
+          "notes": "Argentine colloquial adjective, not a goat-herder noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Argentine colloquial bad-tempered sense, distinct from goat herding.",
+          "notes": "Selected Spanish source labels: Argentina, colloquial.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cegato",
+      "partOfSpeech": "adj",
+      "recordSha256": "be734391dec1cdfd3772b4e1f1cede0117d082d79d26abb115b2421845f0c761",
+      "senseIndex": 0,
+      "frame": "poor-sighted",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Having poor vision.; Colloquial having poor eyesight; can be disparaging.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Having poor vision.",
+          "notes": "Colloquial description; not total blindness.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Colloquial having poor eyesight; can be disparaging.",
+          "notes": "Selected Spanish source labels: colloquial, noun.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "comarcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ca2c696f491a1ba1b2d69b60d0a3fb9589af3d9fa6770c6f27e193c962452367",
+      "senseIndex": 0,
+      "frame": "border",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "A territory forms a border or boundary.; Literal land or territories sharing a boundary; not an unsupported human agent.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A territory forms a border or boundary.",
+          "notes": "Literal territorial subject, not an invented human border agent.",
+          "aspectModes": [
+            "state-past"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Literal land or territories sharing a boundary; not an unsupported human agent.",
+          "notes": "Selected Spanish source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "state-past"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "corusco",
+      "partOfSpeech": "adj",
+      "recordSha256": "1b8da6c8c53835b49eaf587416ad8cf2e584e718216ff414277d6a6eb013fb39",
+      "senseIndex": 0,
+      "frame": "sparkling",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Emitting flashes of light.; Giving off flashes of light; coruscar reference is a clear light-emission adjective.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Emitting flashes of light.",
+          "notes": "Resolved coruscar reference; poetic luminous sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Giving off flashes of light; coruscar reference is a clear light-emission adjective.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cultero",
+      "partOfSpeech": "adj",
+      "recordSha256": "6bf2a7960f6821f4d3e24a391d2e05bfdb9924c9a94f1d97abc6497b044d0b43",
+      "senseIndex": 0,
+      "frame": "culteranist",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Practicing the elaborate learned Baroque literary style of culteranismo.; Jocular follower of ornate, erudite Baroque culteranismo; literary-historical term.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Practicing the elaborate learned Baroque literary style of culteranismo.",
+          "notes": "Jocular source label retained; not merely being cultured.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Jocular follower of ornate, erudite Baroque culteranismo; literary-historical term.",
+          "notes": "Selected Spanish source labels: jocular.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cuproso",
+      "partOfSpeech": "adj",
+      "recordSha256": "967d7cc276a871e5b20f3b39426e07ca7c74811c0ef8d8f6b40a87dfbb87316a",
+      "senseIndex": 0,
+      "frame": "cuprous",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Containing copper in oxidation state one.; Chemistry: containing copper in oxidation state +1.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Containing copper in oxidation state one.",
+          "notes": "Chemical adjective, not all copper compounds.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Chemistry: containing copper in oxidation state +1.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cuyo",
+      "partOfSpeech": "adj",
+      "recordSha256": "4bcc350026f4b8111f1326fb55934eb91e0af172814db937e84834558b440b1e",
+      "senseIndex": 0,
+      "frame": "whose",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Possessive relative meaning of whom or of which.; Relative possessive determiner, not an interrogative or an animal name; English is invariant under Spanish agreement.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Possessive relative meaning of whom or of which.",
+          "notes": "English relative is invariant; not an interrogative whose question.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relative possessive determiner, not an interrogative or an animal name; English is invariant under Spanish agreement.",
+          "notes": "Selected Spanish source labels: relative.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "cuál",
+      "partOfSpeech": "adj",
+      "recordSha256": "b69b377633f84d2b3ca99ed2a41c815b7a8e8b52b65c6c4316c009f69eab0491",
+      "senseIndex": 0,
+      "frame": "which",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Interrogative selection.; Interrogative determiner; context may also call for what.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Interrogative selection.",
+          "notes": "Not the unrelated unaccented relative cual.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Interrogative determiner; context may also call for what.",
+          "notes": "Selected Spanish source labels: interrogative, irregular.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "descocar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f2356929e59736b8894dd5731a2366e24922e5be61554b0e9c4dcc98d20f35ca",
+      "senseIndex": 0,
+      "frame": "remove scale insects from trees",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rid trees of cocos, the insects.; Tree pest removal; human operator, insects and trees are patients.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Rid trees of cocos, the insects.",
+          "notes": "Human treatment operator; not coconut removal or uninhibited conduct.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Tree pest removal; human operator, insects and trees are patients.",
+          "notes": "Selected Spanish source labels: transitive.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "digestir",
+      "partOfSpeech": "verb",
+      "recordSha256": "357943ab5a73a3413c4672b43780bf79d49da4c5599ed4820ccb604825c0a3c6",
+      "senseIndex": 0,
+      "frame": "digest",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Process food in the digestive system.; Archaic biological food digestion; humans are legitimate subjects.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Process food in the digestive system.",
+          "notes": "Outdated variant; human whole-body digestion is literal, not an experiencer reversal.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic biological food digestion; humans are legitimate subjects.",
+          "notes": "Selected Spanish source labels: transitive, outdated.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "ductor",
+      "partOfSpeech": "adj",
+      "recordSha256": "f3f42bacb94599413e65d216a0f577a66b5c877e8b27440c9fcec5a62f1a20c1",
+      "senseIndex": 0,
+      "frame": "guiding",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Serving as a guide.; Literary/obsolete providing guidance; adjective, not an inferred noun office.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Serving as a guide.",
+          "notes": "Literary or obsolete adjective; not a complete finite predicate.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Literary/obsolete providing guidance; adjective, not an inferred noun office.",
+          "notes": "Selected Spanish source labels: irregular, literary, noun, obsolete.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "duodeno",
+      "partOfSpeech": "adj",
+      "recordSha256": "5007c7fa31575799eed17ccd4af9b0ce9564209e2649de68ac9bf663e0c5c8b1",
+      "senseIndex": 0,
+      "frame": "twelfth",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Occupying position twelve.; Ordinal adjective; not the intestinal noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Occupying position twelve.",
+          "notes": "Ordinal adjective, not the intestinal duodenum noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Ordinal adjective; not the intestinal noun.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "ebrioso",
+      "partOfSpeech": "adj",
+      "recordSha256": "dac88a2ed7005c99f8e7716f348c390d5ca5a9a6cf4288b21aff713f4d701734",
+      "senseIndex": 0,
+      "frame": "prone to drunkenness",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Fond of wine and easily becoming intoxicated.; Habitually drinking wine and becoming intoxicated easily; evaluative personal description.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Fond of wine and easily becoming intoxicated.",
+          "notes": "Disposition includes susceptibility, not simply currently drunk.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Habitually drinking wine and becoming intoxicated easily; evaluative personal description.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "enhestar",
+      "partOfSpeech": "verb",
+      "recordSha256": "97e315fd12bab6bf21183490b40d382f9241a85b35ef2131a5ab966473875879",
+      "senseIndex": 1,
+      "frame": "enlist people for war",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Recruit people for warfare.; Archaic military recruitment; human recruiter supported.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Recruit people for warfare.",
+          "notes": "Outdated transitive recruiter, not the recruit enlisting himself.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic military recruitment; human recruiter supported.",
+          "notes": "Selected Spanish source labels: transitive, outdated.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "enmontar",
+      "partOfSpeech": "verb",
+      "recordSha256": "878729a98139a73d80f08f26d815fe785a1b37efa3b181b2e37f58dd77daed3d",
+      "senseIndex": 0,
+      "frame": "elevate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Raise or exalt something.; Archaic transitive raising or lifting.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Raise or exalt something.",
+          "notes": "Outdated transitive causation, not a reflexive retreat into woodland.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic transitive raising or lifting.",
+          "notes": "Selected Spanish source labels: transitive, outdated.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "felpudo",
+      "partOfSpeech": "adj",
+      "recordSha256": "0146e4421cc190dc2477289aecc48f01bf0b2faf25126c009007ea9c51d802c6",
+      "senseIndex": 0,
+      "frame": "plush",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Having a soft pile or nap.; Felpado variant: having a pile or plush texture, not a doormat noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Having a soft pile or nap.",
+          "notes": "Resolved felpado reference; adjective rather than doormat noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Felpado variant: having a pile or plush texture, not a doormat noun.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "fonje",
+      "partOfSpeech": "adj",
+      "recordSha256": "b2f0ece81974c516e7800d8148dda5fd2f6131a15c4c282b7b7391f235bf770d",
+      "senseIndex": 0,
+      "frame": "soft and spongy",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Yielding, soft texture.; Soft, springy material texture; adjective invariant in Spanish gender.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Yielding, soft texture.",
+          "notes": "Not merely dry or crumbly.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Soft, springy material texture; adjective invariant in Spanish gender.",
+          "notes": "Selected Spanish source usage: invariable en género.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "fuscar",
+      "partOfSpeech": "verb",
+      "recordSha256": "579e9df9ce10b4b424559da777dd344eec244cae6893d47cce958f6e24778651",
+      "senseIndex": 0,
+      "frame": "darken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make something darker.; Archaic transitive obscuring.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Make something darker.",
+          "notes": "Outdated transitive actor, not a patient darkening by itself.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic transitive obscuring.",
+          "notes": "Selected Spanish source labels: transitive, outdated.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "félido",
+      "partOfSpeech": "adj",
+      "recordSha256": "fec5b5328c57d042e371f409ff064321f18020dbb46d519a40d2f58dce87db61",
+      "senseIndex": 0,
+      "frame": "felid",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Relating to the Felidae family.; Relating to the cat family, including domestic cats and big cats.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Relating to the Felidae family.",
+          "notes": "Zoological adjective for the cat family.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to the cat family, including domestic cats and big cats.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "hito",
+      "partOfSpeech": "adj",
+      "recordSha256": "6847db988b29eaabde150415dab9aa2234d468c1f28f790c117372ef409ce5fd",
+      "senseIndex": 0,
+      "frame": "unwavering",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Not wavering or moving.; Archaic steady or motionless sense; not a milestone noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Not wavering or moving.",
+          "notes": "Outdated adjective, not milestone noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic steady or motionless sense; not a milestone noun.",
+          "notes": "Selected Spanish source labels: outdated.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "hoscoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "49e1331e3337fba9ebb37c8c71636e6895000e5f90115dc5c5a8c1a53a9fdbfb",
+      "senseIndex": 0,
+      "frame": "prickly",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Covered with spines or unpleasant to touch.; Archaic thorn-covered or unpleasant-to-touch sense, not the separately described cattle coloration.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Covered with spines or unpleasant to touch.",
+          "notes": "Outdated tactile sense; not the distinct cattle coat pattern.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic thorn-covered or unpleasant-to-touch sense, not the separately described cattle coloration.",
+          "notes": "Selected Spanish source labels: outdated.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "ilativo",
+      "partOfSpeech": "adj",
+      "recordSha256": "9038b360d376d1e3be71381560c99f0788dbd6cb71701a772666ec4300ef716a",
+      "senseIndex": 1,
+      "frame": "inferential",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Relating to logical connection or inference.; Relating to a logical connection or inference; not the separate inward-motion grammatical case.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Relating to logical connection or inference.",
+          "notes": "Not the separate inward-motion grammatical case.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to a logical connection or inference; not the separate inward-motion grammatical case.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "infernar",
+      "partOfSpeech": "verb",
+      "recordSha256": "774fecd78cea6159244011ef5fcbb168f048d9b9edaab41ee50503c671829ce3",
+      "senseIndex": 1,
+      "frame": "irritate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Disturb or annoy another.; Transitive disturb or vex another; not pronominal self-agitation.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Disturb or annoy another.",
+          "notes": "Transitive causer, not an assumed self-condemning patient.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Transitive disturb or vex another; not pronominal self-agitation.",
+          "notes": "Selected Spanish source labels: transitive, pronominal. Select the independently supported transitive reading, not an unsupported pronominal substitution.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "intensar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0e8c9aa6969294845acf4fe93be03910f014707b2bd40f9b743b87a06606c531",
+      "senseIndex": 0,
+      "frame": "intensify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make something more intense.; Little-used variant of intensificar; transitive intensification, not a reflexive shortcut.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Make something more intense.",
+          "notes": "Uncommon variant of intensificar; transitive causer, pronominal alternative separately guarded.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Little-used variant of intensificar; transitive intensification, not a reflexive shortcut.",
+          "notes": "Selected Spanish source labels: transitive, pronominal. Select the independently supported transitive reading, not an unsupported pronominal substitution.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "javo",
+      "partOfSpeech": "adj",
+      "recordSha256": "32a9998ab5671b2934293d0f487eb897b50f92c380d92adfc030f0a44b5ebca0",
+      "senseIndex": 1,
+      "frame": "Javanese",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of or relating to Java.; Relating to Java; adjective, not an invented personal-name translation.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of or relating to Java.",
+          "notes": "Geographical adjective, not the programming language Java.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to Java; adjective, not an invented personal-name translation.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "juncino",
+      "partOfSpeech": "adj",
+      "recordSha256": "96ea30123740aec7f438dc4214e829319f97124de37d5f19aff16eee3434d5e7",
+      "senseIndex": 0,
+      "frame": "made of rushes",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Composed of rush plant material.; Constructed from rush stems.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Composed of rush plant material.",
+          "notes": "Not haste or an urgent action.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Constructed from rush stems.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "lacón",
+      "partOfSpeech": "adj",
+      "recordSha256": "940e78c95dbac28fc72a79036bcbacf2d3f5121c73602827ab91675ddec71cf2",
+      "senseIndex": 1,
+      "frame": "Laconian",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Relating to Laconia, its people or language.; Relating to Laconia, its inhabitants or their language; not ham or a personal name.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Relating to Laconia, its people or language.",
+          "notes": "Geographical adjective, not terse speech as a different sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to Laconia, its inhabitants or their language; not ham or a personal name.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "ladillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6aca7ef98d4a479d580d07ab98a1c4399f09756b2baf9fdd05e6cfceaf5dfea3",
+      "senseIndex": 0,
+      "frame": "pester",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Persistently annoy or weary another.; Venezuelan vulgar persistent annoyance; human causer supported.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Persistently annoy or weary another.",
+          "notes": "Venezuelan vulgar usage; human causer rather than an inferred pest insect.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Venezuelan vulgar persistent annoyance; human causer supported.",
+          "notes": "Selected Spanish source labels: transitive, Venezuela, vulgar.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "lardoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "ac251aaf47aab3fc303492f071217f94ebad2815277f0bd3ceb4c7b57bb71a1b",
+      "senseIndex": 0,
+      "frame": "greasy",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Containing or covered with grease or lard.; Containing or covered with fat or lard.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Containing or covered with grease or lard.",
+          "notes": "Material condition.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Containing or covered with fat or lard.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "lentecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "d5881d38a03edd89d15420c8bcc9460d3c894262cfbf9b435494955fc4c609d1",
+      "senseIndex": 0,
+      "frame": "soften",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Material becomes soft or flexible.; Rare intransitive material becoming soft or flexible; not human causative softening.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Material becomes soft or flexible.",
+          "notes": "Rare intransitive patient change, not a person making another soft.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Rare intransitive material becoming soft or flexible; not human causative softening.",
+          "notes": "Selected Spanish source labels: intransitive, rare. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "lucroso",
+      "partOfSpeech": "adj",
+      "recordSha256": "3c9dbf47dc7171af0052f00ecfa2a74c5a58da99bd11368ec6cf76ed6b7a86de",
+      "senseIndex": 0,
+      "frame": "profitable",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Producing financial gain.; Generating a financial gain.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Producing financial gain.",
+          "notes": "Not a guarantee of net return in any real transaction.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Generating a financial gain.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "lupino",
+      "partOfSpeech": "adj",
+      "recordSha256": "fd1e60555bedecc3bda9e1f6cca983eb4344b796988a0129ee56a6334eb971ba",
+      "senseIndex": 0,
+      "frame": "lupine",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of or relating to wolves.; Relating to wolves; not the lupin plant noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of or relating to wolves.",
+          "notes": "Wolf-related adjective, not the flowering plant homograph.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to wolves; not the lupin plant noun.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "lúteo",
+      "partOfSpeech": "adj",
+      "recordSha256": "52538eca0f5ff109d62b7841b03e30ec9fad8db4c1c481341e186c9d3a334933",
+      "senseIndex": 0,
+      "frame": "yellow",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of a yellow color.; Literary color sense, not the separate mud/clay homograph.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of a yellow color.",
+          "notes": "Literary color sense, not the separate muddy etymology.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Literary color sense, not the separate mud/clay homograph.",
+          "notes": "Selected Spanish source labels: literary. Selected Spanish source usage: Colores.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "malucho",
+      "partOfSpeech": "adj",
+      "recordSha256": "585486f83c0696ce5a016c58f402428961352aa96ccdbb27e5e3e6ec7e7ede00",
+      "senseIndex": 0,
+      "frame": "slightly unwell",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "A little ill or low in spirits.; Colloquial somewhat ill or low in spirits.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A little ill or low in spirits.",
+          "notes": "Colloquial usage.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Colloquial somewhat ill or low in spirits.",
+          "notes": "Selected Spanish source labels: colloquial.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "maluco",
+      "partOfSpeech": "adj",
+      "recordSha256": "a41e11ac1fbc164a3d184717c9a1d4763cc33a0bbe9a1a7e2f1a6430a4d0b699",
+      "senseIndex": 0,
+      "frame": "slightly unwell",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "A little ill or low in spirits.; Colloquial somewhat ill or low in spirits; distinct from Moluccan origin.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A little ill or low in spirits.",
+          "notes": "Colloquial personal state; not the unrelated Moluccan adjective.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Colloquial somewhat ill or low in spirits; distinct from Moluccan origin.",
+          "notes": "Selected Spanish source labels: colloquial.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "mamantar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4ff91654d9f3efc816b61f72e6826b7328a2611cde43af31f05987e53e51ea74",
+      "senseIndex": 0,
+      "frame": "breastfeed",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Offer the breast to an infant to take milk.; Rural Mexico/Nicaragua: provide a breast for an infant to suck milk; caregiver, not infant suckling, is the agent.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Offer the breast to an infant to take milk.",
+          "notes": "Rural Mexico and Nicaragua; caregiver rather than suckling infant.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Rural Mexico/Nicaragua: provide a breast for an infant to suck milk; caregiver, not infant suckling, is the agent.",
+          "notes": "Selected Spanish source labels: transitive, Mexico, Nicaragua. Selected Spanish source usage: rural.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "mirrado",
+      "partOfSpeech": "adj",
+      "recordSha256": "c54c3d3102a2fba10dbc912263cde634d172e76b709193162c6a11ded3419e58",
+      "senseIndex": 0,
+      "frame": "containing myrrh",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Having the aromatic substance myrrh.; Containing the aromatic resin myrrh.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Having the aromatic substance myrrh.",
+          "notes": "No claim about a medicinal effect.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Containing the aromatic resin myrrh.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "mirtino",
+      "partOfSpeech": "adj",
+      "recordSha256": "7f688d211be2494edae7ae662cd6e91dec9d26eb2cfede702b9934f25f73870e",
+      "senseIndex": 0,
+      "frame": "made of myrtle",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Composed of myrtle material.; Made from myrtle, not a personal-name translation.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Composed of myrtle material.",
+          "notes": "Selected material reading, not mere resemblance.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Made from myrtle, not a personal-name translation.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "mizo",
+      "partOfSpeech": "adj",
+      "recordSha256": "7ea56da8788dc4b99b3644446d0b8717b65e918c8a6de9b928d3c1e29dd936f0",
+      "senseIndex": 0,
+      "frame": "left-handed",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Having the left hand as the more skilled hand.; Historical Germanía criminal cant, not a claim about contemporary neutral Mexican usage.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Having the left hand as the more skilled hand.",
+          "notes": "Not the distinct missing-arm sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Historical Germanía criminal cant, not a claim about contemporary neutral Mexican usage.",
+          "notes": "Historical Germanía cant.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "morrudo",
+      "partOfSpeech": "adj",
+      "recordSha256": "9a0af74fdd15716aa72601e6fc52b0228d6ae0323a5afb013f7a642b92580f7e",
+      "senseIndex": 2,
+      "frame": "burly",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "A stout, solidly built person.; Selected description of a stout, robust person, not snout size.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A stout, solidly built person.",
+          "notes": "Explicit personal physique reading, not animal snout-only property.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Selected description of a stout, robust person, not snout size.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "mulso",
+      "partOfSpeech": "adj",
+      "recordSha256": "06aa298a110b3ccda71923033d907b6ff991b0a36ea7c23705199be37092b258",
+      "senseIndex": 0,
+      "frame": "mixed with honey or sugar",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Sweetened by mixing with honey or sugar.; Sweetened or mixed with the stated substances.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Sweetened by mixing with honey or sugar.",
+          "notes": "Not every sweet flavor regardless of composition.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Sweetened or mixed with the stated substances.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "musar",
+      "partOfSpeech": "verb",
+      "recordSha256": "970790e8b1459483a9ed0f910bb4eb587de89138850ab589135bd04fdf68547f",
+      "senseIndex": 0,
+      "frame": "wait",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Await something.; Archaic waiting or awaiting.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Await something.",
+          "notes": "Outdated intransitive usage.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic waiting or awaiting.",
+          "notes": "Selected Spanish source labels: intransitive, outdated.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "nuestro",
+      "partOfSpeech": "adj",
+      "recordSha256": "09f4e01478c6522040b17bb9816cc2f245607c1d48ca9de61686558daf5a92bc",
+      "senseIndex": 0,
+      "frame": "our",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Belonging to the speaker and others.; First-person plural possession; English is invariant under Spanish gender/number agreement.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Belonging to the speaker and others.",
+          "notes": "First-person plural possessor; English attributive form invariant.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "First-person plural possession; English is invariant under Spanish gender/number agreement.",
+          "notes": "Selected Spanish source labels: possessive.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "orinecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "326dda9c3e232febb9f6a4e20ae5f2dbd9a099ee65ae0e7be6c60d08ef22eba1",
+      "senseIndex": 0,
+      "frame": "rust",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Iron becomes covered with reddish rust.; Iron becoming covered with rust; source permits nonreflexive intransitive use.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Iron becomes covered with reddish rust.",
+          "notes": "Literal corroding material; no personal rusting figurative inferred.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Iron becoming covered with rust; source permits nonreflexive intransitive use.",
+          "notes": "Selected Spanish source labels: intransitive, pronominal. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "pachón",
+      "partOfSpeech": "adj",
+      "recordSha256": "d5b4a353917f35f37e30dd7e2c0ba86d824524af86009855b3285227345b6271",
+      "senseIndex": 0,
+      "frame": "soft and fluffy",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Soft, padded or spongy in texture.; Mexican soft, padded or spongy texture; not the other hair or body-weight senses.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Soft, padded or spongy in texture.",
+          "notes": "Mexican adjective, not the separate overweight or long-haired senses.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Mexican soft, padded or spongy texture; not the other hair or body-weight senses.",
+          "notes": "Selected Spanish source labels: Mexico.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "peor",
+      "partOfSpeech": "adj",
+      "recordSha256": "52855cd1d4c008e27709f8a33ed486b03e96698f1007ce2e18bbe438eb2f3c8e",
+      "senseIndex": 0,
+      "frame": "worse",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Irregular comparative of bad.; Irregular comparative of bad; adjective invariant in Spanish gender.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Irregular comparative of bad.",
+          "notes": "English comparative invariant; not worst superlative.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Irregular comparative of bad; adjective invariant in Spanish gender.",
+          "notes": "Selected Spanish source usage: invariable en género.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "podrecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "4dabd9dc9d493fbb7f9aec308f9a9ccf0046ddafd602ff8bfc95d9b2670dcd54",
+      "senseIndex": 0,
+      "frame": "rot",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause something to decay.; Archaic transitive pudrir variant: cause something to rot, rather than a forced self-reflexive reading.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Cause something to decay.",
+          "notes": "Antiquated variant of pudrir; explicit transitive causer, not automatically a patient rotting by itself.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic transitive pudrir variant: cause something to rot, rather than a forced self-reflexive reading.",
+          "notes": "Selected Spanish source labels: transitive, pronominal. Select the independently supported transitive reading, not an unsupported pronominal substitution.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "pubescer",
+      "partOfSpeech": "verb",
+      "recordSha256": "59029fa2cfa1572a67c5f3effedbbb2268c66cd7773c8f897dad43c164b8e19e",
+      "senseIndex": 0,
+      "frame": "reach puberty",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A person enters puberty.; Human biological development; source's transitive tag does not change the clear semantic subject.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A person enters puberty.",
+          "notes": "Human developmental subject; transitive header does not imply making another person mature.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Human biological development; source's transitive tag does not change the clear semantic subject.",
+          "notes": "Selected Spanish source labels: transitive.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "recochar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a233d8306a2752149afea93aa21a7c8c53d96a4666ba1f6bb534b37c3c67a7c5",
+      "senseIndex": 1,
+      "frame": "joke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make jokes, sometimes annoying others.; Colombian colloquial joking, sometimes annoying another person.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Make jokes, sometimes annoying others.",
+          "notes": "Colombian colloquial usage; not every joke necessarily harmful.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Colombian colloquial joking, sometimes annoying another person.",
+          "notes": "Selected Spanish source labels: intransitive, Colombia, colloquial.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "recocho",
+      "partOfSpeech": "adj",
+      "recordSha256": "06ddc0001cd0ab710b7e20714ac1fd6b8edb9a6fa9d6a9e89868bda2af568b50",
+      "senseIndex": 0,
+      "frame": "thoroughly cooked",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Cooked very well or recooked.; Very cooked or cooked again; selected adjective, not an inferred food noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Cooked very well or recooked.",
+          "notes": "Adjectival degree of cooking; not an independently generated verb tense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Very cooked or cooked again; selected adjective, not an inferred food noun.",
+          "notes": "Selected Spanish source labels: noun.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "retostar",
+      "partOfSpeech": "verb",
+      "recordSha256": "dab25d44e013dc807f3f589d2c2c93be852e2887f3c5b5968ddb62a816936299",
+      "senseIndex": 0,
+      "frame": "toast again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Toast something a second time.; Repeat toasting; not necessarily burning excessively.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Toast something a second time.",
+          "notes": "Repetition, not necessarily excessive burning.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Repeat toasting; not necessarily burning excessively.",
+          "notes": "Selected Spanish source labels: transitive.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "rosar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cf28dd98b15c9fe674222a501e8d98a1a70d0904947e445c6a0069977dfebe91",
+      "senseIndex": 0,
+      "frame": "dew",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dew falls or forms.; Asturian rural weather verb: dew forms or falls; no human or formal-you subject.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Dew falls or forms.",
+          "notes": "Rural Asturian impersonal weather sense; English dew used as a weather verb.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Asturian rural weather verb: dew forms or falls; no human or formal-you subject.",
+          "notes": "Selected Spanish source labels: Asturias. Selected Spanish source usage: rural. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "rubro",
+      "partOfSpeech": "adj",
+      "recordSha256": "100ec1a36cf4dff009abc7862b4f542ab372971c5f3cd58954b6c5c459c1c0c1",
+      "senseIndex": 0,
+      "frame": "red",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Of a red color.; Literary/archaic blood-red or sunset-red color sense; not the noun heading/category.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Of a red color.",
+          "notes": "Literary and outdated color adjective, not a modern business heading noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Literary/archaic blood-red or sunset-red color sense; not the noun heading/category.",
+          "notes": "Selected Spanish source labels: literary, noun, outdated. Selected Spanish source usage: Colores.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "rábido",
+      "partOfSpeech": "adj",
+      "recordSha256": "45cc1c9d05a788b8a73ccdd7da58bc13b745273a2fa586817b04c286d1e1ebe3",
+      "senseIndex": 0,
+      "frame": "furious",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Rabidly angry or violent.; Violent or enraged; not an unsupported diagnosis of rabies.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Rabidly angry or violent.",
+          "notes": "Selected violent disposition, not a diagnosis of rabies.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Violent or enraged; not an unsupported diagnosis of rabies.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "sequizo",
+      "partOfSpeech": "adj",
+      "recordSha256": "309b4eb040b39da0742cefd961c768785256939a7374d4f3d6235473a8cd96e4",
+      "senseIndex": 0,
+      "frame": "prone to drying out",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Readily becoming dry.; A tendency to become dry.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Readily becoming dry.",
+          "notes": "Tendency, not a current dry state.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "A tendency to become dry.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "seteno",
+      "partOfSpeech": "adj",
+      "recordSha256": "bfbdb1516cf78be5dddd0085e59752e0ff464f5900cd2ea77f02ef1cc414483e",
+      "senseIndex": 0,
+      "frame": "seventh",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Ordinal position seven.; Archaic septeno variant with the ordinal meaning explicitly supplied.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Ordinal position seven.",
+          "notes": "Outdated variant of septeno; not every unrelated sevenfold use.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic septeno variant with the ordinal meaning explicitly supplied.",
+          "notes": "Selected Spanish source labels: outdated.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "tablero",
+      "partOfSpeech": "adj",
+      "recordSha256": "46ead2410121bf40875d82822bacd189c82c59a2a155de18d116a89fed1ccf5f",
+      "senseIndex": 0,
+      "frame": "suitable for sawing into boards",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Timber appropriate for producing boards.; Woodworking description of timber; not a game board noun.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Timber appropriate for producing boards.",
+          "notes": "Wood property, not a board-game noun.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Woodworking description of timber; not a game board noun.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "tallecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "95bafa8a84a2cfb41cfca667cb17a4e9bd93fab8d321796adfbb9d0a14fa8ed0",
+      "senseIndex": 0,
+      "frame": "sprout stems",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A plant, bulb or tuber puts out stems or shoots.; Plant, bulb or tuber producing shoots; no invented human metaphor.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "A plant, bulb or tuber puts out stems or shoots.",
+          "notes": "Literal plant agent.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Plant, bulb or tuber producing shoots; no invented human metaphor.",
+          "notes": "Selected Spanish source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "tiznero",
+      "partOfSpeech": "adj",
+      "recordSha256": "f0180b904f31a9255cd4f04a01165ee1363e71ca6a3fe24d10e5ecc46d1c7346",
+      "senseIndex": 0,
+      "frame": "soot-staining",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Causing stains with soot.; Causing soot marks on something, not simply being covered in soot.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Causing stains with soot.",
+          "notes": "Causing property, not merely being stained.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Causing soot marks on something, not simply being covered in soot.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "trasoñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "494a28e7f7b815d2d60e64618322042dbce0a4e88bda5e7f5419ad65e9da198c",
+      "senseIndex": 0,
+      "frame": "misconceive",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Take something mistaken as if it were real, as in a dream.; Take an erroneous idea for reality, as in dreaming.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Take something mistaken as if it were real, as in a dream.",
+          "notes": "Human mistaken conception, not necessarily dreaming in sleep.",
+          "aspectModes": [
+            "state-past",
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Take an erroneous idea for reality, as in dreaming.",
+          "notes": "Selected Spanish source labels: transitive.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "tremoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "ccabb5268c9b3b2f2a1c90618522984c8e126d942aa98d57b6b72218243a065d",
+      "senseIndex": 0,
+      "frame": "trembling",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Moving in brief repeated shakes.; Moving with brief repeated shakes; not necessarily afraid.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Moving in brief repeated shakes.",
+          "notes": "Adjectival movement; no new finite conjugation inferred.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Moving with brief repeated shakes; not necessarily afraid.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "tuitivo",
+      "partOfSpeech": "adj",
+      "recordSha256": "855596524569d8a69fa664712147fd5f202d7011965070465054ae300e337113",
+      "senseIndex": 0,
+      "frame": "protective",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Defending or providing protection.; Legal defending or safeguarding sense.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Defending or providing protection.",
+          "notes": "Legal source context retained.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Legal defending or safeguarding sense.",
+          "notes": "Selected Spanish source usage: Derecho.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "urente",
+      "partOfSpeech": "adj",
+      "recordSha256": "04f176d62cf68a36684fe9a243f093618ff552e17bc4434933f2a75c1d7db5bb",
+      "senseIndex": 0,
+      "frame": "burning or stinging",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Causing a burning or stinging sensation.; Causing a burning sensation; adjective invariant in Spanish gender.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Causing a burning or stinging sensation.",
+          "notes": "Sensation, not necessarily literal combustion.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Causing a burning sensation; adjective invariant in Spanish gender.",
+          "notes": "Selected Spanish source usage: invariable en género.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "vejecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "ace93221bc7ef307b6141e199253ced22ab17dbac3ab9e20625320aceff58ffc",
+      "senseIndex": 0,
+      "frame": "age",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Grow old.; Archaic intransitive envejecer variant: become older; human aging is supported.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Grow old.",
+          "notes": "Antiquated envejecer variant; explicit intransitive human aging, not assumed causation.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Archaic intransitive envejecer variant: become older; human aging is supported.",
+          "notes": "Selected Spanish source labels: intransitive, pronominal.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "verdecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "2016a7097e4ce70fe4fc2eff1edfb294231491f0446a27d3fc9269912df4a246",
+      "senseIndex": 0,
+      "frame": "turn green",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Trees develop green leaves or ground becomes grass-covered.; Literal trees or land becoming green with growth; no unreviewed human metaphor.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Trees develop green leaves or ground becomes grass-covered.",
+          "notes": "Literal vegetation or ground subject; no invented personal greening.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Literal trees or land becoming green with growth; no unreviewed human metaphor.",
+          "notes": "Selected Spanish source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "visorio",
+      "partOfSpeech": "adj",
+      "recordSha256": "21087334975b3f38a886c0052608ec79f9791fc21396d979764fccdbc2ab1a02",
+      "senseIndex": 0,
+      "frame": "visual",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Relating to sight and serving as an instrument for seeing.; Relating to sight or serving as an instrument for seeing.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Relating to sight and serving as an instrument for seeing.",
+          "notes": "Instrumental sight sense, not every visible object.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Relating to sight or serving as an instrument for seeing.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "yente",
+      "partOfSpeech": "adj",
+      "recordSha256": "d5d190e207e5a72e75cca45b3f8008b61989a8c02fd19ce05a0928008d6291ab",
+      "senseIndex": 0,
+      "frame": "going",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "That which goes.; Describing someone or something that goes; Spanish adjective invariant in gender.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "That which goes.",
+          "notes": "Adjective only; no invented destination or independent finite predicate.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Describing someone or something that goes; Spanish adjective invariant in gender.",
+          "notes": "Selected Spanish source usage: invariable en género.",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "zarzoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "6c8308e05b3ff0edfd2fda2d18abd1933a505b28db0290cd8aaa9ec5ce410d81",
+      "senseIndex": 0,
+      "frame": "bramble-covered",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Containing or covered with brambles.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Containing or covered with brambles.",
+          "notes": "Vegetation property.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Containing or covered with brambles.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    },
+    {
+      "spanish": "zorrero",
+      "partOfSpeech": "adj",
+      "recordSha256": "cab0b8d70ad47f6246d6915b0996c7bee00a780d86f5be09bec7dfd0e9b9cae0",
+      "senseIndex": 0,
+      "frame": "cunning",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "Crafty or deceptively shrewd.; Crafty or sly; not fox hunting or a sluggish vessel.",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "Crafty or deceptively shrewd.",
+          "notes": "Not the distinct slow-sailing vessel sense.",
+          "aspectModes": []
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "Crafty or sly; not fox hunting or a sluggish vessel.",
+          "notes": "",
+          "aspectModes": []
+        }
+      ]
+    }
+  ],
+  "withheld": [
+    {
+      "spanish": "abayado",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "abujar",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "agallarse",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "agatino",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "alible",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "amohecer",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "ayudarse",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "bocal",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "bohordar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "bribar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "cienoso",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "cuanto",
+      "partOfSpeech": "adj",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "denario",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "endentar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "ensenar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "este",
+      "partOfSpeech": "adj",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "estivo",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "evanecer",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "frutecer",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "fusco",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "gestero",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "gorrino",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "gredoso",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "gímnico",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "herbecer",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "hurgón",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "héctico",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "inhestar",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "jemal",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "lináceo",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "líneo",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "mareoso",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "mío",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "napar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "nervino",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "ninguno",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "ocal",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "oledero",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "oledor",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "pealar",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "pitarse",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "refriar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "regañir",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "rehurtarse",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "relingar",
+      "partOfSpeech": "verb",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "remilgarse",
+      "partOfSpeech": "verb",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "santón",
+      "partOfSpeech": "adj",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "sutorio",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "suyo",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "tanto",
+      "partOfSpeech": "adj",
+      "reason": "Not independently approved by both reviewers"
+    },
+    {
+      "spanish": "unidor",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "zarposo",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    },
+    {
+      "spanish": "zato",
+      "partOfSpeech": "adj",
+      "reason": "Exact selected record/sense/frame/profile differs or requires pronominal construction"
+    }
+  ],
+  "counts": {
+    "candidateRoots": 135,
+    "safeSelectedFrames": 82,
+    "withheldRoots": 53
+  }
+}

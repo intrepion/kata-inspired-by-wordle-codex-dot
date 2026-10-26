@@ -1,0 +1,725 @@
+{
+  "inputSha256": "66966f33bdf3fb2007f237ef706316eed2d3c8f95c56885509bd12a293e76696",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model review of every28 exact function-word reading, agreement/number/deixis/relative/possessive scope and explicit source corrections. Exact retained English form/lemma objects checked;29 Spanish raw records freshly replayed. No fresh English archive replay, native-human certification or generic morphology authority.",
+  "approved": [
+    {
+      "recordIndex": 0,
+      "word": "AQUELLA",
+      "partOfSpeech": "det",
+      "english": "that (over there)",
+      "context": "Feminine singular determiner: a grammatically feminine noun at some distance; English does not encode its grammatical gender.",
+      "wordRecordSha256": "ae8f68513c6e0fd1fb2e7323cb406e2af6814010f7955f8196fb51da53d120be",
+      "wordSenseIndex": 0,
+      "lemma": "aquel",
+      "lemmaRecordSha256": "153a4670ae18d54c5b95a7ed12566bc4c5671301edf9f3092da639959eab7d88",
+      "lemmaSenseIndex": 0,
+      "notes": "Selected distant feminine singular determiner that; does not encode biological gender in English."
+    },
+    {
+      "recordIndex": 1,
+      "word": "AQUÉLLA",
+      "partOfSpeech": "pron",
+      "english": "that one (over there)",
+      "context": "Feminine singular demonstrative pronoun, selected distant referent. Retains the exact accented source spelling; this is not a claim that the accent is required in current writing.",
+      "wordRecordSha256": "303ab9df85ac62a45dc56f128c892dce167f0bf5468e98c84fb61e28b2407c61",
+      "wordSenseIndex": 0,
+      "lemma": "aquél",
+      "lemmaRecordSha256": "4d839f6915627aaf07f315e6f3d92abad13da3bc67262bc5376e543fef2ca530",
+      "lemmaSenseIndex": 0,
+      "notes": "Selected feminine singular distal demonstrative pronoun that one; exact accented spelling retained without a modern accent mandate."
+    },
+    {
+      "recordIndex": 2,
+      "word": "CUALES",
+      "partOfSpeech": "pron",
+      "english": "which",
+      "context": "Plural relative pronoun, normally in los cuales or las cuales; refers to plural antecedents. Not accented interrogative cuáles. Retains the English source formal/literary relative reading; Spanish cual sense 1 confirms the relative connection.",
+      "wordRecordSha256": "8e0026bf92b70aa151149704d871c21fece059e489447aa589113e2abf35eb26",
+      "wordSenseIndex": 0,
+      "lemma": "cual",
+      "lemmaRecordSha256": "33134540d139d8a948042a8c267e44471e8fd07d3548bc63e24e6b332537debe",
+      "lemmaSenseIndex": 0,
+      "notes": "Relative which with plural antecedents, normally los/las cuales. Not interrogative cuáles; Spanish corroborating relative record supports the connection, not blanket reuse of suchlike."
+    },
+    {
+      "recordIndex": 3,
+      "word": "CUANTA",
+      "partOfSpeech": "det",
+      "english": "as much; however much",
+      "context": "Unaccented relative/quantity determiner modifying a feminine singular noun; selected amount reading, not interrogative cuánta or the separate unos cuantos construction.",
+      "wordRecordSha256": "0cd1337fd829a16f27b425029520c9556026784f925521949b6b5cd9fc531145",
+      "wordSenseIndex": 0,
+      "lemma": "cuanto",
+      "lemmaRecordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+      "lemmaSenseIndex": 0,
+      "notes": "Selected feminine singular amount-relative reading as much/however much; not accented interrogative or other cuanto constructions."
+    },
+    {
+      "recordIndex": 4,
+      "word": "CUANTAS",
+      "partOfSpeech": "det",
+      "english": "as many; however many",
+      "context": "Unaccented feminine plural relative/quantity determiner; plural count reading, not interrogative cuántas or unos cuantos.",
+      "wordRecordSha256": "92bd93cbe31ffb9f06c4a8006ee91c72a3c27250419a52feb578cb0e3739a011",
+      "wordSenseIndex": 0,
+      "lemma": "cuanto",
+      "lemmaRecordSha256": "f361b08d2f683b810328c4d088d8c9a4232f8bc23b8ed7e0d527b834c574f1f1",
+      "lemmaSenseIndex": 0,
+      "notes": "Selected feminine plural count-relative as many/however many; no automatic singular English much."
+    },
+    {
+      "recordIndex": 5,
+      "word": "CUYAS",
+      "partOfSpeech": "det",
+      "english": "whose",
+      "context": "Relative possessive determiner. Feminine plural agreement is with the things possessed, not the owner. Does not identify the owner as female or plural. Retains source formal label.",
+      "wordRecordSha256": "f69a9868c5fc68751455d8bf42baef1a51da33d6e1a3f3b92c893a8c5cf8840b",
+      "wordSenseIndex": 0,
+      "lemma": "cuyo",
+      "lemmaRecordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+      "lemmaSenseIndex": 0,
+      "notes": "Whose is relative possessive; feminine plural agrees with possessed nouns, never owner sex/number."
+    },
+    {
+      "recordIndex": 6,
+      "word": "CUYOS",
+      "partOfSpeech": "det",
+      "english": "whose",
+      "context": "Relative possessive determiner. Masculine plural agreement is with the things possessed, not the owner. Does not identify the owner as male or plural. Retains source formal label.",
+      "wordRecordSha256": "a391c41d0d8ef02a9f2c1d3cebf3756fe4667f3bca5a954e470c9d1d7cd94c61",
+      "wordSenseIndex": 0,
+      "lemma": "cuyo",
+      "lemmaRecordSha256": "0182a9232a0458b318cdb5d27a8194476958dacf27f0cf54124024bc4ec4cb8d",
+      "lemmaSenseIndex": 0,
+      "notes": "Whose is relative possessive; masculine plural agrees with possessed nouns, never owner sex/number."
+    },
+    {
+      "recordIndex": 7,
+      "word": "CUÁNTA",
+      "partOfSpeech": "det",
+      "english": "how much",
+      "context": "Accented feminine singular interrogative/exclamative quantity determiner; selected amount reading. Not unaccented relative cuanta.",
+      "wordRecordSha256": "750cfb0982f58e57e06aaa5a8458f309e696b0d90926cf7238924400ddd85d61",
+      "wordSenseIndex": 0,
+      "lemma": "cuánto",
+      "lemmaRecordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+      "lemmaSenseIndex": 0,
+      "notes": "Accented feminine singular interrogative/exclamative amount how much; no accent folding."
+    },
+    {
+      "recordIndex": 8,
+      "word": "CUÁNTOS",
+      "partOfSpeech": "det",
+      "english": "how many",
+      "context": "Accented masculine plural interrogative/exclamative quantity determiner; plural count reading. The source stray extra form_of target “how many” is an English gloss, not an authorized Spanish lemma or alias.",
+      "wordRecordSha256": "a80eb155cd791b73bfb1e50407abcd8279a9b179d212a8506975612659330edc",
+      "wordSenseIndex": 0,
+      "lemma": "cuánto",
+      "lemmaRecordSha256": "32af6c2b670cf949adaadf94259b67656874cefaad2df010f7f58c09bcbbafcf",
+      "lemmaSenseIndex": 0,
+      "notes": "Accented masculine plural interrogative/exclamative how many. Extra form_of target how many is an English gloss error, not another Spanish lemma."
+    },
+    {
+      "recordIndex": 9,
+      "word": "ESAS",
+      "partOfSpeech": "det",
+      "english": "those",
+      "context": "Feminine plural demonstrative determiner; English number changes from lemma that to those. No biological gender inferred.",
+      "wordRecordSha256": "8162ecd8cdf761bdd6a40434821f6d80d31bd2910cffa5c9adac129a6f552134",
+      "wordSenseIndex": 0,
+      "lemma": "ese",
+      "lemmaRecordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+      "lemmaSenseIndex": 0,
+      "notes": "Feminine plural demonstrative determiner those, not that or a biological-gender inference."
+    },
+    {
+      "recordIndex": 10,
+      "word": "ESOS",
+      "partOfSpeech": "det",
+      "english": "those",
+      "context": "Masculine plural demonstrative determiner; English number changes from lemma that to those. No biological gender inferred.",
+      "wordRecordSha256": "f8889e53d2c438dbfd1abf51d3ca1c68b2eb3da857b3bbee33039b7586d48881",
+      "wordSenseIndex": 0,
+      "lemma": "ese",
+      "lemmaRecordSha256": "db2ef3bb569506ea7d167ce83fd4ccfe43b92b46b11d27b607869659831dc7da",
+      "lemmaSenseIndex": 0,
+      "notes": "Masculine plural demonstrative determiner those, not that or a biological-gender inference."
+    },
+    {
+      "recordIndex": 11,
+      "word": "ESTA",
+      "partOfSpeech": "det",
+      "english": "this",
+      "context": "Feminine singular demonstrative determiner. Not está (a verb) or the dubious unrelated FreeDict entry previously held.",
+      "wordRecordSha256": "ae50a7cd552dcc898ce1a2b1a645a8098f9bf3bdbf6ea784001fe7da49428de0",
+      "wordSenseIndex": 0,
+      "lemma": "este",
+      "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+      "lemmaSenseIndex": 0,
+      "notes": "Independent English demonstrative ESTA=this, not está verb or previously held FreeDict evidence."
+    },
+    {
+      "recordIndex": 12,
+      "word": "ESTAS",
+      "partOfSpeech": "det",
+      "english": "these",
+      "context": "Feminine plural demonstrative determiner; English number changes from lemma this to these. Not estás (a verb).",
+      "wordRecordSha256": "28e8a6f98a9b90724c6aad09c56eb50c362c2023752ed018e2dbe069cf460b33",
+      "wordSenseIndex": 0,
+      "lemma": "este",
+      "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+      "lemmaSenseIndex": 0,
+      "notes": "Feminine plural determiner these, not this or accented estás verb."
+    },
+    {
+      "recordIndex": 13,
+      "word": "ESTOS",
+      "partOfSpeech": "det",
+      "english": "these",
+      "context": "Masculine plural demonstrative determiner; English number changes from lemma this to these.",
+      "wordRecordSha256": "3d5f828ea1b2590975827c7e0c59b4adcafd5f180ff291eea76fa76db4187779",
+      "wordSenseIndex": 0,
+      "lemma": "este",
+      "lemmaRecordSha256": "d53ee011addb6ab6a696b7125ca72b02e395d1df461d0a56c856048ecc2d61d2",
+      "lemmaSenseIndex": 0,
+      "notes": "Masculine plural determiner these, not this."
+    },
+    {
+      "recordIndex": 14,
+      "word": "ESTOTRA",
+      "partOfSpeech": "pron",
+      "english": "this other one",
+      "context": "Obsolete feminine singular pronoun; preserves the lemma’s obsolete label and refers to one additional grammatically feminine referent.",
+      "wordRecordSha256": "c6cc2cd6f7ff1317173b4640a615a63959ddb596d63bc06d45fa48c9f3e56b56",
+      "wordSenseIndex": 0,
+      "lemma": "estotro",
+      "lemmaRecordSha256": "12389be76adf28222504d7fed21224f7dda33db2ba8eee5220b460a4931e066c",
+      "lemmaSenseIndex": 0,
+      "notes": "Obsolete feminine singular this other one; preserve obsolete source use."
+    },
+    {
+      "recordIndex": 15,
+      "word": "MUCHA",
+      "partOfSpeech": "det",
+      "english": "much; a lot of",
+      "context": "Feminine singular quantity determiner before a noun, selected amount reading. Grammatical gender has no English equivalent.",
+      "wordRecordSha256": "86472d01943c6db8708fe02754aec185cab9ab4c452c439414d53d4d43500443",
+      "wordSenseIndex": 0,
+      "lemma": "mucho",
+      "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+      "lemmaSenseIndex": 0,
+      "notes": "Selected feminine singular amount determiner much/a lot of. No universal noun-phrase translation rule, including collective-noun exceptions, is authorized."
+    },
+    {
+      "recordIndex": 17,
+      "word": "MUCHAS",
+      "partOfSpeech": "det",
+      "english": "many; a lot of",
+      "context": "Feminine plural count determiner before a noun. Selects the lemma’s explicit in-plural meaning rather than mechanically reusing much.",
+      "wordRecordSha256": "14affb67576437fa32311a4eceb1190dc8e63e6b17c4020a6f87984049b0e2ff",
+      "wordSenseIndex": 0,
+      "lemma": "mucho",
+      "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+      "lemmaSenseIndex": 1,
+      "notes": "Plural count determiner many/a lot of using explicit in-plural sense; contradictory pronoun analysis stays held."
+    },
+    {
+      "recordIndex": 19,
+      "word": "MUCHOS",
+      "partOfSpeech": "det",
+      "english": "many; a lot of",
+      "context": "Masculine plural count determiner before a noun. Selects the lemma’s explicit in-plural meaning rather than mechanically reusing much.",
+      "wordRecordSha256": "98128c9c25b54bc23ec2bac09f56d0790ed0b993ec7d7fc76810ebe784886530",
+      "wordSenseIndex": 0,
+      "lemma": "mucho",
+      "lemmaRecordSha256": "f64a0b8b9f0614bf1e45c4cdeb8f29334326aaad91915daa49e3d3ab48f1785d",
+      "lemmaSenseIndex": 1,
+      "notes": "Plural count determiner many/a lot of using explicit in-plural sense; contradictory pronoun analysis stays held."
+    },
+    {
+      "recordIndex": 21,
+      "word": "QUIENES",
+      "partOfSpeech": "pron",
+      "english": "who; those who",
+      "context": "Unaccented plural relative referring to people; contextually those who. Not interrogative quiénes. English who itself has no singular/plural spelling distinction; the antecedents are plural.",
+      "wordRecordSha256": "067b1793dad517b6cafb3f1d3984e32fc7c06ff20e8891b87fd653cf916d6723",
+      "wordSenseIndex": 0,
+      "lemma": "quien",
+      "lemmaRecordSha256": "36ed6a6ef09b9c5a78a5228e324f5ea7dbed08745bdc83ec12fddf6044720fc6",
+      "lemmaSenseIndex": 0,
+      "notes": "Unaccented plural people-relative who/those who, not interrogative quiénes. English who is not inflected for number."
+    },
+    {
+      "recordIndex": 22,
+      "word": "TANTA",
+      "partOfSpeech": "det",
+      "english": "so much; as much; that much",
+      "context": "Feminine singular quantity determiner, selected amount reading.",
+      "wordRecordSha256": "649554ba1d8bfdeff68f48c96ed2b61d2f8889315f20b1e5d10643941455146f",
+      "wordSenseIndex": 0,
+      "lemma": "tanto",
+      "lemmaRecordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+      "lemmaSenseIndex": 0,
+      "notes": "Feminine singular amount determiner so/as/that much; no plural many rule."
+    },
+    {
+      "recordIndex": 23,
+      "word": "TANTAS",
+      "partOfSpeech": "det",
+      "english": "so many; as many; that many",
+      "context": "Feminine plural count determiner, selecting the lemma’s explicit in-plural sense.",
+      "wordRecordSha256": "0412f8c08ff2055e639ae11bd6505fd6db56500f145956586252b05c8fc20c08",
+      "wordSenseIndex": 0,
+      "lemma": "tanto",
+      "lemmaRecordSha256": "a8c6365a9319be8b28db770e01ca187e3d6ab31fc322c16e323c5652f8400b34",
+      "lemmaSenseIndex": 1,
+      "notes": "Feminine plural count determiner so/as/that many, selected in-plural sense."
+    },
+    {
+      "recordIndex": 24,
+      "word": "TUYOS",
+      "partOfSpeech": "det",
+      "english": "your; yours",
+      "context": "Possessive for one familiar addressee (tú); grammatically masculine plural possessed items. Owner gender is unspecified. Your is normally postposed in Spanish (amigos tuyos); English ordering is not asserted to be identical.",
+      "wordRecordSha256": "651b90d31fd4c06116e2532be260c060dc86833f2dcea7e965f62e456d0f3ba4",
+      "wordSenseIndex": 0,
+      "lemma": "tuyo",
+      "lemmaRecordSha256": "b4ce3195fcb90c2825ceb90dc25ff59c1e4846f9e35d67f4d9a96286426ef849",
+      "lemmaSenseIndex": 0,
+      "notes": "TUYOS determiner refers to one familiar addressee tú; masculine plural identifies possessed nouns, not owner sex or plurality. English ordering is not a mechanical Spanish template."
+    },
+    {
+      "recordIndex": 25,
+      "word": "TUYOS",
+      "partOfSpeech": "pron",
+      "english": "yours",
+      "context": "Possessive pronoun for one familiar addressee (tú), referring to masculine plural possessed items; not multiple owners or necessarily male owners.",
+      "wordRecordSha256": "07b962297d20125ca581a754899d317733302cddb4ce92ec38bdac06848021b2",
+      "wordSenseIndex": 0,
+      "lemma": "tuyo",
+      "lemmaRecordSha256": "f7006c12feb0bf6c7f6d582b4ce5e97efde2f066aa0d7f5f910545e3f59fbf54",
+      "lemmaSenseIndex": 0,
+      "notes": "TUYOS pronoun yours, one familiar addressee; masculine plural possessed referents, not multiple or male owners."
+    },
+    {
+      "recordIndex": 26,
+      "word": "ÉSAS",
+      "partOfSpeech": "pron",
+      "english": "those ones",
+      "context": "Feminine plural demonstrative pronoun. Selected demonstrative referents, not the separate slang vocative or the former reading. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "wordRecordSha256": "d2d49d96c20d5c8bb1149fcb24952fa4799946e0a082a5a01fab867af3fffd59",
+      "wordSenseIndex": 0,
+      "lemma": "ése",
+      "lemmaRecordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+      "lemmaSenseIndex": 0,
+      "notes": "Feminine plural demonstrative those ones; do not import ése vocative slang/Mexico tags or former meaning."
+    },
+    {
+      "recordIndex": 27,
+      "word": "ÉSOS",
+      "partOfSpeech": "pron",
+      "english": "those ones",
+      "context": "Masculine plural demonstrative pronoun. Selected demonstrative referents, not the separate Mexico slang vocative or the former reading. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "wordRecordSha256": "f56b1ef392de84242ae0fd9636b0c6815c89d93231668484ed3ffea5d66caa84",
+      "wordSenseIndex": 0,
+      "lemma": "ése",
+      "lemmaRecordSha256": "69df485b549ee9df2dac051c46165bdb9670444e0481dbcc75256f9884708d78",
+      "lemmaSenseIndex": 0,
+      "notes": "Masculine plural demonstrative those ones; do not import ése vocative slang/Mexico tags or former meaning."
+    },
+    {
+      "recordIndex": 28,
+      "word": "ÉSTA",
+      "partOfSpeech": "pron",
+      "english": "this one",
+      "context": "Feminine singular demonstrative pronoun. Not the separate Spain noun-forgetting construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "wordRecordSha256": "6b63ae57ac7e872e46401fd02eadb9b4ca59fc710c832775c3446f5d4b685385",
+      "wordSenseIndex": 0,
+      "lemma": "éste",
+      "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+      "lemmaSenseIndex": 0,
+      "notes": "Feminine singular demonstrative this one; not Spain noun-forgetting construction."
+    },
+    {
+      "recordIndex": 29,
+      "word": "ÉSTAS",
+      "partOfSpeech": "pron",
+      "english": "these ones",
+      "context": "Feminine plural demonstrative pronoun; lemma this one becomes plural these ones. Not the separate Spain construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "wordRecordSha256": "71d8ff44bb7c88d07b5dc61608e8d6ccf8771ccd498e32d50a03f92595f3b16a",
+      "wordSenseIndex": 0,
+      "lemma": "éste",
+      "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+      "lemmaSenseIndex": 0,
+      "notes": "Reviewed correction: ÉSTAS=these ones. Exact English child extra those ones is erroneous; éste=this one, exact Spanish feminine-plural form corroboration and independent basic grammar support these. Preserve raw contradiction in audit, not as literal output."
+    },
+    {
+      "recordIndex": 30,
+      "word": "ÉSTOS",
+      "partOfSpeech": "pron",
+      "english": "these ones",
+      "context": "Masculine plural demonstrative pronoun; lemma this one becomes plural these ones. Not the separate Spain construction. Exact accented source spelling retained; no claim the accent is required in current writing.",
+      "wordRecordSha256": "9b4c6a5c7447000b556ee21fecbf5ac447b7e37b73f921c96b9d76509df8384c",
+      "wordSenseIndex": 0,
+      "lemma": "éste",
+      "lemmaRecordSha256": "85be3edcd486fb7536ad0f7965d5b6154a4e43a55ce15202ec2f4c06d95ee7f7",
+      "lemmaSenseIndex": 0,
+      "notes": "Masculine plural demonstrative these ones, preserving exact accented spelling without requiring that spelling in current usage."
+    }
+  ],
+  "held": [
+    {
+      "recordIndex": 16,
+      "word": "MUCHA",
+      "partOfSpeech": "pron",
+      "recordSha256": "3013d36c3a48f71eeea900344051e52099c0f456591c5c7703fb643955a342fe",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    },
+    {
+      "recordIndex": 18,
+      "word": "MUCHAS",
+      "partOfSpeech": "pron",
+      "recordSha256": "056aa55b65b58318055e271e639292192f90396436b210a53e0ab97ccd0e15f2",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    },
+    {
+      "recordIndex": 20,
+      "word": "MUCHOS",
+      "partOfSpeech": "pron",
+      "recordSha256": "ab938fa893ecbb520bdfe2b3adf1b312f54334dc0ed1f9c48009497065aad809",
+      "reason": "Withhold this pronoun analysis: retained lemma senses carry neuter restrictions while the child is gendered (MUCHA also has conflicting masculine/feminine tags). The separately proposed exact determiner analysis already supplies a useful meaning for this spelling; no need to infer a universal pronoun rule from contradictory metadata."
+    }
+  ],
+  "sourcePins": {
+    "candidateFile": "/tmp/morrowmark-function-word-gap-triage.json",
+    "candidateSha256": "ca670a7a033a662114eeb4c1ea2c7e6fb3779d36033e8c3203bb2f673b033362",
+    "englishEvidenceFile": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/english-translation-evidence.json",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "spanishCorroborationFile": "/tmp/function-word-spanish-corroboration-spec.json",
+    "spanishCorroborationSha256": "8e2f1294151a7cad2e7072a803658a7053021011818a72e6031fdfcf265e1c51",
+    "spanishRawArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "spanishReplay": "29 selected lexical records freshly matched to original Spanish gzip lines, including raw line newline hashes. Spanish pos labels may be adjective where English labels determiner; corroboration does not overwrite the retained English POS.",
+    "englishReplay": "Every form and lemma object matched the retained pinned English evidence exactly. The original multi-gigabyte English archive was not freshly replayed.",
+    "coverageAuditFile": "/tmp/morrowmark-spanish-names-next-20261025/src/data/spanish/translation-coverage-audit.json",
+    "coverageAuditSha256": "13d5a1837a7de9b800d200bc389f9919c8dca5f35a2fc2c21a8a424f9d19b94e",
+    "coverageBaseline": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51895,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4725,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 61000,
+      "missing": 15670,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2579,
+          "missing": 345
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8346,
+          "missing": 1390
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17549,
+          "missing": 4242
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32526,
+          "missing": 9693
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    }
+  },
+  "checks": {
+    "proposedAnalysesReviewed": 28,
+    "preservedHeldPronounAnalyses": 3,
+    "input31PartitionComplete": true,
+    "distinctCurrentQGapSpellings": 27,
+    "exactEnglishWordLemmaPairsVerified": 28,
+    "spanishRawRecordsReplayed": 29,
+    "wordAccentAndPOSIdentityVerified": true,
+    "actualNewCoverage": null
+  },
+  "sourceQualityAdaptations": [
+    {
+      "recordIndex": 29,
+      "word": "ÉSTAS",
+      "rawEnglishChildProblem": "those ones in child gloss/extra contradicts proximal éste=this one",
+      "approvedLiteral": "these ones",
+      "basis": "Exact source lemma, Spanish feminine-plural form corroboration and independent linguistic review; no generic contradiction override."
+    },
+    {
+      "recordIndex": 8,
+      "word": "CUÁNTOS",
+      "rawEnglishChildProblem": "Extra form_of word how many is an English gloss, not a Spanish lemma",
+      "approvedLiteral": "how many",
+      "basis": "Only selected cuánto record/sense is authorized."
+    }
+  ],
+  "productionPackagingRequirements": {
+    "preserveFrozenResearchOriginalsLocally": true,
+    "sanitizeBeforeDistributableSourceOrAudit": true,
+    "removeExamplesQuotationsMediaUnselectedSoundAndEtymologyData": true,
+    "reason": "Research Spanish corroboration objects contain full records, including third-party literary/example quotations and unrelated nonlexical material. Semantic approval does not authorize redistributing unselected quotations; production must retain only required lexical fields and raw source hashes through an explicitly bound sanitized derivative or proof projection.",
+    "nonlexicalInventory": [
+      {
+        "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+        "word": "mucho",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "proverbs",
+          "idioms",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "29f0318871f4b5266b6a3b0f64f0fae8729844a81d782e521a13fe0b57b019e5",
+        "word": "mucho",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "proverbs",
+          "idioms"
+        ]
+      },
+      {
+        "recordSha256": "f9eb23689ab21b1f9ef1ebcca094ad9f9482ba1c84bd4e287e1069454aaf9f31",
+        "word": "quien",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts"
+        ]
+      },
+      {
+        "recordSha256": "9b33eac19148b2097aa915d559aa7fc6e2046c3dc3dae7d322a04e4956ec27de",
+        "word": "cual",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "idioms",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "217776ba5b8a4ced721516981d60477a4507a4636faa6a97580bbb4715544ee1",
+        "word": "cuanto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "idioms"
+        ]
+      },
+      {
+        "recordSha256": "06c6264c1341790b7e293d321222e640ea955cf02b6e27eaf05d464bad6c173e",
+        "word": "cuanto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "idioms"
+        ]
+      },
+      {
+        "recordSha256": "6475285db10d6390da963ec27379765b6aac5a5dbaa62ae17c4b206b4e687145",
+        "word": "cuánto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "ff43904a53fea4f96390cd1e1ee5196182da16b1dfedad404a50da27703724fe",
+        "word": "cuánto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "db1b208c104eefc1279208c0ae6131a4ce04d2f2fdddf053a1ae45b92961150d",
+        "word": "cuánto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "79ddb657c12b0ae99cff5c26c6459383d3aa78da90c18e7d87c2a5a934cb2574",
+        "word": "cuánto",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "ed0b7b032f7d8731d8e2cbb5e08be4e09407b53582b6b4fb697137dffe122e30",
+        "word": "tuyo",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts"
+        ]
+      },
+      {
+        "recordSha256": "3dba63dce930c164cea0e7de88dd92bf7e5b157662036c8643e48ffcbcb2b816",
+        "word": "tuyo",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts"
+        ]
+      },
+      {
+        "recordSha256": "412a15b2bcd485cb6a18e6d3c87dca11f8ca7a6c56f91f198ab9712dbbc31f67",
+        "word": "mucha",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "b1419ebffd9748c685213e6e597e9755ebdaadada6e1e8e5e036866510a2a7a4",
+        "word": "muchos",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "a4e06b6e36f7eabd9e90118356bff4c4a2181f4132649edab0f56f3b7c405ed9",
+        "word": "muchas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "977fc44d20b2be761838109a6baf9dc98273813fb04e036373cb5f75a62731e0",
+        "word": "cuales",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "eb1226435380e88946a4b5a7a4fe62e728ee74bed55885986da2b4a30318fe2b",
+        "word": "cuantas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "97a955529d29ccb8ee2920476f02d30174141e4252713479874b5781b3abc51c",
+        "word": "cuanta",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "1bcab8f289853df1e45cca829029733156c7a24cf3a9cf98ae6288db5256aae9",
+        "word": "estos",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "41342fc81c295e1e5d25fa6970776c6efa701ede413c06722c6d06cf72269289",
+        "word": "estas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "9b67f1d10384f9e8e5945675e63e833c61fc631f04989ca6934644bbef7a177e",
+        "word": "éstas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "f7efc63b67aac50249875e736caf98c1c4ee19ed632da93ed5e15a1fec8f2b2d",
+        "word": "éstos",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "40c76bfe03f40e83edac201d69373c692a1207f8ef86fc28108f5f1ff56b3492",
+        "word": "esas",
+        "nonlexicalFieldsPresent": [
+          "sounds",
+          "etymology_texts",
+          "sense examples/quotations"
+        ]
+      },
+      {
+        "recordSha256": "cb45c7fbe00a77de04d7ef6f4c6caa51782af2f91361fda2a6b7305f68a47368",
+        "word": "esas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "0165ef1128f482ac80e3b38c1b09823fac0fba44f22a65edfc450b716d0db514",
+        "word": "esos",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "5c763de45d5e1922daed965d817991bc59c4b67679396612f809698297acfb2e",
+        "word": "ésas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "2afe3df018b42f5091cb8d7467f41bbd5cb2994026238631bad55afe493c2f70",
+        "word": "ésos",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "db98ebe350ebb9698fee6ed1898e21cef03153233a0dc543b539c97fb1bd83bc",
+        "word": "quienes",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      },
+      {
+        "recordSha256": "a453391c8d0b338fecdf4f332fb67bf467363a80b0be3facba82cb6b12c0d267",
+        "word": "tantas",
+        "nonlexicalFieldsPresent": [
+          "sounds"
+        ]
+      }
+    ],
+    "auditOnlyContextCaseworkWords": [
+      "CUALES",
+      "CUÁNTOS",
+      "ESTA",
+      "MUCHAS",
+      "MUCHOS",
+      "ÉSTAS",
+      "ÉSTOS"
+    ],
+    "displayPolicy": "Retain full reviewed contexts in audit; learner-facing context should explain grammar, not JSON form_of fields, previous FreeDict holds, coverage accounting or lemma-selection implementation."
+  },
+  "guards": [
+    "Exact per-analysis word/POS/raw hashes/sense indices/English/context only; no blind lemma replacement or other form/alias authority.",
+    "Runtime child grammar derives from the exact child: do not union masculine/singular lemma citation metadata onto feminine/plural forms. Preserve source metadata in audit.",
+    "Possessed noun/referent agreement does not identify owner sex or owner plurality; TUYOS selects one familiar addressee tú.",
+    "Preserve selected formal/literary/relative/obsolete sense labels. Do not import unrelated Mexico vocative, Spain construction, neuter pronoun or interrogative analyses.",
+    "Accented demonstrative source spellings remain distinct accepted lookup identities; no assertion of a modern accent mandate or accent folding.",
+    "Original3 MUCHO pronoun holds, ESTA FreeDict hold and all previous source-specific rejected analyses remain unchanged despite new independent determiner meanings.",
+    "Meanings are selected literal mappings, not full noun-phrase translations, examples, possible-answer changes or measured new coverage."
+  ]
+}

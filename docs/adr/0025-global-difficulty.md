@@ -1,0 +1,9 @@
+# Global difficulty
+
+Easy/Normal/Hard/Strict is a single deployment-scoped persisted preference, independent of mode, language and length. Store it under the deployment's Morrowmark root plus `.difficulty`, within the existing namespace/reset boundary. No new reset epoch or answer dataset is introduced. A missing/invalid preference adopts the currently visible notebook's existing choice; a fresh notebook defaults to Normal. Local contrast and optional Suboptimal settings remain notebook-owned.
+
+Unfinished rounds adopt the choice when opened. Hard/Strict upgrades replay each historical guess against the actual feedback preceding that guess, including adaptive feedback and duplicate constraints. This can allow a mid-round upgrade when the entire transcript already meets the selected rules. No hidden answer is used to infer restrictions beyond revealed rows.
+
+If history conflicts, preserve guesses, draft, answer, pool and assistance and pause input/advice. Explain the first conflicting submitted guess and offer a different global choice or an explicit current-round restart. Restarting affects only that round and marks it Assisted because previous clues have been seen; focus returns to the active mode control. No automatic discard or silent relaxation. A finished round keeps its difficulty and assistance, while the global preference governs other/new rounds. Assistance cannot be removed by difficulty changes.
+
+Round snapshots continue recording actual rule flags, so reload/reconstruction and share text remain accurate. The global preference is authoritative for current/new play; it does not rewrite finished results or statistics. Other Pages project namespaces are untouched. Existing all-notebook reset clears this key once along with other game-owned state; later reloads preserve it.

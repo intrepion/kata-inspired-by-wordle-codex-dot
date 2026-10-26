@@ -1,0 +1,302 @@
+{
+  "inputSha256": "0075e961f1c7cea800f02e405c7183197ad018cbc5571e35242db8ea63514bbd",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model second-author review of all fourteen unchanged word/source-sense/frame/context/feature proposals, with exact current pinned English or Spanish lemma and word-form evidence checked. Literal plural animals/plants can be referred to as they; this is an exact present-indicative exception, not a global loosening of it-only or a claim of actual new runtime coverage. No native-human certification, word-suffix inference, command, modal/aspect, arbitrary subject or source scope expansion. Preserve all selected animal/plant and rare/regional context. Expose the selected they reading and scope any source ustedes-address tag as an unselected alternative, never active address; do not emit human or formal-you clauses.",
+  "approved": [
+    {
+      "word": "BALAN",
+      "lemma": "balar",
+      "english": "they bleat",
+      "frame": "bleat",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "2ab8ddcc2fdeec68f5d2ac3fbdcdf77f9d22824061ea1ca05963e39b078fd867",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "435d8df9c53ada6bca56d04362eb68ccf428b8071a4d02743dfd3656fc039e7f",
+      "context": "sheep/goats producing their characteristic call",
+      "notes": "Sheep or goats are plural bleating agents; no human complaint or invented sound-producing operator. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "CROAN",
+      "lemma": "croar",
+      "english": "they croak",
+      "frame": "croak",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "8431e5f27543f346327f641f0a77aef32b906b0fe68569c5fc19431ad3cfeb8b",
+      "context": "frogs producing their characteristic call, not human death slang",
+      "notes": "Frogs croak; English human die/croak slang is not selected. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "OVAN",
+      "lemma": "ovar",
+      "english": "they lay eggs",
+      "frame": "lay eggs",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "d4be3a1c39fbbfd1522fce0d52096340af276a9c76b3c99b18e9fa3ecc8d440a",
+      "context": "egg-laying animals; not human ovulation",
+      "notes": "Oviparous animals lay eggs; human ovulation is not the selected English or Spanish sense. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "MUGEN",
+      "lemma": "mugir",
+      "english": "they moo",
+      "frame": "moo",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "6eab8a63389ca783c937662171277268cb52ca112592dc7c27ad44db6ea464b4",
+      "context": "cattle producing their characteristic call",
+      "notes": "Cattle moo; not first-person human mimicry. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "PÍAN",
+      "lemma": "piar",
+      "english": "they chirp",
+      "frame": "chirp",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "f2645f9349c59d5c0f8a3a17b93cce166f32fecfe2573eaa3d7b8c7a8d0ceefc",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "9985b55dbe07602d17c1ebd9dab79d25d125ca4e509904d900fdb38614975151",
+      "context": "birds/chicks producing their characteristic call",
+      "notes": "Birds or chicks chirp; retain exact NFC spelling PÍAN, not an accent-folded alias. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "MAYAN",
+      "lemma": "mayar",
+      "english": "they meow",
+      "frame": "meow",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "1d336ee0de4993324971a1beee8f3bfa3d842d15808c7046fb9f8b4d6bfd5b28",
+      "context": "cats producing their characteristic call",
+      "notes": "Cats meow; English miaow/meow are equivalent spellings, not a Mayan people adjective or weather MAYEAR. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "PACEN",
+      "lemma": "pacer",
+      "english": "they graze",
+      "frame": "graze",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "2f4ed11e9e00bb325fcfc204bef8d477fb57e346a9850ec86aaf3575887c8743",
+      "context": "grazing animals eating pasture; not farmers pasturing livestock",
+      "notes": "Animals consume pasture; a human farmer pasturing animals is a different grammatical role. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "ANIDAN",
+      "lemma": "anidar",
+      "english": "they nest",
+      "frame": "nest",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "2283fc956cc5195e2f053f934335eafa16729b86a1f122ca261ef8c98e2562fe",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "61e5410a736f9c3e2aa53681a94bf65d5c11f38c1236f41015c1d7a76572f01e",
+      "context": "birds/animals building or inhabiting nests",
+      "notes": "Literal animals build or inhabit nests; no human household metaphor is authorized. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "LADRAN",
+      "lemma": "ladrar",
+      "english": "they bark",
+      "frame": "bark",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "ea9c716eb2bbe81a0fea7b04e62ea9429935051ae968428877f9e740f1d4ab03",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "23d9bc1a15e30244572d3de4eb6370b80260f29ef773405394d3e0d75bc3c710",
+      "context": "dogs producing their characteristic call; preserve of dogs restriction",
+      "notes": "Dogs are the agents; preserve the explicit of dogs source restriction. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "MAÚLLAN",
+      "lemma": "maullar",
+      "english": "they meow",
+      "frame": "meow",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "English",
+      "lemmaRecordSha256": "f94ef242d0318ca29ab1115197b1d57d3a3e759b10c5ad4a6efbad750ae235f7",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "f3a35fc34eaa82d10384749cbefbd4d70fbbdf355a923f8a83858134a6477466",
+      "context": "cats producing their characteristic call",
+      "notes": "Literal cats meow; preserve accent and selected animal subject. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "ACEPAN",
+      "lemma": "acepar",
+      "english": "they take root",
+      "frame": "take root",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "Spanish",
+      "lemmaRecordSha256": "1fde6c12102be25caa5aafe54829cfbd63e149e2c6f6fd8d3c5c695e2596e6f6",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "3f1c04bfcae795c13a5174bc767e39acf942022a80952a6b1a26a4ae9972b408",
+      "context": "plants sending roots deeply into the soil",
+      "notes": "Plants send down roots; not human establishment or an invented gardener causing rooting. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "ACOPAN",
+      "lemma": "acopar",
+      "english": "they grow a crown",
+      "frame": "grow a crown",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "Spanish",
+      "lemmaRecordSha256": "5a0b6988ed66e4dec200f7988cb19e96a95e35fc09a5f76b9c40aad29ec368b1",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "441bd095ec8ad437ca4794a1557901d06b089c14b5b9ebfa0040423766c25e88",
+      "context": "plants developing a crown of foliage, not human coronation",
+      "notes": "Plants form a crown of foliage; no human coronation. Source also links acoparse, but the selected bare acopar definition/form is explicit; do not infer se. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "HOJECEN",
+      "lemma": "hojecer",
+      "english": "they grow leaves",
+      "frame": "grow leaves",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "Spanish",
+      "lemmaRecordSha256": "8bfac38ccc92f1bc95c8465c5b469c8a2e2aad85d238f08376bb8e42c5296a73",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "9a474b7c1ce6923c1ffeae3bbe08dae96d4598ad504eabeef027f6cb1622f335",
+      "context": "trees putting out leaves; preserve rare label",
+      "notes": "Trees put out leaves; retain rare usage. Tree remains agent despite the dative form salirle in the Spanish semantic description. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    },
+    {
+      "word": "REMUGAN",
+      "lemma": "remugar",
+      "english": "they chew cud",
+      "frame": "chew cud",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "sourceEdition": "Spanish",
+      "lemmaRecordSha256": "3c782bfc48e5febc5153e721e020a8f5876187f9bc5412095898a584ebeb0b07",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "e9cfc8c5d80501fa69c4d538026d56ce7516e216c0ec0526d83a605dbacc2daa",
+      "context": "ruminants rechewing regurgitated food",
+      "notes": "Ruminants rechew regurgitated food; no human thinking/rumination metaphor or farmer operator. Exact present indicative they-only reading; all other person, tense, mood, command and human/ustedes alternatives remain outside this approval."
+    }
+  ],
+  "held": [],
+  "weatherControlHolds": [
+    {
+      "word": "LLUEVEN",
+      "lemma": "llover",
+      "reason": "Literal rain/snow/thunder remains impersonal singular it. A regularized source plural cell does not substantiate a literal plural weather subject; no figurative objects or causes may be invented."
+    },
+    {
+      "word": "NIEVAN",
+      "lemma": "nevar",
+      "reason": "Literal rain/snow/thunder remains impersonal singular it. A regularized source plural cell does not substantiate a literal plural weather subject; no figurative objects or causes may be invented."
+    },
+    {
+      "word": "TRUENAN",
+      "lemma": "tronar",
+      "reason": "Literal rain/snow/thunder remains impersonal singular it. A regularized source plural cell does not substantiate a literal plural weather subject; no figurative objects or causes may be invented."
+    }
+  ],
+  "counts": {
+    "proposalsReviewed": 14,
+    "approved": 14,
+    "held": 0,
+    "weatherControlsWithheld": 3
+  },
+  "limitations": [
+    "Bindings apply only to the exact approved word, lemma/source records, selected sense, frame and present indicative third-person plural features.",
+    "Existing it-only restrictions remain for first/second person, formal-you, imperative, other moods/tenses and every unapproved spelling.",
+    "Do not infer plural license for impersonal weather from a conjugation table or an English regular plural verb."
+  ]
+}

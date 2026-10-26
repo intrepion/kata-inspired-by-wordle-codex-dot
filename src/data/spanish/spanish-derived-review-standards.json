@@ -1,0 +1,5887 @@
+{
+  "inputSha256": "ea944b42d27f740934de308bbc3414bf52037b28292deb4b1bd6af3a2feaf886",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic review of all 500 roots, every supplied Spanish source row and sense, in batches of 100, followed by a construction/homograph/qualifier pass. English frames and adjective glosses are original model translations of selected Spanish Wiktionary meanings from the pinned CC-BY-SA Spanish snapshot; no retained English-dictionary attribution, source quotation, invented example or native-human certification is claimed. Exact row hash and zero-based senseIndex identify each source anchor. Mandatory pronominal constructions, unclear technical references and unsupported subject profiles are withheld. Frames avoid unfilled internal object slots; generic lexical arguments expressly named by the source are not assertions of actual participants. Qualifiers are preserved in concise context/notes. No irregular English overrides are supplied, and existing grammar/subject/aspect/inflection gates remain mandatory. Lexical approvals are not rendered-word coverage and do not use RLA rule inference.",
+  "approved": [
+    {
+      "spanish": "adrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d5f32a79519ce0760bd69054cadb52c388206cb11d93d386895c08a6f01926b1",
+      "senseIndex": 0,
+      "frame": "distribute irrigation water",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "allocate water for irrigation",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ajear",
+      "partOfSpeech": "verb",
+      "recordSha256": "eaa6aef0ebc4e301502768e772b997f6eea4b62b9d958ee3bee3148fdbab790e",
+      "senseIndex": 0,
+      "frame": "swear",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "use offensive or coarse language",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "fañar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e317090975b47ab5588e40d7924f98ff17a4cadbab28baf9eae154a153d1e53f",
+      "senseIndex": 0,
+      "frame": "earmark",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark an animal’s ear by cutting it",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "groar",
+      "partOfSpeech": "verb",
+      "recordSha256": "341ead23650f021e736c724ea7a8c360ffa2bd94188df89b652601983dea7dfc",
+      "senseIndex": 0,
+      "frame": "croak",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a frog: make its characteristic call",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "bitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "55b6f315c811aa35cd8dda67fabe0c6ab22cea97300207ac06efc1220c1bde23",
+      "senseIndex": 0,
+      "frame": "secure a rope",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fasten a line around bitts or mooring posts",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "tonar",
+      "partOfSpeech": "verb",
+      "recordSha256": "31fdfc26184d9cf4e5fa0b6a7f568668200790bbdb0e77981ca709df8d328fd5",
+      "senseIndex": 0,
+      "frame": "thunder",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "impersonal weather: produce thunder or lightning; literary",
+      "notes": "Spanish source labels: intransitive, literary."
+    },
+    {
+      "spanish": "vitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "289e3d05b8b813b1a1f4b423b099bd3aab64978da1d362b3c2bcf329ae37e00d",
+      "senseIndex": 0,
+      "frame": "avoid",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "keep away from or prevent something",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "anear",
+      "partOfSpeech": "verb",
+      "recordSha256": "f3da5e67e207de984dec4707fe78f8e9732c05484e86024f5053526cca7fa550",
+      "senseIndex": 0,
+      "frame": "rock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "gently move a baby, usually in a cradle; Asturias and Cantabria",
+      "notes": "Spanish source labels: transitive, Asturias, Cantabria."
+    },
+    {
+      "spanish": "arpar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d6de22d0052523c7b392947baf5b5f563e75148df3c97135a2b24a26b0687d30",
+      "senseIndex": 0,
+      "frame": "scratch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tear or scrape with the nails",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "cunar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7a366286195277c26bf6eb0be1df7ff09eff7ee78bc313ca21badf1e21604b6e",
+      "senseIndex": 0,
+      "frame": "rock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "gently move a child in the arms or a cradle to help it sleep",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "jamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cb07ff3fec02877588b060dde6a3012e280d8b65c63adab2b7266296c259a88a",
+      "senseIndex": 0,
+      "frame": "eat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "consume food greedily; colloquial Spain",
+      "notes": "Spanish source labels: transitive, Spain, colloquial."
+    },
+    {
+      "spanish": "redar",
+      "partOfSpeech": "verb",
+      "recordSha256": "76db8fdf7ea9163236609560a96d9d24b556f63bbb648e7cda2b8916654c8219",
+      "senseIndex": 0,
+      "frame": "cast a fishing net",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "throw out a net to catch fish",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "zuñir",
+      "partOfSpeech": "verb",
+      "recordSha256": "0d7fe28143c24fa836dde47d614b265af108c6f0b77758a8867e8951edc0ac64",
+      "senseIndex": 0,
+      "frame": "smooth silver filigree",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "rub silver filigree against slate to even out roughness",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alfar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0b42a3da5465d803e47c170ee88a9471ff7f77c76a896707cffc98bbe9966419",
+      "senseIndex": 0,
+      "frame": "raise the forequarters",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a horse: lift the front of the body high while galloping",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "orzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a775f37076c5a721af2e0c0021f01622091d904c54cc9bcd29c56728f992cc32",
+      "senseIndex": 0,
+      "frame": "head upwind",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "nautical: direct a vessel’s bow toward the wind",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "merar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035",
+      "senseIndex": 0,
+      "frame": "die",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "reach the end of life; slang",
+      "notes": "Spanish source labels: intransitive, slang."
+    },
+    {
+      "spanish": "puar",
+      "partOfSpeech": "verb",
+      "recordSha256": "de766ff3a4ebcbf9989f93d1dc4f438de51ed36ad2025156a8b8d0d6a0459317",
+      "senseIndex": 0,
+      "frame": "add spikes",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "provide an object with pointed spikes, hooks or teeth",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "triar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ed964edb92bd6d23076045aa40676c8a2318ebec1a158061d356366af1b0d7d0",
+      "senseIndex": 0,
+      "frame": "select",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "take something out of a set",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "cocar",
+      "partOfSpeech": "verb",
+      "recordSha256": "447bb02b2c3d617f5611b2187987ea91afd9fd356a65b97524d2e9462e026645",
+      "senseIndex": 0,
+      "frame": "show romantic affection",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make gestures of affection typical of lovers; Spain",
+      "notes": "Spanish source labels: transitive, Spain."
+    },
+    {
+      "spanish": "gruir",
+      "partOfSpeech": "verb",
+      "recordSha256": "e53dd92fd0a225a0fc8273c6034210dcbc87b28023a51434db7b09e3f79ed7b7",
+      "senseIndex": 0,
+      "frame": "call",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a crane: make its characteristic cry",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "tañar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bb27ec472bd7fa0bbd8c145a9c85d70db04154eb3cd7534533303b08ef0a45ea",
+      "senseIndex": 0,
+      "frame": "discern",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "intuit or recognize someone’s intention or character; colloquial",
+      "notes": "Spanish source labels: transitive, colloquial."
+    },
+    {
+      "spanish": "abitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ff23308e260e25fe8f9a0549ee63459276050f279974558ada08c6ccbb8c6ec6",
+      "senseIndex": 0,
+      "frame": "secure a rope",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fasten a line around bitts",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aburar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7f77a81f3a952b425bf079b9b7bfb27970265cafa620cd4681c50df8126dbe4b",
+      "senseIndex": 0,
+      "frame": "cause itching",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "an insect bite: produce an itchy sensation; Dominican Republic",
+      "notes": "Spanish source labels: transitive, Dominican-Republic."
+    },
+    {
+      "spanish": "acarar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9f9de6d007644d7497786170fb6dbc11a7f8d3d35a0916976a306f0a600267db",
+      "senseIndex": 0,
+      "frame": "confront",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring people face-to-face to clarify facts or statements",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acepar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1fde6c12102be25caa5aafe54829cfbd63e149e2c6f6fd8d3c5c695e2596e6f6",
+      "senseIndex": 0,
+      "frame": "take root",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a plant: send roots deeply into the soil",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "acopar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5a0b6988ed66e4dec200f7988cb19e96a95e35fc09a5f76b9c40aad29ec368b1",
+      "senseIndex": 0,
+      "frame": "grow a crown",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a tree or plant: develop a crown of foliage",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "ahoyar",
+      "partOfSpeech": "verb",
+      "recordSha256": "83af5501fd9a84c5c4bc9ca0facca323dc5b3d0ccce7c53dce9142e1b817fbc3",
+      "senseIndex": 0,
+      "frame": "dig holes",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make holes in the ground",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "ajotar",
+      "partOfSpeech": "verb",
+      "recordSha256": "76e2024a6c574f205c4e6800963bc9740cff3819df726ac0e97a60d450122bcf",
+      "senseIndex": 0,
+      "frame": "goad",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "stimulate or urge a person or animal; Central America, Puerto Rico and parts of Spain",
+      "notes": "Spanish source labels: transitive, Central-America, Extremadura, León, Puerto-Rico, Salamanca."
+    },
+    {
+      "spanish": "alagar",
+      "partOfSpeech": "verb",
+      "recordSha256": "61f8c75d9e606ad236b6405a11b0e0f3c0532d9e50b10612060d8310ac1d6cf3",
+      "senseIndex": 0,
+      "frame": "create lakes",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fill an area with lakes or similar bodies of water; selected causative reading",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "alomar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ee6f87def4071e54f82eaff20afbd2c4580970fb5806e2ac510f4edb66032981",
+      "senseIndex": 0,
+      "frame": "plow wide furrows",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "plow with wider-than-usual spaces to leave raised ridges",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alotar",
+      "partOfSpeech": "verb",
+      "recordSha256": "65ffa35235c5b91d26bc8a1f6aca4ba245121b407885797f77ff48d95612461d",
+      "senseIndex": 1,
+      "frame": "haul in a net",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "retrieve a fishing net",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aproar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f01248af61be33ae4a005c3ffd0985ef1ffcb8b14bd1ddb61ca147b30e72b82e",
+      "senseIndex": 0,
+      "frame": "direct the bow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "point a vessel’s bow toward a definite place",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "arelar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9c759ed364fdbb3db83d14ca9aaff5aa26bbb0dd697a3dd6037a70aae1acec3e",
+      "senseIndex": 0,
+      "frame": "sift wheat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "clean wheat using an arel sieve",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aricar",
+      "partOfSpeech": "verb",
+      "recordSha256": "113a3fa3c29c7798ca654ee5616496f8f7301db4a3e78c4797f48129254edf75",
+      "senseIndex": 0,
+      "frame": "till lightly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "work only the surface of the soil",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "asesar",
+      "partOfSpeech": "verb",
+      "recordSha256": "009b0184a16dc9f5ddca9777161abf305f10ac88dab4cd485e45fecb63d3d92c",
+      "senseIndex": 0,
+      "frame": "gain sense",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "acquire good judgment or sanity",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "asurar",
+      "partOfSpeech": "verb",
+      "recordSha256": "97ea6879d9423f8999fa8ed5efff0a5a411f8a0a9d2b4c4db56d9415bccbfd52",
+      "senseIndex": 0,
+      "frame": "scorch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "burn a dish in its cooking vessel through lack of moisture; selected transitive sense",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "azagar",
+      "partOfSpeech": "verb",
+      "recordSha256": "493f32caa738be5a274fd538ace76e1fc5d1cb8c2325d5708f5e357f446e348a",
+      "senseIndex": 0,
+      "frame": "walk in single file",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "livestock, especially sheep and goats: proceed one behind another along a path",
+      "notes": "Spanish source labels: transitive, Ganadería."
+    },
+    {
+      "spanish": "azocar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0f6bb05fdc7a548e69518a648cf35b98608c6639c6eadf3089632064dd12752e",
+      "senseIndex": 0,
+      "frame": "tighten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "draw a knot or lashing very tight so it cannot loosen",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "cacear",
+      "partOfSpeech": "verb",
+      "recordSha256": "87426a0b4f36eac0b9182eb044c191c9e3179575ec323561d12727e86a70c0d9",
+      "senseIndex": 0,
+      "frame": "stir",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mix liquid or dry material with a ladle",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "cañear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e2743b66af64a7aa26d614eb7c1c5cfab5542bf74a79cb4e0c3f2ba7b57fda88",
+      "senseIndex": 0,
+      "frame": "drink beer or wine",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "drink servings of beer or wine called cañas",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "enriar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a47e3dde551f18067382723904e175cf4beb91dce6debc3a45e68d26826bd9ee",
+      "senseIndex": 0,
+      "frame": "ret",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "soak flax, hemp or esparto in water for several days",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "exorar",
+      "partOfSpeech": "verb",
+      "recordSha256": "536ba4e2a0a67f3ea504f77894ba342ac9740753e43e347c0e85f04222a3277d",
+      "senseIndex": 0,
+      "frame": "entreat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "ask earnestly; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "fricar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b66906fc1249f4588956e0e0843a27b6e5ae48c740ede8b74ea0e832e602c662",
+      "senseIndex": 0,
+      "frame": "rub",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "apply friction; uncommon variant of friccionar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gormar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1921f530c60fe9bc3bd1a0646cf988f63f8b05b52688ea23b4c35f800b1d2267",
+      "senseIndex": 0,
+      "frame": "vomit",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "expel stomach contents",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "guipar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2bb85da44e1f6403bb7f943d89ea422f5d7be86143bcbf920eec35346f5d0698",
+      "senseIndex": 0,
+      "frame": "spot",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "see or discover something; slang/vulgar, often ironic",
+      "notes": "Spanish source labels: transitive, ironic, slang, vulgar, se usa también en sentido irónico."
+    },
+    {
+      "spanish": "hatear",
+      "partOfSpeech": "verb",
+      "recordSha256": "305b7db3ea053f25df52eee181a149f644a2fbd941e9c8829bdbfb14303dc258",
+      "senseIndex": 0,
+      "frame": "pack belongings",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a traveler: gather clothing and small necessities for daily use",
+      "notes": "Spanish source labels: transitive, utci."
+    },
+    {
+      "spanish": "himpar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6894c1b15fbd22848fc64138e1fe6bfb8d52680b9c50bc6c1fec77cdfa9de388",
+      "senseIndex": 0,
+      "frame": "sob",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "weep or moan with hiccup-like catches",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "hopear",
+      "partOfSpeech": "verb",
+      "recordSha256": "50ac565f2545d4cf7fe6b30c14b48f52bb7aed806c2d9f3419397dcc28a4cd73",
+      "senseIndex": 1,
+      "frame": "scamper",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "run about",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "lomear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c1c46f4c702264b0688cfba58e6ff40163970df471c8a66f2ea8b26744d89dfc",
+      "senseIndex": 0,
+      "frame": "arch the back",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a horse: bend the back forcefully",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "mocear",
+      "partOfSpeech": "verb",
+      "recordSha256": "1a16a8a2942bc58f7206a62fe761118857bdc62339c0fceb919586d56572f276",
+      "senseIndex": 0,
+      "frame": "act youthfully",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "behave in ways associated with young people, especially romantic or sexual activity",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "momear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e21ee644f5b81312fe2c437af90c99d7873c4b4bc4b0e9e82d119a94bc7eaeb5",
+      "senseIndex": 0,
+      "frame": "make faces",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make playful or mocking facial gestures; rare",
+      "notes": "Spanish source labels: intransitive, rare."
+    },
+    {
+      "spanish": "nielar",
+      "partOfSpeech": "verb",
+      "recordSha256": "05fe631382dead7092469e153fcd09f4305f4a865e590e8bfa3885e33c94de4f",
+      "senseIndex": 0,
+      "frame": "niello",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "decorate metal with niello inlay",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "opilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "43c9efaf2a5676e3dc1f917b99a12812f3afd05e5623076e0d39dc14611b9ae3",
+      "senseIndex": 0,
+      "frame": "obstruct",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "block passages in the human body",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "paular",
+      "partOfSpeech": "verb",
+      "recordSha256": "267b0d13f493c4c417b1090209961166092b67c7ad5b450a1af2e6632fc60698",
+      "senseIndex": 0,
+      "frame": "talk",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "speak; jocular register",
+      "notes": "Spanish source labels: intransitive, festivo."
+    },
+    {
+      "spanish": "piular",
+      "partOfSpeech": "verb",
+      "recordSha256": "9c6c866fd4c61500ccf2fd34235fd9ab365f20a767cfa1b8a91fdcac7e590b23",
+      "senseIndex": 0,
+      "frame": "cheep",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "chicks: make small bird calls",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "rafear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c4395d0bbacc6718d955001d7210e2598e1c7db3b26e76ce42b3be972c865749",
+      "senseIndex": 0,
+      "frame": "reinforce a building",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strengthen masonry using supporting or repair sections called rafas",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ruchar",
+      "partOfSpeech": "verb",
+      "recordSha256": "39e2fd497e2071a7fbc1bb56fc5406953a813728e9789a27fd29560dcd6c2b3f",
+      "senseIndex": 0,
+      "frame": "sprout",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a plant: produce shoots; León",
+      "notes": "Spanish source labels: intransitive, León."
+    },
+    {
+      "spanish": "sopear",
+      "partOfSpeech": "verb",
+      "recordSha256": "a80bcbfb8f1e205aa7da0443e81fd0d46819951760385a3f4a447d2a2d5ca407",
+      "senseIndex": 0,
+      "frame": "make soup",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "prepare soup; selected sopar meaning rather than foot-placement homograph",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "titear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c30b1c2e7b9485bdc099caa60925ecb35f282d8ad2bfbd6f386a624fe3ff226f",
+      "senseIndex": 0,
+      "frame": "call the chicks",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a partridge: call its young",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "vanear",
+      "partOfSpeech": "verb",
+      "recordSha256": "bbbe9e06b1b89279bc950e39c79e4a0055e2c19a7d5237bbe277161aafbe3a87",
+      "senseIndex": 0,
+      "frame": "babble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "speak uselessly or vainly; obsolete",
+      "notes": "Spanish source labels: intransitive, obsolete."
+    },
+    {
+      "spanish": "zallar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4587849cdcdb21b94cede89c926a8cc4911d1f9f80c782dfc8d9e0f03996f307",
+      "senseIndex": 0,
+      "frame": "slide cargo outward",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "nautical: move an object lengthwise toward the outside of a ship",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "abinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "af724e5a4e296d9ad65ddf4e29124496efb5455a8551baee95d22d825c9520cb",
+      "senseIndex": 0,
+      "frame": "plow again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give farmland a second plowing or digging",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "añilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8077f28d781aa936f9cc6f671ba1a60ebca2e91577c34c7d84a899e64ed6a685",
+      "senseIndex": 0,
+      "frame": "dye indigo",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "color something with indigo",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "bruzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1788ad054f4ded1914f4b4dadfa1ea5509f6fb7ebe910732194c86d83af46844",
+      "senseIndex": 0,
+      "frame": "brush",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove dirt with a stiff brush",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "clisar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d595ae3d5e86158e8a7d275d299387a3d4a1eac865638fb41e70e3adac1a9475",
+      "senseIndex": 0,
+      "frame": "stereotype",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "printing: reproduce type or relief engraving using a metal plate cast from a mold",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "efluir",
+      "partOfSpeech": "verb",
+      "recordSha256": "353201d535296075f98782d5532a066d295fc8a706c94f6fc6eecc898e8d2d39",
+      "senseIndex": 0,
+      "frame": "flow outward",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a fluid: flow out of an enclosed place",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "esmuir",
+      "partOfSpeech": "verb",
+      "recordSha256": "36ae220fc5a15ead0fdbbe5ebc1b27e3a5837fe7fd456f0741c09cccc4c5e2af",
+      "senseIndex": 0,
+      "frame": "strip fruit",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pull fruit such as olives or grapes off a branch by drawing the hand along it",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "grujir",
+      "partOfSpeech": "verb",
+      "recordSha256": "1ac2c189e898578df81c5de8d6a554bdcf5f364a4361a0aa13b41d5515fd91eb",
+      "senseIndex": 0,
+      "frame": "smooth glass edges",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "finish the corners and edges of cut glass with a grozing tool",
+      "notes": "Spanish source labels: transitive, utci."
+    },
+    {
+      "spanish": "juncir",
+      "partOfSpeech": "verb",
+      "recordSha256": "bc932c4f683b7e8d41b37f8193b0ee8c5d17f629125782d62701705a46877fcb",
+      "senseIndex": 0,
+      "frame": "yoke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fit draft animals with a yoke; rare variant of uncir",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "ovalar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1986b36c0ce486bf74643d0b6f539c3d33c2a3343326b929647abe8e26807837",
+      "senseIndex": 0,
+      "frame": "ovalize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something an oval shape",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "pairar",
+      "partOfSpeech": "verb",
+      "recordSha256": "97aee99b90be1071cbc087f28ef29d91ca80167e665fbb5c021a0fa2aedaf37b",
+      "senseIndex": 0,
+      "frame": "lie to",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a sailing vessel: remain stationary with sails set and sheets eased",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "sainar",
+      "partOfSpeech": "verb",
+      "recordSha256": "21d1d8aa4b5733192ac2100c40d5cdfd18a23493c1cbadd0d5bd74be3bf2b58a",
+      "senseIndex": 0,
+      "frame": "fatten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "feed an animal to increase its weight",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "silgar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bb58a0f5b29d8fa831e3c568973e620751772e224d060351951b3e0a104cbda3",
+      "senseIndex": 0,
+      "frame": "tow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pull a boat from shore using a rope",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "surdir",
+      "partOfSpeech": "verb",
+      "recordSha256": "aea5c783461a3c1820ffd15c8cdf9301f1c5c3f818f7c47e92db1956a0805d71",
+      "senseIndex": 0,
+      "frame": "right",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a vessel: return upright after a wave has caused it to heel",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "tillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "013e746b4aa9a4d05fe20ce3d9765adfdb0b8933ce813e73bb17b6aaafd9c8f6",
+      "senseIndex": 0,
+      "frame": "floor",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cover a house’s floor with planks",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "brozar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4f1ada2f07f78af12e841e9d75e75c1b50d5c7079ad00d3e6c56ba7df6c9424e",
+      "senseIndex": 0,
+      "frame": "brush",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "clean with a stiff brush",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "chamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4e1b5299b33e172f16e8f9b5713ad7143bbed7c4e11f37c43b3fe912cd7aa272",
+      "senseIndex": 0,
+      "frame": "barter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dealers in secondhand goods: exchange items; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "frogar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b079a4458401ae0857f120b6c0867f881c96c9f6a024c2af77f399383902a058",
+      "senseIndex": 0,
+      "frame": "build solid masonry",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct a very solid masonry structure",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gallar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a95234f5c5c44e2df88d44a4fd621210ced5d41ad858b154e4ce84e8a214d0e9",
+      "senseIndex": 0,
+      "frame": "mate with a hen",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a rooster: cover a hen for reproduction",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "margar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1914b8b3255ae9e6ed089e2db3480141b62a66f31f2b010ae9a2c9b6adf7b105",
+      "senseIndex": 0,
+      "frame": "marl",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "add marl, a lime-and-clay mixture, to soil",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "nesgar",
+      "partOfSpeech": "verb",
+      "recordSha256": "00527e84e139b5f56e27af5e66a9696244f04243752a656626f9e40746b30c81",
+      "senseIndex": 0,
+      "frame": "cut fabric diagonally",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut cloth obliquely to its threads",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "anejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5d5d6f810cc27ec5390ec6b6e8ab882bc334824008b4c85ca6cf808d90ce3dd7",
+      "senseIndex": 0,
+      "frame": "annex",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "attach an appendix, territory or other addition so it becomes dependent on a larger whole; learned/rare",
+      "notes": "Spanish source labels: transitive, academic, rare."
+    },
+    {
+      "spanish": "bardar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9abee66d2ceedd8e5662bcc802798572bf350b748fcd475dbcb7a0a395ef7616",
+      "senseIndex": 0,
+      "frame": "cap a wall",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put protective brushwood or other barda covering on a wall or fence",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "bollar",
+      "partOfSpeech": "verb",
+      "recordSha256": "834ef807928056179f0cd533226c6a310ef01fde742c357db493e24f445b6e03",
+      "senseIndex": 0,
+      "frame": "seal fabric",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark textile with a lead seal identifying its manufacturer",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "bromar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6c8cf6ef99d3445cc3b2d403cd02ebc4feeddfafabb14122e64abbad5fcf28b7",
+      "senseIndex": 0,
+      "frame": "bore",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a shipworm: gnaw or bore into wood",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "chorar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1e0d84d8609072cfd6f52bd18dac63688a072f75dd38cad53bb4055a8b93efd5",
+      "senseIndex": 0,
+      "frame": "steal",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "take property unlawfully; colloquial Spain",
+      "notes": "Spanish source labels: Spain, colloquial."
+    },
+    {
+      "spanish": "guitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c324bbd1142babb8beb150f8c7dd1691ccf2da612f64210b6c0f59fc6e352579",
+      "senseIndex": 0,
+      "frame": "sew with twine",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "stitch or shape material using string or twine",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "rengar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6813fdb49f8127f89ced4066f3c790fae9697d84a3f3df8d11ae313fa451356c",
+      "senseIndex": 0,
+      "frame": "injure the back",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause damage or pain to a person’s or animal’s back, spine or hips; transitive causative reading",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "turrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2fac997e0896606fba6e515f54269d367005a7b8d8439cf8ed2887805aef358c",
+      "senseIndex": 0,
+      "frame": "roast",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "toast or cook over embers",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "brujir",
+      "partOfSpeech": "verb",
+      "recordSha256": "8382e9b57ccce1239a9c78cf1fc6b4552966d207b9626f9c1460531fef3a25bc",
+      "senseIndex": 0,
+      "frame": "smooth glass edges",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "finish cut glass with a grozing tool",
+      "notes": "Spanish source labels: transitive, utci."
+    },
+    {
+      "spanish": "salgar",
+      "partOfSpeech": "verb",
+      "recordSha256": "dbd6cb4a3e0385986ffa38d9d4fa9bc6e576ee248fb9cda4d738da59c62d9a35",
+      "senseIndex": 0,
+      "frame": "give salt to livestock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "supply animals with salt for nutrition",
+      "notes": "Spanish source labels: transitive, Ganadería."
+    },
+    {
+      "spanish": "adulcir",
+      "partOfSpeech": "verb",
+      "recordSha256": "f2c3eb02067e67198661671cf51a5492fde7119bf5c4d992039c0d4b5b812d6d",
+      "senseIndex": 0,
+      "frame": "sweeten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a sweeter taste",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "atingir",
+      "partOfSpeech": "verb",
+      "recordSha256": "ef2d2eaaf73576954f0f57c65f6d6c5762c2715dbe98ab7cd5181d5398a73325",
+      "senseIndex": 0,
+      "frame": "concern",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "a matter: be relevant to someone; regional variant of atañer, Bolivia, Chile, Panama and Paraguay",
+      "notes": "Spanish source labels: intransitive, Bolivia, Chile, Panama, Paraguay."
+    },
+    {
+      "spanish": "chinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4aec680e5c8d944ffe8555118af058c8a9c6fc134ac28392618461289ba08898",
+      "senseIndex": 0,
+      "frame": "creak",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a harsh rubbing or squeaking sound; variant of rechinar",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "crispir",
+      "partOfSpeech": "verb",
+      "recordSha256": "81171cc73a57ba48066f9ab775b9fc9de0b6c356732182b1d23f43fce37690b8",
+      "senseIndex": 0,
+      "frame": "spatter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "apply small spots with a stiff brush to imitate porphyry or grained stone; decorative metalwork",
+      "notes": "Spanish source labels: transitive, orfebrería."
+    },
+    {
+      "spanish": "disidir",
+      "partOfSpeech": "verb",
+      "recordSha256": "d49783c5f72b089acb278740244e1e8f80671c1c34fb3c70c8eafd719bf89848",
+      "senseIndex": 1,
+      "frame": "dissent",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "express an opinion contrary to the majority",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "entupir",
+      "partOfSpeech": "verb",
+      "recordSha256": "fe39614cb3f909f87f0f697b93dd90fd5d13085504fdffde70a7038e12f5f703",
+      "senseIndex": 0,
+      "frame": "plug",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "compress material to block a channel or duct",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "rebutir",
+      "partOfSpeech": "verb",
+      "recordSha256": "836b41532425efa5373665fb0787c81db022bf35fff7664cc2c5d1fb4ddc11bd",
+      "senseIndex": 0,
+      "frame": "stuff",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pack material tightly into a space",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "recomer",
+      "partOfSpeech": "verb",
+      "recordSha256": "7e9612a519c74898f8bff357ed81997a1d7ef3f86c4fca6ae699b3d4dfb0a95d",
+      "senseIndex": 0,
+      "frame": "torment",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause a persistent inward feeling that consumes someone emotionally or mentally; transitive cause, not reflexive sufferer",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "aballar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e7a9c449d4a26b695e4d5f07934866617fbe8679d78ec8e695da598ac9e57fa5",
+      "senseIndex": 0,
+      "frame": "herd",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "lead livestock along; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "abolsar",
+      "partOfSpeech": "verb",
+      "recordSha256": "53db2f5feb8f38d822375afb296878e15ab5ab2bd970ffd23efb855b23ef6727",
+      "senseIndex": 1,
+      "frame": "pleat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fold fabric while sewing it",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acarear",
+      "partOfSpeech": "verb",
+      "recordSha256": "6eafd6b02479fd788b6ba3580243897ab3fb8bd42a0596dbe4b0585b34ffb750",
+      "senseIndex": 0,
+      "frame": "confront",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring people face-to-face to establish the truth of facts or statements",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acocear",
+      "partOfSpeech": "verb",
+      "recordSha256": "3da8fedea70bdcd19e099e5da2ad5479db1f826cfdd3ce47a874253a56f8a635",
+      "senseIndex": 0,
+      "frame": "kick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike or lash out with the feet or hooves",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "acombar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1da72a50c3d5a06dcaf759dd7ab57e4865f77528c02bb901bc5dc21f22387254",
+      "senseIndex": 0,
+      "frame": "bend",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a curved shape; transitive synonym combar",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "acorvar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d4cf79cc9ddc1a8aa9e1b19fdf0981d8626dffaafe186d4a1d6efc8c1a042277",
+      "senseIndex": 0,
+      "frame": "curve",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bend something into a curved shape; variant of encorvar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acribar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2133232891d0c30062cfceb170adc31a0e0725ebb6f1b2a541cd0f976bbf2ee7",
+      "senseIndex": 0,
+      "frame": "sift",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pass material through a sieve; variant of cribar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "adensar",
+      "partOfSpeech": "verb",
+      "recordSha256": "54e12337391017a2de60aec68d75a3f2184569a23d0cab8e707491a4383daee4",
+      "senseIndex": 1,
+      "frame": "densify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a substance denser; causative",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "adrizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "03c95bb01cdeb480717d139fda1da81a52591fe9a8a81d6e0a759380a0de26f3",
+      "senseIndex": 0,
+      "frame": "right",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring something, especially a vessel, into an upright position",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "adulzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e1a314d53424a4b995493b7fd5684d1c1da40399bc19480692aa6e9c5a4edc8b",
+      "senseIndex": 1,
+      "frame": "sweeten",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "add sugar, honey or another sweetener",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "afretar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9030b52c0e850a1c915ad6c44494ed1b071f1a23ff0ddb0b1d1dfc5d162ab3c7",
+      "senseIndex": 0,
+      "frame": "clean a hull",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "scrub a vessel and remove shipworm infestation",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ahelear",
+      "partOfSpeech": "verb",
+      "recordSha256": "46c60b5de79acdc0dc06c1ff167d703fb7863f4f00b63f8ce923c5f70c039a8f",
+      "senseIndex": 0,
+      "frame": "embitter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a bitter taste like bile; literal causative",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ahornar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7640248a828a8145d60d74ead47f35e9795266c4fa3ac092be08295491456d38",
+      "senseIndex": 0,
+      "frame": "oven",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put food into an oven; synonym enhornar",
+      "notes": "Spanish source labels: transitive. Oven is an English transitive verb; source is a synonym reference, not an English quotation."
+    },
+    {
+      "spanish": "ahuchar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2581c50daed9e853dfb8cffb314f0418f7edb1d0ff248cc3b975c9f3f6635cb2",
+      "senseIndex": 0,
+      "frame": "save money",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put money into a savings box",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ajorrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9b3de9e55e2b2cb821deb7599d52c40fc4255939513314bf970b0ac50bfa8d33",
+      "senseIndex": 0,
+      "frame": "drag",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pull or tow something",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alanzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "31eb42233dbb408f9904f36a9564a1e7f95370b5c3907d895ea7d4038d8323d1",
+      "senseIndex": 0,
+      "frame": "spear",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike or wound with a lance; synonym alancear",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aleudar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ad3f95c23ca8db7e2683353571c172b7922dac8f6fe9a0229a00f67570295308",
+      "senseIndex": 0,
+      "frame": "leaven",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause dough to ferment with yeast; variant of leudar",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "amechar",
+      "partOfSpeech": "verb",
+      "recordSha256": "02a07f791e866b4d8944776435980ab1b7a6a573481f9200f95b299871e99374",
+      "senseIndex": 0,
+      "frame": "fit a wick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put a wick into a candle or oil lamp",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "amollar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f1ca0d8df048c244b7eec867fe8e93280611672d4e2229d808d66d4c6913efc6",
+      "senseIndex": 0,
+      "frame": "slacken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "reduce pressure, tension or effort",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "anzolar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b56833de7af9975334b69f50859ddafa35433ea30b3df23dc49467253ce4c628",
+      "senseIndex": 0,
+      "frame": "tile",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put tiles over a surface",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aparrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7980bef550e19c36a73e49836b7fc564503d2aad5043a2f0753592472dd3ffa7",
+      "senseIndex": 0,
+      "frame": "train branches horizontally",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "guide a plant’s branches so that they grow horizontally",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "apechar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9c4870c1d22c3852c15c726079547ae3c157cee87c7c429b44f7ca03e6663bb7",
+      "senseIndex": 0,
+      "frame": "face responsibilities",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "confront problems and accept obligations",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "apellar",
+      "partOfSpeech": "verb",
+      "recordSha256": "963c5b4d700cab358d87aabee1a1e0f6de5c80835cd7b7a5bd8fdc28c3d29838",
+      "senseIndex": 0,
+      "frame": "work a hide",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "knead or work leather during dressing",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "atablar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ed109258c61b070a9eea227e103b2d739cd0e93aaa295e5b6049465267e8a5b1",
+      "senseIndex": 0,
+      "frame": "level soil",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "flatten sown ground by dragging a board over it with draft animals",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "atiplar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4ce77fe5913ac58bea8a42faca83f3955b8802daac62bcaed2962caf7fae37ae",
+      "senseIndex": 0,
+      "frame": "raise the pitch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tune an instrument up into a treble register",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aviejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c2b98dce5bb48b14a26e9d49cfbc24db02af09815c733a132376f3e6943b5013",
+      "senseIndex": 0,
+      "frame": "age",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give someone or something an older appearance; transitive causative",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "baquear",
+      "partOfSpeech": "verb",
+      "recordSha256": "d7f2c49e1f72ee7ea44a6328d93e92f1c19be5981c11966a2b93b803b3de587e",
+      "senseIndex": 0,
+      "frame": "drift with the current",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a vessel: travel with a current faster than the wind alone would propel it",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "bornear",
+      "partOfSpeech": "verb",
+      "recordSha256": "b8b35bb59437c1322623a0b3040ff0a7c6b40e7f56802736334b93f2beaaec64",
+      "senseIndex": 0,
+      "frame": "swing at anchor",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a vessel: turn around its moorings while anchored",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "brujear",
+      "partOfSpeech": "verb",
+      "recordSha256": "fd3f4b2bb267eb06fee763ccdd6e2806b22c2e0baeb9015dd1a4b30fb2b304dc",
+      "senseIndex": 0,
+      "frame": "practice witchcraft",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "perform magical spells or other practices associated with witches",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "callear",
+      "partOfSpeech": "verb",
+      "recordSha256": "b19545d92e7e53e7ba5cd02271e5cc63d53294afbf5fbdef8ce28d8571c5aa53",
+      "senseIndex": 0,
+      "frame": "clear vineyard paths",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut or separate vine shoots crossing the rows so harvesters can pass",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "copilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "42db527527c98bbd71ac5252d50efc715284e631203a2560db7ba58bd170c1f6",
+      "senseIndex": 0,
+      "frame": "compile",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "assemble texts or extracts from different sources in one work; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "desojar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f0c37c45b9114a8780f292b20e21394615b8089a20e513a9578bf3bf85d75952",
+      "senseIndex": 0,
+      "frame": "break a tool’s eye",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "damage the hole or socket in a tool",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "despear",
+      "partOfSpeech": "verb",
+      "recordSha256": "bec395759ea7c97e47f78ca4a0950cc45672d3b1fbb44b1219f8d0517d645700",
+      "senseIndex": 0,
+      "frame": "injure feet",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause damage to human or animal feet through extensive walking or rough terrain; dated causative reading",
+      "notes": "Spanish source labels: transitive, outdated, pronominal."
+    },
+    {
+      "spanish": "embojar",
+      "partOfSpeech": "verb",
+      "recordSha256": "70f5e0dcfdce062f88abe9770ca5626b463e2bcde04bb4a0f49feffc73565656",
+      "senseIndex": 0,
+      "frame": "surround silkworm beds",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put branches, especially southernwood, around silkworm-rearing places",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "encanar",
+      "partOfSpeech": "verb",
+      "recordSha256": "970c58f995ed947d5a2b7014a7113a84cd425bb35927fa59e510d98f49d3fe7e",
+      "senseIndex": 0,
+      "frame": "imprison",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put someone in jail; colloquial Chile, Colombia and Río de la Plata",
+      "notes": "Spanish source labels: transitive, Chile, Colombia, Río-de-la-Plata, colloquial, pronominal."
+    },
+    {
+      "spanish": "encepar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a3c0d57ecadcd4901ab19e657d8fe378cf8ab21b724970690668bc57d81e9db5",
+      "senseIndex": 0,
+      "frame": "put in the stocks",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "punish someone by confining them in stocks",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "encobar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b28a2642ed74b4019176e6dc2aeb835f5940ee3f43e69224a313f6d76f75e021",
+      "senseIndex": 0,
+      "frame": "brood",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a bird or other egg-laying animal: sit on fertilized eggs to warm and incubate them",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "engazar",
+      "partOfSpeech": "verb",
+      "recordSha256": "fb0550f79d80cf35dac398ad19878502de22598429f3ba919109be69bad13929",
+      "senseIndex": 1,
+      "frame": "dye fabric",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "color cloth after it has been woven",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "engibar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a2f903a6be0f568c7707c113f5f5f31a201555b749daf4f1e838d3625d32383f",
+      "senseIndex": 0,
+      "frame": "deform the back",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause someone to become hunchbacked; transitive causative sense",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "engolar",
+      "partOfSpeech": "verb",
+      "recordSha256": "df1639bb2ed524d600bc6ba462135f83ddf17c4dabe4c10326c3cc689097f4b2",
+      "senseIndex": 0,
+      "frame": "produce a throaty voice",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give the voice a guttural resonance",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enlamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e2a99f05ca9787b8b834652c91aa0e1874622b731a04c58a2bebf70404792ad9",
+      "senseIndex": 0,
+      "frame": "silt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cover roads, fields or land with mud or sediment",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "enlizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d34f5b92ee2b95cbee0354d68b64f663784b6e84ab2c53d9d6a4d1ef9af0b272",
+      "senseIndex": 0,
+      "frame": "add heddles",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fit a loom with heddles so cloth can be woven",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enrojar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0f4e57313c88e3efb2f3f6fd192ce4e9b2897b2cb005a2b8b6a0df8342eb1e4a",
+      "senseIndex": 1,
+      "frame": "redden",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a red color",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enroñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a22c5dbf32d5535b0115fe0ab65a1d7a74a0df07d6946d30d1a1090a8810b324",
+      "senseIndex": 1,
+      "frame": "rust",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause a metal object to oxidize; transitive",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "envirar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d0c6cfbff89f1c44e7b14e84acda80ea1065904642b020b2669e4d11774016b2",
+      "senseIndex": 0,
+      "frame": "infect a device",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put a computer virus into an electronic device; colloquial Colombia, Mexico and Venezuela",
+      "notes": "Spanish source labels: transitive, Colombia, Mexico, Venezuela, colloquial."
+    },
+    {
+      "spanish": "estezar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2b21bc17a846698a4e0d2853f6078cf2726fef235dd293179e159dc15f85e67a",
+      "senseIndex": 0,
+      "frame": "tan",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dress hides using a dry tanning process",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "galibar",
+      "partOfSpeech": "verb",
+      "recordSha256": "313d41cc1cc94a56d2ba5bc4304a4faab92d4d71fcf52234b865bec1ec34a85d",
+      "senseIndex": 0,
+      "frame": "outline ship timbers",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark the contours of ship components using templates",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gestear",
+      "partOfSpeech": "verb",
+      "recordSha256": "9a617258e5ec3f09b06838f224d842ab6ef8fcea3b19b1af06cbd38d1da497d1",
+      "senseIndex": 0,
+      "frame": "gesture",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make communicative movements of the face, hands or body",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "grisear",
+      "partOfSpeech": "verb",
+      "recordSha256": "73ad5725ac1d0f67301253d848ab083f35d01e8a1edb16a77087f47b99e9cb83",
+      "senseIndex": 0,
+      "frame": "turn gray",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "gradually acquire a gray color",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "himplar",
+      "partOfSpeech": "verb",
+      "recordSha256": "86c8d781bad5bd93127acdbdb4f50beb5a03d32b4a5ba9172429b06d1b3c90cc",
+      "senseIndex": 0,
+      "frame": "roar",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a panther or similar big cat: make its characteristic cry",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "hondear",
+      "partOfSpeech": "verb",
+      "recordSha256": "66e5d63f088e885fee892a2b7d27bd3485a4164a564c7f192f5254ae527c4e18",
+      "senseIndex": 1,
+      "frame": "unload",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove cargo from a vessel",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "mamujar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f22ec3fa6ee3763e30fe1fc995c488ca512ef2790173dd1ab69be7e7dc447eab",
+      "senseIndex": 0,
+      "frame": "suckle intermittently",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a baby: nurse without much eagerness, repeatedly leaving and returning to the breast",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "motilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "62b0809a83afa127150060870ab979e4c364dfaada036c99b50f34e55d19658f",
+      "senseIndex": 0,
+      "frame": "trim",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut an animal’s hair or a person’s head hair",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "namorar",
+      "partOfSpeech": "verb",
+      "recordSha256": "615dffad1ba7dda55476c184eb6794d51fbdd3269650f58c44f4c0a34a68ff7e",
+      "senseIndex": 0,
+      "frame": "enamor",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause romantic affection; rare variant of enamorar",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "orejear",
+      "partOfSpeech": "verb",
+      "recordSha256": "5f65d953551d4297e51702d6f52eb50e81922b916858a2d19007fc5c64e20c1e",
+      "senseIndex": 1,
+      "frame": "eavesdrop",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "listen indiscreetly to other people’s conversations; El Salvador and Nicaragua",
+      "notes": "Spanish source labels: transitive, El-Salvador, Nicaragua."
+    },
+    {
+      "spanish": "pechear",
+      "partOfSpeech": "verb",
+      "recordSha256": "4562af7cd9a4880777fe63bd6e92483eaf44fd6494e899910baaf19f98f7ddf4",
+      "senseIndex": 0,
+      "frame": "chest-bump",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike with the chest",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "pillear",
+      "partOfSpeech": "verb",
+      "recordSha256": "922d61ee2930f33728b8a16c84d15e8bbab4e7c4b6c078b13bd207dd6be1507f",
+      "senseIndex": 0,
+      "frame": "act roguishly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "behave or live as a crafty rogue or petty thief; colloquial",
+      "notes": "Spanish source labels: intransitive, colloquial."
+    },
+    {
+      "spanish": "pontear",
+      "partOfSpeech": "verb",
+      "recordSha256": "fc1e7d9fe48423815428c3ac9374933fa8077b5a96f2b5ce4b999acb0a6a97ee",
+      "senseIndex": 0,
+      "frame": "build a bridge",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct a bridge; El Salvador",
+      "notes": "Spanish source labels: transitive, El-Salvador."
+    },
+    {
+      "spanish": "potrear",
+      "partOfSpeech": "verb",
+      "recordSha256": "883a8e6c42e1f9399a5317c0135bb7a652d614e88a9516a6929eaad6b4dc7a7e",
+      "senseIndex": 0,
+      "frame": "break in a colt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "train a young horse; Mexico",
+      "notes": "Spanish source labels: intransitive, Mexico."
+    },
+    {
+      "spanish": "raspear",
+      "partOfSpeech": "verb",
+      "recordSha256": "2c538e4ed26ded65fe2a300b6c883da4542ca41bd31a3e05ffb8976aa1f411d0",
+      "senseIndex": 0,
+      "frame": "reprimand",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "rebuke someone",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "rebitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "39db839833083f7b63c658282e0d28e5ec7ec8f31558ef6a5ba572c1cfa6e6ff",
+      "senseIndex": 0,
+      "frame": "clinch a nail",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "secure a nail by hammering or reinforcing it",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "recavar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3d8a8f7e096eaa9cd15505fdfd91b5cf79955a54f767b6928925c207721fd630",
+      "senseIndex": 0,
+      "frame": "dig again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "repeat digging",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "recuñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8d620b1fa4f0127bdda1322ff938623a14cab2a999e2f2fc83ec0890a206a1fc",
+      "senseIndex": 0,
+      "frame": "quarry with wedges",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "extract stone or ore by hammering wedges into cracks",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "repodar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bd1ffc3aa5ce7a55be8bc772bb81a2b3c00710d4257cdf6d9db54c7a40320fcb",
+      "senseIndex": 0,
+      "frame": "reprune",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut branches or trunks left poorly trimmed after pruning",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "retajar",
+      "partOfSpeech": "verb",
+      "recordSha256": "804df9f6f881e3ef090b50291009d9338d90cf44c8d19327a103a70f363db147",
+      "senseIndex": 0,
+      "frame": "cut again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "repeat cutting",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "retejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "84c35d233d51418011c7e695e61f732e569ae7487eb0ba75498a3cca6f6c68f7",
+      "senseIndex": 0,
+      "frame": "repair a roof",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mend a damaged tiled roof",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ruñir",
+      "partOfSpeech": "verb",
+      "recordSha256": "ecfbb07772b5d0bcbcb9bc610c1bc86a44a5cde8a30772b4bbaa96b5eb6ad82f",
+      "senseIndex": 0,
+      "frame": "perforate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make many holes in a person or object; Mexico",
+      "notes": "Spanish source labels: transitive, Mexico."
+    },
+    {
+      "spanish": "setenar",
+      "partOfSpeech": "verb",
+      "recordSha256": "696d5f9c5ca500bbc94e7f3cc830ac7c0a8b22f434281f391780cb070c3126e8",
+      "senseIndex": 0,
+      "frame": "sample one in seven",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "randomly take one element from each group of seven",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "tandear",
+      "partOfSpeech": "verb",
+      "recordSha256": "3271a2334c9623f182ad294cc2be72a61c9319138d021a51edc6d29f98ceae1b",
+      "senseIndex": 0,
+      "frame": "distribute water by turns",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "allocate water in scheduled batches; Spain",
+      "notes": "Spanish source labels: intransitive, Spain."
+    },
+    {
+      "spanish": "tronzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0868ed8d0d082b7a59f6fd5bc20304a0eee9b84d1cde3a2e113b015f47777ed7",
+      "senseIndex": 0,
+      "frame": "chop up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut something, especially a log, into pieces",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "velejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "66a791cd91f16ad8240728caf825fcb6c8186da225207ed72c504a92a1b1650e",
+      "senseIndex": 0,
+      "frame": "sail",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "use sails to propel a vessel",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "zampear",
+      "partOfSpeech": "verb",
+      "recordSha256": "8d632e55e445a0ba7d05e8a84c4e3bc94a99d9830efc6b076dae5b707d6a9e7c",
+      "senseIndex": 0,
+      "frame": "stabilize soft ground",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "support weak ground with a timber-and-pile foundation called a zampeado",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "zaquear",
+      "partOfSpeech": "verb",
+      "recordSha256": "01aff3ddb1dba09fdb6ec1d3acbefbe8872e0593772b9861474f9c650114a2ba",
+      "senseIndex": 1,
+      "frame": "carry liquids in skins",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "transport liquid using leather containers called zaques",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "zurdear",
+      "partOfSpeech": "verb",
+      "recordSha256": "870d9937f6a9017f337867e7b4e501f363dae70b57c36a85027d700d70b9397a",
+      "senseIndex": 0,
+      "frame": "use the left hand",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "perform a usually right-handed task with the left hand; colloquial Americas",
+      "notes": "Spanish source labels: intransitive, America, colloquial."
+    },
+    {
+      "spanish": "abromar",
+      "partOfSpeech": "verb",
+      "recordSha256": "565066ac768570cb8499a59fa2e352b308ce5429342edc377e828073fe5cdec8",
+      "senseIndex": 0,
+      "frame": "overwhelm",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "burden or overpower someone; dated synonym abrumar",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "acharar",
+      "partOfSpeech": "verb",
+      "recordSha256": "809441f4618fad2bc47969cce72289cc9b973fc33c2d3362646913752bf2ba24",
+      "senseIndex": 0,
+      "frame": "embarrass",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause shame, blushing or startled discomfort",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "agrazar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a56a78db402abbc4ec120f729e6e1c99fe2ced6fa22dce3b27448395127a4171",
+      "senseIndex": 0,
+      "frame": "taste sour",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "have an acidic flavor like unripe grapes",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "conrear",
+      "partOfSpeech": "verb",
+      "recordSha256": "ac8cf1b11fcb629dd5a35dbddc816bf794e29626f77c17c5812b3feb706d1ed0",
+      "senseIndex": 0,
+      "frame": "cultivate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "work or tend land or crops; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "cubilar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9e9b26f2a6762454dc42ff5011baf91ae01e814433090ac3046e4f23dc7445ed",
+      "senseIndex": 0,
+      "frame": "shelter for the night",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "livestock: spend the night in a prepared pen or shelter",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "desuñir",
+      "partOfSpeech": "verb",
+      "recordSha256": "dba2f5b499e0dc095d78a6e73b88761ceedc8b36a8a9d2aa057053afe5c6e95d",
+      "senseIndex": 0,
+      "frame": "unyoke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove the yoke from joined draft animals; Spain and Río de la Plata",
+      "notes": "Spanish source labels: transitive, Río-de-la-Plata, Spain."
+    },
+    {
+      "spanish": "espejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "066459907ab9eb64b43d798a1ddfa66d135d0d66413db72a43a79bbefd339f8a",
+      "senseIndex": 1,
+      "frame": "mirror",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "reflect an object across an axis to produce a mirror image",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "hojecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "8bfac38ccc92f1bc95c8465c5b469c8a2e2aad85d238f08376bb8e42c5296a73",
+      "senseIndex": 0,
+      "frame": "grow leaves",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a tree: put out leaves; rare",
+      "notes": "Spanish source labels: intransitive, rare."
+    },
+    {
+      "spanish": "mohecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "cdff03f42ce64cc4859c5b59b60ad660a713c591e0301ced051dac8bf9861c96",
+      "senseIndex": 0,
+      "frame": "cause mold growth",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause a surface to become covered with fungal mold; selected fungal causative reading",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "rebufar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2cd0e2e1888e992c4a3057a52eafd755fb6b95dad3a6922557123b759014f8d6",
+      "senseIndex": 1,
+      "frame": "snort loudly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a forceful snorting sound",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "recurar",
+      "partOfSpeech": "verb",
+      "recordSha256": "50e56a2fd2c58c7acea12b20f4198c0b1a5ac61bc5f0724d26f4a1c2ce878684",
+      "senseIndex": 0,
+      "frame": "cut comb teeth",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make or clear the teeth of a comb",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "relavar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0000b29db3dd9f607e86d9740431a79a2c27067ba8210d41340f6c31314f2694",
+      "senseIndex": 0,
+      "frame": "rewash",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "wash or purify something again",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "repacer",
+      "partOfSpeech": "verb",
+      "recordSha256": "9e3d511f799909197c41408fcae3ab897e80dad3822572aa1be5554f2aae13f3",
+      "senseIndex": 0,
+      "frame": "graze bare",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "livestock: eat all the grass in a field",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "retazar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b1d6cf08f97df33718a26890f4ea6733fdbbfbdde9ebfb6fb7751c983b829ea9",
+      "senseIndex": 0,
+      "frame": "cut into pieces",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "divide something into smaller parts",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "veranar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e78efdf1147123165fb9db5a038e3c6443af65d98c719345e048a65a6ba95b90",
+      "senseIndex": 0,
+      "frame": "summer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "spend the summer in a place; synonym veranear",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "zunchar",
+      "partOfSpeech": "verb",
+      "recordSha256": "17d1896b6487411e580eb9b838ffb43156d25b372e64dd7a806f8ecdcf045963",
+      "senseIndex": 0,
+      "frame": "band",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "secure something with metal reinforcing hoops",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aguazar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a2e61fd1b875f636abead3814ba9cbac7cddd4eae568e2dd970af58ac1672b63",
+      "senseIndex": 0,
+      "frame": "waterlog",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause ground or another area to become saturated or puddled; transitive encharcar sense",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "alheñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f1b1c8bae20d5337022cc5565dbab0c02ed6df3495db8067ae9f37d6fc6f74a9",
+      "senseIndex": 0,
+      "frame": "henna",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dye something with powdered henna",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "amelgar",
+      "partOfSpeech": "verb",
+      "recordSha256": "904af036c8f98d582096fbd175ed86a3726eaa8441002f6bce102689e5754c34",
+      "senseIndex": 0,
+      "frame": "space furrows evenly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make furrows at proportionate intervals for uniform sowing",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "amorcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0dfb19b208ba3fae6192870e5710b3ee6eac8182349d23c0e32b451f9650d271",
+      "senseIndex": 0,
+      "frame": "gore",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "an animal: strike with its horns",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "anchoar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bdcbe282c83e483b27ae899e9eede0f3e8a98697f5584f78c85746f1709018a7",
+      "senseIndex": 0,
+      "frame": "stuff olives",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fill olives with anchovy",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aporcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c1e645e7002a37c8b5f0edefe3deb2e96b8467204b3f46ad46af1ebbf898099c",
+      "senseIndex": 1,
+      "frame": "earth up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "heap soil around a plant’s stem",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "asurcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f3460ec11569e35f711d7de0a92fde1139b22e04e2f378893d1843a93cec1ebc",
+      "senseIndex": 0,
+      "frame": "plow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make furrows in land for cultivation",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "batucar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7a2f3b12cc6b9c941c2a0cfd8cb1f2cb5efadade2cfb47cc7804078aa4bdeed8",
+      "senseIndex": 0,
+      "frame": "agitate liquid",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "stir or shake liquid inside a container",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "blincar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3875517b94a4cb4211aadced8382ef6262d618c98e1bfb70335540d41fd68c28",
+      "senseIndex": 0,
+      "frame": "jump",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "leap; variant of brincar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "copinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "065a781157399e713150c79c224bbcd7952b366b478c5c90a01d5f671096be8a",
+      "senseIndex": 0,
+      "frame": "skin",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove an animal’s hide in one whole piece; Mexico",
+      "notes": "Spanish source labels: transitive, Mexico."
+    },
+    {
+      "spanish": "embicar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5782e9a92cf080dd04f5b88fb07591ce5b4387c1413cb9c8d73c80112e2645c0",
+      "senseIndex": 0,
+      "frame": "tilt a yard",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "nautical: set a yardarm obliquely as a sign of mourning",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enrugar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0b4660261ceb294b019d7acafc68684b33a93439df44727bbb11ad4db44e6cc0",
+      "senseIndex": 0,
+      "frame": "wrinkle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make folds or creases in something; transitive",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "espadar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a1836477f8ffab5ae0a814cd93b80955f994070fd8792ecb770d49580b9e2bd8",
+      "senseIndex": 0,
+      "frame": "scutch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "break retted hemp or flax stalks with a wooden tool to extract fibers",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "fenicar",
+      "partOfSpeech": "verb",
+      "recordSha256": "15ac5f6f13056024203ff4eb5f7f9d3f4c5ab2f82bde1a5cda36d8707653a3a5",
+      "senseIndex": 0,
+      "frame": "add phenol",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put phenol into a substance",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "remugar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3c782bfc48e5febc5153e721e020a8f5876187f9bc5412095898a584ebeb0b07",
+      "senseIndex": 0,
+      "frame": "chew cud",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a ruminant: rechew food brought back from the stomach",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "salegar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6d9489344a016463497e1ca6f674af4b2705ca85bcfebdfab52b0072dea60282",
+      "senseIndex": 0,
+      "frame": "feed salt to livestock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "provide animals with salt",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "sufocar",
+      "partOfSpeech": "verb",
+      "recordSha256": "70d3972a10abac3b453c4f2a2d5aedfc91b1c97837ebda13b66923aef0b5fafe",
+      "senseIndex": 0,
+      "frame": "suffocate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "prevent breathing; transitive variant of sofocar",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "tosigar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d908fe705e79a32be4f655cd686817c82f72e84e7c7cc19fcedd1e13f10beaee",
+      "senseIndex": 0,
+      "frame": "harass",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pester or overwhelm someone; synonym atosigar",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "tremar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9bba7a16a37d1f533566a417559cd9cebbb190b913ddf07ae30eee7ae78b6f07",
+      "senseIndex": 0,
+      "frame": "tremble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "shake involuntarily; rare variant of tremer",
+      "notes": "Spanish source labels: intransitive, rare."
+    },
+    {
+      "spanish": "zulacar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ff84d5a1c13ad46041a5ca01067dc19a6e87cd3d70c3fd5314c2eb0d64c81d64",
+      "senseIndex": 0,
+      "frame": "caulk",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "seal water-pipe joints with a lime-and-tow paste called azulaque",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "amurcar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2eacbdb7a7e5ecbb62c500745f2bc39ad9e8715fabcf4abcc906b501ce96ba8a",
+      "senseIndex": 0,
+      "frame": "gore",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a bull or similar animal: strike with the horns",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "arencar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2569d050698e2fc27a2b32e68982da36d1455878177b402d9a2b68f7d0160ace",
+      "senseIndex": 0,
+      "frame": "cure sardines",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "salt and dry sardines using the technique used for herrings",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "caponar",
+      "partOfSpeech": "verb",
+      "recordSha256": "31bf0c4614d816337b172122f855c9d5b70f7c7054bf870fb831964b72b766f1",
+      "senseIndex": 0,
+      "frame": "tie vine shoots",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "secure vine branches so they do not hinder tilling",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "champar",
+      "partOfSpeech": "verb",
+      "recordSha256": "fbdbb2c97366beda19b16512bf1f8f460346e589c3b98ee3de918055e170db52",
+      "senseIndex": 0,
+      "frame": "reproach",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "say something unpleasant to someone or rebuke them; colloquial",
+      "notes": "Spanish source labels: transitive, colloquial."
+    },
+    {
+      "spanish": "charrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "099f85871598fd1c29fa56cd5aa0bf92aa6b510387af21fb6d42e82d1571477a",
+      "senseIndex": 0,
+      "frame": "chatter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "several people: talk at length with little substance; vulgar source label",
+      "notes": "Spanish source labels: intransitive, vulgar."
+    },
+    {
+      "spanish": "difluir",
+      "partOfSpeech": "verb",
+      "recordSha256": "6cd2bdf3f4ef07bac0a08b8579d905fca31912e9c9428cbdac2d2dfbaf165fd1",
+      "senseIndex": 0,
+      "frame": "diffuse",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a liquid or gas: spread in all directions",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "quintar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5ec4e9ffb156a7a2fcd399e5c17c9ae6152de2b1b38520bc2c659478830442f2",
+      "senseIndex": 1,
+      "frame": "draw recruitment lots",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "select candidates for military service by lottery",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ronchar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c2e6437bbb938af1bbddc1fab46cfb985c79dac57324045d683f80315247a044",
+      "senseIndex": 0,
+      "frame": "crunch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make noise while chewing brittle food; variant of ronzar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "tribuir",
+      "partOfSpeech": "verb",
+      "recordSha256": "5fb4219fb15e98c3eea34dd79fae5935b4c5b68450519317685619a013a3bf89",
+      "senseIndex": 0,
+      "frame": "attribute",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "assign a property or ownership to something; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "abalizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cb4f9ef1142ca663def051fd419273a4a43492a43068bbf7967b5f40e5335832",
+      "senseIndex": 0,
+      "frame": "buoy",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark an area of water with floating beacons",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "abiselar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b26e56595245392efaa0beb46193ba11c24603442df49e0c967d89de0bcea29f",
+      "senseIndex": 0,
+      "frame": "bevel",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut an edge obliquely; variant of biselar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "abozalar",
+      "partOfSpeech": "verb",
+      "recordSha256": "48690f6ef1dd36c3d62590a0ba0a4d592cd43d434255f9caa8829ce5ae78e221",
+      "senseIndex": 0,
+      "frame": "muzzle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put a muzzle on an animal",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "abriolar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ac02dd48200f1e9463d774bb916fe5f6ea955113b8b7923f7d27d68c8834c982",
+      "senseIndex": 0,
+      "frame": "fit brails",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "provide a sail with brailing ropes",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acabañar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0877efe30294325ad7fbc9355bfec6a8062eb6b79b037a0cc04dc188a071c1a9",
+      "senseIndex": 0,
+      "frame": "build a temporary hut",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a shepherd: construct temporary shelter while tending livestock",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acebadar",
+      "partOfSpeech": "verb",
+      "recordSha256": "fcf0a2117ce6bf3984fcd77567c2cbd6fac27b5f6bcb17a00a9e3d161fce22f1",
+      "senseIndex": 0,
+      "frame": "overfeed horses",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give equines an injuriously excessive amount of barley",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acecinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cf9754aa980cdbeb1777d706199cd62d198160902a48a54f98319dad28df3ec1",
+      "senseIndex": 0,
+      "frame": "cure meat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "salt and smoke meat to preserve it",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "acocotar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b3a60b4e7ebd1d2276520245bea098fdeacb313fd16b6dbfcd4296bd2670b9b1",
+      "senseIndex": 0,
+      "frame": "kill by a neck blow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "kill by striking or wounding the nape",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acodalar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1af7816813cfbdfbdf621ce62106bc34e42ea70c027e7be007859726abda7fb2",
+      "senseIndex": 0,
+      "frame": "brace",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "secure or strengthen something with struts",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "aconchar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a97213f59286a961deebd5c7d10436bc7c57e42cfcc8dbb901c80ddcda04e131",
+      "senseIndex": 2,
+      "frame": "tidy",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "improve a thing’s appearance or arrangement; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "acornar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c3efc610f3661c4334b5ad072c3640ef73d07d5778f7e71932f1ea33771ef85f",
+      "senseIndex": 0,
+      "frame": "gore",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike with horns; synonym acornear",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acornear",
+      "partOfSpeech": "verb",
+      "recordSha256": "8edda38876f1d96d37b9172cb61a045efcb410262f1ab6c67d3f5d2c58170ad4",
+      "senseIndex": 0,
+      "frame": "gore",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike with horns",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acosijar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ea1bfbd68d69bb56097674acbbbf5a41cbe811aa614a775345edd02cc1c2521e",
+      "senseIndex": 0,
+      "frame": "distress",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause psychological pressure, worry or anxiety; Mexico",
+      "notes": "Spanish source labels: transitive, Mexico."
+    },
+    {
+      "spanish": "adargar",
+      "partOfSpeech": "verb",
+      "recordSha256": "180f6b17e055e19e4289919b267d89d371834b0c7575235197b746743cfe5222",
+      "senseIndex": 1,
+      "frame": "protect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "defend or shield someone; transitive",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "adecenar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c61a74fda1159e40483f66b445b8a3f8d6eb086795ce91b162544fd8474b4bf7",
+      "senseIndex": 1,
+      "frame": "divide into tens",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "separate things into groups of ten",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "adumbrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e874284ddef60ea0bd7ffe69b5f08147b4826b37187110ff7044943934e08de8",
+      "senseIndex": 0,
+      "frame": "shade",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "add shadows in a painting",
+      "notes": "Spanish source labels: transitive, Pintura."
+    },
+    {
+      "spanish": "aflautar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6055479cbed25b2df2d5934aa2973154d0e7a97e8e41478f3a9a33458b89a392",
+      "senseIndex": 0,
+      "frame": "raise the pitch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a voice or sound more high-pitched",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "afollar",
+      "partOfSpeech": "verb",
+      "recordSha256": "126390392d481484c23d9778ae9c340acf77a6989a4103e62f3c6b118671c4c5",
+      "senseIndex": 0,
+      "frame": "afflict",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "hurt or mistreat someone; dated",
+      "notes": "Spanish source labels: transitive, outdated, pronominal."
+    },
+    {
+      "spanish": "afrailar",
+      "partOfSpeech": "verb",
+      "recordSha256": "fd695f36543e7c506c583583eabcb0682f14104f0725964729f708d6f1a8af82",
+      "senseIndex": 0,
+      "frame": "pollard",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cut a tree’s branches near the point where they join the trunk",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "agalerar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6a8a4d51e0c767cb520184a46bc280f6176db6ccae4c192cad1694c7407a81b4",
+      "senseIndex": 0,
+      "frame": "slope awnings",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give coverings a suitable incline on both sides to shed rainwater",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "agamitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d99e9efed0137d59de72eb8da108a04f4efca30ed16fbc1692750d3bec8fda75",
+      "senseIndex": 0,
+      "frame": "imitate a fawn’s call",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "hunting: reproduce the voice of a young fallow deer",
+      "notes": "Spanish source labels: intransitive, Caza."
+    },
+    {
+      "spanish": "agilitar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3382cdebb48f63fed2a72834c1caab31d9f5e167a9a1714afd4cf8ea39631ffb",
+      "senseIndex": 0,
+      "frame": "streamline",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a process faster or more agile; variant of agilizar",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "ahuchear",
+      "partOfSpeech": "verb",
+      "recordSha256": "d6dab2c8f10ebb426fa8456807f947806aa89f3677fb69a7d59fde70db1f2179",
+      "senseIndex": 0,
+      "frame": "drive game",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "hunting: use shouts, shots or noise to move animals toward hunters; Andalusia",
+      "notes": "Spanish source labels: intransitive, Andalusia, Caza."
+    },
+    {
+      "spanish": "ajironar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d0989d67710fb39ef32a7a4954a1c9dce2723eeb6f639bccdb9d6bc8b51260ef",
+      "senseIndex": 1,
+      "frame": "shred",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tear something into strips",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "ajuiciar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7c1f9846757ca4959adfe4dc692589494aa5624dd1c8c8b623e384aecad98bf4",
+      "senseIndex": 1,
+      "frame": "prosecute",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring someone before a court; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "alastrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d34e2bce0cbf85339775fb74d45f5eae188adb19f5f91422fad0c238629044e4",
+      "senseIndex": 0,
+      "frame": "ballast",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "add ballast; synonym lastrar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alegamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5da3d8679c5af123a18e88cbc05a1bc1b7b77a8acf3e812a100db099442bf275",
+      "senseIndex": 0,
+      "frame": "add silt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "improve farmland by adding mud or silt",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alenguar",
+      "partOfSpeech": "verb",
+      "recordSha256": "333f14a3d35d9555dca4c305d44dc43593b266b642293334e70fa430fa251aaa",
+      "senseIndex": 0,
+      "frame": "negotiate pasture rent",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "arrange the rental of sheep pasture; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "alustrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "accbf31a4fd2fc16b74a9e8074707d14f661c2090dd602f34a4ec94d70375a21",
+      "senseIndex": 0,
+      "frame": "polish",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give a surface a shine; rare lustrar sense",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "amajadar",
+      "partOfSpeech": "verb",
+      "recordSha256": "750ddb728b88d85e592ce580259a985f536a6766cfceab3802042d8ba42fd21f",
+      "senseIndex": 1,
+      "frame": "pen livestock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "gather animals in a sheepfold or enclosure",
+      "notes": "Spanish source labels: transitive, utci."
+    },
+    {
+      "spanish": "amanojar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1044382a55788d2468ef4343a3a535973c270b6cd20cbb63e1e1e8c3585a69a6",
+      "senseIndex": 0,
+      "frame": "bundle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put things together into handful-sized bundles",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "amustiar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ee9825748b2fe305f29bfe853bb07ec2c920d80337b7b31a50612a438839c3a8",
+      "senseIndex": 0,
+      "frame": "wilt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause something to lose freshness or vigor; transitive",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "anieblar",
+      "partOfSpeech": "verb",
+      "recordSha256": "42fb66686642974280f52370a3a0247cf316e2eb398b0415bc5a48ce391a1edb",
+      "senseIndex": 0,
+      "frame": "fog",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cover something with mist; transitive",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "animizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b12517f39f10354d3edd91130ddeb0274b3469701f4c01ea8671aa893693b286",
+      "senseIndex": 0,
+      "frame": "ascribe life",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "attribute living characteristics to an otherwise inanimate entity; learned/academic sense",
+      "notes": "Spanish source labels: transitive, academic."
+    },
+    {
+      "spanish": "apernar",
+      "partOfSpeech": "verb",
+      "recordSha256": "26b28eea811386e903db15facc8bbf9579858dbd132a7f8b2fa617d1eb9bec90",
+      "senseIndex": 0,
+      "frame": "appoint",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put someone in a job; Chile",
+      "notes": "Spanish source labels: transitive, Chile."
+    },
+    {
+      "spanish": "apezuñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "270a7f27db034c6fc9ce67faa1f73e3991d5d8ede48011dae036067bca739ffb",
+      "senseIndex": 0,
+      "frame": "stamp a hoof",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strike or press a hoof into the ground",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "aplacer",
+      "partOfSpeech": "verb",
+      "recordSha256": "b167eb583a64a9d2f2fd096c39200ca02369e8e7e671c8c29602cc56963d15fd",
+      "senseIndex": 0,
+      "frame": "please",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "a thing or event: produce pleasure or satisfaction; rare cause-subject reading",
+      "notes": "Spanish source labels: intransitive, pronominal, rare."
+    },
+    {
+      "spanish": "asotanar",
+      "partOfSpeech": "verb",
+      "recordSha256": "17a8695b6723d097a1e7640d18d40fe0fdc29e0c6b182861e0ba458d3f1190d3",
+      "senseIndex": 0,
+      "frame": "build basements",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct cellars beneath a building",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "atizonar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0b15767d236f4175cd781031a5e5f9133670518c9dffe5b645431e8146b840a0",
+      "senseIndex": 1,
+      "frame": "fill masonry holes",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pack cavities in a damaged wall with rubble or masonry stones",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "atrochar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ec5b987b33d4f3f3d55e88310ddf750168228df9db064f79b849afb20ae2ad58",
+      "senseIndex": 0,
+      "frame": "take a shortcut",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "go between two points by a shorter route",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "braquiar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a1924f52dbc8c970dad3c601d1327dbe3e2be1ee54c435bbb01ff7bf7940f396",
+      "senseIndex": 0,
+      "frame": "brachiate",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a monkey: swing from branch to branch using alternating arms; rare",
+      "notes": "Spanish source labels: intransitive, rare."
+    },
+    {
+      "spanish": "briscar",
+      "partOfSpeech": "verb",
+      "recordSha256": "93ccdf3993497737a50fd9860788e76b1187885c660eb63f282a9fdc1525ed78",
+      "senseIndex": 0,
+      "frame": "brocade",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "weave or embroider fabric with silk and gold or silver threads",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "cafetear",
+      "partOfSpeech": "verb",
+      "recordSha256": "b59af3ef817889a06a4edf04b383473d22812753827c861252af68f21180a210",
+      "senseIndex": 0,
+      "frame": "chat over coffee",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "have a coffeehouse-style conversation with someone",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "cantonar",
+      "partOfSpeech": "verb",
+      "recordSha256": "49c238315ca9a285bfea987448fe6c642ce7f21bef0961a58095520f3c703f29",
+      "senseIndex": 0,
+      "frame": "quarter troops",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "distribute military accommodation among several towns; selected transitive allocation sense",
+      "notes": "Spanish source labels: transitive, pronominal, cantonarse."
+    },
+    {
+      "spanish": "carduzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8c7eb0f6066096d1bd66bbba89fceafbcb02a877e87d155b7043b5113438f829",
+      "senseIndex": 0,
+      "frame": "card",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "brush textile fibers, yarn or hair with a carding tool",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "carochar",
+      "partOfSpeech": "verb",
+      "recordSha256": "943864fedfc6bbfb295959c14211282ea5eebac09330a95b2395ddacb1dbb87f",
+      "senseIndex": 0,
+      "frame": "lay eggs",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "an insect: deposit eggs",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "charlear",
+      "partOfSpeech": "verb",
+      "recordSha256": "95851a77ba45176d57e6fbbd4e751c1f4ec244216baf5893df112c039ee97842",
+      "senseIndex": 0,
+      "frame": "croak",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a frog: make its characteristic call",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "chaspear",
+      "partOfSpeech": "verb",
+      "recordSha256": "1c403c02c26a25e5cef1da69dced6272a6d1b2246ea87c8cf83f230d25b99c96",
+      "senseIndex": 0,
+      "frame": "blaze a tree",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark a tree with a shallow axe cut",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "chirlear",
+      "partOfSpeech": "verb",
+      "recordSha256": "6043d9c08023bc9abab2b87674c943a8bae8160e9354761132e8398adc7683f5",
+      "senseIndex": 0,
+      "frame": "squawk",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a bird: make an unmelodious cry",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "chirrear",
+      "partOfSpeech": "verb",
+      "recordSha256": "f21f59a93bae021fad9a284464d8c285cec0bae86d1be636066aba064d2e91b0",
+      "senseIndex": 0,
+      "frame": "squawk",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a bird: make an unmelodious cry",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "chuchear",
+      "partOfSpeech": "verb",
+      "recordSha256": "39d6afdbeda0734d3ca9979226f92aac32062824b203d836daacbc1ff7bd785a",
+      "senseIndex": 1,
+      "frame": "imitate bird calls",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "hunting: reproduce birdsong with the voice or a decoy",
+      "notes": "Spanish source labels: intransitive, Caza."
+    },
+    {
+      "spanish": "cominear",
+      "partOfSpeech": "verb",
+      "recordSha256": "5dbff8c1ff511ce4d4436589e7ad28e8213f4c71367a0e07578e5dbec91d9f88",
+      "senseIndex": 0,
+      "frame": "meddle in trivialities",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "take an intrusive interest in petty affairs",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "coquizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f1569d41b4e535f5d0199179e5189b21afb20c305de50414c472a57ed4f6d4da",
+      "senseIndex": 0,
+      "frame": "coke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "convert coal into coke",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "coyotear",
+      "partOfSpeech": "verb",
+      "recordSha256": "5c2e70ab4233e11cbcb7cc39fb5a6cf682c3eff35a2d702c53b6e08518877794",
+      "senseIndex": 0,
+      "frame": "handle paperwork informally",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "act as an unofficial intermediary for administrative procedures, generally for payment; Mexico, Central America and US",
+      "notes": "Spanish source labels: intransitive, El-Salvador, Guatemala, Honduras, Mexico, US."
+    },
+    {
+      "spanish": "descamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2eef6f0c7324da21754639d77287318751efc97d0045484fc262afd1f5ed3139",
+      "senseIndex": 0,
+      "frame": "scale",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove scales from fish",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "descañar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b601748f27dde4f4506ac5544116e480067db4d5d11f36bfd7fd3541ee3ee67c",
+      "senseIndex": 0,
+      "frame": "cut stalks",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "break or cut the stems of grasses or other herbs",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "descebar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cf50f44bf067680ae1870ccf510cf2e5c1469a7858dc4c5850807072a1d1d7cf",
+      "senseIndex": 0,
+      "frame": "deprime",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove the priming charge from a firearm",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "descerar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6e213a00bd1f1f99c1e57cfb50623e8b72fbd2427d4a79d76e36d15f02612fb6",
+      "senseIndex": 0,
+      "frame": "remove excess wax",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "take unwanted wax out of beehives",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "deslatar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5ccc82ce1f4478cb76d6cf3fb80c01ae44b83b1d153d847000d5779aaedce493",
+      "senseIndex": 0,
+      "frame": "remove laths",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strip wooden laths from a house or boat",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "desmamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1601c32aeef8d18b0a1b4a7b9964fd7b4e3ed450cf36c76dc8dc9b6a7d3df60e",
+      "senseIndex": 0,
+      "frame": "wean",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "end a young creature’s dependence on maternal milk",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "desmanar",
+      "partOfSpeech": "verb",
+      "recordSha256": "adf467871c656514b27d7c52525b84431eea9354ed4584a367b2c91259980710",
+      "senseIndex": 0,
+      "frame": "disperse a herd",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "break up a group of livestock; obsolete",
+      "notes": "Spanish source labels: transitive, obsolete."
+    },
+    {
+      "spanish": "destusar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4922e4ec2af851f9fffac957f2466cfab1f53abcf7df77f58f04075bf1ccfac4",
+      "senseIndex": 0,
+      "frame": "husk corn",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove the outer husk from an ear of maize; Central America",
+      "notes": "Spanish source labels: transitive, Central-America."
+    },
+    {
+      "spanish": "desvarar",
+      "partOfSpeech": "verb",
+      "recordSha256": "718296e3703abe106fcfd5a8a4e70d8880b5bc6e7d41746fb4b0c4ba46c0e5c7",
+      "senseIndex": 0,
+      "frame": "refloat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put a stranded vessel back in motion",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "deszumar",
+      "partOfSpeech": "verb",
+      "recordSha256": "83dbf5df4c0ecd4071408a23d22706dfe6d6072f9f7f6b936dab52622358e1da",
+      "senseIndex": 0,
+      "frame": "extract juice",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "obtain the liquid or essential substance from something",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "diablear",
+      "partOfSpeech": "verb",
+      "recordSha256": "a262bc4253924c39a621d9a4dd7b5e3cb8c753f75ee5947310ffeb6ab24b1666",
+      "senseIndex": 0,
+      "frame": "play pranks",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "do mischievous things; colloquial",
+      "notes": "Spanish source labels: intransitive, colloquial."
+    },
+    {
+      "spanish": "dimidiar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4e8a5b966460cf64703be36f5eab7ccc893035957c457989ebe4296b6561cc4d",
+      "senseIndex": 0,
+      "frame": "halve",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "divide something into two halves; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "empernar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9cfcab257f8647d56c5c26184b21ba2ba2ba78b0404fe59a03980d309ba4567c",
+      "senseIndex": 0,
+      "frame": "bolt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fasten components with bolts; literal construction sense",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enceldar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8e9f421c98c70aae1388f1ecb37e2fbdbf38652cc98a08860fdbaf3ae6cb459b",
+      "senseIndex": 0,
+      "frame": "imprison",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "confine someone in a cell",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "encrasar",
+      "partOfSpeech": "verb",
+      "recordSha256": "49c27485625ec47d54f4fc62b012de3ecd0022249f86b4e5b7f5e2a0295d0bfe",
+      "senseIndex": 0,
+      "frame": "thicken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make a liquid thick or fatty",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "engredar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8e125896cc3a6883be92cf515dc679802724f79520b1181e8cbebd3a4eb4f83f",
+      "senseIndex": 0,
+      "frame": "apply clay",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "spread greda over a surface",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "engrifar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a640e401cbcbab6b4458025ff65e151c2ff1fa1d0736220a3c9cf3b8dba8af84",
+      "senseIndex": 0,
+      "frame": "ruffle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause hair or another material to stand up or curl",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enhielar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ea1bb84e658ac017362d74aa2ff021c0d160c1ec0226171e0beac635a51e4cc4",
+      "senseIndex": 0,
+      "frame": "add bile",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dissolve bile in something",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enmantar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5fc51b41221d5c051c6ef37331f5f1a78d9aa31671f8e5a1b20f97530a8af0b4",
+      "senseIndex": 0,
+      "frame": "blanket",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cover a person, animal or thing with a blanket",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "enmostar",
+      "partOfSpeech": "verb",
+      "recordSha256": "45171ae09192441be9488d8c47550cd4d78dd0e2062a5243f2928b80dfec47db",
+      "senseIndex": 0,
+      "frame": "stain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mark something with grape must or unfermented grape juice",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "entiznar",
+      "partOfSpeech": "verb",
+      "recordSha256": "869b2dd3695cb30c0b50a0a6329a7fd0b07a62546ee3c954774ed198b039199d",
+      "senseIndex": 0,
+      "frame": "blacken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "leave a dark mark with smoke, soot or a charred stick",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "escullar",
+      "partOfSpeech": "verb",
+      "recordSha256": "303640570f76daf0ab46ce7e268574879a1da036f3b8bb76262776c746fc9808",
+      "senseIndex": 0,
+      "frame": "pour broth",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put broth into a bowl; vulgar source label",
+      "notes": "Spanish source labels: transitive, vulgar."
+    },
+    {
+      "spanish": "escullir",
+      "partOfSpeech": "verb",
+      "recordSha256": "dd70c44deb4999ce72ce2729c7c833519b1ae59c943fd86ebddb8cdf70e5eb99",
+      "senseIndex": 0,
+      "frame": "slip",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "lose footing or slide; colloquial Spain",
+      "notes": "Spanish source labels: intransitive, Spain, colloquial."
+    },
+    {
+      "spanish": "espoliar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4be61585e4baff3043f5b720d30cf9d6bd29f663d7c2e7f878d54d1165e943e4",
+      "senseIndex": 0,
+      "frame": "plunder",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "strip someone or something of property; variant of expoliar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "exuberar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f1955673532c627ba3f1ca4831dc6d0dffb7d16859ab0dbe46dbe8f24ae77bda",
+      "senseIndex": 0,
+      "frame": "abound",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "exist in excessive abundance; dated",
+      "notes": "Spanish source labels: intransitive, outdated."
+    },
+    {
+      "spanish": "flocular",
+      "partOfSpeech": "verb",
+      "recordSha256": "d4d1a5a7398b49e799418a6d765a4337b2ad1ceef3f2e7e1b8888a0efd9aa842",
+      "senseIndex": 0,
+      "frame": "flocculate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "form flocculent clumps in a liquid",
+      "notes": ""
+    },
+    {
+      "spanish": "fratasar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e364541ac6861fb0931cbf1a34e1b3d56b1ce559075b724ddc0da85b7fb14011",
+      "senseIndex": 0,
+      "frame": "float plaster",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "rub a rendered wall with a plasterer’s float to finish its surface",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gusanear",
+      "partOfSpeech": "verb",
+      "recordSha256": "f6b53f4841e15feaf949fbada43a36f53ec7a845a3388cf0832e1edb84e736ee",
+      "senseIndex": 1,
+      "frame": "bustle",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a crowd: move busily or teem with activity",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "hembrear",
+      "partOfSpeech": "verb",
+      "recordSha256": "b7bcc4d3aeaedca4c55a4c06b70a81da721d157e0c5d430520d05472af289dd4",
+      "senseIndex": 1,
+      "frame": "produce female offspring",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "generate only females or more females than males",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "hisopear",
+      "partOfSpeech": "verb",
+      "recordSha256": "ed5a193ea245877dded3d66b1ece04352fee87eb524236d28089946e61935458",
+      "senseIndex": 0,
+      "frame": "sprinkle holy water",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "apply water using an aspergillum; selected ritual meaning of hisopar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "incrasar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2dbb81b0fdd80ecd892fd6ac36347bf319a6224df0fc1257b7bd4e18777dbaaf",
+      "senseIndex": 0,
+      "frame": "grease",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "apply grease to something",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "jaharrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "aed0660028bd109ce82ba6d0808b9095212d99239e40fd351860168ccb01ba59",
+      "senseIndex": 0,
+      "frame": "roughcast",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "apply a plaster base coat to level a wall before finishing",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "jarabear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c98449528842ed63231606f3eb2a8e73f4bc057f2c47c715502f74ee028de0e2",
+      "senseIndex": 0,
+      "frame": "prescribe syrups",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a physician: frequently order medicinal syrups; rare selected nonpronominal sense",
+      "notes": "Spanish source labels: transitive, pronominal, rare."
+    },
+    {
+      "spanish": "julepear",
+      "partOfSpeech": "verb",
+      "recordSha256": "0897bc5cb17bfd5fbab8921c6a643cdc5961717045714163b50d415201e2a80d",
+      "senseIndex": 0,
+      "frame": "startle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give someone a sudden fright; Southern Cone",
+      "notes": "Spanish source labels: transitive, South-Cone."
+    },
+    {
+      "spanish": "lancinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5ae1acc054eeac445f5a85dcef680485ab90ec440f46cd333d36d1f3d7a25814",
+      "senseIndex": 1,
+      "frame": "cause intense pain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "inflict severe suffering; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "lavotear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e402b510469ec0d38f9fb4fac403faf0cd58dbf04f05b5ee41d6b13333a839a6",
+      "senseIndex": 0,
+      "frame": "wash carelessly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "wash hastily and repeatedly without cleaning well; derogatory",
+      "notes": "Spanish source labels: transitive, derogatory, pronominal."
+    },
+    {
+      "spanish": "listonar",
+      "partOfSpeech": "verb",
+      "recordSha256": "75ad486a4bc166261a03f34dae9d6a997f3bfd0332500886be961b0b80d718a5",
+      "senseIndex": 1,
+      "frame": "build a slatted platform",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct boarding from narrow wooden strips",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "majadear",
+      "partOfSpeech": "verb",
+      "recordSha256": "8174b357a991fc0b86dbea477b21ce35a9ce59c3bb166dab64cd19c8f9831d48",
+      "senseIndex": 0,
+      "frame": "shelter for the night",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "livestock: spend the night in a sheepfold or appointed resting place",
+      "notes": "Spanish source labels: intransitive, Ganadería."
+    },
+    {
+      "spanish": "malcasar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a4383cb5a1386b86a6b658d53d9d323a57f50c88bee62a9b337ca11d30af1c02",
+      "senseIndex": 0,
+      "frame": "arrange an unsuitable marriage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "marry someone off without conditions conducive to a happy marriage; transitive arranger subject",
+      "notes": "Spanish source labels: transitive, pronominal, utci."
+    },
+    {
+      "spanish": "mamullar",
+      "partOfSpeech": "verb",
+      "recordSha256": "194f4390a35bb23337fa8982b88265ba1ae03378da262b54c3c5e0b163a20167",
+      "senseIndex": 1,
+      "frame": "mumble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pronounce words indistinctly; colloquial",
+      "notes": "Spanish source labels: transitive, colloquial."
+    },
+    {
+      "spanish": "mancipar",
+      "partOfSpeech": "verb",
+      "recordSha256": "de71b727a53a7bb841b0e23c5014c37750a4880276d836a809012d4a6d0e93e4",
+      "senseIndex": 0,
+      "frame": "enslave",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "deprive someone of freedom or autonomy; rare",
+      "notes": "Spanish source labels: transitive, pronominal, rare."
+    },
+    {
+      "spanish": "manquear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c37f0180fb481c6d49e9086fa68b39658a69ec7a07fae167d8a993ee19784566",
+      "senseIndex": 1,
+      "frame": "play casually",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "play a game for fun and showy moves rather than to win; colloquial Argentina",
+      "notes": "Spanish source labels: intransitive, Argentina, colloquial."
+    },
+    {
+      "spanish": "margenar",
+      "partOfSpeech": "verb",
+      "recordSha256": "32c6ab7dd25d1a1f6ad60b8bff9f7fc672ccd4385fc6a7ded85722442320455b",
+      "senseIndex": 1,
+      "frame": "annotate margins",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "write notes in the blank borders of a text",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "matutear",
+      "partOfSpeech": "verb",
+      "recordSha256": "861af6466fa5b03e58162f4452e477e1491911068ebf10b5e5db4b0e150dd1f0",
+      "senseIndex": 0,
+      "frame": "smuggle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring in contraband merchandise",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "olismear",
+      "partOfSpeech": "verb",
+      "recordSha256": "c4d0890fc8549f94adbc2db9140198fb0b58aba9164d33615b8a0d8cad884eb5",
+      "senseIndex": 0,
+      "frame": "snoop",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "seek out gossip or information about other people’s activities",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "olorizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6e6d538fea787ede1c28d8c96e13da314c6d44e846b78afebc569cb7c9fd040e",
+      "senseIndex": 0,
+      "frame": "scent",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give off or spread an aroma",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "peguntar",
+      "partOfSpeech": "verb",
+      "recordSha256": "061337024ea90ef6359c21f910cd66edc3792aa1662d2ecd6100209da882cd62",
+      "senseIndex": 0,
+      "frame": "mark livestock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "identify animals using melted pitch",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "pisonear",
+      "partOfSpeech": "verb",
+      "recordSha256": "fc21ddc98a5fbad73a964ee36f525a9a0fbe8840b428b65609f7ded0b110d468",
+      "senseIndex": 0,
+      "frame": "tamp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "compact material by pounding; synonym apisonear",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "piñonear",
+      "partOfSpeech": "verb",
+      "recordSha256": "add86ed38e4c1e4d2183453e542c47cf67d0435f569c119961cb80ea8d9b51e8",
+      "senseIndex": 1,
+      "frame": "clatter",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a male partridge: make a rattling courtship call",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "profazar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9eaf1f65120a9a7f2b2bac081fb244103d241755142fb9620b60ddca1c8a624e",
+      "senseIndex": 0,
+      "frame": "denigrate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "censure or speak ill of someone or something; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "rabiatar",
+      "partOfSpeech": "verb",
+      "recordSha256": "20e0cc7423f1ad54f7eff80570153fd86b629944c4976928dd546a73976f4850",
+      "senseIndex": 0,
+      "frame": "tether",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tie an animal by its tail",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "rabotear",
+      "partOfSpeech": "verb",
+      "recordSha256": "fdac68eff12e1f4c87a415262274b9205c79839f0a3506ea2cd16622b41c7665",
+      "senseIndex": 0,
+      "frame": "dock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "amputate an animal’s tail, especially a lamb’s",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "reacuñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "97d06a16217397f8060dc0b502a6fb02556ad2212bb1463e645c03ff0f15f508",
+      "senseIndex": 0,
+      "frame": "restrike",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mint a worn or poorly struck coin or medal again",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "regruñir",
+      "partOfSpeech": "verb",
+      "recordSha256": "47231d3801d589ed38caa1d0f59a62f2bbfa6f9a9c65bcb9aa312727fdce88e5",
+      "senseIndex": 0,
+      "frame": "growl repeatedly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make loud or repeated growling sounds",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "rejuntar",
+      "partOfSpeech": "verb",
+      "recordSha256": "bbd318bf1af0b808d4268544f9c4a0dbd05460c4a187291f19908016e7a0b664",
+      "senseIndex": 1,
+      "frame": "point masonry joints",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fill the joints between stones or bricks in a wall",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "remullir",
+      "partOfSpeech": "verb",
+      "recordSha256": "aa7a14c813cfb789bdb6156baff09873082310bf848400b07d712563a316d54b",
+      "senseIndex": 0,
+      "frame": "fluff thoroughly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make bedding or another soft material especially loose and yielding",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "romanear",
+      "partOfSpeech": "verb",
+      "recordSha256": "50ba3b0d4b4dcc04edc1f2687e79cdf5af7f22effc8d235170d9ee511996f107",
+      "senseIndex": 0,
+      "frame": "weigh",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "measure weight using a steelyard balance",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "sofaldar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b1ef8dae3526a3252d8f112d560345a9e53a28a02c8e9b887b83a14fefac4946",
+      "senseIndex": 0,
+      "frame": "lift skirts",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "raise the skirts of a garment",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "solacear",
+      "partOfSpeech": "verb",
+      "recordSha256": "284887d209518261fd25f7a5582954b4fd9f03e339f3f0b13b0cd7f49beec397",
+      "senseIndex": 0,
+      "frame": "entertain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "amuse or give solace; synonym solazar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "sonetear",
+      "partOfSpeech": "verb",
+      "recordSha256": "3d379a9472e82f67acab43753d4c0f62669d379d6200576f5a4702931d1cb0f9",
+      "senseIndex": 0,
+      "frame": "write sonnets",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "compose sonnet-form poems",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "sopetear",
+      "partOfSpeech": "verb",
+      "recordSha256": "9194379e81d37f9bf51365e31d78e334932590d093b311ec9f46812b10355cca",
+      "senseIndex": 0,
+      "frame": "dip bread repeatedly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "repeatedly soak bread in broth or a stew",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "sospesar",
+      "partOfSpeech": "verb",
+      "recordSha256": "db84084e43e54224ae51943e8aca46d830049962a43423843e5956a96263b0db",
+      "senseIndex": 0,
+      "frame": "weigh up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "consider or assess something; antiquated variant of sopesar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "tabalear",
+      "partOfSpeech": "verb",
+      "recordSha256": "04503a8bade043337743a2a9ae96195ee085604d5e60020317f22559c837bb29",
+      "senseIndex": 0,
+      "frame": "drum the fingers",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tap repeatedly with the fingers",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "talonear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e878500035742f3393882d7f922859d624c78dbf02e5689b920917a391d97b68",
+      "senseIndex": 2,
+      "frame": "work",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "perform labor; Ecuador and Mexico",
+      "notes": "Spanish source labels: intransitive, Ecuador, Mexico."
+    },
+    {
+      "spanish": "tintinar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c31ffb1446bc0f386f49da47248291c6c5f3c1722cfba1657bf39acda314efd2",
+      "senseIndex": 0,
+      "frame": "jingle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make light repeated ringing sounds; variant of tintinear",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "tizonear",
+      "partOfSpeech": "verb",
+      "recordSha256": "801e92bcebaad36f439547be51565c735a5623e3821a2f5209d3f1eb0276dd02",
+      "senseIndex": 0,
+      "frame": "poke the fire",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "move burning logs to revive a fire",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "traquear",
+      "partOfSpeech": "verb",
+      "recordSha256": "44c59b28f10955cf59d704573a4d331fab43114756a97fface41ee0e2718345f",
+      "senseIndex": 0,
+      "frame": "rattle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make brief dry cracking or rattling noises",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "trasloar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b9f8bbb5a82517cb78ee1d96f041b9f950c10e4cffdf46e76f5917a7a4d4c919",
+      "senseIndex": 0,
+      "frame": "overpraise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "praise beyond what is justified; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "trazumar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0c4608955da86757b8e1e7d9264f0f7b3580d246d6e513743636b7c758b3ceac",
+      "senseIndex": 0,
+      "frame": "seep",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a liquid: pass through pores or cracks in a solid",
+      "notes": "Spanish source labels: intransitive, pronominal."
+    },
+    {
+      "spanish": "trompar",
+      "partOfSpeech": "verb",
+      "recordSha256": "572e546c669ac103cdbb8fddaa2fde20a3d3ef2a963b2776660f243869adfdf0",
+      "senseIndex": 0,
+      "frame": "deceive",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "trick or mock someone; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "tutorar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cd9fdfc5fa4aa37c2cc8bf7e999b10109ac38194846a99cfde31617a2d5a5f23",
+      "senseIndex": 0,
+      "frame": "stake",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "support a plant with a cane or post so it does not bend",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "zumacar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ae3dc7b1467baaf09b143b56d2cb9a50f52e9d4eca8f12b5f2f0afc67410787d",
+      "senseIndex": 0,
+      "frame": "tan",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dress hides with sumac",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "acequiar",
+      "partOfSpeech": "verb",
+      "recordSha256": "85f28caaa744f5b7f17d088d924a82a44855903111a11e908c6b800c5b6695ac",
+      "senseIndex": 0,
+      "frame": "dig irrigation channels",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct acequias",
+      "notes": "Spanish source labels: intransitive, transitive."
+    },
+    {
+      "spanish": "aguachar",
+      "partOfSpeech": "verb",
+      "recordSha256": "76452296fc3bda9ddfec3887a6b8b7c2ce5f319dee24103332694cf0ddc130f7",
+      "senseIndex": 0,
+      "frame": "overfill with water",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "put too much water into a container",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alfeizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c7edc983f384a586922e879b960f5ec717109817d5e426531d70e8912e7d0096",
+      "senseIndex": 0,
+      "frame": "build window sills",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "construct the window-sill or reveal structures called alféizares in a wall",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "alforzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "49fc896f797d47526f9c2c66d69b9f35feb14934006b46cf5e96f74dfadabf14",
+      "senseIndex": 0,
+      "frame": "tuck",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "make folded and stitched tucks in fabric",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "antuviar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4286f1ebf24428f7cb576e242ddf77721e8639b82af9d774fa34aef18f019400",
+      "senseIndex": 0,
+      "frame": "anticipate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bring something forward or act before it; dated transitive sense",
+      "notes": "Spanish source labels: transitive, outdated, pronominal."
+    },
+    {
+      "spanish": "arromper",
+      "partOfSpeech": "verb",
+      "recordSha256": "722f759e2a37f47fea64ffb1fad53c96f0ba358e193837ebfe2f43a28330b4ab",
+      "senseIndex": 0,
+      "frame": "break",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "split or damage something; colloquial antiquated variant of romper",
+      "notes": "Spanish source labels: transitive, colloquial, outdated."
+    },
+    {
+      "spanish": "asperger",
+      "partOfSpeech": "verb",
+      "recordSha256": "be48a150a0958bff98a6e80d72465d87d4315cc6a7b61dfe555a34bec5b63cc6",
+      "senseIndex": 0,
+      "frame": "sprinkle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "scatter small drops; synonym asperjar",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "bazucar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e69b2b093f5b3cbbbbf8e98d08876a380bc99e14896d047cc46e2669dac12a3d",
+      "senseIndex": 0,
+      "frame": "agitate liquid",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "stir or shake liquid in a container",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "concomer",
+      "partOfSpeech": "verb",
+      "recordSha256": "6e866da5c3e21a071d165ef96eff2c9f7bc1b0fb7fcaad9b1e7b3bf071266d61",
+      "senseIndex": 0,
+      "frame": "torment",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause persistent inner emotional or mental distress; rare transitive cause-subject reading",
+      "notes": "Spanish source labels: transitive, pronominal, rare."
+    },
+    {
+      "spanish": "corcusir",
+      "partOfSpeech": "verb",
+      "recordSha256": "baec9d987cbdc56a13ee682b4eab2c00170f0bbc046c199e457bd4d3b5c1634a",
+      "senseIndex": 0,
+      "frame": "darn",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fill holes in clothing with many stitches; colloquial",
+      "notes": "Spanish source labels: transitive, colloquial."
+    },
+    {
+      "spanish": "cuantiar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ab6d1e2648dd5e5c0024e8c1102dfe6538ea453f6d5e082e53c4e8a1edbaa2a5",
+      "senseIndex": 0,
+      "frame": "appraise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "determine the value of an estate or property",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "denegrir",
+      "partOfSpeech": "verb",
+      "recordSha256": "ff608043346fc5aafffb8a0be6740109b3c90e68954cd3cd81519c495ecf326a",
+      "senseIndex": 0,
+      "frame": "blacken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a dark or black appearance",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "desasear",
+      "partOfSpeech": "verb",
+      "recordSha256": "02f4bc96f225400e76e6f896e19667543deb2d2c25442288e3dd788048449d54",
+      "senseIndex": 0,
+      "frame": "dirty",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove cleanliness or tidiness",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "desbeber",
+      "partOfSpeech": "verb",
+      "recordSha256": "25ebad25151886a519aa3e7f9a7aca75e6252bf25cfbf506934ef620c7f7449b",
+      "senseIndex": 0,
+      "frame": "urinate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pass urine; colloquial jocular euphemism",
+      "notes": "Spanish source labels: intransitive, colloquial, euphemism, jocular."
+    },
+    {
+      "spanish": "desuncir",
+      "partOfSpeech": "verb",
+      "recordSha256": "a01ecc9f5b382ef458e6b94c6cf382fdb58c1be1e9b2f812678ace6531e632e2",
+      "senseIndex": 0,
+      "frame": "unyoke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove the yoke from joined draft animals; selected literal sense",
+      "notes": "Spanish source labels: transitive, se emplea también en sentido figurado."
+    },
+    {
+      "spanish": "desurdir",
+      "partOfSpeech": "verb",
+      "recordSha256": "525f12d4815f0e7f062f76858a51a8409d01aae1a74365782669e4c30391cb22",
+      "senseIndex": 1,
+      "frame": "foil a plot",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "uncover and defeat a conspiracy or scheme; figurative",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "devanear",
+      "partOfSpeech": "verb",
+      "recordSha256": "1e94d3a9c63760c8362578faed046a9c8e4342fc571c2ee93318aac5ce1ef7c9",
+      "senseIndex": 0,
+      "frame": "ramble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "say or do incoherent or foolish things",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "ejemplar",
+      "partOfSpeech": "verb",
+      "recordSha256": "796ca61f9eccb05125e4a6881a00b08f57f0231741f2fbdab9b68cbdf0d40c69",
+      "senseIndex": 0,
+      "frame": "exemplify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give examples to illustrate or support an argument; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "englutir",
+      "partOfSpeech": "verb",
+      "recordSha256": "7c572ff64c041bb2e9d6983748f86956687c81829e0a9adcbec448e70111a3a0",
+      "senseIndex": 0,
+      "frame": "gulp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "swallow food greedily; synonym engullir",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "escollar",
+      "partOfSpeech": "verb",
+      "recordSha256": "1350f4edbea284e5b00b71528067d7e75f34d3b761130677344f9549f9bf6d01",
+      "senseIndex": 0,
+      "frame": "run aground",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a vessel: become stranded on a reef or rocky shoal",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "estatuar",
+      "partOfSpeech": "verb",
+      "recordSha256": "da9a8f97f8bc907af589894d98829f5722188c5132936e7e65adae9de4f5b850",
+      "senseIndex": 0,
+      "frame": "install statues",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "place or create statues to decorate a space",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "fistular",
+      "partOfSpeech": "verb",
+      "recordSha256": "68b49d5f8f69a3f94549f0e26a4cae090b662fd97dc9503a9f8e2f5a92ed158e",
+      "senseIndex": 0,
+      "frame": "form a fistula",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a sore: develop a fistulous tract",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gavillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5b00019d3e21bb842f49e3f472b8d92668d1487dfd8cd380ea378c081030362f",
+      "senseIndex": 0,
+      "frame": "sheave",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "gather harvested stalks or grasses into tied bundles",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "gracejar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5f6a6032f3ecfb87bd5ab9d2b43ebea04c7f6a37bdaeb317157464c9348d9531",
+      "senseIndex": 1,
+      "frame": "make witty remarks",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "tell jokes or amusing observations with grace",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "hebillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6b9bbc605b485dab7088ff2ec6f6813fb91bc3f287850f0969f18a784e83f244",
+      "senseIndex": 0,
+      "frame": "buckle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fasten something with a buckle; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "laborear",
+      "partOfSpeech": "verb",
+      "recordSha256": "ab821d3b6cd31ba0bacf802e47eca63db118650ebec12ff53d7d95addbf4ee8b",
+      "senseIndex": 1,
+      "frame": "reeve",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "nautical: pass a working rope through its guiding sheaves",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "magostar",
+      "partOfSpeech": "verb",
+      "recordSha256": "56b379e752334a1aa4211bec797b5387f8ec37110e240a92658f3ba750af31a6",
+      "senseIndex": 0,
+      "frame": "roast chestnuts",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cook chestnuts in a magosto fire",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "malcomer",
+      "partOfSpeech": "verb",
+      "recordSha256": "f9fab3bf26708dee6b5a787d2912aa72d2d163d1dd7e62377b92253a3f726e6c",
+      "senseIndex": 0,
+      "frame": "eat poorly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "be unable to obtain adequate nourishment because of food quality, illness, poverty or lack of time",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "prefinir",
+      "partOfSpeech": "verb",
+      "recordSha256": "03d3b907c04c5c4223e14b731e80d6bc47b8c70284f4aca4ffe3327df8144877",
+      "senseIndex": 0,
+      "frame": "set a deadline",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "determine when an action must take place or finish",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "recechar",
+      "partOfSpeech": "verb",
+      "recordSha256": "0ea8c098ea7c3dec64ff0c54ff1b8499fb8a42e96f8e2527c1f34238bbb9c729",
+      "senseIndex": 0,
+      "frame": "stalk prey",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "watch game cautiously while awaiting a suitable moment to hunt",
+      "notes": "Spanish source labels: transitive, Caza."
+    },
+    {
+      "spanish": "redhibir",
+      "partOfSpeech": "verb",
+      "recordSha256": "b3eddd7fff7dbc2a886e82efb97e1283d8437179dd7f0d7778220f0949b17cd6",
+      "senseIndex": 0,
+      "frame": "return defective goods",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a consumer: return a product to its seller because of hidden defects; legal sense",
+      "notes": "Spanish source labels: transitive, Derecho."
+    },
+    {
+      "spanish": "redrojar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a2b84c0de8fb6e6d75a3c7d58e3b73fb73718a4203d9e60af7a7bf51bfbc6b9d",
+      "senseIndex": 0,
+      "frame": "bloom out of season",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a plant: produce flowers outside its usual flowering season; selected flower rather than fruit branch",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "rejonear",
+      "partOfSpeech": "verb",
+      "recordSha256": "dc3b3c5634446343461febffbb62eeaa930d8b7ecfdbb69ee9450577b240c9cd",
+      "senseIndex": 0,
+      "frame": "lance a bull",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "wound a bull with a rejón, especially while mounted",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "relabrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "26a5b549b7d61ef8af7742f88d6fc281f567bad13c7f43bc464271edf27865de",
+      "senseIndex": 0,
+      "frame": "rework a surface",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "dress the surface of stone or wood again",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "repellar",
+      "partOfSpeech": "verb",
+      "recordSha256": "91e3627ca2e2b20bec7fd874a14a7aa1d9e50d5f3ec7e2af73851b269f331e3c",
+      "senseIndex": 0,
+      "frame": "replaster",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "add further plaster to a wall’s coating",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "repudrir",
+      "partOfSpeech": "verb",
+      "recordSha256": "06bc980963a977f7c8bb22cadf36ce38173d670d9d1ec0d9d90a9f616824f06b",
+      "senseIndex": 0,
+      "frame": "rot",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause extensive decomposition; selected transitive causative reading",
+      "notes": "Spanish source labels: transitive, pronominal."
+    },
+    {
+      "spanish": "retacar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9c6b3d45c14057a40f533454678fb6b4b3e4d2272de3dbdadef1ab3c245782c1",
+      "senseIndex": 1,
+      "frame": "compact",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "press material together",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "riostrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "813775c2617e863998df2fe4ef9e116b5827c88620084b259133b030e2f7f27e",
+      "senseIndex": 0,
+      "frame": "brace",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "fit a framework with diagonal supporting beams",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "soflamar",
+      "partOfSpeech": "verb",
+      "recordSha256": "169247cc0de4313b87c710e9b84020728521c14c5c760dbafa855dae4855b5cd",
+      "senseIndex": 0,
+      "frame": "deceive",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "mislead using fraudulent words or methods",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "traillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6c7cd29f68ddaed28f23c0c2e42d6066f2dc316f54e4a0846d625c571a85348f",
+      "senseIndex": 0,
+      "frame": "level ground",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "flatten land using a scraper called a traílla",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "zarandar",
+      "partOfSpeech": "verb",
+      "recordSha256": "cec539dbd137c84de939f35e70ae1394341f18aad3fae20b67124a91767482e0",
+      "senseIndex": 0,
+      "frame": "sift",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "clean grain or another granular solid using a sieve",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "absortar",
+      "partOfSpeech": "verb",
+      "recordSha256": "2d1ab65aee5caa6bf4859caf508c31bbf715b126bb143c47c4410fad06ccff17",
+      "senseIndex": 0,
+      "frame": "engross",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "hold someone’s attention completely",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "afrancar",
+      "partOfSpeech": "verb",
+      "recordSha256": "65469926c5d88fd39840fd37098cd4d6c1f7a4f90a880ad3c51df0685c1e4ea5",
+      "senseIndex": 0,
+      "frame": "free a slave",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "release an enslaved person; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "aldino",
+      "partOfSpeech": "adj",
+      "recordSha256": "4e07a085bda652ba6c0d41e13279d752abd1d2d2e64526c0c112adde7e44e212",
+      "senseIndex": 0,
+      "frame": "Aldine",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "relating to Aldus Manutius or his editions",
+      "notes": ""
+    },
+    {
+      "spanish": "alguno",
+      "partOfSpeech": "adj",
+      "recordSha256": "f37175efc73fbb784be793eebd62f1a15271462bc1529b2933318766776486f9",
+      "senseIndex": 0,
+      "frame": "some",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "indefinite adjective: an unspecified subset of a larger group; not the postposed negative sense",
+      "notes": "Spanish source labels: indeterminate."
+    },
+    {
+      "spanish": "alvino",
+      "partOfSpeech": "adj",
+      "recordSha256": "01a4a889d0ee7e3be6425280e6213aebc2928155700a4a4b9ecd1299fcc23b60",
+      "senseIndex": 0,
+      "frame": "intestinal",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "relating to the intestines or lower abdomen",
+      "notes": ""
+    },
+    {
+      "spanish": "alón",
+      "partOfSpeech": "adj",
+      "recordSha256": "acaa705c15b8e3db642b7df054179842bb215d8f497517265cb3dbec53c973c6",
+      "senseIndex": 0,
+      "frame": "broad-brimmed",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of a hat: having a large brim; regional Latin America including Mexico",
+      "notes": "Spanish source labels: Bolivia, Chile, Colombia, Costa-Rica, Cuba, Ecuador, Mexico, Nicaragua, Panama, Peru, Puerto-Rico, Venezuela."
+    },
+    {
+      "spanish": "amusco",
+      "partOfSpeech": "adj",
+      "recordSha256": "2539fdca73532a3ca146d20e0b805e28f4da13e219548d0c299252523fc4e1ee",
+      "senseIndex": 0,
+      "frame": "brown",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "a dated brown color resembling musk; variant of musco",
+      "notes": "Referenced musco color sense is explicitly present elsewhere in this same input, not inferred from a different homograph."
+    },
+    {
+      "spanish": "ascoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "0e82bd3e0c2d6a23476a4866c761704203b8df75ed1887b6dc2658683564d840",
+      "senseIndex": 0,
+      "frame": "disgusting",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "causing revulsion",
+      "notes": ""
+    },
+    {
+      "spanish": "carroñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "9d09caaae49e91fce5e3d423e5a725ac66994a5e675936f8da2250e4ed599c63",
+      "senseIndex": 0,
+      "frame": "infect sheep with mange",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "cause scabies or mange in wool-bearing livestock",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "changar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6a267da2aeeca0ab03d7655ad359999dac971b1df1b7090f89dd45c162c9535c",
+      "senseIndex": 0,
+      "frame": "smash",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "break something into pieces",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "desyugar",
+      "partOfSpeech": "verb",
+      "recordSha256": "328c7ea3407f84a7d1892a5965cab99df5d28dcae3ff0c0c45310b2208c10e31",
+      "senseIndex": 0,
+      "frame": "unyoke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "remove a yoke from draft animals; selected literal sense",
+      "notes": "Spanish source labels: transitive, utsf."
+    },
+    {
+      "spanish": "embrocar",
+      "partOfSpeech": "verb",
+      "recordSha256": "68848a77716c54d1550948f08dcbe35949b5e02114a7b6b1ed383abec75a196f",
+      "senseIndex": 0,
+      "frame": "decant",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "pour a container’s contents into another by turning it over",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "enluzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "d673a81e9ac2ad1cfeb6b1ff62888304b1a15bb937b43e82d3cdb4db3604a0bf",
+      "senseIndex": 0,
+      "frame": "focus",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "direct a lens, viewfinder, light or attention toward a target; El Salvador and Honduras",
+      "notes": "Spanish source labels: transitive, El-Salvador, Honduras."
+    },
+    {
+      "spanish": "entongar",
+      "partOfSpeech": "verb",
+      "recordSha256": "36297a649f0109a153345ace5d96236854dfd10713091061b540e11b2bb7f72c",
+      "senseIndex": 0,
+      "frame": "defraud",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "deceive someone for gain; Argentina",
+      "notes": "Spanish source labels: transitive, Argentina."
+    },
+    {
+      "spanish": "fumoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "94cf6109b9c5b462efa29afc1800db264646d110065676a3552eee2f082cb4c4",
+      "senseIndex": 0,
+      "frame": "smoky",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "containing or emitting a great deal of smoke",
+      "notes": ""
+    },
+    {
+      "spanish": "gurbio",
+      "partOfSpeech": "adj",
+      "recordSha256": "383a75bafcbb4b483b965849674f9ffd4f87e4107aa165e81f26fa23d453328b",
+      "senseIndex": 0,
+      "frame": "curved",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of a metal tool: having a bend",
+      "notes": ""
+    },
+    {
+      "spanish": "incurvar",
+      "partOfSpeech": "verb",
+      "recordSha256": "dd075630cee3fe1f432bd47de8414feed98746f6b79b3b7ae33b7f22aafd93ab",
+      "senseIndex": 0,
+      "frame": "curve",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "give something a curved shape; rare",
+      "notes": "Spanish source labels: transitive, rare."
+    },
+    {
+      "spanish": "jaroso",
+      "partOfSpeech": "adj",
+      "recordSha256": "0b36174e186488585025a84f6b5e1faa8cea00d133f39b49b75fa9d43b2129d9",
+      "senseIndex": 0,
+      "frame": "rockrose-covered",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of land: occupied largely or wholly by rockrose shrubs",
+      "notes": "Spanish source labels: se dice de terrenos y lugares."
+    },
+    {
+      "spanish": "jetudo",
+      "partOfSpeech": "adj",
+      "recordSha256": "482207ef06bab602c5544151bb8e52ab2e9180f76fd18e0651740d3b83c85d55",
+      "senseIndex": 0,
+      "frame": "large-snouted",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "having a large or prominent snout or mouth; selected physical sense",
+      "notes": ""
+    },
+    {
+      "spanish": "liego",
+      "partOfSpeech": "adj",
+      "recordSha256": "d8c84bef2ee8f865b443212bf00a7c49274a01e1e847f180954e721a7480b438",
+      "senseIndex": 0,
+      "frame": "long-uncultivated",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of cultivable land: left waste for a long period",
+      "notes": ""
+    },
+    {
+      "spanish": "loboso",
+      "partOfSpeech": "adj",
+      "recordSha256": "9c5a9d12858fc1b1dbe4973b75cb2fc8b9a1108d3445f53895bb2b8c1aab4bae",
+      "senseIndex": 0,
+      "frame": "wolf-infested",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of land: inhabited by many wolves",
+      "notes": ""
+    },
+    {
+      "spanish": "lomudo",
+      "partOfSpeech": "adj",
+      "recordSha256": "defd6fe497953c0e1d6075ad66b8dd705e266b97ccc8aa1b94e43b5f268dcfab",
+      "senseIndex": 0,
+      "frame": "broad-backed",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "having a large back or loin",
+      "notes": ""
+    },
+    {
+      "spanish": "mamoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "b6d8e31076b35c9529df547a4a9f7c6021d594938003e1b60682dc452d3bd1f8",
+      "senseIndex": 0,
+      "frame": "nursing eagerly",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "of a baby or young animal: suckling well and with appetite",
+      "notes": ""
+    },
+    {
+      "spanish": "mirlar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b78f877919b249f50b137cc3b3a94f6e9e86fc5f2205a545d83cea8a0a6e4f64",
+      "senseIndex": 0,
+      "frame": "embalm",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "preserve a corpse; dated",
+      "notes": "Spanish source labels: transitive, outdated."
+    },
+    {
+      "spanish": "mucho",
+      "partOfSpeech": "adj",
+      "recordSha256": "d6a5c752bc7c6a4704c6ac0e921eb26e05f5e3bc255cbb1169867ec43e7705c8",
+      "senseIndex": 0,
+      "frame": "much or many",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "indefinite adjective: a large quantity or number; English choice depends on countability",
+      "notes": "Spanish source labels: indeterminate."
+    },
+    {
+      "spanish": "musco",
+      "partOfSpeech": "adj",
+      "recordSha256": "6160163dd96a50cce3f6792e7393fd552b4414125bd7defa766ccc043b3ee738",
+      "senseIndex": 0,
+      "frame": "brown",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "a dated brown color resembling musk",
+      "notes": "Spanish source labels: outdated."
+    },
+    {
+      "spanish": "negregar",
+      "partOfSpeech": "verb",
+      "recordSha256": "551b983870052d79ac4107da6ab5100c43dc1a33a927ccc04c1a730113f66aef",
+      "senseIndex": 0,
+      "frame": "appear blackish",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "have a black or darkish coloration; rare",
+      "notes": "Spanish source labels: intransitive, rare."
+    },
+    {
+      "spanish": "nevoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "472d6dcc12a565025b44c420aedcc418487b7de66079ee8b064e9bda4d9589bb",
+      "senseIndex": 0,
+      "frame": "snowy",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "having frequent or abundant snow",
+      "notes": ""
+    },
+    {
+      "spanish": "otro",
+      "partOfSpeech": "adj",
+      "recordSha256": "925f9a7a29e715673e0519db550398b694f918204a39c01a946ccc16125d3dea",
+      "senseIndex": 0,
+      "frame": "other",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "different from something already mentioned; adjective reading",
+      "notes": "Spanish source labels: indeterminate, feminine, masculine, noun."
+    },
+    {
+      "spanish": "pitio",
+      "partOfSpeech": "adj",
+      "recordSha256": "323e83f8d558c694fa44a868f8d1021ade4fc2993846fc5b94d2d8ac420e50ff",
+      "senseIndex": 0,
+      "frame": "Pythian",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "relating to Apollo as conqueror of Python, or the Delphic games in his honor",
+      "notes": ""
+    },
+    {
+      "spanish": "puposo",
+      "partOfSpeech": "adj",
+      "recordSha256": "784367800d9b10de705fe8986bae1e9abd7dbc7456691d2afadd040ca2e719cf",
+      "senseIndex": 0,
+      "frame": "covered in sores",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "having sores or buboes",
+      "notes": ""
+    },
+    {
+      "spanish": "rodrigar",
+      "partOfSpeech": "verb",
+      "recordSha256": "560b5243d432a18091f283b4cb982ca102274c66774ed36819a6b63e52d4226e",
+      "senseIndex": 0,
+      "frame": "stake",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "support plants with rods or stakes",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "servio",
+      "partOfSpeech": "adj",
+      "recordSha256": "9fe3540ffb2a1a2c847aa88d450e1770a0eb85712b7960abc9f29aec2c8067a8",
+      "senseIndex": 0,
+      "frame": "Serbian",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "obsolete Spanish spelling of serbio; adjective nationality sense",
+      "notes": "Spanish source labels: Gentilicios, se usa también como sustantivo."
+    },
+    {
+      "spanish": "temoso",
+      "partOfSpeech": "adj",
+      "recordSha256": "35c1bc7142ccfb83ad9983610cae699143e7b74a19eeab715f615a90ff0e973b",
+      "senseIndex": 0,
+      "frame": "obstinate",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "unwilling to change an opinion or conduct despite opposing reasons",
+      "notes": ""
+    },
+    {
+      "spanish": "todo",
+      "partOfSpeech": "adj",
+      "recordSha256": "453d1803bb7a7fa30dcb823ef540d7e6e40d4992674582c18c787ad1b2e2564d",
+      "senseIndex": 0,
+      "frame": "all",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "complete in number or attributes; pre-nominal quantifier, usually with an article",
+      "notes": "Spanish source labels: indeterminate, antepuesto al sustantivo, generalmente con artículo."
+    },
+    {
+      "spanish": "trafagar",
+      "partOfSpeech": "verb",
+      "recordSha256": "ba8655f2d588d8a4295f9904b22f16f4fa6619b9181c726801f0ddbfa47acf9e",
+      "senseIndex": 0,
+      "frame": "trade",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "buy, sell or conduct commercial dealings",
+      "notes": "Spanish source labels: intransitive."
+    },
+    {
+      "spanish": "tífico",
+      "partOfSpeech": "adj",
+      "recordSha256": "0dea271a7cd102b1d3cba720c73cb4a70efaa83913b28b42529684a591ddda46",
+      "senseIndex": 0,
+      "frame": "typhus-related",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "pertaining to typhus, not typhoid fever",
+      "notes": "Spanish source labels: noun."
+    },
+    {
+      "spanish": "zaracear",
+      "partOfSpeech": "verb",
+      "recordSha256": "aae2f03d90117cbf6ad929b5b284ac08d0dee3baee3f3873b3d8c07df77192b5",
+      "senseIndex": 0,
+      "frame": "sleet",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "impersonal weather: a mixture of light snow and drizzle with wind",
+      "notes": ""
+    },
+    {
+      "spanish": "ápodo",
+      "partOfSpeech": "adj",
+      "recordSha256": "78979b8dce2d8e698ed9a4f356917e614d16c5ea586b226d1cd3a944c5491982",
+      "senseIndex": 0,
+      "frame": "legless",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "having no legs; selected general zoological sense, not specifically lacking pelvic fins",
+      "notes": "Spanish source labels: masculine, noun."
+    },
+    {
+      "spanish": "abadí",
+      "partOfSpeech": "adj",
+      "recordSha256": "5e14150e8f5f934bae84f539737d51499d037427609e01e8a0e4f502a9988fa3",
+      "senseIndex": 0,
+      "frame": "Abbadid",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "relating to the Banu Abbad dynasty of medieval Seville; source chiefly uses the plural and also as a noun",
+      "notes": "Spanish source labels: invariable en género, Gentilicios, se usa también como sustantivo, más en plural."
+    },
+    {
+      "spanish": "ablentar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5af9c2787e7cc65ec5b1e6c58ef6842745e9502f4b3806180f6a4d2f8a9a09d8",
+      "senseIndex": 1,
+      "frame": "winnow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "toss grain into the wind so the chaff blows away",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "adestrar",
+      "partOfSpeech": "verb",
+      "recordSha256": "252eecdf99a7fddea128681299ebedee6497e6223b97979f5f54f122fbdb71e1",
+      "senseIndex": 0,
+      "frame": "train",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "teach or instruct someone to develop skill",
+      "notes": "Spanish source labels: transitive."
+    },
+    {
+      "spanish": "afijo",
+      "partOfSpeech": "adj",
+      "recordSha256": "e513979a69203883a3a70f23930ae331a4eda9495e305d92013773bab7504707",
+      "senseIndex": 0,
+      "frame": "affixed",
+      "profile": "ordinary",
+      "aspectModes": [],
+      "context": "grammar: attached to a verb or another word; e.g. an enclitic personal pronoun or attached particle",
+      "notes": ""
+    },
+    {
+      "spanish": "albeldar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e5a8fea406b8eed634b495bed67eee869ca15a74b0e41171c93d6fbd0917e1ff",
+      "senseIndex": 0,
+      "frame": "winnow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "separate grain from chaff; variant of beldar",
+      "notes": "Spanish source labels: transitive."
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "edrar",
+      "partOfSpeech": "verb",
+      "reason": "Bare Binar₁₋₂ cross-reference does not identify a precise English meaning without resolving the referenced senses."
+    },
+    {
+      "spanish": "joparse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma requires separately supported clitic construction."
+    },
+    {
+      "spanish": "rosarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma and only sonrosarse cross-reference."
+    },
+    {
+      "spanish": "abuzarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction; bare children cannot be authorized."
+    },
+    {
+      "spanish": "acocarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction; bare children cannot be authorized."
+    },
+    {
+      "spanish": "afofarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma with no independent semantic definition."
+    },
+    {
+      "spanish": "afosarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction; bare children cannot be authorized."
+    },
+    {
+      "spanish": "afufar",
+      "partOfSpeech": "verb",
+      "reason": "Only pronominal fleeing use is supplied; bare finite mapping withheld."
+    },
+    {
+      "spanish": "alunarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma, including distinct food/person/animal senses."
+    },
+    {
+      "spanish": "aniñarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction; bare children cannot be authorized."
+    },
+    {
+      "spanish": "reilar",
+      "partOfSpeech": "verb",
+      "reason": "Only obsolete-spelling reference to polysemous rehilar; unresolved sense."
+    },
+    {
+      "spanish": "lardar",
+      "partOfSpeech": "verb",
+      "reason": "Only lardear variant reference; exact culinary operation not established from this record."
+    },
+    {
+      "spanish": "piolar",
+      "partOfSpeech": "verb",
+      "reason": "Only pipiar cross-reference, without a semantic definition."
+    },
+    {
+      "spanish": "zullarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma; bare forms not approved."
+    },
+    {
+      "spanish": "chitar",
+      "partOfSpeech": "verb",
+      "reason": "Only polysemous chistar reference; precise sound/speech reading not established from this record."
+    },
+    {
+      "spanish": "ufanarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "abruzarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "acacharse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "acarrarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma with livestock-specific constructions."
+    },
+    {
+      "spanish": "achularse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "acocharse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "acurdarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "afielar",
+      "partOfSpeech": "verb",
+      "reason": "Unfamiliar bare enfielar cross-reference; precise sense cannot be established confidently."
+    },
+    {
+      "spanish": "aindiarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma; source also gives contradictory transitive metadata."
+    },
+    {
+      "spanish": "azarearse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "enmararse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "logrear",
+      "partOfSpeech": "verb",
+      "reason": "Dar a ganancias is insufficiently specific here to distinguish lending, letting or investing for gain; withheld."
+    },
+    {
+      "spanish": "revotarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "nerviar",
+      "partOfSpeech": "verb",
+      "reason": "Nervios may denote sinews, structural bands or bookbinding cords; the bare definition does not resolve the technical sense confidently."
+    },
+    {
+      "spanish": "afoscarse",
+      "partOfSpeech": "verb",
+      "reason": "Explicitly mandatory pronominal weather construction."
+    },
+    {
+      "spanish": "añusgarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "adueñarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "jarciar",
+      "partOfSpeech": "verb",
+      "reason": "Bare enjarciar cross-reference; no directly retained definition resolving the rigging operation."
+    },
+    {
+      "spanish": "acuartar",
+      "partOfSpeech": "verb",
+      "reason": "Enganchar del encuarte is unfamiliar technical terminology without enough semantic detail; withheld."
+    },
+    {
+      "spanish": "adonizarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "agatizarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "alebrarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "alimonarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "amarinar",
+      "partOfSpeech": "verb",
+      "reason": "Indexed marinar₂ reference without the referenced definition; cannot distinguish sea-related and culinary homographs."
+    },
+    {
+      "spanish": "amojelar",
+      "partOfSpeech": "verb",
+      "reason": "Highly technical reef-rope operation not confidently expressed as a single reliable English predicate."
+    },
+    {
+      "spanish": "antojarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction with different desire/appearance senses."
+    },
+    {
+      "spanish": "debruzar",
+      "partOfSpeech": "verb",
+      "reason": "Source supplies only pronominal falling or leaning face-down construction."
+    },
+    {
+      "spanish": "encuitarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "encurdarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "endeudarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "enlardar",
+      "partOfSpeech": "verb",
+      "reason": "Only lardear reference; exact operation unresolved."
+    },
+    {
+      "spanish": "enmallarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "enmondar",
+      "partOfSpeech": "verb",
+      "reason": "Unresolved desliñar cross-reference."
+    },
+    {
+      "spanish": "enneciarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "espalmar",
+      "partOfSpeech": "verb",
+      "reason": "Despalmar has several technical senses; no exact definition supplied here."
+    },
+    {
+      "spanish": "volquearse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "zocatearse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "zollipar",
+      "partOfSpeech": "verb",
+      "reason": "Zollipos is not semantically defined in this record; cannot safely choose sobs versus hiccups."
+    },
+    {
+      "spanish": "achocharse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "acomedirse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma."
+    },
+    {
+      "spanish": "almadiar",
+      "partOfSpeech": "verb",
+      "reason": "Only pronominal dizziness construction is supplied; bare children not authorized."
+    },
+    {
+      "spanish": "amular",
+      "partOfSpeech": "verb",
+      "reason": "Source restricts the state to women; current ordinary/it-only subject profiles cannot express a female-only reading accurately."
+    },
+    {
+      "spanish": "ariscarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "engorrarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "regostarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction and unresolved arregostarse reference."
+    },
+    {
+      "spanish": "suicidarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction; no clitic-free lexical approval."
+    },
+    {
+      "spanish": "abotagarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "agrillarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "agringarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "aguizgar",
+      "partOfSpeech": "verb",
+      "reason": "Indexed aguijar₃ cross-reference without the referenced sense; no guessing among goading/hurrying senses."
+    },
+    {
+      "spanish": "embancarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "emperrarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal lemma, despite missing row-level grammatical tag."
+    },
+    {
+      "spanish": "engusgarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "enmontarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "jarretarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    },
+    {
+      "spanish": "aburrarse",
+      "partOfSpeech": "verb",
+      "reason": "Mandatory pronominal construction."
+    }
+  ]
+}

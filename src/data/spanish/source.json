@@ -1,0 +1,36 @@
+{
+  "project": "Recursos Lingüísticos Abiertos del Español",
+  "release": "2.9",
+  "tag": "v2.9",
+  "revision": "ea82c1214ead57740798acf66a1e18e5ac874c41",
+  "source": "https://github.com/sbosio/rla-es/tree/ea82c1214ead57740798acf66a1e18e5ac874c41",
+  "artifactUrl": "https://github.com/sbosio/rla-es/releases/download/v2.9/es_MX.xpi",
+  "artifactSha256": "c77ea2f40358d2a30f2acf72f78f8f0628c2e47ad2cb5f41bb4601fefccbe22e",
+  "licenseChoice": "MPL-1.1",
+  "originalLicenseOptions": "GPL-3.0-or-later OR LGPL-3.0-or-later OR MPL-1.1-or-later",
+  "parser": "nspell 2.1.5 (MIT), development only",
+  "files": {
+    "LGPLv3.txt": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+    "LICENSE.md": "2b70fd5cb8d3b34cc6ae322c969557a2270b99017594addb2531ef5ffd9e1b17",
+    "MPL-1.1.txt": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f",
+    "es-MX.dic": "9c23689501042cf4764882d93acf3f2f96650ac0a6a9b7c46533cdac357b0482",
+    "es-MX.aff": "d966cb748e4a688ed75ec84b50c0835ac438e5325ee4fce703a093794f9cba7e",
+    "README.txt": "ee8b7518e1780a42ca908a86925ddd6af90ae50ace10a62cc07912250aafd13c",
+    "GPLv3.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "policy": "Expand the pinned es-MX affix/dictionary pair with pinned nspell; lowercase NFC Spanish-letter surface forms accepted by that parser, lengths4–7 only. Keep diacritics and Ñ distinct. This is a spelling-variant resource, not frequency or uniquely Mexican vocabulary certification.",
+  "teachingScope": {
+    "authoredEntries": 439,
+    "authoredFieldProvenance": "Short English gloss, Spanish example and English rendering are original AI-authored educational material, independently model-reviewed for natural Mexican usage. Not source quotations; no human/native certification.",
+    "definitionProvenance": "Sense-selected Wiktionary definitions and reviewed translations of Spanish base senses; CINTERO from a French entry explicitly linked to Spanish. CC-BY-SA4.0, pinned revisions, snapshots/extracts and upstream hashes. No FreeDict material.",
+    "authoredLicense": "CC-BY-SA-4.0",
+    "morphologyPolicy": "Historical independent model audit of the original400 teaching-linked answer senses. Kept as teaching provenance, not the current eligibility criterion. Current answer generation uses answer-selection.json and the independent frequency/lexical policy.",
+    "historicalReviewedAnswers": 400
+  },
+  "answerScope": {
+    "selection": "answer-selection.json",
+    "policy": "Zipf>=3.5 general-Spanish spelling frequency plus a documented independent nonplural base-word sense, source usage/region exclusions and reviewed homograph/suitability decisions. No per-length cap; teaching coverage never gates eligibility.",
+    "sources": "selection-source.json",
+    "review": "Independent model review of every provisional candidate; not native-human certification or exhaustive sense-specific frequency data."
+  }
+}

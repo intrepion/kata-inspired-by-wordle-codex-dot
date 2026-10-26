@@ -1,0 +1,2080 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "New first-author independent model English rendering and linguistic review of each exact selected Spanish Wiktionary lexical sense; independent second-author review required. Not dictionary-provided English text, source quotations, examples or native-human certification.",
+  "scope": "66 exact still-uncovered O spellings, lexical meanings only; no new inflection, alias propagation, answer eligibility or game-state authority.",
+  "researchSha256": "0134f4a426995d16386c0d0519608b0253aff792896b9ea30b6531936d7b497b",
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "localArchivePath": "/tmp/es-extract.jsonl.gz",
+    "dataLicense": "CC-BY-SA-4.0",
+    "contributors": "Spanish Wiktionary contributors",
+    "sourceEdition": "Spanish-language Wiktionary via existing pinned Wiktextract/Kaikki extract",
+    "retainedFullRecordsSha256": "c926fe7f409f65a4568205281e58d2717c490238bd15b25cdc962250edc62f7b",
+    "coverageAuditSha256": "ae1eaf4e37a9e5c7f7441b4b410b24c6389d7f8a1ded7657dda06ead3b629135",
+    "coverageAuditBaseline": 60749,
+    "coverageAuditUncoveredWords": 15921,
+    "decisionTsvSha256": "f822f2df9a287466d8693a2fbbfb7646077e3be4d535913a0fa00cf877abab9b"
+  },
+  "proposals": [
+    {
+      "word": "ABEY",
+      "partOfSpeech": "noun",
+      "sourceWord": "abey",
+      "senseIndex": 0,
+      "english": "a tropical legume tree (Abarema obovalis)",
+      "context": "Selected named tree sense; not all other trees locally called abey. Scientific name is the pinned source identification, not a claim of current taxonomy.",
+      "source": {
+        "recordSha256": "5b31affe2ebbccbe2207ea378d3c0a29e3b523d2fe71eb1063ff5d140bc372c3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/abey",
+        "word": "abey",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Abarema obovalis) Árbol tropical, de la familia de las fabáceas, nativo de las Antillas, de unos veinte metros de altura, con hojas bipinnadas, alternas y ovaladas, flores pentámeras y frutos dehiscentes. Se aprovechan para forraje, y su madera, fuerte y muy compacta, se usa en carpintería."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Árboles"
+        ],
+        "categories": [
+          "ES:Árboles"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "ABUJE",
+      "partOfSpeech": "noun",
+      "sourceWord": "abuje",
+      "senseIndex": 0,
+      "english": "a red parasitic mite (Eutrombicula alfreddugesi)",
+      "context": "Cuban source sense; a skin-irritating mite, not a tick or a diagnosis.",
+      "source": {
+        "recordSha256": "b2696da04f66776acbd66df50a6b50634522ce3cfc6fb610d03d39541a1adacb",
+        "sourceUrl": "https://es.wiktionary.org/wiki/abuje",
+        "word": "abuje",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Eutrombicula alfreddugesi) Ácaro de color rojo que se alimenta de las células de la piel de sus huéspedes produciéndoles picor e incluso trombidiasis."
+        ],
+        "tags": [
+          "Cuba"
+        ],
+        "rawTags": [
+          "Arácnidos"
+        ],
+        "categories": [
+          "ES:Arácnidos",
+          "ES:Caribe",
+          "ES:Cuba",
+          "ES:Medicina"
+        ],
+        "topics": [
+          "medicine"
+        ]
+      }
+    },
+    {
+      "word": "ABULAGA",
+      "partOfSpeech": "noun",
+      "sourceWord": "abulaga",
+      "senseIndex": 2,
+      "english": "heather (Calluna vulgaris)",
+      "context": "Selected Calluna shrub sense only; other unrelated shrubs share this Spanish spelling.",
+      "source": {
+        "recordSha256": "83b8814ca79faf8540353858fcb76f58e4fad28778e7e5f5e9f52edb1bb4480f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/abulaga",
+        "word": "abulaga",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 2,
+        "glosses": [
+          "(Calluna vulgaris) especie fanerógama perteneciente a la familia de las ericáceas, es un subarbusto de 20-50 cm. de altura que presenta gran cantidad de ramas erguidas de color marrón rojizo, con hojas pequeñas y muy numerosas con flores también muy pequeñas de color rosa púrpura que forman un racimo terminal."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "ACANTIO",
+      "partOfSpeech": "noun",
+      "sourceWord": "acantio",
+      "senseIndex": 0,
+      "english": "a thistle (Onopordum acanthium)",
+      "context": "Selected plant identified by the source scientific name; no current-taxonomy or medicinal claim.",
+      "source": {
+        "recordSha256": "9ba3060d137e1413c79a2273901612175822ddb0925a4151d5c2dcca29d059fa",
+        "sourceUrl": "https://es.wiktionary.org/wiki/acantio",
+        "word": "acantio",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Onopordum acanthium) planta de la familia de las Asteráceas, que se ha naturalizado en todos los continentes. Sus hojas, integradas por sus brazos cubiertas de aguijones, acaban en cabezuelas aisladas a modo de penachos de color morado."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ACETITE",
+      "partOfSpeech": "noun",
+      "sourceWord": "acetite",
+      "senseIndex": 0,
+      "english": "copper acetate",
+      "context": "Selected chemical compound; not the separate outdated broad vinegar-and-oxide sense.",
+      "source": {
+        "recordSha256": "ec89e95d35b847b05c45304539faf09bfd84d1d9da932e7648de4c9e40d478be",
+        "sourceUrl": "https://es.wiktionary.org/wiki/acetite",
+        "word": "acetite",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Acetato de cobre."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Química"
+        ],
+        "topics": [
+          "chemistry"
+        ]
+      }
+    },
+    {
+      "word": "ACITRÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "acitrón",
+      "senseIndex": 1,
+      "english": "candied biznaga cactus stem",
+      "context": "Selected Mexican sweet made from the peeled cactus stem, not the Spanish candied-citron sense.",
+      "source": {
+        "recordSha256": "3a47b65cb8a516f0c0db935f4a07aa6dc43338fa19ddb51cb81171e7b8c7c4d2",
+        "sourceUrl": "https://es.wiktionary.org/wiki/acitr%C3%B3n",
+        "word": "acitrón",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Dulce cristalizado y confitado que se obtiene del tallo de la biznaga mexicana, una vez despojado de su corteza."
+        ],
+        "tags": [
+          "Mexico"
+        ],
+        "rawTags": [
+          "Platos"
+        ],
+        "categories": [
+          "ES:América",
+          "ES:México",
+          "ES:Platos"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "ACTEA",
+      "partOfSpeech": "noun",
+      "sourceWord": "actea",
+      "senseIndex": 0,
+      "english": "dwarf elder (Sambucus ebulus)",
+      "context": "Selected plant; source describes toxic berries. This is a lexical plant meaning, not a recommendation to consume it.",
+      "source": {
+        "recordSha256": "cf5fe62e5905528bb5c923e1edf8373b2e248c308fb97f3bd6a1ff26ca6130c6",
+        "sourceUrl": "https://es.wiktionary.org/wiki/actea",
+        "word": "actea",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Sambucus ebulus) Hierba de la familia de las caprifoliáceas, crece hasta dos metros con tallos erectos; el fruto es una baya tóxica, de color negro, pequeña y globosa de 5 a 6mm de diámetro."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "AGUAY",
+      "partOfSpeech": "noun",
+      "sourceWord": "aguay",
+      "senseIndex": 0,
+      "english": "a sapotaceous tree (Pouteria salicifolia)",
+      "context": "Selected tree sense; not its fruit. Scientific name is source identification.",
+      "source": {
+        "recordSha256": "243bd0f1dba00bd5bbe9042ab8992066fea6210fcff66ad16e021ddf2a069c9f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/aguay",
+        "word": "aguay",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Pouteria salicifolia) Árbol de la familia de las sapotáceas."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Árboles"
+        ],
+        "categories": [
+          "ES:Árboles"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "AJOMATE",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajomate",
+      "senseIndex": 0,
+      "english": "fine green filamentous freshwater algae",
+      "context": "Selected freshwater algal growth; no species not supplied by source is inferred.",
+      "source": {
+        "recordSha256": "828f2f9eb28b2750fff533417df5bf52a70ad2fa80a25198dcd98efbada30f0c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/ajomate",
+        "word": "ajomate",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Planta de la familia de las algas: está formada por filamentos muy delgados, sin nudos, lustrosos y de color verde intenso. Abunda en las aguas dulces de España."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Botánica"
+        ],
+        "topics": [
+          "botany"
+        ]
+      }
+    },
+    {
+      "word": "ALBILLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "albilla",
+      "senseIndex": 1,
+      "english": "a thin-skinned grape grown in Spain",
+      "context": "Selected grape sense; not the source's unrelated Vicia plant sense.",
+      "source": {
+        "recordSha256": "f8244f8d362fca42223e4f34c37824e03fe919baa6d5eecc5695e191e3e61ab9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/albilla",
+        "word": "albilla",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Uva con piel muy delgada, cultivada en España."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ALBORTO",
+      "partOfSpeech": "noun",
+      "sourceWord": "alborto",
+      "senseIndex": 0,
+      "english": "an arbutus tree or shrub",
+      "context": "Selected ericaceous tree/shrub sense, particularly Arbutus; not its fruit.",
+      "source": {
+        "recordSha256": "bb697df31818411cc4767e9463d0cdad1a074cda30400bc369ad28d4916f1b4d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/alborto",
+        "word": "alborto",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Nombre común de varias plantas ericáceas arbóreas o arbustivas, en particular del género Arbutus."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Botánica"
+        ],
+        "topics": [
+          "botany"
+        ]
+      }
+    },
+    {
+      "word": "ALCACEL",
+      "partOfSpeech": "noun",
+      "sourceWord": "alcacel",
+      "senseIndex": 1,
+      "english": "a barley field",
+      "context": "Selected cultivated-field sense, not barley grain or the individual plant.",
+      "source": {
+        "recordSha256": "6273fa6581d648470a3f54ee9927c74e359f4f93e474972248b0b62f2b028570",
+        "sourceUrl": "https://es.wiktionary.org/wiki/alcacel",
+        "word": "alcacel",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 1,
+        "glosses": [
+          "Sembradío de cebada."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ALDORTA",
+      "partOfSpeech": "noun",
+      "sourceWord": "aldorta",
+      "senseIndex": 0,
+      "english": "black-crowned night heron (Nycticorax nycticorax)",
+      "context": "Selected bird identified by the exact source scientific name.",
+      "source": {
+        "recordSha256": "fb69aa5302c47aad802fce8ce4a364b71772a8e93a50957816190dbe17e65a67",
+        "sourceUrl": "https://es.wiktionary.org/wiki/aldorta",
+        "word": "aldorta",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Nycticorax nycticorax) es una especie de ave pelecaniforme de la familia de los ardeidos ampliamente distribuida por Eurasia, África y América."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ALECHE",
+      "partOfSpeech": "noun",
+      "sourceWord": "aleche",
+      "senseIndex": 0,
+      "english": "round sardinella (Sardinella aurita)",
+      "context": "Selected fish species; not a prepared liver dish under the related spelling alece.",
+      "source": {
+        "recordSha256": "6c2937430d2f469d0b594ed0e4c8ae91451522b5fa126616a37265b240472c81",
+        "sourceUrl": "https://es.wiktionary.org/wiki/aleche",
+        "word": "aleche",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Sardinella aurita) Especie de pez clupleiforme de la familia Clupeidae. Presenta una línea dorada recorriendo ambos flancos que desaparece rápidamente una vez muerto el animal."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Zoología"
+        ],
+        "topics": [
+          "zoology"
+        ]
+      }
+    },
+    {
+      "word": "ALISMA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alisma",
+      "senseIndex": 0,
+      "english": "a marsh plant of the water-plantain family",
+      "context": "Selected marsh plant; family identification is source-given, no exact species is invented.",
+      "source": {
+        "recordSha256": "074e50d38d52655bf75958d615053139585f4e12597e42d70332d3ddbd42cca6",
+        "sourceUrl": "https://es.wiktionary.org/wiki/alisma",
+        "word": "alisma",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Planta perenne de la familia de las Alismatáceas, que crece en terrenos pantanosos, hasta unos sesenta centímetros de altura, con hojas acorazonadas, ovales o lanceoladas, flores blanquecinas en panoja piramidal sobre un escapo desnudo, fruto seco y semilla sin albumen."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Botánica"
+        ],
+        "topics": [
+          "botany"
+        ]
+      }
+    },
+    {
+      "word": "AMACAYO",
+      "partOfSpeech": "noun",
+      "sourceWord": "amacayo",
+      "senseIndex": 0,
+      "english": "an ornamental flowering plant (Sprekelia formosissima)",
+      "context": "Selected plant identified by scientific name, not a heraldic fleur-de-lis symbol. Preserve supplied regional labels.",
+      "source": {
+        "recordSha256": "1624eeb7ba8486f7c6f31572eff370204a9e2e25725b0a06670e60b699af9a5f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/amacayo",
+        "word": "amacayo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Sprekelia formosissima) Flor de lis ('planta')."
+        ],
+        "tags": [
+          "Cuba",
+          "Mexico",
+          "Nicaragua",
+          "Peru"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Caribe",
+          "ES:Cuba",
+          "ES:México",
+          "ES:Nicaragua",
+          "ES:Perú"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "AMELO",
+      "partOfSpeech": "noun",
+      "sourceWord": "amelo",
+      "senseIndex": 0,
+      "english": "an ornamental aster (Aster amellus)",
+      "context": "Selected flowering garden plant; no therapeutic use inferred.",
+      "source": {
+        "recordSha256": "ffd7a582c1ad69e16b3ed96144447c5703e6ca97a96c9613ab712dd5feb7f9ce",
+        "sourceUrl": "https://es.wiktionary.org/wiki/amelo",
+        "word": "amelo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Aster amellus) Planta perenne de la familia de las compuestas, de cinco a seis decímetros de altura, con tallo recto, ramoso por arriba, hojas sentadas, lanceoladas y enteras, y flores grandes, azules y en su centro amarillas. Suele cultivarse en los jardines como planta de adorno."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "AMODITA",
+      "partOfSpeech": "noun",
+      "sourceWord": "amodita",
+      "senseIndex": 0,
+      "english": "nose-horned viper (Vipera ammodytes)",
+      "context": "Selected European viper; no handling or medical advice.",
+      "source": {
+        "recordSha256": "70f17127443fbd560f7985baef1306da57faf5df14e52927318a703983213004",
+        "sourceUrl": "https://es.wiktionary.org/wiki/amodita",
+        "word": "amodita",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Vipera ammodytes) Víbora europea de hocico con una pequeña protuberancia carnosa, considerada de la más peligrosas del continente por su gran tamaño, colmillos largos y veneno muy potente."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Reptiles"
+        ],
+        "categories": [
+          "ES:Reptiles"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "AMPLEXO",
+      "partOfSpeech": "noun",
+      "sourceWord": "amplexo",
+      "senseIndex": 0,
+      "english": "amplexus, a mating clasp",
+      "context": "Selected reproductive clasp found especially in amphibians and horseshoe crabs; not an unrestricted human embrace.",
+      "source": {
+        "recordSha256": "7389988ddebb068c8488cfbaa7d4c8610c0b4fe52c63490387a041d6ccd599af",
+        "sourceUrl": "https://es.wiktionary.org/wiki/amplexo",
+        "word": "amplexo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Forma de pseudocópula, que se encuentra principalmente en anfibios y cangrejos herradura, en la que un macho agarra a una hembra con sus patas delanteras como parte del proceso de apareamiento."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "BERRERA",
+      "partOfSpeech": "noun",
+      "sourceWord": "berrera",
+      "senseIndex": 0,
+      "english": "a waterside umbellifer (Sium angustifolium)",
+      "context": "Selected plant with the source scientific identification; no substitution of edible watercress.",
+      "source": {
+        "recordSha256": "d79f20739d6cf92c72b780234480a9471e5138bc85783dd3214cbed6f98bacd8",
+        "sourceUrl": "https://es.wiktionary.org/wiki/berrera",
+        "word": "berrera",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Sium angustifolium) Planta de la familia de las umbelíferas, que se cría en las orillas y remansos de los riachuelos y en las balsas, de seis a siete decímetros de altura, con tallos cilíndricos y ramosos, hojas anchas, compuestas de hojuelas dentadas, lisas, algo duras y de un verde hermoso, y flores blancas."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "BUGLOSA",
+      "partOfSpeech": "noun",
+      "sourceWord": "buglosa",
+      "senseIndex": 0,
+      "english": "a bristly flowering herb (Echium plantagineum)",
+      "context": "Selected species; no assumption that all plants called buglosa are this species.",
+      "source": {
+        "recordSha256": "82a94243f3158b607530db6716ce5eef3cba4920815771512ded11a8c398dd75",
+        "sourceUrl": "https://es.wiktionary.org/wiki/buglosa",
+        "word": "buglosa",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Echium plantagineum) Planta herbácea de hasta 70 cm de altura, con tallos ramificados. Toda la planta se halla densamente cubierta de un indumento de pelos rígidos que le dan un tacto microáspero. Las hojas son lanceoladas, salvo las de la roseta basal que son oblongas. Forma una inflorescencia erecta. Las flores son de color azul-violeta intenso con los pétalos soldados en casi toda su longitud, solamente tienen pelos sobre los nervios."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CAJIGA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cajiga",
+      "senseIndex": 0,
+      "english": "sessile oak (Quercus petraea)",
+      "context": "Selected Cantabrian Spanish tree name; scientific name is source-given.",
+      "source": {
+        "recordSha256": "427694215e25e6adc697feee3ee59fb8343217ba0085802f2177313c4e389280",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cajiga",
+        "word": "cajiga",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Quercus petraea) Roble albar."
+        ],
+        "tags": [
+          "Cantabria",
+          "Spain"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Cantabria",
+          "ES:España",
+          "ES:Europa"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CAPARRA",
+      "partOfSpeech": "noun",
+      "sourceWord": "caparra",
+      "senseIndex": 0,
+      "english": "the caper bush (Capparis spinosa)",
+      "context": "Selected plant whose buds are eaten pickled; not a tick or an individual pickled bud. Preserve America/Aragon source labels.",
+      "source": {
+        "recordSha256": "7cdfe2b00cb0246fe001d257d40fcb0b630d4a87b6186fc841d6c4d637ccd000",
+        "sourceUrl": "https://es.wiktionary.org/wiki/caparra",
+        "word": "caparra",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Capparis spinosa) Arbusto originario de la región mediterránea, conocido por sus capullos comestibles, las caparras, que normalmente se consumen encurtidas."
+        ],
+        "tags": [
+          "America",
+          "Aragon"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Aragón",
+          "ES:Botánica",
+          "ES:España",
+          "ES:Ámbitos"
+        ],
+        "topics": [
+          "botany"
+        ]
+      }
+    },
+    {
+      "word": "CARRACO",
+      "partOfSpeech": "adj",
+      "sourceWord": "carraco",
+      "senseIndex": 0,
+      "english": "old or infirm",
+      "context": "Selected colloquial description of age and frailty; source also allows noun use, not a neutral technical diagnosis.",
+      "source": {
+        "recordSha256": "52228c5361845fa7d9bb81805c4b1b153d4cf05d082eabaaaada9cb7ec287957",
+        "sourceUrl": "https://es.wiktionary.org/wiki/carraco",
+        "word": "carraco",
+        "partOfSpeech": "adj",
+        "posTitle": "Adjetivo",
+        "rowTags": [],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Viejo, achacoso o impedido."
+        ],
+        "tags": [
+          "colloquial",
+          "noun"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos coloquiales"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CAYOTE",
+      "partOfSpeech": "noun",
+      "sourceWord": "cayote",
+      "senseIndex": 0,
+      "english": "fig-leaf gourd plant (Cucurbita ficifolia)",
+      "context": "Selected cucurbit plant, not the animal coyote or a sweet invented from its name.",
+      "source": {
+        "recordSha256": "f4fa69bdd25b28f886578bf69b084110aacadf2d45cccce0a6dad595c0d531e2",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cayote",
+        "word": "cayote",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Cucurbita ficifolia) Planta de la familia de las cucurbitáceas, con cuyo fruto y semillas se hace un dulce muy sabroso."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CEFO",
+      "partOfSpeech": "noun",
+      "sourceWord": "cefo",
+      "senseIndex": 0,
+      "english": "moustached guenon (Cercopithecus cephus)",
+      "context": "Selected African monkey identified by exact source scientific name.",
+      "source": {
+        "recordSha256": "355cef05f2269e7252b19e781ddb913cfceba875c2e54034845b7b9c02584bb3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cefo",
+        "word": "cefo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Cercopithecus cephus) Cercopiteco de África occidental de un metro de longitud, de la cual la cola representa aproximadamente la mitad, caracterizado por la coloración azul cobalto del rostro y una franja blanca sobre el labio superior."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Mamíferos"
+        ],
+        "topics": [
+          "mammals"
+        ]
+      }
+    },
+    {
+      "word": "CLOQUÉ",
+      "partOfSpeech": "noun",
+      "sourceWord": "cloqué",
+      "senseIndex": 0,
+      "english": "cloqué, a fabric with a raised puckered or quilted pattern",
+      "context": "Selected textile surface; no unreviewed Spanish gender asserted in English.",
+      "source": {
+        "recordSha256": "b03e17ca70ae7c7ed0a708f09193b46aeceba8554b5a58e6b289900a1ab3ace7",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cloqu%C3%A9",
+        "word": "cloqué",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Tejido con un patrón tejido en relieve y una apariencia fruncida o acolchada."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Textiles"
+        ],
+        "topics": [
+          "textiles"
+        ]
+      }
+    },
+    {
+      "word": "COLEADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "coleada",
+      "senseIndex": 0,
+      "english": "an animal's tail-wagging",
+      "context": "Selected action noun, not school-exam failure or a human personifying an animal.",
+      "source": {
+        "recordSha256": "ce0fa5b4b1ab540999ad0adacd544e744a561b961e815c0175593ca439fef4ed",
+        "sourceUrl": "https://es.wiktionary.org/wiki/coleada",
+        "word": "coleada",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Acción y efecto de sacudir la cola un animal."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "COLODRA",
+      "partOfSpeech": "noun",
+      "sourceWord": "colodra",
+      "senseIndex": 0,
+      "english": "a wooden vessel used for milking livestock",
+      "context": "Selected tub-shaped milking vessel used by shepherds; not every possible drinking vessel sense.",
+      "source": {
+        "recordSha256": "aba681be405c973d90d8d36c106f2530a7abdf8c93f9159af00edf58548829f0",
+        "sourceUrl": "https://es.wiktionary.org/wiki/colodra",
+        "word": "colodra",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Vasija de madera, en forma de barreño, de que se sirven los pastores para ordeñar las cabras, ovejas y vacas."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Agricultura"
+        ],
+        "topics": [
+          "agriculture"
+        ]
+      }
+    },
+    {
+      "word": "CONGIO",
+      "partOfSpeech": "noun",
+      "sourceWord": "congio",
+      "senseIndex": 0,
+      "english": "a Roman liquid measure of about three litres",
+      "context": "Selected historical measure; the approximate capacity is as stated by source, not a modern exact standard.",
+      "source": {
+        "recordSha256": "72e215010876e041298e4226c268dffdd603dc4f580a4f5f6454108bdc5b126c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/congio",
+        "word": "congio",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Medida antigua romana de cosas líquidas, de la capacidad de 8 libras de agua (unos 3 litros)"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "CONTERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "contero",
+      "senseIndex": 0,
+      "english": "bead-shaped relief decoration",
+      "context": "Rare selected ornamental raised forms; not a person with an unrelated occupation.",
+      "source": {
+        "recordSha256": "606f3c1c21bdd64ed3d24f32a426398d56c6766331e661f9a0b7b248b00df33c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/contero",
+        "word": "contero",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Relieve con formas de cuentas."
+        ],
+        "tags": [
+          "rare"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Arqueología",
+          "ES:Términos infrecuentes"
+        ],
+        "topics": [
+          "archeology"
+        ]
+      }
+    },
+    {
+      "word": "COPINA",
+      "partOfSpeech": "noun",
+      "sourceWord": "copina",
+      "senseIndex": 0,
+      "english": "a hide removed in one piece",
+      "context": "Selected Mexican skin/hide sense; no exact animal or hide-processing method invented.",
+      "source": {
+        "recordSha256": "7c85189febba3f4962ef201699ec66fd88571f1e2a1ae76ee05207695ecaffa9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/copina",
+        "word": "copina",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Piel copinada o sacada entera."
+        ],
+        "tags": [
+          "Mexico"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:México"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "COQUINA",
+      "partOfSpeech": "noun",
+      "sourceWord": "coquina",
+      "senseIndex": 0,
+      "english": "a small edible bivalve clam",
+      "context": "Selected coastal shellfish; no exact species identification not provided by source.",
+      "source": {
+        "recordSha256": "786375b4bdb10f3970f4f032ec771d535fceba40c9615365206a61cff3d5de20",
+        "sourceUrl": "https://es.wiktionary.org/wiki/coquina",
+        "word": "coquina",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Género de moluscos bivalvos de concha fina, oval y deprimida, comunes en las costas de la península ibérica, pertenecientes al orden Veneroida. Se encuentran frecuentemente en los fangos de marismas, zonas salobres y, sobre todo, en zonas de playa. Se trata de un manjar muy apreciado como aperitivo que se acompaña con vinos de la zona y se suele cocinar únicamente con ajo, perejil y aceite. Su diámetro es de unos 5 cm y su captura la realizan los coquineros, mariscadores que durante la bajamar capturan este tipo de molusco. También pueden extraerse en pequeños barcos por el sistema de arrastre."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Moluscos"
+        ],
+        "categories": [
+          "ES:Moluscos"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CORRUCO",
+      "partOfSpeech": "noun",
+      "sourceWord": "corruco",
+      "senseIndex": 0,
+      "english": "a baked almond-and-flour sweet from Málaga",
+      "context": "Selected traditional food preparation; no invented full recipe or ingredient quantities.",
+      "source": {
+        "recordSha256": "fb1a54a163b57a5693ed7ab06748f4615e08e8a0dbd57d2e388ce5b46614f581",
+        "sourceUrl": "https://es.wiktionary.org/wiki/corruco",
+        "word": "corruco",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pasta de almendras y harina que se tuesta al horno, tradicional de Málaga."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Gastronomía"
+        ],
+        "categories": [
+          "ES:Gastronomía"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "COTILLO",
+      "partOfSpeech": "noun",
+      "sourceWord": "cotillo",
+      "senseIndex": 0,
+      "english": "the back of a cutting tool, opposite its edge",
+      "context": "Selected blunt back of an axe, hoe or similar tool; not the cutting edge itself.",
+      "source": {
+        "recordSha256": "a8a93f7bea0ae996ffeaf69341aa1ed6b427909a0e4ed7de7372f4d39e3ee32c",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cotillo",
+        "word": "cotillo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Parte opuesta al filo de ciertas herramientas de corte, tales como el hacha y la azada."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Herramientas"
+        ],
+        "topics": [
+          "tools"
+        ]
+      }
+    },
+    {
+      "word": "CRIC",
+      "partOfSpeech": "noun",
+      "sourceWord": "cric",
+      "senseIndex": 0,
+      "english": "a geared lifting jack",
+      "context": "Selected weight-lifting machine with safety catch; not a cricket sound or a puzzle action.",
+      "source": {
+        "recordSha256": "57c0617379fabfc5ef7b5beb61fd28199ad76de6d47ef7b0ec7946069b7424c5",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cric",
+        "word": "cric",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Máquina que, mediante un engranaje y una traba de seguridad, permite levantar grandes pesos sin mucho esfuerzo"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "CRON",
+      "partOfSpeech": "noun",
+      "sourceWord": "cron",
+      "senseIndex": 0,
+      "english": "a chronological unit of one million years",
+      "context": "Selected time unit; not a Unix scheduling tool or an epoch of arbitrary duration.",
+      "source": {
+        "recordSha256": "7347a975fb8af05b4fe4ad4962a8f603422184973ff63ea2294ff124eb954031",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cron",
+        "word": "cron",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Unidad cronológica de un millón de años"
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Geología"
+        ],
+        "topics": [
+          "geology"
+        ]
+      }
+    },
+    {
+      "word": "CUCHETA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cucheta",
+      "senseIndex": 0,
+      "english": "a bunk bed",
+      "context": "Selected stacked-bed furniture; preserve Argentina, Paraguay and Uruguay labels.",
+      "source": {
+        "recordSha256": "88c4db53ff32470b054399dc74e60efe142f89ccf536608009fca45d56a8d453",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cucheta",
+        "word": "cucheta",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Mueble compuesto de dos o más camas situadas una encima de la otra."
+        ],
+        "tags": [
+          "Argentina",
+          "Paraguay",
+          "Uruguay"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:América",
+          "ES:Argentina",
+          "ES:Mobiliario",
+          "ES:Paraguay",
+          "ES:Uruguay"
+        ],
+        "topics": [
+          "furniture"
+        ]
+      }
+    },
+    {
+      "word": "CUJA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cuja",
+      "senseIndex": 0,
+      "english": "a saddle-mounted leather socket for a lance or flagstaff",
+      "context": "Selected leather receptacle supporting the lower end of a lance or flagstaff; not a generic saddlebag.",
+      "source": {
+        "recordSha256": "4273d077476a76f1e33bb0f3331d2bfa7d731b42e0fa6fc689076372a0274a9e",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cuja",
+        "word": "cuja",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Bolsa de cuero asida a la silla del caballo, para meter el cuento de la lanza o bandera y llevarla más cómodamente."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "CUZCO",
+      "partOfSpeech": "noun",
+      "sourceWord": "cuzco",
+      "senseIndex": 0,
+      "english": "a small dog",
+      "context": "Selected colloquial common-noun animal sense; not the Peruvian place name.",
+      "source": {
+        "recordSha256": "201f754108cbe068e50dabec26874eb2570e026f7ca22cd202e9879aad473b10",
+        "sourceUrl": "https://es.wiktionary.org/wiki/cuzco",
+        "word": "cuzco",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino y femenino",
+        "rowTags": [
+          "feminine",
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Perro de tamaño pequeño."
+        ],
+        "tags": [
+          "colloquial"
+        ],
+        "rawTags": [],
+        "categories": [
+          "ES:Términos coloquiales"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "CÁRCOLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cárcola",
+      "senseIndex": 0,
+      "english": "a loom treadle",
+      "context": "Selected loom foot pedal; not a stool or unrelated foot support.",
+      "source": {
+        "recordSha256": "c3c3f766bdce3d816cff1ed79539b3efa52b4e409db739bb3156ef906c2af9d9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/c%C3%A1rcola",
+        "word": "cárcola",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pedal de un telar."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "CÍCERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "cícero",
+      "senseIndex": 0,
+      "english": "a typographic unit of twelve points, about 4.5 mm",
+      "context": "Selected printing measure; not the Roman author or a WordNet tree alignment. Approximation follows source.",
+      "source": {
+        "recordSha256": "f488a3900486ae1ee98b5ff09095ae72d8a48e5bf616a6a6ade0021a6c20260e",
+        "sourceUrl": "https://es.wiktionary.org/wiki/c%C3%ADcero",
+        "word": "cícero",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Unidad de medida tipográfica, equivalente a doce puntos y aproximadamente a 4,5 mm."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Tipografía"
+        ],
+        "topics": [
+          "typography"
+        ]
+      }
+    },
+    {
+      "word": "DESABOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "desabor",
+      "senseIndex": 0,
+      "english": "lack of flavour",
+      "context": "Selected lack of taste in food, drink or perception at the palate; no medical diagnosis of taste loss is inferred.",
+      "source": {
+        "recordSha256": "0147f9f3f2a4db8cfc077fe50ed81ff70074836dd6fd7060d9061443d78812e5",
+        "sourceUrl": "https://es.wiktionary.org/wiki/desabor",
+        "word": "desabor",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Escasez de sabor en el paladar o en la cosa que se come o bebe."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "DEXTRO",
+      "partOfSpeech": "noun",
+      "sourceWord": "dextro",
+      "senseIndex": 0,
+      "english": "the privileged sanctuary precinct around a church",
+      "context": "Selected historical area enjoying sanctuary and other privileges, not right-handedness.",
+      "source": {
+        "recordSha256": "0445c2134f321b3df4559e4b730d5b2a964df422ae094ac17dde1eccaffb177e",
+        "sourceUrl": "https://es.wiktionary.org/wiki/dextro",
+        "word": "dextro",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Espacio de terreno alrededor de una iglesia, dentro del cual se gozaba del derecho de asilo y de algunos otros privilegios."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "DICOREO",
+      "partOfSpeech": "noun",
+      "sourceWord": "dicoreo",
+      "senseIndex": 0,
+      "english": "a metrical foot of two trochees",
+      "context": "Selected Greek/Latin four-syllable long-short-long-short foot.",
+      "source": {
+        "recordSha256": "6035687e0f627d1f9a823cfe6a69ae5055e8c6cdcf007efba5a8fed4320a8225",
+        "sourceUrl": "https://es.wiktionary.org/wiki/dicoreo",
+        "word": "dicoreo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pie de la poesía griega y latina, compuesto de dos coreos, o sea de cuatro sílabas: la primera y la tercera, largas, y las otras dos, breves."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "DIEGO",
+      "partOfSpeech": "num",
+      "sourceWord": "diego",
+      "senseIndex": 0,
+      "english": "ten",
+      "context": "Selected colloquial Río de la Plata numeral sense; not the personal name Diego.",
+      "source": {
+        "recordSha256": "f31bcdfa5298c62bb41ad926ad2fbdd1726215c216a2c3644137114b28574b21",
+        "sourceUrl": "https://es.wiktionary.org/wiki/diego",
+        "word": "diego",
+        "partOfSpeech": "num",
+        "posTitle": "Adjetivo cardinal",
+        "rowTags": [
+          "cardinal"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "El número diez (10)."
+        ],
+        "tags": [
+          "Río-de-la-Plata"
+        ],
+        "rawTags": [
+          "lunfardismo"
+        ],
+        "categories": [
+          "ES:América",
+          "ES:Argentina",
+          "ES:Río de la Plata",
+          "ES:Uruguay"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "DOLOBRE",
+      "partOfSpeech": "noun",
+      "sourceWord": "dolobre",
+      "senseIndex": 0,
+      "english": "a pick for working stone",
+      "context": "Selected stoneworking tool, not a claim about every archaeological dolabra form.",
+      "source": {
+        "recordSha256": "67c0f94883d7aca28640b8d380939b5539ab04cf273ec2d61e19f79862b706c6",
+        "sourceUrl": "https://es.wiktionary.org/wiki/dolobre",
+        "word": "dolobre",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Pico para trabajar la piedra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Herramientas"
+        ],
+        "topics": [
+          "tools"
+        ]
+      }
+    },
+    {
+      "word": "DROSERA",
+      "partOfSpeech": "noun",
+      "sourceWord": "drosera",
+      "senseIndex": 0,
+      "english": "a sundew (Drosera)",
+      "context": "Selected carnivorous plant genus; no medicinal uses inferred.",
+      "source": {
+        "recordSha256": "48b540ad7351a385be21e33fb2289eabad1fa9b17a50ed5142a552c5aedcc429",
+        "sourceUrl": "https://es.wiktionary.org/wiki/drosera",
+        "word": "drosera",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Drosera) Cualquiera de las especies de su género homónimo de plantas carnívoras. Son plantas que atraen, capturan y digieren insectos utilizando glándulas mucilaginosas localizadas en la superficie de sus hojas, con el fin de complementar la nutrición, pobre en minerales, que obtienen del suelo en el que crecen."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "DUERNO",
+      "partOfSpeech": "noun",
+      "sourceWord": "duerno",
+      "senseIndex": 0,
+      "english": "two printed sheets nested one inside the other",
+      "context": "Selected printing/bookbinding unit; not two pages or a complete book.",
+      "source": {
+        "recordSha256": "88dcbb82001ac02aabcc9e31eba1a3a357080a4dea591c5085d83a9011fa5ab6",
+        "sourceUrl": "https://es.wiktionary.org/wiki/duerno",
+        "word": "duerno",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Grupo de dos pliegos impresos, uno de los cuales está dentro del otro."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Imprenta"
+        ],
+        "topics": [
+          "printing"
+        ]
+      }
+    },
+    {
+      "word": "DULERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "dulero",
+      "senseIndex": 0,
+      "english": "a herder responsible for communal grazing land",
+      "context": "Source explains dula as communal land used for livestock grazing in turns; no personal name or legal ownership inferred.",
+      "source": {
+        "recordSha256": "f28140e5d194909d8bf8cb60e1ac4f37f83e349037e5e429d17ecc089c388d4d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/dulero",
+        "word": "dulero",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Oficio de Pastor que vigila la dula (terreno comunal donde se apacenta al ganado por turnos)."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Ocupaciones"
+        ],
+        "categories": [
+          "ES:Ocupaciones"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "EMPERRO",
+      "partOfSpeech": "noun",
+      "sourceWord": "emperro",
+      "senseIndex": 0,
+      "english": "stubborn, unreasonable persistence",
+      "context": "Selected action/result noun with explicit obstinate or arbitrary persistence; no dog meaning inferred from spelling.",
+      "source": {
+        "recordSha256": "78d540b5eb6f2aef6d2e267f6372145ff4f594d6b9a15a267db9b10e388cd1e9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/emperro",
+        "word": "emperro",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Acción o efecto de emperrarse, insistencia en algo de manera obstinada, irracional o arbitraria."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ENCELLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "encella",
+      "senseIndex": 0,
+      "english": "a mould for making cheese or curd cheese",
+      "context": "Selected cheesemaking mould; no ingredients or invented manufacturing steps.",
+      "source": {
+        "recordSha256": "e58a80adcacf28873b30d5a8601e7bbb649177224bc2020f715d5c0ac52b2ed8",
+        "sourceUrl": "https://es.wiktionary.org/wiki/encella",
+        "word": "encella",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Molde con el que se hacen quesos y requesones."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "ENDEJA",
+      "partOfSpeech": "noun",
+      "sourceWord": "endeja",
+      "senseIndex": 0,
+      "english": "toothing left in a wall to bond later masonry",
+      "context": "Selected alternating recesses and projections for joining a future wall extension; not an insult or decorative edging.",
+      "source": {
+        "recordSha256": "9089722626f3ee1b2fc34c4eb5bef43c51e058763ab72ecae392c7c9a76e4cb3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/endeja",
+        "word": "endeja",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Conjunto de entrantes y salientes que se deja en una pared que puede tener continuación, para que la parte nueva quede mejor unida con la vieja."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Arquitectura"
+        ],
+        "topics": [
+          "architecture"
+        ]
+      }
+    },
+    {
+      "word": "ESCOCIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "escocia",
+      "senseIndex": 0,
+      "english": "scotia, a concave architectural moulding",
+      "context": "Selected moulding with two different-radius curves; not the country Scotland.",
+      "source": {
+        "recordSha256": "434acc10e0cd46dcb95ca9ce8748fd617c1a81f564d3a9d14c4cdf7d6959c9a2",
+        "sourceUrl": "https://es.wiktionary.org/wiki/escocia",
+        "word": "escocia",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Moldura de perfil cóncavo, compuesta de dos curvas de diferente radio cuyo borde inferior es saledizo. Se llamaba así porque al colocarse en la basa de las columnas proporcionaba el efecto de luz y sombra."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Arquitectura"
+        ],
+        "topics": [
+          "architecture"
+        ]
+      }
+    },
+    {
+      "word": "ETAMINA",
+      "partOfSpeech": "noun",
+      "sourceWord": "etamina",
+      "senseIndex": 0,
+      "english": "a very fine wool, silk or cotton fabric",
+      "context": "Selected dressmaking textile; no single fibre or weave is forced beyond source.",
+      "source": {
+        "recordSha256": "9e5e1a9dba5c8babcf035648578f5574f465d913259b78b321d6cf32503be796",
+        "sourceUrl": "https://es.wiktionary.org/wiki/etamina",
+        "word": "etamina",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Tejido de lana, seda o algodón, muy fino y generalmente usado para hacer vestidos."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Textiles"
+        ],
+        "topics": [
+          "textiles"
+        ]
+      }
+    },
+    {
+      "word": "FAJARDO",
+      "partOfSpeech": "noun",
+      "sourceWord": "fajardo",
+      "senseIndex": 0,
+      "english": "a puff-pastry case filled with partially cooked minced meat",
+      "context": "Selected savoury pastry; perdigada indicates initial cooking, not raw meat. No complete recipe inferred.",
+      "source": {
+        "recordSha256": "74e78d28b88c12975d2dd34c5071960095b3eb34704b0545037f98d8b0555639",
+        "sourceUrl": "https://es.wiktionary.org/wiki/fajardo",
+        "word": "fajardo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Cubilete de masa de hojaldre, relleno de carne picada y perdigada."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Platos"
+        ],
+        "categories": [
+          "ES:Platos"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "FELPO",
+      "partOfSpeech": "noun",
+      "sourceWord": "felpo",
+      "senseIndex": 0,
+      "english": "a thick, plush doormat",
+      "context": "Selected entrance mat for cleaning earth or mud from footwear.",
+      "source": {
+        "recordSha256": "6638f7506fe2cef1512be786971bf3703f234180e70f5188506049776cd5908f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/felpo",
+        "word": "felpo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Estera gruesa y afelpada que se coloca en la entrada de la casa para limpiarse la tierra o el barro del calzado."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "FREGAJO",
+      "partOfSpeech": "noun",
+      "sourceWord": "fregajo",
+      "senseIndex": 0,
+      "english": "a scrubbing cloth or sponge used aboard a galley",
+      "context": "Selected historical galley cleaning implement; no unrelated insult sense.",
+      "source": {
+        "recordSha256": "0bdf81a52836843edc3f7553bbd001b41ac83157079b181c261457f93693b9be",
+        "sourceUrl": "https://es.wiktionary.org/wiki/fregajo",
+        "word": "fregajo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "En las galeras, estropajo (trozo de tela o esponja para fregar)."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "FREILE",
+      "partOfSpeech": "noun",
+      "sourceWord": "freile",
+      "senseIndex": 0,
+      "english": "a member of a military religious order",
+      "context": "Selected priest or knight belonging to such an order; not every friar.",
+      "source": {
+        "recordSha256": "421aaf8ee7ab4a6781a867bb93d19d4b44d7bf1abf6a7b67b8cea73d3a9c668f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/freile",
+        "word": "freile",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Miembro de una orden religiosa militar, sea sacerdote o caballero."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Religión"
+        ],
+        "topics": [
+          "religion"
+        ]
+      }
+    },
+    {
+      "word": "FRITADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "fritada",
+      "senseIndex": 0,
+      "english": "an Ecuadorian highland pork dish",
+      "context": "Selected named regional preparation; accompanying foods are examples in the source description, not mandatory ingredients.",
+      "source": {
+        "recordSha256": "00af51cbf8d34949b25b4475f4567556824c55d40dc77db4a3e31be196663ac9",
+        "sourceUrl": "https://es.wiktionary.org/wiki/fritada",
+        "word": "fritada",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Plato de la sierra ecuatoriana cuyo componente principal es la carne de cerdo. Se suele acompañar con mote, choclo, papa o llapingachos, plátanos maduros fritos, encurtido de cebolla, entre otros ingredientes."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Gastronomía"
+        ],
+        "categories": [
+          "ES:Gastronomía"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "GALAYO",
+      "partOfSpeech": "noun",
+      "sourceWord": "galayo",
+      "senseIndex": 0,
+      "english": "a sharp outcrop of bare rock on a mountain",
+      "context": "Selected projecting rocky prominence; not a generic valley or tree.",
+      "source": {
+        "recordSha256": "7af02b623221cc7c9c19f10a4c7fa59f337ca34e1130d9fe63f06304678ada53",
+        "sourceUrl": "https://es.wiktionary.org/wiki/galayo",
+        "word": "galayo",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Cada una de las prominencias agudas de roca desnuda que sobresalen de una montaña."
+        ],
+        "tags": [],
+        "rawTags": [
+          "se usa habitualmente en plural"
+        ],
+        "categories": [],
+        "topics": []
+      }
+    },
+    {
+      "word": "GANDAYA",
+      "partOfSpeech": "noun",
+      "sourceWord": "gandaya",
+      "senseIndex": 0,
+      "english": "a brimless mesh cap for holding the hair",
+      "context": "Selected head covering, not a person or a separate colloquial insult.",
+      "source": {
+        "recordSha256": "c51bd4b8c9a0378a7552831bc4910507ffaa2b197667d54995fcc01a4abf00b3",
+        "sourceUrl": "https://es.wiktionary.org/wiki/gandaya",
+        "word": "gandaya",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Gorra de tejido de malla sin visera usada para recoger el cabello."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Vestimenta"
+        ],
+        "categories": [
+          "ES:Vestimenta"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "GARITÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "garitón",
+      "senseIndex": 0,
+      "english": "a small sentry turret",
+      "context": "Selected little tower sheltering a guard on watch; no invented fortification plan.",
+      "source": {
+        "recordSha256": "f5265d9153954fe60bcfc88e3327248f3b473e1cebf8215b824f0123d95f4d0e",
+        "sourceUrl": "https://es.wiktionary.org/wiki/garit%C3%B3n",
+        "word": "garitón",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Torrecilla donde se cobija la vigilancia de guardia."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [
+          "ES:Arquitectura",
+          "ES:Milicia"
+        ],
+        "topics": [
+          "architecture",
+          "military"
+        ]
+      }
+    },
+    {
+      "word": "GIGOTE",
+      "partOfSpeech": "noun",
+      "sourceWord": "gigote",
+      "senseIndex": 0,
+      "english": "a dish of chopped meat sautéed in fat",
+      "context": "Selected preparation from the supplied description; no recipe quantities or health claim.",
+      "source": {
+        "recordSha256": "f579ab3ba701fc44a7f7d2fd1cc4b5f9a8b7ca19b4e7e3a41365e8192763fb1f",
+        "sourceUrl": "https://es.wiktionary.org/wiki/gigote",
+        "word": "gigote",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Guisado de carne picada rehogada en manteca."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Gastronomía"
+        ],
+        "categories": [
+          "ES:Gastronomía"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "GLASTO",
+      "partOfSpeech": "noun",
+      "sourceWord": "glasto",
+      "senseIndex": 0,
+      "english": "woad (Isatis tinctoria)",
+      "context": "Selected dye-producing plant identified in source; no current taxonomy or medical claim.",
+      "source": {
+        "recordSha256": "135a221d0a85f568f75baa6b4b76bfcb6145782614c6b6eb3c8791d4fe98f167",
+        "sourceUrl": "https://es.wiktionary.org/wiki/glasto",
+        "word": "glasto",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo masculino",
+        "rowTags": [
+          "masculine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "(Isatis tinctoria) Planta bienal de la familia de las crucíferas, con tallo herbáceo, ramoso, de seis a ocho decímetros de altura; hojas grandes, garzas, lanceoladas, con orejetas en la base; flores pequeñas, amarillas, en racimos que forman un gran ramillete, y fruto en vainilla elíptica, negra y casi plana, con una semilla comprimida, tres veces más larga que ancha. De las hojas de esta planta, antes muy cultivada, se saca un color análogo al del añil."
+        ],
+        "tags": [],
+        "rawTags": [
+          "Plantas"
+        ],
+        "categories": [
+          "ES:Plantas"
+        ],
+        "topics": []
+      }
+    },
+    {
+      "word": "GUAIRA",
+      "partOfSpeech": "noun",
+      "sourceWord": "guaira",
+      "senseIndex": 0,
+      "english": "a pre-Hispanic ore-smelting furnace",
+      "context": "Selected historical smelting apparatus; not a place name or a claim of a modern industrial process.",
+      "source": {
+        "recordSha256": "62c7d219f42f6a2d567837751ff673a4a9520e846eb8ade4bb07295b938df30d",
+        "sourceUrl": "https://es.wiktionary.org/wiki/guaira",
+        "word": "guaira",
+        "partOfSpeech": "noun",
+        "posTitle": "Sustantivo femenino",
+        "rowTags": [
+          "feminine"
+        ],
+        "rowRawTags": [],
+        "senseIndex": 0,
+        "glosses": [
+          "Horno para fundir minerales en la época prehispana."
+        ],
+        "tags": [],
+        "rawTags": [],
+        "categories": [],
+        "topics": []
+      }
+    }
+  ],
+  "holds": [
+    {
+      "word": "GAVIERO",
+      "partOfSpeech": "noun",
+      "recordSha256": "add79ee78e27cee45ba6195e0543b3dc2d6469b85be06750578fce37c4c22e87",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "Marinero a cuyo cargo está la gavia del barco, y que realiza la vigilancia desde ella."
+        ],
+        "topics": [
+          "nautical"
+        ],
+        "categories": [
+          "ES:Náutica"
+        ],
+        "sense_index": "1"
+      },
+      "reason": "GAVIA can denote a topsail or a mast-top platform. The supplied source appears to conflate responsibility for the former with standing lookout from the latter; exact technical English role is held pending resolution."
+    }
+  ],
+  "counts": {
+    "firstAuthorProposals": 66,
+    "distinctCurrentlyMissingWords": 66,
+    "exactRawLexicalRecords": 66,
+    "heldSpellings": 1,
+    "partsOfSpeech": {
+      "noun": 64,
+      "adj": 1,
+      "num": 1
+    }
+  },
+  "limitations": [
+    "Only the exact zero-based selected source sense is proposed. Earlier rejected alignments, opaque aliases, mandatory-SE and subject restrictions remain unchanged.",
+    "Scientific names identify the pinned source selected sense; no assertion of current accepted taxonomy, medicinal efficacy, recipe instruction or safety follows.",
+    "Raw Spanish gender/number inventories remain audit evidence, not independently certified English-panel grammar.",
+    "Regional, rare, historical and technical restrictions remain visible when material. Absence of a regional label does not imply ordinary Mexican usage.",
+    "No examples, media, quotations or actual puzzle referents retained. Direct lexical meanings do not authorize English or Spanish inflection generation.",
+    "66 currently missing spellings are potential additions, not actual coverage before independent review and integration."
+  ]
+}

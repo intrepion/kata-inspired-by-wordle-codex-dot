@@ -1,0 +1,53 @@
+{
+  "inputSha256": "3455b20d6a21707b71129658d3e964a0db31dd2f4beca0e40bcbfdf2907c8d6d",
+  "deltaManifestSha256": "479677c668729def29d50ab9ca680579d617daf2872437a31009c8a27e9a56c7",
+  "projectionScriptSha256": "809328c1ee659c5f2706e44c6d9caf9ef81b5b4220dea4d2189a5832810c23a7",
+  "baseDerivativeSha256": "0c7d0b60ccff5f80dc70fba4a7263dfab35b5cbf946a3cc0511b5f7c642798fd",
+  "baseProjectionManifestSha256": "5252024b75dfff3d356213496a4ff6a66f2927d2e62de3700e0f3a0833f59324",
+  "baseSanitizationReviewSha256": "03c136b19d13c61f29e97782ca94526e9f0ca374379490221d3ffc84fdc81e82",
+  "originalSemanticReviewSha256": "37faad93f86394d4da5e9f0b64338a041831892953f7dd5c18c06c864a9a103c",
+  "reviewer": "/root/review_standards",
+  "method": "Independent exact-byte single-field delta and linguistic review. Deterministic v2 script reproduced existing hashes; no production files, broad tests or browser used.",
+  "approved": true,
+  "readyForProductionUnderOriginalGuards": true,
+  "correctedPresentation": {
+    "recordIndex": 2,
+    "word": "CUALES",
+    "displayContext": "A plural relative pronoun, usually in los cuales or las cuales, referring back to things already mentioned. Formal or literary; not the question word cuáles.",
+    "notes": "Matches the already approved which reading for previously mentioned things; no who/whom people-reading or new English literal is introduced."
+  },
+  "resolvedBaseHold": "Only base heldPresentation record2 CUALES displayContext. The old v1 review is preserved unchanged; this approval supplies the missing presentation approval alongside its27approved displays.",
+  "checks": {
+    "exactlyOneScalarReplacement": true,
+    "changedJSONPointers": [
+      "/proposals/2/displayContext"
+    ],
+    "allOtherBytesUnchanged": true,
+    "all28OriginalEnglishAndAuditContextsUnchanged": true,
+    "allOther27DisplaysUnchanged": true,
+    "allChildGrammarAndOriginalSenseIndexMappingsUnchanged": true,
+    "allLexicalProjectionsAndRawSourceHashesUnchanged": true,
+    "all31PartitionAnd3MUCHOHoldsPreserved": true,
+    "v1ResearchProjectionReviewAndRawCheckerHashesUnchanged": true,
+    "deterministicV2ProjectionExecuted": true
+  },
+  "minimalSafeProductionPackage": [
+    "Only current sanitized-v2 derivative JSON as the lexical payload",
+    "V1 sanitization manifest plus v2 display-delta manifest, both pinned",
+    "Original safe semantic review, v1 sanitization/presentation review, and this v2 delta approval",
+    "Closed compiler/helper and a source-replay checker using existing pinned English evidence and an explicit Spanish archive argument",
+    "Existing Wiktionary attribution/CC BY-SA4 notices and source artifact hashes"
+  ],
+  "notRequiredOrAllowedInProductionPackage": [
+    "Quote-bearing original research proposal,31-analysis research triage or full29-record Spanish corroboration payload",
+    "Absolute/tmp research files as build/runtime dependencies",
+    "A second copy of v1 sanitized payload solely for audit: its bytes/hash can be reconstructed from v2 by reversing this one bound scalar delta"
+  ],
+  "guards": [
+    "Compile only the28 fixed reviewed analyses, preserving3heldMUCHO pronoun analyses and exact source signatures; no generic function-word rule.",
+    "V1 source checker/projection approval remains valid for identical source fields. A v2-aware checker may reconstruct/check the v1 base hash in memory and replay the same27selected raw projections; do not mutate the original checker to imply it directly accepts a different manifest schema.",
+    "Keep full original contexts and raw contradictory child extras in audit, use only reviewed display contexts and child-only grammar in UI.",
+    "Resolve sourceSenseIndex against original source indices, not the one-element projected-array position.",
+    "The new delta closes the one display hold; it does not erase prior held/rejected analyses or authorize publication, source expansion, pools or saves changes."
+  ]
+}

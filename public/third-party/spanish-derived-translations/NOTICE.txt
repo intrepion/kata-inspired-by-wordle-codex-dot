@@ -1,0 +1,34 @@
+Morrowmark: model-translated Spanish dictionary senses and source-explicit forms
+
+Original Spanish dictionary material: Wiktionary contributors, CC BY-SA 4.0.
+Extracted by Wiktextract / Kaikki; Tatu Ylonen, Wiktextract: Wiktionary as
+Machine-Readable Structured Data, LREC 2022, pp. 1317–1325.
+https://kaikki.org/dictionary/rawdata.html
+https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz
+Pinned artifact SHA256:
+f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad
+The included full CC BY-SA 4.0 terms apply to the retained/modified dictionary
+material. Source entry links, raw record hashes and selected senses remain in
+the per-word audit. The bulk artifact supplies no exact per-entry revision ID.
+
+Changes: freeze a reviewed lexical selection, retain its Spanish source senses
+and explicit grammatical descriptions, omit quotations/examples/media, translate
+selected meanings into English using two independent model reviews, and render
+only supported source morphology. English text is our model translation, NOT a
+source-provided English quotation or a human/native-certified Mexican example.
+The grammatical English snippets are selected readings, not complete sentences,
+all senses, or all contexts. Source errors and coverage gaps remain possible.
+No example sentences or translated examples are fabricated for these words.
+
+English inflection data: AGID 2016.01.19, separately permissive contributor
+terms retained in the repository's AGID notices. Its location alongside the
+Apertium sources does not make this generator a user of the GPL bilingual
+lexicon: this layer reads only the independently licensed AGID inflections.
+The separate Apertium-derived layer retains its own GPL v2 provenance/notices.
+
+Replay lexical/form evidence from the exact cached artifact with
+scripts/import-spanish-derived-evidence.py ARCHIVE --check. Reproduce compiled
+meanings offline with scripts/generate-spanish-derived-translations.py --check.
+See src/data/spanish/spanish-derived-source.json and WORDS-LICENSE.md.
+The ordinary game answer/guess pools and saved rounds are not changed by this
+translation layer. Local translation lookup calls no translation service.

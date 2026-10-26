@@ -1,0 +1,902 @@
+[
+  {
+    "word": "FIRMEZA",
+    "translation": "firmness; steadiness",
+    "example": "Respondió con firmeza.",
+    "exampleTranslation": "She answered firmly."
+  },
+  {
+    "word": "FISCAL",
+    "translation": "tax-related; fiscal",
+    "example": "La reforma fiscal cambió los impuestos.",
+    "exampleTranslation": "The tax reform changed the taxes."
+  },
+  {
+    "word": "FLACO",
+    "translation": "thin; lean",
+    "example": "El perro flaco necesita alimento.",
+    "exampleTranslation": "The thin dog needs food."
+  },
+  {
+    "word": "FLAUTA",
+    "translation": "flute",
+    "example": "Mi hermana toca la flauta.",
+    "exampleTranslation": "My sister plays the flute."
+  },
+  {
+    "word": "FLECHA",
+    "translation": "arrow",
+    "example": "La flecha cayó cerca del blanco.",
+    "exampleTranslation": "The arrow landed near the target."
+  },
+  {
+    "word": "FLOJO",
+    "translation": "loose; slack",
+    "example": "El tornillo está flojo.",
+    "exampleTranslation": "The screw is loose."
+  },
+  {
+    "word": "FLORA",
+    "translation": "plant life; flora",
+    "example": "La reserva protege su flora.",
+    "exampleTranslation": "The reserve protects its plant life."
+  },
+  {
+    "word": "FLOTA",
+    "translation": "fleet",
+    "example": "La flota regresó al puerto.",
+    "exampleTranslation": "The fleet returned to port."
+  },
+  {
+    "word": "FLUIDEZ",
+    "translation": "fluidity; smooth flow",
+    "example": "La fluidez del aceite cambia con el frío.",
+    "exampleTranslation": "The oil's fluidity changes with the cold."
+  },
+  {
+    "word": "FLUIDO",
+    "translation": "fluid; flowing",
+    "example": "El material fluido llenó el molde.",
+    "exampleTranslation": "The fluid material filled the mold."
+  },
+  {
+    "word": "FLUJO",
+    "translation": "flow",
+    "example": "Medimos el flujo de agua.",
+    "exampleTranslation": "We measured the water flow."
+  },
+  {
+    "word": "FOLLETO",
+    "translation": "leaflet; brochure",
+    "example": "El folleto explica la ruta.",
+    "exampleTranslation": "The brochure explains the route."
+  },
+  {
+    "word": "FOMENTO",
+    "translation": "promotion; encouragement",
+    "example": "El fomento de la lectura beneficia al barrio.",
+    "exampleTranslation": "Encouraging reading benefits the neighborhood."
+  },
+  {
+    "word": "FONDO",
+    "translation": "back; deepest part",
+    "example": "La caja está al fondo del cuarto.",
+    "exampleTranslation": "The box is at the back of the room."
+  },
+  {
+    "word": "FORENSE",
+    "translation": "forensic",
+    "example": "El informe forense aclaró lo ocurrido.",
+    "exampleTranslation": "The forensic report clarified what happened."
+  },
+  {
+    "word": "FORMA",
+    "translation": "shape; form",
+    "example": "La nube tiene forma de pez.",
+    "exampleTranslation": "The cloud is shaped like a fish."
+  },
+  {
+    "word": "FORMAL",
+    "translation": "formal",
+    "example": "La invitación requiere ropa formal.",
+    "exampleTranslation": "The invitation calls for formal clothing."
+  },
+  {
+    "word": "FORMAR",
+    "translation": "to form",
+    "example": "Vamos a formar un círculo.",
+    "exampleTranslation": "We will form a circle."
+  },
+  {
+    "word": "FORMATO",
+    "translation": "format; layout",
+    "example": "El formato de la hoja es horizontal.",
+    "exampleTranslation": "The page layout is horizontal."
+  },
+  {
+    "word": "FORO",
+    "translation": "forum; discussion venue",
+    "example": "El foro reunió a los vecinos.",
+    "exampleTranslation": "The forum brought the neighbors together."
+  },
+  {
+    "word": "FORRO",
+    "translation": "lining; protective cover",
+    "example": "El forro del abrigo es suave.",
+    "exampleTranslation": "The coat's lining is soft."
+  },
+  {
+    "word": "FORTUNA",
+    "translation": "luck; fortune",
+    "example": "Tuvimos la fortuna de encontrarlo.",
+    "exampleTranslation": "We were lucky enough to find him."
+  },
+  {
+    "word": "FORZADO",
+    "translation": "forced",
+    "example": "El traslado forzado cambió su vida.",
+    "exampleTranslation": "The forced relocation changed her life."
+  },
+  {
+    "word": "FORZAR",
+    "translation": "to force",
+    "example": "No debes forzar la cerradura.",
+    "exampleTranslation": "You should not force the lock."
+  },
+  {
+    "word": "FOSA",
+    "translation": "grave; burial pit",
+    "example": "La fosa estaba junto al muro.",
+    "exampleTranslation": "The grave was beside the wall."
+  },
+  {
+    "word": "FRACASO",
+    "translation": "failure",
+    "example": "El fracaso nos enseñó a mejorar.",
+    "exampleTranslation": "The failure taught us to improve."
+  },
+  {
+    "word": "FRANCO",
+    "translation": "frank; honest",
+    "example": "Fue franco al dar su opinión.",
+    "exampleTranslation": "He was frank when giving his opinion."
+  },
+  {
+    "word": "FRANCÉS",
+    "translation": "French",
+    "example": "Compré un libro francés.",
+    "exampleTranslation": "I bought a French book."
+  },
+  {
+    "word": "FRANJA",
+    "translation": "strip; band",
+    "example": "La tela tiene una franja roja.",
+    "exampleTranslation": "The fabric has a red stripe."
+  },
+  {
+    "word": "FRASCO",
+    "translation": "jar; bottle",
+    "example": "Guardé las semillas en un frasco.",
+    "exampleTranslation": "I kept the seeds in a jar."
+  },
+  {
+    "word": "FRASE",
+    "translation": "phrase; sentence",
+    "example": "Escribe una frase corta.",
+    "exampleTranslation": "Write a short sentence."
+  },
+  {
+    "word": "FRAUDE",
+    "translation": "fraud",
+    "example": "El banco detectó el fraude.",
+    "exampleTranslation": "The bank detected the fraud."
+  },
+  {
+    "word": "FRAY",
+    "translation": "Friar; Brother (religious title)",
+    "example": "Fray Martín cuidaba el huerto.",
+    "exampleTranslation": "Friar Martín tended the garden."
+  },
+  {
+    "word": "FRENAR",
+    "translation": "to brake; to slow down",
+    "example": "Debes frenar antes de la curva.",
+    "exampleTranslation": "You must brake before the bend."
+  },
+  {
+    "word": "FRENO",
+    "translation": "brake",
+    "example": "El freno de la bici funciona.",
+    "exampleTranslation": "The bicycle brake works."
+  },
+  {
+    "word": "FRENTE",
+    "translation": "forehead",
+    "example": "Se secó la frente.",
+    "exampleTranslation": "She wiped her forehead."
+  },
+  {
+    "word": "FRESA",
+    "translation": "strawberry",
+    "example": "La fresa está dulce.",
+    "exampleTranslation": "The strawberry is sweet."
+  },
+  {
+    "word": "FRESCO",
+    "translation": "fresh; recently made",
+    "example": "El pan fresco huele bien.",
+    "exampleTranslation": "The fresh bread smells good."
+  },
+  {
+    "word": "FRITO",
+    "translation": "fried",
+    "example": "El pescado frito está crujiente.",
+    "exampleTranslation": "The fried fish is crisp."
+  },
+  {
+    "word": "FRONTAL",
+    "translation": "front; frontal",
+    "example": "La puerta frontal da a la calle.",
+    "exampleTranslation": "The front door faces the street."
+  },
+  {
+    "word": "FRUTO",
+    "translation": "fruit (botanical)",
+    "example": "El árbol produjo su primer fruto.",
+    "exampleTranslation": "The tree produced its first fruit."
+  },
+  {
+    "word": "FRÁGIL",
+    "translation": "fragile",
+    "example": "El vaso es frágil.",
+    "exampleTranslation": "The glass is fragile."
+  },
+  {
+    "word": "FRÍA",
+    "translation": "cold beer (informal)",
+    "example": "Pidió una fría después del partido.",
+    "exampleTranslation": "He ordered a cold beer after the match."
+  },
+  {
+    "word": "FRÍO",
+    "translation": "cold",
+    "example": "El aire frío entra por la ventana.",
+    "exampleTranslation": "The cold air comes through the window."
+  },
+  {
+    "word": "FUENTE",
+    "translation": "spring; water source",
+    "example": "La fuente brota entre las piedras.",
+    "exampleTranslation": "The spring emerges among the rocks."
+  },
+  {
+    "word": "FUERA",
+    "translation": "outside",
+    "example": "La bicicleta está fuera.",
+    "exampleTranslation": "The bicycle is outside."
+  },
+  {
+    "word": "FUERO",
+    "translation": "legal immunity; special legal privilege",
+    "example": "El debate trató sobre el fuero de los funcionarios.",
+    "exampleTranslation": "The debate concerned officials' legal immunity."
+  },
+  {
+    "word": "FUERTE",
+    "translation": "strong",
+    "example": "El caballo es fuerte.",
+    "exampleTranslation": "The horse is strong."
+  },
+  {
+    "word": "FUERZA",
+    "translation": "strength; force",
+    "example": "Empujó la puerta con fuerza.",
+    "exampleTranslation": "She pushed the door forcefully."
+  },
+  {
+    "word": "FUGA",
+    "translation": "escape",
+    "example": "La fuga ocurrió de noche.",
+    "exampleTranslation": "The escape happened at night."
+  },
+  {
+    "word": "FUMAR",
+    "translation": "to smoke",
+    "example": "Aquí está prohibido fumar.",
+    "exampleTranslation": "Smoking is prohibited here."
+  },
+  {
+    "word": "FUNCIÓN",
+    "translation": "function; purpose",
+    "example": "La función del filtro es limpiar el agua.",
+    "exampleTranslation": "The filter's function is to clean the water."
+  },
+  {
+    "word": "FUNDAR",
+    "translation": "to found; to establish",
+    "example": "Decidieron fundar una escuela.",
+    "exampleTranslation": "They decided to establish a school."
+  },
+  {
+    "word": "FUNERAL",
+    "translation": "funeral; burial-related",
+    "example": "El rito funeral reunió a la familia.",
+    "exampleTranslation": "The funeral rite brought the family together."
+  },
+  {
+    "word": "FURIA",
+    "translation": "fury; rage",
+    "example": "Su furia se calmó pronto.",
+    "exampleTranslation": "His rage soon subsided."
+  },
+  {
+    "word": "FURIOSO",
+    "translation": "furious",
+    "example": "El personaje furioso salió de la sala.",
+    "exampleTranslation": "The furious character left the room."
+  },
+  {
+    "word": "FUSIL",
+    "translation": "rifle",
+    "example": "El fusil antiguo está en el museo.",
+    "exampleTranslation": "The old rifle is in the museum."
+  },
+  {
+    "word": "FUSIÓN",
+    "translation": "fusion; merger",
+    "example": "La fusión de los grupos creó un equipo mayor.",
+    "exampleTranslation": "Merging the groups created a larger team."
+  },
+  {
+    "word": "FUTBOL",
+    "translation": "soccer (unaccented variant)",
+    "example": "Jugamos futbol en el parque.",
+    "exampleTranslation": "We played soccer in the park."
+  },
+  {
+    "word": "FUTURO",
+    "translation": "future",
+    "example": "El proyecto futuro incluye un jardín.",
+    "exampleTranslation": "The future project includes a garden."
+  },
+  {
+    "word": "FÁBRICA",
+    "translation": "factory",
+    "example": "La fábrica produce zapatos.",
+    "exampleTranslation": "The factory makes shoes."
+  },
+  {
+    "word": "FÁCIL",
+    "translation": "easy",
+    "example": "El ejercicio es fácil.",
+    "exampleTranslation": "The exercise is easy."
+  },
+  {
+    "word": "FÉRTIL",
+    "translation": "fertile",
+    "example": "El suelo fértil da buenas cosechas.",
+    "exampleTranslation": "The fertile soil produces good harvests."
+  },
+  {
+    "word": "FÍSICA",
+    "translation": "physics",
+    "example": "Estudiamos física en el laboratorio.",
+    "exampleTranslation": "We study physics in the laboratory."
+  },
+  {
+    "word": "FÍSICO",
+    "translation": "physical; relating to physics",
+    "example": "El fenómeno físico tiene una explicación.",
+    "exampleTranslation": "The physical phenomenon has an explanation."
+  },
+  {
+    "word": "FÓRMULA",
+    "translation": "formula",
+    "example": "Usamos una fórmula para calcular el área.",
+    "exampleTranslation": "We used a formula to calculate the area."
+  },
+  {
+    "word": "FÓSFORO",
+    "translation": "phosphorus",
+    "example": "El fósforo es un elemento químico.",
+    "exampleTranslation": "Phosphorus is a chemical element."
+  },
+  {
+    "word": "FÚTBOL",
+    "translation": "soccer",
+    "example": "El fútbol es su deporte favorito.",
+    "exampleTranslation": "Soccer is her favorite sport."
+  },
+  {
+    "word": "GACETA",
+    "translation": "gazette; institutional bulletin",
+    "example": "La gaceta publica las convocatorias.",
+    "exampleTranslation": "The gazette publishes the announcements."
+  },
+  {
+    "word": "GALA",
+    "translation": "formal dress; finery",
+    "example": "Asistieron vestidos de gala.",
+    "exampleTranslation": "They attended in formal dress."
+  },
+  {
+    "word": "GALAXIA",
+    "translation": "galaxy",
+    "example": "La galaxia contiene millones de estrellas.",
+    "exampleTranslation": "The galaxy contains millions of stars."
+  },
+  {
+    "word": "GALERÍA",
+    "translation": "art gallery",
+    "example": "La galería expone pinturas locales.",
+    "exampleTranslation": "The gallery exhibits local paintings."
+  },
+  {
+    "word": "GALLEGO",
+    "translation": "Galician",
+    "example": "Un músico gallego tocó la gaita.",
+    "exampleTranslation": "A Galician musician played the bagpipes."
+  },
+  {
+    "word": "GALLINA",
+    "translation": "hen",
+    "example": "La gallina puso un huevo.",
+    "exampleTranslation": "The hen laid an egg."
+  },
+  {
+    "word": "GALLO",
+    "translation": "rooster",
+    "example": "El gallo cantó al amanecer.",
+    "exampleTranslation": "The rooster crowed at dawn."
+  },
+  {
+    "word": "GALÁN",
+    "translation": "leading man; handsome man",
+    "example": "El galán de la película saludó al público.",
+    "exampleTranslation": "The film's leading man greeted the audience."
+  },
+  {
+    "word": "GAMA",
+    "translation": "range",
+    "example": "Hay una amplia gama de colores.",
+    "exampleTranslation": "There is a wide range of colors."
+  },
+  {
+    "word": "GANADO",
+    "translation": "livestock; cattle",
+    "example": "El ganado pasta cerca del río.",
+    "exampleTranslation": "The cattle graze near the river."
+  },
+  {
+    "word": "GANADOR",
+    "translation": "winning; victorious",
+    "example": "El equipo ganador recibió una copa.",
+    "exampleTranslation": "The winning team received a cup."
+  },
+  {
+    "word": "GANAR",
+    "translation": "to earn; to win",
+    "example": "Quiere ganar dinero para estudiar.",
+    "exampleTranslation": "She wants to earn money to study."
+  },
+  {
+    "word": "GANARSE",
+    "translation": "to earn for oneself",
+    "example": "Busca ganarse la vida con su oficio.",
+    "exampleTranslation": "He seeks to earn a living from his trade."
+  },
+  {
+    "word": "GANCHO",
+    "translation": "hook",
+    "example": "Colgué la bolsa en un gancho.",
+    "exampleTranslation": "I hung the bag on a hook."
+  },
+  {
+    "word": "GARAJE",
+    "translation": "garage",
+    "example": "El carro está en el garaje.",
+    "exampleTranslation": "The car is in the garage."
+  },
+  {
+    "word": "GARRA",
+    "translation": "claw",
+    "example": "El gato enganchó una garra en la tela.",
+    "exampleTranslation": "The cat caught a claw in the fabric."
+  },
+  {
+    "word": "GARZA",
+    "translation": "heron",
+    "example": "Una garza caminaba por la orilla.",
+    "exampleTranslation": "A heron was walking along the shore."
+  },
+  {
+    "word": "GASTAR",
+    "translation": "to spend; to use up",
+    "example": "No quiero gastar toda el agua.",
+    "exampleTranslation": "I do not want to use up all the water."
+  },
+  {
+    "word": "GASTO",
+    "translation": "expense; spending",
+    "example": "El gasto fue menor de lo previsto.",
+    "exampleTranslation": "The expense was lower than expected."
+  },
+  {
+    "word": "GATA",
+    "translation": "female cat",
+    "example": "Mi gata duerme en el sillón.",
+    "exampleTranslation": "My cat sleeps on the armchair."
+  },
+  {
+    "word": "GENERAL",
+    "translation": "general; overall",
+    "example": "La opinión general fue favorable.",
+    "exampleTranslation": "The general opinion was favorable."
+  },
+  {
+    "word": "GENERAR",
+    "translation": "to generate; to produce",
+    "example": "El molino puede generar electricidad.",
+    "exampleTranslation": "The windmill can generate electricity."
+  },
+  {
+    "word": "GENIAL",
+    "translation": "great; brilliant",
+    "example": "Tu idea es genial.",
+    "exampleTranslation": "Your idea is brilliant."
+  },
+  {
+    "word": "GENIO",
+    "translation": "temperament; character",
+    "example": "Mi abuela tiene buen genio.",
+    "exampleTranslation": "My grandmother has a good temperament."
+  },
+  {
+    "word": "GENTE",
+    "translation": "people",
+    "example": "Hay mucha gente en la plaza.",
+    "exampleTranslation": "There are many people in the square."
+  },
+  {
+    "word": "GENTIL",
+    "translation": "kind; courteous",
+    "example": "El vendedor fue gentil.",
+    "exampleTranslation": "The salesperson was kind."
+  },
+  {
+    "word": "GENUINO",
+    "translation": "genuine",
+    "example": "Su interés es genuino.",
+    "exampleTranslation": "Her interest is genuine."
+  },
+  {
+    "word": "GERENTE",
+    "translation": "manager",
+    "example": "La gerente abrió la oficina.",
+    "exampleTranslation": "The manager opened the office."
+  },
+  {
+    "word": "GESTIÓN",
+    "translation": "management; handling",
+    "example": "La gestión del proyecto fue eficiente.",
+    "exampleTranslation": "The project management was efficient."
+  },
+  {
+    "word": "GESTO",
+    "translation": "facial expression; gesture",
+    "example": "Su gesto mostró sorpresa.",
+    "exampleTranslation": "Her expression showed surprise."
+  },
+  {
+    "word": "GESTOR",
+    "translation": "managing; organizing",
+    "example": "El equipo gestor revisó el avance.",
+    "exampleTranslation": "The management team reviewed the progress."
+  },
+  {
+    "word": "GIGANTE",
+    "translation": "giant; huge",
+    "example": "Un árbol gigante da sombra al patio.",
+    "exampleTranslation": "A giant tree shades the courtyard."
+  },
+  {
+    "word": "GINEBRA",
+    "translation": "gin",
+    "example": "La receta del cóctel lleva ginebra.",
+    "exampleTranslation": "The cocktail recipe includes gin."
+  },
+  {
+    "word": "GIRA",
+    "translation": "tour",
+    "example": "La banda inició su gira.",
+    "exampleTranslation": "The band began its tour."
+  },
+  {
+    "word": "GIRAR",
+    "translation": "to turn; to rotate",
+    "example": "Puedes girar la rueda.",
+    "exampleTranslation": "You can turn the wheel."
+  },
+  {
+    "word": "GIRO",
+    "translation": "turn; rotation",
+    "example": "Dio un giro completo.",
+    "exampleTranslation": "It made a full turn."
+  },
+  {
+    "word": "GLOBAL",
+    "translation": "global; overall",
+    "example": "Necesitamos una visión global del problema.",
+    "exampleTranslation": "We need an overall view of the problem."
+  },
+  {
+    "word": "GLOBO",
+    "translation": "balloon",
+    "example": "El globo flotó sobre la mesa.",
+    "exampleTranslation": "The balloon floated above the table."
+  },
+  {
+    "word": "GLORIA",
+    "translation": "glory; great honor",
+    "example": "El triunfo le dio gloria al equipo.",
+    "exampleTranslation": "The victory brought glory to the team."
+  },
+  {
+    "word": "GOLF",
+    "translation": "golf",
+    "example": "El golf se juega al aire libre.",
+    "exampleTranslation": "Golf is played outdoors."
+  },
+  {
+    "word": "GOLFO",
+    "translation": "gulf",
+    "example": "El barco cruzó el golfo.",
+    "exampleTranslation": "The ship crossed the gulf."
+  },
+  {
+    "word": "GOLPE",
+    "translation": "blow; impact",
+    "example": "El golpe rompió el vidrio.",
+    "exampleTranslation": "The impact broke the glass."
+  },
+  {
+    "word": "GOLPEAR",
+    "translation": "to hit; to strike",
+    "example": "No debes golpear el cristal.",
+    "exampleTranslation": "You must not strike the glass."
+  },
+  {
+    "word": "GORDO",
+    "translation": "fat; overweight",
+    "example": "El gato gordo se quedó dormido.",
+    "exampleTranslation": "The fat cat fell asleep."
+  },
+  {
+    "word": "GORILA",
+    "translation": "gorilla",
+    "example": "El gorila descansa bajo un árbol.",
+    "exampleTranslation": "The gorilla rests under a tree."
+  },
+  {
+    "word": "GORRA",
+    "translation": "cap",
+    "example": "Mi gorra tiene visera.",
+    "exampleTranslation": "My cap has a brim."
+  },
+  {
+    "word": "GORRO",
+    "translation": "hat; beanie",
+    "example": "Lleva un gorro de lana.",
+    "exampleTranslation": "She wears a wool hat."
+  },
+  {
+    "word": "GOZAR",
+    "translation": "to enjoy",
+    "example": "Queremos gozar de las vacaciones.",
+    "exampleTranslation": "We want to enjoy the vacation."
+  },
+  {
+    "word": "GOZO",
+    "translation": "great joy",
+    "example": "Su regreso nos llenó de gozo.",
+    "exampleTranslation": "Her return filled us with joy."
+  },
+  {
+    "word": "GRABADO",
+    "translation": "engraving; printmaking",
+    "example": "El grabado muestra un paisaje.",
+    "exampleTranslation": "The print depicts a landscape."
+  },
+  {
+    "word": "GRABAR",
+    "translation": "to record",
+    "example": "Voy a grabar la canción.",
+    "exampleTranslation": "I will record the song."
+  },
+  {
+    "word": "GRACIA",
+    "translation": "charm; grace",
+    "example": "Baila con mucha gracia.",
+    "exampleTranslation": "She dances very gracefully."
+  },
+  {
+    "word": "GRACIAS",
+    "translation": "thank you",
+    "example": "Gracias por tu ayuda.",
+    "exampleTranslation": "Thank you for your help."
+  },
+  {
+    "word": "GRADO",
+    "translation": "degree; level",
+    "example": "El grado de dificultad aumentó.",
+    "exampleTranslation": "The difficulty level increased."
+  },
+  {
+    "word": "GRADUAL",
+    "translation": "gradual",
+    "example": "El cambio fue gradual.",
+    "exampleTranslation": "The change was gradual."
+  },
+  {
+    "word": "GRAN",
+    "translation": "great; large (before a singular noun)",
+    "example": "Fue una gran sorpresa.",
+    "exampleTranslation": "It was a great surprise."
+  },
+  {
+    "word": "GRANADA",
+    "translation": "pomegranate",
+    "example": "La granada tiene semillas rojas.",
+    "exampleTranslation": "The pomegranate has red seeds."
+  },
+  {
+    "word": "GRANDE",
+    "translation": "large; big",
+    "example": "La mesa es grande.",
+    "exampleTranslation": "The table is large."
+  },
+  {
+    "word": "GRANITO",
+    "translation": "granite",
+    "example": "La encimera es de granito.",
+    "exampleTranslation": "The countertop is granite."
+  },
+  {
+    "word": "GRANJA",
+    "translation": "farm",
+    "example": "La granja produce leche.",
+    "exampleTranslation": "The farm produces milk."
+  },
+  {
+    "word": "GRANO",
+    "translation": "grain; seed",
+    "example": "Un grano de maíz cayó al suelo.",
+    "exampleTranslation": "A grain of corn fell to the floor."
+  },
+  {
+    "word": "GRASA",
+    "translation": "fat; grease",
+    "example": "La grasa se quedó en la sartén.",
+    "exampleTranslation": "The grease remained in the pan."
+  },
+  {
+    "word": "GRATIS",
+    "translation": "free of charge",
+    "example": "La entrada es gratis.",
+    "exampleTranslation": "Admission is free."
+  },
+  {
+    "word": "GRAVE",
+    "translation": "serious",
+    "example": "El problema es grave.",
+    "exampleTranslation": "The problem is serious."
+  },
+  {
+    "word": "GREMIO",
+    "translation": "trade association; guild",
+    "example": "El gremio de panaderos se reunió.",
+    "exampleTranslation": "The bakers' association met."
+  },
+  {
+    "word": "GRIEGO",
+    "translation": "Greek",
+    "example": "El templo griego aparece en la foto.",
+    "exampleTranslation": "The Greek temple appears in the photo."
+  },
+  {
+    "word": "GRIETA",
+    "translation": "crack",
+    "example": "La pared tiene una grieta.",
+    "exampleTranslation": "The wall has a crack."
+  },
+  {
+    "word": "GRIPE",
+    "translation": "flu",
+    "example": "La gripe lo dejó en cama.",
+    "exampleTranslation": "The flu kept him in bed."
+  },
+  {
+    "word": "GRITAR",
+    "translation": "to shout",
+    "example": "No hace falta gritar.",
+    "exampleTranslation": "There is no need to shout."
+  },
+  {
+    "word": "GRITO",
+    "translation": "shout; cry",
+    "example": "Escuché un grito en la calle.",
+    "exampleTranslation": "I heard a shout in the street."
+  },
+  {
+    "word": "GROSERO",
+    "translation": "rude; coarse",
+    "example": "Su comentario fue grosero.",
+    "exampleTranslation": "His comment was rude."
+  },
+  {
+    "word": "GRUESA",
+    "translation": "gross; twelve dozen",
+    "example": "Pidieron una gruesa de botones.",
+    "exampleTranslation": "They ordered a gross of buttons."
+  },
+  {
+    "word": "GRUESO",
+    "translation": "thick",
+    "example": "El vidrio es grueso.",
+    "exampleTranslation": "The glass is thick."
+  },
+  {
+    "word": "GRUPAL",
+    "translation": "group; relating to a group",
+    "example": "La actividad grupal salió bien.",
+    "exampleTranslation": "The group activity went well."
+  },
+  {
+    "word": "GRUPO",
+    "translation": "group",
+    "example": "El grupo llegó temprano.",
+    "exampleTranslation": "The group arrived early."
+  },
+  {
+    "word": "GRÁFICA",
+    "translation": "chart; graph",
+    "example": "La gráfica muestra las ventas.",
+    "exampleTranslation": "The graph shows sales."
+  },
+  {
+    "word": "GRÁFICO",
+    "translation": "graphic; visual",
+    "example": "El material gráfico facilita la explicación.",
+    "exampleTranslation": "The visual material makes the explanation easier."
+  },
+  {
+    "word": "GUANTE",
+    "translation": "glove",
+    "example": "Perdí un guante en el camino.",
+    "exampleTranslation": "I lost a glove on the way."
+  },
+  {
+    "word": "GUAPO",
+    "translation": "handsome; good-looking",
+    "example": "Mi primo salió guapo en la foto.",
+    "exampleTranslation": "My cousin looks handsome in the photo."
+  },
+  {
+    "word": "GUARANÍ",
+    "translation": "Guarani",
+    "example": "El idioma guaraní se habla en Paraguay.",
+    "exampleTranslation": "The Guarani language is spoken in Paraguay."
+  },
+  {
+    "word": "GUARDA",
+    "translation": "guard; caretaker",
+    "example": "El guarda abrió la entrada.",
+    "exampleTranslation": "The guard opened the entrance."
+  },
+  {
+    "word": "GUARDAR",
+    "translation": "to put away; to keep safe",
+    "example": "Voy a guardar los documentos.",
+    "exampleTranslation": "I will put the documents away."
+  }
+]

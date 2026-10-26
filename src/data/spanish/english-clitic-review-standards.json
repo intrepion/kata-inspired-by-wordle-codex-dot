@@ -1,0 +1,45 @@
+{
+  "inputSha256": "c26140c47ad181404825c8cdaae5c339b890027553fe7eb3932f1717c3623d77",
+  "reviewer": "/root/review_standards",
+  "approvedPolicy": true,
+  "guards": [
+    "Limit lexical readings to the explicitly approved DAR give and DECIR say/tell senses, not hit, occur, passive, idiomatic or unrelated homograph senses.",
+    "Exact retained combined-with descriptions and source pronoun/person/number/mood metadata must establish the composition. Never split suffixes or infer an unattested accented spelling.",
+    "lo/la -> it and los/las -> them require an explicit selected inanimate/abstract-content reading label. Do not claim that human-object interpretations are covered.",
+    "le/les -> him/her/them require selected third-person recipient labels and exact singular/plural constraints; do not silently include formal you or leismo interpretations.",
+    "For first/second-person single clitics, source object-person tags alone do not prove dative. Label the bounded give/tell recipient interpretation as a selected model reading rather than source-explicit dative fact; withhold source contexts inconsistent with it.",
+    "Double-clitic se may stand for indirect le/les only when that role is explicitly given by the source; preserve separate direct-object number. Never treat single reflexive se as le/les.",
+    "Convert first/second-person recipients to reflexive English only after matching actual finite subject person AND number. Formal imperative third-person morphology addresses you, not he/she/they.",
+    "For matching plural nos/os, mark the output selected reflexive reading; reciprocal one-another interpretations also exist and are not covered.",
+    "Infinitives and gerunds without an explicit subject/controller retain me/you/us rather than invent myself/yourself/ourselves.",
+    "DAR recipient-only give him/give me must remain visibly labelled elliptical recipient fragments with unexpressed direct object; give to him is an alternative that preserves the recipient role. Do not assert a complete clause or invent a gift/destination.",
+    "DECIR direct-only uses say it/them; recipient-only uses tell me/him/etc.; combined roles use say it/them to recipient. No direct me/te/nos/os templates under these reviewed say/tell senses.",
+    "Use the existing exact mood/person/number/tense, positive predicate, AGID sense/unknown-form, aspect and it-only restrictions. No invented object, example sentence or universal-translation claim.",
+    "A malformed form_of target may be normalized only for dar/decir combined with an identical explicit clitic description in the same source gloss, with an agreeing explicit of dar/of decir root; no spelling normalization or suffix split is authorized.",
+    "Dedicated clitic policy review approves DECIR recipient tell narrowly under the exact retained to say, to tell, to name, to mention source gloss. This does not assert prior general tell-head approval or authorize other lexical tell senses."
+  ],
+  "rejectedCases": [
+    {
+      "case": "DARSE, DESE, DENSE, DÁNDOSE, DECIRSE, DÍGASE, DÍGANSE single-se readings",
+      "reason": "Reflexive/passive/idiomatic possibilities are not equivalent to a selected le/les recipient."
+    },
+    {
+      "case": "NOS DECIMOS interpreted exclusively as we tell ourselves",
+      "reason": "Plural nos can be reciprocal; approve only a visibly selected reflexive reading, never a universal interpretation."
+    },
+    {
+      "case": "DARME or DÁNDOME -> give/giving myself without a controller",
+      "reason": "Nonfinite source forms do not identify the giver; me is retained under the selected recipient reading."
+    },
+    {
+      "case": "Direct-person DECIR me/te -> say me/you",
+      "reason": "This fails the English say/tell argument mapping; direct-person calling/naming senses require separate review."
+    },
+    {
+      "case": "Unknown/contradictory source roles, unsupported compounds, arbitrary single se, or ambiguous controlled subject",
+      "reason": "Withhold rather than repair grammar or infer roles from spelling."
+    }
+  ],
+  "notes": "Read all 96 retained senses/80 words and both lemma sense inventories. This is a bounded policy approval with the listed guards, not approval of every source analysis or generated output. Independent model linguistic review, not source quotation or native-Mexican certification. RAE confirms se as le(s) before lo/la/los/las and the reflexive/reciprocal ambiguity of nos/os/se: https://www.rae.es/dpd/se ; https://www.rae.es/gtg/pronombre-rec%C3%ADproco Reviewed all 11 added source analyses individually, for DÍGAME, DÍMELO, DÍSELO, DÁRSELO, DÉMELO, DÁRTELO, DÁRMELO, DÉMELA, DÁRMELA, DÁRTELA and DÍMELA: total 107 senses/91 words. Their malformed targets agree exactly with explicit same-sense lemma/clitic descriptions. Reviewed the current helper policy-hash, source-record binding, narrow tell fallback and nonfinite/reflexive paths; policy approval retains every existing guard.",
+  "policySha256": "9533e6be2ae88d55dd9bd3732d48ce8c85e8783a0618e5e8731c9bd24f657e4f"
+}

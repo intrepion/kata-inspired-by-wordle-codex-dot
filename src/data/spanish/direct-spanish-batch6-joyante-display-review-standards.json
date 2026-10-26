@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/review_standards",
+  "scope": "Independent review of a narrow presentation plan, not completed implementation QA",
+  "approved": true,
+  "word": "JOYANTE",
+  "partOfSpeech": "adj",
+  "originalProposalSha256": "10b51829f25b55dde0352ea56d83b2bbd90685efe26df537e639e8244cc4d772",
+  "selectedCandidateSha256": "7b55aa1d08de21ca19c7391b1ec4124f41fb7eae554733e91d0909b63c903ebe",
+  "sourceRecordSha256": "8ad0c39dc82128cbe0f446afa78174d3745d08f9b0e05f53b2724a6c9e5b40f1",
+  "sourceSenseIndex": 0,
+  "englishUnchanged": "fine and lustrous, of silk",
+  "originalReviewedContext": "Source says this is used almost only in the phrase seda joyante; keep that restricted textile context visible.",
+  "approvedDisplayContext": "Used almost only in seda joyante, describing fine, lustrous silk.",
+  "semanticAssessment": "Exact fine/lustrous silk meaning and almost-only seda joyante phrase restriction remain unchanged. Only the renderer instruction is removed from visible copy. No new lexical sense or adjective-form authority.",
+  "guards": [
+    "Preserve original candidate, English, source identity, reviewed context and independent approval unchanged.",
+    "Add displayContext only for this JOYANTE adjective reading; do not rewrite any other direct context.",
+    "Runtime tags use approvedDisplayContext; proof retains full original context and separately records runtimeContext only for the override.",
+    "The almost-only phrase restriction must remain visible; do not replace it with an unrestricted fine/lustrous adjective.",
+    "No generic form, possible-answer, saved-state, dictionary-membership or UI focus change follows."
+  ]
+}

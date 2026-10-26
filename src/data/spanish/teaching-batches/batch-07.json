@@ -1,0 +1,902 @@
+[
+  {
+    "word": "ENVIDIA",
+    "translation": "envy",
+    "example": "La envidia le impedía alegrarse por otros.",
+    "exampleTranslation": "Envy kept him from being happy for others."
+  },
+  {
+    "word": "ENVÍO",
+    "translation": "shipment; delivery",
+    "example": "El envío llegará mañana.",
+    "exampleTranslation": "The shipment will arrive tomorrow."
+  },
+  {
+    "word": "EQUIDAD",
+    "translation": "fairness; equity",
+    "example": "La equidad guía el reparto de recursos.",
+    "exampleTranslation": "Fairness guides the distribution of resources."
+  },
+  {
+    "word": "EQUIPO",
+    "translation": "team",
+    "example": "Nuestro equipo trabaja bien.",
+    "exampleTranslation": "Our team works well."
+  },
+  {
+    "word": "ERMITA",
+    "translation": "small rural chapel",
+    "example": "La ermita está en el cerro.",
+    "exampleTranslation": "The chapel is on the hill."
+  },
+  {
+    "word": "EROSIÓN",
+    "translation": "erosion",
+    "example": "La erosión desgastó la ladera.",
+    "exampleTranslation": "Erosion wore away the hillside."
+  },
+  {
+    "word": "ERROR",
+    "translation": "error; mistake",
+    "example": "Encontré un error en la cuenta.",
+    "exampleTranslation": "I found an error in the calculation."
+  },
+  {
+    "word": "ERUDITO",
+    "translation": "learned; scholarly",
+    "example": "El historiador erudito respondió las preguntas.",
+    "exampleTranslation": "The learned historian answered the questions."
+  },
+  {
+    "word": "ESCALA",
+    "translation": "scale",
+    "example": "El mapa usa una escala pequeña.",
+    "exampleTranslation": "The map uses a small scale."
+  },
+  {
+    "word": "ESCALAR",
+    "translation": "to climb",
+    "example": "Quiero escalar esa montaña.",
+    "exampleTranslation": "I want to climb that mountain."
+  },
+  {
+    "word": "ESCALÓN",
+    "translation": "step (stairs)",
+    "example": "Cuidado con el escalón.",
+    "exampleTranslation": "Watch out for the step."
+  },
+  {
+    "word": "ESCAPAR",
+    "translation": "to escape",
+    "example": "El pájaro logró escapar.",
+    "exampleTranslation": "The bird managed to escape."
+  },
+  {
+    "word": "ESCAPE",
+    "translation": "escape; getaway",
+    "example": "El escape del prisionero sorprendió al guardia.",
+    "exampleTranslation": "The prisoner's escape surprised the guard."
+  },
+  {
+    "word": "ESCASEZ",
+    "translation": "scarcity; shortage",
+    "example": "Hay escasez de agua.",
+    "exampleTranslation": "There is a water shortage."
+  },
+  {
+    "word": "ESCASO",
+    "translation": "scarce; limited",
+    "example": "El espacio es escaso.",
+    "exampleTranslation": "Space is limited."
+  },
+  {
+    "word": "ESCAÑO",
+    "translation": "seat in a legislature",
+    "example": "El partido ganó un escaño.",
+    "exampleTranslation": "The party won a legislative seat."
+  },
+  {
+    "word": "ESCENA",
+    "translation": "stage; scene",
+    "example": "La actriz salió a escena.",
+    "exampleTranslation": "The actress stepped onstage."
+  },
+  {
+    "word": "ESCLAVA",
+    "translation": "plain chain bracelet",
+    "example": "Le regalaron una esclava de plata.",
+    "exampleTranslation": "She was given a silver chain bracelet."
+  },
+  {
+    "word": "ESCLAVO",
+    "translation": "enslaved; not free",
+    "example": "El personaje esclavo busca su libertad.",
+    "exampleTranslation": "The enslaved character seeks freedom."
+  },
+  {
+    "word": "ESCOGER",
+    "translation": "to choose",
+    "example": "Puedes escoger otra fruta.",
+    "exampleTranslation": "You can choose another fruit."
+  },
+  {
+    "word": "ESCOLAR",
+    "translation": "school-related",
+    "example": "El uniforme escolar es azul.",
+    "exampleTranslation": "The school uniform is blue."
+  },
+  {
+    "word": "ESCOLTA",
+    "translation": "bodyguard; escort",
+    "example": "La escolta acompañó a la diplomática.",
+    "exampleTranslation": "The bodyguard accompanied the diplomat."
+  },
+  {
+    "word": "ESCORIA",
+    "translation": "slag (metalworking waste)",
+    "example": "Retiraron la escoria del horno.",
+    "exampleTranslation": "They removed the slag from the furnace."
+  },
+  {
+    "word": "ESCRIBA",
+    "translation": "scribe",
+    "example": "El escriba copiaba los documentos.",
+    "exampleTranslation": "The scribe copied the documents."
+  },
+  {
+    "word": "ESCRITO",
+    "translation": "written document; text",
+    "example": "Entregó un escrito al director.",
+    "exampleTranslation": "She submitted a written statement to the director."
+  },
+  {
+    "word": "ESCUCHA",
+    "translation": "listening",
+    "example": "La escucha atenta mejora la comunicación.",
+    "exampleTranslation": "Attentive listening improves communication."
+  },
+  {
+    "word": "ESCUDO",
+    "translation": "shield",
+    "example": "El escudo protegía al soldado.",
+    "exampleTranslation": "The shield protected the soldier."
+  },
+  {
+    "word": "ESENCIA",
+    "translation": "essence; fundamental nature",
+    "example": "La esencia del proyecto es cooperar.",
+    "exampleTranslation": "The essence of the project is cooperation."
+  },
+  {
+    "word": "ESFERA",
+    "translation": "sphere",
+    "example": "La esfera rueda por la mesa.",
+    "exampleTranslation": "The sphere rolls across the table."
+  },
+  {
+    "word": "ESPACIO",
+    "translation": "space",
+    "example": "Hay espacio para otra silla.",
+    "exampleTranslation": "There is room for another chair."
+  },
+  {
+    "word": "ESPADA",
+    "translation": "sword",
+    "example": "La espada está en una vitrina.",
+    "exampleTranslation": "The sword is in a display case."
+  },
+  {
+    "word": "ESPAÑOL",
+    "translation": "Spanish; from Spain",
+    "example": "Un cocinero español preparó la cena.",
+    "exampleTranslation": "A Spanish cook prepared dinner."
+  },
+  {
+    "word": "ESPECIE",
+    "translation": "species; kind",
+    "example": "Esa especie vive en el bosque.",
+    "exampleTranslation": "That species lives in the forest."
+  },
+  {
+    "word": "ESPEJO",
+    "translation": "mirror",
+    "example": "Me peiné frente al espejo.",
+    "exampleTranslation": "I combed my hair in front of the mirror."
+  },
+  {
+    "word": "ESPERA",
+    "translation": "wait; waiting",
+    "example": "La espera fue corta.",
+    "exampleTranslation": "The wait was short."
+  },
+  {
+    "word": "ESPERAR",
+    "translation": "to wait",
+    "example": "Podemos esperar aquí.",
+    "exampleTranslation": "We can wait here."
+  },
+  {
+    "word": "ESPESOR",
+    "translation": "thickness",
+    "example": "Medimos el espesor de la tabla.",
+    "exampleTranslation": "We measured the board's thickness."
+  },
+  {
+    "word": "ESPINA",
+    "translation": "thorn",
+    "example": "Una espina me pinchó el dedo.",
+    "exampleTranslation": "A thorn pricked my finger."
+  },
+  {
+    "word": "ESPIRAL",
+    "translation": "spiral",
+    "example": "La escalera espiral sube a la torre.",
+    "exampleTranslation": "The spiral staircase leads up the tower."
+  },
+  {
+    "word": "ESPONJA",
+    "translation": "sponge",
+    "example": "Limpia la mesa con una esponja.",
+    "exampleTranslation": "Clean the table with a sponge."
+  },
+  {
+    "word": "ESPOSA",
+    "translation": "wife",
+    "example": "Su esposa llegó temprano.",
+    "exampleTranslation": "His wife arrived early."
+  },
+  {
+    "word": "ESPOSO",
+    "translation": "husband",
+    "example": "Mi esposo prepara la comida.",
+    "exampleTranslation": "My husband prepares lunch."
+  },
+  {
+    "word": "ESPUMA",
+    "translation": "foam",
+    "example": "El jabón produce espuma.",
+    "exampleTranslation": "Soap produces foam."
+  },
+  {
+    "word": "ESPÍA",
+    "translation": "spy",
+    "example": "La espía consiguió la información.",
+    "exampleTranslation": "The spy obtained the information."
+  },
+  {
+    "word": "ESQUEMA",
+    "translation": "diagram; outline",
+    "example": "Hicimos un esquema del proceso.",
+    "exampleTranslation": "We drew a diagram of the process."
+  },
+  {
+    "word": "ESQUINA",
+    "translation": "corner",
+    "example": "La tienda está en la esquina.",
+    "exampleTranslation": "The shop is on the corner."
+  },
+  {
+    "word": "ESQUÍ",
+    "translation": "skiing",
+    "example": "El esquí requiere equilibrio.",
+    "exampleTranslation": "Skiing requires balance."
+  },
+  {
+    "word": "ESTABLE",
+    "translation": "stable",
+    "example": "La mesa está estable.",
+    "exampleTranslation": "The table is stable."
+  },
+  {
+    "word": "ESTADIO",
+    "translation": "stadium",
+    "example": "El estadio se llenó.",
+    "exampleTranslation": "The stadium filled up."
+  },
+  {
+    "word": "ESTADO",
+    "translation": "state; condition",
+    "example": "El edificio está en buen estado.",
+    "exampleTranslation": "The building is in good condition."
+  },
+  {
+    "word": "ESTADÍA",
+    "translation": "stay",
+    "example": "Nuestra estadía fue de tres días.",
+    "exampleTranslation": "Our stay was three days."
+  },
+  {
+    "word": "ESTAFA",
+    "translation": "fraud; scam",
+    "example": "Detectaron la estafa a tiempo.",
+    "exampleTranslation": "They detected the scam in time."
+  },
+  {
+    "word": "ESTAR",
+    "translation": "to be; to be located",
+    "example": "Quiero estar cerca de mi familia.",
+    "exampleTranslation": "I want to be near my family."
+  },
+  {
+    "word": "ESTATAL",
+    "translation": "state; government-related",
+    "example": "El museo estatal abre los domingos.",
+    "exampleTranslation": "The state museum opens on Sundays."
+  },
+  {
+    "word": "ESTATUA",
+    "translation": "statue",
+    "example": "La estatua está en la plaza.",
+    "exampleTranslation": "The statue is in the square."
+  },
+  {
+    "word": "ESTATUS",
+    "translation": "status",
+    "example": "El cargo le dio un nuevo estatus.",
+    "exampleTranslation": "The position gave her a new status."
+  },
+  {
+    "word": "ESTE",
+    "translation": "this (masculine)",
+    "example": "Este libro es mío.",
+    "exampleTranslation": "This book is mine."
+  },
+  {
+    "word": "ESTELA",
+    "translation": "wake; trail",
+    "example": "El barco dejó una estela blanca.",
+    "exampleTranslation": "The boat left a white wake."
+  },
+  {
+    "word": "ESTELAR",
+    "translation": "stellar; relating to stars",
+    "example": "El mapa estelar muestra las constelaciones.",
+    "exampleTranslation": "The star chart shows the constellations."
+  },
+  {
+    "word": "ESTERO",
+    "translation": "estuary; river mouth",
+    "example": "Las aves descansan en el estero.",
+    "exampleTranslation": "The birds rest in the estuary."
+  },
+  {
+    "word": "ESTILO",
+    "translation": "style",
+    "example": "Su estilo es sencillo.",
+    "exampleTranslation": "Her style is simple."
+  },
+  {
+    "word": "ESTIMA",
+    "translation": "esteem; regard",
+    "example": "Le tenemos mucha estima.",
+    "exampleTranslation": "We hold her in high regard."
+  },
+  {
+    "word": "ESTRENO",
+    "translation": "premiere; first use",
+    "example": "Fuimos al estreno de la película.",
+    "exampleTranslation": "We went to the film premiere."
+  },
+  {
+    "word": "ESTRÉS",
+    "translation": "stress",
+    "example": "El descanso ayuda a reducir el estrés.",
+    "exampleTranslation": "Rest helps reduce stress."
+  },
+  {
+    "word": "ESTUDIO",
+    "translation": "study; studying",
+    "example": "El estudio requiere constancia.",
+    "exampleTranslation": "Studying requires persistence."
+  },
+  {
+    "word": "ETAPA",
+    "translation": "stage; stretch of a journey",
+    "example": "La primera etapa termina en Puebla.",
+    "exampleTranslation": "The first stage ends in Puebla."
+  },
+  {
+    "word": "ETERNO",
+    "translation": "eternal",
+    "example": "El mito describe un ser eterno.",
+    "exampleTranslation": "The myth describes an eternal being."
+  },
+  {
+    "word": "ETNIA",
+    "translation": "ethnic group",
+    "example": "La exposición presenta la historia de esa etnia.",
+    "exampleTranslation": "The exhibition presents that ethnic group's history."
+  },
+  {
+    "word": "EUROPEO",
+    "translation": "European",
+    "example": "El escritor europeo visitó México.",
+    "exampleTranslation": "The European writer visited Mexico."
+  },
+  {
+    "word": "EVACUAR",
+    "translation": "to evacuate",
+    "example": "Tuvieron que evacuar el edificio.",
+    "exampleTranslation": "They had to evacuate the building."
+  },
+  {
+    "word": "EVADIR",
+    "translation": "to evade; to avoid",
+    "example": "El ciclista logró evadir el obstáculo.",
+    "exampleTranslation": "The cyclist managed to avoid the obstacle."
+  },
+  {
+    "word": "EVALUAR",
+    "translation": "to assess; to evaluate",
+    "example": "Vamos a evaluar los resultados.",
+    "exampleTranslation": "We will assess the results."
+  },
+  {
+    "word": "EVASIÓN",
+    "translation": "evasion; escape",
+    "example": "La evasión del control causó problemas.",
+    "exampleTranslation": "Evading the inspection caused problems."
+  },
+  {
+    "word": "EVENTO",
+    "translation": "event",
+    "example": "El evento empieza a las seis.",
+    "exampleTranslation": "The event starts at six."
+  },
+  {
+    "word": "EVITAR",
+    "translation": "to prevent; to avoid",
+    "example": "Debemos evitar el desperdicio.",
+    "exampleTranslation": "We must avoid waste."
+  },
+  {
+    "word": "EXACTO",
+    "translation": "exact; accurate",
+    "example": "El cálculo es exacto.",
+    "exampleTranslation": "The calculation is exact."
+  },
+  {
+    "word": "EXAMEN",
+    "translation": "examination; test",
+    "example": "El examen revisa lo aprendido.",
+    "exampleTranslation": "The test assesses what we have learned."
+  },
+  {
+    "word": "EXCEPTO",
+    "translation": "except",
+    "example": "Todos llegaron excepto Luis.",
+    "exampleTranslation": "Everyone arrived except Luis."
+  },
+  {
+    "word": "EXCESO",
+    "translation": "excess",
+    "example": "El exceso de agua dañó la planta.",
+    "exampleTranslation": "Too much water damaged the plant."
+  },
+  {
+    "word": "EXCUSA",
+    "translation": "excuse",
+    "example": "No aceptó esa excusa.",
+    "exampleTranslation": "She did not accept that excuse."
+  },
+  {
+    "word": "EXIGIR",
+    "translation": "to demand; to require",
+    "example": "Podemos exigir una explicación.",
+    "exampleTranslation": "We can demand an explanation."
+  },
+  {
+    "word": "EXILIO",
+    "translation": "exile",
+    "example": "La novela relata su exilio.",
+    "exampleTranslation": "The novel recounts her exile."
+  },
+  {
+    "word": "EXISTIR",
+    "translation": "to exist",
+    "example": "Puede existir otra solución.",
+    "exampleTranslation": "Another solution may exist."
+  },
+  {
+    "word": "EXITOSO",
+    "translation": "successful",
+    "example": "El proyecto fue exitoso.",
+    "exampleTranslation": "The project was successful."
+  },
+  {
+    "word": "EXPERTO",
+    "translation": "expert; skilled",
+    "example": "El mecánico experto encontró la falla.",
+    "exampleTranslation": "The expert mechanic found the fault."
+  },
+  {
+    "word": "EXPONER",
+    "translation": "to exhibit; to present",
+    "example": "Vamos a exponer las fotografías.",
+    "exampleTranslation": "We will exhibit the photographs."
+  },
+  {
+    "word": "EXPRESO",
+    "translation": "explicit; expressly stated",
+    "example": "Necesitas permiso expreso.",
+    "exampleTranslation": "You need explicit permission."
+  },
+  {
+    "word": "EXTENSO",
+    "translation": "extensive; long",
+    "example": "El informe es extenso.",
+    "exampleTranslation": "The report is long."
+  },
+  {
+    "word": "EXTERNO",
+    "translation": "external",
+    "example": "El muro externo necesita pintura.",
+    "exampleTranslation": "The outer wall needs paint."
+  },
+  {
+    "word": "EXTRA",
+    "translation": "background actor; extra",
+    "example": "Participó como extra en la película.",
+    "exampleTranslation": "She worked as an extra in the film."
+  },
+  {
+    "word": "EXTRAER",
+    "translation": "to extract; to take out",
+    "example": "Debemos extraer una muestra.",
+    "exampleTranslation": "We must take a sample."
+  },
+  {
+    "word": "EXTRAÑO",
+    "translation": "strange; unfamiliar",
+    "example": "Escuché un ruido extraño.",
+    "exampleTranslation": "I heard a strange noise."
+  },
+  {
+    "word": "EXTREMO",
+    "translation": "extreme; outermost",
+    "example": "El frío extremo dañó la cosecha.",
+    "exampleTranslation": "The extreme cold damaged the crop."
+  },
+  {
+    "word": "FACCIÓN",
+    "translation": "faction",
+    "example": "Una facción se separó del partido.",
+    "exampleTranslation": "A faction split from the party."
+  },
+  {
+    "word": "FACHADA",
+    "translation": "facade; front of a building",
+    "example": "Pintaron la fachada de blanco.",
+    "exampleTranslation": "They painted the facade white."
+  },
+  {
+    "word": "FACIAL",
+    "translation": "facial",
+    "example": "La crema facial es ligera.",
+    "exampleTranslation": "The face cream is light."
+  },
+  {
+    "word": "FACTOR",
+    "translation": "factor",
+    "example": "El clima es un factor importante.",
+    "exampleTranslation": "Climate is an important factor."
+  },
+  {
+    "word": "FACTURA",
+    "translation": "invoice; bill",
+    "example": "Solicité una factura de la compra.",
+    "exampleTranslation": "I requested an invoice for the purchase."
+  },
+  {
+    "word": "FALDA",
+    "translation": "skirt",
+    "example": "Su falda tiene bolsillos.",
+    "exampleTranslation": "Her skirt has pockets."
+  },
+  {
+    "word": "FALLA",
+    "translation": "fault; defect",
+    "example": "El motor tiene una falla.",
+    "exampleTranslation": "The engine has a fault."
+  },
+  {
+    "word": "FALLAR",
+    "translation": "to fail; to go wrong",
+    "example": "El motor puede fallar.",
+    "exampleTranslation": "The engine may fail."
+  },
+  {
+    "word": "FALLIDO",
+    "translation": "failed; unsuccessful",
+    "example": "El intento fallido no nos desanimó.",
+    "exampleTranslation": "The failed attempt did not discourage us."
+  },
+  {
+    "word": "FALLO",
+    "translation": "failure; error",
+    "example": "Un fallo del sistema borró los datos.",
+    "exampleTranslation": "A system failure deleted the data."
+  },
+  {
+    "word": "FALSO",
+    "translation": "false; fake",
+    "example": "El billete es falso.",
+    "exampleTranslation": "The banknote is fake."
+  },
+  {
+    "word": "FALTA",
+    "translation": "lack; shortage",
+    "example": "La falta de agua preocupa al pueblo.",
+    "exampleTranslation": "The lack of water worries the village."
+  },
+  {
+    "word": "FALTAR",
+    "translation": "to be missing; to be absent",
+    "example": "Puede faltar una pieza.",
+    "exampleTranslation": "A part may be missing."
+  },
+  {
+    "word": "FALTO",
+    "translation": "lacking; short of",
+    "example": "El relato está falto de detalles.",
+    "exampleTranslation": "The account lacks details."
+  },
+  {
+    "word": "FAMA",
+    "translation": "reputation; fame",
+    "example": "Tiene fama de ser honesto.",
+    "exampleTranslation": "He has a reputation for honesty."
+  },
+  {
+    "word": "FAMOSO",
+    "translation": "famous",
+    "example": "El cantante famoso saludó al público.",
+    "exampleTranslation": "The famous singer greeted the audience."
+  },
+  {
+    "word": "FARSA",
+    "translation": "farce; short comic play",
+    "example": "La compañía presentó una farsa.",
+    "exampleTranslation": "The company performed a farce."
+  },
+  {
+    "word": "FASE",
+    "translation": "phase; stage",
+    "example": "La primera fase está terminada.",
+    "exampleTranslation": "The first phase is complete."
+  },
+  {
+    "word": "FATAL",
+    "translation": "fatal; disastrous",
+    "example": "El error tuvo un resultado fatal.",
+    "exampleTranslation": "The mistake had a disastrous outcome."
+  },
+  {
+    "word": "FATIGA",
+    "translation": "fatigue",
+    "example": "La caminata nos causó fatiga.",
+    "exampleTranslation": "The walk left us fatigued."
+  },
+  {
+    "word": "FAUNA",
+    "translation": "wildlife; fauna",
+    "example": "La reserva protege la fauna local.",
+    "exampleTranslation": "The reserve protects local wildlife."
+  },
+  {
+    "word": "FAUSTO",
+    "translation": "auspicious; favorable",
+    "example": "El regreso fue un signo fausto.",
+    "exampleTranslation": "The return was an auspicious sign."
+  },
+  {
+    "word": "FAVOR",
+    "translation": "favor; helpful act",
+    "example": "Te pido un favor.",
+    "exampleTranslation": "I am asking you a favor."
+  },
+  {
+    "word": "FEBRERO",
+    "translation": "February",
+    "example": "Viajaremos en febrero.",
+    "exampleTranslation": "We will travel in February."
+  },
+  {
+    "word": "FECHA",
+    "translation": "date",
+    "example": "Anota la fecha en la hoja.",
+    "exampleTranslation": "Write the date on the page."
+  },
+  {
+    "word": "FEDERAL",
+    "translation": "federal",
+    "example": "La ley federal regula ese asunto.",
+    "exampleTranslation": "Federal law regulates that matter."
+  },
+  {
+    "word": "FERIA",
+    "translation": "fair",
+    "example": "Fuimos a la feria del pueblo.",
+    "exampleTranslation": "We went to the village fair."
+  },
+  {
+    "word": "FEROZ",
+    "translation": "fierce",
+    "example": "El animal feroz protegía su cría.",
+    "exampleTranslation": "The fierce animal protected its young."
+  },
+  {
+    "word": "FERRY",
+    "translation": "ferry",
+    "example": "El ferry cruzó la bahía.",
+    "exampleTranslation": "The ferry crossed the bay."
+  },
+  {
+    "word": "FESTEJO",
+    "translation": "celebration",
+    "example": "El festejo terminó temprano.",
+    "exampleTranslation": "The celebration ended early."
+  },
+  {
+    "word": "FESTIVO",
+    "translation": "festive; holiday-related",
+    "example": "El ambiente festivo llenó la plaza.",
+    "exampleTranslation": "The festive atmosphere filled the square."
+  },
+  {
+    "word": "FETO",
+    "translation": "fetus",
+    "example": "El ultrasonido permite observar al feto.",
+    "exampleTranslation": "Ultrasound makes it possible to observe the fetus."
+  },
+  {
+    "word": "FIABLE",
+    "translation": "reliable; trustworthy",
+    "example": "Es una persona fiable.",
+    "exampleTranslation": "She is a trustworthy person."
+  },
+  {
+    "word": "FIANZA",
+    "translation": "security deposit; bail",
+    "example": "Pagaron la fianza del detenido.",
+    "exampleTranslation": "They paid the detainee's bail."
+  },
+  {
+    "word": "FIBRA",
+    "translation": "fiber",
+    "example": "La tela contiene fibra natural.",
+    "exampleTranslation": "The fabric contains natural fiber."
+  },
+  {
+    "word": "FICCIÓN",
+    "translation": "fiction",
+    "example": "El cuento mezcla historia y ficción.",
+    "exampleTranslation": "The story mixes history and fiction."
+  },
+  {
+    "word": "FICHA",
+    "translation": "token",
+    "example": "Necesitas una ficha para jugar.",
+    "exampleTranslation": "You need a token to play."
+  },
+  {
+    "word": "FIEBRE",
+    "translation": "fever",
+    "example": "El niño tiene fiebre.",
+    "exampleTranslation": "The boy has a fever."
+  },
+  {
+    "word": "FIEL",
+    "translation": "faithful; loyal",
+    "example": "Es un amigo fiel.",
+    "exampleTranslation": "He is a loyal friend."
+  },
+  {
+    "word": "FIERRO",
+    "translation": "iron",
+    "example": "La reja es de fierro.",
+    "exampleTranslation": "The gate is iron."
+  },
+  {
+    "word": "FIGURA",
+    "translation": "shape; figure",
+    "example": "La nube tiene una figura curiosa.",
+    "exampleTranslation": "The cloud has an unusual shape."
+  },
+  {
+    "word": "FIJAR",
+    "translation": "to fasten; to secure",
+    "example": "Hay que fijar la tabla.",
+    "exampleTranslation": "We need to secure the board."
+  },
+  {
+    "word": "FIJO",
+    "translation": "fixed; firmly secured",
+    "example": "El poste quedó fijo.",
+    "exampleTranslation": "The post was firmly secured."
+  },
+  {
+    "word": "FILA",
+    "translation": "line; queue",
+    "example": "Nos formamos en la fila.",
+    "exampleTranslation": "We joined the line."
+  },
+  {
+    "word": "FILIAL",
+    "translation": "filial; relating to a child",
+    "example": "El cariño filial aparece en la novela.",
+    "exampleTranslation": "Filial affection appears in the novel."
+  },
+  {
+    "word": "FILM",
+    "translation": "film; movie",
+    "example": "El film ganó un premio.",
+    "exampleTranslation": "The film won an award."
+  },
+  {
+    "word": "FILMAR",
+    "translation": "to film",
+    "example": "Vamos a filmar el desfile.",
+    "exampleTranslation": "We will film the parade."
+  },
+  {
+    "word": "FILO",
+    "translation": "cutting edge",
+    "example": "El cuchillo perdió el filo.",
+    "exampleTranslation": "The knife lost its sharp edge."
+  },
+  {
+    "word": "FILTRAR",
+    "translation": "to filter",
+    "example": "Hay que filtrar el agua.",
+    "exampleTranslation": "We need to filter the water."
+  },
+  {
+    "word": "FILTRO",
+    "translation": "filter",
+    "example": "El filtro retiene las impurezas.",
+    "exampleTranslation": "The filter traps impurities."
+  },
+  {
+    "word": "FINAL",
+    "translation": "final; last",
+    "example": "La prueba final es mañana.",
+    "exampleTranslation": "The final test is tomorrow."
+  },
+  {
+    "word": "FINCA",
+    "translation": "property; estate",
+    "example": "La finca tiene árboles frutales.",
+    "exampleTranslation": "The property has fruit trees."
+  },
+  {
+    "word": "FINGIR",
+    "translation": "to pretend",
+    "example": "No quiero fingir alegría.",
+    "exampleTranslation": "I do not want to pretend to be happy."
+  },
+  {
+    "word": "FIRMA",
+    "translation": "signature; signing",
+    "example": "Necesito tu firma aquí.",
+    "exampleTranslation": "I need your signature here."
+  },
+  {
+    "word": "FIRMAR",
+    "translation": "to sign",
+    "example": "Debes firmar el formulario.",
+    "exampleTranslation": "You must sign the form."
+  },
+  {
+    "word": "FIRME",
+    "translation": "firm; steady",
+    "example": "El banco está firme.",
+    "exampleTranslation": "The bench is steady."
+  },
+  {
+    "word": "FIRMES",
+    "translation": "attention! (military command)",
+    "example": "La capitana ordenó: «¡Firmes!».",
+    "exampleTranslation": "The captain ordered, “Attention!”"
+  }
+]

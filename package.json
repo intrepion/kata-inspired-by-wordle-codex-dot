@@ -11,10 +11,13 @@
     "check": "npm run typecheck && npm test && npm run build",
     "serve": "node scripts/serve.mjs",
     "start:detached": "node scripts/detach.mjs",
-    "build:pages": "tsc --noEmit && vite build --base=/kata-inspired-by-wordle-codex-dot/ --outDir dist-pages"
+    "build:pages": "tsc --noEmit && vite build --base=/kata-inspired-by-wordle-codex-dot/ --outDir dist-pages",
+    "prepare:translation-audits": "node scripts/prepare-translation-audits.mjs",
+    "pretest": "npm run prepare:translation-audits"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
+    "nspell": "2.1.5",
     "tsx": "^4.20.0",
     "typescript": "^5.9.0",
     "vite": "^7.1.0"

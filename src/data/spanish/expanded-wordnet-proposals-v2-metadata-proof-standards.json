@@ -1,0 +1,34 @@
+{
+  "reviewer": "/root/review_standards",
+  "scope": "Metadata-only delta; no repeated or broadened semantic approval",
+  "originalPath": "/tmp/expanded-wordnet-proposals-standards.json",
+  "originalSha256": "e1cd688a862b732a1e6dd99f01f5bc092da2a43fea0bfa12dca39ecac0054dfb",
+  "revisedPath": "/tmp/expanded-wordnet-proposals-v2-standards.json",
+  "revisedSha256": "526f868e60e461efedd1afbf7c6409ed4f60958b4aac3a97f35f884efdb3e60a",
+  "changedJSONPointers": [
+    "/sourcePins/modifications"
+  ],
+  "oldValue": "Exact WordNet 3.0 noun-synset joins, independently reviewed selected English renderings, no quotations or examples.",
+  "newValue": "Exact MCR Spanish-lemma joins to Princeton WordNet 3.0 verb and adjective/satellite-adjective synsets from the pinned data.verb and data.adj files; adverb data.adv was checksum-verified and yielded no remaining baseline matches. Selected original model English lexical renderings are corroborated against exact pinned Spanish Wiktionary raw senses. No noun-only join claim, generated inflections, quotations or examples. English satellite-adjective source POS s is retained as actualWordNetPOS while its MCR synset join uses the normalized a suffix.",
+  "rowByteProof": {
+    "proposals": {
+      "byteIdentical": true,
+      "bytes": 33719,
+      "sha256": "6f37059012cf6e7d6dd37b35f267e91737858e5e2de2762f94712dee3b40a15a",
+      "rows": 25
+    },
+    "deferred": {
+      "byteIdentical": true,
+      "bytes": 40851,
+      "sha256": "08943d0b2022a76df92edd6bcb46e7e56506b242960fa91e7148b084a4ad446c",
+      "rows": 118
+    }
+  },
+  "unchangedExpandedEnglishFileHashes": {
+    "data.verb": "7fff397e93b4fb152fdaee116747cf1c40d7badedccb4b63f5503e8e962d9102",
+    "data.adj": "f24b635368be441501c9b8001e9271fd3b30b203f00d91e332979e6f8fe35646",
+    "data.adv": "e66dbbda0e0359e41b7f225bff71dd0c263dc7c66c1b61abc9ba334973d92979"
+  },
+  "originalPreserved": true,
+  "requirements": "Spec final delta approval must bind the revised proposal SHA. All25 semantic/source rows and118 deferred rows remain byte-identical; no production edits, new expansion, deletion or source download performed."
+}

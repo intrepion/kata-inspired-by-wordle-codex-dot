@@ -1,0 +1,3753 @@
+{
+  "inputSha256": "bde9b9eea0118bcb2bafdc296ed7eb59a3e3f220cef1dc175c6e7c01377388cd",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic review of all 350 roots, read sequentially in five manageable batches with every retained English meaning and Spanish semantic evidence. Each approval selects one exact zero-based English meaning index and its record hash, an original source-grounded English predicate, a supported subject profile, and a bounded imperfect/aspect reading. This is not source-membership-only approval, native-human certification, or a claim of rendered translation coverage. Rare, archaic, regional and technical senses are eligible with retained source-specific caveats. Literal nonhuman-only subjects are restricted to the safe it subset; human operators, human biological actions, human-compatible musical/figurative senses and animal/plant patients are not automatically restricted. Mandatory pronominal roots, unsupported construction changes, intervening-patient frames, first-head compound inflection risks and unreliable lexical alignments are withheld. Ordinary context-supplied trailing complements are allowed as grammatical fragments, not complete example sentences. Explicit generic patients already present in source glosses are not invented referents. No past/participle overrides are supplied; existing verified AGID sense/paradigm, source grammar and subject/aspect gates remain mandatory. No app files changed.",
+  "approved": [
+    {
+      "spanish": "ingresar",
+      "meaningIndex": 2,
+      "recordSha256": "5d797f57091dc46ac55af85917c131a76bf060e2051cfe1a34426f4755d9f0d6",
+      "frame": "enter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American going into a room or other place.",
+      "notes": "Selected English-source labels: Latin-America."
+    },
+    {
+      "spanish": "inquinar",
+      "meaningIndex": 1,
+      "recordSha256": "3f43775f0bef72c0369a68e231561b631869aa047577f984273caec0444506a0",
+      "frame": "stain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare usage; Cause dirt or a stain; transitive selected sense.",
+      "notes": ""
+    },
+    {
+      "spanish": "insidiar",
+      "meaningIndex": 0,
+      "recordSha256": "1619d8bce5654eaa0ff7119b14b3bb73e54bdfb92f46ab1a8246d163fbb30940",
+      "frame": "set a trap",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare setting of an ambush or snare.",
+      "notes": "Selected English-source labels: rare."
+    },
+    {
+      "spanish": "insurgir",
+      "meaningIndex": 0,
+      "recordSha256": "5897bb316d6053feec55533bf67c0984f72c100985d1bd037d01c5d5fa5988da",
+      "frame": "revolt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare intransitive rising in rebellion.",
+      "notes": "Selected English-source labels: intransitive, rare."
+    },
+    {
+      "spanish": "investir",
+      "meaningIndex": 0,
+      "recordSha256": "fdaa44a08380f9b8941643f4beaabbd50153700f66edebfe6aa86161e3eb59d9",
+      "frame": "invest",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Ceremonially install someone in an office; not financial investing.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "irrumpir",
+      "meaningIndex": 0,
+      "recordSha256": "4e5adc4f8a61d776b6b07090ca65dc67ef21d5c9574ac5cb364fb8fb3782b0e8",
+      "frame": "burst into",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Enter a place violently or suddenly; destination supplied by context.",
+      "notes": ""
+    },
+    {
+      "spanish": "lagrimar",
+      "meaningIndex": 0,
+      "recordSha256": "f3dd6c9df2f46e67f12022ee2e37c96a92ff72b311882c5d6545aee8575bc714",
+      "frame": "weep",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Shed tears; not the tearing/ripping English paradigm.",
+      "notes": ""
+    },
+    {
+      "spanish": "latinar",
+      "meaningIndex": 0,
+      "recordSha256": "93a7cd2d1b78efd0978e85a48eef9d71b798f10c020fe8d6edcf929e102117f4",
+      "frame": "speak Latin",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Uncommon speaking in Latin.",
+      "notes": "Selected English-source labels: intransitive, uncommon."
+    },
+    {
+      "spanish": "maliciar",
+      "meaningIndex": 0,
+      "recordSha256": "fe560e56ef6e1c4617484e28ca33c5b95d3418e0c3fb9e8b925f88634bde565d",
+      "frame": "suspect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Harbor a suspicious or malicious inference.",
+      "notes": ""
+    },
+    {
+      "spanish": "malparir",
+      "meaningIndex": 0,
+      "recordSha256": "4dc1b3bab41f4e2d5584e5cc1ff613f9a393c7bb8ab613b82e6c9881fde3b0d8",
+      "frame": "miscarry",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Pregnancy loss; human pregnancy is a literal supported reading.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "malvivir",
+      "meaningIndex": 1,
+      "recordSha256": "330619a99eeeb12d49ba762512a101553d27281fef860d65b632e4656fba24e9",
+      "frame": "scrape by",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Subsist in poor or difficult circumstances.",
+      "notes": ""
+    },
+    {
+      "spanish": "manosear",
+      "meaningIndex": 0,
+      "recordSha256": "6b071f1130f235db24b2c214bf2a2b46f54ec1699418fe76bd76983f5a46bf7f",
+      "frame": "fondle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Repeated physical handling or touching, potentially unwanted.",
+      "notes": ""
+    },
+    {
+      "spanish": "maquilar",
+      "meaningIndex": 1,
+      "recordSha256": "bc993e88c69de78a9f2d73d3e473cb7b4478897a85c4eb1c3a6f98d4ea576e85",
+      "frame": "assemble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mexican industrial usage; Industrial maquila processing or assembly of imported material for re-export.",
+      "notes": ""
+    },
+    {
+      "spanish": "mensurar",
+      "meaningIndex": 0,
+      "recordSha256": "a9948bcbfd45c68cc713efa3ed37c50b528bcbdf30fb30742f8c43ebf063d10b",
+      "frame": "measure",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Determine dimensions or quantity.",
+      "notes": ""
+    },
+    {
+      "spanish": "mentar",
+      "meaningIndex": 0,
+      "recordSha256": "de51ebeccc7cb25d10fecc2812b6f062b23606bf016d133e6d169f31e760e8b1",
+      "frame": "mention",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Name or refer to someone or something.",
+      "notes": ""
+    },
+    {
+      "spanish": "menudear",
+      "meaningIndex": 0,
+      "recordSha256": "e870648fb7b8a9a85aaf89a9b5067cbbd6a3875445110e6438a6fa9b9316179b",
+      "frame": "occur frequently",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Repeated events or occurrences, not an unrestricted human actor.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "mixturar",
+      "meaningIndex": 0,
+      "recordSha256": "9a1f12b017b12044c65f35a9dfcf3a8eec8d6acd6ac671fcfe95bc9e1dc19b25",
+      "frame": "mix",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare/obsolete transitive mixing.",
+      "notes": "Selected English-source labels: obsolete, rare, transitive."
+    },
+    {
+      "spanish": "moldurar",
+      "meaningIndex": 0,
+      "recordSha256": "91c47226402c3cbfc819304807fce27ff069ba44787a038d8f82a843dbdb58b6",
+      "frame": "mold",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Decorate with molding; not a fungus growing.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "mosquear",
+      "meaningIndex": 0,
+      "recordSha256": "98f6dabeefd4362a678ceaa0257ca3fec17f064cd6456aa2f15abe27efd087ad",
+      "frame": "bother",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Informal mildly annoying or vexing another person.",
+      "notes": "Selected English-source labels: informal."
+    },
+    {
+      "spanish": "noticiar",
+      "meaningIndex": 0,
+      "recordSha256": "694e556cff087d3be88259c7df8ccafff50d0c9d816e79e3870e77eb318240ab",
+      "frame": "notify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Inform someone of news.",
+      "notes": ""
+    },
+    {
+      "spanish": "ofrendar",
+      "meaningIndex": 0,
+      "recordSha256": "1a4d5580f4234387b3cd4b702b6aa9a8e97e6935842a34a1f623c8901e0e3a4e",
+      "frame": "sacrifice",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Present something as an offering or gift.",
+      "notes": ""
+    },
+    {
+      "spanish": "papelear",
+      "meaningIndex": 0,
+      "recordSha256": "33345612cc4c7f809e871e4866711a5ad52117c9297f1e86614aa435938e0aac",
+      "frame": "leaf through",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Browse papers; papers supplied by context.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "parcelar",
+      "meaningIndex": 0,
+      "recordSha256": "2967448143138c1c37c53643c89d5ee100a31237b8fa69470abd89e85f15f648",
+      "frame": "parcel",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Divide land into smaller plots.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "patalear",
+      "meaningIndex": 0,
+      "recordSha256": "26696689e8fca74846e38541609518b90d539b2f0b0ec9b9aba9d0b4a0cf5a0c",
+      "frame": "stomp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Stamp the feet, often in annoyance.",
+      "notes": ""
+    },
+    {
+      "spanish": "pavonear",
+      "meaningIndex": 0,
+      "recordSha256": "781a57ddb117c3cda7c4c1542f1ee0d3fd07404313e648b00181d951779f086b",
+      "frame": "strut",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Vainly display one's fine appearance or qualities; nonreflexive intransitive source supports people.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "pelechar",
+      "meaningIndex": 0,
+      "recordSha256": "2fd5c64e37313920d5bb27cff6bd21db420238922c4e508c3114780f1baacbbe",
+      "frame": "molt",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal animal shedding of feathers, hair or skin; no invented human metamorphosis.",
+      "notes": "Selected English-source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "pelotear",
+      "meaningIndex": 1,
+      "recordSha256": "140242d365229c0870d196bd2ed7b224ce6603350115b8133ea7f096d5524d29",
+      "frame": "kick a ball about",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Informal ball play, without a formal match.",
+      "notes": ""
+    },
+    {
+      "spanish": "percudir",
+      "meaningIndex": 0,
+      "recordSha256": "8e5673a0f374404be76051859a01fc2c0f26b1d14a0d4979e9803c01c673889c",
+      "frame": "dirty",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected Spanish source makes penetrating dirt or grime the agent; human causation not independently established here.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "percutir",
+      "meaningIndex": 1,
+      "recordSha256": "7eb03f7293a5118496543c33799feb60b3ecbeb38b5d41ef8ec44405d952e1c7",
+      "frame": "tap",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Medical percussion: tap a patient's chest or back; patient is human, actor clinician.",
+      "notes": ""
+    },
+    {
+      "spanish": "pergeñar",
+      "meaningIndex": 0,
+      "recordSha256": "eb944ab5551d39d2312f0c441354ddf22651e3fac9142843069f969cc2cf4e4d",
+      "frame": "sketch out",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial outlining a plan with some skill.",
+      "notes": "Selected English-source labels: colloquial."
+    },
+    {
+      "spanish": "pervivir",
+      "meaningIndex": 0,
+      "recordSha256": "09d05cfaa756fa59845b211b31f4a12531d378994e54ea27a49da06ab1046263",
+      "frame": "survive",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Continue living or existing despite adversity or age.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "precaver",
+      "meaningIndex": 0,
+      "recordSha256": "9290bf045e2574912e1e36403a6d82ace79063515ce02b9a093e3c02981ac193",
+      "frame": "prevent",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Prevent a harm, danger or risk.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "premunir",
+      "meaningIndex": 0,
+      "recordSha256": "68559c9bd6a4ea1b6c8be6b4382a0a504c8daae5357ec05dea38f91bfa54764d",
+      "frame": "supply beforehand",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American preventive provision of means or equipment.",
+      "notes": "Selected English-source labels: Latin-America, transitive."
+    },
+    {
+      "spanish": "provenir",
+      "meaningIndex": 0,
+      "recordSha256": "84190f79b15146cb77ffa9c5b376e09189177249081845dc5131f8f4b06d0381",
+      "frame": "originate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Come from a place, person or cause; human geographical origin is legitimate.",
+      "notes": ""
+    },
+    {
+      "spanish": "racanear",
+      "meaningIndex": 0,
+      "recordSha256": "6182e2febfc2c51903d2127ff9296b9e8a7546c84da8b9537d8013fd21dc18ad",
+      "frame": "skimp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial stinting or stinginess.",
+      "notes": "Selected English-source labels: colloquial."
+    },
+    {
+      "spanish": "ramonear",
+      "meaningIndex": 0,
+      "recordSha256": "86b48fb50355a33f25a973f55a2890313481c311d63a80b61d3c2eb306a61137",
+      "frame": "cut off the branches",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Human pruning of a tree, distinct from animal browsing.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "reasumir",
+      "meaningIndex": 0,
+      "recordSha256": "f9fe79f59a319ea18b8b075aa4043ef1459c558ddbc8479e46e8db36e1e5a208",
+      "frame": "reassume",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Take up an office, role or responsibility again.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "rectorar",
+      "meaningIndex": 0,
+      "recordSha256": "61214125c637bce37ab759485ee2573ab76a6568969b4cabadb5ee86568323c1",
+      "frame": "govern",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Central American governing or directing sense.",
+      "notes": "Selected English-source labels: Central-America, transitive."
+    },
+    {
+      "spanish": "redoblar",
+      "meaningIndex": 0,
+      "recordSha256": "528317af2a0e856aab5e9da0664bcafa533f4ad6cac644a185264ed7f4d593c5",
+      "frame": "redouble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Double or intensify an effort or activity.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "refugiar",
+      "meaningIndex": 0,
+      "recordSha256": "4bd67de68ac4c6729ebf8c30953c3bda79d967a527c667a7d5aef9e143ede466",
+      "frame": "shelter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Provide refuge to another person, not reflexively seek it.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "refulgir",
+      "meaningIndex": 0,
+      "recordSha256": "be57368bd2fc54b48ec0b80bf767e74e7b982e5256f7741a04e34b739e74221a",
+      "frame": "shine",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Formal brilliant light emission, often moonlight; not unsupported human figuratives.",
+      "notes": "Selected English-source labels: formal. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "refundir",
+      "meaningIndex": 1,
+      "recordSha256": "800c0215da4da6c77793ead29129e1c96f10de2863ef22adb77e1ae6c0d1e46b",
+      "frame": "rewrite",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Recast a written or creative work to improve it.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "regentar",
+      "meaningIndex": 0,
+      "recordSha256": "56f4e9eecfb56cdf32698f31aac55b97a05a32907954aacbcc8f2d4360564078",
+      "frame": "manage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Run or hold authority over an institution or activity.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "rehundir",
+      "meaningIndex": 1,
+      "recordSha256": "4bc07280cad02e3271710fae6c23392357618bc40f6f0156e93c1a2a09cee0b5",
+      "frame": "deepen",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive making something deeper.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "releer",
+      "meaningIndex": 0,
+      "recordSha256": "3fbdca0e305ec880e046611ac51898fae20ba2878d4c52cfe6d696929febd25e",
+      "frame": "read again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Read a text another time; avoids a hyphenated first-head inflection shortcut.",
+      "notes": ""
+    },
+    {
+      "spanish": "repechar",
+      "meaningIndex": 0,
+      "recordSha256": "9a1edf0cf9bcf71e27e11d72ff6285dac03351754937a9979141f94951d6f731",
+      "frame": "climb",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Go up a slope.",
+      "notes": ""
+    },
+    {
+      "spanish": "repulsar",
+      "meaningIndex": 0,
+      "recordSha256": "c1f30785ec206f6957494eb02fa3cb1389fd114a3c5d17e54ade47cc880f120a",
+      "frame": "reject",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Refuse or repel a request or thing.",
+      "notes": ""
+    },
+    {
+      "spanish": "repuntar",
+      "meaningIndex": 0,
+      "recordSha256": "874560fd1e8aefc7677b97822599be176ad210791e2cf0d18bd0ad9f3f944f77",
+      "frame": "recover",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "The supporting Spanish extract marks human illness recovery Argentina, Uruguay and Venezuela; Source explicitly permits recovering from illness or regaining a favorable position; human subjects supported.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "resarcir",
+      "meaningIndex": 1,
+      "recordSha256": "34b849d5429c942e5ae4bddfe212353a92419a0eb24d583456268e951794e95c",
+      "frame": "compensate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Repair harm through payment or remedial action.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "resecar",
+      "meaningIndex": 1,
+      "recordSha256": "83f88c959adc43487f9d6f4187324f35a4db7822fa6c1812899e1b1989a38b20",
+      "frame": "desiccate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dry thoroughly; not surgical resection.",
+      "notes": ""
+    },
+    {
+      "spanish": "resellar",
+      "meaningIndex": 0,
+      "recordSha256": "4e8987f182651412b2c8ad544f90859b6245cc28d5e6c0b040bd45a6fd665be2",
+      "frame": "reseal",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Apply a seal or stamp again.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "resfriar",
+      "meaningIndex": 0,
+      "recordSha256": "a1b5aca79033857c6b6cd48c49e7fdc91fd26c9016f9ffcf4a842b2011ef0633",
+      "frame": "cool",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Archaic/outdated usage; Transitive cooling something; not reflexive catching a cold.",
+      "notes": ""
+    },
+    {
+      "spanish": "resorber",
+      "meaningIndex": 0,
+      "recordSha256": "1b2891367bda4992aee0bfec54939941a8ef0fa9a3056d817fa1ab7535724d94",
+      "frame": "resorb",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Biological tissue or system reabsorbing material; no unsupported human-directed action.",
+      "notes": "Selected English-source labels: transitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "retardar",
+      "meaningIndex": 1,
+      "recordSha256": "dd380dea2ef0a41a3edfa63e602e811918541ec15f1d65c497b626398d4ccf86",
+      "frame": "delay",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make an event occur later than expected.",
+      "notes": ""
+    },
+    {
+      "spanish": "retundir",
+      "meaningIndex": 0,
+      "recordSha256": "e7723b52a236b2ad14022dd642a3fef1f93ef808089186887da707ec8409ff0d",
+      "frame": "even up a piece of masonry",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Masonry finishing with hammer and chisel.",
+      "notes": ""
+    },
+    {
+      "spanish": "revistar",
+      "meaningIndex": 0,
+      "recordSha256": "18a2ae1a61bf84c312680e494027995a5070d2fb883fbbe77fbbf4c5bf6d90e2",
+      "frame": "review",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Inspect or look over.",
+      "notes": ""
+    },
+    {
+      "spanish": "revolar",
+      "meaningIndex": 0,
+      "recordSha256": "445988c28c80833f7305273e756a2f59c313db24efd585a89d64d0367b37d18c",
+      "frame": "fly again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fly another time; human aviation/crew use is permitted by the unqualified sense.",
+      "notes": ""
+    },
+    {
+      "spanish": "rezurcir",
+      "meaningIndex": 0,
+      "recordSha256": "3a87fb22e8b753f3c5aca4a03c95dfbfd15fe0a6eda39e40336efca8bf4f468b",
+      "frame": "darn again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Repair cloth by stitching another time.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "salariar",
+      "meaningIndex": 0,
+      "recordSha256": "00800450adcbe55a2278aed4549a0f6c0c16c082fc3716b5331b98e5c6256040",
+      "frame": "salary",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Uncommon paying or employing on a salary.",
+      "notes": "Selected English-source labels: transitive, uncommon."
+    },
+    {
+      "spanish": "silabear",
+      "meaningIndex": 0,
+      "recordSha256": "0d7958d007cb4abd36ab81f8d262ad1980d04677d014dd718afcad98d591066b",
+      "frame": "syllabify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Separate syllables in speech or writing.",
+      "notes": "Selected English-source labels: intransitive, transitive."
+    },
+    {
+      "spanish": "subsumir",
+      "meaningIndex": 0,
+      "recordSha256": "86ba3cd8788c7d2f204487d623fb90cb1ee8dbdd20c6c244b6e1d9f114acbb05",
+      "frame": "subsume",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Include a case or item under a broader set or principle.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "subvenir",
+      "meaningIndex": 0,
+      "recordSha256": "1f076fa5ff567cb713fc638ec09d56a2a1bc3289811d697416e6f3dc4c4ba332",
+      "frame": "provide for",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Meet another's needs; beneficiary supplied by context.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "subyacer",
+      "meaningIndex": 0,
+      "recordSha256": "b44f5fd23d77812ab7e0a773fb346c8c0b8f5066b15a753392c8467332f70dd8",
+      "frame": "underlie",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "A thing lies beneath or provides an underlying basis; human role not independently established.",
+      "notes": "Selected English-source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "suicidar",
+      "meaningIndex": 1,
+      "recordSha256": "679daa9ef4967e540e9bc118c88828c89ae8d937ad4c41259926d917c8f800f8",
+      "frame": "kill",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial joking transitive use, not dropping the clitic from commit suicide.",
+      "notes": "Selected English-source labels: colloquial, transitive."
+    },
+    {
+      "spanish": "sulfatar",
+      "meaningIndex": 0,
+      "recordSha256": "943dab7fb02dadea50cbdaca0a145e369a0bedde29cc1330c44fd192d674b21e",
+      "frame": "sulfate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Treat with or convert to a sulfate.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "sulfurar",
+      "meaningIndex": 0,
+      "recordSha256": "b1964c2834151f5eb9d9af279f486b284850140ba6846a308b2c7242fd434d1c",
+      "frame": "sulphurate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Add sulfur to a substance or body.",
+      "notes": ""
+    },
+    {
+      "spanish": "taconear",
+      "meaningIndex": 0,
+      "recordSha256": "8adbe06c2d80317294504b4ae3b24c0f4f291a88cecf69d56df63fd9cc3417a1",
+      "frame": "tap",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Tap or clack shoe heels, including rhythmic dancing.",
+      "notes": ""
+    },
+    {
+      "spanish": "taracear",
+      "meaningIndex": 0,
+      "recordSha256": "e36c428d3da78f493461bfd4f3321f64b8ead6fa345ab3b86fe120b500a4a775",
+      "frame": "inlay",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Decorative wood marquetry or inlay.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "temperar",
+      "meaningIndex": 0,
+      "recordSha256": "ddbab7fec5f42beff8c7f658340cd65a802af06249b58483610e00faaac06eb6",
+      "frame": "temper",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Moderate or control something; not a metallurgical sense assumed from the English word.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "tinturar",
+      "meaningIndex": 0,
+      "recordSha256": "445a3c392247d523063a15f8e338271ea805678e1d059c95d1d667693f3cc6da",
+      "frame": "dye",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Uncommon applying a dye.",
+      "notes": "Selected English-source labels: transitive, uncommon."
+    },
+    {
+      "spanish": "tonsurar",
+      "meaningIndex": 0,
+      "recordSha256": "b1b45244ee03998af43f39c6d41968d78fbedd61e4377480c57cb9fd57ba7568",
+      "frame": "tonsure",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cut hair in a clerical tonsure or confer the associated status.",
+      "notes": ""
+    },
+    {
+      "spanish": "trampear",
+      "meaningIndex": 0,
+      "recordSha256": "9aba3b3499dd146b29090378d4fdbadb55838af76cc3c7fdfc6f3e3a1655fd67",
+      "frame": "trick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial usage; Deceive another person.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "trastear",
+      "meaningIndex": 0,
+      "recordSha256": "051f7643efe023b5387ea5ea8a5ba109abef91309aade483bd4d6e8238b0e61d",
+      "frame": "move things around",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Move household objects about, often disorganizing them.",
+      "notes": ""
+    },
+    {
+      "spanish": "trebejar",
+      "meaningIndex": 0,
+      "recordSha256": "1d1e698c11d7f76da84ed2748fdebc4728f66c7692f8f8041b41b7a1c8a9ee68",
+      "frame": "romp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Play or run about energetically; human children are supported, not only animals.",
+      "notes": ""
+    },
+    {
+      "spanish": "tributar",
+      "meaningIndex": 1,
+      "recordSha256": "bbd2e62e811b5cbaa70e0ddd0b0aeb2c8a3332e8a0547b0f04527e6f9b3321a4",
+      "frame": "pay a tax",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Pay tribute or tax to an authority.",
+      "notes": ""
+    },
+    {
+      "spanish": "tronchar",
+      "meaningIndex": 0,
+      "recordSha256": "cca4d1c10571428440436d6c37aed4bc3a7498824356927307f2c6a87f7bd880",
+      "frame": "snap off",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive breaking of a plant stem, branch or similar object.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "ultrajar",
+      "meaningIndex": 0,
+      "recordSha256": "24caab8bbfcb82cceb501f9173783d58e01d93d4ca2198175d580a8d015d8a82",
+      "frame": "insult",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outrage or injure someone verbally or through disrespectful treatment.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "vapulear",
+      "meaningIndex": 1,
+      "recordSha256": "8596a70f4dcc94aab92cd7ff4f946d6d2ac937a274abbb92881bec65966cedec",
+      "frame": "beat up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Strike someone repeatedly.",
+      "notes": ""
+    },
+    {
+      "spanish": "veranear",
+      "meaningIndex": 0,
+      "recordSha256": "fa01c49da062724f73043b71fb160a031f20f9de776d0f32091b9f643108f057",
+      "frame": "summer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Spend the summer away from one's usual home.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "volcar",
+      "meaningIndex": 0,
+      "recordSha256": "9e03c2f43700912c4ee32b76bab929cee585ad441b814b9b8c5e05c598a7c5f3",
+      "frame": "tip over",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive causing a container or object to overturn.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "zapatear",
+      "meaningIndex": 1,
+      "recordSha256": "b4e62698abc97777e1dee372821e9079af75c4419c9f86a9b31c04555299ddb3",
+      "frame": "stomp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Stamp with the feet.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "zozobrar",
+      "meaningIndex": 2,
+      "recordSha256": "419b9d486a4901008265ef401b03ef63202dc8560742d134f2dec6d31e24bb91",
+      "frame": "worry",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Explicit person-subject anxious uncertainty, separate from vessels sinking.",
+      "notes": "Selected English-source labels: intransitive. Selected English-source qualifier: of a person."
+    },
+    {
+      "spanish": "abotagar",
+      "meaningIndex": 0,
+      "recordSha256": "18d3e552d4370dd4d6237cc73c73fe9f2ab58bcd580812047068d93f8d252bf9",
+      "frame": "dull",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive blunting or dulling; not pronominal swelling.",
+      "notes": "Selected English-source labels: intransitive, transitive."
+    },
+    {
+      "spanish": "abroncar",
+      "meaningIndex": 1,
+      "recordSha256": "de7ae76ce7b1dd7b86c152583f6d497dbd4fa4e363d9a7c12b19926a0f8e3dea",
+      "frame": "reprimand",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Scold someone harshly for wrongdoing.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "agringar",
+      "meaningIndex": 0,
+      "recordSha256": "336999750a1758e2cb277171290311f01dc21a5a4edae25a941224331d7032da",
+      "frame": "Americanize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American transitive assimilation into Anglo-American culture; not the reflexive becoming construction.",
+      "notes": "Selected English-source labels: Latin-America, transitive."
+    },
+    {
+      "spanish": "alcorzar",
+      "meaningIndex": 1,
+      "recordSha256": "19f12c2b6745922e8e16a6e9dc26ac109786483d7f7c7929879ebc06dea55c30",
+      "frame": "polish",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete/dating usage; Dated polishing or adorning sense.",
+      "notes": "Selected English-source labels: dated."
+    },
+    {
+      "spanish": "almagrar",
+      "meaningIndex": 0,
+      "recordSha256": "36a75cdd33b298f2a710fa1267ea82161afa8e00253e8b4acbea56c04ea4efdb",
+      "frame": "raddle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mark or color with red ochre.",
+      "notes": ""
+    },
+    {
+      "spanish": "aneblar",
+      "meaningIndex": 1,
+      "recordSha256": "20b74dbb4ec07d139d3b77d70d1e204e8351b2b6b2f2543ed37b38ab88d87a2c",
+      "frame": "darken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dated transitive clouding or dimming; source supports a causer acting on something.",
+      "notes": "Selected English-source labels: dated, reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "arrechar",
+      "meaningIndex": 0,
+      "recordSha256": "f47e039a90c0c2b095e793459a41524c566dd60b01012c48be1acf72eed320cd",
+      "frame": "annoy",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Costa Rican, Salvadoran and Nicaraguan transitive irritation.",
+      "notes": "Selected English-source labels: Costa-Rica, El-Salvador, Nicaragua, transitive."
+    },
+    {
+      "spanish": "arriscar",
+      "meaningIndex": 0,
+      "recordSha256": "edf082913210cec91de33c6ba7c49f5e0c423996bb80cb5d213cef3426eb6874",
+      "frame": "risk",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete risk sense; Put something at risk.",
+      "notes": ""
+    },
+    {
+      "spanish": "atarugar",
+      "meaningIndex": 1,
+      "recordSha256": "331d31e23082bd969acc28a61893726a2428db9b366ed36a93ec8d5b055c31e0",
+      "frame": "block up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Plug drains or holes with stoppers.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "atrincar",
+      "meaningIndex": 0,
+      "recordSha256": "6f0a7e3fa30447b494ea60df21d07c90194f4c2d6ae067501fae00ccdc068245",
+      "frame": "tie",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American binding tightly with rope.",
+      "notes": "Selected English-source labels: Latin-America, transitive."
+    },
+    {
+      "spanish": "baladrar",
+      "meaningIndex": 0,
+      "recordSha256": "662131a784924449fbba3954fdebab78afed356e6b28fedbe00e0d66dc0c790d",
+      "frame": "scream",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literary loud shouting.",
+      "notes": "Selected English-source labels: intransitive, literary."
+    },
+    {
+      "spanish": "barrenar",
+      "meaningIndex": 0,
+      "recordSha256": "9d6531f4042882d0fa56fa3eac97aa6106e9942977629b07a768ddd250e32f66",
+      "frame": "bore holes",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Drill material with a boring tool; human operator supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "carcomer",
+      "meaningIndex": 0,
+      "recordSha256": "7098350a443169ce02ee9fb05bad9a75fafb63ee2f24db6125c60ecedbd58eab",
+      "frame": "eat away",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal gradual consumption or corrosion; no unrestricted human metaphor assumed from the figurative tag.",
+      "notes": "Selected English-source labels: also, figuratively, transitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "chorizar",
+      "meaningIndex": 0,
+      "recordSha256": "d82534be8bfcbf2206223f9588c53795a23236841c0c05f13945e876d1089f23",
+      "frame": "nick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Spanish colloquial usage; Informal steal; not make a small cut.",
+      "notes": "Selected English-source labels: informal."
+    },
+    {
+      "spanish": "cimentar",
+      "meaningIndex": 0,
+      "recordSha256": "a76375d18afb06fd001a9c7a462288ae3def0bf2239befb3b022e2d197f04fd8",
+      "frame": "lay the foundations of",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Establish physical or conceptual foundations; object supplied by context.",
+      "notes": ""
+    },
+    {
+      "spanish": "comiscar",
+      "meaningIndex": 0,
+      "recordSha256": "12b43f1d279793334a848da54cec4476de31c0d32b1736412fba11564a492c41",
+      "frame": "nibble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Eat small amounts repeatedly.",
+      "notes": ""
+    },
+    {
+      "spanish": "competer",
+      "meaningIndex": 0,
+      "recordSha256": "26035d6d66e5097ff3a2dda732991ccd61fd3cf507e7e2cd4828f76a80202016",
+      "frame": "correspond to",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "An obligation or matter falls within someone's responsibility; not the obsolete compete sense.",
+      "notes": "Selected English-source labels: intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "comulgar",
+      "meaningIndex": 0,
+      "recordSha256": "14a74d1f5dcebe96d3708089dfde43068cb12d875e1a45435e7c6683ca282187",
+      "frame": "receive communion",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Receive the Christian sacrament.",
+      "notes": ""
+    },
+    {
+      "spanish": "corcovar",
+      "meaningIndex": 0,
+      "recordSha256": "394e15862e4453851a48d0ff4659f0e04005927621cc2b82510169e9390ee434",
+      "frame": "bend",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive make curved or hunchbacked.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "deificar",
+      "meaningIndex": 0,
+      "recordSha256": "1d3a64642e1ed3a6b8eeaaa224c0932358418860a207ccde7031f48efe4c18ee",
+      "frame": "deify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make into a god or praise excessively.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "deprecar",
+      "meaningIndex": 0,
+      "recordSha256": "e6222973d87099ba49193c04135b41ec0885335c0fa6bbc80c16555de264fae0",
+      "frame": "implore",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Plead earnestly.",
+      "notes": ""
+    },
+    {
+      "spanish": "desbocar",
+      "meaningIndex": 0,
+      "recordSha256": "81cb6171ef9961a099d12a5ed5c193ba1783f0a8b256cebb3f059a401d080ae0",
+      "frame": "become baggy",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A garment opening stretches or loosens; no human loss-of-control sense inferred.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "desfogar",
+      "meaningIndex": 1,
+      "recordSha256": "ade7d20c1f9b571e0daaf85c0ef33d31ddc923414c4beed46a8ac98cbeb0880d",
+      "frame": "let off steam",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "The supporting Spanish extract marks emotional release Spain; Colloquial release of accumulated emotion.",
+      "notes": "Selected English-source labels: colloquial."
+    },
+    {
+      "spanish": "desnucar",
+      "meaningIndex": 0,
+      "recordSha256": "f6624a4ad4aafe3012794f4e1ad63cd137618c8ca8f00a3900e792a853fc02d5",
+      "frame": "break someone's neck",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause a neck injury; source-given someone is an indefinite patient.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "destocar",
+      "meaningIndex": 0,
+      "recordSha256": "a3eb687c74316a49dd3e5fc3290865a53d1319aac07c3c1f50cfaf107ed3ff06",
+      "frame": "remove the hat of",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Uncover another person's head; patient supplied by context.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "embustir",
+      "meaningIndex": 0,
+      "recordSha256": "e469e57b7629d20dcd7bcc671e022b0c6566589bbe6d8b21beaccf36827e15e9",
+      "frame": "fib",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare telling of fabricated falsehoods.",
+      "notes": "Selected English-source labels: intransitive, rare."
+    },
+    {
+      "spanish": "enchular",
+      "meaningIndex": 1,
+      "recordSha256": "fff5576048b02f8e7d0a78f91792b10552ff4018babdae29b1d3d94361acd04a",
+      "frame": "beautify",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Chilean colloquial usage; Improve an exterior's appearance, possibly with gaudy taste; not the separate pronominal sexual senses.",
+      "notes": ""
+    },
+    {
+      "spanish": "encintar",
+      "meaningIndex": 0,
+      "recordSha256": "42f11f21108661f896f23dbbfb93823d85285844e4651d69d7210b6f2e7c0a14",
+      "frame": "bedeck with ribbons",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Adorn using ribbons; adorned object supplied by context.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "endilgar",
+      "meaningIndex": 0,
+      "recordSha256": "4948644494118daebcc1c2a71f399ac16fbbfc17f57eeabf798277653f1264f0",
+      "frame": "pass the buck",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial shift an unpleasant responsibility onto another.",
+      "notes": "Selected English-source labels: colloquial, transitive."
+    },
+    {
+      "spanish": "enfangar",
+      "meaningIndex": 0,
+      "recordSha256": "c4ebf5a50a2f141f98615ff44b28cfa9749243e8bf2e7522c6d4249cb1d622e1",
+      "frame": "cover with mud",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Apply mud to something; patient supplied by context.",
+      "notes": ""
+    },
+    {
+      "spanish": "enflacar",
+      "meaningIndex": 0,
+      "recordSha256": "a5fc36c695445cae6a77da93fb75578e926c27753c39896ab3cd13db993797be",
+      "frame": "lose weight",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Become thinner; selected intransitive reading is supported by the source gloss.",
+      "notes": ""
+    },
+    {
+      "spanish": "enfoscar",
+      "meaningIndex": 0,
+      "recordSha256": "a00d078def49fae98be403a6103968ab0a2be8e4a683af8eba547e6b5e6db15c",
+      "frame": "mortar",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fill or coat masonry with mortar.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "engalgar",
+      "meaningIndex": 1,
+      "recordSha256": "eff62a55e36c986f2ef954ad935d6807bea33f87a2b69f28840216ad87375b00",
+      "frame": "chock",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Secure with a chock or wedge; not silently inventing a greyhound recipient.",
+      "notes": ""
+    },
+    {
+      "spanish": "enjuncar",
+      "meaningIndex": 0,
+      "recordSha256": "37e508b55f754e2bb212b89e4f91ba73e4dd4336903dc945db3fd14aec8f3e8d",
+      "frame": "put in stops",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Nautical securing or stopping with cord/yarn; stops are nautical ties, not punctuation or travel stops.",
+      "notes": ""
+    },
+    {
+      "spanish": "envergar",
+      "meaningIndex": 0,
+      "recordSha256": "fd5ad9a0d2fef6f035c1a414ed60685623fad4c0017fdb96580d99419bdbc7d5",
+      "frame": "attach a sail to the yardarm",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Nautical fastening of sail to spar using its attachments.",
+      "notes": ""
+    },
+    {
+      "spanish": "enviscar",
+      "meaningIndex": 0,
+      "recordSha256": "17516e74a6dd3f00c28d6c5fbd4368f50f21cf86843bfb6d1b1f379827659ca5",
+      "frame": "enrage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make another furious.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "escandir",
+      "meaningIndex": 0,
+      "recordSha256": "ca78b9fdf155b74bc195ed2a019f6d293be4032c2b5a76bde3f8503a5c2541b0",
+      "frame": "scan",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Analyze poetic meter, not digital scanning.",
+      "notes": ""
+    },
+    {
+      "spanish": "escarpar",
+      "meaningIndex": 0,
+      "recordSha256": "5f38630b29ce68ae9ea1d5e53325d1c47baccbeb8a1a0f043735f4e196a2a02b",
+      "frame": "escarp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cut terrain into a steep slope or defensive scarp.",
+      "notes": ""
+    },
+    {
+      "spanish": "espulgar",
+      "meaningIndex": 0,
+      "recordSha256": "759482588dace1a42371073ffefc3669504f44c0e2428050dddaa1ba89c76839",
+      "frame": "delouse",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Remove lice or fleas from another person or animal.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "esquifar",
+      "meaningIndex": 0,
+      "recordSha256": "440b2739aff614d00157b9a5be613043d212f39aabdb1d341cb994bc484d823d",
+      "frame": "provision",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Equip a vessel or undertaking with supplies.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "estregar",
+      "meaningIndex": 0,
+      "recordSha256": "7b90c0e4d46892c6b892aa84ea466630443a6fd15be38c34bb08ca2d4d3e34bc",
+      "frame": "scrub",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rub repeatedly to clean or polish.",
+      "notes": ""
+    },
+    {
+      "spanish": "extremar",
+      "meaningIndex": 1,
+      "recordSha256": "e0f86cab84cfa72be0597c276126324f0c3e1c7c198152224a16ec9a7191b4b4",
+      "frame": "maximize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive carry an effort or measure to its extreme.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "guinchar",
+      "meaningIndex": 0,
+      "recordSha256": "4a8268d377abb231178ea7ac19aca859ad8d715d41a537dbbfbd56e46aeefd02",
+      "frame": "prick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Pierce with a point.",
+      "notes": ""
+    },
+    {
+      "spanish": "honestar",
+      "meaningIndex": 0,
+      "recordSha256": "6660c5e7296443b8858b30ae24a7f541a6afe75b2bb8f4de5077a635409477a7",
+      "frame": "honour",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected honoring/respecting sense; not the separate making-appear-honest construction.",
+      "notes": ""
+    },
+    {
+      "spanish": "hostigar",
+      "meaningIndex": 1,
+      "recordSha256": "4155dde78c40b9fa91c834d7e9a5d171df3ae3620cf8bbfeb13d84c1d9da157f",
+      "frame": "harass",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Persistently pursue or bother someone.",
+      "notes": ""
+    },
+    {
+      "spanish": "imbricar",
+      "meaningIndex": 0,
+      "recordSha256": "98034996e9632be4724bd5be77244cfd6823e8561c6be8c2968cc1322e521a89",
+      "frame": "imbricate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Arrange overlapping layers or link things together.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "imprecar",
+      "meaningIndex": 0,
+      "recordSha256": "30c9e6a88fabae7d1bfe30b1bc0707da70823c5a18e7708d7797ea6ac28dbb6c",
+      "frame": "curse",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Utter a wish that someone suffer harm.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "infuscar",
+      "meaningIndex": 0,
+      "recordSha256": "8b7d31d129ac83f5af6c209f881c7c2a92355cb5d1784ba26ba11e191a29c719",
+      "frame": "infuscate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Uncommon darkening or obscuring.",
+      "notes": "Selected English-source labels: uncommon."
+    },
+    {
+      "spanish": "inhumar",
+      "meaningIndex": 0,
+      "recordSha256": "4293f679af704ff1b058158fe57db2dc8592f6654fa66196a2454e156a9aa3d7",
+      "frame": "inter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Bury a deceased person.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "libertar",
+      "meaningIndex": 0,
+      "recordSha256": "dacaa0bc7644cf3e76b80cd22dcb7cb548644b8f59d498771c5d86ac9c44a9db",
+      "frame": "liberate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Free another from captivity or subjection.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "maquetar",
+      "meaningIndex": 0,
+      "recordSha256": "92a1cffcfca5857e18252d623115ec66442cbb1f860130f21f8a3bbc204eaa79",
+      "frame": "lay out",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Design a document's page appearance.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "mestizar",
+      "meaningIndex": 0,
+      "recordSha256": "6cbc9cc1ab92e6b76b26006ed31b394464db7c68731f83a9bcc204e2a6afbd9c",
+      "frame": "crossbreed",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive breeding of distinct stocks; human breeder supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "orificar",
+      "meaningIndex": 0,
+      "recordSha256": "bf2a8391cc8da722b0a27de889d22165f308dae1d269571d9eba1c0badabef3c",
+      "frame": "fill a tooth with gold",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dental gold restoration.",
+      "notes": ""
+    },
+    {
+      "spanish": "peorar",
+      "meaningIndex": 0,
+      "recordSha256": "cf77d0c94aafa0eab8a0b4b66ecd35226ffad21f8ffcfedf4ec7244cfe3e9b62",
+      "frame": "worsen",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete become worse; a person's condition can worsen literally.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "peraltar",
+      "meaningIndex": 0,
+      "recordSha256": "20007ede45361711a2f3682b0ca2f8e760e35e4a8eb31c41d8abad5738bfd30e",
+      "frame": "bank",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Build a road curve with a banked cross-slope; not bank money.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "perdigar",
+      "meaningIndex": 1,
+      "recordSha256": "b4e53bcb32ff741c9be35773494554ca7bd04c36995fc11db8de52838a9a9227",
+      "frame": "roast lightly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Partially roast meat or poultry to help preserve it; correct source misspelling lighty.",
+      "notes": ""
+    },
+    {
+      "spanish": "perjurar",
+      "meaningIndex": 2,
+      "recordSha256": "085e1a80baad52b2a506c95b37249cec016ba099b912b661b4f5d476e2e52dc3",
+      "frame": "swear again and again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Repeated solemn assurances, not merely use obscene words.",
+      "notes": ""
+    },
+    {
+      "spanish": "platinar",
+      "meaningIndex": 0,
+      "recordSha256": "6476f1238a0425f5c38d7c2340c0e8be0a4147260ffdff9f3182ea72d818a299",
+      "frame": "platinize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Coat something with platinum.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "prodigar",
+      "meaningIndex": 0,
+      "recordSha256": "530872fd2c651d25e0b36e3901995bee1b62250c3b771425d1685ef3563974a3",
+      "frame": "squander",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Spend or waste lavishly.",
+      "notes": ""
+    },
+    {
+      "spanish": "propinar",
+      "meaningIndex": 1,
+      "recordSha256": "c63e9eb72faa77068da1ed85b0dadac1aae917cb5d8ae41cb53483c913b0e956",
+      "frame": "administer medication",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Give or prescribe medicine.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "rebuscar",
+      "meaningIndex": 0,
+      "recordSha256": "121b239f517eb8449ecdd4084288b827d38e6aea4953304c6c668106abb6ddce",
+      "frame": "rummage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Search thoroughly and persistently.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "reeducar",
+      "meaningIndex": 0,
+      "recordSha256": "893b41841607467d430e9220c4435c9f96dc651d0c77763b0b1457db17bb21fb",
+      "frame": "educate again",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Re-education or social reintegration; can have coercive/brainwashing connotations in the retained Spanish source.",
+      "notes": ""
+    },
+    {
+      "spanish": "remangar",
+      "meaningIndex": 0,
+      "recordSha256": "56e1e87095ed9510883cc8370c3d8b17dbe464b2cb1282ee3f267201a0f5b3d5",
+      "frame": "roll up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Roll up clothing, especially sleeves; not a subject-bound figurative reflexive construction.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "remarcar",
+      "meaningIndex": 1,
+      "recordSha256": "2e252bd14c064e4439cc0d49268de93a91520ad8a63478e46273a4704946637d",
+      "frame": "emphasise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Stress or highlight something.",
+      "notes": ""
+    },
+    {
+      "spanish": "remontar",
+      "meaningIndex": 1,
+      "recordSha256": "5a151600b89d46e8aaeb7785072984d79b4a2030443f86e4699a85010d070d81",
+      "frame": "overcome",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Surmount an obstacle or adverse score.",
+      "notes": ""
+    },
+    {
+      "spanish": "remusgar",
+      "meaningIndex": 0,
+      "recordSha256": "e2d8d8140e76006c7f595c5b2a2bd0c95b7518ec6bed10d1ca57e1064a19ec8d",
+      "frame": "suspect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Have suspicions.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "renegar",
+      "meaningIndex": 1,
+      "recordSha256": "f75515ff801d3a17c9b70cb09bf13d03070f310ff8583577c6365c4d669000c0",
+      "frame": "renounce",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Vigorously reject or deny a position or belief.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "repletar",
+      "meaningIndex": 0,
+      "recordSha256": "6996f4c2bf9c4433e023dbd370d0e03edc5da9b970adad95d3f6466babc5f20e",
+      "frame": "fill up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive fill completely; no reflexive substitution.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "retrucar",
+      "meaningIndex": 0,
+      "recordSha256": "59e796383ea70cc3049a5caf2f0747bc945998190070a4ec9a76903ca994dc73",
+      "frame": "retort",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial usage; Answer with a pointed counterargument.",
+      "notes": ""
+    },
+    {
+      "spanish": "revestir",
+      "meaningIndex": 0,
+      "recordSha256": "6a105e776962093bd67644af6dfae84412671a54a66f7c3017890c2ab7b19441",
+      "frame": "decorate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cover or dress an object with an outer layer or adornment.",
+      "notes": ""
+    },
+    {
+      "spanish": "romanzar",
+      "meaningIndex": 0,
+      "recordSha256": "b5c106073455943fae432dd9ca5c218218bb51f79b411dfa88ba6441f50fe72d",
+      "frame": "translate into a Romance language",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Render a text into Romance; translated object supplied by context.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "rubricar",
+      "meaningIndex": 1,
+      "recordSha256": "f577b728871d24ef2d3dcff7fe5c8d6af583a820a2a78362787860262f3847b0",
+      "frame": "initial",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mark or authenticate with a signature flourish or initials.",
+      "notes": ""
+    },
+    {
+      "spanish": "rusticar",
+      "meaningIndex": 0,
+      "recordSha256": "3882fb8ea534f8a76d80ecc05c4c601e2b456458c1d3178aea78f0e10fc52398",
+      "frame": "rusticate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Spend time away in the countryside; not expel a student.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "segundar",
+      "meaningIndex": 0,
+      "recordSha256": "1b89944b020d1c3e849c5b6ff005c531d6f9ad3d642b7d264fc226899d8e8de6",
+      "frame": "repeat an action",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Do again an act just performed.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "sincerar",
+      "meaningIndex": 0,
+      "recordSha256": "a941896a667ba9f024a4b980c5e1b4394aa640086e019c3c2f7515104e9fdba5",
+      "frame": "exculpate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Clear another from blame.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "sindicar",
+      "meaningIndex": 0,
+      "recordSha256": "daa4b8067750df7650cfdd0cfac2a137ad2e41b9e0e83c25cf0f8bdc831a4a73",
+      "frame": "unionise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive organizing workers into a union.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "socarrar",
+      "meaningIndex": 0,
+      "recordSha256": "c3c8be25e162be1623ec5a18ca7627a861e65565c6161fd6de1e39c9e2158b71",
+      "frame": "singe",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Burn the surface slightly.",
+      "notes": ""
+    },
+    {
+      "spanish": "sojuzgar",
+      "meaningIndex": 0,
+      "recordSha256": "7a3b186651adff363366a8dd40bef02e0652161034055b224a38824d755effbe",
+      "frame": "subjugate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dominate through violence.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "subrogar",
+      "meaningIndex": 0,
+      "recordSha256": "5bd2a415ce261fc1a88bc285c61d9d727d97da647ce25a167d993aac7013fb66",
+      "frame": "subrogate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Substitute a person or thing for another, especially legally.",
+      "notes": ""
+    },
+    {
+      "spanish": "subyugar",
+      "meaningIndex": 1,
+      "recordSha256": "4593063bb88675bb2b26f6372b0987edd1c0bdcd90906f5adf04a9dd3245354e",
+      "frame": "subjugate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Force another into obedience.",
+      "notes": ""
+    },
+    {
+      "spanish": "templar",
+      "meaningIndex": 5,
+      "recordSha256": "44256b0aa2a4d4a982e846d00eac8ddf0ff2c111cc20b01dad6bc7e633f30b32",
+      "frame": "tune",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Tune a musical instrument.",
+      "notes": ""
+    },
+    {
+      "spanish": "traficar",
+      "meaningIndex": 0,
+      "recordSha256": "e3bac459a42df5c63b71312b7dadda9397a2663cb5e793909f91dc210a13a35b",
+      "frame": "smuggle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American illicit trade or transport.",
+      "notes": "Selected English-source labels: Latin-America."
+    },
+    {
+      "spanish": "trancar",
+      "meaningIndex": 0,
+      "recordSha256": "936c3d2fca9d321e68d045a1b6f712f643554df8ad5e915264435f9e1061ae2a",
+      "frame": "bolt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fasten a door or window with a bar or bolt.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "trisecar",
+      "meaningIndex": 0,
+      "recordSha256": "480b474fe2633c71d8e10b3450586cc5b39c7c8af3441fed7122fd1ae2673ab4",
+      "frame": "trisect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Divide into three parts.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "vindicar",
+      "meaningIndex": 0,
+      "recordSha256": "da62021b1673c90e60b37df66147cb1373340b8d6f34bd45168f6d5357495a78",
+      "frame": "vindicate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Defend someone against unjust accusation or recover a just claim.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "abuñolar",
+      "meaningIndex": 0,
+      "recordSha256": "b35ccee0c211245978066fd98f43ed692ba439aa6aa8d1abc42f72b66d01ec07",
+      "frame": "brown",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fry eggs until round, puffed and browned; eggs are patients, human cook supported.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "afligir",
+      "meaningIndex": 0,
+      "recordSha256": "016b70ba300d21fa4d73cf44a13b03d3a41a85b85b0633e365c6bbf2bcfcaad6",
+      "frame": "afflict",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause physical or emotional suffering in another.",
+      "notes": ""
+    },
+    {
+      "spanish": "agredir",
+      "meaningIndex": 0,
+      "recordSha256": "13a5ff2ee4a9fc6bc2caf5dfe07b33378fe19573345cb30b9236bba325de629b",
+      "frame": "aggress",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Attack or exercise violence against another; selected transitive sense.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "amuelar",
+      "meaningIndex": 0,
+      "recordSha256": "decefed36e61fca5d862b217f5f9d570c946ed601873de26dddf3072307e8566",
+      "frame": "gather the already cleaned wheat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Collect cleaned wheat on the threshing floor into a heap.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "apriscar",
+      "meaningIndex": 0,
+      "recordSha256": "00b6768cdb7578204784262752959e730647ffb4ed8a4a15fb82d9aa9b5f8574",
+      "frame": "gather sheep into a sheepfold",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Human shepherd gathers animals; sheep are patients.",
+      "notes": ""
+    },
+    {
+      "spanish": "arraigar",
+      "meaningIndex": 0,
+      "recordSha256": "63a9da668bfe4b99d472d494401dd4bd990c75f72b5aa631a52eb56448f21464",
+      "frame": "take root",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Spanish explicitly supports both plants and people becoming established in a place.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "asentar",
+      "meaningIndex": 1,
+      "recordSha256": "64bdd27dd05bae11d1aae14e02542ce69402496dc0bbe8f9664dcea45a785c4e",
+      "frame": "set up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Establish an institution, settlement or stable arrangement.",
+      "notes": ""
+    },
+    {
+      "spanish": "atronar",
+      "meaningIndex": 1,
+      "recordSha256": "099137bd466c1f0bf5a8f37fa1c020dd9032d51e9662d7637b7cc4d3dcaa5ba9",
+      "frame": "stun",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Stun or deafen another with noise or a blow; human actor supported.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "balbucir",
+      "meaningIndex": 0,
+      "recordSha256": "e1f414bd23a5d732fdf7dc2b8fca446ec371cd7f374cbecb7a98c9e46a769076",
+      "frame": "stammer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Defective source paradigm: no first-person singular present; retain that grammar guard.",
+      "notes": "Selected English-source labels: no-first-person-singular-present."
+    },
+    {
+      "spanish": "baquiar",
+      "meaningIndex": 0,
+      "recordSha256": "6ee26bed76055501a78babf560a73aa67443dd2f3d307cae1d1866e9f5b60a57",
+      "frame": "train",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Latin American training an animal for tasks; animal is patient, human trainer supported.",
+      "notes": "Selected English-source labels: Latin-America."
+    },
+    {
+      "spanish": "bastir",
+      "meaningIndex": 0,
+      "recordSha256": "6abaeeadacb5bcdad37195ef964e7f5c7245403ea4e2bc9d4541e2a507587e2a",
+      "frame": "build",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dated construction or fabrication sense.",
+      "notes": "Selected English-source labels: dated."
+    },
+    {
+      "spanish": "blocar",
+      "meaningIndex": 0,
+      "recordSha256": "781f56af6f7b4d7071729c8ffc2eb8d0823003873d217c4b14a62f0a6cf9ead7",
+      "frame": "block",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Prevent movement or block a ball/blow; human sportsperson supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "condir",
+      "meaningIndex": 0,
+      "recordSha256": "9428862c991a3c844f8536ed342ac6d15d5d075ceade3148bd245531dd18fde1",
+      "frame": "build",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete construction or establishing sense; English source is the semantic anchor.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "consonar",
+      "meaningIndex": 0,
+      "recordSha256": "2b59c6916e9220b08a23e039003aad0cd633e7437f4e65a7d70c2cc1ce5af6e8",
+      "frame": "harmonize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Be or make harmonious; human musical performers supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "coruscar",
+      "meaningIndex": 0,
+      "recordSha256": "b9381e8423e869d1444437aaac131c7a75c94c48a0902c232aa5733c7beda5ee",
+      "frame": "coruscate",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Poetic literal sparkling or flashing light; no invented human metaphor.",
+      "notes": "Selected English-source labels: poetic. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "cuchar",
+      "meaningIndex": 0,
+      "recordSha256": "6eea8afed4c4a6b148dc914abdfa6ffcebfd4a6bbd821dc742cb0695e618592a",
+      "frame": "dress with manure",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Asturian fertilizing land; land is the patient, human agricultural worker supported.",
+      "notes": "Selected English-source labels: Asturias, transitive."
+    },
+    {
+      "spanish": "degollar",
+      "meaningIndex": 0,
+      "recordSha256": "16c7d78de439f2a1c868efec0d3e91a1399c67f62d4fa4a7180d6229fa65f014",
+      "frame": "slit the throat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cut a person's or animal's throat; the patient is context-dependent.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "deshelar",
+      "meaningIndex": 0,
+      "recordSha256": "68d95d9fc5d6b53494752c13c13f05ab8e2dc96c1c471832bd2963102914a736",
+      "frame": "melt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive thawing ice or a frozen object; human causer supported.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "desoldar",
+      "meaningIndex": 0,
+      "recordSha256": "e8d25eceda72131eb93e24b0eaa74d89f4e0417255b5094bd11200a81e43e477",
+      "frame": "desolder",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Remove solder joining objects.",
+      "notes": ""
+    },
+    {
+      "spanish": "desollar",
+      "meaningIndex": 0,
+      "recordSha256": "dc5b5636111881e5258523953e8265138cbe7754d5fa54418ee77b4888bed858",
+      "frame": "flay",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Strip skin from a person or animal; patient is not an animal-only actor.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "despezar",
+      "meaningIndex": 0,
+      "recordSha256": "f87b4c4fb48c5d49ec8fb55d5686164cfdf6e236ab926bf037ab4f8569962c7f",
+      "frame": "componentize",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare divide a work or machine into its component parts.",
+      "notes": "Selected English-source labels: rare."
+    },
+    {
+      "spanish": "devisar",
+      "meaningIndex": 0,
+      "recordSha256": "d886bd612632257e28815257941f1be3059d3a38df43c3e5ba7f8a1a72082993",
+      "frame": "plan",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete devising or arranging terms.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "ejercer",
+      "meaningIndex": 0,
+      "recordSha256": "6f69e6eaaf5e6bd3c064240b8081bb59ac022245b574cae52333b4a1640b0c1e",
+      "frame": "exercise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Exercise authority, a right, profession or influence; not physical workout.",
+      "notes": ""
+    },
+    {
+      "spanish": "encordar",
+      "meaningIndex": 0,
+      "recordSha256": "031e2056ff3d5746d2fdfa41b90519448434d27e2ebd75d06a47ed5016a7976b",
+      "frame": "string",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fit strings to a bow or instrument; not suspend a person for execution.",
+      "notes": ""
+    },
+    {
+      "spanish": "escaecer",
+      "meaningIndex": 0,
+      "recordSha256": "3950317a0f888cf32ad5a8ddfc075525ea49cd0a1e073786e10af620469d62e0",
+      "frame": "weaken",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare usage; Intransitive lose strength through exhaustion or faintness; not cause another's weakness.",
+      "notes": ""
+    },
+    {
+      "spanish": "esculcar",
+      "meaningIndex": 1,
+      "recordSha256": "2231b1874f2172d6fee7a9623845c6f2a7aaa39a1f8e9a3a9ed9d62d3067c80d",
+      "frame": "rummage through",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Search through belongings or contents.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "esforzar",
+      "meaningIndex": 0,
+      "recordSha256": "eefefe4edd5b62629b76d534067df2b18aa7ff13f7810e98066552e0cf60c6b7",
+      "frame": "encourage",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive giving another strength or encouragement; not reflexive striving.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "estragar",
+      "meaningIndex": 0,
+      "recordSha256": "b9a915d178c46c1287905233cdf32af5af8b20c81172e04111c85f5421ed299d",
+      "frame": "spoil",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Ruin or corrupt something.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "guarecer",
+      "meaningIndex": 0,
+      "recordSha256": "4b9784b5949855562fe77bf851f3fa3fce39471ca2bc45f8e40acae2967f58db",
+      "frame": "protect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Provide shelter or safeguard another against harm.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "hacendar",
+      "meaningIndex": 0,
+      "recordSha256": "ff72521229a568589e4bff4d38756c9d445ec2ad22efde62c45125e3a52ba104",
+      "frame": "transfer property to someone",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Historical confer ownership of landed estates; source-given someone is an indefinite recipient.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "hendir",
+      "meaningIndex": 0,
+      "recordSha256": "b82976edc87efa235ffacb80ab6caa4dda93b10fed3ea0fe6bf326da475bb59f",
+      "frame": "cut open",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literary variant; Split open; variant of hender.",
+      "notes": ""
+    },
+    {
+      "spanish": "imprimar",
+      "meaningIndex": 0,
+      "recordSha256": "fe4c4c3a9e5340311e0d145315437beb0a7bcace64602774005a040063ce1343",
+      "frame": "prime",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Apply a preparatory coat before painting or paving.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "improbar",
+      "meaningIndex": 0,
+      "recordSha256": "9af5fed7adcb49e3ddcce36dea2a250968788a3ca72c3d4a21d79328b9e7429d",
+      "frame": "disapprove",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Reject or withhold approval of something.",
+      "notes": ""
+    },
+    {
+      "spanish": "incensar",
+      "meaningIndex": 0,
+      "recordSha256": "bfd302f1f0a36078c212134c856433dc91ed8942b6ed682ce3a192616785188f",
+      "frame": "incense",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fumigate with incense or direct incense smoke; not make angry.",
+      "notes": ""
+    },
+    {
+      "spanish": "jeringar",
+      "meaningIndex": 2,
+      "recordSha256": "387afd1371aa93e351f1fcdd29b7230ad6ed8b9bd77f1f919ca9bc2beb4bf78c",
+      "frame": "annoy",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial hassle or irritation.",
+      "notes": "Selected English-source labels: colloquial, transitive."
+    },
+    {
+      "spanish": "maltraer",
+      "meaningIndex": 0,
+      "recordSha256": "dee9cdfcb705fb808fb5645db1a84ee327d7040d3d075d8d423e075bfa92b9fa",
+      "frame": "mistreat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Archaic/outdated usage; Treat badly or reprimand harshly.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "manducar",
+      "meaningIndex": 0,
+      "recordSha256": "927ea7c095e361070671ab3667dfee78a9ff5bf64835aebf1f1447536483fe43",
+      "frame": "munch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Archaic/outdated usage; Colloquial eating; not the separate sexual meaning.",
+      "notes": "Selected English-source labels: colloquial."
+    },
+    {
+      "spanish": "mariscar",
+      "meaningIndex": 0,
+      "recordSha256": "abe27ad86e42735f07a1620d85d80ad66df15afbe81eec1363aa32ca42e838cd",
+      "frame": "catch shellfish",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Harvest shellfish; human harvester and shellfish patients.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "morfar",
+      "meaningIndex": 0,
+      "recordSha256": "34d8bfeb0485c51955943ff8a1fe369bd8e2bb615c2d91534fb1023db4aeeff5",
+      "frame": "gobble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Lunfardo/Rioplatense, Bolivia and Paraguay: eat voraciously.",
+      "notes": "Selected English-source labels: Bolivia, Lunfardo, Paraguay, Rioplatense."
+    },
+    {
+      "spanish": "negrecer",
+      "meaningIndex": 0,
+      "recordSha256": "956fed10636b9a5f704b9183395ad22a50a80c5e20826066d6359c01883b783d",
+      "frame": "turn black",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal material becoming black; no unsupported racial or human metaphor selected.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "piantar",
+      "meaningIndex": 0,
+      "recordSha256": "abb8af22cd01d91ab4744395d74e2970ddf19a26428ccba654dc9eff83490cd6",
+      "frame": "leave",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rioplatense departing or escaping; not the separate causative expulsion sense in the Spanish extract.",
+      "notes": "Selected English-source labels: Rioplatense."
+    },
+    {
+      "spanish": "ponchar",
+      "meaningIndex": 3,
+      "recordSha256": "901797c268ae22aeccb4829561162b50ef5a80d20efd358c089ce1e3a99a4821",
+      "frame": "puncture",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mexican colloquial making an inflated rubber object lose air.",
+      "notes": "Selected English-source labels: Mexico, colloquial, transitive."
+    },
+    {
+      "spanish": "premir",
+      "meaningIndex": 0,
+      "recordSha256": "dbeb440aa3bb9cadb4f5181e6c3dd5542d0b22bbe417662f0672ecaabcb0b53a",
+      "frame": "squeeze",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete pressing; English source is the semantic anchor.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "recentar",
+      "meaningIndex": 0,
+      "recordSha256": "00602e7f74103dae84060fe2382bb7e2cf45556fe47a16c9c7cfae6f1df3687d",
+      "frame": "leaven",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Add starter or leaven to dough.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "recercar",
+      "meaningIndex": 0,
+      "recordSha256": "51b435ec05e927d763abd1746bd117bff400cd88dbc54a9edb0ee000c99788c3",
+      "frame": "surround",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Enclose or encircle.",
+      "notes": ""
+    },
+    {
+      "spanish": "recostar",
+      "meaningIndex": 0,
+      "recordSha256": "1284146351335685cf0b0433b546d67a69b124ab6d2502cfa72b2c75f78a56d6",
+      "frame": "lay",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive place someone or something horizontally; not intransitive lie.",
+      "notes": ""
+    },
+    {
+      "spanish": "recrecer",
+      "meaningIndex": 0,
+      "recordSha256": "337f2a617cd6c8204171b033d21cadb3233add578510e4336e641de09dbd78e3",
+      "frame": "increase",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive make something larger.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "regoldar",
+      "meaningIndex": 0,
+      "recordSha256": "b388b99d6e33bc85d13c215d06fba3182772a557676be1c4110414e12245439c",
+      "frame": "burp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete expelling stomach gas; ordinary human physiological act.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "remitir",
+      "meaningIndex": 1,
+      "recordSha256": "b51185ac2140cec05c0a74351ee211a91527299d2547d178936deea761c8227b",
+      "frame": "send",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Send something to a destination or recipient.",
+      "notes": ""
+    },
+    {
+      "spanish": "repescar",
+      "meaningIndex": 0,
+      "recordSha256": "0a5871f115c6d37dc6d3b28e22ff89795272e936a7ffa79a952462da0eaeae55",
+      "frame": "give a second chance to",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial readmission after rejection; beneficiary supplied by context.",
+      "notes": "Selected English-source labels: colloquial, transitive."
+    },
+    {
+      "spanish": "repetir",
+      "meaningIndex": 0,
+      "recordSha256": "679293fa83f85f7884fd01f36dfabb6e2c936094651a3ce62fa70c7c50a86e06",
+      "frame": "repeat",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Do or say something again.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "repizcar",
+      "meaningIndex": 0,
+      "recordSha256": "100cfc4f9e2d55b65a92ee42e063e45c7af7dd35bd7d790dad8d905755e6cea0",
+      "frame": "pinch repeatedly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Repeated pinching.",
+      "notes": ""
+    },
+    {
+      "spanish": "resollar",
+      "meaningIndex": 0,
+      "recordSha256": "7f2180f67e3d032caf22328bcfe9a07d9d777ac0ad3c6814ac837b04ec028a1b",
+      "frame": "gasp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Breathe or blow forcefully; human breath supported.",
+      "notes": "Selected English-source labels: intransitive."
+    },
+    {
+      "spanish": "rezongar",
+      "meaningIndex": 0,
+      "recordSha256": "9a5f91c694e98affd7ad05c29218b33c7f891143f9f65a39a2f86b52919c35a0",
+      "frame": "grumble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Complain resentfully or under the breath.",
+      "notes": ""
+    },
+    {
+      "spanish": "sementar",
+      "meaningIndex": 0,
+      "recordSha256": "4242855c2b84e83718afbabf28e9567d6cfce663243de4a8ec7238edb6bd92f5",
+      "frame": "sow",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Plant seeds.",
+      "notes": ""
+    },
+    {
+      "spanish": "someter",
+      "meaningIndex": 0,
+      "recordSha256": "11d28e1192249a7f48b81ea2cd75b1fdc697d0453f705b9d1e6a6d871602d19a",
+      "frame": "subdue",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Bring another under authority, often by force.",
+      "notes": ""
+    },
+    {
+      "spanish": "sonsacar",
+      "meaningIndex": 0,
+      "recordSha256": "e26531c87fc4d0b36816c847794bd94c3cd1378f843f0fb08e15e60039fe0d28",
+      "frame": "elicit",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Draw out information someone wished to keep private.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "subseguir",
+      "meaningIndex": 0,
+      "recordSha256": "2ac1bdbd08a273d05238813dca1cfc9cd079937e264749dde54ccd177403bd47",
+      "frame": "follow next",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Source explicitly makes a thing the subject immediately following another.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "trabucar",
+      "meaningIndex": 0,
+      "recordSha256": "65320edbf79002702be955dc3ab22380508036319e3cf9f562caf44a5cef57bd",
+      "frame": "muddle up",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Disorder or confuse something; not reflexive becoming confused.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "trechar",
+      "meaningIndex": 0,
+      "recordSha256": "ec1be05e1479355ce1582c247306467f4618f2843c8aa82b37759c6cb8433d14",
+      "frame": "cut open",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fish preparation; fish is patient, human preparer supported. English source is the semantic anchor.",
+      "notes": ""
+    },
+    {
+      "spanish": "visoriar",
+      "meaningIndex": 0,
+      "recordSha256": "65c0b490b733a199baaebc912d0912890ca4409bc593bbbe9f23b26c51269f58",
+      "frame": "scout",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mexican talent scouting, especially in sport; English source is the semantic anchor.",
+      "notes": "Selected English-source labels: Mexico."
+    },
+    {
+      "spanish": "yantar",
+      "meaningIndex": 0,
+      "recordSha256": "5519a235a63a9f63b1863dec35a1bec9a153120f62812682f92d73e556f263ae",
+      "frame": "lunch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literary usage; Archaic eating the midday meal.",
+      "notes": "Selected English-source labels: archaic."
+    },
+    {
+      "spanish": "abejear",
+      "meaningIndex": 0,
+      "recordSha256": "556df5f29e6aba6f9c502636f04f7074f54c62b1bb2dda85768a45dca5ab86e1",
+      "frame": "be vigilant",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Salvadoran staying alert and ready to react.",
+      "notes": "Selected English-source labels: El-Salvador, intransitive."
+    },
+    {
+      "spanish": "abordar",
+      "meaningIndex": 3,
+      "recordSha256": "8eb32f4b664a8d83afcf7afef5633b21a286b5095d315fb3a0d3a11bc7bd0deb",
+      "frame": "board",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Enter a boat or other vehicle.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "acampar",
+      "meaningIndex": 0,
+      "recordSha256": "196832f4233d43d5b02bdc186a0c067e5306e107451ec3da2c49b7386415ed51",
+      "frame": "camp",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Supported nonreflexive intransitive camping; no mandatory clitic assumed.",
+      "notes": "Selected English-source labels: intransitive, reflexive."
+    },
+    {
+      "spanish": "adecuar",
+      "meaningIndex": 0,
+      "recordSha256": "ba40340b6e4923ba5b1f4ff644ef0b7b63eac44f4049c803d757eeebcdceb385",
+      "frame": "adapt",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive adjust one thing to another; not reflexive self-adaptation.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "afeitar",
+      "meaningIndex": 0,
+      "recordSha256": "bb29962424370c1873c0ea3c2201cee443b84a0241986ed1fb6e7624766e251e",
+      "frame": "shave",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive removal of hair with a razor; not dropping a mandatory self-shaving clitic.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "ahondar",
+      "meaningIndex": 0,
+      "recordSha256": "1663800f04acb760d752abd342a6f2701be08225dd9c8b75a6aadd6863755b56",
+      "frame": "deepen",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive make a cavity deeper.",
+      "notes": "Selected English-source labels: reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "anteponer",
+      "meaningIndex": 1,
+      "recordSha256": "eced2e86b8b0db2eb173cf3dcfb5ce0dbd0b5eeb8b8bf7734b594bbb7d761262",
+      "frame": "prefer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Figuratively assign higher priority or affection.",
+      "notes": "Selected English-source labels: figuratively."
+    },
+    {
+      "spanish": "antevenir",
+      "meaningIndex": 0,
+      "recordSha256": "8798b4b4b985322a47b31117b82f1f7620dd9ed2be8c2e319f44f737761c2d3e",
+      "frame": "precede",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Obsolete come before; human subjects can precede others.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "apalear",
+      "meaningIndex": 1,
+      "recordSha256": "1d1e65788e32ce1238e0f88b7cf03845d507441c1209821a33f0d04402495003",
+      "frame": "thrash",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Beat brutally with a stick or similar object; not assume a spade.",
+      "notes": ""
+    },
+    {
+      "spanish": "aplomar",
+      "meaningIndex": 0,
+      "recordSha256": "c1bd829ef128d9fcc809bf19ee96529f5260f6abfe5b3e227acceb0e9d56f432",
+      "frame": "plumb",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Check or set a vertical line with a plumb bob; not install plumbing.",
+      "notes": ""
+    },
+    {
+      "spanish": "apremir",
+      "meaningIndex": 0,
+      "recordSha256": "757c4a85b9b8007030f70da1505e15f257f3a963adc6f5e5a56e644a9605b825",
+      "frame": "squeeze",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Press or compress; English source is the semantic anchor.",
+      "notes": ""
+    },
+    {
+      "spanish": "chancar",
+      "meaningIndex": 0,
+      "recordSha256": "d13065dd45c2ccdfaa09aecff5011bf92ae73f2713a4032095f2b537800ce545",
+      "frame": "crush",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "South American colloquial crushing of mineral or other material.",
+      "notes": "Selected English-source labels: South-America, colloquial, transitive."
+    },
+    {
+      "spanish": "condoler",
+      "meaningIndex": 0,
+      "recordSha256": "27c8ec8877f232c8f30ae7252271bd28796528636f707f3af62c619f52e4bfbf",
+      "frame": "feel sorry for",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Obsolete transitive sympathy; beneficiary supplied by context.",
+      "notes": "Selected English-source labels: obsolete, transitive."
+    },
+    {
+      "spanish": "conmover",
+      "meaningIndex": 0,
+      "recordSha256": "4b98d73dbaec4d509899148e0e2c4bd1794e5d70e8214c32535a97b6853195d1",
+      "frame": "move",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Affect another emotionally; not physical relocation.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "cotejar",
+      "meaningIndex": 0,
+      "recordSha256": "43e27042b1e69842c5d4f485d16ceec0327800a30a6535b4699910e823780345",
+      "frame": "collate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Compare a copy with an original or compare multiple items.",
+      "notes": ""
+    },
+    {
+      "spanish": "cotizar",
+      "meaningIndex": 0,
+      "recordSha256": "d41bb344c71ab9289682a9d1c57240991560b7f4bcea0f0d1a448af66b2ab5ce",
+      "frame": "quote a price",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "State or assign an economic price.",
+      "notes": ""
+    },
+    {
+      "spanish": "cuadrar",
+      "meaningIndex": 1,
+      "recordSha256": "b9593b83f83ed37497e96599bad5f7dbda5ce758fdf09c026c1787b4e1c3ffb1",
+      "frame": "square",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Check or reconcile arithmetic/accounts; human operator supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "desabrir",
+      "meaningIndex": 1,
+      "recordSha256": "edf05ef0e6854566bd508e2cd137a377cf7554a694076271599b098523f120a0",
+      "frame": "embitter",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause displeasure or sour someone's disposition.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "desavenir",
+      "meaningIndex": 0,
+      "recordSha256": "a24d5489007da29bcc4a39badcbb7a6004106da42ee0959ec872d59983ab6d44",
+      "frame": "cause a rift or feud between",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cause disagreement among parties supplied by context; no invented participants.",
+      "notes": ""
+    },
+    {
+      "spanish": "desliar",
+      "meaningIndex": 0,
+      "recordSha256": "1ea9d9f27686f273ebea11a678fd7fb355e7c965b709731a382a5e080d3d07bc",
+      "frame": "untie",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Undo a binding or knot.",
+      "notes": ""
+    },
+    {
+      "spanish": "desovar",
+      "meaningIndex": 0,
+      "recordSha256": "1ddcbd95f7a4051865048fa3598b6998173bdc860c7b6d865aee8029c4449129",
+      "frame": "lay eggs",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected source explicitly makes a female fish or amphibian the subject; human I/we forms not authorized.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "devengar",
+      "meaningIndex": 0,
+      "recordSha256": "c4ecf13dea5783ea183758155f4d03be6d7c4cfc9d2dc54e989ff618de28a61e",
+      "frame": "earn",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Accrue entitlement to payment for work or a financial service.",
+      "notes": ""
+    },
+    {
+      "spanish": "enclocar",
+      "meaningIndex": 0,
+      "recordSha256": "58da9e3f93d1b3d19574db5e696c80b99e009f70785b6b60dc11c1cf182f397a",
+      "frame": "brood",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal hen or duck warming eggs; no human worry sense. Source also supports a nonreflexive intransitive use.",
+      "notes": "Selected English-source labels: ambitransitive, pronominal. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "enervar",
+      "meaningIndex": 0,
+      "recordSha256": "065b2c802d191306cac3bd5d5ef85dfdfc78bebf919b838566dbf79ea2185a63",
+      "frame": "enervate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Weaken or drain strength; not the distinct making-nervous sense.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "enllocar",
+      "meaningIndex": 0,
+      "recordSha256": "cc86d897f541c89c1921ab750a49c97b0095f9e608e9f8d92fc12e4746debe37",
+      "frame": "brood",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal bird incubation; no unsupported human worry sense or imperative.",
+      "notes": "Selected English-source labels: intransitive, pronominal. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "entredecir",
+      "meaningIndex": 0,
+      "recordSha256": "16ad9597afb85871801154e785f9ac553ed2309903c00d1275f04954a0e260d6",
+      "frame": "interdict",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dated prohibiting or censuring something.",
+      "notes": "Selected English-source labels: dated."
+    },
+    {
+      "spanish": "entreoír",
+      "meaningIndex": 0,
+      "recordSha256": "5852ba0460973b9876cfb63065c82d725a26378fcef6968df7f0a353cc68e8a9",
+      "frame": "hear faintly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Barely hear without clear understanding.",
+      "notes": ""
+    },
+    {
+      "spanish": "escusar",
+      "meaningIndex": 0,
+      "recordSha256": "009edeb0dd704351075a4c9e079c3c434637e4c1a66a9741dfaba6569b206f4a",
+      "frame": "hide",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete transitive concealing; not reflexively hiding oneself.",
+      "notes": "Selected English-source labels: obsolete, reflexive, transitive. Approval selects the separately supported transitive construction, not an unsupported reflexive substitution."
+    },
+    {
+      "spanish": "estancar",
+      "meaningIndex": 1,
+      "recordSha256": "183e3689b3ede5f5f6daee9cf97abde3b1281e050dad8ab70d32b702ff99d388",
+      "frame": "stall",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive stop or suspend a project or business process.",
+      "notes": ""
+    },
+    {
+      "spanish": "estatuir",
+      "meaningIndex": 0,
+      "recordSha256": "01d458dfd55f77374478bda942481a01b71a50031c5213b877a10127a9647830",
+      "frame": "ordain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Precisely establish how an activity must be performed.",
+      "notes": ""
+    },
+    {
+      "spanish": "estriar",
+      "meaningIndex": 0,
+      "recordSha256": "1353f61b86e15748bff523a3f86b1c80518c8343eb59da369348a24f30f7289a",
+      "frame": "striate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Make grooves or striations on a surface.",
+      "notes": ""
+    },
+    {
+      "spanish": "eyectar",
+      "meaningIndex": 0,
+      "recordSha256": "f9aab572efc1b004704fee53747b9e8812957933b1ec07759f3aa49075f4328f",
+      "frame": "eject",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive expel an object; not a reflexive claim about the speaker's ejection seat.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "fachar",
+      "meaningIndex": 0,
+      "recordSha256": "4c6847d5cb95e32b76f5ede188eed4ff0d78f3e1d998a1e3934eff8eb01527a3",
+      "frame": "steal",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Cuban colloquial taking another's property.",
+      "notes": "Selected English-source labels: Cuba, colloquial."
+    },
+    {
+      "spanish": "garantir",
+      "meaningIndex": 0,
+      "recordSha256": "9c80234efd4affafdd4ee8f4b63dbf0eb1fc62881d26687d1955846a23e232b7",
+      "frame": "guarantee",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare offering of a guarantee or security.",
+      "notes": "Selected English-source labels: rare."
+    },
+    {
+      "spanish": "gripar",
+      "meaningIndex": 0,
+      "recordSha256": "cfad55a3e4aa7cf62e81151a6bc64a83608aca5a22d6b42c1a381e5330ee74b4",
+      "frame": "cause mechanical gears to jam",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Transitive causing a mechanism to seize; mechanical gears are source-given generic patients.",
+      "notes": ""
+    },
+    {
+      "spanish": "hinchar",
+      "meaningIndex": 5,
+      "recordSha256": "2319a3d227defdeedd3263836936144b1e22c2dcd1c8d980c010959c4ad544c8",
+      "frame": "cheer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Bolivian/Paraguayan/Rioplatense actively supporting a sports team; human fans supported.",
+      "notes": "Selected English-source labels: Bolivia, Paraguay, Rioplatense, intransitive."
+    },
+    {
+      "spanish": "husmear",
+      "meaningIndex": 1,
+      "recordSha256": "2e2277f9d87b4ce641e533023e195bee04524d7df1ecd48981fe431a60244f92",
+      "frame": "snoop",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Investigate curiously or intrusively; human subject explicitly supported.",
+      "notes": ""
+    },
+    {
+      "spanish": "ignorar",
+      "meaningIndex": 1,
+      "recordSha256": "f02e154ae7436122028b54ec19f8e266c444750cd8beda1cdb1febe8fa76f609",
+      "frame": "ignore",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Deliberately disregard someone or something.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "imputar",
+      "meaningIndex": 1,
+      "recordSha256": "187526cc7564c0ffe0680d1cce1f118376892b6f2cb531b18c567b42909fd415",
+      "frame": "accuse",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Attribute responsibility for a crime or fault.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "manchar",
+      "meaningIndex": 0,
+      "recordSha256": "d0f00957c8fc4d4442f1ded63dc9f41dab4b3ce013d0f8e4f3f86e140cc6414b",
+      "frame": "stain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Dirty or leave a mark on an object.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "mandatar",
+      "meaningIndex": 0,
+      "recordSha256": "ef28891833ccc810c859f5d701c383ab444919315084851a59b1476ae3ce8a72",
+      "frame": "give a mandate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Issue an authoritative mandate to a person or group.",
+      "notes": ""
+    },
+    {
+      "spanish": "precocer",
+      "meaningIndex": 0,
+      "recordSha256": "d43b2b66f8243cf3503ab882104b471a3a7bdf7338889dad9fdbcce4b3922ac9",
+      "frame": "parbake",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Partially bake bread or dough for subsequent freezing/storage; English source anchor, not all generic precooking.",
+      "notes": ""
+    },
+    {
+      "spanish": "pregar",
+      "meaningIndex": 0,
+      "recordSha256": "7e9047b3d51381c88a9981dda01d323596040ddee661b5e233e1d653e6068f19",
+      "frame": "fix",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete fastening with iron nails; not generic repair.",
+      "notes": "Selected English-source labels: obsolete."
+    },
+    {
+      "spanish": "premorir",
+      "meaningIndex": 0,
+      "recordSha256": "b00cdadd1e762dabe5cb38032ec2e8f59ac686e40fd932e7debaa0489a4a4d25",
+      "frame": "predecease",
+      "profile": "ordinary",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Die before someone else.",
+      "notes": ""
+    },
+    {
+      "spanish": "preterir",
+      "meaningIndex": 0,
+      "recordSha256": "ab31df4903dcdf3bd2cc58527a3d34df3f517212da9f5eff5560b9ad7fc69001",
+      "frame": "omit",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Leave out or disregard, including forced heirs omitted from a will.",
+      "notes": ""
+    },
+    {
+      "spanish": "recabar",
+      "meaningIndex": 1,
+      "recordSha256": "d9f8e51cc1d8cd5ee4b526642c04f7847d2f4f3f4ad56ffe7fc91b8f3c262669",
+      "frame": "collect",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Gather data or information.",
+      "notes": ""
+    },
+    {
+      "spanish": "recular",
+      "meaningIndex": 0,
+      "recordSha256": "4e88106728d5428b7406235748162106c9f74aea0e4f8468922d20590892a798",
+      "frame": "move backwards",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Go backward, physically or in a vehicle.",
+      "notes": ""
+    },
+    {
+      "spanish": "relevar",
+      "meaningIndex": 0,
+      "recordSha256": "a86d611bd41c64a1e8e3b99fb59c3d75da0433f9536f71471eb27ffd0f76e064",
+      "frame": "take over for",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Relieve or replace another person; replaced party supplied by context.",
+      "notes": ""
+    },
+    {
+      "spanish": "remojar",
+      "meaningIndex": 0,
+      "recordSha256": "24ae5bc7e90c5dcaf8479c2b872add00a207e8e7853976512683e470af04bdbe",
+      "frame": "soak",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Immerse something in liquid.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "reparar",
+      "meaningIndex": 1,
+      "recordSha256": "0c0d0a49f8a80075ab0723f6d148819fefb2185ae787b3d4214d4b905c63910a",
+      "frame": "repair",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Restore a damaged object or remedy harm.",
+      "notes": "Selected English-source labels: transitive."
+    },
+    {
+      "spanish": "repelar",
+      "meaningIndex": 4,
+      "recordSha256": "19c385215b225f21b1bf7fbb612a2723eff505935aeecd060fd0e282f06ec3ab",
+      "frame": "grumble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Mexican complaining or reluctant compliance.",
+      "notes": "Selected English-source labels: Mexico."
+    },
+    {
+      "spanish": "replegar",
+      "meaningIndex": 0,
+      "recordSha256": "528d2fba888e87b3d6f7d42b3cac259d7fde6029b0ff449e33087e2aac5471cd",
+      "frame": "fold repeatedly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Fold something two or more times; not intransitive retreat.",
+      "notes": ""
+    },
+    {
+      "spanish": "reversar",
+      "meaningIndex": 0,
+      "recordSha256": "183ea5e15469af25927a1e0cb4b2e9e6571c0e06b88863b8700a121717dbb885",
+      "frame": "reverse",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colombian backward movement or reversal; not automatically importing the Spanish revesar vomiting homograph.",
+      "notes": "Selected English-source labels: Colombia."
+    },
+    {
+      "spanish": "revertir",
+      "meaningIndex": 0,
+      "recordSha256": "90f448ab8156497994b765c3f9778f1a9fb203443f91f33cdde9396833638f7b",
+      "frame": "revert",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "A thing returns to an earlier condition; unsupported human intention not assumed.",
+      "notes": "Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "revisar",
+      "meaningIndex": 1,
+      "recordSha256": "937c246efe02858d7cfc00d8eadaf776dc44981f7fc9b9c6e9a565a841c58eb9",
+      "frame": "check",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Inspect for errors, defects or outdated information.",
+      "notes": ""
+    },
+    {
+      "spanish": "revolcar",
+      "meaningIndex": 1,
+      "recordSha256": "83c36b054d5d18cfbda28a716d3608c4371606058df945f8cafb0b5859ef9eb1",
+      "frame": "knock down",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Floor another person or animal; not reflexive rolling around.",
+      "notes": ""
+    },
+    {
+      "spanish": "rezumar",
+      "meaningIndex": 0,
+      "recordSha256": "1f8b3aa7c4564ad9c7fad8dbcbea1a90d1fed1597390787006297026838e7af0",
+      "frame": "ooze",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literal seepage or source-attested manifesting a strong emotion/quality; human figurative subjects are supported.",
+      "notes": "Selected English-source labels: ambitransitive."
+    },
+    {
+      "spanish": "socavar",
+      "meaningIndex": 0,
+      "recordSha256": "acd8c58fd969a18b356cd817348b21fb933098e2f4e46123a0b11eabf4d19257",
+      "frame": "undermine",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Excavate beneath or figuratively weaken another's security.",
+      "notes": ""
+    },
+    {
+      "spanish": "sujetar",
+      "meaningIndex": 0,
+      "recordSha256": "e3ab045c8f80e18f3b05860383f9268682a162fb621525f6ceacb0c79a01e69b",
+      "frame": "secure",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Hold firmly so something does not move or fall.",
+      "notes": ""
+    },
+    {
+      "spanish": "tapiscar",
+      "meaningIndex": 0,
+      "recordSha256": "bf7d9fb2ee72f42c00242c4d63deeb44d392c864f0a1238ccbcb4bb9c210b0db",
+      "frame": "harvest",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Salvadoran/Guatemalan/Honduran/Nicaraguan harvesting of maize.",
+      "notes": "Selected English-source labels: El-Salvador, Guatemala, Honduras, Nicaragua, transitive."
+    },
+    {
+      "spanish": "tardecer",
+      "meaningIndex": 0,
+      "recordSha256": "d5b1b09ca3b2cf746b1e470be9a1ad372fe43369bb1fb0f286c17043be7a570a",
+      "frame": "dusk",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Impersonal becoming dusk; archaic variant of atardecer.",
+      "notes": "Selected English-source labels: impersonal, intransitive. Only the literal third-person singular it reading is approved; no human/formal-you subject or command is authorized."
+    },
+    {
+      "spanish": "tastar",
+      "meaningIndex": 1,
+      "recordSha256": "65bbabd64d0835166a08c4320c860df4bb5da6354abfcefb4ddaaf41a9c5b602",
+      "frame": "taste with the palate",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Obsolete tasting; English source is the semantic anchor.",
+      "notes": "Selected English-source labels: obsolete, transitive."
+    },
+    {
+      "spanish": "trasegar",
+      "meaningIndex": 1,
+      "recordSha256": "6551c46035f0ab49ad754e419d4a58889bc6a3e307220a4bc960e7a739812466",
+      "frame": "transfer",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Move liquid from one container to another.",
+      "notes": ""
+    },
+    {
+      "spanish": "ñacar",
+      "meaningIndex": 0,
+      "recordSha256": "f4a767d8b54d67631d6f44bddfb300f0b7a251b79293083b99ba37a6aef66ca4",
+      "frame": "hit",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial usage; Argentine striking or beating.",
+      "notes": "Selected English-source labels: Argentina, transitive."
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "quilatar",
+      "reason": "Only a Spanish synonym pointer is retained; no exact English predicate selected."
+    },
+    {
+      "spanish": "repollar",
+      "reason": "Grow-cabbages is ambiguous between human cultivation and a plant forming heads; absent Spanish semantics do not resolve the required subject."
+    },
+    {
+      "spanish": "sonrojar",
+      "reason": "Cause-to-blush requires an intervening person/patient slot; reflexive blush reverses the causative role."
+    },
+    {
+      "spanish": "acorcharse",
+      "reason": "Mandatory pronominal acorcharse requires clitic handling not supplied by this root mapping."
+    },
+    {
+      "spanish": "adinerarse",
+      "reason": "Mandatory pronominal enriching oneself cannot be replaced by transitive enrich."
+    },
+    {
+      "spanish": "afiebrarse",
+      "reason": "Mandatory pronominal afiebrarse requires source-bound clitic handling."
+    },
+    {
+      "spanish": "agusanarse",
+      "reason": "Mandatory pronominal agusanarse is outside this uncliticized-root mapping."
+    },
+    {
+      "spanish": "ajamonarse",
+      "reason": "Mandatory pronominal ajamonarse is outside this uncliticized-root mapping."
+    },
+    {
+      "spanish": "amoratar",
+      "reason": "English source explicitly permits only se ... amoratar; no bare finite construction is authorized."
+    },
+    {
+      "spanish": "amoratarse",
+      "reason": "Mandatory pronominal amoratarse requires clitic handling."
+    },
+    {
+      "spanish": "desganar",
+      "reason": "English go-off/lose-appetite readings reverse the Spanish transitive role and require construction clarification."
+    },
+    {
+      "spanish": "despicar",
+      "reason": "Retained Spanish senses do not confidently corroborate soothing an angry person; avoid substituting revenge or beak-removal meanings."
+    },
+    {
+      "spanish": "desvaír",
+      "reason": "English lose-color/strength reverses the causative Spanish making-lose sense; no supported transitive frame selected."
+    },
+    {
+      "spanish": "embragar",
+      "reason": "The compressed sling/clutch-car English gloss does not yield a confidently idiomatic finite driving frame without a reviewed paraphrase."
+    },
+    {
+      "spanish": "enchularse",
+      "reason": "Mandatory pronominal enchularse requires clitic handling and cannot be replaced by beautify."
+    },
+    {
+      "spanish": "encostarse",
+      "reason": "Mandatory pronominal encostarse is outside the root-only renderer."
+    },
+    {
+      "spanish": "engallar",
+      "reason": "English source explicitly allows only se ... engallar; bare finite use is not authorized."
+    },
+    {
+      "spanish": "engallarse",
+      "reason": "Mandatory pronominal engallarse requires clitic handling."
+    },
+    {
+      "spanish": "enmadrarse",
+      "reason": "Mandatory pronominal enmadrarse is outside root-only handling."
+    },
+    {
+      "spanish": "enriscar",
+      "reason": "Put-in-a-high-place needs an intervening patient; climbing may require the pronominal construction and lacks clarifying Spanish semantics."
+    },
+    {
+      "spanish": "entecarse",
+      "reason": "Mandatory pronominal entecarse is outside root-only handling."
+    },
+    {
+      "spanish": "graficar",
+      "reason": "Graficar ordinarily means depict or graph; absent Spanish semantic evidence does not substantiate the unusual sign-language mapping."
+    },
+    {
+      "spanish": "intrusar",
+      "reason": "Selected English meaning is pronominal and Spanish identifies intrusarse; no bare finite construction authorized."
+    },
+    {
+      "spanish": "jalbegar",
+      "reason": "Only a Spanish synonym pointer is retained; no explicit English predicate selected."
+    },
+    {
+      "spanish": "modorrar",
+      "reason": "Cause-to-be-drowsy needs an intervening patient; no reviewed slot renderer assumed."
+    },
+    {
+      "spanish": "personarse",
+      "reason": "Mandatory pronominal personarse requires clitic handling."
+    },
+    {
+      "spanish": "retreparse",
+      "reason": "Mandatory pronominal retreparse requires clitic handling."
+    },
+    {
+      "spanish": "sobarcar",
+      "reason": "Selected carrying-under-one's-armpit frame needs subject-bound possessive handling; no shortcut to a differently anchored possessor approved."
+    },
+    {
+      "spanish": "abstener",
+      "reason": "English abstain requires reflexive construction; cannot substitute for Spanish causative preventing another's action."
+    },
+    {
+      "spanish": "adentrar",
+      "reason": "Selected English sense is reflexive and Spanish points to adentrarse; bare form not authorized."
+    },
+    {
+      "spanish": "apetecer",
+      "reason": "Selected feel-like/fancy frame risks dative experiencer reversal and is tagged intransitive/reflexive; no unsupported ordinary subject mapping authorized."
+    },
+    {
+      "spanish": "aterecer",
+      "reason": "Selected English numb is pronominal-tagged; Spanish causative cold-numbing evidence does not authorize bypassing that selected construction."
+    },
+    {
+      "spanish": "coaligarse",
+      "reason": "Mandatory pronominal coaligarse requires clitic handling."
+    },
+    {
+      "spanish": "descararse",
+      "reason": "Mandatory pronominal descararse requires clitic handling."
+    },
+    {
+      "spanish": "descocarse",
+      "reason": "Mandatory pronominal descocarse requires clitic handling."
+    },
+    {
+      "spanish": "endrogarse",
+      "reason": "Mandatory pronominal endrogarse requires clitic handling."
+    },
+    {
+      "spanish": "enlenzar",
+      "reason": "English adhesive tape is materially different from the retained Spanish linen-strip reinforcement; no confident exact rendering selected."
+    },
+    {
+      "spanish": "entercarse",
+      "reason": "Mandatory pronominal entercarse requires clitic handling."
+    },
+    {
+      "spanish": "infartar",
+      "reason": "English source explicitly allows only se ... infartar; no bare causative reading authorized by that sense."
+    },
+    {
+      "spanish": "infartarse",
+      "reason": "Mandatory pronominal infartarse requires clitic handling."
+    },
+    {
+      "spanish": "musirse",
+      "reason": "Mandatory pronominal musirse requires clitic handling."
+    },
+    {
+      "spanish": "osificarse",
+      "reason": "Mandatory pronominal osificarse requires clitic handling."
+    },
+    {
+      "spanish": "regodearse",
+      "reason": "Mandatory pronominal regodearse requires clitic handling."
+    },
+    {
+      "spanish": "remansarse",
+      "reason": "Mandatory pronominal remansarse requires clitic handling."
+    },
+    {
+      "spanish": "retentar",
+      "reason": "Unusual Salvadoran glue mapping lacks corroboration in retained Spanish definitions; no confident selected meaning approved."
+    },
+    {
+      "spanish": "ternar",
+      "reason": "Argentine ternar normally means shortlist or nominate among three, not actually award a prize; no clarifying semantic source retained."
+    },
+    {
+      "spanish": "travesar",
+      "reason": "Retained English gloss is only a Spanish synonym pointer; no exact English predicate selected."
+    },
+    {
+      "spanish": "agüitarse",
+      "reason": "Mandatory pronominal agüitarse requires clitic handling."
+    },
+    {
+      "spanish": "aquellar",
+      "reason": "Source explicitly defines a placeholder for an unspecified verb; counting a fabricated lexical meaning would be dishonest."
+    },
+    {
+      "spanish": "desvivirse",
+      "reason": "Mandatory pronominal desvivirse requires clitic handling."
+    },
+    {
+      "spanish": "enseriar",
+      "reason": "Make-serious requires an intervening patient; reflexive become-serious cannot substitute for the causative sense."
+    },
+    {
+      "spanish": "gabar",
+      "reason": "Selected source is pronominal; absent Spanish semantics do not establish bare gabar finite clauses."
+    },
+    {
+      "spanish": "hopar",
+      "reason": "Selected English is reflexive and Spanish identifies hoparse; bare hopar construction not authorized."
+    },
+    {
+      "spanish": "malherir",
+      "reason": "English fatally/mortally overstates Spanish serious injury, which need not be fatal; no faithful selected English frame retained."
+    },
+    {
+      "spanish": "prevaler",
+      "reason": "Only a Spanish synonym pointer is retained; no selected English predicate."
+    },
+    {
+      "spanish": "reargüir",
+      "reason": "Reinfer is not a faithful unqualified rendering of rearguing or turning another's argument against them."
+    },
+    {
+      "spanish": "remorder",
+      "reason": "Feeling guilty risks experiencer reversal, while causing grief lacks enough retained semantic evidence to bind an unrestricted human subject safely."
+    }
+  ]
+}

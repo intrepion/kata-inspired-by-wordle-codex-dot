@@ -1,0 +1,365 @@
+{
+  "inputSha256": "04c8cd904e33b4e42f589a86c5a396a2ff29af0f1807658729dbf8fef2e79eb2",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model cross-review of all 118 exact restrictive proposals, selected English senses, contexts and representative clauses or definition-free bilingual pairs. Approved it-only means a supported narrow literal third-singular subset, not a claim that no human figurative exists. Approved withhold means required sense/valency/complement evidence is unresolved, not that the word or meaning does not exist. Human operators acting on entities are distinguished from the entities acting as subjects; the preñar disagreement cites retained Spanish semantic evidence. No app edits, invented examples, native-human certification or publication.",
+  "approved": [
+    {
+      "id": "b57906001a5f18fc"
+    },
+    {
+      "id": "574d4820ad17a7c1"
+    },
+    {
+      "id": "42d3df5f69d2964a"
+    },
+    {
+      "id": "7b2e534be86af9b2"
+    },
+    {
+      "id": "062249a25beff996"
+    },
+    {
+      "id": "9348136eeb630065"
+    },
+    {
+      "id": "2e99fbc9aa394cbe"
+    },
+    {
+      "id": "dd1a8b272889953b"
+    },
+    {
+      "id": "f40bd7496ab3417b"
+    },
+    {
+      "id": "0043ab8321f3322a"
+    },
+    {
+      "id": "2606ebbe04216c1a"
+    },
+    {
+      "id": "9f15a46900270239"
+    },
+    {
+      "id": "0cb17e5318626052"
+    },
+    {
+      "id": "fccb003489795987"
+    },
+    {
+      "id": "91bf16d137964519"
+    },
+    {
+      "id": "ea88901b95b71f1e"
+    },
+    {
+      "id": "a75ceb587ce75db6"
+    },
+    {
+      "id": "1ec4caf1af2a75d6"
+    },
+    {
+      "id": "f7e6e54c755f5abe"
+    },
+    {
+      "id": "f1bbcfb547984969"
+    },
+    {
+      "id": "17bed731a7544621"
+    },
+    {
+      "id": "fbf0b1053a04fa52"
+    },
+    {
+      "id": "f9ba41371c2509ae"
+    },
+    {
+      "id": "e7082fae8f2f00b1"
+    },
+    {
+      "id": "f505d8a490baf55b"
+    },
+    {
+      "id": "b0bc3cf13dfe4502"
+    },
+    {
+      "id": "185d693492222e30"
+    },
+    {
+      "id": "57f97527cd76c8cd"
+    },
+    {
+      "id": "81bf05eb76efbba0"
+    },
+    {
+      "id": "bac9eae44037f33c"
+    },
+    {
+      "id": "6e4a062a078b1598"
+    },
+    {
+      "id": "de319cc42f7c651c"
+    },
+    {
+      "id": "d4c4de0e2770a61c"
+    },
+    {
+      "id": "c768585c7ef05e72"
+    },
+    {
+      "id": "a35c69b556b8d627"
+    },
+    {
+      "id": "eafb048f5871b350"
+    },
+    {
+      "id": "eb6b6d7f0b08a891"
+    },
+    {
+      "id": "79eb6013eb480b32"
+    },
+    {
+      "id": "8a95dafd13430182"
+    },
+    {
+      "id": "0b44b64926588978"
+    },
+    {
+      "id": "9875ab265683bdee"
+    },
+    {
+      "id": "a1567c2057b77ed3"
+    },
+    {
+      "id": "d17dac307d9b3481"
+    },
+    {
+      "id": "67a7398d40aa8026"
+    },
+    {
+      "id": "cdfd0c1dc62d658e"
+    },
+    {
+      "id": "96687b134a889b64"
+    },
+    {
+      "id": "2868c84420e73a33"
+    },
+    {
+      "id": "baef76d1ef356176"
+    },
+    {
+      "id": "5fe95d87461c2c5a"
+    },
+    {
+      "id": "3ec10b2763bd2898"
+    },
+    {
+      "id": "e342a8f6b1a0d368"
+    },
+    {
+      "id": "618517b773f1ab6f"
+    },
+    {
+      "id": "45a7b772e367f55f"
+    },
+    {
+      "id": "f8e959e6ee0fab0a"
+    },
+    {
+      "id": "80d098d98cb7fbe5"
+    },
+    {
+      "id": "9fe2cf1f2ea3eb4c"
+    },
+    {
+      "id": "25fd79aab47aa8d3"
+    },
+    {
+      "id": "33131a72457657dc"
+    },
+    {
+      "id": "3ee7892d9547b46c"
+    },
+    {
+      "id": "46daadbba8dd14c2"
+    },
+    {
+      "id": "bf0d8c6d9b2b0028"
+    },
+    {
+      "id": "c69e48beb51b1f3d"
+    },
+    {
+      "id": "83c60ea05d7f328a"
+    },
+    {
+      "id": "a3028615d988f664"
+    },
+    {
+      "id": "3cd65bbd915f8c45"
+    },
+    {
+      "id": "dfa9792262984f53"
+    },
+    {
+      "id": "ae7b0363c9567381"
+    },
+    {
+      "id": "ddaa7f53e8a7ddb0"
+    },
+    {
+      "id": "58698d4ad0fee164"
+    },
+    {
+      "id": "5b892321ae2136cf"
+    },
+    {
+      "id": "ff549bc270792b21"
+    },
+    {
+      "id": "3af8a28928ab54ab"
+    },
+    {
+      "id": "8abdc8c152b07374"
+    },
+    {
+      "id": "db3e56a35dd1b78e"
+    },
+    {
+      "id": "895c1bd466ee30d7"
+    },
+    {
+      "id": "bda631a0b3c29a04"
+    },
+    {
+      "id": "584266b01706ad7b"
+    },
+    {
+      "id": "7363852fdcaf2325"
+    },
+    {
+      "id": "b4d8a31b8106eb4c"
+    },
+    {
+      "id": "8038abbe59c95e6c"
+    },
+    {
+      "id": "3ca1d0491a1590b4"
+    },
+    {
+      "id": "b46d8b19b0404f6e"
+    },
+    {
+      "id": "144a2cdd26d9acbb"
+    },
+    {
+      "id": "eb9a3c485c613ab0"
+    },
+    {
+      "id": "526cf1f70b476cdb"
+    },
+    {
+      "id": "f0dd04a8d08ebfc6"
+    },
+    {
+      "id": "cf0e4db547a8fdf3"
+    },
+    {
+      "id": "c78e5b81140323be"
+    },
+    {
+      "id": "1091b13d313b4ec9"
+    },
+    {
+      "id": "9a9560cecc94ba22"
+    },
+    {
+      "id": "495ea5c690fd9080"
+    },
+    {
+      "id": "36e7abef387afd21"
+    },
+    {
+      "id": "0ac5cba1b73eb03b"
+    },
+    {
+      "id": "0b7e422379bea4f8"
+    },
+    {
+      "id": "1e6f0bd902c6cf0c"
+    },
+    {
+      "id": "405ac536b160420e"
+    },
+    {
+      "id": "701f46127928990a"
+    },
+    {
+      "id": "b0fae7f04d0544fb"
+    },
+    {
+      "id": "53ac25fdb4398605"
+    },
+    {
+      "id": "bc8add06c67156f0"
+    },
+    {
+      "id": "9ff6f86c7ad019ce"
+    },
+    {
+      "id": "258805adafee1207"
+    },
+    {
+      "id": "1bfed0d55ff244b1"
+    },
+    {
+      "id": "81dfd806dba42711"
+    },
+    {
+      "id": "c26cec0383cf3c9c"
+    },
+    {
+      "id": "b99d03df7fbc0352"
+    },
+    {
+      "id": "7cd0258f594dfa97"
+    },
+    {
+      "id": "bd5aa46fde840cfe"
+    },
+    {
+      "id": "4b05dbdc87d04b76"
+    },
+    {
+      "id": "685fd460ed01735c"
+    },
+    {
+      "id": "a2f9a32426d120c4"
+    },
+    {
+      "id": "0ec204c9abf4fc94"
+    },
+    {
+      "id": "f5a9b089efd730c6"
+    },
+    {
+      "id": "bea019b3bd5c6bf0"
+    },
+    {
+      "id": "0503a4b9c22912a3"
+    },
+    {
+      "id": "7d8bc2603c071b7b"
+    },
+    {
+      "id": "c3ebec992dba3fb2"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "e91d5a8c9049d553",
+      "reason": "Retained Spanish source record 21dec81f9ac31b16ddd8393f7a970e5275878e08c182a2e1bd407302710762b9 defines Fecundar a la hembra and Producir una preñez. Those are causal/result and animal-patient constraints, not an explicit male-animal-agent restriction. English raw tag for animals is likewise ambiguous about patient versus actor. The authored selected context adds a male agent, while the second clause retains generic causation. Withhold until that exact selected reading/context and human-operator valency are independently resolved; do not automatically restore ordinary or certify animals-only.",
+      "proposedAction": "withhold"
+    }
+  ]
+}

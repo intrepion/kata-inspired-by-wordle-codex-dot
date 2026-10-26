@@ -1,0 +1,908 @@
+{
+  "inputSha256": "36f7a8ba664138be4a1ef8cec167497475abccb3b89bf22b19543234c83f4c13",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model cross-review of all 142 exact SPEC-proposed sense/hash/frame/profile combinations against every supplied source sense and context. Prior standards alternatives were not substituted or automatically merged. Approved aspect modes are explicit subsets of the proposal. Unrestricted ordinary profiles are not licensed merely by a context label: source readings with mandatory weather/vessel/plant/animal/liquid/text subject constraints are withheld pending a reviewed restricted-subject renderer. Conventional vessel-crew set-sail usage remains a normal human-capable lexical construction, not imagined personified weather. Source-specific notes apply only to the proposed selected meaning, never another prior sense. Qualified tear overrides were independently checked against pinned AGID rip evidence; no other irregular override is introduced. This is original model quality review, not source quotation or native-human certification, and approvals do not establish rendered-word coverage.",
+  "approved": [
+    {
+      "spanish": "acolar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Heraldic combination of coats of arms, not arbitrary unification of every object."
+    },
+    {
+      "spanish": "adamar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Dated intense-loving state; the pronominal fall-in-love sense is separate."
+    },
+    {
+      "spanish": "adujar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Coiling nautical rope or cable to avoid tangles; fake is the rope-laying term, not deceit."
+    },
+    {
+      "spanish": "afijar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Generic physical fixing/attaching is dated in the Spanish evidence; do not silently merge the modern word-formation sense into this context."
+    },
+    {
+      "spanish": "agolar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Nautical sail-reduction reading; retained Spanish evidence is only the indexed amainar reference."
+    },
+    {
+      "spanish": "ahumar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Applying smoke to food or objects, not smoking tobacco or emitting smoke."
+    },
+    {
+      "spanish": "amover",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "English remove reading; Spanish extract supplies no semantic definition."
+    },
+    {
+      "spanish": "amurar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Figurative abandoning/stranding; Rioplatense, Argentina lunfardo."
+    },
+    {
+      "spanish": "aojar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Archaic visual-looking reading, not evil-eye harm."
+    },
+    {
+      "spanish": "aponer",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Juxtaposing things; English appose sense, with no Spanish semantic gloss retained."
+    },
+    {
+      "spanish": "arrear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Driving livestock forward, especially cattle; herder is the causal actor."
+    },
+    {
+      "spanish": "asomar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Documented intransitive becoming-visible sense; not authorization for unrelated mandatory clitics."
+    },
+    {
+      "spanish": "atibar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Backfilling an excavated space, not completing a written form."
+    },
+    {
+      "spanish": "atufar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Intransitive odor emission; no Spanish semantic gloss retained."
+    },
+    {
+      "spanish": "avocar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Superior-court avocation of a case; legal hearing, not sensory hearing or advocacy."
+    },
+    {
+      "spanish": "azogar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Mercury-backed mirror making, not arbitrary elemental-silver plating."
+    },
+    {
+      "spanish": "becar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Granting study funding; the scholarship is an expressly sourced lexical object."
+    },
+    {
+      "spanish": "bobear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected foolish-speech branch; does not require simultaneously performing foolish acts."
+    },
+    {
+      "spanish": "bochar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Bowls: striking another ball away."
+    },
+    {
+      "spanish": "bolear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Shoe-polishing sense supplied by the English source; that gloss is absent from the retained Spanish extract."
+    },
+    {
+      "spanish": "brezar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Poetic child-rocking meaning; actor is the caregiver."
+    },
+    {
+      "spanish": "caer",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Gravity-driven descent; ordinary bare intransitive use is documented separately from optional pronominal uses."
+    },
+    {
+      "spanish": "cagar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Vulgar defecation meaning."
+    },
+    {
+      "spanish": "campar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Obsolete camping sense; separate from standing out or surpassing others."
+    },
+    {
+      "spanish": "carear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Comparing/collating objects; prior confronting-witnesses sense is not imported."
+    },
+    {
+      "spanish": "celar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Concealing, not supervising, jealousy or metal engraving."
+    },
+    {
+      "spanish": "chalar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Causative loss of reason/judgment; does not translate reflexive going crazy."
+    },
+    {
+      "spanish": "ciar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Nautical backing water with oars, not just retreating on foot."
+    },
+    {
+      "spanish": "copear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Drinking alcoholic beverages; not selling drinks by the glass."
+    },
+    {
+      "spanish": "costar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Monetary price/expense; no experiencer-subject have-a-hard-time mapping. Qualified English cost past forms still need the inflection guard."
+    },
+    {
+      "spanish": "criar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Caregiver raising a child or animal; not creation from nothing or producing institutional appointments."
+    },
+    {
+      "spanish": "cunear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Caregiver gently rocking a child."
+    },
+    {
+      "spanish": "cursar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Taking a course or classes; not routing a document through administration."
+    },
+    {
+      "spanish": "dopar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Materials-science semiconductor doping; not unsupported reflexive self-doping."
+    },
+    {
+      "spanish": "educir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Deduction/elicitation reading; Spanish only documents the uncommon deducir variant, so retain that logical context."
+    },
+    {
+      "spanish": "faenar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Killing livestock and preparing it for food, not maritime work or employment generally."
+    },
+    {
+      "spanish": "fardar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial Spain boasting sense."
+    },
+    {
+      "spanish": "feriar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected buying branch of fair trade; no Spanish semantic gloss retained."
+    },
+    {
+      "spanish": "ferrar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Reinforcing or coating an object with iron; not adding dietary iron."
+    },
+    {
+      "spanish": "fisgar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Curious investigation of hidden information, not harpooning fish."
+    },
+    {
+      "spanish": "foliar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Assigning page/folio numbers, not botanical leaf growth."
+    },
+    {
+      "spanish": "fosar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Excavating a hole or moat; English-source sense only."
+    },
+    {
+      "spanish": "fretar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Surface rubbing/cleaning."
+    },
+    {
+      "spanish": "fungir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Performing an office’s functions; Latin American use. The role is an unexpressed final complement, not a supplied invented office."
+    },
+    {
+      "spanish": "golear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Sports figurative defeat by many goals; not literal hammering."
+    },
+    {
+      "spanish": "guarir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Recovery of health; obsolete in the Spanish source."
+    },
+    {
+      "spanish": "halar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Physical hauling of a rope or similar object."
+    },
+    {
+      "spanish": "hartar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Informal boring/tiring someone, not satisfying appetite."
+    },
+    {
+      "spanish": "hincar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Pressing a pointed object into a target."
+    },
+    {
+      "spanish": "hurgar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Searching carefully among stored things."
+    },
+    {
+      "spanish": "implar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive inflation; English-source semantic evidence only."
+    },
+    {
+      "spanish": "jipiar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected whimpering branch, not simultaneous hiccupping."
+    },
+    {
+      "spanish": "lampar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Scalding a mouth or tongue; English-source sense only."
+    },
+    {
+      "spanish": "laudar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "An appointed arbitrator/judge’s decision; legal register."
+    },
+    {
+      "spanish": "legrar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Surgical scraping of tissue or exposed bone with a curette; scrape also supports ordinary absolute activity use with an instrument phrase."
+    },
+    {
+      "spanish": "levar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Raising an anchored vessel’s anchor, not general lifting or recruiting soldiers."
+    },
+    {
+      "spanish": "liar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Wrapping an object and securing it."
+    },
+    {
+      "spanish": "litar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Uncommon religious sacrifice to please gods; English-source sense only."
+    },
+    {
+      "spanish": "mancar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Arm injury/maiming; avoid importing obsolete lack meanings."
+    },
+    {
+      "spanish": "manear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Restraining a horse with leg hobbles; not walking with a limp."
+    },
+    {
+      "spanish": "manir",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Obsolete remaining in place/state; not hanging meat for aging."
+    },
+    {
+      "spanish": "mayear",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Informal impersonal May-like weather only."
+    },
+    {
+      "spanish": "melgar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Marking sowing strips; English-source sense only."
+    },
+    {
+      "spanish": "mellar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Making a notch or dent, not figuratively diminishing an abstract thing."
+    },
+    {
+      "spanish": "menar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rare livestock-driving sense."
+    },
+    {
+      "spanish": "mesar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Hair ripping, not shedding tears. Verified pinned AGID: tear V: teared {cry}, tore {rip} | torn | tearing | tears. Proposed tore/torn overrides match rip."
+    },
+    {
+      "spanish": "minar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Excavating underground galleries, not every explosive-mine sense."
+    },
+    {
+      "spanish": "miniar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Miniature illustration of a text; no red-lead coating sense imported."
+    },
+    {
+      "spanish": "misar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "A priest celebrating Mass; colloquial English-source label."
+    },
+    {
+      "spanish": "mochar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Cutting off an end or top, not headbutting or bribing."
+    },
+    {
+      "spanish": "molar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Colloquial Spain being pleasing/excellent; not physical rocking."
+    },
+    {
+      "spanish": "mudar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive alteration; no inferred reflexive changing oneself."
+    },
+    {
+      "spanish": "nimbar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Depicting a luminous halo around a sacred figure."
+    },
+    {
+      "spanish": "novar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Legal novation: replace and extinguish an earlier obligation."
+    },
+    {
+      "spanish": "ojear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Visual glance; separate from evil-eye harm or flushing game."
+    },
+    {
+      "spanish": "orlar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Ornamental edging, not cutting something shorter."
+    },
+    {
+      "spanish": "otear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Visual inspection from a high place, not land surveying measurements necessarily."
+    },
+    {
+      "spanish": "pactar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Entering a binding agreement; final matter complement may remain unexpressed."
+    },
+    {
+      "spanish": "palmar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial Spain losing a game, not dying."
+    },
+    {
+      "spanish": "petar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Galicia/León repeated door-knocking, not other petar homographs."
+    },
+    {
+      "spanish": "pifiar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial disapproval cries in Bolivia, Chile, Ecuador and Peru; not Mexican theft."
+    },
+    {
+      "spanish": "punzar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Wounding or perforating with a point."
+    },
+    {
+      "spanish": "rabiar",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Anger state, not rabies disease."
+    },
+    {
+      "spanish": "radiar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Radiation/energy emission; English-source semantic evidence only."
+    },
+    {
+      "spanish": "rasar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rare physical razing/destruction sense."
+    },
+    {
+      "spanish": "redecir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Retelling, not arbitrary repeating of an action; English-source evidence only."
+    },
+    {
+      "spanish": "reglar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Subjecting something to rules, not drawing ruled lines."
+    },
+    {
+      "spanish": "ringar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive hip/loin injury; optional pronominal patient reading is separate."
+    },
+    {
+      "spanish": "roldar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Circulating on rounds; English-source intransitive sense."
+    },
+    {
+      "spanish": "roscar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Cutting screw threads, not inserting sewing thread or political maneuvering."
+    },
+    {
+      "spanish": "rozar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Light physical contact, not feeding on grass."
+    },
+    {
+      "spanish": "rular",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Colloquial Spain passing a cigarette or drink around a group."
+    },
+    {
+      "spanish": "sachar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Removing weeds with a hoe."
+    },
+    {
+      "spanish": "sexar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Determining an animal’s biological sex, not sexual intercourse."
+    },
+    {
+      "spanish": "sirgar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Bank towing of a boat using a line."
+    },
+    {
+      "spanish": "sobar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Manipulating a material to soften it; separate from massage or beating."
+    },
+    {
+      "spanish": "solear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive sun exposure of an object, not an inferred reflexive sunbathing construction."
+    },
+    {
+      "spanish": "sondar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Technical water-depth sounding."
+    },
+    {
+      "spanish": "tajar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Physical slicing/incision."
+    },
+    {
+      "spanish": "tasar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Estimating monetary value, not emotional regard."
+    },
+    {
+      "spanish": "tornar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Returning to a place; no implied again-plus-infinitive construction."
+    },
+    {
+      "spanish": "trozar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Chopping wood into pieces."
+    },
+    {
+      "spanish": "tundir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Repeated punitive beating."
+    },
+    {
+      "spanish": "urdir",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Figurative planning/intrigue, not literal warping of loom threads."
+    },
+    {
+      "spanish": "valuar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Monetary valuation."
+    },
+    {
+      "spanish": "ventar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Impersonal windy-weather blowing only."
+    },
+    {
+      "spanish": "vetear",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Painting vein-like markings, as on wood or marble."
+    },
+    {
+      "spanish": "visar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Official approval/validation; English-source sense only."
+    },
+    {
+      "spanish": "yacer",
+      "aspectModes": [
+        "state-past",
+        "progressive"
+      ],
+      "notes": "Formal/literary recumbent position; English recline is unqualified regular AGID, distinct from lie {fib}."
+    },
+    {
+      "spanish": "zarpar",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "A vessel or its crew departing under sail; no reflexive daring-behavior meaning."
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "acamar",
+      "reason": "Selected crop-flattening sense restricts the cause to wind/rain. Ordinary profile would wrongly render ACAMÉ as I flattened. Withheld until a restricted nonhuman cause-subject renderer is reviewed."
+    },
+    {
+      "spanish": "apurar",
+      "reason": "Exact frozen frame use up completely requires an object before the final completeness modifier in ordinary transitive use; do not authorize a malformed head-only clause."
+    },
+    {
+      "spanish": "arenar",
+      "reason": "Exact transitive sprinkle with sand omits the coated target inside the frozen instrument frame; use an independently reviewed object-safe construction instead."
+    },
+    {
+      "spanish": "arfar",
+      "reason": "Selected arfar sense requires a vessel as subject. Ordinary profile supplies unrestricted human and formal-you clauses; weather/nautical context cannot repair them."
+    },
+    {
+      "spanish": "asonar",
+      "reason": "Selected static assonant-rhyme sense has words/verses as subjects; ordinary human rhyme clauses can describe creating poetry instead. Restricted entity subject support is required."
+    },
+    {
+      "spanish": "baldar",
+      "reason": "Selected baldar source specifies disease/accident as the cause of limb disability. Ordinary unrestricted human-agent clauses are not licensed by that selected definition."
+    },
+    {
+      "spanish": "boyar",
+      "reason": "Selected refloating sense requires a previously grounded vessel as subject; ordinary unrestricted human clauses are not source-supported."
+    },
+    {
+      "spanish": "brotar",
+      "reason": "Selected sprouting sense requires a plant/shoot subject; ordinary human-subject clauses are unsupported by this exact botanical reading."
+    },
+    {
+      "spanish": "bullir",
+      "reason": "Selected boiling sense is intransitive heated liquid. Human I boil could imply causatively boiling a patient; the ordinary profile changes subject roles."
+    },
+    {
+      "spanish": "buzar",
+      "reason": "Selected static dip sense requires a geological seam/layer subject, not unrestricted human actors."
+    },
+    {
+      "spanish": "cundir",
+      "reason": "Selected spreading sense is intransitive liquid/quantity propagation. Ordinary I spread suggests a causal human spreading a patient, not this selected subject."
+    },
+    {
+      "spanish": "florar",
+      "reason": "Selected florar sense requires a plant/tree producing flowers; ordinary human-subject clauses are not licensed."
+    },
+    {
+      "spanish": "frutar",
+      "reason": "Selected fruit-production sense requires a plant/tree, not a human actor or an imported figurative-result sense."
+    },
+    {
+      "spanish": "granar",
+      "reason": "Selected seed/grain development has a plant subject. Human I produce grains implies farming/production rather than the plant developing seeds."
+    },
+    {
+      "spanish": "hirmar",
+      "reason": "Causative make firm needs its target between make and firm; head-only inflection loses the object slot or changes the subject to the thing becoming firm."
+    },
+    {
+      "spanish": "hozar",
+      "reason": "Selected snout-digging sense requires an animal with a snout. Current unrestricted human subject profile needs a separately reviewed animal/entity restriction."
+    },
+    {
+      "spanish": "huevar",
+      "reason": "Selected huevar sense requires a bird beginning egg laying. Ordinary first/second-person human clauses are unsupported."
+    },
+    {
+      "spanish": "humar",
+      "reason": "Selected humar emission sense would render I smoke, which normally describes tobacco consumption; retained smoke-emission context does not fix the subject/sense collision."
+    },
+    {
+      "spanish": "latir",
+      "reason": "Selected latir means a dog barking, not a person making or imitating a bark; ordinary unrestricted human subjects require unsupported personification."
+    },
+    {
+      "spanish": "pender",
+      "reason": "Selected pending state concerns a dispute or matter; ordinary I am pending/he is pending clauses are not source-faithful subject mappings."
+    },
+    {
+      "spanish": "piafar",
+      "reason": "Selected piaffe/stamping sense requires a horse moving its forelegs; unrestricted human stamping changes the selected animal reading."
+    },
+    {
+      "spanish": "pingar",
+      "reason": "Selected intransitive drip sense has liquid as its subject; unrestricted person clauses are not established by this source/context."
+    },
+    {
+      "spanish": "rolar",
+      "reason": "Exact proposal selects wind turning in direction. Ordinary unrestricted human veering clauses cannot be justified by that selected wind context; no broader prior sense is imported."
+    },
+    {
+      "spanish": "rosear",
+      "reason": "Spanish semantic evidence says display a rose color, a static property; proposed turn pink asserts an inchoative color change. The combined showing-or-acquiring context does not resolve the mismatch."
+    },
+    {
+      "spanish": "tascar",
+      "reason": "Exact proposal selects an animal crunching grass/food. Ordinary human subjects would broaden that selected reading; the different Ecuador general-chewing sense is not automatically imported."
+    },
+    {
+      "spanish": "tupir",
+      "reason": "Pack tight is not a sufficiently reliable frozen transitive frame here: the packed target normally intervenes before tight, and an intransitive group-packing reading changes the construction."
+    },
+    {
+      "spanish": "tutear",
+      "reason": "Address with tú requires an addressee between address and with; frozen tail lacks that middle object slot."
+    },
+    {
+      "spanish": "urgir",
+      "reason": "Selected be-urgent state concerns an action or need; unrestricted I am urgent/formal-you clauses do not preserve the source subject."
+    },
+    {
+      "spanish": "versar",
+      "reason": "Selected versar sense has a book, speech or conversation concerning a topic. I deal with would instead suggest a human handling a matter."
+    },
+    {
+      "spanish": "vosear",
+      "reason": "Address with vos requires an addressee between address and with; frozen tail lacks that middle object slot."
+    },
+    {
+      "spanish": "voznar",
+      "reason": "Exact proposal selects a duck’s call; unrestricted human quacking would be imitation or another meaning not independently established here."
+    },
+    {
+      "spanish": "zapear",
+      "reason": "Channel surf is a compound predicate with surf as its verbal head; first-token inflection would produce he channels surf or I channeled surf. Exact proposed frame not supported by this renderer."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "inputSha256": "51ba0cf25756e2f8894e378971ecb96d49098286ce54d16e6604e1ef1cc42860",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model reassessment of all ten exact narrowed source/rendering/synset proposals; not native-human certification. Original Spanish raw-line hashes and selected senses independently checked against pinned gzip; exact WordNet noun and MCR lemma lines verified locally. Prior decisions remain archival and are not silently overwritten.",
+  "approved": [
+    {
+      "spanish": "alcea",
+      "word": "ALCEA",
+      "synset": "12173407-n",
+      "english": [
+        "hollyhock genus (Alcea)"
+      ],
+      "context": "Spanish source explicitly identifies Alcea as a plant genus; resolves prior common-name/genus uncertainty. Do not collapse genus to a single species.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "14c666c1e3fd6a836e3ab402d4d81681a67bb64e2fb80ffbd183e2f1ea05dbe6",
+      "wordnetRecordSha256": "8b6d2d3a86c9c882fd22881c488b78a22ecfec935d8ece88a228b9c10156d8b6",
+      "mcrRecordSha256": "7f6106a0701bf77f9ff930e0ec1793b49de07819b797728cf9667fb6bcf07bff",
+      "notes": "Genus-level plant meaning now explicitly supported; do not present a single hollyhock species or source species counts as current botanical facts.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "atropa",
+      "word": "ATROPA",
+      "synset": "12898226-n",
+      "english": [
+        "belladonna plant genus (Atropa)"
+      ],
+      "context": "Spanish source explicitly identifies genus Atropa in Solanaceae; genus is intended, not a named individual plant.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "afccfb35ba4778d1a5e9a839dd4fc8b9fe276ecfb60dfa72cf03afefe67fe9c5",
+      "wordnetRecordSha256": "f8060c22287814a4f6ba283f5d4bc6d22d8afca328b276f61b7a205ce6160d37",
+      "mcrRecordSha256": "e020b4a3ac2a9fb6bc0ae87d4c0da7e8b7b8c7d0f37b5af1b6edcf7782e977df",
+      "notes": "Genus Atropa is explicit in Spanish and in English synset synonyms, despite the terse WordNet definition belladonna. Keep genus wording.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "dula",
+      "word": "DULA",
+      "synset": "08542304-n",
+      "english": [
+        "common grazing land"
+      ],
+      "context": "Selected communal pasture sense, not irrigation allotment or the herd grazing on it.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "7a90631f5312c7eb8a778b3a90f43efbdfe3b975d74bc814c97e31c0578738fa",
+      "wordnetRecordSha256": "a83cabe4524f8f57f0c727c8ed1c5d9795fe98a78473d13a026aa5c036415d12",
+      "mcrRecordSha256": "7639cc3445aa6f80aca8c68d38678a70bd71e435f8df3b8671427570fa402cac",
+      "notes": "Selected communal grazing ground, not collective herd or irrigation turn. Grammatical gender is not needed for this meaning and is not independently endorsed.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "gabarro",
+      "word": "GABARRO",
+      "synset": "00072808-n",
+      "english": [
+        "error in calculations"
+      ],
+      "context": "Selected accidental accounting-error subset; source also permits malicious errors, which this narrow WordNet mistake rendering does not exhaust.",
+      "selectedSpanishSenseIndex": 2,
+      "spanishRecordSha256": "2319938262ace20b6221979b56d5343dbf4f249157d056fab0800c3d641f1f8b",
+      "wordnetRecordSha256": "5da36bac424550ee7cfcd5f277df4cdcd2770c3bfd8e0975894418bca248672f",
+      "mcrRecordSha256": "3e9ed1fb6c740c5b35384cfa0844bfc10886e3ea6cfc758a61fc76160892e803",
+      "notes": "Accounting-error sense corroborated. Accidental error is an explicitly narrowed subset; intentional fraud/malicia is not exhausted by miscalculation.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "gambuza",
+      "word": "GAMBUZA",
+      "synset": "04329477-n",
+      "english": [
+        "ship's provisions storeroom"
+      ],
+      "context": "Spanish narrows the broad WordNet storeroom concept to a merchant ship food store; not every storage room is a gambuza.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "cd8b8b633488d0baf162549cf338c53424e9bd70491969434790efb8fa803b5e",
+      "wordnetRecordSha256": "6df0c354a56cb992600ff989fb30eaebf5fa4cb30e8c583a9ae4327ed6cbad89",
+      "mcrRecordSha256": "402a52225ad8928148a1a44659eacd90c4b08ca1577ffad017aa567a2e1920eb",
+      "notes": "Merchant-vessel provisions storeroom; retain ship restriction rather than applying generic storeroom synonym to all rooms.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "maesa",
+      "word": "MAESA",
+      "synset": "02207345-n",
+      "english": [
+        "queen bee"
+      ],
+      "context": "Selected bee caste sense, distinct from a female teacher. Female/egg-laying biological role is source-bound, not inferred grammatical gender.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "c0bef685472b4349446f65c7ccd877a7a8d3b24b58b225f277c38f7847d83548",
+      "wordnetRecordSha256": "381636e8b7534c2358a14664f5f3009d2b6bcaddd45220af9b86a556e295d226",
+      "mcrRecordSha256": "4289a02920a1474c807582967e47eb5d98e46305ab356bc567cd995250db2236",
+      "notes": "Queen bee is explicit; female caste/egg-laying role is biological meaning, not inference from feminine grammar.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "pozanco",
+      "word": "POZANCO",
+      "synset": "09397607-n",
+      "english": [
+        "puddle left beside a river after floodwater recedes"
+      ],
+      "context": "Specific river-margin standing-water pool; not every rain puddle or a pool of another liquid.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "7bc25364034593b56467df6d755e08e2bad7d9e347aeed548aa2ac59c647d501",
+      "wordnetRecordSha256": "a5dd2f0fc61d290e125af944ecae65f35cd420505e741a08861a6f3d12698136",
+      "mcrRecordSha256": "bdb2580f43c61017c8aad9abf6beac60291efd44d5b7e29277304ec93745a2d8",
+      "notes": "Standing water left at river margins after a flood; not generic puddles of every liquid.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "quicial",
+      "word": "QUICIAL",
+      "synset": "03521431-n",
+      "english": [
+        "gate hinge post"
+      ],
+      "context": "Selected gate/door-support post on which hinges turn, not an entire window frame. Source doors include the gate use selected by the exact MCR synset.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "6453093f8d4faf846a03ce92641ed5d136ad8c25924c8ec35f384b90da9873ba",
+      "wordnetRecordSha256": "02f2070ccb4e67ee2ed3fb066d470b63e8a47c8fdec938dc5556f6867024173b",
+      "mcrRecordSha256": "c5fafd682304e3d97db41d7366574196dbc0e947b0d07aba965489a2f23cfaea",
+      "notes": "Hinge-bearing door/gate support post. Gate use is a defensible selected subset of Spanish puertas; window-frame and whole-opening senses excluded.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "retallo",
+      "word": "RETALLO",
+      "synset": "04176747-n",
+      "english": [
+        "wall setback"
+      ],
+      "context": "Selected structural step where a wall recedes; not a plant shoot or financial offset.",
+      "selectedSpanishSenseIndex": 0,
+      "spanishRecordSha256": "90e3893fb6fef952b269d8eef775d1d512221d86967251e1008338c7fbb016e1",
+      "wordnetRecordSha256": "a0964ba37ed22e92d31af194a3dd815a31161779f53df1bda9dcfb4202b91d1c",
+      "mcrRecordSha256": "4ab4f39c8ededfcef0bf9159cf65e25f4ea7f7cf4415362be2983c2268c29414",
+      "notes": "Architectural step in a receding/stepped wall matches wall setback, not plant growth. MCR/WordNet evidence supplies the exact narrowed architectural alignment.",
+      "previousHoldRemainsArchival": true
+    },
+    {
+      "spanish": "terraja",
+      "word": "TERRAJA",
+      "synset": "03193754-n",
+      "english": [
+        "diestock"
+      ],
+      "context": "Selected tool holding external-thread-cutting dies, not the bell-founder template or insulting personal senses.",
+      "selectedSpanishSenseIndex": 1,
+      "spanishRecordSha256": "57f97dcf9b907fe6951ae02779e8a576b6a4332ed15691cbdaf2de18c1569042",
+      "wordnetRecordSha256": "3e8ae0864e66802e3fff64e935ab631b60d3279870f569d17e1b28dfdd17f11f",
+      "mcrRecordSha256": "5ae8355c1acf726df347d1be14fb7ab5da8d6aad619c852027e96f9075fdb9f0",
+      "notes": "The selected Spanish holder with a central box for thread-cutting pieces matches diestock, not simply a die or unrelated template.",
+      "previousHoldRemainsArchival": true
+    }
+  ],
+  "held": [],
+  "retainedOtherHolds": [
+    {
+      "spanish": "chispeo",
+      "synset": "04952944-n",
+      "reason": "Only newly encountered noun alignment. Current retained Spanish entry does not supply an independent noun meaning; do not infer sparkling from an uncorroborated verb-form spelling or English synonym."
+    },
+    {
+      "spanish": "cícero",
+      "reason": "Its approximately4.5mm unit is not the exact one-sixth-inch pica synset."
+    },
+    {
+      "spanish": "termia",
+      "reason": "Not equivalent to the English100000-BTU therm."
+    },
+    {
+      "spanish": "protio",
+      "reason": "Hydrogen isotope, not plant genus Protium."
+    },
+    {
+      "spanish": "pruno",
+      "reason": "Spanish tree term, not English prison alcohol."
+    },
+    {
+      "spanish": "silaba",
+      "reason": "Accent distinction matters: not the Spanish noun sílaba."
+    }
+  ],
+  "sourcePins": {
+    "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+    "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+    "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+    "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+    "spanishLicense": "CC-BY-3.0",
+    "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+    "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+    "modifications": "Exact WordNet 3.0 noun-synset joins, independently reviewed selected English renderings, no quotations or examples.",
+    "englishNounDataSha256": "489f145e0f68877c0be5bd0eb4117adaaac52f38f6204eb8d85dbe2158b614cc",
+    "baselineCoverageAuditSha256": "4b48591f63123b81d3d254eb4eb581d15d5fdcc96ed8c8d65f12cd8e3ac43464",
+    "supplementalSpanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "supplementalSpanishLicense": "CC-BY-SA-4.0"
+  },
+  "counts": {
+    "reassessmentCasesReviewed": 10,
+    "approved": 10,
+    "held": 0,
+    "separateUnchangedHolds": 6
+  },
+  "limitations": [
+    "These are newly corroborated selected-sense approvals, not ten proven new runtime spellings; deduplicate against active providers.",
+    "Keep narrowed contexts and source identities; no new plural/female derivative or verb/adjective authorization.",
+    "Derived English renderings are model-reviewed and combine licensed sources, not verbatim dictionary-provided translations or Mexican-only senses.",
+    "Raw Spanish grammatical gender is not independently verified and should not be claimed as reviewed merely from these approvals.",
+    "No source quotations/examples/media copied into this review; no production files changed."
+  ]
+}

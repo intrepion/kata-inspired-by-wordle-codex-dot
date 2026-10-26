@@ -1,0 +1,902 @@
+[
+  {
+    "word": "ABAD",
+    "translation": "abbot",
+    "example": "El abad recibió a los visitantes.",
+    "exampleTranslation": "The abbot welcomed the visitors."
+  },
+  {
+    "word": "ABAJO",
+    "translation": "downstairs; below",
+    "example": "Dejé los zapatos abajo.",
+    "exampleTranslation": "I left the shoes downstairs."
+  },
+  {
+    "word": "ABANICO",
+    "translation": "hand fan",
+    "example": "Mi tía abrió su abanico.",
+    "exampleTranslation": "My aunt opened her hand fan."
+  },
+  {
+    "word": "ABARCA",
+    "translation": "rustic leather sandal",
+    "example": "La abarca llevaba correas de cuero.",
+    "exampleTranslation": "The rustic sandal had leather straps."
+  },
+  {
+    "word": "ABDOMEN",
+    "translation": "abdomen",
+    "example": "El médico me revisó el abdomen.",
+    "exampleTranslation": "The doctor examined my abdomen."
+  },
+  {
+    "word": "ABIERTO",
+    "translation": "open",
+    "example": "El mercado sigue abierto.",
+    "exampleTranslation": "The market is still open."
+  },
+  {
+    "word": "ABISMO",
+    "translation": "abyss; deep chasm",
+    "example": "Vimos un abismo desde el puente.",
+    "exampleTranslation": "We saw a deep chasm from the bridge."
+  },
+  {
+    "word": "ABOGADO",
+    "translation": "lawyer",
+    "example": "El abogado explicó el contrato.",
+    "exampleTranslation": "The lawyer explained the contract."
+  },
+  {
+    "word": "ABONO",
+    "translation": "fertilizer",
+    "example": "Pusimos abono en el huerto.",
+    "exampleTranslation": "We put fertilizer in the vegetable garden."
+  },
+  {
+    "word": "ABORDAR",
+    "translation": "to board",
+    "example": "Vamos a abordar el barco.",
+    "exampleTranslation": "We are going to board the ship."
+  },
+  {
+    "word": "ABORTO",
+    "translation": "miscarriage; abortion",
+    "example": "El hospital ofrece atención después de un aborto.",
+    "exampleTranslation": "The hospital provides care after a miscarriage or abortion."
+  },
+  {
+    "word": "ABRAZO",
+    "translation": "hug",
+    "example": "Mi abuelo me dio un abrazo.",
+    "exampleTranslation": "My grandfather gave me a hug."
+  },
+  {
+    "word": "ABRIL",
+    "translation": "April",
+    "example": "En abril visitamos Puebla.",
+    "exampleTranslation": "We visited Puebla in April."
+  },
+  {
+    "word": "ABRIRSE",
+    "translation": "to open",
+    "example": "La puerta empezó a abrirse.",
+    "exampleTranslation": "The door began to open."
+  },
+  {
+    "word": "ABSURDO",
+    "translation": "absurd",
+    "example": "Ese plan parece absurdo.",
+    "exampleTranslation": "That plan seems absurd."
+  },
+  {
+    "word": "ABUSAR",
+    "translation": "to misuse; to overuse",
+    "example": "No conviene abusar del azúcar.",
+    "exampleTranslation": "It is not wise to consume too much sugar."
+  },
+  {
+    "word": "ABUSO",
+    "translation": "abuse; misuse",
+    "example": "Denunciaron el abuso de autoridad.",
+    "exampleTranslation": "They reported the abuse of authority."
+  },
+  {
+    "word": "ACABADO",
+    "translation": "worn out; ruined",
+    "example": "Ese motor está acabado.",
+    "exampleTranslation": "That engine is worn out."
+  },
+  {
+    "word": "ACASO",
+    "translation": "perhaps; by any chance",
+    "example": "¿Acaso tienes otra llave?",
+    "exampleTranslation": "Do you happen to have another key?"
+  },
+  {
+    "word": "ACCEDER",
+    "translation": "to access",
+    "example": "Puedes acceder al archivo desde aquí.",
+    "exampleTranslation": "You can access the file from here."
+  },
+  {
+    "word": "ACCESO",
+    "translation": "access; entry",
+    "example": "El acceso al museo es gratuito.",
+    "exampleTranslation": "Entry to the museum is free."
+  },
+  {
+    "word": "ACCIÓN",
+    "translation": "action",
+    "example": "Una pequeña acción cambió el resultado.",
+    "exampleTranslation": "A small action changed the outcome."
+  },
+  {
+    "word": "ACERA",
+    "translation": "sidewalk",
+    "example": "Caminamos por la acera.",
+    "exampleTranslation": "We walked along the sidewalk."
+  },
+  {
+    "word": "ACERCAR",
+    "translation": "to bring closer",
+    "example": "Puedes acercar la silla.",
+    "exampleTranslation": "You can bring the chair closer."
+  },
+  {
+    "word": "ACERO",
+    "translation": "steel",
+    "example": "El puente tiene vigas de acero.",
+    "exampleTranslation": "The bridge has steel beams."
+  },
+  {
+    "word": "ACIERTO",
+    "translation": "correct choice; success",
+    "example": "Comprar esa herramienta fue un acierto.",
+    "exampleTranslation": "Buying that tool was a good choice."
+  },
+  {
+    "word": "ACLARAR",
+    "translation": "to clarify",
+    "example": "Necesito aclarar una duda.",
+    "exampleTranslation": "I need to clear up a question."
+  },
+  {
+    "word": "ACOGER",
+    "translation": "to welcome; to host",
+    "example": "Podemos acoger a nuestros primos.",
+    "exampleTranslation": "We can host our cousins."
+  },
+  {
+    "word": "ACOGIDA",
+    "translation": "welcome; reception",
+    "example": "Nos dieron una acogida cálida.",
+    "exampleTranslation": "They gave us a warm welcome."
+  },
+  {
+    "word": "ACORDE",
+    "translation": "consistent; in keeping",
+    "example": "El precio es acorde con la calidad.",
+    "exampleTranslation": "The price is consistent with the quality."
+  },
+  {
+    "word": "ACOSO",
+    "translation": "harassment",
+    "example": "La escuela tiene medidas contra el acoso.",
+    "exampleTranslation": "The school has measures against harassment."
+  },
+  {
+    "word": "ACTA",
+    "translation": "official record; minutes",
+    "example": "Firmamos el acta de la reunión.",
+    "exampleTranslation": "We signed the meeting minutes."
+  },
+  {
+    "word": "ACTIVAR",
+    "translation": "to activate",
+    "example": "Hay que activar la alarma.",
+    "exampleTranslation": "We need to activate the alarm."
+  },
+  {
+    "word": "ACTIVO",
+    "translation": "active",
+    "example": "El ingrediente activo reduce la inflamación.",
+    "exampleTranslation": "The active ingredient reduces inflammation."
+  },
+  {
+    "word": "ACTO",
+    "translation": "act; deed",
+    "example": "Fue un acto de generosidad.",
+    "exampleTranslation": "It was an act of generosity."
+  },
+  {
+    "word": "ACTUAL",
+    "translation": "current; present-day",
+    "example": "El horario actual termina temprano.",
+    "exampleTranslation": "The current schedule ends early."
+  },
+  {
+    "word": "ACTUAR",
+    "translation": "to act; to take action",
+    "example": "Debemos actuar antes de la lluvia.",
+    "exampleTranslation": "We must take action before the rain."
+  },
+  {
+    "word": "ACUARIO",
+    "translation": "aquarium",
+    "example": "Visitamos el acuario del puerto.",
+    "exampleTranslation": "We visited the aquarium at the port."
+  },
+  {
+    "word": "ACUDIR",
+    "translation": "to go; to attend",
+    "example": "Voy a acudir a la reunión.",
+    "exampleTranslation": "I am going to attend the meeting."
+  },
+  {
+    "word": "ACUERDO",
+    "translation": "agreement",
+    "example": "Llegamos a un acuerdo justo.",
+    "exampleTranslation": "We reached a fair agreement."
+  },
+  {
+    "word": "ACUSADO",
+    "translation": "noticeable; pronounced",
+    "example": "El contraste entre los colores es acusado.",
+    "exampleTranslation": "The contrast between the colors is pronounced."
+  },
+  {
+    "word": "ACUSAR",
+    "translation": "to accuse",
+    "example": "No debes acusar a nadie sin pruebas.",
+    "exampleTranslation": "You should not accuse anyone without evidence."
+  },
+  {
+    "word": "ADAPTAR",
+    "translation": "to adapt",
+    "example": "Necesitamos adaptar la receta.",
+    "exampleTranslation": "We need to adapt the recipe."
+  },
+  {
+    "word": "ADEMÁS",
+    "translation": "also; besides",
+    "example": "Además, trajimos fruta para todos.",
+    "exampleTranslation": "We also brought fruit for everyone."
+  },
+  {
+    "word": "ADENTRO",
+    "translation": "inside",
+    "example": "Pasa adentro; está lloviendo.",
+    "exampleTranslation": "Come inside; it is raining."
+  },
+  {
+    "word": "ADICIÓN",
+    "translation": "addition",
+    "example": "La adición de agua suavizó la masa.",
+    "exampleTranslation": "Adding water softened the dough."
+  },
+  {
+    "word": "ADICTO",
+    "translation": "addicted",
+    "example": "El personaje es adicto al juego.",
+    "exampleTranslation": "The character is addicted to gambling."
+  },
+  {
+    "word": "ADIÓS",
+    "translation": "goodbye",
+    "example": "Adiós, nos vemos mañana.",
+    "exampleTranslation": "Goodbye, see you tomorrow."
+  },
+  {
+    "word": "ADJUNTO",
+    "translation": "attached",
+    "example": "El archivo adjunto contiene las fotos.",
+    "exampleTranslation": "The attached file contains the photos."
+  },
+  {
+    "word": "ADMIRAR",
+    "translation": "to admire",
+    "example": "Nos detuvimos a admirar el paisaje.",
+    "exampleTranslation": "We stopped to admire the scenery."
+  },
+  {
+    "word": "ADMITIR",
+    "translation": "to admit; to let in",
+    "example": "El refugio puede admitir más animales.",
+    "exampleTranslation": "The shelter can take in more animals."
+  },
+  {
+    "word": "ADOBE",
+    "translation": "adobe; sun-dried mud brick",
+    "example": "La casa tiene muros de adobe.",
+    "exampleTranslation": "The house has adobe walls."
+  },
+  {
+    "word": "ADONDE",
+    "translation": "to where",
+    "example": "Fuimos adonde vive mi prima.",
+    "exampleTranslation": "We went to where my cousin lives."
+  },
+  {
+    "word": "ADUANA",
+    "translation": "customs office",
+    "example": "Declaramos la mercancía en la aduana.",
+    "exampleTranslation": "We declared the goods at customs."
+  },
+  {
+    "word": "ADULTO",
+    "translation": "adult; fully grown",
+    "example": "El alumno adulto estudia por la tarde.",
+    "exampleTranslation": "The adult student studies in the afternoon."
+  },
+  {
+    "word": "AFICIÓN",
+    "translation": "interest; enthusiasm",
+    "example": "Tengo afición por la fotografía.",
+    "exampleTranslation": "I have an interest in photography."
+  },
+  {
+    "word": "AFIRMAR",
+    "translation": "to state firmly",
+    "example": "No puedo afirmar eso todavía.",
+    "exampleTranslation": "I cannot state that with certainty yet."
+  },
+  {
+    "word": "AFUERA",
+    "translation": "outside",
+    "example": "Los niños están afuera.",
+    "exampleTranslation": "The children are outside."
+  },
+  {
+    "word": "AFÁN",
+    "translation": "eagerness; intense desire",
+    "example": "Trabajó con afán por mejorar.",
+    "exampleTranslation": "She worked eagerly to improve."
+  },
+  {
+    "word": "AGARRAR",
+    "translation": "to grab; to hold",
+    "example": "Voy a agarrar la cuerda.",
+    "exampleTranslation": "I am going to grab the rope."
+  },
+  {
+    "word": "AGARRE",
+    "translation": "grip",
+    "example": "El mango ofrece buen agarre.",
+    "exampleTranslation": "The handle provides a good grip."
+  },
+  {
+    "word": "AGENCIA",
+    "translation": "agency",
+    "example": "La agencia organiza viajes.",
+    "exampleTranslation": "The agency organizes trips."
+  },
+  {
+    "word": "AGENDA",
+    "translation": "appointment book",
+    "example": "Anoté la cita en mi agenda.",
+    "exampleTranslation": "I wrote the appointment in my planner."
+  },
+  {
+    "word": "AGONÍA",
+    "translation": "agony of dying",
+    "example": "La familia lo acompañó durante su agonía.",
+    "exampleTranslation": "The family stayed with him as he lay dying."
+  },
+  {
+    "word": "AGOTADO",
+    "translation": "exhausted",
+    "example": "Llegué agotado después de caminar.",
+    "exampleTranslation": "I arrived exhausted after walking."
+  },
+  {
+    "word": "AGRADO",
+    "translation": "pleasure; satisfaction",
+    "example": "Recibimos la noticia con agrado.",
+    "exampleTranslation": "We were pleased to hear the news."
+  },
+  {
+    "word": "AGREGAR",
+    "translation": "to add",
+    "example": "Puedes agregar otra silla.",
+    "exampleTranslation": "You can add another chair."
+  },
+  {
+    "word": "AGRESOR",
+    "translation": "aggressive; attacking",
+    "example": "El grupo agresor abandonó el lugar.",
+    "exampleTranslation": "The attacking group left the place."
+  },
+  {
+    "word": "AGRO",
+    "translation": "agricultural countryside",
+    "example": "La sequía afectó al agro de la región.",
+    "exampleTranslation": "The drought affected the region's farmland."
+  },
+  {
+    "word": "AGUAS",
+    "translation": "watch out!",
+    "example": "¡Aguas, viene una bicicleta!",
+    "exampleTranslation": "Watch out, a bicycle is coming!"
+  },
+  {
+    "word": "AGUDO",
+    "translation": "sharp; pointed",
+    "example": "El cuchillo tiene un filo agudo.",
+    "exampleTranslation": "The knife has a sharp edge."
+  },
+  {
+    "word": "AGUJERO",
+    "translation": "hole",
+    "example": "Hay un agujero en la bolsa.",
+    "exampleTranslation": "There is a hole in the bag."
+  },
+  {
+    "word": "AHORA",
+    "translation": "now",
+    "example": "Ahora podemos descansar.",
+    "exampleTranslation": "Now we can rest."
+  },
+  {
+    "word": "AHORITA",
+    "translation": "right now; in a moment",
+    "example": "Ahorita termino y te ayudo.",
+    "exampleTranslation": "I will finish in a moment and help you."
+  },
+  {
+    "word": "AISLADO",
+    "translation": "isolated",
+    "example": "El pueblo quedó aislado por la nieve.",
+    "exampleTranslation": "The village was cut off by the snow."
+  },
+  {
+    "word": "AJEDREZ",
+    "translation": "chess",
+    "example": "Jugamos ajedrez después de comer.",
+    "exampleTranslation": "We played chess after lunch."
+  },
+  {
+    "word": "AJUSTAR",
+    "translation": "to adjust",
+    "example": "Necesito ajustar la correa.",
+    "exampleTranslation": "I need to adjust the strap."
+  },
+  {
+    "word": "ALAMBRE",
+    "translation": "wire",
+    "example": "Sujetamos la cerca con alambre.",
+    "exampleTranslation": "We secured the fence with wire."
+  },
+  {
+    "word": "ALAMEDA",
+    "translation": "poplar grove",
+    "example": "Caminamos por una alameda sombreada.",
+    "exampleTranslation": "We walked through a shady poplar grove."
+  },
+  {
+    "word": "ALARMA",
+    "translation": "alarm",
+    "example": "La alarma sonó a las seis.",
+    "exampleTranslation": "The alarm rang at six."
+  },
+  {
+    "word": "ALBA",
+    "translation": "dawn",
+    "example": "Salimos al alba para evitar el calor.",
+    "exampleTranslation": "We left at dawn to avoid the heat."
+  },
+  {
+    "word": "ALCALDE",
+    "translation": "mayor",
+    "example": "El alcalde presentó el proyecto.",
+    "exampleTranslation": "The mayor presented the project."
+  },
+  {
+    "word": "ALCANCE",
+    "translation": "reach",
+    "example": "La caja está fuera de mi alcance.",
+    "exampleTranslation": "The box is beyond my reach."
+  },
+  {
+    "word": "ALCOHOL",
+    "translation": "alcohol (chemical compound)",
+    "example": "El etanol es un alcohol.",
+    "exampleTranslation": "Ethanol is an alcohol."
+  },
+  {
+    "word": "ALEGRO",
+    "translation": "allegro; brisk musical tempo",
+    "example": "La pianista tocó un alegro breve.",
+    "exampleTranslation": "The pianist played a short allegro."
+  },
+  {
+    "word": "ALEJADO",
+    "translation": "distant; far away",
+    "example": "El rancho está alejado del pueblo.",
+    "exampleTranslation": "The ranch is far from the town."
+  },
+  {
+    "word": "ALEJAR",
+    "translation": "to move away",
+    "example": "Debes alejar el papel del fuego.",
+    "exampleTranslation": "You should move the paper away from the fire."
+  },
+  {
+    "word": "ALEMÁN",
+    "translation": "German",
+    "example": "Probamos un pan alemán.",
+    "exampleTranslation": "We tried a German bread."
+  },
+  {
+    "word": "ALENTAR",
+    "translation": "to encourage",
+    "example": "Queremos alentar a los estudiantes.",
+    "exampleTranslation": "We want to encourage the students."
+  },
+  {
+    "word": "ALERGIA",
+    "translation": "allergy",
+    "example": "Tengo alergia al polvo.",
+    "exampleTranslation": "I am allergic to dust."
+  },
+  {
+    "word": "ALERTA",
+    "translation": "alert; watchful",
+    "example": "El guardia permaneció alerta.",
+    "exampleTranslation": "The guard remained alert."
+  },
+  {
+    "word": "ALFA",
+    "translation": "alpha (Greek letter)",
+    "example": "El esquema comienza con alfa.",
+    "exampleTranslation": "The diagram starts with alpha."
+  },
+  {
+    "word": "ALGO",
+    "translation": "something; a small amount",
+    "example": "Queda algo de sopa.",
+    "exampleTranslation": "There is some soup left."
+  },
+  {
+    "word": "ALGUIEN",
+    "translation": "someone",
+    "example": "Alguien dejó una chamarra aquí.",
+    "exampleTranslation": "Someone left a jacket here."
+  },
+  {
+    "word": "ALGUNO",
+    "translation": "some; any",
+    "example": "¿Queda alguno de esos panes?",
+    "exampleTranslation": "Are any of those bread rolls left?"
+  },
+  {
+    "word": "ALGÚN",
+    "translation": "some; any (before a masculine noun)",
+    "example": "¿Tienes algún consejo?",
+    "exampleTranslation": "Do you have any advice?"
+  },
+  {
+    "word": "ALIADO",
+    "translation": "allied",
+    "example": "Un país aliado envió ayuda.",
+    "exampleTranslation": "An allied country sent aid."
+  },
+  {
+    "word": "ALIANZA",
+    "translation": "alliance",
+    "example": "Las cooperativas formaron una alianza.",
+    "exampleTranslation": "The cooperatives formed an alliance."
+  },
+  {
+    "word": "ALIAS",
+    "translation": "alias; nickname",
+    "example": "Lo conocemos por su alias.",
+    "exampleTranslation": "We know him by his nickname."
+  },
+  {
+    "word": "ALIENTO",
+    "translation": "breath",
+    "example": "Su aliento empañó el vidrio.",
+    "exampleTranslation": "His breath fogged the glass."
+  },
+  {
+    "word": "ALIVIAR",
+    "translation": "to lighten; to ease",
+    "example": "La mochila nueva ayuda a aliviar la carga.",
+    "exampleTranslation": "The new backpack helps lighten the load."
+  },
+  {
+    "word": "ALIVIO",
+    "translation": "relief",
+    "example": "Sentí alivio al encontrar mis llaves.",
+    "exampleTranslation": "I felt relieved when I found my keys."
+  },
+  {
+    "word": "ALLENDE",
+    "translation": "beyond; on the far side of",
+    "example": "Allende el río se extiende la sierra.",
+    "exampleTranslation": "Beyond the river stretches the mountain range."
+  },
+  {
+    "word": "ALLÁ",
+    "translation": "over there",
+    "example": "Dejamos el carro allá.",
+    "exampleTranslation": "We left the car over there."
+  },
+  {
+    "word": "ALLÍ",
+    "translation": "there",
+    "example": "La entrada está allí.",
+    "exampleTranslation": "The entrance is there."
+  },
+  {
+    "word": "ALMA",
+    "translation": "soul",
+    "example": "La canción habla del alma humana.",
+    "exampleTranslation": "The song speaks of the human soul."
+  },
+  {
+    "word": "ALMACÉN",
+    "translation": "warehouse; storeroom",
+    "example": "Guardamos las cajas en el almacén.",
+    "exampleTranslation": "We stored the boxes in the warehouse."
+  },
+  {
+    "word": "ALTA",
+    "translation": "hospital discharge",
+    "example": "Le dieron el alta esta mañana.",
+    "exampleTranslation": "She was discharged from the hospital this morning."
+  },
+  {
+    "word": "ALTERAR",
+    "translation": "to change; to alter",
+    "example": "El calor puede alterar el sabor.",
+    "exampleTranslation": "Heat can change the flavor."
+  },
+  {
+    "word": "ALTEZA",
+    "translation": "Your Highness",
+    "example": "El mensajero se dirigió a su alteza.",
+    "exampleTranslation": "The messenger addressed His Highness."
+  },
+  {
+    "word": "ALTITUD",
+    "translation": "altitude",
+    "example": "La altitud dificulta la respiración.",
+    "exampleTranslation": "The altitude makes breathing difficult."
+  },
+  {
+    "word": "ALTO",
+    "translation": "high; tall",
+    "example": "El muro es muy alto.",
+    "exampleTranslation": "The wall is very high."
+  },
+  {
+    "word": "ALUMNO",
+    "translation": "student",
+    "example": "El alumno resolvió el ejercicio.",
+    "exampleTranslation": "The student solved the exercise."
+  },
+  {
+    "word": "ALUSIÓN",
+    "translation": "allusion; reference",
+    "example": "Hizo una alusión al viaje.",
+    "exampleTranslation": "She made a reference to the trip."
+  },
+  {
+    "word": "AMADO",
+    "translation": "beloved",
+    "example": "Volvió a su amado pueblo.",
+    "exampleTranslation": "He returned to his beloved town."
+  },
+  {
+    "word": "AMANTE",
+    "translation": "lover; person who loves",
+    "example": "Es un amante de la música.",
+    "exampleTranslation": "He is a music lover."
+  },
+  {
+    "word": "AMAR",
+    "translation": "to love",
+    "example": "Aprendí a amar este lugar.",
+    "exampleTranslation": "I learned to love this place."
+  },
+  {
+    "word": "AMARGO",
+    "translation": "bitter",
+    "example": "El café quedó amargo.",
+    "exampleTranslation": "The coffee turned out bitter."
+  },
+  {
+    "word": "AMATEUR",
+    "translation": "amateur",
+    "example": "Un fotógrafo amateur tomó la foto.",
+    "exampleTranslation": "An amateur photographer took the photo."
+  },
+  {
+    "word": "AMENAZA",
+    "translation": "threat",
+    "example": "La tormenta es una amenaza para la cosecha.",
+    "exampleTranslation": "The storm threatens the harvest."
+  },
+  {
+    "word": "AMIGA",
+    "translation": "female friend",
+    "example": "Mi amiga vive cerca.",
+    "exampleTranslation": "My friend lives nearby."
+  },
+  {
+    "word": "AMOROSO",
+    "translation": "loving; affectionate",
+    "example": "Mi padre siempre fue amoroso.",
+    "exampleTranslation": "My father was always affectionate."
+  },
+  {
+    "word": "AMPARO",
+    "translation": "legal protection of constitutional rights",
+    "example": "El abogado solicitó un amparo.",
+    "exampleTranslation": "The lawyer requested constitutional legal protection."
+  },
+  {
+    "word": "AMPLIAR",
+    "translation": "to expand; to enlarge",
+    "example": "Vamos a ampliar la cocina.",
+    "exampleTranslation": "We are going to enlarge the kitchen."
+  },
+  {
+    "word": "AMPLIO",
+    "translation": "spacious; extensive",
+    "example": "El patio es amplio.",
+    "exampleTranslation": "The courtyard is spacious."
+  },
+  {
+    "word": "AMÉN",
+    "translation": "amen; may it be so",
+    "example": "Amén, que todos lleguen con bien.",
+    "exampleTranslation": "Amen, may everyone arrive safely."
+  },
+  {
+    "word": "ANAL",
+    "translation": "anal; relating to the anus",
+    "example": "El médico explicó el cuidado de la zona anal.",
+    "exampleTranslation": "The doctor explained how to care for the anal area."
+  },
+  {
+    "word": "ANCHURA",
+    "translation": "width",
+    "example": "Medimos la anchura de la puerta.",
+    "exampleTranslation": "We measured the width of the door."
+  },
+  {
+    "word": "ANDA",
+    "translation": "processional carrying frame",
+    "example": "El anda llevaba una imagen religiosa.",
+    "exampleTranslation": "The carrying frame held a religious image."
+  },
+  {
+    "word": "ANDALUZ",
+    "translation": "Andalusian",
+    "example": "El músico andaluz tocó la guitarra.",
+    "exampleTranslation": "The Andalusian musician played the guitar."
+  },
+  {
+    "word": "ANDANDO",
+    "translation": "come on; let's get moving!",
+    "example": "¡Andando, el camión ya llegó!",
+    "exampleTranslation": "Come on, the bus is here!"
+  },
+  {
+    "word": "ANDAR",
+    "translation": "to walk",
+    "example": "Prefiero andar por la sombra.",
+    "exampleTranslation": "I prefer to walk in the shade."
+  },
+  {
+    "word": "ANDINO",
+    "translation": "Andean",
+    "example": "El paisaje andino tiene cumbres nevadas.",
+    "exampleTranslation": "The Andean landscape has snowy peaks."
+  },
+  {
+    "word": "ANEXO",
+    "translation": "attached; additional",
+    "example": "El documento anexo explica los costos.",
+    "exampleTranslation": "The attached document explains the costs."
+  },
+  {
+    "word": "ANGULAR",
+    "translation": "angular; relating to an angle",
+    "example": "Medimos la separación angular entre las líneas.",
+    "exampleTranslation": "We measured the angular separation between the lines."
+  },
+  {
+    "word": "ANHELO",
+    "translation": "longing; strong wish",
+    "example": "Su anhelo es volver a casa.",
+    "exampleTranslation": "Her deepest wish is to return home."
+  },
+  {
+    "word": "ANIMAR",
+    "translation": "to encourage",
+    "example": "Vamos a animar al equipo.",
+    "exampleTranslation": "We are going to cheer on the team."
+  },
+  {
+    "word": "ANIME",
+    "translation": "anime; Japanese animation",
+    "example": "Vimos un anime de aventuras.",
+    "exampleTranslation": "We watched an adventure anime."
+  },
+  {
+    "word": "ANOCHE",
+    "translation": "last night",
+    "example": "Anoche llovió mucho.",
+    "exampleTranslation": "It rained heavily last night."
+  },
+  {
+    "word": "ANORMAL",
+    "translation": "abnormal; unusual",
+    "example": "El ruido del motor es anormal.",
+    "exampleTranslation": "The engine noise is unusual."
+  },
+  {
+    "word": "ANOTAR",
+    "translation": "to note down",
+    "example": "Voy a anotar la dirección.",
+    "exampleTranslation": "I am going to write down the address."
+  },
+  {
+    "word": "ANSIOSO",
+    "translation": "anxious",
+    "example": "Estaba ansioso antes del examen.",
+    "exampleTranslation": "He was anxious before the exam."
+  },
+  {
+    "word": "ANTAÑO",
+    "translation": "in former times",
+    "example": "Antaño, ese camino era de tierra.",
+    "exampleTranslation": "In former times, that road was unpaved."
+  },
+  {
+    "word": "ANTE",
+    "translation": "in front of; before",
+    "example": "Esperamos ante la puerta.",
+    "exampleTranslation": "We waited in front of the door."
+  },
+  {
+    "word": "ANTENA",
+    "translation": "antenna",
+    "example": "La antena recibe la señal.",
+    "exampleTranslation": "The antenna receives the signal."
+  },
+  {
+    "word": "ANTES",
+    "translation": "before; earlier",
+    "example": "Mi casa queda antes del puente.",
+    "exampleTranslation": "My house is before the bridge."
+  },
+  {
+    "word": "ANTIGUO",
+    "translation": "old; ancient",
+    "example": "El edificio antiguo sigue en pie.",
+    "exampleTranslation": "The old building is still standing."
+  },
+  {
+    "word": "ANTOJO",
+    "translation": "craving; whim",
+    "example": "Tengo antojo de tamales.",
+    "exampleTranslation": "I am craving tamales."
+  },
+  {
+    "word": "ANUAL",
+    "translation": "annual",
+    "example": "La revisión anual es en mayo.",
+    "exampleTranslation": "The annual inspection is in May."
+  },
+  {
+    "word": "ANULAR",
+    "translation": "ring-shaped; annular",
+    "example": "El eclipse anular formó un aro luminoso.",
+    "exampleTranslation": "The annular eclipse formed a bright ring."
+  }
+]

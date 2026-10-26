@@ -1,0 +1,1238 @@
+{
+  "inputSha256": "33cd610187a35419f73363d363f55d2ff52997956b3cc39788362cec600e9cfb",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model review of all eleven proposed lexical templates and all 176 exact source combined-form senses, read individually in two 88-record batches. Selected exact English root sense/hash and checked argument roles, explicit source glosses, accusative object gender/number, source lemma references and imperative/infinitive metadata. Approved records select a transparent inanimate it/them reading; not universal translations of every possible referent. Only explicit lo/la/los/las, positive imperative or infinitive are authorized. No spelling/suffix decomposition, se/reflexive, dative or ambiguous first/second-person objects, multiple clitics, negative clauses or other finite moods. Third-person grammatical affirmative imperatives are formal address commands, not third-person declarative subjects. All source usage labels remain required. No fabricated examples or native-human certification, application edits, source publication, or derived coverage claim.",
+  "approvedTemplates": [
+    {
+      "lemma": "comer",
+      "template": "eat {direct}",
+      "recordSha256": "27889c3aed6fff0e9ced1f9d836433f83f043727d2a56783df69e133eb8235da",
+      "senseIndex": 0,
+      "context": "Literal eating of a context-supplied inanimate food object; not sexual, chess-capture or indifference senses.",
+      "notes": "Selected root source labels: none. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "beber",
+      "template": "drink {direct}",
+      "recordSha256": "d4941c57f7a47fa5a9caa566173d6377aa1680e0a33600d01dfddd83ce4dfbc8",
+      "senseIndex": 0,
+      "context": "Drink a context-supplied inanimate liquid or drink; no reflexive or ethical-dative meaning inferred.",
+      "notes": "Selected root source labels: intransitive, reflexive, sometimes, transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "mirar",
+      "template": "look at {direct}",
+      "recordSha256": "6856f23daaf80d10479a412b6cacca49f3f79d247b1e785fc53ff8abf6eebe26",
+      "senseIndex": 0,
+      "context": "Visual attention directed at the direct object; English at preserves the selected lexical role, not an added Spanish dative.",
+      "notes": "Selected root source labels: transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "ver",
+      "template": "see {direct}",
+      "recordSha256": "820982a122dd8c28b979437d3023630832910bb6f43b87b8333990e85111df84",
+      "senseIndex": 0,
+      "context": "Literal visual perception of the direct object; not reflexive seem or picture oneself.",
+      "notes": "Selected root source labels: literally, transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "oír",
+      "template": "hear {direct}",
+      "recordSha256": "61c75029ba959a5de74bade75b9c0d73ab00386feb89ad4ad33c90cdae28c80d",
+      "senseIndex": 1,
+      "context": "Transitive passive auditory perception of a sound; affirmative hear it/them is a selected reading, not an automatic expansion to every active listen/heed sense.",
+      "notes": "Selected root source labels: transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "leer",
+      "template": "read {direct}",
+      "recordSha256": "01ad3330447d43320e9f1755a15d4dae01bd4874fd314a20fb60a4849326f609",
+      "senseIndex": 0,
+      "context": "Read the context-supplied object; no recipient or dative inferred.",
+      "notes": "Selected root source labels: none. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "amar",
+      "template": "love {direct}",
+      "recordSha256": "1701a03ec5f1c7febee7e8741b846e52524bcd45b20dd8d23ede9112700a1571",
+      "senseIndex": 0,
+      "context": "Literary love or strong affection directed at an inanimate referent, such as an activity or thing, without inventing that referent.",
+      "notes": "Selected root source labels: literary. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "odiar",
+      "template": "hate {direct}",
+      "recordSha256": "5d8c152597685a28ae923a8dadb8888198293bb49f712f3c7f3f06519371f568",
+      "senseIndex": 0,
+      "context": "Hatred of an inanimate context-supplied object; not a reflexive or reciprocal construction.",
+      "notes": "Selected root source labels: none. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "lavar",
+      "template": "wash {direct}",
+      "recordSha256": "4a51669a8b9749ee6e1130f9cc6806251ee4e0dd2c5d02cbcda4351dec995d5c",
+      "senseIndex": 0,
+      "context": "Transitive washing of another object; not washing oneself or an implicitly possessed body part.",
+      "notes": "Selected root source labels: transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "llevar",
+      "template": "carry {direct}",
+      "recordSha256": "d2af57fb5a97cb02dc1987e4c43f3388799ac865fb7a9d8d23559d726b6f2a14",
+      "senseIndex": 2,
+      "context": "Physical carrying of the object; no destination, wearer, passenger or companion is invented.",
+      "notes": "Selected root source labels: transitive. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    },
+    {
+      "lemma": "traer",
+      "template": "bring {direct}",
+      "recordSha256": "039a3d98898bb1bae88031e9a4b153928b8399403bfc8cd465d934e0cebfabf0",
+      "senseIndex": 0,
+      "context": "Transport-bringing of the object; deictic reference point remains contextual, with no invented recipient or destination.",
+      "notes": "Selected root source labels: none. Single explicit accusative object only; lo/la select inanimate it and los/las select inanimate them. Source clitic gender remains Spanish morphology; English referent identity is not invented."
+    }
+  ],
+  "rejectedTemplates": [],
+  "approved": [
+    {
+      "recordIndex": 1,
+      "word": "BÉBELO",
+      "lemma": "beber",
+      "recordSha256": "6ec636ab5118648f942387b4d0b9b02e0c858a79cdf9568792ed1813bd4b066b",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 2,
+      "word": "ÁMALO",
+      "lemma": "amar",
+      "recordSha256": "061e15e808d8f84a139072d3cb4264b485b6bada814b63061c99bb4df685e251",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 4,
+      "word": "LEERLO",
+      "lemma": "leer",
+      "recordSha256": "3e3508605bbff6885b84b2fa33156bdd277e3be129218a0508a070688e0b35eb",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 5,
+      "word": "MIRARLO",
+      "lemma": "mirar",
+      "recordSha256": "dc0bf2bf001f8a9e7d61afb409c2c7cd0c88579ec41d7acaad7d024cadbb6b47",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 6,
+      "word": "MÍRENLO",
+      "lemma": "mirar",
+      "recordSha256": "4802398cc8b223221a9888ce42537b21d14ce9b64f90f557fbf7abdee193406d",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 8,
+      "word": "OÍRLOS",
+      "lemma": "oír",
+      "recordSha256": "64118d6d257dd8290b5628aa4846ffc90bc1e8a3e9706455c811fc45bb37ab51",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 10,
+      "word": "LÉANLO",
+      "lemma": "leer",
+      "recordSha256": "c5494aea306931e99a189fb94491a79041f7ae984ff95769ad20039b90219fa5",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 11,
+      "word": "CÓMELAS",
+      "lemma": "comer",
+      "recordSha256": "736e6a1c6631a364bbacb7573672f30f8e72057cadf6074b898034b9c027d735",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 12,
+      "word": "TRÁELOS",
+      "lemma": "traer",
+      "recordSha256": "cccb2e8db621b75b996100b8c5563092da3ff555b1044922f2bc96eb468b96e3",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 14,
+      "word": "LÉELA",
+      "lemma": "leer",
+      "recordSha256": "95024e0277d8cd82fcffd9b7db87c71a10787a7bf10cdf514dbc29f5d1366b32",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 16,
+      "word": "MÍRALAS",
+      "lemma": "mirar",
+      "recordSha256": "72ef60b0616310d7e1a8fd2b94ffac5ba7c7bda765d3dd4a1f6efd46a57df0f9",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 17,
+      "word": "LAVARLO",
+      "lemma": "lavar",
+      "recordSha256": "550d8eb15056cbf6d4ea2cda212d6ffd9f69931e0d1efc23867466b578f19968",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 18,
+      "word": "VÉALAS",
+      "lemma": "ver",
+      "recordSha256": "f5bf283cc7387137dab6a271b7c409d76065fb97de66df20ce5cc6dcd9d8bfa1",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 21,
+      "word": "TRAERLO",
+      "lemma": "traer",
+      "recordSha256": "576fa7ab3313f5324e9aa512d44fc227ebf6c74e2d609dec78648ad632bc6170",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 22,
+      "word": "MÍRELA",
+      "lemma": "mirar",
+      "recordSha256": "8b95772a0dc4c06ed28f16a26cab14387ea8b41c4a5284606adc82ea02dc769c",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 26,
+      "word": "CÓMANLA",
+      "lemma": "comer",
+      "recordSha256": "bf3c4292b143a3053c8dba7187297345dfb682b7a8519b198aa4d620945f1ef5",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 27,
+      "word": "AMARLA",
+      "lemma": "amar",
+      "recordSha256": "9681c8663498393112bc63b89fdd3039d71c80db6eabd03e135da7d1087b16e8",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 28,
+      "word": "LEERLOS",
+      "lemma": "leer",
+      "recordSha256": "a4e2fbada31a5365c096bf89d84df2da9edf1f3fbd0be2c65a73feab64917e1b",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 30,
+      "word": "LEERLAS",
+      "lemma": "leer",
+      "recordSha256": "7aff202fe2e13429ea7e620a64374e3bb459315464cd942fa336d485f7fee06c",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 33,
+      "word": "LÉALA",
+      "lemma": "leer",
+      "recordSha256": "8505e17c70fd63ce10d72d6e1375783e7e8ec0b4acf58e0179e44725fd25e132",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 35,
+      "word": "CÓMELA",
+      "lemma": "comer",
+      "recordSha256": "51f2bd977457c0658a9da7fa2f67a9f67c0198d275afa1ccfa909fc21de9018a",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 37,
+      "word": "LAVARLA",
+      "lemma": "lavar",
+      "recordSha256": "a17d67d6e5e683b5965fbd44321a76e16871e52d1c5358b6bb05ab7bc96df40d",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 39,
+      "word": "ODIARLO",
+      "lemma": "odiar",
+      "recordSha256": "671f7555d3ea76bf5d45a0a45c01827bf9ece68ec79778d3582bc2b94b54aa7f",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 43,
+      "word": "LÉANLAS",
+      "lemma": "leer",
+      "recordSha256": "13d96852030c564d05b8fd8dec9ec054b8a0b62f4314e5c3235303d840dea416",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 44,
+      "word": "BÉBELOS",
+      "lemma": "beber",
+      "recordSha256": "7a8ec1f34b7084fd8e19023284bbb0d4fecfb4be6097488e003799e05bfe4c7d",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 50,
+      "word": "CÓMANLO",
+      "lemma": "comer",
+      "recordSha256": "28b346a77231f536160e029c5c8965616435c74c469c54bcfc5b511bd2bbfe4c",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 53,
+      "word": "LEERLA",
+      "lemma": "leer",
+      "recordSha256": "38e012aa35c30a9f711cc74bd9184b597ec991fed570b2a9dab9f591da61f8f5",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 59,
+      "word": "MÍRELO",
+      "lemma": "mirar",
+      "recordSha256": "1a4aeeb9d04c9370cdc2d82bac71c3b37bb68a380c36d40cb54299fb6f4839fb",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 60,
+      "word": "LLÉVELA",
+      "lemma": "llevar",
+      "recordSha256": "5cad18f7691a1ef21133149e6e12057b4088837e18ec5f5c17553fbfe7e7437d",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 63,
+      "word": "VÉANLO",
+      "lemma": "ver",
+      "recordSha256": "3af4d34919d7136c881fc8e19cb067844b1110fea0ad39b780d262c4fe12aa25",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 65,
+      "word": "OÍRLA",
+      "lemma": "oír",
+      "recordSha256": "51aef5079a5dc47df97b9b859dae72c61f02cbd657b4004c87126155c1702cc5",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 67,
+      "word": "LÁVALO",
+      "lemma": "lavar",
+      "recordSha256": "9f10b31bacfc372573a108d3143ae4a907b482d417e11d09a86265e4dd30da5b",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 68,
+      "word": "CÓMALAS",
+      "lemma": "comer",
+      "recordSha256": "59b3ec096a63b6269c226b3b27b212c0ca3b4834fdba4cff913833f7221e6ab1",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 70,
+      "word": "MÍRALA",
+      "lemma": "mirar",
+      "recordSha256": "af312797b8a9e00a02b479c4267e485919b7f85c1b18a3d6e894e51fb410041f",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 71,
+      "word": "AMARLO",
+      "lemma": "amar",
+      "recordSha256": "d6532e3dcdd5f3c4d6e9850f43996485392c80f563e1b6d218429e3796b7f89f",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 75,
+      "word": "ÁMALA",
+      "lemma": "amar",
+      "recordSha256": "67a19f87f5bb7ebf42554a188fe96c070fdd73f92a5db15b307a8a5a647127d2",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 76,
+      "word": "VERLA",
+      "lemma": "ver",
+      "recordSha256": "4d5406df4f7bdb1d90c0decf985a1aab7495e0b5f2f6f96b90b5867f76dae52a",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 79,
+      "word": "VÉANLA",
+      "lemma": "ver",
+      "recordSha256": "f3f67eb6b7be303b471ee9a185e0af7dc7254cb77a8ad6e4a025a209e1c90a7a",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 84,
+      "word": "ÓYELO",
+      "lemma": "oír",
+      "recordSha256": "7a42f6969509bcac5bb9782508fa6e71f83496f70a8149c650d3d9620d425eab",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 86,
+      "word": "CÓMALOS",
+      "lemma": "comer",
+      "recordSha256": "2cdefc2e84b4ef2a7b418b2ea1d9a29aa51508ef1f8f00e7c8bfb0f6ee78b4fa",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 88,
+      "word": "VÉALA",
+      "lemma": "ver",
+      "recordSha256": "8a2331c466ef2caf6c18a54a8aaaf6094f2a8eb1d798d7b54f246772764a8b52",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 89,
+      "word": "CÓMALO",
+      "lemma": "comer",
+      "recordSha256": "3176ae0b3994533a1ff37d64e0dc1cb349b388a68913b69c2f23210b2ea38d9a",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 92,
+      "word": "MÍRENLA",
+      "lemma": "mirar",
+      "recordSha256": "d55a743827c7383c76a4a3920a9e12c9fbf3c3e49c3c6b9cd82eacdff81f53fc",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 93,
+      "word": "VÉALOS",
+      "lemma": "ver",
+      "recordSha256": "0043bcb387cc2022c86ee351be72942486ccb7f8e91e9cdb56f42354d7d9c8ec",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 94,
+      "word": "TRÁELO",
+      "lemma": "traer",
+      "recordSha256": "cefcfe009200466554f100067be622efc4202b55bb9183fd8a8a9926a139415c",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 95,
+      "word": "LÉELO",
+      "lemma": "leer",
+      "recordSha256": "56fddf4191f6c8fa5f0c41f467d8d52acbbb6d20d986af2d1cdd5874c54d0d82",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 97,
+      "word": "LÉANLOS",
+      "lemma": "leer",
+      "recordSha256": "bf9eeaeebae77007be723078d41970a272c7f290a4c8698b7039f6bca09dee74",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 99,
+      "word": "LÉALO",
+      "lemma": "leer",
+      "recordSha256": "b11ec6ce13a4734969c0ac9eaf79644a93657792c8e493b1dadf22c5407d17ac",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 100,
+      "word": "MIRARLA",
+      "lemma": "mirar",
+      "recordSha256": "bcb4e00c6563e984a2dcc1810739e976473ef9bbd95470e8abd55dc816efb64b",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 102,
+      "word": "MÍRALOS",
+      "lemma": "mirar",
+      "recordSha256": "a5bd56d3f2883d08df06f8bf8632940873cb5972ab61ea74726d30f7a4029e75",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 103,
+      "word": "COMERLO",
+      "lemma": "comer",
+      "recordSha256": "7a41b4688b9fe850c988846df3d4a5a503a5a6649e80ccdb6b07d83966a58fce",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 105,
+      "word": "BEBERLO",
+      "lemma": "beber",
+      "recordSha256": "ba45e25a949ae3bbc8891d24e31da123c78b1615771b0b3850f18cee9ec00b80",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 106,
+      "word": "TRÁELA",
+      "lemma": "traer",
+      "recordSha256": "657f09afb8ceca9f293ecd28341076c0071b15502b5f170fa3ce9c1820b53f52",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 108,
+      "word": "LÁVALA",
+      "lemma": "lavar",
+      "recordSha256": "bf16110e7c4b3fbcdb05fe1f1edf0852e6dc6250fbd4524585a303a482e68516",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 110,
+      "word": "LLÉVALA",
+      "lemma": "llevar",
+      "recordSha256": "1929d9358f17ebeb6fd49f4b68c7c6e86339c194575c6bdc77798c36c6a00d90",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 112,
+      "word": "LÉALOS",
+      "lemma": "leer",
+      "recordSha256": "460c93da2f4ba4506af3847ffa339ce9bc9ab43641191625c7a68f2285e465ef",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 113,
+      "word": "LÉELAS",
+      "lemma": "leer",
+      "recordSha256": "e3c5bdb6d64db25ef38759941412ce64f57e61c7ca1d61a7990c2fd9c8fa7966",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 114,
+      "word": "LLÉVALO",
+      "lemma": "llevar",
+      "recordSha256": "cee3c704e3363b095e70b2ff6295018385819bf3e369a1152382dbebad8ebeaf",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 116,
+      "word": "VÉANLOS",
+      "lemma": "ver",
+      "recordSha256": "4f6ee10e2c2c1a5ebd6b71ce42b08e96464018e3f95002f228520ea6d15ca6b9",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 118,
+      "word": "VERLOS",
+      "lemma": "ver",
+      "recordSha256": "db496738ef46a69e92d20e5f1f237d7ba6ce7a78a3af635aef723d1e21a8b4f4",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 119,
+      "word": "LÉELOS",
+      "lemma": "leer",
+      "recordSha256": "a1e87f97117c45c52d412d5dd4c8d52b8687a10add595f54b9b7bf3152e1eb2d",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 120,
+      "word": "CÓMALA",
+      "lemma": "comer",
+      "recordSha256": "890fec05cb78a349973725cf000f22305546b667234fd3a249966a0fbcb957ef",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 122,
+      "word": "BÉBELA",
+      "lemma": "beber",
+      "recordSha256": "39255a653572d4881c813ae7dc7ccdd0ac803ce7534ebe890c557c96dcc65f8d",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 124,
+      "word": "ÓIGALO",
+      "lemma": "oír",
+      "recordSha256": "ceeb659fde3cf868de7753eff6a588f15b237c282e68ca0a00b08caaccf27d15",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 127,
+      "word": "LLÉVELO",
+      "lemma": "llevar",
+      "recordSha256": "d09fb263efc86bf5cf02d65f6d0cfeb3a588cc80e47a7cd2e46a8fbe732a2005",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 130,
+      "word": "TRAERLA",
+      "lemma": "traer",
+      "recordSha256": "1b0d35ce5a009521b4b98521152ad5a8864039f9803247e786e500faf8dca58f",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 132,
+      "word": "COMERLA",
+      "lemma": "comer",
+      "recordSha256": "93caa3391e7f1c581a846e92e34f9fe6f91f9286bcb82be8d8d5eaa6cf897669",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 134,
+      "word": "VERLAS",
+      "lemma": "ver",
+      "recordSha256": "b5ed0968c02dd3ddd5bb7f584c09f3c1d0ae767514cd115efc0cd1fb727b8052",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 140,
+      "word": "LÉALAS",
+      "lemma": "leer",
+      "recordSha256": "f0807934650fc6f0353600af9d10dfa48af6881d3ae7987384f359fb50d2b7de",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 141,
+      "word": "BEBERLA",
+      "lemma": "beber",
+      "recordSha256": "d692911bb10dc919b4e00eaa8a96e3523cfafaab135dd43faa0027832d01851b",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 142,
+      "word": "LÁVALOS",
+      "lemma": "lavar",
+      "recordSha256": "3df190cd218105ea0c1da6579a41014c72220c3a51cdccfdad917f9466c7b7f6",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 143,
+      "word": "ODIARLA",
+      "lemma": "odiar",
+      "recordSha256": "16667b3b86ad9fafd286d7a56605313cc438cf7e1d6cf1f1b412a57e7c99a00a",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 144,
+      "word": "AMARLOS",
+      "lemma": "amar",
+      "recordSha256": "313468c0c24118d65c8559efd6d90651aff66869ab316d1d6775ceacb249a295",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 145,
+      "word": "AMARLAS",
+      "lemma": "amar",
+      "recordSha256": "3f6e16eaca02d1da5aad25f6a4ac956e52c9b154d17dcfaef12b6cdcb637a357",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 146,
+      "word": "LÉANLA",
+      "lemma": "leer",
+      "recordSha256": "674f5c4c570d6831f9707d3e1d3a40f9fba49b9a306f06c1588ed6ebbff3f18a",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic la.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-singular, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 150,
+      "word": "VERLO",
+      "lemma": "ver",
+      "recordSha256": "cc71f976588699a029544bd59529dfcc0d67f5e071cd1ac14262fc2a1aabb8af",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 151,
+      "word": "MÍRALO",
+      "lemma": "mirar",
+      "recordSha256": "113f55e2d40cc7fb3058d08898b06006d3ce69d6ab3131339a89bcf81a715b0e",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 158,
+      "word": "BÉBELAS",
+      "lemma": "beber",
+      "recordSha256": "073199419b2f0ffda4ad4bec272e8084c86f598cd000d753d495563ea2f2ae1f",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 159,
+      "word": "CÓMELO",
+      "lemma": "comer",
+      "recordSha256": "09030b3caf59b891807d5bef8d6949f8c6116de3ed7e59ceb7777e3eb52f6b88",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 163,
+      "word": "VÉANLAS",
+      "lemma": "ver",
+      "recordSha256": "5623dd869e8b7d156b5e3630b3f3ec68153d997ef0a527ca4a45bda4baefb71d",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, plural, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 165,
+      "word": "CÓMELOS",
+      "lemma": "comer",
+      "recordSha256": "879e2ee5ee14a68b86665731762de6275412346701c805185c3f76afafb75add",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic los.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 168,
+      "word": "LÁVALAS",
+      "lemma": "lavar",
+      "recordSha256": "3766757aecb8b7a6e6583c1a0b5f37d71a631005dfbff4ca1fbd0bd2aa596668",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 169,
+      "word": "VÉALO",
+      "lemma": "ver",
+      "recordSha256": "08e75d26e6ce376eaf5a192d70c618120cb0ac41b18591a4c882dce703553faf",
+      "context": "Positive formal usted/ustedes command; third-person grammatical agreement does not authorize a he/she statement. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-masculine, object-singular, object-third-person, singular, third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 172,
+      "word": "TRÁELAS",
+      "lemma": "traer",
+      "recordSha256": "10de14d42ca706a878044457527a09252650802778e29452ba0970932d115181",
+      "context": "Positive informal second-person command; do not invent a named subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, imperative, object-feminine, object-plural, object-third-person, second-person, singular. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 173,
+      "word": "OÍRLAS",
+      "lemma": "oír",
+      "recordSha256": "8ccb4c50ebe689beb8197047000d4db5f0ac0e87dd1c01b8912b6e6760c058d0",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate them reading of the source-explicit direct-object clitic las.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-feminine, object-plural, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    },
+    {
+      "recordIndex": 175,
+      "word": "OÍRLO",
+      "lemma": "oír",
+      "recordSha256": "31b43d80ea2207d178f43d3f3da5aa4c745019427170e0cdc1f8101224e5bfc1",
+      "context": "Infinitive; do not supply a finite subject. Selected inanimate it reading of the source-explicit direct-object clitic lo.",
+      "notes": "Retain exact combined-form source labels: accusative, form-of, infinitive, object-masculine, object-singular, object-third-person. Preserve source subject and object number separately; no suffix decomposition or invented English object nouns."
+    }
+  ],
+  "rejected": [
+    {
+      "recordIndex": 0,
+      "word": "LAVARTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 3,
+      "word": "ÁMAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 7,
+      "word": "TRÁELE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 9,
+      "word": "ODIARTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 13,
+      "word": "VÉANNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 15,
+      "word": "MIRATE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 19,
+      "word": "ODIARLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 20,
+      "word": "LEERNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 23,
+      "word": "VÉANME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 24,
+      "word": "LEERLES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 25,
+      "word": "CÓMEME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 29,
+      "word": "LLEVATE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 31,
+      "word": "ÁMANOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 32,
+      "word": "CÓMENOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 34,
+      "word": "LEERLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 36,
+      "word": "VÉAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 38,
+      "word": "OÍRSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 40,
+      "word": "BEBERTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 41,
+      "word": "LÉANSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 42,
+      "word": "AMARME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 45,
+      "word": "AMARLES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 46,
+      "word": "LÉANNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 47,
+      "word": "LEERSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 48,
+      "word": "MIRARSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 49,
+      "word": "OÍRNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 51,
+      "word": "LÉEME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 52,
+      "word": "BEBERSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 54,
+      "word": "TRAERSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 55,
+      "word": "BEBERLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 56,
+      "word": "LEERTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 57,
+      "word": "LÉASE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 58,
+      "word": "VÉRSELA",
+      "reason": "Source explicitly combines multiple clitics/roles; excluded from the single direct-object batch."
+    },
+    {
+      "recordIndex": 61,
+      "word": "VÉANLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 62,
+      "word": "VERLES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 64,
+      "word": "COMERME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 66,
+      "word": "MIRARLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 69,
+      "word": "VÉANLES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 72,
+      "word": "LLÉVATE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 73,
+      "word": "ÓYEME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 74,
+      "word": "LAVARSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 77,
+      "word": "VÉRSELO",
+      "reason": "Source explicitly combines multiple clitics/roles; excluded from the single direct-object batch."
+    },
+    {
+      "recordIndex": 78,
+      "word": "AMARLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 80,
+      "word": "CÓMETE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 81,
+      "word": "VERLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 82,
+      "word": "LÉANOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 83,
+      "word": "CÓMASE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 85,
+      "word": "COMERTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 87,
+      "word": "VÉANOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 90,
+      "word": "MIRARTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 91,
+      "word": "COMERLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 96,
+      "word": "ODIARME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 98,
+      "word": "LLÉVALE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 101,
+      "word": "TRÁENOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 104,
+      "word": "VÉALES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 107,
+      "word": "OÍRTELO",
+      "reason": "Source explicitly combines multiple clitics/roles; excluded from the single direct-object batch."
+    },
+    {
+      "recordIndex": 109,
+      "word": "TRAERTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 111,
+      "word": "MÍRANOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 115,
+      "word": "CÓMANSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 117,
+      "word": "VERTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 121,
+      "word": "BEBERME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 123,
+      "word": "LLÉVAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 125,
+      "word": "LÉANME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 126,
+      "word": "AMARSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 128,
+      "word": "LÉAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 129,
+      "word": "TRAERLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 131,
+      "word": "OÍRME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 133,
+      "word": "TRÁEME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 135,
+      "word": "LAVARME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 136,
+      "word": "AMARNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 137,
+      "word": "TRÁELES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 138,
+      "word": "TRAERME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 139,
+      "word": "LEERME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 147,
+      "word": "OÍRLES",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 148,
+      "word": "OÍRLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 149,
+      "word": "LAVARLE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 152,
+      "word": "ODIARSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 153,
+      "word": "MIRARME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 154,
+      "word": "MÍRESE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 155,
+      "word": "VÉALE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 156,
+      "word": "VERNOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 157,
+      "word": "OÍRSELO",
+      "reason": "Source explicitly combines multiple clitics/roles; excluded from the single direct-object batch."
+    },
+    {
+      "recordIndex": 160,
+      "word": "MÍRAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 161,
+      "word": "MÍRALE",
+      "reason": "Source explicitly has le/les dative morphology, not a selected accusative it/them object."
+    },
+    {
+      "recordIndex": 162,
+      "word": "OÍRTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 164,
+      "word": "MÍRENSE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    },
+    {
+      "recordIndex": 166,
+      "word": "MÍRATE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 167,
+      "word": "ÓIGAME",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 170,
+      "word": "LÉENOS",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 171,
+      "word": "AMARTE",
+      "reason": "First/second-person clitic is outside lo/la/los/las scope and can involve reflexive, recipient or other contextual roles."
+    },
+    {
+      "recordIndex": 174,
+      "word": "LLÉVESE",
+      "reason": "Source explicitly has se/reflexive morphology, outside this single inanimate accusative batch."
+    }
+  ]
+}

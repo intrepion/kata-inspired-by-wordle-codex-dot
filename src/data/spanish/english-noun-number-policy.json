@@ -1,0 +1,34 @@
+{
+  "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+  "spanishContextSha256": "ebd10b7f2b794f36e835a56c23f551173f609e76750b8fb23bce38e4ca1c7f45",
+  "reviewHashes": {
+    "english-noun-number-review-spec.json": "4de57e1ca8cc0fe6c6a828c64325027372e0c5e78ff169325f6c99a4a75b1f62",
+    "english-noun-number-review-standards.json": "f46198dff5e83cff0c71467a9900cbb814a7c1f934d157266a934e24eab23f2e"
+  },
+  "license": "CC-BY-SA-4.0",
+  "rules": [
+    {
+      "word": "GENTES",
+      "lemma": "gente",
+      "lemmaRecordSha256": "3c06bc8468a5b065f69355113d66feebbe1120556e26ee55f0d1b1017dace564",
+      "lemmaSenseIndex": 0,
+      "lemmaGloss": [
+        "people"
+      ],
+      "formRecordSha256": "f5f67b36a30df32567b67ac1c67c69e12e0aaf2f959d7f656d5805a60499857e",
+      "formSenseIndex": 0,
+      "english": [
+        "people"
+      ],
+      "numberMode": "preserve-already-plural-English-human-collective",
+      "context": "People/persons collectively; English people is already plural in this selected sense. Distinct nations/community senses are not being selected.",
+      "spanishContextRecordSha256": "09626bca760e43e65e284c86907c25a0d85742fe0c0f372764b1899b2d9f85da",
+      "spanishContextSenseIndex": 0,
+      "spanishContextGloss": [
+        "Conjunto de personas."
+      ]
+    }
+  ],
+  "limitations": "Exact selected source-sense correction, not a global English people rule or denial of other national/community senses. Spanish grammatical number/gender remain unchanged."
+}

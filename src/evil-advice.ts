@@ -1,3 +1,4 @@
+import type {Language} from './language.ts';
 import {vocabulary} from './words.ts';
 import {possibleAnswers,type Observations} from './observations.ts';
 import {impossibleStatus,type ImpossibleRun} from './impossible.ts';
@@ -8,8 +9,8 @@ export type {AdviceRequest,AdviceReply,AdviceResult,Suggestion} from './advice-p
 const weights=[729,243,81,27,9,3,1];
 const place=(length:number,index:number)=>weights[7-length+index];
 const encode=(word:string)=>[...word].map(letter=>letter.charCodeAt(0)-65);
-const dictionaries=new Map<number,{word:string;letters:number[]}[]>();
-function dictionaryFor(length:number){let result=dictionaries.get(length);if(!result){result=[...vocabulary(length).allowed].sort().map(word=>({word,letters:encode(word)}));dictionaries.set(length,result)}return result}
+const dictionaries=new Map<string,{word:string;letters:number[]}[]>();
+function dictionaryFor(length:number,language:Language){const key=`${language}:${length}`;let result=dictionaries.get(key);if(!result){result=[...vocabulary(length,language).allowed].sort().map(word=>({word,letters:encode(word)}));dictionaries.set(key,result)}return result}
 /** Allocation-free encoding of the same exact-first, left-to-right duplicate scoring. */
 export function feedbackCode(answer:readonly number[],guess:readonly number[]):number {
  let used=0,exact=0,code=0;
@@ -18,7 +19,7 @@ export function feedbackCode(answer:readonly number[],guess:readonly number[]):n
  return code;
 }
 /** Descending largest bucket, then alphabetical word: least guaranteed elimination first. */
-function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'>,kind:AdviceKind,limit=5):AdviceResult {
+function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'language'>,kind:AdviceKind,limit=5):AdviceResult {
  const totalCandidates=run.candidates.length,length=run.candidates[0]?.length??run.guesses[0]?.length??5;
  if(totalCandidates===0||(kind==='suboptimal'&&totalCandidates===1))return {totalCandidates,eligibleWords:0,suggestions:[]};
  if(kind==='optimal'&&totalCandidates===1){const word=run.candidates[0];return {totalCandidates,eligibleWords:run.guesses.includes(word)?0:1,suggestions:run.guesses.includes(word)?[]:[{word,worstCaseLeft:1,guaranteedEliminations:0,expectedSurvivors:1,directSolve:true}]};}
@@ -26,7 +27,7 @@ function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'>,k
  const candidates=run.candidates.map(encode),guessed=new Set(run.guesses);
  const histories=run.guesses.map((word,row)=>({letters:encode(word),code:run.feedback[row].reduce((sum,clue,i)=>sum+place(length,i)*({absent:0,elsewhere:1,exact:2}[clue]),0)}));
  const buckets=new Uint16Array(3**length),ranked:Suggestion[]=[];let eligibleWords=0;
- for(const {word,letters} of dictionaryFor(length)){
+ for(const {word,letters} of dictionaryFor(length,run.language??'en')){
   if(guessed.has(word)||(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)))continue;
   eligibleWords++;buckets.fill(0);let largest=0,sumSquares=0;
   for(const answer of candidates){const count=++buckets[feedbackCode(answer,letters)];sumSquares+=2*count-1;if(count>largest)largest=count;}

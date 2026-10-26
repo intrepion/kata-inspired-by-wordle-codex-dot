@@ -1,0 +1,1938 @@
+{
+  "inputSha256": "a27152a1d90697b81e0c56b49238260856c7a70b22dcc6a28f78bf8952f63140",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model cross-review of all 247 unchanged proposed Spanish record/POS/sense/frame/profile/context combinations against the supplied selected pinned source definitions and grammatical labels. Each approval confirms only the exact new proposal, not an archival different meaning or an automatic synonym union. These are model-translated selected word-level meanings, not dictionary-provided English, full example sentences, native-human certification or actual form-coverage counts. Retain each approved proposal context and relevant rare/regional/register notes; earlier alternative contexts remain archival. Aspect lists are explicit subsets of the proposal. No changed subject profile, mandatory clitic, unfilled middle patient slot, guessed English inflection or new source/paradigm scope is authorized. Known safety withdrawals were excluded upstream and are not reopened.",
+  "approved": [
+    {
+      "spanish": "abalizar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Buoy is selected in its transitive navigational marking sense, not buoyancy or emotional encouragement."
+    },
+    {
+      "spanish": "aballar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human herder; livestock is the patient. Retain dated usage."
+    },
+    {
+      "spanish": "abinar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "abitar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Crew member secures the rope around bitts; no destination or extra possessive invented."
+    },
+    {
+      "spanish": "abolsar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "abriolar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Fit takes the lexical brails as its object; this is not an unsupported make/put middle-object template."
+    },
+    {
+      "spanish": "aburar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Insect bite causes the itching; do not reverse the subject to the person experiencing it."
+    },
+    {
+      "spanish": "acabañar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "acarar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Confront is the causative bringing witnesses face-to-face sense, not merely the facilitator challenging someone personally."
+    },
+    {
+      "spanish": "acarear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Confront is the causative face-to-face comparison of people; preserve that selected legal/factual context."
+    },
+    {
+      "spanish": "acebadar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human feeder causes harm by excessive barley; horses are patients, not agents."
+    },
+    {
+      "spanish": "acecinar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Explicit transitive curing operation retained; do not infer a reflexive self-curing subject."
+    },
+    {
+      "spanish": "acepar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "acequiar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "acocear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal feet-based kicking can have a human actor; no unsupported animal-only restriction is imposed by the unqualified coces gloss."
+    },
+    {
+      "spanish": "acocotar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "acodalar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "acopar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Plant crown means foliage, not a human coronation."
+    },
+    {
+      "spanish": "adecenar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "afollar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Transitive dated affliction, not an assumed patient becoming injured."
+    },
+    {
+      "spanish": "afrancar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "afretar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "agalerar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "agamitar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human hunter imitates the fawn; the fawn is not the imitating agent."
+    },
+    {
+      "spanish": "agilitar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "agrazar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Taste sour is an inanimate flavor property; not a taster sampling the flavor."
+    },
+    {
+      "spanish": "ahuchar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "ahuchear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "ajironar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "ajuiciar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alagar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive lake-creation operation; no automatic pronominal lake-forming construction."
+    },
+    {
+      "spanish": "alanzar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alegamar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alenguar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alfar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Horse raises its own forequarters by gait; no human riding operator is substituted."
+    },
+    {
+      "spanish": "alforzar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alheñar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Henna is an English transitive coloring verb here; keep the henna-powder method."
+    },
+    {
+      "spanish": "alomar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "alón",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "amajadar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "amelgar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "amollar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "amorcar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal horned animal, not an invented personification."
+    },
+    {
+      "spanish": "amurcar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Bull or similar horned animal remains agent."
+    },
+    {
+      "spanish": "anchoar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "anear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "anieblar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive fogging operator; do not use a separate weather-state reading or imply that every fog event has a human agent."
+    },
+    {
+      "spanish": "animizar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "antuviar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "apellar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "apernar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "apezuñar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal hoofed animal; no human foot substituted for the hoof."
+    },
+    {
+      "spanish": "aplacer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Stimulus causes pleasure; not the experiencer liking something. Keep rare usage and narrow it-only subject."
+    },
+    {
+      "spanish": "aproar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Conventional crew directs a vessel bow; no requirement that the grammatical actor be the vessel itself."
+    },
+    {
+      "spanish": "arelar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "arencar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "aricar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "asesar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "asurar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive cooking mishap caused by insufficient moisture; pronominal alternative remains separate."
+    },
+    {
+      "spanish": "asurcar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "atablar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human agricultural operator employs the board and draft animals; animals are not thereby the only possible grammatical agents."
+    },
+    {
+      "spanish": "atiplar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "atizonar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "azagar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Livestock sequence remains a narrow animal reading; not a human herder moving the flock."
+    },
+    {
+      "spanish": "azocar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "baquear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Current-carried vessel subject, not a first-person wind or water agent."
+    },
+    {
+      "spanish": "bardar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "batucar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "bazucar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "bitar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "bollar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Seal authenticates textile origin using lead; not sealing fabric to make a waterproof barrier."
+    },
+    {
+      "spanish": "bornear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Anchored vessel turns around its moorings; not a personal swinging agent."
+    },
+    {
+      "spanish": "braquiar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Source-selected monkey locomotion; human imitation is not inferred."
+    },
+    {
+      "spanish": "briscar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "bromar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Shipworm gnaws wood; human woodworking operator is a different reading."
+    },
+    {
+      "spanish": "brozar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "brujir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human glassworker; glass is the worked material."
+    },
+    {
+      "spanish": "bruzar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "cacear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "callear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "cantonar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Explicit transitive troop-allocation sense selected; no inferred se or automatic reflexive quartering construction."
+    },
+    {
+      "spanish": "carochar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal insect egg-laying, not a human producer."
+    },
+    {
+      "spanish": "cañear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "champar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "changar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "charlear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal frog cry; human mimicry not inferred."
+    },
+    {
+      "spanish": "charrar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human conversational participant can chatter with others implicit; no reflexive or reciprocal clitic is invented."
+    },
+    {
+      "spanish": "chirlear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal bird call, not personal shouting."
+    },
+    {
+      "spanish": "chirrear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal bird call, not personal shouting."
+    },
+    {
+      "spanish": "clisar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Printing stereotype process, not attributing a social stereotype to someone."
+    },
+    {
+      "spanish": "cocar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "cominear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "concomer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Causative tormenting stimulus remains subject; do not render the person feeling tormented as the active agent."
+    },
+    {
+      "spanish": "copinar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human skinner; animal is patient. Preserve Mexican whole-hide qualification."
+    },
+    {
+      "spanish": "coyotear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "crispir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "cuantiar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "cubilar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Narrow livestock overnight-sheltering reading, not a human shelter provider."
+    },
+    {
+      "spanish": "cunar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "desasear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "descamar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "descañar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "descebar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "descerar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "desojar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "despear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Explicit transitive injury operation: feet are patients. Do not silently change to a reflexive sore-footed experiencer or invent whose feet."
+    },
+    {
+      "spanish": "desurdir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "desvarar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human recovery operator acts on a stranded ship; ship is patient."
+    },
+    {
+      "spanish": "devanear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "diablear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "difluir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal fluid or gas spreads; no human dispersal agent inferred."
+    },
+    {
+      "spanish": "efluir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal outward fluid movement; no human agent invented."
+    },
+    {
+      "spanish": "embicar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "embojar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "embrocar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "enceldar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "encobar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal egg-incubating animal; not personal brooding over thoughts."
+    },
+    {
+      "spanish": "encrasar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human operator thickens liquid; liquid is not automatically the active personal subject."
+    },
+    {
+      "spanish": "engazar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "englutir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "engolar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human voice production supplies guttural resonance, not an invented passive receiving operation."
+    },
+    {
+      "spanish": "engredar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "enhielar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "enlamar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected causative application of silt; no automatic intransitive silting process."
+    },
+    {
+      "spanish": "enlizar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "enmantar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Blanket is an English transitive covering verb; no reflexive self-covering assumed."
+    },
+    {
+      "spanish": "enmostar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "entiznar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "envirar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human operator can infect the device; device is the affected patient, not a personified agent."
+    },
+    {
+      "spanish": "escollar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal grounded vessel, not a grounded human agent."
+    },
+    {
+      "spanish": "escullar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "esmuir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "espejar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "estezar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "flocular",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected causative formation of flocs in a liquid; no implicit personal subject for purely spontaneous aggregation."
+    },
+    {
+      "spanish": "fratasar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "galibar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "gallar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Rooster is the mating agent; hen is patient, not an inferred farmer."
+    },
+    {
+      "spanish": "gavillar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "gracejar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "groar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "gruir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Crane means the bird making its call, not construction machinery."
+    },
+    {
+      "spanish": "grujir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "gusanear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Crowd is the selected aggregate subject; no unrestricted singular personal bustling reading inferred."
+    },
+    {
+      "spanish": "hatear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "himpar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "himplar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal big-cat roar; human mimicry not inferred."
+    },
+    {
+      "spanish": "hisopear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "hondear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "hopear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "jaharrar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "jarabear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Physician prescribes syrups; patient is not the prescribing agent. Keep rare usage."
+    },
+    {
+      "spanish": "jaroso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "laborear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Reeve is the nautical threading operation; no authorization of an otherwise qualified English past form."
+    },
+    {
+      "spanish": "lavotear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "liego",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "listonar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "loboso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "lomudo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "majadear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Livestock spends the night in its allotted place; no human provider substituted."
+    },
+    {
+      "spanish": "mamoso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": "Nursing here is the infant or young animal taking milk, not the caregiver providing it."
+    },
+    {
+      "spanish": "mamujar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Baby taking milk is the source subject, not a caregiver; it-only is a safe narrow third-person infant reading, not a statement that humans cannot suckle."
+    },
+    {
+      "spanish": "manquear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "matutear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "mirlar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "mocear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "mohecer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive causation of fungal mold coverage; not the distinct rusting or reflexive patient reading."
+    },
+    {
+      "spanish": "momear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "motilar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human hair cutter; animal or person receiving trimming is the patient."
+    },
+    {
+      "spanish": "musco",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "namorar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "negregar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "state-past"
+      ],
+      "notes": "Inanimate dark coloration, not an invented personal racial statement."
+    },
+    {
+      "spanish": "nesgar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "nielar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "opilar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive obstructing operation; bodily passages are patients, not the experiencer as agent."
+    },
+    {
+      "spanish": "orzar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Conventional human crew directs the bow toward the wind; vessel need not be the sole grammatical subject."
+    },
+    {
+      "spanish": "ovalar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "pairar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Lie to is the nautical stationary-vessel reading, not dishonesty; no qualified English inflection override."
+    },
+    {
+      "spanish": "pechear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal chest impact; English chest-bump is a lexical compound, with no guessed inflection if AGID does not support it."
+    },
+    {
+      "spanish": "peguntar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "pitio",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "piular",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal chick sound; no personal vocal imitation inferred."
+    },
+    {
+      "spanish": "piñonear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Male partridge courtship call, not a human castanet performer."
+    },
+    {
+      "spanish": "profazar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "puposo",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "quintar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "rabiatar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "rabotear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "rebufar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human forceful snorting is a real bodily use of bufar; source does not impose an animal-only agent."
+    },
+    {
+      "spanish": "recomer",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Causative consuming discomfort: stimulus remains subject; do not swap in the distressed experiencer."
+    },
+    {
+      "spanish": "recurar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "recuñar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "redrojar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal plant flower production outside season; fruit branch is not selected."
+    },
+    {
+      "spanish": "rejonear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human mounted bullfighter acts with a rejón; bull is patient."
+    },
+    {
+      "spanish": "rejuntar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "relabrar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "relavar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "remugar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Literal ruminant rechewing, not a person thoughtfully ruminating."
+    },
+    {
+      "spanish": "rengar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human causative injury is compatible with the explicit transitive gloss; back is patient, not automatically the injured experiencer as actor."
+    },
+    {
+      "spanish": "repellar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "repodar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "repudrir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected transitive extensive rotting operation, not an automatically inferred reflexive patient."
+    },
+    {
+      "spanish": "retejar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "riostrar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "rodrigar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "romanear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "ronchar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human chewing can make the crunch; do not restrict to inanimate cracking material."
+    },
+    {
+      "spanish": "sainar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Human feeder fattens an animal; animal is patient."
+    },
+    {
+      "spanish": "salgar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "setenar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "silgar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "soflamar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "solacear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "sonetear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "sopear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "sospesar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "surdir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Right is the intransitive regaining-upright-position reading of a vessel; no personification."
+    },
+    {
+      "spanish": "tabalear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "tandear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "temoso",
+      "partOfSpeech": "adj",
+      "aspectModes": [],
+      "notes": ""
+    },
+    {
+      "spanish": "tillar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "titear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Partridge calls its chicks; no human summoning imitation inferred."
+    },
+    {
+      "spanish": "tizonear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "traillar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "trazumar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Liquid passes through solid pores or cracks; no personal seepage agent."
+    },
+    {
+      "spanish": "tronzar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "turrar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "tutorar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "vanear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zallar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zaquear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zaracear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Impersonal weather only; retain mixed light snow, drizzle and wind qualification."
+    },
+    {
+      "spanish": "zarandar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zulacar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zumacar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zunchar",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    },
+    {
+      "spanish": "zurdear",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": "Selected hand branch of the source hand-or-foot alternatives; not a claim about every use of the left foot."
+    },
+    {
+      "spanish": "zuñir",
+      "partOfSpeech": "verb",
+      "aspectModes": [
+        "progressive"
+      ],
+      "notes": ""
+    }
+  ],
+  "rejected": [
+    {
+      "spanish": "ahornar",
+      "partOfSpeech": "verb",
+      "reason": "The rare English verb oven is not independently established here as mere placement into an oven rather than baking/cooking. Request exact lexical proof of that unchanged frame, or a reviewed object-slot construction; do not silently turn placement into cooking."
+    },
+    {
+      "spanish": "añilar",
+      "partOfSpeech": "verb",
+      "reason": "Dye indigo leaves an ambiguous resultative color/patient slot and can omit the source method of coloring with indigo. Revise to dye with indigo or supply a reviewed object-aware construction; current frame is not approved unchanged."
+    },
+    {
+      "spanish": "chinar",
+      "partOfSpeech": "verb",
+      "reason": "The selected intransitive creaking/rechinar reading does not establish a personal subject. Revise to an it-only literal rubbing object/sound reading, or supply actual human-capable source use; do not infer a human noise maker from a causal possibility."
+    },
+    {
+      "spanish": "exuberar",
+      "partOfSpeech": "verb",
+      "reason": "The unchanged context is existing in excessive abundance. It does not establish the singular personal I/we abound construction with this missing abundance relation. Restrict to an appropriate entity subject or independently source a human overflow/complement construction; progressive alone does not repair the profile."
+    },
+    {
+      "spanish": "hembrear",
+      "partOfSpeech": "verb",
+      "reason": "The selected intransitive zoological offspring-production reading does not substantiate personal I/we subjects or a human breeding operator. An animal reproductive parent can be rendered with it-only; human use needs independent evidence and a new review."
+    },
+    {
+      "spanish": "mucho",
+      "partOfSpeech": "adj",
+      "reason": "Much versus many changes with countability and agreement context. Reusing both alternatives across every agreement form is not a precise form-specific English mapping. A number-invariant a lot of frame or explicit number/countability rendering would need a revised proposal."
+    },
+    {
+      "spanish": "recechar",
+      "partOfSpeech": "verb",
+      "reason": "Stalk normally introduces stealthy following or approach, whereas the selected source explicitly watches cautiously while waiting. The unchanged English predicate is not confidently aligned with stationary watch/ambush; revise to watch prey cautiously or provide source proof of pursuit."
+    },
+    {
+      "spanish": "repacer",
+      "partOfSpeech": "verb",
+      "reason": "Graze bare is a resultative construction requiring the grazed field or land before bare; an unrepresented middle patient slot remains. Revise to eat all the grass with the animal it-only profile, rather than authorizing a malformed first-head fragment."
+    },
+    {
+      "spanish": "tintinar",
+      "partOfSpeech": "verb",
+      "reason": "The selected intransitive tintinear/jingling reference supports ringing objects or sounds, not an unrestricted personal subject. Use it-only for literal ringing entities, or provide a separately attested human/operator construction before approving ordinary."
+    }
+  ]
+}

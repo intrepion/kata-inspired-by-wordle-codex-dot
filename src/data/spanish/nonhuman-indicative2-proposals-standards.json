@@ -1,0 +1,3345 @@
+{
+  "reviewer": "/root/review_standards",
+  "method": "New first-author model source/role/English-form review of16 exact nonhuman indicative plural word readings; independent second-author review required. Not examples, native-human certification or a global subject-profile change.",
+  "sourcePins": {
+    "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "englishTablesSha256": "03ee079049afe5af8174e90748701c5c46eedf67cf95342c4cc81c443c0c3cf4",
+    "englishSourceManifestSha256": "5cc79c3053dc0aa7d0db3ef228d82b8df616df56a5b7027c9e9f490826af9520",
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "existingSubjectPolicySha256": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+    "existingSingularAuditSha256": "e893d9d595e721eed26e497388319829a0a434ebf9b43781a900ba9c1e0bc89e",
+    "existing14PluralProposalSha256": "0075e961f1c7cea800f02e405c7183197ad018cbc5571e35242db8ea63514bbd",
+    "existing14PluralReviewSha256": "e066419d1d2046936097cdab36bb0fdadcc89714f2d5052a78f1927157413e75",
+    "baselineCoverageAuditSha256": "cf60b392fad34350780db3e5ed9c4a326eb8dee46105bdc13194769785a411a0",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51879,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4699,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 60958,
+      "missing": 15712,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2575,
+          "missing": 349
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8340,
+          "missing": 1396
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17537,
+          "missing": 4254
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32506,
+          "missing": 9713
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "dataLicense": "CC-BY-SA-4.0",
+    "englishAGIDLicense": "Separate permissive AGID notices; no GPL source used"
+  },
+  "inputHashes": {
+    "diagnosis": "c350b433326931a857e859975c22a9dd879436e9c7dc6e59ef44d645ac77768a",
+    "decisions": "b586e008b1860ed4652477938b633cd22e00b57a30458bdd928c9a6d8cfb86cf"
+  },
+  "proposals": [
+    {
+      "word": "CROABAN",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they were croaking",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "frogs producing their characteristic call; selected ongoing background reading",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to ribbit, to croak"
+          ],
+          "tags": [
+            "intransitive"
+          ]
+        },
+        "wordRecordSha256": "b09e845f0cb0935eb1c2adf4a523ed03efdc0179e786a2a1d0d475f2b5987c38",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural imperfect indicative of croar"
+          ],
+          "tags": [
+            "form-of",
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "croar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "croar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to ribbit, to croak"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            }
+          ],
+          "recordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "croak V: croaked | croaking | croaks",
+        "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+        "closedParsedSlots": [
+          [
+            "croaked"
+          ],
+          [
+            "croaked"
+          ],
+          [
+            "croaking"
+          ],
+          [
+            "croaks"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "afe3577a0ffcca0e839a6a160cf9a992de4fca8210021cdb9812a6d4bed6bb18",
+            "word": "croar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz, cantar, la rana."
+                ],
+                "tags": [
+                  "masculine",
+                  "noun"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "351bdf94a225c789e18495ed7ddd4d77613ac75530fcb1344d1d532b91c0d8df",
+            "word": "croaban",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de croar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "croar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "CROABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "croaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "croar",
+          "canonicalLemma": "croar",
+          "spellingAliasChain": null,
+          "englishLemma": "croak",
+          "english": [
+            "it was croaking"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a75ceb587ce75db6",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "599f54cf8cf53cd225223a819b31953e68b3a43c7d8adb06e6f1f692f5da586f",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "croaba",
+          "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+          "lemmaGloss": "to ribbit, to croak",
+          "lemmaUsageInventory": [
+            "intransitive"
+          ],
+          "agidLine": "croak V: croaked | croaking | croaks",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "CROARON",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they croaked",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "frogs producing their characteristic call; completed past reading, not human death slang",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to ribbit, to croak"
+          ],
+          "tags": [
+            "intransitive"
+          ]
+        },
+        "wordRecordSha256": "49c38fc7a501ab751eceb83520853fcc9b71e2c3cf792b1a6e4993df3fea9fe7",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural preterite indicative of croar"
+          ],
+          "tags": [
+            "form-of",
+            "indicative",
+            "plural",
+            "preterite",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "croar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "croar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to ribbit, to croak"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            }
+          ],
+          "recordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "croak V: croaked | croaking | croaks",
+        "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+        "closedParsedSlots": [
+          [
+            "croaked"
+          ],
+          [
+            "croaked"
+          ],
+          [
+            "croaking"
+          ],
+          [
+            "croaks"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "afe3577a0ffcca0e839a6a160cf9a992de4fca8210021cdb9812a6d4bed6bb18",
+            "word": "croar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz, cantar, la rana."
+                ],
+                "tags": [
+                  "masculine",
+                  "noun"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "1468524f20094796a6ea7723b09764daa65b7667f1b56c0ba206814cda448aab",
+            "word": "croaron",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito perfecto simple de indicativo de croar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "croar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "CROABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "croaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "croar",
+          "canonicalLemma": "croar",
+          "spellingAliasChain": null,
+          "englishLemma": "croak",
+          "english": [
+            "it was croaking"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a75ceb587ce75db6",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "599f54cf8cf53cd225223a819b31953e68b3a43c7d8adb06e6f1f692f5da586f",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "croaba",
+          "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+          "lemmaGloss": "to ribbit, to croak",
+          "lemmaUsageInventory": [
+            "intransitive"
+          ],
+          "agidLine": "croak V: croaked | croaking | croaks",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "CROARÁN",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they will croak",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "frogs producing their characteristic call; future reading",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to ribbit, to croak"
+          ],
+          "tags": [
+            "intransitive"
+          ]
+        },
+        "wordRecordSha256": "05c1d69d62e3b8a9f0b1188eb5aa1b8f8e6942398da45c197cfe59c34a127a40",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural future indicative of croar"
+          ],
+          "tags": [
+            "form-of",
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "croar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "croar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to ribbit, to croak"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            }
+          ],
+          "recordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "croak V: croaked | croaking | croaks",
+        "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+        "closedParsedSlots": [
+          [
+            "croaked"
+          ],
+          [
+            "croaked"
+          ],
+          [
+            "croaking"
+          ],
+          [
+            "croaks"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "afe3577a0ffcca0e839a6a160cf9a992de4fca8210021cdb9812a6d4bed6bb18",
+            "word": "croar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz, cantar, la rana."
+                ],
+                "tags": [
+                  "masculine",
+                  "noun"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "b67183e746f75759a8088b344fe3bd155076540c93da5407248513d90716fe1b",
+            "word": "croarán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de croar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "croar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "CROABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "croaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "croar",
+          "canonicalLemma": "croar",
+          "spellingAliasChain": null,
+          "englishLemma": "croak",
+          "english": [
+            "it was croaking"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a75ceb587ce75db6",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "599f54cf8cf53cd225223a819b31953e68b3a43c7d8adb06e6f1f692f5da586f",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "croaba",
+          "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+          "lemmaGloss": "to ribbit, to croak",
+          "lemmaUsageInventory": [
+            "intransitive"
+          ],
+          "agidLine": "croak V: croaked | croaking | croaks",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MUGÍAN",
+      "lemma": "mugir",
+      "frame": "moo",
+      "english": "they were mooing",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cattle mooing; selected ongoing background reading, not people imitating cattle",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to moo"
+          ],
+          "tags": [
+            "intransitive"
+          ]
+        },
+        "wordRecordSha256": "18c51f853f7d625579c6d918b58fe69e0cd7892efd82b7b678b89cf71fc8348a",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural imperfect indicative of mugir"
+          ],
+          "tags": [
+            "form-of",
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "mugir"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "mugir",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to moo"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            }
+          ],
+          "recordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "moo V: mooed | mooing | moos",
+        "agidLineSha256": "ffd33c84b16d531a93d515809e5bec202c86d3ad247a7c203f387853138654eb",
+        "closedParsedSlots": [
+          [
+            "mooed"
+          ],
+          [
+            "mooed"
+          ],
+          [
+            "mooing"
+          ],
+          [
+            "moos"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "081119a0ab10a9a6404250b1a63335be227d9772aa32c3a0df9f0d6fe2ec9f0c",
+            "word": "mugir",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Dicho de la vaca: dar mugidos."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Rugir, gritar."
+                ],
+                "tags": [
+                  "figurative"
+                ],
+                "categories": [
+                  "ES:Términos en sentido figurado"
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "Dicho del viento: producir un gran ruido."
+                ],
+                "tags": [
+                  "figurative"
+                ],
+                "categories": [
+                  "ES:Términos en sentido figurado"
+                ],
+                "sense_index": "3"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "c48127f02fa2d2b6e4214368ab9fd40420580a1b98824a3c2a593e2868c26911",
+            "word": "mugían",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de mugir."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mugir"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MUGÍA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "mugía",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "mugir",
+          "canonicalLemma": "mugir",
+          "spellingAliasChain": null,
+          "englishLemma": "moo",
+          "english": [
+            "it was mooing"
+          ],
+          "additionalVerbReview": null,
+          "subjectPolicy": {
+            "id": "eb6b6d7f0b08a891",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "02c6edd4034678002fb99deb82a3a98b36c769f00ee181ca8c3d57bffc6fafde",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "mugía",
+          "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+          "lemmaGloss": "to moo",
+          "lemmaUsageInventory": [
+            "intransitive"
+          ],
+          "agidLine": "moo V: mooed | mooing | moos",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MUGIRÁN",
+      "lemma": "mugir",
+      "frame": "moo",
+      "english": "they will moo",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cattle mooing; future reading, no human or weather subject",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to moo"
+          ],
+          "tags": [
+            "intransitive"
+          ]
+        },
+        "wordRecordSha256": "791aaf50983574d9dde0c886db70bb3c871974f53041e8889ec948deb4cb0f42",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural future indicative of mugir"
+          ],
+          "tags": [
+            "form-of",
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "mugir"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "mugir",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to moo"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            }
+          ],
+          "recordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "moo V: mooed | mooing | moos",
+        "agidLineSha256": "ffd33c84b16d531a93d515809e5bec202c86d3ad247a7c203f387853138654eb",
+        "closedParsedSlots": [
+          [
+            "mooed"
+          ],
+          [
+            "mooed"
+          ],
+          [
+            "mooing"
+          ],
+          [
+            "moos"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "081119a0ab10a9a6404250b1a63335be227d9772aa32c3a0df9f0d6fe2ec9f0c",
+            "word": "mugir",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Dicho de la vaca: dar mugidos."
+                ],
+                "sense_index": "1"
+              },
+              {
+                "glosses": [
+                  "Rugir, gritar."
+                ],
+                "tags": [
+                  "figurative"
+                ],
+                "categories": [
+                  "ES:Términos en sentido figurado"
+                ],
+                "sense_index": "2"
+              },
+              {
+                "glosses": [
+                  "Dicho del viento: producir un gran ruido."
+                ],
+                "tags": [
+                  "figurative"
+                ],
+                "categories": [
+                  "ES:Términos en sentido figurado"
+                ],
+                "sense_index": "3"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "602fb3f6bcc7256448f903145f786f92335ecb2628a7c5aba8700ec809913dee",
+            "word": "mugirán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de mugir."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mugir"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MUGÍA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "mugía",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "mugir",
+          "canonicalLemma": "mugir",
+          "spellingAliasChain": null,
+          "englishLemma": "moo",
+          "english": [
+            "it was mooing"
+          ],
+          "additionalVerbReview": null,
+          "subjectPolicy": {
+            "id": "eb6b6d7f0b08a891",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "02c6edd4034678002fb99deb82a3a98b36c769f00ee181ca8c3d57bffc6fafde",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "mugía",
+          "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+          "lemmaGloss": "to moo",
+          "lemmaUsageInventory": [
+            "intransitive"
+          ],
+          "agidLine": "moo V: mooed | mooing | moos",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MAYABAN",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they were meowing",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; selected ongoing background reading, not the separate reflexive plant-wilting sense",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to miaow"
+          ]
+        },
+        "wordRecordSha256": "73ee27e46346a9e74c7c97a98641733901757bd6e8e89b9f8cf2907136c476b5",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural imperfect indicative of mayar"
+          ],
+          "tags": [
+            "form-of",
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "mayar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "mayar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to miaow"
+              ]
+            },
+            {
+              "glosses": [
+                "to wilt"
+              ],
+              "tags": [
+                "Costa-Rica",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "737c4a111a127ea9a658dc1963fa281d7ca99affbccc38eea01971a4fb71c689",
+            "word": "mayar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "tags": [
+                  "no-gloss"
+                ]
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "aa919103788f80b07217e9fbab7051e2c3ba90a1b43e32633f61bb6732fa8c97",
+            "word": "mayaban",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de mayar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mayar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MAYABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "mayaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "mayar",
+          "canonicalLemma": "mayar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a35c69b556b8d627",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "05051834b54f020a2d74ea6677d1263cb23c6729139db4e01411bb09241ce135",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "mayaba",
+          "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+          "lemmaGloss": "to miaow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MAYARON",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they meowed",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; completed past reading, not the separate reflexive plant-wilting sense",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to miaow"
+          ]
+        },
+        "wordRecordSha256": "94f8c5b4b4bdedeacd26897fee1162222046cd69fa93ab7b382f957aaffb0313",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural preterite indicative of mayar"
+          ],
+          "tags": [
+            "form-of",
+            "indicative",
+            "plural",
+            "preterite",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "mayar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "mayar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to miaow"
+              ]
+            },
+            {
+              "glosses": [
+                "to wilt"
+              ],
+              "tags": [
+                "Costa-Rica",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "737c4a111a127ea9a658dc1963fa281d7ca99affbccc38eea01971a4fb71c689",
+            "word": "mayar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "tags": [
+                  "no-gloss"
+                ]
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "82f0bfd6d21754913153b7d163792f824b71bc059f63dacd3dab5c73491200d4",
+            "word": "mayaron",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito perfecto simple de indicativo de mayar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mayar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MAYABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "mayaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "mayar",
+          "canonicalLemma": "mayar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a35c69b556b8d627",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "05051834b54f020a2d74ea6677d1263cb23c6729139db4e01411bb09241ce135",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "mayaba",
+          "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+          "lemmaGloss": "to miaow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MAYARÁN",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they will meow",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; future reading, not the separate reflexive plant-wilting sense",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to miaow"
+          ]
+        },
+        "wordRecordSha256": "aa18c58301cd1e4b3620e29b5bc1b12d72989bce773fe0af8514859b667bf15f",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural future indicative of mayar"
+          ],
+          "tags": [
+            "form-of",
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "mayar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "mayar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to miaow"
+              ]
+            },
+            {
+              "glosses": [
+                "to wilt"
+              ],
+              "tags": [
+                "Costa-Rica",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "737c4a111a127ea9a658dc1963fa281d7ca99affbccc38eea01971a4fb71c689",
+            "word": "mayar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "tags": [
+                  "no-gloss"
+                ]
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "a8d5cf84d6a558122a176990990bdda3e980fe4b79c2cc2f8a2a5917f4979331",
+            "word": "mayarán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de mayar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "mayar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MAYABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "mayaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "mayar",
+          "canonicalLemma": "mayar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "a35c69b556b8d627",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "05051834b54f020a2d74ea6677d1263cb23c6729139db4e01411bb09241ce135",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "mayaba",
+          "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+          "lemmaGloss": "to miaow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "PACÍAN",
+      "lemma": "pacer",
+      "frame": "graze",
+      "english": "they were grazing",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "grazing animals eating pasture; selected ongoing background reading, not farmers pasturing animals",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to graze, to pasture"
+          ]
+        },
+        "wordRecordSha256": "a0d60008281cb6836dff9f1e94f254e9a7180042397b53850028c1c6834c3e5c",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural imperfect indicative of pacer"
+          ],
+          "tags": [
+            "form-of",
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "pacer"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "pacer",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to graze, to pasture"
+              ]
+            },
+            {
+              "glosses": [
+                "to put out to pasture"
+              ]
+            },
+            {
+              "glosses": [
+                "to eat away, to nibble, to gnaw"
+              ]
+            }
+          ],
+          "recordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "graze V: grazed | grazing | grazes",
+        "agidLineSha256": "be3b1b308e928b6c3b7b146a30f84ec7dd8238ad6a8893edda850ef7b0c82078",
+        "closedParsedSlots": [
+          [
+            "grazed"
+          ],
+          [
+            "grazed"
+          ],
+          [
+            "grazing"
+          ],
+          [
+            "grazes"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "3e29f28b98e15f82a8ac8583b9905298a61073350db5479f65ec27f8a3f23295",
+            "word": "pacer",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Alimentarse el ganado en los campos."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          },
+          {
+            "recordSha256": "1243d6679c8287a2ce28459b1cdc675da90b1780bf57f07390a99f1a2ff90d2e",
+            "word": "pacer",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Llevar al ganado a comer pasto."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "7cf94513a4e94570da7c03f7e7f2427114afe3b02b530cb74b21beba3352430d",
+            "word": "pacían",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de pacer."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "pacer"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "PACÍA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "pacía",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "pacer",
+          "canonicalLemma": "pacer",
+          "spellingAliasChain": null,
+          "englishLemma": "graze",
+          "english": [
+            "it was grazing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "698114413a189b58",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "f3f4d577b7bdb968070f0b00c555bff3d98b62a6617a99ae05cf944d08dd7c4f",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "pacía",
+          "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+          "lemmaGloss": "to graze, to pasture",
+          "lemmaUsageInventory": [],
+          "agidLine": "graze V: grazed | grazing | grazes",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "PACERÁN",
+      "lemma": "pacer",
+      "frame": "graze",
+      "english": "they will graze",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "grazing animals eating pasture; future reading, not farmers pasturing animals",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to graze, to pasture"
+          ]
+        },
+        "wordRecordSha256": "cb0d27f263e5687d4e8cfae94e4b90ad7fbaa042e5307958d75e66211d36cafd",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural future indicative of pacer"
+          ],
+          "tags": [
+            "form-of",
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "pacer"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "pacer",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to graze, to pasture"
+              ]
+            },
+            {
+              "glosses": [
+                "to put out to pasture"
+              ]
+            },
+            {
+              "glosses": [
+                "to eat away, to nibble, to gnaw"
+              ]
+            }
+          ],
+          "recordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "graze V: grazed | grazing | grazes",
+        "agidLineSha256": "be3b1b308e928b6c3b7b146a30f84ec7dd8238ad6a8893edda850ef7b0c82078",
+        "closedParsedSlots": [
+          [
+            "grazed"
+          ],
+          [
+            "grazed"
+          ],
+          [
+            "grazing"
+          ],
+          [
+            "grazes"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "3e29f28b98e15f82a8ac8583b9905298a61073350db5479f65ec27f8a3f23295",
+            "word": "pacer",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Alimentarse el ganado en los campos."
+                ],
+                "sense_index": "1"
+              }
+            ]
+          },
+          {
+            "recordSha256": "1243d6679c8287a2ce28459b1cdc675da90b1780bf57f07390a99f1a2ff90d2e",
+            "word": "pacer",
+            "pos": "verb",
+            "wordTags": [
+              "transitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Llevar al ganado a comer pasto."
+                ],
+                "sense_index": "2"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "405fbe90df3b90e9e6f0bec5b116195cfae366e16546dc68f729071dffcae538",
+            "word": "pacerán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de pacer."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "pacer"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "PACÍA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "pacía",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "pacer",
+          "canonicalLemma": "pacer",
+          "spellingAliasChain": null,
+          "englishLemma": "graze",
+          "english": [
+            "it was grazing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "698114413a189b58",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "f3f4d577b7bdb968070f0b00c555bff3d98b62a6617a99ae05cf944d08dd7c4f",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "pacía",
+          "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+          "lemmaGloss": "to graze, to pasture",
+          "lemmaUsageInventory": [],
+          "agidLine": "graze V: grazed | grazing | grazes",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "OVABAN",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they were laying eggs",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "egg-laying animals; selected ongoing background reading, not human ovulation",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to lay eggs"
+          ]
+        },
+        "wordRecordSha256": "911ce87a0278ab9345429d642bf51bd60e991d955c35d76a02b7f5faed9d8a33",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural imperfect indicative of ovar"
+          ],
+          "tags": [
+            "form-of",
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "ovar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "ovar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to lay eggs"
+              ]
+            }
+          ],
+          "recordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "lay V: laid | laying | lays",
+        "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+        "closedParsedSlots": [
+          [
+            "laid"
+          ],
+          [
+            "laid"
+          ],
+          [
+            "laying"
+          ],
+          [
+            "lays"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "39d4c3faf6f76f338561a8543786c68d8a35aacd6202e7c70a2fec43cf68bd8f",
+            "word": "ovar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Poner huevos"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "8da220b1ab796e23599f22a6871382e9ab60c98a3608d5201c2a66e20f003709",
+            "word": "ovaban",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de ovar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ovar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "OVABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "ovaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "ovar",
+          "canonicalLemma": "ovar",
+          "spellingAliasChain": null,
+          "englishLemma": "lay eggs",
+          "english": [
+            "it was laying eggs"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "2e03a69c0f944cc5",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "801c913f38bc9b69e0d5278fe8433b967e9528eed8e90a201b41ca339ee230c7",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "ovaba",
+          "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+          "lemmaGloss": "to lay eggs",
+          "lemmaUsageInventory": [],
+          "agidLine": "lay V: laid | laying | lays",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "OVARON",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they laid eggs",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "egg-laying animals; completed past reading, not human ovulation",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to lay eggs"
+          ]
+        },
+        "wordRecordSha256": "4389a85650dec161e5ae465da0cbfe9c63c5d635e3e9ee5850d7da6f6d33d02f",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural preterite indicative of ovar"
+          ],
+          "tags": [
+            "form-of",
+            "indicative",
+            "plural",
+            "preterite",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "ovar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "ovar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to lay eggs"
+              ]
+            }
+          ],
+          "recordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "lay V: laid | laying | lays",
+        "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+        "closedParsedSlots": [
+          [
+            "laid"
+          ],
+          [
+            "laid"
+          ],
+          [
+            "laying"
+          ],
+          [
+            "lays"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "39d4c3faf6f76f338561a8543786c68d8a35aacd6202e7c70a2fec43cf68bd8f",
+            "word": "ovar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Poner huevos"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "3fa2c9738af448d9ef901b03d223ce8e569f8aef1645d563808b761cec7f75b2",
+            "word": "ovaron",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito perfecto simple de indicativo de ovar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ovar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "OVABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "ovaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "ovar",
+          "canonicalLemma": "ovar",
+          "spellingAliasChain": null,
+          "englishLemma": "lay eggs",
+          "english": [
+            "it was laying eggs"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "2e03a69c0f944cc5",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "801c913f38bc9b69e0d5278fe8433b967e9528eed8e90a201b41ca339ee230c7",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "ovaba",
+          "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+          "lemmaGloss": "to lay eggs",
+          "lemmaUsageInventory": [],
+          "agidLine": "lay V: laid | laying | lays",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "OVARÁN",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they will lay eggs",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "egg-laying animals; future reading, not human ovulation",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to lay eggs"
+          ]
+        },
+        "wordRecordSha256": "52cbda44864cfdd0341f8f16b40f473a67acd0c6931c235d871641fa68dd3362",
+        "sourceForm": {
+          "glosses": [
+            "third-person plural future indicative of ovar"
+          ],
+          "tags": [
+            "form-of",
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "form_of": [
+            {
+              "word": "ovar"
+            }
+          ]
+        },
+        "tableForm": null,
+        "evidenceKind": "exact retained English-source word-entry sense",
+        "lemmaRow": {
+          "word": "ovar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to lay eggs"
+              ]
+            }
+          ],
+          "recordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "lay V: laid | laying | lays",
+        "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+        "closedParsedSlots": [
+          [
+            "laid"
+          ],
+          [
+            "laid"
+          ],
+          [
+            "laying"
+          ],
+          [
+            "lays"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "39d4c3faf6f76f338561a8543786c68d8a35aacd6202e7c70a2fec43cf68bd8f",
+            "word": "ovar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Poner huevos"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "42117e7090250792ea8cea748e9930923aaf5abb2610bb46e3e1b40b74d8300d",
+            "word": "ovarán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de ovar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "ovar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "OVABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "ovaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "first-person",
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "ovar",
+          "canonicalLemma": "ovar",
+          "spellingAliasChain": null,
+          "englishLemma": "lay eggs",
+          "english": [
+            "it was laying eggs"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "2e03a69c0f944cc5",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "801c913f38bc9b69e0d5278fe8433b967e9528eed8e90a201b41ca339ee230c7",
+          "wordEvidenceKind": "source word entry",
+          "spanishForm": null,
+          "tableForm": null,
+          "sourceArticle": "ovaba",
+          "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+          "lemmaGloss": "to lay eggs",
+          "lemmaUsageInventory": [],
+          "agidLine": "lay V: laid | laying | lays",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MIABAN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they were meowing",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; selected ongoing background reading from an exact retained conjugation-table cell",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to meow"
+          ]
+        },
+        "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "sourceForm": {
+          "tags": [
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person",
+            "form-of"
+          ],
+          "glosses": [
+            "Explicit source inflection table"
+          ],
+          "form_of": [
+            {
+              "word": "miar"
+            }
+          ]
+        },
+        "tableForm": {
+          "form": "miaban",
+          "tags": [
+            "imperfect",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "evidenceKind": "exact retained English-source conjugation-table cell",
+        "lemmaRow": {
+          "word": "miar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to meow"
+              ]
+            }
+          ],
+          "recordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "01662fc31a0c5eaa3b0a07fad7068e2cd756be574a053f8e84fb447fc305cbd7",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz el gato, similar a la onomatopeya miau."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          },
+          {
+            "recordSha256": "ccfa623c869f6cef762f3aa40290e7ea52358edcc19f34c4b9ff3119cef7a2d1",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Expulsar líquido un organismo a través de la uretra, especialmente la orina."
+                ],
+                "tags": [
+                  "Central-America",
+                  "Mexico",
+                  "Venezuela",
+                  "colloquial",
+                  "pronominal",
+                  "transitive",
+                  "vulgar"
+                ],
+                "categories": [
+                  "ES:América",
+                  "ES:América Central",
+                  "ES:México",
+                  "ES:Términos coloquiales",
+                  "ES:Términos malsonantes",
+                  "ES:Venezuela"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "e01086a8ae5ade4681f090d5c1e36f7eae48762880cfcef5419a9309154915d1",
+            "word": "miaban",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de miar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "miar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MIABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "miaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "miar",
+          "canonicalLemma": "miar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "ad168b0c2864ddfd",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "wordEvidenceKind": "explicit source table",
+          "spanishForm": null,
+          "tableForm": {
+            "form": "miaba",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "source": "conjugation",
+            "tableTags": []
+          },
+          "sourceArticle": "miar",
+          "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "lemmaGloss": "to meow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MIARON",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they meowed",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; completed past reading from an exact retained conjugation-table cell",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to meow"
+          ]
+        },
+        "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "sourceForm": {
+          "tags": [
+            "indicative",
+            "plural",
+            "preterite",
+            "third-person",
+            "form-of"
+          ],
+          "glosses": [
+            "Explicit source inflection table"
+          ],
+          "form_of": [
+            {
+              "word": "miar"
+            }
+          ]
+        },
+        "tableForm": {
+          "form": "miaron",
+          "tags": [
+            "indicative",
+            "plural",
+            "preterite",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "evidenceKind": "exact retained English-source conjugation-table cell",
+        "lemmaRow": {
+          "word": "miar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to meow"
+              ]
+            }
+          ],
+          "recordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "01662fc31a0c5eaa3b0a07fad7068e2cd756be574a053f8e84fb447fc305cbd7",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz el gato, similar a la onomatopeya miau."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          },
+          {
+            "recordSha256": "ccfa623c869f6cef762f3aa40290e7ea52358edcc19f34c4b9ff3119cef7a2d1",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Expulsar líquido un organismo a través de la uretra, especialmente la orina."
+                ],
+                "tags": [
+                  "Central-America",
+                  "Mexico",
+                  "Venezuela",
+                  "colloquial",
+                  "pronominal",
+                  "transitive",
+                  "vulgar"
+                ],
+                "categories": [
+                  "ES:América",
+                  "ES:América Central",
+                  "ES:México",
+                  "ES:Términos coloquiales",
+                  "ES:Términos malsonantes",
+                  "ES:Venezuela"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "00e52cf750b5112ff2f4daf60846cc707f4b57137d5c6ceea353ece1b529e082",
+            "word": "miaron",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito perfecto simple de indicativo de miar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "miar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MIABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "miaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "miar",
+          "canonicalLemma": "miar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "ad168b0c2864ddfd",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "wordEvidenceKind": "explicit source table",
+          "spanishForm": null,
+          "tableForm": {
+            "form": "miaba",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "source": "conjugation",
+            "tableTags": []
+          },
+          "sourceArticle": "miar",
+          "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "lemmaGloss": "to meow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    },
+    {
+      "word": "MIARÁN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they will meow",
+      "existingProfile": "it-only",
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "context": "cats meowing; future reading from an exact retained conjugation-table cell",
+      "sourceEvidence": {
+        "sourceEdition": "English",
+        "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "lemmaSenseIndex": 0,
+        "sourceSense": {
+          "glosses": [
+            "to meow"
+          ]
+        },
+        "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+        "sourceForm": {
+          "tags": [
+            "future",
+            "indicative",
+            "plural",
+            "third-person",
+            "form-of"
+          ],
+          "glosses": [
+            "Explicit source inflection table"
+          ],
+          "form_of": [
+            {
+              "word": "miar"
+            }
+          ]
+        },
+        "tableForm": {
+          "form": "miarán",
+          "tags": [
+            "future",
+            "indicative",
+            "plural",
+            "third-person"
+          ],
+          "source": "conjugation",
+          "tableTags": []
+        },
+        "evidenceKind": "exact retained English-source conjugation-table cell",
+        "lemmaRow": {
+          "word": "miar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to meow"
+              ]
+            }
+          ],
+          "recordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e"
+        }
+      },
+      "englishInflectionEvidence": {
+        "agidRawLine": "meow V: meowed | meowing | meows",
+        "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+        "closedParsedSlots": [
+          [
+            "meowed"
+          ],
+          [
+            "meowed"
+          ],
+          [
+            "meowing"
+          ],
+          [
+            "meows"
+          ]
+        ],
+        "senseQualified": false
+      },
+      "guards": [
+        "Only this exact word/root/lemma sense/form record/features may use this selected they reading.",
+        "No human I/we/you, formal ustedes, commands, subjunctives, weather, reflexive or global profile extension."
+      ],
+      "spanishRawCorroboration": {
+        "lemmaRows": [
+          {
+            "recordSha256": "01662fc31a0c5eaa3b0a07fad7068e2cd756be574a053f8e84fb447fc305cbd7",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Emitir su voz el gato, similar a la onomatopeya miau."
+                ],
+                "tags": [
+                  "rare"
+                ],
+                "categories": [
+                  "ES:Términos infrecuentes"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          },
+          {
+            "recordSha256": "ccfa623c869f6cef762f3aa40290e7ea52358edcc19f34c4b9ff3119cef7a2d1",
+            "word": "miar",
+            "pos": "verb",
+            "wordTags": [
+              "intransitive"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Expulsar líquido un organismo a través de la uretra, especialmente la orina."
+                ],
+                "tags": [
+                  "Central-America",
+                  "Mexico",
+                  "Venezuela",
+                  "colloquial",
+                  "pronominal",
+                  "transitive",
+                  "vulgar"
+                ],
+                "categories": [
+                  "ES:América",
+                  "ES:América Central",
+                  "ES:México",
+                  "ES:Términos coloquiales",
+                  "ES:Términos malsonantes",
+                  "ES:Venezuela"
+                ],
+                "sense_index": "1"
+              }
+            ]
+          }
+        ],
+        "wordRows": [
+          {
+            "recordSha256": "4367d2cfcf54907f8d147478d1a147ec1279155e77b2c2e76cfef4b579095637",
+            "word": "miarán",
+            "pos": "verb",
+            "wordTags": [
+              "form-of"
+            ],
+            "wordRawTags": [],
+            "senses": [
+              {
+                "glosses": [
+                  "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de miar."
+                ],
+                "tags": [
+                  "form-of"
+                ],
+                "categories": [
+                  "ES:Formas verbales en indicativo"
+                ],
+                "sense_index": "1",
+                "form_of": [
+                  {
+                    "word": "miar"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "existingSelectedSingularEvidence": {
+        "word": "MIABA",
+        "proof": {
+          "kind": "rendered-form",
+          "word": "miaba",
+          "features": {
+            "kind": "finite",
+            "tense": "imperfect",
+            "person": "third-person",
+            "number": "singular",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ]
+          },
+          "spanishLemma": "miar",
+          "canonicalLemma": "miar",
+          "spellingAliasChain": null,
+          "englishLemma": "meow",
+          "english": [
+            "it was meowing"
+          ],
+          "additionalVerbReview": {
+            "meaningIndex": 0,
+            "reviewHashesRef": "#/additionalVerbReview/reviewHashes"
+          },
+          "subjectPolicy": {
+            "id": "ad168b0c2864ddfd",
+            "action": "it-only",
+            "effectiveProfile": "it-only"
+          },
+          "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "wordEvidenceKind": "explicit source table",
+          "spanishForm": null,
+          "tableForm": {
+            "form": "miaba",
+            "tags": [
+              "imperfect",
+              "indicative",
+              "singular",
+              "third-person"
+            ],
+            "source": "conjugation",
+            "tableTags": []
+          },
+          "sourceArticle": "miar",
+          "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+          "lemmaGloss": "to meow",
+          "lemmaUsageInventory": [],
+          "agidLine": "meow V: meowed | meowing | meows",
+          "nonhumanPluralReview": null,
+          "qualifiedSlotReview": null,
+          "englishRule": "AGID unqualified inflection / fixed adjective meaning"
+        },
+        "sourceAuditFile": "english-translation-audit.json",
+        "referenceBase": "Fragment references inside the preserved proof resolve in the pinned sourceAuditFile, not in this proposal."
+      }
+    }
+  ],
+  "held": [
+    {
+      "word": "MÍAN",
+      "lemma": "miar",
+      "reason": "Potential additional exact Spanish-edition present-indicative form; kept separate because this batch is English word/table evidence. Requires its own foreign-adapter whole-source binding, not a guessed English word entry."
+    },
+    {
+      "scope": "all other diagnosed third-person plural features",
+      "reason": "Commands/formal-you, subjunctives, weather or other roots are not approved by this bounded exact-word batch."
+    }
+  ],
+  "counts": {
+    "proposedWordReadings": 16,
+    "distinctStillMissingSpellings": 16,
+    "roots": 6,
+    "explicitEnglishWordEntries": 13,
+    "exactEnglishTableCells": 3
+  },
+  "limitations": [
+    "English raw record identities are validated against retained pinned extraction/table files; no fresh replay of the3GB original English archive was executed. Spanish corroborating records were replayed from the exact local gzip.",
+    "Every current singular meaning/subject restriction remains unchanged; a new exact-word they-only exception is proposed, requiring independent approval before any code change.",
+    "All English forms use complete unqualified pinned AGID slots. Imperfect English is a selected ongoing animal activity reading, not a universal aspect translation.",
+    "16 still-missing words are potential additions, not actual integrated global coverage. No source claims, dates, draft guesses, hidden answers or user data were used."
+  ]
+}

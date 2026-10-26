@@ -1,0 +1,5989 @@
+{
+  "baseline": "J59707/16963gaps",
+  "sourcePins": {
+    "mcrRevision": "406bf83b3c507a3d1f26e88252d5d66893fd36bf",
+    "mcrUrl": "https://raw.githubusercontent.com/omwn/omw-data/406bf83b3c507a3d1f26e88252d5d66893fd36bf/wns/mcr/wn-data-spa.tab",
+    "mcrSha256": "0ec37ce94ee2acc63ad6b120e1051f9841d172778cc24adc0023fb8dccf0a7cd",
+    "englishUrl": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+    "englishArchiveSha256": "640db279c949a88f61f851dd54ebbb22d003f8b90b85267042ef85a3781d3a52",
+    "spanishLicense": "CC-BY-3.0",
+    "licenseEvidence": "https://www.talp.upc.edu/demo-detail/440/MRC.html",
+    "englishLicense": "Princeton WordNet original license; see WordNet-LICENSE.txt",
+    "modifications": "Exact WordNet 3.0 noun-synset joins, independently reviewed selected English renderings, no quotations or examples.",
+    "englishExpandedFileHashes": {
+      "data.verb": "7fff397e93b4fb152fdaee116747cf1c40d7badedccb4b63f5503e8e962d9102",
+      "data.adj": "f24b635368be441501c9b8001e9271fd3b30b203f00d91e332979e6f8fe35646",
+      "data.adv": "e66dbbda0e0359e41b7f225bff71dd0c263dc7c66c1b61abc9ba334973d92979"
+    }
+  },
+  "counts": {
+    "pairs": 143,
+    "byPOS": {
+      "a": 14,
+      "v": 129
+    },
+    "words": 84
+  },
+  "candidates": [
+    {
+      "spanish": "brotado",
+      "word": "BROTADO",
+      "synset": "02491421-a",
+      "synonyms": [
+        "sprouted"
+      ],
+      "definition": "(of growing vegetation) having just emerged from the ground",
+      "actualSynsetPOS": "s",
+      "recordSha256": "31100b1b65fe7d1b282b2510e1b2736fc2bf8ca8b8e75842ed40f604c1f0003e",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "df0cd2007336d9de8fad3a78f89042f58a11e7714cba73c08220bac0650d36df",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Participio de brotar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "canular",
+      "word": "CANULAR",
+      "synset": "02264807-a",
+      "synonyms": [
+        "tubular",
+        "cannular",
+        "tubelike",
+        "tube-shaped",
+        "vasiform"
+      ],
+      "definition": "constituting a tube; having hollow tubes (as for the passage of fluids)",
+      "actualSynsetPOS": "s",
+      "recordSha256": "d3ef5cbe243612438c94ef535588a7da86c52fb9f4190dd4126b5cd69d34db2d",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "61284f81cc286ccb688c74ae620fafe9d6ade10e5bff34db444df4469acea58e",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "adj",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Con forma de cánula."
+          ],
+          "tags": [],
+          "rawTags": [
+            "invariable en género"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 1,
+          "senseIndex": 0,
+          "glosses": [
+            "Introducir un catéter en una vena, arteria, u otro conducto vascular, para la infusión de líquidos, extracción de sangre o para diagnosticar."
+          ],
+          "tags": [
+            "transitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "fungoso",
+      "word": "FUNGOSO",
+      "synset": "02832678-a",
+      "synonyms": [
+        "fungal",
+        "fungous"
+      ],
+      "definition": "of or relating to fungi",
+      "actualSynsetPOS": "a",
+      "recordSha256": "6d7fef405d43b287ed0feffcaf55c3f4c643a3ea1f20511c9bb8510da38f8160",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "a1f164c93dcaa9b2ba59c1bd07b9e098b971f00f083e28cabe6717322c89018d",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "granoso",
+      "word": "GRANOSO",
+      "synset": "00365799-a",
+      "synonyms": [
+        "chondritic",
+        "granular"
+      ],
+      "definition": "having a granular structure like that of chondrites",
+      "actualSynsetPOS": "a",
+      "recordSha256": "beec13d0c2668e2306a92e6e31189f881b1f4f268e7121cce5ea07d5a5163dec",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "239dd545b4403c6baaa0fe2b660d1ecf25bc65174128ebf56a86de1d8b32b58e",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "hebroso",
+      "word": "HEBROSO",
+      "synset": "02413851-a",
+      "synonyms": [
+        "filamentous",
+        "filiform",
+        "filamentlike",
+        "threadlike",
+        "thready"
+      ],
+      "definition": "thin in diameter; resembling a thread",
+      "actualSynsetPOS": "s",
+      "recordSha256": "bc8a5666df9511c8dddc20ca3d336e81eb3e09cc9f0503095161a54e0e34e428",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "0ef63ea0b1abac339aeba81334f18102a7f50309e882ea21b9261564abd5acad",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "icoroso",
+      "word": "ICOROSO",
+      "synset": "02851709-a",
+      "synonyms": [
+        "ichorous",
+        "sanious"
+      ],
+      "definition": "of or resembling or characterized by ichor or sanies",
+      "actualSynsetPOS": "a",
+      "recordSha256": "71ed75206a9a0a7386938d5628d2f620e966eea44ad7c8027b048e1837e28cd6",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "523c1fcc61bf9cdc65e5c0f8c8d1c7b21830fb1309336e8497e4239b0f26f7c5",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "latvio",
+      "word": "LATVIO",
+      "synset": "02962818-a",
+      "synonyms": [
+        "Latvian"
+      ],
+      "definition": "of or relating to or characteristic of Latvia or its people or language",
+      "actualSynsetPOS": "a",
+      "recordSha256": "398ceb958a855d6c081c718d1ac49c258b5311133810bb5c94a5c58efdf78c19",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "310871383ed0cc4b885656aa105029a90dcfbebbaa87ec2ad249252e8981d9ea",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "laxista",
+      "word": "LAXISTA",
+      "synset": "00287275-a",
+      "synonyms": [
+        "free-thinking",
+        "latitudinarian",
+        "undogmatic",
+        "undogmatical"
+      ],
+      "definition": "unwilling to accept authority or dogma (especially in religion)",
+      "actualSynsetPOS": "s",
+      "recordSha256": "dbed6829ceb762befc6209a1474d0fa006ff975372725b502d6a0bc9cba6f11f",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "9dcd33340bb6e7b8f840fe3043aa7889cd03e58a866d2af2e39d19ac29e4457d",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "lujado",
+      "word": "LUJADO",
+      "synset": "01318510-a",
+      "synonyms": [
+        "disjointed",
+        "dislocated",
+        "separated"
+      ],
+      "definition": "separated at the joint",
+      "actualSynsetPOS": "s",
+      "recordSha256": "d7f76fe5de05dcca0d543b332ba82224de55264dc0751dac69b28d7d197c23b2",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "b5d069576d7f5e511951e03474379620fe5bbb8477878de4142446b759ce8606",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Participio de lujar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "muchos",
+      "word": "MUCHOS",
+      "synset": "01551633-a",
+      "synonyms": [
+        "many"
+      ],
+      "definition": "a quantifier that can be used with count nouns and is often preceded by `as' or `too' or `so' or `that'; amounting to a large but indefinite number",
+      "actualSynsetPOS": "a",
+      "recordSha256": "e0ecc2d693ea67d06b660105eaa517103f792021056acbe83df304d88aaef397",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "ec03b5be89a44d37d0f2289ebeca0501e5340c5fa7dc001d1808f172cdecaa24",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "perlino",
+      "word": "PERLINO",
+      "synset": "00390943-a",
+      "synonyms": [
+        "pearly",
+        "pearly-white"
+      ],
+      "definition": "of a white the color of pearls",
+      "actualSynsetPOS": "s",
+      "recordSha256": "fe658df5f1fc8b8147cccdd2dc8a24b6fc9588b82e99de3bdbf17f2d3cd87cdd",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "2ec57c7ebadb9fae6c737ce1ef8dfe41c9f9a960d42a03e1b5ef15bd927006a2",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "quiloso",
+      "word": "QUILOSO",
+      "synset": "02851122-a",
+      "synonyms": [
+        "chylaceous",
+        "chylous"
+      ],
+      "definition": "consisting of chyle or having the properties of chyle",
+      "actualSynsetPOS": "a",
+      "recordSha256": "f49058e80b9c38dfb8d4242684d13a252508745427f71b2454b3ace3bedbbdf8",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "cbc5ef9fe44f18b0a8e54f15cce77d7f4ef52d20ad0613f607d1b39d59b676ed",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "rombal",
+      "word": "ROMBAL",
+      "synset": "02948892-a",
+      "synonyms": [
+        "rhombic"
+      ],
+      "definition": "resembling a rhombus",
+      "actualSynsetPOS": "a",
+      "recordSha256": "e5ac5a2a343710a2d41f4c0e7e21d0f682c4925a9e5536c99b9f5395fd76eb15",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "47e4f7e788b4a6165ca88fdcd420b7ba4a4c4b718d85661ac9f03bbaa4022970",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "sanioso",
+      "word": "SANIOSO",
+      "synset": "02851709-a",
+      "synonyms": [
+        "ichorous",
+        "sanious"
+      ],
+      "definition": "of or resembling or characterized by ichor or sanies",
+      "actualSynsetPOS": "a",
+      "recordSha256": "71ed75206a9a0a7386938d5628d2f620e966eea44ad7c8027b048e1837e28cd6",
+      "sourceFile": "data.adj",
+      "spanishRecordSha256": "1c2fdb84b0d18cd5d6f1c91326b59f6736ecfe614615c642bf4cb5060c84ebf2",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "adjurar",
+      "word": "ADJURAR",
+      "synset": "00759657-v",
+      "synonyms": [
+        "bid",
+        "beseech",
+        "entreat",
+        "adjure",
+        "press",
+        "conjure"
+      ],
+      "definition": "ask for or request earnestly",
+      "actualSynsetPOS": "v",
+      "recordSha256": "5eb295022b8ff11ca3efd712bbdc5ff16cbf603f240867128ad988d762b902f3",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0434ed0d05d95e95a40527288aebc1b63e1ff7eb9c90145039225224db392e7d",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Conjurar"
+          ],
+          "tags": [
+            "transitive",
+            "outdated"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "ajarse",
+      "word": "AJARSE",
+      "synset": "02041877-v",
+      "synonyms": [
+        "crumble",
+        "crumple",
+        "tumble",
+        "break down",
+        "collapse"
+      ],
+      "definition": "fall apart",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a1a0762485984262994336ab95981a2ef1f8a98a80c2d3e5c2b135c1fe48ab7d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b7757685b2bbd8d249fbcce30059c8b584580df01c8b3e1bc5dc45373ec1d0bb",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Ajar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "aliarse",
+      "word": "ALIARSE",
+      "synset": "02430191-v",
+      "synonyms": [
+        "ally"
+      ],
+      "definition": "become an ally or associate, as by a treaty or marriage",
+      "actualSynsetPOS": "v",
+      "recordSha256": "92a18e3a3aa7dc7964705bc5c00ed118d03c6f48ec65bfbdc5b2c6327768ce40",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "94bba337b446cc9d3dc340b2ddfdbb860a113c7929cf001b07896981b6211670",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Actuar con otros para un objetivo común."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "aliarse",
+      "word": "ALIARSE",
+      "synset": "02434737-v",
+      "synonyms": [
+        "ally with"
+      ],
+      "definition": "unite formally; of interest groups or countries",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f73dfb6e1ffe15628eb12a5f938cc7d7c752455a04f8819c6029e272eb2d09fc",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "bae68d9cf8c11ebc98e44d6cbc53f010ca2619febc2f29b4a967af0dcfcbae46",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Actuar con otros para un objetivo común."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01981623-v",
+      "synonyms": [
+        "rear",
+        "rise up"
+      ],
+      "definition": "stand up on the hind legs, of quadrupeds",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1f734e6fd9786939b67d144b3164c4c90916462ee67fc8ec7117c25067a0498c",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "41d0e7f22ec745525d90af9d6fafa559a7af23bf68a7775dfa18920359b9b44f",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01981933-v",
+      "synonyms": [
+        "rear back"
+      ],
+      "definition": "start with anger or resentment or in protest",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b6b94d39d66abe91da15ea21e57104683f3be652db236d99d8e20882eaad1969",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d14ae103b75903fdf8b0c252939230519a10a4636db81e0159ca44a17959d5d9",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01982044-v",
+      "synonyms": [
+        "straighten"
+      ],
+      "definition": "get up from a sitting or slouching position",
+      "actualSynsetPOS": "v",
+      "recordSha256": "7b7c4a56a01e4c214418b9445480465aaf47bb9293e27d9fe44980c2b7f2d9f3",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "932575fa7d30fd24b0c0edb55b10d748abeecea8b9636f6dd1c2920fd0ca362c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "01983264-v",
+      "synonyms": [
+        "arise",
+        "rise",
+        "uprise",
+        "get up",
+        "stand up"
+      ],
+      "definition": "rise to one's feet",
+      "actualSynsetPOS": "v",
+      "recordSha256": "6f0dad8f12e72b56cc08269711ddb3ad81a5570fb868addd307b6b339d950199",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9da1c638788ea46dcd5309e6c82ca392724219692a7c8f37dc106a8ac92443db",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "02583139-v",
+      "synonyms": [
+        "rebel",
+        "arise",
+        "rise",
+        "rise up"
+      ],
+      "definition": "take part in a rebellion; renounce a former allegiance",
+      "actualSynsetPOS": "v",
+      "recordSha256": "e1a57e1b446a2c1ff7926bd0a7ae1cbb7742bfdc7d0c4d24427cde79ea917f79",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "4b1f9c6d59ca5449afa505702f66acf5be58944c3020365db8782cf6268d503a",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "alzarse",
+      "word": "ALZARSE",
+      "synset": "02696801-v",
+      "synonyms": [
+        "rise",
+        "lift",
+        "rear"
+      ],
+      "definition": "rise up",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f13554270cfef51f5daf7bc1365be1eebdd8d9fb9449ebe388d24c7489789678",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "4d1231e73c56cb65942f5b927a8c300f1cc1211317f0ede6fdf9fda78707a839",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Sobresalir, elevarse sobre una superficie o plano."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quebrar maliciosamente los mercaderes y hombres de negocios, ocultando o enajenando sus bienes para no pagar a los acreedores."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "dejarlo alguno, yéndose con la ganancia, sin esperar a que los otros se puedan desquitar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Retirarse, apartarse de algún sitio."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Refugiarse o acogerse."
+          ],
+          "tags": [
+            "pronominal",
+            "outdated"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Recurrir al juez o tribunal superior para que revoque, enmiende o anule la sentencia que se supone injustamente dada por el inferior."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Derecho"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "apearse",
+      "word": "APEARSE",
+      "synset": "01958452-v",
+      "synonyms": [
+        "unhorse",
+        "dismount",
+        "light",
+        "get off",
+        "get down"
+      ],
+      "definition": "alight from (a horse)",
+      "actualSynsetPOS": "v",
+      "recordSha256": "36fd9061caacd5108b79c874e74eae0c5f7bb40d3fb04d1dbeaa59c354ccfaf3",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "f5d0056b73f3c834c12f332af5b08bc3249faeed44f1c54e69793a132e191c7c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Uso pronominal de apear."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Ecuador",
+            "Honduras",
+            "outdated"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "apearse",
+      "word": "APEARSE",
+      "synset": "01978576-v",
+      "synonyms": [
+        "alight",
+        "climb down"
+      ],
+      "definition": "come down",
+      "actualSynsetPOS": "v",
+      "recordSha256": "25b6693cc3e99f8bb44e70f418f508e12efa19aad9cebb007ae0d1ca9d9f4588",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "51e6ad530b5e8cbeba3c003595ae1f3b27c308c8ea8c74693e2f88199482ad1b",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Uso pronominal de apear."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Ecuador",
+            "Honduras",
+            "outdated"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "synset": "01087197-v",
+      "synonyms": [
+        "arm",
+        "build up",
+        "fortify",
+        "gird"
+      ],
+      "definition": "prepare oneself for a military confrontation",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d2371a6107688a839028d67e475a210040b1f6e7e9685f58e93055bc25c9e489",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "6b9c2036e3ba143002fbbe0a44cc70eaf5befa7c5a5dab97636f8d8e3b8f4ad6",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Proveerse de armas."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Tomar una persona las armas para defenderse o atacar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Prepararse para la guerra."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hacerse o crearse algo, sea de forma natural o sea obra de personas."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Preparar el ánimo, disponerse para una situación adversa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Rebelarse y negarse a avanzar el asno u otro animal."
+          ],
+          "tags": [
+            "pronominal",
+            "America"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 6,
+          "glosses": [
+            "Negarse a cooperar una persona."
+          ],
+          "tags": [
+            "pronominal",
+            "America"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 7,
+          "glosses": [
+            "Acumular riqueza."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 8,
+          "glosses": [
+            "Enriquecerse repentina e inesperadamente."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Mexico"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 9,
+          "glosses": [
+            "Hablando de una serpiente, prepararse para atacar."
+          ],
+          "tags": [
+            "pronominal",
+            "Venezuela"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "armarse",
+      "word": "ARMARSE",
+      "synset": "02334867-v",
+      "synonyms": [
+        "arm"
+      ],
+      "definition": "supply with arms",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ce73623f564eb2d8a3b8df7c944709a373242120ef9c4ca696aae1652d67c793",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "db68f4c4a5a6522e7cba6bced794a45681e092f161959114930449f15a02da3a",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Proveerse de armas."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Tomar una persona las armas para defenderse o atacar."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Prepararse para la guerra."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hacerse o crearse algo, sea de forma natural o sea obra de personas."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Preparar el ánimo, disponerse para una situación adversa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Rebelarse y negarse a avanzar el asno u otro animal."
+          ],
+          "tags": [
+            "pronominal",
+            "America"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 6,
+          "glosses": [
+            "Negarse a cooperar una persona."
+          ],
+          "tags": [
+            "pronominal",
+            "America"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 7,
+          "glosses": [
+            "Acumular riqueza."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 8,
+          "glosses": [
+            "Enriquecerse repentina e inesperadamente."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Mexico"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 9,
+          "glosses": [
+            "Hablando de una serpiente, prepararse para atacar."
+          ],
+          "tags": [
+            "pronominal",
+            "Venezuela"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "asarse",
+      "word": "ASARSE",
+      "synset": "00319886-v",
+      "synonyms": [
+        "bake"
+      ],
+      "definition": "cook and make edible by putting in a hot oven",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9fcfd3c1549a1f7ae210ce6265dd33372ae7869c73c74c1aa287193b304ba94b",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "8bbde82e1b879d29c1adec08fe7b6d974e8a153c5ad885de6b8cc0796a8ad6ad",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "asarse",
+      "word": "ASARSE",
+      "synset": "00324560-v",
+      "synonyms": [
+        "roast"
+      ],
+      "definition": "cook with dry heat, usually in an oven",
+      "actualSynsetPOS": "v",
+      "recordSha256": "c1ccb97b095b24528f4691844f843ebdcafd81a4f090c9c00a83246927321538",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "4b569bead0b5ab0adef785b21c6ab699e874e25592e44ba3b006e9fd8c0b57dd",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "asearse",
+      "word": "ASEARSE",
+      "synset": "00035758-v",
+      "synonyms": [
+        "cleanse",
+        "clean"
+      ],
+      "definition": "clean one's body or parts thereof, as by washing",
+      "actualSynsetPOS": "v",
+      "recordSha256": "57d52e2ef03e3251e135e33ecb14d3c8c204149d1c1c0ce7955d7a5e55e5051d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "22a6ae53eeeb266fc6978215e024c4e5eb48c180a2db07ddd74d802dbc76561f",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Asear (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "asearse",
+      "word": "ASEARSE",
+      "synset": "00040766-v",
+      "synonyms": [
+        "clean up"
+      ],
+      "definition": "make oneself clean, presentable or neat",
+      "actualSynsetPOS": "v",
+      "recordSha256": "264aafc01506b25ed5d474d3e86950d3ae3dac6bf786bf5a1bd2a1b940830dae",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "135f98aab9f8c79ec9c123e5491e03c4138282a10ca588bb7eafdc0b7cc1d894",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Asear (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "asirse",
+      "word": "ASIRSE",
+      "synset": "01216331-v",
+      "synonyms": [
+        "cling",
+        "hang"
+      ],
+      "definition": "hold on tightly or tenaciously",
+      "actualSynsetPOS": "v",
+      "recordSha256": "fdfee40e5d69f005cc47c880aaaa569ed1f91d643a2ee51e4a7a5f631c5dc776",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "25be9a9a535b3d20b4c40ca904bf2add4238c6467521811f20c31948d31a986b",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Agarrarse de alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Usar una ocasión o pretexto para decir o hacer lo que se quiere."
+          ],
+          "tags": [
+            "pronominal",
+            "figurative"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reñir o contender dos o más, de obra o de palabra."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "ballar",
+      "word": "BALLAR",
+      "synset": "01895263-v",
+      "synonyms": [
+        "bop",
+        "bebop"
+      ],
+      "definition": "dance the bebop",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f155414c20527c4be5e6e62b35be3afa0bfa9895e2c58be7617d9a171d5c89bd",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9886d55205e8a72cc8ea5853ac73f4086850f8e5897146a64a375fa4d57b1e98",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "barbear",
+      "word": "BARBEAR",
+      "synset": "00037298-v",
+      "synonyms": [
+        "shave"
+      ],
+      "definition": "remove body hair with a razor",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1d1dc21a5e51df0091e62f98edf2baf35e45bb9d9f26a712e7e521e9a1e7df98",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "81b211aec2e948cc6176c97a3d60a99e2cb62f0abcbc0a2cd644b15cb9470cdd",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "basarse",
+      "word": "BASARSE",
+      "synset": "02663643-v",
+      "synonyms": [
+        "repose on",
+        "rest on",
+        "build on",
+        "build upon"
+      ],
+      "definition": "be based on; of theories and claims, for example",
+      "actualSynsetPOS": "v",
+      "recordSha256": "62ad93bb1389cfc374e47654dc0f0e71f03d7821b5d1be1b09b7b5a11aeb2e57",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9ac2902cf80d6791809afd4820970c2cbeb8436535bc50998892b69fab8df7ed",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Emplear algo como base o sustentación, especialmente para un concepto o teoría."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "En las operaciones geodésicas, referirse constantemente a una misma base predeterminada."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "batanar",
+      "word": "BATANAR",
+      "synset": "01399305-v",
+      "synonyms": [
+        "full"
+      ],
+      "definition": "beat for the purpose of cleaning and thickening",
+      "actualSynsetPOS": "v",
+      "recordSha256": "2c518dfc825357ef271bcf2530d6605dfb29242efac4c2996aaeafa9cd1215f7",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "c38917893a08464876cf7f2d591fe287e958849823827253bd8d2c98e67090d1",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "beberse",
+      "word": "BEBERSE",
+      "synset": "01202374-v",
+      "synonyms": [
+        "toss off",
+        "pop",
+        "bolt down",
+        "belt down",
+        "pour down",
+        "down",
+        "drink down",
+        "kill"
+      ],
+      "definition": "drink down entirely",
+      "actualSynsetPOS": "v",
+      "recordSha256": "18cb350d47aeafe5ed914822006d97edb10eb8202e085df731a9511fee0ed9f4",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fa43c4b485de31ecc6f1e1ceca506c7f71733116be49e3c36c5918880a1938f8",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Beber (uso pronominal de ...)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "befar",
+      "word": "BEFAR",
+      "synset": "00850192-v",
+      "synonyms": [
+        "jeer",
+        "scoff",
+        "flout",
+        "barrack",
+        "gibe"
+      ],
+      "definition": "laugh at with contempt and derision",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a8491038a420b537a2ce77f4d4bb68c392e30df453752896a8083f20aa565ae8",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "12815cae326a4f9f713e6005fb68987def25dbaac0a987883ec27099541e6f05",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "befarse",
+      "word": "BEFARSE",
+      "synset": "00850501-v",
+      "synonyms": [
+        "tease",
+        "razz",
+        "rag",
+        "cod",
+        "tantalize",
+        "tantalise",
+        "bait",
+        "taunt",
+        "twit",
+        "rally",
+        "ride"
+      ],
+      "definition": "harass with persistent criticism or carping",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d021a400a5e25805f60efadf0b28bc9cedf58573fb006a9ad57bf9b595ff9f68",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "1da143c2a0476a37c102752c616667685718426ef161ae301ec67e25d293af76",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "besarse",
+      "word": "BESARSE",
+      "synset": "01431230-v",
+      "synonyms": [
+        "snog",
+        "kiss",
+        "buss",
+        "osculate"
+      ],
+      "definition": "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.",
+      "actualSynsetPOS": "v",
+      "recordSha256": "95f846080cbb3d15a17ef46f5718417509c83d534f6e885f0f2d18ce2131c1b1",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "74b1a84681fd4982088a3d7dbf5fa6f596ec3532ecd9acc691f5e13992741ac2",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Besar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "bravear",
+      "word": "BRAVEAR",
+      "synset": "00883226-v",
+      "synonyms": [
+        "boast",
+        "tout",
+        "swash",
+        "shoot a line",
+        "brag",
+        "gas",
+        "blow",
+        "bluster",
+        "vaunt",
+        "gasconade"
+      ],
+      "definition": "show off",
+      "actualSynsetPOS": "v",
+      "recordSha256": "04d0606780ded6077528c1f353cef317df5f6f3dfba63a321205b59f2454ba6f",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "2fa57df52fa927bdbe4947ac4ed2fa8c9b71f523bb01d004a63572b378d16198",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "calarse",
+      "word": "CALARSE",
+      "synset": "01862340-v",
+      "synonyms": [
+        "stall",
+        "conk"
+      ],
+      "definition": "come to a stop",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a857243ffc94c7bcd754c9f5e535cf2f3baa2f6a3e5c7093d2e476688ae61c09",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "82e67297e178d3ce9ad0048dfeb5933e7dc4a8e295fbf2d96dfbd68edf4f8701",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Dicho de la gorra o el sombrero, ponérselos, haciéndolos entrar mucho en la cabeza."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Mojarse hasta que el líquido, generalmente agua, llegue a la piel traspasando la ropa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Lanzarse un ave sobre su presa para atraparla."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 1,
+          "senseIndex": 0,
+          "glosses": [
+            "Detenerse de modo brusco o inesperado un motor."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "calarse",
+      "word": "CALARSE",
+      "synset": "01862776-v",
+      "synonyms": [
+        "stall"
+      ],
+      "definition": "experience a stall in flight, of airplanes",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1c65004ea74b8f8e4287659157fb34f133001c5c0723c9495c5bb4a2dadf7340",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "2e4406301f2d4272754e720b4da31af8b6c5c7e3ba1ed2efef1811b141979f14",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Dicho de la gorra o el sombrero, ponérselos, haciéndolos entrar mucho en la cabeza."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Mojarse hasta que el líquido, generalmente agua, llegue a la piel traspasando la ropa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Lanzarse un ave sobre su presa para atraparla."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 1,
+          "senseIndex": 0,
+          "glosses": [
+            "Detenerse de modo brusco o inesperado un motor."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "cocerse",
+      "word": "COCERSE",
+      "synset": "00328128-v",
+      "synonyms": [
+        "boil"
+      ],
+      "definition": "immerse or be immersed in a boiling liquid, often for cooking purposes",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9f4a23353ddd3dcd6d265d82dfdd57cb988cefdf3458bba099f7b8b3dc95960b",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d6f6475ea8058cb40aa1803f559901aee0eec3f2fa0bd82f3df33790021e1f26",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Cocer (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "synset": "00618057-v",
+      "synonyms": [
+        "stumble",
+        "slip up",
+        "trip up"
+      ],
+      "definition": "make an error",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9d9d1b987ba51f72bc7eb62ed7daf62d54678ce4cc23452dccabf2ff2d3236aa",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e56373079d90fbd6235a2f40f0ac4802d6a7b3630db09159caabe1bf4a5ba91c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "En una fila adelantarse a otra persona quitándole su puesto."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Entrar en una reunión, fiesta o acto social sin pagar la entrada ni tener invitación."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Equivocarse, cometer errores o hacer lo incorrecto."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "synset": "02060437-v",
+      "synonyms": [
+        "percolate"
+      ],
+      "definition": "spread gradually",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9de6e15c786f7cf9fd0bd902c0836c4df9806238a954524fbc575039a2a7b44a",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "3b7cf19956f9f50bf1b56c498eca6311446dfdb73b100e5da9c8aecca44fec61",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "En una fila adelantarse a otra persona quitándole su puesto."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Entrar en una reunión, fiesta o acto social sin pagar la entrada ni tener invitación."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Equivocarse, cometer errores o hacer lo incorrecto."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "colarse",
+      "word": "COLARSE",
+      "synset": "02657080-v",
+      "synonyms": [
+        "crash"
+      ],
+      "definition": "occupy, usually uninvited",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1e8840f0c7a50806207a2353dc2217858afa65fc98ec833bd62f29f4d31064bd",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0a6bd387a04320507d13a18bf69c3231d2c72c88546aff20ef901a823a57a9ec",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "En una fila adelantarse a otra persona quitándole su puesto."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Entrar en una reunión, fiesta o acto social sin pagar la entrada ni tener invitación."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Equivocarse, cometer errores o hacer lo incorrecto."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "correar",
+      "word": "CORREAR",
+      "synset": "01415162-v",
+      "synonyms": [
+        "belt"
+      ],
+      "definition": "deliver a blow to",
+      "actualSynsetPOS": "v",
+      "recordSha256": "11be6d0db91a6ad9fd9c9100ed0789525cc860c2cef7fb46391a8f5fe0b09194",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e422e9ba1339b137c77f7125feccc2dcf5b33c3bcacfbd7b15d7d5b6fcc9097c",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "correar",
+      "word": "CORREAR",
+      "synset": "01704030-v",
+      "synonyms": [
+        "belt out",
+        "belt"
+      ],
+      "definition": "sing loudly and forcefully",
+      "actualSynsetPOS": "v",
+      "recordSha256": "3e91809e5959cb0c3742204dd1de3fae991b0ed31f33dc89639c4b5c91a196c4",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "6dffcf1a1dc0774658ad322463327e69234c94175fe99dbec72f2441062014eb",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "crearse",
+      "word": "CREARSE",
+      "synset": "01655505-v",
+      "synonyms": [
+        "build",
+        "establish"
+      ],
+      "definition": "build or establish something abstract",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a964aea5266586cf7b7a68d4e66fca59124676b5e989983fefeba234dd6d2652",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "c6a48f7dcb027c5b2e6f019bd5bd21ccbc3f40972c0284a437aa3dc6981c4336",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "curarse",
+      "word": "CURARSE",
+      "synset": "00099184-v",
+      "synonyms": [
+        "heal"
+      ],
+      "definition": "get healthy again",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ec40044200000326158c18408f54358705c3aec55415bdfb27efeba18a5063e4",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d59a2e012070f46cee0532183a72af844047071bacd0a077fba4054132ed5035",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Seguir un tratamiento de algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Embriagarse, emborracharse."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Bolivia",
+            "Chile"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "curarse",
+      "word": "CURARSE",
+      "synset": "00270561-v",
+      "synonyms": [
+        "mend",
+        "heal"
+      ],
+      "definition": "heal or recover",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a62477a0313b9636d3f2ea1fbb8523db99650467f47ff3b7e7ec14485f4e1153",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "5bd12a5c19565b205774610e5e03a1ebb75b9c9c9183f05ea64893dfb54de259",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Seguir un tratamiento de algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Embriagarse, emborracharse."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Bolivia",
+            "Chile"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "00017674-v",
+      "synonyms": [
+        "doss",
+        "doss down",
+        "crash"
+      ],
+      "definition": "sleep in a convenient place",
+      "actualSynsetPOS": "v",
+      "recordSha256": "33213bc042d2c4ffd74871a09b52698822065497e41856f617007515361a70dd",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d100caca460052d58e11674ec963c49844a77ab4da3f2f810adefcf36dfc79d6",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "00017865-v",
+      "synonyms": [
+        "go to bed",
+        "turn in",
+        "bed",
+        "crawl in",
+        "kip down",
+        "hit the hay",
+        "hit the sack",
+        "sack out",
+        "go to sleep",
+        "retire"
+      ],
+      "definition": "prepare for sleep",
+      "actualSynsetPOS": "v",
+      "recordSha256": "59c968e7b8cd08dd8526817ec550aff791f5efaab5efd89cd5c81c29ce98f4e1",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "1f60142ffe746cf251e90a3f875121155cbe83ff64309804d49941413c1e1419",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "01985029-v",
+      "synonyms": [
+        "lie down",
+        "lie"
+      ],
+      "definition": "assume a reclining position",
+      "actualSynsetPOS": "v",
+      "recordSha256": "c498a3b72562ffbdf3b432803ca833716be9acbfcc3d2742146f4a289b4cdf9b",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "5127aa3cbcb0016a10f686786302addd17215043a2ed4f34805f63bd90163138",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "01985424-v",
+      "synonyms": [
+        "charge"
+      ],
+      "definition": "lie down on command, of hunting dogs",
+      "actualSynsetPOS": "v",
+      "recordSha256": "8d1346c388fd42bbc6d75e4d79ee315778416a22e154cdde7d5a10adbcae199d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9f46caf8bd98b96acedd027f31ec3cafcfa1bfe4d5eedb951ecfc307346ce5ae",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "02061495-v",
+      "synonyms": [
+        "dart",
+        "dash",
+        "scoot",
+        "scud",
+        "flash",
+        "shoot"
+      ],
+      "definition": "run or move very quickly or hastily",
+      "actualSynsetPOS": "v",
+      "recordSha256": "0ea13e8e3d7b2a9e58016090947fcc6d4e6cfd2b3be827a15bb0580231a220e5",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "a34b69a097c292a86f04ef14764b38aea3317ed05b9bdd84654e0821ace2ccfb",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "synset": "02482425-v",
+      "synonyms": [
+        "murder",
+        "slay",
+        "hit",
+        "dispatch",
+        "bump off",
+        "off",
+        "polish off",
+        "remove"
+      ],
+      "definition": "kill intentionally and with premeditation",
+      "actualSynsetPOS": "v",
+      "recordSha256": "7d9e0ca5116e5401c79622edf406e8e256b40b2f39dd842ed2eea7e089ac1141",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "72a8a146a7a557351a21d37975b1094b824fa14c5932ccc040417439bd4e3b85",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tenderse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dedicarse, aplicarse a alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Reprobar una asignatura académica."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "Chile",
+            "Colombia"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "embijar",
+      "word": "EMBIJAR",
+      "synset": "00535148-v",
+      "synonyms": [
+        "vermilion"
+      ],
+      "definition": "color vermilion",
+      "actualSynsetPOS": "v",
+      "recordSha256": "09efddbf846f019314e8f299a692662007ccc4266ea0f37c382a32a82bcd44d3",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "159eab84275107c127c56978135893124c50d9c4fdad4a2ba3e076518177240c",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "fiarse",
+      "word": "FIARSE",
+      "synset": "00688377-v",
+      "synonyms": [
+        "trust",
+        "swear",
+        "rely",
+        "bank"
+      ],
+      "definition": "have confidence or faith in",
+      "actualSynsetPOS": "v",
+      "recordSha256": "e14f6cd4a5772c1c94bb6288f505f3121f4a35237f3664b6644a7eb184d7bf06",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "96658e62af5064f3ae78e8c01074a5023559f51c3cf26ddb28e744fae0e8c192",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Fiar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "fiarse",
+      "word": "FIARSE",
+      "synset": "02481819-v",
+      "synonyms": [
+        "trust"
+      ],
+      "definition": "allow without fear",
+      "actualSynsetPOS": "v",
+      "recordSha256": "5a1d0c50967576762a05cb2031d24a22c1a2206146754800145218619e3fe207",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "3979ddeadb3c9384a3f805ee279169841c38eb3d69302d1231cd63d1ec86dc01",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Fiar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "fijarse",
+      "word": "FIJARSE",
+      "synset": "00616670-v",
+      "synonyms": [
+        "attend to",
+        "take to heart"
+      ],
+      "definition": "get down to; pay attention to; take seriously",
+      "actualSynsetPOS": "v",
+      "recordSha256": "0bd903a155fe0dec987f9683b5a010a7f2e79cc7b5d93ceed0389dfdccafa326",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0ea1877db3eab8dec0f78bddd0e83f008e28ecd6a04ddeef28363de9c5f85cb3",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Prestar atención a algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Tomar una resolución."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Entre estudiantes, copiar en un examen."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "freírse",
+      "word": "FREÍRSE",
+      "synset": "00325328-v",
+      "synonyms": [
+        "fry"
+      ],
+      "definition": "cook on a hot surface using fat",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b4cc1d90f6269344429e2f6f8c5e33f607523cb9b5a70b9dc3d6f87cb689dfe2",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "322f2a4b06037a1c68f45e3961988dc91fb6e4f86c9f32d19f09ee554fea54c8",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "freírse",
+      "word": "FREÍRSE",
+      "synset": "02738241-v",
+      "synonyms": [
+        "fry"
+      ],
+      "definition": "be excessively hot",
+      "actualSynsetPOS": "v",
+      "recordSha256": "c253afb63a958e0b68d1b205e683af944ca37937115e8f430f9ca1a6f8cb7f67",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e6b197be75a249b4536be90aceab8beab91ddd12c1cdd3829adcdc6f18d7de20",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "girarse",
+      "word": "GIRARSE",
+      "synset": "01878949-v",
+      "synonyms": [
+        "swing around",
+        "swing about",
+        "turn around"
+      ],
+      "definition": "turn abruptly and face the other way, either physically or metaphorically",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9e5f7d889f85e73354adaf6e1350f98773aaea6fee59bb77ebc71a75abedfec9",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "7865800cad664d4eb9f60815855d9076b7851e916af8b86d5e975f0570981c41",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "grisear",
+      "word": "GRISEAR",
+      "synset": "00289392-v",
+      "synonyms": [
+        "grey",
+        "gray"
+      ],
+      "definition": "turn grey",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f7aaf578e9cbad4f94f0ea475a20713b60deb662ef35e3551856d29919365738",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b2e7c57fe36cbb3a97093590bb77807922e009f1424cf0d6796205e11bcd2038",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Ir adquiriendo algo un tono gris."
+          ],
+          "tags": [
+            "intransitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "guiarse",
+      "word": "GUIARSE",
+      "synset": "00150776-v",
+      "synonyms": [
+        "follow",
+        "conform to"
+      ],
+      "definition": "behave in accordance or in agreement with",
+      "actualSynsetPOS": "v",
+      "recordSha256": "91ea8e4658d10b03a6c763f402186e357c2d3e9abd05844f752ba1419fdcff0e",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fcbcfd5c0adfa66610a1e8924a867dbed2d7c63d6e3947cbd4e624d2678748a9",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Dejarse llevar, dejarse influir por otra persona."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dejarse llevar, tomar una decisión, por indicios, señales, ideas o motivaciones."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "guiarse",
+      "word": "GUIARSE",
+      "synset": "02159427-v",
+      "synonyms": [
+        "guide",
+        "guide on"
+      ],
+      "definition": "use as a guide",
+      "actualSynsetPOS": "v",
+      "recordSha256": "3a567f5616d2ba951b75ac8f660b7f6b043536c45ae2375434e09a2ea3400993",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b2181db054fec8c93edebf06f196993700fa4f06fc0b778f0e94fffb90485689",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Dejarse llevar, dejarse influir por otra persona."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dejarse llevar, tomar una decisión, por indicios, señales, ideas o motivaciones."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01257953-v",
+      "synonyms": [
+        "axe",
+        "ax"
+      ],
+      "definition": "chop or split with an ax",
+      "actualSynsetPOS": "v",
+      "recordSha256": "68881bc5e2505c66a1b5c46190787c1f8534769dec361797e2029434abc049e4",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0f2b1a4ff8c1319bee012363c4ea76d4f2ff16d182b4ed30bc1994be67e7a225",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01260428-v",
+      "synonyms": [
+        "hew"
+      ],
+      "definition": "strike with an axe; cut down, strike",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b2b48dadfdfecf38ca4b79731db4a0c0e4fd49123575abe877270cb9f0c6df32",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "bb7a1eb76a7b67eca9d0ee05d66f48e9e561a2d5048dcff6f50654d18f496c2f",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "hachear",
+      "word": "HACHEAR",
+      "synset": "01260685-v",
+      "synonyms": [
+        "hew",
+        "hew out"
+      ],
+      "definition": "make or shape as with an axe",
+      "actualSynsetPOS": "v",
+      "recordSha256": "4ab19d35a7f4df6c0fe1f336032c0967b8b88f078b94271c610d351d70971c62",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "a5ad6a9dc5fb75117fe0e020ef797f8425022c657fcfcce7c87cf33ddd278924",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00078138-v",
+      "synonyms": [
+        "freeze"
+      ],
+      "definition": "be cold",
+      "actualSynsetPOS": "v",
+      "recordSha256": "262ef653e6c1d91673ac694b557bc99999fa480c489fb11d59ac4465f8bb67be",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d75c92834349a8f86cd4a73d62464105c676be04d7bd29a87d77855929f23435",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00370921-v",
+      "synonyms": [
+        "ice"
+      ],
+      "definition": "put ice on or put on ice",
+      "actualSynsetPOS": "v",
+      "recordSha256": "76ef6673146e5cae14aa239517c67609c84777b19b3071dd4b785d9ae87f58a5",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b4ce79feb007887271f7e34423cdb8399999c8356e2d1d2de7894797f6435f95",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00374135-v",
+      "synonyms": [
+        "freeze"
+      ],
+      "definition": "change to ice",
+      "actualSynsetPOS": "v",
+      "recordSha256": "3e9318d103d5897b3f567545c7808cfed859e8561e59aa8cfcc80abefb3b82ba",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fef4cc526aebcacbfd8a910eb880e76d21559c8ccf59efa3bcc3dfc90ece318e",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00375865-v",
+      "synonyms": [
+        "freeze"
+      ],
+      "definition": "cause to freeze",
+      "actualSynsetPOS": "v",
+      "recordSha256": "7bc0ae4843fc36db0d53004f54ab44498f6e09d6a8adfb754801a012c8218e63",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "c1b843b6104932db1ee3c52166eb0b126af80c1440bbaa8bc9740d7dde534332",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "00445711-v",
+      "synonyms": [
+        "freeze",
+        "freeze out",
+        "freeze down"
+      ],
+      "definition": "change from a liquid to a solid when cold",
+      "actualSynsetPOS": "v",
+      "recordSha256": "8ef0ace517ef69dcb614a3af1b3e0ce96f7cea486299bd02dda1d4833cc54f2d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b3af8666f1e95322dac1c048d15ff0d8bed22290198defd369fac33286793cb2",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "helarse",
+      "word": "HELARSE",
+      "synset": "02758581-v",
+      "synonyms": [
+        "ice up",
+        "frost over",
+        "ice over"
+      ],
+      "definition": "become covered with a layer of ice; of a surface such as a window",
+      "actualSynsetPOS": "v",
+      "recordSha256": "73910605693158a10525427ac997860e1475bfc242ea66509837f97dd373449b",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "dc09dd35d2d7c810ac8fa99eb4573a3f5378a258637629e4d2d85d0d4c97cdb9",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Solidificarse o volverse hielo (un líquido) por la acción del frío."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Ponerse una persona o cosa sumamente fría o yerta."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Coagularse o solidificarse algo que se había licuado, como la grasa, los metales, etc., por faltarle el calor necesario para mantenerse en el estado líquido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hablando de vegetales o frutas, secarse a causa de la congelación de su savia, humores y jugos, producida por el frío."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "jamarse",
+      "word": "JAMARSE",
+      "synset": "01168468-v",
+      "synonyms": [
+        "eat"
+      ],
+      "definition": "take in solid food",
+      "actualSynsetPOS": "v",
+      "recordSha256": "959d206013d954794e8d006a891ecfed8abb92fa26a56c73b7795ca505289693",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0f6752283f92557ec1ac12f98940bfc42a2c56c975594b49b4a4fd94c3d21a40",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Jamar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "jugarse",
+      "word": "JUGARSE",
+      "synset": "01138911-v",
+      "synonyms": [
+        "play"
+      ],
+      "definition": "bet or wager (money)",
+      "actualSynsetPOS": "v",
+      "recordSha256": "aa333e037a9d985bd30abe16ed0b863b07a5b94f5f31036e2cf6c6fcb231bdec",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "45e8b0d8b6180619b2a938aa3dbd15b610f23bf2a6004f6b7a799b3ef5637b9c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Seguir un curso de acción en el que hay gran riesgo, especialmente de la integridad física."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "jugarse",
+      "word": "JUGARSE",
+      "synset": "01155687-v",
+      "synonyms": [
+        "bet",
+        "wager",
+        "play"
+      ],
+      "definition": "stake on the outcome of an issue",
+      "actualSynsetPOS": "v",
+      "recordSha256": "facf87fb13ac353627561421577fdba123e0e987daee0d28b78923c5dc9f5a6f",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "4e8a27c10feb9d783e60d3d2f9692a2104d6fdbfd33d655e3850913104a87336",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Seguir un curso de acción en el que hay gran riesgo, especialmente de la integridad física."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "00035758-v",
+      "synonyms": [
+        "cleanse",
+        "clean"
+      ],
+      "definition": "clean one's body or parts thereof, as by washing",
+      "actualSynsetPOS": "v",
+      "recordSha256": "57d52e2ef03e3251e135e33ecb14d3c8c204149d1c1c0ce7955d7a5e55e5051d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "c3ffa1275583fc7554d9281cf1d3bc1e8f3c327c564e0d53df9b95a8d93a102f",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Lavar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "00036362-v",
+      "synonyms": [
+        "wash",
+        "lave"
+      ],
+      "definition": "cleanse (one's body) with soap and water",
+      "actualSynsetPOS": "v",
+      "recordSha256": "e077bd5648a8ba90563032d1821878324fac93d31d508b2f7d26a8ee1399b286",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "27a86b8af0f42288edb3f24007a6a00aeaf29f79c77ccc7d526fbae46ce0128c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Lavar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "synset": "02741960-v",
+      "synonyms": [
+        "clean"
+      ],
+      "definition": "be cleanable",
+      "actualSynsetPOS": "v",
+      "recordSha256": "96b980b0df14d80e49110abea9e4734a154f749b5da29f5f71c0e50f8d48a2a1",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "ae067907333d437736bcc5ac15514b3ca71a23900a4dc2bba57c5780d47535c7",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Lavar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "leerse",
+      "word": "LEERSE",
+      "synset": "00625119-v",
+      "synonyms": [
+        "read"
+      ],
+      "definition": "interpret something that is written or printed",
+      "actualSynsetPOS": "v",
+      "recordSha256": "92e6898e3bfafc2f92aa49dccfd0b87827ecab37e1b5b6fcad4e3d7c1317b471",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "1ec460bbeef067eb1f0b41011dd0c1c01ff4ff55cb78cfc8505725c9df06d98c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Leer."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "enfático"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "leerse",
+      "word": "LEERSE",
+      "synset": "00626428-v",
+      "synonyms": [
+        "read"
+      ],
+      "definition": "look at, interpret, and say out loud something that is written or printed",
+      "actualSynsetPOS": "v",
+      "recordSha256": "adc6a6b8a6472c7eb47a8bd9279dc2f50a51c4f46f5c87baab984f91b4b99355",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "886ae62778ca4b5d710bda61cd84682153f2b386f5ada018fadc73da1dc734aa",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Leer."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "enfático"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "liarse",
+      "word": "LIARSE",
+      "synset": "01327816-v",
+      "synonyms": [
+        "hitch",
+        "catch"
+      ],
+      "definition": "to hook or entangle",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d8e2341fbfd43489012caa2d01a4cc1d481b853247ba73134c129f1df3d9070f",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "1e582eb526d7fdc219a62de09bcbacf3dbb5868a15db0d324bd84775a946a727",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Envolverse, enredarse con mujeres, amancebarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "liarse",
+      "word": "LIARSE",
+      "synset": "01791973-v",
+      "synonyms": [
+        "fluster"
+      ],
+      "definition": "be flustered; behave in a confused manner",
+      "actualSynsetPOS": "v",
+      "recordSha256": "646d57aedb067f15f0256ea499640eb3a74abb759e1bfdf34cda2870ebeb4a52",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e83b945e62e32af0ec5c827df1c860b0979dc46e9b8fe624d8a7a3eb0d6e2a9f",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Envolverse, enredarse con mujeres, amancebarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "ligarse",
+      "word": "LIGARSE",
+      "synset": "01356750-v",
+      "synonyms": [
+        "adhere",
+        "hold fast",
+        "bond",
+        "bind",
+        "stick",
+        "stick to"
+      ],
+      "definition": "stick to firmly",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ab8bdb17311914bed9490a7134824e36a1119a8db7f600e67a6b22e482800eed",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "3af2adde8c44828d5b822ec87d441f3f1a281f3cdb8c2772566330370def8fb8",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Adquirir, crear o contraer un vínculo firme con otro(s), que puede ser físico o moral."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Combinarse o mezclarse con otro elemento o materia en una masa, aleación o mixtura homogénea."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Crear una alianza o unión con otro(s) para obtener o defender un objetivo común."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Entrar una llamada o conversación telefónica cuando otra está en curso, interfiriendo la comunicación."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Uruguay",
+            "Venezuela",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Ser reprendido o recibir un castigo."
+          ],
+          "tags": [
+            "pronominal",
+            "Río-de-la-Plata",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "maderar",
+      "word": "MADERAR",
+      "synset": "01258828-v",
+      "synonyms": [
+        "log",
+        "lumber"
+      ],
+      "definition": "cut lumber, as in woods and forests",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d8a34957e0ce3e452bd422ed276ab7c87760674ccc27d0bc490409b878906b6c",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "dd5bc96a84ad3abdfcbc8b002abc23cd9edc7bae18ed8f4613cae257a219d432",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "matarse",
+      "word": "MATARSE",
+      "synset": "01146382-v",
+      "synonyms": [
+        "kill oneself",
+        "overexert oneself"
+      ],
+      "definition": "strain oneself more than is healthy",
+      "actualSynsetPOS": "v",
+      "recordSha256": "2bb85ec414354ada4f0c84cdd7f04cd45931421a047f69114f72437d5a07e833",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "c0e4bd5e661f816ef5424506e558613a027a2f76f17c4c8268239719df05b506",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Perder la vida involuntariamente."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "se usa también como verbo transitivo",
+            "por lo general aplica en casos fortuitos"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Quitarse la vida."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Ocasionar llagas la montura, el apero, correas u otra cosa, al caballo (o al animal de tiro, carga o de monta)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "se usa también como verbo transitivo"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Disputarse con alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Hacer esfuerzos denodados para conseguir algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mecerse",
+      "word": "MECERSE",
+      "synset": "01875295-v",
+      "synonyms": [
+        "rock",
+        "sway",
+        "shake"
+      ],
+      "definition": "move back and forth or sideways",
+      "actualSynsetPOS": "v",
+      "recordSha256": "30d529b9c69458c3b92f94984ac17580d827d67addbf55c43fb183cae7a56102",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "588cde3cf1433fac9dbe124356b5a012bf9cd8946168cb2ce850b9c025aab9a4",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Mecer (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "medirse",
+      "word": "MEDIRSE",
+      "synset": "01072262-v",
+      "synonyms": [
+        "compete",
+        "vie",
+        "contend"
+      ],
+      "definition": "compete for something; engage in a contest; measure oneself against others",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ce674de5454ce244828046b71da9e5f31b5d856501c284a9bceea9f768394f2a",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "b265b367f1135dca0a996238cf32e26a88984c65d56e9f5d702ed239fa064ae7",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Establecer la propia fuerza o intensidad, al compararlo o enfrentarlo con otro elemento o con alguna circunstancia."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Establecer un límite adecuado para las acciones o las palabras."
+          ],
+          "tags": [
+            "pronominal",
+            "transitive"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00029518-v",
+      "synonyms": [
+        "fleer"
+      ],
+      "definition": "to smirk contemptuously",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1dabda587ad0ecd58eeaa8ebb241d1cbf92630de6bbf23e955e4bdd9672ab819",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fcff0ac0e5379178ef1c46edd06624f57ba3342e2785ceaebcfa2743b4e6fb3a",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Burlarse de alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00032539-v",
+      "synonyms": [
+        "sneer"
+      ],
+      "definition": "smile contemptuously",
+      "actualSynsetPOS": "v",
+      "recordSha256": "114c076d245fea137036fde78544a0a4a39588dcb11868284e858e3c22fdb09d",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "6c241a2ef73f489f75dc186d7762ee61b6ff96c6694210611cd3c81e47add654",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Burlarse de alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00849332-v",
+      "synonyms": [
+        "mock"
+      ],
+      "definition": "imitate with mockery and derision",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b5ab4c2ec7513e206561abdb97041287c23043ddfd996e5152abf3473b0dacae",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "007124e8f945d588f529cbe8638099b847f6af76d4220ace3343e7c3512e532a",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Burlarse de alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00850192-v",
+      "synonyms": [
+        "jeer",
+        "scoff",
+        "flout",
+        "barrack",
+        "gibe"
+      ],
+      "definition": "laugh at with contempt and derision",
+      "actualSynsetPOS": "v",
+      "recordSha256": "a8491038a420b537a2ce77f4d4bb68c392e30df453752896a8083f20aa565ae8",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "42429458ba1a2d9ca6b51b1404a110fbcd6a7c10767aa30ec82655cae2e69fac",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Burlarse de alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mofarse",
+      "word": "MOFARSE",
+      "synset": "00850501-v",
+      "synonyms": [
+        "tease",
+        "razz",
+        "rag",
+        "cod",
+        "tantalize",
+        "tantalise",
+        "bait",
+        "taunt",
+        "twit",
+        "rally",
+        "ride"
+      ],
+      "definition": "harass with persistent criticism or carping",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d021a400a5e25805f60efadf0b28bc9cedf58573fb006a9ad57bf9b595ff9f68",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "3ae09b943e75c9bdd82812220bc8ab19ad533a4e2c6f3c480374525a0d393a99",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Burlarse de alguien."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mojarse",
+      "word": "MOJARSE",
+      "synset": "01376082-v",
+      "synonyms": [
+        "drizzle",
+        "moisten"
+      ],
+      "definition": "moisten with fine drops",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9fd047f560e48d99cbe5e5b581888eb1a84ba7cac37edf85f85ebd5b7c35e185",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "faeb532cef1e11a4fa48a58d201075dd670ae5acccc04a6c7f6fcde742d4aec7",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Miccionar."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Involucrarse en un asunto que conlleva responsabilidad.^([cita requerida])"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Decantarse por una opción en una discusión."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Experimentar excitación sexual, especialmente una mujer."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial",
+            "vulgar"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Sacar provecho de un negocio ilegal."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Dominican-Republic",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Dejar en desventaja a una parte involucrada en un acuerdo comercial."
+          ],
+          "tags": [
+            "pronominal",
+            "Costa-Rica"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "mojarse",
+      "word": "MOJARSE",
+      "synset": "01578513-v",
+      "synonyms": [
+        "soak"
+      ],
+      "definition": "submerge in a liquid",
+      "actualSynsetPOS": "v",
+      "recordSha256": "3ddbf57acec71721470b0ff1c4c107939cee41406678e63f21e43f18208b9927",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fe119e457829444f4eec1ac91c27fe20cf9faf5240da5e20a5ec86a423ded768",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Miccionar."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Involucrarse en un asunto que conlleva responsabilidad.^([cita requerida])"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Decantarse por una opción en una discusión."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Experimentar excitación sexual, especialmente una mujer."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial",
+            "vulgar"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Sacar provecho de un negocio ilegal."
+          ],
+          "tags": [
+            "pronominal",
+            "Cuba",
+            "Dominican-Republic",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Dejar en desventaja a una parte involucrada en un acuerdo comercial."
+          ],
+          "tags": [
+            "pronominal",
+            "Costa-Rica"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "nausear",
+      "word": "NAUSEAR",
+      "synset": "00088209-v",
+      "synonyms": [
+        "sicken"
+      ],
+      "definition": "make sick or ill",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d188ed2a0963522952811ab227b777210ce5409078d63b4f6012e1400c4e5668",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0e64a9bc0c25017dd02e09f7563814162db8cbb460f095ee47b70085bd93dc29",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "nausear",
+      "word": "NAUSEAR",
+      "synset": "02195191-v",
+      "synonyms": [
+        "sicken",
+        "nauseate",
+        "turn one's stomach"
+      ],
+      "definition": "upset and make nauseated",
+      "actualSynsetPOS": "v",
+      "recordSha256": "431747091842cc0bdf5e32862b47052f8e7f0e556e594ec38f43d3d5aec0e944",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "26f54b8a693a28d8c4c6e98c5b4574b0c3450adcafb2e19b566a73bbc75e1260",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "notarse",
+      "word": "NOTARSE",
+      "synset": "02730471-v",
+      "synonyms": [
+        "feel"
+      ],
+      "definition": "be felt or perceived in a certain way",
+      "actualSynsetPOS": "v",
+      "recordSha256": "5a90d106fe7bb16fe75a5d1b705eae2a69d85105a0be5b569fa72e48080d46d4",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "ca5fc976cd62fa476fc0605807b87c3cee9856aaae2ea4a4108fc88f2ba8c3de",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "picarse",
+      "word": "PICARSE",
+      "synset": "00848894-v",
+      "synonyms": [
+        "bristle at",
+        "bridle at",
+        "bridle up",
+        "bristle up"
+      ],
+      "definition": "show anger or indignation",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1f11d4dd339cba373f80b2813142811f822162dd505dec1b4dc014dab985a94a",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "67513f53d976e987711da2f4a8719f502f7599cdf21363ee2d71e24de111331a",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Echarse a perder alguna cosa, averiarse , empezar a corromperse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Menoscabarse, apolillarse ropas, calzado, etc."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Avinagrarse los vinos."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Enojarse u ofenderse de alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Preciarse de algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Estar los animales en celo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 6,
+          "glosses": [
+            "Dejarse llevar de la emulación de competir con alguno."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 7,
+          "glosses": [
+            "Dicho de una situación: ponerse más tensa u hostil."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 8,
+          "glosses": [
+            "Corroerse un metal por efecto del óxido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 9,
+          "glosses": [
+            "Deteriorarse los dientes por la caries."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 10,
+          "glosses": [
+            "Emborracharse."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "picarse",
+      "word": "PICARSE",
+      "synset": "01199365-v",
+      "synonyms": [
+        "mainline"
+      ],
+      "definition": "inject into the vein",
+      "actualSynsetPOS": "v",
+      "recordSha256": "156b7afcb921502925a4e7e4fc58a7faf59eb0b1f441cb9838bada4b7dfbde9f",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "bbe09cdf6e54d72123686f270f622a960d4c0e6b92d672c9d8f8c8820e6aaf36",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Echarse a perder alguna cosa, averiarse , empezar a corromperse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Menoscabarse, apolillarse ropas, calzado, etc."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Avinagrarse los vinos."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Enojarse u ofenderse de alguna cosa."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Preciarse de algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Estar los animales en celo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 6,
+          "glosses": [
+            "Dejarse llevar de la emulación de competir con alguno."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 7,
+          "glosses": [
+            "Dicho de una situación: ponerse más tensa u hostil."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 8,
+          "glosses": [
+            "Corroerse un metal por efecto del óxido."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 9,
+          "glosses": [
+            "Deteriorarse los dientes por la caries."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 10,
+          "glosses": [
+            "Emborracharse."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "00415635-v",
+      "synonyms": [
+        "roost"
+      ],
+      "definition": "settle down or stay, as if on a roost",
+      "actualSynsetPOS": "v",
+      "recordSha256": "3524aa89364c85ddad871254a98fb256b9de37660d01c6cee3342d330d2dceb7",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "93d2e4dc5bfecb68a1c43f64eccd50a73a433b86998db47244b5c9a8683717af",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01543731-v",
+      "synonyms": [
+        "perch",
+        "roost",
+        "rest"
+      ],
+      "definition": "sit, as on a branch",
+      "actualSynsetPOS": "v",
+      "recordSha256": "bec81b7eb797e2a2f11a6c8d312e6e6e967c99ff33c496238d3c47b865ea61ea",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "67a118aab939579769b299a22b3cb48612679d791aaa66bd198e52f39c589311",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01543998-v",
+      "synonyms": [
+        "seat",
+        "sit",
+        "sit down"
+      ],
+      "definition": "show to a seat; assign a seat for",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b64e858be52e547c0b618bc3e2746ea47b8731a529faf2e5799991727558705f",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d1d0bb91e6d84100b0444f864e469c8ce5d3f1373086a40178d75d588296f86c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01978700-v",
+      "synonyms": [
+        "alight",
+        "light",
+        "perch"
+      ],
+      "definition": "to come to rest, settle",
+      "actualSynsetPOS": "v",
+      "recordSha256": "33db5e56b9140125c19cbb315b83209599ca0d86a45a89b4d59e92cb71804112",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "2ba06099098f85ca72478a4436bb29d5a29fe186cd25f8bfd87d6f2bdbf9b589",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01979901-v",
+      "synonyms": [
+        "land",
+        "set down"
+      ],
+      "definition": "reach or come to rest",
+      "actualSynsetPOS": "v",
+      "recordSha256": "def412d6f01d8d95639f8d7a47be46467939a4255f63cd80846b31aff7331143",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "a6ac735ee595ac2faf6e71a0eab2ac10a0478e8f39f73f8bb9d078782a2e9e53",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "synset": "01986185-v",
+      "synonyms": [
+        "subside",
+        "settle"
+      ],
+      "definition": "sink down or precipitate",
+      "actualSynsetPOS": "v",
+      "recordSha256": "29633ef155edc522a376ac4a3ecd86cf7adaf513d5f861f2b02a800ae3072188",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "028d1c041428f44e4ae2db48537889df1b59b688a58487a4adae6988292e5931",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Posar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "pudelar",
+      "word": "PUDELAR",
+      "synset": "01473729-v",
+      "synonyms": [
+        "puddle"
+      ],
+      "definition": "mess around, as in a liquid or paste",
+      "actualSynsetPOS": "v",
+      "recordSha256": "1abe1dddf202d626f793d9bdb1d1677fc7639e6d01d2efeb499ea2691b48a2f2",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "225a7082df09a760bf481624210e64b18d5ea6504647da2730c3f59c3c7a158d",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "pudelar",
+      "word": "PUDELAR",
+      "synset": "01484267-v",
+      "synonyms": [
+        "puddle"
+      ],
+      "definition": "work a wet mixture, such as concrete or mud",
+      "actualSynsetPOS": "v",
+      "recordSha256": "7f3cc96fd8b0fb47ae805f32b1823d156e1f28b0b956bdff44f10a24c02179f9",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "f694e4b4cbe8b0f73df018b40dc4be41825a7d886110d6b0b285a2498c928852",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "rachear",
+      "word": "RACHEAR",
+      "synset": "02770019-v",
+      "synonyms": [
+        "squall"
+      ],
+      "definition": "blow in a squall",
+      "actualSynsetPOS": "v",
+      "recordSha256": "093bb816ee6fe9b389de91895ebcd3bddb4cd0b0189707e1cd93a57c3bcf8abf",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "8d890176759be06027a02c83d05cf44951b5d5d866a4dde1b156e3ccdde0b5f1",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "raerse",
+      "word": "RAERSE",
+      "synset": "01369204-v",
+      "synonyms": [
+        "fray",
+        "frazzle"
+      ],
+      "definition": "wear away by rubbing",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f23d1fcd7f812183a88317421533fd6c082ce0c6cfa18122a97b3b857ad826c9",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "4b8e90e0528d9011ce1c49605f67a7556d09f9588fbf3b0cbc1db950747c284f",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Raer (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Desgastarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "synset": "00309310-v",
+      "synonyms": [
+        "burst",
+        "split",
+        "break open"
+      ],
+      "definition": "come open suddenly and violently, as if from internal pressure",
+      "actualSynsetPOS": "v",
+      "recordSha256": "4c2a40f8763ba93aae735666b1891b7124548835f29d106fdeb92cc73f7da1c8",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "896fad80fb95561f3374934dc809499b1f0d6e33d2723553a3a97da60e4f52ac",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Acobardarse, desistirse de alguna situación díficil o temerosa en el último momento."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Arrepentirse, retractarse, incumplir una promesa."
+          ],
+          "tags": [
+            "pronominal",
+            "Mexico"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Irse precipitadamente de un lugar."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Bolivia",
+            "Uruguay"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hacer algo con toda la energía posible."
+          ],
+          "tags": [
+            "pronominal",
+            "Bolivia",
+            "Chile",
+            "Peru",
+            "Río-de-la-Plata"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Pagar el gasto de una comida o una invitación, en especial si es mucha cantidad de dinero."
+          ],
+          "tags": [
+            "pronominal",
+            "Chile",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Rasgar o rasgarse, romperse, especialmente los géneros o telas."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "synset": "00336260-v",
+      "synonyms": [
+        "crack",
+        "check",
+        "break"
+      ],
+      "definition": "become fractured; break or crack on the surface only",
+      "actualSynsetPOS": "v",
+      "recordSha256": "5146bc710f795e27eac73aa109cf0e52e458d894b68fcfc38a8e86ef32216603",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "08afe6eb6ca471ec26544e98a45ac94a1569d8b0b06b1ba51cd7a10a7bfdd96e",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Acobardarse, desistirse de alguna situación díficil o temerosa en el último momento."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Arrepentirse, retractarse, incumplir una promesa."
+          ],
+          "tags": [
+            "pronominal",
+            "Mexico"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Irse precipitadamente de un lugar."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Bolivia",
+            "Uruguay"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hacer algo con toda la energía posible."
+          ],
+          "tags": [
+            "pronominal",
+            "Bolivia",
+            "Chile",
+            "Peru",
+            "Río-de-la-Plata"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Pagar el gasto de una comida o una invitación, en especial si es mucha cantidad de dinero."
+          ],
+          "tags": [
+            "pronominal",
+            "Chile",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Rasgar o rasgarse, romperse, especialmente los géneros o telas."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "rajarse",
+      "word": "RAJARSE",
+      "synset": "02380980-v",
+      "synonyms": [
+        "chicken out",
+        "back off",
+        "pull out",
+        "back down",
+        "bow out"
+      ],
+      "definition": "remove oneself from an obligation",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f4933686252cafc7860f8ed98abd0bb8dc64bec2b7aba2e28b739d0058656461",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "1147898894859b30f29275b311ae5390417293d59d5034da34ab413c8a4ac8cf",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Acobardarse, desistirse de alguna situación díficil o temerosa en el último momento."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Arrepentirse, retractarse, incumplir una promesa."
+          ],
+          "tags": [
+            "pronominal",
+            "Mexico"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Irse precipitadamente de un lugar."
+          ],
+          "tags": [
+            "pronominal",
+            "Argentina",
+            "Bolivia",
+            "Uruguay"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Hacer algo con toda la energía posible."
+          ],
+          "tags": [
+            "pronominal",
+            "Bolivia",
+            "Chile",
+            "Peru",
+            "Río-de-la-Plata"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Pagar el gasto de una comida o una invitación, en especial si es mucha cantidad de dinero."
+          ],
+          "tags": [
+            "pronominal",
+            "Chile",
+            "colloquial"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 5,
+          "glosses": [
+            "Rasgar o rasgarse, romperse, especialmente los géneros o telas."
+          ],
+          "tags": [
+            "pronominal",
+            "colloquial"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "rampar",
+      "word": "RAMPAR",
+      "synset": "01885845-v",
+      "synonyms": [
+        "crawl",
+        "creep"
+      ],
+      "definition": "move slowly; in the case of people or animals with the body near the ground",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d38431f417e2a72122d5057afcc453b0915a6e6b9717498c3ea549ba810d9254",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "6f9f465a395f046d8e5b9caeaa5d58354b1f6554d720af4c0b7e1fd8abe2e880",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "resinar",
+      "word": "RESINAR",
+      "synset": "00069166-v",
+      "synonyms": [
+        "gum"
+      ],
+      "definition": "exude or form gum",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b1b46583cb540965f74e9ff911670ef63966e9d3e10813864126f169dff3c22e",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "bb47066577204866cc4490d80499b7b83987e5b5417c5ed81b9514c80fdd7730",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "rizarse",
+      "word": "RIZARSE",
+      "synset": "01223833-v",
+      "synonyms": [
+        "crimp",
+        "crape",
+        "frizzle",
+        "frizz",
+        "kink up",
+        "kink"
+      ],
+      "definition": "curl tightly",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ba30ab37c138d7094ba3a3449f3355757ca81008f081eb8863c8770ba3511717",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e3ce26f516365a5ead1727943b151500dbc4af4ba9d2be4674c377f1ccbe1875",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Ensortijarse el pelo naturalmente."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Moverse la mar, formando olas pequeñas."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": [
+            "utci"
+          ]
+        }
+      ]
+    },
+    {
+      "spanish": "roerse",
+      "word": "ROERSE",
+      "synset": "01369204-v",
+      "synonyms": [
+        "fray",
+        "frazzle"
+      ],
+      "definition": "wear away by rubbing",
+      "actualSynsetPOS": "v",
+      "recordSha256": "f23d1fcd7f812183a88317421533fd6c082ce0c6cfa18122a97b3b857ad826c9",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "76bd214d373b072920f9b6f7cf1ae22ebb5ec0bc8f67c4f2197b6d83c139891d",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Roer (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "rosarse",
+      "word": "ROSARSE",
+      "synset": "00103317-v",
+      "synonyms": [
+        "blush",
+        "crimson",
+        "flush",
+        "redden"
+      ],
+      "definition": "turn red, as if in embarrassment or shame",
+      "actualSynsetPOS": "v",
+      "recordSha256": "2136e421d46a94ca1f005386a116b15fac4c353fde7761e85d6e1d32d8c6e3b6",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "6c3c8ae1393d5af5c07a994f3d2722b7b499616f920fee55cb4ab0fa05ce7352",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Variante de sonrosarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "saberse",
+      "word": "SABERSE",
+      "synset": "00343180-v",
+      "synonyms": [
+        "transpire"
+      ],
+      "definition": "come to light; become known",
+      "actualSynsetPOS": "v",
+      "recordSha256": "b710ea2d64789f3aba3a1a734f9d24b74f9fdcedbbf05ac0ab3d03daeba39e74",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e7fa94e305873ca19512897d9780f9db8ba70a21578b8de77f056c7eb1aaba8a",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "00219403-v",
+      "synonyms": [
+        "dry",
+        "dry out"
+      ],
+      "definition": "become dry or drier",
+      "actualSynsetPOS": "v",
+      "recordSha256": "10c23113d1f9e710af047f959487335d47cae011d5e20edcf243d797ac260aa6",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "d9085f948ac5aa6ece2814427bbe3ed7b3ceaa7665ddd31aace473496850f8ca",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Secar (uso pronominal de ...)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dicho de un río: quedarse sin agua."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Dicho de una planta: perder su verdor, vigor o lozanía."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Dicho de una persona: Enflaquecer o extenuarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "00242205-v",
+      "synonyms": [
+        "mummify",
+        "dry up"
+      ],
+      "definition": "dry up and shrivel due to complete loss of moisture",
+      "actualSynsetPOS": "v",
+      "recordSha256": "e0c5f29d3b02b5b187b8b48d07f59ecbe1bd4f868d13c6233978a898bd1fb2e6",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "aebf9ad0d21a21a1af2b848735fed4c9652ec4d67871c9fc8151bcf16bff2155",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Secar (uso pronominal de ...)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dicho de un río: quedarse sin agua."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Dicho de una planta: perder su verdor, vigor o lozanía."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Dicho de una persona: Enflaquecer o extenuarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "00421917-v",
+      "synonyms": [
+        "fade",
+        "wither"
+      ],
+      "definition": "lose freshness, vigor, or vitality",
+      "actualSynsetPOS": "v",
+      "recordSha256": "0d8add3643ca294a8d496b686a86b06d423c7fcf51354e200c667e3216648d62",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "a6d3760ea92f2d3cbe1d9e53bc805d15dc5c8dc60f5faed84772e921afef03fe",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Secar (uso pronominal de ...)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dicho de un río: quedarse sin agua."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Dicho de una planta: perder su verdor, vigor o lozanía."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Dicho de una persona: Enflaquecer o extenuarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "secarse",
+      "word": "SECARSE",
+      "synset": "01394335-v",
+      "synonyms": [
+        "towel"
+      ],
+      "definition": "wipe with a towel",
+      "actualSynsetPOS": "v",
+      "recordSha256": "d2b8173bde8471423fbd8ec5a370c369abf2d7ec14f5adeb078988cafee45039",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9cb7524a312f82136ea8c94e62c58b97a2ddf9cd26082f93b829d27cd29f5ea7",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Secar (uso pronominal de ...)."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dicho de un río: quedarse sin agua."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Dicho de una planta: perder su verdor, vigor o lozanía."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Dicho de una persona: Enflaquecer o extenuarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01971929-v",
+      "synonyms": [
+        "sink",
+        "subside"
+      ],
+      "definition": "descend into or as if into some soft substance or place",
+      "actualSynsetPOS": "v",
+      "recordSha256": "22e2bfaf28a558688247ea15c3b0f9df13d1a9cd542e50ba0ac8c3dc0cd1f9ac",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "dc22bcf98dc6262fc62cff32b2ee204277371d0fb5b1b22207c3a3a67614d487",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01985923-v",
+      "synonyms": [
+        "sink",
+        "drop",
+        "drop down"
+      ],
+      "definition": "fall or descend to a lower place or level",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9781709c6bd18882d78992b7edd4348cb4785bca53f9107e560e2a7b90c7b772",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "9a8481c53a6e7fe93005ae7d24b02f2d5bbd8e6f2a2d31f166fc6619f6e4b8d5",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "sumirse",
+      "word": "SUMIRSE",
+      "synset": "01989873-v",
+      "synonyms": [
+        "sink",
+        "settle",
+        "go down",
+        "go under"
+      ],
+      "definition": "go under, \"The raft sank and its occupants drowned\"",
+      "actualSynsetPOS": "v",
+      "recordSha256": "8cdeb23f3b00d773a1d1328185e08280eca6a0706c02e9afc7c8c7b54a2f3aab",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "e9a1b8a2d0f7a18496327ed72759c6a7ac816a618f813123ecaec06eb0364732",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "taparse",
+      "word": "TAPARSE",
+      "synset": "00361388-v",
+      "synonyms": [
+        "cloud over"
+      ],
+      "definition": "become overcast",
+      "actualSynsetPOS": "v",
+      "recordSha256": "5698a038755bf486399a72d2720fb883a0e5875856180af5c144586918651bd2",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "3e86abfb44b383d2e02d0149e7a5ccbab08c6395b4cc311df52e1a8a69f506bc",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Cubrirse para protegerse de los golpes."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Cubrirse para protegerse del frío, polvo, sol u otras circunstancias naturales."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "taparse",
+      "word": "TAPARSE",
+      "synset": "01334744-v",
+      "synonyms": [
+        "hold"
+      ],
+      "definition": "cover as for protection against noise or smell",
+      "actualSynsetPOS": "v",
+      "recordSha256": "7a0279d21dced38055800e30ed814594c3321e08dcb7f88792120199c6cbcee6",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "f63f273b3d4b35f2d74468ce07acdaab39191eb7e952f57ef08d696187037b0c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Cubrirse para protegerse de los golpes."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Cubrirse para protegerse del frío, polvo, sol u otras circunstancias naturales."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "tesarse",
+      "word": "TESARSE",
+      "synset": "00420549-v",
+      "synonyms": [
+        "tauten",
+        "firm"
+      ],
+      "definition": "become taut or tauter",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ed4f3bccd18c0ecfbefd8a22b91f2564cea228ced1d8d07d8bed4a4dcb642776",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "92fa2829453ff7415e4c57d7bd6cb7ee9c8da7df04b44a8f6e5b63f513ef8642",
+      "retainedSpanishSemanticCandidates": []
+    },
+    {
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "synset": "01426397-v",
+      "synonyms": [
+        "sleep together",
+        "roll in the hay",
+        "love",
+        "make out",
+        "make love",
+        "sleep with",
+        "get laid",
+        "have sex",
+        "know",
+        "do it",
+        "be intimate",
+        "have intercourse",
+        "have it away",
+        "have it off",
+        "screw",
+        "fuck",
+        "jazz",
+        "eff",
+        "hump",
+        "lie with",
+        "bed",
+        "have a go at it",
+        "bang",
+        "get it on",
+        "bonk"
+      ],
+      "definition": "have sexual intercourse with",
+      "actualSynsetPOS": "v",
+      "recordSha256": "61bda28ce493cc3a9935ba82549e29aef3c56a1cf42dc6189b7fd60425c863df",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "594d2b6a10e6ad191dabe43f004c0ec59b9d923a51a1eddb0139cf8af6e2ce75",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Arrojarse, abalanzarse sobre algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dejarse caer."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Recostarse sobre el suelo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Copular con otra persona."
+          ],
+          "tags": [
+            "pronominal",
+            "Spain",
+            "vulgar"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Comer o beber."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "synset": "01978436-v",
+      "synonyms": [
+        "pitch"
+      ],
+      "definition": "fall or plunge forward",
+      "actualSynsetPOS": "v",
+      "recordSha256": "2a00974f751e82f0041c693dfe3fdd7170eeb0a38557fe7ec47b2f583afe79ab",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "befb5433168afd97d7de70e62d37eb541f1a17242c4ee9ba2b79162e21e9af50",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Arrojarse, abalanzarse sobre algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dejarse caer."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Recostarse sobre el suelo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Copular con otra persona."
+          ],
+          "tags": [
+            "pronominal",
+            "Spain",
+            "vulgar"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Comer o beber."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "tirarse",
+      "word": "TIRARSE",
+      "synset": "02097204-v",
+      "synonyms": [
+        "throw"
+      ],
+      "definition": "move violently, energetically, or carelessly",
+      "actualSynsetPOS": "v",
+      "recordSha256": "ecf314f89afd0c8d2fef5795ca7e72d53d8e0721d31f4427b0ab94df0b8da67a",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "5fb62a29bbcc2fd2a96efb14a8bfbe858b377cf8b8d2936102b7257f24f2ee0d",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Arrojarse, abalanzarse sobre algo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dejarse caer."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Recostarse sobre el suelo."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Copular con otra persona."
+          ],
+          "tags": [
+            "pronominal",
+            "Spain",
+            "vulgar"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 4,
+          "glosses": [
+            "Comer o beber."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "tocarse",
+      "word": "TOCARSE",
+      "synset": "00047172-v",
+      "synonyms": [
+        "hat"
+      ],
+      "definition": "put on or wear a hat",
+      "actualSynsetPOS": "v",
+      "recordSha256": "cfdf4517e0705ad263f7686ce52fdd405db7bdd7ad9879ecccbdf091171944b8",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "a062e260e43d2ec2b484d75c9c24d409049455b8b539716135f4cff35ebaa094",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Tocar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Cubrirse la cabeza, esto es, ponerse la gorra, sombrero, mantilla, pañuelo, etc."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "toparse",
+      "word": "TOPARSE",
+      "synset": "02108791-v",
+      "synonyms": [
+        "hit",
+        "strike",
+        "come to"
+      ],
+      "definition": "cause to experience suddenly",
+      "actualSynsetPOS": "v",
+      "recordSha256": "959c4c8b26baa4bd80afa58998dbccda65647fa1cf6aee1c2a13536b3f09318c",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "67266e237848f0499378932f608b0b782feca5bed3b455966ff999d6b6d29085",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Topar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "velarse",
+      "word": "VELARSE",
+      "synset": "00312990-v",
+      "synonyms": [
+        "blur",
+        "blear"
+      ],
+      "definition": "make dim or indistinct",
+      "actualSynsetPOS": "v",
+      "recordSha256": "30b9661b33c4240910c627ff4bb212f3ff36b68704ad7562b64e0a5b080c0933",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "23610b000252dd95838407f67b53e5eabc7aae1f0ff1d57c70b3b99cb2beb8f6",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Velar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "velarse",
+      "word": "VELARSE",
+      "synset": "02158034-v",
+      "synonyms": [
+        "film over",
+        "glaze over",
+        "blur"
+      ],
+      "definition": "become glassy; lose clear vision",
+      "actualSynsetPOS": "v",
+      "recordSha256": "2abcccdf6d9bde2b50f363a5043710e809b6a89b0bab6bcf0965d6183438cb00",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0cf9acf1e296406cf5bb6c6963573a04d0edc285b96062fb14faa9a8a6d6d97c",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Velar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "venirse",
+      "word": "VENIRSE",
+      "synset": "02197360-v",
+      "synonyms": [
+        "come"
+      ],
+      "definition": "experience orgasm",
+      "actualSynsetPOS": "v",
+      "recordSha256": "9181598c5cd9f9c3460b3480293cab2036656e492f8ae2e3eed2141d5dc1efe8",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "0f7ef41bb26e326a05fe9879a72d8ed4e03d54b3b853a53fa4ffcadedf241836",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Dicho de algunos alimentos, madurar, alcanzar su calidad óptima mediante la fermentación."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Llegar aquí, acercarse."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 2,
+          "glosses": [
+            "Trasladarse hacia acá para instalarse, mudarse de domicilio."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 3,
+          "glosses": [
+            "Eyacular."
+          ],
+          "tags": [
+            "pronominal",
+            "Caribbean",
+            "Central-America",
+            "Colombia",
+            "Ecuador",
+            "Paraguay",
+            "Peru"
+          ],
+          "rawTags": []
+        }
+      ]
+    },
+    {
+      "spanish": "zafarse",
+      "word": "ZAFARSE",
+      "synset": "02227362-v",
+      "synonyms": [
+        "chuck",
+        "ditch"
+      ],
+      "definition": "throw away",
+      "actualSynsetPOS": "v",
+      "recordSha256": "6d12f3fb691876872ead6678eea8d295c32a08a5840365ef01080a16abec80e0",
+      "sourceFile": "data.verb",
+      "spanishRecordSha256": "fc73cc302574694db97b696da565b6d59bfbee5d7ac971e7a2787c7183ec0dff",
+      "retainedSpanishSemanticCandidates": [
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 0,
+          "glosses": [
+            "Zafar (uso pronominal de ...)"
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        },
+        {
+          "spanishPartOfSpeech": "verb",
+          "rowIndex": 0,
+          "senseIndex": 1,
+          "glosses": [
+            "Dicho de un mecanismo: hacer juego, salirse del lugar en donde debería estar para funcionar un sistema correctamente."
+          ],
+          "tags": [
+            "pronominal"
+          ],
+          "rawTags": []
+        }
+      ]
+    }
+  ]
+}

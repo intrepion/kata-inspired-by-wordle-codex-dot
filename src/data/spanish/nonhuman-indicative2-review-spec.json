@@ -1,0 +1,762 @@
+{
+  "inputSha256": "23fc84357a949b0eaa4809b8b073c310c1d368a0228acf7a9bc03a21d4db9bb7",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model linguistic/source review of all16 exact nonhuman indicative proposals, not native certification. English evidence checked against retained pinned extraction/table files and exact admitted singular audit/policy; no original3GB English archive replay. Fresh Spanish original selected raw lines replayed by SHA and complete lexical fields. AGID slots and tense/aspect agreement checked locally.",
+  "approved": [
+    {
+      "proposalIndex": 0,
+      "word": "CROABAN",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they were croaking",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "frogs producing their characteristic call; selected ongoing background reading",
+      "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "b09e845f0cb0935eb1c2adf4a523ed03efdc0179e786a2a1d0d475f2b5987c38",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of croar"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "croar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+      "existingSubjectPolicyId": "a75ceb587ce75db6",
+      "notes": "Literal frog calls; croaked does not select human-death slang."
+    },
+    {
+      "proposalIndex": 1,
+      "word": "CROARON",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they croaked",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "frogs producing their characteristic call; completed past reading, not human death slang",
+      "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "49c38fc7a501ab751eceb83520853fcc9b71e2c3cf792b1a6e4993df3fea9fe7",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural preterite indicative of croar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "croar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+      "existingSubjectPolicyId": "a75ceb587ce75db6",
+      "notes": "Literal frog calls; croaked does not select human-death slang."
+    },
+    {
+      "proposalIndex": 2,
+      "word": "CROARÁN",
+      "lemma": "croar",
+      "frame": "croak",
+      "english": "they will croak",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "frogs producing their characteristic call; future reading",
+      "lemmaRecordSha256": "188d3799e478032e9c957ee8a104810d1721ce2640a29a6cce0441eaa8f903f3",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "05c1d69d62e3b8a9f0b1188eb5aa1b8f8e6942398da45c197cfe59c34a127a40",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of croar"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "croar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "6fde1d91bd3952b41565f0c79d4a8de41d792683f0a2293a9577ad08ea76f059",
+      "existingSubjectPolicyId": "a75ceb587ce75db6",
+      "notes": "Literal frog calls; croaked does not select human-death slang."
+    },
+    {
+      "proposalIndex": 3,
+      "word": "MUGÍAN",
+      "lemma": "mugir",
+      "frame": "moo",
+      "english": "they were mooing",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cattle mooing; selected ongoing background reading, not people imitating cattle",
+      "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "18c51f853f7d625579c6d918b58fe69e0cd7892efd82b7b678b89cf71fc8348a",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of mugir"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "mugir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ffd33c84b16d531a93d515809e5bec202c86d3ad247a7c203f387853138654eb",
+      "existingSubjectPolicyId": "eb6b6d7f0b08a891",
+      "notes": "Literal cattle mooing; Spanish wind/roaring figurative senses remain unselected."
+    },
+    {
+      "proposalIndex": 4,
+      "word": "MUGIRÁN",
+      "lemma": "mugir",
+      "frame": "moo",
+      "english": "they will moo",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cattle mooing; future reading, no human or weather subject",
+      "lemmaRecordSha256": "a5dff45fe3aa85c57df86cae267d560e13da2366998275fc1e9ea8e29ec20245",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "791aaf50983574d9dde0c886db70bb3c871974f53041e8889ec948deb4cb0f42",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of mugir"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "mugir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ffd33c84b16d531a93d515809e5bec202c86d3ad247a7c203f387853138654eb",
+      "existingSubjectPolicyId": "eb6b6d7f0b08a891",
+      "notes": "Literal cattle mooing; Spanish wind/roaring figurative senses remain unselected."
+    },
+    {
+      "proposalIndex": 5,
+      "word": "MAYABAN",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they were meowing",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; selected ongoing background reading, not the separate reflexive plant-wilting sense",
+      "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "73ee27e46346a9e74c7c97a98641733901757bd6e8e89b9f8cf2907136c476b5",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of mayar"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "mayar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "a35c69b556b8d627",
+      "notes": "Literal cat meowing from retained English sense; Spanish semantic entry is no-gloss, so Spanish raw corroboration is grammar proof rather than independent fresh semantic proof. No wilting/reflexive sense admitted."
+    },
+    {
+      "proposalIndex": 6,
+      "word": "MAYARON",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they meowed",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; completed past reading, not the separate reflexive plant-wilting sense",
+      "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "94f8c5b4b4bdedeacd26897fee1162222046cd69fa93ab7b382f957aaffb0313",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural preterite indicative of mayar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "mayar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "a35c69b556b8d627",
+      "notes": "Literal cat meowing from retained English sense; Spanish semantic entry is no-gloss, so Spanish raw corroboration is grammar proof rather than independent fresh semantic proof. No wilting/reflexive sense admitted."
+    },
+    {
+      "proposalIndex": 7,
+      "word": "MAYARÁN",
+      "lemma": "mayar",
+      "frame": "meow",
+      "english": "they will meow",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; future reading, not the separate reflexive plant-wilting sense",
+      "lemmaRecordSha256": "2717a44634f3381f8a34f85bbb2767305e83397e9555e6b8c96441f6669af83a",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "aa18c58301cd1e4b3620e29b5bc1b12d72989bce773fe0af8514859b667bf15f",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of mayar"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "mayar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "a35c69b556b8d627",
+      "notes": "Literal cat meowing from retained English sense; Spanish semantic entry is no-gloss, so Spanish raw corroboration is grammar proof rather than independent fresh semantic proof. No wilting/reflexive sense admitted."
+    },
+    {
+      "proposalIndex": 8,
+      "word": "PACÍAN",
+      "lemma": "pacer",
+      "frame": "graze",
+      "english": "they were grazing",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "grazing animals eating pasture; selected ongoing background reading, not farmers pasturing animals",
+      "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "a0d60008281cb6836dff9f1e94f254e9a7180042397b53850028c1c6834c3e5c",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of pacer"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "pacer"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "be3b1b308e928b6c3b7b146a30f84ec7dd8238ad6a8893edda850ef7b0c82078",
+      "existingSubjectPolicyId": "698114413a189b58",
+      "notes": "Animals consume pasture; not a farmer causatively putting animals out to graze."
+    },
+    {
+      "proposalIndex": 9,
+      "word": "PACERÁN",
+      "lemma": "pacer",
+      "frame": "graze",
+      "english": "they will graze",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "grazing animals eating pasture; future reading, not farmers pasturing animals",
+      "lemmaRecordSha256": "0050298b0aaed909381eb812de8f87bbd70e001b863a4392fd6b2c6ec4debf75",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "cb0d27f263e5687d4e8cfae94e4b90ad7fbaa042e5307958d75e66211d36cafd",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of pacer"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "pacer"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "be3b1b308e928b6c3b7b146a30f84ec7dd8238ad6a8893edda850ef7b0c82078",
+      "existingSubjectPolicyId": "698114413a189b58",
+      "notes": "Animals consume pasture; not a farmer causatively putting animals out to graze."
+    },
+    {
+      "proposalIndex": 10,
+      "word": "OVABAN",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they were laying eggs",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "egg-laying animals; selected ongoing background reading, not human ovulation",
+      "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "911ce87a0278ab9345429d642bf51bd60e991d955c35d76a02b7f5faed9d8a33",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of ovar"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "ovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "2e03a69c0f944cc5",
+      "notes": "Animals lay eggs; neither human ovulation nor a generic human lay reading."
+    },
+    {
+      "proposalIndex": 11,
+      "word": "OVARON",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they laid eggs",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "egg-laying animals; completed past reading, not human ovulation",
+      "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "4389a85650dec161e5ae465da0cbfe9c63c5d635e3e9ee5850d7da6f6d33d02f",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural preterite indicative of ovar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "ovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "2e03a69c0f944cc5",
+      "notes": "Animals lay eggs; neither human ovulation nor a generic human lay reading."
+    },
+    {
+      "proposalIndex": 12,
+      "word": "OVARÁN",
+      "lemma": "ovar",
+      "frame": "lay eggs",
+      "english": "they will lay eggs",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "egg-laying animals; future reading, not human ovulation",
+      "lemmaRecordSha256": "a0ea2b241e56da21e84ec757a212ed1f06a8a8bed493f71e3816b08520f7dc22",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "52cbda44864cfdd0341f8f16b40f473a67acd0c6931c235d871641fa68dd3362",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of ovar"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "ovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "2e03a69c0f944cc5",
+      "notes": "Animals lay eggs; neither human ovulation nor a generic human lay reading."
+    },
+    {
+      "proposalIndex": 13,
+      "word": "MIABAN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they were meowing",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; selected ongoing background reading from an exact retained conjugation-table cell",
+      "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "sourceForm": {
+        "tags": [
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "miar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "miaban",
+        "tags": [
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "ad168b0c2864ddfd",
+      "notes": "Cats meow; preserve source rare tag of the selected Spanish meowing entry. Unrelated pronominal/vulgar urination labels must not leak into this sense."
+    },
+    {
+      "proposalIndex": 14,
+      "word": "MIARON",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they meowed",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; completed past reading from an exact retained conjugation-table cell",
+      "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "miar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "miaron",
+        "tags": [
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "ad168b0c2864ddfd",
+      "notes": "Cats meow; preserve source rare tag of the selected Spanish meowing entry. Unrelated pronominal/vulgar urination labels must not leak into this sense."
+    },
+    {
+      "proposalIndex": 15,
+      "word": "MIARÁN",
+      "lemma": "miar",
+      "frame": "meow",
+      "english": "they will meow",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "selectedSubject": "they (literal nonhuman animals only)",
+      "context": "cats meowing; future reading from an exact retained conjugation-table cell",
+      "lemmaRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "ec6223443d2ac9a265e80c4f17f279a2e7c8db2913cdfb29060b84f0ee914e3e",
+      "sourceForm": {
+        "tags": [
+          "future",
+          "indicative",
+          "plural",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "miar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "miarán",
+        "tags": [
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "ad168b0c2864ddfd",
+      "notes": "Cats meow; preserve source rare tag of the selected Spanish meowing entry. Unrelated pronominal/vulgar urination labels must not leak into this sense."
+    }
+  ],
+  "held": [],
+  "retainedOriginalHolds": [
+    {
+      "word": "MÍAN",
+      "lemma": "miar",
+      "reason": "Potential additional exact Spanish-edition present-indicative form; kept separate because this batch is English word/table evidence. Requires its own foreign-adapter whole-source binding, not a guessed English word entry."
+    },
+    {
+      "scope": "all other diagnosed third-person plural features",
+      "reason": "Commands/formal-you, subjunctives, weather or other roots are not approved by this bounded exact-word batch."
+    }
+  ],
+  "sourcePins": {
+    "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "englishTablesSha256": "03ee079049afe5af8174e90748701c5c46eedf67cf95342c4cc81c443c0c3cf4",
+    "englishSourceManifestSha256": "5cc79c3053dc0aa7d0db3ef228d82b8df616df56a5b7027c9e9f490826af9520",
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "existingSubjectPolicySha256": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+    "existingSingularAuditSha256": "e893d9d595e721eed26e497388319829a0a434ebf9b43781a900ba9c1e0bc89e",
+    "existing14PluralProposalSha256": "0075e961f1c7cea800f02e405c7183197ad018cbc5571e35242db8ea63514bbd",
+    "existing14PluralReviewSha256": "e066419d1d2046936097cdab36bb0fdadcc89714f2d5052a78f1927157413e75",
+    "baselineCoverageAuditSha256": "cf60b392fad34350780db3e5ed9c4a326eb8dee46105bdc13194769785a411a0",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51879,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4699,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 60958,
+      "missing": 15712,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2575,
+          "missing": 349
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8340,
+          "missing": 1396
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17537,
+          "missing": 4254
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32506,
+          "missing": 9713
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "dataLicense": "CC-BY-SA-4.0",
+    "englishAGIDLicense": "Separate permissive AGID notices; no GPL source used"
+  },
+  "checks": {
+    "freshSpanishDistinctRawRecordsReplayed": 24,
+    "retainedEnglishWordEntrySensesMatched": 13,
+    "retainedEnglishTableCellsMatched": 3,
+    "admittedSingularProofsMatched": 16,
+    "englishSourceAuditFragmentScope": "Preserved fragment references resolve inside pinned original english-translation-audit.json, not inside this review artifact."
+  },
+  "counts": {
+    "reviewed": 16,
+    "approvedExactReadings": 16,
+    "withheldProposedReadings": 0,
+    "originalHoldItemsRetained": 2
+  },
+  "guards": [
+    "Only these exact words/source record/sense/table cell/features/rendering/context get a selected literal animal they reading. No global it-only change.",
+    "No human I/we/you, ustedes/formal-you alternative, imperative, subjunctive, weather, new lemma, SE construction or unsupported tense.",
+    "Existing singular model meanings and original14 present-plural exceptions remain unchanged.",
+    "For MIAR keep selected Spanish rare label visible if carrying this Spanish corroboration; exclude all unrelated urination/reflexive/regional/vulgar labels.",
+    "For CROAR completed croaked must retain literal frog context; not human-death slang.",
+    "MAYAR Spanish raw no-gloss is not independent semantic confirmation: English retained meow sense and existing admitted singular proof support meaning.",
+    "MÍAN foreign-adapter present remains held, not inferred from the MIAR table or accent stripping.",
+    "These are16 exact source approvals, not actual new compiled coverage. No production edits."
+  ]
+}

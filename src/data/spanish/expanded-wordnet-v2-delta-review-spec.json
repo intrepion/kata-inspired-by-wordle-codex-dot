@@ -1,0 +1,43 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "Independent metadata-only delta review with recursive JSON comparison and direct original-byte array extraction. No repeated or broadened semantic review.",
+  "approved": true,
+  "inputSha256": "526f868e60e461efedd1afbf7c6409ed4f60958b4aac3a97f35f884efdb3e60a",
+  "originalCandidateSha256": "e1cd688a862b732a1e6dd99f01f5bc092da2a43fea0bfa12dca39ecac0054dfb",
+  "existingSemanticReviewSha256": "8245ecb8fee19cb9f09ea3362ab9be6ee316d2f3879533235da7581ab09e92dd",
+  "metadataProofSha256": "ce5853ad47954b3625f26b43cf3b84ac0ed9977aad83d50bd6ac306876c0b955",
+  "changedJSONPointers": [
+    "/sourcePins/modifications"
+  ],
+  "rowByteProof": {
+    "proposals": {
+      "byteIdentical": true,
+      "bytes": 33719,
+      "sha256": "6f37059012cf6e7d6dd37b35f267e91737858e5e2de2762f94712dee3b40a15a",
+      "rows": 25
+    },
+    "deferred": {
+      "byteIdentical": true,
+      "bytes": 40851,
+      "sha256": "08943d0b2022a76df92edd6bcb46e7e56506b242960fa91e7148b084a4ad446c",
+      "rows": 118
+    }
+  },
+  "decision": "Bind the existing 25 exact lexical mapping approvals and all original restrictions to the revised candidate. Corrected wording accurately distinguishes verb and adjective/satellite-adjective synsets and actual s versus normalized a POS.",
+  "semanticApprovalCount": 25,
+  "uniqueWords": 20,
+  "deferredNotAdjudicated": 118,
+  "guards": [
+    "Lexical whole words and exact selected meanings only. No new finite inflection, participle, adjective agreement, clitic composition or SE stripping authority.",
+    "Preserve selected contexts, source regional/register labels and roles despite conflicting POS/transitivity source tags.",
+    "GRISEAR overlaps the separately approved new-frame batch; deduplicate rather than claim a newly covered word.",
+    "The 118 deferred candidates remain unadjudicated; VENIRSE ejaculation evidence does not establish orgasm and remains deferred.",
+    "Runtime grammatical gender not independently certified. Model-derived English is not verbatim dictionary translation, native certification or Mexican-only usage.",
+    "Counts are lexical mappings, not new runtime coverage."
+  ],
+  "limitations": [
+    "Original candidate and review preserved unchanged.",
+    "No new inflections, SE decomposition, source meanings, runtime coverage or adjudication of deferred candidates.",
+    "No production edits or source downloads."
+  ]
+}

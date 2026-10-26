@@ -1,0 +1,816 @@
+{
+  "inputSha256": "1531e28619dce511d73935a283ad7c7371ba56a3f12e60684557472183beef84",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic review of ALL80 exact selected Spanish noun definitions, proposed English renderings and contexts, read in two40-record batches. Each English meaning checked against its supplied source sense, including referent/material/semantic number and qualifications. Original model review, not source-membership-only approval, native-human certification, examples or production edits. No other reviewer conclusions were consulted.",
+  "approved": [
+    {
+      "word": "ADENIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "adenia",
+      "senseIndex": 0,
+      "english": "enlargement of the lymph nodes",
+      "context": "Selected medical enlargement sense; no cause or additional diagnosis is inferred.",
+      "recordSha256": "ce18983e6afe9c8d4d7d9ec98a04c1550d0ef4a5e5158e60d422951dc67c8883",
+      "notes": "Enlargement captures the selected hypertrophy meaning without asserting cause."
+    },
+    {
+      "word": "AJOBERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajobero",
+      "senseIndex": 0,
+      "english": "porter carrying loads by hand, shoulder or back",
+      "context": "An occupation involving manual load carrying; no particular employer or transport equipment is invented.",
+      "recordSha256": "0670de6db02226bf00b3462d0cf4e81ef90039d816d86b0c844ebbc66287b378",
+      "notes": "Porter preserves the occupational manual-carrying sense and supplied body positions."
+    },
+    {
+      "word": "AJONJO",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajonjo",
+      "senseIndex": 0,
+      "english": "sticky root extract used to catch birds",
+      "context": "Viscous substance obtained from ajonjera roots and used like birdlime; no plant species or preparation recipe is inferred.",
+      "recordSha256": "eccb2cdaabbe8b33c861534a871cc837ad5f102c4f2ce6539e53d5e62c7c2d28",
+      "notes": "Root extract and bird-catching use are explicit; botanical identity is not added."
+    },
+    {
+      "word": "AJUAGAS",
+      "partOfSpeech": "noun",
+      "sourceWord": "ajuagas",
+      "senseIndex": 0,
+      "english": "ulcers on equine hooves",
+      "context": "Veterinary plural noun concerning horses and other equines, not a human skin condition.",
+      "recordSha256": "6e82e58d9838782d8a2bfec2607a57c79f682b3fe9dbb72ad1623db6d11ba613",
+      "notes": "English plural ulcers preserves the equine-hoof condition, without inferring a human disease."
+    },
+    {
+      "word": "ALAFIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alafia",
+      "senseIndex": 0,
+      "english": "unearned pardon or favor",
+      "context": "Rare usage for a favor or pardon granted without merit or a return obligation.",
+      "recordSha256": "18f32636f86cc28684094a0723883919907126b536be4dddc976ca6f771f9233",
+      "notes": "Unearned pardon/favor matches absence of merit or reciprocal obligation; rare retained."
+    },
+    {
+      "word": "ALAMINA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alamina",
+      "senseIndex": 0,
+      "english": "kiln-overloading tax or fine",
+      "context": "Historical Seville charge on potters exceeding the permitted kiln load; no current tax rule or rate is claimed.",
+      "recordSha256": "945d15ec6b8d792d5726bf994ed691899ef4dcd39310c02e1c01c71bb2cbc4d6",
+      "notes": "Kiln-load overage and historical Seville charge are explicit, not current tax advice."
+    },
+    {
+      "word": "ALAMÍN",
+      "partOfSpeech": "noun",
+      "sourceWord": "alamín",
+      "senseIndex": 0,
+      "english": "judge for workplace-accident liability",
+      "context": "A judge determining responsibilities after occupational accidents; no modern professional credential is invented.",
+      "recordSha256": "3fcf6c7a3e50dc701b41f5ade08f51b17c74200fe8756c851451b1e9f1cddb63",
+      "notes": "Judge and workplace-accident responsibility follow the exact selected source."
+    },
+    {
+      "word": "ALFADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alfada",
+      "senseIndex": 0,
+      "english": "upward pitching of a ship's bow",
+      "context": "Outdated nautical noun: the bow rises under the action of a heavy sea.",
+      "recordSha256": "4f6ed04ef19092eee68767b7d062a834b176c89029ac72a41064db1f907f5215",
+      "notes": "Only upward bow movement is selected; no human agent or full pitching cycle substituted."
+    },
+    {
+      "word": "ALFAIDA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alfaida",
+      "senseIndex": 0,
+      "english": "high-tide increase in river flow",
+      "context": "The source attributes the river's increased flow to high sea tide; no quantified discharge or flood prediction is inferred.",
+      "recordSha256": "1d95f509c02da63ab784d48340b09513e7f984279d28763a6b561cee78c926cd",
+      "notes": "Tide-related river-flow increase is the source-described sense; no forecast or physical mechanism added."
+    },
+    {
+      "word": "ALICER",
+      "partOfSpeech": "noun",
+      "sourceWord": "alicer",
+      "senseIndex": 0,
+      "english": "decorative tile frieze along the lower wall",
+      "context": "A band of patterned tiles used at the bottom of rooms; not the wall itself.",
+      "recordSha256": "bde262c8980a63d5d7fbf3599f1a50115694db210efd4706b10fa3625ae0e8ca",
+      "notes": "Lower-wall tile band/frieze preserves material and placement."
+    },
+    {
+      "word": "ALIDONA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alidona",
+      "senseIndex": 0,
+      "english": "stone once believed to occur inside swallows",
+      "context": "Obsolete legendary object explicitly presented as a former belief, not as a real anatomical mineral.",
+      "recordSha256": "9391afc007cdb45155968fd5fd4e7f968235c9d87b8ea68e3a6d7bff03bc5f95",
+      "notes": "Once believed is essential: mythical swallow-stone is not asserted as anatomy."
+    },
+    {
+      "word": "ALIFA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alifa",
+      "senseIndex": 0,
+      "english": "two-year-old sugarcane",
+      "context": "Source-labelled Andalusian and Mexican usage; age refers to the plant's development.",
+      "recordSha256": "e62f6442608a1d8889ebc92a86d64c512225f8e3eafd2bf936f858e1385d37b5",
+      "notes": "Two-year plant age and Andalusian/Mexican usage remain explicit."
+    },
+    {
+      "word": "ALIZAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "alizar",
+      "senseIndex": 0,
+      "english": "decorative tile frieze along the lower wall",
+      "context": "Patterned tile edging at the bottom of rooms; this exact spelling has its own source definition, not an inferred alias.",
+      "recordSha256": "45c866aebc62b5657922105cdf0c1209a2fd63a05cc7abc762e5abf1f54a1ffd",
+      "notes": "Same lexical tile-band meaning is independently attested for this spelling."
+    },
+    {
+      "word": "ALMAJA",
+      "partOfSpeech": "noun",
+      "sourceWord": "almaja",
+      "senseIndex": 0,
+      "english": "levy on dryland-grown produce",
+      "context": "Historical payment in Murcia on certain produce harvested without irrigation; no modern rate or universal tax is claimed.",
+      "recordSha256": "09c750777b94c137da0bfdde564b55ef14d42dd73e9621c0de61a4d644c5131d",
+      "notes": "Historical Murcia produce levy retained; no modern liability or rate."
+    },
+    {
+      "word": "ALMARIO",
+      "partOfSpeech": "noun",
+      "sourceWord": "almario",
+      "senseIndex": 0,
+      "english": "place where the soul resides",
+      "context": "Learned conceptual usage; the source does not identify an anatomical organ or establish an empirical location.",
+      "recordSha256": "7b14763d827b2ba9b426dac9de9c8ff6fb2ee0a10bad8d08e96d789202edb020",
+      "notes": "Conceptual place of the soul, with learned register, no empirical body-location assertion."
+    },
+    {
+      "word": "ALOBARA",
+      "partOfSpeech": "noun",
+      "sourceWord": "alobara",
+      "senseIndex": 0,
+      "english": "line of equal atmospheric-pressure change",
+      "context": "Meteorological line joining points with the same pressure change over a given interval; not an ordinary equal-pressure isobar.",
+      "recordSha256": "fa1dd1d2e74c088fd4ec3d8ba74ac444f620676f6eeaf4aa4be92bf5c24017ed",
+      "notes": "Equal pressure change over time distinguished correctly from equal pressure."
+    },
+    {
+      "word": "AMBLEO",
+      "partOfSpeech": "noun",
+      "sourceWord": "ambleo",
+      "senseIndex": 0,
+      "english": "church candle weighing one and a half kilograms",
+      "context": "A candle used in certain church services; the stated weight is explicit in the source, not a general candle-size rule.",
+      "recordSha256": "3b02ff8240dd2d3e9e35021a5d705415a8bd3b0b63e01c7c95502019fe0939be",
+      "notes": "One-and-a-half-kilogram church candle matches the unusually specific source."
+    },
+    {
+      "word": "AMIENTO",
+      "partOfSpeech": "noun",
+      "sourceWord": "amiento",
+      "senseIndex": 0,
+      "english": "helmet chinstrap",
+      "context": "A strap securing a celada helmet beneath the chin; no modern helmet standard is inferred.",
+      "recordSha256": "4dfe85a646b7002bb5566e96d24a9fde2cecd07aa25eb33e4706d116dc721354",
+      "notes": "Helmet chinstrap preserves under-chin placement without adding construction material."
+    },
+    {
+      "word": "ANTUVIO",
+      "partOfSpeech": "noun",
+      "sourceWord": "antuvio",
+      "senseIndex": 0,
+      "english": "anticipatory or hasty action",
+      "context": "Outdated noun for acting in advance or precipitately, not an automatically generated verb form.",
+      "recordSha256": "5dc0bfaa96add204dae8dd49dccdeb9e6a453228b4d1fd4af1b4a84999f21214",
+      "notes": "Anticipatory or hasty action captures both alternatives; obsolete register retained."
+    },
+    {
+      "word": "APURE",
+      "partOfSpeech": "noun",
+      "sourceWord": "apure",
+      "senseIndex": 0,
+      "english": "refining or purifying a material",
+      "context": "Removal of foreign or impure matter, with gold and silver as the source examples; not the urgency sense of apuro.",
+      "recordSha256": "d30731a18eac643022e059266bab95924c6a0426f67c172a68a2751b0241bec0",
+      "notes": "Purification/refining is selected, not urgency or hurry."
+    },
+    {
+      "word": "ARAVICO",
+      "partOfSpeech": "noun",
+      "sourceWord": "aravico",
+      "senseIndex": 0,
+      "english": "Inca poet",
+      "context": "Source-labelled Peruvian historical term for poets among the ancient Incas, especially those composing Inca histories.",
+      "recordSha256": "0561639ae84a928224449f2d3cd66f3e0a9c3ae528068e23f4d21177c344cb3e",
+      "notes": "Historical Inca poet is exact; Peruvian context retained without generalizing all poetry."
+    },
+    {
+      "word": "ARPENDE",
+      "partOfSpeech": "noun",
+      "sourceWord": "arpende",
+      "senseIndex": 0,
+      "english": "ancient land-area measure",
+      "context": "The source attributes a comparison with the Roman square actus to Isidore; no modern metric conversion is supplied.",
+      "recordSha256": "3105c008f478dc3385df1ce9b84126fd83772a6f11bc179d563b71eb7a1051a6",
+      "notes": "Ancient land measure is safe; attribution of comparison retained without an invented conversion."
+    },
+    {
+      "word": "ARRIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "arria",
+      "senseIndex": 0,
+      "english": "group of draft animals driven together",
+      "context": "Animals under the direction of muleteers or carriers; no fixed species, harness arrangement or single-file order is inferred.",
+      "recordSha256": "31cd25d0cd587de8dfb4fdb6852a784505b1e1c87f330af18c92032133be3a89",
+      "notes": "Group of draft animals under drivers; no invented single-file or species restriction."
+    },
+    {
+      "word": "ARTIMÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "artimón",
+      "senseIndex": 0,
+      "english": "lateen sail on the rearmost mast",
+      "context": "Historical nautical sail described as triangular and placed on the mast nearest the stern.",
+      "recordSha256": "801b93ec101ef436edf6d54d8a691a24ab647376573a22ffc53b114ba0595be7",
+      "notes": "Triangular lateen sail at the rearmost mast is the supplied historical nautical sense."
+    },
+    {
+      "word": "ASERTOR",
+      "partOfSpeech": "noun",
+      "sourceWord": "asertor",
+      "senseIndex": 0,
+      "english": "judge mediating formal challenges",
+      "context": "A historical judge involved in dueling challenges; no requirement that an actual duel took place is inferred.",
+      "recordSha256": "18637c5a12bf4dc1436a06da0babe522f6f6406060bbbf7acda1b0a47a5e400f",
+      "notes": "Judge mediating challenges is preserved; historical duel context does not assert an actual duel event."
+    },
+    {
+      "word": "ASNILLO",
+      "partOfSpeech": "noun",
+      "sourceWord": "asnillo",
+      "senseIndex": 0,
+      "english": "adjustable sawhorse",
+      "context": "Wooden support used by sawyers to hold the timber being cut, with an adjustable horizontal bar.",
+      "recordSha256": "51f0981f77022c7111c4c89321bae6e10633b9116ca0ce15cf3019fe728b292c",
+      "notes": "Adjustable timber support for sawing matches the described sawhorse mechanism."
+    },
+    {
+      "word": "ATIFLE",
+      "partOfSpeech": "noun",
+      "sourceWord": "atifle",
+      "senseIndex": 0,
+      "english": "kiln trivet preventing pottery from sticking",
+      "context": "Support placed inside a kiln in the manner of a trivet; no specific ceramic material or kiln temperature is invented.",
+      "recordSha256": "5fdda6bf114dbc6db648806ee0a047da120563a4a563524009c5ab9bd4d9311f",
+      "notes": "Kiln trivet and anti-sticking function supplied; no temperature or firing instructions added."
+    },
+    {
+      "word": "AZADADA",
+      "partOfSpeech": "noun",
+      "sourceWord": "azadada",
+      "senseIndex": 0,
+      "english": "blow with a hoe",
+      "context": "The striking implement is an azada, not an axe or an inferred injury.",
+      "recordSha256": "a08fe0bb0f91d29bc98742c8dd1dfe4a5f4c1e445353ed299b1da64af769b492",
+      "notes": "Blow with a hoe, independently lexical, not an assumed morphological family rule."
+    },
+    {
+      "word": "AZADAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "azadazo",
+      "senseIndex": 0,
+      "english": "blow with a hoe",
+      "context": "This spelling has a direct lexical definition of the blow, not an automatically derived augmentative translation.",
+      "recordSha256": "bdce3d716fcb7ab229ace3a14b8600c1ba689b50467be4d452c8dcd57a94ae99",
+      "notes": "Hoe-blow source meaning exact for this spelling; no assumed injury."
+    },
+    {
+      "word": "AZOEMIA",
+      "partOfSpeech": "noun",
+      "sourceWord": "azoemia",
+      "senseIndex": 0,
+      "english": "azotemia; excess nitrogenous waste in the blood",
+      "context": "Clinical elevation of nitrogen-containing compounds such as urea and creatinine; no individual diagnosis or obligatory cause is asserted.",
+      "recordSha256": "2bf61f7176beb70750add5578499bc16357dac71ddaaac758ff7c3ab4d37c352",
+      "notes": "Azotemia and nitrogenous blood compounds match the clinical definition; no diagnostic claim."
+    },
+    {
+      "word": "BABILAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "babilar",
+      "senseIndex": 0,
+      "english": "axle of a mill's movable grain chute",
+      "context": "Part of the mechanism letting grain fall from a hopper; no motor or modern milling machinery is inferred.",
+      "recordSha256": "a9fa59bdbd4233a0deec2d563875653cf843208ac6116c7e91d63e36d54a2b1e",
+      "notes": "Axle belongs to the movable grain chute below the hopper, not the mill wheel generally."
+    },
+    {
+      "word": "BACETA",
+      "partOfSpeech": "noun",
+      "sourceWord": "baceta",
+      "senseIndex": 0,
+      "english": "undealt cards left on the table",
+      "context": "The remainder after players receive their cards; not a discard pile or a particular game's rules.",
+      "recordSha256": "df285a10a99c6b2e9afc50b9ea5322c450ca86a6dd9fbd418bc4902233ddecf4",
+      "notes": "Undealt remainder correctly distinguished from discards."
+    },
+    {
+      "word": "BACÍA",
+      "partOfSpeech": "noun",
+      "sourceWord": "bacía",
+      "senseIndex": 0,
+      "english": "shallow, wide-rimmed basin",
+      "context": "A low vessel with a broad rim; no exclusively barber-related function is added.",
+      "recordSha256": "49031e220c1a80f280d6e4cff47035178d5b54bbb76460814f2604d10d611d7d",
+      "notes": "Shallow wide-rimmed basin is exact without forcing the separate barber use."
+    },
+    {
+      "word": "BALATE",
+      "partOfSpeech": "noun",
+      "sourceWord": "balate",
+      "senseIndex": 0,
+      "english": "stone retaining wall for a small terrace",
+      "context": "The wall supports the side of an agricultural bench or terrace; no particular masonry technique is inferred.",
+      "recordSha256": "81ca7ba90650eda211ef6028d4f8dc40b1ffa066fe8232b6c38f23ff6708195c",
+      "notes": "Retaining wall, not the supported terrace itself, is the selected referent."
+    },
+    {
+      "word": "BALAY",
+      "partOfSpeech": "noun",
+      "sourceWord": "balay",
+      "senseIndex": 0,
+      "english": "wicker basket",
+      "context": "A woven basket made of willow or similar material, without a claimed size or use.",
+      "recordSha256": "366a3f63f0b79fc748a3d9a1b1fb3684c22a0f2b45e1e77a50168066e06274a4",
+      "notes": "Wicker basket captures willow/similar woven material without invented size."
+    },
+    {
+      "word": "BALSAR",
+      "partOfSpeech": "noun",
+      "sourceWord": "balsar",
+      "senseIndex": 0,
+      "english": "land covered with wild scrub and brambles",
+      "context": "Source-labelled usage in the Americas for vegetation-covered land; not a balsa-wood grove or a raft.",
+      "recordSha256": "e121f1d374d76da302c31ffe89f528c67a063704f1e41235965b4078e9e9b716",
+      "notes": "Wild scrub-covered land, not balsa timber; American regional scope retained."
+    },
+    {
+      "word": "BALSO",
+      "partOfSpeech": "noun",
+      "sourceWord": "balso",
+      "senseIndex": 0,
+      "english": "hoisting sling",
+      "context": "A large rope loop of two or three turns for lifting weights or raising sailors aloft; no new rigging configuration is invented.",
+      "recordSha256": "0b0894300628300bb378e5ffbc578ced9de43e3b1f5cd8dc922fdd1a3291261c",
+      "notes": "Hoisting sling captures the large rope-loop lifting use, without new rigging details."
+    },
+    {
+      "word": "BANZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "banzo",
+      "senseIndex": 0,
+      "english": "carrying pole for a litter or stretcher",
+      "context": "A supporting side pole made of wood or another material; no particular passenger or ceremony is implied.",
+      "recordSha256": "a803326aef512880bfa576e24ba57b45615afc6e1ee03e23b3263fd25f615286",
+      "notes": "Longitudinal carrying support of litter/stretcher, not the whole frame."
+    },
+    {
+      "word": "BAQUE",
+      "partOfSpeech": "noun",
+      "sourceWord": "baque",
+      "senseIndex": 0,
+      "english": "impact of a falling body or heavy object",
+      "context": "Outdated usage for the blow itself; an audible sound is not required by the selected definition.",
+      "recordSha256": "eca572b6366378a913842282b42c4dfca5da941815574c3fea321b8d27d50854",
+      "notes": "Impact of a falling body or heavy object, not necessarily its sound; outdated retained."
+    },
+    {
+      "word": "BARCINA",
+      "partOfSpeech": "noun",
+      "sourceWord": "barcina",
+      "senseIndex": 0,
+      "english": "straw-carrying sack or net",
+      "context": "Usually made of esparto and used to gather and transport straw; not automatically a fishing net.",
+      "recordSha256": "c531206a4b98fa2a7629ac9bec0db49fc8b02b0bf5f64416b7b8aece30a1b765",
+      "notes": "Sack/net for gathering straw, usually esparto, remains distinct from fishing gear."
+    },
+    {
+      "word": "BARO",
+      "partOfSpeech": "noun",
+      "sourceWord": "baro",
+      "senseIndex": 0,
+      "english": "bar; a pressure unit of 100,000 pascals",
+      "context": "Physical measurement sense, not a money or drinking-place homograph; the pressure value is explicit in the source.",
+      "recordSha256": "87a8a0ddcd9007533ac689bda8e4484b2f35a9678870b336dbcbe86b47b4e984",
+      "notes": "Pressure-unit bar and its exact100000-pascal value are explicit in source."
+    },
+    {
+      "word": "BARZAL",
+      "partOfSpeech": "noun",
+      "sourceWord": "barzal",
+      "senseIndex": 0,
+      "english": "land covered with wild scrub and brambles",
+      "context": "No regional restriction is supplied for this selected source sense, and no claim of specifically Mexican usage is made.",
+      "recordSha256": "bd9ed84e76d7954480ccf2ef5ea9a5bf4bed6c21a25a1541c3bcca4d05030ff5",
+      "notes": "Scrub/bramble-covered land is direct and does not inherit BALSAR regional metadata."
+    },
+    {
+      "word": "BATAOLA",
+      "partOfSpeech": "noun",
+      "sourceWord": "bataola",
+      "senseIndex": 0,
+      "english": "loud hubbub or uproar",
+      "context": "Especially the noise made by crowds or tumult; no particular incident is invented.",
+      "recordSha256": "c2ca70fbcce12f54e83af4a08bcd956b0580fedb2fb1c2374551a06a1dec9133",
+      "notes": "Crowd hubbub/uproar captures loud-noise sense without inventing an incident."
+    },
+    {
+      "word": "BAULERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "baulero",
+      "senseIndex": 0,
+      "english": "storage-trunk maker or seller",
+      "context": "An occupation involving baúles, not anatomical trunks or a person of an assumed sex.",
+      "recordSha256": "e9bddac3f19818aa0cb91ceb5a91244eb8591213fe212568e88faccf4221aad0",
+      "notes": "Maker or seller of storage trunks preserves both occupational alternatives."
+    },
+    {
+      "word": "BIERZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "bierzo",
+      "senseIndex": 0,
+      "english": "cloth from Bierzo",
+      "context": "Named for its source region; lienzo does not by itself establish linen fiber, and no modern provincial status is asserted.",
+      "recordSha256": "e6d63bcd1013633fac3052b6e839eb37177bf1c092b83551928a66c7aa6ee861",
+      "notes": "Cloth origin preserved; linen fiber is rightly not inferred from lienzo."
+    },
+    {
+      "word": "BIGA",
+      "partOfSpeech": "noun",
+      "sourceWord": "biga",
+      "senseIndex": 0,
+      "english": "two-horse chariot",
+      "context": "Literary vehicle sense; no racing event, driver or wheel count is supplied by the source.",
+      "recordSha256": "dcf2f1ff66cf529284283a6916f333b9dbb047999de2121f49c98a7ade9f1973",
+      "notes": "Literary two-horse chariot is the conventional selected vehicle sense; no invented driver/race."
+    },
+    {
+      "word": "BINZA",
+      "partOfSpeech": "noun",
+      "sourceWord": "binza",
+      "senseIndex": 0,
+      "english": "inner eggshell membrane",
+      "context": "The thin film adhering to the inside of an eggshell; no bird species is inferred.",
+      "recordSha256": "20b633666032fbb680e6c26ea720aba2b399899625064ad0ed68cb6b2b3c04af",
+      "notes": "Inner eggshell membrane, not shell itself or any embryo structure."
+    },
+    {
+      "word": "BOCACAZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "bocacaz",
+      "senseIndex": 0,
+      "english": "water outlet in a dam",
+      "context": "Opening through which a portion of water is released for irrigation or another purpose; no specific gate mechanism is invented.",
+      "recordSha256": "4bad5d8aae05b8647aaa7796fcdee9562692aaa212a74757198c1ae9771fce5b",
+      "notes": "Dam outlet/opening for irrigation or other water release, without an assumed gate mechanism."
+    },
+    {
+      "word": "BOCHAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "bochazo",
+      "senseIndex": 0,
+      "english": "blow with a ball",
+      "context": "Source bocha is a wooden ball or a small ball of another material; no specific sport or injury is inferred.",
+      "recordSha256": "a2bf82b40d18474507e71b83bc9f7e2e2d883377ad8e04ff036783dc597b590b",
+      "notes": "Ball blow retains material alternatives and does not invent a sport."
+    },
+    {
+      "word": "BODIGO",
+      "partOfSpeech": "noun",
+      "sourceWord": "bodigo",
+      "senseIndex": 0,
+      "english": "small bread roll brought as an offering at Mass",
+      "context": "Made from fine flour and commonly offered by worshippers; not a universal requirement of religious services.",
+      "recordSha256": "59026850e288748c5a4411475dcaa9dd98de30afcb2fc759c6aaf4048755cf4a",
+      "notes": "Fine-flour small bread offering at Mass accurately scoped as customary, not mandatory."
+    },
+    {
+      "word": "BOYARÍN",
+      "partOfSpeech": "noun",
+      "sourceWord": "boyarín",
+      "senseIndex": 0,
+      "english": "small fishing float",
+      "context": "A float used with some fishing rods; not a large navigation buoy.",
+      "recordSha256": "739253502758487ee8df7bbd593cff9d96849c84b5a32e0194810b385a42ec89",
+      "notes": "Small fishing float distinguished from a navigation buoy."
+    },
+    {
+      "word": "BRANCAL",
+      "partOfSpeech": "noun",
+      "sourceWord": "brancal",
+      "senseIndex": 0,
+      "english": "pair of longitudinal beams in a carriage frame",
+      "context": "The two side members of a carriage or artillery gun-carriage frame resting above the axle ends.",
+      "recordSha256": "83c6900683438f762ea9b2bab1f00410d3bf28994d5c6cbd39cffc7adf502112",
+      "notes": "Pair of carriage/gun-carriage longitudinal beams, not the entire chassis."
+    },
+    {
+      "word": "BRANQUE",
+      "partOfSpeech": "noun",
+      "sourceWord": "branque",
+      "senseIndex": 0,
+      "english": "stem of a vessel",
+      "context": "The curved structural member forming the bow, not a plant stem or the whole ship.",
+      "recordSha256": "10a225dbb080c218c84e4011ad7d2c469725e00cda2117f53d74b2e4d2d61d4a",
+      "notes": "Nautical bow stem correctly distinguishes the curved structural member from a plant."
+    },
+    {
+      "word": "BRIOL",
+      "partOfSpeech": "noun",
+      "sourceWord": "briol",
+      "senseIndex": 0,
+      "english": "buntline for gathering a square sail",
+      "context": "A rope made fast at the foot rope of a square sail and used to gather it; not an invented decorative cord.",
+      "recordSha256": "66832a14a038c63efb5f6bf98b602d81a264ed267bea736216d7346e974c5be3",
+      "notes": "Buntline for hauling/gathering a square sail fits the foot-rope attachment definition."
+    },
+    {
+      "word": "BRISOTE",
+      "partOfSpeech": "noun",
+      "sourceWord": "brisote",
+      "senseIndex": 0,
+      "english": "stormy breeze with rough seas and heavy showers",
+      "context": "No Beaufort force, wind speed or forecast threshold is inferred from the description.",
+      "recordSha256": "eaa9d3c13a5102055afee4726cc2b8ff1de5939e4c8a0e4e79a9f0ef561fc6ff",
+      "notes": "Stormy breeze, rough sea and strong showers preserved without fabricated Beaufort values."
+    },
+    {
+      "word": "BRUGO",
+      "partOfSpeech": "noun",
+      "sourceWord": "brugo",
+      "senseIndex": 0,
+      "english": "oak-leaf-eating moth larva",
+      "context": "Larva of a small nocturnal lepidopteran that consumes oak leaves; no particular species is named.",
+      "recordSha256": "891f85d1e24185b5cc72a54db1725589772a7fba8ed58c2c4a814c7415fefc8b",
+      "notes": "Oak-leaf-eating moth larva follows the source without inventing a species."
+    },
+    {
+      "word": "BUBA",
+      "partOfSpeech": "noun",
+      "sourceWord": "buba",
+      "senseIndex": 0,
+      "english": "scab or small pus-filled swelling",
+      "context": "Selected bodily sore sense; the source does not specify a disease or treatment.",
+      "recordSha256": "edf07b9ac5129ea46786dabfa6a948837a836cc800342ac15943f5485c3c28fd",
+      "notes": "Scab or small pus-filled swelling preserves the two alternatives without diagnosis."
+    },
+    {
+      "word": "BUJERÍA",
+      "partOfSpeech": "noun",
+      "sourceWord": "bujería",
+      "senseIndex": 0,
+      "english": "low-value metal or glass goods",
+      "context": "Merchandise such as tin, iron or glass wares of little value and low price; not a single named object.",
+      "recordSha256": "018b310ec9da6e1420997314604372a8f6e00307a2b8702d537ed9f328364a0c",
+      "notes": "Low-value metal/glass merchandise, not automatically jewelry or a specific single item."
+    },
+    {
+      "word": "BURGA",
+      "partOfSpeech": "noun",
+      "sourceWord": "burga",
+      "senseIndex": 0,
+      "english": "hot spring",
+      "context": "Source-labelled Spanish regional usage; no temperature, mineral content or therapeutic claim is added.",
+      "recordSha256": "819afbac42982bc0e5aa9ee8794aa48410dfad4207101cfed5de6b0ff37ef3b7",
+      "notes": "Hot spring is exact; Spanish regional label retained, no medicinal claim."
+    },
+    {
+      "word": "BURJACA",
+      "partOfSpeech": "noun",
+      "sourceWord": "burjaca",
+      "senseIndex": 0,
+      "english": "large leather alms bag",
+      "context": "Outdated bag worn diagonally by pilgrims or beggars to carry food and other alms.",
+      "recordSha256": "a498c4c0d472a911d72d8bc572033ba6d2fac30cf8c66e08ec6900a3bc977a81",
+      "notes": "Historical leather alms bag worn diagonally, not a modern universal pilgrimage accessory."
+    },
+    {
+      "word": "CACERA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cacera",
+      "senseIndex": 0,
+      "english": "irrigation ditch or channel",
+      "context": "A watercourse used to convey irrigation water, not a sewer.",
+      "recordSha256": "2fbad6d6b47ffe3c12c47487242cdcbc1db2581e1f680b3e4cc27b4b2498e4b9",
+      "notes": "Irrigation ditch/channel follows purpose and excludes an invented sewage function."
+    },
+    {
+      "word": "CACETA",
+      "partOfSpeech": "noun",
+      "sourceWord": "caceta",
+      "senseIndex": 0,
+      "english": "short-handled perforated ladle used as a strainer",
+      "context": "An apothecary's utensil with holes in its base; no medicine or preparation instructions are supplied.",
+      "recordSha256": "8637e743cd4b96cecec1068c72515eb5b5578591566406eae8768e0b06dc6d57",
+      "notes": "Perforated short-handled apothecary ladle used for straining, not a plain scoop."
+    },
+    {
+      "word": "CALVEZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "calvez",
+      "senseIndex": 0,
+      "english": "baldness",
+      "context": "Lack of hair on the head, not every type of bodily hair loss.",
+      "recordSha256": "4b04fd72062ab2659c175b455094d516a95984a3b3f35330eed45cd4db666aeb",
+      "notes": "Head baldness, not all loss of bodily hair."
+    },
+    {
+      "word": "CAMUESA",
+      "partOfSpeech": "noun",
+      "sourceWord": "camuesa",
+      "senseIndex": 0,
+      "english": "apple with a mild, pleasant scent and flavor",
+      "context": "Fruit of the camueso; no named modern cultivar or botanical species is inferred.",
+      "recordSha256": "4956961ac7ba6be1bb4dfaf79d3223aab3de161e22a8d5c82557960cd902789c",
+      "notes": "A mildly scented/flavored apple is supported; no modern cultivar identity invented."
+    },
+    {
+      "word": "CANINEZ",
+      "partOfSpeech": "noun",
+      "sourceWord": "caninez",
+      "senseIndex": 0,
+      "english": "voracious appetite",
+      "context": "An extreme desire to eat, not an adjective about dogs.",
+      "recordSha256": "0c20e55e99d8b8950241461796c40afe4432c0eed2f87012cb7d49f0f34cb249",
+      "notes": "Voracious appetite, not dog-related grammatical interpretation."
+    },
+    {
+      "word": "CARACHA",
+      "partOfSpeech": "noun",
+      "sourceWord": "caracha",
+      "senseIndex": 2,
+      "english": "old, run-down car",
+      "context": "Colombian colloquial sense; no particular mechanical fault or collision history is invented.",
+      "recordSha256": "b0088919cbf8a7cbbdae0c04e07805f35c244613556f745cf673355ea8b58707",
+      "notes": "Old run-down car is exact Colombian colloquial sense, not scabies or another adjective."
+    },
+    {
+      "word": "CARDAL",
+      "partOfSpeech": "noun",
+      "sourceWord": "cardal",
+      "senseIndex": 0,
+      "english": "field or stand of thistles",
+      "context": "A place or collection of thistles, not a named species or a human occupation.",
+      "recordSha256": "3021f621f090e9b8a1cc4d5026dcbd10a4d330ce8dbbaaa86d61f0c8a7fa3176",
+      "notes": "Field/stand of thistles preserves both location and collection readings."
+    },
+    {
+      "word": "CARRA",
+      "partOfSpeech": "noun",
+      "sourceWord": "carra",
+      "senseIndex": 0,
+      "english": "sliding stage platform for scenery",
+      "context": "A platform moving a set into, out of or across the stage as a play requires.",
+      "recordSha256": "9a62e6ac9d1f7f47059dbc431aab6a082c04193aca3e725f72dec47ac1dbbd99",
+      "notes": "Sliding stage/scenery platform follows theatrical function; no invented machinery."
+    },
+    {
+      "word": "CASERÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "caserón",
+      "senseIndex": 0,
+      "english": "huge, dilapidated house",
+      "context": "Both exceptional size and a ramshackle condition are present in the selected definition.",
+      "recordSha256": "90394b3e46735728f0f3c43b98847cf5383b16255dd01ebbc0e0c9c5bdc8798c",
+      "notes": "Both huge size and dilapidated condition are source-supported."
+    },
+    {
+      "word": "CASUCHO",
+      "partOfSpeech": "noun",
+      "sourceWord": "casucho",
+      "senseIndex": 0,
+      "english": "small, shabby or flimsy house",
+      "context": "Derogatory source usage; no occupant's social status or character is inferred.",
+      "recordSha256": "580023bf2f138be4f58b60aabc019e089d117e870f8defb8b90cb61314910359",
+      "notes": "Shabby/small/flimsy alternatives are supported; derogatory register does not characterize occupants."
+    },
+    {
+      "word": "CAUTÍN",
+      "partOfSpeech": "noun",
+      "sourceWord": "cautín",
+      "senseIndex": 0,
+      "english": "soldering iron",
+      "context": "A tool for soldering with tin-based solder; no electric power source or operating temperature is inferred.",
+      "recordSha256": "3f899eb46f82844e90a1f7bd73e3eb3dfbbfc78ba102ce2d68207aa39ae4af93",
+      "notes": "Soldering iron is the established tin-solder tool equivalent, without an electric-source assumption."
+    },
+    {
+      "word": "CAÑIZA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cañiza",
+      "senseIndex": 0,
+      "english": "pen with cane-and-cloth walls on wooden supports",
+      "context": "A corral built with cane, cloth and wooden supports; lienzo is not silently narrowed to linen.",
+      "recordSha256": "de68932fa989d90bfc3be960043be6c450d1cc81cd2f92ad7a7ebce8c6015e1f",
+      "notes": "Cane-and-cloth corral on wood supports; no unsupported linen fiber."
+    },
+    {
+      "word": "CEDRITO",
+      "partOfSpeech": "noun",
+      "sourceWord": "cedrito",
+      "senseIndex": 0,
+      "english": "sweet wine mixed with cedar resin",
+      "context": "The source describes the drink's components; no recipe quantities, safety or medicinal effect is asserted.",
+      "recordSha256": "e53d4d68013ca87921678fe8f1ea55e93ca7a3813da7dfdddf2adb3f1d15f3fc",
+      "notes": "Drink components explicit; no invented proportions, medical benefit or safety claim."
+    },
+    {
+      "word": "CEJUELA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cejuela",
+      "senseIndex": 0,
+      "english": "guitar nut that aligns the strings",
+      "context": "A grooved piece at the end of the neck securing and aligning strings, not a movable capo.",
+      "recordSha256": "7491ecb7c08530210fc818651aae1ada6f549013fde70c339d000ef3bcfbc02b",
+      "notes": "Grooved guitar nut at the neck end, not the separate capo sense."
+    },
+    {
+      "word": "CERUSA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cerusa",
+      "senseIndex": 0,
+      "english": "white lead pigment",
+      "context": "The source describes a white lead salt used in paint; no exact chemical formula or claim about safe use is added.",
+      "recordSha256": "e30cb6c75fdc63a0cd5f1011ce8bfbf4b9a09cebfd1e6126f7282791042d4d36",
+      "notes": "White lead pigment is supported by the lead/carbonic-acid paint description; no safe-use implication."
+    },
+    {
+      "word": "CHINAZO",
+      "partOfSpeech": "noun",
+      "sourceWord": "chinazo",
+      "senseIndex": 0,
+      "english": "blow with a small stone",
+      "context": "China here is a pebble, not a nationality or an inferred target.",
+      "recordSha256": "1d7241bf1388dc7c941ce345530c4636d361a97f8cfdc00e18c3dc68475ba20f",
+      "notes": "Small-stone blow, with china correctly interpreted as pebble."
+    },
+    {
+      "word": "CHIRREO",
+      "partOfSpeech": "noun",
+      "sourceWord": "chirreo",
+      "senseIndex": 0,
+      "english": "unmelodious bird calls",
+      "context": "Action noun from chirrear with its bird-sound meaning explicitly expanded in the source; no human agent is inferred.",
+      "recordSha256": "7d019fccd303d23c2417300ed88f71c19f7d270d78247dcbd0e238c665a45a0e",
+      "notes": "Unmelodious bird-call action is explicitly expanded in source; no human imitation inferred."
+    },
+    {
+      "word": "CHUFERO",
+      "partOfSpeech": "noun",
+      "sourceWord": "chufero",
+      "senseIndex": 0,
+      "english": "tiger-nut seller",
+      "context": "A seller of chufas, not a producer of unrelated nuts or a person of an assumed sex.",
+      "recordSha256": "1596ae32e5b2bb458145faeac1289623f060675cccdf0fc4a6c4aa3b8881226f",
+      "notes": "Tiger-nut seller is a conventional exact chufa rendering; no person gender inferred."
+    },
+    {
+      "word": "CICERÓN",
+      "partOfSpeech": "noun",
+      "sourceWord": "cicerón",
+      "senseIndex": 0,
+      "english": "eloquent speaker",
+      "context": "A person with great facility of speech; not the proper name of the Roman statesman.",
+      "recordSha256": "a4ef168e8a1171ac5d428ea137050b171bd0d473c93807cc23b684706f8951cd",
+      "notes": "Eloquent speaker selects the common noun, not a literal historical person name."
+    },
+    {
+      "word": "CISTA",
+      "partOfSpeech": "noun",
+      "sourceWord": "cista",
+      "senseIndex": 0,
+      "english": "stone-slab tomb for a single burial",
+      "context": "An individual megalithic grave formed with four upright slabs and a fifth capstone; no additional burial practice is inferred.",
+      "recordSha256": "2d14723777cbc4a65d10e559901a318b0bfba84f47a26b67d674f2326491f31d",
+      "notes": "Individual stone-slab grave with capstone matches the selected megalithic structure."
+    }
+  ],
+  "held": [],
+  "reviewedCount": 80,
+  "guards": [
+    "Exact word/POS/raw record hash/zero-based selected sense/English/context only; not a morphological family or synonym merge.",
+    "Do not certify unreviewed Spanish source gender/number/countability in the English meaning panel. Semantically plural English AJUAGAS ulcers remains plural.",
+    "Preserve historical belief ALIDONA and historical levy ALAMINA/ALMAJA contexts; clinical AZOEMIA is a word meaning, not diagnosis.",
+    "Keep rare/obsolete/literary/regional/derogatory and technical usage labels. Do not substitute a Mexican-only claim when source has another region or none.",
+    "No invented quotations, examples, actual puzzle referents, medical treatments, current legal obligations or unsupported numerical conversions."
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "word": "ANÓNIMO",
+    "translation": "anonymous; unnamed",
+    "example": "Recibimos un mensaje anónimo.",
+    "exampleTranslation": "We received an anonymous message."
+  },
+  {
+    "word": "APAGADO",
+    "translation": "dim; without brightness",
+    "example": "El color del muro se ve apagado.",
+    "exampleTranslation": "The wall color looks dull."
+  },
+  {
+    "word": "APAGÓN",
+    "translation": "power outage",
+    "example": "El apagón duró media hora.",
+    "exampleTranslation": "The power outage lasted half an hour."
+  },
+  {
+    "word": "APARTE",
+    "translation": "elsewhere; separately",
+    "example": "Dejé tus papeles aparte.",
+    "exampleTranslation": "I put your papers aside."
+  },
+  {
+    "word": "APELAR",
+    "translation": "to appeal a decision",
+    "example": "La defensa puede apelar la sentencia.",
+    "exampleTranslation": "The defense can appeal the ruling."
+  },
+  {
+    "word": "APENAS",
+    "translation": "barely; hardly",
+    "example": "Apenas escucho con tanto ruido.",
+    "exampleTranslation": "I can barely hear with so much noise."
+  },
+  {
+    "word": "APLAUSO",
+    "translation": "applause",
+    "example": "El público respondió con un aplauso.",
+    "exampleTranslation": "The audience responded with applause."
+  },
+  {
+    "word": "APLICAR",
+    "translation": "to apply; to put on",
+    "example": "Debes aplicar la crema con cuidado.",
+    "exampleTranslation": "You should apply the cream carefully."
+  },
+  {
+    "word": "APLIQUE",
+    "translation": "wall lamp; sconce",
+    "example": "El aplique ilumina el pasillo.",
+    "exampleTranslation": "The wall lamp lights the hallway."
+  },
+  {
+    "word": "APODO",
+    "translation": "nickname",
+    "example": "Su apodo viene de la escuela.",
+    "exampleTranslation": "His nickname dates back to school."
+  },
+  {
+    "word": "APORTAR",
+    "translation": "to contribute",
+    "example": "Todos podemos aportar una idea.",
+    "exampleTranslation": "We can all contribute an idea."
+  },
+  {
+    "word": "APORTE",
+    "translation": "contribution",
+    "example": "Tu aporte mejoró el proyecto.",
+    "exampleTranslation": "Your contribution improved the project."
+  },
+  {
+    "word": "APOSTAR",
+    "translation": "to bet",
+    "example": "Prefiero no apostar dinero.",
+    "exampleTranslation": "I prefer not to bet money."
+  },
+  {
+    "word": "APOYO",
+    "translation": "support; prop",
+    "example": "La escalera necesita un apoyo firme.",
+    "exampleTranslation": "The ladder needs a firm support."
+  },
+  {
+    "word": "APRECIO",
+    "translation": "appreciation; esteem",
+    "example": "Le tengo mucho aprecio.",
+    "exampleTranslation": "I hold her in high regard."
+  },
+  {
+    "word": "APTO",
+    "translation": "suitable; fit",
+    "example": "Este recipiente es apto para alimentos.",
+    "exampleTranslation": "This container is suitable for food."
+  },
+  {
+    "word": "APUESTA",
+    "translation": "bet; wager",
+    "example": "Perdió la apuesta del partido.",
+    "exampleTranslation": "He lost the bet on the match."
+  },
+  {
+    "word": "APUESTO",
+    "translation": "handsome",
+    "example": "El actor se veía apuesto.",
+    "exampleTranslation": "The actor looked handsome."
+  },
+  {
+    "word": "APURO",
+    "translation": "difficulty; tight spot",
+    "example": "Ese gasto nos dejó en un apuro.",
+    "exampleTranslation": "That expense put us in a tight spot."
+  },
+  {
+    "word": "APÓSTOL",
+    "translation": "apostle",
+    "example": "El mural muestra a un apóstol.",
+    "exampleTranslation": "The mural shows an apostle."
+  },
+  {
+    "word": "AQUEL",
+    "translation": "that one over there",
+    "example": "Prefiero aquel, junto a la ventana.",
+    "exampleTranslation": "I prefer that one by the window."
+  },
+  {
+    "word": "AQUELLO",
+    "translation": "that; that thing over there",
+    "example": "Aquello parecía una torre.",
+    "exampleTranslation": "That looked like a tower."
+  },
+  {
+    "word": "AQUÉL",
+    "translation": "that one (accented variant)",
+    "example": "Este sirve, pero aquél pesa menos.",
+    "exampleTranslation": "This one works, but that one weighs less."
+  },
+  {
+    "word": "AQUÍ",
+    "translation": "here",
+    "example": "Puedes sentarte aquí.",
+    "exampleTranslation": "You can sit here."
+  },
+  {
+    "word": "ARAÑA",
+    "translation": "spider",
+    "example": "Una araña tejió su red.",
+    "exampleTranslation": "A spider spun its web."
+  },
+  {
+    "word": "ARCA",
+    "translation": "large chest",
+    "example": "Guardaron las mantas en un arca.",
+    "exampleTranslation": "They stored the blankets in a chest."
+  },
+  {
+    "word": "ARCE",
+    "translation": "maple tree",
+    "example": "El arce perdió sus hojas.",
+    "exampleTranslation": "The maple tree lost its leaves."
+  },
+  {
+    "word": "ARCILLA",
+    "translation": "clay",
+    "example": "Modelamos una taza de arcilla.",
+    "exampleTranslation": "We shaped a clay cup."
+  },
+  {
+    "word": "ARCO",
+    "translation": "bow (for shooting arrows)",
+    "example": "El arquero tensó su arco.",
+    "exampleTranslation": "The archer drew his bow."
+  },
+  {
+    "word": "ARENA",
+    "translation": "sand",
+    "example": "La arena estaba caliente.",
+    "exampleTranslation": "The sand was hot."
+  },
+  {
+    "word": "ARMA",
+    "translation": "weapon",
+    "example": "El museo exhibe un arma antigua.",
+    "exampleTranslation": "The museum displays an old weapon."
+  },
+  {
+    "word": "ARMADA",
+    "translation": "navy",
+    "example": "La armada participó en el rescate.",
+    "exampleTranslation": "The navy took part in the rescue."
+  },
+  {
+    "word": "ARMADO",
+    "translation": "equipped",
+    "example": "El técnico llegó armado de herramientas.",
+    "exampleTranslation": "The technician arrived equipped with tools."
+  },
+  {
+    "word": "ARMAR",
+    "translation": "to arm; to supply weapons",
+    "example": "El gobierno decidió no armar a los civiles.",
+    "exampleTranslation": "The government decided not to arm civilians."
+  },
+  {
+    "word": "ARMARIO",
+    "translation": "cupboard; wardrobe",
+    "example": "Guardé la ropa en el armario.",
+    "exampleTranslation": "I put the clothes in the wardrobe."
+  },
+  {
+    "word": "ARMONÍA",
+    "translation": "harmony; balance",
+    "example": "Los colores crean una buena armonía.",
+    "exampleTranslation": "The colors create a pleasing harmony."
+  },
+  {
+    "word": "ARQUERO",
+    "translation": "archer",
+    "example": "El arquero apuntó al blanco.",
+    "exampleTranslation": "The archer aimed at the target."
+  },
+  {
+    "word": "ARRESTO",
+    "translation": "arrest",
+    "example": "El arresto ocurrió por la mañana.",
+    "exampleTranslation": "The arrest took place in the morning."
+  },
+  {
+    "word": "ARRIBA",
+    "translation": "upstairs; above",
+    "example": "Mi cuarto está arriba.",
+    "exampleTranslation": "My room is upstairs."
+  },
+  {
+    "word": "ARROJAR",
+    "translation": "to throw; to hurl",
+    "example": "No debes arrojar piedras al río.",
+    "exampleTranslation": "You should not throw stones into the river."
+  },
+  {
+    "word": "ARSENAL",
+    "translation": "arms depot; arsenal",
+    "example": "El arsenal estaba bajo vigilancia.",
+    "exampleTranslation": "The arms depot was under guard."
+  },
+  {
+    "word": "ARTERIA",
+    "translation": "artery",
+    "example": "La sangre circula por esa arteria.",
+    "exampleTranslation": "Blood flows through that artery."
+  },
+  {
+    "word": "ARTISTA",
+    "translation": "artist",
+    "example": "La artista pintó el mural.",
+    "exampleTranslation": "The artist painted the mural."
+  },
+  {
+    "word": "ASADO",
+    "translation": "roasted",
+    "example": "El pollo asado está listo.",
+    "exampleTranslation": "The roast chicken is ready."
+  },
+  {
+    "word": "ASALTO",
+    "translation": "violent robbery; assault",
+    "example": "La tienda sufrió un asalto.",
+    "exampleTranslation": "The shop suffered a violent robbery."
+  },
+  {
+    "word": "ASCENSO",
+    "translation": "ascent; climb",
+    "example": "El ascenso al cerro fue lento.",
+    "exampleTranslation": "The climb up the hill was slow."
+  },
+  {
+    "word": "ASCO",
+    "translation": "disgust",
+    "example": "El olor me dio asco.",
+    "exampleTranslation": "The smell disgusted me."
+  },
+  {
+    "word": "ASEDIO",
+    "translation": "siege",
+    "example": "El castillo resistió el asedio.",
+    "exampleTranslation": "The castle withstood the siege."
+  },
+  {
+    "word": "ASEO",
+    "translation": "cleanliness; cleaning",
+    "example": "El aseo del salón es diario.",
+    "exampleTranslation": "The classroom is cleaned daily."
+  },
+  {
+    "word": "ASESINO",
+    "translation": "murderous; killing",
+    "example": "El personaje asesino huye al final.",
+    "exampleTranslation": "The murderous character flees at the end."
+  },
+  {
+    "word": "ASESOR",
+    "translation": "advisory",
+    "example": "El equipo asesor revisó el plan.",
+    "exampleTranslation": "The advisory team reviewed the plan."
+  },
+  {
+    "word": "ASFALTO",
+    "translation": "asphalt",
+    "example": "Repararon el asfalto de la calle.",
+    "exampleTranslation": "They repaired the street's asphalt."
+  },
+  {
+    "word": "ASIGNAR",
+    "translation": "to assign",
+    "example": "Vamos a asignar una tarea a cada equipo.",
+    "exampleTranslation": "We will assign a task to each team."
+  },
+  {
+    "word": "ASILO",
+    "translation": "refuge; asylum",
+    "example": "La familia encontró asilo en otro país.",
+    "exampleTranslation": "The family found refuge in another country."
+  },
+  {
+    "word": "ASISTIR",
+    "translation": "to attend",
+    "example": "Quiero asistir a la conferencia.",
+    "exampleTranslation": "I want to attend the lecture."
+  },
+  {
+    "word": "ASMA",
+    "translation": "asthma",
+    "example": "Mi hermano recibe tratamiento para el asma.",
+    "exampleTranslation": "My brother receives treatment for asthma."
+  },
+  {
+    "word": "ASOMBRO",
+    "translation": "amazement",
+    "example": "Miramos el paisaje con asombro.",
+    "exampleTranslation": "We gazed at the scenery in amazement."
+  },
+  {
+    "word": "ASPECTO",
+    "translation": "appearance",
+    "example": "La pintura mejoró el aspecto de la casa.",
+    "exampleTranslation": "The paint improved the house's appearance."
+  },
+  {
+    "word": "ASPIRAR",
+    "translation": "to inhale",
+    "example": "Intenta aspirar el aire despacio.",
+    "exampleTranslation": "Try to breathe the air in slowly."
+  },
+  {
+    "word": "ASTA",
+    "translation": "flagpole; shaft",
+    "example": "La bandera cuelga del asta.",
+    "exampleTranslation": "The flag hangs from the flagpole."
+  },
+  {
+    "word": "ASUMIR",
+    "translation": "to take on; to assume",
+    "example": "Voy a asumir esa responsabilidad.",
+    "exampleTranslation": "I am going to take on that responsibility."
+  },
+  {
+    "word": "ASUSTAR",
+    "translation": "to frighten",
+    "example": "No quiero asustar al gato.",
+    "exampleTranslation": "I do not want to frighten the cat."
+  },
+  {
+    "word": "ATACAR",
+    "translation": "to rush at; to attack",
+    "example": "El perro intentó atacar la pelota.",
+    "exampleTranslation": "The dog tried to pounce on the ball."
+  },
+  {
+    "word": "ATADO",
+    "translation": "dependent; lacking autonomy",
+    "example": "Se siente atado a las decisiones de otros.",
+    "exampleTranslation": "He feels bound by other people's decisions."
+  },
+  {
+    "word": "ATAQUE",
+    "translation": "attack",
+    "example": "El ejército detuvo el ataque.",
+    "exampleTranslation": "The army stopped the attack."
+  },
+  {
+    "word": "ATAÚD",
+    "translation": "coffin",
+    "example": "Llevaron el ataúd al cementerio.",
+    "exampleTranslation": "They carried the coffin to the cemetery."
+  },
+  {
+    "word": "ATENTO",
+    "translation": "attentive",
+    "example": "El alumno estuvo atento a la explicación.",
+    "exampleTranslation": "The student listened attentively to the explanation."
+  },
+  {
+    "word": "ATLAS",
+    "translation": "atlas",
+    "example": "Buscamos el río en el atlas.",
+    "exampleTranslation": "We looked for the river in the atlas."
+  },
+  {
+    "word": "ATLETA",
+    "translation": "athlete",
+    "example": "El atleta entrenó por la mañana.",
+    "exampleTranslation": "The athlete trained in the morning."
+  },
+  {
+    "word": "ATRAER",
+    "translation": "to attract",
+    "example": "El imán puede atraer ese clavo.",
+    "exampleTranslation": "The magnet can attract that nail."
+  },
+  {
+    "word": "ATRAPAR",
+    "translation": "to catch",
+    "example": "La niña logró atrapar al conejo.",
+    "exampleTranslation": "The girl managed to catch the rabbit."
+  },
+  {
+    "word": "ATROZ",
+    "translation": "atrocious; cruel",
+    "example": "La novela describe un trato atroz.",
+    "exampleTranslation": "The novel describes cruel treatment."
+  },
+  {
+    "word": "ATRÁS",
+    "translation": "behind; at the back",
+    "example": "Mi mochila quedó atrás.",
+    "exampleTranslation": "My backpack was left behind."
+  },
+  {
+    "word": "ATÚN",
+    "translation": "tuna",
+    "example": "Un atún nadaba cerca del barco.",
+    "exampleTranslation": "A tuna was swimming near the boat."
+  },
+  {
+    "word": "AUDAZ",
+    "translation": "bold; daring",
+    "example": "El piloto hizo una maniobra audaz.",
+    "exampleTranslation": "The pilot made a daring maneuver."
+  },
+  {
+    "word": "AUGE",
+    "translation": "peak; height",
+    "example": "La feria alcanzó su auge al anochecer.",
+    "exampleTranslation": "The fair reached its peak at nightfall."
+  },
+  {
+    "word": "AUGUSTO",
+    "translation": "august; majestic",
+    "example": "El augusto recinto impresionó a los visitantes.",
+    "exampleTranslation": "The majestic hall impressed the visitors."
+  },
+  {
+    "word": "AUNQUE",
+    "translation": "although; even though",
+    "example": "Aunque llueva, iremos al mercado.",
+    "exampleTranslation": "Even if it rains, we will go to the market."
+  },
+  {
+    "word": "AURA",
+    "translation": "aura (supposed energy field)",
+    "example": "La novela describe un aura luminosa.",
+    "exampleTranslation": "The novel describes a luminous aura."
+  },
+  {
+    "word": "AURORA",
+    "translation": "first light of dawn",
+    "example": "Salimos antes de la aurora.",
+    "exampleTranslation": "We left before the first light of dawn."
+  },
+  {
+    "word": "AUSENTE",
+    "translation": "absent",
+    "example": "El maestro estuvo ausente hoy.",
+    "exampleTranslation": "The teacher was absent today."
+  },
+  {
+    "word": "AUSTRAL",
+    "translation": "austral (former Argentine currency)",
+    "example": "El coleccionista guardó un austral argentino.",
+    "exampleTranslation": "The collector kept an Argentine austral."
+  },
+  {
+    "word": "AUTISMO",
+    "translation": "autism",
+    "example": "El curso aborda el autismo con respeto.",
+    "exampleTranslation": "The course discusses autism respectfully."
+  },
+  {
+    "word": "AUTO",
+    "translation": "car",
+    "example": "El auto está en el garaje.",
+    "exampleTranslation": "The car is in the garage."
+  },
+  {
+    "word": "AUTOR",
+    "translation": "author; creator",
+    "example": "El autor firmó su libro.",
+    "exampleTranslation": "The author signed his book."
+  },
+  {
+    "word": "AUTORÍA",
+    "translation": "authorship",
+    "example": "Se confirmó la autoría del poema.",
+    "exampleTranslation": "The poem's authorship was confirmed."
+  },
+  {
+    "word": "AUXILIO",
+    "translation": "help; assistance",
+    "example": "Los vecinos pidieron auxilio.",
+    "exampleTranslation": "The neighbors called for help."
+  },
+  {
+    "word": "AVAL",
+    "translation": "financial guarantee",
+    "example": "El banco pidió un aval.",
+    "exampleTranslation": "The bank requested a financial guarantee."
+  },
+  {
+    "word": "AVANCE",
+    "translation": "movie trailer",
+    "example": "Vimos el avance de la película.",
+    "exampleTranslation": "We watched the movie trailer."
+  },
+  {
+    "word": "AVATAR",
+    "translation": "change; turn of events",
+    "example": "Cada avatar del viaje nos sorprendió.",
+    "exampleTranslation": "Each turn of events on the journey surprised us."
+  },
+  {
+    "word": "AVENIDA",
+    "translation": "avenue",
+    "example": "Cruzamos la avenida con cuidado.",
+    "exampleTranslation": "We crossed the avenue carefully."
+  },
+  {
+    "word": "AVISAR",
+    "translation": "to notify; to warn",
+    "example": "Te voy a avisar cuando llegue.",
+    "exampleTranslation": "I will let you know when I arrive."
+  },
+  {
+    "word": "AVISO",
+    "translation": "notice; warning",
+    "example": "El aviso indica la salida.",
+    "exampleTranslation": "The sign indicates the exit."
+  },
+  {
+    "word": "AYER",
+    "translation": "yesterday",
+    "example": "El ayer ya quedó atrás.",
+    "exampleTranslation": "Yesterday is already behind us."
+  },
+  {
+    "word": "AYUNO",
+    "translation": "fast; fasting",
+    "example": "El ayuno terminó al amanecer.",
+    "exampleTranslation": "The fast ended at dawn."
+  },
+  {
+    "word": "AZAR",
+    "translation": "chance",
+    "example": "Elegimos los equipos al azar.",
+    "exampleTranslation": "We chose the teams at random."
+  },
+  {
+    "word": "AZTECA",
+    "translation": "Aztec",
+    "example": "El museo conserva una escultura azteca.",
+    "exampleTranslation": "The museum preserves an Aztec sculpture."
+  },
+  {
+    "word": "AZUFRE",
+    "translation": "sulfur",
+    "example": "La muestra contiene azufre.",
+    "exampleTranslation": "The sample contains sulfur."
+  },
+  {
+    "word": "AZUL",
+    "translation": "blue",
+    "example": "Compré un cuaderno azul.",
+    "exampleTranslation": "I bought a blue notebook."
+  },
+  {
+    "word": "AÉREO",
+    "translation": "aerial; relating to air",
+    "example": "El transporte aéreo conecta ambas ciudades.",
+    "exampleTranslation": "Air transport connects the two cities."
+  },
+  {
+    "word": "AÑADIR",
+    "translation": "to add",
+    "example": "Puedes añadir limón a la sopa.",
+    "exampleTranslation": "You can add lime to the soup."
+  },
+  {
+    "word": "BABA",
+    "translation": "drool",
+    "example": "El bebé dejó baba en la almohada.",
+    "exampleTranslation": "The baby left drool on the pillow."
+  },
+  {
+    "word": "BAHÍA",
+    "translation": "bay",
+    "example": "La bahía protege a los barcos.",
+    "exampleTranslation": "The bay shelters the boats."
+  },
+  {
+    "word": "BAILE",
+    "translation": "dancing; dance",
+    "example": "El baile terminó a medianoche.",
+    "exampleTranslation": "The dance ended at midnight."
+  },
+  {
+    "word": "BAJA",
+    "translation": "decrease; fall",
+    "example": "Hubo una baja en el precio.",
+    "exampleTranslation": "There was a fall in the price."
+  },
+  {
+    "word": "BAJADA",
+    "translation": "descent",
+    "example": "La bajada fue más fácil.",
+    "exampleTranslation": "The descent was easier."
+  },
+  {
+    "word": "BAJAR",
+    "translation": "to go down",
+    "example": "Vamos a bajar por las escaleras.",
+    "exampleTranslation": "We are going to go down the stairs."
+  },
+  {
+    "word": "BAJO",
+    "translation": "under; beneath",
+    "example": "El gato duerme bajo la mesa.",
+    "exampleTranslation": "The cat sleeps under the table."
+  },
+  {
+    "word": "BAJÓN",
+    "translation": "sudden drop",
+    "example": "Notamos un bajón de temperatura.",
+    "exampleTranslation": "We noticed a sudden drop in temperature."
+  },
+  {
+    "word": "BALA",
+    "translation": "bullet",
+    "example": "Encontraron una bala junto al muro.",
+    "exampleTranslation": "They found a bullet beside the wall."
+  },
+  {
+    "word": "BALANCE",
+    "translation": "swaying; rocking motion",
+    "example": "El balance del barco me mareó.",
+    "exampleTranslation": "The boat's rocking made me seasick."
+  },
+  {
+    "word": "BALANZA",
+    "translation": "balance; weighing scales",
+    "example": "Pusieron la fruta en la balanza.",
+    "exampleTranslation": "They put the fruit on the scales."
+  },
+  {
+    "word": "BALCÓN",
+    "translation": "balcony",
+    "example": "Regamos las plantas del balcón.",
+    "exampleTranslation": "We watered the balcony plants."
+  },
+  {
+    "word": "BALLENA",
+    "translation": "whale",
+    "example": "Vimos una ballena desde la costa.",
+    "exampleTranslation": "We saw a whale from the shore."
+  },
+  {
+    "word": "BALLET",
+    "translation": "ballet",
+    "example": "Mi prima estudia ballet.",
+    "exampleTranslation": "My cousin studies ballet."
+  },
+  {
+    "word": "BALÓN",
+    "translation": "ball (for sports)",
+    "example": "El balón cayó en el patio.",
+    "exampleTranslation": "The ball landed in the courtyard."
+  },
+  {
+    "word": "BANCA",
+    "translation": "bench",
+    "example": "Nos sentamos en una banca.",
+    "exampleTranslation": "We sat on a bench."
+  },
+  {
+    "word": "BANDA",
+    "translation": "group; band",
+    "example": "Una banda de amigos organizó la fiesta.",
+    "exampleTranslation": "A group of friends organized the party."
+  },
+  {
+    "word": "BANDEJA",
+    "translation": "tray",
+    "example": "Llevé los vasos en una bandeja.",
+    "exampleTranslation": "I carried the glasses on a tray."
+  },
+  {
+    "word": "BANDO",
+    "translation": "public proclamation",
+    "example": "El bando anunció nuevas medidas.",
+    "exampleTranslation": "The proclamation announced new measures."
+  },
+  {
+    "word": "BARATO",
+    "translation": "inexpensive; cheap",
+    "example": "Ese cuaderno es barato.",
+    "exampleTranslation": "That notebook is inexpensive."
+  },
+  {
+    "word": "BARCA",
+    "translation": "small boat",
+    "example": "La barca cruzó el lago.",
+    "exampleTranslation": "The small boat crossed the lake."
+  },
+  {
+    "word": "BARDO",
+    "translation": "bard",
+    "example": "El bardo cantó una hazaña antigua.",
+    "exampleTranslation": "The bard sang of an ancient feat."
+  },
+  {
+    "word": "BARRA",
+    "translation": "bar; rod",
+    "example": "La reja tiene una barra de hierro.",
+    "exampleTranslation": "The gate has an iron bar."
+  },
+  {
+    "word": "BARRERA",
+    "translation": "barrier",
+    "example": "Una barrera cerró el camino.",
+    "exampleTranslation": "A barrier blocked the road."
+  },
+  {
+    "word": "BARRIGA",
+    "translation": "belly",
+    "example": "Me duele la barriga.",
+    "exampleTranslation": "My belly hurts."
+  },
+  {
+    "word": "BARRIL",
+    "translation": "barrel",
+    "example": "El barril guarda vino.",
+    "exampleTranslation": "The barrel holds wine."
+  },
+  {
+    "word": "BARRIO",
+    "translation": "neighborhood",
+    "example": "Mi barrio tiene un parque.",
+    "exampleTranslation": "My neighborhood has a park."
+  },
+  {
+    "word": "BARROCO",
+    "translation": "Baroque",
+    "example": "El altar barroco está muy decorado.",
+    "exampleTranslation": "The Baroque altar is richly decorated."
+  },
+  {
+    "word": "BARÓN",
+    "translation": "baron",
+    "example": "El barón aparece en la novela.",
+    "exampleTranslation": "The baron appears in the novel."
+  },
+  {
+    "word": "BASADO",
+    "translation": "well-founded",
+    "example": "Su argumento está bien basado.",
+    "exampleTranslation": "Her argument is well-founded."
+  },
+  {
+    "word": "BASTA",
+    "translation": "basting stitch",
+    "example": "La costurera retiró la basta.",
+    "exampleTranslation": "The seamstress removed the basting stitches."
+  },
+  {
+    "word": "BASTÓN",
+    "translation": "walking stick; cane",
+    "example": "Mi abuelo usa un bastón.",
+    "exampleTranslation": "My grandfather uses a cane."
+  },
+  {
+    "word": "BATA",
+    "translation": "dressing gown; robe",
+    "example": "Se puso la bata al levantarse.",
+    "exampleTranslation": "He put on his robe when he got up."
+  },
+  {
+    "word": "BATALLA",
+    "translation": "battle",
+    "example": "El mapa muestra el lugar de la batalla.",
+    "exampleTranslation": "The map shows where the battle took place."
+  },
+  {
+    "word": "BATE",
+    "translation": "bat (for sports)",
+    "example": "Guardó el bate después del juego.",
+    "exampleTranslation": "He put away the bat after the game."
+  },
+  {
+    "word": "BATERÍA",
+    "translation": "battery",
+    "example": "La batería del teléfono está cargada.",
+    "exampleTranslation": "The phone battery is charged."
+  },
+  {
+    "word": "BATIDO",
+    "translation": "beating; mixing",
+    "example": "El batido de los huevos tomó varios minutos.",
+    "exampleTranslation": "Beating the eggs took several minutes."
+  },
+  {
+    "word": "BAÑERA",
+    "translation": "bathtub",
+    "example": "La bañera está llena.",
+    "exampleTranslation": "The bathtub is full."
+  },
+  {
+    "word": "BECA",
+    "translation": "scholarship",
+    "example": "Obtuvo una beca para estudiar.",
+    "exampleTranslation": "She received a scholarship to study."
+  },
+  {
+    "word": "BELGA",
+    "translation": "Belgian",
+    "example": "Un ciclista belga ganó la carrera.",
+    "exampleTranslation": "A Belgian cyclist won the race."
+  },
+  {
+    "word": "BELÉN",
+    "translation": "nativity scene",
+    "example": "Pusieron un belén en la iglesia.",
+    "exampleTranslation": "They put a nativity scene in the church."
+  },
+  {
+    "word": "BESTIA",
+    "translation": "beast; animal",
+    "example": "La bestia descansó bajo un árbol.",
+    "exampleTranslation": "The animal rested under a tree."
+  },
+  {
+    "word": "BETA",
+    "translation": "beta (Greek letter)",
+    "example": "La ecuación incluye una beta.",
+    "exampleTranslation": "The equation includes a beta."
+  },
+  {
+    "word": "BIBLIA",
+    "translation": "Bible",
+    "example": "La Biblia reúne varios libros.",
+    "exampleTranslation": "The Bible brings together several books."
+  },
+  {
+    "word": "BICI",
+    "translation": "bicycle; bike",
+    "example": "Voy al trabajo en bici.",
+    "exampleTranslation": "I go to work by bike."
+  },
+  {
+    "word": "BIEN",
+    "translation": "good; what is right",
+    "example": "Debemos actuar por el bien de todos.",
+    "exampleTranslation": "We must act for everyone's good."
+  },
+  {
+    "word": "BIGOTE",
+    "translation": "mustache",
+    "example": "Mi tío se recortó el bigote.",
+    "exampleTranslation": "My uncle trimmed his mustache."
+  },
+  {
+    "word": "BLANCA",
+    "translation": "half note (music)",
+    "example": "La blanca dura dos tiempos aquí.",
+    "exampleTranslation": "The half note lasts two beats here."
+  },
+  {
+    "word": "BLANDO",
+    "translation": "soft",
+    "example": "El barro está blando.",
+    "exampleTranslation": "The clay is soft."
+  }
+]

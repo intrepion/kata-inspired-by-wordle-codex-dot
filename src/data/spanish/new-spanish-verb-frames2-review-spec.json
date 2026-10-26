@@ -1,0 +1,699 @@
+{
+  "inputSha256": "f108a6c092078572a094f3e079df89f085970dd2f8762dec6db6eb469472a73c",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model linguistic and source review of all 34 proposed exact frames; not native-human certification. Original raw Spanish lemma/form/linked-target records checked by SHA against pinned gzip; all AGID lines, closed slots and unqualified heads checked against pinned data. No production edits.",
+  "approved": [
+    {
+      "spanish": "colear",
+      "partOfSpeech": "verb",
+      "recordSha256": "f51d9277e5faff7dfe90b29fd0e275c62cbb2d701ccb11feeee7e106ff972f0b",
+      "senseIndex": 2,
+      "frame": "fail an exam",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected Chilean school/exam sense; not the animal tail-wagging sense.",
+      "notes": "Chile school-exam failure only; no animal-tail action. Progressive is selected ongoing/background failure, not completed result assertion."
+    },
+    {
+      "spanish": "rosear",
+      "partOfSpeech": "verb",
+      "recordSha256": "66e8d0765a86797fa96f394d958d8b6af2ca244197a3f065e198fdec3b95bde0",
+      "senseIndex": 0,
+      "frame": "appear pink",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Selected literal rose-colored appearance of an entity; no ordinary human actor or personification.",
+      "notes": "Literal entity appearance; state-past and it-only retained, no personal or formal-you role."
+    },
+    {
+      "spanish": "pender",
+      "partOfSpeech": "verb",
+      "recordSha256": "74a7fadc3aca95c91fbf59d421925ad16b5648afe533a955034a627df23db08a",
+      "senseIndex": 2,
+      "frame": "remain unresolved",
+      "profile": "it-only",
+      "aspectModes": [
+        "state-past"
+      ],
+      "context": "Selected legal/business matter remaining undecided; not hanging by a thread or a human action.",
+      "notes": "Pending legal/business matter, not a human hanging or making another matter pending."
+    },
+    {
+      "spanish": "erizar",
+      "partOfSpeech": "verb",
+      "recordSha256": "c509e3ce5c4a09ab9c5ca2b48bc693d409723aedbc3b6952ebfe75aa53ae2cd1",
+      "senseIndex": 1,
+      "frame": "encumber",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected transitive sense of surrounding or filling something with obstacles or difficulties; not reflexive hair or emotional disturbance.",
+      "notes": "Transitive filling with obstacles supports encumber; no reflexive hair/emotion reading."
+    },
+    {
+      "spanish": "tascar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3c8e5d43effb6f086b1177d57280e4946cf6b8100ee921ce11f73a2fe2bf243a",
+      "senseIndex": 0,
+      "frame": "joke",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected Honduran intransitive joking sense; not an animal biting its bit or chewing fodder.",
+      "notes": "Honduras joking sense is a distinct human-capable intransitive entry; previous animal-bit readings remain held."
+    },
+    {
+      "spanish": "ahechar",
+      "partOfSpeech": "verb",
+      "recordSha256": "023d7da8f2586e6ce178a529e69033a9ce68a0279bdf98f1d9022b351a608e21",
+      "senseIndex": 0,
+      "frame": "sift grain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Clean wheat or other seeds using a sieve; grain is explicitly supplied by the source.",
+      "notes": "Sieve-cleaning grain/seeds; generic grain patient explicit."
+    },
+    {
+      "spanish": "encepar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a3c0d57ecadcd4901ab19e657d8fe378cf8ab21b724970690668bc57d81e9db5",
+      "senseIndex": 0,
+      "frame": "put someone in the stocks",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected punishment using the stocks; the indefinite patient and instrument are source-given, not an invented event.",
+      "notes": "Someone is the source-explicit indefinite punishment patient; this complete frame repairs the earlier missing object slot without inventing an actual person."
+    },
+    {
+      "spanish": "flamear",
+      "partOfSpeech": "verb",
+      "recordSha256": "aca6b640ef33f35134e07524c47fe30478755bcfd6179b69200a0ed987fcfba4",
+      "senseIndex": 2,
+      "frame": "ignite the liquor on food",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected culinary sense of igniting liquor poured over food; not flames, flags or sails as subjects.",
+      "notes": "Human ignites liquor already on food; not flames/flags as subjects."
+    },
+    {
+      "spanish": "machear",
+      "partOfSpeech": "verb",
+      "recordSha256": "0afeb27058f7a77f5667f59b5d9cb3c91ae91bc1af7783617035d354fbe9ba71",
+      "senseIndex": 1,
+      "frame": "pollinate palms",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected cultivation action of shaking male flowers over female palms; human operator, plants are patients.",
+      "notes": "Palm pollination is human-caused cultivation; plants are patients. Other animal senses remain held."
+    },
+    {
+      "spanish": "agostar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6247e70fc822c9c74d7065dfe50192621ae1355d787a283277e4d6ea1c86a41d",
+      "senseIndex": 2,
+      "frame": "till soil in August",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected agricultural sense of plowing or digging soil in August to clear weeds; not heat scorching plants. The month belongs to the lexical sense, not a puzzle date.",
+      "notes": "August tilling/weed clearing is a distinct source sense, not weather-caused scorching; month is lexical context."
+    },
+    {
+      "spanish": "atropar",
+      "partOfSpeech": "verb",
+      "recordSha256": "4614752054e7bf61a66fe3742c8a1d18ea187664f531c5aa5f5f1d4ea39d5fdf",
+      "senseIndex": 1,
+      "frame": "gather cereal stalks into sheaves",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected agricultural gathering of harvested stalks into sheaves; not disorderly gathering of people.",
+      "notes": "Harvested cereal stalks gathered in sheaves, not a crowd of people."
+    },
+    {
+      "spanish": "avaluar",
+      "partOfSpeech": "verb",
+      "recordSha256": "67bafa70e114e425433219c481fe06ee9ed3a7c56b9843cc155fa59a658c1f4a",
+      "senseIndex": 0,
+      "frame": "appraise",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Determine or establish the price or value of something.",
+      "notes": "Price/value appraisal of a contextual object."
+    },
+    {
+      "spanish": "florear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e8e632728452efe92238b2f6f57dec03f77dbc83b3e9dc77ab0199838ce0d31e",
+      "senseIndex": 0,
+      "frame": "decorate with flowers",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected transitive decorative use; flowers are explicitly supplied, not a plant producing flowers.",
+      "notes": "Causative flower decoration, not plant flowering."
+    },
+    {
+      "spanish": "meritar",
+      "partOfSpeech": "verb",
+      "recordSha256": "089f287116242b89647e715a3a9161ba905f73e40522131077fe0136d8ecb652",
+      "senseIndex": 0,
+      "frame": "act meritoriously",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare sense of acting in a way worthy of approval, often toward an aim; no successful achievement is promised.",
+      "notes": "Rare meritorious conduct, no promised accomplishment."
+    },
+    {
+      "spanish": "remedar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e62725c14df0ac23401da58c5c7d21b78e289397f6e904f8551b6d8636a5133a",
+      "senseIndex": 1,
+      "frame": "mimic mockingly",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected imitation of another person's actions, expressions or gestures for mockery.",
+      "notes": "Derisive imitation of actions/gestures, not generic repair."
+    },
+    {
+      "spanish": "retoñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f782804141025b67aca92e0ca18b2d5ac01f263b124655f08a5a0ba66e5e2e0e",
+      "senseIndex": 1,
+      "frame": "recur",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected recurrence of an event or phenomenon after it had ceased; not an ordinary human agent or the literal plant-shooting sense.",
+      "notes": "Event recurrence only, it-only; no personal sprouting/recurrence. Use closed standard AGID recurred/recurring/recurs, not rejected annotated spelling variants."
+    },
+    {
+      "spanish": "amusgar",
+      "partOfSpeech": "verb",
+      "recordSha256": "5498992f6df99b38795a2a25eba01ecf0e2907e193845938f402781d3d6bcc3a",
+      "senseIndex": 1,
+      "frame": "squint",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected visual action of narrowing the eyes to see better; not laying an animal's ears back.",
+      "notes": "Human narrowing eyes to see, not animal ear position."
+    },
+    {
+      "spanish": "angular",
+      "partOfSpeech": "verb",
+      "recordSha256": "5424e624d0b23fa634afaa265509d5bb97b9f0c1bf7c8aa0d5cb1d437c4c17c7",
+      "senseIndex": 0,
+      "frame": "form an angle",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected action of giving something the shape of an angle; not the unrelated angular adjective.",
+      "notes": "Making an angle shape is a causative action; no adjective POS or implied body shape substituted."
+    },
+    {
+      "spanish": "carenar",
+      "partOfSpeech": "verb",
+      "recordSha256": "f56b467836463f4174a1535e064cdfb09de2eceb5337085fd533847d5dd11cbc",
+      "senseIndex": 0,
+      "frame": "repair a ship's hull",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected maintenance and repair of a ship's hull, not aerodynamic bodywork.",
+      "notes": "Human repairing ship hull, vessel is patient."
+    },
+    {
+      "spanish": "comedir",
+      "partOfSpeech": "verb",
+      "recordSha256": "449fa1891c258bed6b361edf24864f4eae70fa8f6534c79678fec3a96650c77d",
+      "senseIndex": 0,
+      "frame": "plan ahead",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outdated deliberating or taking measures in advance; not the separate pronominal self-restraint construction.",
+      "notes": "Outdated deliberation/planning, not modern pronominal restraint. Closed AGID planned/planning/plans, not annotated planed/planing spelling variants."
+    },
+    {
+      "spanish": "dovelar",
+      "partOfSpeech": "verb",
+      "recordSha256": "6c6eae32990b00aa586732a1c7d92ac7f29b169a72de6ec99bb1dd6ca668898c",
+      "senseIndex": 0,
+      "frame": "cut stone into wedges",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected dressing of stones into wedge shapes; stone and shape are source-given.",
+      "notes": "Stone cutting to wedge shape; patient/shape source-given."
+    },
+    {
+      "spanish": "musicar",
+      "partOfSpeech": "verb",
+      "recordSha256": "04694ce75f6eb7ae4a863d7f0fa05f04e0ab14d213d059c8865c3b738eb354b6",
+      "senseIndex": 0,
+      "frame": "set text to music",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Set a text to music so it can be sung. Text is the explicit generic patient, correcting a missing-middle-object frame rather than authorizing it.",
+      "notes": "Text is an explicit source object, so set text to music is a complete useful frame."
+    },
+    {
+      "spanish": "chiscar",
+      "partOfSpeech": "verb",
+      "recordSha256": "e2d298886850d08be868977964d326b7c3d177a21cd5177d03ef62fe5cb14a25",
+      "senseIndex": 0,
+      "frame": "produce sparks by striking flint",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected fire-making sense; not the separate regional splashing or sexual senses mentioned in the same source gloss.",
+      "notes": "Flint striking for sparks; Asturias splashing/Galicia sexual alternate clauses stay unselected, not silently spread across forms."
+    },
+    {
+      "spanish": "enyugar",
+      "partOfSpeech": "verb",
+      "recordSha256": "fe2ca37a52c2a2be585a76b5d6baaf5d4c2a680792ec83ad4389d4aacbc265e7",
+      "senseIndex": 1,
+      "frame": "attach a yoke to a bell",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected bell hardware sense: attach the supporting yoke used to turn a bell; no animal-as-object reading.",
+      "notes": "Bell yoke hardware, human operator; no animal object substituted."
+    },
+    {
+      "spanish": "escocer",
+      "partOfSpeech": "verb",
+      "recordSha256": "95c18d4e5723491929530ee31276c1a59f6fd098ec6945314a2466817ba4ecb0",
+      "senseIndex": 0,
+      "frame": "sting",
+      "profile": "it-only",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected body part or site producing an unpleasant burning sensation; no I/we human-agent reading or different emotional sense.",
+      "notes": "Body site stings; it-only preserves stimulus/site subject rather than experiencer or human agent."
+    },
+    {
+      "spanish": "hocicar",
+      "partOfSpeech": "verb",
+      "recordSha256": "a1bc879c8f919ac395a0f6f5e2bfa0951f5affb0324355aa84b708711a023255",
+      "senseIndex": 1,
+      "frame": "dig with a stick",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected digging into earth using a stick; human operator with an explicit implement, not rooting with an animal's snout.",
+      "notes": "Human digging with stick, distinct from snout rooting."
+    },
+    {
+      "spanish": "inserir",
+      "partOfSpeech": "verb",
+      "recordSha256": "53b8f285dcaf715de08ad1f2529c9c0a0275def2e25ffa00e56bc915c146e386",
+      "senseIndex": 0,
+      "frame": "insert",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Rare variant of injerir, specifically the explicitly expanded introducir/meter meaning; not intervention or grafting senses.",
+      "notes": "Self-contained parenthetical introducir/meter supports insert; unrelated intervention/grafting senses not inherited."
+    },
+    {
+      "spanish": "menuzar",
+      "partOfSpeech": "verb",
+      "recordSha256": "8211819356c9f0815ac02ff6e1a8014401458b3b6721595f97a21e2bc2b5a03c",
+      "senseIndex": 0,
+      "frame": "crumble",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outdated transitive division of something into small crumb-like pieces; patient is what is crumbled, not the human subject falling apart.",
+      "notes": "Outdated causative crumbling of patient, not human disintegration."
+    },
+    {
+      "spanish": "bieldar",
+      "partOfSpeech": "verb",
+      "recordSha256": "7c32d871e985dd9e2a92128d0270d5e53ba90d4f4953535ecbb8f0071fd2c20b",
+      "senseIndex": 0,
+      "frame": "winnow grain",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Selected separation of grain from chaff by tossing the harvest into the air; no actual weather or scene is asserted.",
+      "notes": "Winnowing grain from chaff is human agricultural work, not weather agent."
+    },
+    {
+      "spanish": "perecer",
+      "partOfSpeech": "verb",
+      "recordSha256": "51c08ef8602d940ae238261ae722b4abd894a2a976783cd4079abe94b19beece",
+      "senseIndex": 0,
+      "frame": "perish",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Literary death or cessation-of-life sense; human subjects are legitimate, no mandatory reflexive construction.",
+      "notes": "Literary death/ceasing-life reading supports human subject."
+    },
+    {
+      "spanish": "ijadear",
+      "partOfSpeech": "verb",
+      "recordSha256": "6532e5b5067dd7995bf501da993bcf115ad947f13cfb0bd656853e56615559bd",
+      "senseIndex": 1,
+      "frame": "pant",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Explicit JADEAR pointer resolved to difficulty breathing from fatigue; not merely moving flanks.",
+      "notes": "Exact JADEAR source record/sense resolves panting through fatigue; no pointer-only admission."
+    },
+    {
+      "spanish": "ovillar",
+      "partOfSpeech": "verb",
+      "recordSha256": "81cf5728a04a19cd0743f69f7912aa57923af17d21ae513a915fe2ddbf0e64d7",
+      "senseIndex": 0,
+      "frame": "form balls of yarn",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Source says make ovillos; exact OVILLO noun sense is a ball formed by winding thread or cord. Not a human rolling into a ball.",
+      "notes": "Exact OVILLO noun resolves wound thread/cord ball. Yarn is a selected material subset; no reflexive human curling up."
+    },
+    {
+      "spanish": "aruñar",
+      "partOfSpeech": "verb",
+      "recordSha256": "3dd45105fbd12834107f6da9f4ed1708084c2c6537fcdcea00884c6d58a1da1d",
+      "senseIndex": 0,
+      "frame": "scratch",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Colloquial variant of arañar; selected target sense is scraping, tearing or cutting with fingernails, not collecting money figuratively.",
+      "notes": "Colloquial variant linked to exact ARAÑAR fingernail scratch sense; no figurative money gathering."
+    },
+    {
+      "spanish": "harrear",
+      "partOfSpeech": "verb",
+      "recordSha256": "e2c9bddef3e560b578fe7f2fb0b28e189ddb01c7952362b70aef1f891e561c8a",
+      "senseIndex": 0,
+      "frame": "drive livestock onward",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "Outdated spelling variant of arrear, resolved to urging livestock or draft animals forward. Human operator, animals are patients.",
+      "notes": "Outdated spelling linked to exact ARREAR urging livestock forward sense; human agent and animal patient retained."
+    }
+  ],
+  "rejected": [],
+  "retainedHolds": [
+    {
+      "spanish": "constar",
+      "reason": "Prior unsafe ordinary-human reading remains held; no new evidence dossier."
+    },
+    {
+      "spanish": "lañar",
+      "reason": "Blank Spanish source; no Galician borrowing."
+    },
+    {
+      "spanish": "ociar",
+      "reason": "Blank Spanish source; no Ido borrowing."
+    },
+    {
+      "spanish": "tupir",
+      "reason": "Selected source has pronominal tag; no silent SE removal."
+    },
+    {
+      "spanish": "afufar",
+      "reason": "Pronominal source; no clitic support."
+    },
+    {
+      "spanish": "lucrar",
+      "reason": "Pronominal source; no clitic support."
+    },
+    {
+      "spanish": "acamar",
+      "reason": "Wind/rain-specific crop-flattening agent and pronominal source; no personified weather."
+    },
+    {
+      "spanish": "lomear",
+      "reason": "Horse-specific back movement; no ordinary human agent."
+    },
+    {
+      "spanish": "piafar",
+      "reason": "Horse-specific foreleg movement; no ordinary human agent."
+    },
+    {
+      "spanish": "lardar",
+      "reason": "Target LARDEAR retained source has no semantic gloss."
+    },
+    {
+      "spanish": "gloriar",
+      "reason": "GLORIFICAR target not retained in accepted-source cache; no pointer-only meaning."
+    },
+    {
+      "spanish": "adrezar",
+      "reason": "ADEREZAR target not retained in accepted-source cache; no pointer-only meaning."
+    },
+    {
+      "spanish": "afielar",
+      "reason": "ENFIELAR target missing from retained cache; no guessed balancing sense."
+    },
+    {
+      "spanish": "rafear",
+      "reason": "Technical RAFAS argument not independently resolved."
+    },
+    {
+      "spanish": "logrear",
+      "reason": "Ambiguous gains/financial argument mapping."
+    },
+    {
+      "spanish": "arrogar",
+      "reason": "Nonreflexive rare assigning sense versus pronominal arrogation remains uncertain."
+    },
+    {
+      "spanish": "chitar",
+      "reason": "CHISTAR has several different sound/speech senses; no blind target-sense spread."
+    },
+    {
+      "spanish": "chantar",
+      "reason": "Uncertain regional/lexical alignment; source presence alone not model approval."
+    },
+    {
+      "spanish": "soler",
+      "reason": "Habitual auxiliary requires an unsupported complement construction."
+    },
+    {
+      "spanish": "engibar",
+      "reason": "Guardar y recibir is underspecified; coordinated English heads would not inflect safely."
+    }
+  ],
+  "linkedSourceProofs": [
+    {
+      "spanish": "ijadear",
+      "sourceRecordSha256": "6532e5b5067dd7995bf501da993bcf115ad947f13cfb0bd656853e56615559bd",
+      "selectedTarget": {
+        "word": "jadear",
+        "pos": "verb",
+        "wordTags": [
+          "intransitive"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Respirar con dificultad y fatiga por el cansancio."
+            ],
+            "sense_index": "1"
+          }
+        ],
+        "recordSha256": "5cdce38831deb3cee15741852b21177c38b042753d3ed3d53c79c4b7d0e29466"
+      },
+      "targetSenseIndex": 0
+    },
+    {
+      "spanish": "ovillar",
+      "sourceRecordSha256": "81cf5728a04a19cd0743f69f7912aa57923af17d21ae513a915fe2ddbf0e64d7",
+      "selectedTarget": {
+        "word": "ovillo",
+        "pos": "noun",
+        "wordTags": [
+          "masculine"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Bola que se forma devanando hilo o una cuerda."
+            ],
+            "sense_index": "1"
+          },
+          {
+            "glosses": [
+              "Cualquier cosa enredada y de forma redonda."
+            ],
+            "sense_index": "2"
+          },
+          {
+            "glosses": [
+              "Montón confuso de cosas, sin ningún tipo de trabazón ni arte."
+            ],
+            "sense_index": "3"
+          }
+        ],
+        "recordSha256": "f338e8507c2eb30cf6e96c78fefc3461a4ced8e977fa9c6276e368972c7fdaf2"
+      },
+      "targetSenseIndex": 0
+    },
+    {
+      "spanish": "aruñar",
+      "sourceRecordSha256": "3dd45105fbd12834107f6da9f4ed1708084c2c6537fcdcea00884c6d58a1da1d",
+      "selectedTarget": {
+        "word": "arañar",
+        "pos": "verb",
+        "wordTags": [
+          "transitive"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Raspar, rasgar o cortar utilizando las uñas."
+            ],
+            "sense_index": "1"
+          },
+          {
+            "glosses": [
+              "Hacer rayas superficiales en cosas lisas como la pared, el vidrio, el metal, etc."
+            ],
+            "sense_index": "2"
+          },
+          {
+            "glosses": [
+              "Recoger con mucho afán, de varias partes y en pequeñas porciones, lo necesario para algún fin."
+            ],
+            "tags": [
+              "colloquial"
+            ],
+            "categories": [
+              "ES:Términos coloquiales"
+            ],
+            "sense_index": "3"
+          }
+        ],
+        "recordSha256": "f6f5b8d5c95c735e050c8defe227b70983e4197b005bfed651377e5ce0c81882"
+      },
+      "targetSenseIndex": 0
+    },
+    {
+      "spanish": "harrear",
+      "sourceRecordSha256": "e2c9bddef3e560b578fe7f2fb0b28e189ddb01c7952362b70aef1f891e561c8a",
+      "selectedTarget": {
+        "word": "arrear",
+        "pos": "verb",
+        "wordTags": [
+          "transitive"
+        ],
+        "wordRawTags": [],
+        "senses": [
+          {
+            "glosses": [
+              "Conducir el vaquero las reses, normalmente usando gritos característicos que el ganado reconoce y obedece."
+            ],
+            "sense_index": "1"
+          },
+          {
+            "glosses": [
+              "Apresurar al ganado, animales de tiro, carga o cabalgaduras, para que avancen más rápido, o instarlos a que empiecen a moverse, si están parados."
+            ],
+            "sense_index": "2"
+          },
+          {
+            "glosses": [
+              "Influir suficientemente a otros para que actuen según los planes de uno, evidenciándose la docilidad de los que así son mandados."
+            ],
+            "tags": [
+              "figurative"
+            ],
+            "categories": [
+              "ES:Términos en sentido figurado"
+            ],
+            "sense_index": "3"
+          },
+          {
+            "glosses": [
+              "Propinar un golpe o, hacer algo brusca o inesperadamente."
+            ],
+            "sense_index": "4"
+          }
+        ],
+        "recordSha256": "45fed5a26681040f333b1770c172a3be2b26522def1eca98219316762bf6cee9"
+      },
+      "targetSenseIndex": 1
+    }
+  ],
+  "sourceChecks": {
+    "distinctRawRecordsRequired": 312,
+    "distinctRawRecordsMatched": 312,
+    "sourceFormSensesChecked": 405,
+    "agidHeadsChecked": 34
+  },
+  "counts": {
+    "proposedFramesReviewed": 34,
+    "approvedFrames": 34,
+    "withheldProposedFrames": 0,
+    "ordinary": 30,
+    "itOnly": 4,
+    "retainedOriginalHolds": 20
+  },
+  "guards": [
+    "Exact unchanged selected source record/sense/frame/profile/context/aspect only; no old held frame is reopened by root spelling alone.",
+    "Four linked cases must retain both exact raw identities, selected target sense, target POS and source links. OVILLAR resolves a noun argument, not a verb synonym.",
+    "Keep original form normalizer and source-explicit person/tense/number/subject guards. No suffix inference, accent folding, SE stripping, clitics or new human role for it-only.",
+    "Preserve source regional/register labels and explicitly selected sense context. Do not transfer inline alternative geographic meanings into selected CHISCAR fire-making sense.",
+    "Closed AGID slots only, including exclusion of malformed/annotated spelling variants; no qualified-head global overrides.",
+    "The 405 form senses and 274 candidate spellings are proposal evidence, not measured newly covered translations.",
+    "No examples, actual people, hidden game data, source-provided English claims or native/Mexican certification."
+  ]
+}

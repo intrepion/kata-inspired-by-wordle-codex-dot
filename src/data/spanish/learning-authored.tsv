@@ -1,0 +1,439 @@
+CASA|noun|house|Mi casa está cerca del mercado.|My house is near the market.
+MESA|noun|table|Pusimos la fruta sobre la mesa.|We put the fruit on the table.
+GATO|noun|cat|El gato duerme junto a la ventana.|The cat sleeps next to the window.
+LUNA|noun|moon|Esta noche se ve muy bonita la luna.|The moon looks very beautiful tonight.
+AGUA|noun|water|Hace calor; voy por un vaso de agua.|It's hot; I'm going to get a glass of water.
+MANO|noun|hand|Levanta la mano si quieres participar.|Raise your hand if you want to take part.
+PIEL|noun|skin|La piel de la manzana es roja.|The apple's skin is red.
+PELO|noun|hair|Mi hermano tiene el pelo corto.|My brother has short hair.
+ROPA|noun|clothing|Guardé la ropa limpia en el cajón.|I put the clean clothes in the drawer.
+SOPA|noun|soup|Mi abuela preparó sopa para la comida.|My grandmother made soup for lunch.
+VELA|noun|candle|Encendimos una vela cuando se fue la luz.|We lit a candle when the power went out.
+CAMA|noun|bed|Dejé la cobija sobre la cama.|I left the blanket on the bed.
+SALA|noun|living room|Estamos platicando en la sala.|We are chatting in the living room.
+TAZA|noun|cup|¿Quieres una taza de café?|Would you like a cup of coffee?
+OLLA|noun|pot|Los frijoles están en la olla.|The beans are in the pot.
+CAJA|noun|box|Guardé las fotos en una caja.|I put the photos in a box.
+BOCA|noun|mouth|El niño se limpió la boca con una servilleta.|The boy wiped his mouth with a napkin.
+CARA|noun|face|Me lavé la cara antes de salir.|I washed my face before going out.
+PATO|noun|duck|Vimos un pato en el lago del parque.|We saw a duck in the park's lake.
+RANA|noun|frog|Una rana saltó junto al río.|A frog jumped beside the river.
+NIÑO|noun|boy; child|El niño juega con su hermana en el patio.|The boy plays with his sister in the yard.
+CAFÉ|noun|coffee|Tomé un café antes de ir al trabajo.|I had a coffee before going to work.
+MAÍZ|noun|corn; maize|Las tortillas de esta tienda son de maíz.|The tortillas from this shop are made of corn.
+VINO|noun|wine|Sirvieron vino con la cena.|They served wine with dinner.
+PERRO|noun|dog|Mi perro me acompaña cuando salgo a caminar.|My dog comes with me when I go for a walk.
+LIBRO|noun|book|Estoy leyendo un libro de cuentos.|I am reading a book of short stories.
+PAPEL|noun|paper|Anoté la dirección en un papel.|I wrote the address on a piece of paper.
+ÁRBOL|noun|tree|Nos sentamos bajo un árbol para descansar.|We sat under a tree to rest.
+LECHE|noun|milk|Compré leche en la tienda de la esquina.|I bought milk at the corner shop.
+FRUTA|noun|fruit|Me gusta comer fruta en el desayuno.|I like to eat fruit at breakfast.
+QUESO|noun|cheese|Le puse queso a la quesadilla.|I put cheese in the quesadilla.
+PLATO|noun|plate|Dejé un plato limpio sobre la mesa.|I left a clean plate on the table.
+SILLA|noun|chair|Acerca una silla para que te sientes.|Bring a chair closer so you can sit down.
+NOCHE|noun|night|Ayer por la noche salimos a ver las estrellas.|Last night we went out to look at the stars.
+TARDE|noun|afternoon|Esta tarde voy a visitar a mi abuela.|This afternoon I am going to visit my grandmother.
+CALLE|noun|street|La panadería está al otro lado de la calle.|The bakery is across the street.
+PLAYA|noun|beach|Fuimos a la playa durante las vacaciones.|We went to the beach during the holidays.
+MUJER|noun|woman|La mujer que vive al lado es maestra.|The woman who lives next door is a teacher.
+AMIGO|noun|friend|Un amigo me invitó a su cumpleaños.|A friend invited me to his birthday celebration.
+VERDE|adjective|green|Compré una camisa verde en el mercado.|I bought a green shirt at the market.
+DULCE|adjective|sweet|Este mango está muy dulce.|This mango is very sweet.
+FELIZ|adjective|happy|Estoy feliz de verte otra vez.|I am happy to see you again.
+COMER|infinitive|to eat|Vamos a comer en el mercado.|Let's eat at the market.
+VIVIR|infinitive|to live|Quiero vivir cerca del parque.|I want to live near the park.
+TOMAR|infinitive|to drink; to have a drink|¿Quieres tomar agua antes de salir?|Would you like to drink some water before going out?
+FUEGO|noun|fire|Nos sentamos cerca del fuego para calentarnos.|We sat near the fire to warm up.
+LIMÓN|noun|lime (common Mexican usage)|Le puse limón a los tacos.|I put lime on the tacos.
+PLUMA|noun|pen (common Mexican usage)|¿Me prestas una pluma para firmar?|Can you lend me a pen so I can sign?
+CAMINO|noun|path; road|El camino al rancho pasa junto al río.|The road to the ranch runs beside the river.
+PUERTA|noun|door|Cierra la puerta al salir, por favor.|Please close the door when you leave.
+COMIDA|noun|food; meal|La comida de mi abuela siempre está rica.|My grandmother's food is always tasty.
+COCINA|noun|kitchen|Estamos preparando la cena en la cocina.|We are preparing dinner in the kitchen.
+CANTAR|infinitive|to sing|Me gusta cantar mientras preparo la cena.|I like to sing while I prepare dinner.
+BAILAR|infinitive|to dance|Vamos a bailar en la fiesta del sábado.|We are going to dance at Saturday's party.
+CORRER|infinitive|to run|Salgo a correr al parque por las mañanas.|I go running in the park in the mornings.
+DORMIR|infinitive|to sleep|Después del viaje, solo quería dormir.|After the trip, I just wanted to sleep.
+FIESTA|noun|party; celebration|La fiesta empieza a las siete.|The party starts at seven.
+REGALO|noun|gift|Le compré un regalo a mi hermana.|I bought my sister a gift.
+DINERO|noun|money|Guardé un poco de dinero para el viaje.|I saved a little money for the trip.
+TIEMPO|noun|time|Hoy tengo tiempo para leer.|Today I have time to read.
+CIUDAD|noun|city|Mi familia vive en una ciudad pequeña.|My family lives in a small city.
+PUEBLO|noun|town; village|El pueblo tiene una plaza muy bonita.|The town has a very beautiful square.
+CONEJO|noun|rabbit|El conejo se escondió detrás de una planta.|The rabbit hid behind a plant.
+ACEITE|noun|oil|Agrega un poco de aceite a la sartén.|Add a little oil to the frying pan.
+AZÚCAR|noun|sugar|¿Quieres azúcar en el café?|Would you like sugar in your coffee?
+FRIJOL|noun|bean|El frijol es parte de muchas comidas mexicanas.|Beans are part of many Mexican meals.
+BOSQUE|noun|forest|Caminamos por el bosque el fin de semana pasado.|We walked through the forest last weekend.
+TIERRA|noun|soil; earth|La tierra del jardín está húmeda.|The soil in the garden is damp.
+CAMISA|noun|shirt|Me puse una camisa limpia para salir.|I put on a clean shirt to go out.
+JARDÍN|noun|garden|Hay flores junto a la entrada del jardín.|There are flowers beside the garden entrance.
+CAMIÓN|noun|bus (Mexican usage)|El camión pasa frente a la escuela.|The bus passes in front of the school.
+COBIJA|noun|blanket|Me tapé con una cobija porque hacía frío.|I covered myself with a blanket because it was cold.
+ESCUELA|noun|school|La escuela está cerca de nuestra casa.|The school is near our house.
+FAMILIA|noun|family|Los domingos como con mi familia.|On Sundays I eat with my family.
+MERCADO|noun|market|Compramos fruta fresca en el mercado.|We buy fresh fruit at the market.
+TRABAJO|noun|work; job|Mi trabajo empieza a las ocho.|My work starts at eight.
+VENTANA|noun|window|Abrí la ventana para que entrara aire.|I opened the window to let some air in.
+CABALLO|noun|horse|El caballo descansa a la sombra de un árbol.|The horse rests in the shade of a tree.
+AMISTAD|noun|friendship|Nuestra amistad empezó en la escuela.|Our friendship began at school.
+ALEGRÍA|noun|joy|Me dio mucha alegría recibir tu mensaje.|I was very happy to receive your message.
+COMPRAR|infinitive|to buy|Voy a comprar tortillas para la comida.|I am going to buy tortillas for lunch.
+COCINAR|infinitive|to cook|Hoy me toca cocinar para la familia.|Today it is my turn to cook for the family.
+CAMINAR|infinitive|to walk|Prefiero caminar cuando no hace mucho calor.|I prefer to walk when it is not very hot.
+CHARLAR|infinitive|to chat|Nos quedamos a charlar después de la comida.|We stayed to chat after lunch.
+AUTOBÚS|noun|bus|El autobús sale mañana a las seis.|The bus leaves tomorrow at six.
+CELULAR|noun|cellphone (common Mexican usage)|Olvidé mi celular en casa.|I left my cellphone at home.
+NARANJA|noun|orange (fruit)|Me comí una naranja después del desayuno.|I ate an orange after breakfast.
+DURAZNO|noun|peach|Este durazno está listo para comer.|This peach is ready to eat.
+GUAYABA|noun|guava|Compré guayaba para hacer agua fresca.|I bought guava to make a fresh fruit drink.
+MANZANA|noun|apple|Puse una manzana en su lonchera.|I put an apple in their lunchbox.
+PLÁTANO|noun|banana|Desayuné un plátano con avena.|I had a banana with oatmeal for breakfast.
+CUCHARA|noun|spoon|Necesito una cuchara para la sopa.|I need a spoon for the soup.
+TENEDOR|noun|fork|Dejé el tenedor junto al plato.|I left the fork beside the plate.
+HERMANO|noun|brother|Mi hermano me ayudó con la tarea.|My brother helped me with my homework.
+MAESTRA|noun|teacher (woman)|La maestra explicó la actividad con calma.|The teacher explained the activity calmly.
+VIERNES|noun|Friday|El viernes vamos a visitar a mis abuelos.|On Friday we are going to visit my grandparents.
+AÑOS|plural|years|Mis abuelos llevan muchos años en este barrio.|My grandparents have lived in this neighborhood for many years.
+CASAS|plural|houses|En esta calle hay casas de muchos colores.|There are houses of many colors on this street.
+NIÑOS|plural|children; boys|Los niños juegan en el patio.|The children play in the yard.
+COMIÓ|past|ate (he or she)|Ayer mi prima comió en el mercado.|Yesterday my cousin ate at the market.
+CALA|exploratory|cove; small sheltered bay|La lancha entró en una cala tranquila cerca de Huatulco.|The boat entered a quiet cove near Huatulco.
+COLA|exploratory|line; queue|Hicimos cola para comprar tortillas.|We stood in line to buy tortillas.
+LOCA|exploratory|crazy (feminine); used here in crazy with joy|Mi hermana está loca de alegría porque consiguió trabajo.|My sister is overjoyed because she got a job.
+ALCA|exploratory|auk (a seabird)|En el documental vimos un alca nadando en el mar.|In the documentary, we saw an auk swimming in the sea.
+CAOS|exploratory|chaos; disorder|Después de la tormenta, el tráfico en la ciudad era un caos.|After the storm, traffic in the city was chaos.
+LOASE|exploratory|(that I/he/she) praised; imperfect subjunctive of literary loar|El maestro pidió que el poeta loase la belleza del paisaje.|The teacher asked the poet to praise the beauty of the landscape.
+OSARE|exploratory|(whoever) should dare; archaic future subjunctive of osar|Ejemplo inventado de estilo antiguo: «Quien osare entrar, responderá ante el rey».|Invented old-style example: “Whoever should dare to enter will answer to the king.”
+LOARE|exploratory|(whoever) should praise; archaic future subjunctive of loar|Ejemplo inventado de estilo antiguo: «Quien loare al rey recibirá una recompensa».|Invented old-style example: “Whoever should praise the king will receive a reward.”
+MARCO|exploratory|frame (for a photograph or picture)|Compré un marco de madera para la foto de mi familia.|I bought a wooden frame for my family photo.
+ORASE|exploratory|(that I/he/she) prayed; imperfect subjunctive of orar|Mi abuela quería que yo orase por la familia.|My grandmother wanted me to pray for the family.
+BONITA|exploratory|pretty; beautiful (feminine)|¡Qué bonita está la plaza con las luces de la fiesta!|How pretty the square looks with the festival lights.
+BONITO|exploratory|pretty; beautiful (masculine)|El bordado de tu huipil está muy bonito.|The embroidery on your huipil is very beautiful.
+MERINO|exploratory|merino wool or fabric|Me regalaron una bufanda de merino para el frío de Toluca.|I was given a merino wool scarf for the cold weather in Toluca.
+MINERO|exploratory|miner|Mi tío trabaja como minero en Zacatecas.|My uncle works as a miner in Zacatecas.
+ABINARE|exploratory|(whoever) should till the land a second time; archaic future subjunctive of abinar|Ejemplo inventado de estilo antiguo: «Quien abinare la tierra deberá cuidar los surcos».|Invented old-style example: “Whoever should till the land a second time must take care of the furrows.”
+ABROMAN|exploratory|they overwhelm; present indicative of obsolete abromar|Ejemplo inventado con un verbo antiguo: «Las penas lo abroman».|Invented example with an obsolete verb: “His sorrows overwhelm him.”
+ABRUMEN|exploratory|(that they/you all) overwhelm; present subjunctive of abrumar|Espero que los pendientes no te abrumen esta semana.|I hope your unfinished tasks do not overwhelm you this week.
+ACALMAR|exploratory|to calm; obsolete form of calmar|Ejemplo inventado con una forma antigua: «Hay que acalmar los ánimos».|Invented example with an obsolete form: “We need to calm people down.”
+AIRE|noun|air|Abre la ventana para que entre aire.|Open the window to let some air in.
+AMOR|noun|love|Mi abuela cocina con mucho amor.|My grandmother cooks with a lot of love.
+ARTE|noun|art|Estudiamos arte mexicano en la escuela.|We study Mexican art at school.
+AULA|noun|classroom|El aula tiene ventanas grandes.|The classroom has large windows.
+BAÑO|noun|bathroom|El baño está al fondo del pasillo.|The bathroom is at the end of the hallway.
+BASE|noun|base; foundation|La base de la mesa es de madera.|The base of the table is made of wood.
+BEBÉ|noun|baby|El bebé duerme en su cuna.|The baby sleeps in its crib.
+BESO|noun|kiss|Le di un beso a mi abuela.|I gave my grandmother a kiss.
+BOTA|noun|boot|Me entró agua en una bota.|Water got into one of my boots.
+BOTE|noun|container; can|Tira el papel en el bote de basura.|Put the paper in the trash can.
+BUEY|noun|ox|El buey descansa bajo un árbol.|The ox rests under a tree.
+CABO|noun|cape; headland|Desde el cabo se veía el mar.|The sea could be seen from the cape.
+CINE|noun|movie theater; cinema|Vamos al cine el sábado.|We are going to the movies on Saturday.
+CITA|noun|appointment|Tengo una cita con la dentista.|I have an appointment with the dentist.
+COCO|noun|coconut|Compramos agua de coco en la playa.|We bought coconut water at the beach.
+CODO|noun|elbow|Me golpeé el codo con la puerta.|I bumped my elbow on the door.
+CUNA|noun|crib|La cuna está junto a nuestra cama.|The crib is next to our bed.
+DATO|noun|piece of information|Me falta un dato para llenar el formulario.|I am missing one piece of information to fill out the form.
+DEDO|noun|finger|Señaló el dibujo con el dedo.|She pointed at the drawing with her finger.
+DUDA|noun|doubt; question|Tengo una duda sobre la tarea.|I have a question about the homework.
+EDAD|noun|age|Mi prima tiene mi misma edad.|My cousin is the same age as me.
+EURO|noun|euro|Guardé un euro de mi viaje a España.|I kept a euro from my trip to Spain.
+FARO|noun|lighthouse|El faro guía a los barcos de noche.|The lighthouse guides boats at night.
+FINO|adjective|fine; thin|El hilo fino sirve para este bordado.|The fine thread is suitable for this embroidery.
+FLAN|noun|flan; custard dessert|Mi tía preparó flan para el postre.|My aunt made flan for dessert.
+FLOR|noun|flower|Hay una flor amarilla en la maceta.|There is a yellow flower in the flowerpot.
+FOCO|noun|light bulb|Hay que cambiar el foco de la cocina.|We need to change the kitchen light bulb.
+FOTO|noun|photo|Tomé una foto del volcán.|I took a photo of the volcano.
+GOMA|noun|eraser|¿Me prestas tu goma para borrar esto?|Can you lend me your eraser to erase this?
+GOTA|noun|drop|Cayó una gota de lluvia en mi mano.|A drop of rain fell on my hand.
+GRIS|adjective|gray|Hoy el cielo está gris.|The sky is gray today.
+GUÍA|noun|guide|La guía nos explicó la historia del museo.|The guide explained the museum's history to us.
+HADA|noun|fairy|En el cuento aparece un hada buena.|A kind fairy appears in the story.
+HILO|noun|thread|Necesito hilo rojo para coser el botón.|I need red thread to sew on the button.
+HOJA|noun|leaf|Una hoja cayó del árbol.|A leaf fell from the tree.
+HORA|noun|hour|El viaje dura una hora.|The trip takes an hour.
+IDEA|noun|idea|Tengo una idea para la fiesta.|I have an idea for the party.
+IRIS|noun|iris (part of the eye)|El iris de su ojo es café.|The iris of her eye is brown.
+ISLA|noun|island|La isla está cerca de la costa.|The island is near the coast.
+JADE|noun|jade|El museo exhibe una pieza de jade.|The museum displays a piece of jade.
+JEFE|noun|boss|Mi jefe aprobó mis vacaciones.|My boss approved my vacation.
+JOYA|noun|jewel|La joya tiene una piedra azul.|The jewel has a blue stone.
+JUGO|noun|juice|Quiero un vaso de jugo de naranja.|I would like a glass of orange juice.
+LADO|noun|side|La farmacia está del otro lado de la calle.|The pharmacy is on the other side of the street.
+LAGO|noun|lake|Paseamos junto al lago el domingo.|We walked beside the lake on Sunday.
+LANA|noun|wool|Esta cobija es de lana.|This blanket is made of wool.
+LAZO|noun|bow; loop of ribbon|Le puse un lazo al regalo.|I put a bow on the gift.
+LEMA|noun|motto|El lema de la escuela habla de respeto.|The school's motto speaks of respect.
+LINO|noun|linen|La camisa de lino es fresca.|The linen shirt is cool to wear.
+LODO|noun|mud|Mis zapatos se llenaron de lodo.|My shoes got covered in mud.
+LOMO|noun|back (of an animal)|El gato tiene una mancha en el lomo.|The cat has a spot on its back.
+LOTE|noun|lot; plot of land|Construyeron una casa en ese lote.|They built a house on that lot.
+LUJO|noun|luxury|Dormir hasta tarde es un lujo para mí.|Sleeping late is a luxury for me.
+LUPA|noun|magnifying glass|Usamos una lupa para ver la hormiga.|We used a magnifying glass to look at the ant.
+MAPA|noun|map|Buscamos la ruta en el mapa.|We looked for the route on the map.
+META|noun|goal|Mi meta es terminar mis estudios.|My goal is to finish my studies.
+MIEL|noun|honey|Le puse miel al té.|I put honey in the tea.
+MODO|noun|way; manner|Cada quien tiene su modo de aprender.|Everyone has their own way of learning.
+MONO|noun|monkey|Vimos un mono en la reserva.|We saw a monkey in the reserve.
+MOTO|noun|motorcycle|Mi hermano usa casco cuando va en moto.|My brother wears a helmet when he rides a motorcycle.
+MURO|noun|wall|Pintaron un mural en el muro de la escuela.|They painted a mural on the school wall.
+NIDO|noun|nest|Hay un nido en ese árbol.|There is a nest in that tree.
+NUBE|noun|cloud|Una nube tapó el sol.|A cloud covered the sun.
+NUCA|noun|nape; back of the neck|Me puse protector solar en la nuca.|I put sunscreen on the back of my neck.
+OBRA|noun|work (of art)|Esta obra fue pintada por una artista mexicana.|This work was painted by a Mexican artist.
+OÍDO|noun|ear; sense of hearing|El doctor me revisó el oído derecho.|The doctor examined my right ear.
+OJAL|noun|buttonhole|El botón no cabe en el ojal.|The button does not fit through the buttonhole.
+OLER|infinitive|to smell|Me gusta oler el pan recién hecho.|I like to smell freshly baked bread.
+OLOR|noun|smell|El olor del café llenó la cocina.|The smell of coffee filled the kitchen.
+ORAR|infinitive|to pray|Mi abuela suele orar por su familia.|My grandmother usually prays for her family.
+PALO|noun|stick|El perro juega con un palo.|The dog plays with a stick.
+PAPA|noun|potato|Agregué una papa a la sopa.|I added a potato to the soup.
+PAPÁ|noun|dad|Mi papá me enseñó a andar en bicicleta.|My dad taught me to ride a bicycle.
+PAVO|noun|turkey|El pavo camina por el corral.|The turkey walks around the pen.
+PENA|noun|sorrow; sadness|Sentí mucha pena al despedirme de mis amigos.|I felt very sad when saying goodbye to my friends.
+PERA|noun|pear|La pera está dulce y jugosa.|The pear is sweet and juicy.
+ABRIR|infinitive|to open|¿Puedes abrir la ventana?|Can you open the window?
+ACTOR|noun|actor|Ese actor trabaja en una película mexicana.|That actor is working on a Mexican film.
+AGUJA|noun|needle|Guarda la aguja después de coser.|Put the needle away after sewing.
+AJENO|adjective|belonging to someone else|Hay que respetar lo ajeno.|We must respect what belongs to others.
+ALDEA|noun|village|La aldea está entre las montañas.|The village is among the mountains.
+ALTAR|noun|altar|Pusimos flores en el altar de Día de Muertos.|We put flowers on the Day of the Dead altar.
+ANCHO|adjective|wide|El río es muy ancho aquí.|The river is very wide here.
+ÁNGEL|noun|angel|La figura del ángel es de barro.|The angel figure is made of clay.
+ÁNIMO|noun|spirits; mood|La música me levantó el ánimo.|The music lifted my spirits.
+AROMA|noun|aroma|El aroma del pan llegó hasta la calle.|The aroma of the bread reached the street.
+ARROZ|noun|rice|Hoy vamos a preparar arroz rojo.|Today we are going to make Mexican red rice.
+ASTRO|noun|celestial body|El Sol es el astro que nos da luz.|The Sun is the celestial body that gives us light.
+ATAJO|noun|shortcut|Tomamos un atajo para llegar al mercado.|We took a shortcut to get to the market.
+AVENA|noun|oats; oatmeal|Desayuné avena con plátano.|I had oatmeal with banana for breakfast.
+AVIÓN|noun|airplane|El avión sale a las ocho.|The plane leaves at eight.
+AYUDA|noun|help|Gracias por tu ayuda con la tarea.|Thank you for your help with the homework.
+BANCO|noun|bank|Voy al banco a depositar dinero.|I am going to the bank to deposit money.
+BARBA|noun|beard|Mi tío tiene la barba larga.|My uncle has a long beard.
+BARCO|noun|boat; ship|El barco llegó al puerto.|The ship arrived at the port.
+BARRO|noun|clay|La artesana hace ollas de barro.|The artisan makes clay pots.
+BEBER|infinitive|to drink|Es importante beber agua cuando hace calor.|It is important to drink water when it is hot.
+BELLO|adjective|beautiful|El paisaje de Oaxaca es muy bello.|The landscape of Oaxaca is very beautiful.
+BESAR|infinitive|to kiss|El niño quiso besar a su mamá.|The boy wanted to kiss his mom.
+BICHO|noun|bug; small creature|Hay un bicho en la hoja.|There is a bug on the leaf.
+BOLSA|noun|bag|Lleva una bolsa para las compras.|Take a bag for the shopping.
+BORDE|noun|edge|No pongas el vaso en el borde de la mesa.|Do not put the glass on the edge of the table.
+BOTÓN|noun|button|Se cayó un botón de mi camisa.|A button fell off my shirt.
+BRAVO|adjective|angry; furious|Mi hermano se puso bravo cuando rompieron su bicicleta.|My brother got angry when someone broke his bicycle.
+BRAZO|noun|arm|Me duele el brazo después de nadar.|My arm hurts after swimming.
+BROMA|noun|joke|Era una broma; no te enojes.|It was a joke; do not get angry.
+BRUJA|noun|witch|La bruja del cuento vive en el bosque.|The witch in the story lives in the forest.
+BUENO|adjective|good|Este libro es muy bueno.|This book is very good.
+CABLE|noun|cable|Conecta el cable a la computadora.|Connect the cable to the computer.
+CACAO|noun|cacao|El chocolate se hace con cacao.|Chocolate is made from cacao.
+CAJÓN|noun|drawer|Guardé las llaves en el cajón.|I put the keys in the drawer.
+CALDO|noun|broth|Mi mamá preparó caldo de pollo.|My mom made chicken broth.
+CALOR|noun|heat|Hace mucho calor esta tarde.|It is very hot this afternoon.
+CAMPO|noun|countryside|Mis abuelos viven en el campo.|My grandparents live in the countryside.
+CANAL|noun|canal|El agua del canal llega a los cultivos.|The canal water reaches the crops.
+CAOBA|noun|mahogany|La mesa está hecha de caoba.|The table is made of mahogany.
+CAPAZ|adjective|capable|Eres capaz de resolver este problema.|You are capable of solving this problem.
+CARGA|noun|load|El camión lleva una carga de fruta.|The truck is carrying a load of fruit.
+CARNE|noun|meat|Compramos carne para la comida.|We bought meat for lunch.
+CARRO|noun|car (common Mexican usage)|Dejé el carro frente a la casa.|I left the car in front of the house.
+CARTA|noun|letter|Le escribí una carta a mi abuela.|I wrote a letter to my grandmother.
+CASCO|noun|helmet|Ponte el casco antes de subir a la bicicleta.|Put on your helmet before getting on the bicycle.
+CAUSA|noun|cause|Todavía no sabemos la causa del apagón.|We still do not know the cause of the power outage.
+CERCA|noun|fence|La cerca del jardín es de madera.|The garden fence is made of wood.
+CERDO|noun|pig|El cerdo está en el corral.|The pig is in the pen.
+CHICO|adjective|small|Este cuarto es muy chico.|This room is very small.
+CHILE|noun|chili pepper|La salsa lleva chile verde.|The salsa contains green chili peppers.
+CIELO|noun|sky|El cielo está despejado esta mañana.|The sky is clear this morning.
+CINTA|noun|ribbon|Mi sobrina lleva una cinta roja en el pelo.|My niece is wearing a red ribbon in her hair.
+CLARO|adjective|clear|El cielo está claro esta mañana.|The sky is clear this morning.
+CLASE|noun|class; lesson|La clase de español empieza a las nueve.|Spanish class starts at nine.
+CLAVE|noun|key; code|Necesito la clave para entrar al sistema.|I need the access code to enter the system.
+COBRE|noun|copper|El cable tiene cobre por dentro.|The cable has copper inside.
+COCER|infinitive|to cook by heating|Hay que cocer los frijoles hasta que estén suaves.|The beans need to be cooked until they are soft.
+COCHE|noun|car|Nuestro coche está en el taller.|Our car is at the repair shop.
+COLOR|noun|color|Me gusta el color de tu camisa.|I like the color of your shirt.
+DOLOR|noun|pain|El descanso me ayudó con el dolor de espalda.|Rest helped with my back pain.
+COPIA|noun|copy|Necesito una copia de este documento.|I need a copy of this document.
+CORAL|noun|coral|No toques el coral cuando bucees.|Do not touch the coral when you dive.
+CORTE|noun|cut|El corte en el papel quedó recto.|The cut in the paper came out straight.
+COSER|infinitive|to sew|Mi abuela me enseñó a coser.|My grandmother taught me to sew.
+COSTA|noun|coast|Hace calor en la costa de Guerrero.|It is hot on the coast of Guerrero.
+CREAR|infinitive|to create|Vamos a crear un mural para la escuela.|We are going to create a mural for the school.
+CREMA|noun|cream|Le puse crema a la sopa.|I put cream in the soup.
+CRIAR|infinitive|to raise; to rear|Mi abuelo sabe criar gallinas.|My grandfather knows how to raise chickens.
+CRUDO|adjective|raw|No comas el pollo crudo.|Do not eat raw chicken.
+CUERO|noun|leather|La cartera es de cuero.|The wallet is made of leather.
+CUEVA|noun|cave|La cueva está cerca del río.|The cave is near the river.
+CULPA|noun|blame; fault|No fue tu culpa que lloviera.|It was not your fault that it rained.
+CURSO|noun|course|Me inscribí en un curso de cocina.|I signed up for a cooking course.
+CURVA|noun|curve; bend|Baja la velocidad antes de la curva.|Slow down before the bend.
+DANZA|noun|dance|Vimos una danza tradicional en la plaza.|We saw a traditional dance in the square.
+ABUELO|noun|grandfather|Mi abuelo cultiva maíz en su rancho.|My grandfather grows corn on his farm.
+ABRIGO|noun|coat|Lleva un abrigo porque va a hacer frío.|Take a coat because it is going to be cold.
+ACABAR|infinitive|to finish|Quiero acabar la tarea antes de cenar.|I want to finish my homework before dinner.
+ACENTO|noun|accent|Cada región tiene su propio acento.|Each region has its own accent.
+ADORNO|noun|decoration|Colgamos un adorno en la puerta.|We hung a decoration on the door.
+AFECTO|noun|affection|Le tengo mucho afecto a mi maestra.|I have a lot of affection for my teacher.
+AGENTE|noun|agent|La agente de viajes nos ayudó con los boletos.|The travel agent helped us with the tickets.
+AGOSTO|noun|August|En agosto vamos a visitar a mis primos.|In August we are going to visit my cousins.
+AHORRO|noun|savings (money)|Mi ahorro de este mes fue de quinientos pesos.|My savings this month came to five hundred pesos.
+AJUSTE|noun|adjustment|El asiento necesita un pequeño ajuste.|The seat needs a small adjustment.
+ALEGRE|adjective|cheerful; happy|Mi hermana es una persona alegre.|My sister is a cheerful person.
+ALTURA|noun|height|Medimos la altura de la puerta.|We measured the height of the door.
+AMABLE|adjective|kind|La señora de la tienda es muy amable.|The lady at the shop is very kind.
+ANILLO|noun|ring|Encontré mi anillo debajo de la cama.|I found my ring under the bed.
+ANIMAL|noun|animal|El venado es un animal del bosque.|The deer is a forest animal.
+APAGAR|infinitive|to turn off|No olvides apagar la luz.|Do not forget to turn off the light.
+APOYAR|infinitive|to support|Queremos apoyar a la escuela del barrio.|We want to support the neighborhood school.
+ARROYO|noun|stream|El arroyo lleva más agua cuando llueve.|The stream carries more water when it rains.
+ASUNTO|noun|matter; issue|Tenemos que hablar de un asunto importante.|We need to discuss an important matter.
+AYUDAR|infinitive|to help|Voy a ayudar a mi mamá con la comida.|I am going to help my mom with lunch.
+BASURA|noun|trash|No dejes basura en el parque.|Do not leave trash in the park.
+BEBIDA|noun|drink; beverage|El agua de jamaica es mi bebida favorita.|Hibiscus agua fresca is my favorite drink.
+BLANCO|adjective|white|Pintamos el techo de color blanco.|We painted the ceiling white.
+BOCINA|noun|speaker|La música sale de esa bocina.|The music comes from that speaker.
+BOMBÓN|noun|marshmallow|Tostamos un bombón sobre el fuego.|We toasted a marshmallow over the fire.
+BORDAR|infinitive|to embroider|Mi tía sabe bordar flores en las blusas.|My aunt knows how to embroider flowers on blouses.
+BRILLO|noun|shine|El piso tiene mucho brillo después de limpiarlo.|The floor is very shiny after being cleaned.
+BUSCAR|infinitive|to look for|Voy a buscar mis llaves.|I am going to look for my keys.
+CABEZA|noun|head|Me puse un sombrero en la cabeza.|I put a hat on my head.
+CADENA|noun|chain|La cadena de la bicicleta está floja.|The bicycle chain is loose.
+CAJERO|noun|cashier|El cajero me dio el cambio.|The cashier gave me my change.
+CÁMARA|noun|camera|Llevé mi cámara al viaje.|I took my camera on the trip.
+CAMBIO|noun|change (money)|Me dieron veinte pesos de cambio después de pagar.|They gave me twenty pesos in change after I paid.
+CANCHA|noun|sports court; playing field|Nos vemos en la cancha de básquetbol.|See you at the basketball court.
+CANELA|noun|cinnamon|El arroz con leche lleva canela.|The rice pudding contains cinnamon.
+CANSAR|infinitive|to tire|Caminar tanto me va a cansar.|Walking so much is going to tire me out.
+CAPTAR|infinitive|to grasp; to understand|No logré captar la idea principal.|I did not manage to grasp the main idea.
+CARBÓN|noun|charcoal|Compramos carbón para el asador.|We bought charcoal for the grill.
+CARIÑO|noun|affection|Mi abuela nos recibe con mucho cariño.|My grandmother welcomes us with a lot of affection.
+CARTÓN|noun|cardboard|Hicimos una casa de cartón para el juego.|We made a cardboard house for the game.
+CASERO|adjective|homemade|El pan casero quedó muy rico.|The homemade bread turned out delicious.
+CEREAL|noun|cereal|Desayuné cereal con leche.|I had cereal with milk for breakfast.
+CEREZA|noun|cherry|La cereza es pequeña y roja.|The cherry is small and red.
+CHARCO|noun|puddle|El perro saltó sobre un charco.|The dog jumped over a puddle.
+CHICLE|noun|chewing gum|Tira el chicle en el bote de basura.|Put the chewing gum in the trash can.
+CHISPA|noun|spark|Una chispa salió de la fogata.|A spark came out of the campfire.
+CHOCAR|infinitive|to collide|El carrito estuvo a punto de chocar con la pared.|The little cart almost collided with the wall.
+CIERTO|adjective|true|Lo que dice el libro es cierto.|What the book says is true.
+COBRAR|infinitive|to charge; to collect payment|La tienda no va a cobrar por la entrega.|The shop is not going to charge for delivery.
+CÓDIGO|noun|code|Escribe el código para abrir la aplicación.|Enter the code to open the application.
+COLGAR|infinitive|to hang|Voy a colgar la ropa en el tendedero.|I am going to hang the clothes on the clothesline.
+COLINA|noun|hill|La casa está en una colina.|The house is on a hill.
+COLCHA|noun|bedspread|La colcha azul combina con las cortinas.|The blue bedspread matches the curtains.
+COMETA|noun|comet|Anoche vimos un cometa en el cielo.|Last night we saw a comet in the sky.
+CÓMICO|adjective|funny; comical|El personaje más cómico nos hizo reír.|The funniest character made us laugh.
+CONCHA|noun|seashell|Encontré una concha en la playa.|I found a seashell on the beach.
+CONTAR|infinitive|to count|La niña está aprendiendo a contar.|The girl is learning to count.
+COPIAR|infinitive|to copy down; to write down|Necesito copiar esta dirección en mi libreta.|I need to copy this address into my notebook.
+CORONA|noun|crown|El rey del cuento lleva una corona.|The king in the story wears a crown.
+CORTAR|infinitive|to cut|Hay que cortar la fruta en pedazos.|The fruit needs to be cut into pieces.
+COSTAL|noun|sack|El costal está lleno de maíz.|The sack is full of corn.
+CRECER|infinitive|to grow|Las plantas necesitan agua para crecer.|Plants need water to grow.
+CUADRO|noun|painting|Colgamos un cuadro en la sala.|We hung a painting in the living room.
+CUARTO|noun|room|Mi cuarto tiene una ventana grande.|My room has a large window.
+CUELLO|noun|neck|La bufanda me protege el cuello del frío.|The scarf protects my neck from the cold.
+CUENTO|noun|story|Mi abuelo nos contó un cuento.|My grandfather told us a story.
+CUERDA|noun|rope|Sujetamos la lona con una cuerda.|We secured the tarp with a rope.
+CUERPO|noun|body|El ejercicio ayuda a cuidar el cuerpo.|Exercise helps take care of the body.
+CUIDAR|infinitive|to take care of|Me toca cuidar al gato este fin de semana.|It is my turn to take care of the cat this weekend.
+DEBATE|noun|debate|En clase tuvimos un debate sobre el agua.|In class we had a debate about water.
+DECENA|noun|group of ten|Compré una decena de lápices.|I bought ten pencils.
+DESEAR|infinitive|to wish; to desire|Quiero desearte un buen viaje.|I want to wish you a good trip.
+DIARIO|noun|diary|Escribo en mi diario todas las noches.|I write in my diary every night.
+DIBUJO|noun|drawing|Mi sobrino me regaló un dibujo.|My nephew gave me a drawing.
+DIENTE|noun|tooth|A mi hijo se le cayó un diente.|My son lost a tooth.
+DOBLAR|infinitive|to fold|¿Me ayudas a doblar la ropa?|Can you help me fold the clothes?
+ABRAZAR|infinitive|to hug|Me dio mucho gusto abrazar a mi abuela.|I was very happy to hug my grandmother.
+ABRIGAR|infinitive|to keep warm|Esta cobija te va a abrigar bien.|This blanket will keep you nice and warm.
+ABURRIR|infinitive|to bore|No quiero aburrir a nadie con mi historia.|I do not want to bore anyone with my story.
+ACAMPAR|infinitive|to camp|Vamos a acampar cerca del lago.|We are going to camp near the lake.
+ACEPTAR|infinitive|to accept|Decidí aceptar la invitación.|I decided to accept the invitation.
+ACORDAR|infinitive|to agree on|Tenemos que acordar la hora de salida.|We need to agree on the departure time.
+ACTITUD|noun|attitude|Su actitud positiva nos animó.|Her positive attitude encouraged us.
+MAESTRO|noun|teacher (man)|El maestro explicó el ejercicio.|The teacher explained the exercise.
+ADOPTAR|infinitive|to adopt|La pareja decidió adoptar a un niño.|The couple decided to adopt a child.
+ADORNAR|infinitive|to decorate|Vamos a adornar la casa para la fiesta.|We are going to decorate the house for the party.
+AFECTAR|infinitive|to affect|La lluvia puede afectar el viaje.|The rain can affect the trip.
+AGRADAR|infinitive|to please|Creo que te va a agradar el regalo.|I think you will like the gift.
+AHORRAR|infinitive|to save (money)|Quiero ahorrar para comprar una bicicleta.|I want to save up to buy a bicycle.
+DOMINGO|noun|Sunday|El domingo comemos con mis abuelos.|On Sunday we eat with my grandparents.
+ALGODÓN|noun|cotton|Esta camiseta es de algodón.|This T-shirt is made of cotton.
+ANCIANO|noun|elderly man|El anciano nos contó la historia del barrio.|The elderly man told us the neighborhood's history.
+ANUNCIO|noun|advertisement; announcement|Vi el anuncio de la feria en la plaza.|I saw the fair announcement in the square.
+APARATO|noun|device|Este aparato sirve para medir la temperatura.|This device is used to measure temperature.
+APETITO|noun|appetite|Después de caminar tengo mucho apetito.|After walking, I have a big appetite.
+APRETAR|infinitive|to squeeze; to tighten|Hay que apretar bien la tapa del frasco.|The jar lid needs to be tightened firmly.
+APROBAR|infinitive|to pass (an exam)|Estudié mucho para aprobar el examen.|I studied hard to pass the exam.
+APUNTAR|infinitive|to write down|Voy a apuntar tu número en mi libreta.|I am going to write down your number in my notebook.
+ARCHIVO|noun|file|Guardé el archivo en la computadora.|I saved the file on the computer.
+ARREGLO|noun|arrangement|Pusimos un arreglo de flores en la mesa.|We put a flower arrangement on the table.
+ARRUGAR|infinitive|to wrinkle|No quiero arrugar la camisa limpia.|I do not want to wrinkle the clean shirt.
+ASIENTO|noun|seat|Este asiento está libre.|This seat is available.
+ATENDER|infinitive|to attend to; to serve|La doctora va a atender al siguiente paciente.|The doctor is going to see the next patient.
+AUMENTO|noun|increase|Hubo un aumento en el precio del pan.|There was an increase in the price of bread.
+AVANZAR|infinitive|to move forward|La fila empieza a avanzar.|The line starts to move forward.
+AZULEJO|noun|tile|Se rompió un azulejo de la cocina.|A kitchen tile broke.
+BANDERA|noun|flag|La bandera de México tiene tres colores.|The Mexican flag has three colors.
+ESPALDA|noun|back (of the body)|Me duele la espalda después del viaje.|My back hurts after the trip.
+BELLEZA|noun|beauty|Nos impresionó la belleza del paisaje.|We were impressed by the beauty of the landscape.
+BILLETE|noun|banknote; bill|Pagué con un billete de cien pesos.|I paid with a hundred-peso bill.
+BOLILLO|noun|bolillo; crusty Mexican bread roll|Compré un bolillo en la panadería.|I bought a bolillo bread roll at the bakery.
+BOTELLA|noun|bottle|Llené la botella con agua.|I filled the bottle with water.
+BRILLAR|infinitive|to shine|Podemos ver brillar las estrellas.|We can see the stars shining.
+BUÑUELO|noun|buñuelo; fried dough dessert|Compartimos un buñuelo con miel de piloncillo.|We shared a buñuelo with unrefined cane sugar syrup.
+CABELLO|noun|hair|Mi hermana tiene el cabello largo.|My sister has long hair.
+CAFETAL|noun|coffee plantation|Visitamos un cafetal en Chiapas.|We visited a coffee plantation in Chiapas.
+CALCETA|noun|long sock; stocking|Esta calceta me llega hasta la rodilla.|This stocking reaches my knee.
+CALIDAD|noun|quality|Esta tela es de buena calidad.|This fabric is good quality.
+CAMARÓN|noun|shrimp|La sopa lleva camarón y verduras.|The soup contains shrimp and vegetables.
+CAMPANA|noun|bell|La campana de la escuela sonó a las ocho.|The school bell rang at eight.
+CAMPEÓN|noun|champion|Mi equipo fue campeón del torneo.|My team was the tournament champion.
+CANCIÓN|noun|song|Esa canción me recuerda a mi abuela.|That song reminds me of my grandmother.
+EJEMPLO|noun|example|La maestra explicó la regla con un ejemplo.|The teacher explained the rule with an example.
+CAPITAL|noun|capital city|La capital de México es la Ciudad de México.|The capital of Mexico is Mexico City.
+CAPTURA|noun|capture|La captura del animal se hizo sin lastimarlo.|The animal was captured without being hurt.
+CARACOL|noun|snail|El caracol avanza despacio por la hoja.|The snail moves slowly across the leaf.
+CARPETA|noun|folder (for papers)|Guardé los documentos en una carpeta.|I put the documents in a folder.
+CARRERA|noun|race|Mi hermana participó en una carrera de cinco kilómetros.|My sister took part in a five-kilometer race.
+CARRETA|noun|cart|La carreta llevaba fruta al mercado.|The cart was taking fruit to the market.
+CARTERA|noun|wallet|Guardé el dinero en mi cartera.|I put the money in my wallet.
+CASTAÑO|noun|chestnut tree|El castaño del parque da mucha sombra.|The chestnut tree in the park provides a lot of shade.
+CASTIGO|noun|punishment|El cuento termina con un castigo para el villano.|The story ends with a punishment for the villain.
+CEBOLLA|noun|onion|Piqué una cebolla para la salsa.|I chopped an onion for the salsa.
+CEREBRO|noun|brain|El cerebro controla muchas funciones del cuerpo.|The brain controls many functions of the body.
+CERILLO|noun|match (for lighting a fire)|Encendí la vela con un cerillo.|I lit the candle with a match.
+GALLETA|noun|cookie|Me comí una galleta con un vaso de leche.|I ate a cookie with a glass of milk.
+HORARIO|noun|schedule; timetable|Revisa el horario del autobús antes de salir.|Check the bus timetable before leaving.
+CHAYOTE|noun|chayote (vegetable)|El caldo lleva chayote y zanahoria.|The broth contains chayote and carrot.
+CHORIZO|noun|chorizo; seasoned sausage|Preparamos papas con chorizo para la comida.|We made potatoes with chorizo for lunch.
+CIRUELA|noun|plum|La ciruela está madura y dulce.|The plum is ripe and sweet.
+CLIENTE|noun|customer|El cliente pidió una bolsa para sus compras.|The customer asked for a bag for his shopping.
+COLEGIO|noun|school|Mi sobrino estudia en un colegio cercano.|My nephew studies at a nearby school.
+COMEDIA|noun|comedy|Vimos una comedia en el cine.|We watched a comedy at the movie theater.
+COMETER|infinitive|to commit (an act); to make (a mistake)|Es normal cometer errores al aprender.|It is normal to make mistakes when learning.
+CONOCER|infinitive|to know; to meet|Me gustaría conocer a tu familia.|I would like to meet your family.
+CONSEJO|noun|advice; piece of advice|Mi mamá me dio un buen consejo.|My mom gave me a good piece of advice.
+CORAZÓN|noun|heart|Después de correr, el corazón late más rápido.|After running, the heart beats faster.
+CRÉDITO|noun|credit|Pagamos la compra con una tarjeta de crédito.|We paid for the purchase with a credit card.
+CRUCERO|noun|cruise; cruise ship|El crucero llegó al puerto de Cozumel.|The cruise ship arrived at the port of Cozumel.
+CULTURA|noun|culture|La música forma parte de nuestra cultura.|Music is part of our culture.
+DERECHO|noun|right (entitlement)|La educación es un derecho de todos.|Education is everyone's right.
+DEPORTE|noun|sport|El fútbol es mi deporte favorito.|Soccer is my favorite sport.
+DALO|exploratory|give it (informal singular command: da + lo)|Dalo a quien lo necesite.|Give it to whoever needs it.
+LAMO|exploratory|I lick; present form of lamer|Lamo la paleta antes de que se derrita.|I lick the ice pop before it melts.
+CORLA|exploratory|varnishes; present form of specialist corlar|El artesano corla el metal para darle brillo.|The artisan varnishes the metal to give it a shine.
+CAREA|exploratory|compares; collates; present form of carear|La correctora carea las dos versiones del texto.|The proofreader compares the two versions of the text.
+LACRO|exploratory|I seal; present form of lacrar|Lacro el sobre antes de enviarlo.|I seal the envelope before sending it.
+CORLE|exploratory|(that he/she) varnishes; subjunctive of specialist corlar|El restaurador pide que el artesano corle la pieza de metal.|The restorer asks the artisan to varnish the metal piece.
+RALEO|exploratory|I thin out (plants); present form of ralear|Raleo las plántulas para dejarles espacio.|I thin out the seedlings to give them room.
+CONREA|exploratory|cultivates; present form of uncommon conrear|Ejemplo inventado con un verbo poco usado: «El campesino conrea la tierra».|Invented example with an uncommon verb: “The farmer cultivates the land.”
+COBREN|exploratory|(that they) charge; subjunctive of cobrar|Espero que no me cobren de más.|I hope they do not overcharge me.
+CIERNO|exploratory|I sift; present form of cerner|Cierno la harina antes de hacer el pastel.|I sift the flour before making the cake.
+COBRAN|exploratory|they charge; present form of cobrar|En esa tienda cobran diez pesos por la bolsa.|At that shop, they charge ten pesos for the bag.
+CORNEA|exploratory|gores; present form of cornear|El documental muestra cómo un toro cornea un tronco.|The documentary shows a bull goring a tree trunk.
+CRETINO|exploratory|idiot (insult; derogatory)|No está bien llamar cretino a alguien.|It is not right to call someone an idiot.
+CRUENTO|exploratory|bloody (describing violence)|El libro describe un conflicto cruento.|The book describes a bloody conflict.
+CETRINO|exploratory|yellow-green; sallow|El pintor eligió un tono cetrino para el fondo.|The painter chose a yellowish-green shade for the background.
+CINTERO|exploratory|ribbon maker or seller (uncommon trade term)|El museo explica el antiguo oficio de cintero.|The museum explains the old trade of making or selling ribbons.
+APRENDA|exploratory|(that he/she) learns; present subjunctive of aprender|Quiero que mi hijo aprenda a nadar.|I want my son to learn to swim.

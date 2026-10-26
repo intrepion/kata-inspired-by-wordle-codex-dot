@@ -1,0 +1,902 @@
+[
+  {
+    "word": "SACARSE",
+    "translation": "to take out of oneself",
+    "example": "Necesita sacarse una espina del dedo.",
+    "exampleTranslation": "She needs to take a splinter out of her finger."
+  },
+  {
+    "word": "SACO",
+    "translation": "sack",
+    "example": "Llenó un saco de maíz.",
+    "exampleTranslation": "He filled a sack with corn."
+  },
+  {
+    "word": "SAGA",
+    "translation": "saga; story series",
+    "example": "La saga cuenta la historia de una familia.",
+    "exampleTranslation": "The saga tells a family's story."
+  },
+  {
+    "word": "SAGRADO",
+    "translation": "sacred",
+    "example": "El lugar es sagrado para la comunidad.",
+    "exampleTranslation": "The place is sacred to the community."
+  },
+  {
+    "word": "SALADO",
+    "translation": "salty",
+    "example": "El caldo está salado.",
+    "exampleTranslation": "The broth is salty."
+  },
+  {
+    "word": "SALARIO",
+    "translation": "wages; salary",
+    "example": "El salario se paga cada quincena.",
+    "exampleTranslation": "Wages are paid twice a month."
+  },
+  {
+    "word": "SALDO",
+    "translation": "account balance",
+    "example": "Consultó el saldo de su cuenta.",
+    "exampleTranslation": "She checked her account balance."
+  },
+  {
+    "word": "SALE",
+    "translation": "okay; agreed",
+    "example": "Sale, nos vemos a las cinco.",
+    "exampleTranslation": "Okay, see you at five."
+  },
+  {
+    "word": "SALIDA",
+    "translation": "exit; departure",
+    "example": "La salida del tren será a las seis.",
+    "exampleTranslation": "The train's departure will be at six."
+  },
+  {
+    "word": "SALIR",
+    "translation": "to go out",
+    "example": "Vamos a salir al patio.",
+    "exampleTranslation": "We are going out to the courtyard."
+  },
+  {
+    "word": "SALIRSE",
+    "translation": "to go out; to leave",
+    "example": "El gato intentó salirse por la ventana.",
+    "exampleTranslation": "The cat tried to get out through the window."
+  },
+  {
+    "word": "SALIVA",
+    "translation": "saliva",
+    "example": "La saliva ayuda a digerir los alimentos.",
+    "exampleTranslation": "Saliva helps digest food."
+  },
+  {
+    "word": "SALMÓN",
+    "translation": "salmon",
+    "example": "El salmón nadó río arriba.",
+    "exampleTranslation": "The salmon swam upstream."
+  },
+  {
+    "word": "SALSA",
+    "translation": "sauce",
+    "example": "La salsa acompaña los tacos.",
+    "exampleTranslation": "The sauce accompanies the tacos."
+  },
+  {
+    "word": "SALTAR",
+    "translation": "to jump",
+    "example": "El perro puede saltar la cerca.",
+    "exampleTranslation": "The dog can jump over the fence."
+  },
+  {
+    "word": "SALTO",
+    "translation": "jump",
+    "example": "Dio un salto de alegría.",
+    "exampleTranslation": "She jumped for joy."
+  },
+  {
+    "word": "SALUD",
+    "translation": "health",
+    "example": "El descanso favorece la salud.",
+    "exampleTranslation": "Rest benefits health."
+  },
+  {
+    "word": "SALUDA",
+    "translation": "formal greeting note",
+    "example": "La directora envió un saluda a los invitados.",
+    "exampleTranslation": "The director sent the guests a formal greeting note."
+  },
+  {
+    "word": "SALUDAR",
+    "translation": "to greet",
+    "example": "Salió a saludar a sus vecinos.",
+    "exampleTranslation": "She went out to greet her neighbors."
+  },
+  {
+    "word": "SALUDO",
+    "translation": "greeting",
+    "example": "Nos recibió con un saludo amable.",
+    "exampleTranslation": "He welcomed us with a friendly greeting."
+  },
+  {
+    "word": "SALUDOS",
+    "translation": "regards; farewell",
+    "example": "Saludos, nos vemos pronto.",
+    "exampleTranslation": "Regards, see you soon."
+  },
+  {
+    "word": "SALVA",
+    "translation": "gun salute",
+    "example": "La salva marcó el inicio de la ceremonia.",
+    "exampleTranslation": "The gun salute marked the ceremony's beginning."
+  },
+  {
+    "word": "SALVADO",
+    "translation": "bran",
+    "example": "El pan contiene salvado de trigo.",
+    "exampleTranslation": "The bread contains wheat bran."
+  },
+  {
+    "word": "SALVAJE",
+    "translation": "wild",
+    "example": "El animal salvaje regresó al bosque.",
+    "exampleTranslation": "The wild animal returned to the forest."
+  },
+  {
+    "word": "SALVAR",
+    "translation": "to save; to rescue",
+    "example": "Intentaron salvar al perro del río.",
+    "exampleTranslation": "They tried to save the dog from the river."
+  },
+  {
+    "word": "SALVE",
+    "translation": "prayer to the Virgin Mary",
+    "example": "El coro cantó la salve.",
+    "exampleTranslation": "The choir sang the prayer to the Virgin Mary."
+  },
+  {
+    "word": "SALVO",
+    "translation": "safe; out of danger",
+    "example": "El viajero quedó a salvo.",
+    "exampleTranslation": "The traveler was safe."
+  },
+  {
+    "word": "SALÓN",
+    "translation": "large room; hall",
+    "example": "El salón tiene ventanas grandes.",
+    "exampleTranslation": "The hall has large windows."
+  },
+  {
+    "word": "SANCHO",
+    "translation": "pig",
+    "example": "El sancho comía junto al corral.",
+    "exampleTranslation": "The pig was eating beside the pen."
+  },
+  {
+    "word": "SANCIÓN",
+    "translation": "penalty",
+    "example": "La infracción recibió una sanción.",
+    "exampleTranslation": "The violation incurred a penalty."
+  },
+  {
+    "word": "SANGRE",
+    "translation": "blood",
+    "example": "La sangre transporta oxígeno.",
+    "exampleTranslation": "Blood transports oxygen."
+  },
+  {
+    "word": "SANIDAD",
+    "translation": "soundness; health",
+    "example": "Revisaron la sanidad del ganado.",
+    "exampleTranslation": "They checked the livestock's health."
+  },
+  {
+    "word": "SANO",
+    "translation": "healthy",
+    "example": "El perro está sano.",
+    "exampleTranslation": "The dog is healthy."
+  },
+  {
+    "word": "SANTO",
+    "translation": "holy; sacred",
+    "example": "El recinto santo recibe peregrinos.",
+    "exampleTranslation": "The holy precinct welcomes pilgrims."
+  },
+  {
+    "word": "SAPO",
+    "translation": "toad",
+    "example": "El sapo saltó entre las hojas.",
+    "exampleTranslation": "The toad jumped among the leaves."
+  },
+  {
+    "word": "SAQUE",
+    "translation": "serve",
+    "example": "El saque cruzó la red.",
+    "exampleTranslation": "The serve crossed the net."
+  },
+  {
+    "word": "SAQUEO",
+    "translation": "looting",
+    "example": "El saqueo dejó vacíos los almacenes.",
+    "exampleTranslation": "The looting left the warehouses empty."
+  },
+  {
+    "word": "SAUDITA",
+    "translation": "Saudi",
+    "example": "La delegación saudita llegó ayer.",
+    "exampleTranslation": "The Saudi delegation arrived yesterday."
+  },
+  {
+    "word": "SECA",
+    "translation": "dry season; drought",
+    "example": "La seca redujo el nivel del río.",
+    "exampleTranslation": "The drought lowered the river's level."
+  },
+  {
+    "word": "SECCIÓN",
+    "translation": "section; division",
+    "example": "Esta sección del informe resume los resultados.",
+    "exampleTranslation": "This section of the report summarizes the results."
+  },
+  {
+    "word": "SECO",
+    "translation": "dry",
+    "example": "El suelo está seco.",
+    "exampleTranslation": "The soil is dry."
+  },
+  {
+    "word": "SECRETO",
+    "translation": "secret",
+    "example": "El plan sigue siendo secreto.",
+    "exampleTranslation": "The plan is still secret."
+  },
+  {
+    "word": "SECTA",
+    "translation": "religious sect",
+    "example": "La secta surgió de una doctrina anterior.",
+    "exampleTranslation": "The sect arose from an earlier doctrine."
+  },
+  {
+    "word": "SECTOR",
+    "translation": "sector; group",
+    "example": "Ese sector de la población necesita apoyo.",
+    "exampleTranslation": "That sector of the population needs support."
+  },
+  {
+    "word": "SECUELA",
+    "translation": "aftereffect",
+    "example": "La lesión dejó una secuela leve.",
+    "exampleTranslation": "The injury left a mild aftereffect."
+  },
+  {
+    "word": "SECULAR",
+    "translation": "centuries-old; lasting centuries",
+    "example": "La tradición secular sigue viva.",
+    "exampleTranslation": "The centuries-old tradition lives on."
+  },
+  {
+    "word": "SEDA",
+    "translation": "silk",
+    "example": "La bufanda es de seda.",
+    "exampleTranslation": "The scarf is made of silk."
+  },
+  {
+    "word": "SEDE",
+    "translation": "headquarters",
+    "example": "La sede de la organización está en Puebla.",
+    "exampleTranslation": "The organization's headquarters are in Puebla."
+  },
+  {
+    "word": "SEGUIDA",
+    "translation": "right away; in en seguida",
+    "example": "Regreso en seguida.",
+    "exampleTranslation": "I will be back right away."
+  },
+  {
+    "word": "SEGUIDO",
+    "translation": "often",
+    "example": "Nos vemos seguido en la plaza.",
+    "exampleTranslation": "We often see each other in the square."
+  },
+  {
+    "word": "SEGUIR",
+    "translation": "to follow",
+    "example": "El niño quiso seguir a su madre.",
+    "exampleTranslation": "The boy wanted to follow his mother."
+  },
+  {
+    "word": "SEGUNDA",
+    "translation": "second-class category",
+    "example": "Viajamos en segunda para ahorrar.",
+    "exampleTranslation": "We traveled second class to save money."
+  },
+  {
+    "word": "SEGUNDO",
+    "translation": "second",
+    "example": "Terminó en segundo lugar.",
+    "exampleTranslation": "He finished in second place."
+  },
+  {
+    "word": "SEGURO",
+    "translation": "safe",
+    "example": "El camino es seguro.",
+    "exampleTranslation": "The road is safe."
+  },
+  {
+    "word": "SEGÚN",
+    "translation": "according to",
+    "example": "Según el mapa, falta poco.",
+    "exampleTranslation": "According to the map, we are almost there."
+  },
+  {
+    "word": "SEIS",
+    "translation": "six",
+    "example": "Compré seis manzanas.",
+    "exampleTranslation": "I bought six apples."
+  },
+  {
+    "word": "SELLO",
+    "translation": "stamp; stamping device",
+    "example": "El sello dejó una marca azul.",
+    "exampleTranslation": "The stamp left a blue mark."
+  },
+  {
+    "word": "SELVA",
+    "translation": "rainforest; jungle",
+    "example": "La selva alberga muchas especies.",
+    "exampleTranslation": "The rainforest shelters many species."
+  },
+  {
+    "word": "SEMANA",
+    "translation": "week",
+    "example": "La semana pasó rápido.",
+    "exampleTranslation": "The week went by quickly."
+  },
+  {
+    "word": "SEMANAL",
+    "translation": "weekly",
+    "example": "El mercado semanal abre los jueves.",
+    "exampleTranslation": "The weekly market opens on Thursdays."
+  },
+  {
+    "word": "SEMBRAR",
+    "translation": "to sow",
+    "example": "Vamos a sembrar frijol.",
+    "exampleTranslation": "We are going to sow beans."
+  },
+  {
+    "word": "SEMEN",
+    "translation": "semen",
+    "example": "El laboratorio analizó una muestra de semen.",
+    "exampleTranslation": "The laboratory analyzed a semen sample."
+  },
+  {
+    "word": "SEMILLA",
+    "translation": "seed",
+    "example": "La semilla necesita humedad.",
+    "exampleTranslation": "The seed needs moisture."
+  },
+  {
+    "word": "SENADO",
+    "translation": "senate",
+    "example": "El senado debatió la propuesta.",
+    "exampleTranslation": "The senate debated the proposal."
+  },
+  {
+    "word": "SENADOR",
+    "translation": "senator",
+    "example": "El senador presentó una iniciativa.",
+    "exampleTranslation": "The senator introduced a bill."
+  },
+  {
+    "word": "SENDA",
+    "translation": "narrow path",
+    "example": "La senda conduce al arroyo.",
+    "exampleTranslation": "The narrow path leads to the stream."
+  },
+  {
+    "word": "SENDERO",
+    "translation": "trail",
+    "example": "Seguimos el sendero hasta el bosque.",
+    "exampleTranslation": "We followed the trail to the forest."
+  },
+  {
+    "word": "SENO",
+    "translation": "cavity; sinus",
+    "example": "El seno maxilar estaba inflamado.",
+    "exampleTranslation": "The maxillary sinus was inflamed."
+  },
+  {
+    "word": "SENSATO",
+    "translation": "sensible",
+    "example": "Su consejo fue sensato.",
+    "exampleTranslation": "His advice was sensible."
+  },
+  {
+    "word": "SENSUAL",
+    "translation": "sensual",
+    "example": "La música crea un ambiente sensual.",
+    "exampleTranslation": "The music creates a sensual atmosphere."
+  },
+  {
+    "word": "SENTADA",
+    "translation": "one sitting",
+    "example": "Leyó el cuento de una sentada.",
+    "exampleTranslation": "She read the story in one sitting."
+  },
+  {
+    "word": "SENTADO",
+    "translation": "seated",
+    "example": "El niño está sentado junto a la ventana.",
+    "exampleTranslation": "The boy is seated beside the window."
+  },
+  {
+    "word": "SENTAR",
+    "translation": "to seat",
+    "example": "Vamos a sentar a los invitados aquí.",
+    "exampleTranslation": "We are going to seat the guests here."
+  },
+  {
+    "word": "SENTIDO",
+    "translation": "heartfelt",
+    "example": "Le dio un abrazo sentido.",
+    "exampleTranslation": "She gave him a heartfelt hug."
+  },
+  {
+    "word": "SENTIR",
+    "translation": "to feel",
+    "example": "Puedo sentir el calor del sol.",
+    "exampleTranslation": "I can feel the sun's warmth."
+  },
+  {
+    "word": "SEPARAR",
+    "translation": "to separate",
+    "example": "Debes separar el papel del plástico.",
+    "exampleTranslation": "You should separate paper from plastic."
+  },
+  {
+    "word": "SEQUÍA",
+    "translation": "drought",
+    "example": "La sequía afectó la cosecha.",
+    "exampleTranslation": "The drought affected the harvest."
+  },
+  {
+    "word": "SERBIO",
+    "translation": "Serbian",
+    "example": "El escritor serbio visitó la feria.",
+    "exampleTranslation": "The Serbian writer visited the fair."
+  },
+  {
+    "word": "SERIE",
+    "translation": "series",
+    "example": "La serie de ejercicios aumenta en dificultad.",
+    "exampleTranslation": "The series of exercises increases in difficulty."
+  },
+  {
+    "word": "SERIO",
+    "translation": "serious",
+    "example": "Mantuvo un gesto serio.",
+    "exampleTranslation": "He kept a serious expression."
+  },
+  {
+    "word": "SERMÓN",
+    "translation": "sermon",
+    "example": "El sermón trató sobre la generosidad.",
+    "exampleTranslation": "The sermon addressed generosity."
+  },
+  {
+    "word": "SERRANO",
+    "translation": "from the mountains",
+    "example": "El pueblo serrano conserva sus tradiciones.",
+    "exampleTranslation": "The mountain town preserves its traditions."
+  },
+  {
+    "word": "SERVIR",
+    "translation": "to be useful; to serve",
+    "example": "Esta caja puede servir de mesa.",
+    "exampleTranslation": "This box can serve as a table."
+  },
+  {
+    "word": "SESENTA",
+    "translation": "sixty",
+    "example": "Esperamos sesenta minutos.",
+    "exampleTranslation": "We waited sixty minutes."
+  },
+  {
+    "word": "SESIÓN",
+    "translation": "session",
+    "example": "La sesión terminó temprano.",
+    "exampleTranslation": "The session ended early."
+  },
+  {
+    "word": "SETENTA",
+    "translation": "seventy",
+    "example": "El autobús lleva setenta pasajeros.",
+    "exampleTranslation": "The bus carries seventy passengers."
+  },
+  {
+    "word": "SEVERO",
+    "translation": "strict; harsh",
+    "example": "El maestro severo exigió silencio.",
+    "exampleTranslation": "The strict teacher demanded silence."
+  },
+  {
+    "word": "SEXO",
+    "translation": "biological sex",
+    "example": "El sexo del ave se determinó durante la revisión.",
+    "exampleTranslation": "The bird's sex was determined during the examination."
+  },
+  {
+    "word": "SEXTA",
+    "translation": "sixth gear",
+    "example": "El conductor cambió a sexta.",
+    "exampleTranslation": "The driver shifted into sixth gear."
+  },
+  {
+    "word": "SEXTO",
+    "translation": "sixth",
+    "example": "Hoy es el sexto día del curso.",
+    "exampleTranslation": "Today is the sixth day of the course."
+  },
+  {
+    "word": "SEXUAL",
+    "translation": "sexual",
+    "example": "La educación sexual responde preguntas sobre el cuerpo.",
+    "exampleTranslation": "Sex education answers questions about the body."
+  },
+  {
+    "word": "SEÑAL",
+    "translation": "sign; mark",
+    "example": "La señal roja indica peligro.",
+    "exampleTranslation": "The red sign indicates danger."
+  },
+  {
+    "word": "SEÑALAR",
+    "translation": "to mark; to point out",
+    "example": "Puedes señalar el lugar en el mapa.",
+    "exampleTranslation": "You can mark the place on the map."
+  },
+  {
+    "word": "SEÑOR",
+    "translation": "man; respectful address",
+    "example": "El señor preguntó por la dirección.",
+    "exampleTranslation": "The man asked for the address."
+  },
+  {
+    "word": "SEÑORA",
+    "translation": "ma'am; adult woman",
+    "example": "La señora espera su turno.",
+    "exampleTranslation": "The woman is waiting her turn."
+  },
+  {
+    "word": "SEÑORÍA",
+    "translation": "Your Honor",
+    "example": "Su señoría escuchó al testigo.",
+    "exampleTranslation": "His Honor listened to the witness."
+  },
+  {
+    "word": "SHOW",
+    "translation": "show",
+    "example": "El show comienza a las ocho.",
+    "exampleTranslation": "The show starts at eight."
+  },
+  {
+    "word": "SIDA",
+    "translation": "AIDS",
+    "example": "El folleto explica cómo prevenir el sida.",
+    "exampleTranslation": "The leaflet explains how to prevent AIDS."
+  },
+  {
+    "word": "SIEMBRA",
+    "translation": "sowing",
+    "example": "La siembra empieza con las lluvias.",
+    "exampleTranslation": "Sowing begins with the rains."
+  },
+  {
+    "word": "SIEMPRE",
+    "translation": "always",
+    "example": "Siempre llevo agua al caminar.",
+    "exampleTranslation": "I always carry water when walking."
+  },
+  {
+    "word": "SIERRA",
+    "translation": "saw",
+    "example": "Cortó la tabla con una sierra.",
+    "exampleTranslation": "He cut the board with a saw."
+  },
+  {
+    "word": "SIESTA",
+    "translation": "nap",
+    "example": "Dormí una siesta después de comer.",
+    "exampleTranslation": "I took a nap after eating."
+  },
+  {
+    "word": "SIETE",
+    "translation": "seven",
+    "example": "La semana tiene siete días.",
+    "exampleTranslation": "A week has seven days."
+  },
+  {
+    "word": "SIGLO",
+    "translation": "century",
+    "example": "La casa tiene un siglo de antigüedad.",
+    "exampleTranslation": "The house is a century old."
+  },
+  {
+    "word": "SIGNO",
+    "translation": "sign; indication",
+    "example": "La fiebre puede ser un signo de infección.",
+    "exampleTranslation": "Fever can be a sign of infection."
+  },
+  {
+    "word": "SILLÓN",
+    "translation": "armchair",
+    "example": "El abuelo lee en su sillón.",
+    "exampleTranslation": "Grandfather reads in his armchair."
+  },
+  {
+    "word": "SILVA",
+    "translation": "Spanish verse form",
+    "example": "El poema está escrito en silva.",
+    "exampleTranslation": "The poem is written in the Spanish silva verse form."
+  },
+  {
+    "word": "SIMILAR",
+    "translation": "similar",
+    "example": "Encontré una solución similar.",
+    "exampleTranslation": "I found a similar solution."
+  },
+  {
+    "word": "SIMPLE",
+    "translation": "simple",
+    "example": "El ejercicio parece simple.",
+    "exampleTranslation": "The exercise seems simple."
+  },
+  {
+    "word": "SINCERO",
+    "translation": "sincere; honest",
+    "example": "Su comentario fue sincero.",
+    "exampleTranslation": "Her comment was sincere."
+  },
+  {
+    "word": "SINO",
+    "translation": "but rather",
+    "example": "No compré pan, sino tortillas.",
+    "exampleTranslation": "I did not buy bread, but rather tortillas."
+  },
+  {
+    "word": "SIRENA",
+    "translation": "mermaid",
+    "example": "La sirena del cuento vivía en el mar.",
+    "exampleTranslation": "The mermaid in the story lived in the sea."
+  },
+  {
+    "word": "SIRIO",
+    "translation": "Syrian",
+    "example": "El artista sirio expuso sus fotografías.",
+    "exampleTranslation": "The Syrian artist exhibited his photographs."
+  },
+  {
+    "word": "SISMO",
+    "translation": "earthquake",
+    "example": "El sismo se sintió en la ciudad.",
+    "exampleTranslation": "The earthquake was felt in the city."
+  },
+  {
+    "word": "SISTEMA",
+    "translation": "system",
+    "example": "El sistema conecta todas las oficinas.",
+    "exampleTranslation": "The system connects all the offices."
+  },
+  {
+    "word": "SITIO",
+    "translation": "place; location",
+    "example": "Encontramos un sitio tranquilo.",
+    "exampleTranslation": "We found a quiet place."
+  },
+  {
+    "word": "SOBRA",
+    "translation": "surplus; excess",
+    "example": "Esa silla está de sobra.",
+    "exampleTranslation": "That chair is surplus to requirements."
+  },
+  {
+    "word": "SOBRE",
+    "translation": "on; above",
+    "example": "El libro está sobre la mesa.",
+    "exampleTranslation": "The book is on the table."
+  },
+  {
+    "word": "SOBRINA",
+    "translation": "niece",
+    "example": "Mi sobrina estudia música.",
+    "exampleTranslation": "My niece studies music."
+  },
+  {
+    "word": "SOBRINO",
+    "translation": "nephew",
+    "example": "Su sobrino vive cerca.",
+    "exampleTranslation": "Her nephew lives nearby."
+  },
+  {
+    "word": "SOCIAL",
+    "translation": "social",
+    "example": "El proyecto tiene un objetivo social.",
+    "exampleTranslation": "The project has a social goal."
+  },
+  {
+    "word": "SOCIO",
+    "translation": "member",
+    "example": "Cada socio puede votar.",
+    "exampleTranslation": "Each member can vote."
+  },
+  {
+    "word": "SOCORRO",
+    "translation": "help; aid",
+    "example": "Llegaron equipos de socorro.",
+    "exampleTranslation": "Rescue teams arrived."
+  },
+  {
+    "word": "SODA",
+    "translation": "soda water",
+    "example": "Pidió soda con limón.",
+    "exampleTranslation": "She ordered soda water with lime."
+  },
+  {
+    "word": "SODIO",
+    "translation": "sodium",
+    "example": "La sal contiene sodio.",
+    "exampleTranslation": "Salt contains sodium."
+  },
+  {
+    "word": "SOFÁ",
+    "translation": "sofa",
+    "example": "Nos sentamos en el sofá.",
+    "exampleTranslation": "We sat on the sofa."
+  },
+  {
+    "word": "SOJA",
+    "translation": "soybean plant",
+    "example": "La soja crece en ese terreno.",
+    "exampleTranslation": "Soybeans grow on that land."
+  },
+  {
+    "word": "SOLANO",
+    "translation": "east wind",
+    "example": "El solano sopló toda la tarde.",
+    "exampleTranslation": "The east wind blew all afternoon."
+  },
+  {
+    "word": "SOLAR",
+    "translation": "solar",
+    "example": "La energía solar alimenta la bomba.",
+    "exampleTranslation": "Solar energy powers the pump."
+  },
+  {
+    "word": "SOLDADO",
+    "translation": "soldier",
+    "example": "El soldado ayudó durante la inundación.",
+    "exampleTranslation": "The soldier helped during the flood."
+  },
+  {
+    "word": "SOLEDAD",
+    "translation": "loneliness; solitude",
+    "example": "La soledad le pesaba por las noches.",
+    "exampleTranslation": "Loneliness weighed on her at night."
+  },
+  {
+    "word": "SOLEMNE",
+    "translation": "solemn; ceremonial",
+    "example": "La ceremonia solemne llenó la plaza.",
+    "exampleTranslation": "The solemn ceremony filled the square."
+  },
+  {
+    "word": "SOLISTA",
+    "translation": "soloist",
+    "example": "La solista interpretó una pieza breve.",
+    "exampleTranslation": "The soloist performed a short piece."
+  },
+  {
+    "word": "SOLO",
+    "translation": "alone",
+    "example": "El viajero estaba solo.",
+    "exampleTranslation": "The traveler was alone."
+  },
+  {
+    "word": "SOLTAR",
+    "translation": "to release; to let go",
+    "example": "Puedes soltar la cuerda.",
+    "exampleTranslation": "You can let go of the rope."
+  },
+  {
+    "word": "SOLTERO",
+    "translation": "unmarried; single",
+    "example": "Mi hermano sigue soltero.",
+    "exampleTranslation": "My brother is still unmarried."
+  },
+  {
+    "word": "SOMBRA",
+    "translation": "shade; shadow",
+    "example": "Descansamos a la sombra del árbol.",
+    "exampleTranslation": "We rested in the tree's shade."
+  },
+  {
+    "word": "SOMETER",
+    "translation": "to subdue",
+    "example": "Intentaron someter al pueblo por la fuerza.",
+    "exampleTranslation": "They tried to subdue the people by force."
+  },
+  {
+    "word": "SONAR",
+    "translation": "to sound; to ring",
+    "example": "La campana empezó a sonar.",
+    "exampleTranslation": "The bell began to ring."
+  },
+  {
+    "word": "SONDA",
+    "translation": "depth-sounding device",
+    "example": "La sonda midió la profundidad del agua.",
+    "exampleTranslation": "The sounding device measured the water's depth."
+  },
+  {
+    "word": "SONIDO",
+    "translation": "sound",
+    "example": "El sonido del agua nos relajó.",
+    "exampleTranslation": "The sound of water relaxed us."
+  },
+  {
+    "word": "SONRISA",
+    "translation": "smile",
+    "example": "Nos recibió con una sonrisa.",
+    "exampleTranslation": "She welcomed us with a smile."
+  },
+  {
+    "word": "SOPORTE",
+    "translation": "support",
+    "example": "El soporte mantiene firme la pantalla.",
+    "exampleTranslation": "The support holds the screen steady."
+  },
+  {
+    "word": "SORDO",
+    "translation": "deaf",
+    "example": "El estudiante sordo usa lengua de señas.",
+    "exampleTranslation": "The deaf student uses sign language."
+  },
+  {
+    "word": "SORTEO",
+    "translation": "drawing; raffle",
+    "example": "El sorteo será mañana.",
+    "exampleTranslation": "The drawing will be tomorrow."
+  },
+  {
+    "word": "SOÑAR",
+    "translation": "to dream",
+    "example": "Volvió a soñar con el mar.",
+    "exampleTranslation": "She dreamed about the sea again."
+  },
+  {
+    "word": "SUAVE",
+    "translation": "soft; smooth",
+    "example": "La tela es suave al tacto.",
+    "exampleTranslation": "The fabric feels soft."
+  },
+  {
+    "word": "SUBASTA",
+    "translation": "auction",
+    "example": "La subasta empezó con una pintura.",
+    "exampleTranslation": "The auction began with a painting."
+  },
+  {
+    "word": "SUBIDA",
+    "translation": "ascent; climb",
+    "example": "La subida fue lenta.",
+    "exampleTranslation": "The climb was slow."
+  },
+  {
+    "word": "SUBIR",
+    "translation": "to go up",
+    "example": "Vamos a subir al mirador.",
+    "exampleTranslation": "We are going to go up to the lookout."
+  }
+]

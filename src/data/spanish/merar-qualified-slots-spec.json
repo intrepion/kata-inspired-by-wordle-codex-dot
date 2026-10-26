@@ -1,0 +1,1508 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "Independent model source/English-inflection review, not native-human certification. Separate proposed exact binding for Standards review; not an active policy amendment.",
+  "sourcePins": {
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "spanishManifestSha256": "1fe0edb67fc2ea0be8206be2ee92bafa6ccb388bcc4fc0942da3e81c12cbbc3c",
+    "spanishCandidateSha256": "ea944b42d27f740934de308bbc3414bf52037b28292deb4b1bd6af3a2feaf886",
+    "spanishEvidenceSha256": "a679ad80315a6ca21739b8a2b2dc791717c68dd0803c92a8c3a414690da758e4",
+    "dualApprovalSha256": "bd2845fd66809184dd2d88ce53c7d9f7e7e2abac09f370f500b35e1ad871d119",
+    "existingReviewHashes": {
+      "spanish-derived-review-spec.json": "9135b58eadbced7ea0a999565a5776f8c65ee1ab8f00396828842ee985633819",
+      "spanish-derived-review-standards.json": "471755d7e52a2285a33779ce5854433c2c7a9955e28bddf365a2f779dd135833"
+    },
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "spanishLexicalLicense": "CC-BY-SA-4.0",
+    "agidLicense": "Separate permissive original AGID notices; not GPL because of its containing directory."
+  },
+  "approved": [
+    {
+      "spanish": "merar",
+      "sourceKind": "reviewed-spanish",
+      "partOfSpeech": "verb",
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "Llegar a su final la vida de uno."
+        ],
+        "tags": [
+          "slang"
+        ],
+        "sense_index": "2"
+      },
+      "sourceSenseKey": "{\"glosses\": [\"Llegar a su final la vida de uno.\"], \"sense_index\": \"2\", \"tags\": [\"slang\"]}",
+      "frame": "die",
+      "englishHead": "die",
+      "existingEffectiveProfile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a person's life ends; reach the end of life; slang",
+      "approvedSlots": {
+        "past": [
+          "died"
+        ],
+        "pastParticiple": [
+          "died"
+        ],
+        "gerund": [
+          "dying"
+        ],
+        "thirdPersonSingular": [
+          "dies"
+        ]
+      },
+      "slotEvidence": {
+        "past": {
+          "rawSlotIndex": 0,
+          "rawSlot": "died",
+          "selectedRawTokens": [
+            "died"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "pastParticiple": {
+          "rawSlotIndex": 0,
+          "rawSlot": "died",
+          "selectedRawTokens": [
+            "died"
+          ],
+          "sharedPastAndParticipleSlot": true
+        },
+        "gerund": {
+          "rawSlotIndex": 1,
+          "rawSlot": "dying {expire}, dieing {shape}",
+          "selectedRawTokens": [
+            "dying {expire}"
+          ],
+          "sharedPastAndParticipleSlot": false
+        },
+        "thirdPersonSingular": {
+          "rawSlotIndex": 2,
+          "rawSlot": "dies",
+          "selectedRawTokens": [
+            "dies"
+          ],
+          "sharedPastAndParticipleSlot": false
+        }
+      },
+      "withheldSlots": {},
+      "agidRawLine": "die V: died | dying {expire}, dieing {shape} | dies",
+      "agidLineSha256": "f69a89bcacd52d0b6a8091eb2226dff03cc81e2c799b35f4ce5a269ef1f25a53",
+      "candidateWords": [
+        "MERABA",
+        "MERABAN",
+        "MERABAS",
+        "MERAMOS",
+        "MERAN",
+        "MERARA",
+        "MERARAN",
+        "MERARAS",
+        "MERARE",
+        "MERAREN",
+        "MERARES",
+        "MERARON",
+        "MERARÁ",
+        "MERARÁN",
+        "MERARÁS",
+        "MERARÉ",
+        "MERARÍA",
+        "MERASE",
+        "MERASEN",
+        "MERASES",
+        "MERASTE",
+        "MEREMOS",
+        "MEREN",
+        "MERES",
+        "MERÉ",
+        "MERÓ"
+      ],
+      "notes": "Exact selected Spanish intransitive slang sense means a person reaches the end of life. Thus AGID expire qualifier applies; dieing {shape} is excluded. Existing progressive approval supports a selected ongoing dying reading, not state-past or blanket habitual used to."
+    }
+  ],
+  "sourceProof": {
+    "selectedSpanishRow": {
+      "word": "merar",
+      "pos": "verb",
+      "wordTags": [
+        "intransitive"
+      ],
+      "wordRawTags": [],
+      "categories": [
+        "ES:Lemas",
+        "ES:Palabras agudas",
+        "ES:Palabras bisílabas",
+        "ES:Palabras de etimología sin precisar",
+        "ES:Páginas sin audios",
+        "ES:Rimas:aɾ",
+        "ES:Verbos",
+        "ES:Verbos de la primera conjugación",
+        "ES:Verbos del paradigma amar",
+        "ES:Verbos intransitivos",
+        "ES:Verbos regulares",
+        "Español",
+        "Lemas"
+      ],
+      "senses": [
+        {
+          "glosses": [
+            "Llegar a su final la vida de uno."
+          ],
+          "tags": [
+            "slang"
+          ],
+          "sense_index": "2"
+        }
+      ],
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035"
+    },
+    "existingExactDualApproval": {
+      "spanish": "merar",
+      "partOfSpeech": "verb",
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035",
+      "senseIndex": 0,
+      "frame": "die",
+      "profile": "ordinary",
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "a person's life ends; reach the end of life; slang",
+      "reviewEvidence": [
+        {
+          "reviewer": "/root/review_spec",
+          "context": "a person's life ends",
+          "notes": "Slang source reading.",
+          "aspectModes": [
+            "progressive"
+          ]
+        },
+        {
+          "reviewer": "/root/review_standards",
+          "context": "reach the end of life; slang",
+          "notes": "Spanish source labels: intransitive, slang.",
+          "aspectModes": [
+            "progressive"
+          ]
+        }
+      ]
+    },
+    "formEvidence": [
+      {
+        "word": "MERABA",
+        "sourceWord": "meraba",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "406a579d08b6309ff3f1afae14ceed3dacba184fd3c05c3db9130952a5d880e1",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del pretérito imperfecto de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "imperfect",
+            "indicative"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del preterito imperfecto de indicativo"
+        }
+      },
+      {
+        "word": "MERABA",
+        "sourceWord": "meraba",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "406a579d08b6309ff3f1afae14ceed3dacba184fd3c05c3db9130952a5d880e1",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "imperfect",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito imperfecto de indicativo"
+        }
+      },
+      {
+        "word": "MERABAN",
+        "sourceWord": "meraban",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "cdd1ee78b0d5c47ad0b22871146a4e0c11aef2b0937103f2495e29e2570f7f67",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "imperfect",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del preterito imperfecto de indicativo"
+        }
+      },
+      {
+        "word": "MERABAS",
+        "sourceWord": "merabas",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "6bd9d8a66706cfb006cbc8cd371367dfc467875321e6d1205c1c93ce9398774b",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del pretérito imperfecto de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "imperfect",
+            "indicative"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del preterito imperfecto de indicativo"
+        }
+      },
+      {
+        "word": "MERAMOS",
+        "sourceWord": "meramos",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "49899ff23121171b04bc6b1b08635c8d24c6fb6c972f2fda12566929502d9f8a",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del plural (nosotros, nosotras) del presente de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "plural",
+            "present",
+            "indicative"
+          ],
+          "grammarPrefix": "primera persona del plural (nosotros, nosotras) del presente de indicativo"
+        }
+      },
+      {
+        "word": "MERAMOS",
+        "sourceWord": "meramos",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "49899ff23121171b04bc6b1b08635c8d24c6fb6c972f2fda12566929502d9f8a",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del plural (nosotros, nosotras) del pretérito perfecto simple de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "plural",
+            "preterite",
+            "indicative"
+          ],
+          "grammarPrefix": "primera persona del plural (nosotros, nosotras) del preterito perfecto simple de indicativo"
+        }
+      },
+      {
+        "word": "MERAN",
+        "sourceWord": "meran",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "f7ffd820f747d27298a9edaac0842c62592fa8633a6813098393cc6c6b84f2c0",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "present",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de indicativo"
+        }
+      },
+      {
+        "word": "MERARA",
+        "sourceWord": "merara",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "e3f0c40565b04eb8d5e72f8afcd9647355c74e0268cbb9f97560502700a98cc2",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARA",
+        "sourceWord": "merara",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "e3f0c40565b04eb8d5e72f8afcd9647355c74e0268cbb9f97560502700a98cc2",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARAN",
+        "sourceWord": "meraran",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "4272cdc86efab450cc058d97834ffc88e5fb65edae24442837b794a92ec74371",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARAS",
+        "sourceWord": "meraras",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "aa61620db18eecbae56b8e5855d4d203f924936313551b5e6664cf14c7052b88",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARE",
+        "sourceWord": "merare",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "452814d09e8226e5bf6acc72a59f4d6976e774d2388663bdfd9cc49da4ffa4b4",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del futuro de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "future",
+            "subjunctive"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del futuro de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARE",
+        "sourceWord": "merare",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "452814d09e8226e5bf6acc72a59f4d6976e774d2388663bdfd9cc49da4ffa4b4",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del futuro de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "future",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del futuro de subjuntivo"
+        }
+      },
+      {
+        "word": "MERAREN",
+        "sourceWord": "meraren",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "f7532fea5fed06af00f388914bb40cf3c7eb7e5b7cad754d8b1d09edbaf6e443",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "future",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARES",
+        "sourceWord": "merares",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "81104f6a61ea2994e9819009763d44655cb6976ebd606508f55db183f8756720",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del futuro de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "future",
+            "subjunctive"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del futuro de subjuntivo"
+        }
+      },
+      {
+        "word": "MERARON",
+        "sourceWord": "meraron",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "482d2a1396ba04a7ae08737d270e47ece909fe39b51415dac9a38b767cd1dae9",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito perfecto simple de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "preterite",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del preterito perfecto simple de indicativo"
+        }
+      },
+      {
+        "word": "MERARÁ",
+        "sourceWord": "merará",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "8c227aa6af6a01f293331b180996275fe4e3b02fb27ff20adb7f56ead680a9fe",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del futuro de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "future",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del futuro de indicativo"
+        }
+      },
+      {
+        "word": "MERARÁN",
+        "sourceWord": "merarán",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "e22c38f1700428d608ed3d811448ffbfd73346018d674b483ee1e0f57b8e2452",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "future",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del futuro de indicativo"
+        }
+      },
+      {
+        "word": "MERARÁS",
+        "sourceWord": "merarás",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "d6f8f4ef4f636492f5f527819eb13684fee6fee839cc29943502c98dcd75b367",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del futuro de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "future",
+            "indicative"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del futuro de indicativo"
+        }
+      },
+      {
+        "word": "MERARÉ",
+        "sourceWord": "meraré",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "a7d897dc2b1a76388123575bcab3267050a83f932d4527534296635413aa6ee4",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del futuro de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "future",
+            "indicative"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del futuro de indicativo"
+        }
+      },
+      {
+        "word": "MERARÍA",
+        "sourceWord": "meraría",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "91745810da206da3564c724824e7dd58b12a8a23b7557af20f41c9d3867b1cf1",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del condicional de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en condicional"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "conditional"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del condicional"
+        }
+      },
+      {
+        "word": "MERARÍA",
+        "sourceWord": "meraría",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "91745810da206da3564c724824e7dd58b12a8a23b7557af20f41c9d3867b1cf1",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del condicional de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en condicional"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "conditional"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del condicional"
+        }
+      },
+      {
+        "word": "MERASE",
+        "sourceWord": "merase",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "ecde0b83378a79979e29513eae2b4e19d9b568ca31d02cbee628e78a3db5e1b8",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERASE",
+        "sourceWord": "merase",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "ecde0b83378a79979e29513eae2b4e19d9b568ca31d02cbee628e78a3db5e1b8",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERASEN",
+        "sourceWord": "merasen",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "fef6f1655a6606d6a58f069b22cb0ac42922b0dc9b19f04a1d1b4d8215e59eef",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERASES",
+        "sourceWord": "merases",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "793fe2eb3164cb0baf43bfe40eebfc93b4f82ba28542a0573753aa81a9c691c8",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del pretérito imperfecto de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "imperfect",
+            "subjunctive"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del preterito imperfecto de subjuntivo"
+        }
+      },
+      {
+        "word": "MERASTE",
+        "sourceWord": "meraste",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "ee174a9b03f6c652b4231b699e549d2a99ff7bf64b160c3c48db8ff8b3b50832",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú, vos) del pretérito perfecto simple de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "voseo",
+            "second-person",
+            "singular",
+            "preterite",
+            "indicative"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu, vos) del preterito perfecto simple de indicativo"
+        }
+      },
+      {
+        "word": "MEREMOS",
+        "sourceWord": "meremos",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "d4782c1d31450cbb4f5afef5a08d595da756cb2740f2f72556e702c225ab8a11",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del plural (nosotros, nosotras) del imperativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en imperativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "plural",
+            "imperative"
+          ],
+          "grammarPrefix": "primera persona del plural (nosotros, nosotras) del imperativo",
+          "adapter": null
+        }
+      },
+      {
+        "word": "MEREMOS",
+        "sourceWord": "meremos",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "d4782c1d31450cbb4f5afef5a08d595da756cb2740f2f72556e702c225ab8a11",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del plural (nosotros, nosotras) del presente de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "plural",
+            "present",
+            "subjunctive"
+          ],
+          "grammarPrefix": "primera persona del plural (nosotros, nosotras) del presente de subjuntivo"
+        }
+      },
+      {
+        "word": "MEREN",
+        "sourceWord": "meren",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "f68c49834078888fac814369978757d06418b981651dcdb1ffd8be2fd2912408",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del plural (ustedes) del imperativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en imperativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "imperative"
+          ],
+          "grammarPrefix": "segunda persona del plural (ustedes) del imperativo",
+          "adapter": "semantic second-person ustedes command adapted to shared grammatical-third-person English command renderer"
+        }
+      },
+      {
+        "word": "MEREN",
+        "sourceWord": "meren",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "f68c49834078888fac814369978757d06418b981651dcdb1ffd8be2fd2912408",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "ustedes-address",
+            "third-person",
+            "plural",
+            "present",
+            "subjunctive"
+          ],
+          "grammarPrefix": "tercera persona del plural (ellos, ellas; ustedes, 2.ª persona) del presente de subjuntivo"
+        }
+      },
+      {
+        "word": "MERES",
+        "sourceWord": "meres",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "6c3b5a28fb462e4a8ec9e9041455ca795bf774158124ef72e5be2a6769374443",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Segunda persona del singular (tú) del presente de subjuntivo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en subjuntivo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "second-person",
+            "singular",
+            "present",
+            "subjunctive"
+          ],
+          "grammarPrefix": "segunda persona del singular (tu) del presente de subjuntivo"
+        }
+      },
+      {
+        "word": "MERÉ",
+        "sourceWord": "meré",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "e669989342b6160da66f2182bad7d03a3f8902fa3ef97f6921b85fc6fe6c8e35",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Primera persona del singular (yo) del pretérito perfecto simple de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "first-person",
+            "singular",
+            "preterite",
+            "indicative"
+          ],
+          "grammarPrefix": "primera persona del singular (yo) del preterito perfecto simple de indicativo"
+        }
+      },
+      {
+        "word": "MERÓ",
+        "sourceWord": "meró",
+        "partOfSpeech": "verb",
+        "spanishLemma": "merar",
+        "wordRecordSha256": "2b6ab39a95db0c2a49de9364359d123b1cf4d586199d31ba1098f7bd659fcab7",
+        "wordTags": [
+          "form-of"
+        ],
+        "wordRawTags": [],
+        "sourceSense": {
+          "glosses": [
+            "Tercera persona del singular (él, ella, ello; usted, 2.ª persona) del pretérito perfecto simple de indicativo de merar."
+          ],
+          "tags": [
+            "form-of"
+          ],
+          "categories": [
+            "ES:Formas verbales en indicativo"
+          ],
+          "form_of": [
+            {
+              "word": "merar"
+            }
+          ]
+        },
+        "normalized": {
+          "kind": "finite",
+          "tags": [
+            "usted-address",
+            "third-person",
+            "singular",
+            "preterite",
+            "indicative"
+          ],
+          "grammarPrefix": "tercera persona del singular (el, ella, ello; usted, 2.ª persona) del preterito perfecto simple de indicativo"
+        }
+      }
+    ],
+    "originalRawRecordCountVerified": 27,
+    "rawSenseIdentity": {
+      "recordSha256": "b79b469171553aee3903faa514920b26f61624422c019a3e6b4b4398d290c035",
+      "senseIndex": 0,
+      "sourceSenseIndex": "2",
+      "glosses": [
+        "Llegar a su final la vida de uno."
+      ],
+      "wordTags": [
+        "intransitive"
+      ],
+      "senseTags": [
+        "slang"
+      ]
+    }
+  },
+  "withheld": [
+    {
+      "englishRawToken": "dieing {shape}",
+      "reason": "Manufacturing/shaping with a die is unrelated to the selected MERAR end-of-life sense."
+    }
+  ],
+  "implementationGuards": [
+    "Require a new independent Standards review bound to this exact proposal hash before compilation. Preserve original qualified-slot policy files and all old holds.",
+    "Do not waive the DIE guard globally. Only exact sourceKind reviewed-spanish + MERAR + record SHA + selected source sense + frame die + ordinary profile + approved slots may bypass it.",
+    "Retain slang and intransitive source usage and existing progressive-only aspect policy. No new subjects, arguments, clitics, aliases or source senses admitted.",
+    "Continue validating every actual form with existing explicit-source normalizer; no suffix generation or accent folding.",
+    "The 26 spellings/34 form records are a historical candidate set, not measured currently missing/newly covered words. Recompute actual provider/global union and require regression checks at integration.",
+    "AGID three-slot format explicitly shares died for past and participle; do not copy that assumption to four-slot English paradigms.",
+    "Selected slots are died/died/dying/dies only; no dieing output under this binding."
+  ],
+  "counts": {
+    "exactLexicalBindingsProposed": 1,
+    "candidateSpellings": 26,
+    "explicitFormRecords": 34,
+    "rawRecordsVerified": 27
+  },
+  "productionEdits": false
+}

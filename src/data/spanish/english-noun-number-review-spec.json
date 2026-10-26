@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/review_spec",
+  "method": "Independent model lexical-number review against exact retained English Wiktionary and Spanish Wiktionary meanings; not native-human certification. No application data changed.",
+  "spanishLemma": "gente",
+  "lemmaRecordSha256": "3c06bc8468a5b065f69355113d66feebbe1120556e26ee55f0d1b1017dace564",
+  "lemmaSenseIndex": 0,
+  "lemmaGloss": [
+    "people"
+  ],
+  "spanishForm": "GENTES",
+  "formRecordSha256": "f5f67b36a30df32567b67ac1c67c69e12e0aaf2f959d7f656d5805a60499857e",
+  "formSenseIndex": 0,
+  "formTags": [
+    "feminine",
+    "form-of",
+    "plural"
+  ],
+  "supplementalSpanishRecordSha256": "09626bca760e43e65e284c86907c25a0d85742fe0c0f372764b1899b2d9f85da",
+  "supplementalSpanishSenseIndex": 0,
+  "supplementalSpanishGloss": [
+    "Conjunto de personas."
+  ],
+  "approvedEnglish": [
+    "people"
+  ],
+  "numberMode": "preserve-already-plural-English-human-collective",
+  "context": "The selected human-collective reading means persons collectively. Gente is grammatically singular and gentes is grammatically plural in Spanish; both can use English people. English peoples instead selects distinct peoples/nations or ethnic communities, not merely additional individual persons.",
+  "correction": "Bind a selected English plural override to the exact gente noun record, sense 0, English people human-collective reading and explicit source plural-of-gente form. Preserve original Spanish plural/feminine tags; do not let generic AGID people→peoples overwrite this reviewed reading.",
+  "limitations": [
+    "This is a safe selected ordinary human-collective reading, not a declaration that gentes can never denote nations or distinct communities.",
+    "Retained Spanish sense 1 Pueblo is a separate possible collective/community sense, which would require its own exact source/meaning review if peoples is intended.",
+    "Do not make a global English people→people rule: pueblo→peoples can be legitimate for distinct nations/ethnic communities.",
+    "Do not change singular person→people, or other unrelated noun paradigms."
+  ]
+}

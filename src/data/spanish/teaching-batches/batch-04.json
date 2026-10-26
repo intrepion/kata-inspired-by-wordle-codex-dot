@@ -1,0 +1,902 @@
+[
+  {
+    "word": "CERCO",
+    "translation": "encirclement; enclosing barrier",
+    "example": "El cerco impidió que salieran las ovejas.",
+    "exampleTranslation": "The enclosure kept the sheep from getting out."
+  },
+  {
+    "word": "CERDA",
+    "translation": "coarse hair; bristle",
+    "example": "Una cerda de la crin quedó en el cepillo.",
+    "exampleTranslation": "A coarse mane hair was left in the brush."
+  },
+  {
+    "word": "CERO",
+    "translation": "zero",
+    "example": "La cuenta terminó en cero.",
+    "exampleTranslation": "The balance ended at zero."
+  },
+  {
+    "word": "CERRADO",
+    "translation": "closed",
+    "example": "El mercado está cerrado.",
+    "exampleTranslation": "The market is closed."
+  },
+  {
+    "word": "CERRAR",
+    "translation": "to close",
+    "example": "Voy a cerrar la ventana.",
+    "exampleTranslation": "I am going to close the window."
+  },
+  {
+    "word": "CERRO",
+    "translation": "hill",
+    "example": "Subimos al cerro temprano.",
+    "exampleTranslation": "We climbed the hill early."
+  },
+  {
+    "word": "CERTEZA",
+    "translation": "certainty",
+    "example": "Lo dijo con certeza.",
+    "exampleTranslation": "She said it with certainty."
+  },
+  {
+    "word": "CERVEZA",
+    "translation": "beer",
+    "example": "Pidió una cerveza fría.",
+    "exampleTranslation": "He ordered a cold beer."
+  },
+  {
+    "word": "CESAR",
+    "translation": "to stop; to cease",
+    "example": "La lluvia empezó a cesar.",
+    "exampleTranslation": "The rain began to stop."
+  },
+  {
+    "word": "CESE",
+    "translation": "cessation; halt",
+    "example": "Acordaron el cese del trabajo.",
+    "exampleTranslation": "They agreed to stop work."
+  },
+  {
+    "word": "CESIÓN",
+    "translation": "transfer; assignment of rights",
+    "example": "Firmaron la cesión del terreno.",
+    "exampleTranslation": "They signed the transfer of the land."
+  },
+  {
+    "word": "CESTA",
+    "translation": "basket",
+    "example": "La cesta contiene manzanas.",
+    "exampleTranslation": "The basket contains apples."
+  },
+  {
+    "word": "CHALECO",
+    "translation": "vest; waistcoat",
+    "example": "Mi chaleco tiene dos bolsillos.",
+    "exampleTranslation": "My vest has two pockets."
+  },
+  {
+    "word": "CHANCE",
+    "translation": "chance; opportunity",
+    "example": "Dame chance de explicar.",
+    "exampleTranslation": "Give me a chance to explain."
+  },
+  {
+    "word": "CHAPA",
+    "translation": "sheet; thin plate",
+    "example": "Cubrieron la madera con una chapa metálica.",
+    "exampleTranslation": "They covered the wood with sheet metal."
+  },
+  {
+    "word": "CHARLA",
+    "translation": "informal conversation",
+    "example": "Tuvimos una charla agradable.",
+    "exampleTranslation": "We had a pleasant chat."
+  },
+  {
+    "word": "CHAT",
+    "translation": "online chat",
+    "example": "Lo acordamos por chat.",
+    "exampleTranslation": "We arranged it through online chat."
+  },
+  {
+    "word": "CHEF",
+    "translation": "chef",
+    "example": "La chef preparó la salsa.",
+    "exampleTranslation": "The chef prepared the sauce."
+  },
+  {
+    "word": "CHEQUE",
+    "translation": "check (payment)",
+    "example": "Pagó con un cheque.",
+    "exampleTranslation": "He paid by check."
+  },
+  {
+    "word": "CHICA",
+    "translation": "girl; young woman",
+    "example": "La chica espera a su hermana.",
+    "exampleTranslation": "The girl is waiting for her sister."
+  },
+  {
+    "word": "CHILENA",
+    "translation": "bicycle kick (soccer)",
+    "example": "Marcó un gol de chilena.",
+    "exampleTranslation": "He scored with a bicycle kick."
+  },
+  {
+    "word": "CHILENO",
+    "translation": "Chilean",
+    "example": "Un poeta chileno visitó la escuela.",
+    "exampleTranslation": "A Chilean poet visited the school."
+  },
+  {
+    "word": "CHINO",
+    "translation": "Chinese",
+    "example": "Compramos un té chino.",
+    "exampleTranslation": "We bought a Chinese tea."
+  },
+  {
+    "word": "CHIP",
+    "translation": "electronic chip",
+    "example": "El chip guarda la información.",
+    "exampleTranslation": "The chip stores the information."
+  },
+  {
+    "word": "CHISTE",
+    "translation": "joke",
+    "example": "Mi tío contó un chiste.",
+    "exampleTranslation": "My uncle told a joke."
+  },
+  {
+    "word": "CHIVO",
+    "translation": "young male goat",
+    "example": "El chivo corre por el corral.",
+    "exampleTranslation": "The young male goat runs around the pen."
+  },
+  {
+    "word": "CHOFER",
+    "translation": "driver; chauffeur",
+    "example": "El chofer abrió la puerta.",
+    "exampleTranslation": "The driver opened the door."
+  },
+  {
+    "word": "CHOQUE",
+    "translation": "collision",
+    "example": "El choque bloqueó la calle.",
+    "exampleTranslation": "The collision blocked the street."
+  },
+  {
+    "word": "CHORRO",
+    "translation": "jet; stream of liquid",
+    "example": "Salió un chorro de agua.",
+    "exampleTranslation": "A jet of water came out."
+  },
+  {
+    "word": "CHOTA",
+    "translation": "young female goat",
+    "example": "La chota siguió a su madre.",
+    "exampleTranslation": "The young female goat followed its mother."
+  },
+  {
+    "word": "CHUPAR",
+    "translation": "to suck",
+    "example": "Al bebé le gusta chupar su dedo.",
+    "exampleTranslation": "The baby likes to suck its finger."
+  },
+  {
+    "word": "CICLO",
+    "translation": "cycle; period",
+    "example": "El ciclo escolar empieza pronto.",
+    "exampleTranslation": "The school year starts soon."
+  },
+  {
+    "word": "CICLÓN",
+    "translation": "cyclone",
+    "example": "El ciclón avanzó hacia la costa.",
+    "exampleTranslation": "The cyclone moved toward the coast."
+  },
+  {
+    "word": "CIEGA",
+    "translation": "blind bet (poker)",
+    "example": "La ciega inicial era de diez pesos.",
+    "exampleTranslation": "The initial blind bet was ten pesos."
+  },
+  {
+    "word": "CIEGO",
+    "translation": "blind",
+    "example": "El músico ciego aprendió la pieza de oído.",
+    "exampleTranslation": "The blind musician learned the piece by ear."
+  },
+  {
+    "word": "CIELOS",
+    "translation": "good heavens!",
+    "example": "¡Cielos, olvidé las llaves!",
+    "exampleTranslation": "Good heavens, I forgot the keys!"
+  },
+  {
+    "word": "CIEN",
+    "translation": "one hundred",
+    "example": "Contamos cien semillas.",
+    "exampleTranslation": "We counted one hundred seeds."
+  },
+  {
+    "word": "CIENCIA",
+    "translation": "science",
+    "example": "La ciencia ayuda a comprender el mundo.",
+    "exampleTranslation": "Science helps us understand the world."
+  },
+  {
+    "word": "CIENTO",
+    "translation": "one hundred (in compounds)",
+    "example": "Vinieron ciento veinte personas.",
+    "exampleTranslation": "One hundred and twenty people came."
+  },
+  {
+    "word": "CIERRE",
+    "translation": "closing; closure",
+    "example": "El cierre de la tienda es a las ocho.",
+    "exampleTranslation": "The store closes at eight."
+  },
+  {
+    "word": "CIFRA",
+    "translation": "digit",
+    "example": "La última cifra es siete.",
+    "exampleTranslation": "The last digit is seven."
+  },
+  {
+    "word": "CIGARRO",
+    "translation": "cigarette",
+    "example": "El personaje llevaba un cigarro apagado.",
+    "exampleTranslation": "The character carried an unlit cigarette."
+  },
+  {
+    "word": "CIMA",
+    "translation": "summit; highest point",
+    "example": "Llegamos a la cima.",
+    "exampleTranslation": "We reached the summit."
+  },
+  {
+    "word": "CINCO",
+    "translation": "five",
+    "example": "Traje cinco vasos.",
+    "exampleTranslation": "I brought five glasses."
+  },
+  {
+    "word": "CINISMO",
+    "translation": "cynicism; shameless dishonesty",
+    "example": "Negó lo ocurrido con cinismo.",
+    "exampleTranslation": "He shamelessly denied what happened."
+  },
+  {
+    "word": "CINTURA",
+    "translation": "waist",
+    "example": "La cinta rodea la cintura.",
+    "exampleTranslation": "The ribbon goes around the waist."
+  },
+  {
+    "word": "CIRCO",
+    "translation": "circus",
+    "example": "El circo instaló su carpa.",
+    "exampleTranslation": "The circus put up its tent."
+  },
+  {
+    "word": "CIRUGÍA",
+    "translation": "surgery",
+    "example": "La cirugía fue exitosa.",
+    "exampleTranslation": "The surgery was successful."
+  },
+  {
+    "word": "CITAR",
+    "translation": "to summon; to arrange a meeting with",
+    "example": "Van a citar a los vecinos mañana.",
+    "exampleTranslation": "They will ask the neighbors to attend a meeting tomorrow."
+  },
+  {
+    "word": "CIVIL",
+    "translation": "civil; relating to citizens",
+    "example": "La protección civil organizó el simulacro.",
+    "exampleTranslation": "Civil protection organized the drill."
+  },
+  {
+    "word": "CLAN",
+    "translation": "clan",
+    "example": "El clan se reunió para la celebración.",
+    "exampleTranslation": "The clan gathered for the celebration."
+  },
+  {
+    "word": "CLARA",
+    "translation": "egg white",
+    "example": "Separa la clara de la yema.",
+    "exampleTranslation": "Separate the egg white from the yolk."
+  },
+  {
+    "word": "CLARÍN",
+    "translation": "bugle",
+    "example": "El clarín anunció la ceremonia.",
+    "exampleTranslation": "The bugle announced the ceremony."
+  },
+  {
+    "word": "CLAVO",
+    "translation": "nail",
+    "example": "El clavo sostiene el cuadro.",
+    "exampleTranslation": "The nail holds the picture."
+  },
+  {
+    "word": "CLERO",
+    "translation": "clergy",
+    "example": "El clero participó en la ceremonia.",
+    "exampleTranslation": "The clergy took part in the ceremony."
+  },
+  {
+    "word": "CLIC",
+    "translation": "click",
+    "example": "Escuché un clic al cerrar la caja.",
+    "exampleTranslation": "I heard a click as I closed the box."
+  },
+  {
+    "word": "CLIMA",
+    "translation": "climate",
+    "example": "El clima aquí es seco.",
+    "exampleTranslation": "The climate here is dry."
+  },
+  {
+    "word": "CLIP",
+    "translation": "paper clip",
+    "example": "Sujetamos las hojas con un clip.",
+    "exampleTranslation": "We fastened the pages with a paper clip."
+  },
+  {
+    "word": "CLON",
+    "translation": "clone",
+    "example": "La oveja era un clon.",
+    "exampleTranslation": "The sheep was a clone."
+  },
+  {
+    "word": "CLORO",
+    "translation": "chlorine",
+    "example": "La muestra contiene cloro.",
+    "exampleTranslation": "The sample contains chlorine."
+  },
+  {
+    "word": "CLUB",
+    "translation": "club",
+    "example": "Me uní al club de lectura.",
+    "exampleTranslation": "I joined the book club."
+  },
+  {
+    "word": "CLÁSICO",
+    "translation": "classic",
+    "example": "Leímos un cuento clásico.",
+    "exampleTranslation": "We read a classic story."
+  },
+  {
+    "word": "CLÉRIGO",
+    "translation": "cleric; clergyman",
+    "example": "El clérigo recibió a los fieles.",
+    "exampleTranslation": "The clergyman welcomed the congregation."
+  },
+  {
+    "word": "CLÍNICA",
+    "translation": "medical clinic",
+    "example": "La clínica abre temprano.",
+    "exampleTranslation": "The clinic opens early."
+  },
+  {
+    "word": "CLÍNICO",
+    "translation": "clinical",
+    "example": "El examen clínico duró media hora.",
+    "exampleTranslation": "The clinical examination lasted half an hour."
+  },
+  {
+    "word": "COBARDE",
+    "translation": "cowardly",
+    "example": "Fue un acto cobarde.",
+    "exampleTranslation": "It was a cowardly act."
+  },
+  {
+    "word": "COBRA",
+    "translation": "cobra (snake)",
+    "example": "La cobra levantó la cabeza.",
+    "exampleTranslation": "The cobra raised its head."
+  },
+  {
+    "word": "COCA",
+    "translation": "cola soft drink",
+    "example": "Pidió una coca con hielo.",
+    "exampleTranslation": "She ordered a cola with ice."
+  },
+  {
+    "word": "COCAÍNA",
+    "translation": "cocaine",
+    "example": "La charla explicó los riesgos de la cocaína.",
+    "exampleTranslation": "The talk explained the risks of cocaine."
+  },
+  {
+    "word": "COCIDO",
+    "translation": "boiled; cooked in water",
+    "example": "El arroz cocido está suave.",
+    "exampleTranslation": "The cooked rice is soft."
+  },
+  {
+    "word": "CODICIA",
+    "translation": "greed",
+    "example": "La codicia del personaje causa problemas.",
+    "exampleTranslation": "The character's greed causes problems."
+  },
+  {
+    "word": "COHETE",
+    "translation": "rocket",
+    "example": "El cohete despegó al amanecer.",
+    "exampleTranslation": "The rocket lifted off at dawn."
+  },
+  {
+    "word": "COJO",
+    "translation": "limping; lame",
+    "example": "El perro quedó cojo después del accidente.",
+    "exampleTranslation": "The dog was left with a limp after the accident."
+  },
+  {
+    "word": "COLAPSO",
+    "translation": "collapse",
+    "example": "El calor le provocó un colapso.",
+    "exampleTranslation": "The heat caused her to collapse."
+  },
+  {
+    "word": "COLCHÓN",
+    "translation": "mattress",
+    "example": "El colchón es cómodo.",
+    "exampleTranslation": "The mattress is comfortable."
+  },
+  {
+    "word": "COLE",
+    "translation": "school (informal)",
+    "example": "Los niños van al cole.",
+    "exampleTranslation": "The children go to school."
+  },
+  {
+    "word": "COLEGA",
+    "translation": "colleague",
+    "example": "Mi colega revisó el informe.",
+    "exampleTranslation": "My colleague reviewed the report."
+  },
+  {
+    "word": "COLGADO",
+    "translation": "hangman (word game)",
+    "example": "Jugamos al colgado en el recreo.",
+    "exampleTranslation": "We played hangman at recess."
+  },
+  {
+    "word": "COLLAR",
+    "translation": "necklace",
+    "example": "El collar tiene cuentas azules.",
+    "exampleTranslation": "The necklace has blue beads."
+  },
+  {
+    "word": "COLMO",
+    "translation": "extreme; limit",
+    "example": "Llegar sin avisar fue el colmo.",
+    "exampleTranslation": "Arriving unannounced was the last straw."
+  },
+  {
+    "word": "COLOCAR",
+    "translation": "to place",
+    "example": "Voy a colocar la lámpara aquí.",
+    "exampleTranslation": "I will put the lamp here."
+  },
+  {
+    "word": "COLON",
+    "translation": "colon (large intestine)",
+    "example": "El médico explicó la función del colon.",
+    "exampleTranslation": "The doctor explained the function of the colon."
+  },
+  {
+    "word": "COLONIA",
+    "translation": "neighborhood",
+    "example": "Mi colonia tiene una biblioteca.",
+    "exampleTranslation": "My neighborhood has a library."
+  },
+  {
+    "word": "COLUMNA",
+    "translation": "column; pillar",
+    "example": "La columna sostiene el techo.",
+    "exampleTranslation": "The column supports the roof."
+  },
+  {
+    "word": "COLÓN",
+    "translation": "colon (Costa Rican currency)",
+    "example": "Un colón se divide en cien céntimos.",
+    "exampleTranslation": "One colon is divided into one hundred centimos."
+  },
+  {
+    "word": "COMA",
+    "translation": "comma",
+    "example": "Falta una coma en la oración.",
+    "exampleTranslation": "The sentence is missing a comma."
+  },
+  {
+    "word": "COMANDO",
+    "translation": "command; leadership",
+    "example": "El oficial asumió el comando.",
+    "exampleTranslation": "The officer took command."
+  },
+  {
+    "word": "COMARCA",
+    "translation": "district; local region",
+    "example": "Recorrimos la comarca en bicicleta.",
+    "exampleTranslation": "We cycled around the district."
+  },
+  {
+    "word": "COMBATE",
+    "translation": "combat; fight",
+    "example": "El combate terminó al anochecer.",
+    "exampleTranslation": "The fighting ended at nightfall."
+  },
+  {
+    "word": "COMBO",
+    "translation": "combination offer; meal deal",
+    "example": "El combo incluye bebida y comida.",
+    "exampleTranslation": "The combo includes a drink and food."
+  },
+  {
+    "word": "COMEDOR",
+    "translation": "dining room",
+    "example": "La mesa está en el comedor.",
+    "exampleTranslation": "The table is in the dining room."
+  },
+  {
+    "word": "COMENTO",
+    "translation": "comment; commentary",
+    "example": "Su comento sobre el cuadro fue breve.",
+    "exampleTranslation": "Her commentary on the painting was brief."
+  },
+  {
+    "word": "COMERSE",
+    "translation": "to eat; to eat up",
+    "example": "El niño quiere comerse una manzana.",
+    "exampleTranslation": "The boy wants to eat an apple."
+  },
+  {
+    "word": "COMITÉ",
+    "translation": "committee",
+    "example": "El comité revisó las solicitudes.",
+    "exampleTranslation": "The committee reviewed the applications."
+  },
+  {
+    "word": "COMO",
+    "translation": "as; in the capacity of",
+    "example": "Trabajo como traductor.",
+    "exampleTranslation": "I work as a translator."
+  },
+  {
+    "word": "COMPLOT",
+    "translation": "plot; conspiracy",
+    "example": "La novela gira en torno a un complot.",
+    "exampleTranslation": "The novel centers on a conspiracy."
+  },
+  {
+    "word": "COMPRA",
+    "translation": "purchase; shopping",
+    "example": "La compra llegó por la tarde.",
+    "exampleTranslation": "The purchase arrived in the afternoon."
+  },
+  {
+    "word": "COMPÁS",
+    "translation": "drawing compass",
+    "example": "Dibujé un círculo con el compás.",
+    "exampleTranslation": "I drew a circle with the compass."
+  },
+  {
+    "word": "COMUNA",
+    "translation": "commune",
+    "example": "Vivían en una comuna rural.",
+    "exampleTranslation": "They lived in a rural commune."
+  },
+  {
+    "word": "COMUNAL",
+    "translation": "communal; shared",
+    "example": "Usamos el patio comunal.",
+    "exampleTranslation": "We use the communal courtyard."
+  },
+  {
+    "word": "COMÚN",
+    "translation": "common; shared",
+    "example": "Tenemos un objetivo común.",
+    "exampleTranslation": "We have a shared goal."
+  },
+  {
+    "word": "CONCEJO",
+    "translation": "municipal council",
+    "example": "El concejo aprobó el proyecto.",
+    "exampleTranslation": "The municipal council approved the project."
+  },
+  {
+    "word": "CONDADO",
+    "translation": "county",
+    "example": "El mapa marca el límite del condado.",
+    "exampleTranslation": "The map marks the county boundary."
+  },
+  {
+    "word": "CONDE",
+    "translation": "count (noble title)",
+    "example": "El conde aparece en el retrato.",
+    "exampleTranslation": "The count appears in the portrait."
+  },
+  {
+    "word": "CONDENA",
+    "translation": "conviction; sentence",
+    "example": "La condena fue anunciada ayer.",
+    "exampleTranslation": "The sentence was announced yesterday."
+  },
+  {
+    "word": "CONFIAR",
+    "translation": "to trust",
+    "example": "Puedes confiar en tu equipo.",
+    "exampleTranslation": "You can trust your team."
+  },
+  {
+    "word": "CONFORT",
+    "translation": "comfort",
+    "example": "Las cortinas mejoran el confort del cuarto.",
+    "exampleTranslation": "The curtains make the room more comfortable."
+  },
+  {
+    "word": "CONFUSO",
+    "translation": "uncertain; unclear",
+    "example": "El resultado sigue confuso.",
+    "exampleTranslation": "The outcome remains unclear."
+  },
+  {
+    "word": "CONMIGO",
+    "translation": "with me",
+    "example": "Puedes venir conmigo.",
+    "exampleTranslation": "You can come with me."
+  },
+  {
+    "word": "CONO",
+    "translation": "cone",
+    "example": "El cono tiene una base circular.",
+    "exampleTranslation": "The cone has a circular base."
+  },
+  {
+    "word": "CONSIGO",
+    "translation": "with himself; with herself",
+    "example": "Lleva una libreta consigo.",
+    "exampleTranslation": "She carries a notebook with her."
+  },
+  {
+    "word": "CONSOLA",
+    "translation": "video game console",
+    "example": "La consola está junto a la televisión.",
+    "exampleTranslation": "The game console is beside the television."
+  },
+  {
+    "word": "CONSUMO",
+    "translation": "consumption; use",
+    "example": "Reducimos el consumo de agua.",
+    "exampleTranslation": "We reduced water consumption."
+  },
+  {
+    "word": "CONTADO",
+    "translation": "cash; paid in full (al contado)",
+    "example": "Pagué la mesa al contado.",
+    "exampleTranslation": "I paid for the table in cash."
+  },
+  {
+    "word": "CONTEO",
+    "translation": "count; counting",
+    "example": "El conteo terminó en veinte.",
+    "exampleTranslation": "The count ended at twenty."
+  },
+  {
+    "word": "CONTIGO",
+    "translation": "with you",
+    "example": "Quiero hablar contigo.",
+    "exampleTranslation": "I want to talk with you."
+  },
+  {
+    "word": "CONTRA",
+    "translation": "against",
+    "example": "El equipo jugó contra sus vecinos.",
+    "exampleTranslation": "The team played against its neighbors."
+  },
+  {
+    "word": "CONTROL",
+    "translation": "control",
+    "example": "El piloto mantuvo el control.",
+    "exampleTranslation": "The pilot maintained control."
+  },
+  {
+    "word": "CONTÉ",
+    "translation": "Conté drawing pencil",
+    "example": "Dibujó las sombras con un conté.",
+    "exampleTranslation": "She drew the shadows with a Conté pencil."
+  },
+  {
+    "word": "CONVOY",
+    "translation": "convoy",
+    "example": "El convoy cruzó el puente.",
+    "exampleTranslation": "The convoy crossed the bridge."
+  },
+  {
+    "word": "COPA",
+    "translation": "stemmed drinking glass",
+    "example": "Sirvieron agua en una copa.",
+    "exampleTranslation": "They served water in a stemmed glass."
+  },
+  {
+    "word": "CORAJE",
+    "translation": "courage",
+    "example": "Tuvo coraje para defender su idea.",
+    "exampleTranslation": "She had the courage to defend her idea."
+  },
+  {
+    "word": "CORBATA",
+    "translation": "tie; necktie",
+    "example": "Mi padre lleva una corbata azul.",
+    "exampleTranslation": "My father wears a blue tie."
+  },
+  {
+    "word": "CORDERO",
+    "translation": "lamb",
+    "example": "El cordero sigue a su madre.",
+    "exampleTranslation": "The lamb follows its mother."
+  },
+  {
+    "word": "CORDIAL",
+    "translation": "warm; cordial",
+    "example": "Nos dio un saludo cordial.",
+    "exampleTranslation": "She gave us a warm greeting."
+  },
+  {
+    "word": "CORDURA",
+    "translation": "good judgment; sanity",
+    "example": "Actuó con cordura ante el problema.",
+    "exampleTranslation": "He used good judgment in dealing with the problem."
+  },
+  {
+    "word": "CORDÓN",
+    "translation": "cord",
+    "example": "Ató la bolsa con un cordón.",
+    "exampleTranslation": "She tied the bag with a cord."
+  },
+  {
+    "word": "COREANO",
+    "translation": "Korean",
+    "example": "Probamos un platillo coreano.",
+    "exampleTranslation": "We tried a Korean dish."
+  },
+  {
+    "word": "CORO",
+    "translation": "choir",
+    "example": "El coro cantó en la plaza.",
+    "exampleTranslation": "The choir sang in the square."
+  },
+  {
+    "word": "CORONEL",
+    "translation": "colonel",
+    "example": "El coronel explicó la operación.",
+    "exampleTranslation": "The colonel explained the operation."
+  },
+  {
+    "word": "CORPUS",
+    "translation": "research corpus; collection of data",
+    "example": "El corpus reúne textos de varios países.",
+    "exampleTranslation": "The corpus brings together texts from several countries."
+  },
+  {
+    "word": "CORRAL",
+    "translation": "animal pen",
+    "example": "Las ovejas están en el corral.",
+    "exampleTranslation": "The sheep are in the pen."
+  },
+  {
+    "word": "CORREA",
+    "translation": "strap",
+    "example": "La correa de la mochila se rompió.",
+    "exampleTranslation": "The backpack strap broke."
+  },
+  {
+    "word": "CORREO",
+    "translation": "mail; postal items",
+    "example": "El correo llegó por la mañana.",
+    "exampleTranslation": "The mail arrived in the morning."
+  },
+  {
+    "word": "CORRIDA",
+    "translation": "bullfight",
+    "example": "La novela describe una corrida.",
+    "exampleTranslation": "The novel describes a bullfight."
+  },
+  {
+    "word": "CORRIDO",
+    "translation": "corrido (Mexican narrative song)",
+    "example": "El músico cantó un corrido.",
+    "exampleTranslation": "The musician sang a corrido."
+  },
+  {
+    "word": "CORRO",
+    "translation": "circle of people",
+    "example": "Los niños formaron un corro.",
+    "exampleTranslation": "The children formed a circle."
+  },
+  {
+    "word": "CORTADA",
+    "translation": "cut",
+    "example": "La cortada en el dedo es pequeña.",
+    "exampleTranslation": "The cut on the finger is small."
+  },
+  {
+    "word": "CORTADO",
+    "translation": "shy; reserved",
+    "example": "El muchacho cortado habló poco.",
+    "exampleTranslation": "The shy young man said little."
+  },
+  {
+    "word": "CORTEZA",
+    "translation": "outer layer; crust; bark",
+    "example": "La corteza del árbol es rugosa.",
+    "exampleTranslation": "The tree's bark is rough."
+  },
+  {
+    "word": "CORTINA",
+    "translation": "curtain",
+    "example": "Cerré la cortina de la ventana.",
+    "exampleTranslation": "I closed the window curtain."
+  },
+  {
+    "word": "CORTO",
+    "translation": "short",
+    "example": "El camino corto pasa por aquí.",
+    "exampleTranslation": "The short route goes this way."
+  },
+  {
+    "word": "CORTÉS",
+    "translation": "polite; courteous",
+    "example": "El vendedor fue cortés.",
+    "exampleTranslation": "The salesperson was polite."
+  },
+  {
+    "word": "COSA",
+    "translation": "thing",
+    "example": "Hay una cosa debajo de la mesa.",
+    "exampleTranslation": "There is something under the table."
+  },
+  {
+    "word": "COSECHA",
+    "translation": "harvest; crop",
+    "example": "La cosecha de maíz fue abundante.",
+    "exampleTranslation": "The corn harvest was plentiful."
+  },
+  {
+    "word": "COSMOS",
+    "translation": "cosmos; universe",
+    "example": "La exposición explica el cosmos.",
+    "exampleTranslation": "The exhibition explains the cosmos."
+  },
+  {
+    "word": "COSTADO",
+    "translation": "side of the body",
+    "example": "Me duele el costado derecho.",
+    "exampleTranslation": "My right side hurts."
+  },
+  {
+    "word": "COSTAR",
+    "translation": "to cost",
+    "example": "Eso puede costar mucho.",
+    "exampleTranslation": "That could cost a lot."
+  },
+  {
+    "word": "COSTE",
+    "translation": "cost",
+    "example": "Calculamos el coste del viaje.",
+    "exampleTranslation": "We calculated the cost of the trip."
+  },
+  {
+    "word": "COSTO",
+    "translation": "cost; price",
+    "example": "El costo incluye la entrega.",
+    "exampleTranslation": "The cost includes delivery."
+  }
+]

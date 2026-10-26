@@ -1,0 +1,10 @@
+{
+ "review":"Independent model source/data review; known defects withheld, not exhaustive native certification.",
+ "pairs":[
+  {"word":"ÁNIMA","senseIndex":"3","english":"bore","reason":"Source Spanish sense describes core material, not the barrel bore sense."},
+  {"word":"ESFUMAR","senseIndex":"1","english":"vanish","reason":"Source sense is transitive color/outline blending, not intransitive disappearance."},
+  {"word":"PUTA","senseIndex":"1","english":"bitch","reason":"Source sense specifically denotes a sex worker; the mapped insult is not aligned."},
+  {"word":"TASADOR","senseIndex":"1","english":"assesor","reason":"Misspelled English source equivalent; withheld without inventing a correction."},
+  {"word":"TASADOR","senseIndex":"2","english":"eveluative","reason":"Misspelled English source equivalent; withheld without inventing a correction."}
+ ]
+}

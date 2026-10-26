@@ -1,0 +1,3282 @@
+{
+  "inputSha256": "2fe5529705d265e832dcd0df9be6ab575732cc4d0c8a8d9c4823f1086500e252",
+  "reviewer": "/root/review_standards",
+  "method": "Independent model linguistic review of all 468 Spanish noun/synset pairs and supplied English synonyms/definitions. Positive known-alignment whitelist with explicit grammatical number, gender and contextual renderings; source membership alone is not approval. No invented source quotations or native-human certification.",
+  "approvedPairs": [
+    {
+      "spanish": "acedia",
+      "synset": "00758795-n",
+      "english": [
+        "sloth"
+      ],
+      "notes": "Religious/moral sense: apathy toward virtue, not the animal."
+    },
+    {
+      "spanish": "acidia",
+      "synset": "04637108-n",
+      "english": [
+        "laziness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "actinia",
+      "synset": "01914830-n",
+      "english": [
+        "sea anemone"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "adehala",
+      "synset": "13298701-n",
+      "english": [
+        "tip"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "agüera",
+      "synset": "03587205-n",
+      "english": [
+        "irrigation ditch"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ailanto",
+      "synset": "12717072-n",
+      "english": [
+        "ailanthus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alcahaz",
+      "synset": "02843276-n",
+      "english": [
+        "birdcage"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alcaico",
+      "synset": "06378104-n",
+      "english": [
+        "Alcaic verse"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alces",
+      "synset": "02432983-n",
+      "english": [
+        "moose"
+      ],
+      "notes": "Spanish plural; English moose has the same singular and plural spelling."
+    },
+    {
+      "spanish": "alesna",
+      "synset": "02763714-n",
+      "english": [
+        "awl"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alexia",
+      "synset": "14099050-n",
+      "english": [
+        "alexia"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alifafe",
+      "synset": "14055408-n",
+      "english": [
+        "ailment"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "almófar",
+      "synset": "02941845-n",
+      "english": [
+        "aventail"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alnico",
+      "synset": "14716358-n",
+      "english": [
+        "Alnico"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "alpende",
+      "synset": "03652729-n",
+      "english": [
+        "lean-to"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "altea",
+      "synset": "12174311-n",
+      "english": [
+        "althea"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "amiba",
+      "synset": "01392380-n",
+      "english": [
+        "amoeba"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ampere",
+      "synset": "13637376-n",
+      "english": [
+        "ampere"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "anadeo",
+      "synset": "00290406-n",
+      "english": [
+        "waddle"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "andares",
+      "synset": "00286957-n",
+      "english": [
+        "gait"
+      ],
+      "notes": "Manner-of-movement noun; Spanish plural form has a collective reading."
+    },
+    {
+      "spanish": "andares",
+      "synset": "05003090-n",
+      "english": [
+        "manner of walking"
+      ],
+      "notes": "Spanish plural form used collectively."
+    },
+    {
+      "spanish": "andares",
+      "synset": "15280497-n",
+      "english": [
+        "pace"
+      ],
+      "notes": "Spanish plural form used collectively; walking/running sense."
+    },
+    {
+      "spanish": "anisete",
+      "synset": "07908647-n",
+      "english": [
+        "anisette"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "aporreo",
+      "synset": "01176115-n",
+      "english": [
+        "battering"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "aquilea",
+      "synset": "11916467-n",
+      "english": [
+        "achillea"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "aralia",
+      "synset": "11797321-n",
+      "english": [
+        "aralia"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "arawak",
+      "synset": "06917764-n",
+      "english": [
+        "Arawakan"
+      ],
+      "notes": "Language-family sense, not a person."
+    },
+    {
+      "spanish": "arles",
+      "synset": "13350322-n",
+      "english": [
+        "earnest money"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "azoato",
+      "synset": "15015501-n",
+      "english": [
+        "nitrate"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "babaza",
+      "synset": "05416678-n",
+      "english": [
+        "slobber"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "babel",
+      "synset": "00379993-n",
+      "english": [
+        "babel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "babera",
+      "synset": "02818254-n",
+      "english": [
+        "beaver"
+      ],
+      "notes": "Armor protecting the lower face; not the animal."
+    },
+    {
+      "spanish": "barbote",
+      "synset": "02818254-n",
+      "english": [
+        "beaver"
+      ],
+      "notes": "Armor protecting the lower face; not the animal."
+    },
+    {
+      "spanish": "bedelio",
+      "synset": "14898273-n",
+      "english": [
+        "bdellium"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "beisbol",
+      "synset": "00471613-n",
+      "english": [
+        "baseball"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "belitre",
+      "synset": "10536728-n",
+      "english": [
+        "rogue"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bita",
+      "synset": "02864593-n",
+      "english": [
+        "bollard"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bitoque",
+      "synset": "02919648-n",
+      "english": [
+        "bung"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bobadas",
+      "synset": "06611147-n",
+      "english": [
+        "nonsense"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bobadas",
+      "synset": "06611998-n",
+      "english": [
+        "rubbish"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "boceras",
+      "synset": "10274318-n",
+      "english": [
+        "loudmouth"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bodoque",
+      "synset": "07961016-n",
+      "english": [
+        "lump"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bodoque",
+      "synset": "10013114-n",
+      "english": [
+        "dimwit"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bolonio",
+      "synset": "10198958-n",
+      "english": [
+        "ignoramus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bolsón",
+      "synset": "02769748-n",
+      "english": [
+        "backpack"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "brandal",
+      "synset": "02771286-n",
+      "english": [
+        "backstay"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "bruza",
+      "synset": "04156140-n",
+      "english": [
+        "scrub brush"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cabaret",
+      "synset": "00520672-n",
+      "english": [
+        "cabaret show"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cabaret",
+      "synset": "02931417-n",
+      "english": [
+        "cabaret"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cacera",
+      "synset": "03587205-n",
+      "english": [
+        "irrigation ditch"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cactus",
+      "synset": "11842204-n",
+      "english": [
+        "cactus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "calcaño",
+      "synset": "05578095-n",
+      "english": [
+        "heel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "calina",
+      "synset": "11465888-n",
+      "english": [
+        "haze"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "calina",
+      "synset": "11482706-n",
+      "english": [
+        "mist"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "calomel",
+      "synset": "14950937-n",
+      "english": [
+        "calomel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "camuesa",
+      "synset": "07741461-n",
+      "english": [
+        "pippin apple"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "captora",
+      "synset": "09609561-n",
+      "english": [
+        "female captor"
+      ],
+      "notes": "Feminine Spanish agent noun; preserve the female reference."
+    },
+    {
+      "spanish": "casuca",
+      "synset": "03547054-n",
+      "english": [
+        "hovel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cierva",
+      "synset": "02431441-n",
+      "english": [
+        "hind"
+      ],
+      "notes": "Female deer; preserve semantic gender."
+    },
+    {
+      "spanish": "cinc",
+      "synset": "14661977-n",
+      "english": [
+        "zinc"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "circona",
+      "synset": "15109391-n",
+      "english": [
+        "zirconia"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "clister",
+      "synset": "00695944-n",
+      "english": [
+        "enema"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cobayo",
+      "synset": "02364673-n",
+      "english": [
+        "guinea pig"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cochi",
+      "synset": "02395406-n",
+      "english": [
+        "pig"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "colona",
+      "synset": "10583387-n",
+      "english": [
+        "female settler"
+      ],
+      "notes": "Feminine Spanish person noun; preserve semantic gender."
+    },
+    {
+      "spanish": "coneja",
+      "synset": "02324045-n",
+      "english": [
+        "female rabbit"
+      ],
+      "notes": "Feminine noun referring to a female rabbit."
+    },
+    {
+      "spanish": "copaiba",
+      "synset": "14897620-n",
+      "english": [
+        "copaiba balsam"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "copeo",
+      "synset": "00749105-n",
+      "english": [
+        "pub crawl"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "corza",
+      "synset": "01888411-n",
+      "english": [
+        "doe"
+      ],
+      "notes": "Female deer/roe-deer sense; preserve semantic gender."
+    },
+    {
+      "spanish": "curdo",
+      "synset": "06974558-n",
+      "english": [
+        "Kurdish"
+      ],
+      "notes": "Language sense."
+    },
+    {
+      "spanish": "curiana",
+      "synset": "02233338-n",
+      "english": [
+        "cockroach"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "cuñada",
+      "synset": "10603766-n",
+      "english": [
+        "sister-in-law"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "dandi",
+      "synset": "09991026-n",
+      "english": [
+        "dandy"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "deixis",
+      "synset": "06179985-n",
+      "english": [
+        "deixis"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "desabor",
+      "synset": "04997032-n",
+      "english": [
+        "tastelessness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "descoco",
+      "synset": "06721949-n",
+      "english": [
+        "backtalk"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "despeño",
+      "synset": "07362386-n",
+      "english": [
+        "fall"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "drusas",
+      "synset": "14255064-n",
+      "english": [
+        "drusen"
+      ],
+      "notes": "Plural retinal deposits; English drusen is plural. This is a lexical equivalent, not a medical diagnosis."
+    },
+    {
+      "spanish": "dula",
+      "synset": "08542304-n",
+      "english": [
+        "common pasture"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "duma",
+      "synset": "08320052-n",
+      "english": [
+        "Duma"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "echador",
+      "synset": "09872066-n",
+      "english": [
+        "braggart"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ectopia",
+      "synset": "05081660-n",
+      "english": [
+        "ectopia"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "elite",
+      "synset": "08386555-n",
+      "english": [
+        "elite"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "embaste",
+      "synset": "02805111-n",
+      "english": [
+        "basting stitch"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "embullo",
+      "synset": "00510189-n",
+      "english": [
+        "revelry"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "enaguas",
+      "synset": "03920737-n",
+      "english": [
+        "petticoats"
+      ],
+      "notes": "Spanish plural garment sense; preserve plurality."
+    },
+    {
+      "spanish": "enaguas",
+      "synset": "04230808-n",
+      "english": [
+        "skirts"
+      ],
+      "notes": "Spanish plural noun."
+    },
+    {
+      "spanish": "encarte",
+      "synset": "03573282-n",
+      "english": [
+        "insert"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "enlabio",
+      "synset": "06696025-n",
+      "english": [
+        "sweet talk"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "entono",
+      "synset": "04887912-n",
+      "english": [
+        "haughtiness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "eolito",
+      "synset": "03292085-n",
+      "english": [
+        "eolith"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "escuna",
+      "synset": "04147183-n",
+      "english": [
+        "schooner"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "farad",
+      "synset": "13636286-n",
+      "english": [
+        "farad"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "farde",
+      "synset": "07229530-n",
+      "english": [
+        "boasting"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "fasces",
+      "synset": "06881798-n",
+      "english": [
+        "fasces"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "fauces",
+      "synset": "05547904-n",
+      "english": [
+        "fauces"
+      ],
+      "notes": "Anatomical passage at the back of the mouth; not mechanical jaws."
+    },
+    {
+      "spanish": "flojel",
+      "synset": "01896561-n",
+      "english": [
+        "down"
+      ],
+      "notes": "Soft feathers, not downward direction."
+    },
+    {
+      "spanish": "follada",
+      "synset": "00846021-n",
+      "english": [
+        "sexual intercourse"
+      ],
+      "notes": "Vulgar Spanish noun; neutral English rendering of the act, not a person."
+    },
+    {
+      "spanish": "fonio",
+      "synset": "13713983-n",
+      "english": [
+        "phon"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "fugado",
+      "synset": "10062905-n",
+      "english": [
+        "male escapee"
+      ],
+      "notes": "Masculine Spanish person noun."
+    },
+    {
+      "spanish": "fuina",
+      "synset": "02450034-n",
+      "english": [
+        "marten"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "furriel",
+      "synset": "10498986-n",
+      "english": [
+        "quartermaster"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gaitera",
+      "synset": "10435041-n",
+      "english": [
+        "female bagpiper"
+      ],
+      "notes": "Preserve feminine agent reference."
+    },
+    {
+      "spanish": "gambuza",
+      "synset": "04329477-n",
+      "english": [
+        "storeroom"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "garla",
+      "synset": "07135734-n",
+      "english": [
+        "talk"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "garrota",
+      "synset": "03145384-n",
+      "english": [
+        "cudgel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "garulla",
+      "synset": "08184600-n",
+      "english": [
+        "rabble"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gavota",
+      "synset": "00533224-n",
+      "english": [
+        "gavotte"
+      ],
+      "notes": "Dance sense."
+    },
+    {
+      "spanish": "gavota",
+      "synset": "07055502-n",
+      "english": [
+        "gavotte music"
+      ],
+      "notes": "Musical-composition sense."
+    },
+    {
+      "spanish": "genitor",
+      "synset": "10126708-n",
+      "english": [
+        "biological father"
+      ],
+      "notes": "Masculine Spanish genitor denotes the father; do not broaden to mother."
+    },
+    {
+      "spanish": "gilbert",
+      "synset": "13642000-n",
+      "english": [
+        "gilbert"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "glamour",
+      "synset": "04685195-n",
+      "english": [
+        "glamour"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gordito",
+      "synset": "10082146-n",
+      "english": [
+        "chubby person"
+      ],
+      "notes": "Diminutive referring to a fat/chubby person; this avoids unnecessarily harsher English insult synonyms."
+    },
+    {
+      "spanish": "gradas",
+      "synset": "02850552-n",
+      "english": [
+        "bleachers"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gradas",
+      "synset": "04300741-n",
+      "english": [
+        "stands"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gravera",
+      "synset": "03455279-n",
+      "english": [
+        "gravel pit"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gres",
+      "synset": "04326676-n",
+      "english": [
+        "stoneware"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "grog",
+      "synset": "07904865-n",
+      "english": [
+        "grog"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gálbano",
+      "synset": "14876872-n",
+      "english": [
+        "galbanum"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "gánster",
+      "synset": "10120085-n",
+      "english": [
+        "gangster"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "harem",
+      "synset": "03494105-n",
+      "english": [
+        "harem"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "harpa",
+      "synset": "03495258-n",
+      "english": [
+        "harp"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "helicón",
+      "synset": "03512030-n",
+      "english": [
+        "helicon"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "henal",
+      "synset": "03500557-n",
+      "english": [
+        "hayloft"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "hilada",
+      "synset": "03120029-n",
+      "english": [
+        "course of masonry"
+      ],
+      "notes": "Construction sense: a horizontal layer of bricks or stone."
+    },
+    {
+      "spanish": "humero",
+      "synset": "04247175-n",
+      "english": [
+        "smokestack"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "idiocia",
+      "synset": "05646926-n",
+      "english": [
+        "idiocy"
+      ],
+      "notes": "Historical and offensive clinical term; not a current clinical diagnosis."
+    },
+    {
+      "spanish": "inepcia",
+      "synset": "04721058-n",
+      "english": [
+        "ineptness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "inepcia",
+      "synset": "04722373-n",
+      "english": [
+        "unfitness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "insidia",
+      "synset": "04879964-n",
+      "english": [
+        "treachery"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "insidia",
+      "synset": "07550666-n",
+      "english": [
+        "malice"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "invar",
+      "synset": "14921414-n",
+      "english": [
+        "Invar"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "jedrea",
+      "synset": "07820814-n",
+      "english": [
+        "savory"
+      ],
+      "notes": "The herb, not the taste adjective."
+    },
+    {
+      "spanish": "jifero",
+      "synset": "09884133-n",
+      "english": [
+        "butcher"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "josa",
+      "synset": "06994700-n",
+      "english": [
+        "Xhosa"
+      ],
+      "notes": "Language name."
+    },
+    {
+      "spanish": "latría",
+      "synset": "01043989-n",
+      "english": [
+        "latria"
+      ],
+      "notes": "Theological worship reserved for God."
+    },
+    {
+      "spanish": "lavazas",
+      "synset": "14836851-n",
+      "english": [
+        "dishwater"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "lesna",
+      "synset": "02763714-n",
+      "english": [
+        "awl"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "librado",
+      "synset": "10032342-n",
+      "english": [
+        "drawee"
+      ],
+      "notes": "Banking/check sense."
+    },
+    {
+      "spanish": "limonar",
+      "synset": "03656011-n",
+      "english": [
+        "lemon grove"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "linaria",
+      "synset": "12884260-n",
+      "english": [
+        "toadflax"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "litas",
+      "synset": "13701615-n",
+      "english": [
+        "litas"
+      ],
+      "notes": "Historical Lithuanian currency unit; do not imply it is the current currency."
+    },
+    {
+      "spanish": "llueca",
+      "synset": "01792955-n",
+      "english": [
+        "broody hen"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "locuelo",
+      "synset": "09974496-n",
+      "english": [
+        "eccentric person"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "loes",
+      "synset": "14942631-n",
+      "english": [
+        "loess"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "lucera",
+      "synset": "04232800-n",
+      "english": [
+        "skylight"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "lupia",
+      "synset": "14202763-n",
+      "english": [
+        "sebaceous cyst"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "lupia",
+      "synset": "14202996-n",
+      "english": [
+        "cyst"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "lías",
+      "synset": "09337406-n",
+      "english": [
+        "lees"
+      ],
+      "notes": "Plural sediment from fermentation."
+    },
+    {
+      "spanish": "lúes",
+      "synset": "14133985-n",
+      "english": [
+        "syphilis"
+      ],
+      "notes": "Disease sense."
+    },
+    {
+      "spanish": "maesa",
+      "synset": "02207345-n",
+      "english": [
+        "queen bee"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "magrez",
+      "synset": "05001482-n",
+      "english": [
+        "leanness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "magrura",
+      "synset": "05001482-n",
+      "english": [
+        "leanness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "majeza",
+      "synset": "04779521-n",
+      "english": [
+        "niceness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "malacia",
+      "synset": "14208065-n",
+      "english": [
+        "malacia"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "mangó",
+      "synset": "12761284-n",
+      "english": [
+        "mango tree"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "matute",
+      "synset": "01112132-n",
+      "english": [
+        "smuggling"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "maule",
+      "synset": "03721047-n",
+      "english": [
+        "marble"
+      ],
+      "notes": "Small toy ball, not the stone."
+    },
+    {
+      "spanish": "mesera",
+      "synset": "10763383-n",
+      "english": [
+        "waitress"
+      ],
+      "notes": "Female table server; preserve Spanish semantic gender."
+    },
+    {
+      "spanish": "mesera",
+      "synset": "10763620-n",
+      "english": [
+        "waitress"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "metical",
+      "synset": "13688811-n",
+      "english": [
+        "metical"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "micado",
+      "synset": "10315217-n",
+      "english": [
+        "mikado"
+      ],
+      "notes": "Historical title for the emperor of Japan."
+    },
+    {
+      "spanish": "mihrab",
+      "synset": "03762434-n",
+      "english": [
+        "mihrab"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "mimador",
+      "synset": "10395390-n",
+      "english": [
+        "male pamperer"
+      ],
+      "notes": "Masculine agent noun: a person who pampers others."
+    },
+    {
+      "spanish": "minado",
+      "synset": "00961962-n",
+      "english": [
+        "minelaying"
+      ],
+      "notes": "Explosive-mine sense, not mineral extraction."
+    },
+    {
+      "spanish": "minio",
+      "synset": "15003329-n",
+      "english": [
+        "red lead"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "minutas",
+      "synset": "06508112-n",
+      "english": [
+        "minutes"
+      ],
+      "notes": "Plural written meeting record."
+    },
+    {
+      "spanish": "moblaje",
+      "synset": "03405265-n",
+      "english": [
+        "furnishings"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "moca",
+      "synset": "07920872-n",
+      "english": [
+        "mocha coffee"
+      ],
+      "notes": "Coffee sense."
+    },
+    {
+      "spanish": "moca",
+      "synset": "07920989-n",
+      "english": [
+        "mocha flavor"
+      ],
+      "notes": "Coffee-and-chocolate flavor sense."
+    },
+    {
+      "spanish": "mola",
+      "synset": "02656670-n",
+      "english": [
+        "ocean sunfish"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "moniato",
+      "synset": "07712063-n",
+      "english": [
+        "sweet potato"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "moquero",
+      "synset": "03485794-n",
+      "english": [
+        "handkerchief"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "motera",
+      "synset": "10334009-n",
+      "english": [
+        "female motorcyclist"
+      ],
+      "notes": "Preserve feminine person reference."
+    },
+    {
+      "spanish": "muchos",
+      "synset": "13777509-n",
+      "english": [
+        "lots"
+      ],
+      "notes": "Plural quantitative nominal usage, rather than a concrete object."
+    },
+    {
+      "spanish": "muecín",
+      "synset": "10336730-n",
+      "english": [
+        "muezzin"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "muguete",
+      "synset": "12471544-n",
+      "english": [
+        "lily of the valley"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "muón",
+      "synset": "09363214-n",
+      "english": [
+        "muon"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "nabiza",
+      "synset": "07736256-n",
+      "english": [
+        "turnip leaf"
+      ],
+      "notes": "Spanish singular edible leaf; English greens is a collective description in the source."
+    },
+    {
+      "spanish": "neis",
+      "synset": "14889271-n",
+      "english": [
+        "gneiss"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "noma",
+      "synset": "14213044-n",
+      "english": [
+        "noma"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "oblata",
+      "synset": "01041349-n",
+      "english": [
+        "Eucharistic offering"
+      ],
+      "notes": "Liturgical offering of bread and wine, not the unrelated feminine member noun."
+    },
+    {
+      "spanish": "ocena",
+      "synset": "14352163-n",
+      "english": [
+        "ozena"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "omanesa",
+      "synset": "09725653-n",
+      "english": [
+        "Omani woman"
+      ],
+      "notes": "Preserve feminine demonym reference."
+    },
+    {
+      "spanish": "omanés",
+      "synset": "09725653-n",
+      "english": [
+        "Omani man"
+      ],
+      "notes": "Preserve masculine person reference."
+    },
+    {
+      "spanish": "oncejo",
+      "synset": "01832167-n",
+      "english": [
+        "swift"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "opus",
+      "synset": "07037465-n",
+      "english": [
+        "opus"
+      ],
+      "notes": "Musical work."
+    },
+    {
+      "spanish": "orzo",
+      "synset": "07699682-n",
+      "english": [
+        "orzo"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "osteoma",
+      "synset": "14249937-n",
+      "english": [
+        "osteoma"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "otorrea",
+      "synset": "14352077-n",
+      "english": [
+        "otorrhea"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ovas",
+      "synset": "07799278-n",
+      "english": [
+        "roe"
+      ],
+      "notes": "Fish eggs; Spanish plural with collective English equivalent."
+    },
+    {
+      "spanish": "pamema",
+      "synset": "04486445-n",
+      "english": [
+        "trifle"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pamema",
+      "synset": "05820462-n",
+      "english": [
+        "triviality"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "papismo",
+      "synset": "01030488-n",
+      "english": [
+        "papism"
+      ],
+      "notes": "Pejorative term for Roman Catholic practices; not a neutral name for the religion."
+    },
+    {
+      "spanish": "parias",
+      "synset": "05520699-n",
+      "english": [
+        "placenta"
+      ],
+      "notes": "Obstetric afterbirth sense; Spanish lexical plural can refer to one afterbirth."
+    },
+    {
+      "spanish": "partera",
+      "synset": "10314836-n",
+      "english": [
+        "midwife"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "paseata",
+      "synset": "00311809-n",
+      "english": [
+        "outing"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pataca",
+      "synset": "07719058-n",
+      "english": [
+        "Jerusalem artichoke"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pataca",
+      "synset": "13690445-n",
+      "english": [
+        "pataca"
+      ],
+      "notes": "Macau currency unit."
+    },
+    {
+      "spanish": "peces",
+      "synset": "02512053-n",
+      "english": [
+        "fish"
+      ],
+      "notes": "Spanish plural; English fish can be plural."
+    },
+    {
+      "spanish": "pecten",
+      "synset": "01904806-n",
+      "english": [
+        "scallop shell"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pegata",
+      "synset": "07272172-n",
+      "english": [
+        "label"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pelmazo",
+      "synset": "09867437-n",
+      "english": [
+        "bore"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "peoría",
+      "synset": "13464204-n",
+      "english": [
+        "deterioration"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "peplos",
+      "synset": "03913930-n",
+      "english": [
+        "peplos"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "peri",
+      "synset": "09546905-n",
+      "english": [
+        "peri"
+      ],
+      "notes": "Persian folkloric being."
+    },
+    {
+      "spanish": "pernio",
+      "synset": "14183522-n",
+      "english": [
+        "chilblain"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pigargo",
+      "synset": "01615458-n",
+      "english": [
+        "white-tailed sea eagle"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pineda",
+      "synset": "09392402-n",
+      "english": [
+        "pinetum"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "piropos",
+      "synset": "07137461-n",
+      "english": [
+        "sweet nothings"
+      ],
+      "notes": "Plural expressions of affection."
+    },
+    {
+      "spanish": "pión",
+      "synset": "09392656-n",
+      "english": [
+        "pion"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "planada",
+      "synset": "09393605-n",
+      "english": [
+        "plain"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "platera",
+      "synset": "10598749-n",
+      "english": [
+        "female silversmith"
+      ],
+      "notes": "Preserve feminine person reference."
+    },
+    {
+      "spanish": "portes",
+      "synset": "13306346-n",
+      "english": [
+        "transportation charges"
+      ],
+      "notes": "Plural cost-of-carriage sense, not the act of carrying."
+    },
+    {
+      "spanish": "posos",
+      "synset": "09337406-n",
+      "english": [
+        "lees"
+      ],
+      "notes": "Plural sediment from fermentation."
+    },
+    {
+      "spanish": "pozanco",
+      "synset": "09397607-n",
+      "english": [
+        "puddle"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "precava",
+      "synset": "05423095-n",
+      "english": [
+        "superior vena cava"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "priora",
+      "synset": "09754217-n",
+      "english": [
+        "prioress"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "prión",
+      "synset": "09398935-n",
+      "english": [
+        "prion"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "prurigo",
+      "synset": "14231640-n",
+      "english": [
+        "prurigo"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "pulidez",
+      "synset": "04896515-n",
+      "english": [
+        "neatness"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "punks",
+      "synset": "08370505-n",
+      "english": [
+        "punks"
+      ],
+      "notes": "Plural people associated with punk subculture; not a singular person."
+    },
+    {
+      "spanish": "quesada",
+      "synset": "07630089-n",
+      "english": [
+        "cheesecake"
+      ],
+      "notes": "Culturally specific cheese-dessert sense; the source recipe details are not a claim about every Spanish quesada."
+    },
+    {
+      "spanish": "quicial",
+      "synset": "03521431-n",
+      "english": [
+        "hinging post"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "quimono",
+      "synset": "03617480-n",
+      "english": [
+        "kimono"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "quinasa",
+      "synset": "14927881-n",
+      "english": [
+        "kinase"
+      ],
+      "notes": "Established enzyme name; do not reuse the source definition as a biochemical explanation."
+    },
+    {
+      "spanish": "racaneo",
+      "synset": "04833458-n",
+      "english": [
+        "stinginess"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "rafe",
+      "synset": "05276425-n",
+      "english": [
+        "raphe"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ramita",
+      "synset": "04287610-n",
+      "english": [
+        "flowering sprig"
+      ],
+      "notes": "Flower-arrangement sense of a small flowering branch."
+    },
+    {
+      "spanish": "ramita",
+      "synset": "13163991-n",
+      "english": [
+        "twig"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "ramito",
+      "synset": "04287610-n",
+      "english": [
+        "flowering sprig"
+      ],
+      "notes": "Small flowering branch arranged as a spray."
+    },
+    {
+      "spanish": "raptora",
+      "synset": "10230801-n",
+      "english": [
+        "female kidnapper"
+      ],
+      "notes": "Preserve feminine agent reference."
+    },
+    {
+      "spanish": "rececho",
+      "synset": "00320625-n",
+      "english": [
+        "stalking"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "recuero",
+      "synset": "10338094-n",
+      "english": [
+        "muleteer"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "remonte",
+      "synset": "03002341-n",
+      "english": [
+        "chairlift"
+      ],
+      "notes": "Ski-lift sense, not the other remonte meanings."
+    },
+    {
+      "spanish": "revesa",
+      "synset": "07432973-n",
+      "english": [
+        "eddy"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "rieles",
+      "synset": "04463983-n",
+      "english": [
+        "rails"
+      ],
+      "notes": "Spanish plural; preserve rails rather than singular track."
+    },
+    {
+      "spanish": "rojete",
+      "synset": "04112752-n",
+      "english": [
+        "blusher"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "romanó",
+      "synset": "06969822-n",
+      "english": [
+        "Romany"
+      ],
+      "notes": "Language name; avoid the dated alternative in the source."
+    },
+    {
+      "spanish": "ruedero",
+      "synset": "10775660-n",
+      "english": [
+        "wheelwright"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "rulé",
+      "synset": "05559256-n",
+      "english": [
+        "backside"
+      ],
+      "notes": "Colloquial anatomical sense."
+    },
+    {
+      "spanish": "ránula",
+      "synset": "14202673-n",
+      "english": [
+        "ranula"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sacadas",
+      "synset": "00338271-n",
+      "english": [
+        "saccades"
+      ],
+      "notes": "Plural rapid eye movements."
+    },
+    {
+      "spanish": "salacot",
+      "synset": "03950899-n",
+      "english": [
+        "pith helmet"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "salera",
+      "synset": "09420689-n",
+      "english": [
+        "salt lick"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "salol",
+      "synset": "15010430-n",
+      "english": [
+        "phenyl salicylate"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sambuca",
+      "synset": "07911249-n",
+      "english": [
+        "sambuca"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sanies",
+      "synset": "05417472-n",
+      "english": [
+        "pus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "selacio",
+      "synset": "01482071-n",
+      "english": [
+        "elasmobranch"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sene",
+      "synset": "13708392-n",
+      "english": [
+        "sene"
+      ],
+      "notes": "Samoan fractional currency unit."
+    },
+    {
+      "spanish": "servo",
+      "synset": "04176295-n",
+      "english": [
+        "servomechanism"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sicosis",
+      "synset": "14398067-n",
+      "english": [
+        "psychosis"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "siena",
+      "synset": "04973386-n",
+      "english": [
+        "sienna"
+      ],
+      "notes": "Brown/red-brown color sense."
+    },
+    {
+      "spanish": "siena",
+      "synset": "14843493-n",
+      "english": [
+        "sienna pigment"
+      ],
+      "notes": "Pigment sense."
+    },
+    {
+      "spanish": "sierva",
+      "synset": "09865068-n",
+      "english": [
+        "bondwoman"
+      ],
+      "notes": "Female person in bondage; preserve semantic gender and historical context."
+    },
+    {
+      "spanish": "sillico",
+      "synset": "03004275-n",
+      "english": [
+        "chamberpot"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "silvano",
+      "synset": "10685480-n",
+      "english": [
+        "forest spirit"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "soba",
+      "synset": "00854000-n",
+      "english": [
+        "petting"
+      ],
+      "notes": "Intimate caressing sense."
+    },
+    {
+      "spanish": "sobeo",
+      "synset": "00854000-n",
+      "english": [
+        "petting"
+      ],
+      "notes": "Intimate caressing sense."
+    },
+    {
+      "spanish": "sofismo",
+      "synset": "05895138-n",
+      "english": [
+        "sophism"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "solado",
+      "synset": "00719274-n",
+      "english": [
+        "tiling"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "sosería",
+      "synset": "05717953-n",
+      "english": [
+        "blandness"
+      ],
+      "notes": "Lack-of-flavor sense."
+    },
+    {
+      "spanish": "tabes",
+      "synset": "14135181-n",
+      "english": [
+        "tabes"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tablaje",
+      "synset": "03413428-n",
+      "english": [
+        "gambling house"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "taqué",
+      "synset": "04393808-n",
+      "english": [
+        "tappet"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tejano",
+      "synset": "09745834-n",
+      "english": [
+        "Texan man"
+      ],
+      "notes": "Masculine person/demonym sense."
+    },
+    {
+      "spanish": "tendera",
+      "synset": "10592152-n",
+      "english": [
+        "female shopkeeper"
+      ],
+      "notes": "Preserve feminine person reference."
+    },
+    {
+      "spanish": "termes",
+      "synset": "02223266-n",
+      "english": [
+        "termite"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "terraja",
+      "synset": "03193754-n",
+      "english": [
+        "diestock"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "terrina",
+      "synset": "07880213-n",
+      "english": [
+        "terrine"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tifo",
+      "synset": "14141062-n",
+      "english": [
+        "typhus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tigra",
+      "synset": "02129923-n",
+      "english": [
+        "tigress"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tirilla",
+      "synset": "03068181-n",
+      "english": [
+        "neckband"
+      ],
+      "notes": "Collar-band sense of a strip at the neck."
+    },
+    {
+      "spanish": "tocaya",
+      "synset": "10344922-n",
+      "english": [
+        "female namesake"
+      ],
+      "notes": "Preserve feminine person reference."
+    },
+    {
+      "spanish": "tofo",
+      "synset": "15085925-n",
+      "english": [
+        "tophus"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tolda",
+      "synset": "02763901-n",
+      "english": [
+        "awning"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tole",
+      "synset": "07120524-n",
+      "english": [
+        "outcry"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tole",
+      "synset": "07385660-n",
+      "english": [
+        "uproar"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tolla",
+      "synset": "09347779-n",
+      "english": [
+        "marsh"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tolla",
+      "synset": "09355850-n",
+      "english": [
+        "quagmire"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tomaína",
+      "synset": "14999411-n",
+      "english": [
+        "ptomaine"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "tomento",
+      "synset": "13090091-n",
+      "english": [
+        "tomentum"
+      ],
+      "notes": "Botanical hairy covering."
+    },
+    {
+      "spanish": "torrada",
+      "synset": "07686873-n",
+      "english": [
+        "toast"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "trastos",
+      "synset": "04345288-n",
+      "english": [
+        "miscellaneous things"
+      ],
+      "notes": "Plural unspecified objects; preserve plurality."
+    },
+    {
+      "spanish": "trastos",
+      "synset": "13251154-n",
+      "english": [
+        "belongings"
+      ],
+      "notes": "Plural personal possessions."
+    },
+    {
+      "spanish": "trema",
+      "synset": "06823760-n",
+      "english": [
+        "diaeresis"
+      ],
+      "notes": "Two-dot diacritic; not restricted to a German sound change."
+    },
+    {
+      "spanish": "trinca",
+      "synset": "07986066-n",
+      "english": [
+        "trio"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "trisca",
+      "synset": "00553823-n",
+      "english": [
+        "commotion"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "unguis",
+      "synset": "05332225-n",
+      "english": [
+        "lacrimal bone"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "usagre",
+      "synset": "14227613-n",
+      "english": [
+        "impetigo"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "usurera",
+      "synset": "10742384-n",
+      "english": [
+        "female loan shark"
+      ],
+      "notes": "Feminine usurer; avoid the source ethnoreligious slur."
+    },
+    {
+      "spanish": "uzbeco",
+      "synset": "06927363-n",
+      "english": [
+        "Uzbek"
+      ],
+      "notes": "Language name."
+    },
+    {
+      "spanish": "vade",
+      "synset": "02870676-n",
+      "english": [
+        "book bag"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "vade",
+      "synset": "04137217-n",
+      "english": [
+        "satchel"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "velacho",
+      "synset": "03383562-n",
+      "english": [
+        "fore-topsail"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "verdete",
+      "synset": "03899612-n",
+      "english": [
+        "patina"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "veteado",
+      "synset": "04951071-n",
+      "english": [
+        "woodgraining"
+      ],
+      "notes": "Woodlike texture sense."
+    },
+    {
+      "spanish": "vimbre",
+      "synset": "13164501-n",
+      "english": [
+        "osier"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "vimbre",
+      "synset": "15097849-n",
+      "english": [
+        "wicker"
+      ],
+      "notes": "Flexible willow branches/material sense."
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "04533802-n",
+      "english": [
+        "VCR"
+      ],
+      "notes": "Historical Spanish device sense; do not confuse with the recording sense."
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "04534127-n",
+      "english": [
+        "video recording"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "06277803-n",
+      "english": [
+        "video picture"
+      ],
+      "notes": "Visual part of a transmission, contrasted with its audio."
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "06277992-n",
+      "english": [
+        "video"
+      ],
+      "notes": "Computer visual-display sense."
+    },
+    {
+      "spanish": "vítores",
+      "synset": "07251779-n",
+      "english": [
+        "cheers"
+      ],
+      "notes": "Plural expressions of encouragement/acclamation."
+    },
+    {
+      "spanish": "yaguar",
+      "synset": "02128925-n",
+      "english": [
+        "jaguar"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "yedra",
+      "synset": "11798978-n",
+      "english": [
+        "ivy"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    },
+    {
+      "spanish": "zopas",
+      "synset": "10265801-n",
+      "english": [
+        "lisper"
+      ],
+      "notes": "Invariant person noun ending in s; not a plural solely because of its ending."
+    },
+    {
+      "spanish": "zurrapa",
+      "synset": "09269972-n",
+      "english": [
+        "sediment"
+      ],
+      "notes": "Settled residue; singular/collective Spanish noun."
+    },
+    {
+      "spanish": "zurrapa",
+      "synset": "09294984-n",
+      "english": [
+        "coffee sediment"
+      ],
+      "notes": "Coffee-residue sense; not arbitrary solid objects."
+    },
+    {
+      "spanish": "áloes",
+      "synset": "02698366-n",
+      "english": [
+        "aloes"
+      ],
+      "notes": "Medicinal aloe preparation, not a plural count of plants."
+    },
+    {
+      "spanish": "ástato",
+      "synset": "14629561-n",
+      "english": [
+        "astatine"
+      ],
+      "notes": "Independent model check of the supplied noun sense; not native-human certification."
+    }
+  ],
+  "rejectedPairs": [
+    {
+      "spanish": "acojone",
+      "synset": "14404610-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "aduanas",
+      "synset": "08142972-n",
+      "reason": "Spanish customs offices/service does not imply the specific United States Treasury agency in this synset."
+    },
+    {
+      "spanish": "albugo",
+      "synset": "12981791-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "alcea",
+      "synset": "12173407-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "alcedo",
+      "synset": "01827658-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "alces",
+      "synset": "02432867-n",
+      "reason": "Capitalized Latin genus concept is not established by ordinary Spanish plural alces; use the separate animal sense."
+    },
+    {
+      "spanish": "alisma",
+      "synset": "12612020-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "alverja",
+      "synset": "12576555-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "amia",
+      "synset": "02638960-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "amia",
+      "synset": "02639087-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "ampere",
+      "synset": "13637841-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "anura",
+      "synset": "01639765-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "apara",
+      "synset": "02455135-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "arpella",
+      "synset": "01609956-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "atropa",
+      "synset": "12898226-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "atufo",
+      "synset": "00418394-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "beisbol",
+      "synset": "02799071-n",
+      "reason": "Spanish beisbol names the game, not ordinarily its ball."
+    },
+    {
+      "spanish": "belcho",
+      "synset": "13219258-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "belcho",
+      "synset": "13219833-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "bine",
+      "synset": "12398174-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "bodijo",
+      "synset": "13965627-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "boja",
+      "synset": "12021120-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "bolete",
+      "synset": "13054560-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "brusela",
+      "synset": "11777929-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "buba",
+      "synset": "14144761-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "buceros",
+      "synset": "01829288-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "calaba",
+      "synset": "12365158-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "calina",
+      "synset": "14518377-n",
+      "reason": "Haze does not specifically imply smoke-related urban pollution."
+    },
+    {
+      "spanish": "calla",
+      "synset": "11786017-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "camón",
+      "synset": "03855333-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "cananga",
+      "synset": "11695813-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "casaba",
+      "synset": "07756838-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "casabe",
+      "synset": "14761578-n",
+      "reason": "Spanish casabe denotes cassava flatbread, not isolated cassava starch."
+    },
+    {
+      "spanish": "cascara",
+      "synset": "13141797-n",
+      "reason": "Accent/form and medicinal sense are not reliably aligned with this Spanish spelling."
+    },
+    {
+      "spanish": "casimir",
+      "synset": "15104669-n",
+      "reason": "Casimir denotes a woolen cloth; cashmere goat fiber is not a reliable equivalent."
+    },
+    {
+      "spanish": "champan",
+      "synset": "07893642-n",
+      "reason": "The unaccented spelling does not reliably identify champán; do not silently repair the source accent."
+    },
+    {
+      "spanish": "cheviot",
+      "synset": "02413917-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "chicota",
+      "synset": "04036494-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "cisca",
+      "synset": "12130937-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "collada",
+      "synset": "09418810-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "cuernas",
+      "synset": "13177768-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "cícero",
+      "synset": "13712428-n",
+      "reason": "A cícero and an Anglo-American pica use different typographic point systems; the exact one-sixth-inch synset is not an interchangeable unit."
+    },
+    {
+      "spanish": "draba",
+      "synset": "11885856-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "drosera",
+      "synset": "12782338-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "empella",
+      "synset": "04520020-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "encame",
+      "synset": "08591399-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "endorso",
+      "synset": "07248060-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "esta",
+      "synset": "15263045-n",
+      "reason": "Spanish esta is a demonstrative, not the noun tonight; alignment is incorrect."
+    },
+    {
+      "spanish": "ester",
+      "synset": "14850483-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "facer",
+      "synset": "05688486-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "faldar",
+      "synset": "04231444-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "fauces",
+      "synset": "03594277-n",
+      "reason": "Mechanical tool jaws are not an established ordinary sense of Spanish fauces."
+    },
+    {
+      "spanish": "flegma",
+      "synset": "05415815-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "folie",
+      "synset": "14083790-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "fregata",
+      "synset": "02052639-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "furrier",
+      "synset": "10498986-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "gabarro",
+      "synset": "00072808-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "galea",
+      "synset": "13011461-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "graja",
+      "synset": "01579410-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "gredal",
+      "synset": "03003548-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "gripa",
+      "synset": "14145501-n",
+      "reason": "Mexican gripa usually denotes flu/flu-like illness; a precise common-cold-only alignment is not reliable enough."
+    },
+    {
+      "spanish": "haldea",
+      "synset": "01736696-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "harpa",
+      "synset": "03494278-n",
+      "reason": "Harpa denotes a harp; English mouth harp/harmonica is a different instrument."
+    },
+    {
+      "spanish": "hobo",
+      "synset": "10723300-n",
+      "reason": "The English hobo sense is not established by this Spanish spelling."
+    },
+    {
+      "spanish": "inga",
+      "synset": "11761650-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "java",
+      "synset": "06901053-n",
+      "reason": "Lowercase Spanish java does not reliably establish the programming-language proper name."
+    },
+    {
+      "spanish": "java",
+      "synset": "07929519-n",
+      "reason": "English java as coffee is not an established ordinary Spanish meaning."
+    },
+    {
+      "spanish": "lagrima",
+      "synset": "13901925-n",
+      "reason": "Lágrima requires an accent; lagrima is not an interchangeable noun spelling."
+    },
+    {
+      "spanish": "lataz",
+      "synset": "02445394-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "laza",
+      "synset": "02837567-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "lechuzo",
+      "synset": "10013114-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "linaria",
+      "synset": "12883923-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "listera",
+      "synset": "12070950-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "lucifer",
+      "synset": "03728437-n",
+      "reason": "English lucifer as a match is not a reliable ordinary Spanish noun sense."
+    },
+    {
+      "spanish": "lunaria",
+      "synset": "11891395-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "majeza",
+      "synset": "04685840-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "maneto",
+      "synset": "02185167-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "maracas",
+      "synset": "02869249-n",
+      "reason": "Maracas are shaken rattles, not castanets/clappers."
+    },
+    {
+      "spanish": "marines",
+      "synset": "08192970-n",
+      "reason": "Spanish marines denotes service members, not automatically the organization-specific US Marine Corps."
+    },
+    {
+      "spanish": "mascara",
+      "synset": "03725035-n",
+      "reason": "Máscara requires an accent; the unaccented accepted spelling does not establish mask."
+    },
+    {
+      "spanish": "melis",
+      "synset": "11619136-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "mergo",
+      "synset": "02054036-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "metedor",
+      "synset": "10615334-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "misario",
+      "synset": "09763349-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "moca",
+      "synset": "09355850-n",
+      "reason": "Spanish moca as a bog/quagmire is not a reliable ordinary alignment."
+    },
+    {
+      "spanish": "mochete",
+      "synset": "01611969-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "muletón",
+      "synset": "03357267-n",
+      "reason": "Muletón is a heavy cloth; the specific light flannelette fabric alignment is uncertain."
+    },
+    {
+      "spanish": "muradal",
+      "synset": "08560560-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "musca",
+      "synset": "02190648-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "mustela",
+      "synset": "02441723-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "mustela",
+      "synset": "02441942-n",
+      "reason": "The ordinary Spanish animal sense of mustela is not reliably established independently of the Latin genus."
+    },
+    {
+      "spanish": "nabina",
+      "synset": "11879895-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "najas",
+      "synset": "12611479-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "nausea",
+      "synset": "07504111-n",
+      "reason": "Spanish náusea requires an accent; nausea is not automatically the same noun."
+    },
+    {
+      "spanish": "nelumbo",
+      "synset": "11717239-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "nerita",
+      "synset": "01946630-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "nipa",
+      "synset": "07891613-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "nipa",
+      "synset": "12591897-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "olea",
+      "synset": "12300625-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "olearia",
+      "synset": "11997775-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "oleo",
+      "synset": "07672914-n",
+      "reason": "Spanish óleo requires an accent and ordinarily means oil/oil paint, not English oleo margarine."
+    },
+    {
+      "spanish": "orzar",
+      "synset": "00313971-n",
+      "reason": "Orzar is a verb; the source supplies an action noun, not an independently established Spanish noun."
+    },
+    {
+      "spanish": "pachón",
+      "synset": "02088364-n",
+      "reason": "Pachón is not reliably the specific beagle breed in the definition."
+    },
+    {
+      "spanish": "pamema",
+      "synset": "06696025-n",
+      "reason": "Pamema means a trifle/foolish pretense; favor-seeking flattery is not a reliable independent alignment."
+    },
+    {
+      "spanish": "paular",
+      "synset": "09347779-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "peces",
+      "synset": "01429349-n",
+      "reason": "Ordinary plural peces means fish, not a taxonomic family."
+    },
+    {
+      "spanish": "peces",
+      "synset": "01432517-n",
+      "reason": "Ordinary plural peces means fish, not a taxonomic genus."
+    },
+    {
+      "spanish": "pian",
+      "synset": "14144761-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "pingo",
+      "synset": "10116905-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "progne",
+      "synset": "01596479-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "protio",
+      "synset": "12693033-n",
+      "reason": "Spanish protio is protium, the hydrogen isotope; the tree genus is a false alignment."
+    },
+    {
+      "spanish": "pruno",
+      "synset": "07922299-n",
+      "reason": "Spanish pruno is a plum-tree term, not ordinarily the English prison-alcohol name."
+    },
+    {
+      "spanish": "purrela",
+      "synset": "07805389-n",
+      "reason": "Purrela denotes dregs or rabble, not ordinary poultry feed."
+    },
+    {
+      "spanish": "rabada",
+      "synset": "07655988-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "ramita",
+      "synset": "02879087-n",
+      "reason": "A ramita is a small branch, not a whole bouquet."
+    },
+    {
+      "spanish": "rayuelo",
+      "synset": "02031934-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "rechino",
+      "synset": "07399917-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "repunta",
+      "synset": "07181935-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "retallo",
+      "synset": "04176747-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "ripia",
+      "synset": "15039445-n",
+      "reason": "Ripia is usually roofing lath/boarding; a surface shingle is too specific and structurally different."
+    },
+    {
+      "spanish": "robinia",
+      "synset": "12567768-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "rosita",
+      "synset": "12290975-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "róbalo",
+      "synset": "07777512-n",
+      "reason": "Róbalo ordinarily denotes snook/sea-bass-type fish, not the specific North American freshwater Micropterus bass in this synset."
+    },
+    {
+      "spanish": "saboga",
+      "synset": "07798357-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "secoya",
+      "synset": "11640645-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "secoya",
+      "synset": "11640898-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "silaba",
+      "synset": "06304671-n",
+      "reason": "Spanish sílaba requires an accent; silaba is not an interchangeable noun spelling."
+    },
+    {
+      "spanish": "sillera",
+      "synset": "10545415-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "sise",
+      "synset": "13744722-n",
+      "reason": "Spanish sise does not denote the cardinal number seis; apparent English/French lexical contamination."
+    },
+    {
+      "spanish": "solea",
+      "synset": "02664136-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "sosería",
+      "synset": "04818284-n",
+      "reason": "Sosería is dullness/insipidity, not reliably the aesthetic bad-taste sense in this synset."
+    },
+    {
+      "spanish": "sosería",
+      "synset": "05006285-n",
+      "reason": "Sosería does not literally mean the absence of life."
+    },
+    {
+      "spanish": "sulfate",
+      "synset": "15063493-n",
+      "reason": "Spanish sulfate is a conjugated verb form; the ordinary chemical noun is sulfato."
+    },
+    {
+      "spanish": "suplido",
+      "synset": "13375891-n",
+      "reason": "Suplido denotes an outlay paid on another person’s behalf; not generically wages paid before being earned."
+    },
+    {
+      "spanish": "tapis",
+      "synset": "04393549-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "tate",
+      "synset": "03497182-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "tempera",
+      "synset": "04407257-n",
+      "reason": "Spanish témpera requires an accent; tempera is not an interchangeable noun spelling."
+    },
+    {
+      "spanish": "termia",
+      "synset": "13727209-n",
+      "reason": "A Spanish termia and an English therm are different heat units; do not equate them."
+    },
+    {
+      "spanish": "tilia",
+      "synset": "12202712-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "toda",
+      "synset": "06979743-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "tole",
+      "synset": "04449046-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "trad",
+      "synset": "07065932-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "trapa",
+      "synset": "12348127-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "trastos",
+      "synset": "07263745-n",
+      "reason": "Radar echoes called English clutter are not an ordinary Spanish sense of trastos."
+    },
+    {
+      "spanish": "traína",
+      "synset": "04475749-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "tresnal",
+      "synset": "07962707-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "triga",
+      "synset": "02650282-n",
+      "reason": "Spanish triga is not established as this fish genus; the source scientific label appears corrupted."
+    },
+    {
+      "spanish": "tripe",
+      "synset": "04183076-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "tutelo",
+      "synset": "09671089-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "varan",
+      "synset": "01694709-n",
+      "reason": "Spanish varán requires an accent; varan is not an interchangeable noun spelling."
+    },
+    {
+      "spanish": "vareta",
+      "synset": "01222859-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "vareta",
+      "synset": "07238455-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "vídeo",
+      "synset": "06277280-n",
+      "reason": "Spanish vídeo does not reliably denote television broadcasting as an entire medium."
+    },
+    {
+      "spanish": "zampada",
+      "synset": "07884182-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "zeda",
+      "synset": "03141065-n",
+      "reason": "Spanish zeda is a letter-name variant, not a police patrol car."
+    },
+    {
+      "spanish": "zurrapa",
+      "synset": "04694441-n",
+      "reason": "Unknown or insufficiently reliable Spanish-to-concept alignment; withheld from the positive model-reviewed set."
+    },
+    {
+      "spanish": "ámelo",
+      "synset": "11817774-n",
+      "reason": "Spanish ámelo is an aster-type plant, not the Stellaria chickweed genus."
+    }
+  ]
+}

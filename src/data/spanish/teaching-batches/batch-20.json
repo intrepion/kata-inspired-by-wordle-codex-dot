@@ -1,0 +1,728 @@
+[
+  {
+    "word": "VENUS",
+    "translation": "prehistoric female figurine",
+    "example": "El museo exhibe una venus de piedra.",
+    "exampleTranslation": "The museum displays a prehistoric female figurine carved in stone."
+  },
+  {
+    "word": "VERA",
+    "translation": "edge; verge",
+    "example": "Caminamos a la vera del río.",
+    "exampleTranslation": "We walked along the river's edge."
+  },
+  {
+    "word": "VERANO",
+    "translation": "summer",
+    "example": "El verano trae días largos.",
+    "exampleTranslation": "Summer brings long days."
+  },
+  {
+    "word": "VERBAL",
+    "translation": "verbal",
+    "example": "El acuerdo verbal quedó claro.",
+    "exampleTranslation": "The verbal agreement was clear."
+  },
+  {
+    "word": "VERBO",
+    "translation": "verb",
+    "example": "La oración necesita un verbo.",
+    "exampleTranslation": "The sentence needs a verb."
+  },
+  {
+    "word": "VERDAD",
+    "translation": "truth",
+    "example": "Dijo la verdad sobre lo ocurrido.",
+    "exampleTranslation": "She told the truth about what happened."
+  },
+  {
+    "word": "VEREDA",
+    "translation": "footpath",
+    "example": "La vereda cruza el campo.",
+    "exampleTranslation": "The footpath crosses the countryside."
+  },
+  {
+    "word": "VERSE",
+    "translation": "to see oneself",
+    "example": "Puede verse en el espejo.",
+    "exampleTranslation": "She can see herself in the mirror."
+  },
+  {
+    "word": "VERSIÓN",
+    "translation": "translation; version",
+    "example": "Leí una versión española del poema.",
+    "exampleTranslation": "I read a Spanish version of the poem."
+  },
+  {
+    "word": "VERSO",
+    "translation": "line of verse",
+    "example": "El primer verso menciona el mar.",
+    "exampleTranslation": "The first line of verse mentions the sea."
+  },
+  {
+    "word": "VERSUS",
+    "translation": "versus; against",
+    "example": "El partido es México versus Canadá.",
+    "exampleTranslation": "The match is Mexico versus Canada."
+  },
+  {
+    "word": "VESTIDO",
+    "translation": "dress",
+    "example": "El vestido azul tiene bolsillos.",
+    "exampleTranslation": "The blue dress has pockets."
+  },
+  {
+    "word": "VESTIR",
+    "translation": "to dress; to clothe",
+    "example": "Hay que vestir al bebé antes de salir.",
+    "exampleTranslation": "The baby needs dressing before going out."
+  },
+  {
+    "word": "VETO",
+    "translation": "veto; prohibition",
+    "example": "El veto impidió aprobar la propuesta.",
+    "exampleTranslation": "The veto prevented the proposal from passing."
+  },
+  {
+    "word": "VIABLE",
+    "translation": "viable",
+    "example": "El proyecto parece viable.",
+    "exampleTranslation": "The project seems viable."
+  },
+  {
+    "word": "VIAJAR",
+    "translation": "to travel",
+    "example": "Nos gusta viajar en tren.",
+    "exampleTranslation": "We like to travel by train."
+  },
+  {
+    "word": "VIAJE",
+    "translation": "trip; journey",
+    "example": "El viaje duró tres horas.",
+    "exampleTranslation": "The trip lasted three hours."
+  },
+  {
+    "word": "VIAJERO",
+    "translation": "traveling",
+    "example": "El grupo viajero llegó al pueblo.",
+    "exampleTranslation": "The traveling group reached the town."
+  },
+  {
+    "word": "VICARIO",
+    "translation": "vicar; acting deputy",
+    "example": "El vicario celebró la ceremonia.",
+    "exampleTranslation": "The vicar conducted the ceremony."
+  },
+  {
+    "word": "VICIO",
+    "translation": "harmful habit; vice",
+    "example": "El personaje intentó abandonar su vicio.",
+    "exampleTranslation": "The character tried to give up his harmful habit."
+  },
+  {
+    "word": "VIDA",
+    "translation": "life",
+    "example": "El agua sostiene la vida.",
+    "exampleTranslation": "Water sustains life."
+  },
+  {
+    "word": "VIDEO",
+    "translation": "video",
+    "example": "El video muestra cómo funciona la máquina.",
+    "exampleTranslation": "The video shows how the machine works."
+  },
+  {
+    "word": "VIDRIO",
+    "translation": "glass",
+    "example": "El vaso está hecho de vidrio.",
+    "exampleTranslation": "The drinking glass is made of glass."
+  },
+  {
+    "word": "VIEJA",
+    "translation": "old woman",
+    "example": "La vieja del cuento era sabia.",
+    "exampleTranslation": "The old woman in the story was wise."
+  },
+  {
+    "word": "VIEJO",
+    "translation": "old",
+    "example": "El mapa viejo muestra otra ruta.",
+    "exampleTranslation": "The old map shows a different route."
+  },
+  {
+    "word": "VIENTO",
+    "translation": "wind",
+    "example": "El viento movía las hojas.",
+    "exampleTranslation": "The wind moved the leaves."
+  },
+  {
+    "word": "VIENTRE",
+    "translation": "belly; abdomen",
+    "example": "El perro se acostó sobre el vientre.",
+    "exampleTranslation": "The dog lay on its belly."
+  },
+  {
+    "word": "VIGENTE",
+    "translation": "in force; current",
+    "example": "La ley sigue vigente.",
+    "exampleTranslation": "The law remains in force."
+  },
+  {
+    "word": "VIGILAR",
+    "translation": "to watch; to monitor",
+    "example": "Debemos vigilar el nivel del agua.",
+    "exampleTranslation": "We need to monitor the water level."
+  },
+  {
+    "word": "VIGOR",
+    "translation": "vigor; strength",
+    "example": "La planta recuperó su vigor.",
+    "exampleTranslation": "The plant regained its vigor."
+  },
+  {
+    "word": "VILLA",
+    "translation": "country villa",
+    "example": "La villa tiene un jardín amplio.",
+    "exampleTranslation": "The country villa has a spacious garden."
+  },
+  {
+    "word": "VILLANO",
+    "translation": "villain",
+    "example": "El villano del cuento escondió el tesoro.",
+    "exampleTranslation": "The villain in the story hid the treasure."
+  },
+  {
+    "word": "VINAGRE",
+    "translation": "vinegar",
+    "example": "La ensalada lleva aceite y vinagre.",
+    "exampleTranslation": "The salad contains oil and vinegar."
+  },
+  {
+    "word": "VIOLA",
+    "translation": "viola",
+    "example": "La viola tiene un sonido cálido.",
+    "exampleTranslation": "The viola has a warm sound."
+  },
+  {
+    "word": "VIOLAR",
+    "translation": "to violate; to break a rule",
+    "example": "Nadie debe violar la ley.",
+    "exampleTranslation": "Nobody should violate the law."
+  },
+  {
+    "word": "VIOLETA",
+    "translation": "violet",
+    "example": "Eligió una tela violeta.",
+    "exampleTranslation": "She chose violet fabric."
+  },
+  {
+    "word": "VIOLÍN",
+    "translation": "violin",
+    "example": "El violín acompañó la canción.",
+    "exampleTranslation": "The violin accompanied the song."
+  },
+  {
+    "word": "VIRAL",
+    "translation": "viral; relating to a virus",
+    "example": "El estudio analiza una infección viral.",
+    "exampleTranslation": "The study examines a viral infection."
+  },
+  {
+    "word": "VIRGEN",
+    "translation": "virgin",
+    "example": "El personaje afirma ser virgen.",
+    "exampleTranslation": "The character says they are a virgin."
+  },
+  {
+    "word": "VIRREY",
+    "translation": "viceroy",
+    "example": "El virrey gobernaba en nombre del rey.",
+    "exampleTranslation": "The viceroy governed on behalf of the king."
+  },
+  {
+    "word": "VIRTUAL",
+    "translation": "virtual; online",
+    "example": "La reunión virtual empezó temprano.",
+    "exampleTranslation": "The virtual meeting began early."
+  },
+  {
+    "word": "VIRTUD",
+    "translation": "virtue; positive quality",
+    "example": "La paciencia es una virtud.",
+    "exampleTranslation": "Patience is a virtue."
+  },
+  {
+    "word": "VIRUS",
+    "translation": "virus",
+    "example": "El virus necesita células para reproducirse.",
+    "exampleTranslation": "The virus needs cells to reproduce."
+  },
+  {
+    "word": "VISA",
+    "translation": "visa",
+    "example": "La visa permite entrar al país.",
+    "exampleTranslation": "The visa allows entry into the country."
+  },
+  {
+    "word": "VISIBLE",
+    "translation": "visible",
+    "example": "La señal es visible desde lejos.",
+    "exampleTranslation": "The sign is visible from far away."
+  },
+  {
+    "word": "VISITA",
+    "translation": "visit",
+    "example": "La visita al museo fue breve.",
+    "exampleTranslation": "The museum visit was brief."
+  },
+  {
+    "word": "VISITAR",
+    "translation": "to visit",
+    "example": "Quiero visitar a mi abuela.",
+    "exampleTranslation": "I want to visit my grandmother."
+  },
+  {
+    "word": "VISIÓN",
+    "translation": "vision; seeing",
+    "example": "La visión permite distinguir los colores.",
+    "exampleTranslation": "Vision lets us distinguish colors."
+  },
+  {
+    "word": "VISTA",
+    "translation": "sight",
+    "example": "El águila tiene buena vista.",
+    "exampleTranslation": "The eagle has keen sight."
+  },
+  {
+    "word": "VISTAZO",
+    "translation": "glance; quick look",
+    "example": "Echó un vistazo al mapa.",
+    "exampleTranslation": "She glanced at the map."
+  },
+  {
+    "word": "VISTO",
+    "translation": "approval; in visto bueno",
+    "example": "El director dio el visto bueno.",
+    "exampleTranslation": "The director gave his approval."
+  },
+  {
+    "word": "VISUAL",
+    "translation": "visual",
+    "example": "La memoria visual ayuda a reconocer lugares.",
+    "exampleTranslation": "Visual memory helps us recognize places."
+  },
+  {
+    "word": "VITAL",
+    "translation": "vital; relating to life",
+    "example": "El agua es un recurso vital.",
+    "exampleTranslation": "Water is a vital resource."
+  },
+  {
+    "word": "VIUDA",
+    "translation": "widow",
+    "example": "La viuda conservó las cartas de su esposo.",
+    "exampleTranslation": "The widow kept her husband's letters."
+  },
+  {
+    "word": "VIVA",
+    "translation": "long live!; hooray!",
+    "example": "¡Viva la amistad!",
+    "exampleTranslation": "Long live friendship!"
+  },
+  {
+    "word": "VIVO",
+    "translation": "alive",
+    "example": "El árbol sigue vivo.",
+    "exampleTranslation": "The tree is still alive."
+  },
+  {
+    "word": "VIÑA",
+    "translation": "vineyard",
+    "example": "La viña produce uvas dulces.",
+    "exampleTranslation": "The vineyard produces sweet grapes."
+  },
+  {
+    "word": "VOCAL",
+    "translation": "vocal; relating to the voice",
+    "example": "El entrenamiento vocal mejoró su canto.",
+    "exampleTranslation": "Vocal training improved her singing."
+  },
+  {
+    "word": "VOCERO",
+    "translation": "spokesperson",
+    "example": "El vocero respondió las preguntas.",
+    "exampleTranslation": "The spokesperson answered the questions."
+  },
+  {
+    "word": "VODKA",
+    "translation": "vodka",
+    "example": "Sirvieron vodka con hielo.",
+    "exampleTranslation": "They served vodka over ice."
+  },
+  {
+    "word": "VOLANDO",
+    "translation": "very quickly",
+    "example": "Volvió volando al escuchar la noticia.",
+    "exampleTranslation": "She rushed back when she heard the news."
+  },
+  {
+    "word": "VOLANTE",
+    "translation": "steering wheel",
+    "example": "Sujetó el volante con ambas manos.",
+    "exampleTranslation": "She held the steering wheel with both hands."
+  },
+  {
+    "word": "VOLAR",
+    "translation": "to fly",
+    "example": "El ave aprendió a volar.",
+    "exampleTranslation": "The bird learned to fly."
+  },
+  {
+    "word": "VOLCÁN",
+    "translation": "volcano",
+    "example": "El volcán domina el paisaje.",
+    "exampleTranslation": "The volcano dominates the landscape."
+  },
+  {
+    "word": "VOLUMEN",
+    "translation": "volume",
+    "example": "El recipiente tiene un volumen de dos litros.",
+    "exampleTranslation": "The container has a volume of two liters."
+  },
+  {
+    "word": "VOLVER",
+    "translation": "to return",
+    "example": "Espero volver el próximo año.",
+    "exampleTranslation": "I hope to return next year."
+  },
+  {
+    "word": "VOMITAR",
+    "translation": "to vomit",
+    "example": "El mareo le hizo vomitar.",
+    "exampleTranslation": "Dizziness made him vomit."
+  },
+  {
+    "word": "VOTAR",
+    "translation": "to vote",
+    "example": "Todos pueden votar en la asamblea.",
+    "exampleTranslation": "Everyone can vote at the assembly."
+  },
+  {
+    "word": "VOTO",
+    "translation": "vote",
+    "example": "Cada persona emitió su voto.",
+    "exampleTranslation": "Each person cast their vote."
+  },
+  {
+    "word": "VUELO",
+    "translation": "flight",
+    "example": "El vuelo del ave fue breve.",
+    "exampleTranslation": "The bird's flight was brief."
+  },
+  {
+    "word": "VUELTA",
+    "translation": "turn",
+    "example": "Dio media vuelta para regresar.",
+    "exampleTranslation": "She turned around to go back."
+  },
+  {
+    "word": "VUELTO",
+    "translation": "change; money returned",
+    "example": "El vendedor me entregó el vuelto.",
+    "exampleTranslation": "The seller gave me my change."
+  },
+  {
+    "word": "VULGAR",
+    "translation": "vulgar; coarse",
+    "example": "La expresión vulgar incomodó al público.",
+    "exampleTranslation": "The vulgar expression made the audience uncomfortable."
+  },
+  {
+    "word": "VÁLIDO",
+    "translation": "valid",
+    "example": "El documento es válido hasta diciembre.",
+    "exampleTranslation": "The document is valid until December."
+  },
+  {
+    "word": "VÁLVULA",
+    "translation": "valve",
+    "example": "La válvula impide que la sangre retroceda.",
+    "exampleTranslation": "The valve prevents blood from flowing backward."
+  },
+  {
+    "word": "VÍCTIMA",
+    "translation": "victim",
+    "example": "La víctima recibió apoyo de sus vecinos.",
+    "exampleTranslation": "The victim received support from her neighbors."
+  },
+  {
+    "word": "VÍNCULO",
+    "translation": "bond; connection",
+    "example": "El vínculo entre ambas comunidades es fuerte.",
+    "exampleTranslation": "The bond between the two communities is strong."
+  },
+  {
+    "word": "VÍSPERA",
+    "translation": "eve; previous day",
+    "example": "Llegaron en la víspera de la fiesta.",
+    "exampleTranslation": "They arrived on the eve of the celebration."
+  },
+  {
+    "word": "WHISKY",
+    "translation": "whisky",
+    "example": "Sirvió whisky en un vaso pequeño.",
+    "exampleTranslation": "He served whisky in a small glass."
+  },
+  {
+    "word": "YANG",
+    "translation": "yang",
+    "example": "El símbolo representa el yin y el yang.",
+    "exampleTranslation": "The symbol represents yin and yang."
+  },
+  {
+    "word": "YERBA",
+    "translation": "grass; herb",
+    "example": "La yerba crece junto al camino.",
+    "exampleTranslation": "Grass grows beside the path."
+  },
+  {
+    "word": "YERNO",
+    "translation": "son-in-law",
+    "example": "Su yerno trabaja en una escuela.",
+    "exampleTranslation": "Her son-in-law works at a school."
+  },
+  {
+    "word": "YESO",
+    "translation": "gypsum",
+    "example": "La roca contiene yeso.",
+    "exampleTranslation": "The rock contains gypsum."
+  },
+  {
+    "word": "ZAPATA",
+    "translation": "brake shoe",
+    "example": "La zapata del freno está gastada.",
+    "exampleTranslation": "The brake shoe is worn."
+  },
+  {
+    "word": "ZAPATO",
+    "translation": "shoe",
+    "example": "El zapato le queda cómodo.",
+    "exampleTranslation": "The shoe fits comfortably."
+  },
+  {
+    "word": "ZONA",
+    "translation": "zone; area",
+    "example": "La zona tiene varias escuelas.",
+    "exampleTranslation": "The area has several schools."
+  },
+  {
+    "word": "ZORRA",
+    "translation": "female fox",
+    "example": "La zorra cuida a sus crías.",
+    "exampleTranslation": "The female fox looks after her young."
+  },
+  {
+    "word": "ZORRO",
+    "translation": "fox",
+    "example": "El zorro cruzó el bosque.",
+    "exampleTranslation": "The fox crossed the forest."
+  },
+  {
+    "word": "ZUMO",
+    "translation": "juice",
+    "example": "Bebió zumo de naranja.",
+    "exampleTranslation": "She drank orange juice."
+  },
+  {
+    "word": "ZÓCALO",
+    "translation": "plinth; building base",
+    "example": "El zócalo sostiene la fachada.",
+    "exampleTranslation": "The plinth supports the facade."
+  },
+  {
+    "word": "ÁCIDO",
+    "translation": "sour",
+    "example": "El limón tiene sabor ácido.",
+    "exampleTranslation": "The lime has a sour taste."
+  },
+  {
+    "word": "ÁGUILA",
+    "translation": "eagle",
+    "example": "El águila voló sobre la montaña.",
+    "exampleTranslation": "The eagle flew over the mountain."
+  },
+  {
+    "word": "ÁLBUM",
+    "translation": "album",
+    "example": "Guardamos las fotos en un álbum.",
+    "exampleTranslation": "We keep the photos in an album."
+  },
+  {
+    "word": "ÁMBITO",
+    "translation": "scope; field",
+    "example": "Ese tema queda fuera de mi ámbito.",
+    "exampleTranslation": "That topic falls outside my field."
+  },
+  {
+    "word": "ÁNGULO",
+    "translation": "angle",
+    "example": "El ángulo mide noventa grados.",
+    "exampleTranslation": "The angle measures ninety degrees."
+  },
+  {
+    "word": "ÁRABE",
+    "translation": "Arab; Arabic",
+    "example": "El poeta árabe leyó su obra.",
+    "exampleTranslation": "The Arab poet read his work."
+  },
+  {
+    "word": "ÁRBITRO",
+    "translation": "referee",
+    "example": "El árbitro detuvo el partido.",
+    "exampleTranslation": "The referee stopped the match."
+  },
+  {
+    "word": "ÁREA",
+    "translation": "area",
+    "example": "El área del jardín es pequeña.",
+    "exampleTranslation": "The garden's area is small."
+  },
+  {
+    "word": "ÉLITE",
+    "translation": "elite",
+    "example": "La élite política asistió al acto.",
+    "exampleTranslation": "The political elite attended the event."
+  },
+  {
+    "word": "ÉNFASIS",
+    "translation": "emphasis",
+    "example": "Puso énfasis en la seguridad.",
+    "exampleTranslation": "She placed emphasis on safety."
+  },
+  {
+    "word": "ÉPICA",
+    "translation": "epic poetry",
+    "example": "La épica narra hazañas heroicas.",
+    "exampleTranslation": "Epic poetry recounts heroic deeds."
+  },
+  {
+    "word": "ÉPICO",
+    "translation": "epic",
+    "example": "El poema épico describe una larga travesía.",
+    "exampleTranslation": "The epic poem describes a long journey."
+  },
+  {
+    "word": "ÉPOCA",
+    "translation": "era; period",
+    "example": "El edificio pertenece a otra época.",
+    "exampleTranslation": "The building belongs to another era."
+  },
+  {
+    "word": "ÉSTE",
+    "translation": "this one",
+    "example": "Éste es el camino correcto.",
+    "exampleTranslation": "This is the right path."
+  },
+  {
+    "word": "ÉTICA",
+    "translation": "ethics",
+    "example": "La ética orienta sus decisiones.",
+    "exampleTranslation": "Ethics guides her decisions."
+  },
+  {
+    "word": "ÉTICO",
+    "translation": "ethical",
+    "example": "El dilema ético generó debate.",
+    "exampleTranslation": "The ethical dilemma sparked debate."
+  },
+  {
+    "word": "ÉTNICO",
+    "translation": "ethnic",
+    "example": "El grupo étnico conserva su lengua.",
+    "exampleTranslation": "The ethnic group preserves its language."
+  },
+  {
+    "word": "ÉXITO",
+    "translation": "success",
+    "example": "El proyecto fue un éxito.",
+    "exampleTranslation": "The project was a success."
+  },
+  {
+    "word": "ÉXODO",
+    "translation": "exodus",
+    "example": "La sequía provocó un éxodo del campo.",
+    "exampleTranslation": "The drought caused an exodus from the countryside."
+  },
+  {
+    "word": "ÍDOLO",
+    "translation": "idol; worshipped image",
+    "example": "El ídolo tallado estaba en el templo.",
+    "exampleTranslation": "The carved idol was in the temple."
+  },
+  {
+    "word": "ÍNDICE",
+    "translation": "index finger",
+    "example": "Señaló el lugar con el índice.",
+    "exampleTranslation": "She pointed to the place with her index finger."
+  },
+  {
+    "word": "ÍNDOLE",
+    "translation": "nature; character",
+    "example": "El problema es de índole técnica.",
+    "exampleTranslation": "The problem is technical in nature."
+  },
+  {
+    "word": "ÍNTIMO",
+    "translation": "inner; intimate",
+    "example": "Compartió un pensamiento íntimo.",
+    "exampleTranslation": "She shared an intimate thought."
+  },
+  {
+    "word": "ÓPERA",
+    "translation": "opera",
+    "example": "La ópera combina canto y actuación.",
+    "exampleTranslation": "Opera combines singing and acting."
+  },
+  {
+    "word": "ÓPTICA",
+    "translation": "optics",
+    "example": "La óptica estudia la luz.",
+    "exampleTranslation": "Optics studies light."
+  },
+  {
+    "word": "ÓRBITA",
+    "translation": "orbit",
+    "example": "La luna sigue una órbita alrededor de la Tierra.",
+    "exampleTranslation": "The moon follows an orbit around Earth."
+  },
+  {
+    "word": "ÓRGANO",
+    "translation": "organ",
+    "example": "El corazón es un órgano.",
+    "exampleTranslation": "The heart is an organ."
+  },
+  {
+    "word": "ÚLTIMO",
+    "translation": "last",
+    "example": "Fue el último en salir.",
+    "exampleTranslation": "He was the last to leave."
+  },
+  {
+    "word": "ÚNICO",
+    "translation": "unique; only",
+    "example": "Es el único ejemplar del museo.",
+    "exampleTranslation": "It is the museum's only specimen."
+  },
+  {
+    "word": "ÚTERO",
+    "translation": "uterus",
+    "example": "El feto se desarrolla en el útero.",
+    "exampleTranslation": "The fetus develops in the uterus."
+  },
+  {
+    "word": "ÚTIL",
+    "translation": "useful",
+    "example": "La herramienta es útil.",
+    "exampleTranslation": "The tool is useful."
+  }
+]

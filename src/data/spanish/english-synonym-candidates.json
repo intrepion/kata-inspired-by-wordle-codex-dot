@@ -1,0 +1,3171 @@
+{
+  "artifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "scope": "Research only: exact synonym source glosses omitted by generic direct-meaning guard; no automatic synonym inference/coverage. Independent review must bind target senses and preserve qualifiers; ambiguous/unsupported targets withheld.",
+  "cases": [
+    {
+      "word": "AGUSTÍN",
+      "row": {
+        "word": "agustín",
+        "pos": "adv",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of a gusto (at ease)"
+            ],
+            "tags": [
+              "slang"
+            ]
+          }
+        ],
+        "recordSha256": "9b7b0ee0c51ea578055df541aeb93f35d845e316b63710181d5fdc6d7bbacf2d"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of a gusto (at ease)"
+        ],
+        "tags": [
+          "slang"
+        ]
+      },
+      "proposedTarget": "a gusto",
+      "targetRows": [
+        {
+          "word": "a gusto",
+          "pos": "adv",
+          "senses": [
+            {
+              "glosses": [
+                "at ease, comfortable"
+              ]
+            }
+          ],
+          "recordSha256": "f6748ee7bbb386475a6252c0f267950d46f185f00a8a10ed383d9de55e2109da"
+        }
+      ]
+    },
+    {
+      "word": "ALCACEL",
+      "row": {
+        "word": "alcacel",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of alcacer"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "95115fb39d625325b546ec5e5592b54295c56624cda28a5263f6b50d6d2cf6f4"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of alcacer"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "alcacer",
+      "targetRows": [
+        {
+          "word": "alcacer",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "green rye"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "barley field"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "93e202a6fa93f2d3e31a14205d7c0592a08517e37c0dd53a8feb50780ef3fb49"
+        }
+      ]
+    },
+    {
+      "word": "ALDABÓN",
+      "row": {
+        "word": "aldabón",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of aldaba; doorknocker"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "e3d5f9efa49ae9cd2a9a1c6eca5b9414000f9142868d3f61c8dec157313ef0ad"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of aldaba; doorknocker"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "aldaba",
+      "targetRows": [
+        {
+          "word": "aldaba",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "latch, bolt"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            },
+            {
+              "glosses": [
+                "doorknocker"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "10a584fe792efeaa18045c5a6fba4be8222420145634409eee3daced78e94397"
+        }
+      ]
+    },
+    {
+      "word": "ALETO",
+      "row": {
+        "word": "aleto",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of halieto"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "2afc50549f2ccd5e20dc03a9295f349ee65c9b48b820f1edcede0e90e5af3057"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of halieto"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "halieto",
+      "targetRows": [
+        {
+          "word": "halieto",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "osprey"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "bd90fa6477742a0a86eafd490fdbd8f0457597a1b2b7376843946b0386cc0291"
+        }
+      ]
+    },
+    {
+      "word": "AMALAYA",
+      "row": {
+        "word": "amalaya",
+        "pos": "intj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of ojalá"
+            ],
+            "tags": [
+              "Latin-America"
+            ]
+          }
+        ],
+        "recordSha256": "1d69beeddd158bfaa0457b37b4682f0ef5836cf071f865d7de0f5087f80ebad9"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of ojalá"
+        ],
+        "tags": [
+          "Latin-America"
+        ]
+      },
+      "proposedTarget": "ojalá",
+      "targetRows": [
+        {
+          "word": "ojalá",
+          "pos": "intj",
+          "senses": [
+            {
+              "glosses": [
+                "I wish, I hope"
+              ]
+            }
+          ],
+          "recordSha256": "488f4df1347acf31a1c1a52782888972a686d5df203afb93f63fcd07565eebfb"
+        }
+      ]
+    },
+    {
+      "word": "APARIR",
+      "row": {
+        "word": "aparir",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of aparecer"
+            ],
+            "tags": [
+              "archaic",
+              "intransitive"
+            ]
+          }
+        ],
+        "recordSha256": "7d244ce1ef8a795e101729e72a314f24b632a04fca1a129aac7b0d0d5e5d1e13"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of aparecer"
+        ],
+        "tags": [
+          "archaic",
+          "intransitive"
+        ]
+      },
+      "proposedTarget": "aparecer",
+      "targetRows": [
+        {
+          "word": "aparecer",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to appear, to turn up, to pop up, to come up"
+              ],
+              "tags": [
+                "intransitive",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "5945eba3d45059c0f42a229141ed655ddc4be4d088ae9d5e2efa538fcba818c0"
+        }
+      ]
+    },
+    {
+      "word": "ARCAR",
+      "row": {
+        "word": "arcar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of arquear"
+            ]
+          }
+        ],
+        "recordSha256": "2e0f393a992a1782924c84739251313069bab012dfab71fd403e309d4eb6060e"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of arquear"
+        ]
+      },
+      "proposedTarget": "arquear",
+      "targetRows": [
+        {
+          "word": "arquear",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to arch"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            }
+          ],
+          "recordSha256": "e65495ead92c2455be1fff3b758151c9ed0526bc19634182353b20d9fe13a4f9"
+        }
+      ]
+    },
+    {
+      "word": "BIZCAR",
+      "row": {
+        "word": "bizcar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of bizquear"
+            ]
+          }
+        ],
+        "recordSha256": "79dc2d8340307479ec76c2a64a787daafe15f702774746971de0e2f07fa9b35f"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of bizquear"
+        ]
+      },
+      "proposedTarget": "bizquear",
+      "targetRows": [
+        {
+          "word": "bizquear",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to cross one's eyes"
+              ]
+            },
+            {
+              "glosses": [
+                "to squint"
+              ]
+            },
+            {
+              "glosses": [
+                "to wink"
+              ]
+            }
+          ],
+          "recordSha256": "3102cdb4422a1bf9a95f92fc9c59dae1a70890eecca784de16627d6b790dfadc"
+        }
+      ]
+    },
+    {
+      "word": "CANECER",
+      "row": {
+        "word": "canecer",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of encanecer"
+            ],
+            "tags": [
+              "obsolete"
+            ]
+          }
+        ],
+        "recordSha256": "ab36e56792c052ba0158d70a3a6a7a98bd5a7aa760b4b3fe4d2578edd97c2a3e"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of encanecer"
+        ],
+        "tags": [
+          "obsolete"
+        ]
+      },
+      "proposedTarget": "encanecer",
+      "targetRows": [
+        {
+          "word": "encanecer",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to grey, go grey"
+              ]
+            },
+            {
+              "glosses": [
+                "to grow old"
+              ]
+            },
+            {
+              "glosses": [
+                "to go grey"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "5ac2378f84643bb9f5fa177b557c2b1e6ffb80c1a24124109befa8370c966a7d"
+        }
+      ]
+    },
+    {
+      "word": "CAPUZAR",
+      "row": {
+        "word": "capuzar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of chapuzar"
+            ]
+          }
+        ],
+        "recordSha256": "e39bbf6e79d867b56d616e65ddbbe1db83b33893e0e69da0ff8e4d3d4be5d242"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of chapuzar"
+        ]
+      },
+      "proposedTarget": "chapuzar",
+      "targetRows": [
+        {
+          "word": "chapuzar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to submerge the head of someone or somebody"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to submerge one's own head, to dive in head first"
+              ],
+              "tags": [
+                "intransitive",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "7cf8be9e7cc59fe24c9351ad259111a132535139d4832d9c51a0a7bb97b7a043"
+        }
+      ]
+    },
+    {
+      "word": "COLEO",
+      "row": {
+        "word": "coleo",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of coleadura"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "e9234a3779b7f858385e6e7d40a92027b8f3e37767239526d8c1d632ea0d7f19"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of coleadura"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "coleadura",
+      "targetRows": [
+        {
+          "word": "coleadura",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "cutting in line"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            },
+            {
+              "glosses": [
+                "gatecrashing; sneaking in"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "adf12ac4448c06b4c7813ac29aa4603d93c74a53b2055e2e1d1dfed0b50708e1"
+        }
+      ]
+    },
+    {
+      "word": "COLLADA",
+      "row": {
+        "word": "collada",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of collado"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          }
+        ],
+        "recordSha256": "642a3a6da38f23ba02592c04076c6e3b3dd2df21b6b2f96d3424b7c4597d7c56"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of collado"
+        ],
+        "tags": [
+          "feminine"
+        ]
+      },
+      "proposedTarget": "collado",
+      "targetRows": [
+        {
+          "word": "collado",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "hill; hillock"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "col, mountain pass"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "89ab04fc8328fe10068d061e7f85d72791ef508aeb7cdafc8d6002bb4d80c3a0"
+        }
+      ]
+    },
+    {
+      "word": "COPINO",
+      "row": {
+        "word": "copino",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of medio (a traditional unit of dry measure equivalent to about 2.3 L)"
+            ],
+            "tags": [
+              "historical",
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "29184c6ad5b631c2fed14cdd954ba6a5cec2b0407f80957281ae3daa72b4ec18"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of medio (a traditional unit of dry measure equivalent to about 2.3 L)"
+        ],
+        "tags": [
+          "historical",
+          "masculine"
+        ]
+      },
+      "proposedTarget": "medio",
+      "targetRows": [
+        {
+          "word": "medio",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "half (any fraction with a denominator of 2)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-celemin (a traditional unit of dry measure equivalent to about 2.3 L)"
+              ],
+              "tags": [
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio (the usual container used to measure medios)"
+              ],
+              "tags": [
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-real (a former coin)"
+              ],
+              "tags": [
+                "Colombia",
+                "Ecuador",
+                "Guatemala",
+                "Venezuela",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-peso (a former coin)"
+              ],
+              "tags": [
+                "Dominican-Republic",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-sucre (a former coin)"
+              ],
+              "tags": [
+                "Ecuador",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-balboa (a former coin)"
+              ],
+              "tags": [
+                "Panama",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-boliviano (a former coin)"
+              ],
+              "tags": [
+                "Bolivia",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio, half-octavo (a former coin equal to ¹⁄₁₆ real)"
+              ],
+              "tags": [
+                "Mexico",
+                "historical",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "half (one of two equal parts of any whole)",
+                "medio (following decimalization, the notional amount of 6+¹⁄₄ centavos as half of the notional amount of a ¹⁄₈-peseta real and later by extension any 5 centavo coin)"
+              ],
+              "tags": [
+                "Costa-Rica",
+                "El-Salvador",
+                "Guatemala",
+                "Honduras",
+                "Mexico",
+                "Peru",
+                "masculine",
+                "slang"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)",
+                "midfielder, halfback (a person forming part of the middle or central defensive or offensive line, especially in soccer)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)",
+                "synonym of médium (“medium”) (a person claiming to the ability to communicate with the dead)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)",
+                "cut (the payment demanded to permit or facilitate some action, especially as a bribe)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)",
+                "middle term (the general category that appears in both premises and disappears in the conclusion)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "middle (the part of anything located halfway between its ends or extremes in time or along one dimension in space)",
+                "mean (the second and third terms of a proportion)"
+              ],
+              "tags": [
+                "masculine",
+                "plural-normally"
+              ]
+            },
+            {
+              "glosses": [
+                "center, heart (the innermost part of anything with regard to all dimensions)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "method, way, means (the actions or things by which some goal is achieved or intended to be achieved, something serving some purpose)"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "often"
+              ]
+            },
+            {
+              "glosses": [
+                "method, way, means (the actions or things by which some goal is achieved or intended to be achieved, something serving some purpose)",
+                "synonym of diligencia (“diligence, hard work”) (as the generally effective means to achieve any goal)"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "often"
+              ]
+            },
+            {
+              "glosses": [
+                "method, way, means (the actions or things by which some goal is achieved or intended to be achieved, something serving some purpose)",
+                "medium (a means of communication, especially mass communication)"
+              ],
+              "tags": [
+                "in-plural",
+                "masculine",
+                "often",
+                "plural-normally"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)",
+                "medium (the physical substances with which art is made)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)",
+                "environment (the circumstances that affect a person or animal's development)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)",
+                "society (the circumstances in which a person or group of people lives)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)",
+                "circle (a particular segment of society)"
+              ],
+              "tags": [
+                "masculine",
+                "plural-normally"
+              ]
+            },
+            {
+              "glosses": [
+                "medium (the physical space and substance through which some phenomenon occurs)",
+                "habitat (the circumstances in which an animal or group of animals lives)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "4929aa9a698fca7cd301c35bd0c58f29ff95315bb7a2fcb0a7b867c60b146238"
+        }
+      ]
+    },
+    {
+      "word": "CUÑAR",
+      "row": {
+        "word": "cuñar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of acuñar"
+            ],
+            "tags": [
+              "transitive"
+            ]
+          }
+        ],
+        "recordSha256": "702fbf6d3db2a5d850e0a00ded926840cc9a0b6b7e1ff71f15e23e795bb377b1"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of acuñar"
+        ],
+        "tags": [
+          "transitive"
+        ]
+      },
+      "proposedTarget": "acuñar",
+      "targetRows": [
+        {
+          "word": "acuñar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to mint (money)"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to coin (word or expression)"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            }
+          ],
+          "recordSha256": "fd2d64ea15562bde53979e485ad29a6dadc7c226a7d8acc404a2b9d5434387d1"
+        }
+      ]
+    },
+    {
+      "word": "DENSAR",
+      "row": {
+        "word": "densar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of espesar (“to thicken”)"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "bb4980542f5c3e0fda536568cc26ba23bcda972bd08c77330293850bdad985a8"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of espesar (“to thicken”)"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "espesar",
+      "targetRows": [
+        {
+          "word": "espesar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to thicken"
+              ],
+              "tags": [
+                "ambitransitive"
+              ]
+            }
+          ],
+          "recordSha256": "ee011cfc3483a501ff3a9572105720d4205e2abf69ce4c3389e89f851a75dbf1"
+        }
+      ]
+    },
+    {
+      "word": "DEREZAR",
+      "row": {
+        "word": "derezar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of encaminar"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "09bd6bf8efdb870b9a3442ce8addab22607aa2f51992c0198b6ed7e3791da68b"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of encaminar"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "encaminar",
+      "targetRows": [
+        {
+          "word": "encaminar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to direct, to guide"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to put on the right track"
+              ],
+              "tags": [
+                "figuratively",
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to be on the right track"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to head towards"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "38f9daea77de79e16e9e7a6e78646e164f21af86227f507eaa6fd5051db77b88"
+        }
+      ]
+    },
+    {
+      "word": "DISLATE",
+      "row": {
+        "word": "dislate",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of disparate"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "0895567d97b89486db2bfcf63d585684896182a90bafe14f3f7592bb9cde4d84"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of disparate"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "disparate",
+      "targetRows": [
+        {
+          "word": "disparate",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "nonsense (meaningless words or actions)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "a great amount; a lot"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "crazy idea"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "object, event, or act that is mediocre or of low quality"
+              ],
+              "tags": [
+                "Bolivia",
+                "Dominican-Republic",
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "b67969624b6851985bf78ddd25aa5f9261715b793e7528f77c0b9e7ee113bd11"
+        }
+      ]
+    },
+    {
+      "word": "DIVINAL",
+      "row": {
+        "word": "divinal",
+        "pos": "adj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of divino"
+            ],
+            "tags": [
+              "feminine",
+              "masculine",
+              "poetic"
+            ]
+          }
+        ],
+        "recordSha256": "fc4f55f6ec867486b47313894a8c1cb142f34a0716d33d1b912b6db7e20016d2"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of divino"
+        ],
+        "tags": [
+          "feminine",
+          "masculine",
+          "poetic"
+        ]
+      },
+      "proposedTarget": "divino",
+      "targetRows": [
+        {
+          "word": "divino",
+          "pos": "adj",
+          "senses": [
+            {
+              "glosses": [
+                "divine"
+              ]
+            },
+            {
+              "glosses": [
+                "heavenly"
+              ]
+            }
+          ],
+          "recordSha256": "25402946c2324a475ab2456e937338edbac180998e8a2b7f6240c2e5cac7c89e"
+        }
+      ]
+    },
+    {
+      "word": "DUPLO",
+      "row": {
+        "word": "duplo",
+        "pos": "adj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of doble"
+            ]
+          }
+        ],
+        "recordSha256": "c4e81ed59f6d832a7b4a2eb546b6ac0739df69a221ca58b5a12ff2e8e70dc0ce"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of doble"
+        ]
+      },
+      "proposedTarget": "doble",
+      "targetRows": [
+        {
+          "word": "doble",
+          "pos": "adj",
+          "senses": [
+            {
+              "glosses": [
+                "double"
+              ],
+              "tags": [
+                "feminine",
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "twofold"
+              ],
+              "tags": [
+                "feminine",
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "627163a082f08691e9810f4a1df63927cc051f6938ae10e1738637f3928110c7"
+        }
+      ]
+    },
+    {
+      "word": "ENCETAR",
+      "row": {
+        "word": "encetar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of encentar"
+            ]
+          }
+        ],
+        "recordSha256": "4567e209c687b617626df6c76caf7d16d369236018641e686733c8b70a076cf9"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of encentar"
+        ]
+      },
+      "proposedTarget": "encentar",
+      "targetRows": [
+        {
+          "word": "encentar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to begin"
+              ],
+              "tags": [
+                "rare"
+              ]
+            },
+            {
+              "glosses": [
+                "to injure, wound"
+              ],
+              "tags": [
+                "rare"
+              ]
+            }
+          ],
+          "recordSha256": "a1c8abac692bd8d52f6a00167542415f59ea1218954efe15c43fcd87fec858c6"
+        }
+      ]
+    },
+    {
+      "word": "ENRIZAR",
+      "row": {
+        "word": "enrizar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of rizar"
+            ]
+          }
+        ],
+        "recordSha256": "af626b1fbab2823331002fb7ff9d3b8e97b06c5e3df104e47ed006a37d60be52"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of rizar"
+        ]
+      },
+      "proposedTarget": "rizar",
+      "targetRows": [
+        {
+          "word": "rizar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to curl, crinkle, crisp"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            }
+          ],
+          "recordSha256": "6c66f8d80291c592def6a703a286f17025aaecfb598f0dbc79cedbea294333ed"
+        }
+      ]
+    },
+    {
+      "word": "ENSULLO",
+      "row": {
+        "word": "ensullo",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of enjulio"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "3afa3fbc9d2de240adcf1490838579f15d214bcd35fac7faa391cfc934222f70"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of enjulio"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "enjulio",
+      "targetRows": [
+        {
+          "word": "enjulio",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "warp beam"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "8487d472fc7493a9a40e6dbe3fad25b931aa4c87ce48bd1fa73f60d79e8cbc25"
+        }
+      ]
+    },
+    {
+      "word": "ERCER",
+      "row": {
+        "word": "ercer",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of levantar"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "71e708ac9eb729a0179211d4a98d3ddde86a733d3a5b5876d971ad97ab969adb"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of levantar"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "levantar",
+      "targetRows": [
+        {
+          "word": "levantar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to lift"
+              ]
+            },
+            {
+              "glosses": [
+                "to raise; to put up"
+              ]
+            },
+            {
+              "glosses": [
+                "to put up; to build up (buildings)"
+              ]
+            },
+            {
+              "glosses": [
+                "to increase; to turn up (volume, power etc.)"
+              ]
+            },
+            {
+              "glosses": [
+                "to adjourn; to close; to end (a meeting)"
+              ]
+            },
+            {
+              "glosses": [
+                "to flush out"
+              ]
+            },
+            {
+              "glosses": [
+                "to draw up (plans)"
+              ]
+            },
+            {
+              "glosses": [
+                "to take, make (a census)"
+              ]
+            },
+            {
+              "glosses": [
+                "to remove; get rid of (a prohibition)"
+              ]
+            },
+            {
+              "glosses": [
+                "to nick, rob (steal)"
+              ]
+            },
+            {
+              "glosses": [
+                "to take down (a tent)"
+              ]
+            },
+            {
+              "glosses": [
+                "to give rise to"
+              ]
+            },
+            {
+              "glosses": [
+                "to set up, found (a business)"
+              ]
+            },
+            {
+              "glosses": [
+                "to bring back, make successful again (a business)"
+              ]
+            },
+            {
+              "glosses": [
+                "to take home; to earn (money)"
+              ]
+            },
+            {
+              "glosses": [
+                "to pick (a card)"
+              ]
+            },
+            {
+              "glosses": [
+                "to beat (a hand)"
+              ]
+            },
+            {
+              "glosses": [
+                "to get up; to get out of bed"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to ride; to mount (have sex with)"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to levitate"
+              ]
+            }
+          ],
+          "recordSha256": "334a99093021b572c094fcfe56d669ec47234fea3de015797e1c2d512bcfd711"
+        }
+      ]
+    },
+    {
+      "word": "ERVATO",
+      "row": {
+        "word": "ervato",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of servato"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "3ec68fce9c381d15387ff591655878a59525f0914d06845adb54ab9167820997"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of servato"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "servato",
+      "targetRows": [
+        {
+          "word": "servato",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "sulphurwort, hog fennel"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "aacdcfa7922c80df5767d722815eb3b90a8746e96f7f06d65be45ccf6b05c02f"
+        }
+      ]
+    },
+    {
+      "word": "FICAR",
+      "row": {
+        "word": "ficar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of quedar"
+            ],
+            "tags": [
+              "intransitive",
+              "obsolete"
+            ]
+          }
+        ],
+        "recordSha256": "24f29b7ddf0410442a2ec55a6f5201b47c647e67dbd1c737d888e17863c793da"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of quedar"
+        ],
+        "tags": [
+          "intransitive",
+          "obsolete"
+        ]
+      },
+      "proposedTarget": "quedar",
+      "targetRows": [
+        {
+          "word": "quedar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to be (as a result of something), to end up"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to be situated; to be located (used with only static objects, such as buildings)"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to be left; to remain"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to fit, to suit; to look good (clothes)"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to turn out, e.g. well or poorly"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to agree on"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to agree to meet up with someone"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to die"
+              ],
+              "tags": [
+                "intransitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to turn out, become, go (usually used for negative, physical descriptions)"
+              ],
+              "tags": [
+                "intransitive",
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to stay; to remain, to stick with"
+              ],
+              "tags": [
+                "intransitive",
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to keep, take (become the possessor of something)"
+              ],
+              "tags": [
+                "ambitransitive",
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to fail a school class/course/subject"
+              ],
+              "tags": [
+                "Spain"
+              ]
+            },
+            {
+              "glosses": [
+                "to play for a fool"
+              ],
+              "tags": [
+                "Spain",
+                "colloquial",
+                "intransitive",
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to kid, to pull someone's leg"
+              ],
+              "tags": [
+                "Spain",
+                "colloquial",
+                "intransitive",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "8aa8d6c2b7cca2ffe346de24d46fbbc1b6ac42dcb93169c4013c83252925f0a9"
+        }
+      ]
+    },
+    {
+      "word": "FONTANO",
+      "row": {
+        "word": "fontano",
+        "pos": "adj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of fontanal"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "1954a202efd039a32fccb3c27405613fd3ad420b763484fcd3b2788ff72ee6a3"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of fontanal"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "fontanal",
+      "targetRows": [
+        {
+          "word": "fontanal",
+          "pos": "adj",
+          "senses": [
+            {
+              "glosses": [
+                "fountain"
+              ],
+              "tags": [
+                "feminine",
+                "masculine",
+                "relational"
+              ]
+            },
+            {
+              "glosses": [
+                "font"
+              ],
+              "tags": [
+                "feminine",
+                "masculine",
+                "relational"
+              ]
+            },
+            {
+              "glosses": [
+                "source"
+              ],
+              "tags": [
+                "feminine",
+                "masculine",
+                "relational"
+              ]
+            }
+          ],
+          "recordSha256": "e20da0b3cfe30c822ab6d1a9e9094aacd68f95a541f6d72ede41ce15873abf09"
+        }
+      ]
+    },
+    {
+      "word": "GAZNAR",
+      "row": {
+        "word": "gaznar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of graznar (to caw)"
+            ],
+            "tags": [
+              "intransitive"
+            ]
+          }
+        ],
+        "recordSha256": "ae61274193fb2da0d68be38ab6a5f83f0a1eac652195704b7c2c813679f4adec"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of graznar (to caw)"
+        ],
+        "tags": [
+          "intransitive"
+        ]
+      },
+      "proposedTarget": "graznar",
+      "targetRows": [
+        {
+          "word": "graznar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to squawk"
+              ]
+            },
+            {
+              "glosses": [
+                "to caw"
+              ]
+            }
+          ],
+          "recordSha256": "079261ffd52ca9ec9f4b59484c595c34f012daacac5a7f2f6f701f687ef64497"
+        }
+      ]
+    },
+    {
+      "word": "HORACAR",
+      "row": {
+        "word": "horacar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of horadar"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "3cde763ee5638a3863c16d3afa0f0ebcafbead4656781c4197d6062554f6e565"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of horadar"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "horadar",
+      "targetRows": [
+        {
+          "word": "horadar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to bore, to tunnel, to puncture, to pierce"
+              ]
+            }
+          ],
+          "recordSha256": "1a99c77e9cfd92db4cc5e0abf2be66ca907872187022bec48fa1f3a0da7506d2"
+        }
+      ]
+    },
+    {
+      "word": "HORTAL",
+      "row": {
+        "word": "hortal",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of huerto"
+            ],
+            "tags": [
+              "masculine",
+              "rare"
+            ]
+          }
+        ],
+        "recordSha256": "05171ef1c504452c97b1252a119397d82336092f50c1ddec39abdac45444df8f"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of huerto"
+        ],
+        "tags": [
+          "masculine",
+          "rare"
+        ]
+      },
+      "proposedTarget": "huerto",
+      "targetRows": [
+        {
+          "word": "huerto",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "orchard"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "fruit and vegetable garden (garden used for cultivation of agricultural crops)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "an undesirable task"
+              ],
+              "tags": [
+                "masculine",
+                "slang"
+              ]
+            }
+          ],
+          "recordSha256": "a0ec7b79fa394ff0945ff2e15717cd43fcfa05809a88cac541dadc9ef829c74b"
+        }
+      ]
+    },
+    {
+      "word": "HUTÍA",
+      "row": {
+        "word": "hutía",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of jutía"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          }
+        ],
+        "recordSha256": "0a7e988f6d26f816d838b35a3b661f44f02d69b20eb21b013bf1da16def5346b"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of jutía"
+        ],
+        "tags": [
+          "feminine"
+        ]
+      },
+      "proposedTarget": "jutía",
+      "targetRows": [
+        {
+          "word": "jutía",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "hutia"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "24ed706b3f02f595dfeac47401806799c989f306e827acf36aef5245207ccc77"
+        }
+      ]
+    },
+    {
+      "word": "JARAÍZ",
+      "row": {
+        "word": "jaraíz",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of lagar (“vat in which olives and grapes are pressed”)"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "bac6a8adcdbd2755a78e6d72ac626d70897846c59885d81c3163730a00757204"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of lagar (“vat in which olives and grapes are pressed”)"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "lagar",
+      "targetRows": [
+        {
+          "word": "lagar",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "a vat in which olives, grapes or apples are pressed"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "146b454feb1c92ebbb66dbc8fb2bc40f980f4e316711f19f609b7bb024a59f24"
+        }
+      ]
+    },
+    {
+      "word": "JUBA",
+      "row": {
+        "word": "juba",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of aljuba"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          }
+        ],
+        "recordSha256": "c14bc8ea2da8075d14d18c2377388ba471f9b67fb5bd0e83fe60c3758d23f10f"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of aljuba"
+        ],
+        "tags": [
+          "feminine"
+        ]
+      },
+      "proposedTarget": "aljuba",
+      "targetRows": [
+        {
+          "word": "aljuba",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "doublet (clothing)"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "52be893d230204a675aa0c0375e7808b479cd1024b0f1eefa6544b2ee0446c54"
+        }
+      ]
+    },
+    {
+      "word": "LÍBICO",
+      "row": {
+        "word": "líbico",
+        "pos": "adj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of libio"
+            ]
+          }
+        ],
+        "recordSha256": "f25a6ca8d1a0ba95dbfdd5620d9680dbeb6c0f04139bb21043d8fbb9ac97e0af"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of libio"
+        ]
+      },
+      "proposedTarget": "libio",
+      "targetRows": [
+        {
+          "word": "libio",
+          "pos": "adj",
+          "senses": [
+            {
+              "glosses": [
+                "Libyan"
+              ]
+            }
+          ],
+          "recordSha256": "218af292c0ac622888d343e687fe3e61ea6c890a30aa8ab4054f7204c68217e8"
+        }
+      ]
+    },
+    {
+      "word": "LÍBICO",
+      "row": {
+        "word": "líbico",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of libio"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "899c57cabda554f8de1263dcb17066c0c42cb5541a3428d26f71181e4d7ecaba"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of libio"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "libio",
+      "targetRows": [
+        {
+          "word": "libio",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "Libyan"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "fa237b4021ff61b67c75b377a24a63cf7c4ca023ebf4c471a24fba1a16ed7dd9"
+        }
+      ]
+    },
+    {
+      "word": "MANATO",
+      "row": {
+        "word": "manato",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of manatí"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "6cb7c4b730c208943b6915c66beb097886da8effdd507485e127282c31e1cb78"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of manatí"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "manatí",
+      "targetRows": [
+        {
+          "word": "manatí",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "manatee"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "08bec3c3193ba218871556b1d189667d67a0d2525eefd40afb53ee0d558c1c6f"
+        }
+      ]
+    },
+    {
+      "word": "MOBLAJE",
+      "row": {
+        "word": "moblaje",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of mobiliario"
+            ],
+            "tags": [
+              "masculine",
+              "uncountable"
+            ]
+          }
+        ],
+        "recordSha256": "e1c948dd56d3c80f47208da8b734127680d00eec77cbfbd7c912cdfede3a6877"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of mobiliario"
+        ],
+        "tags": [
+          "masculine",
+          "uncountable"
+        ]
+      },
+      "proposedTarget": "mobiliario",
+      "targetRows": [
+        {
+          "word": "mobiliario",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "a set of furniture"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "b123d1105ae5682e40201e63e9e1c705d6a32c546df9cfb46bf67d7e87c66187"
+        }
+      ]
+    },
+    {
+      "word": "MOLOTOV",
+      "row": {
+        "word": "molotov",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of cóctel molotov"
+            ]
+          }
+        ],
+        "recordSha256": "b784e496c7d67bdd3a2ced4a1533a7b6dacb3bb96d9ce0b96dd3fecd9b7d3fa1"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of cóctel molotov"
+        ]
+      },
+      "proposedTarget": "cóctel molotov",
+      "targetRows": [
+        {
+          "word": "cóctel molotov",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "Molotov cocktail"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "a3cec5e0df5a26ea97791c68f1a92fa860cee1e4c0fad4218c9c6eda0155b331"
+        }
+      ]
+    },
+    {
+      "word": "MULILLA",
+      "row": {
+        "word": "mulilla",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of múleo"
+            ],
+            "tags": [
+              "feminine",
+              "historical"
+            ]
+          }
+        ],
+        "recordSha256": "61e543c4e8f172e574de6c82755105b1fb28d09e17e61bdc5d2fd3a603a2296e"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of múleo"
+        ],
+        "tags": [
+          "feminine",
+          "historical"
+        ]
+      },
+      "proposedTarget": "múleo",
+      "targetRows": [
+        {
+          "word": "múleo",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "a kind of purple Roman shoe used by Patricians"
+              ],
+              "tags": [
+                "feminine",
+                "historical"
+              ]
+            }
+          ],
+          "recordSha256": "02def0ffbed0cc8c04369c6308d60f6b04fd1cc932d75c22841c2f851dd3245c"
+        }
+      ]
+    },
+    {
+      "word": "PANILLA",
+      "row": {
+        "word": "panilla",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of cuarterón, a Spanish quarter-pound"
+            ],
+            "tags": [
+              "feminine",
+              "historical"
+            ]
+          }
+        ],
+        "recordSha256": "9d7cbe4d532035383dd94a3cf5c04bd60dffe31bc3747829f586d5842a5fdc7f"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of cuarterón, a Spanish quarter-pound"
+        ],
+        "tags": [
+          "feminine",
+          "historical"
+        ]
+      },
+      "proposedTarget": "cuarterón, a Spanish quarter-pound",
+      "targetRows": []
+    },
+    {
+      "word": "PININOS",
+      "row": {
+        "word": "pininos",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of pinitos"
+            ],
+            "tags": [
+              "masculine",
+              "plural",
+              "plural-only"
+            ]
+          }
+        ],
+        "recordSha256": "872cf52d79d491e40a08f0595b13a47d8575e66c10f29ed43f482d74a3bad74b"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of pinitos"
+        ],
+        "tags": [
+          "masculine",
+          "plural",
+          "plural-only"
+        ]
+      },
+      "proposedTarget": "pinitos",
+      "targetRows": []
+    },
+    {
+      "word": "REGAZAR",
+      "row": {
+        "word": "regazar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of arregazar"
+            ]
+          }
+        ],
+        "recordSha256": "8936321d3953f95804e89a43cd1c8339d14061030a73b1603d4acc2a2ceb209d"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of arregazar"
+        ]
+      },
+      "proposedTarget": "arregazar",
+      "targetRows": [
+        {
+          "word": "arregazar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to tuck in; hike up (a skirt, dress)"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            }
+          ],
+          "recordSha256": "adb8b1716649a38b1d8e24dbdf4ef3196eb58e2d6e85208cd298c6feca7e9307"
+        }
+      ]
+    },
+    {
+      "word": "REMORAR",
+      "row": {
+        "word": "remorar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of retardar"
+            ],
+            "tags": [
+              "archaic",
+              "transitive"
+            ]
+          }
+        ],
+        "recordSha256": "17311b3b3de3c3e0005113312333dd1d966671a62d9b0e7fc3966df5256fecc5"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of retardar"
+        ],
+        "tags": [
+          "archaic",
+          "transitive"
+        ]
+      },
+      "proposedTarget": "retardar",
+      "targetRows": [
+        {
+          "word": "retardar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to retard, to slow"
+              ]
+            },
+            {
+              "glosses": [
+                "to defer, to delay"
+              ]
+            }
+          ],
+          "recordSha256": "dd380dea2ef0a41a3edfa63e602e811918541ec15f1d65c497b626398d4ccf86"
+        }
+      ]
+    },
+    {
+      "word": "SEXMA",
+      "row": {
+        "word": "sexma",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of sexmo"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          }
+        ],
+        "recordSha256": "cc5df670380921695b7b88b7a9dd3c3e1f865e4bbe94e490ca63842214961e2d"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of sexmo"
+        ],
+        "tags": [
+          "feminine"
+        ]
+      },
+      "proposedTarget": "sexmo",
+      "targetRows": [
+        {
+          "word": "sexmo",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "a Spanish rural administrative division"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "0c2f9da86122b27279d70dbb4765f3d88355d1b88790c9fb6626aa9e8e034053"
+        }
+      ]
+    },
+    {
+      "word": "SOLEJAR",
+      "row": {
+        "word": "solejar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of tomar el sol"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "d55d4f0aca0aba89cf42c63ae8365ec0cefc54500b0cc8d408c4029729a0a979"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of tomar el sol"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "tomar el sol",
+      "targetRows": [
+        {
+          "word": "tomar el sol",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to sunbathe"
+              ],
+              "tags": [
+                "idiomatic"
+              ]
+            }
+          ],
+          "recordSha256": "15014617d1129aad0abdc98f20b15e17667a4640f515106339efcd5d47fde7ac"
+        }
+      ]
+    },
+    {
+      "word": "SONRISO",
+      "row": {
+        "word": "sonriso",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of sonrisa (“smile”)."
+            ],
+            "tags": [
+              "archaic",
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "eadd124fcd70a5fa5ca34fc328f3d366d9c403dc5beab943f29fe33bcb1c80b2"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of sonrisa (“smile”)."
+        ],
+        "tags": [
+          "archaic",
+          "masculine"
+        ]
+      },
+      "proposedTarget": "sonrisa",
+      "targetRows": [
+        {
+          "word": "sonrisa",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "smile"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "517d07277c6e2470e9f134d28fc71192738d60ef2eca28e9db67898517221964"
+        }
+      ]
+    },
+    {
+      "word": "SUSO",
+      "row": {
+        "word": "suso",
+        "pos": "adv",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of arriba"
+            ],
+            "tags": [
+              "uncommon"
+            ]
+          }
+        ],
+        "recordSha256": "d8098a1562c0e38bb2b5c9db02d4c6d45b5c6fbd9727894a43205be406948150"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of arriba"
+        ],
+        "tags": [
+          "uncommon"
+        ]
+      },
+      "proposedTarget": "arriba",
+      "targetRows": [
+        {
+          "word": "arriba",
+          "pos": "adv",
+          "senses": [
+            {
+              "glosses": [
+                "above, over"
+              ]
+            },
+            {
+              "glosses": [
+                "up; uphill; upstream; upstairs"
+              ]
+            }
+          ],
+          "recordSha256": "d38052b207360de74603f87dddc582c5460d8db5a9b74eff3d03203eb0e18dd5"
+        }
+      ]
+    },
+    {
+      "word": "TALQUE",
+      "row": {
+        "word": "talque",
+        "pos": "pron",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of alguno"
+            ],
+            "tags": [
+              "archaic"
+            ]
+          }
+        ],
+        "recordSha256": "fee18d0773a3b18b44e2cc0966ed13bb5a0643530c3989d7435832c8dfc3886f"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of alguno"
+        ],
+        "tags": [
+          "archaic"
+        ]
+      },
+      "proposedTarget": "alguno",
+      "targetRows": [
+        {
+          "word": "alguno",
+          "pos": "pron",
+          "senses": [
+            {
+              "glosses": [
+                "someone"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "some, some people"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            },
+            {
+              "glosses": [
+                "one (thing); a few"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "8042c1d6369639d83913600a555b4cf8f27f702d24b53250dc8f39c2de366b40"
+        }
+      ]
+    },
+    {
+      "word": "TARAJE",
+      "row": {
+        "word": "taraje",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of taray"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "f32e10b87aa39c981236d23d35160ef2b5e44e9f0127ecfc6ead236814296612"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of taray"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "taray",
+      "targetRows": [
+        {
+          "word": "taray",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "French tamarisk (Tamarix gallica)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "7f0f422c0abfd6c3ba7dd39ac0fe79fdd96f52de2faed40c23e32adce09dc105"
+        }
+      ]
+    },
+    {
+      "word": "TEJERA",
+      "row": {
+        "word": "tejera",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of tejer"
+            ],
+            "tags": [
+              "feminine"
+            ]
+          }
+        ],
+        "recordSha256": "ca5f77c698579c93ba9209d5d3825f27c76e3ed5e72e138d229d5945ccc41c39"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of tejer"
+        ],
+        "tags": [
+          "feminine"
+        ]
+      },
+      "proposedTarget": "tejer",
+      "targetRows": []
+    },
+    {
+      "word": "TOLLER",
+      "row": {
+        "word": "toller",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of quitar"
+            ],
+            "tags": [
+              "obsolete",
+              "pronominal",
+              "transitive"
+            ]
+          }
+        ],
+        "recordSha256": "806b0419f2f3dd0daadae00d0207648f4dd42cff882d4addd8333fad2b9587fc"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of quitar"
+        ],
+        "tags": [
+          "obsolete",
+          "pronominal",
+          "transitive"
+        ]
+      },
+      "proposedTarget": "quitar",
+      "targetRows": [
+        {
+          "word": "quitar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to remove, to take away, to take down, to take off, to pull off, to pull out, to clear, to clear away, to strip, to strip away"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to get rid of"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to get off"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to deprive of, to take away from (uses indirect object)"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to take off, to remove, to disrobe, to doff (as clothes or accoutrements)"
+              ],
+              "tags": [
+                "reflexive",
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to be removed"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to get rid of (something belonging to oneself)"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to quit, give up (smoking etc)"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to move away, to get out of the way"
+              ],
+              "tags": [
+                "reflexive"
+              ]
+            },
+            {
+              "glosses": [
+                "to take (e.g. a photograph)"
+              ],
+              "tags": [
+                "Canary-Islands",
+                "transitive"
+              ]
+            }
+          ],
+          "recordSha256": "19144892e42c985e90b487e6a848ed2f60200890774d68daa80eb5db6dbb89a6"
+        }
+      ]
+    },
+    {
+      "word": "TRAQUEO",
+      "row": {
+        "word": "traqueo",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of traqueteo"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "712a36a776c07ca5068606c3a6a8752d8c5566cd2e47f9c087c5a7c058dae73b"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of traqueteo"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "traqueteo",
+      "targetRows": [
+        {
+          "word": "traqueteo",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "rattle, rattling, clatter, clattering"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "e85c5435864ffd0ad750a5c8aefcb758ac9c9ebb1cb3bb1ceaeadf6c2c41937a"
+        }
+      ]
+    },
+    {
+      "word": "UBIO",
+      "row": {
+        "word": "ubio",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of yugo"
+            ],
+            "tags": [
+              "masculine"
+            ]
+          }
+        ],
+        "recordSha256": "c38267143a6850d34cffc48b7599e979e4eee2fbf27a44a9962f3f595b8e44ea"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of yugo"
+        ],
+        "tags": [
+          "masculine"
+        ]
+      },
+      "proposedTarget": "yugo",
+      "targetRows": [
+        {
+          "word": "yugo",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "yoke (bar or frame of wood by which two animals are joined)"
+              ],
+              "tags": [
+                "masculine"
+              ]
+            }
+          ],
+          "recordSha256": "d0c5fc7198cca12e5759100cb9804b3a841462a3e6af3504888fdc060ebc8faa"
+        }
+      ]
+    },
+    {
+      "word": "VELLIDO",
+      "row": {
+        "word": "vellido",
+        "pos": "adj",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of velloso (“hairy, fluffy”)"
+            ]
+          }
+        ],
+        "recordSha256": "24362669a02b1b5870d388890055ade6fb9cded4be665333cf82afac5cfeabe4"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of velloso (“hairy, fluffy”)"
+        ]
+      },
+      "proposedTarget": "velloso",
+      "targetRows": [
+        {
+          "word": "velloso",
+          "pos": "adj",
+          "senses": [
+            {
+              "glosses": [
+                "hairy"
+              ]
+            },
+            {
+              "glosses": [
+                "fluffy"
+              ]
+            }
+          ],
+          "recordSha256": "f7cd4a526ce8819b62f4b7df936dfab52909d8e2f84bbb760b77203b160daee8"
+        }
+      ]
+    },
+    {
+      "word": "YUSO",
+      "row": {
+        "word": "yuso",
+        "pos": "adv",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of abajo"
+            ],
+            "tags": [
+              "Early",
+              "Modern",
+              "Spanish",
+              "obsolete"
+            ]
+          }
+        ],
+        "recordSha256": "99e00dbae08ed46895afa4176bf9c5041d6eb8002f5ec00f62b19e1dba0b16ed"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of abajo"
+        ],
+        "tags": [
+          "Early",
+          "Modern",
+          "Spanish",
+          "obsolete"
+        ]
+      },
+      "proposedTarget": "abajo",
+      "targetRows": [
+        {
+          "word": "abajo",
+          "pos": "adv",
+          "senses": [
+            {
+              "glosses": [
+                "down, downwards"
+              ]
+            },
+            {
+              "glosses": [
+                "downstairs"
+              ]
+            },
+            {
+              "glosses": [
+                "below"
+              ]
+            }
+          ],
+          "recordSha256": "53875b516408e237c7296c1b9d9ae40d9122f833381a60c4e94608d16f98cef3"
+        }
+      ]
+    },
+    {
+      "word": "ZAPUZAR",
+      "row": {
+        "word": "zapuzar",
+        "pos": "verb",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of chapuzar"
+            ],
+            "tags": [
+              "transitive",
+              "uncommon"
+            ]
+          }
+        ],
+        "recordSha256": "b89b0149b5ef00ca71793d51bb589787fe90fe6e93214cde06d03f885e52c5e6"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of chapuzar"
+        ],
+        "tags": [
+          "transitive",
+          "uncommon"
+        ]
+      },
+      "proposedTarget": "chapuzar",
+      "targetRows": [
+        {
+          "word": "chapuzar",
+          "pos": "verb",
+          "senses": [
+            {
+              "glosses": [
+                "to submerge the head of someone or somebody"
+              ],
+              "tags": [
+                "transitive"
+              ]
+            },
+            {
+              "glosses": [
+                "to submerge one's own head, to dive in head first"
+              ],
+              "tags": [
+                "intransitive",
+                "reflexive"
+              ]
+            }
+          ],
+          "recordSha256": "7cf8be9e7cc59fe24c9351ad259111a132535139d4832d9c51a0a7bb97b7a043"
+        }
+      ]
+    },
+    {
+      "word": "ZEDA",
+      "row": {
+        "word": "zeda",
+        "pos": "noun",
+        "senses": [
+          {
+            "glosses": [
+              "synonym of zeta (“zed, zee”)"
+            ],
+            "tags": [
+              "feminine",
+              "uncommon"
+            ]
+          }
+        ],
+        "recordSha256": "f0ea5e5bcfa67f167ad581ef7b7a903d40bac2ade843da738c503df99fb5fc37"
+      },
+      "sense": {
+        "glosses": [
+          "synonym of zeta (“zed, zee”)"
+        ],
+        "tags": [
+          "feminine",
+          "uncommon"
+        ]
+      },
+      "proposedTarget": "zeta",
+      "targetRows": [
+        {
+          "word": "zeta",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "the letter Z"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            },
+            {
+              "glosses": [
+                "zeta; the Greek letter Ζ, ζ"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "e5ef87914bdc557cf3cfd7fb47788e8a9aaf80d1f39bf55a38bebc2b47d7de70"
+        },
+        {
+          "word": "zeta",
+          "pos": "noun",
+          "senses": [
+            {
+              "glosses": [
+                "theta; the Greek letter Θ, θ"
+              ],
+              "tags": [
+                "feminine"
+              ]
+            }
+          ],
+          "recordSha256": "e6cc6331385157add72408cedf72e7a891c3f9613ff6f433dde802f5981ed909"
+        }
+      ]
+    }
+  ]
+}

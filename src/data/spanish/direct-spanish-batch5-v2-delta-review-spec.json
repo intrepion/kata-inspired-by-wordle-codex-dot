@@ -1,0 +1,57 @@
+{
+  "inputSha256": "be82fce3b04514f27249cf1898da42630519a3b97f39d7a4e1c906507e20e92c",
+  "reviewer": "/root/review_spec",
+  "method": "Separate independent one-field delta review plus explicit corrected DROSERA semantic approval. Original65 approvals/raw66 replay retained; no silent edits to original hold or candidate.",
+  "originalCandidateSha256": "53b56db05380ca5a4cda0c07e13a890201aa73f530e8f0f3e9558b37a14d5672",
+  "originalSemanticReviewSha256": "ebf462ebe3b12f9757e8c174204875032c111981dc7e32e4cbf23c2f011bc376",
+  "firstAuthorDeltaSha256": "674bff1543237f38c65c80e9fbdc9ff779fd0084be51ded348dd813d9521ac10",
+  "changedJSONPointers": [
+    "/proposals/47/context"
+  ],
+  "allOtherBytesUnchanged": true,
+  "approved": true,
+  "correctedApproval": {
+    "proposalIndex": 47,
+    "word": "DROSERA",
+    "partOfSpeech": "noun",
+    "sourceWord": "drosera",
+    "senseIndex": 0,
+    "recordSha256": "48b540ad7351a385be21e33fb2289eabad1fa9b17a50ed5142a552c5aedcc429",
+    "english": "a sundew (Drosera)",
+    "context": "Selected carnivorous plant in the genus Drosera; no medicinal uses inferred.",
+    "notes": "Source selects a sundew plant/member of genus Drosera, not the genus itself. Corrected context and unchanged English now align exactly."
+  },
+  "effectiveApprovals": {
+    "unchangedFromOriginalReview": 65,
+    "newlyResolvedDROSERA": 1,
+    "total": 66
+  },
+  "preservedOriginalHolds": [
+    {
+      "word": "GAVIERO",
+      "partOfSpeech": "noun",
+      "recordSha256": "add79ee78e27cee45ba6195e0543b3dc2d6469b85be06750578fce37c4c22e87",
+      "senseIndex": 0,
+      "sourceSense": {
+        "glosses": [
+          "Marinero a cuyo cargo está la gavia del barco, y que realiza la vigilancia desde ella."
+        ],
+        "topics": [
+          "nautical"
+        ],
+        "categories": [
+          "ES:Náutica"
+        ],
+        "sense_index": "1"
+      },
+      "reason": "GAVIA can denote a topsail or a mast-top platform. The supplied source appears to conflate responsibility for the former with standing lookout from the latter; exact technical English role is held pending resolution."
+    }
+  ],
+  "guards": [
+    "Original DROSERA hold remains archival; resolved only for the exact corrected v2 context.",
+    "All original independent review guards retained, including no new inflections/current-taxonomy/native/Mexican-certification claim.",
+    "GAVIERO remains held.",
+    "No production edits or numeric runtime coverage assertion."
+  ],
+  "editorialClarification": "The original review guard phrase ABO/plant name scope was a typographical shorthand; its explicit approved ABEY row is bound only to the source species/tree sense and is not broadened here."
+}

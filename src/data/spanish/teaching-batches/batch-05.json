@@ -1,0 +1,902 @@
+[
+  {
+    "word": "COSTOSO",
+    "translation": "expensive; costly",
+    "example": "El arreglo resultó costoso.",
+    "exampleTranslation": "The repair turned out to be expensive."
+  },
+  {
+    "word": "CRACK",
+    "translation": "star player; outstanding performer",
+    "example": "La afición recibió al crack del equipo.",
+    "exampleTranslation": "The fans welcomed the team's star player."
+  },
+  {
+    "word": "CREADOR",
+    "translation": "creative; creating",
+    "example": "Su impulso creador inspira al grupo.",
+    "exampleTranslation": "Her creative drive inspires the group."
+  },
+  {
+    "word": "CRECIDO",
+    "translation": "grown; enlarged",
+    "example": "El árbol está muy crecido.",
+    "exampleTranslation": "The tree has grown a lot."
+  },
+  {
+    "word": "CREER",
+    "translation": "to believe",
+    "example": "Quiero creer en tu propuesta.",
+    "exampleTranslation": "I want to believe in your proposal."
+  },
+  {
+    "word": "CRESPO",
+    "translation": "curly",
+    "example": "Su cabello crespo forma rizos pequeños.",
+    "exampleTranslation": "Her curly hair forms small curls."
+  },
+  {
+    "word": "CRESTA",
+    "translation": "crest (on an animal)",
+    "example": "El gallo tiene una cresta roja.",
+    "exampleTranslation": "The rooster has a red comb."
+  },
+  {
+    "word": "CREÍBLE",
+    "translation": "credible; believable",
+    "example": "Su explicación es creíble.",
+    "exampleTranslation": "His explanation is believable."
+  },
+  {
+    "word": "CREÍDO",
+    "translation": "conceited",
+    "example": "El personaje creído presume de todo.",
+    "exampleTranslation": "The conceited character boasts about everything."
+  },
+  {
+    "word": "CRIADA",
+    "translation": "female domestic servant",
+    "example": "La criada de la novela prepara la mesa.",
+    "exampleTranslation": "The maid in the novel sets the table."
+  },
+  {
+    "word": "CRIADO",
+    "translation": "domestic servant",
+    "example": "El criado de la película abre la puerta.",
+    "exampleTranslation": "The servant in the film opens the door."
+  },
+  {
+    "word": "CRIANZA",
+    "translation": "upbringing; raising children",
+    "example": "La crianza requiere paciencia.",
+    "exampleTranslation": "Raising children requires patience."
+  },
+  {
+    "word": "CRIMEN",
+    "translation": "crime",
+    "example": "La policía investiga el crimen.",
+    "exampleTranslation": "The police are investigating the crime."
+  },
+  {
+    "word": "CRIOLLO",
+    "translation": "Creole; American-born of European descent",
+    "example": "El personaje criollo nació en América.",
+    "exampleTranslation": "The Creole character was born in the Americas."
+  },
+  {
+    "word": "CRISIS",
+    "translation": "crisis; critical turning point",
+    "example": "La comunidad superó la crisis.",
+    "exampleTranslation": "The community overcame the crisis."
+  },
+  {
+    "word": "CRISTAL",
+    "translation": "crystal",
+    "example": "El cristal tiene una estructura ordenada.",
+    "exampleTranslation": "The crystal has an ordered structure."
+  },
+  {
+    "word": "CRISTO",
+    "translation": "image of Christ",
+    "example": "La capilla guarda un cristo de madera.",
+    "exampleTranslation": "The chapel holds a wooden image of Christ."
+  },
+  {
+    "word": "CROATA",
+    "translation": "Croatian",
+    "example": "Un jugador croata entró al partido.",
+    "exampleTranslation": "A Croatian player came into the match."
+  },
+  {
+    "word": "CROSS",
+    "translation": "cross (boxing punch)",
+    "example": "El boxeador lanzó un cross.",
+    "exampleTranslation": "The boxer threw a cross."
+  },
+  {
+    "word": "CRUCE",
+    "translation": "crossing; intersection",
+    "example": "Nos vemos en el cruce.",
+    "exampleTranslation": "We will meet at the intersection."
+  },
+  {
+    "word": "CRUCIAL",
+    "translation": "crucial",
+    "example": "Tu ayuda fue crucial.",
+    "exampleTranslation": "Your help was crucial."
+  },
+  {
+    "word": "CRUDA",
+    "translation": "hangover",
+    "example": "Después de la fiesta tuvo cruda.",
+    "exampleTranslation": "He had a hangover after the party."
+  },
+  {
+    "word": "CRUEL",
+    "translation": "cruel",
+    "example": "El villano del cuento es cruel.",
+    "exampleTranslation": "The story's villain is cruel."
+  },
+  {
+    "word": "CRUZ",
+    "translation": "cross",
+    "example": "La cruz marca el lugar.",
+    "exampleTranslation": "The cross marks the spot."
+  },
+  {
+    "word": "CRUZA",
+    "translation": "crossbreeding; cross",
+    "example": "La cruza produjo una nueva variedad de ganado.",
+    "exampleTranslation": "The crossbreeding produced a new variety of cattle."
+  },
+  {
+    "word": "CRUZADA",
+    "translation": "campaign driven by an ideal",
+    "example": "Organizaron una cruzada contra el analfabetismo.",
+    "exampleTranslation": "They organized a campaign against illiteracy."
+  },
+  {
+    "word": "CRUZADO",
+    "translation": "bearing a heraldic cross",
+    "example": "El escudo cruzado estaba sobre la puerta.",
+    "exampleTranslation": "The coat of arms bearing a cross was above the door."
+  },
+  {
+    "word": "CRUZAR",
+    "translation": "to cross",
+    "example": "Vamos a cruzar el puente.",
+    "exampleTranslation": "We are going to cross the bridge."
+  },
+  {
+    "word": "CRÁNEO",
+    "translation": "skull",
+    "example": "El cráneo protege el cerebro.",
+    "exampleTranslation": "The skull protects the brain."
+  },
+  {
+    "word": "CRÍA",
+    "translation": "breeding; raising animals",
+    "example": "La cría de ovejas exige cuidado.",
+    "exampleTranslation": "Raising sheep requires care."
+  },
+  {
+    "word": "CRÍTICA",
+    "translation": "review; criticism",
+    "example": "Leí una crítica de la película.",
+    "exampleTranslation": "I read a review of the film."
+  },
+  {
+    "word": "CRÍTICO",
+    "translation": "critical; relating to criticism",
+    "example": "El análisis crítico compara ambas novelas.",
+    "exampleTranslation": "The critical analysis compares both novels."
+  },
+  {
+    "word": "CRÓNICA",
+    "translation": "chronicle",
+    "example": "La crónica relata los hechos en orden.",
+    "exampleTranslation": "The chronicle recounts events in order."
+  },
+  {
+    "word": "CUADRA",
+    "translation": "city block",
+    "example": "La tienda está a una cuadra.",
+    "exampleTranslation": "The shop is one block away."
+  },
+  {
+    "word": "CUAL",
+    "translation": "which; that",
+    "example": "Esta es la casa en la cual crecí.",
+    "exampleTranslation": "This is the house in which I grew up."
+  },
+  {
+    "word": "CUAN",
+    "translation": "as; to the extent that",
+    "example": "Se estiró cuan largo era.",
+    "exampleTranslation": "He stretched out to his full length."
+  },
+  {
+    "word": "CUANDO",
+    "translation": "when",
+    "example": "Te llamo cuando llegue.",
+    "exampleTranslation": "I will call you when I arrive."
+  },
+  {
+    "word": "CUANTO",
+    "translation": "as much as; all that",
+    "example": "Trae cuanto material necesites.",
+    "exampleTranslation": "Bring as much material as you need."
+  },
+  {
+    "word": "CUARTA",
+    "translation": "quarter; fourth part",
+    "example": "Usamos una cuarta parte del terreno.",
+    "exampleTranslation": "We used a quarter of the land."
+  },
+  {
+    "word": "CUARTEL",
+    "translation": "barracks",
+    "example": "El cuartel está cerca del puerto.",
+    "exampleTranslation": "The barracks is near the port."
+  },
+  {
+    "word": "CUATRO",
+    "translation": "four",
+    "example": "Hay cuatro ventanas.",
+    "exampleTranslation": "There are four windows."
+  },
+  {
+    "word": "CUBA",
+    "translation": "wooden vat",
+    "example": "El vino reposa en una cuba.",
+    "exampleTranslation": "The wine rests in a wooden vat."
+  },
+  {
+    "word": "CUBANO",
+    "translation": "Cuban",
+    "example": "El músico cubano tocó el piano.",
+    "exampleTranslation": "The Cuban musician played the piano."
+  },
+  {
+    "word": "CUBO",
+    "translation": "bucket",
+    "example": "Llené un cubo de agua.",
+    "exampleTranslation": "I filled a bucket with water."
+  },
+  {
+    "word": "CUBRIR",
+    "translation": "to cover",
+    "example": "Debes cubrir la olla.",
+    "exampleTranslation": "You should cover the pot."
+  },
+  {
+    "word": "CUENCA",
+    "translation": "eye socket",
+    "example": "El modelo muestra la cuenca del ojo.",
+    "exampleTranslation": "The model shows the eye socket."
+  },
+  {
+    "word": "CUENTA",
+    "translation": "count; counting",
+    "example": "Llevamos la cuenta de las cajas.",
+    "exampleTranslation": "We keep count of the boxes."
+  },
+  {
+    "word": "CUERNO",
+    "translation": "horn",
+    "example": "El toro tiene un cuerno roto.",
+    "exampleTranslation": "The bull has a broken horn."
+  },
+  {
+    "word": "CUERVO",
+    "translation": "crow; raven",
+    "example": "Un cuervo se posó en el árbol.",
+    "exampleTranslation": "A crow perched in the tree."
+  },
+  {
+    "word": "CUESTA",
+    "translation": "slope",
+    "example": "La cuesta termina en la plaza.",
+    "exampleTranslation": "The slope ends at the square."
+  },
+  {
+    "word": "CUIDADO",
+    "translation": "care",
+    "example": "La planta necesita cuidado.",
+    "exampleTranslation": "The plant needs care."
+  },
+  {
+    "word": "CULPAR",
+    "translation": "to blame",
+    "example": "No debes culpar a tu hermano.",
+    "exampleTranslation": "You should not blame your brother."
+  },
+  {
+    "word": "CULTIVO",
+    "translation": "cultivation; growing crops",
+    "example": "El cultivo de maíz depende del agua.",
+    "exampleTranslation": "Growing corn depends on water."
+  },
+  {
+    "word": "CULTO",
+    "translation": "educated; cultured",
+    "example": "El profesor es muy culto.",
+    "exampleTranslation": "The teacher is very cultured."
+  },
+  {
+    "word": "CUMBIA",
+    "translation": "cumbia (music and dance)",
+    "example": "Bailamos cumbia en la fiesta.",
+    "exampleTranslation": "We danced cumbia at the party."
+  },
+  {
+    "word": "CUMBRE",
+    "translation": "mountain summit",
+    "example": "La cumbre está cubierta de nieve.",
+    "exampleTranslation": "The summit is covered in snow."
+  },
+  {
+    "word": "CUMPLE",
+    "translation": "birthday (informal)",
+    "example": "Hoy es el cumple de mi prima.",
+    "exampleTranslation": "Today is my cousin's birthday."
+  },
+  {
+    "word": "CUMPLIR",
+    "translation": "to turn a certain age",
+    "example": "Voy a cumplir veinte años.",
+    "exampleTranslation": "I am going to turn twenty."
+  },
+  {
+    "word": "CUOTA",
+    "translation": "share; fixed portion",
+    "example": "Cada socio pagó su cuota.",
+    "exampleTranslation": "Each member paid their share."
+  },
+  {
+    "word": "CUPO",
+    "translation": "available place; capacity",
+    "example": "Todavía hay cupo en el curso.",
+    "exampleTranslation": "There are still places on the course."
+  },
+  {
+    "word": "CURA",
+    "translation": "cure; treatment",
+    "example": "La cura de la herida tomó tiempo.",
+    "exampleTranslation": "Healing the wound took time."
+  },
+  {
+    "word": "CURAR",
+    "translation": "to heal; to cure",
+    "example": "El tratamiento ayuda a curar la infección.",
+    "exampleTranslation": "The treatment helps cure the infection."
+  },
+  {
+    "word": "CURIOSO",
+    "translation": "curious",
+    "example": "El niño curioso hizo preguntas.",
+    "exampleTranslation": "The curious boy asked questions."
+  },
+  {
+    "word": "CURSAR",
+    "translation": "to take a course",
+    "example": "Quiero cursar una materia de historia.",
+    "exampleTranslation": "I want to take a history course."
+  },
+  {
+    "word": "CUYO",
+    "translation": "whose",
+    "example": "Conocí al autor cuyo libro leí.",
+    "exampleTranslation": "I met the author whose book I read."
+  },
+  {
+    "word": "CUÁL",
+    "translation": "which one",
+    "example": "¿Cuál prefieres?",
+    "exampleTranslation": "Which one do you prefer?"
+  },
+  {
+    "word": "CUÁN",
+    "translation": "how (degree)",
+    "example": "No imaginaba cuán lejos estaba.",
+    "exampleTranslation": "I had not imagined how far away it was."
+  },
+  {
+    "word": "CUÁNDO",
+    "translation": "when (question)",
+    "example": "¿Cuándo empieza la clase?",
+    "exampleTranslation": "When does the class begin?"
+  },
+  {
+    "word": "CUÁNTO",
+    "translation": "how much",
+    "example": "¿Cuánto tiempo necesitas?",
+    "exampleTranslation": "How much time do you need?"
+  },
+  {
+    "word": "CUÑADO",
+    "translation": "brother-in-law",
+    "example": "Mi cuñado arregló la puerta.",
+    "exampleTranslation": "My brother-in-law fixed the door."
+  },
+  {
+    "word": "CÁLCULO",
+    "translation": "calculation",
+    "example": "El cálculo tomó varios minutos.",
+    "exampleTranslation": "The calculation took several minutes."
+  },
+  {
+    "word": "CÁLIDO",
+    "translation": "warm",
+    "example": "El aire cálido entró por la ventana.",
+    "exampleTranslation": "The warm air came through the window."
+  },
+  {
+    "word": "CÁNCER",
+    "translation": "cancer",
+    "example": "El hospital investiga tratamientos contra el cáncer.",
+    "exampleTranslation": "The hospital researches cancer treatments."
+  },
+  {
+    "word": "CÁPSULA",
+    "translation": "capsule (medicine)",
+    "example": "El medicamento viene en una cápsula.",
+    "exampleTranslation": "The medicine comes in a capsule."
+  },
+  {
+    "word": "CÁRCEL",
+    "translation": "prison",
+    "example": "El documental muestra una cárcel antigua.",
+    "exampleTranslation": "The documentary shows an old prison."
+  },
+  {
+    "word": "CÁTEDRA",
+    "translation": "university subject; professorship",
+    "example": "La universidad abrió una cátedra de historia.",
+    "exampleTranslation": "The university established a history professorship."
+  },
+  {
+    "word": "CÉDULA",
+    "translation": "official document; certificate",
+    "example": "Revisaron la cédula antes de firmar.",
+    "exampleTranslation": "They checked the official document before signing."
+  },
+  {
+    "word": "CÉLEBRE",
+    "translation": "famous; celebrated",
+    "example": "La célebre pintora visitó la ciudad.",
+    "exampleTranslation": "The celebrated painter visited the city."
+  },
+  {
+    "word": "CÉLULA",
+    "translation": "cell (biology)",
+    "example": "La célula se observa con un microscopio.",
+    "exampleTranslation": "The cell is observed through a microscope."
+  },
+  {
+    "word": "CÉSAR",
+    "translation": "Caesar; Roman imperial title",
+    "example": "El césar gobernaba desde Roma.",
+    "exampleTranslation": "The Caesar ruled from Rome."
+  },
+  {
+    "word": "CÉSPED",
+    "translation": "lawn; grass",
+    "example": "El césped está húmedo.",
+    "exampleTranslation": "The grass is wet."
+  },
+  {
+    "word": "CÍNICO",
+    "translation": "cynical",
+    "example": "Su comentario cínico mostraba desconfianza.",
+    "exampleTranslation": "His cynical comment showed distrust."
+  },
+  {
+    "word": "CÍRCULO",
+    "translation": "circle",
+    "example": "Dibuja un círculo en la hoja.",
+    "exampleTranslation": "Draw a circle on the page."
+  },
+  {
+    "word": "CÍVICO",
+    "translation": "civic; relating to citizens",
+    "example": "El acto cívico reunió a los vecinos.",
+    "exampleTranslation": "The civic ceremony brought the neighbors together."
+  },
+  {
+    "word": "CÓLERA",
+    "translation": "anger; rage",
+    "example": "La injusticia le produjo cólera.",
+    "exampleTranslation": "The injustice filled him with rage."
+  },
+  {
+    "word": "CÓMIC",
+    "translation": "comic; graphic story",
+    "example": "Compré un cómic de aventuras.",
+    "exampleTranslation": "I bought an adventure comic."
+  },
+  {
+    "word": "CÓMO",
+    "translation": "how",
+    "example": "¿Cómo llegaste tan temprano?",
+    "exampleTranslation": "How did you arrive so early?"
+  },
+  {
+    "word": "CÓMODA",
+    "translation": "chest of drawers",
+    "example": "La ropa está en la cómoda.",
+    "exampleTranslation": "The clothes are in the chest of drawers."
+  },
+  {
+    "word": "CÓMODO",
+    "translation": "comfortable",
+    "example": "El sillón es cómodo.",
+    "exampleTranslation": "The armchair is comfortable."
+  },
+  {
+    "word": "CÓNSUL",
+    "translation": "consul (diplomat)",
+    "example": "El cónsul atendió a los viajeros.",
+    "exampleTranslation": "The consul assisted the travelers."
+  },
+  {
+    "word": "CÓRDOBA",
+    "translation": "cordoba (Nicaraguan currency)",
+    "example": "Guardé un córdoba del viaje.",
+    "exampleTranslation": "I kept a cordoba from the trip."
+  },
+  {
+    "word": "CÚPULA",
+    "translation": "dome",
+    "example": "La cúpula tiene mosaicos.",
+    "exampleTranslation": "The dome has mosaics."
+  },
+  {
+    "word": "DADO",
+    "translation": "die (for games)",
+    "example": "Lanza el dado sobre la mesa.",
+    "exampleTranslation": "Roll the die on the table."
+  },
+  {
+    "word": "DALE",
+    "translation": "okay; go ahead",
+    "example": "Dale, nos vemos a las cinco.",
+    "exampleTranslation": "Okay, see you at five."
+  },
+  {
+    "word": "DAMA",
+    "translation": "lady",
+    "example": "La dama del retrato lleva un sombrero.",
+    "exampleTranslation": "The lady in the portrait wears a hat."
+  },
+  {
+    "word": "DAMASCO",
+    "translation": "apricot tree",
+    "example": "El damasco floreció en primavera.",
+    "exampleTranslation": "The apricot tree blossomed in spring."
+  },
+  {
+    "word": "DANÉS",
+    "translation": "Danish",
+    "example": "Un arquitecto danés diseñó el edificio.",
+    "exampleTranslation": "A Danish architect designed the building."
+  },
+  {
+    "word": "DARSE",
+    "translation": "to consider oneself; to give oneself up",
+    "example": "Darse por vencido no es la solución.",
+    "exampleTranslation": "Giving up is not the solution."
+  },
+  {
+    "word": "DATA",
+    "translation": "date and place recorded on a document",
+    "example": "La data de la carta indica Puebla y el año.",
+    "exampleTranslation": "The letter's date-and-place line gives Puebla and the year."
+  },
+  {
+    "word": "DAÑAR",
+    "translation": "to injure; to damage",
+    "example": "El vidrio puede dañar la piel.",
+    "exampleTranslation": "Glass can injure the skin."
+  },
+  {
+    "word": "DAÑO",
+    "translation": "damage; harm",
+    "example": "La lluvia causó daño al techo.",
+    "exampleTranslation": "The rain damaged the roof."
+  },
+  {
+    "word": "DEBAJO",
+    "translation": "underneath",
+    "example": "El gato está debajo de la silla.",
+    "exampleTranslation": "The cat is under the chair."
+  },
+  {
+    "word": "DEBATIR",
+    "translation": "to debate",
+    "example": "Vamos a debatir las propuestas.",
+    "exampleTranslation": "We are going to debate the proposals."
+  },
+  {
+    "word": "DEBE",
+    "translation": "debit side (accounting)",
+    "example": "Registró la operación en el debe.",
+    "exampleTranslation": "She recorded the transaction on the debit side."
+  },
+  {
+    "word": "DEBER",
+    "translation": "to owe",
+    "example": "No quiero deber dinero.",
+    "exampleTranslation": "I do not want to owe money."
+  },
+  {
+    "word": "DEBIDO",
+    "translation": "proper; appropriate",
+    "example": "Hay que seguir el procedimiento debido.",
+    "exampleTranslation": "We must follow the proper procedure."
+  },
+  {
+    "word": "DEBUT",
+    "translation": "debut; first appearance",
+    "example": "Su debut fue en el teatro local.",
+    "exampleTranslation": "Her debut was at the local theater."
+  },
+  {
+    "word": "DECANO",
+    "translation": "longest-serving member",
+    "example": "El decano del grupo contó su experiencia.",
+    "exampleTranslation": "The longest-serving member of the group shared his experience."
+  },
+  {
+    "word": "DECENTE",
+    "translation": "decent; honest",
+    "example": "Es una persona decente.",
+    "exampleTranslation": "She is a decent person."
+  },
+  {
+    "word": "DECIDIR",
+    "translation": "to decide",
+    "example": "Tenemos que decidir hoy.",
+    "exampleTranslation": "We have to decide today."
+  },
+  {
+    "word": "DECIR",
+    "translation": "to say; to tell",
+    "example": "Quiero decir algo.",
+    "exampleTranslation": "I want to say something."
+  },
+  {
+    "word": "DECLIVE",
+    "translation": "slope; incline",
+    "example": "La calle tiene un declive suave.",
+    "exampleTranslation": "The street has a gentle slope."
+  },
+  {
+    "word": "DECRETO",
+    "translation": "decree",
+    "example": "El decreto entró en vigor ayer.",
+    "exampleTranslation": "The decree took effect yesterday."
+  },
+  {
+    "word": "DEDICAR",
+    "translation": "to devote",
+    "example": "Voy a dedicar una hora al estudio.",
+    "exampleTranslation": "I will devote an hour to studying."
+  },
+  {
+    "word": "DEDUCIR",
+    "translation": "to deduce; to infer",
+    "example": "Podemos deducir la respuesta de los datos.",
+    "exampleTranslation": "We can infer the answer from the data."
+  },
+  {
+    "word": "DEFECTO",
+    "translation": "defect; flaw",
+    "example": "La pieza tiene un defecto.",
+    "exampleTranslation": "The part has a defect."
+  },
+  {
+    "word": "DEFENSA",
+    "translation": "defense; protection",
+    "example": "La defensa del bosque requiere cooperación.",
+    "exampleTranslation": "Protecting the forest requires cooperation."
+  },
+  {
+    "word": "DEFINIR",
+    "translation": "to define",
+    "example": "Es importante definir el objetivo.",
+    "exampleTranslation": "It is important to define the objective."
+  },
+  {
+    "word": "DEJADO",
+    "translation": "neglectful; careless",
+    "example": "El personaje dejado olvida sus tareas.",
+    "exampleTranslation": "The careless character forgets his chores."
+  },
+  {
+    "word": "DEJAR",
+    "translation": "to leave; to put down",
+    "example": "Puedes dejar la bolsa aquí.",
+    "exampleTranslation": "You can leave the bag here."
+  },
+  {
+    "word": "DEJARSE",
+    "translation": "to neglect one's appearance",
+    "example": "Empezó a dejarse y ya no se peina.",
+    "exampleTranslation": "He started neglecting his appearance and no longer combs his hair."
+  },
+  {
+    "word": "DEJE",
+    "translation": "regional accent; inflection",
+    "example": "Tiene un deje del norte.",
+    "exampleTranslation": "She has a northern inflection."
+  },
+  {
+    "word": "DEJO",
+    "translation": "regional accent; speech inflection",
+    "example": "Reconocí su dejo al hablar.",
+    "exampleTranslation": "I recognized his accent when he spoke."
+  },
+  {
+    "word": "DELANTE",
+    "translation": "in front; ahead",
+    "example": "La guía camina delante.",
+    "exampleTranslation": "The guide walks ahead."
+  },
+  {
+    "word": "DELFÍN",
+    "translation": "dolphin",
+    "example": "Un delfín saltó junto al barco.",
+    "exampleTranslation": "A dolphin leaped beside the boat."
+  },
+  {
+    "word": "DELGADO",
+    "translation": "slim; thin",
+    "example": "El muchacho delgado lleva una mochila.",
+    "exampleTranslation": "The slim young man carries a backpack."
+  },
+  {
+    "word": "DELIRIO",
+    "translation": "delirium",
+    "example": "La fiebre le provocó delirio.",
+    "exampleTranslation": "The fever caused delirium."
+  },
+  {
+    "word": "DELITO",
+    "translation": "crime; offense",
+    "example": "El robo es un delito.",
+    "exampleTranslation": "Theft is a crime."
+  },
+  {
+    "word": "DELTA",
+    "translation": "delta (Greek letter)",
+    "example": "La fórmula lleva una delta.",
+    "exampleTranslation": "The formula contains a delta."
+  },
+  {
+    "word": "DEMANDA",
+    "translation": "demand; request",
+    "example": "Presentaron una demanda de mejores servicios.",
+    "exampleTranslation": "They submitted a demand for better services."
+  },
+  {
+    "word": "DEMO",
+    "translation": "demo; demonstration",
+    "example": "Vimos una demo del programa.",
+    "exampleTranslation": "We watched a demo of the software."
+  },
+  {
+    "word": "DEMONIO",
+    "translation": "demon; devil",
+    "example": "El demonio aparece en la leyenda.",
+    "exampleTranslation": "The demon appears in the legend."
+  },
+  {
+    "word": "DEMORA",
+    "translation": "delay",
+    "example": "La demora fue de diez minutos.",
+    "exampleTranslation": "The delay was ten minutes."
+  },
+  {
+    "word": "DEMÁS",
+    "translation": "other; remaining",
+    "example": "Los demás esperan afuera.",
+    "exampleTranslation": "The others are waiting outside."
+  },
+  {
+    "word": "DENSO",
+    "translation": "dense",
+    "example": "El metal es muy denso.",
+    "exampleTranslation": "The metal is very dense."
+  },
+  {
+    "word": "DENTAL",
+    "translation": "dental",
+    "example": "Tengo una revisión dental.",
+    "exampleTranslation": "I have a dental checkup."
+  },
+  {
+    "word": "DENTRO",
+    "translation": "inside",
+    "example": "Las llaves están dentro.",
+    "exampleTranslation": "The keys are inside."
+  },
+  {
+    "word": "DERECHA",
+    "translation": "right hand",
+    "example": "Escribió con la derecha.",
+    "exampleTranslation": "She wrote with her right hand."
+  },
+  {
+    "word": "DERIVA",
+    "translation": "drift",
+    "example": "El viento aumentó la deriva del barco.",
+    "exampleTranslation": "The wind increased the boat's drift."
+  },
+  {
+    "word": "DERRAME",
+    "translation": "spill",
+    "example": "Limpiamos el derrame de aceite.",
+    "exampleTranslation": "We cleaned up the oil spill."
+  },
+  {
+    "word": "DERROTA",
+    "translation": "defeat",
+    "example": "El equipo aceptó la derrota.",
+    "exampleTranslation": "The team accepted defeat."
+  },
+  {
+    "word": "DESAFÍO",
+    "translation": "challenge",
+    "example": "La subida fue un desafío.",
+    "exampleTranslation": "The climb was a challenge."
+  },
+  {
+    "word": "DESDE",
+    "translation": "from; since",
+    "example": "Caminamos desde la plaza.",
+    "exampleTranslation": "We walked from the square."
+  },
+  {
+    "word": "DESEO",
+    "translation": "desire; wish",
+    "example": "Mi deseo es seguir estudiando.",
+    "exampleTranslation": "My wish is to continue studying."
+  },
+  {
+    "word": "DESFILE",
+    "translation": "parade",
+    "example": "Vimos el desfile desde la banqueta.",
+    "exampleTranslation": "We watched the parade from the sidewalk."
+  },
+  {
+    "word": "DESNUDO",
+    "translation": "naked; unclothed",
+    "example": "El bebé desnudo esperaba su baño.",
+    "exampleTranslation": "The naked baby was waiting for a bath."
+  },
+  {
+    "word": "DESPIDO",
+    "translation": "dismissal from employment",
+    "example": "El despido tomó por sorpresa al trabajador.",
+    "exampleTranslation": "The dismissal took the worker by surprise."
+  },
+  {
+    "word": "DESPUÉS",
+    "translation": "after; afterward",
+    "example": "La farmacia está después del puente.",
+    "exampleTranslation": "The pharmacy is after the bridge."
+  },
+  {
+    "word": "DESTINO",
+    "translation": "fate; destiny",
+    "example": "La novela habla del destino.",
+    "exampleTranslation": "The novel is about fate."
+  },
+  {
+    "word": "DESVIAR",
+    "translation": "to divert",
+    "example": "Hay que desviar el agua.",
+    "exampleTranslation": "We need to divert the water."
+  }
+]

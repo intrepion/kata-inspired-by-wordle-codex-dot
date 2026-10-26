@@ -1,0 +1,46 @@
+{
+  "author": "/root/review_spec",
+  "method": "Independent model source recheck; no native or legal certification.",
+  "originalFile": "/tmp/direct-spanish-batch6-proposals-spec.json",
+  "originalSha256": "10b51829f25b55dde0352ea56d83b2bbd90685efe26df537e639e8244cc4d772",
+  "revisedFile": "/tmp/direct-spanish-batch6-proposals-v2-spec.json",
+  "revisedSha256": "7b55aa1d08de21ca19c7391b1ec4124f41fb7eae554733e91d0909b63c903ebe",
+  "changes": [
+    {
+      "pointer": "/proposals/37/english",
+      "before": "a boundary, especially one marked by stones or a bank",
+      "after": "a boundary, especially one defined by markers or a bank"
+    },
+    {
+      "pointer": "/proposals/37/context",
+      "before": "Rare noun sense, not the separate augmentative adjective based on lindo.",
+      "after": "Rare noun sense. The markers need not be stones; a bank may also define the boundary. Not the separate augmentative adjective based on lindo."
+    }
+  ],
+  "sourceIdentity": {
+    "recordSha256": "dc01f505c7a5e22fbaed8f06798992ed329eb4118ae02df868892fe95d631fb5",
+    "sourceUrl": "https://es.wiktionary.org/wiki/lindazo",
+    "word": "lindazo",
+    "partOfSpeech": "noun",
+    "posTitle": "Sustantivo masculino",
+    "rowTags": [
+      "masculine"
+    ],
+    "rowRawTags": [],
+    "senseIndex": 0,
+    "glosses": [
+      "Linde, y en especial si se halla señalado con mojones, o por medio de un ribazo."
+    ],
+    "tags": [
+      "rare"
+    ],
+    "rawTags": [],
+    "categories": [
+      "ES:Términos infrecuentes"
+    ],
+    "topics": []
+  },
+  "unchanged": "All other bytes, records, source identities, fields and original files remain unchanged.",
+  "reason": "Spanish mojones supports boundary markers, without requiring stone construction.",
+  "approvalStatus": "Revised proposal requires independent delta review. Original LINDAZO hold remains archival; MANGOTE remains held pending better sense corroboration."
+}

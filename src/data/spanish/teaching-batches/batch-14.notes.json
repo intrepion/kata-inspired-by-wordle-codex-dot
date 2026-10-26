@@ -1,0 +1,14 @@
+{
+  "PISO": "lexical-evidence.json PISO entry0 sense1: ordinary floor rather than rare action noun.",
+  "PASTEL": "Ordinary meaning from model linguistic knowledge; not claimed from selected source anchor. Retained extract may omit this sense; independent cross-review required.",
+  "PLANO": "lexical-evidence.json PLANO entry0 sense2 explicitly supports geometric plane.",
+  "PARTIDO": "Ordinary meaning from model linguistic knowledge; not claimed from selected source anchor. Retained extract may omit this sense; independent cross-review required.",
+  "PAUTA": "Ordinary meaning from model linguistic knowledge; not claimed from selected source anchor. Retained extract may omit this sense; independent cross-review required.",
+  "PLENO": "Ordinary meaning or idiomatic usage from model linguistic knowledge; no source translation claim. Preferred over uncommon supplied sense; independent cross-review required.",
+  "PILOTO": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PIZARRA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PIÑA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PLANA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PLANCHA": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim.",
+  "PLANTEL": "Independent model cross-review: refined wording, rendering, or ordinary useful meaning from linguistic knowledge. Original AI-authored teaching; no dictionary translation or native-human verification claim."
+}

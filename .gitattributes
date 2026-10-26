@@ -2,3 +2,18 @@
 docs/sources/scowl-2020.12.07-README.txt -whitespace
 public/third-party/AGID-Copyright.txt -whitespace
 docs/sources/agid-2016.01.19-format.txt -whitespace
+
+# Preserve byte-identical unmodified upstream license notices.
+public/third-party/es-MX/LGPLv3.txt -whitespace
+public/third-party/es-MX/LICENSE.md -whitespace
+
+# Preserve byte-identical pinned upstream source and license formatting.
+public/third-party/apertium-translations/AGID-Copyright.txt -whitespace
+public/third-party/apertium-translations/apertium-eng-spa-README -whitespace
+public/third-party/apertium-translations/apertium-eng-spa.eng-spa.dix -whitespace
+public/third-party/apertium-translations/apertium-spa-README -whitespace
+public/third-party/apertium-translations/apertium-spa.spa.metadix -whitespace
+public/third-party/es-MX/MPL-1.1.txt -whitespace
+public/third-party/spanish-derived-translations/CC-BY-SA-4.0.txt -whitespace
+public/third-party/spanish-selection/CC-BY-SA-4.0.txt -whitespace
+public/third-party/wordnet-translations/WordNet-LICENSE.txt -whitespace

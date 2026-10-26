@@ -1,0 +1,431 @@
+{
+  "proposalSha256": "f108a6c092078572a094f3e079df89f085970dd2f8762dec6db6eb469472a73c",
+  "reviewer": "/root/review_standards",
+  "method": "Explicit prior-hold comparison; previous source mappings and review artifacts remain unchanged.",
+  "reassessments": [
+    {
+      "spanish": "ahechar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "ahechar",
+        "reason": "English explicitly describes air-current winnowing while Spanish describes sieving with a harnero; do not erase the method mismatch."
+      },
+      "newProposalFrame": "sift grain",
+      "newSelectedSourceRecordSha256": "023d7da8f2586e6ce178a529e69033a9ce68a0279bdf98f1d9022b351a608e21",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Limpiar con harnero o criba el trigo u otras semillas."
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Clean wheat or other seeds using a sieve; grain is explicitly supplied by the source."
+    },
+    {
+      "spanish": "atropar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "atropar",
+        "reason": "English line-up troops implies arrangement; Spanish explicitly gathers people in disorder. Do not merge those meanings."
+      },
+      "newProposalFrame": "gather cereal stalks into sheaves",
+      "newSelectedSourceRecordSha256": "4614752054e7bf61a66fe3742c8a1d18ea187664f531c5aa5f5f1d4ea39d5fdf",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Recoger del suelo las mieses y reunirlas en gavillas."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected agricultural gathering of harvested stalks into sheaves; not disorderly gathering of people."
+    },
+    {
+      "spanish": "machear",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "machear",
+        "reason": "English match borrowing is not corroborated by retained Spanish breeding/pollination meanings; this spelling and sense remain uncertain."
+      },
+      "newProposalFrame": "pollinate palms",
+      "newSelectedSourceRecordSha256": "0afeb27058f7a77f5667f59b5d9cb3c91ae91bc1af7783617035d354fbe9ba71",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Sacudir las flores masculinas sobre los pies femeninos para fecundar las palmeras."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected cultivation action of shaking male flowers over female palms; human operator, plants are patients."
+    },
+    {
+      "spanish": "meritar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "meritar",
+        "reason": "English merit/deserve presents an entity deserving something; Spanish describes acting meritoriously. Do not conflate the state with its acquisition/action."
+      },
+      "newProposalFrame": "act meritoriously",
+      "newSelectedSourceRecordSha256": "089f287116242b89647e715a3a9161ba905f73e40522131077fe0136d8ecb652",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Actuar de modo meritorio (digno de aprobación), generalmente para preparar u obtener el logro de algo."
+        ],
+        "tags": [
+          "rare"
+        ],
+        "categories": [
+          "ES:Términos infrecuentes"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Rare sense of acting in a way worthy of approval, often toward an aim; no successful achievement is promised."
+    },
+    {
+      "spanish": "amusgar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "amusgar",
+        "reason": "Both supplied senses require body parts belonging to the subject; fixed one's would not agree with generated persons and no possessive-aware renderer is authorized."
+      },
+      "newProposalFrame": "squint",
+      "newSelectedSourceRecordSha256": "5498992f6df99b38795a2a25eba01ecf0e2907e193845938f402781d3d6bcc3a",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Recoger la vista para ver mejor."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected visual action of narrowing the eyes to see better; not laying an animal's ears back."
+    },
+    {
+      "spanish": "carenar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "carenar",
+        "reason": "English tipping a ship on its side and Spanish repairing its hull are related but distinct actions; do not imply one from the other."
+      },
+      "newProposalFrame": "repair a ship's hull",
+      "newSelectedSourceRecordSha256": "f56b467836463f4174a1535e064cdfb09de2eceb5337085fd533847d5dd11cbc",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Proceder a las reparaciones y composturas del casco de un barco."
+        ],
+        "topics": [
+          "nautical"
+        ],
+        "categories": [
+          "ES:Náutica"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected maintenance and repair of a ship's hull, not aerodynamic bodywork."
+    },
+    {
+      "spanish": "comedir",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "comedir",
+        "reason": "English restraining/moderating is not supported by the retained obsolete Spanish thinking/planning sense."
+      },
+      "newProposalFrame": "plan ahead",
+      "newSelectedSourceRecordSha256": "449fa1891c258bed6b361edf24864f4eae70fa8f6534c79678fec3a96650c77d",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Pensar, premeditar o tomar las medidas para algunas cosas."
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Outdated deliberating or taking measures in advance; not the separate pronominal self-restraint construction."
+    },
+    {
+      "spanish": "dovelar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "dovelar",
+        "reason": "English keystoning is not equivalent to cutting every stone into a wedge-shaped voussoir; architectural action mismatch."
+      },
+      "newProposalFrame": "cut stone into wedges",
+      "newSelectedSourceRecordSha256": "6c6eae32990b00aa586732a1c7d92ac7f29b169a72de6ec99bb1dd6ca668898c",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Labrar la piedra para que quede con forma de cuña."
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected dressing of stones into wedge shapes; stone and shape are source-given."
+    },
+    {
+      "spanish": "chiscar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "chiscar",
+        "reason": "Lighting a cigarette differs from retained Spanish striking flint to create sparks; no specific shared action confidently established."
+      },
+      "newProposalFrame": "produce sparks by striking flint",
+      "newSelectedSourceRecordSha256": "e2d298886850d08be868977964d326b7c3d177a21cd5177d03ef62fe5cb14a25",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Golpear el eslabón contra el pedernal para producir chispas. En Asturias también se utiliza como sinonimo de salpicar y en Galicia de copular"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected fire-making sense; not the separate regional splashing or sexual senses mentioned in the same source gloss."
+    },
+    {
+      "spanish": "enyugar",
+      "priorArtifact": "english-additional-verb-2-review-spec.json",
+      "priorArtifactSha256": "2494b309adaec974394db748ac4afa80a32cf2ab54264229898b65e588f64729",
+      "priorDecision": {
+        "spanish": "enyugar",
+        "reason": "English regional choke is not corroborated by Spanish putting draught animals in a yoke or fitting a bell yoke; construction and sense uncertain."
+      },
+      "newProposalFrame": "attach a yoke to a bell",
+      "newSelectedSourceRecordSha256": "fe2ca37a52c2a2be585a76b5d6baaf5d4c2a680792ec83ad4389d4aacbc265e7",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Poner a una campana el armazón que sirve para voltearla (el yugo)."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected bell hardware sense: attach the supporting yoke used to turn a bell; no animal-as-object reading."
+    },
+    {
+      "spanish": "atropar",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "atropar",
+        "reason": "English line-up implies orderly arrangement, while Spanish definition explicitly gathers troops in disorder; no confident equivalent selected."
+      },
+      "newProposalFrame": "gather cereal stalks into sheaves",
+      "newSelectedSourceRecordSha256": "4614752054e7bf61a66fe3742c8a1d18ea187664f531c5aa5f5f1d4ea39d5fdf",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Recoger del suelo las mieses y reunirlas en gavillas."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected agricultural gathering of harvested stalks into sheaves; not disorderly gathering of people."
+    },
+    {
+      "spanish": "machear",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "machear",
+        "reason": "English loanword match may be valid regionally but supplied Spanish senses concern animal reproduction; source evidence does not establish a confident selected alignment."
+      },
+      "newProposalFrame": "pollinate palms",
+      "newSelectedSourceRecordSha256": "0afeb27058f7a77f5667f59b5d9cb3c91ae91bc1af7783617035d354fbe9ba71",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Sacudir las flores masculinas sobre los pies femeninos para fecundar las palmeras."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected cultivation action of shaking male flowers over female palms; human operator, plants are patients."
+    },
+    {
+      "spanish": "meritar",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "meritar",
+        "reason": "English merit/earn/deserve is an entitlement or result, while supplied Spanish definition is acting meritoriously in preparation; subject and event alignment not established."
+      },
+      "newProposalFrame": "act meritoriously",
+      "newSelectedSourceRecordSha256": "089f287116242b89647e715a3a9161ba905f73e40522131077fe0136d8ecb652",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Actuar de modo meritorio (digno de aprobación), generalmente para preparar u obtener el logro de algo."
+        ],
+        "tags": [
+          "rare"
+        ],
+        "categories": [
+          "ES:Términos infrecuentes"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Rare sense of acting in a way worthy of approval, often toward an aim; no successful achievement is promised."
+    },
+    {
+      "spanish": "carenar",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "carenar",
+        "reason": "English turn-a-ship-on-its-side and Spanish repair-the-hull are related operations, but not interchangeable events; no precise aligned frame established."
+      },
+      "newProposalFrame": "repair a ship's hull",
+      "newSelectedSourceRecordSha256": "f56b467836463f4174a1535e064cdfb09de2eceb5337085fd533847d5dd11cbc",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Proceder a las reparaciones y composturas del casco de un barco."
+        ],
+        "topics": [
+          "nautical"
+        ],
+        "categories": [
+          "ES:Náutica"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected maintenance and repair of a ship's hull, not aerodynamic bodywork."
+    },
+    {
+      "spanish": "comedir",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "comedir",
+        "reason": "English restrain/moderate does not align confidently with supplied obsolete think/premeditate definition."
+      },
+      "newProposalFrame": "plan ahead",
+      "newSelectedSourceRecordSha256": "449fa1891c258bed6b361edf24864f4eae70fa8f6534c79678fec3a96650c77d",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Pensar, premeditar o tomar las medidas para algunas cosas."
+        ],
+        "tags": [
+          "outdated"
+        ],
+        "categories": [
+          "ES:Términos anticuados"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Outdated deliberating or taking measures in advance; not the separate pronominal self-restraint construction."
+    },
+    {
+      "spanish": "chiscar",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "chiscar",
+        "reason": "English lighting-a-cigarette and Spanish striking steel against flint to make sparks are related but not the same event; uncertain alignment withheld."
+      },
+      "newProposalFrame": "produce sparks by striking flint",
+      "newSelectedSourceRecordSha256": "e2d298886850d08be868977964d326b7c3d177a21cd5177d03ef62fe5cb14a25",
+      "newSelectedSenseIndex": 0,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Golpear el eslabón contra el pedernal para producir chispas. En Asturias también se utiliza como sinonimo de salpicar y en Galicia de copular"
+        ],
+        "sense_index": "1"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected fire-making sense; not the separate regional splashing or sexual senses mentioned in the same source gloss."
+    },
+    {
+      "spanish": "enyugar",
+      "priorArtifact": "english-additional-verb-2-review-standards.json",
+      "priorArtifactSha256": "cdc64cb15aca6412f48560eb258779ef9868d7b7e17a577f0119b09274f8e8ac",
+      "priorDecision": {
+        "spanish": "enyugar",
+        "reason": "English Canary Islands choke does not align with supplied yoking/campanology senses; no independently verified selected homograph paradigm."
+      },
+      "newProposalFrame": "attach a yoke to a bell",
+      "newSelectedSourceRecordSha256": "fe2ca37a52c2a2be585a76b5d6baaf5d4c2a680792ec83ad4389d4aacbc265e7",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Poner a una campana el armazón que sirve para voltearla (el yugo)."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected bell hardware sense: attach the supporting yoke used to turn a bell; no animal-as-object reading."
+    },
+    {
+      "spanish": "colear",
+      "priorArtifact": "english-additional-verb-review-spec.json",
+      "priorArtifactSha256": "298eaa61c684a01bc7eb93a38899915fad38109ccbfb4e8e58cc7542e012893b",
+      "priorDecision": {
+        "spanish": "colear",
+        "reason": "Selected tail-wagging needs subject-bound possessive handling; a fixed one’s tail would become ungrammatical or misbound under ordinary finite rendering. Other supplied senses are not securely aligned or require pronominal construction."
+      },
+      "newProposalFrame": "fail an exam",
+      "newSelectedSourceRecordSha256": "f51d9277e5faff7dfe90b29fd0e275c62cbb2d701ccb11feeee7e106ff972f0b",
+      "newSelectedSenseIndex": 2,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Fracasar en una prueba o examen escolar."
+        ],
+        "tags": [
+          "Chile"
+        ],
+        "categories": [
+          "ES:América",
+          "ES:Chile"
+        ],
+        "sense_index": "4"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected Chilean school/exam sense; not the animal tail-wagging sense."
+    },
+    {
+      "spanish": "erizar",
+      "priorArtifact": "english-additional-verb-review-spec.json",
+      "priorArtifactSha256": "298eaa61c684a01bc7eb93a38899915fad38109ccbfb4e8e58cc7542e012893b",
+      "priorDecision": {
+        "spanish": "erizar",
+        "reason": "ERIZAR transitive causing hair to stand must remain distinct from English intransitive bristle. Fixed make bristle would require an object in the middle, while bare bristle reverses the selected subject role. Needs an object-aware causative construction or separate reviewed frame."
+      },
+      "newProposalFrame": "encumber",
+      "newSelectedSourceRecordSha256": "c509e3ce5c4a09ab9c5ca2b48bc693d409723aedbc3b6952ebfe75aa53ae2cd1",
+      "newSelectedSenseIndex": 1,
+      "newSelectedDefinition": {
+        "glosses": [
+          "Llenar o rodear algo de obstáculos, asperezas, inconvenientes, etc."
+        ],
+        "sense_index": "2"
+      },
+      "rationale": "This is a separate original model English rendering of the exact Spanish definition, not renewed approval of the rejected English-source mapping. The new frame/context avoids the prior mismatch; independent review must assess it anew.",
+      "newContext": "Selected transitive sense of surrounding or filling something with obstacles or difficulties; not reflexive hair or emotional disturbance."
+    }
+  ],
+  "guard": "No prior held English mapping, role or construction is authorized by the Spanish-source proposal. Independent second-author approval of new exact sense/frame remains mandatory."
+}

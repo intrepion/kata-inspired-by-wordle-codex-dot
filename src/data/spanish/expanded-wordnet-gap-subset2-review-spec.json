@@ -1,0 +1,302 @@
+{
+  "inputSha256": "488b020373ce0f1af8cde981b9c240c076237237e2161ff6f4b0df4925d2e381",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model lexical/role/source review, not native-human certification. Every exact whole-word and supporting Spanish raw record/sense checked against pinned gzip; exact WordNet and MCR lines independently checked. No production edits.",
+  "approved": [
+    {
+      "originalCandidateIndex": 31,
+      "spanish": "asearse",
+      "word": "ASEARSE",
+      "partOfSpeech": "verb",
+      "synset": "00040766-v",
+      "english": [
+        "to make oneself clean or presentable"
+      ],
+      "context": "Whole pronominal self-grooming use; source base explicitly cleaning/arranging appearance, not causatively grooming someone else.",
+      "wordnetRecordSha256": "264aafc01506b25ed5d474d3e86950d3ae3dac6bf786bf5a1bd2a1b940830dae",
+      "mcrRecordSha256": "135f98aab9f8c79ec9c123e5491e03c4138282a10ca588bb7eafdc0b7cc1d894",
+      "wholeWordSpanishRecordSha256": "e91b406e9dddbc68c85ed60f0348d5c678a72cbe11c4c1ff01a088a3172e132e",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "asear",
+          "recordSha256": "03386617d7a9a4109cad01c3e5752cbeac77189c88053d0042eb249542fbd3fe",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Source whole-word pronominal reference plus cleaning/appearance base supports self-grooming, not an arbitrary SE transform."
+    },
+    {
+      "originalCandidateIndex": 35,
+      "spanish": "basarse",
+      "word": "BASARSE",
+      "partOfSpeech": "verb",
+      "synset": "02663643-v",
+      "english": [
+        "to be based on something"
+      ],
+      "context": "Lexical construction requiring a contextual basis; something is an argument slot, not an invented particular object. No finite or generic base-on rule authorized.",
+      "wordnetRecordSha256": "62ad93bb1389cfc374e47654dc0f0e71f03d7821b5d1be1b09b7b5a11aeb2e57",
+      "mcrRecordSha256": "9ac2902cf80d6791809afd4820970c2cbeb8436535bc50998892b69fab8df7ed",
+      "wholeWordSpanishRecordSha256": "fd033247261897d04effe76cd281cf43cbabe998238fdd801b99b0de4da41bb4",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [],
+      "notes": "Be based on something expresses the source dependence relation; something is a contextual argument slot, not an invented concrete basis."
+    },
+    {
+      "originalCandidateIndex": 40,
+      "spanish": "besarse",
+      "word": "BESARSE",
+      "partOfSpeech": "verb",
+      "synset": "01431230-v",
+      "english": [
+        "to kiss one another"
+      ],
+      "context": "Selected reciprocal use of this whole pronominal word, not universal interpretation of every SE form. Retain source colloquial label; no actual people or example scene.",
+      "wordnetRecordSha256": "95f846080cbb3d15a17ef46f5718417509c83d534f6e885f0f2d18ce2131c1b1",
+      "mcrRecordSha256": "74b1a84681fd4982088a3d7dbf5fa6f596ec3532ecd9acc691f5e13992741ac2",
+      "wholeWordSpanishRecordSha256": "dbf0aac39c6a3ed2d00512862e6e0100e1a6db45c1d466bbafc9f01c5e31f413",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "besar",
+          "recordSha256": "ab2d1fdcc56268b76b01d43e7030497339719abf50629036006a1b3c639e063d",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "A valid selected reciprocal kissing reading. Does not assert every use is reciprocal or authorize finite SE rules; colloquial source label retained."
+    },
+    {
+      "originalCandidateIndex": 44,
+      "spanish": "cocerse",
+      "word": "COCERSE",
+      "partOfSpeech": "verb",
+      "synset": "00328128-v",
+      "english": [
+        "to be cooked in boiling water"
+      ],
+      "context": "Selected food-undergoing-cooking reading; not a human boiling oneself, plotting or intoxication. English WordNet includes the be-immersed reading.",
+      "wordnetRecordSha256": "9f4a23353ddd3dcd6d265d82dfdd57cb988cefdf3458bba099f7b8b3dc95960b",
+      "mcrRecordSha256": "d6f6475ea8058cb40aa1803f559901aee0eec3f2fa0bd82f3df33790021e1f26",
+      "wholeWordSpanishRecordSha256": "9ac685997dde911e001e1d7fa2c1edecff749e4e506db4ce6fc40866d8e7d95e",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "cocer",
+          "recordSha256": "a936da9af502897489d8a3d2d88adb45cb2b1f27562ee87a4eedefa5e764c317",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Patient undergoes cooking; boiling-water subset supported by the base source. No human-agent boiling-oneself or unrelated intoxication sense."
+    },
+    {
+      "originalCandidateIndex": 55,
+      "spanish": "echarse",
+      "word": "ECHARSE",
+      "partOfSpeech": "verb",
+      "synset": "01985029-v",
+      "english": [
+        "to lie down"
+      ],
+      "context": "Explicit source synonym TENDERSE resolves to extending oneself horizontally to rest; not dog commands, murder, sleeping necessarily or fast movement.",
+      "wordnetRecordSha256": "c498a3b72562ffbdf3b432803ca833716be9acbfcc3d2742146f4a289b4cdf9b",
+      "mcrRecordSha256": "5127aa3cbcb0016a10f686786302addd17215043a2ed4f34805f63bd90163138",
+      "wholeWordSpanishRecordSha256": "1d50ed298ea710fab2f85b61ce33e4a06714df5195352fbf268b975933d1df01",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "tenderse",
+          "recordSha256": "1311a19d1d4dca653ba559362851407364e20e2d82aecc444c72316bb760b6bb",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Explicit TENDERSE chain supports adopting a reclining position; no necessary sleep event."
+    },
+    {
+      "originalCandidateIndex": 60,
+      "spanish": "fiarse",
+      "word": "FIARSE",
+      "partOfSpeech": "verb",
+      "synset": "00688377-v",
+      "english": [
+        "to trust someone"
+      ],
+      "context": "Selected confidence-in-a-person sense; not credit sales, entrusting an object or allowing something without fear.",
+      "wordnetRecordSha256": "e14f6cd4a5772c1c94bb6288f505f3121f4a35237f3664b6644a7eb184d7bf06",
+      "mcrRecordSha256": "96658e62af5064f3ae78e8c01074a5023559f51c3cf26ddb28e744fae0e8c192",
+      "wholeWordSpanishRecordSha256": "b3c5cc717e873e52aa5e80dc25f5d7b506ce0684c1f96cfad1ddc1660d6fa1cc",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "fiar",
+          "recordSha256": "57f59487fe68314bcbfbaa833b0167e4de6b61398d38a26985beb4b3a76dc461",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Explicit pronominal confidence-in-someone base sense; no credit-sale or entrusting-object relation."
+    },
+    {
+      "originalCandidateIndex": 78,
+      "spanish": "jamarse",
+      "word": "JAMARSE",
+      "partOfSpeech": "verb",
+      "synset": "01168468-v",
+      "english": [
+        "to eat"
+      ],
+      "context": "Selected whole pronominal eating sense; base source labels Spain/colloquial are provenance-scoped, not a Mexican-only claim.",
+      "wordnetRecordSha256": "959d206013d954794e8d006a891ecfed8abb92fa26a56c73b7795ca505289693",
+      "mcrRecordSha256": "0f6752283f92557ec1ac12f98940bfc42a2c56c975594b49b4a4fd94c3d21a40",
+      "wholeWordSpanishRecordSha256": "21484136043a7079a4b5b563aff2e150de5e0d4d2fc27a6d1b8917e1081d2826",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "jamar",
+          "recordSha256": "cb07ff3fec02877588b060dde6a3012e280d8b65c63adab2b7266296c259a88a",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Eating whole-word reading; supporting base Spain/colloquial labels remain visibly provenance-scoped, not Mexican usage certification."
+    },
+    {
+      "originalCandidateIndex": 81,
+      "spanish": "lavarse",
+      "word": "LAVARSE",
+      "partOfSpeech": "verb",
+      "synset": "00035758-v",
+      "english": [
+        "to wash oneself"
+      ],
+      "context": "Whole pronominal self-washing, with liquid/water; not laundering money, textile washability or causatively washing somebody else.",
+      "wordnetRecordSha256": "57d52e2ef03e3251e135e33ecb14d3c8c204149d1c1c0ce7955d7a5e55e5051d",
+      "mcrRecordSha256": "c3ffa1275583fc7554d9281cf1d3bc1e8f3c327c564e0d53df9b95a8d93a102f",
+      "wholeWordSpanishRecordSha256": "770f8d58043aad800c0b49ef6d0efda6f28bde2cc5e4d0d44bef8c164e4f589d",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "lavar",
+          "recordSha256": "0b5fef84baa9f024891165e86d7dc34860863017b8d64b1fb3b3c31e52dc64c9",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Selected washing oneself in liquid; no laundering-money or generic washability inference."
+    },
+    {
+      "originalCandidateIndex": 84,
+      "spanish": "leerse",
+      "word": "LEERSE",
+      "partOfSpeech": "verb",
+      "synset": "00625119-v",
+      "english": [
+        "to read"
+      ],
+      "context": "Source marks LEERSE as emphatic pronominal LEER; selected interpreting written/printed signs, not an English reflexive object or forced reading-aloud claim.",
+      "wordnetRecordSha256": "92e6898e3bfafc2f92aa49dccfd0b87827ecab37e1b5b6fcad4e3d7c1317b471",
+      "mcrRecordSha256": "1ec460bbeef067eb1f0b41011dd0c1c01ff4ff55cb78cfc8505725c9df06d98c",
+      "wholeWordSpanishRecordSha256": "18887d04414a2902b98b3bb9093dbdec5c29868d58b14a179d226ab8e4f3ba9d",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "leer",
+          "recordSha256": "879db5edb208d1c062a86b8d15c34f77198b957fe0c2de457ed3a4b4f72666ce",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Emphatic reading meaning with written/printed signs. Plain to read is useful lexical meaning; no read oneself object invented."
+    },
+    {
+      "originalCandidateIndex": 91,
+      "spanish": "mecerse",
+      "word": "MECERSE",
+      "partOfSpeech": "verb",
+      "synset": "01875295-v",
+      "english": [
+        "to rock back and forth"
+      ],
+      "context": "Intransitive/reflexive body movement, not moving a different object, milking or nurturing hopes.",
+      "wordnetRecordSha256": "30d529b9c69458c3b92f94984ac17580d827d67addbf55c43fb183cae7a56102",
+      "mcrRecordSha256": "588cde3cf1433fac9dbe124356b5a012bf9cd8946168cb2ce850b9c025aab9a4",
+      "wholeWordSpanishRecordSha256": "a7763c6412558ff8590897df27bec943fc93ad6849c6f00c161025ba2a74022d",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "mecer",
+          "recordSha256": "229600ca4cc5cbb2a81cfee7694f63593a973a68488b5cfb2ba78f2a7e2453ae",
+          "senseIndex": 0
+        }
+      ],
+      "notes": "Body itself rocks back and forth; contextual subject, not an agent oscillating an external patient."
+    },
+    {
+      "originalCandidateIndex": 108,
+      "spanish": "posarse",
+      "word": "POSARSE",
+      "partOfSpeech": "verb",
+      "synset": "01978700-v",
+      "english": [
+        "to alight (of a flying animal)"
+      ],
+      "context": "Selected bird/flying-animal coming to rest after flight; never the causative assign-another-person-a-seat synset.",
+      "wordnetRecordSha256": "33db5e56b9140125c19cbb315b83209599ca0d86a45a89b4d59e92cb71804112",
+      "mcrRecordSha256": "2ba06099098f85ca72478a4436bb29d5a29fe186cd25f8bfd87d6f2bdbf9b589",
+      "wholeWordSpanishRecordSha256": "58f6a8ac0bbea68e02e58389df8d5400f320a1f576064cf4cf4919c2eb958ed1",
+      "wholeWordSpanishSenseIndex": 0,
+      "supportingSpanishProofs": [
+        {
+          "word": "posar",
+          "recordSha256": "76b3e126afaa929e111228e716e39c4b8fb53a00727a75d4a7a161d07d7dff97",
+          "senseIndex": 2
+        }
+      ],
+      "notes": "Selected flying-animal landing/settling reading; no human assigning seats or universal reflexive transformation."
+    }
+  ],
+  "held": [],
+  "retainedExplicitHolds": [
+    {
+      "originalCandidateIndex": 51,
+      "word": "CURARSE",
+      "reason": "Existing Spanish sense follow a treatment does not by itself establish successful healing; obtain a precise additional result-state lexical anchor before using that supplemental sense as proof."
+    },
+    {
+      "originalCandidateIndex": 75,
+      "word": "HELARSE",
+      "reason": "Causative English cause to freeze is not inchoative Spanish become ice; already-covered-word redundant sense also deprioritized."
+    },
+    {
+      "originalCandidateIndex": 107,
+      "word": "POSARSE",
+      "reason": "Assign another person a seat reverses the selected settling subject; do not treat as reciprocal/reflexive landing."
+    },
+    {
+      "originalCandidateIndex": 141,
+      "word": "VENIRSE",
+      "reason": "Ejaculation and orgasm are distinct; selected Spanish ejaculation sense alone is not confirmation of the orgasm synset."
+    },
+    {
+      "originalCandidateIndex": 142,
+      "word": "ZAFARSE",
+      "reason": "Throw away an external object does not match get free oneself or mechanism dislocation."
+    },
+    {
+      "originalCandidateIndex": 122,
+      "word": "ROSARSE",
+      "reason": "Explicit ROSARSE→SONROSARSE alias exists, but SONROSARSE itself points to SONROSAR. Full exact three-record chain remains unbound in this subset; no positive source identity invented."
+    }
+  ],
+  "counts": {
+    "reviewedProposals": 11,
+    "approved": 11,
+    "heldProposed": 0,
+    "distinctSpanishRawRecordsVerified": 21,
+    "explicitHoldsRetained": 6
+  },
+  "guards": [
+    "Static whole-word lexical English only; no SE stripping, suffix decomposition, finite generation or clitic-template authority.",
+    "Keep actual selected role/voice and supporting-source regional/register context visible, with source links to the base/synonym proofs.",
+    "Do not imply success/healing from undergoing treatment, orgasm from ejaculation, causative freezing from inchoative HELARSE or seat-assignment from POSARSE.",
+    "Explicit holds retained; other deferred candidates not fully adjudicated.",
+    "Selected word-level English is model-reviewed derived rendering, not verbatim bilingual source text, examples or native/Mexican certification.",
+    "These approvals are not independently measured new runtime coverage."
+  ]
+}

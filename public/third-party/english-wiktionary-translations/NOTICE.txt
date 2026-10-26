@@ -1,0 +1,8 @@
+English-language Wiktionary contributors / CC BY-SA 4.0.
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://creativecommons.org/licenses/by-sa/4.0/
+Extracted by Wiktextract through Kaikki rawdata, dump 2026-10-01, pinned compressed artifact SHA256 244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d.
+Modified selections retain Spanish entries, sense/POS/form metadata and original record hashes, excluding quotations and examples. Per-word links identify source articles; exact source revisions are not supplied by the extract.
+English grammatical forms are Morrowmark derivatives using reviewed lexical predicates, explicit Spanish source features and AGID English inflections. AGID original copyright/permission notices remain in ../AGID-Copyright.txt and ../apertium-translations/AGID-Copyright.txt. Those permissive source data are not re-licensed by their directory location.
+Review is independent model review, not native-human certification; selected meanings and grammatical readings can be incomplete or erroneous. No Mexican-only usage or complete translation claim.
+Generators/import/checks and retained evidence: scripts/import-english-translation-evidence.py, scripts/generate-english-spanish-translations.py and src/data/spanish/english-translation-*.json.

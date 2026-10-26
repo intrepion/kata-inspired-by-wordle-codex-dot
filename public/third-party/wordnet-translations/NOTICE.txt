@@ -1,0 +1,13 @@
+Spanish MCR wordnet: MCR contributors / CC BY 3.0.
+Permission and attribution: https://www.talp.upc.edu/demo-detail/440/MRC.html
+https://creativecommons.org/licenses/by/3.0/
+Pinned OMW revision 406bf83b3c507a3d1f26e88252d5d66893fd36bf.
+English WordNet 3.0: Princeton University, original license in WordNet-LICENSE.txt.
+https://wordnet.princeton.edu/license-and-commercial-use
+Morrowmark modified selections: model-reviewed noun, verb and adjective meaning renderings derived from exact aligned concepts. Not verbatim bilingual quotations, complete meanings, Mexican-only usage or human certification.
+Reproduce: scripts/generate-wordnet-translations.py --check with retained candidates and independent review files in src/data/spanish. Source URLs and checksums are in wordnet-translation-source.json.
+
+Additional lexical selections and supporting Spanish sense material are adapted from Spanish Wiktionary contributors, CC BY-SA 4.0, with model-authored and independently model-reviewed English renderings. These additional adaptations/proofs are distributed under CC BY-SA 4.0 while retaining the underlying MCR CC BY 3.0 and Princeton WordNet notices. Legacy WordNet noun mappings retain their existing notices. This does not relicense the project's own MIT compiler/application code.
+https://es.wiktionary.org/
+https://creativecommons.org/licenses/by-sa/4.0/
+Exact word/source URLs, raw-record hashes, English data.verb/data.adj file checksums, reviewed mappings, prior holds and metadata-only corrections are retained in src/data/spanish wordnet-translation-audit.json and the associated reviewed input files. Definitions are selected lexical meanings, not a new conjugation or reflexive rule, example corpus, native certification or complete Mexican Spanish coverage.

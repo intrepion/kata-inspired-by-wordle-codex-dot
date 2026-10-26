@@ -1,0 +1,364 @@
+{
+  "inputSha256": "0c7d0b60ccff5f80dc70fba4a7263dfab35b5cbf946a3cc0511b5f7c642798fd",
+  "sanitizationManifestSha256": "5252024b75dfff3d356213496a4ff6a66f2927d2e62de3700e0f3a0833f59324",
+  "projectionScriptSha256": "429fcf447c3154f5d44a468e20ea77fb5829971ab4f3f9af42db752debc8fb44",
+  "originalResearchSha256": "66966f33bdf3fb2007f237ef706316eed2d3c8f95c56885509bd12a293e76696",
+  "originalSemanticReviewSha256": "37faad93f86394d4da5e9f0b64338a041831892953f7dd5c18c06c864a9a103c",
+  "reviewer": "/root/review_standards",
+  "method": "Independent deterministic-projection/source replay and linguistic review of every new displayContext and child-only runtimeGrammar. Original28 English meanings/contexts remain approved. No native-human certification, production writes, browser or broad tests.",
+  "projectionApproved": true,
+  "all28OriginalSemanticsAndContextsUnchanged": true,
+  "all28ChildOnlyRuntimeGrammarApproved": true,
+  "original31PartitionAnd3HoldsPreserved": true,
+  "approvedPresentation": [
+    {
+      "recordIndex": 0,
+      "word": "AQUELLA",
+      "displayContext": "Used before a feminine singular noun for something over there.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 1,
+      "word": "AQUÉLLA",
+      "displayContext": "Refers to one grammatically feminine person or thing over there. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 3,
+      "word": "CUANTA",
+      "displayContext": "Used with a feminine singular noun for an amount, in relative expressions such as “as much” or “however much.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 4,
+      "word": "CUANTAS",
+      "displayContext": "Used with a feminine plural noun for a number of things, in relative expressions such as “as many” or “however many.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 5,
+      "word": "CUYAS",
+      "displayContext": "Means “whose” before feminine plural possessed things. The agreement describes those things, not the owner. Formal relative usage.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 6,
+      "word": "CUYOS",
+      "displayContext": "Means “whose” before masculine plural possessed things. The agreement describes those things, not the owner. Formal relative usage.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 7,
+      "word": "CUÁNTA",
+      "displayContext": "Asks or exclaims about an amount with a feminine singular noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 8,
+      "word": "CUÁNTOS",
+      "displayContext": "Asks or exclaims about a number of things with a masculine plural noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 9,
+      "word": "ESAS",
+      "displayContext": "Used before a feminine plural noun to point out those people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 10,
+      "word": "ESOS",
+      "displayContext": "Used before a masculine plural noun to point out those people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 11,
+      "word": "ESTA",
+      "displayContext": "Used before a feminine singular noun to point out this person or thing.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 12,
+      "word": "ESTAS",
+      "displayContext": "Used before a feminine plural noun to point out these people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 13,
+      "word": "ESTOS",
+      "displayContext": "Used before a masculine plural noun to point out these people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 14,
+      "word": "ESTOTRA",
+      "displayContext": "An obsolete pronoun for one other grammatically feminine person or thing nearby.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 15,
+      "word": "MUCHA",
+      "displayContext": "Used before a feminine singular noun for a large amount.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 17,
+      "word": "MUCHAS",
+      "displayContext": "Used before a feminine plural noun for a large number of people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 19,
+      "word": "MUCHOS",
+      "displayContext": "Used before a masculine plural noun for a large number of people or things.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 21,
+      "word": "QUIENES",
+      "displayContext": "A plural relative pronoun referring back to people, or meaning “those who.” It is not the question word quiénes.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": null,
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 22,
+      "word": "TANTA",
+      "displayContext": "Used with a feminine singular noun for an amount: “so much,” “as much,” or “that much.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 23,
+      "word": "TANTAS",
+      "displayContext": "Used with a feminine plural noun for a number of things: “so many,” “as many,” or “that many.”",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 24,
+      "word": "TUYOS",
+      "displayContext": "Refers to masculine plural things belonging to one familiar addressee, tú. It does not say whether the owner is male or female. In Spanish it commonly follows the noun.",
+      "runtimeGrammar": {
+        "partOfSpeech": "det",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 25,
+      "word": "TUYOS",
+      "displayContext": "Refers to masculine plural things belonging to one familiar addressee, tú. It does not say whether the owner is male or female.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 26,
+      "word": "ÉSAS",
+      "displayContext": "Refers to those grammatically feminine people or things. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 27,
+      "word": "ÉSOS",
+      "displayContext": "Refers to those grammatically masculine people or things. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 28,
+      "word": "ÉSTA",
+      "displayContext": "Refers to this grammatically feminine person or thing. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "singular",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 29,
+      "word": "ÉSTAS",
+      "displayContext": "Refers to these grammatically feminine people or things nearby. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "feminine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    },
+    {
+      "recordIndex": 30,
+      "word": "ÉSTOS",
+      "displayContext": "Refers to these grammatically masculine people or things nearby. The accented spelling appears in older writing; the accent is not generally needed today.",
+      "runtimeGrammar": {
+        "partOfSpeech": "pron",
+        "number": "plural",
+        "gender": "masculine",
+        "provenance": "Exact selected child sense tags; never union lemma gender/number tags."
+      }
+    }
+  ],
+  "heldPresentation": [
+    {
+      "recordIndex": 2,
+      "word": "CUALES",
+      "scope": "displayContext only; original English which semantics remain approved",
+      "reason": "New display broadens to people or things while selected natural English literal is which. People-relative readings normally need who/whom; keep this display within the selected which-for-things reading rather than imply a universal English mapping.",
+      "suggestedDisplayContext": "A plural relative pronoun, usually in los cuales or las cuales, referring back to things already mentioned. Formal or literary; not the question word cuáles."
+    }
+  ],
+  "readyForProduction": false,
+  "readinessReason": "Only the one new CUALES displayContext needs a separately versioned correction/delta approval. Original semantic/projection approvals and all holds remain unchanged.",
+  "checks": {
+    "deterministicAuthorProjectionExecuted": true,
+    "derivativeAndManifestByteHashesReproduced": true,
+    "retainedEnglishPairsIndependentlyVerified": 28,
+    "retainedSpanishRawRecordsIndependentlyReplayed": 27,
+    "originalSpanishRecords": 29,
+    "unrelatedRecordsDropped": 2,
+    "unselectedSensesDroppedFromRetainedRecords": 8,
+    "examplesQuotesSoundsMediaEtymologyAndOtherNonlexicalPayloadAbsent": true,
+    "rawRecordHashIsOriginalLineIdentityNotProjectedByteHash": true,
+    "selectedOriginalSenseIndexPreservedExplicitly": true,
+    "ESTASProximalCorrectionProofBound": true,
+    "ownerVersusPossessedAgreementPreserved": true,
+    "genericMorphologyOrLemmaReplacementApproved": false
+  },
+  "readOnlyGrammarCorroboration": {
+    "url": "https://www.rae.es/noticia/nota-informativa-sobre-la-tilde-en-solo",
+    "purpose": "Checked that display claims about nonmandatory accented demonstratives do not impose a modern accent mandate or universal ban. Only a factual review reference; no RAE definition or quotation imported."
+  },
+  "portableSourceChecker": {
+    "path": "/tmp/check-function-word-sanitized-source-standards.py",
+    "sha256": "25158ee53aecfb7a0b5c7972571714935fc6d7f3a3c95de119a3ee7d0f22af65",
+    "executed": true,
+    "originalResearchPayloadRequired": false
+  },
+  "minimalProductionArtifacts": [
+    "Corrected sanitized function-word derivative JSON, pinned by its own hash",
+    "Sanitization manifest with selected original raw sense indices, whitelist and source artifact identities",
+    "Existing original semantic review37faad… (safe selected fields/decisions, no quote-bearing research payload)",
+    "Independent sanitization/presentation review plus later CUALES display delta approval",
+    "Closed generator/helper and portable source checker, using existing retained English evidence and optional pinned Spanish raw archive",
+    "Existing Wiktionary/CC BY-SA4 source and attribution notices"
+  ],
+  "packagingGuards": [
+    "Keep raw research proposal,31-analysis triage and full29-record Spanish corroboration outside distributable source/audits. Refer to original hashes without embedding them.",
+    "Do not make production generation depend on absolute/tmp research paths. The portable checker reprojects from the included sanitized data/manifest, existing English evidence and explicit Spanish archive argument.",
+    "Lookup the preserved sourceSenseIndex, not array position: projected one-sense arrays may refer to original sense1 or another raw index.",
+    "runtimeGrammar.provenance and original context stay audit-only; only reviewed displayContext and child grammar values are learner-facing.",
+    "Retain CUÁNTOS invalid-extra and ÉSTAS wrong-child-English contradictions as audit evidence, not new lemma or literal authority.",
+    "Current English/schema/context/holds remain frozen; a display-only correction must be separately versioned, without altering original artifacts."
+  ]
+}

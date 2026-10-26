@@ -1,0 +1,1910 @@
+{
+  "inputSha256": "0255a2a25fdbaa54c15a00f25ad857c595edf5a80d9787d8a90b372faa6bef22",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model lexical-role/tense/source review of all40 exact proposals. Retained pinned English extraction/table rows and current inherited singular/model/policy proofs checked; no original3GB English archive replay. Spanish original selected form and lemma-inventory raw lines freshly replayed by SHA and exact lexical fields. Not native certification. No production edits.",
+  "approved": [
+    {
+      "word": "AOVAN",
+      "lemma": "aovar",
+      "frame": "lay eggs",
+      "english": "they lay eggs",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "egg-laying animals; never human ovulation",
+      "proposalIndex": 0,
+      "lemmaRecordSha256": "5b75c9dd9c58425997a37ef680ad5f1e1343ba67e474b6ef9da7e03e11ab44cd",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "4895974247b7520af2e5afed32094c7b18c8aa9cd315fa7f10268a2f40c426e8",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of aovar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "aovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "dcac67136ef8e5f9",
+      "modelProfileAuthority": null,
+      "notes": "Literal egg-laying animals, not human ovulation; Spanish lemma is no-gloss, so English retained sense/model supplies semantic authority."
+    },
+    {
+      "word": "AOVABAN",
+      "lemma": "aovar",
+      "frame": "lay eggs",
+      "english": "they were laying eggs",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "egg-laying animals in a selected ongoing background reading; never human ovulation",
+      "proposalIndex": 1,
+      "lemmaRecordSha256": "5b75c9dd9c58425997a37ef680ad5f1e1343ba67e474b6ef9da7e03e11ab44cd",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "b4d1b9a411af7cb384840bf0c53b3b99aedca41401c635d4fc167ce3b77e5874",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of aovar"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "aovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "dcac67136ef8e5f9",
+      "modelProfileAuthority": null,
+      "notes": "Literal egg-laying animals, not human ovulation; Spanish lemma is no-gloss, so English retained sense/model supplies semantic authority."
+    },
+    {
+      "word": "AOVARON",
+      "lemma": "aovar",
+      "frame": "lay eggs",
+      "english": "they laid eggs",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "egg-laying animals in a completed past reading; never human ovulation",
+      "proposalIndex": 2,
+      "lemmaRecordSha256": "5b75c9dd9c58425997a37ef680ad5f1e1343ba67e474b6ef9da7e03e11ab44cd",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "87f5b3f1b30a9c2e11de947fe957230bb97b7e2d1381644cdff228d4961475ec",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural preterite indicative of aovar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "aovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "dcac67136ef8e5f9",
+      "modelProfileAuthority": null,
+      "notes": "Literal egg-laying animals, not human ovulation; Spanish lemma is no-gloss, so English retained sense/model supplies semantic authority."
+    },
+    {
+      "word": "AOVARÁN",
+      "lemma": "aovar",
+      "frame": "lay eggs",
+      "english": "they will lay eggs",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "egg-laying animals in a future reading; never human ovulation",
+      "proposalIndex": 3,
+      "lemmaRecordSha256": "5b75c9dd9c58425997a37ef680ad5f1e1343ba67e474b6ef9da7e03e11ab44cd",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "41c0475f48cb1a220dc7f4df5c66454b1cb90605264576c7d1ed88f1dd68da53",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of aovar"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "aovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "692352a2edbf9dc4933ab2e87bdde23135373007cfd40b0a85894a55b3f0b454",
+      "existingSubjectPolicyId": "dcac67136ef8e5f9",
+      "modelProfileAuthority": null,
+      "notes": "Literal egg-laying animals, not human ovulation; Spanish lemma is no-gloss, so English retained sense/model supplies semantic authority."
+    },
+    {
+      "word": "MIELAN",
+      "lemma": "melar",
+      "frame": "fill the combs with honey",
+      "english": "they fill the combs with honey",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "bees filling honeycombs with honey; not a human beekeeper performing a different operation",
+      "proposalIndex": 4,
+      "lemmaRecordSha256": "0c82bf1da16232e1b6e47f23b271ea80724aed2f1202f3735e337e79caa4fd5d",
+      "lemmaSenseIndex": 2,
+      "wordRecordSha256": "8d3a14b997719ef2a9c4119b0fd262fbcbc1ed1d7de243605218dc09ffb11e59",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of melar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "melar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "d9c37aea88815c668f5c8cd095aa1a922ae6501285e0b118217a8508298f0b2e",
+      "existingSubjectPolicyId": "76fc9aaa974b5d13",
+      "modelProfileAuthority": null,
+      "notes": "Bees fill honeycombs; not a human beekeeper filling a container. Spanish lemma is no-gloss, not an independent semantic proof."
+    },
+    {
+      "word": "MELABAN",
+      "lemma": "melar",
+      "frame": "fill the combs with honey",
+      "english": "they were filling the combs with honey",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "bees filling honeycombs with honey in a selected ongoing reading; not human operators",
+      "proposalIndex": 5,
+      "lemmaRecordSha256": "0c82bf1da16232e1b6e47f23b271ea80724aed2f1202f3735e337e79caa4fd5d",
+      "lemmaSenseIndex": 2,
+      "wordRecordSha256": "039f073d5bfecc3001f43a886966d19873f6d622d45bd6d0d1c1944aa17fc371",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of melar"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "melar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "d9c37aea88815c668f5c8cd095aa1a922ae6501285e0b118217a8508298f0b2e",
+      "existingSubjectPolicyId": "76fc9aaa974b5d13",
+      "modelProfileAuthority": null,
+      "notes": "Bees fill honeycombs; not a human beekeeper filling a container. Spanish lemma is no-gloss, not an independent semantic proof."
+    },
+    {
+      "word": "MELARON",
+      "lemma": "melar",
+      "frame": "fill the combs with honey",
+      "english": "they filled the combs with honey",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "bees filling honeycombs with honey in a completed past reading; not human operators",
+      "proposalIndex": 6,
+      "lemmaRecordSha256": "0c82bf1da16232e1b6e47f23b271ea80724aed2f1202f3735e337e79caa4fd5d",
+      "lemmaSenseIndex": 2,
+      "wordRecordSha256": "0af9e60cded991559a22508bfc7f4284cd381d16d7fdc99e346e242f7f727edd",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural preterite indicative of melar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "preterite",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "melar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "d9c37aea88815c668f5c8cd095aa1a922ae6501285e0b118217a8508298f0b2e",
+      "existingSubjectPolicyId": "76fc9aaa974b5d13",
+      "modelProfileAuthority": null,
+      "notes": "Bees fill honeycombs; not a human beekeeper filling a container. Spanish lemma is no-gloss, not an independent semantic proof."
+    },
+    {
+      "word": "MELARÁN",
+      "lemma": "melar",
+      "frame": "fill the combs with honey",
+      "english": "they will fill the combs with honey",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "bees filling honeycombs with honey in a future reading; not human operators",
+      "proposalIndex": 7,
+      "lemmaRecordSha256": "0c82bf1da16232e1b6e47f23b271ea80724aed2f1202f3735e337e79caa4fd5d",
+      "lemmaSenseIndex": 2,
+      "wordRecordSha256": "f5e0584f983e0fc48f2f9f9c59ce8cb0069dfe7b11dc29e51c13b989b524cf38",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of melar"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "melar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "d9c37aea88815c668f5c8cd095aa1a922ae6501285e0b118217a8508298f0b2e",
+      "existingSubjectPolicyId": "76fc9aaa974b5d13",
+      "modelProfileAuthority": null,
+      "notes": "Bees fill honeycombs; not a human beekeeper filling a container. Spanish lemma is no-gloss, not an independent semantic proof."
+    },
+    {
+      "word": "COCEAN",
+      "lemma": "cocear",
+      "frame": "kick",
+      "english": "they kick",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "animals kicking with their feet or hooves; not the separate human/figurative senses",
+      "proposalIndex": 8,
+      "lemmaRecordSha256": "4abf988b4caef140220be14e93bcdffafa08ccc424e16ba6dbb277f50f32298d",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "9ae8c9f39b253c17ef22beef4a9037f647bcbe3aa8c88f3afa22450d546aec95",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of cocear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "cocear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ca66869b30218ba2637616c317618c881942ba4e18afe220af90aac44e67b0b1",
+      "existingSubjectPolicyId": "2606ebbe04216c1a",
+      "modelProfileAuthority": null,
+      "notes": "Animals kick with feet/hooves; unselected human/figurative uses do not broaden this exception."
+    },
+    {
+      "word": "DESOVAN",
+      "lemma": "desovar",
+      "frame": "spawn",
+      "english": "they spawn",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "female fish or amphibians releasing eggs; not software spawning or human parenthood",
+      "proposalIndex": 9,
+      "lemmaRecordSha256": "1ddcbd95f7a4051865048fa3598b6998173bdc860c7b6d865aee8029c4449129",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "50c33f3fe2720242aa192eb3fdd9a658c86b6ff9bc43a00d129b8938158ed7a5",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of desovar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "desovar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ff9250b49932d58aca916928dd3a8c2e024271794dd97bc035bd172a069a782e",
+      "existingSubjectPolicyId": null,
+      "modelProfileAuthority": {
+        "origin": "Spec exact spawn/it-only proposal independently confirmed by Standards cross-review; old lay-eggs proposal remains archival, no corrective ID.",
+        "files": {
+          "english-additional-verb-4-review-spec.json": "22ff650f7d6589b5b6795ef9ec3f1dbde479465deaeb997404648f32f2519038",
+          "english-verb-cross-4-candidates.json": "fc909f498b462d83e7dd1103633b58869b8e68b6e0a81897c7e7946be57c48dc",
+          "english-verb-cross-4-review.json": "69a48b693dbb4b3c6d47492b258f1267db85b573f7c0568e126fd95a46be1edf"
+        }
+      },
+      "notes": "Female fish/amphibians release eggs; model already it-only and no correction ID invented."
+    },
+    {
+      "word": "GORJEAN",
+      "lemma": "gorjear",
+      "frame": "chirp",
+      "english": "they chirp",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "birds producing their characteristic chirps; not human vocal ornament, infants or mockery",
+      "proposalIndex": 10,
+      "lemmaRecordSha256": "e4bb9c6973cc0f7c3141e0797932f5bde17fde016df91c8b2d7ada1b3a479e85",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "ddcc4adf5a474d011f0c781ac4c8740b7a4a1503d73fa288eb7f43df0e6e7a38",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of gorjear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "gorjear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "39d003179a60e4c3bd41217580d368fad6b2c8d4b708aa75231c4b4242fb24de",
+      "existingSubjectPolicyId": "581891f11f0dc1a9",
+      "modelProfileAuthority": null,
+      "notes": "Bird calls only; infant speech, throat ornament and old mockery senses remain unselected."
+    },
+    {
+      "word": "GRAZNAN",
+      "lemma": "graznar",
+      "frame": "squawk",
+      "english": "they squawk",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "birds such as crows, geese or ducks producing their characteristic harsh cries; no human complaint metaphor",
+      "proposalIndex": 11,
+      "lemmaRecordSha256": "079261ffd52ca9ec9f4b59484c595c34f012daacac5a7f2f6f701f687ef64497",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "f4749837dee549ed06ed580d8505ffb4778d6d8bee9a51804f85cf79dddabe83",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of graznar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "graznar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "1e263b7df1afb07d2333e1abd84ec7c129e538020e2424cee7d2779a6cc6a2c8",
+      "existingSubjectPolicyId": "81bf05eb76efbba0",
+      "modelProfileAuthority": null,
+      "notes": "Literal harsh bird cries, not human complaining."
+    },
+    {
+      "word": "ARRÚAN",
+      "lemma": "arruar",
+      "frame": "grunt",
+      "english": "they grunt",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "wild boars grunting, including the hunting context in Spanish corroboration; no human imitation",
+      "proposalIndex": 12,
+      "lemmaRecordSha256": "a69752b1ce071f4cbd6641705a16f9021f5e86e6329fe6312927b469dbbbcd26",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "262f30896997f2008eeed48222f9f2523419ba3732dbb4ea696bc32eda87bf25",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of arruar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "arruar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ec218e924fd3dd06070204e7610c6a171b2b56187a3bd78258f59ff4ca3272c3",
+      "existingSubjectPolicyId": "02e02385f42cade2",
+      "modelProfileAuthority": null,
+      "notes": "Wild boars grunt; preserve explicit boar/hunting context, not human vocal imitation."
+    },
+    {
+      "word": "GRILLAN",
+      "lemma": "grillar",
+      "frame": "chirp",
+      "english": "they chirp",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "crickets producing their characteristic chirp; the Spanish corroborating sense is marked outdated, not culinary grilling",
+      "proposalIndex": 13,
+      "lemmaRecordSha256": "6d514cc58718c84db7efe87cb0c4fce7e8985986d7e9fcf7074a27bc8ce04ce4",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "ae0287e96583ffe470815e274e7a44ccedc58f74ec9bc4a1b58bf4ddec1f7ea1",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of grillar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "grillar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "39d003179a60e4c3bd41217580d368fad6b2c8d4b708aa75231c4b4242fb24de",
+      "existingSubjectPolicyId": "fd10cc9b2f75f350",
+      "modelProfileAuthority": null,
+      "notes": "Cricket chirping only; preserve selected Spanish outdated label and exclude culinary grilling labels."
+    },
+    {
+      "word": "AMBLAN",
+      "lemma": "amblar",
+      "frame": "amble",
+      "english": "they amble",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "quadrupeds moving the two legs on the same side together, then those on the other side; not humans strolling or the separate obsolete bodily sense",
+      "proposalIndex": 14,
+      "lemmaRecordSha256": "786cffbf0285c0fe4d0e8ea608e0c74dfcce222aa963d06d0db0af5f76d6a500",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "67fa62a85c393c0a61e389a2827ae31ad58668702ce9f38b3774600f5010700f",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of amblar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "amblar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "64c0f6a7417c9af5b9eeb725217e54027ae790cf8b0db92cfedabad3aef7893f",
+      "existingSubjectPolicyId": "b57906001a5f18fc",
+      "modelProfileAuthority": null,
+      "notes": "Quadruped lateral gait, not humans strolling or obsolete bodily sense."
+    },
+    {
+      "word": "ZUREAN",
+      "lemma": "zurear",
+      "frame": "coo",
+      "english": "they coo",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "pigeons or turtledoves cooing; not human or infant cooing",
+      "proposalIndex": 15,
+      "lemmaRecordSha256": "04a994dd2ba215e45abe502f8277c30c5d39c44510f88bdb3f11825f67c0cbb8",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "bc3d4e39929eb40f810e4f6b2d3ebc6f4f5a46cf38d3db4e87cde1b6fa2b245e",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of zurear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "zurear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "261264e46b4165675bbd5ad42e7f65a4a22964235bebd008fb09704d1ceb9307",
+      "existingSubjectPolicyId": "33131a72457657dc",
+      "modelProfileAuthority": null,
+      "notes": "Pigeons/turtledoves coo; no human or infant use."
+    },
+    {
+      "word": "CORNEAN",
+      "lemma": "cornear",
+      "frame": "gore",
+      "english": "they gore",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "horned animals piercing a contextual patient with their horns; not the separate figurative cuckold sense",
+      "proposalIndex": 16,
+      "lemmaRecordSha256": "5ccef01d127a5ec8a54eb2a4f9e5c74f8309864d34171f042689ada1932cffd3",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "06181bb868eb073b48383ca3154f619bb78e15e1136c7bc6980f745d8ebe6dbc",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of cornear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "cornear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "7c5b38def15c21b85875ba346a7138243c4ce9cd7c6be2d17383b537aee72261",
+      "existingSubjectPolicyId": "fc6819ac3ef45fce",
+      "modelProfileAuthority": null,
+      "notes": "Horned animals gore an unspecified patient. English retained horns definition/model is authority; Spanish variant pointer is not silently expanded."
+    },
+    {
+      "word": "RATONAN",
+      "lemma": "ratonar",
+      "frame": "gnaw",
+      "english": "they gnaw",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "mice gnawing a contextual object; no human figurative nibbling",
+      "proposalIndex": 17,
+      "lemmaRecordSha256": "2db8e461e7c4ba84401271696915a3936034ff3ad386818dce770bca1760edff",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "8bced00482a121ebc0107b8774fcc5ef476cf9ad8552c354ecaf09faffe8df40",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of ratonar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "ratonar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "0a718fd728a94315dce6b3b5cfa75ed268634254bc35ef18f36bb0486759f39f",
+      "existingSubjectPolicyId": null,
+      "modelProfileAuthority": {
+        "origin": "Exact two-author additional-verb model and merged registry; no corrective ID.",
+        "files": {
+          "english-additional-verb-3-review-spec.json": "74c3feffe27f264de3ef7344836778bdf8a8420b3f39d0c05a30bdf661511f87",
+          "english-additional-verb-3-review-standards.json": "a8c6fab9a42206f0536d37ecf30f5ed08e6a51f9edef56ed1bf919bbe6eb29bc",
+          "english-additional-verb-3-dual-approval.json": "1410e3d2318a27216d0773c05642cc9ec9f536fbb0912a21b27430819a480c7a"
+        }
+      },
+      "notes": "Mice gnaw a contextual object; model already it-only, not human nibbling and no correction ID."
+    },
+    {
+      "word": "FREZAN",
+      "lemma": "frezar",
+      "frame": "spawn",
+      "english": "they spawn",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "fish spawning in the exact existing English-source spawn reading; other Spanish frezar actions remain distinct",
+      "proposalIndex": 18,
+      "lemmaRecordSha256": "1e458b813152cc001adb6109c47c4de0d8214ca42315c48265e402de042f97b4",
+      "lemmaSenseIndex": 1,
+      "wordRecordSha256": "cbeb53ed660af6318375429cc5bb57144d845fb30b80ae747d567e1ca291a67e",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of frezar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "frezar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "ff9250b49932d58aca916928dd3a8c2e024271794dd97bc035bd172a069a782e",
+      "existingSubjectPolicyId": "fbf0b1053a04fa52",
+      "modelProfileAuthority": null,
+      "notes": "Selected fish spawning English frame, not every other Spanish frezar operation."
+    },
+    {
+      "word": "PASTEAN",
+      "lemma": "pastear",
+      "frame": "graze",
+      "english": "they graze",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "grazing animals eating pasture; not farmers pasturing livestock",
+      "proposalIndex": 19,
+      "lemmaRecordSha256": "6651ec9ea86ae0c873104a762b00d02089d2a866abf25daae791198248584f71",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "1fc1e6c6d65f1aba25762a79e61f13e11ac9fcfd74fff44b959ddc95f64bd646",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of pastear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "pastear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "be3b1b308e928b6c3b7b146a30f84ec7dd8238ad6a8893edda850ef7b0c82078",
+      "existingSubjectPolicyId": "9b30840a00ced86d",
+      "modelProfileAuthority": null,
+      "notes": "Animals eat pasture, not a farmer causing grazing."
+    },
+    {
+      "word": "PARPAN",
+      "lemma": "parpar",
+      "frame": "quack",
+      "english": "they quack",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "ducks producing their characteristic quack; not human vocal imitation",
+      "proposalIndex": 20,
+      "lemmaRecordSha256": "0627c9c587b4fb9fbbe3a5c619e5a058da0ca83814975c13390ca67ab5e95a0e",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "66181505480ce9a4946038fa7987ed5733c252a5014b810bec8e075ae9014ca8",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of parpar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "parpar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "0e6b196acaa0a66a87a55fc4e8422480143234ab60cb19fe329af39335210c64",
+      "existingSubjectPolicyId": "9958a5cfa5d11e84",
+      "modelProfileAuthority": null,
+      "notes": "Literal duck quacking, not human imitation."
+    },
+    {
+      "word": "CLUECAN",
+      "lemma": "clocar",
+      "frame": "cluck",
+      "english": "they cluck",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "hens clucking, especially while brooding; not human clucking or an inferred spelling rule",
+      "proposalIndex": 21,
+      "lemmaRecordSha256": "9843833384a88d2bbb9ff3cede2e7916d30f870dc40422f59d8826afe32dcc0c",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "85019ee40c486498a99f30e07ebccfcf5335933d8a4368e291bb5427d56ca7df",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of clocar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "clocar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "0dc915ed68dfb48aaa51065e73837cc3992315223c40b21caba37f91702d60a6",
+      "existingSubjectPolicyId": "0043ab8321f3322a",
+      "modelProfileAuthority": null,
+      "notes": "Hens cluck, especially brooding; exact CLUECAN source spelling, no stem rule."
+    },
+    {
+      "word": "MIAÑAN",
+      "lemma": "miañar",
+      "frame": "meow",
+      "english": "they meow",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "cats producing their characteristic meow; no humans imitating cats",
+      "proposalIndex": 22,
+      "lemmaRecordSha256": "1e7f069d8319abf00cdc0c64c15078f417134a07cf16afb3ea4cb6b8ff8f64cc",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "1e7f069d8319abf00cdc0c64c15078f417134a07cf16afb3ea4cb6b8ff8f64cc",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "miañar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "miañan",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "33d310a0ee05028f56a12d8e12aa342fe64b9d14cfa270b6121ad44183796cc9",
+      "existingSubjectPolicyId": "eafb048f5871b350",
+      "modelProfileAuthority": null,
+      "notes": "Cats meow; Ñ preserved, not a spelling alias inferred from miar."
+    },
+    {
+      "word": "GRAJEAN",
+      "lemma": "grajear",
+      "frame": "caw",
+      "english": "they caw",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "crows or related corvid birds producing their characteristic caw; no human voice metaphor",
+      "proposalIndex": 23,
+      "lemmaRecordSha256": "1c9ae5faa65b0b28a705058e6355c5acd4cb1ed25c1fc9e6654ab69c4ed9de23",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "1c9ae5faa65b0b28a705058e6355c5acd4cb1ed25c1fc9e6654ab69c4ed9de23",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "grajear"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "grajean",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "ddb76ccbf4fb270b934ee22d7bb7d945beb50e6ca551329205260e5d33f3f07f",
+      "existingSubjectPolicyId": "185d693492222e30",
+      "modelProfileAuthority": null,
+      "notes": "Corvid birds caw; no human voice metaphor."
+    },
+    {
+      "word": "ROZNAN",
+      "lemma": "roznar",
+      "frame": "bray",
+      "english": "they bray",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "donkeys producing their characteristic bray; no human figurative sense",
+      "proposalIndex": 24,
+      "lemmaRecordSha256": "6342c24ea66cbd81aa5b1215952059f86b38118699e24bb2779bd3097da40c79",
+      "lemmaSenseIndex": 1,
+      "wordRecordSha256": "6342c24ea66cbd81aa5b1215952059f86b38118699e24bb2779bd3097da40c79",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "roznar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "roznan",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "e4d591de76cf5887fcaf7a19e2acf1074440672da041c3bc812884c27114d6ac",
+      "existingSubjectPolicyId": "f8e959e6ee0fab0a",
+      "modelProfileAuthority": null,
+      "notes": "Donkeys bray; English retained sense/model is authority where Spanish inventory has no gloss."
+    },
+    {
+      "word": "CHOZPAN",
+      "lemma": "chozpar",
+      "frame": "hop happily",
+      "english": "they hop happily",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "lambs, young goats or similar animals hopping and frolicking happily; no invented human subjects",
+      "proposalIndex": 25,
+      "lemmaRecordSha256": "4bf15d67896921410c298c1cab318f9c19f3dbb3f610c216706b48a6edd7978e",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "4bf15d67896921410c298c1cab318f9c19f3dbb3f610c216706b48a6edd7978e",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "chozpar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "chozpan",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "faf0be207dbc4fb9f3b20ebc7b52b24483229f0802bee1a92de3f3050cb2093c",
+      "existingSubjectPolicyId": "7a16f20b0603ecbd",
+      "modelProfileAuthority": null,
+      "notes": "Lambs/goats and similar animals frolic with hops; happily is source-supported, not invented human emotion."
+    },
+    {
+      "word": "APEONAN",
+      "lemma": "apeonar",
+      "frame": "run",
+      "english": "they run",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "birds moving by running on the ground in the selected explicit bird sense; not generic human running",
+      "proposalIndex": 26,
+      "lemmaRecordSha256": "cf242547f4914eb2c52aa2673951b8b4df5954696852958163b9fc0c7b58a3bc",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "cf242547f4914eb2c52aa2673951b8b4df5954696852958163b9fc0c7b58a3bc",
+      "sourceForm": {
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person",
+          "form-of"
+        ],
+        "glosses": [
+          "Explicit source inflection table"
+        ],
+        "form_of": [
+          {
+            "word": "apeonar"
+          }
+        ]
+      },
+      "tableForm": {
+        "form": "apeonan",
+        "tags": [
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "source": "conjugation",
+        "tableTags": []
+      },
+      "agidLineSha256": "5c35944e095e2da9bcbe5a351f4adee61700939af615530aa899534bae41f0fa",
+      "existingSubjectPolicyId": "42d3df5f69d2964a",
+      "modelProfileAuthority": null,
+      "notes": "Birds run on the ground; English explicit bird sense/model is authority where Spanish lemma is no-gloss."
+    },
+    {
+      "word": "CRUJEN",
+      "lemma": "crujir",
+      "frame": "creak",
+      "english": "they creak",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "nonhuman materials or objects producing a dry creaking or cracking sound through friction or breaking",
+      "proposalIndex": 27,
+      "lemmaRecordSha256": "db16005c7d628a89431d8d15a2a12d0cb1210bf0a65983b05599cd3e0de2495c",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "1e22a45fd805202dbc28fe53eb9a5e96d3e7635d81d78f82391af7649be91ace",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of crujir"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "crujir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "1d126c959338a4ac72cc555d4101914619249ed9d326263deb70da0bb39e6424",
+      "existingSubjectPolicyId": "c42011dec50d5376",
+      "modelProfileAuthority": null,
+      "notes": "Materials/objects or body parts emit creaks/cracks; not an unrestricted whole-person agent."
+    },
+    {
+      "word": "CRUJÍAN",
+      "lemma": "crujir",
+      "frame": "creak",
+      "english": "they were creaking",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "nonhuman materials or objects producing a dry creaking or cracking sound in a selected ongoing reading",
+      "proposalIndex": 28,
+      "lemmaRecordSha256": "db16005c7d628a89431d8d15a2a12d0cb1210bf0a65983b05599cd3e0de2495c",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "42f2e395c9bb6296960ac234d7c9b81b43072ed32385b26c243a9e5bec3df3e2",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of crujir"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "crujir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "1d126c959338a4ac72cc555d4101914619249ed9d326263deb70da0bb39e6424",
+      "existingSubjectPolicyId": "c42011dec50d5376",
+      "modelProfileAuthority": null,
+      "notes": "Materials/objects or body parts emit creaks/cracks; not an unrestricted whole-person agent."
+    },
+    {
+      "word": "EMBEBEN",
+      "lemma": "embeber",
+      "frame": "absorb",
+      "english": "they absorb",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "porous solid materials absorbing a liquid; not humans imbibing or a reversed impregnation operation",
+      "proposalIndex": 29,
+      "lemmaRecordSha256": "c669bf92936fb3550f8f4f880b46ec739205a5d44823fafee9499a92dad081c7",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "341be25666c8f304a0e0b6927ed12c5d26490c095f3139a70bed92baed43b980",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of embeber"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "embeber"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "66bfa8952c595b924fd5251085d5e5db9c91019e825093de0369702c79af4aff",
+      "existingSubjectPolicyId": "f7e6e54c755f5abe",
+      "modelProfileAuthority": null,
+      "notes": "Porous solids absorb liquid, retaining absorber/patient roles rather than human imbibing or reversed impregnation."
+    },
+    {
+      "word": "LINDAN",
+      "lemma": "lindar",
+      "frame": "abut",
+      "english": "they abut",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "adjacent pieces of land, buildings or territories abutting a contextual boundary; not a personal relationship metaphor",
+      "proposalIndex": 30,
+      "lemmaRecordSha256": "f7f646671da7a0bd933cc0ce70547caef81876c0afa07536075ddfbe1b2abb32",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "8aa9848b951ca34a0d4c8ce2d9c27757308a65124e063bf47e92c7893e52e57c",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of lindar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "lindar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "1761229c119d1e47d0e9e4dc1894b98c93de0ae25da5cd3d00d6cf38b28281d9",
+      "existingSubjectPolicyId": "6e4a062a078b1598",
+      "modelProfileAuthority": null,
+      "notes": "Adjacent land/buildings/territories abut; no personal metaphor or invented specific boundary."
+    },
+    {
+      "word": "TITILAN",
+      "lemma": "titilar",
+      "frame": "twinkle",
+      "english": "they twinkle",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "light sources varying in intensity or blinking; not humans trembling or an emotional metaphor",
+      "proposalIndex": 31,
+      "lemmaRecordSha256": "aab19e696ea810b9c05c90fc37e1931c32de14a64649ea955fbff68d2bb1c566",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "e20a9760838aba5ce8c2d815036c7b698dbdc5a9424798452ae2c44ceb1b5034",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of titilar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "titilar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "5ac41127e38b3821c7bbd3a068515451c6fd7860caa02b823b9a0b27e8ed1e1d",
+      "existingSubjectPolicyId": "72fff560ea97d37a",
+      "modelProfileAuthority": null,
+      "notes": "Light sources vary in intensity; not people trembling or emotional twinkling."
+    },
+    {
+      "word": "FLUYEN",
+      "lemma": "fluir",
+      "frame": "flow",
+      "english": "they flow",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "liquids moving in a direction; no human, conversational or abstract fluency reading",
+      "proposalIndex": 32,
+      "lemmaRecordSha256": "dacc376f910b33a83232ec20df300da15a6228d70033d78c9ccd1f7c73ba47aa",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "b165a68a179bc995ed776d3f0b34785d0493a722ff37e15f91c5dab40171afab",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of fluir"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "fluir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "a22c68c26d7e9780aed18384bc1f7baf5de755f96afd91ee401fe93d4b9f6ca7",
+      "existingSubjectPolicyId": "7775bce105723b45",
+      "modelProfileAuthority": null,
+      "notes": "Literal liquids flow, not personal conversational or abstract fluency."
+    },
+    {
+      "word": "FLUÍAN",
+      "lemma": "fluir",
+      "frame": "flow",
+      "english": "they were flowing",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "imperfect",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [
+        "progressive"
+      ],
+      "context": "liquids moving in a direction in a selected ongoing reading; no human or abstract fluency",
+      "proposalIndex": 33,
+      "lemmaRecordSha256": "dacc376f910b33a83232ec20df300da15a6228d70033d78c9ccd1f7c73ba47aa",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "8a4f21511569093bc4fda81f8883373976679ae6ba93f24902fea20037bf70ef",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural imperfect indicative of fluir"
+        ],
+        "tags": [
+          "form-of",
+          "imperfect",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "fluir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "a22c68c26d7e9780aed18384bc1f7baf5de755f96afd91ee401fe93d4b9f6ca7",
+      "existingSubjectPolicyId": "7775bce105723b45",
+      "modelProfileAuthority": null,
+      "notes": "Literal liquids flow, not personal conversational or abstract fluency."
+    },
+    {
+      "word": "FLUIRÁN",
+      "lemma": "fluir",
+      "frame": "flow",
+      "english": "they will flow",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "future",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "liquids moving in a direction in a future reading; no human or abstract fluency",
+      "proposalIndex": 34,
+      "lemmaRecordSha256": "dacc376f910b33a83232ec20df300da15a6228d70033d78c9ccd1f7c73ba47aa",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "7692c46908c3f439af8b768f956068326bf4055ab00cd43eb7ffb65d37d44754",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural future indicative of fluir"
+        ],
+        "tags": [
+          "form-of",
+          "future",
+          "indicative",
+          "plural",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "fluir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "a22c68c26d7e9780aed18384bc1f7baf5de755f96afd91ee401fe93d4b9f6ca7",
+      "existingSubjectPolicyId": "7775bce105723b45",
+      "modelProfileAuthority": null,
+      "notes": "Literal liquids flow, not personal conversational or abstract fluency."
+    },
+    {
+      "word": "RELUCEN",
+      "lemma": "relucir",
+      "frame": "glisten",
+      "english": "they glisten",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "nonhuman objects or surfaces reflecting light; not people standing out figuratively",
+      "proposalIndex": 35,
+      "lemmaRecordSha256": "0a8efcd85c12cf7432a4530283bd381c2205597a141c3a855447cd5ea3f580bc",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "8f83206120b67e418b1aaba04b1de521a48de20169ad60487b2c29fa1266321c",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of relucir"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "relucir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "6cdccddea66650d53af0ee4d1917c31661373022a810c5fa4bc3119291f3f701",
+      "existingSubjectPolicyId": "2868c84420e73a33",
+      "modelProfileAuthority": null,
+      "notes": "Nonhuman surfaces reflect light, not human figurative distinction."
+    },
+    {
+      "word": "RESALEN",
+      "lemma": "resalir",
+      "frame": "jut out",
+      "english": "they jut out",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "architectural or physical elements projecting beyond surrounding elements; not reappearance or going beyond normal limits",
+      "proposalIndex": 36,
+      "lemmaRecordSha256": "f14914b50244f41bc68079854475b420ef23e5afa0a9a480975c39bd90e467ab",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "766f15c420b627b01b54e811c9706e6bbaaf547e353b434db431eec0c9ec1fbc",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of resalir"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "resalir"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "29398fbeac25d9080f6d84cce6453ec2a6d8284f6d8fd69f87e734e8b1d739c8",
+      "existingSubjectPolicyId": "baef76d1ef356176",
+      "modelProfileAuthority": null,
+      "notes": "Architectural/physical parts jut out, not recurrence or limitless action."
+    },
+    {
+      "word": "VERDEAN",
+      "lemma": "verdear",
+      "frame": "turn green",
+      "english": "they turn green",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "nonhuman things becoming green; not the transitive harvesting of unripe grapes or olives",
+      "proposalIndex": 37,
+      "lemmaRecordSha256": "00fdf8cf0a128b733832beaad2bd3692c7de21035c7ee3f7c7291eca6f2b6be2",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "be03f3f354297d6000bbc9450f7ee6392564014be2776fba051169ea67c56b6f",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of verdear"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "verdear"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "8d8611b4b0a867477ef946ace4eeef74c8ff2aa4f6814819f61e914cf245dfb5",
+      "existingSubjectPolicyId": "9fe2cf1f2ea3eb4c",
+      "modelProfileAuthority": null,
+      "notes": "Things become green; no transitive harvesting meaning or Córdoba/Seville labels transferred."
+    },
+    {
+      "word": "CADUCAN",
+      "lemma": "caducar",
+      "frame": "expire",
+      "english": "they expire",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "laws, wills, contracts or comparable instruments losing force or validity; not human senility or death",
+      "proposalIndex": 38,
+      "lemmaRecordSha256": "196e3d3fd2e9573d107a7b4b836f87247397767cf3ef168bfe72b0e1a5e068c4",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "44fcab038cd7b01593f38ae3079ecb27b3bd820abda7a6098819f18052b7d07a",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of caducar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "caducar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "7671643c0f3a33d6f45ea69c5924361b71b07dc6225f8dc668c06785100ee6f5",
+      "existingSubjectPolicyId": null,
+      "modelProfileAuthority": {
+        "origin": "Original dual-review conservative profile intersection: ordinary plus it-only yields it-only; no corrective ID.",
+        "files": {
+          "english-verb-review-spec.json": "719488d6e49311a36188f29ffcc28f6c6b0effb57d9c815711fa21a5ea65c54e",
+          "english-verb-review-standards.json": "7b0768f0ec9ac175c0dbd7d57104d3140f83ba0bd20205b8e8b94d4a04577737"
+        }
+      },
+      "notes": "Legal instruments lose validity; model already it-only, no human death/senility or invented correction ID."
+    },
+    {
+      "word": "RIELAN",
+      "lemma": "rielar",
+      "frame": "shimmer",
+      "english": "they shimmer",
+      "selectedSubject": "they (literal nonhuman subjects only)",
+      "features": {
+        "kind": "finite",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "third-person",
+        "number": "plural"
+      },
+      "aspectModes": [],
+      "context": "light or reflecting objects shimmering with tremulous light; preserve the poetic/literary register, no human personification",
+      "proposalIndex": 39,
+      "lemmaRecordSha256": "bafb83b74b96121d62c317fa59d3bffa7eae9a8942798c19243b27664435c20a",
+      "lemmaSenseIndex": 0,
+      "wordRecordSha256": "b41f4971cf127f526ce3fe0d375c144e5aa6abc25136e0fe3e69001068c0f16a",
+      "sourceForm": {
+        "glosses": [
+          "third-person plural present indicative of rielar"
+        ],
+        "tags": [
+          "form-of",
+          "indicative",
+          "plural",
+          "present",
+          "third-person"
+        ],
+        "form_of": [
+          {
+            "word": "rielar"
+          }
+        ]
+      },
+      "tableForm": null,
+      "agidLineSha256": "621a7a90eea34a3ad2e1bd17b71ff500b0629060108bcd4b7ead87f3a8862059",
+      "existingSubjectPolicyId": "a62d202c6c5d15cd",
+      "modelProfileAuthority": null,
+      "notes": "Literal tremulous/reflected light; preserve English poetic and selected Spanish literary register."
+    }
+  ],
+  "held": [],
+  "retainedOriginalHolds": [
+    {
+      "words": [
+        "HUMEAN",
+        "PANDEAN"
+      ],
+      "reason": "Related Spanish lexical inventories include pronominal tags; not expanding these in this tranche without separate construction evidence."
+    },
+    {
+      "words": [
+        "PIPÍAN"
+      ],
+      "reason": "Canonical spelling-alias chain and terminal sense require their own exact binding; no alias or subject-policy shortcut."
+    },
+    {
+      "words": [
+        "FUMABAN"
+      ],
+      "reason": "Related Spanish give-off-smoke sense is outdated; held for separate selected-source/usage reconciliation, not conflated with modern personal smoking."
+    },
+    {
+      "words": [
+        "MÍAN"
+      ],
+      "reason": "Spec separate Spanish-source adapter proposal; excluded here, as are all prior16 proposal words."
+    },
+    {
+      "scope": "all unlisted diagnostic candidates",
+      "reason": "Not adjudicated or authorized by this bounded proposal; no broad plural class rule."
+    }
+  ],
+  "sourcePins": {
+    "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+    "englishEvidenceSha256": "f13c65c8efd79835e8dc588a967c95df38b16db8ec93ca3a31d346484ac3a4d8",
+    "englishTablesSha256": "03ee079049afe5af8174e90748701c5c46eedf67cf95342c4cc81c443c0c3cf4",
+    "englishSourceManifestSha256": "5cc79c3053dc0aa7d0db3ef228d82b8df616df56a5b7027c9e9f490826af9520",
+    "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+    "spanishCorroboratingInventorySha256": "d0b56dc0729d29db84507cfac8b46a9fc3ef51839f865351a58522b74bc48ac6",
+    "agidDataSha256": "df0c8f6edd4193d823abfad9e4ff6f42b4526211516649e1c73d4533aef749fa",
+    "existingSubjectPolicySha256": "249c71dfcaff1ee0c80ebf6ceca09fea660ed44c23c068fbd8f123cdc0dbfd3b",
+    "existingSingularAuditSha256": "2ddeb13e20d1373266c0fae287615c4dded729cbbbc63cdf86e1f5bd1feba472",
+    "baselineCoverageAuditSha256": "2658735d670671a327fbb7687787e97f73c1c941205789ed03acc0a9d121b226",
+    "baselineCoverage": {
+      "accepted": 76670,
+      "reviewedTeaching": 3410,
+      "completeExamples": 3410,
+      "englishSourceWords": 51895,
+      "dictionaryEquivalents": 83,
+      "spanishReviewedWords": 4725,
+      "apertiumFormWords": 687,
+      "wordnetWords": 200,
+      "translated": 61000,
+      "missing": 15670,
+      "byLength": {
+        "4": {
+          "accepted": 2924,
+          "withEnglishMeaning": 2579,
+          "missing": 345
+        },
+        "5": {
+          "accepted": 9736,
+          "withEnglishMeaning": 8346,
+          "missing": 1390
+        },
+        "6": {
+          "accepted": 21791,
+          "withEnglishMeaning": 17549,
+          "missing": 4242
+        },
+        "7": {
+          "accepted": 42219,
+          "withEnglishMeaning": 32526,
+          "missing": 9693
+        }
+      },
+      "definition": "At least one sourced English meaning or reviewed grammatical reading; not every meaning, usage or possible grammatical interpretation. No morphology-only fallback, untranslated lemma or placeholder counts."
+    },
+    "prior16ProposalSha256": "23fc84357a949b0eaa4809b8b073c310c1d368a0228acf7a9bc03a21d4db9bb7",
+    "dataLicense": "CC-BY-SA-4.0",
+    "englishAGIDLicense": "Separate permissive AGID notices; no GPL data added"
+  },
+  "modelOnlyAuthority": {
+    "ratonar": {
+      "origin": "Exact two-author additional-verb model and merged registry; no corrective ID.",
+      "files": {
+        "english-additional-verb-3-review-spec.json": "74c3feffe27f264de3ef7344836778bdf8a8420b3f39d0c05a30bdf661511f87",
+        "english-additional-verb-3-review-standards.json": "a8c6fab9a42206f0536d37ecf30f5ed08e6a51f9edef56ed1bf919bbe6eb29bc",
+        "english-additional-verb-3-dual-approval.json": "1410e3d2318a27216d0773c05642cc9ec9f536fbb0912a21b27430819a480c7a"
+      }
+    },
+    "caducar": {
+      "origin": "Original dual-review conservative profile intersection: ordinary plus it-only yields it-only; no corrective ID.",
+      "files": {
+        "english-verb-review-spec.json": "719488d6e49311a36188f29ffcc28f6c6b0effb57d9c815711fa21a5ea65c54e",
+        "english-verb-review-standards.json": "7b0768f0ec9ac175c0dbd7d57104d3140f83ba0bd20205b8e8b94d4a04577737"
+      }
+    },
+    "desovar": {
+      "origin": "Spec exact spawn/it-only proposal independently confirmed by Standards cross-review; old lay-eggs proposal remains archival, no corrective ID.",
+      "files": {
+        "english-additional-verb-4-review-spec.json": "22ff650f7d6589b5b6795ef9ec3f1dbde479465deaeb997404648f32f2519038",
+        "english-verb-cross-4-candidates.json": "fc909f498b462d83e7dd1103633b58869b8e68b6e0a81897c7e7946be57c48dc",
+        "english-verb-cross-4-review.json": "69a48b693dbb4b3c6d47492b258f1267db85b573f7c0568e126fd95a46be1edf"
+      }
+    }
+  },
+  "baselineAuditValidation": {
+    "archivedProposalHash": "2658735d670671a327fbb7687787e97f73c1c941205789ed03acc0a9d121b226",
+    "currentHash": "13d5a1837a7de9b800d200bc389f9919c8dca5f35a2fc2c21a8a424f9d19b94e",
+    "coverageObjectIdentical": true,
+    "all40CurrentlyMissing": true,
+    "wholeFileHashIdentical": false
+  },
+  "checks": {
+    "retainedEnglishWordSensesMatched": 35,
+    "retainedEnglishTableCellsMatched": 5,
+    "freshSpanishDistinctRawRecords": 79,
+    "freshSpanishFormSpellings": 40,
+    "originalSingularProofsMatched": 40,
+    "SpanishLemmaNoGlossMeaningAuthorityStaysEnglish": [
+      "aovar",
+      "apeonar",
+      "grajear",
+      "melar",
+      "miañar",
+      "pastear",
+      "roznar"
+    ]
+  },
+  "counts": {
+    "reviewed": 40,
+    "approvedExactReadings": 40,
+    "heldProposed": 0,
+    "roots": 31
+  },
+  "guards": [
+    "Exact words/lemma/source sense/hash/table cell/features/context/literal only; global it-only and old14/16 handlers stay unchanged.",
+    "No humans/I/we/you/ustedes, commands, subjunctives, weather, SE, new spelling/alias or general plural rule.",
+    "Model-origin DESOVAR/RATONAR/CADUCAR do not get fabricated correction IDs; their existing model authorities remain separate from corrective policies.",
+    "GRILLAN selected Spanish cricket sense outdated tag and RIELAN English poetic/Spanish literary scope must remain visible. Unselected culinary/figurative/regional labels must not leak.",
+    "Spanish no-gloss or unresolved variant inventories are not claimed independent semantic confirmation; retained English lexical meanings/model and independent number/role review are the authority.",
+    "All original explicit holds remain held, including MÍAN separate-adapter proposal and prior16 words excluded from this tranche.",
+    "40 is an exact source-approval count, not integrated new coverage."
+  ]
+}

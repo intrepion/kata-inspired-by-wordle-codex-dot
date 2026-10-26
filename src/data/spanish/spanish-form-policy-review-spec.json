@@ -1,0 +1,126 @@
+{
+  "inputSha256": "c3388f334c78f16426a33f5ff309d897c2c48d70557b056407e4cc0e874f9fa8",
+  "parserSha256": "54d1514e24f30132a12f4a66ae0c4c4e418f9b5654762b7ff3607130265f5517",
+  "researchSha256": "8d91a226da4817715b49e81bb53444b7b13308ecaeaa6faee2f177a47c363c43",
+  "spanishArtifactSha256": "f348077dec293b11c2dc3e13cf20d25d44403b519369b382e33f0aef7792b1ad",
+  "englishArtifactSha256": "244dcdc56868d81dc60e3820657780c06fac2729a90e2c5ffbfa13e6f9ecad1d",
+  "reviewer": "/root/review_spec",
+  "method": "Independent model re-review of revised parser, all 118 v2 samples across 62 grammar-prefix patterns, exact research/sample/parser hashes and 19 isolated positive/negative normalizer checks; grammar/evidence policy only, not approval of new English lemma senses or native-human certification.",
+  "approvedPolicy": true,
+  "guards": [
+    "The bounded revised grammar policy is approved for this exact parser/sample/research snapshot, conditional on the downstream source-context, selected English sense and rendering guards below. Source-form candidates are not themselves verified translation coverage.",
+    "Use only explicit Spanish-language source form_of evidence from the same sense and the same POS. Match each exact linked lemma against its grammatical description without spelling, accent, suffix, or reflexive-root inference; retain the original Spanish word and source hashes.",
+    "Whitelist recognized complete grammatical descriptions. Do not infer grammar from a semantic definition merely containing words such as plural, femenino, primera or presente. Cut only the exact linked lemma span, so FEMENINO or MASCULINO as lexical text cannot leak into grammatical tags.",
+    "Preserve distinct person, number, mood and tense. Futuro imperfecto denotes simple future, not past imperfect; pretérito imperfecto is past imperfect; pretérito perfecto simple and pretérito indefinido are preterite. Future and past-imperfect subjunctives remain distinct contextual clause readings.",
+    "Explicit usted/ustedes addressee identity overrides renderer assumptions about informal tú or Spain vosotros. Preserve source grammatical-person labels independently where necessary; no formal command becomes a declarative he/she/they form.",
+    "Withhold negative imperatives and unsupported compound, anterior, pluscuamperfect, clitic, reflexive or voice constructions, including notices after the target lemma and restrictions in tags/raw_tags/categories. Do not remove negative/clitic markers just to fit an approved simple renderer.",
+    "Unqualified Spanish technical gerundio can be accepted only in a narrowly recognized verb-form description with explicit lemma and no extra clitic/compound/context dependency. Gerund subjects remain unspecified; English gerunds require known approved forms.",
+    "Past-participle conversion needs positive validated Spanish technical participle evidence and must reject active/present/future/negated or unknown descriptions. Agreement of noun/adjective forms does not by itself prove verbal past participle status.",
+    "Noun/adjective gender and number come from the grammatical prefix/source metadata, never the lemma text or suffix. English noun plurals and female equivalents must still pass the independent selected-sense/counterpart reviews; do not map a female person to an unrelated same-spelling object or retain an inappropriate male English relation.",
+    "For every output reuse the existing exact selected English predicate, subject-role, tense/construction, aspect, AGID qualification and spelling-alias guards. English lemma existence alone is insufficient, and a grammar-only review does not approve a new English meaning.",
+    "Keep source original gloss, POS, categories, links, record hashes, parser/policy versions and normalized features auditable. Counts of source-form candidates must not be reported as verified translations or exhaustive coverage.",
+    "Retain the revised explicit adapter explanation when usted/ustedes semantic second-person commands are normalized to the shared third-person grammatical-command renderer. Never use that adaptation to create a third-person declarative reading.",
+    "The parser accepts only punctuation after the exact linked target. Unsupported post-target text must remain withheld until separately reviewed; do not relax this merely to increase coverage.",
+    "Preserve Spanish sense tags/raw_tags/categories in downstream labels and audit, including colloquial and outdated labels present in the current research snapshot. Normalized grammatical tags do not replace source usage metadata. Reject future conflicting source negative/clitic/construction tags even if a grammatical gloss looks supported."
+  ],
+  "issues": [],
+  "rejectedPatterns": [
+    {
+      "pattern": "mismatched accented or Ñ/N linked lemma",
+      "reason": "Exact NFC lexical target match is required; no accent folding of words."
+    },
+    {
+      "pattern": "non-punctuation text after linked target",
+      "reason": "May carry an unsupported clitic/construction/context restriction; current parser withholds it."
+    },
+    {
+      "pattern": "negative imperative or unsupported perfect/compound/anterior/pluscuamperfect construction",
+      "reason": "Outside approved simple source-form normalization."
+    },
+    {
+      "pattern": "bare, negated, active, present or future participio description",
+      "reason": "Past requires the narrow explicit pasado/pasivo positive description."
+    },
+    {
+      "pattern": "unknown semantic definition or grammar pattern not covered by the bounded source contract",
+      "reason": "Do not infer grammatical features from keyword coincidence."
+    }
+  ],
+  "notes": [
+    "All four previously reported blockers are resolved in the exact reviewed v2 parser: formal command adaptation, post-target restriction handling, accented lexical matching and positive past-participle proof.",
+    "All 118 v2 samples covering 62 distinct prefix patterns were rechecked. QUEJATE is now excluded; ESCINDÍ is a straightforward source-explicit vos imperative replacement sample.",
+    "The source snapshot contains form-of plus a small number of colloquial/outdated tags; preserve those usage limits downstream. This approval does not waive source metadata restrictions or selected English lemma review.",
+    "The broader source-form research remains candidate evidence, not a claim that all 16,197 spellings already have valid translations.",
+    "This check did not inspect or approve a new production integration, nor the separately reported noun/alias fixes in the continuation checkout.",
+    "No project files were edited."
+  ],
+  "resolvedIssues": [
+    {
+      "severity": "blocking",
+      "kind": "formal-addressee",
+      "sampleIndices": [
+        4,
+        5,
+        21,
+        22
+      ],
+      "words": [
+        "LOSE",
+        "PIRE",
+        "CROEN",
+        "HALEN"
+      ],
+      "problem": "Explicit usted/ustedes command headers normalize to generic second person. Existing renderer labels second singular informal and second plural Spain, so these readings would be mislabelled.",
+      "requiredChange": "Preserve explicit addressee/formality and map to English formal singular/plural commands using a deliberate adapter. Do not infer Spain/vosotros from every second-person plural source header.",
+      "status": "resolved in reviewed v2 parser"
+    },
+    {
+      "severity": "blocking",
+      "kind": "post-target-restrictions",
+      "sampleIndices": [
+        84
+      ],
+      "words": [
+        "QUEJATE"
+      ],
+      "problem": "The explicit enclitic notice follows quejarse and is discarded from prefix filtering; unsupported clitic/reflexive construction is accepted. A post-target negativo notice likewise fails to set negative in an isolated counterexample.",
+      "requiredChange": "Validate restrictions/context over the entire same-sense grammatical description and its source tags before extracting a prefix. Withhold unsupported enclitic, negative, compound or reflexive constructions regardless of where the notice occurs.",
+      "status": "resolved in reviewed v2 parser"
+    },
+    {
+      "severity": "blocking",
+      "kind": "accent-folded-lemma-validation",
+      "sampleIndices": [],
+      "problem": "The target is accent-folded along with grammar text. Isolated normalize(noun, Forma del plural de papa., papá) returns plural instead of rejecting the mismatched linked word.",
+      "requiredChange": "Match a complete exact linked lemma in NFC using original text/spelling; perform grammar accent folding only on grammatical spans. Do not let an accented/unaccented homograph validate the wrong target.",
+      "status": "resolved in reviewed v2 parser"
+    },
+    {
+      "severity": "blocking",
+      "kind": "unproved-past-participle",
+      "sampleIndices": [],
+      "problem": "Negative filtering of activo/presente/futuro is not positive proof of past: isolated Participio no pasado de comer. is accepted as past. No gerund/participle sample appears in the supplied 118, so these branches are not positively covered by this sample review.",
+      "requiredChange": "Use a narrow positive full grammatical-description contract for Spanish past participles, with valid source form evidence/categories and contradiction checks. Reject unknown/negated/active/present/future descriptions. Add positive and negative branch samples before production.",
+      "status": "resolved in reviewed v2 parser"
+    }
+  ],
+  "verification": {
+    "samples": 118,
+    "uniqueGrammarPatterns": 62,
+    "isolatedChecks": 19,
+    "results": "All supplied v2 sample normalizations reproduce exactly; all 19 explicit positive/negative checks passed.",
+    "checks": [
+      "PAPA versus PAPÁ rejects mismatch; exact PAPA succeeds",
+      "NIÑO versus NINO rejects mismatch",
+      "FEMENINO lexical lemma does not add feminine grammatical tag",
+      "QUEJATE post-target enclitic description rejected",
+      "post-target and pre-target negative commands rejected",
+      "bare/no-pasado/active participles rejected",
+      "explicit pasado and pasivo irregular participles accepted as past",
+      "simple gerund accepted; compound gerund rejected",
+      "future perfect rejected",
+      "futuro imperfecto remains future; pretérito imperfecto remains past imperfect",
+      "usted and ustedes imperatives adapt with explicit addressee and adapter reason"
+    ]
+  }
+}

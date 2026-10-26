@@ -1,10 +1,11 @@
+import {localDefinition} from './local-definitions.ts';
 import {learningFor} from './learning.ts';
 import {normalizeGuess,validLetters,type Language} from './language.ts';
 export const DEFINITION_SOURCE='Wiktionary contributors';
 export const DEFINITION_LICENSE='https://creativecommons.org/licenses/by-sa/4.0/';
 export const DEFINITION_ENDPOINT='https://en.wiktionary.org/api/rest_v1/page/definition/';
 export interface DefinitionEntry {partOfSpeech:string;senses:string[]}
-export interface DefinitionResult {word:string;entries:DefinitionEntry[];sourceUrl:string}
+export interface DefinitionResult {word:string;entries:DefinitionEntry[];sourceUrl:string;sourceLabel?:string;license?:string;note?:string;sourceLinks?:{label:string;url:string}[]}
 export type DefinitionFailure='network'|'timeout'|'invalid'|'cancelled';
 export class DefinitionError extends Error {constructor(readonly reason:DefinitionFailure){super(reason)}}
 const object=(value:unknown):value is Record<string,unknown>=>typeof value==='object'&&value!==null&&!Array.isArray(value);
@@ -38,7 +39,7 @@ type Fetcher=(input:string,init:RequestInit)=>Promise<Response>;
 export class DefinitionClient {
  private cache=new Map<string,{result:DefinitionResult;expires:number}>();
  private pending=new Map<string,{promise:Promise<DefinitionResult>;controller:AbortController}>();
- constructor(private fetcher:Fetcher=(url,init)=>fetch(url,init),private timeoutMs=6000,private now:()=>number=Date.now,readonly language:Language='en'){}
+ constructor(private fetcher?:Fetcher,private timeoutMs=6000,private now:()=>number=Date.now,readonly language:Language='en'){}
  normalizeWord(raw:string):string|null {return definitionWord(raw,this.language)}
  peek(raw:string):DefinitionResult|null {const word=this.normalizeWord(raw);if(!word)return null;let item=this.cache.get(word);if(!item){const lesson=learningFor(word,this.language);if(!lesson)return null;const result=parseDefinitions({es:[{language:'Spanish',partOfSpeech:lesson.definitionPartOfSpeech,definitions:[{definition:lesson.definition}]}]},word,'es-MX');result.sourceUrl=lesson.sourceUrl;item={result,expires:Infinity};this.cache.set(word,item);if(this.cache.size>64)this.cache.delete(this.cache.keys().next().value!);} if(item.expires<=this.now()){this.cache.delete(word);return null;}this.cache.delete(word);this.cache.set(word,item);return structuredClone(item.result);}
  lookup(raw:string):Promise<DefinitionResult> {
@@ -50,6 +51,8 @@ export class DefinitionClient {
   const cancelled=new Promise<never>((_,reject)=>controller.signal.addEventListener('abort',()=>reject(new DefinitionError(timedOut?'timeout':'cancelled')),{once:true}));
   const work=async()=>{
    try{
+    if(!this.fetcher)return await localDefinition(word,this.language);
+    // Explicit transport injection supports legacy adapter tests; the application never supplies it.
     const response=await this.fetcher(DEFINITION_ENDPOINT+encodeURIComponent(word.toLowerCase()),{signal:controller.signal,credentials:'omit',referrerPolicy:'no-referrer',redirect:'error',headers:{Accept:'application/json','Api-User-Agent':'Morrowmark/1.0 (local word definition lookup)'}});
     if(response.status===404)return parseDefinitions({},word,this.language);
     if(!response.ok)throw new DefinitionError('network');

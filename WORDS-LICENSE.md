@@ -40,11 +40,38 @@ Only recognized noun plurals and verb finite past-tense slots are automatic excl
 
 This deliberately does not remove all verb/adjective inflections. Present-tense-only forms and participle-only forms such as EATEN/TAKEN may remain; obvious singular S words and non-past ED words remain. AGID is an older automatically generated source with gaps; this policy does not certify every English sense. HIDED/SADES review was crosschecked against Wiktionary [revision86821937](https://en.wiktionary.org/w/index.php?title=hided&oldid=86821937) and [revision79276574](https://en.wiktionary.org/w/index.php?title=sades&oldid=79276574); no definition prose from those entries is imported into generation. Complete attribution for runtime Wiktionary text remains below.
 
-# Automatic inline definition text
+# Local inline meanings
 
-Displayed guesses, suggestions and revealed answers request individual English meanings from [Wiktionary's public experimental definition endpoint](https://www.mediawiki.org/wiki/Wikimedia_REST_API). No dictionary text dump is bundled. Each displayed word and ordinary network metadata reach the provider; no puzzle identifier, draft, hidden answer or saved statistics is transmitted. See [Wiktionary copyright information](https://en.wiktionary.org/wiki/Wiktionary:Copyrights) and [Wikimedia Terms of Use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content).
+Definitions no longer make automatic third-party requests. Visible submitted guesses,
+suggestions and revealed answers load static, same-origin files. Source links are
+attribution links opened only by the user. Missing entries remain unavailable.
 
-Selected text is attributed to Wiktionary contributors with fixed entry links and [CC BY-SA4.0](https://creativecommons.org/licenses/by-sa/4.0/) attribution. Formatting is removed and entries may be selected/shortened; media and example quotations are omitted. Dictionary text is not application-MIT licensed. Coverage is incomplete and endpoint availability is not guaranteed. Definitions never affect dictionary acceptance, scoring or saves. Live sample lookups were verified2026-10-24; no coverage claim for all11,193 guesses is made.
+English: modified selection of Simple English Wiktionary contributor text under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), extracted through
+[Kaikki / Wiktextract raw data](https://kaikki.org/dictionary/rawdata.html).
+The small compressed source is 4,726,754 bytes (see the exact pinned manifest).
+The 17,676 selected words occupy 2,852,448 bytes of JSON across four length chunks;
+coverage is partial, not all 65,843 accepted English words. Per-entry links credit
+contributors through the source article/history. The importer preserves sense labels,
+selects bounded senses, and excludes quotations, examples and media. Exact source
+entry revisions are not supplied by the extract. The data remains CC BY-SA 4.0,
+separate from the application code license. Full notices/license:
+[Simple English definitions](public/third-party/simple-english-definitions/NOTICE.txt).
+
+Spanish: preserve the 439 dictionary-backed entries and their original source
+attribution. Other meanings reuse existing bundled translations or transparently
+labelled AI-authored/model-reviewed learning material. These are English meanings
+or labelled grammatical readings, not necessarily source-provided definitions or
+complete senses. Each source keeps its existing separate CC BY-SA, GPL-derived or
+WordNet notices; no re-licensing of these data is implied. Teaching-derived meanings
+link [their own notice](public/third-party/spanish-teaching/NOTICE.txt), never an
+invented dictionary attribution. No new Spanish translation expansion is included.
+
+Reproduce the English selection without a full dump:
+`node --import tsx scripts/export-definition-vocabulary.mjs > /tmp/accepted.json`,
+then `python3 scripts/import-local-definitions.py /path/simple-extract.jsonl.gz /tmp/accepted.json --check`.
+The importer verifies the exact compressed SHA256 and every generated file.
+`src/data/definitions/source.json` pins counts, hashes, sizes and transformations.
 
 ## Additional selectable lengths
 
@@ -87,7 +114,7 @@ Reproduce retained source evidence offline with `python3 scripts/import-spanish-
 
 The 2,971 supplemental English translations, Spanish examples and English sentence renderings are original AI-authored educational text, independently cross-reviewed by another model task, not human/native-certified or dictionary-provided translations. They are released with the teaching data under CC BY-SA4.0. No new dictionary attribution, definition or source revision is fabricated. The existing 439 sourced learning records retain their original fields and notices unchanged. Combined coverage is 3,333 possible answers plus 77 existing exploratory words, or 3,410 records.
 
-Twenty JSON batches, sense-choice notes and `complete-teaching-review.json` record authorship/review roles, reviewed counts and final SHA256 values. Source extracts provide research anchors, while clearly identified ordinary model-knowledge meanings can be used when the extract is incomplete; these are not falsely attributed quotations or source-provided bilingual data. `generate-complete-teaching.mjs --check` verifies the fixed answer target, immutable archive, independent reviewed hashes and structural coverage before producing `additional-teaching.ts`. New records carry no dictionary source/definition fields; actual dictionary meanings still come from the existing preserved archive or on-demand visible-word lookup. No paid translation service or runtime AI is used. Automatic checks and model review improve quality but do not certify perfect translation or exclusively Mexican usage.
+Twenty JSON batches, sense-choice notes and `complete-teaching-review.json` record authorship/review roles, reviewed counts and final SHA256 values. Source extracts provide research anchors, while clearly identified ordinary model-knowledge meanings can be used when the extract is incomplete; these are not falsely attributed quotations or source-provided bilingual data. `generate-complete-teaching.mjs --check` verifies the fixed answer target, immutable archive, independent reviewed hashes and structural coverage before producing `additional-teaching.ts`. New records carry no dictionary source/definition fields; current local meanings come from the preserved archive and separately attributed bundled sources; automatic external lookup is no longer used. No paid translation service or runtime AI is used. Automatic checks and model review improve quality but do not certify perfect translation or exclusively Mexican usage.
 
 ## Exploratory Spanish dictionary equivalents (partial)
 

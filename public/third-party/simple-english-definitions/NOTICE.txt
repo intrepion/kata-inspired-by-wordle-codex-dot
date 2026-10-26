@@ -1,0 +1,22 @@
+Selected definitions from Simple English Wiktionary contributors.
+Data: Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+https://simple.wiktionary.org/wiki/Wiktionary:Copyrights
+Each displayed definition links its source article, whose history credits contributors.
+
+Extracted by Wiktextract, distributed by Kaikki:
+https://kaikki.org/dictionary/rawdata.html
+https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz
+Retrieved 2026-10-26. SHA256:
+813324e35a8cc2488692850626c54e457da03019ce33ee227e3c0cc82b69932d
+
+Modified selection: lowercase English headwords matching the game's accepted
+4–7-letter vocabulary; up to four entries and four senses per entry; preserve
+sense labels. Quotations, examples, media and other fields are omitted. Display
+formatting is removed and long meanings may be shortened. No inferred meanings.
+Exact per-entry revisions are not supplied by this extract. Source data can have
+errors and incomplete coverage. Reproduction: scripts/import-local-definitions.py;
+pinned counts, hashes and transformations: src/data/definitions/source.json.
+
+This data license is separate from the application code license. No endorsement
+by Wiktionary, Wikimedia, Kaikki or Wiktextract is implied.

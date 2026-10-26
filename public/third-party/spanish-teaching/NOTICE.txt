@@ -1,0 +1,11 @@
+Original AI-authored Spanish learning translations and examples, independently
+cross-reviewed by model tasks; not human/native-certified or source dictionary
+quotations. Released under Creative Commons Attribution-ShareAlike 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Existing 439 dictionary-backed archive entries retain their separate Wiktionary
+source links, revisions and notices. The additional 2,971 original teaching
+records carry no invented dictionary attribution. See WORDS-LICENSE.md and
+src/data/spanish/complete-teaching-review.json for authorship/review scope.
+Using a teaching translation as a bundled meaning does not turn it into a
+source-provided dictionary definition. No endorsement or accuracy warranty.

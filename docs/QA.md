@@ -1,3 +1,24 @@
+# Local-first meanings verification (2026-10-26)
+
+256 tests, type checking, root production build, Pages-subpath build and dependency
+audit passed (zero vulnerabilities). The fail-first default-client regression
+blocked global fetch and failed before the change, then passed with local English,
+Spanish, missing entries, language/length isolation, source labels and immutable
+results. Data input/output hashes reproduce with the importer `--check`.
+
+Measured default-client coverage across every accepted word: English 17,676/65,843,
+Spanish 61,129/76,670; all 3,333 Spanish possible answers retain meanings. Complete
+teaching remains 3,410 records. No new Spanish translations were created.
+
+`check-local-definitions.mjs` (also exposed through `check-inline-definitions.mjs`)
+passed isolated desktop/mobile Pages-subpath checks for Daily/Practice/Absurd,
+both languages and all four lengths, Easy suggestions, reload/drafts, no overflow
+or page errors. Every external request was blocked/recorded: zero occurred.
+A deliberately failed same-origin dictionary chunk showed a clear unavailable
+message without external fallback or gameplay failure, and recovered after reload.
+Source links remain explicit user navigation, not automatic lookups. Saves,
+reset epoch, dictionaries, answer pools and ranking algorithms were unchanged.
+
 # Current answer-form filtering verification
 
 The local filtered guide contains2,103 answers and the exact unchanged11,193 accepted guesses. AGID2016.01.19 source grammar, qualified mappings and reviewed exceptions remove recognized noun plural/past-tense forms; the source is not an exhaustive classifier. See ADR0019 and WORDS-LICENSE.md.

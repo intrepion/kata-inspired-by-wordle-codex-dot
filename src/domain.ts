@@ -14,7 +14,7 @@ export function score(answer:string, guess:string):Clue[] {
 }
 
 import {vocabulary} from './words.ts';
-export interface Run {answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean}
+export interface Run {answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited'}
 export type Outcome = 'playing'|'won'|'lost';
 export const DAY=86_400_000;
 export function dateKey(now:Date):string {return now.toISOString().slice(0,10)}
@@ -29,20 +29,23 @@ export function newRun(answer:string,mode:boolean|Difficulty=false,language:Lang
  const selected=mode===true?'hard':mode===false?'normal':mode;
  return {answer,guesses:[],draft:'',...(language==='en'?{}:{language}),...(selected==='strict'?{strictMode:true}:selected==='hard'?{hardMode:true}:selected==='easy'?{easyMode:true,assisted:true}:{})};
 }
-export function status(run:Run):Outcome {return run.guesses.includes(run.answer)?'won':run.gaveUp||run.guesses.length>=6?'lost':'playing'}
+export function status(run:Run):Outcome {return run.guesses.includes(run.answer)?'won':run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing'}
+export function awaitingContinuation(run:Run):boolean {return status(run)==='playing'&&run.continuation==='pending'}
+export function continueGuessing<T extends Run>(run:T):T {return awaitingContinuation(run)?{...run,continuation:'unlimited',draft:''}:run}
 /** Easier choices follow the configured Easy < Normal < Hard < Strict order. */
 export function easierDifficulties(level:Difficulty):Difficulty[] {const levels:Difficulty[]=['easy','normal','hard','strict'];return levels.slice(0,levels.indexOf(level)).reverse()}
 /** Finish without fabricating guesses or feedback; completed runs are immutable. */
 export function giveUp<T extends Run>(run:T):T {return status(run)==='playing'?{...run,gaveUp:true,draft:''}:run}
 export function submit(run:Run, raw:string):{run:Run;error?:string} {
  if(status(run)!=='playing') return {run,error:'This fieldnote is complete.'};
+ if(awaitingContinuation(run))return {run,error:'Choose Keep guessing or Give up before another guess.'};
  const language=run.language??'en',guess=normalizeGuess(raw,language);
  if(!validLetters(guess,language)||guess.length!==run.answer.length) return {run,error:run.answer.length===5?'Use all five letters.':`Use all ${run.answer.length} letters.`};
  const ALLOWED=vocabulary(run.answer.length,language).allowed;
  if(!ALLOWED.has(guess)) return {run,error:'That word is outside our field guide.'};
  if(run.guesses.includes(guess)) return {run,error:'Already noted. Try a different word.'};
  if(run.strictMode||run.hardMode){const error=clueConstraintError(run,guess,run.guesses.map(previous=>score(run.answer,previous)));if(error)return {run,error};}
- return {run:{...run,guesses:[...run.guesses,guess],draft:''}};
+ return {run:{...run,guesses:[...run.guesses,guess],draft:'',...(run.guesses.length===5&&guess!==run.answer?{continuation:'pending' as const}:{})}};
 }
 export function clueConstraintError(run:Pick<Run,'guesses'|'hardMode'|'strictMode'>,guess:string,feedback:readonly (readonly Clue[])[]):string|undefined {
  return run.strictMode?strictModeError(run,guess,feedback):run.hardMode?hardModeError(run,guess,feedback):undefined;
@@ -102,5 +105,5 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
 }
 export function shareText(date:string, run:Run):string {
  const glyph={exact:'■',elsewhere:'◩',absent:'□'};
- return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}\n${status(run)==='won'?run.guesses.length:'X'}/6\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n■ exact · ◩ elsewhere · □ absent`;
+ return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n■ exact · ◩ elsewhere · □ absent`;
 }

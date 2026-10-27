@@ -178,3 +178,9 @@ New Daily, Practice and Absurd puzzles ask for a difficulty and **Start puzzle**
 Use the **Statistics** icon to filter completed results by game mode, language, 4–7 letters, difficulty and assistance without changing the game. Old Daily totals are retained as **Legacy — difficulty unrecorded**; only the last saved completed Practice/Absurd round is recoverable. Earlier replayable history and unknown exposure are not invented. Daily streaks use consecutive UTC dates; Practice/Absurd streaks use consecutive recorded wins within the selected filters. See [statistics/start policy](docs/adr/0030-segmented-statistics-start-gate.md).
 
 **Give Up** is available on a started, unfinished puzzle. Its dialog offers every easier difficulty, or **Confirm Give Up** to end the puzzle as one loss and reveal the answer (one consistent surviving answer in Absurd). Choosing easier rules preserves the same puzzle and guesses; Cancel/Escape leave it unchanged. Give-ups retain the actual guess count, including zero, and never add fake rows or entries to the wins-only guess histogram. [Give-up policy](docs/adr/0031-give-up-confirmation.md).
+
+## Optional extended play
+
+After six unsuccessful guesses, choose **Keep guessing** for unlimited additional attempts on the same puzzle, or **Give up** to open the existing confirmation. Escape/backdrop dismissal leaves the choice pending; it never forfeits or reveals the answer. Pending/continued games survive reload and navigation. A Daily continuation also retains its original puzzle date across midnight until finished.
+
+Sixth-guess wins still count normally. Extended wins are labelled separately in statistics and shares; they never enter the six-bin win histogram. Total wins/win rate explicitly include both kinds. No old six-guess losses are reopened or rewritten. [Extended-play semantics and preservation](docs/adr/0032-optional-extended-play.md).

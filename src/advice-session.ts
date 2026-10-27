@@ -17,7 +17,7 @@ export class AdviceSession {
  private cancel(){this.generation++;this.worker?.terminate();this.worker=null;this.pendingKey=null;}
  show(run:Observations|null,kind:AdviceKind='suboptimal'):void {
   if(!run){this.cancel();this.emit({phase:'hidden'});return;}
-  if(run.finished||run.guesses.length>=6){this.cancel();this.emit({phase:'unavailable',message:'Round complete. Advice is hidden.'});return;}
+  if(run.finished){this.cancel();this.emit({phase:'unavailable',message:'Round complete. Advice is hidden.'});return;}
   const key=adviceKey(run,kind);
   if(this.pendingKey===key||((this.current.phase==='ready'||this.current.phase==='error')&&this.current.key===key))return;
   const cached=this.cache.get(key);

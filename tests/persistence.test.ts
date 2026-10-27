@@ -1,3 +1,4 @@
+import {giveUp,awaitingContinuation,continueGuessing} from '../src/domain.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {decode,emptySave,recordDaily,statistics,synchronize,encode} from '../src/persistence.ts';
@@ -43,7 +44,7 @@ test('rollover retains results and practice, resets unfinished daily',()=>{
 test('loss resets current streak without erasing the best streak',()=>{
  const s=emptySave(today);recordDaily(s,'2026-10-10',win('2026-10-10'));
  let run=newRun(dailyAnswer(today));for(const word of ['APPLE','CRANE','SHOUT','MIGHT','BERRY','LEVEL'])run=submit(run,word).run;
- recordDaily(s,today,run);
+ recordDaily(s,today,giveUp(run));
  assert.deepEqual(statistics(s.results,today),{played:2,wins:1,percent:50,current:0,best:1,histogram:[1,0,0,0,0,0]});
 });
 test('terminal daily run is recorded on restore even without a ledger entry',()=>{

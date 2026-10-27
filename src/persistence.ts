@@ -2,11 +2,11 @@ import {readNotebookStats,recordCompletion,type NotebookStats} from './notebook-
 import {validLetters,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
 import {vocabulary,answerDataset,PREVIOUS_ANSWER_DATASET} from './words.ts';
-import {dailyAnswer, difficulty, DAY, newRun, status, submit, validDate, type Run,type Difficulty} from './domain.ts';
+import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, awaitingContinuation, validDate, type Run,type Difficulty} from './domain.ts';
 export const SAVE_KEY='morrowmark.v1';
-export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean}
+export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
 export interface Save {
- version:3; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'; impossible:ImpossibleRun;
+ version:3; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'; impossible:ImpossibleRun;
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
 }
 export function emptySave(date:string,mode:boolean|Difficulty=false,length=5,language:Language='en'):Save {
@@ -16,27 +16,27 @@ function object(value:unknown):value is Record<string,unknown> {return typeof va
 function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'?value:'daily'}
 function storedDifficulty(value:Record<string,unknown>):Difficulty {return value.difficulty==='easy'||value.difficulty==='hard'||value.difficulty==='strict'||value.difficulty==='normal'?value.difficulty:value.strictMode===true?'strict':value.hardMode===true?'hard':value.easyMode===true?'easy':'normal'}
 function validatedRun(value:unknown, answer:string,language:Language='en'):Run|null {
- if(!object(value)||!Array.isArray(value.guesses)||value.guesses.length>6) return null;
- const ALLOWED=vocabulary(answer.length,language).allowed;
- const guesses:string[]=[];
- for(const guess of value.guesses){
-  if(typeof guess!=='string'||!ALLOWED.has(guess)||guesses.includes(guess)||guesses.includes(answer)) return null;
-  guesses.push(guess);
- }
- const draft=typeof value.draft==='string' && validLetters(value.draft,language)&&value.draft.length<=answer.length?value.draft:'';
- const run:Run={answer,guesses,draft,...(language==='en'?{}:{language}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&guesses.length<6&&!guesses.includes(answer)?{gaveUp:true}:{})}; if(status(run)!=='playing')run.draft='';
- const selected=storedDifficulty(value);
- if(selected==='easy')run.easyMode=true;
+ if(!object(value)||!Array.isArray(value.guesses))return null;
+ const ALLOWED=vocabulary(answer.length,language).allowed,guesses:string[]=[],seen=new Set<string>();
+ if(value.guesses.length>ALLOWED.size||value.guesses.length>6&&value.continuation!=='unlimited')return null;
+ for(const guess of value.guesses){if(typeof guess!=='string'||!ALLOWED.has(guess)||seen.has(guess)||seen.has(answer))return null;guesses.push(guess);seen.add(guess)}
+ const continuation=value.continuation==='pending'||value.continuation==='unlimited'?value.continuation:undefined;
+ if(continuation==='pending'&&(guesses.length!==6||seen.has(answer))||continuation==='unlimited'&&(guesses.length<6||guesses.length===6&&seen.has(answer)))return null;
+ const draft=typeof value.draft==='string'&&validLetters(value.draft,language)&&value.draft.length<=answer.length?value.draft:'';
+ const run:Run={answer,guesses,draft,...(language==='en'?{}:{language}),...(continuation?{continuation}:{}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&!seen.has(answer)&&(guesses.length<6||continuation)?{gaveUp:true}:{})};
+ if(status(run)!=='playing'||awaitingContinuation(run))run.draft='';
+ const selected=storedDifficulty(value);if(selected==='easy')run.easyMode=true;
  if(selected==='strict'||selected==='hard'){
   let replay=newRun(answer,selected,language);
-  for(const guess of guesses){const next=submit(replay,guess);if(next.error)return run;replay=next.run;}
+  for(const guess of guesses){if(awaitingContinuation(replay)&&continuation==='unlimited')replay=continueGuessing(replay);const next=submit(replay,guess);if(next.error)return run;replay=next.run}
   if(selected==='strict')run.strictMode=true;else run.hardMode=true;
  }
  return run;
 }
+export function dailyPuzzleDate(save:Pick<Save,'date'|'dailyDate'>):string {return save.dailyDate??save.date}
 export function recordDaily(save:Save,date:string,run:Run):void {
  if('variant' in run&&run.variant==='impossible')return;
- if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===dailyAnswer(date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{})};}
+ if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===dailyAnswer(date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
 }
 export function decode(raw:string|null,today:string,length=5,language:Language='en'):Save {
  const {answers:ANSWERS}=vocabulary(length,language);const save=emptySave(today,false,length,language); if(!raw)return save;
@@ -63,29 +63,34 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   }
   const marks=readNotebookStats(value.notebookStats,today);if(marks)save.notebookStats=marks;
   if(object(value.history))for(const [date,result] of Object.entries(value.history)){
-   if(validDate(date)&&date<=today&&object(result)&&typeof result.won==='boolean'&&Number.isInteger(result.turns)&&Number(result.turns)>=0&&Number(result.turns)<=6&&(result.gaveUp===true?!result.won&&Number(result.turns)<6:Number(result.turns)>=1&&(result.won||result.turns===6)))save.history[date]={won:result.won,turns:Number(result.turns),...(result.gaveUp===true?{gaveUp:true}:{})};
+   if(validDate(date)&&date<=today&&object(result)&&typeof result.won==='boolean'&&Number.isInteger(result.turns)&&Number(result.turns)>=0&&Number(result.turns)<=vocabulary(length,language).allowed.size&&(Number(result.turns)<=6||result.extended===true)&&(result.gaveUp===true?!result.won:result.won?Number(result.turns)>=1:result.turns===6&&result.extended!==true))save.history[date]={won:result.won,turns:Number(result.turns),...(result.gaveUp===true?{gaveUp:true}:{}),...(result.extended===true?{extended:true}:{})};
   }
   if(object(value.results)) for(const [date,guesses] of Object.entries(value.results)){
    if(!validDate(date)||date>today)continue;
-   const run=validatedRun({guesses,...(save.history[date]?.gaveUp?{gaveUp:true}:{})},dailyAnswer(date,length,language),language);
+   const run=validatedRun({guesses,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{continuation:'unlimited'}:save.history[date]?.gaveUp&&Array.isArray(guesses)&&guesses.length===6?{continuation:'pending'}:{})},dailyAnswer(date,length,language),language);
    if(run && status(run)!=='playing')recordDaily(save,date,run);
   }
-  if(validDate(value.date)&&value.date<=today){
-   const run=validatedRun(value.daily,dailyAnswer(value.date,length,language),language);
-   if(run){recordDaily(save,value.date,run);recordCompletion(save,'daily',value.date,run);if(value.date===today)save.daily=run;}
+  const roundDate=validDate(value.dailyDate)&&value.dailyDate<=today?value.dailyDate:value.date;
+  if(validDate(roundDate)&&roundDate<=today){
+   const run=validatedRun(value.daily,dailyAnswer(roundDate,length,language),language);
+   if(run){recordDaily(save,roundDate,run);recordCompletion(save,'daily',roundDate,run);
+    if(roundDate===today){save.daily=run}
+    else if(status(run)==='playing'&&run.continuation&&!save.results[roundDate]){save.daily=run;save.dailyDate=roundDate}
+   }
   }
   // A terminal ledger entry is authoritative when a stale tab saved an unfinished run.
-  if(save.results[today]){
-   const guesses=save.results[today];
+  const activeDate=dailyPuzzleDate(save);
+  if(save.results[activeDate]){
+   const guesses=save.results[activeDate];
    const matching=save.daily.guesses.length===guesses.length&&save.daily.guesses.every((guess,i)=>guess===guesses[i]);
-   save.daily={...newRun(dailyAnswer(today,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[today]?.gaveUp?{gaveUp:true}:{})};
+   save.daily={...newRun(dailyAnswer(activeDate,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
   }
   if(object(value.practice)&&typeof value.practice.answer==='string'&&ANSWERS.includes(value.practice.answer)){
    save.practice=validatedRun(value.practice,value.practice.answer,language)??save.practice;
   }
   const adaptive=restoreImpossible(value.impossible)??restoreImpossible(value.absurd)??restoreImpossible(value.evil);
   save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible('normal',length,language);
-  recordCompletion(save,'daily',today);recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
+  recordCompletion(save,'daily',dailyPuzzleDate(save));recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
   save.mode=storedMode(value.mode);
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
   return save;
@@ -97,7 +102,7 @@ export function statistics(results:Record<string,string[]>,today:string,history:
  const histogram=[0,0,0,0,0,0];let wins=0,best=0,chain=0,last='';
  for(const date of dates){
   if(outcomes[date].won){
-   wins++;histogram[outcomes[date].turns-1]++;
+   wins++;if(outcomes[date].turns<=6)histogram[outcomes[date].turns-1]++;
    chain=last&&Date.parse(date)-Date.parse(last)===DAY?chain+1:1;
    best=Math.max(best,chain);last=date;
   }else{chain=0;last='';}

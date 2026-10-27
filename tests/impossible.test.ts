@@ -1,3 +1,4 @@
+import {giveUp,awaitingContinuation,continueGuessing} from '../src/domain.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {largestBucket,newImpossible,submitImpossible,impossibleStatus,restoreImpossible,impossibleSnapshot} from '../src/impossible.ts';
@@ -29,7 +30,7 @@ test('full-pool play never empties or contradicts past clues; six turns persist'
   for(const candidate of run.candidates)for(let row=0;row<run.guesses.length;row++)assert.deepEqual(score(candidate,run.guesses[row]),run.feedback[row]);
   assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run);
  }
- assert.equal(impossibleStatus(run),'lost');assert.equal(submitImpossible(run,'APPLE').run,run);
+ assert.equal(impossibleStatus(run),'playing');assert.equal(run.continuation,'pending');assert.equal(submitImpossible(run,'APPLE').run,run);
 });
 test('invalid and repeated guesses preserve draft and state; input normalizes case',()=>{
  const run={...newImpossible(),draft:'ZZ'};
@@ -57,7 +58,7 @@ test('Impossible state and results resume independently of Hard/Strict daily and
   assert.equal(difficulty(restored.impossible),'normal');assert.equal(difficulty(restored.daily),level);assert.equal(difficulty(restored.practice),level);assert.equal(difficulty(restored.settings),level);
   assert.deepEqual(synchronize(save,save.date,()=>{throw new Error('Unavailable')}).save,save);
   for(const word of exploratory)if(restored.impossible.guesses.length<6)restored.impossible=submitImpossible(restored.impossible,word).run;
-  assert.equal(impossibleStatus(restored.impossible),'lost');recordDaily(restored,restored.date,{...restored.impossible,answer:dailyAnswer(restored.date)});assert.equal(statistics(restored.results,restored.date).played,0);
+  restored.impossible=giveUp(restored.impossible);assert.equal(impossibleStatus(restored.impossible),'lost');recordDaily(restored,restored.date,{...restored.impossible,answer:dailyAnswer(restored.date)});assert.equal(statistics(restored.results,restored.date).played,0);
   restored.mode='daily';assert.deepEqual(decode(encode(restored),restored.date).impossible,restored.impossible);
   const nextDay=decode(encode(restored),'2026-10-25');assert.deepEqual(nextDay.impossible,restored.impossible);assert.equal(difficulty(nextDay.daily),level);
  }

@@ -28,7 +28,7 @@ test('typing and rejected guesses reuse work; leaving cancels and stale results 
 test('finished/singleton rounds clear ranks and errors leave playable advice state',()=>{
  const worker=new FakeWorker();const session=new AdviceSession(()=>worker,()=>{});const run=newImpossible();session.show(run);
  const singleton={guesses:['ACORN','BADGE','EQUAL','FEAST'],feedback:['ACORN','BADGE','EQUAL','FEAST'].map(word=>score('HEAVY',word))};session.show(singleton);assert.equal(phase(session),'unavailable');assert.equal(worker.terminated,true);
- session.show({...run,guesses:['XYLEM','JAZZY','FUZZY','BOOZY','DIZZY','MAMMA']});assert.equal(phase(session),'unavailable');
+ session.show({...run,finished:true,guesses:['XYLEM','JAZZY','FUZZY','BOOZY','DIZZY','MAMMA']});assert.equal(phase(session),'unavailable');
  const failed=new AdviceSession(()=>{throw new Error('Worker blocked')},()=>{});failed.show(run);assert.equal(phase(failed),'error');failed.stop();assert.equal(phase(failed),'hidden');
 });
 test('ranking directions are separate and toggle-off rejects a delayed response without leaking run fields',()=>{

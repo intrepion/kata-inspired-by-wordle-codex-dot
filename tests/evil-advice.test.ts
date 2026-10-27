@@ -1,3 +1,4 @@
+import {giveUp,awaitingContinuation,continueGuessing} from '../src/domain.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {ALLOWED} from '../src/words.ts';
@@ -37,8 +38,8 @@ test('gameover and singleton rounds have no ranking; invalid/repeated input keep
  const typing={...run,draft:'CRA'};assert.equal(adviceKey(typing),key);assert.equal(adviceKey(submitImpossible(run,'ZZZZZ').run),key);assert.equal(adviceKey(submitImpossible(run,'ADIEU').run),key);
  assert.deepEqual(notRecommended({...run,candidates:[run.candidates[0]]}).suggestions,[]);
  for(const word of ['XYLEM','JAZZY','FUZZY','BOOZY','DIZZY'])run=submitImpossible(run,word).run;
- assert.deepEqual(notRecommended(run).suggestions,[]);
- assert.deepEqual(Object.keys(impossibleSnapshot(run)).sort(),['dataset','difficulty','draft','guesses','version']);
+ run=giveUp(run);assert.deepEqual(notRecommended(run).suggestions,[]);
+ assert.deepEqual(Object.keys(impossibleSnapshot(run)).sort(),['continuation','dataset','difficulty','draft','gaveUp','guesses','version']);
 });
 test('legacy Impossible saves and Absurd aliases resume the same round and drafts',async()=>{
  const {emptySave,encode,decode}=await import('../src/persistence.ts');

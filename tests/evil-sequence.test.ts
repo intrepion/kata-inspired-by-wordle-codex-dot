@@ -15,7 +15,7 @@ test('reported sequence uses the new curated SCOWL counts and retains exactly th
  for(const level of ['normal','easy'] as const){let run=newImpossible(level);assert.equal(run.candidates.length,2103);
   for(const [word,count,feedback] of rows){const next=submitImpossible(run,word);assert.equal(next.error,undefined);run=next.run;assert.equal(run.candidates.length,count,word);assert.deepEqual(run.feedback.at(-1),feedback,word);assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run);for(const answer of run.candidates)run.guesses.forEach((guess,i)=>assert.deepEqual(score(answer,guess),run.feedback[i]))}
   assert.deepEqual(run.candidates,survivors);
-  for(const [word,candidates] of [['MAKES',['PAPER','RARER','RAWER']],['WAXES',['MAKER','PAPER','RARER']]] as const){const next=submitImpossible(run,word);assert.equal(next.error,undefined);assert.equal(impossibleStatus(next.run),'lost');assert.deepEqual(next.run.candidates,candidates);assert.ok(ANSWERS.includes(next.run.answer));const save=emptySave('2026-10-24');save.impossible=next.run;assert.deepEqual(decode(encode(save),save.date).impossible,next.run)}
+  for(const [word,candidates] of [['MAKES',['PAPER','RARER','RAWER']],['WAXES',['MAKER','PAPER','RARER']]] as const){const next=submitImpossible(run,word);assert.equal(next.error,undefined);assert.equal(impossibleStatus(next.run),'playing');assert.equal(next.run.continuation,'pending');assert.deepEqual(next.run.candidates,candidates);assert.ok(ANSWERS.includes(next.run.answer));const save=emptySave('2026-10-24');save.impossible=next.run;assert.deepEqual(decode(encode(save),save.date).impossible,next.run)}
  }
 });
 test('both former endings are outside the independent dictionary and cannot spend a turn or alter remaining answers',()=>{

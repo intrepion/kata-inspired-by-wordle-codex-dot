@@ -1,3 +1,26 @@
+# Optional extended play verification (2026-10-27, local)
+
+282 tests, type checking and root/Pages production builds pass. Seven new public
+regressions cover sixth-miss pending vs sixth-win, pending/continued saves,
+8–11 guesses, invalid/repeated input, all languages/lengths, adaptive pools/replay,
+original-date Daily midnight retention, historical six-loss preservation,
+easiest/assistance segmentation and separate extended-win statistics. Prior tests
+that intentionally needed a terminal new loss now explicitly choose Give Up;
+legacy-loss fixtures retain their original missing-continuation format.
+
+Isolated desktop/mobile checks pass on the Pages subpath and actual port 5298:
+all three modes pause after six misses without result/reveal; Escape/Cancel,
+mode/locale navigation and reload preserve the choice; repeated Keep is idempotent;
+7+ history and share rows render; extended wins count once outside the six-bin
+histogram. Confirmed Give Up, easier continuation, sixth-guess win and historical
+loss remain distinct. Daily pending/continued frames survive midnight on their
+original date, then today's fresh setup opens after completion. All observed
+automatic third-party requests remain zero. Existing statistics/start-screen and
+Pages asset/worker/notices/reload/storage/erase smoke tests also pass.
+
+Working checkout: /tmp/morrowmark-publication-20261026. No clone/cleanup, dataset
+expansion, reset epoch change, commit, push or deployment was performed.
+
 # Give Up verification (2026-10-26, local)
 
 275 tests, type checking and root/Pages builds pass. Six new public behavior

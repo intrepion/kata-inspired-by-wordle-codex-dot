@@ -9,7 +9,7 @@ export class InlineDefinitions {
  constructor(private client:DefinitionClient,private publish:(word:string)=>void,private debounceMs=180){}
  state(word:string):InlineDefinitionState {return this.states.get(word)??{phase:'loading'}}
  show(words:readonly string[]){
-  const next=new Set(words.map(word=>this.client.normalizeWord(word)).filter((word):word is string=>word!==null).slice(0,17));
+  const next=new Set(words.map(word=>this.client.normalizeWord(word)).filter((word):word is string=>word!==null));
   for(const word of this.visible)if(!next.has(word)&&this.active.has(word)){this.active.delete(word);this.client.cancel(word);this.states.delete(word)}
   this.visible=next;
   for(const word of next){

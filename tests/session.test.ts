@@ -9,11 +9,11 @@ test('incomplete, invalid and duplicate guesses do not spend a turn',()=>{
  assert.equal(next.guesses.length,1);
  assert.equal(submit(next,'ALLEY').error,'Already noted. Try a different word.');
 });
-test('win and sixth wrong guess close runs',()=>{
+test('wins close runs while a sixth wrong guess requires a continuation choice',()=>{
  assert.equal(status(submit(newRun('APPLE'),'APPLE').run),'won');
  let run=newRun('APPLE');
  for(const word of ['CRANE','SHOUT','MIGHT','BERRY','LEVEL','ALLEY']) run=submit(run,word).run;
- assert.equal(status(run),'lost'); assert.equal(submit(run,'APPLE').run,run);
+ assert.equal(status(run),'playing');assert.equal(run.continuation,'pending'); assert.equal(submit(run,'APPLE').run,run);
 });
 test('keyboard retains best evidence across guesses and duplicate copies',()=>{
  assert.equal(keyboardClues({answer:'APPLE',guesses:['ALLEY','APPLE'],draft:''}).L,'exact');

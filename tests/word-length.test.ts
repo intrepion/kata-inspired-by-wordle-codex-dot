@@ -1,3 +1,4 @@
+import {giveUp,awaitingContinuation,continueGuessing} from '../src/domain.ts';
 import {test} from 'node:test';import assert from 'node:assert/strict';
 import {vocabulary} from '../src/words.ts';
 test('each selectable length has independently curated answers and matching broad guesses, preserving the five-letter guide',()=>{
@@ -42,7 +43,7 @@ test('duplicate hints and strict consistency work at every length, with distinct
  }
 });
 test('all adaptive difficulties retain at least one matching curated answer through win or the six-turn limit and reload',()=>{
- for(const length of [4,5,6,7])for(const level of ['easy','normal','hard','strict'] as Difficulty[]){let run=newImpossible(level,length);for(let turn=0;turn<6&&impossibleStatus(run)==='playing';turn++){const next=submitImpossible(run,run.candidates[0]);assert.equal(next.error,undefined);run=next.run;assert.ok(run.candidates.length);assert.ok(run.candidates.every(answer=>run.guesses.every((guess,row)=>score(answer,guess).every((c,i)=>c===run.feedback[row][i]))));assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run)}assert.notEqual(impossibleStatus(run),'playing');assert.ok(vocabulary(length).answers.includes(run.answer));}
+ for(const length of [4,5,6,7])for(const level of ['easy','normal','hard','strict'] as Difficulty[]){let run=newImpossible(level,length);for(let turn=0;turn<6&&impossibleStatus(run)==='playing';turn++){const next=submitImpossible(run,run.candidates[0]);assert.equal(next.error,undefined);run=next.run;assert.ok(run.candidates.length);assert.ok(run.candidates.every(answer=>run.guesses.every((guess,row)=>score(answer,guess).every((c,i)=>c===run.feedback[row][i]))));assert.deepEqual(restoreImpossible(impossibleSnapshot(run)),run)}if(awaitingContinuation(run))run=giveUp(run);assert.notEqual(impossibleStatus(run),'playing');assert.ok(vocabulary(length).answers.includes(run.answer));}
  assert.equal(largestBucket(['BOOK','BORE'],'BOOK').candidates[0],'BORE');
 });
 test('clue-only advice ranks the same remaining candidates for hidden answers with identical clues, excludes other lengths and matches independent bucket counts',()=>{

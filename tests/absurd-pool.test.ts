@@ -1,3 +1,4 @@
+import {giveUp,awaitingContinuation,continueGuessing} from '../src/domain.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {newImpossible} from '../src/impossible.ts';
@@ -36,7 +37,7 @@ test('all difficulties keep every surviving candidate and terminal reveal inside
  for(const level of ['easy','normal','hard','strict'] as const){
   let run=newImpossible(level);
   const exploratory=submitImpossible(run,'XYLEM');assert.equal(exploratory.error,undefined);run=exploratory.run;
-  while(impossibleStatus(run)==='playing'){
+  while(impossibleStatus(run)==='playing'){if(awaitingContinuation(run))run=continueGuessing(run);
    assert.ok(run.candidates.every(word=>curated.has(word)));const next=run.candidates.find(word=>!run.guesses.includes(word))!;assert.ok(next);const result=submitImpossible(run,next);assert.equal(result.error,undefined);run=result.run;
    run.guesses.forEach((guess,row)=>run.candidates.forEach(answer=>assert.deepEqual(score(answer,guess),run.feedback[row])));
   }

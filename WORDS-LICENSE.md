@@ -58,6 +58,42 @@ entry revisions are not supplied by the extract. The data remains CC BY-SA 4.0,
 separate from the application code license. Full notices/license:
 [Simple English definitions](public/third-party/simple-english-definitions/NOTICE.txt).
 
+Additional English gap-fill data uses the **English-language records** of the raw
+English Wiktionary edition (the edition also contains other languages, which are
+excluded). The current raw artifact differs from the earlier Spanish input:
+3,082,185,963 compressed bytes, downloaded 2026-10-29, dump 2026-10-01,
+Last-Modified 2026-10-25, SHA256
+`784574cc577d333bbf9e659be38efa27e75e9bfc0a2a8c7ab2371bb5fec29b2d`.
+The original 17,676 Simple English entries are unchanged and take precedence.
+Only previously missing accepted lowercase headwords are added. Up to four POS
+entries and four senses each retain supplied tags and usage labels; no generated
+inflections, examples, quotations or media are imported. Form-of glosses remain
+labelled grammatical references, not newly inferred definitions. The modified
+selection remains **CC BY-SA 4.0** with entry article/history attribution, separate
+from application code. [Notice and license](public/third-party/english-definitions/NOTICE.txt).
+The full multi-gigabyte input is not bundled or downloaded at runtime.
+
+| Letters | Accepted | Previously defined | Added | Now defined | Missing | Combined JSON bytes |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 4 | 4,964 | 1,856 | 2,773 | 4,629 | 335 | 1,068,077 |
+| 5 | 11,193 | 3,460 | 7,004 | 10,464 | 729 | 1,933,116 |
+| 6 | 19,816 | 5,301 | 13,298 | 18,599 | 1,217 | 3,002,380 |
+| 7 | 29,870 | 7,059 | 21,159 | 28,218 | 1,652 | 4,074,354 |
+| Total | 65,843 | 17,676 | 44,234 | 61,910 | 3,933 | 10,077,927 |
+
+The new files alone total 7,225,479 bytes. The combined eight JSON files gzip to
+2,337,196 bytes with Python's default gzip level (independent files, timestamp zero);
+actual host transfer compression can differ. Length chunks load lazily; existing
+Simple English definitions do not trigger a gap-fill chunk. Coverage means at least
+one supplied sense or labelled grammatical reference, not complete dictionary
+coverage. This adds definitions only: the guess/possible-answer lists and saves
+are unchanged.
+
+Reproduce gap-fill selection using the same accepted-word export, then:
+`python3 scripts/import-english-definitions.py /path/raw-wiktextract-data.jsonl.gz /tmp/accepted.json --check`.
+This checks the compressed source SHA256 and exact generated files;
+`src/data/definitions/english-source.json` records output hashes and coverage.
+
 Spanish: preserve the 439 dictionary-backed entries and their original source
 attribution. Other meanings reuse existing bundled translations or transparently
 labelled AI-authored/model-reviewed learning material. These are English meanings

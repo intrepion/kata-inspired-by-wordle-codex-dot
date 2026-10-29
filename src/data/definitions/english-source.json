@@ -1,0 +1,53 @@
+{
+  "edition": "English Wiktionary",
+  "contributors": "English Wiktionary contributors",
+  "artifactUrl": "https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz",
+  "artifactBytes": 3082185963,
+  "artifactSha256": "784574cc577d333bbf9e659be38efa27e75e9bfc0a2a8c7ab2371bb5fec29b2d",
+  "dumpDate": "2026-10-01",
+  "retrieved": "2026-10-29",
+  "lastModified": "2026-10-25T08:19:16Z",
+  "dataLicense": "CC-BY-SA-4.0",
+  "rightsUrl": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+  "rawIndex": "https://kaikki.org/dictionary/rawdata.html",
+  "modifications": "Only lowercase English-language headwords matching existing accepted 4–7-letter spellings missing from Simple English selection. Up to four POS entries, four senses each, 1800 characters per sense, with supplied tags/raw_tags. No inferred meanings or inflections; examples, quotations, media and other fields omitted. Source article history provides attribution; extract does not provide exact entry revisions.",
+  "recordsScanned": 11121531,
+  "byLength": {
+    "4": {
+      "accepted": 4964,
+      "existing": 1856,
+      "added": 2773,
+      "defined": 4629,
+      "missing": 335,
+      "bytes": 656913,
+      "sha256": "9b619ce1c38184c1d7205f61b5c4b5c44f30a83f6a0865a31f7dd9a8254a4d54"
+    },
+    "5": {
+      "accepted": 11193,
+      "existing": 3460,
+      "added": 7004,
+      "defined": 10464,
+      "missing": 729,
+      "bytes": 1294745,
+      "sha256": "371fa8f29b7effda94c8aa438867b593690ddc6afeec3752e24046cb39bf53b3"
+    },
+    "6": {
+      "accepted": 19816,
+      "existing": 5301,
+      "added": 13298,
+      "defined": 18599,
+      "missing": 1217,
+      "bytes": 2171728,
+      "sha256": "081e6d2c4e7d25e71c1b7f2fc86bf03ebf1e36e5f3d017c793a69b3170d054d5"
+    },
+    "7": {
+      "accepted": 29870,
+      "existing": 7059,
+      "added": 21159,
+      "defined": 28218,
+      "missing": 1652,
+      "bytes": 3102093,
+      "sha256": "1404df551bb99b9d041060e0c931bf1d975740ecb7296650d4dda6f9f6ea3664"
+    }
+  }
+}

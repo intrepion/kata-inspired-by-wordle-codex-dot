@@ -1,0 +1,31 @@
+Selected English-language definitions from English Wiktionary contributors.
+Data: Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+Each displayed definition links its English source article; article histories
+credit contributors. No exact per-entry revision is supplied by the extract.
+
+Raw extract by Wiktextract, distributed by Kaikki:
+https://kaikki.org/dictionary/rawdata.html
+https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz
+Dump date: 2026-10-01. Downloaded 2026-10-29, Last-Modified 2026-10-25.
+Compressed bytes: 3,082,185,963. SHA256:
+784574cc577d333bbf9e659be38efa27e75e9bfc0a2a8c7ab2371bb5fec29b2d
+This is a different raw artifact from the earlier Spanish-translation input.
+
+Modified selection: lowercase English-language headwords in the existing accepted
+4–7-letter vocabulary, filling only gaps in the separate Simple English selection.
+Up to four POS entries and four senses per entry, up to 1,800 characters per sense.
+Supplied sense tags and raw usage labels are preserved. No generated meanings or
+inflections; source grammatical form references are retained as such. Quotations,
+examples, media, translations and other fields are omitted. Display strips markup.
+Selected senses are incomplete and can include labelled rare, regional or historical
+uses; presence here does not change answer eligibility or certify Mexican usage.
+
+Reproduce: scripts/export-definition-vocabulary.mjs and
+scripts/import-english-definitions.py; input/output hashes, sizes, selection policy
+and coverage: src/data/definitions/english-source.json. Original Simple English
+records remain unchanged and retain their separate attribution and notice.
+
+Modified dictionary data remains CC BY-SA 4.0, separately from application code.
+No endorsement by Wiktionary, Wikimedia, Kaikki or Wiktextract is implied.

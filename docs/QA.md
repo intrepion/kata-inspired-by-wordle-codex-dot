@@ -1,3 +1,13 @@
+## 2026-10-29 — English definition gap fill
+
+- Fail-first public-client regression: ABACA was empty; now ABACA/ABALONE/XYLEM/ZYMURGY have source-backed English meanings offline. ABACAS keeps its plural label and BROIDER its archaic label. Existing Simple English hashes remain exact.
+- 284/284 unit tests, TypeScript, root production build and Pages subpath build pass. Existing Vite large-chunk warnings remain; new gap chunks are lazy, about 174–704 kB gzip per length.
+- Exact SHA-pinned raw import reproduced all four output files and the manifest with `--check`; original Simple English import also reproduces unchanged.
+- Exhaustive default-client lookup of all 65,843 accepted English words (global fetch disabled): 61,910 defined; 10,882/10,887 possible answers covered. No word lists, scoring, saves, settings or epochs changed.
+- Isolated desktop 1280px/mobile 390px QA on actual preview5298: new 4–7-letter definitions, attribution, submitted-word reload persistence and layout pass; screenshots visually inspected. External requests blocked and counted: zero.
+- Isolated desktop/mobile Pages-path QA: Daily/Practice/Absurd, English/Spanish, all4lengths, Easy advice, restored drafts, missing static chunk/recovery pass. Zero external requests; no page errors or horizontal overflow.
+- Verified locally before separately authorized publication. Bulk input stays outside repo; existing source/recovery workspaces and service5298 preserved. No Spanish translation expansion.
+
 # Optional extended play verification (2026-10-27, local)
 
 282 tests, type checking and root/Pages production builds pass. Seven new public

@@ -169,7 +169,7 @@ Generated translation audits are local outputs, prepared automatically before te
 
 ## Local-first meanings
 
-Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. English has 17,676 words with selected Simple English Wiktionary senses (partial coverage), split into four static length chunks totalling 2.85 MB of JSON. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
+Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. English has 61,910 of 65,843 accepted words with selected bundled definitions: the original 17,676 Simple English Wiktionary entries plus 44,234 English Wiktionary gap entries. Definitions load by length, totalling 10.08 MB of JSON (about 2.34 MB gzip); 3,933 words remain unavailable. Usage labels and grammatical form references are retained; not every sense is included. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
 
 ## Starting puzzles and viewing statistics
 

@@ -1,3 +1,12 @@
+## 2026-10-29 — Shared shuffled Daily schedule
+
+- Fail-first alphabetical traversal and legacy-save rebinding regressions are green. Seven new schedule tests cover all eight language/length cycles: membership/uniqueness, stable repeats, no cycle-boundary duplicate, frozen whole-cycle hashes, every pre-activation 2026 date, UTC offsets, zero-guess exposure, known-rule reconstruction, completed results and midnight continuations.
+- 291/291 tests, TypeScript, root build and Pages-path build pass. npm audit reports zero vulnerabilities. Existing Vite large-chunk warnings remain unchanged.
+- Isolated desktop 1280px/mobile 390px Pages-path and actual port 5298 checks simulate activation: eight new notebooks agree across independent contexts; Start, guesses, reload, layout and zero external requests pass. Original sixth-miss continuation survives activation, completes once against its original answer, then opens the shuffled current date.
+- Cached old-client saves after activation migrate to an explicit Legacy daily schedule warning/share label; Give Up/reload records exactly one result. Pre-rename fixture contents remain unchanged with only additive schedule metadata on round-trip. Existing Pages gameplay/Easy worker/Absurd 2103→412/storage-isolation checks pass.
+- No word-pool, Practice/Absurd selection, reset epoch, source license or meaning data changed. Saved difficulty/assistance and results are retained. Preview 5298 preserved. Publication was separately authorized after these local checks.
+- Proposed activation 2026-11-01 00:00 UTC requires publication beforehand; otherwise advance the date and rerun affected checks. See ADR0034 for cached-client/mixed-version limitations and the new-cycle transition.
+
 ## 2026-10-29 — English definition gap fill
 
 - Fail-first public-client regression: ABACA was empty; now ABACA/ABALONE/XYLEM/ZYMURGY have source-backed English meanings offline. ABACAS keeps its plural label and BROIDER its archaic label. Existing Simple English hashes remain exact.
@@ -114,7 +123,7 @@ Independent Spec/Standards review reproduced the source snapshot and full notice
 
 Use optional PLAYWRIGHT_MODULE (module entry), BROWSER_EXECUTABLE, BASE_URL (default5298) and SCREENSHOT_DIR. These are separate QA tools, not runtime dependencies.
 
-- `node scripts/check-evil-replay.mjs`: desktop1280/mobile390, current curated initial/remaining counts, exact reported trajectory, each row feedback after reload, both rejected retired endings, current sixth-turn outcomes/shares, Easy/Suboptimal counts, full-pool deterministic win/reload. Inspect actual tile feedback, not an empty selector.
+- `node scripts/check-evil-replay.mjs`: desktop 1280px/mobile 390px, current curated initial/remaining counts, exact reported trajectory, each row feedback after reload, both rejected retired endings, current sixth-turn outcomes/shares, Easy/Suboptimal counts, full-pool deterministic win/reload. Inspect actual tile feedback, not an empty selector.
 - `node --import tsx scripts/check-inline-definitions.mjs`: synthetic external dictionary fixtures, not production definitions. Desktop/mobile every submitted/restored guess, all six rows, current advice lists in every mode, revealed answer dedupe, hidden-word exclusion, safe text, missing/offline/timeout, bounded requests/cache/cancellation, native expansion/focus/keyboard and unchanged game saves. Live one-word WiktionaryHTTP200 was separately verified; coverage remains incomplete.
 - Working-copy .local/qa-first-use.mjs: old-schema and current-schema/retired-dataset resets, unrelated origin storage preservation, allNormal/Suboptimaloff defaults, and newly saved game/results/preferences persisting after multiple reloads.
 - Working-copy .local/qa-absurd-difficulties.mjs: all four adaptive difficulties, independent ordinary preferences, actual-clue restrictions, Easy advice, assistance/shares, switching/reload and cancellation.
@@ -152,7 +161,7 @@ Filtered2103×11193 full-pool sample: Optimal1313ms, Suboptimal1363ms, typing5ms
 
 `npm run build:pages` then `node --import tsx scripts/check-pages.mjs` serves the artifact only beneath `/kata-inspired-by-wordle-codex-dot/` on an ephemeral loopback port. Set `BASE_URL` to the deployed project URL to exercise the actual public site instead. Optional `PLAYWRIGHT_MODULE` and `BROWSER_EXECUTABLE` select an installed isolated headless runtime. No existing browser session is attached. The checks use live Wiktionary responses, so its availability is a prerequisite for the definition assertions.
 
-Desktop1280 and mobile390 verify initial play, guess meanings, draft/reload/home navigation, Absurd2103→412, five Easy openers and subpath module worker, notices, layout, no asset failures, repository notebook isolation and scoped erase. Foreign root/sibling keys are seeded only in disposable profiles. Unit regression covers root versus project save keys.
+Desktop1280 and mobile390 verify initial play, guess meanings, draft/reload/home navigation, Absurd 2103→412, five Easy openers and subpath module worker, notices, layout, no asset failures, repository notebook isolation and scoped erase. Foreign root/sibling keys are seeded only in disposable profiles. Unit regression covers root versus project save keys.
 
 ## Selectable lengths
 
@@ -162,7 +171,7 @@ Checks include legacy five-letter draft/guesses, all three variants at4/6/7, inl
 
 ## English / Spanish (Mexico) starter
 
-`node --import tsx scripts/check-language.mjs` runs isolated desktop1280/mobile390 on local5298. Optional `BASE_URL` points at a test subpath build, and `PLAYWRIGHT_MODULE`/`BROWSER_EXECUTABLE` select an installed headless runtime. Remote responses are explicit synthetic fixtures, including a delayed/cancelled word and missing Spanish entry; starter teaching data is the real bundled snapshot. Screenshots default to `/tmp/morrowmark-spanish`.
+`node --import tsx scripts/check-language.mjs` runs isolated desktop 1280px/mobile 390px on local5298. Optional `BASE_URL` points at a test subpath build, and `PLAYWRIGHT_MODULE`/`BROWSER_EXECUTABLE` select an installed headless runtime. Remote responses are explicit synthetic fixtures, including a delayed/cancelled word and missing Spanish entry; starter teaching data is the real bundled snapshot. Screenshots default to `/tmp/morrowmark-spanish`.
 
 It verifies English default and saved draft preservation, Spanish4–7 Daily/Practice/Absurd, all difficulty selections, accents/Ñ keyboard, translation→Spanish example→English rendering→definition order, correct #Spanish source links and language markup, reload/home, candidate counts, five advice slots, rapid language switching/worker isolation, delayed/missing/offline states, visible-word-only requests and terminal reveal/share labels. Source/learning offline reproduction, exact Unicode duplicate feedback, independent bucket counts, context-separated statistics and old English compatibility are covered at public unit seams. Existing English five-letter and selectable-length browser checks remain required. No existing Chrome session is used.
 

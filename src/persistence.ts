@@ -1,3 +1,4 @@
+import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
 import {readNotebookStats,recordCompletion,type NotebookStats} from './notebook-statistics.ts';
 import {validLetters,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
@@ -5,12 +6,12 @@ import {vocabulary,answerDataset,PREVIOUS_ANSWER_DATASET} from './words.ts';
 import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, awaitingContinuation, validDate, type Run,type Difficulty} from './domain.ts';
 export const SAVE_KEY='morrowmark.v1';
 export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
-export interface Save {
- version:3; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'; impossible:ImpossibleRun;
+export interface Save extends DailyScheduleContext {
+ version:3; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'; impossible:ImpossibleRun;
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
 }
 export function emptySave(date:string,mode:boolean|Difficulty=false,length=5,language:Language='en'):Save {
- return {version:3,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(language==='en'&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
+ return {version:3,dailyScheduleVersion:DAILY_SCHEDULE_VERSION,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(language==='en'&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
 }
 function object(value:unknown):value is Record<string,unknown> {return typeof value==='object' && value!==null && !Array.isArray(value)}
 function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'?value:'daily'}
@@ -36,7 +37,7 @@ function validatedRun(value:unknown, answer:string,language:Language='en'):Run|n
 export function dailyPuzzleDate(save:Pick<Save,'date'|'dailyDate'>):string {return save.dailyDate??save.date}
 export function recordDaily(save:Save,date:string,run:Run):void {
  if('variant' in run&&run.variant==='impossible')return;
- if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===dailyAnswer(date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
+ if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===notebookDailyAnswer(save,date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
 }
 export function decode(raw:string|null,today:string,length=5,language:Language='en'):Save {
  const {answers:ANSWERS}=vocabulary(length,language);const save=emptySave(today,false,length,language); if(!raw)return save;
@@ -46,16 +47,27 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   if((value.language!==undefined&&value.language!==language)||(language==='es-MX'&&value.language!=='es-MX'))return save;
   const replacedGuide=(language==='en'&&length===5&&value.dataset===PREVIOUS_ANSWER_DATASET)||(language==='es-MX'&&(value.dataset===`es-MX-rla2.9-starter-${length}-v1`||value.dataset===`es-MX-rla2.9-common-${length}-v2`));
   if(value.dataset!==answerDataset(length,language)&&!replacedGuide)return save;
+  if(value.dailyScheduleVersion!==undefined&&value.dailyScheduleVersion!==DAILY_SCHEDULE_VERSION)return save;
+  const schedules:NonNullable<Save['dailySchedules']>={};
+  if(object(value.dailySchedules))for(const [date,kind] of Object.entries(value.dailySchedules))if(validDate(date)&&date>=DAILY_SHUFFLE_START&&date<=today&&kind===LEGACY_DAILY_SCHEDULE)schedules[date]=kind;
+  if(value.dailyScheduleVersion===undefined){
+   // A pre-shuffle client can remain cached after activation. Preserve its dated rounds,
+   // including a started zero-guess round, using the known old rule, never its raw answer.
+   const dates=new Set([...Object.keys(object(value.results)?value.results:{}),...Object.keys(object(value.history)?value.history:{})]);
+   if(object(value.daily))dates.add(validDate(value.dailyDate)?value.dailyDate:String(value.date));
+   for(const date of dates)if(validDate(date)&&date>=DAILY_SHUFFLE_START&&date<=today)schedules[date]=LEGACY_DAILY_SCHEDULE;
+  }
+  if(Object.keys(schedules).length)save.dailySchedules=schedules;
   save.settings.hardMode=object(value.settings)&&(value.settings.hardMode===true||value.settings.difficulty==='hard');
   if(object(value.settings)&&(value.settings.easyMode===true||value.settings.difficulty==='easy')){save.settings.easyMode=true;save.settings.hardMode=false;}
   if(object(value.settings)&&value.settings.suboptimal===true)save.settings.suboptimal=true;
   if(object(value.settings)&&(value.settings.strictMode===true||value.settings.difficulty==='strict')){save.settings.strictMode=true;save.settings.hardMode=false;delete save.settings.easyMode;}
-  save.daily=newRun(dailyAnswer(today,length,language),difficulty(save.settings),language);
+  save.daily=newRun(notebookDailyAnswer(save,today,length,language),difficulty(save.settings),language);
   save.practice=newRun(language==='en'&&length===5?'APPLE':ANSWERS[0],difficulty(save.settings),language);
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
   if(replacedGuide){
    // Read only preferences from the known previous guide, never its clues, answers or outcomes.
-   save.daily=newRun(dailyAnswer(today,length,language),validDate(value.date)&&value.date===today&&object(value.daily)?storedDifficulty(value.daily):difficulty(save.settings),language);
+   save.daily=newRun(notebookDailyAnswer(save,today,length,language),validDate(value.date)&&value.date===today&&object(value.daily)?storedDifficulty(value.daily):difficulty(save.settings),language);
    save.practice=newRun(language==='en'&&length===5?'APPLE':ANSWERS[0],object(value.practice)?storedDifficulty(value.practice):difficulty(save.settings),language);
    const adaptive=object(value.impossible)?value.impossible:object(value.absurd)?value.absurd:object(value.evil)?value.evil:null;
    save.impossible=newImpossible(adaptive?storedDifficulty(adaptive):'normal',length,language);save.mode=storedMode(value.mode);
@@ -67,12 +79,12 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   }
   if(object(value.results)) for(const [date,guesses] of Object.entries(value.results)){
    if(!validDate(date)||date>today)continue;
-   const run=validatedRun({guesses,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{continuation:'unlimited'}:save.history[date]?.gaveUp&&Array.isArray(guesses)&&guesses.length===6?{continuation:'pending'}:{})},dailyAnswer(date,length,language),language);
+   const run=validatedRun({guesses,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{continuation:'unlimited'}:save.history[date]?.gaveUp&&Array.isArray(guesses)&&guesses.length===6?{continuation:'pending'}:{})},notebookDailyAnswer(save,date,length,language),language);
    if(run && status(run)!=='playing')recordDaily(save,date,run);
   }
   const roundDate=validDate(value.dailyDate)&&value.dailyDate<=today?value.dailyDate:value.date;
   if(validDate(roundDate)&&roundDate<=today){
-   const run=validatedRun(value.daily,dailyAnswer(roundDate,length,language),language);
+   const run=validatedRun(value.daily,notebookDailyAnswer(save,roundDate,length,language),language);
    if(run){recordDaily(save,roundDate,run);recordCompletion(save,'daily',roundDate,run);
     if(roundDate===today){save.daily=run}
     else if(status(run)==='playing'&&run.continuation&&!save.results[roundDate]){save.daily=run;save.dailyDate=roundDate}
@@ -83,7 +95,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   if(save.results[activeDate]){
    const guesses=save.results[activeDate];
    const matching=save.daily.guesses.length===guesses.length&&save.daily.guesses.every((guess,i)=>guess===guesses[i]);
-   save.daily={...newRun(dailyAnswer(activeDate,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
+   save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
   }
   if(object(value.practice)&&typeof value.practice.answer==='string'&&ANSWERS.includes(value.practice.answer)){
    save.practice=validatedRun(value.practice,value.practice.answer,language)??save.practice;
@@ -97,7 +109,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
  }catch{return save}
 }
 export function statistics(results:Record<string,string[]>,today:string,history:Record<string,HistoricalResult>={},length=5,language:Language='en'){
- const outcomes={...history};for(const [date,guesses] of Object.entries(results))outcomes[date]={won:guesses.includes(dailyAnswer(date,length,language)),turns:guesses.length};
+ const outcomes={...history};for(const [date,guesses] of Object.entries(results))if(!outcomes[date])outcomes[date]={won:guesses.includes(dailyAnswer(date,length,language)),turns:guesses.length};
  const dates=Object.keys(outcomes).filter(date=>date<=today).sort();
  const histogram=[0,0,0,0,0,0];let wins=0,best=0,chain=0,last='';
  for(const date of dates){

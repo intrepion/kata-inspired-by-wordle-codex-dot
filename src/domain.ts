@@ -1,3 +1,4 @@
+import {scheduledDailyAnswer} from './daily-schedule.ts';
 import {normalizeGuess,validLetters,type Language} from './language.ts';
 export type Clue = 'absent' | 'elsewhere' | 'exact';
 export function score(answer:string, guess:string):Clue[] {
@@ -22,7 +23,7 @@ export function validDate(value:unknown):value is string {
  return typeof value==='string' && /^20\d{2}-\d{2}-\d{2}$/.test(value) && Number.isFinite(Date.parse(value)) && dateKey(new Date(value))===value;
 }
 export function dayIndex(date:string):number {return Math.floor((Date.parse(date)-Date.parse('2026-01-01'))/DAY)}
-export function dailyAnswer(date:string,length=5,language:Language='en'):string {const ANSWERS=vocabulary(length,language).answers;const n=dayIndex(date);return ANSWERS[((n%ANSWERS.length)+ANSWERS.length)%ANSWERS.length]}
+export function dailyAnswer(date:string,length=5,language:Language='en'):string {return scheduledDailyAnswer(date,length,language)}
 export type Difficulty='easy'|'normal'|'hard'|'strict';
 export function difficulty(run:Pick<Run,'hardMode'|'strictMode'|'easyMode'>):Difficulty {return run.strictMode?'strict':run.hardMode?'hard':run.easyMode?'easy':'normal'}
 export function newRun(answer:string,mode:boolean|Difficulty=false,language:Language='en'):Run {

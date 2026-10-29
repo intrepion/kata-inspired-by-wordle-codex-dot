@@ -1,4 +1,5 @@
-import {DAY,dailyAnswer,difficulty,status,validDate,type Difficulty,type Run} from './domain.ts';
+import {notebookDailyAnswer} from './daily-schedule.ts';
+import {DAY,difficulty,status,validDate,type Difficulty,type Run} from './domain.ts';
 import {isImpossible,impossibleStatus} from './impossible.ts';
 import type {Save} from './persistence.ts';
 export type StatsMode='daily'|'practice'|'impossible';
@@ -35,7 +36,7 @@ export function readNotebookStats(raw:unknown,today:string):NotebookStats|undefi
 export function initializeNotebookStats(save:Save,fresh=false):boolean {
  if(save.notebookStats)return false;
  const data:NotebookStats={version:1,nextId:3,nextOrder:1,active:{daily:'daily:'+(save.dailyDate??save.date),practice:'practice:1',impossible:'impossible:2'},records:{},exposure:{daily:fresh?null:'legacy',practice:fresh?null:'legacy',impossible:fresh?null:'legacy'}};save.notebookStats=data;
- const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.includes(dailyAnswer(date,save.daily.answer.length,save.language)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
+ const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.includes(notebookDailyAnswer(save,date,save.daily.answer.length,save.language)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
  if(terminal(save.daily)!=='playing')previous[(save.dailyDate??save.date)]={won:terminal(save.daily)==='won',turns:save.daily.guesses.length,...(save.daily.gaveUp?{gaveUp:true}:{}),...(save.daily.continuation==='unlimited'?{extended:true}:{})};
  for(const date of Object.keys(previous).sort())if(validDate(date)&&date<=save.date){const value=previous[date];data.records['daily:'+date]={mode:'daily',date,difficulty:'legacy',assisted:null,won:value.won,turns:value.turns,order:data.nextOrder++,...(value.gaveUp?{gaveUp:true}:{}),...(value.extended?{extended:true}:{})}}
  if(save.daily.assisted===true&&data.records['daily:'+(save.dailyDate??save.date)])data.records['daily:'+(save.dailyDate??save.date)].assisted=true;
@@ -68,7 +69,7 @@ export function observeStatsDifficulty(save:Save,mode:StatsMode,selected:Difficu
 export function recordCompletion(save:Save,mode:StatsMode,date=mode==='daily'?(save.dailyDate??save.date):save.date,run:Run=save[mode]):boolean {
  const data=save.notebookStats;if(!data||terminal(run)==='playing'||!validDate(date))return false;
  if((run.language??'en')!==(save.language??'en')||run.answer.length!==save.daily.answer.length||(mode==='impossible')!==isImpossible(run))return false;
- if(mode==='daily'&&run.answer!==dailyAnswer(date,run.answer.length,run.language))return false;
+ if(mode==='daily'&&run.answer!==notebookDailyAnswer(save,date,run.answer.length,run.language))return false;
  const id=mode==='daily'?'daily:'+date:data.active[mode];if(!id||data.records[id])return false;
  data.records[id]={mode,date,difficulty:data.exposure[mode]??'legacy',assisted:run.assisted===true||data.exposure[mode]==='easy'?true:data.exposure[mode]==='legacy'||data.exposure[mode]===null?null:false,won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};return true;
 }

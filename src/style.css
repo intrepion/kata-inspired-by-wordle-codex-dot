@@ -40,3 +40,4 @@
 #smash-panel .board{max-width:100%;overflow-x:auto}#smash-panel .board-row{min-width:calc(var(--word-length) * 29px)}
 .letroso-board{width:100%;gap:8px}.letroso-row{grid-template-columns:repeat(var(--word-length),minmax(0,1fr));gap:2px;width:min(calc(var(--word-length) * 50px),100%)}.letroso-row .tile{min-width:0;height:45px}.letroso-row .tile b{font-size:clamp(14px,3.5vw,24px)}.letroso-row .tile.letroso-joined{margin-left:-3px;border-left:0}.letroso-row .tile.letroso-start{border-top-left-radius:22px;border-bottom-left-radius:22px}.letroso-row .tile.letroso-end{border-top-right-radius:22px;border-bottom-right-radius:22px}#letroso-entry{max-width:100%;padding:10px;border:1px solid var(--line);text-transform:uppercase;font:inherit}#letroso-panel>button{margin:8px}
 .legend[hidden]{display:none}
+.active .tile.invalid-draft{color:#ad241f;border-color:#ad241f;box-shadow:inset 0 0 0 1px #ad241f}

@@ -193,3 +193,13 @@ See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manife
 ### One possibility
 
 The first fieldnote is a generated, prefilled clue with exactly one matching answer in the selected language and length’s answer list. Other accepted words can also match. English and Mexican Spanish at 4–7 letters are supported; normal dictionary validation, color feedback, difficulty, definitions, translations, saved notebooks and optional continuation apply. Five guesses follow the given clue in the six-fieldnote challenge. If the bounded clue search finds no unique candidate, the mode reports that and does not start. This is an independent game inspired by [NYT Wordle in 1](https://thenewyorktimeshelpcenter.helpjuice.com/bonus-puzzles), not the NYT’s puzzles or dictionary.
+
+### Rules and schedule
+
+Choose **Conquest**, **Absurd**, or **One possibility** independently from **Daily** or **Practice**. Existing Daily and Practice notebooks retain their storage and progress; the former Absurd and One possibility notebooks become their Practice rounds. New daily variants have separate UTC-date, language and word-length notebooks.
+
+- **Conquest Daily** is the existing shared UTC word; **Conquest Practice** remains replayable.
+- **Absurd Practice** is the existing adaptive game. **Absurd Daily** shows a target word. It uses the same largest-bucket and tie rules; if the target leaves the surviving pool, the daily round is lost. Each target is constructed by replaying legal surviving-candidate guesses until a singleton is reached, proving it can be forced. A witness may take more than six guesses, so the existing optional unlimited continuation can be necessary. The target is shared for the date, language, length and answer dataset, and changes at midnight UTC.
+- **One possibility Practice** remains a replayable unique-clue round. **One possibility Daily** is a deterministic mix of five distinct answers per UTC date, language, length and answer dataset. Round buttons resume each independently saved puzzle without exposing the other answers. A given clue uniquely identifies one word in that selected answer list; other accepted words may fit. In the six-fieldnote challenge the given clue occupies the first row; optional continuation remains available.
+
+New daily variant statistics are scoped to the selected date and round, not an all-time or cross-round streak. Their older date-scoped data remains in this browser but the UI opens the current UTC day. If a future dictionary has insufficient verified clues or a target cannot be proven reachable, the daily variant reports unavailability rather than offering an invalid puzzle. Daily data is deterministic for a given bundled dictionary version, not synchronized between devices.

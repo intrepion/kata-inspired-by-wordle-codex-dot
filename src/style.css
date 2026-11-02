@@ -33,3 +33,4 @@
 .give-up-choices{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0}.give-up-choices button,#cancel-give-up,#confirm-give-up{min-height:44px;padding:10px 14px}#confirm-give-up{border-radius:5px}#give-up:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 
 .mode-select{display:flex;align-items:center;gap:10px;font-size:12px}.mode-select select{max-width:100%;padding:8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);font:inherit}
+.daily-rounds{display:flex;gap:.5rem;margin:1rem 0}.daily-rounds button{min-width:2.4rem;padding:.5rem}.daily-rounds button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}

@@ -5,7 +5,7 @@ import type {Save} from './persistence.ts';
 export type StatsMode='daily'|'practice'|'impossible'|'one';
 export type StatsDifficulty=Difficulty|'legacy';
 export type AssistanceFilter='all'|'assisted'|'unassisted'|'unknown';
-export interface Completion {mode:StatsMode;date:string|null;difficulty:StatsDifficulty;assisted:boolean|null;won:boolean;turns:number;order:number;gaveUp?:boolean;extended?:boolean}
+export interface Completion {mode:StatsMode;date:string|null;difficulty:StatsDifficulty;assisted:boolean|null;won:boolean;turns:number;order:number;gaveUp?:boolean;extended?:boolean;targetMiss?:boolean}
 export interface NotebookStats {version:1;nextId:number;nextOrder:number;active:Record<StatsMode,string>;records:Record<string,Completion>;exposure:Record<StatsMode,StatsDifficulty|null>;setupPending?:Partial<Record<StatsMode,boolean>>}
 const levels=['easy','normal','hard','strict','legacy'];
 const modes:StatsMode[]=['daily','practice','impossible','one'];
@@ -18,12 +18,13 @@ export function readNotebookStats(raw:unknown,today:string):NotebookStats|undefi
  if(!object(raw)||raw.version!==1||!object(raw.records)||!object(raw.active))return;
  const records:Record<string,Completion>={};let maxId=0,maxOrder=0;
  for(const [id,v] of Object.entries(raw.records)){
-  if(!object(v)||!modes.includes(v.mode as StatsMode)||!validId(id,v.mode as StatsMode)||!levels.includes(v.difficulty as string)||typeof v.won!=='boolean'||!Number.isSafeInteger(v.turns)||Number(v.turns)<0||Number(v.turns)>6&&v.extended!==true||(v.gaveUp===true?v.won:(Number(v.turns)<1||!v.won&&(v.turns!==6||v.extended===true)))||!positive(v.order))continue;
+  if(!object(v)||!modes.includes(v.mode as StatsMode)||!validId(id,v.mode as StatsMode)||!levels.includes(v.difficulty as string)||typeof v.won!=='boolean'||!Number.isSafeInteger(v.turns)||Number(v.turns)<0||Number(v.turns)>6&&v.extended!==true||(v.gaveUp===true||v.targetMiss===true?v.won:(Number(v.turns)<1||!v.won&&(v.turns!==6||v.extended===true)))||!positive(v.order))continue;
+  if(v.targetMiss===true&&v.mode!=='impossible')continue;
   if(v.assisted!==null&&typeof v.assisted!=='boolean')continue;
   if(v.date!==null&&(!validDate(v.date)||v.date>today))continue;
   if(v.mode==='daily'&&(v.date===null||id!=='daily:'+v.date))continue;
   if(v.date===null&&v.difficulty!=='legacy')continue;
-  records[id]={mode:v.mode as StatsMode,date:v.date as string|null,difficulty:v.difficulty as StatsDifficulty,assisted:v.assisted as boolean|null,won:v.won,turns:Number(v.turns),order:v.order,...(v.gaveUp===true?{gaveUp:true}:{}),...(v.extended===true?{extended:true}:{})};
+  records[id]={mode:v.mode as StatsMode,date:v.date as string|null,difficulty:v.difficulty as StatsDifficulty,assisted:v.assisted as boolean|null,won:v.won,turns:Number(v.turns),order:v.order,...(v.gaveUp===true?{gaveUp:true}:{}),...(v.targetMiss===true?{targetMiss:true}:{}),...(v.extended===true?{extended:true}:{})};
   maxOrder=Math.max(maxOrder,v.order);if(v.mode!=='daily')maxId=Math.max(maxId,Number(id.split(':')[1]));
  }
  const active={} as Record<StatsMode,string>;
@@ -71,7 +72,7 @@ export function recordCompletion(save:Save,mode:StatsMode,date=mode==='daily'?(s
  if((run.language??'en')!==(save.language??'en')||run.answer.length!==save.daily.answer.length||(mode==='impossible')!==isImpossible(run))return false;
  if(mode==='daily'&&run.answer!==notebookDailyAnswer(save,date,run.answer.length,run.language))return false;
  const id=mode==='daily'?'daily:'+date:data.active[mode];if(!id||data.records[id])return false;
- data.records[id]={mode,date,difficulty:data.exposure[mode]??'legacy',assisted:run.assisted===true||data.exposure[mode]==='easy'?true:data.exposure[mode]==='legacy'||data.exposure[mode]===null?null:false,won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};return true;
+ data.records[id]={mode,date,difficulty:data.exposure[mode]??'legacy',assisted:run.assisted===true||data.exposure[mode]==='easy'?true:data.exposure[mode]==='legacy'||data.exposure[mode]===null?null:false,won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(isImpossible(run)&&run.target&&!run.candidates.includes(run.target)?{targetMiss:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};return true;
 }
 /** Call before saving; restoration also settles interrupted terminal saves idempotently. */
 export function settleNotebookStats(save:Save):void {

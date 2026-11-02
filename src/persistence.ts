@@ -40,7 +40,7 @@ export function recordDaily(save:Save,date:string,run:Run):void {
  if('variant' in run&&run.variant==='impossible')return;
  if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===notebookDailyAnswer(save,date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
 }
-export function decode(raw:string|null,today:string,length=5,language:Language='en'):Save {
+export function decode(raw:string|null,today:string,length=5,language:Language='en',target?:string):Save {
  const {answers:ANSWERS}=vocabulary(length,language);const save=emptySave(today,false,length,language); if(!raw)return save;
  try{
   const value:unknown=JSON.parse(raw);
@@ -102,7 +102,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
    save.practice=validatedRun(value.practice,value.practice.answer,language)??save.practice;
   }
   const adaptive=restoreImpossible(value.impossible)??restoreImpossible(value.absurd)??restoreImpossible(value.evil);
-  save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible('normal',length,language);
+  save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible('normal',length,language);if(target)save.impossible.target=target;
   recordCompletion(save,'daily',dailyPuzzleDate(save));recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
   if(object(value.one)&&typeof value.one.answer==='string'&&ANSWERS.includes(value.one.answer)){const one=validatedRun(value.one,value.one.answer,language);if(one&&one.guesses.length&&validUniqueClue(one.answer,one.guesses[0],ANSWERS))save.one=one;}
   recordCompletion(save,'one',today);
@@ -128,9 +128,9 @@ export function statistics(results:Record<string,string[]>,today:string,history:
 }
 
 /** Read external state before an action; a failing storage boundary must not freeze the UTC date. */
-export function synchronize(previous:Save,today:string,read:()=>string|null,length=previous.daily.answer.length,language:Language=previous.language??'en'):{save:Save;available:boolean}{
- try{return {save:decode(read(),today,length,language),available:true};}
- catch{return {save:decode(encode(previous),today,length,language),available:false};}
+export function synchronize(previous:Save,today:string,read:()=>string|null,length=previous.daily.answer.length,language:Language=previous.language??'en',target?:string):{save:Save;available:boolean}{
+ try{return {save:decode(read(),today,length,language,target),available:true};}
+ catch{return {save:decode(encode(previous),today,length,language,target),available:false};}
 }
 
 /** Persist adaptive guesses only; candidates, feedback and the representative are reconstructed. */

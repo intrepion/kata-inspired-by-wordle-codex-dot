@@ -2,7 +2,7 @@ import {isLanguage,validLetters,type Language} from './language.ts';
 import {vocabulary,absurdDataset,isWordLength} from './words.ts';
 import {newRun,score,submit,difficulty,awaitingContinuation,continueGuessing,setDifficulty,clueConstraintError,type Difficulty,type Run,type Clue,type Outcome} from './domain.ts';
 
-export interface ImpossibleRun extends Run {version:1;variant:'impossible';candidates:string[];feedback:Clue[][]}
+export interface ImpossibleRun extends Run {version:1;variant:'impossible';candidates:string[];feedback:Clue[][];target?:string}
 export interface ImpossibleSnapshot {version:2;dataset:string;guesses:string[];draft:string;difficulty?:Difficulty;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited';wordLength?:number;language?:Language}
 export function isImpossible(run:Run):run is ImpossibleRun {return 'variant' in run&&run.variant==='impossible'}
 const digit={absent:'0',elsewhere:'1',exact:'2'};
@@ -29,7 +29,7 @@ export function newImpossible(level:Difficulty='normal',length=5,language:Langua
  return {...newRun(candidates[0],level,language),version:1,variant:'impossible',candidates,feedback:[]};
 }
 export function impossibleStatus(run:ImpossibleRun):Outcome {
- return run.feedback.at(-1)?.every(clue=>clue==='exact')?'won':run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing';
+ return run.target&&!run.candidates.includes(run.target)?'lost':run.feedback.at(-1)?.every(clue=>clue==='exact')?(run.target&&run.answer!==run.target?'lost':'won'):run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing';
 }
 export function submitImpossible(run:ImpossibleRun,raw:string):{run:ImpossibleRun;error?:string} {
  if(impossibleStatus(run)!=='playing')return {run,error:'This fieldnote is complete.'};
@@ -40,7 +40,7 @@ export function submitImpossible(run:ImpossibleRun,raw:string):{run:ImpossibleRu
  const guess=checked.run.guesses.at(-1)!;
  const error=clueConstraintError(run,guess,run.feedback);if(error)return {run,error};
  const selected=largestBucket(run.candidates,guess);
- return {run:{...newRun(selected.candidates[0],difficulty(run),run.language),version:1,variant:'impossible',guesses:checked.run.guesses,candidates:selected.candidates,feedback:[...run.feedback,selected.feedback],...(run.assisted?{assisted:true}:{}),...(run.continuation==='unlimited'?{continuation:'unlimited' as const}:checked.run.guesses.length===6&&!selected.feedback.every(clue=>clue==='exact')?{continuation:'pending' as const}:{})}};
+ return {run:{...newRun(selected.candidates[0],difficulty(run),run.language),version:1,variant:'impossible',...(run.target?{target:run.target}:{}),guesses:checked.run.guesses,candidates:selected.candidates,feedback:[...run.feedback,selected.feedback],...(run.assisted?{assisted:true}:{}),...(run.continuation==='unlimited'?{continuation:'unlimited' as const}:checked.run.guesses.length===6&&!selected.feedback.every(clue=>clue==='exact')?{continuation:'pending' as const}:{})}};
 }
 export function setImpossibleDifficulty(run:ImpossibleRun,selected:Difficulty):{run:ImpossibleRun;error?:string} {
  const result=setDifficulty(run,selected,impossibleStatus(run));

@@ -8,7 +8,7 @@ async function saved(p,length=5,language='en'){return p.evaluate(key=>JSON.parse
 try{for(const width of [1280,390]){
  const {c,p,external,errors}=await context(width,DAILY_SHUFFLE_START);await p.goto(base);
  for(const language of ['en','es-MX'])for(const length of [4,5,6,7]){
-  await p.locator('#language').selectOption(language);await p.locator('#word-length').selectOption(String(length));await p.locator('#mode-select').selectOption('daily');await startPuzzleIfNeeded(p,'normal');
+  await p.locator('#language').selectOption(language);await p.locator('#word-length').selectOption(String(length));await p.locator('#schedule-select').selectOption('daily');await p.locator('#mode-select').selectOption('conquest');await startPuzzleIfNeeded(p,'normal');
   const current=await saved(p,length,language);assert.equal(current.daily.answer,dailyAnswer(DAILY_SHUFFLE_START,length,language));assert.equal(current.dailyScheduleVersion,1);assert.match(await p.locator('#daily-schedule-info').innerText(),/shared shuffled order/);const key=language+length;if(observed.has(key))assert.equal(current.daily.answer,observed.get(key));else observed.set(key,current.daily.answer);
   const guess=vocabulary(length,language).answers.find(w=>w!==current.daily.answer);await p.locator('#puzzle-label').click();await p.keyboard.type(guess.toLowerCase());await p.keyboard.press('Enter');await p.waitForFunction(()=>/1\/6/.test(document.querySelector('#turn-label')?.textContent??''));await p.reload();const restored=await saved(p,length,language);assert.equal(restored.daily.answer,current.daily.answer);assert.deepEqual(restored.daily.guesses,[guess]);assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  }

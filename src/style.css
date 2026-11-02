@@ -38,6 +38,29 @@
 #smash-panel .tile.smash-seam{box-shadow:inset 0 -4px 0 var(--accent)}#smash-panel .tile.smash-seam.exact,#smash-panel .tile.smash-seam.elsewhere,#smash-panel .tile.smash-seam.absent{box-shadow:inset 0 -4px 0 #fff}
 .board[data-word-length="8"] .tile b,.board[data-word-length="9"] .tile b,.board[data-word-length="10"] .tile b,.board[data-word-length="11"] .tile b{font-size:clamp(14px,3.3vw,23px)}
 #smash-panel .board{max-width:100%;overflow-x:auto}#smash-panel .board-row{min-width:calc(var(--word-length) * 29px)}
-.letroso-board{width:100%;gap:8px}.letroso-row{grid-template-columns:repeat(var(--word-length),minmax(0,1fr));gap:2px;width:min(calc(var(--word-length) * 50px),100%)}.letroso-row .tile{min-width:0;height:45px}.letroso-row .tile b{font-size:clamp(14px,3.5vw,24px)}.letroso-row .tile.letroso-joined{margin-left:-3px;border-left:0}.letroso-row .tile.letroso-start{border-top-left-radius:22px;border-bottom-left-radius:22px}.letroso-row .tile.letroso-end{border-top-right-radius:22px;border-bottom-right-radius:22px}#letroso-entry{max-width:100%;padding:10px;border:1px solid var(--line);text-transform:uppercase;font:inherit}#letroso-panel>button{margin:8px}
+.letroso-board{width:100%;gap:8px}.letroso-row{grid-template-columns:repeat(var(--word-length),minmax(0,1fr));gap:7px;width:min(calc(var(--word-length) * 62px),100%)}.letroso-row .tile{min-width:0}.letroso-row .tile b{font-size:clamp(14px,3.5vw,26px)}.letroso-row .tile.letroso-joined{margin-left:-8px;border-left:0}.letroso-row .tile.letroso-start{border-top-left-radius:22px;border-bottom-left-radius:22px}.letroso-row .tile.letroso-end{border-top-right-radius:22px;border-bottom-right-radius:22px}#letroso-entry{max-width:100%;padding:10px;border:1px solid var(--line);text-transform:uppercase;font:inherit}#letroso-panel>button{margin:8px}
 .legend[hidden]{display:none}
 .active .tile.invalid-draft{color:#ad241f;border-color:#ad241f;box-shadow:inset 0 0 0 1px #ad241f}
+
+.word-length-setting[hidden],.stamp[hidden]{display:none}
+.theme-control{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted)}.theme-control select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:8px 4px}
+:root[data-theme=dark]{color-scheme:dark;color:#edf1eb;background:#171d1d;--paper:#171d1d;--ink:#edf1eb;--muted:#c0c9c3;--line:#5d6a64;--exact:#285c51;--elsewhere:#8f4817;--absent:#515850;--accent:#ffb3a1}
+:root[data-theme=dark] body{background:var(--paper)}
+:root[data-theme=dark] button:hover{background:#3e4b47}
+:root[data-theme=dark] .text-button:hover{background:transparent}
+:root[data-theme=dark] .edition,:root[data-theme=dark] dialog p{color:var(--muted)}
+:root[data-theme=dark] .tile{background:#293330;border-color:#77857d;color:var(--ink)}
+:root[data-theme=dark] .active .tile{background:#202925;border-color:#a1afa7}
+:root[data-theme=dark] .tile.filled{border-color:#c4d3c9;box-shadow:inset 0 0 0 1px #c4d3c9}
+:root[data-theme=dark] .tile.exact,:root[data-theme=dark] .key.exact{background:var(--exact);color:white}
+:root[data-theme=dark] .tile.elsewhere,:root[data-theme=dark] .key.elsewhere{background:var(--elsewhere);color:white}
+:root[data-theme=dark] .tile.absent,:root[data-theme=dark] .key.absent{background:var(--absent);color:white}
+:root[data-theme=dark] .key{background:#414d47;color:#fff;border-bottom-color:#75877c}
+:root[data-theme=dark] .key:hover{filter:brightness(1.2)}
+:root[data-theme=dark] .puzzle-setup,:root[data-theme=dark] textarea{background:#222c28;color:var(--ink)}
+:root[data-theme=dark] .primary:hover{background:#c6d7cb;color:#17201b}
+:root[data-theme=dark] .active .tile.invalid-draft{color:#ffb3a1;border-color:#ffb3a1;box-shadow:inset 0 0 0 1px #ffb3a1}
+.active .tile.invalid-draft b{text-decoration:underline wavy;text-underline-offset:3px;text-decoration-thickness:1px}
+@media(max-width:680px){.theme-control{font-size:10px;gap:3px}.theme-control select{padding:7px 2px}}
+:root[data-theme=dark] .message.finished{color:#a5e1c4}
+:root[data-theme=dark] .stamp{color:var(--accent);border-color:var(--accent);outline-color:var(--accent)}

@@ -36,3 +36,12 @@ test('practice is reproducible with an injected random source and avoids the pri
 test('an incompatible difficulty upgrade preserves existing guesses',async()=>{
  const {letrosoConstraint}=await import('../src/letroso.ts');let run=newLetroso('APPLE','en','normal');run=submitLetroso(run,'CRANE').run;const bad=[...vocabulary(5,'en').allowed].find(w=>w!=='APPLE'&&w!=='CRANE'&&letrosoConstraint(run,w,'strict'))!;assert.ok(bad);run=submitLetroso(run,bad).run;const result=changeLetrosoDifficulty(run,'strict');assert.ok(result.error);assert.equal(result.run,run);assert.equal(run.guesses.length,2);
 });
+
+test('hidden answer lengths cover 3–11 and daily answers are stable across preferences',async()=>{
+ const {dailyHiddenLetroso,practiceHiddenLetroso}=await import('../src/letroso.ts');
+ for(const language of ['en','es-MX'] as const){
+  for(let i=0;i<9;i++)assert.equal(practiceHiddenLetroso(language,'',()=>i/9+.001).length,i+3);
+  const lengths=new Set<number>();for(let day=1;day<=28;day++){const date=`2026-11-${String(day).padStart(2,'0')}`,answer=dailyHiddenLetroso(date,language);assert.equal(answer,dailyHiddenLetroso(date,language));lengths.add(answer.length)}
+  assert.ok(lengths.has(3)&&lengths.has(11));
+ }
+});

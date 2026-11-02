@@ -1,6 +1,6 @@
 import {validDate,type Difficulty} from './domain.ts';
 import {normalizeGuess,validLetters,type Language} from './language.ts';
-import {answerDataset,vocabulary} from './words.ts';
+import {answerDataset,vocabulary,WORD_LENGTHS} from './words.ts';
 
 /** One tile's ordered-subsequence clue. Joining is true only when both letters are neighbors in answer and guess. */
 export type OrderTile={letter:string;kind:'absent'|'present'|'ordered';joinPrevious:boolean;start:boolean;end:boolean};
@@ -30,6 +30,9 @@ export function orderFeedback(answer:string,guess:string):OrderTile[] {
 function hash(s:string){let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0}
 export function dailyLetroso(date:string,length:number,language:Language):string {if(!validDate(date))throw Error('Invalid date');const words=vocabulary(length,language).answers;if(!words.length)throw Error('No answers');return words[hash(`letroso-v1|${date}|${length}|${language}|${answerDataset(length,language)}`)%words.length]}
 export function practiceLetroso(length:number,language:Language,previous='',random=Math.random):string {const words=vocabulary(length,language).answers.filter(w=>w!==previous);if(!words.length)throw Error('No answers');return words[Math.min(words.length-1,Math.max(0,Math.floor(random()*words.length)))]}
+/** Length is chosen independently of the player's other mode preferences. */
+export function dailyHiddenLetroso(date:string,language:Language):string {if(!validDate(date))throw Error('Invalid date');const length=WORD_LENGTHS[hash(`letroso-hidden-v2|${date}|${language}`)%WORD_LENGTHS.length];return dailyLetroso(date,length,language)}
+export function practiceHiddenLetroso(language:Language,previous='',random=Math.random):string {const length=WORD_LENGTHS[Math.min(WORD_LENGTHS.length-1,Math.max(0,Math.floor(random()*WORD_LENGTHS.length)))];return practiceLetroso(length,language,previous,random)}
 export interface LetrosoRun {answer:string;language:Language;length:number;guesses:string[];draft:string;difficulty:Difficulty;easiest:Difficulty;assisted:boolean;gaveUp?:boolean;roundId?:string}
 export function newLetroso(answer:string,language:Language,difficulty:Difficulty):LetrosoRun {if(!vocabulary(answer.length,language).answers.includes(answer))throw Error('Invalid answer');return {answer,language,length:answer.length,guesses:[],draft:'',difficulty,easiest:difficulty,assisted:difficulty==='easy'}}
 export function letrosoStatus(run:LetrosoRun):'playing'|'won'|'lost' {return run.guesses.includes(run.answer)?'won':run.gaveUp?'lost':'playing'}
@@ -64,7 +67,7 @@ export function restoreLetroso(raw:unknown,language:Language,length:number,expec
 export function letrosoShare(run:LetrosoRun,date:string):string {const glyph={ordered:'🟩',present:'🟨',absent:'⬛'};return `Lexi Conquest · Letroso · ${date} UTC · ${run.length} letters\n${letrosoStatus(run)==='won'?run.guesses.length:'X'} guesses\n${run.guesses.map(g=>orderFeedback(run.answer,g).map(t=>`${t.joinPrevious?'─':''}${t.start?'(' : ''}${glyph[t.kind]}${t.end?')':''}`).join('')).join('\n')}`}
 /** Unranked candidates inferred solely from public clue rows; the search is bounded. */
 export function suggestLetroso(run:LetrosoRun,limit=5,budget=500):{words:string[];scanned:number;truncated:boolean}{
- const observations=run.guesses.map(guess=>signature(orderFeedback(run.answer,guess))),pool=vocabulary(run.length,run.language).answers,words:string[]=[];let scanned=0;
+ const observations=run.guesses.map(guess=>signature(orderFeedback(run.answer,guess))),pool=WORD_LENGTHS.flatMap(length=>vocabulary(length,run.language).answers),words:string[]=[];let scanned=0;
  for(const word of pool){if(scanned>=budget)return {words,scanned,truncated:true};scanned++;if(run.guesses.includes(word))continue;
   if(run.guesses.every((guess,i)=>signature(orderFeedback(word,guess))===observations[i]))words.push(word);
   if(words.length>=limit)return {words,scanned,truncated:scanned<pool.length};

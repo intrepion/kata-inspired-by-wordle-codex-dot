@@ -44,7 +44,7 @@ export function practiceSmashPair(length:number,language:Language,random=Math.ra
 export function scoreSmash(answer:SmashPair,guess:SmashPair):Clue[] {return score(answer.merged,guess.merged)}
 
 import {clueConstraintError,type Difficulty} from './domain.ts';
-export interface SmashRun {answer:SmashPair;guesses:string[];draft:string;language:Language;length:number;difficulty:Difficulty;roundId?:string;easiest?:Difficulty;assisted?:boolean;continuation?:'pending'|'unlimited';gaveUp?:boolean}
+export interface SmashRun {started?:boolean;answer:SmashPair;guesses:string[];draft:string;language:Language;length:number;difficulty:Difficulty;roundId?:string;easiest?:Difficulty;assisted?:boolean;continuation?:'pending'|'unlimited';gaveUp?:boolean}
 export function newSmashRun(answer:SmashPair,language:Language,difficulty:Difficulty='normal'):SmashRun {
  const length=answer.first.length,rebuilt=makeSmashPair(answer.first,answer.second);
  if(!rebuilt||rebuilt.merged!==answer.merged||!vocabulary(length,language).answers.includes(answer.first)||!vocabulary(length,language).answers.includes(answer.second))throw new Error('Invalid Smashare answer pair.');
@@ -84,8 +84,9 @@ export function restoreSmashRun(raw:unknown,language:Language,length:number,expe
   if(value.easiest!==undefined&&!['easy','normal','hard','strict'].includes(String(value.easiest)))return;
   if(value.assisted!==undefined&&typeof value.assisted!=='boolean')return;
   if(value.roundId!==undefined&&(typeof value.roundId!=='string'||value.roundId.length>100))return;
+  if(value.started!==undefined&&typeof value.started!=='boolean'||value.started===false&&(value.guesses.length>0||!!draft||value.gaveUp===true))return;
   if(value.easiest===undefined)delete run.easiest;if(value.assisted===undefined)delete run.assisted;
-  return {...run,draft,...(typeof value.roundId==='string'?{roundId:value.roundId}:{}),...(value.easiest?{easiest:value.easiest as Difficulty}:{}),...(value.assisted===true?{assisted:true}:{})};
+  return {...run,draft,...(value.started===false?{started:false}:{}),...(typeof value.roundId==='string'?{roundId:value.roundId}:{}),...(value.easiest?{easiest:value.easiest as Difficulty}:{}),...(value.assisted===true?{assisted:true}:{})};
  }catch{return}
 }
 

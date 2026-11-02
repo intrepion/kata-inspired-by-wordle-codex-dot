@@ -8,7 +8,7 @@ const browser=await chromium.launch({headless:true,executablePath:process.env.BR
 try{for(const width of [1280,390]){
  const c=await currentTestContext(browser,{viewport:{width,height:950}});const p=await c.newPage(),external=[],errors=[];
  await c.route('**/*',r=>{if(new URL(r.request().url()).origin!==new URL(base).origin){external.push(r.request().url());return r.abort()}return r.continue()});p.on('pageerror',e=>errors.push(e.message));
- await p.goto(base);await p.locator('#practice').click();
+ await p.goto(base);await p.locator('#mode-select').selectOption('practice');
  for(const [length,word,meaning] of [[4,'ADZE',/cut|tool|wood/i],[5,'ABACA',/banana|fibre|fiber|hemp/i],[6,'ACACIA',/tree|shrub|plant/i],[7,'ABALONE',/mollusc|mollusk|shellfish|gastropod/i]]){
   await p.locator('#word-length').selectOption(String(length));await startPuzzleIfNeeded(p,'normal');await p.locator('#puzzle-label').click();await p.keyboard.type(word.toLowerCase());await p.keyboard.press('Enter');
   const node=p.locator(`[data-inline-definition="${word}"]`).first();await node.waitFor();await p.waitForFunction(({word,source})=>[...document.querySelectorAll(`[data-inline-definition="${word}"]`)].some(n=>n.textContent.includes(source)),{word,source:'English Wiktionary contributors'},{timeout:20000});assert.match(await node.innerText(),meaning);assert.ok(await node.locator('a[href*="en.wiktionary.org/wiki/"]').count());

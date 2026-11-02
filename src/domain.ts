@@ -105,6 +105,6 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
  return newRun(choices[n],mode,language);
 }
 export function shareText(date:string, run:Run):string {
- const glyph={exact:'■',elsewhere:'◩',absent:'□'};
- return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n■ exact · ◩ elsewhere · □ absent`;
+ const glyph={exact:'🟩',elsewhere:'🟨',absent:'⬛'};
+ return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
 }

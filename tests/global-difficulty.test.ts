@@ -32,3 +32,7 @@ test('all difficulties apply at each language and length, and adaptive clues gov
  const strict=applyGlobalDifficulty(run,'strict');assert.ok(strict.error);assert.equal(strict.run,run);
  const first=submitImpossible(newImpossible(),'AUDIO').run;const changed=applyGlobalDifficulty(first,'strict');assert.equal(changed.error,undefined);assert.deepEqual(changed.run.feedback,first.feedback);assert.deepEqual(changed.run.candidates,first.candidates);
 });
+test('first visit starts Normal while a saved global preference remains authoritative',async()=>{
+ const {decode}=await import('../src/persistence.ts');const fresh=decode(null,'2026-11-02');const fallback=difficulty(fresh[fresh.mode]);
+ assert.equal(fallback,'normal');assert.equal(decodeGlobalDifficulty(null,fallback),'normal');assert.equal(decodeGlobalDifficulty('strict',fallback),'strict');
+});

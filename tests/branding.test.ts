@@ -12,3 +12,6 @@ test('pre-rename notebooks retain namespaces, epoch, rounds, language, difficult
  assert.equal(saveKeyForPath('/',5),'morrowmark.v1');assert.equal(saveKeyForPath('/kata-inspired-by-wordle-codex-dot/',5),'morrowmark.kata-inspired-by-wordle-codex-dot.v1');
  for(const f of input.fixtures){assert.equal(saveKeyForPath('/kata-inspired-by-wordle-codex-dot/',f.length,f.language),f.key);assert.deepEqual(JSON.parse(encode(decode(f.raw,f.date,f.length,f.language))),{...JSON.parse(f.raw),dailyScheduleVersion:DAILY_SCHEDULE_VERSION});}
 });
+test('home tagline reflects the multilingual word game',()=>{
+ const main=readFileSync('src/main.ts','utf8');assert.match(main,/Words across languages\.<br><em>One clue at a time\.<\/em>/);assert.doesNotMatch(main,/Every word leaves<br>a <em>little mark/);
+});

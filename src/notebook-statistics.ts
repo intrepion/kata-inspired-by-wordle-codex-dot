@@ -2,13 +2,13 @@ import {notebookDailyAnswer} from './daily-schedule.ts';
 import {DAY,difficulty,status,validDate,type Difficulty,type Run} from './domain.ts';
 import {isImpossible,impossibleStatus} from './impossible.ts';
 import type {Save} from './persistence.ts';
-export type StatsMode='daily'|'practice'|'impossible';
+export type StatsMode='daily'|'practice'|'impossible'|'one';
 export type StatsDifficulty=Difficulty|'legacy';
 export type AssistanceFilter='all'|'assisted'|'unassisted'|'unknown';
 export interface Completion {mode:StatsMode;date:string|null;difficulty:StatsDifficulty;assisted:boolean|null;won:boolean;turns:number;order:number;gaveUp?:boolean;extended?:boolean}
 export interface NotebookStats {version:1;nextId:number;nextOrder:number;active:Record<StatsMode,string>;records:Record<string,Completion>;exposure:Record<StatsMode,StatsDifficulty|null>;setupPending?:Partial<Record<StatsMode,boolean>>}
 const levels=['easy','normal','hard','strict','legacy'];
-const modes:StatsMode[]=['daily','practice','impossible'];
+const modes:StatsMode[]=['daily','practice','impossible','one'];
 const terminal=(run:Run)=>isImpossible(run)?impossibleStatus(run):status(run);
 const object=(v:unknown):v is Record<string,unknown>=>typeof v==='object'&&v!==null&&!Array.isArray(v);
 const positive=(v:unknown):v is number=>Number.isSafeInteger(v)&&Number(v)>0;
@@ -28,14 +28,14 @@ export function readNotebookStats(raw:unknown,today:string):NotebookStats|undefi
  }
  const active={} as Record<StatsMode,string>;
  for(const mode of modes){const id=raw.active[mode];if(typeof id==='string'&&validId(id,mode)){active[mode]=id;if(mode!=='daily')maxId=Math.max(maxId,Number(id.split(':')[1]))}}
- const exposure={} as NotebookStats['exposure'];for(const mode of modes){const value=object(raw.exposure)?raw.exposure[mode]:undefined;exposure[mode]=value===null?null:levels.includes(value as string)?value as StatsDifficulty:'legacy'}
+ const exposure={} as NotebookStats['exposure'];for(const mode of modes){const value=object(raw.exposure)?raw.exposure[mode]:undefined;exposure[mode]=value===null||mode==='one'&&value===undefined?null:levels.includes(value as string)?value as StatsDifficulty:'legacy'}
  const setupPending:Partial<Record<StatsMode,boolean>>={};if(object(raw.setupPending))for(const mode of modes)if(raw.setupPending[mode]===true)setupPending[mode]=true;
  return {version:1,exposure,...(Object.keys(setupPending).length?{setupPending}:{}),nextId:Math.max(maxId+1,positive(raw.nextId)?raw.nextId:1),nextOrder:Math.max(maxOrder+1,positive(raw.nextOrder)?raw.nextOrder:1),active,records};
 }
 /** Migrate only what the previous save actually retained; never infer old difficulty. */
 export function initializeNotebookStats(save:Save,fresh=false):boolean {
  if(save.notebookStats)return false;
- const data:NotebookStats={version:1,nextId:3,nextOrder:1,active:{daily:'daily:'+(save.dailyDate??save.date),practice:'practice:1',impossible:'impossible:2'},records:{},exposure:{daily:fresh?null:'legacy',practice:fresh?null:'legacy',impossible:fresh?null:'legacy'}};save.notebookStats=data;
+ const data:NotebookStats={version:1,nextId:4,nextOrder:1,active:{daily:'daily:'+(save.dailyDate??save.date),practice:'practice:1',impossible:'impossible:2',one:'one:3'},records:{},exposure:{daily:fresh?null:'legacy',practice:fresh?null:'legacy',impossible:fresh?null:'legacy',one:null}};save.notebookStats=data;
  const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.includes(notebookDailyAnswer(save,date,save.daily.answer.length,save.language)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
  if(terminal(save.daily)!=='playing')previous[(save.dailyDate??save.date)]={won:terminal(save.daily)==='won',turns:save.daily.guesses.length,...(save.daily.gaveUp?{gaveUp:true}:{}),...(save.daily.continuation==='unlimited'?{extended:true}:{})};
  for(const date of Object.keys(previous).sort())if(validDate(date)&&date<=save.date){const value=previous[date];data.records['daily:'+date]={mode:'daily',date,difficulty:'legacy',assisted:null,won:value.won,turns:value.turns,order:data.nextOrder++,...(value.gaveUp?{gaveUp:true}:{}),...(value.extended?{extended:true}:{})}}
@@ -52,7 +52,7 @@ export function startStatsRound(save:Save,mode:StatsMode,selected:Difficulty=dif
 /** Selecting options is not exposure. Only explicit Start fixes a fresh baseline. */
 export function puzzleNeedsStart(save:Save,mode:StatsMode=save.mode):boolean {initializeNotebookStats(save);const data=save.notebookStats!;if(mode==='daily'&&data.active.daily!=='daily:'+(save.dailyDate??save.date)){data.active.daily='daily:'+(save.dailyDate??save.date);data.exposure.daily=null}return data.exposure[mode]===null||data.setupPending?.[mode]===true}
 export function beginStatsPuzzle(save:Save,mode:StatsMode,selected:Difficulty):boolean {
- if(!puzzleNeedsStart(save,mode)||save[mode].guesses.length)return false;
+ if(!puzzleNeedsStart(save,mode)||save[mode].guesses.length>(mode==='one'?1:0))return false;
  const data=save.notebookStats!;if(data.setupPending)delete data.setupPending[mode];if(data.exposure[mode]===null)data.exposure[mode]=selected;else observeStatsDifficulty(save,mode,selected);return true;
 }
 /** Restart confirmation retains prior exposure/assistance; it is not a fresh game. */

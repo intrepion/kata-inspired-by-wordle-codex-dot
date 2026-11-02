@@ -1,5 +1,6 @@
 import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
 import {readNotebookStats,recordCompletion,type NotebookStats} from './notebook-statistics.ts';
+import {validUniqueClue} from './one.ts';
 import {validLetters,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
 import {vocabulary,answerDataset,PREVIOUS_ANSWER_DATASET} from './words.ts';
@@ -7,14 +8,14 @@ import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, 
 export const SAVE_KEY='morrowmark.v1';
 export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
 export interface Save extends DailyScheduleContext {
- version:3; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'; impossible:ImpossibleRun;
+ version:3; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'|'one'; impossible:ImpossibleRun; one:Run;
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
 }
 export function emptySave(date:string,mode:boolean|Difficulty=false,length=5,language:Language='en'):Save {
- return {version:3,dailyScheduleVersion:DAILY_SCHEDULE_VERSION,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(language==='en'&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
+ return {version:3,dailyScheduleVersion:DAILY_SCHEDULE_VERSION,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(language==='en'&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',one:newRun(vocabulary(length,language).answers[0],false,language),impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
 }
 function object(value:unknown):value is Record<string,unknown> {return typeof value==='object' && value!==null && !Array.isArray(value)}
-function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'?value:'daily'}
+function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'||value==='one'?value:'daily'}
 function storedDifficulty(value:Record<string,unknown>):Difficulty {return value.difficulty==='easy'||value.difficulty==='hard'||value.difficulty==='strict'||value.difficulty==='normal'?value.difficulty:value.strictMode===true?'strict':value.hardMode===true?'hard':value.easyMode===true?'easy':'normal'}
 function validatedRun(value:unknown, answer:string,language:Language='en'):Run|null {
  if(!object(value)||!Array.isArray(value.guesses))return null;
@@ -70,7 +71,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
    save.daily=newRun(notebookDailyAnswer(save,today,length,language),validDate(value.date)&&value.date===today&&object(value.daily)?storedDifficulty(value.daily):difficulty(save.settings),language);
    save.practice=newRun(language==='en'&&length===5?'APPLE':ANSWERS[0],object(value.practice)?storedDifficulty(value.practice):difficulty(save.settings),language);
    const adaptive=object(value.impossible)?value.impossible:object(value.absurd)?value.absurd:object(value.evil)?value.evil:null;
-   save.impossible=newImpossible(adaptive?storedDifficulty(adaptive):'normal',length,language);save.mode=storedMode(value.mode);
+   save.impossible=newImpossible(adaptive?storedDifficulty(adaptive):'normal',length,language);save.mode=storedMode(value.mode);if(save.mode==='one')save.mode='daily';
    return save;
   }
   const marks=readNotebookStats(value.notebookStats,today);if(marks)save.notebookStats=marks;
@@ -103,7 +104,9 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   const adaptive=restoreImpossible(value.impossible)??restoreImpossible(value.absurd)??restoreImpossible(value.evil);
   save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible('normal',length,language);
   recordCompletion(save,'daily',dailyPuzzleDate(save));recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
-  save.mode=storedMode(value.mode);
+  if(object(value.one)&&typeof value.one.answer==='string'&&ANSWERS.includes(value.one.answer)){const one=validatedRun(value.one,value.one.answer,language);if(one&&one.guesses.length&&validUniqueClue(one.answer,one.guesses[0],ANSWERS))save.one=one;}
+  recordCompletion(save,'one',today);
+  save.mode=storedMode(value.mode);if(save.mode==='one'&&!save.one.guesses.length)save.mode='daily';
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
   return save;
  }catch{return save}
@@ -131,4 +134,4 @@ export function synchronize(previous:Save,today:string,read:()=>string|null,leng
 }
 
 /** Persist adaptive guesses only; candidates, feedback and the representative are reconstructed. */
-export function encode(save:Save):string {return JSON.stringify({...save,impossible:impossibleSnapshot(save.impossible)})}
+export function encode(save:Save):string {const {one,...rest}=save;return JSON.stringify({...rest,...(one.guesses.length?{one}:{}),impossible:impossibleSnapshot(save.impossible)})}

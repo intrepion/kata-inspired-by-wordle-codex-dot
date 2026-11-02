@@ -24,7 +24,7 @@ Open http://127.0.0.1:5298. The launcher checks the port and refuses to replace 
 - Completed daily results count once by date. Played, wins, win rate, guess distribution, current and best streaks derive from the validated result ledger. A streak requires consecutive UTC dates won. Missing a date or losing breaks it; yesterday's winning streak remains current until today is lost or the next day is missed. Practice never counts.
 - Practice is independent, replayable and saved; first practice uses APPLE as a gentle repeated-letter introduction. Fresh practice selects another answer and asks before abandoning unfinished fieldnotes.
 - Drafts, guesses, mode, contrast and daily results persist in localStorage. Invalid saves are normalized or discarded. Storage failure is announced. Erasing requires confirmation; cancellation changes nothing. One browser tab is the supported active session; other tabs reload saved state before input, but simultaneous edits are not transactionally locked.
-- Share copies spoiler-free symbols locally with a selectable-text fallback; the app never posts externally. No account, telemetry, external fonts or paid services. The static game is published through GitHub Pages. The public definition lookup is the only runtime API integration.
+- After a completed daily, Copy spoiler-free result copies the date, result and colored clue grid without words or meanings; a selectable-text fallback is available when clipboard access fails. The app never posts externally. No account, telemetry, external fonts or paid services; meanings are bundled. The static game is published through GitHub Pages.
 
 ## Difficulty and advice
 
@@ -39,7 +39,7 @@ In Daily, Practice or Absurd, open **Settings (⚙) → Difficulty**: **Easy**, 
 
 Optimal reverses that worst-case ranking. Ties use fewer expected survivors under a uniform candidate assumption, then prefer remaining answer candidates, then alphabetical order. Suboptimal ties are alphabetical. Neither ranking claims a globally optimal strategy. The worker shows loading, caches public clue histories, and cancels stale work; when neither option is requested, no ranking worker runs.
 
-Easy may be enabled midgame on an unfinished puzzle. Hard/Strict upgrades validate every earlier guess; incompatible rounds pause intact until you change difficulty or explicitly start that round over (marked Assisted). Enabling either advice option permanently marks the active round **Assisted**, even if later turned off; mode bars and shares retain it after downgrade/reload. New advice cannot retroactively mark a finished round. Difficulty is a single persisted preference shared across Daily, Practice, Absurd, languages and lengths. Completed results retain their recorded difficulty. Existing statistics remain combined across difficulties.
+Easy may be enabled midgame on an unfinished puzzle. Hard/Strict upgrades validate every earlier guess; incompatible rounds pause intact until you change difficulty or explicitly start that round over (marked Assisted). Enabling either advice option permanently marks the active round **Assisted**, even if later turned off; mode bars and shares retain it after downgrade/reload. New advice cannot retroactively mark a finished round. Difficulty is a single persisted preference shared across Daily, Practice, Absurd, One possibility, languages and lengths. Completed results retain their recorded difficulty. Existing statistics remain combined across difficulties.
 
 Absurd supports the same four global difficulties. Select **Absurd → Settings → Difficulty**. Easy shows clue-only Optimal advice; Normal is unrestricted; Hard and Strict use the adaptive clues. Its selection also applies to Daily and Practice and every language/length. Existing notebooks adopt the global choice when opened; incompatible ongoing histories pause rather than being discarded. See [Absurd difficulty decisions](docs/adr/0010-evil-difficulties.md).
 
@@ -188,3 +188,8 @@ Sixth-guess wins still count normally. Extended wins are labelled separately in 
 ## Arcade metadata
 
 See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
+
+
+### One possibility
+
+The first fieldnote is a generated, prefilled clue with exactly one matching answer in the selected language and length’s answer list. Other accepted words can also match. English and Mexican Spanish at 4–7 letters are supported; normal dictionary validation, color feedback, difficulty, definitions, translations, saved notebooks and optional continuation apply. Five guesses follow the given clue in the six-fieldnote challenge. If the bounded clue search finds no unique candidate, the mode reports that and does not start. This is an independent game inspired by [NYT Wordle in 1](https://thenewyorktimeshelpcenter.helpjuice.com/bonus-puzzles), not the NYT’s puzzles or dictionary.

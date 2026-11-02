@@ -23,6 +23,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - run: node scripts/verify-arcade.mjs
       - run: npm run check
       - run: npm audit --audit-level=high
       - run: npm run build:pages

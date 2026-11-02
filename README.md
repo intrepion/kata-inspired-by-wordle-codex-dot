@@ -184,3 +184,7 @@ Use the **Statistics** icon to filter completed results by game mode, language, 
 After six unsuccessful guesses, choose **Keep guessing** for unlimited additional attempts on the same puzzle, or **Give up** to open the existing confirmation. Escape/backdrop dismissal leaves the choice pending; it never forfeits or reveals the answer. Pending/continued games survive reload and navigation. A Daily continuation also retains its original puzzle date across midnight until finished.
 
 Sixth-guess wins still count normally. Extended wins are labelled separately in statistics and shares; they never enter the six-bin win histogram. Total wins/win rate explicitly include both kinds. No old six-guess losses are reopened or rewritten. [Extended-play semantics and preservation](docs/adr/0032-optional-extended-play.md).
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.

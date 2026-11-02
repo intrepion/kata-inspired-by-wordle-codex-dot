@@ -1,7 +1,7 @@
 name: Arcade capture review
 on:
   push:
-    branches: [codex/capture-lexi-conquest-20261102]
+    branches: [codex/capture-lexi-current-20261102]
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,7 +29,7 @@ jobs:
         env:
           CAPTURE_OUTPUT: capture-output
         run: |
-          export GAME_SOURCE_COMMIT="$(git rev-parse HEAD^)"
+          export GAME_SOURCE_COMMIT="891c98394e4a97986ff0632c7c4a542491482925"
           python3 -m http.server 4269 --bind 127.0.0.1 --directory capture-site > /tmp/lexi-conquest-http.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT

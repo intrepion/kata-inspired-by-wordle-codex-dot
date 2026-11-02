@@ -1,0 +1,31 @@
+{
+  "version": "rla-es-2.9-wiktionary-wordfreq-extended-v1",
+  "lengths": [
+    3,
+    8,
+    9,
+    10,
+    11
+  ],
+  "rlaSource": "source.json",
+  "frequencySource": "selection-source.json",
+  "lexicalSource": {
+    "url": "https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz",
+    "sha256": "0a7a02456ecf34dd3419e0d5adf4f18da5531487dde31829d126afe86eade861",
+    "retrieved": "2026-11-02",
+    "license": "CC-BY-SA-4.0",
+    "edition": "Spanish Wiktionary via Wiktextract/Kaikki; exact article revisions not supplied"
+  },
+  "selection": "RLA-es 2.9 es-MX accepted forms; Zipf >= 3.5 and a qualifying Spanish Wiktionary base sense using the existing source-label policy. No per-word review or overrides for these new lengths.",
+  "limitations": "Word-level frequency is not sense-specific or Mexico-specific; extraction labels and sense filtering can be incomplete. Translation entries are source-provided English equivalents, not verified examples, and coverage is incomplete.",
+  "inputs": {
+    "extended-guesses.json": "f64f40d4f5171c7e1c340e65fae729b1b7a60cdbc95f15333a9755170e1eae0a",
+    "extended-frequency-evidence.json": "f86515216d6f8eb27d454d239dc492c467c40d613adc6e5eb233b1354c6f7d69",
+    "extended-lexical-evidence.json": "ea1c59cfccb07d77423dd4ca5550f4c10a66860abad31e73e885e97be4442663",
+    "extended-translations/3.json": "5965dfe51c6a789dcd91912d089a386f0ec006ef3e85b3425cc28e2ed3093465",
+    "extended-translations/8.json": "9d5a9cea3f75b4a28504c0c32ce03ae28231360bfa08bbe82f4bc82fd01ee4bf",
+    "extended-translations/9.json": "ebcc50e054c3b0396d3035826d6327f58068fb2fdd2840f739a309fe61eb0c6d",
+    "extended-translations/10.json": "71474f1a0b7ec9daef3c24b809e49fa64208887616fdd8334ede3d31b49a949c",
+    "extended-translations/11.json": "66da3ab77e12a9ff88c2999a5f39a183e7d930fa3a288fda6ebf753e1078bbc0"
+  }
+}

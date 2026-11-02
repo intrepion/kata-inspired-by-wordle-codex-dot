@@ -1,0 +1,27 @@
+Spanish extended word lengths: accepted spellings are generated from the
+RLA-es 2.9 es-MX affix and dictionary files. The project offers GPL 3+, LGPL 3+
+or MPL 1.1+; this distribution uses MPL 1.1. The original notices, license,
+dictionary and affix source files are in ../es-MX/. Pinned upstream revision:
+ea82c1214ead57740798acf66a1e18e5ac874c41.
+
+Answer selection uses spelling-frequency data from wordfreq 3.0.2, by Robyn
+Speer and contributors (CC BY-SA 4.0), plus selected Spanish Wiktionary entries
+by Wiktionary contributors (CC BY-SA 4.0), extracted by Wiktextract and
+published by Kaikki. English equivalents are copied from those Wiktionary entries.
+Source links on each displayed meaning lead to the relevant article and history;
+exact per-entry revisions are not supplied by the extract. No inferred meanings,
+examples or quotations are included. The new selection and English equivalents
+have not been individually reviewed; source coverage, word-frequency, sense
+labels and regional applicability are incomplete.
+
+https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz
+Extract retrieved 2026-11-02, SHA-256:
+0a7a02456ecf34dd3419e0d5adf4f18da5531487dde31829d126afe86eade861
+https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/large_es.msgpack.gz
+SHA-256: 14f326b4f68d517f9b8b99c1e26ef56a508d2dc8d0ee7a9e6e8732ddab1aa65e
+
+Metadata and checksums: src/data/spanish/extended-source.json.
+Reproduction: scripts/generate-extended-spanish-guesses.mjs,
+scripts/import-extended-spanish-evidence.py, and
+scripts/generate-extended-spanish-selection.mjs. See WORDS-LICENSE.md and
+../spanish-selection/ for complete source and wordfreq acknowledgments.

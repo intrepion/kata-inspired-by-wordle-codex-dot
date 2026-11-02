@@ -4,6 +4,11 @@ import {TranslationClient} from './translations.ts';
 import type {Language} from './language.ts';
 type Table=Record<string,{partOfSpeech:string;senses:string[]}[]>;
 const loaders:Record<number,()=>Promise<Table>>={
+ 3:()=>import('./data/definitions/extended-3.json').then(m=>m.default),
+ 8:()=>import('./data/definitions/extended-8.json').then(m=>m.default),
+ 9:()=>import('./data/definitions/extended-9.json').then(m=>m.default),
+ 10:()=>import('./data/definitions/extended-10.json').then(m=>m.default),
+ 11:()=>import('./data/definitions/extended-11.json').then(m=>m.default),
  4:()=>import('./data/definitions/4.json').then(m=>m.default),
  5:()=>import('./data/definitions/5.json').then(m=>m.default),
  6:()=>import('./data/definitions/6.json').then(m=>m.default),
@@ -28,8 +33,10 @@ export async function localDefinition(word:string,language:Language):Promise<Def
   const entry=result.entry;
   return {word,entries:entry.senses.map(s=>({partOfSpeech:definitionText([s.partOfSpeech,...s.tags].join(' · ')),senses:s.english.map(v=>definitionText(v)).filter(Boolean)})).filter(e=>e.senses.length),sourceUrl:entry.sourceUrl,sourceLinks:entry.sourceLinks,sourceLabel:entry.kind==='derived-forms'?'Apertium + AGID · GPL v2-derived data':entry.kind==='reviewed-wordnet'?'MCR + WordNet · source notices':'Wiktionary contributors · CC BY-SA 4.0',license:entry.license,note:'Bundled English meaning or labelled grammatical reading; not every sense or Mexican usage.'};
  }
+ if(!loaders[word.length])return {word,entries:[],sourceUrl:'./third-party/english-definitions/NOTICE.txt',sourceLabel:'Bundled dictionary · coverage and notices',license:'CC-BY-SA-4.0',note:'No bundled definitions for this word length yet.'};
  let table=pending.get(word.length);if(!table){table=loaders[word.length]();pending.set(word.length,table);void table.catch(()=>{if(pending.get(word.length)===table)pending.delete(word.length)})}
  let entries=(await table)[word]??[];
+ if(!entries.length&&!englishLoaders[word.length])return {word,entries:[],sourceUrl:'./third-party/simple-english-definitions/NOTICE.txt',sourceLabel:'Bundled dictionary · coverage and notices',license:'CC-BY-SA-4.0',note:'No bundled meaning for this word.'};
  if(!entries.length){
   let extra=englishPending.get(word.length);if(!extra){extra=englishLoaders[word.length]();englishPending.set(word.length,extra);void extra.catch(()=>{if(englishPending.get(word.length)===extra)englishPending.delete(word.length)})}
   entries=(await extra)[word]??[];

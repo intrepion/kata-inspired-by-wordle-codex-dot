@@ -3,7 +3,7 @@ import {dailyAbsurdTarget,dailyOneMix} from '../src/daily-variants.ts';
 import {newImpossible,submitImpossible,impossibleStatus,type ImpossibleRun} from '../src/impossible.ts';
 import {awaitingContinuation,continueGuessing,score} from '../src/domain.ts';
 import {vocabulary} from '../src/words.ts';import {validUniqueClue} from '../src/one.ts';import type {Language} from '../src/language.ts';
-for(const language of ['en','es-MX'] as Language[])for(const length of [4,5,6,7])test(`${language} ${length} daily mixes are deterministic and targets have a valid witness`,()=>{
+for(const language of ['en','es-MX'] as Language[])for(const length of [3,4,5,6,7,8,9,10,11])test(`${language} ${length} daily mixes are deterministic and targets have a valid witness`,()=>{
  const date='2026-11-02',mix=dailyOneMix(date,length,language),words=vocabulary(length,language);assert.deepEqual(dailyOneMix(date,length,language),mix);assert.equal(mix.length,5);assert.equal(new Set(mix.map(p=>p.answer)).size,5);
  for(const pair of mix){assert.ok(words.allowed.has(pair.clue));assert.ok(validUniqueClue(pair.answer,pair.clue,words.answers));assert.ok(score(pair.answer,pair.clue).some(c=>c!=='exact'))}
  const {target,witness}=dailyAbsurdTarget(date,length,language);assert.equal(dailyAbsurdTarget(date,length,language).target,target);

@@ -4,6 +4,11 @@ export interface WordTranslation {word:string;senses:TranslationSense[];sourceUr
 export type TranslationState={phase:'ready';entry:WordTranslation}|{phase:'missing'}|{phase:'error'};
 export type TranslationTable=Record<string,TranslationSense[]>;
 const loaders:Record<number,()=>Promise<TranslationTable>>={
+ 3:()=>import('./data/spanish/extended-translations/3.json').then(m=>m.default),
+ 8:()=>import('./data/spanish/extended-translations/8.json').then(m=>m.default),
+ 9:()=>import('./data/spanish/extended-translations/9.json').then(m=>m.default),
+ 10:()=>import('./data/spanish/extended-translations/10.json').then(m=>m.default),
+ 11:()=>import('./data/spanish/extended-translations/11.json').then(m=>m.default),
  4:()=>import('./data/spanish/translations/4.json').then(m=>m.default),
  5:()=>import('./data/spanish/translations/5.json').then(m=>m.default),
  6:()=>import('./data/spanish/translations/6.json').then(m=>m.default),
@@ -40,7 +45,7 @@ const spanishReviewedLoaders:Record<number,()=>Promise<EnglishTable>>={
  7:()=>import('./data/spanish/spanish-derived-translations/7.json').then(m=>m.default),
 };
 async function loadBundle(length:number):Promise<TranslationBundle>{
- const [source,morph,english,wordnet,spanish]=await Promise.allSettled([loaders[length](),morphLoaders[length](),englishLoaders[length](),wordnetLoaders[length](),spanishReviewedLoaders[length]()]);
+ const [source,morph,english,wordnet,spanish]=await Promise.allSettled([loaders[length]?.()??Promise.resolve({}),morphLoaders[length]?.()??Promise.resolve({}),englishLoaders[length]?.()??Promise.resolve({}),wordnetLoaders[length]?.()??Promise.resolve({}),spanishReviewedLoaders[length]?.()??Promise.resolve({})]);
  return {sourced:source.status==='fulfilled'?source.value:{},derived:morph.status==='fulfilled'?morph.value:{},english:english.status==='fulfilled'?english.value:{},wordnet:wordnet.status==='fulfilled'?wordnet.value:{},spanishReviewed:spanish.status==='fulfilled'?spanish.value:{},failed:[source,morph,english,wordnet,spanish].some(result=>result.status==='rejected')};
 }
 /** Local static chunks only: no lookup word, puzzle state or history goes to a translation service. */
@@ -48,7 +53,7 @@ export class TranslationClient {
  private tables=new Map<number,TranslationBundle>();private pending=new Map<number,Promise<TranslationTable|TranslationBundle>>();private failures=new Set<number>();
  constructor(private load:(length:number)=>Promise<TranslationTable|TranslationBundle>=loadBundle){}
  peek(raw:string,language:Language):TranslationState|null {
-  const word=normalizeGuess(raw,language);if(language!=='es-MX'||! /^[A-ZÁÉÍÓÚÜÑ]{4,7}$/.test(word))return {phase:'missing'};
+  const word=normalizeGuess(raw,language);if(language!=='es-MX'||! /^[A-ZÁÉÍÓÚÜÑ]{3,11}$/.test(word))return {phase:'missing'};
   const table=this.tables.get(word.length);if(!table)return this.failures.has(word.length)?{phase:'error'}:null;
   const english=table.english?.[word],sourced=table.sourced[word],spanish=table.spanishReviewed?.[word],derived=table.derived[word],wordnet=table.wordnet?.[word];
   const linked=english??(!sourced?spanish:undefined),senses=english?.senses??sourced??spanish?.senses??derived??wordnet;

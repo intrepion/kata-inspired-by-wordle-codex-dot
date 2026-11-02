@@ -1,14 +1,14 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {dailySmashPair,makeSmashPair,parseSmashGuess,scoreSmash,smashPairCount} from '../src/smashare.ts';
-import {vocabulary,WORD_LENGTHS} from '../src/words.ts';
+import {vocabulary,WORD_LENGTHS,isSupportedLength} from '../src/words.ts';
 
 test('first word starts with the end of the second and is displayed second',()=>{
  const pair=makeSmashPair('sheep','fresh');assert.deepEqual(pair,{first:'sheep',second:'fresh',merged:'fresheep'});
  assert.equal(makeSmashPair('fresh','sheep'),undefined);
  assert.equal(makeSmashPair('aaaa','aaaa'),undefined);
 });
-for(const language of ['en','es-MX'] as const)for(const length of WORD_LENGTHS)test(`${language} ${length}: deterministic, eligible and parseable`,()=>{
+for(const language of ['en','es-MX'] as const)for(const length of WORD_LENGTHS.filter(n=>isSupportedLength(n,language)))test(`${language} ${length}: deterministic, eligible and parseable`,()=>{
  assert.ok(smashPairCount(length,language)>0);
  const a=dailySmashPair('2026-11-02',length,language),b=dailySmashPair('2026-11-02',length,language),answers=vocabulary(length,language).answers;
  assert.deepEqual(a,b);assert.ok(answers.includes(a.first));assert.ok(answers.includes(a.second));assert.equal(a.first.slice(0,2),a.second.slice(-2));assert.deepEqual(parseSmashGuess(a.merged,length,language),a);

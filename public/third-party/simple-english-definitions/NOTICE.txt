@@ -20,3 +20,10 @@ pinned counts, hashes and transformations: src/data/definitions/source.json.
 
 This data license is separate from the application code license. No endorsement
 by Wiktionary, Wikimedia, Kaikki or Wiktextract is implied.
+
+Additional 3- and 8–11-letter selection: separately retrieved 2026-11-02 from
+that same Kaikki Simple English extract URL, SHA256
+79afd871e342db3b87c3f2044ed21efa312e4c4ee006814b57c4cf4536ef70a1.
+The same selection limits and CC BY-SA 4.0 attribution apply. Reproduction:
+scripts/import-extended-definitions.py; counts, hashes and transformations:
+src/data/definitions/extended-source.json. These meanings have partial coverage.

@@ -112,20 +112,25 @@ Public pilot: use the **Play Online** link above. The user authorized removing t
 
 ## Choose a word length
 
-Use **Word length**, above the board, to select4,5,6 or7 letters. Five remains the default. Daily, Practice and Absurd all use the selected length, with six attempts and all four difficulties. Switching opens/resumes a separate notebook: guesses, drafts, local settings and daily statistics stay with their own length; difficulty is global. New progress persists independently after the one-time fresh start. Shares show the length. Erase saved notebook clears only the selected length.
+Use **Word length** above the board to select 3–11 letters in English or Spanish. Five remains the default. Daily, Practice and Absurd all use the selected length, with six attempts and all four difficulties. Switching opens/resumes a separate notebook: guesses, drafts, local settings and daily statistics stay with their own length; difficulty is global. New progress persists independently after the one-time fresh start. Shares show the length. Erase saved notebook clears only the selected length.
 
 | Letters | Curated answers | Valid guesses |
 |---|---:|---:|
+|3|447|1,151|
 |4|1,480|4,964|
 |5|2,103|11,193|
 |6|3,166|19,816|
 |7|4,138|29,870|
+|8|4,234|37,175|
+|9|3,734|36,799|
+|10|2,831|32,523|
+|11|1,783|25,693|
 
-All pools use the same pinned, licensed SCOWL/AGID curation policy. Exact reproducible sources, reviewed homographs and notebook behavior are documented in [the word-length decision](docs/adr/0020-selectable-word-length.md). Every answer is an accepted guess of the same length. Easy and optional Suboptimal search only the selected length; seven-letter opening analysis can take around ten seconds on this development machine, longer on slower devices. It runs in a cancellable worker with loading text so play can continue. Inline meanings cover displayed4–7-letter words when Wiktionary has an entry. The Pages build includes selectable lengths.
+The English pools use the pinned, licensed SCOWL/AGID sources. Earlier 4–7 pools also have reviewed homograph overrides; the additional lengths do not. Existing sources and notebook behavior are documented in [the word-length decision](docs/adr/0020-selectable-word-length.md) and the extended section below. Every answer is an accepted guess of the same length. Easy and optional Suboptimal search only the selected length; seven-letter opening analysis can take around ten seconds on this development machine, longer on slower devices. It runs in a cancellable worker with loading text so play can continue. Inline meanings have incomplete bundled coverage at every length. The Pages build includes selectable lengths.
 
 ## Language, Spanish possible answers and teaching
 
-Use **Language** above Word length. English remains the default. **Español (México)** supports4–7 letters in every mode/difficulty. Its possible-answer counts are468/857/949/1,059 (3,333 total), selected by **Zipf≥3.5 general-Spanish frequency**, documented independent base-word senses and reviewed usage/commonness decisions. There is no per-length cap or translation requirement. The RLA-es broad guess dictionaries stay2,924/9,736/21,791/42,219 words.
+Use **Language** above Word length. English remains the default. **Español (México)** supports 3–11 letters in every mode/difficulty. The previously reviewed 4–7 possible-answer counts are468/857/949/1,059 (3,333 total), selected by **Zipf≥3.5 general-Spanish frequency**, documented independent base-word senses and reviewed usage/commonness decisions. There is no per-length cap or translation requirement. The RLA-es broad guess dictionaries stay2,924/9,736/21,791/42,219 words.
 
 Plural-only and conjugated-only forms do not qualify, while independent ordinary noun/adjective homographs, infinitives and documented noninflecting base words can. VINO/wine, TRAJE/suit, ANTES and LUEGO remain valid possible answers. Source-labelled rare/archaic/offensive or regionally unsuitable senses and reviewed ambiguous homographs are excluded. General-Spanish word frequency does not certify individual-sense frequency or Mexican usage; source gaps and model-review judgment remain. This is not all Spanish words or an official Wordle list.
 
@@ -169,13 +174,13 @@ Generated translation audits are local outputs, prepared automatically before te
 
 ## Local-first meanings
 
-Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. English has 61,910 of 65,843 accepted words with selected bundled definitions: the original 17,676 Simple English Wiktionary entries plus 44,234 English Wiktionary gap entries. Definitions load by length, totalling 10.08 MB of JSON (about 2.34 MB gzip); 3,933 words remain unavailable. Usage labels and grammatical form references are retained; not every sense is included. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
+Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. For the original 4–7-letter lists, English has 61,910 of 65,843 accepted words with selected bundled definitions: the original 17,676 Simple English Wiktionary entries plus 44,234 English Wiktionary gap entries. Definitions load by length, totalling 10.08 MB of JSON (about 2.34 MB gzip); 3,933 words remain unavailable. Usage labels and grammatical form references are retained; not every sense is included. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
 
 ## Starting puzzles and viewing statistics
 
 New Daily, Practice and Absurd puzzles ask for a difficulty and **Start puzzle** before showing clues or advice. Unconfirmed setup choices do not count. After Start, statistics retain the easiest level used (Easy → Normal → Hard → Strict), including changes before the first guess. Reloads/navigation cannot reset that history; a distinct new Practice/Absurd round starts fresh. Resumed old games keep their progress.
 
-Use the **Statistics** icon to filter completed results by game mode, language, 4–7 letters, difficulty and assistance without changing the game. Old Daily totals are retained as **Legacy — difficulty unrecorded**; only the last saved completed Practice/Absurd round is recoverable. Earlier replayable history and unknown exposure are not invented. Daily streaks use consecutive UTC dates; Practice/Absurd streaks use consecutive recorded wins within the selected filters. See [statistics/start policy](docs/adr/0030-segmented-statistics-start-gate.md).
+Use the **Statistics** icon to filter completed results by rules, schedule, language, available word length, difficulty and assistance without changing the game. Old Daily totals are retained as **Legacy — difficulty unrecorded**; only the last saved completed Practice/Absurd round is recoverable. Earlier replayable history and unknown exposure are not invented. Daily streaks use consecutive UTC dates; Practice/Absurd streaks use consecutive recorded wins within the selected filters. See [statistics/start policy](docs/adr/0030-segmented-statistics-start-gate.md).
 
 **Give Up** is available on a started, unfinished puzzle. Its dialog offers every easier difficulty, or **Confirm Give Up** to end the puzzle as one loss and reveal the answer (one consistent surviving answer in Absurd). Choosing easier rules preserves the same puzzle and guesses; Cancel/Escape leave it unchanged. Give-ups retain the actual guess count, including zero, and never add fake rows or entries to the wins-only guess histogram. [Give-up policy](docs/adr/0031-give-up-confirmation.md).
 
@@ -192,11 +197,11 @@ See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manife
 
 ### One possibility
 
-The first fieldnote is a generated, prefilled clue with exactly one matching answer in the selected language and length’s answer list. Other accepted words can also match. English and Mexican Spanish at 4–7 letters are supported; normal dictionary validation, color feedback, difficulty, definitions, translations, saved notebooks and optional continuation apply. Five guesses follow the given clue in the six-fieldnote challenge. If the bounded clue search finds no unique candidate, the mode reports that and does not start. This is an independent game inspired by [NYT Wordle in 1](https://thenewyorktimeshelpcenter.helpjuice.com/bonus-puzzles), not the NYT’s puzzles or dictionary.
+The first fieldnote is a generated, prefilled clue with exactly one matching answer in the selected language and length’s answer list. Other accepted words can also match. English and Mexican Spanish at 3–11 letters are supported; normal dictionary validation, color feedback, difficulty, definitions, translations, saved notebooks and optional continuation apply. Five guesses follow the given clue in the six-fieldnote challenge. If the bounded clue search finds no unique candidate, the mode reports that and does not start. This is an independent game inspired by [NYT Wordle in 1](https://thenewyorktimeshelpcenter.helpjuice.com/bonus-puzzles), not the NYT’s puzzles or dictionary.
 
 ### Rules and schedule
 
-Choose **Conquest**, **Absurd**, or **One possibility** independently from **Daily** or **Practice**. Existing Daily and Practice notebooks retain their storage and progress; the former Absurd and One possibility notebooks become their Practice rounds. New daily variants have separate UTC-date, language and word-length notebooks.
+Choose **Conquest**, **Absurd**, **One possibility**, or **Smashare** independently from **Daily** or **Practice**. Existing Daily and Practice notebooks retain their storage and progress; the former Absurd and One possibility notebooks become their Practice rounds. New daily variants have separate UTC-date, language and word-length notebooks.
 
 - **Conquest Daily** is the existing shared UTC word; **Conquest Practice** remains replayable.
 - **Absurd Practice** is the existing adaptive game. **Absurd Daily** shows a target word. It uses the same largest-bucket and tie rules; if the target leaves the surviving pool, the daily round is lost. Each target is constructed by replaying legal surviving-candidate guesses until a singleton is reached, proving it can be forced. A witness may take more than six guesses, so the existing optional unlimited continuation can be necessary. The target is shared for the date, language, length and answer dataset, and changes at midnight UTC.
@@ -207,3 +212,11 @@ Daily variant statistics combine completed dated notebooks across UTC dates and 
 ### Smashare
 
 Smashare joins two distinct words of the selected length. The **first two letters of word 1 equal the last two letters of word 2**. The grid displays word 2 first and word 1 second, with the shared letters written once: FRESH + SHEEP = FRESHEEP. Both component words of each guess must be accepted by the selected dictionary; answers use that language and length's possible-answer list. The merged string receives standard duplicate-aware feedback, counting the shared letters once. Daily pairs are deterministic by UTC date; Practice pairs and progress are separate. Six guesses may be extended or ended by giving up. Easy offers up to five clue-consistent eligible pairs using a bounded, unranked search; Hard and Strict apply their usual clue restrictions to the merged string. Difficulty can change mid-round if the previous guesses satisfy the requested rules; Easy marks the round assisted. Meanings and translations appear separately for the component words when available. Smashare rounds and completion statistics have separate browser storage for Daily and Practice.
+
+### Additional English word lengths
+
+English supports 3–11 letters in all four rulesets and both schedules. The new 3 and 8–11 pools come from the pinned SCOWL/AGID sources, with no per-word morphology review; see WORDS-LICENSE.md. The Spanish 3 and 8–11 lists use the pinned RLA-es spelling source and a newer Spanish Wiktionary extract with the same frequency and source-label filters; unlike the earlier 4–7 lists, the new answer selections and source-provided English equivalents have not been individually reviewed. Frequency and sense labels are incomplete and do not guarantee Mexican usage. Definitions for the new English lengths have partial Simple English Wiktionary coverage. For the large new 8–11-letter pools, full optimal/suboptimal ranking is unavailable when a word pool would require more than 25 million comparisons; Easy remains playable and the screen explains this limitation. Long Smashare boards scroll horizontally.
+
+For the new English lengths, answer / accepted-guess counts are: 3: **447 / 1,151**; 8: **4,234 / 37,175**; 9: **3,734 / 36,799**; 10: **2,831 / 32,523**; 11: **1,783 / 25,693**. Simple English meanings cover 396, 3,289, 2,843, 2,128 and 1,324 of those answer words respectively; accepted-guess coverage is lower, and a missing meaning does not affect word validation.
+
+Spanish 3 and 8–11 counts (possible answers / accepted guesses / answers with a sourced English equivalent): **3: 147 / 529 / 98; 8: 1,016 / 64,730 / 677; 9: 742 / 82,132 / 530; 10: 575 / 90,422 / 394; 11: 386 / 82,029 / 255**. The spelling lists include broad inflections; answer selection requires a frequency-qualified, source-labeled base sense. The equivalents are incomplete and unreviewed. See `public/third-party/spanish-extended/NOTICE.txt` and `WORDS-LICENSE.md`.

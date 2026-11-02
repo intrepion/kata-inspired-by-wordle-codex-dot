@@ -31,7 +31,7 @@ test('notebooks isolate length and survive reload while an existing five-letter 
  assert.equal(keys.size,4);
 });
 import {definitionWord} from '../src/definitions.ts';
-test('inline dictionary lookups accept only displayed supported-length words',()=>{for(const word of ['BOOK','APPLE','LETTER','BALLOON'])assert.equal(definitionWord(word.toLowerCase()),word);for(const word of ['A','CAT','ELEPHANT','<BOOK>'])assert.equal(definitionWord(word),null)});
+test('inline dictionary lookups accept only displayed supported-length words',()=>{for(const word of ['CAT','BOOK','APPLE','LETTER','BALLOON','ELEPHANT'])assert.equal(definitionWord(word.toLowerCase()),word);for(const word of ['A','AB','ABCDEFGHIJKL','<BOOK>'])assert.equal(definitionWord(word),null)});
 import {clueConstraintError,type Difficulty,type Clue} from '../src/domain.ts';
 import {largestBucket,impossibleStatus} from '../src/impossible.ts';
 import {feedbackCode,analyzeObservations} from '../src/evil-advice.ts';

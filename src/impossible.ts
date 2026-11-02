@@ -1,5 +1,5 @@
 import {isLanguage,validLetters,type Language} from './language.ts';
-import {vocabulary,absurdDataset,isWordLength} from './words.ts';
+import {vocabulary,absurdDataset,isWordLength,isSupportedLength} from './words.ts';
 import {newRun,score,submit,difficulty,awaitingContinuation,continueGuessing,setDifficulty,clueConstraintError,type Difficulty,type Run,type Clue,type Outcome} from './domain.ts';
 
 export interface ImpossibleRun extends Run {version:1;variant:'impossible';candidates:string[];feedback:Clue[][];target?:string}
@@ -52,7 +52,7 @@ export function restoreImpossible(value:unknown):ImpossibleRun|null {
  if(typeof value!=='object'||value===null||Array.isArray(value))return null;
  const input=value as Record<string,unknown>;
  const language=input.language??'en';if(!isLanguage(language))return null;
- const length=input.wordLength??5;if(!isWordLength(length))return null;
+ const length=input.wordLength??5;if(!isWordLength(length)||!isSupportedLength(length,language))return null;
  if(input.version!==2||input.dataset!==absurdDataset(length,language)||!Array.isArray(input.guesses)||input.guesses.length>vocabulary(length,language).allowed.size||input.guesses.length>6&&input.continuation!=='unlimited')return null;
  const selected:Difficulty=input.difficulty==='easy'||input.difficulty==='hard'||input.difficulty==='strict'?input.difficulty:'normal';
  let run=newImpossible(selected,length,language);

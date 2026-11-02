@@ -1,0 +1,49 @@
+{
+  "edition": "Simple English Wiktionary",
+  "contributors": "Simple English Wiktionary contributors",
+  "artifactUrl": "https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz",
+  "artifactBytes": 4726754,
+  "artifactSha256": "79afd871e342db3b87c3f2044ed21efa312e4c4ee006814b57c4cf4536ef70a1",
+  "retrieved": "2026-11-02",
+  "dataLicense": "CC-BY-SA-4.0",
+  "rightsUrl": "https://simple.wiktionary.org/wiki/Wiktionary:Copyrights",
+  "rawIndex": "https://kaikki.org/dictionary/rawdata.html",
+  "modifications": "English accepted 3 and 8–11-letter lowercase headwords only; at most four entries and four senses per entry; preserve sense tags, omit examples/quotations/media. No inferred meanings. Entry source links use Simple English Wiktionary articles; no exact entry revision supplied by extract.",
+  "byLength": {
+    "3": {
+      "accepted": 1151,
+      "defined": 490,
+      "missing": 661,
+      "bytes": 115644,
+      "sha256": "69b39f6713bbc802c3c69a8d1f68c9b00fab34ad7aa4fad4585fa298c55ddbf3"
+    },
+    "8": {
+      "accepted": 37175,
+      "defined": 7213,
+      "missing": 29962,
+      "bytes": 942563,
+      "sha256": "5c0936977a930fb09bf31ab16ddb07673b4447d473da19a4c8418eeabb92bfc3"
+    },
+    "9": {
+      "accepted": 36799,
+      "defined": 6526,
+      "missing": 30273,
+      "bytes": 838106,
+      "sha256": "4d9c5065fa4fa2d3ba0fc9a7ebb446afb130c87ec99e8ba43cb90aa3d0963423"
+    },
+    "10": {
+      "accepted": 32523,
+      "defined": 5186,
+      "missing": 27337,
+      "bytes": 658908,
+      "sha256": "e02b623c15756c111cb85551963fa1f11116c709db2db5c444e46e557832040f"
+    },
+    "11": {
+      "accepted": 25693,
+      "defined": 3543,
+      "missing": 22150,
+      "bytes": 451114,
+      "sha256": "24bfc353cd8cd9d5e9199eb4725d1cb5a296ba12e449d782a4c886024bddad05"
+    }
+  }
+}

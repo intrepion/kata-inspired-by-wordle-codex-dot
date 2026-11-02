@@ -34,3 +34,5 @@
 
 .mode-select{display:flex;align-items:center;gap:10px;font-size:12px}.mode-select select{max-width:100%;padding:8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);font:inherit}
 .daily-rounds{display:flex;gap:.5rem;margin:1rem 0}.daily-rounds button{min-width:2.4rem;padding:.5rem}.daily-rounds button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+#smash-panel .board-row{gap:3px}#smash-panel .tile{min-width:0}#smash-panel .tile b{font-size:clamp(13px,4vw,24px)}#smash-panel .tile small{font-size:9px}
+#smash-panel .tile.smash-seam{box-shadow:inset 0 -4px 0 var(--accent)}#smash-panel .tile.smash-seam.exact,#smash-panel .tile.smash-seam.elsewhere,#smash-panel .tile.smash-seam.absent{box-shadow:inset 0 -4px 0 #fff}

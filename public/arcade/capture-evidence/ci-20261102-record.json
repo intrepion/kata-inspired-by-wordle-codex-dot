@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "0b1e411f6e260922b4431e09a79856cef9c00f15",
+  "sourceCommit": "891c98394e4a97986ff0632c7c4a542491482925",
+  "runId": "41431780286",
+  "url": "http://127.0.0.1:4269/kata-inspired-by-wordle-codex-dot/",
+  "inputs": {
+    "index.html": "4ddd2481c87c44e0f5a0e7b3148c11cbc717c22c95e4cbce7586fa613a6c1646",
+    "assets/index-DtEI19Od.js": "e0b30a530249c8c6da6d90bbec3cd093055c375e15f48a9d7e5ce0e1459b46f3",
+    "assets/index-BlA0Yeky.css": "31d6cd502a23f3c028e7db5fc236e1a84802110a0a545736d24d15569321e9db",
+    "assets/5-CzikA0Xx.js": "2ca79a24b67f25a6431cfdb002521d263728403adfc5126d5af7a9fbb5d1d319"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "lexi-conquest-01.png",
+    "lexi-conquest-02.png"
+  ]
+}

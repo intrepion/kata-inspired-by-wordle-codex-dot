@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-wordle-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/",
   "screenshots": [
@@ -12,6 +12,48 @@
         "sourcePath": "docs/screenshots/desktop-repeat.jpg",
         "deployedBuild": null,
         "captureDate": null
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "a96b72e2ec6deaf604ea3178f09d5e6bcbd9e70302abff341b7027b9160e89ba",
+      "alt": "Lexi Conquest gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "d1e4b4baa682bb0eb6c275f246b7010bdc423dd9f5551bca2f185f5be88689a4",
+        "captureCommit": "891c98394e4a97986ff0632c7c4a542491482925",
+        "workflowRunId": "41431780286",
+        "inputHashes": {
+          "index.html": "4ddd2481c87c44e0f5a0e7b3148c11cbc717c22c95e4cbce7586fa613a6c1646",
+          "assets/index-DtEI19Od.js": "e0b30a530249c8c6da6d90bbec3cd093055c375e15f48a9d7e5ce0e1459b46f3",
+          "assets/index-BlA0Yeky.css": "31d6cd502a23f3c028e7db5fc236e1a84802110a0a545736d24d15569321e9db",
+          "assets/5-CzikA0Xx.js": "2ca79a24b67f25a6431cfdb002521d263728403adfc5126d5af7a9fbb5d1d319"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "bef8dcdcc42348d2a96ddbad20d449ffc781d5c894b3bcae7116a7fba6a229ad"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "f70ce7940bd477596677ff6eb6afb6b922a7c0e5e7cb71db36a3a80e79daa634",
+      "alt": "Lexi Conquest gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "249b6a4cd78dd0539e0d87c00bcbd0f0b450c5215fe0206a2f0da00518b1bb9d",
+        "captureCommit": "891c98394e4a97986ff0632c7c4a542491482925",
+        "workflowRunId": "41431780286",
+        "inputHashes": {
+          "index.html": "4ddd2481c87c44e0f5a0e7b3148c11cbc717c22c95e4cbce7586fa613a6c1646",
+          "assets/index-DtEI19Od.js": "e0b30a530249c8c6da6d90bbec3cd093055c375e15f48a9d7e5ce0e1459b46f3",
+          "assets/index-BlA0Yeky.css": "31d6cd502a23f3c028e7db5fc236e1a84802110a0a545736d24d15569321e9db",
+          "assets/5-CzikA0Xx.js": "2ca79a24b67f25a6431cfdb002521d263728403adfc5126d5af7a9fbb5d1d319"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "bef8dcdcc42348d2a96ddbad20d449ffc781d5c894b3bcae7116a7fba6a229ad"
       }
     }
   ]

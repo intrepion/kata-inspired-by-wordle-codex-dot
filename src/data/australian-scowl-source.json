@@ -1,0 +1,62 @@
+{
+  "release": "2020.12.07",
+  "revision": "5ef55f9c42730ebe4394a78b77855468a6f15dd2",
+  "archiveUrl": "https://downloads.sourceforge.net/wordlist/scowl-2020.12.07.tar.gz",
+  "archiveSha256": "5587667caa20c4891390c2d42dbb4d5c4c3f41bee77af1457ece3ba23fb859cc",
+  "snapshotSha256": "d554bdb169dc62748688591287a255e0b0ca7cdd57d623649f96a7416f59905e",
+  "selection": {
+    "category": "australian-words",
+    "tiers": [
+      10,
+      20,
+      35,
+      40,
+      50,
+      55,
+      60,
+      70,
+      80
+    ],
+    "encoding": "ISO-8859-1",
+    "pattern": "[a-z]{3,11}",
+    "minimumLength": 3,
+    "maximumLength": 11,
+    "note": "Australian category only. Combine with independently pinned general english-words at the chosen tier; never substitute American or British categories."
+  },
+  "files": {
+    "australian-words.10": "48974e46ce6d6b3f8350334a591d65cb414d97955ff2dad047a2410499cdd9bf",
+    "australian-words.20": "212abfd5ec11a417e51a1a3cf691ca9abb0541af53c9b455b658c77487263434",
+    "australian-words.35": "8cbc50d20929dfc96262bd0101c9d09d1a59fa30ad1f5d6950de6882de5b9db5",
+    "australian-words.40": "37d25a050c104761e2da3c4708522f5da7fcc3c6b87c4a4256ef96587570f714",
+    "australian-words.50": "a107b47d335549b2591e1bdeb7662f548177360404fed28b5df91295eef004cf",
+    "australian-words.55": "125d4d1c54d3ca1de0fc498e8b306066c5c589066d3c1dd3d2674b846c37e256",
+    "australian-words.60": "f0d338b32c8c6594ca515e336085b2a35987dde6cf0465f53feb8b51d9d54c7b",
+    "australian-words.70": "88781b924ced01fa0d99259a3fa2004dd51004cc42b7fd9238fcf962b0f92ac2",
+    "australian-words.80": "efabf3404d969269c28c9acfb62fd6ae653081a176e31373a62871305ac2e1a4"
+  },
+  "notices": {
+    "Copyright": {
+      "path": "public/third-party/SCOWL-Copyright.txt",
+      "sha256": "283326a422e29c510e2ba6805518c418ce3c35ed1fadc3eec83d2da4f6c5a055"
+    },
+    "README": {
+      "path": "docs/sources/scowl-2020.12.07-README.txt",
+      "sha256": "23243cedb0d5ef29e8a17ca56552f9fd65b11139b1611d1c35e0234dfc53c475"
+    }
+  },
+  "counts": {
+    "tokens": 5283,
+    "uniqueWords": 5283,
+    "byLength": {
+      "3": 13,
+      "4": 60,
+      "5": 151,
+      "6": 246,
+      "7": 374,
+      "8": 605,
+      "9": 1098,
+      "10": 1415,
+      "11": 1321
+    }
+  }
+}

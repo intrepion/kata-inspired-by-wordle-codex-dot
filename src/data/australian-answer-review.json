@@ -1,0 +1,889 @@
+{
+  "schema": 1,
+  "policy": "australian-common35-reviewed-bases-2026-11-06",
+  "scope": "Only Australian common-tier words absent from the previously curated general/American/British common35 source union. The allow map admits explicitly reviewed uninflected base senses. Every other new token is held out of answers but stays an accepted guess. Existing English answer review is unchanged.",
+  "review": "Model linguistic review with pinned local evidence or exact external revisions; not native-human certification or comprehensive editorial coverage.",
+  "inputs": {
+    "australian-scowl.json": "d554bdb169dc62748688591287a255e0b0ca7cdd57d623649f96a7416f59905e",
+    "definitions/english-4.json": "9b619ce1c38184c1d7205f61b5c4b5c44f30a83f6a0865a31f7dd9a8254a4d54",
+    "definitions/english-6.json": "081e6d2c4e7d25e71c1b7f2fc86bf03ebf1e36e5f3d017c793a69b3170d054d5",
+    "definitions/5.json": "ef2c40365ad365eba4a1ca7d4765655ad4c6d88ac931e7a6b20a241fbfcd2418",
+    "definitions/english-5.json": "371fa8f29b7effda94c8aa438867b593690ddc6afeec3752e24046cb39bf53b3",
+    "definitions/english-7.json": "1404df551bb99b9d041060e0c931bf1d975740ecb7296650d4dda6f9f6ea3664",
+    "definitions/4.json": "8775c562000eee2bcd124a68a562cb4023f449633cc81d98a1709191e5ca0ab6"
+  },
+  "allow": {
+    "AMBO": {
+      "reason": "Singular noun for an ambulance or its driver; also an independent church-platform noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "AMBO",
+          "entrySha256": "2952d6bfbc4e21b066723050c45a0417835613d7fd79504d2901d7933ec40c09"
+        }
+      ]
+    },
+    "ARVO": {
+      "reason": "Uninflected regional noun for the afternoon.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "ARVO",
+          "entrySha256": "a499675db7bfe5d58e3236fc95712d85be083761f6e62971b3c4110785987f4d"
+        }
+      ]
+    },
+    "BICKIE": {
+      "reason": "Singular alternative spelling for a biscuit, not a plural or past form.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "BICKIE",
+          "entrySha256": "61cb9f24bdea7289640eef04a04ae8ad3f8c6eca1fc53b7c6b36c952597e4d2e"
+        }
+      ]
+    },
+    "BINGLE": {
+      "reason": "Independent singular noun for a minor collision.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "BINGLE",
+          "entrySha256": "abb954a3ea1f064ca0e701665f081eb2dd62806f4a9e3067c821b37064d70c95"
+        }
+      ]
+    },
+    "BLUEY": {
+      "reason": "Positive adjective for something resembling blue; not an inflected past or plural.",
+      "evidence": [
+        {
+          "file": "definitions/5.json",
+          "word": "BLUEY",
+          "entrySha256": "67a17c1325a39c3a5516879dc136fdd1061ac54e70ca2c88b96c71559eeee983"
+        }
+      ]
+    },
+    "BOGAN": {
+      "reason": "Independent singular regional noun for a type of person; the entry also contains derogatory senses.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "BOGAN",
+          "entrySha256": "2dc25fced1265cee5dc21bec66eede46bbfb3a51e9e10378a3e21e339ccd9be5"
+        }
+      ]
+    },
+    "BONZA": {
+      "reason": "Independent adjective variant and singular apple noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "BONZA",
+          "entrySha256": "820258bb9b43e8af21a42da528752fde3414732519f36b8dfc916e3101ac1afd"
+        }
+      ]
+    },
+    "BONZE": {
+      "reason": "Singular noun for a Buddhist cleric.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "BONZE",
+          "entrySha256": "9d06670cc8213d3cdb282aaaf68465e8bda1374770a63339baad8102f3954453"
+        }
+      ]
+    },
+    "BONZER": {
+      "reason": "Positive regional adjective meaning excellent.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "BONZER",
+          "entrySha256": "d26fb829d4a9f096c5b2ac83d26071498d449a7bbc480ed734686f9b2eba7f4a"
+        }
+      ]
+    },
+    "BRUMBY": {
+      "reason": "Singular regional noun for a feral horse.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "BRUMBY",
+          "entrySha256": "985500e645b3b9be67347bf7cbbd54add0b76077f2141a67a144d111aff716ff"
+        }
+      ]
+    },
+    "BUNDY": {
+      "reason": "Singular regional noun for a time clock or tree.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "BUNDY",
+          "entrySha256": "b657428bf780aa05ffe11bdb9f8bdcdce1316d57512da205dc3478fa2e5ac159"
+        }
+      ]
+    },
+    "BUNYIP": {
+      "reason": "Singular noun for a creature in Australian folklore.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "BUNYIP",
+          "entrySha256": "1c7361e84ad65f5f80b352a55cea584e90eb969a02d8541600ee1e249288b619"
+        }
+      ]
+    },
+    "CHOOK": {
+      "reason": "Singular regional noun for a chicken.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "CHOOK",
+          "entrySha256": "48b768f93a00265a58f30b62807a9c32b98035f051359655bdbecdc8e3e48027"
+        }
+      ]
+    },
+    "COOEE": {
+      "reason": "Uninflected call, singular call noun, and verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "COOEE",
+          "entrySha256": "c7a8c17914005cf2f03f2afee474645d09e6a3ca8acd1e51f7f9ef5385369233"
+        }
+      ]
+    },
+    "COSSIE": {
+      "reason": "Singular regional noun for swimwear.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "COSSIE",
+          "entrySha256": "fd3b2022b3587c52f81376d253871b6b454f23b535b325f9a05fd52419b338c0"
+        }
+      ]
+    },
+    "CROC": {
+      "reason": "Singular shortened noun for a crocodile.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "CROC",
+          "entrySha256": "607e031fc9dd5ee7d43398809c4cff1c04c360e73975aba15ee7b49bf6b9d92b"
+        }
+      ]
+    },
+    "DINKUM": {
+      "reason": "Positive regional adjective meaning genuine.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "DINKUM",
+          "entrySha256": "40ddb76be2f602ab104efbeaa6a570bbbd3ef92bf0183de759677f94969532e2"
+        }
+      ]
+    },
+    "DOBBER": {
+      "reason": "Singular agent noun, including a person who informs against someone.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "DOBBER",
+          "entrySha256": "11352a5e74aec714722c27a51f5749fa0524ff5e3ab545acf97d1be910795a4e"
+        }
+      ]
+    },
+    "DOONA": {
+      "reason": "Independent singular regional bedding noun; the separate contraction sense does not invalidate it.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "DOONA",
+          "entrySha256": "49ecd831ba69784faf9ecdc01154a4081164dcdc304f04f3f7fb63620f3ed907"
+        }
+      ]
+    },
+    "DRONGO": {
+      "reason": "Singular bird noun and regional person noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "DRONGO",
+          "entrySha256": "814c2512cef73b95a812f77365a6028c3553916d9dc522d9b2f6a0442adda6a2"
+        }
+      ]
+    },
+    "DUNNY": {
+      "reason": "Independent singular regional toilet noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "DUNNY",
+          "entrySha256": "30e6637c9e56b4ec08a5e19766e1c45df00240b0381b940fdbeef9ada4990795"
+        }
+      ]
+    },
+    "EARBASH": {
+      "reason": "Uninflected verb lemma for verbally lecturing someone.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "EARBASH",
+          "entrySha256": "dfa1b7aaa9d04c68129567e4e613ff87c09b9069ab309e66a9a8ed6b3744de33"
+        }
+      ]
+    },
+    "FOSSICK": {
+      "reason": "Uninflected regional verb lemma for searching or prospecting.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "FOSSICK",
+          "entrySha256": "4cf5442d55e7b7b691b9b089cfdf99e2319e52af3fa83f7ed907f559c9730244"
+        }
+      ]
+    },
+    "FURPHY": {
+      "reason": "Singular regional noun for an improbable story or rumour.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "FURPHY",
+          "entrySha256": "fd6cf1725dbd37ef47e1af4a5621ea3b0924fa4d176c61335ec5d3d8f226eb31"
+        }
+      ]
+    },
+    "GALAH": {
+      "reason": "Singular bird noun, not a plural.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "GALAH",
+          "entrySha256": "0485955a1fc41c87dd97a683d2b8d9c112ac2c50d0ee308632e859f8d3e2b921"
+        }
+      ]
+    },
+    "GARBO": {
+      "reason": "Singular regional worker noun and independent mass noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "GARBO",
+          "entrySha256": "f3493abca07ff2332bc5c699bf635e62bb8b34374b276d1decc8c69a34befaf3"
+        }
+      ]
+    },
+    "GREENIE": {
+      "reason": "Singular agent noun for an environmentalist.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "GREENIE",
+          "entrySha256": "98c72517c0e9f517c1e7128bd11fe7e13c99148fdea27caaa5673acdbe37cb34"
+        }
+      ]
+    },
+    "GUTFUL": {
+      "reason": "Singular quantity noun, not an inflection.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "GUTFUL",
+          "entrySha256": "ffd211d6cddacfabb7f3ce77c4f05f49b91b3ce73e566717c9a779acd5f1b383"
+        }
+      ]
+    },
+    "HOON": {
+      "reason": "Independent singular regional person noun and verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "HOON",
+          "entrySha256": "8e2f069acac00503ea4289202a0212469cd9504794d30a99cbe07914abd64c31"
+        }
+      ]
+    },
+    "HOWZAT": {
+      "reason": "Independent cricket interjection and singular call noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "HOWZAT",
+          "entrySha256": "18691b8836f873439fb160e6f5baedf6cfc092b3cf20f57f9fa5699294f4dec0"
+        }
+      ]
+    },
+    "JUMBUCK": {
+      "reason": "Singular regional sheep noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "JUMBUCK",
+          "entrySha256": "8d5a377a5c14917b204c9cde8c623606f91c12ae47227d63a04c655dce7ee355"
+        }
+      ]
+    },
+    "KANGA": {
+      "reason": "Independent singular garment or comb noun; regional eligibility comes from SCOWL, not an inferred definition label.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "KANGA",
+          "entrySha256": "da1a6aa87841baec8a62a1467dd8f7aa22d869b0d765a28b2c61eac969ddb04c"
+        }
+      ]
+    },
+    "KELPIE": {
+      "reason": "Singular sheepdog-breed noun, also a folklore noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "KELPIE",
+          "entrySha256": "23222e295c65803d8575e3a47f1612baa7d960729b3a4346fb2e6f053413885c"
+        }
+      ]
+    },
+    "KYLIE": {
+      "reason": "Singular regional boomerang noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "KYLIE",
+          "entrySha256": "2347e6b20f8897aeb89e6d7bbec7b27447fb1ba8d2dfe7290a0d1462904f9465"
+        }
+      ]
+    },
+    "MOSSIE": {
+      "reason": "Singular regional mosquito noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "MOSSIE",
+          "entrySha256": "a279177f42aa55c647c4bc418dfc13a9e7c2e42cd96d192550332d7e498e493a"
+        }
+      ]
+    },
+    "MOZZIE": {
+      "reason": "Singular spelling variant for a mosquito.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "MOZZIE",
+          "entrySha256": "2e0613b4fb2efc360c3638f35e840028a44df6a44a10ce0536a2e935f7b8dc14"
+        }
+      ]
+    },
+    "NANA": {
+      "reason": "Independent singular kinship noun.",
+      "evidence": [
+        {
+          "file": "definitions/4.json",
+          "word": "NANA",
+          "entrySha256": "f796439b18b9c35f3796de6d8a40ac5e80f7f0c5a01b34f288b919ee623453bb"
+        }
+      ]
+    },
+    "NONG": {
+      "reason": "Singular regional person noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "NONG",
+          "entrySha256": "848af6198f3142f5fcc905cd4b117a3e7ddc9be0f6820bb540ce8eab000a7b10"
+        }
+      ]
+    },
+    "NUGGETY": {
+      "reason": "Positive descriptive adjective, not an inflected plural or past.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "NUGGETY",
+          "entrySha256": "904739b042e32dca8c24a766f00ac49e9d848b409c7c64e7aa7643189f5d3f23"
+        }
+      ]
+    },
+    "NULLA": {
+      "reason": "Singular alternative noun form for a stream-bed or Australian club.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "NULLA",
+          "entrySha256": "140fc6328cc95b320e4e577e64eeeca1be89bbd2b78865c1d9e1587aa3fd3d26"
+        }
+      ]
+    },
+    "RACQUET": {
+      "reason": "Singular Commonwealth sporting-equipment noun and independent verb lemma, not the plural RACQUETS.",
+      "evidence": [
+        {
+          "url": "https://en.wiktionary.org/w/index.php?title=racquet&oldid=90571322",
+          "section": "English / Noun and Verb",
+          "reviewed": "2026-11-06",
+          "finding": "Commonwealth noun lemma with a separately labelled plural, and an independent verb lemma."
+        }
+      ]
+    },
+    "RAGER": {
+      "reason": "Singular event or agent noun, not an inflected form.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "RAGER",
+          "entrySha256": "8b027320682ff4ce9427b45959f7be4c2c998696f7e1f3f6a7364eb6d48d8310"
+        }
+      ]
+    },
+    "RAZOO": {
+      "reason": "Singular regional coin or minimal-quantity noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "RAZOO",
+          "entrySha256": "774be78010233d7135b6f6c48ad654047f781b390ed2b9cde5281348271437a5"
+        }
+      ]
+    },
+    "REGO": {
+      "reason": "Independent registration noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "REGO",
+          "entrySha256": "78735a9cabf50be09d76e857cbe8f056938871a0fd4c587167b9f5225ed63e9e"
+        }
+      ]
+    },
+    "RORT": {
+      "reason": "Singular fraud noun and uninflected verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "RORT",
+          "entrySha256": "64120ad52cf1adc60c9d7408c25584a6e78cdfe1046c0ae8688144c367786d1a"
+        }
+      ]
+    },
+    "ROUGHIE": {
+      "reason": "Singular fish-name variant with an independent noun sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "ROUGHIE",
+          "entrySha256": "119f933a8ee5a1014289c95f7d50397b7ede0cab94800f3bc70f4cd0f397090a"
+        }
+      ]
+    },
+    "ROUGHY": {
+      "reason": "Singular fish noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "ROUGHY",
+          "entrySha256": "f37fd824bea0b7342e8fdd453f21d1fc52603dcb892a9fdeecedf53f206ba315"
+        }
+      ]
+    },
+    "SANGER": {
+      "reason": "Singular regional sandwich noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "SANGER",
+          "entrySha256": "2f75136085102884709973aca626ccd2b302854d2c6be10cf975d26ef5d61cf3"
+        }
+      ]
+    },
+    "SHONKY": {
+      "reason": "Positive regional adjective and singular person noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "SHONKY",
+          "entrySha256": "9a2ca97540d62aa51023a85a01eb075a6a72f22e02e3465e8faf56f81c4e4526"
+        }
+      ]
+    },
+    "SKITE": {
+      "reason": "Independent verb lemma for boasting and singular person noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "SKITE",
+          "entrySha256": "d23d1159cd5107d279d871f5d3b958742e981cf73f8838f19b8ad10bcb86cb49"
+        }
+      ]
+    },
+    "SMOKO": {
+      "reason": "Singular regional break-time noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "SMOKO",
+          "entrySha256": "c8305d635f01b9af7d1fc92e75febef4fff57a2e6b9019bb1076a9fe3df66ee5"
+        }
+      ]
+    },
+    "SOOK": {
+      "reason": "Independent singular regional person or animal noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "SOOK",
+          "entrySha256": "43d6d2b8aa6070b149004f27c79d70f252cfdc6bceb7dfa6c7da143a20cff848"
+        }
+      ]
+    },
+    "SUNBAKE": {
+      "reason": "Uninflected regional verb lemma and singular activity noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "SUNBAKE",
+          "entrySha256": "5f7b32c2c14f7dae706d3dda3afad4e837633ed156517d93096ebe2cc7e527d6"
+        }
+      ]
+    },
+    "SWAGMAN": {
+      "reason": "Singular regional itinerant-person noun; SWAGMEN remains excluded.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "SWAGMAN",
+          "entrySha256": "f7b10c58eed18aa409c768de60974bc7a4aaae7eea9e08e07332ac4165174b7c"
+        }
+      ]
+    },
+    "TINNIE": {
+      "reason": "Singular regional boat or container noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "TINNIE",
+          "entrySha256": "ba3833ec1cfae5cf925ce3abbcaf3a570328930c0854ce2cb64624d5e7069b8c"
+        }
+      ]
+    },
+    "TROPPO": {
+      "reason": "Uninflected regional adjective.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "TROPPO",
+          "entrySha256": "22876aeadddbcc43f7620a8865fbcaaa68ea6129ab7d9381bcd6704b17f29b16"
+        }
+      ]
+    },
+    "TRUCKIE": {
+      "reason": "Singular regional driver noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "TRUCKIE",
+          "entrySha256": "e869dc190642e56956b35b50c4be238b7befd64fa6eaa027a8a2153a9775d391"
+        }
+      ]
+    },
+    "UTE": {
+      "reason": "Singular Australian/New Zealand vehicle noun, not the plural UTES.",
+      "evidence": [
+        {
+          "url": "https://en.wiktionary.org/w/index.php?oldid=94635769&title=ute",
+          "section": "English / Noun",
+          "reviewed": "2026-11-06",
+          "finding": "English noun lemma with a separately labelled plural; Australian and New Zealand vehicle senses."
+        }
+      ]
+    },
+    "WOOMERA": {
+      "reason": "Singular regional implement noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "WOOMERA",
+          "entrySha256": "ee6d47ae83e230cc0f018e3ea4aaa582adc7d3c7f87900cfb0d4ffa6dccb0783"
+        }
+      ]
+    },
+    "WOWSER": {
+      "reason": "Independent singular person noun; not its plural WOWSERS.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "WOWSER",
+          "entrySha256": "6a929b79944ba6e0ed9518c30158153ab0441983570393ba9f2d5af71021cd97"
+        }
+      ]
+    },
+    "YABBER": {
+      "reason": "Uninflected regional verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "YABBER",
+          "entrySha256": "8ba50eed9c049d612107df6298e7265329130e81cc1284a3c376b0284533e5fd"
+        }
+      ]
+    },
+    "YABBIE": {
+      "reason": "Singular spelling variant of YABBY; the referenced base has an independent animal noun sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "YABBIE",
+          "entrySha256": "572b23288b360a88ecd50243b3b7cd3ed7f0269eb34f7e7be251336859eef318"
+        },
+        {
+          "file": "definitions/english-5.json",
+          "word": "YABBY",
+          "entrySha256": "d0bdda8ed59fc71c252f3b2b48899bd141aeab9d629d53c8e1bdf39c97bac0b1"
+        }
+      ]
+    },
+    "YABBY": {
+      "reason": "Singular regional crustacean noun and independent verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "YABBY",
+          "entrySha256": "d0bdda8ed59fc71c252f3b2b48899bd141aeab9d629d53c8e1bdf39c97bac0b1"
+        }
+      ]
+    },
+    "YAKKA": {
+      "reason": "Independent mass work noun and verb lemma.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "YAKKA",
+          "entrySha256": "5fb908fea47b2ad01696030ac150710ae265f6aad27eb300ec9ea9469a44a20e"
+        }
+      ]
+    },
+    "ZACK": {
+      "reason": "Singular regional monetary-unit noun.",
+      "evidence": [
+        {
+          "file": "definitions/english-4.json",
+          "word": "ZACK",
+          "entrySha256": "70ab4aef9d53eff6458533fdd57c29c1f7c9fc8b445e9f564c117f9ff8dc2e66"
+        }
+      ]
+    }
+  },
+  "deferredReason": "Not included in this conservative base-word allowlist. This group contains known inflections as well as unresolved base words; deferral is not a claim that every word is an inflection.",
+  "deferred": [
+    "AFTIE",
+    "AFTIES",
+    "AFTO",
+    "AFTOS",
+    "AMBOS",
+    "ARVOS",
+    "AVO",
+    "AVOS",
+    "BARBEQUE",
+    "BARBEQUES",
+    "BARRAMUNDI",
+    "BARRAMUNDIS",
+    "BICKIES",
+    "BIFFO",
+    "BIFFOS",
+    "BIKKIE",
+    "BIKKIES",
+    "BILLABONG",
+    "BILLABONGS",
+    "BINGLED",
+    "BINGLES",
+    "BINGLING",
+    "BLOWIE",
+    "BLOWIES",
+    "BLUDGER",
+    "BLUDGERS",
+    "BLUEYS",
+    "BOGANS",
+    "BONZ",
+    "BOSHTER",
+    "BOSKER",
+    "BREKKIE",
+    "BREKKIES",
+    "BREKKY",
+    "BRUMBIES",
+    "BUNDIED",
+    "BUNDIES",
+    "BUNDYING",
+    "BUNYIPS",
+    "BUSHFIRE",
+    "BUSHFIRES",
+    "BUSHIE",
+    "BUSHIES",
+    "BUSHRANGER",
+    "BUSHRANGERS",
+    "CARK",
+    "CARKED",
+    "CARKING",
+    "CARKS",
+    "CHOOKS",
+    "COATHANGER",
+    "COATHANGERS",
+    "COBBERED",
+    "COBBERING",
+    "COOEED",
+    "COOEEING",
+    "COOEES",
+    "COOLABAH",
+    "COOLABAHS",
+    "COOLIBAH",
+    "COOLIBAHS",
+    "CORROBOREE",
+    "CORROBOREED",
+    "CORROBOREES",
+    "COSSIES",
+    "COZZIE",
+    "COZZIES",
+    "CROCS",
+    "DEADSET",
+    "DEVO",
+    "DILLYBAG",
+    "DILLYBAGS",
+    "DOBBERS",
+    "DOONAS",
+    "DRONGOS",
+    "DUNNIES",
+    "EARBASHED",
+    "EARBASHER",
+    "EARBASHERS",
+    "EARBASHES",
+    "EARBASHING",
+    "ENZED",
+    "ENZEDDER",
+    "ENZEDDERS",
+    "ESKIES",
+    "ESKY",
+    "FOSSICKED",
+    "FOSSICKER",
+    "FOSSICKERS",
+    "FOSSICKING",
+    "FOSSICKS",
+    "FURPHIES",
+    "GALAHS",
+    "GARBOS",
+    "GOODO",
+    "GREENIES",
+    "GUERILLA",
+    "GUERILLAS",
+    "GUTFULS",
+    "HOONED",
+    "HOONER",
+    "HOONERS",
+    "HOONING",
+    "HOONS",
+    "JACKAROO",
+    "JACKAROOED",
+    "JACKAROOING",
+    "JACKAROOS",
+    "JILLAROO",
+    "JILLAROOED",
+    "JILLAROOING",
+    "JILLAROOS",
+    "JUMBUCKS",
+    "KANGAS",
+    "KELPIES",
+    "KYLIES",
+    "LAMINGTON",
+    "LAMINGTONS",
+    "LARRIKIN",
+    "LARRIKINISM",
+    "LARRIKINS",
+    "LILLY",
+    "MOSSIES",
+    "MOZZIES",
+    "MUDDIE",
+    "NANAS",
+    "NEWSAGENCY",
+    "NONGS",
+    "ONYA",
+    "ONYAS",
+    "PILLIES",
+    "PILLY",
+    "POKIE",
+    "POKIES",
+    "POLLIE",
+    "POLLIES",
+    "RACQUETS",
+    "RAGERS",
+    "RAZOOS",
+    "REGOS",
+    "ROPEABLE",
+    "RORTED",
+    "RORTING",
+    "RORTS",
+    "ROUGHIES",
+    "SANDGROPER",
+    "SANDGROPERS",
+    "SANDSHOE",
+    "SANDSHOES",
+    "SANGERS",
+    "SHONK",
+    "SHONKIES",
+    "SHONKS",
+    "SILVERTAIL",
+    "SILVERTAILS",
+    "SKERRICK",
+    "SKERRICKS",
+    "SKITED",
+    "SKITER",
+    "SKITERS",
+    "SKITING",
+    "SMOKOS",
+    "SOOKS",
+    "SOOKY",
+    "SPARKIE",
+    "SPARKIES",
+    "SQUATOCRACY",
+    "STICKYBEAK",
+    "STICKYBEAKS",
+    "STRINE",
+    "SUNBAKED",
+    "SUNBAKER",
+    "SUNBAKERS",
+    "SUNBAKES",
+    "SUNBAKING",
+    "SUNDOWNER",
+    "SUNDOWNERS",
+    "SWAGMEN",
+    "TINNIES",
+    "TRUCKIES",
+    "UTES",
+    "VERANDAH",
+    "VERANDAHS",
+    "WESTIE",
+    "WESTIES",
+    "WHACKO",
+    "WITCHETTY",
+    "WOBBEGONG",
+    "WOBBEGONGS",
+    "WOOMERAS",
+    "WOOP",
+    "WOWSERISM",
+    "WOWSERISTIC",
+    "WOWSERS",
+    "WOWSERY",
+    "YABBERED",
+    "YABBERING",
+    "YABBERS",
+    "YABBIED",
+    "YABBIES",
+    "YABBYING",
+    "YOGHURT",
+    "YOGHURTS",
+    "YOUSE",
+    "ZAC",
+    "ZACKS",
+    "ZACS"
+  ],
+  "counts": {
+    "newCommon35": 272,
+    "allowed": 65,
+    "deferred": 207
+  }
+}

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
-import {LANGUAGES,isLanguage,normalizeGuess,isLetter,keyboardRows,languageLabel} from '../src/language.ts';
+import {LANGUAGES,isLanguage,normalizeGuess,isLetter,keyboardRows,languageLabel,type Language} from '../src/language.ts';
 import {vocabulary,supportedLengths,isSupportedLength,answerDataset,absurdDataset} from '../src/words.ts';
 import {newRun,submit,score,dailyAnswer,shareText,choosePractice,type Difficulty} from '../src/domain.ts';
 import {emptySave,encode,decode} from '../src/persistence.ts';
@@ -60,7 +60,7 @@ for(const difficulty of ['easy','normal','hard','strict'] as Difficulty[])test(`
 
 test('Filipino save keys and resets preserve existing English/Spanish notebooks and reject wrong-language metadata',()=>{
  for(const path of ['/','/kata-inspired-by-wordle-codex-dot/']){
-  const keys=LANGUAGES.map(lang=>saveKeyForPath(path,5,lang));assert.equal(new Set(keys).size,LANGUAGES.length);assert.ok(keys[1].endsWith('.es-MX'));assert.ok(keys[2].endsWith('.fil-PH'));
+  const allKeys=LANGUAGES.map(lang=>saveKeyForPath(path,5,lang));assert.equal(new Set(allKeys).size,LANGUAGES.length);const keys=['en','es-MX','fil-PH'].map(lang=>saveKeyForPath(path,5,lang as Language));assert.ok(keys[1].endsWith('.es-MX'));assert.ok(keys[2].endsWith('.fil-PH'));
   const state=new Map([[keys[0],'english'],[keys[1],'spanish'],[keys[2],'filipino'],[storageEpochKey(path),STORAGE_EPOCH],['unrelated','keep']]);
   const storage={get length(){return state.size},key:(i:number)=>[...state.keys()][i]??null,getItem:(k:string)=>state.get(k)??null,setItem:(k:string,v:string)=>{state.set(k,v)},removeItem:(k:string)=>{state.delete(k)}};
   assert.equal(resetStorageForUpdate(storage,path),false);assert.equal(state.get(keys[0]),'english');assert.equal(state.get(keys[1]),'spanish');assert.equal(state.get('unrelated'),'keep');

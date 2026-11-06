@@ -1,11 +1,11 @@
 import {validDate,type Difficulty} from './domain.ts';
-import {normalizeGuess,savedDutchRules,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
+import {usesAccentEquivalence,normalizeGuess,savedDutchRules,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
 import {answerDataset,vocabulary,supportedLengths,isSupportedLength} from './words.ts';
 
 /** One tile's ordered-subsequence clue. Joining is true only when both letters are neighbors in answer and guess. */
 export type OrderTile={letter:string;kind:'absent'|'present'|'ordered';joinPrevious:boolean;start:boolean;end:boolean};
 export function orderFeedback(answer:string,guess:string,language:Language='en',dutchRules:DutchRules=2):OrderTile[] {
- if(language==='nl-NL'&&dutchRules===2){answer=normalizeGuess(answer,language,dutchRules);guess=normalizeGuess(guess,language,dutchRules);}
+ if(usesAccentEquivalence(language,dutchRules)){answer=normalizeGuess(answer,language,dutchRules);guess=normalizeGuess(guess,language,dutchRules);}
  const a=[...answer],g=[...guess],n=a.length,m=g.length;
  if(!n||!m)return g.map(letter=>({letter,kind:'absent',joinPrevious:false,start:false,end:false}));
  // An LCS fixes the largest possible set of letters in order. Among ties, favor

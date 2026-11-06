@@ -1,0 +1,116 @@
+{
+  "en-US": {
+    "3": {
+      "answers": 446,
+      "guesses": 1141
+    },
+    "4": {
+      "answers": 1469,
+      "guesses": 4925
+    },
+    "5": {
+      "answers": 2074,
+      "guesses": 11088
+    },
+    "6": {
+      "answers": 3103,
+      "guesses": 19631
+    },
+    "7": {
+      "answers": 4070,
+      "guesses": 29560
+    },
+    "8": {
+      "answers": 4142,
+      "guesses": 36615
+    },
+    "9": {
+      "answers": 3561,
+      "guesses": 35735
+    },
+    "10": {
+      "answers": 2641,
+      "guesses": 31128
+    },
+    "11": {
+      "answers": 1633,
+      "guesses": 24388
+    }
+  },
+  "en-GB": {
+    "3": {
+      "answers": 445,
+      "guesses": 1135
+    },
+    "4": {
+      "answers": 1463,
+      "guesses": 4897
+    },
+    "5": {
+      "answers": 2067,
+      "guesses": 11056
+    },
+    "6": {
+      "answers": 3113,
+      "guesses": 19574
+    },
+    "7": {
+      "answers": 4066,
+      "guesses": 29476
+    },
+    "8": {
+      "answers": 4109,
+      "guesses": 36451
+    },
+    "9": {
+      "answers": 3573,
+      "guesses": 35743
+    },
+    "10": {
+      "answers": 2661,
+      "guesses": 31242
+    },
+    "11": {
+      "answers": 1652,
+      "guesses": 24497
+    }
+  },
+  "en-AU": {
+    "3": {
+      "answers": 446,
+      "guesses": 1136
+    },
+    "4": {
+      "answers": 1473,
+      "guesses": 4904
+    },
+    "5": {
+      "answers": 2087,
+      "guesses": 11067
+    },
+    "6": {
+      "answers": 3135,
+      "guesses": 19587
+    },
+    "7": {
+      "answers": 4077,
+      "guesses": 29494
+    },
+    "8": {
+      "answers": 4109,
+      "guesses": 36462
+    },
+    "9": {
+      "answers": 3570,
+      "guesses": 35749
+    },
+    "10": {
+      "answers": 2661,
+      "guesses": 31243
+    },
+    "11": {
+      "answers": 1652,
+      "guesses": 24501
+    }
+  }
+}

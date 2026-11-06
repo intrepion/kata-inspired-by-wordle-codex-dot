@@ -1,4 +1,4 @@
-import {normalizeGuess,savedDutchRules,isLanguage,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
+import {usesAccentEquivalence,normalizeGuess,savedDutchRules,isLanguage,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
 import {vocabulary,absurdDataset,isWordLength,isSupportedLength} from './words.ts';
 import {newRun,score,submit,difficulty,awaitingContinuation,continueGuessing,setDifficulty,clueConstraintError,type Difficulty,type Run,type Clue,type Outcome} from './domain.ts';
 
@@ -66,7 +66,7 @@ export function restoreImpossible(value:unknown):ImpossibleRun|null {
  if(run.continuation==='pending'&&input.continuation==='unlimited')run=continueGuessing(run);
  if(input.continuation==='pending'&&(run.guesses.length!==6||impossibleStatus(run)==='won'))return null;
  if(input.continuation==='unlimited'&&run.guesses.length<6)return null;
- const draft=typeof input.draft==='string'?language==='nl-NL'&&run.dutchRules===2?normalizeGuess(input.draft,language,run.dutchRules):input.draft:'';
+ const draft=typeof input.draft==='string'?usesAccentEquivalence(language,run.dutchRules)?normalizeGuess(input.draft,language,run.dutchRules):input.draft:'';
  if(impossibleStatus(run)==='playing'&&!awaitingContinuation(run)&&validLetters(draft,language)&&draft.length<=length)run.draft=draft;
  if(input.gaveUp===true&&impossibleStatus(run)==='playing')run.gaveUp=true;
  if(run.gaveUp)run.draft='';

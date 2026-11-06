@@ -2,7 +2,7 @@ import {previousEnglishDataset,previousEnglishAnswers} from './legacy-english.ts
 import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
 import {readNotebookStats,recordCompletion,initializeNotebookStats,type NotebookStats} from './notebook-statistics.ts';
 import {validUniqueClue} from './one.ts';
-import {normalizeGuess,savedDutchRules,validLetters,type DutchRules,type Language} from './language.ts';
+import {isEnglish,usesAccentEquivalence,normalizeGuess,savedDutchRules,validLetters,type DutchRules,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
 import {vocabulary,answerDataset,PREVIOUS_ANSWER_DATASET} from './words.ts';
 import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, awaitingContinuation, validDate, type Run,type Difficulty} from './domain.ts';
@@ -13,7 +13,7 @@ export interface Save extends DailyScheduleContext {
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
 }
 export function emptySave(date:string,mode:boolean|Difficulty=false,length=5,language:Language='en'):Save {
- return {version:3,dailyScheduleVersion:DAILY_SCHEDULE_VERSION,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(language==='en'&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',one:newRun(vocabulary(length,language).answers[0],false,language),impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
+ return {version:3,dailyScheduleVersion:DAILY_SCHEDULE_VERSION,dataset:answerDataset(length,language),...(language==='en'?{}:{language}),history:{},date,daily:newRun(dailyAnswer(date,length,language),mode,language),practice:newRun(isEnglish(language)&&length===5?'APPLE':vocabulary(length,language).answers[0],mode,language),mode:'daily',one:newRun(vocabulary(length,language).answers[0],false,language),impossible:newImpossible('normal',length,language),results:{},settings:{contrast:false,hardMode:mode===true||mode==='hard',...(mode==='strict'?{strictMode:true}:mode==='easy'?{easyMode:true}:{})}};
 }
 function object(value:unknown):value is Record<string,unknown> {return typeof value==='object' && value!==null && !Array.isArray(value)}
 function storedMode(value:unknown):Save['mode'] {return value==='evil'||value==='absurd'?'impossible':value==='practice'||value==='impossible'||value==='one'?value:'daily'}
@@ -21,7 +21,7 @@ function storedDifficulty(value:Record<string,unknown>):Difficulty {return value
 function validatedRun(value:unknown, answer:string,language:Language='en'):Run|null {
  if(!object(value)||!Array.isArray(value.guesses))return null;
  if(value.dutchRules!==undefined&&value.dutchRules!==1&&value.dutchRules!==2)return null;
- const dutchRules=savedDutchRules(value),key=(word:string)=>language==='nl-NL'&&dutchRules===2?normalizeGuess(word,language,dutchRules):word;
+ const dutchRules=savedDutchRules(value),key=(word:string)=>usesAccentEquivalence(language,dutchRules)?normalizeGuess(word,language,dutchRules):word;
  const ALLOWED=vocabulary(answer.length,language,dutchRules).allowed,guesses:string[]=[],seen=new Set<string>();
  if(value.guesses.length>ALLOWED.size||value.guesses.length>6&&value.continuation!=='unlimited')return null;
  for(const guess of value.guesses){if(typeof guess!=='string'||!ALLOWED.has(guess)||seen.has(key(guess))||seen.has(key(answer)))return null;guesses.push(key(guess));seen.add(key(guess))}
@@ -79,12 +79,12 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   if(object(value.settings)&&value.settings.suboptimal===true)save.settings.suboptimal=true;
   if(object(value.settings)&&(value.settings.strictMode===true||value.settings.difficulty==='strict')){save.settings.strictMode=true;save.settings.hardMode=false;delete save.settings.easyMode;}
   save.daily=newRun(notebookDailyAnswer(save,today,length,language),difficulty(save.settings),language);
-  save.practice=newRun(language==='en'&&length===5?'APPLE':ANSWERS[0],difficulty(save.settings),language);
+  save.practice=newRun(isEnglish(language)&&length===5?'APPLE':ANSWERS[0],difficulty(save.settings),language);
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;
   if(replacedGuide){
    // Read only preferences from the known previous guide, never its clues, answers or outcomes.
    save.daily=newRun(notebookDailyAnswer(save,today,length,language),validDate(value.date)&&value.date===today&&object(value.daily)?storedDifficulty(value.daily):difficulty(save.settings),language);
-   save.practice=newRun(language==='en'&&length===5?'APPLE':ANSWERS[0],object(value.practice)?storedDifficulty(value.practice):difficulty(save.settings),language);
+   save.practice=newRun(isEnglish(language)&&length===5?'APPLE':ANSWERS[0],object(value.practice)?storedDifficulty(value.practice):difficulty(save.settings),language);
    const adaptive=object(value.impossible)?value.impossible:object(value.absurd)?value.absurd:object(value.evil)?value.evil:null;
    save.impossible=newImpossible(adaptive?storedDifficulty(adaptive):'normal',length,language);save.mode=storedMode(value.mode);if(save.mode==='one')save.mode='daily';
    return save;

@@ -1,8 +1,8 @@
 import {scheduledDailyAnswer} from './daily-schedule.ts';
-import {normalizeGuess,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
+import {usesAccentEquivalence,normalizeGuess,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
 export type Clue = 'absent' | 'elsewhere' | 'exact';
 export function score(answer:string, guess:string,language:Language='en',dutchRules:DutchRules=2):Clue[] {
- if(language==='nl-NL'&&dutchRules===2){answer=normalizeGuess(answer,language,dutchRules);guess=normalizeGuess(guess,language,dutchRules)}
+ if(usesAccentEquivalence(language,dutchRules)){answer=normalizeGuess(answer,language,dutchRules);guess=normalizeGuess(guess,language,dutchRules)}
  const clues:Clue[]=Array(answer.length).fill('absent');
  const remaining=new Map<string,number>();
  for(let i=0;i<answer.length;i++) {

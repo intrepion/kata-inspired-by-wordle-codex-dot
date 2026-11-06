@@ -4,7 +4,7 @@ import fiveLetterCuration from './data/answer-curation.json';
 import lengthCuration from './data/length-curation.json';
 import extendedCuration from './data/extended-curation.json';
 import {vocabulary,type WordLength} from './words.ts';
-import {normalizeGuess,type DutchRules,type Language} from './language.ts';
+import {isEnglish,normalizeGuess,type DutchRules,type Language} from './language.ts';
 export interface AnswerEligibility {possible:boolean;reason:string}
 type Exclusion={word:string;reasons:{kind:string;lemma?:string;reason?:string}[]};
 const spanishReasons=new Map<string,string>();
@@ -20,7 +20,7 @@ export function answerEligibility(raw:string,length:WordLength,language:Language
  if(language==='nl-NL'&&allowed.has(word))return {possible:false,reason:'Valid guess; not selected by this list’s documented commonness, standalone-sense and Netherlands usage policy.'};
  if(language==='fil-PH'&&allowed.has(word)){const review=(filipinoReview as Record<string,{reason:string;exclude?:boolean}>)[word];return {possible:false,reason:`Valid guess; ${review?.exclude?review.reason:'not selected by this list’s conservative commonness and standalone-sense policy.'}`};}
  if(language==='es-MX'&&allowed.has(word))return {possible:false,reason:`Valid guess; ${spanishReasons.get(word)??'not selected by this list’s documented frequency and base-word policy.'}`};
- const excluded=language==='en'&&word.length===length?exclusions.get(word):undefined;
+ const excluded=isEnglish(language)&&word.length===length?exclusions.get(word):undefined;
  const reasons=excluded?.reasons.filter(reason=>(reason.kind==='plural'||reason.kind==='past')&&reason.lemma).map(reason=>`${reason.kind==='plural'?'plural noun':'past-tense verb'} form of ${reason.lemma!.toUpperCase()}`);
  const reviewed=excluded?.reasons.find(reason=>reason.kind==='reviewed'&&reason.reason)?.reason;
  if(allowed.has(word)&&reviewed)return {possible:false,reason:`Valid guess; ${reviewed}`};

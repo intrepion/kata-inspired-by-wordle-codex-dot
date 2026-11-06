@@ -2,9 +2,23 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English, Spanish and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish, French and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
-Formerly Morrowmark. Original notebooks and preferences are preserved during the English answer-guide update; compatible progress carries forward.
+Formerly Morrowmark. Language and variety are selected separately. Each variety has its own word lists, progress and statistics. Old mixed-English games are not imported into the new English notebooks; other language saves and shared preferences stay unchanged.
+
+## Language and variety
+
+Choose **Language → Variety** before playing. The game remembers your last variety for each language and your word length for each variety. Statistics have independent language/variety filters.
+
+- English: **United States**, **United Kingdom**, **Australia**. Separate SCOWL regional answer and accepted-guess lists, 3–11 letters. Five-letter answer counts: **2,074 US**, **2,067 British**, **2,087 Australian**. COLOR/COLOUR and CENTER/CENTRE follow the selected spelling category, not a mixed list.
+- Español: **México** and **España**, 3–11 letters. Spain uses its own dictionary and region-compatible answer selection. Spain's bundled meanings are **Spanish definitions, not English translations**. Mexican teaching remains in Mexico's notebook only. Accents, Ü and Ñ stay distinct.
+- Français: **France** and **Canada**, 3–11 letters. Conservative region-specific answer and guess selections share ordinary French words. Accents and ç do not affect play. Œ/OE and Æ/AE use two tiles; reveals retain the correct original spelling. English meanings are bundled. Regional coverage is a starter selection, not an exhaustive or native-human-reviewed dictionary.
+- Nederlands: **Nederland**, unchanged, 3–11 letters.
+- Filipino: **Philippines**, unchanged, five letters.
+
+There is no playable mixed-English option. An old English preference opens a fresh American English notebook. Original mixed-English storage is left untouched for recovery, but its rounds and statistics are not copied into regional games. Shared theme/difficulty and existing Spanish, Dutch and Filipino saves are preserved. [Decision and compatibility details](docs/adr/0040-language-varieties.md).
+
+English lists reproduce offline with `node scripts/generate-english-varieties.mjs --check`. Regional sources and licenses are documented in [WORDS-LICENSE.md](WORDS-LICENSE.md), [Spain sources](docs/spanish-spain-sources.md), and the bundled notices. Older sections below describe historical datasets where explicitly marked; old fixed English counts do not describe the new varieties.
 
 ## Play locally
 
@@ -30,12 +44,12 @@ Open http://127.0.0.1:5298. The launcher checks the port and refuses to replace 
 
 In Daily, Practice or Absurd, open **Settings (⚙) → Difficulty**: **Easy**, Normal, Hard, or Strict.
 
-- **Easy:** unrestricted guesses plus **Optimal guesses** below the keyboard. These are the five strongest one-step worst-case guesses based only on revealed clues, with exploratory guesses allowed. Candidate answers start from all 2,094 curated words and are filtered by observed feedback; the hidden selected word is never used to choose advice. Before any guess, Easy automatically shows loading and then five Optimal opening guesses below the keyboard. A visible hint above the board points there. Fresh rounds, reloads and mode switches keep this behavior; no first guess is required. A singleton is offered as a direct solve.
+- **Easy:** unrestricted guesses plus **Optimal guesses** below the keyboard. These are the five strongest one-step worst-case guesses based only on revealed clues, with exploratory guesses allowed. Candidate answers start from the selected variety and length's curated words and are filtered by observed feedback; the hidden selected word is never used to choose advice. Before any guess, Easy automatically shows loading and then five Optimal opening guesses below the keyboard. A visible hint above the board points there. Fresh rounds, reloads and mode switches keep this behavior; no first guess is required. A singleton is offered as a direct solve.
 - **Normal:** any accepted dictionary word.
 - **Hard:** fixed greens and reuse revealed green/yellow copies; gray letters and previous yellow positions remain allowed.
 - **Strict:** fit all earlier clues, including yellow exclusions and duplicate minimum/maximum counts.
 
-**Settings → Show Suboptimal guesses** is optional and **off by default**, in every variant. It works in Daily, Practice and Absurd. Its five words fit all prior clues but leave the most answers in the worst case; the accepted-word universe is all 11,193 words, excluding prior guesses.
+**Settings → Show Suboptimal guesses** is optional and **off by default**, in every variant. It works in Daily, Practice and Absurd. Its five words fit all prior clues but leave the most answers in the worst case; the accepted-word universe is the selected variety and length's guess list, excluding prior guesses.
 
 Optimal reverses that worst-case ranking. Ties use fewer expected survivors under a uniform candidate assumption, then prefer remaining answer candidates, then alphabetical order. Suboptimal ties are alphabetical. Neither ranking claims a globally optimal strategy. The worker shows loading, caches public clue histories, and cancels stale work; when neither option is requested, no ranking worker runs.
 
@@ -45,9 +59,9 @@ Absurd supports the same four global difficulties. Select **Absurd → Settings 
 
 ## Absurd variant
 
-Select **Absurd** next to Daily dispatch and Practice. Choose Easy, Normal, Hard or Strict in Settings. The 11,193-word dictionary remains available subject to the chosen clue restrictions. Your global difficulty follows you into Absurd.
+Select **Absurd** next to Daily dispatch and Practice. Choose Easy, Normal, Hard or Strict in Settings. The selected regional dictionary remains available subject to the chosen clue restrictions. Your global difficulty follows you into Absurd.
 
-There is no preselected answer. Each valid guess partitions the surviving 2,094-answer pool by duplicate-aware feedback; the largest group survives. Equal groups avoid all-green when possible, then use a fixed left-to-right pattern order (absent, elsewhere, exact). The visible count shows remaining possibilities. Clues never contradict previous rows. This maximizes immediate survivors; it is not a solver or a claim that winning is mathematically impossible.
+There is no preselected answer. Each valid guess partitions the selected possible-answer pool by duplicate-aware feedback; the largest group survives. Equal groups avoid all-green when possible, then use a fixed left-to-right pattern order (absent, elsewhere, exact). The visible count shows remaining possibilities. Clues never contradict previous rows. This maximizes immediate survivors; it is not a solver or a claim that winning is mathematically impossible.
 
 You win only on an all-green selected row; six accepted guesses otherwise end the round and reveal **one surviving answer**, clearly identified as an example. Invalid/repeated guesses spend no turn. The separate adaptive round, draft and current result resume after reload and UTC rollover, without affecting daily marks or streaks. **New Absurd round** uses the global difficulty and starts the same deterministic full pool and confirms before replacing unfinished play. Completed results remain shareable until starting a new round; shares identify Absurd/adaptive, the selected difficulty and any permanent Assisted marker. There is no lifetime Absurd result history.
 
@@ -55,7 +69,7 @@ When enabled in Settings, **Suboptimal** appears below the keyboard in any mode.
 
 See [adaptive rules, tie-breaking and persistence](docs/adr/0006-impossible-variant.md).
 
-## Vocabulary provenance and scope
+## Historical mixed-English vocabulary provenance and scope
 
 Both lists are independently sourced, modified selections from **SCOWL 2020.12.07**, release revision `5ef55f9c42730ebe4394a78b77855468a6f15dd2`. The **2,094-answer pool** starts from the 3,493 words in SCOWL’s small/common tier (≤35), then applies pinned AGID plural/past-tense filtering and reviewed exceptions; the **11,193 accepted guesses** use its broader word-game tier (≤80). Only lowercase five-letter ASCII entries from general, American and British word categories are included. Names, abbreviations, contractions, extra variant categories and accented forms are excluded; recognized regular/irregular plural nouns and past-tense verbs are removed from answers, while they remain valid guesses. Clear common independent senses (FOUND, WOUND, SPOKE), invariant base forms (SHEEP), and non-past S/ED words remain. Present-tense-only forms and past-participle-only forms are not generally excluded. This is a documented policy with source gaps, not exhaustive grammatical classification. This is a common-tier selection, not a claim of manual editorial review or official Wordle/NYT parity. Every answer is accepted.
 
@@ -90,11 +104,11 @@ Absurd displays **curated answers remaining**, using the2,094-word answer pool. 
 With the SCOWL replacement, the reported AUDIO→ENTRY→BEACH→VALVE→GAFFE sequence yields **2,094→410→60→27→12→6**. Those are curated survivors, independently checked against the new data; feedback differs from the retired guide where the largest bucket differs. The two former ending words are absent from the new accepted dictionary and spend no turn. Tests cover current sixth-turn outcomes, reconstruction and advice counts.
 
 
-## Absurd pool and save compatibility
+## Historical mixed-English Absurd pool and save compatibility
 
 Absurd’s selection, remaining count, reveal and advice use exactly the current2,094 curated answers. All11,193 accepted words remain guesses subject to difficulty. Exploratory guesses do not become answers. The new dataset identifier rejects old snapshots rather than replaying their clues against a different pool. Current-guide progress resumes normally.
 
-## English answer-update compatibility
+## Historical English answer-update compatibility
 
 The November 6 update does not perform a global fresh start. The old automatic reset described in ADR0023 is retired. Affected English notebooks use a separate active namespace while every original stored value remains untouched. Three-letter English, Spanish, Filipino and shared preferences retain their existing keys. **Settings → Download original English notebooks** exports the original data without uploading it.
 

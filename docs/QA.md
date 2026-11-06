@@ -258,3 +258,27 @@ Chrome checks used only the isolated local test origin `http://127.0.0.1:5310`, 
 Desktop and emulated 390 × 844 mobile screenshots were inspected. The mobile document width did not exceed the viewport; controls, meanings and accented reveal remained readable. The temporary viewport override was reset, and no browser console errors were reported. Accented/decomposed keyboard strings are covered by automated tests; this is not a claim of physical mobile-IME testing. No fresh 9-length × 4-difficulty browser matrix is claimed. The local fixture page is excluded from source and not part of the Pages build.
 
 No push, remote branch, source upload or deployment was performed for this revision. Publication remains a separate approval.
+
+## Language and regional varieties, November 6, 2026
+
+Language and Variety are separate native selectors in the game and statistics. US, British and Australian English have independently generated answer and guess lists. Spain, France and Canada have their own sourced packs. Existing Mexico, Dutch and Filipino dictionaries and keys are unchanged. Mixed-English rounds are not offered or imported into the new English notebooks; original stored values remain untouched rather than clearing unrelated state. ADR 0040 records the source and compatibility decisions.
+
+Verification against the final integration:
+- Red-first domain contracts demonstrated missing regional choices, mixed English acceptance and incorrect source routing before implementation.
+- `npm run check`: strict TypeScript, **575 passing tests**, zero failures/skips, production build.
+- `npm run build:pages`: passed. The existing large-chunk warning remains; the expanded eagerly loaded dictionary bundle is about 23.3 MB minified / 6.7 MB gzip. Cold-network loading performance has not been benchmarked.
+- English varieties, Spain and French generators all passed offline `--check`; Australian archive/input/evidence checks passed.
+- `npm audit --audit-level=moderate`: zero vulnerabilities.
+- `node scripts/verify-arcade.mjs`: three existing capture records verified.
+- `git diff --check`: clean.
+- Independent code review found no blocking defect. Its canonical-spelling omission in the eliminated Absurd target message was fixed and included in the final builds.
+
+Browser checks ran on real loopback HTTP servers, not file URLs, with isolated browser profiles. `check-english-varieties.mjs`, `check-regional-varieties.mjs` and `check-french-ligatures.mjs` passed at the root test origin `http://127.0.0.1:5314/`. `check-varieties-pages.mjs` served the actual Pages build at its project subpath and reran all three suites, also verifying retained source notices and zero missing assets. The temporary Pages-path server stopped afterward; the root preview remains session-only and has no login/boot autostart.
+
+At desktop 1280px and emulated mobile 390px widths, checks covered region-specific accepted/rejected guesses, language/variety/length switching, remembered choices, reload, independent statistics filters, cancelled erasure, preservation of original English and Mexican notebooks and shared preferences, source-backed meanings, and all five rules under Daily and Practice for each newly added regional pack. French CEGEP/PREPA rejection follows the selected variety. Plain ECOLE solves canonical ÉCOLE with correct clues and survives reload. Synthetic Œ keyboard events enter two tiles; COEUR solves and reveals CŒUR in Conquest and Letroso, with correct reload. These are emulated/synthetic input checks, not physical mobile-IME certification. Desktop and mobile screenshots were inspected; final screenshots wait for bundled meanings, and no horizontal overflow or browser errors occurred.
+
+Domain checks additionally cover all nine lengths for every regional pack, locale-specific schedule/dataset identities, canonical accented answers, strict clues, advice, adaptive targets, unique One clues and Smashare pairs. All new locale/length combinations have a playable Smashare pair and five verified Daily One clues. English retains APPLE as the gentle first five-letter practice word.
+
+Limitations are disclosed in the UI and source documents: France/Canada regional labels are incomplete and the packs are conservative starter selections, Spain meanings are Spanish definitions rather than English translations, and Australian entries without approved standalone senses remain guesses only. Missing meanings are never invented. Shared ordinary words legitimately occur in several varieties.
+
+No push, remote branch, merge, source upload or deployment was performed for this revision. Publication requires a separate approval.

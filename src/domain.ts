@@ -1,7 +1,8 @@
 import {scheduledDailyAnswer} from './daily-schedule.ts';
-import {normalizeGuess,validLetters,languageLabel,type Language} from './language.ts';
+import {normalizeGuess,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
 export type Clue = 'absent' | 'elsewhere' | 'exact';
-export function score(answer:string, guess:string):Clue[] {
+export function score(answer:string, guess:string,language:Language='en',dutchRules:DutchRules=2):Clue[] {
+ if(language==='nl-NL'&&dutchRules===2){answer=normalizeGuess(answer,language,dutchRules);guess=normalizeGuess(guess,language,dutchRules)}
  const clues:Clue[]=Array(answer.length).fill('absent');
  const remaining=new Map<string,number>();
  for(let i=0;i<answer.length;i++) {
@@ -15,7 +16,7 @@ export function score(answer:string, guess:string):Clue[] {
 }
 
 import {vocabulary} from './words.ts';
-export interface Run {answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited'}
+export interface Run {dutchRules?:DutchRules;answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited'}
 export type Outcome = 'playing'|'won'|'lost';
 export const DAY=86_400_000;
 export function dateKey(now:Date):string {return now.toISOString().slice(0,10)}
@@ -26,11 +27,11 @@ export function dayIndex(date:string):number {return Math.floor((Date.parse(date
 export function dailyAnswer(date:string,length=5,language:Language='en'):string {return scheduledDailyAnswer(date,length,language)}
 export type Difficulty='easy'|'normal'|'hard'|'strict';
 export function difficulty(run:Pick<Run,'hardMode'|'strictMode'|'easyMode'>):Difficulty {return run.strictMode?'strict':run.hardMode?'hard':run.easyMode?'easy':'normal'}
-export function newRun(answer:string,mode:boolean|Difficulty=false,language:Language='en'):Run {
+export function newRun(answer:string,mode:boolean|Difficulty=false,language:Language='en',dutchRules:DutchRules=2):Run {
  const selected=mode===true?'hard':mode===false?'normal':mode;
- return {answer,guesses:[],draft:'',...(language==='en'?{}:{language}),...(selected==='strict'?{strictMode:true}:selected==='hard'?{hardMode:true}:selected==='easy'?{easyMode:true,assisted:true}:{})};
+ return {answer,guesses:[],draft:'',...(language==='nl-NL'?{dutchRules}:{}),...(language==='en'?{}:{language}),...(selected==='strict'?{strictMode:true}:selected==='hard'?{hardMode:true}:selected==='easy'?{easyMode:true,assisted:true}:{})};
 }
-export function status(run:Run):Outcome {return run.guesses.includes(run.answer)?'won':run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing'}
+export function status(run:Run):Outcome {return run.guesses.some(guess=>normalizeGuess(guess,run.language,run.dutchRules)===normalizeGuess(run.answer,run.language,run.dutchRules))?'won':run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing'}
 export function awaitingContinuation(run:Run):boolean {return status(run)==='playing'&&run.continuation==='pending'}
 export function continueGuessing<T extends Run>(run:T):T {return awaitingContinuation(run)?{...run,continuation:'unlimited',draft:''}:run}
 /** Easier choices follow the configured Easy < Normal < Hard < Strict order. */
@@ -40,15 +41,17 @@ export function giveUp<T extends Run>(run:T):T {return status(run)==='playing'?{
 export function submit(run:Run, raw:string):{run:Run;error?:string} {
  if(status(run)!=='playing') return {run,error:'This fieldnote is complete.'};
  if(awaitingContinuation(run))return {run,error:'Choose Keep guessing or Give up before another guess.'};
- const language=run.language??'en',guess=normalizeGuess(raw,language);
+ const language=run.language??'en',guess=normalizeGuess(raw,language,run.dutchRules);
  if(!validLetters(guess,language)||guess.length!==run.answer.length) return {run,error:run.answer.length===5?'Use all five letters.':`Use all ${run.answer.length} letters.`};
- const ALLOWED=vocabulary(run.answer.length,language).allowed;
+ const ALLOWED=vocabulary(run.answer.length,language,run.dutchRules).allowed;
  if(!ALLOWED.has(guess)) return {run,error:'That word is outside our field guide.'};
- if(run.guesses.includes(guess)) return {run,error:'Already noted. Try a different word.'};
- if(run.strictMode||run.hardMode){const error=clueConstraintError(run,guess,run.guesses.map(previous=>score(run.answer,previous)));if(error)return {run,error};}
- return {run:{...run,guesses:[...run.guesses,guess],draft:'',...(run.guesses.length===5&&guess!==run.answer?{continuation:'pending' as const}:{})}};
+ if(run.guesses.some(previous=>normalizeGuess(previous,language,run.dutchRules)===guess)) return {run,error:'Already noted. Try a different word.'};
+ if(run.strictMode||run.hardMode){const error=clueConstraintError(run,guess,run.guesses.map(previous=>score(run.answer,previous,run.language,run.dutchRules)));if(error)return {run,error};}
+ return {run:{...run,guesses:[...run.guesses,guess],draft:'',...(run.guesses.length===5&&guess!==normalizeGuess(run.answer,language,run.dutchRules)?{continuation:'pending' as const}:{})}};
 }
-export function clueConstraintError(run:Pick<Run,'guesses'|'hardMode'|'strictMode'>,guess:string,feedback:readonly (readonly Clue[])[]):string|undefined {
+export function clueConstraintError(run:Pick<Run,'guesses'|'hardMode'|'strictMode'|'language'|'dutchRules'>,guess:string,feedback:readonly (readonly Clue[])[]):string|undefined {
+ guess=normalizeGuess(guess,run.language,run.dutchRules);
+ run={...run,guesses:run.guesses.map(previous=>normalizeGuess(previous,run.language,run.dutchRules))};
  return run.strictMode?strictModeError(run,guess,feedback):run.hardMode?hardModeError(run,guess,feedback):undefined;
 }
 /** NYT-style positive hints: no gray exclusions or forbidden yellow positions. */
@@ -93,9 +96,9 @@ export function setDifficulty(run:Run,selected:Difficulty,outcome:Outcome=status
 export function setHardMode(run:Run,enabled:boolean):{run:Run;error?:string} {return setDifficulty(run,enabled?'hard':'normal')}
 export function keyboardClues(run:Run):Record<string,Clue> {
  const result:Record<string,Clue>={}; const rank={absent:0,elsewhere:1,exact:2};
- for(const guess of run.guesses) score(run.answer,guess).forEach((clue,i)=>{
+ for(const previous of run.guesses) {const guess=normalizeGuess(previous,run.language,run.dutchRules);score(run.answer,guess,run.language,run.dutchRules).forEach((clue,i)=>{
   if(result[guess[i]]===undefined || rank[clue]>rank[result[guess[i]]]) result[guess[i]]=clue;
- });
+ });}
  return result;
 }
 export function rollover(previousDate:string,run:Run,date:string):Run {return previousDate===date?run:newRun(dailyAnswer(date,run.answer.length,run.language),difficulty(run),run.language)}
@@ -106,5 +109,5 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
 }
 export function shareText(date:string, run:Run):string {
  const glyph={exact:'🟩',elsewhere:'🟨',absent:'⬛'};
- return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
+ return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g,run.language,run.dutchRules).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
 }

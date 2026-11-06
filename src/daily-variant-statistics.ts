@@ -2,7 +2,7 @@ import {validDate} from './domain.ts';
 import {dailyAbsurdTarget} from './daily-variants.ts';
 import {decode,emptySave} from './persistence.ts';
 import {initializeNotebookStats,notebookStatistics,type Completion,type StatsDifficulty,type AssistanceFilter} from './notebook-statistics.ts';
-import type {Language} from './language.ts';
+import {savedDutchRules,type Language} from './language.ts';
 
 type StorageReader=Pick<Storage,'length'|'key'|'getItem'>;
 /** Read each dated notebook once. A scope has at most one recorded result. */
@@ -19,7 +19,8 @@ export function dailyVariantRecords(storage:StorageReader,base:string,rules:'one
  for(const scope of scopes){
   const id=`${scope.date}:${scope.round}`;if(seen.has(id))continue;seen.add(id);
   const raw=storage.getItem(scope.key);if(!raw)continue;
-  const target=rules==='absurd'?dailyAbsurdTarget(scope.date,length,language).target:undefined;
+  let dutchRules:1|2=1;try{dutchRules=savedDutchRules(JSON.parse(raw).impossible)}catch{/* Decode handles malformed saves. */}
+  const target=rules==='absurd'?dailyAbsurdTarget(scope.date,length,language,dutchRules).target:undefined;
   const saved=decode(raw,scope.date,length,language,target);initializeNotebookStats(saved,false);
   const mode=rules==='one'?'one':'impossible';
   const stats=saved.notebookStats!,record=stats.records[stats.active[mode]];

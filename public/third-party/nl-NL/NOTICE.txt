@@ -23,7 +23,9 @@ pp. 1317-1325, https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.14
 Changes: retain lowercase 3–11-letter lexical headwords, parts of speech,
 selected English glosses, usage labels and form/alternative relationships.
 Exclude enrichment categories/disambiguation, audio, media, quotations,
-examples, etymology, translations and non-Latin spellings. Preserve accents and trema using NFC and uppercase for play. IJ occupies
+examples, etymology, translations and non-Latin spellings. Preserve accents and trema using NFC and uppercase for canonical answer spelling.
+New gameplay rounds ignore accents and trema for comparison; saved legacy rounds
+retain their original rules. Answer reveals and source links preserve spelling. IJ occupies
 two tiles, including Unicode Ĳ/ĳ normalized to IJ. Y is never mapped to IJ. Original source spellings remain in definition attribution. A broad
 attested-guess list and conservative common-answer subset are separate. Source
 usage labels and editorial exclusions filter answers, not every displayed sense.

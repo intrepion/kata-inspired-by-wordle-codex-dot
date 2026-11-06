@@ -238,3 +238,23 @@ Independent code review found that advice encoding had only seven ternary weight
 Browser checks used a separate local origin at `http://127.0.0.1:5309`, avoiding existing user saves. In Chrome, verified Dutch selection; normal Conquest submission of WATER; on-screen trema entry REËEL and its English meaning; reload restoration of both guesses; switching to English and back retaining the Dutch notebook; Absurd submission and target-elimination result; One possibility's given BLAUW clue; Smashare accepting GROEN + ENKEL as GROENKEL with both definitions; and Letroso accepting IJS as three tiles with the ice meaning. Desktop and emulated 390 × 844 layouts showed readable controls, board, source attribution and all accented-key rows. Emulation is not physical-device testing. Every length/difficulty combination is covered by domain tests, not claimed as individually clicked in the browser.
 
 Builds retain the existing large-chunk warning; Dutch meanings are split into nine lazy chunks. Broader guesses include labelled regional/historical/inflected forms. No runtime external dictionary requests, new runtime dependencies, source upload, push or deployment were performed. This is a local implementation pending publication approval.
+
+## Dutch accent-equivalent gameplay, November 6, 2026
+
+New Dutch rounds ignore accents/trema for validation, repeat detection, clues, difficulty restrictions, winning and advice. Canonical accented spelling remains in reveals and dictionary sources. IJ remains two tiles, distinct from EI and Y. Source vocabulary, answer order, dataset identities and all other language data are unchanged. ADR 0039 documents per-round rules: unmarked saved Dutch rounds keep their original rules, while fresh rounds use accent equivalence. Historical results carry the same rule version.
+
+Final verification passed:
+- `npm run check`: strict TypeScript, **549 tests**, zero failures/skips, production build.
+- `npm run build:pages`: passed; existing large-chunk warnings remain.
+- `node scripts/generate-dutch.mjs --check`: all pinned outputs unchanged.
+- `node scripts/verify-arcade.mjs`: three existing capture records verified.
+- `npm audit --audit-level=moderate`: zero vulnerabilities.
+- `git diff --check`: clean.
+
+New regression tests cover all seven accented curated answers, every source-accented guess, accented/plain/decomposed input, all four difficulties and all five modes; duplicate constraints, keyboard/advice metrics and cache separation; nine lengths under both rule versions; legacy OKE versus OKÉ early-win hazards, independent accent/plain guesses, accented drafts, seven-turn continuation, saved One/Absurd generation, per-date statistics and reload/rollover. Independent review found no blocking defect. The browser integration also compares normalized One clues to avoid future accent-bearing clue resets.
+
+Chrome checks used only the isolated local test origin `http://127.0.0.1:5310`, never production notebooks or the user's earlier preview origins. The built app accepted plain CAFE as a guess and linked its English meaning to café. Synthetic local fixtures then verified CAFE solves canonical CAFÉ with four green tiles, an accented reveal and English meaning, and preserves the win after reload in Conquest and Letroso. Smashare KOKE solved KOK + OKÉ and retained its accented reveal after reload. An unmarked legacy fixture preserved distinct ALLE/ALLÉ guesses, their different E/É feedback, an É draft, original accented keys and the visible old-rules notice through cancellation and reload. Daily Absurd retained its HAL target and OKE feedback after reload. Daily One round switching and reload retained the distinct given clues. The field guide shows the new rule before play as well as during play.
+
+Desktop and emulated 390 × 844 mobile screenshots were inspected. The mobile document width did not exceed the viewport; controls, meanings and accented reveal remained readable. The temporary viewport override was reset, and no browser console errors were reported. Accented/decomposed keyboard strings are covered by automated tests; this is not a claim of physical mobile-IME testing. No fresh 9-length × 4-difficulty browser matrix is claimed. The local fixture page is excluded from source and not part of the Pages build.
+
+No push, remote branch, source upload or deployment was performed for this revision. Publication remains a separate approval.

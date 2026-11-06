@@ -4,7 +4,7 @@ import fiveLetterCuration from './data/answer-curation.json';
 import lengthCuration from './data/length-curation.json';
 import extendedCuration from './data/extended-curation.json';
 import {vocabulary,type WordLength} from './words.ts';
-import {normalizeGuess,type Language} from './language.ts';
+import {normalizeGuess,type DutchRules,type Language} from './language.ts';
 export interface AnswerEligibility {possible:boolean;reason:string}
 type Exclusion={word:string;reasons:{kind:string;lemma?:string;reason?:string}[]};
 const spanishReasons=new Map<string,string>();
@@ -14,9 +14,9 @@ for(const [word,reason]of Object.entries(SPANISH_EXCLUSIONS.reviewedReasons))spa
 const exclusions=new Map<string,Exclusion>();
 for(const entry of [...fiveLetterCuration.removed,...Object.values(lengthCuration).flatMap(data=>data.removed),...Object.values(extendedCuration).flatMap(data=>data.removed)])exclusions.set(entry.word,entry);
 /** Static list membership, never the hidden answer or surviving clue candidates. */
-export function answerEligibility(raw:string,length:WordLength,language:Language):AnswerEligibility {
- const word=normalizeGuess(raw,language),{answers,allowed}=vocabulary(length,language);
- if(answers.includes(word))return {possible:true,reason:'On this language and length’s answer list. This does not say whether it still fits the clues.'};
+export function answerEligibility(raw:string,length:WordLength,language:Language,dutchRules:DutchRules=2):AnswerEligibility {
+ const word=normalizeGuess(raw,language,dutchRules),{answers,allowed}=vocabulary(length,language,dutchRules);
+ if(answers.some(answer=>normalizeGuess(answer,language,dutchRules)===word))return {possible:true,reason:'On this language and length’s answer list. This does not say whether it still fits the clues.'};
  if(language==='nl-NL'&&allowed.has(word))return {possible:false,reason:'Valid guess; not selected by this list’s documented commonness, standalone-sense and Netherlands usage policy.'};
  if(language==='fil-PH'&&allowed.has(word)){const review=(filipinoReview as Record<string,{reason:string;exclude?:boolean}>)[word];return {possible:false,reason:`Valid guess; ${review?.exclude?review.reason:'not selected by this list’s conservative commonness and standalone-sense policy.'}`};}
  if(language==='es-MX'&&allowed.has(word))return {possible:false,reason:`Valid guess; ${spanishReasons.get(word)??'not selected by this list’s documented frequency and base-word policy.'}`};

@@ -13,3 +13,7 @@ Use original source headword links and preserved usage labels for bounded Englis
 Add distinct Dutch dataset identifiers and `.nl-NL` save namespaces. Existing datasets, shuffled schedules, storage epoch, active/original English notebooks, Spanish and Filipino notebooks, and preferences remain unchanged. No global reset or rewriting prior languages.
 
 Verification covers source/output hashes, all supported lengths, normalization/diacritics/duplicate scoring, all difficulties and variants, deterministic schedules, advice isolation, statistics, rejected wrong-language restores, local definitions, existing-language preservation and desktop/mobile browser flows. See QA for the checks actually run and any limits.
+
+## Later gameplay update
+
+[ADR 0039](0039-dutch-accent-equivalence.md) supersedes the accent-sensitive rule for new Dutch rounds. Source orthography, attribution and saved legacy rounds remain unchanged.

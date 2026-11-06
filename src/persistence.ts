@@ -2,12 +2,12 @@ import {previousEnglishDataset,previousEnglishAnswers} from './legacy-english.ts
 import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
 import {readNotebookStats,recordCompletion,initializeNotebookStats,type NotebookStats} from './notebook-statistics.ts';
 import {validUniqueClue} from './one.ts';
-import {validLetters,type Language} from './language.ts';
+import {normalizeGuess,savedDutchRules,validLetters,type DutchRules,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
 import {vocabulary,answerDataset,PREVIOUS_ANSWER_DATASET} from './words.ts';
 import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, awaitingContinuation, validDate, type Run,type Difficulty} from './domain.ts';
 export const SAVE_KEY='morrowmark.v1';
-export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
+export interface HistoricalResult {dutchRules?:DutchRules;won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
 export interface Save extends DailyScheduleContext {
  version:3; englishAnswerUpdate?:true; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'|'one'; impossible:ImpossibleRun; one:Run;
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
@@ -20,17 +20,19 @@ function storedMode(value:unknown):Save['mode'] {return value==='evil'||value===
 function storedDifficulty(value:Record<string,unknown>):Difficulty {return value.difficulty==='easy'||value.difficulty==='hard'||value.difficulty==='strict'||value.difficulty==='normal'?value.difficulty:value.strictMode===true?'strict':value.hardMode===true?'hard':value.easyMode===true?'easy':'normal'}
 function validatedRun(value:unknown, answer:string,language:Language='en'):Run|null {
  if(!object(value)||!Array.isArray(value.guesses))return null;
- const ALLOWED=vocabulary(answer.length,language).allowed,guesses:string[]=[],seen=new Set<string>();
+ if(value.dutchRules!==undefined&&value.dutchRules!==1&&value.dutchRules!==2)return null;
+ const dutchRules=savedDutchRules(value),key=(word:string)=>language==='nl-NL'&&dutchRules===2?normalizeGuess(word,language,dutchRules):word;
+ const ALLOWED=vocabulary(answer.length,language,dutchRules).allowed,guesses:string[]=[],seen=new Set<string>();
  if(value.guesses.length>ALLOWED.size||value.guesses.length>6&&value.continuation!=='unlimited')return null;
- for(const guess of value.guesses){if(typeof guess!=='string'||!ALLOWED.has(guess)||seen.has(guess)||seen.has(answer))return null;guesses.push(guess);seen.add(guess)}
+ for(const guess of value.guesses){if(typeof guess!=='string'||!ALLOWED.has(guess)||seen.has(key(guess))||seen.has(key(answer)))return null;guesses.push(key(guess));seen.add(key(guess))}
  const continuation=value.continuation==='pending'||value.continuation==='unlimited'?value.continuation:undefined;
- if(continuation==='pending'&&(guesses.length!==6||seen.has(answer))||continuation==='unlimited'&&(guesses.length<6||guesses.length===6&&seen.has(answer)))return null;
- const draft=typeof value.draft==='string'&&validLetters(value.draft,language)&&value.draft.length<=answer.length?value.draft:'';
- const run:Run={answer,guesses,draft,...(language==='en'?{}:{language}),...(continuation?{continuation}:{}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&!seen.has(answer)&&(guesses.length<6||continuation)?{gaveUp:true}:{})};
+ if(continuation==='pending'&&(guesses.length!==6||seen.has(key(answer)))||continuation==='unlimited'&&(guesses.length<6||guesses.length===6&&seen.has(key(answer))))return null;
+ const draft=typeof value.draft==='string'&&validLetters(key(value.draft),language)&&key(value.draft).length<=answer.length?key(value.draft):'';
+ const run:Run={answer,guesses,draft,...(language==='nl-NL'?{dutchRules}:{}),...(language==='en'?{}:{language}),...(continuation?{continuation}:{}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&!seen.has(key(answer))&&(guesses.length<6||continuation)?{gaveUp:true}:{})};
  if(status(run)!=='playing'||awaitingContinuation(run))run.draft='';
  const selected=storedDifficulty(value);if(selected==='easy')run.easyMode=true;
  if(selected==='strict'||selected==='hard'){
-  let replay=newRun(answer,selected,language);
+  let replay=newRun(answer,selected,language,dutchRules);
   for(const guess of guesses){if(awaitingContinuation(replay)&&continuation==='unlimited')replay=continueGuessing(replay);const next=submit(replay,guess);if(next.error)return run;replay=next.run}
   if(selected==='strict')run.strictMode=true;else run.hardMode=true;
  }
@@ -39,7 +41,7 @@ function validatedRun(value:unknown, answer:string,language:Language='en'):Run|n
 export function dailyPuzzleDate(save:Pick<Save,'date'|'dailyDate'>):string {return save.dailyDate??save.date}
 export function recordDaily(save:Save,date:string,run:Run):void {
  if('variant' in run&&run.variant==='impossible')return;
- if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===notebookDailyAnswer(save,date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
+ if((run.language??'en')===(save.language??'en')&&run.answer.length===save.daily.answer.length&&validDate(date) && run.answer===notebookDailyAnswer(save,date,run.answer.length,run.language) && status(run)!=='playing' && !save.results[date]) {save.results[date]=[...run.guesses];save.history[date]={...(run.language==='nl-NL'?{dutchRules:run.dutchRules??2}:{}),won:status(run)==='won',turns:run.guesses.length,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};}
 }
 export function decode(raw:string|null,today:string,length=5,language:Language='en',target?:string):Save {
  const {answers:ANSWERS}=vocabulary(length,language);const save=emptySave(today,false,length,language); if(!raw)return save;
@@ -89,11 +91,11 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   }
   const marks=readNotebookStats(value.notebookStats,today);if(marks)save.notebookStats=marks;
   if(object(value.history))for(const [date,result] of Object.entries(value.history)){
-   if(validDate(date)&&date<=today&&object(result)&&typeof result.won==='boolean'&&Number.isInteger(result.turns)&&Number(result.turns)>=0&&Number(result.turns)<=vocabulary(length,language).allowed.size&&(Number(result.turns)<=6||result.extended===true)&&(result.gaveUp===true?!result.won:result.won?Number(result.turns)>=1:result.turns===6&&result.extended!==true))save.history[date]={won:result.won,turns:Number(result.turns),...(result.gaveUp===true?{gaveUp:true}:{}),...(result.extended===true?{extended:true}:{})};
+   if(validDate(date)&&date<=today&&object(result)&&typeof result.won==='boolean'&&Number.isInteger(result.turns)&&Number(result.turns)>=0&&Number(result.turns)<=vocabulary(length,language).allowed.size&&(Number(result.turns)<=6||result.extended===true)&&(result.gaveUp===true?!result.won:result.won?Number(result.turns)>=1:result.turns===6&&result.extended!==true))save.history[date]={...(language==='nl-NL'?{dutchRules:savedDutchRules(result)}:{}),won:result.won,turns:Number(result.turns),...(result.gaveUp===true?{gaveUp:true}:{}),...(result.extended===true?{extended:true}:{})};
   }
   if(object(value.results)) for(const [date,guesses] of Object.entries(value.results)){
    if(!validDate(date)||date>today)continue;
-   const run=validatedRun({guesses,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{continuation:'unlimited'}:save.history[date]?.gaveUp&&Array.isArray(guesses)&&guesses.length===6?{continuation:'pending'}:{})},notebookDailyAnswer(save,date,length,language),language);
+   const run=validatedRun({guesses,dutchRules:save.history[date]?.dutchRules??1,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{continuation:'unlimited'}:save.history[date]?.gaveUp&&Array.isArray(guesses)&&guesses.length===6?{continuation:'pending'}:{})},notebookDailyAnswer(save,date,length,language),language);
    if(run && status(run)!=='playing')recordDaily(save,date,run);
   }
   const roundDate=validDate(value.dailyDate)&&value.dailyDate<=today?value.dailyDate:value.date;
@@ -114,7 +116,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   if(save.results[activeDate]){
    const guesses=save.results[activeDate];
    const matching=save.daily.guesses.length===guesses.length&&save.daily.guesses.every((guess,i)=>guess===guesses[i]);
-   save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
+   save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language,save.history[activeDate]?.dutchRules??1),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
   }
   if(object(value.practice)&&typeof value.practice.answer==='string'&&(ANSWERS.includes(value.practice.answer)||save.englishAnswerUpdate&&previousEnglishAnswers(length)?.includes(value.practice.answer))){
    const run=validatedRun(value.practice,value.practice.answer,language);
@@ -137,7 +139,7 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   recordCompletion(save,'daily',dailyPuzzleDate(save));recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
   if(object(value.one)&&typeof value.one.answer==='string'&&(ANSWERS.includes(value.one.answer)||save.englishAnswerUpdate&&previousEnglishAnswers(length)?.includes(value.one.answer))){
    const one=validatedRun(value.one,value.one.answer,language),previous=previousEnglishAnswers(length);
-   if(one&&one.guesses.length&&(ANSWERS.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],ANSWERS)||save.englishAnswerUpdate&&status(one)!=='playing'&&previous?.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],previous)))save.one=one;
+   if(one&&one.guesses.length&&(ANSWERS.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],ANSWERS,language,one.dutchRules)||save.englishAnswerUpdate&&status(one)!=='playing'&&previous?.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],previous,language,one.dutchRules)))save.one=one;
   }
   if(updatedEnglish&&object(value.one)&&Array.isArray(value.one.guesses)&&value.one.guesses.length&&!save.one.guesses.length&&save.notebookStats){save.notebookStats.exposure.one=null;delete save.notebookStats.setupPending?.one;}
   recordCompletion(save,'one',today);

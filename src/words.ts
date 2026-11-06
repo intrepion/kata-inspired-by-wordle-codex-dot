@@ -3,7 +3,7 @@ import FILIPINO from './data/filipino/vocabulary.json';
 import {SPANISH_EXTENDED_VOCABULARY} from './data/spanish/extended-vocabulary.ts';
 import {EXTENDED_VOCABULARY} from './data/extended-vocabulary.ts';
 import {SPANISH_VOCABULARY} from './data/spanish/vocabulary.ts';
-import type {Language} from './language.ts';
+import {normalizeGuess,type DutchRules,type Language} from './language.ts';
 import {ACCEPTED_GUESSES} from './data/scowl-guesses.ts';
 import {CURATED_ANSWERS} from './data/scowl-answers.ts';
 /** Independently sourced common-tier SCOWL words; see WORDS-LICENSE.md. */
@@ -33,10 +33,18 @@ export function supportedLengths(language: Language): readonly WordLength[] {
 export function isSupportedLength(length: number, language: Language): boolean {
  return supportedLengths(language).some(value => value === length);
 }
-export function vocabulary(length: number = 5, language: Language = 'en'): {answers: string[]; allowed: Set<string>} {
+const foldedDutch = new Map<number,{answers:string[];allowed:Set<string>}>();
+/** Preserve source iteration and answer ordering while accepting gameplay aliases. */
+class DutchGuessSet extends Set<string> {
+ private readonly aliases: Set<string>;
+ constructor(words: Iterable<string>) {super(words);this.aliases=new Set([...this].map(word=>normalizeGuess(word,'nl-NL')))}
+ override has(word:string):boolean {return this.aliases.has(normalizeGuess(word,'nl-NL'))}
+}
+export function vocabulary(length: number = 5, language: Language = 'en', dutchRules: DutchRules = 2): {answers: string[]; allowed: Set<string>} {
  if (!isSupportedLength(length, language)) throw new Error('This language and word length are not available.');
  const words = language === 'fil-PH' ? filipinoVocabulary : (language === 'es-MX' ? spanishVocabularies : language === 'nl-NL' ? dutchVocabularies : vocabularies).get(length);
  if (!words) throw new Error('This language and word length are not available.');
+ if(language==='nl-NL'&&dutchRules===2){let folded=foldedDutch.get(length);if(!folded){folded={answers:words.answers,allowed:new DutchGuessSet(words.allowed)};foldedDutch.set(length,folded)}return folded}
  return words;
 }
 export function answerDataset(length: number = 5, language: Language = 'en'): string {

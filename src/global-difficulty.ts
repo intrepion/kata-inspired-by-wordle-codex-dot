@@ -8,7 +8,7 @@ export function applyGlobalDifficulty<T extends Run>(run:T,selected:Difficulty):
  const {hardMode,strictMode,easyMode,...rest}=run;
  const next={...rest,...(selected==='hard'?{hardMode:true}:selected==='strict'?{strictMode:true}:selected==='easy'?{easyMode:true,assisted:true}:{})} as T;
  if(selected==='hard'||selected==='strict'){
-  const feedback=isImpossible(run)?run.feedback:run.guesses.map(guess=>score(run.answer,guess));
+  const feedback=isImpossible(run)?run.feedback:run.guesses.map(guess=>score(run.answer,guess,run.language,run.dutchRules));
   for(let index=0;index<run.guesses.length;index++){
    const error=clueConstraintError({...next,guesses:run.guesses.slice(0,index)},run.guesses[index],feedback.slice(0,index));
    if(error)return {run,error:`Earlier guess ${index+1} (${run.guesses[index]}) does not meet ${selected==='hard'?'Hard':'Strict'} rules. ${error} Start this round over or choose another global difficulty.`};

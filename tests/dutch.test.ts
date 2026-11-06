@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
-import {LANGUAGES,isLanguage,normalizeGuess,isLetter,isLetterInput,keyboardRows,languageLabel,validLetters} from '../src/language.ts';
+import {LANGUAGES,isLanguage,normalizeSpelling,normalizeGuess,isLetter,isLetterInput,keyboardRows,languageLabel,validLetters} from '../src/language.ts';
 import {vocabulary,supportedLengths,answerDataset,absurdDataset} from '../src/words.ts';
 import {newRun,submit,score,dailyAnswer,shareText,choosePractice,type Difficulty} from '../src/domain.ts';
 import {emptySave,encode,decode} from '../src/persistence.ts';
@@ -24,19 +24,19 @@ import dutchWords from '../src/data/dutch/vocabulary.json';
 const definitions=Object.assign({},...[3,4,5,6,7,8,9,10,11].map(length=>JSON.parse(readFileSync(new URL(`../src/data/dutch/definitions-${length}.json`,import.meta.url),'utf8'))));
 const language='nl-NL' as const,date='2026-11-06';
 
-test('Dutch registry and spelling keep IJ as two tiles and preserve accent distinctions',()=>{
+test('Dutch registry and spelling keep IJ as two tiles and fold accents while retaining canonical spelling',()=>{
  assert.ok(LANGUAGES.includes(language));assert.ok(isLanguage(language));assert.equal(isLanguage('nl'),false);
  assert.equal(languageLabel(language),'Nederlands (Nederland)');
  for(const word of ['ijs','ĳs','ĲS'])assert.equal(normalizeGuess(word,language),'IJS');
  assert.equal(normalizeGuess('ĳzer',language),'IJZER');assert.equal(normalizeGuess('ĳzer',language).length,5);
  assert.notEqual(normalizeGuess('ij',language),normalizeGuess('y',language));
- assert.equal(normalizeGuess('cafe\u0301',language),'CAFÉ');assert.equal(normalizeGuess('ree\u0308el',language),'REËEL');
- assert.notEqual(normalizeGuess('café',language),normalizeGuess('cafe',language));
- assert.notEqual(normalizeGuess('coöperatie',language),normalizeGuess('cooperatie',language));
+ assert.equal(normalizeGuess('cafe\u0301',language),'CAFE');assert.equal(normalizeGuess('ree\u0308el',language),'REEEL');
+ assert.equal(normalizeGuess('café',language),normalizeGuess('cafe',language));
+ assert.equal(normalizeGuess('coöperatie',language),normalizeGuess('cooperatie',language));
  assert.equal(normalizeGuess('ĳs','en'),'ĲS');assert.equal(normalizeGuess('búhay','fil-PH'),'BUHAY');
  assert.equal(isLetter('IJ',language),false);assert.equal(isLetterInput('IJ',language),true);assert.equal(isLetterInput('IJ','en'),false);
  for(const invalid of ['-',' ',"'",'Ñ','ß'])assert.equal(isLetter(invalid,language),false);
- for(const letter of 'ÉËÏÖÜ')assert.ok(keyboardRows(language).join('').includes(letter));
+ for(const letter of 'ÉËÏÖÜ')assert.ok(keyboardRows(language,1).join('').includes(letter));
 });
 
 test('Dutch separates source-backed guesses, common answers and local meanings at every supported length',()=>{
@@ -45,7 +45,7 @@ test('Dutch separates source-backed guesses, common answers and local meanings a
   const {answers,allowed}=vocabulary(length,language),data=dutchWords[String(length) as keyof typeof dutchWords];
   assert.deepEqual(answers,data.answers);assert.equal(allowed.size,data.guesses.length);assert.ok(answers.length>=10,`sufficient answers at ${length}`);
   assert.ok(allowed.size>answers.length);assert.equal(new Set(answers).size,answers.length);
-  for(const word of allowed){assert.equal(word.length,length);assert.equal(normalizeGuess(word,language),word);assert.ok(validLetters(word,language));assert.ok((definitions as Record<string,unknown>)[word],word)}
+  for(const word of allowed){assert.equal(word.length,length);assert.equal(normalizeSpelling(word,language),word);assert.ok(validLetters(word,language));assert.ok((definitions as Record<string,unknown>)[word],word)}
   for(const word of answers){assert.ok(allowed.has(word));assert.equal(answerEligibility(word,length,language).possible,true);}
   assert.equal(answerDataset(length,language),`nl-NL-wiktionary-wordfreq-${length}-v1`);
   assert.equal(absurdDataset(length,language),`nl-NL-wiktionary-wordfreq-absurd-${length}-v1`);
@@ -59,7 +59,7 @@ test('Dutch separates source-backed guesses, common answers and local meanings a
 for(const length of [3,4,5,6,7,8,9,10,11] as const)for(const level of ['easy','normal','hard','strict'] as Difficulty[])test(`Dutch ${length}-letter ${level}: scoring, daily/practice, adaptive play, persistence`,()=>{
  const {answers}=vocabulary(length,language),answer=dailyAnswer(date,length,language);
  assert.ok(answers.includes(answer));assert.equal(dailyAnswer(date,length,language),answer);
- const run=newRun(answer,level,language),solved=submit(run,answer.toLocaleLowerCase(language));assert.equal(solved.error,undefined);assert.equal(solved.run.guesses[0],answer);
+ const run=newRun(answer,level,language),solved=submit(run,answer.toLocaleLowerCase(language));assert.equal(solved.error,undefined);assert.equal(solved.run.guesses[0],normalizeGuess(answer,language));
  assert.deepEqual(score(answer,answer),Array(length).fill('exact'));
  const fresh=choosePractice(answer,()=>0,level,length,language);assert.equal(fresh.language,language);assert.notEqual(fresh.answer,answer);
  const save=emptySave(date,level,length,language);save.practice=run;save.practice.draft=answer.slice(0,2);assert.deepEqual(decode(encode(save),date,length,language),save);
@@ -70,13 +70,13 @@ for(const length of [3,4,5,6,7,8,9,10,11] as const)for(const level of ['easy','n
 test('Dutch guesses normalize ligatures and accents without changing duplicate scoring',()=>{
  assert.deepEqual(score('WATER','KATER'),['absent','exact','exact','exact','exact']);
  assert.equal(submit(newRun('IJZER','normal',language),'ĳzer').run.guesses[0],'IJZER');
- assert.equal(submit(newRun('REËEL','normal',language),'ree\u0308el').run.guesses[0],'REËEL');
+ assert.equal(submit(newRun('REËEL','normal',language),'ree\u0308el').run.guesses[0],'REEEL');
  assert.equal(invalidDraft('IJZER','fixed',5,language),false);
 });
 
 for(const length of [3,4,5,6,7,8,9,10,11] as const)test(`Dutch ${length}-letter variant pools support daily Absurd, One possibility and Smashare`,()=>{
  const mix=dailyOneMix(date,length,language);assert.equal(new Set(mix.map(p=>p.answer)).size,5);assert.deepEqual(dailyOneMix(date,length,language),mix);
- for(const pair of mix){const pattern=score(pair.answer,pair.clue);assert.equal(vocabulary(length,language).answers.filter(word=>score(word,pair.clue).every((v,i)=>v===pattern[i])).length,1);}
+ for(const pair of mix){const pattern=score(pair.answer,pair.clue,language);assert.equal(vocabulary(length,language).answers.filter(word=>score(word,pair.clue,language).every((v,i)=>v===pattern[i])).length,1);}
  const target=dailyAbsurdTarget(date,length,language);assert.ok(vocabulary(length,language).answers.includes(target.target));
  assert.ok(smashPairCount(length,language)>0);const pair=dailySmashPair(date,length,language);
  for(const level of ['easy','normal','hard','strict'] as Difficulty[]){const run=newSmashRun(pair,language,level),solved=submitSmash(run,pair.merged);assert.equal(solved.error,undefined);assert.deepEqual(restoreSmashRun(solved.run,language,length),solved.run);}
@@ -96,7 +96,7 @@ test('Dutch advice uses matching pools and separate language cache identity',()=
  const run=submit(newRun('WATER','easy',language),'KATER').run,input=observedClues(run);
  assert.ok(!JSON.stringify(input).includes('WATER'));assert.notEqual(adviceKey(input),adviceKey({...input,language:'en'}));
  const result=analyzeObservations(input,'optimal'),candidates=possibleAnswers(input);assert.equal(result.totalCandidates,candidates.length);
- for(const item of result.suggestions){assert.ok(vocabulary(5,language).allowed.has(item.word));const counts=new Map<string,number>();for(const word of candidates){const key=score(word,item.word).join();counts.set(key,(counts.get(key)??0)+1)}assert.equal(item.worstCaseLeft,Math.max(...counts.values()));}
+ for(const item of result.suggestions){assert.ok(vocabulary(5,language).allowed.has(item.word));const counts=new Map<string,number>();for(const word of candidates){const key=score(word,item.word,language).join();counts.set(key,(counts.get(key)??0)+1)}assert.equal(item.worstCaseLeft,Math.max(...counts.values()));}
 });
 
 test('Dutch saves and statistics stay isolated without resetting existing languages',()=>{
@@ -136,7 +136,7 @@ for(const length of [8,9,10,11] as const)test(`Dutch ${length}-letter advice mat
  for(const kind of ['optimal','suboptimal'] as const){
   const result=analyzeObservations(input,kind);assert.equal(result.suggestions.length,5);
   for(const item of result.suggestions){
-   const counts=new Map<string,number>();for(const answer of answers){const code=score(answer,item.word).join();counts.set(code,(counts.get(code)??0)+1)}
+   const counts=new Map<string,number>();for(const answer of answers){const code=score(answer,item.word,language).join();counts.set(code,(counts.get(code)??0)+1)}
    assert.equal(item.worstCaseLeft,Math.max(...counts.values()));assert.equal(item.guaranteedEliminations,answers.length-item.worstCaseLeft);
    if(kind==='optimal')assert.equal(item.expectedSurvivors,[...counts.values()].reduce((sum,n)=>sum+n*n,0)/answers.length);
   }

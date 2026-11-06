@@ -1,3 +1,4 @@
+import {normalizeGuess} from './language.ts';
 import {notebookDailyAnswer} from './daily-schedule.ts';
 import {DAY,difficulty,status,validDate,type Difficulty,type Run} from './domain.ts';
 import {isImpossible,impossibleStatus} from './impossible.ts';
@@ -37,7 +38,7 @@ export function readNotebookStats(raw:unknown,today:string):NotebookStats|undefi
 export function initializeNotebookStats(save:Save,fresh=false):boolean {
  if(save.notebookStats)return false;
  const data:NotebookStats={version:1,nextId:4,nextOrder:1,active:{daily:'daily:'+(save.dailyDate??save.date),practice:'practice:1',impossible:'impossible:2',one:'one:3'},records:{},exposure:{daily:fresh?null:'legacy',practice:fresh?null:'legacy',impossible:fresh?null:'legacy',one:null}};save.notebookStats=data;
- const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.includes(notebookDailyAnswer(save,date,save.daily.answer.length,save.language)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
+ const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.some(guess=>normalizeGuess(guess,save.language,save.history[date]?.dutchRules??1)===normalizeGuess(notebookDailyAnswer(save,date,save.daily.answer.length,save.language),save.language,save.history[date]?.dutchRules??1)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
  if(terminal(save.daily)!=='playing')previous[(save.dailyDate??save.date)]={won:terminal(save.daily)==='won',turns:save.daily.guesses.length,...(save.daily.gaveUp?{gaveUp:true}:{}),...(save.daily.continuation==='unlimited'?{extended:true}:{})};
  for(const date of Object.keys(previous).sort())if(validDate(date)&&date<=save.date){const value=previous[date];data.records['daily:'+date]={mode:'daily',date,difficulty:'legacy',assisted:null,won:value.won,turns:value.turns,order:data.nextOrder++,...(value.gaveUp?{gaveUp:true}:{}),...(value.extended?{extended:true}:{})}}
  if(save.daily.assisted===true&&data.records['daily:'+(save.dailyDate??save.date)])data.records['daily:'+(save.dailyDate??save.date)].assisted=true;

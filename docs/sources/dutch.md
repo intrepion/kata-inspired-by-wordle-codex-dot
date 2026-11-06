@@ -10,6 +10,8 @@ The reviewed snapshot contains **2,123 answers and 82,165 guesses**, with local 
 
 NFC preserves accents and trema. Case folds to uppercase. Unicode Ĳ/ĳ folds to IJ, occupying **two tiles**. Y stays distinct. Supported letters are A–Z and ÀÁÂÄÇÈÉÊËÍÎÏÓÔÖÙÚÛÜ. Only single orthographic words of 3–11 code points after this normalization enter the pool; spaces, hyphens and other scripts are excluded. The imported source has lowercase Dutch headwords and lexical POS only, not proper-name POS.
 
+The source spellings and answer order are unchanged. New Dutch gameplay rounds use a separate comparison key that removes combining diacritics after normalization. Accented and plain guesses are accepted and scored identically; canonical accents remain in answer reveals and dictionary links. Plain-input meanings can include multiple accent-equivalent source headwords. Legacy saved rounds retain the original accent-sensitive rules. See [ADR 0039](../adr/0039-dutch-accent-equivalence.md).
+
 ## Selection and limitations
 
 Broad guesses include attested lowercase headwords, including labelled regional, historical and inflected forms. Answers are separate. Candidate answers require historical wordfreq Zipf ≥4.3 and a standalone sense without excluded usage labels or form/alternative relationships. Every candidate is classified by an independent model linguistic review in `review.json`; exclusions have reasons. This is not native-human certification, and source labels and model review can miss errors. Frequency measures spellings in mixed historical corpora, not current Netherlands-specific senses. The review intentionally excludes uncertain/commonness-ambiguous spellings, foreign-only uses, non-Netherlands-only uses, vulgar/offensive entries and abbreviations.

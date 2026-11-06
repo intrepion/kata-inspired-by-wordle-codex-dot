@@ -1,5 +1,5 @@
 import {definitionText, type DefinitionResult} from './definitions.ts';
-import {normalizeGuess} from './language.ts';
+import {normalizeGuess,normalizeSpelling} from './language.ts';
 type Entry = {sourceWord: string; partOfSpeech: string; senses: string[]};
 type Table = Record<string, Entry[]>;
 const loaders: Record<number, () => Promise<Table>> = {
@@ -13,18 +13,33 @@ const loaders: Record<number, () => Promise<Table>> = {
  10: () => import('./data/dutch/definitions-10.json').then(module => module.default as Table),
  11: () => import('./data/dutch/definitions-11.json').then(module => module.default as Table),
 };
-const pending = new Map<number, Promise<Table>>();
+type IndexedTable = {exact: Table; folded: Map<string, Entry[]>};
+const pending = new Map<number, Promise<IndexedTable>>();
+function indexTable(exact: Table): IndexedTable {
+ const folded = new Map<string, Entry[]>();
+ for (const [word, entries] of Object.entries(exact)) {
+  const key = normalizeGuess(word, 'nl-NL');
+  folded.set(key, [...(folded.get(key) ?? []), ...entries]);
+ }
+ return {exact, folded};
+}
 /** Local, language-specific data only. English homographs never supply Dutch meanings. */
 export async function dutchDefinition(raw: string): Promise<DefinitionResult> {
- const word = normalizeGuess(raw, 'nl-NL');
+ const word = normalizeSpelling(raw, 'nl-NL');
  const length = word.length;
  let request = pending.get(length);
  if (!request && loaders[length]) {
-  request = loaders[length]();
+  request = loaders[length]().then(indexTable);
   pending.set(length, request);
   void request.catch(() => {if (pending.get(length) === request) pending.delete(length);});
  }
- const entries = request ? (await request)[word] ?? [] : [];
+ const table = request ? await request : undefined;
+ const key = normalizeGuess(word, 'nl-NL');
+ // Reveals keep their exact dictionary spelling. Plain tile input can represent
+ // several spellings, so retain every corresponding source rather than guessing.
+ const matches = table ? word !== key && table.exact[word] ? table.exact[word]
+  : [...(table.exact[word] ?? []), ...(table.folded.get(key) ?? [])] : [];
+ const entries = [...new Map(matches.map(entry => [JSON.stringify(entry), entry])).values()];
  const sourceWord = entries[0]?.sourceWord ?? word.toLocaleLowerCase('nl-NL');
  return {
   word,
@@ -33,6 +48,6 @@ export async function dutchDefinition(raw: string): Promise<DefinitionResult> {
   sourceLinks: entries.length ? [...new Set(entries.map(entry => entry.sourceWord))].map(source => ({label: `Wiktionary: ${source}`, url: `https://en.wiktionary.org/wiki/${encodeURIComponent(source)}#Dutch`})) : undefined,
   sourceLabel: 'Wiktionary contributors · selected Dutch senses · CC BY-SA 4.0',
   license: 'CC-BY-SA-4.0',
-  note: 'Bundled English dictionary meanings for Dutch. Accents and trema remain distinct; IJ uses two tiles. Not every sense or contemporary Netherlands usage is covered; not native-human reviewed.'
+  note: 'Bundled English dictionary meanings for Dutch. New puzzles ignore accents and trema; IJ uses two tiles. Plain input may combine meanings from accent-equivalent spellings; source links retain the original spellings. Not every sense or contemporary Netherlands usage is covered; not native-human reviewed.'
  };
 }

@@ -1,4 +1,4 @@
-import type {Language} from './language.ts';
+import {normalizeGuess,type Language,type DutchRules} from './language.ts';
 import {vocabulary} from './words.ts';
 import {possibleAnswers,type Observations} from './observations.ts';
 import {impossibleStatus,type ImpossibleRun} from './impossible.ts';
@@ -11,7 +11,7 @@ const weights=Array.from({length:11},(_,index)=>3**(10-index));
 const place=(length:number,index:number)=>weights[weights.length-length+index];
 const encode=(word:string)=>[...word].map(letter=>letter.charCodeAt(0)-65);
 const dictionaries=new Map<string,{word:string;letters:number[]}[]>();
-function dictionaryFor(length:number,language:Language){const key=`${language}:${length}`;let result=dictionaries.get(key);if(!result){result=[...vocabulary(length,language).allowed].sort().map(word=>({word,letters:encode(word)}));dictionaries.set(key,result)}return result}
+function dictionaryFor(length:number,language:Language,dutchRules:DutchRules){const key=`${language}:${length}:${dutchRules}`;let result=dictionaries.get(key);if(!result){const seen=new Set<string>();result=[...vocabulary(length,language,dutchRules).allowed].sort().flatMap(word=>{const gameplay=normalizeGuess(word,language,dutchRules);if(seen.has(gameplay))return [];seen.add(gameplay);return [{word,letters:encode(gameplay)}]});dictionaries.set(key,result)}return result}
 /** Allocation-free encoding of the same exact-first, left-to-right duplicate scoring. */
 export function feedbackCode(answer:readonly number[],guess:readonly number[]):number {
  let used=0,exact=0,code=0;
@@ -20,21 +20,23 @@ export function feedbackCode(answer:readonly number[],guess:readonly number[]):n
  return code;
 }
 /** Descending largest bucket, then alphabetical word: least guaranteed elimination first. */
-function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'language'>,kind:AdviceKind,limit=5):AdviceResult {
+function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'language'|'dutchRules'>,kind:AdviceKind,limit=5):AdviceResult {
+ const language=run.language??'en',dutchRules=run.dutchRules??2,gameplay=(word:string)=>normalizeGuess(word,language,dutchRules);
+ const guessed=new Set(run.guesses.map(gameplay));
  const totalCandidates=run.candidates.length,length=run.candidates[0]?.length??run.guesses[0]?.length??5;
  if(totalCandidates===0||(kind==='suboptimal'&&totalCandidates===1))return {totalCandidates,eligibleWords:0,suggestions:[]};
- if(kind==='optimal'&&totalCandidates===1){const word=run.candidates[0];return {totalCandidates,eligibleWords:run.guesses.includes(word)?0:1,suggestions:run.guesses.includes(word)?[]:[{word,worstCaseLeft:1,guaranteedEliminations:0,expectedSurvivors:1,directSolve:true}]};}
- const candidateWords=new Set(run.candidates);
- const candidates=run.candidates.map(encode),guessed=new Set(run.guesses);
- const histories=run.guesses.map((word,row)=>({letters:encode(word),code:run.feedback[row].reduce((sum,clue,i)=>sum+place(length,i)*({absent:0,elsewhere:1,exact:2}[clue]),0)}));
+ if(kind==='optimal'&&totalCandidates===1){const word=run.candidates[0];return {totalCandidates,eligibleWords:guessed.has(gameplay(word))?0:1,suggestions:guessed.has(gameplay(word))?[]:[{word,worstCaseLeft:1,guaranteedEliminations:0,expectedSurvivors:1,directSolve:true}]};}
+ const candidateWords=new Set(run.candidates.map(gameplay));
+ const candidates=run.candidates.map(word=>encode(gameplay(word)));
+ const histories=run.guesses.map((word,row)=>({letters:encode(gameplay(word)),code:run.feedback[row].reduce((sum,clue,i)=>sum+place(length,i)*({absent:0,elsewhere:1,exact:2}[clue]),0)}));
  const buckets=new Uint16Array(3**length),ranked:Suggestion[]=[];let eligibleWords=0;
- for(const {word,letters} of dictionaryFor(length,run.language??'en')){
-  if(guessed.has(word)||(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)))continue;
+ for(const {word,letters} of dictionaryFor(length,language,dutchRules)){
+  if(guessed.has(gameplay(word))||(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)))continue;
   eligibleWords++;buckets.fill(0);let largest=0,sumSquares=0;
   for(const answer of candidates){const count=++buckets[feedbackCode(answer,letters)];sumSquares+=2*count-1;if(count>largest)largest=count;}
   ranked.push({word,worstCaseLeft:largest,guaranteedEliminations:totalCandidates-largest,...(kind==='optimal'?{expectedSurvivors:sumSquares/totalCandidates}:{})});
  }
- ranked.sort((a,b)=>(kind==='suboptimal'?b.worstCaseLeft-a.worstCaseLeft:a.worstCaseLeft-b.worstCaseLeft||(a.expectedSurvivors!-b.expectedSurvivors!)||Number(candidateWords.has(b.word))-Number(candidateWords.has(a.word)))||(a.word<b.word?-1:a.word>b.word?1:0));
+ ranked.sort((a,b)=>(kind==='suboptimal'?b.worstCaseLeft-a.worstCaseLeft:a.worstCaseLeft-b.worstCaseLeft||(a.expectedSurvivors!-b.expectedSurvivors!)||Number(candidateWords.has(gameplay(b.word)))-Number(candidateWords.has(gameplay(a.word))))||(a.word<b.word?-1:a.word>b.word?1:0));
  return {totalCandidates,eligibleWords,suggestions:ranked.slice(0,Math.max(0,Math.min(5,limit)))};
 }
 

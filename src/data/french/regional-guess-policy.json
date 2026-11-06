@@ -1,0 +1,102 @@
+{
+  "excluded": {
+    "fr-CA": [
+      "BACK",
+      "BEACH",
+      "BESSON",
+      "BOURGMESTRE",
+      "BRÊME",
+      "FLAG",
+      "GONE",
+      "PRÉPA",
+      "ROYER",
+      "UNIV"
+    ],
+    "fr-FR": [
+      "ALLE",
+      "BACK",
+      "BALADO",
+      "BEACH",
+      "BESSON",
+      "BLOGUE",
+      "BOURGMESTRE",
+      "BRÊME",
+      "CATHERINE",
+      "CELL",
+      "CHUM",
+      "CLAVARDAGE",
+      "CONDO",
+      "CONDOS",
+      "CÉGEP",
+      "FLAG",
+      "FLO",
+      "INTRA",
+      "JOKE",
+      "LULU",
+      "OSTIE",
+      "PARKER",
+      "PARTY",
+      "POUDRERIE",
+      "PÉQUISTE",
+      "PÉQUISTES",
+      "ROYER",
+      "SHOP",
+      "SOCCER",
+      "TRUCK",
+      "TUQUE",
+      "UNIV",
+      "YES"
+    ]
+  },
+  "overrides": {
+    "fr-CA": {
+      "DENTIFRICE": {
+        "reason": "Ordinary Canadian French as confirmed by OQLF; source France/Belgium labels are not exclusive.",
+        "sourceUrl": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8382281/dentifrice"
+      },
+      "ESPOIR": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9E2640"
+      },
+      "LÉGUME": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9L0541"
+      },
+      "POISON": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9P3118"
+      },
+      "TOBOGGAN": {
+        "reason": "Canadian sled sense is attested by Usito although the pinned source covers only the European slide sense.",
+        "sourceUrl": "https://usito.usherbrooke.ca/d%C3%A9finitions/toboggan"
+      }
+    },
+    "fr-FR": {
+      "CHOCOLATINE": {
+        "reason": "Also a southwest France usage, not exclusively Canada as the pinned English Wiktionary tag suggests.",
+        "sourceUrl": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/25399166/chocolatine"
+      },
+      "CARIBOU": {
+        "reason": "French animal name used in France as documented by the Académie; the referent being North American does not restrict the word.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9C0831"
+      },
+      "RUNNING": {
+        "reason": "French athletic-use word attested by Le Robert; the pinned source covers only the Canadian shoe sense. Definitions remain explicitly limited to the source.",
+        "sourceUrl": "https://dictionnaire.lerobert.com/definition/running"
+      },
+      "ESPOIR": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9E2640"
+      },
+      "LÉGUME": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9L0541"
+      },
+      "POISON": {
+        "reason": "Ordinary common French; the pinned extraction has overbroad inherited Louisiana labels. Keep the source labels visible but do not treat them as exclusive.",
+        "sourceUrl": "https://www.dictionnaire-academie.fr/article/A9P3118"
+      }
+    }
+  },
+  "policy": "Retain a word when any sense is general French or matches the selected region. Follow known form/alternative targets. Exclude only when all supplied senses point elsewhere. Reviewed exceptions correct incomplete labels. Missing labels or references do not prove regional exclusivity."
+}

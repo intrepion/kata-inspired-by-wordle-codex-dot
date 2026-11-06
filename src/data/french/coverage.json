@@ -1,0 +1,153 @@
+{
+  "version": "fr-varieties-v1",
+  "languages": [
+    "fr-CA",
+    "fr-FR"
+  ],
+  "ordinaryMinimumZipf": 4.3,
+  "guessMinimumZipf": 2.5,
+  "lengths": {
+    "fr-CA": {
+      "3": {
+        "answers": 90,
+        "guesses": 426,
+        "definedGuesses": 426
+      },
+      "4": {
+        "answers": 188,
+        "guesses": 1190,
+        "definedGuesses": 1190
+      },
+      "5": {
+        "answers": 285,
+        "guesses": 2316,
+        "definedGuesses": 2316
+      },
+      "6": {
+        "answers": 297,
+        "guesses": 3515,
+        "definedGuesses": 3515
+      },
+      "7": {
+        "answers": 237,
+        "guesses": 4145,
+        "definedGuesses": 4145
+      },
+      "8": {
+        "answers": 189,
+        "guesses": 4077,
+        "definedGuesses": 4077
+      },
+      "9": {
+        "answers": 170,
+        "guesses": 3382,
+        "definedGuesses": 3382
+      },
+      "10": {
+        "answers": 134,
+        "guesses": 2438,
+        "definedGuesses": 2438
+      },
+      "11": {
+        "answers": 74,
+        "guesses": 1650,
+        "definedGuesses": 1650
+      }
+    },
+    "fr-FR": {
+      "3": {
+        "answers": 90,
+        "guesses": 424,
+        "definedGuesses": 424
+      },
+      "4": {
+        "answers": 190,
+        "guesses": 1185,
+        "definedGuesses": 1185
+      },
+      "5": {
+        "answers": 283,
+        "guesses": 2310,
+        "definedGuesses": 2310
+      },
+      "6": {
+        "answers": 297,
+        "guesses": 3510,
+        "definedGuesses": 3510
+      },
+      "7": {
+        "answers": 236,
+        "guesses": 4145,
+        "definedGuesses": 4145
+      },
+      "8": {
+        "answers": 188,
+        "guesses": 4076,
+        "definedGuesses": 4076
+      },
+      "9": {
+        "answers": 168,
+        "guesses": 3379,
+        "definedGuesses": 3379
+      },
+      "10": {
+        "answers": 132,
+        "guesses": 2437,
+        "definedGuesses": 2437
+      },
+      "11": {
+        "answers": 74,
+        "guesses": 1650,
+        "definedGuesses": 1650
+      }
+    }
+  },
+  "normalizedAnswerCollisions": {
+    "fr-CA": {
+      "SUR": [
+        "SUR",
+        "SÛR"
+      ],
+      "MARCHE": [
+        "MARCHÉ",
+        "MARCHE"
+      ]
+    },
+    "fr-FR": {
+      "SUR": [
+        "SUR",
+        "SÛR"
+      ],
+      "MARCHE": [
+        "MARCHÉ",
+        "MARCHE"
+      ]
+    }
+  },
+  "review": "Explicit model-reviewed starter allowlist, not native-human certification. Region-specific sense labels with reviewed exceptions distinguish accepted guesses; chosen everyday vocabulary further distinguishes answer pools. Labels are incomplete and not proof of national exclusivity. Canada includes common French and several labelled Québec/North American/Canadian additions; coverage of Acadian and other Canadian usage is incomplete.",
+  "orthography": "Accents and cedilla are ignored for comparison. Œ/OE and Æ/AE each occupy two tiles. Answer strings keep accents but expand ligatures for grid-length compatibility. Canonical map retains original orthography for reveals and source links. One answer per folded key per variety.",
+  "inputs": {
+    "lexical-evidence.json": "1c3b3537b47150cf3eae78ae0f7d2833a5d031def4d24c19656be1f02e374d1e",
+    "frequency-evidence.json": "5b31e1ca109d6a33c4885fe0c672df4e670215ef71daefc13a405870ddbf8e61",
+    "review.json": "0125838378e3df7c4b32a38ac26d35e6a10f901f4e901809521c42792665527d"
+  },
+  "outputs": {
+    "vocabulary-fr-CA.json": "917a0eb49b78d0c0a37176cb5333eec56a817684be011850c7bef14b2fd3e30f",
+    "vocabulary-fr-FR.json": "45fa9189986a5048b2f2dcb65b8e5fc93369416afd744fa18c05e4a82f2f93a4",
+    "regional-guess-policy.json": "3894948e3ef1e92d248103e6b0bf74b084246f618c180802d5a80e38946867f2",
+    "regional-primary-senses.json": "adc461e58c2cac2e808a1666c0fb4b370a8354bcf1f8e8f6118fede21d983f55",
+    "canonical-spellings.json": "dc9b5c3fda87fc0f0dfed5f524712b5356ae106b73060b596115f5d8c769c71d",
+    "normalized-keys.json": "6d6f80ea78878454056929abd17b07dc7852e5586fb9944ba4a4cad8f905b927",
+    "answer-selection.json": "373dfb3caad7d29983a16dcdf545b6a7a3940706a23fa44728675f92e6dc2389",
+    "definitions-3.json": "ac2b9b649779c6e87df49e0d8765b2c3a1c0916882b4cb440daf68d263817ee4",
+    "definitions-4.json": "1843a308a3db2720cf12bf3758ef21717f68b31cacd9a33358b9b2a6a53ac3cb",
+    "definitions-5.json": "8b133c3f9b5f61d5367a4eb4de012310ea46a93ab2f9f55b9e7e726c54d3df14",
+    "definitions-6.json": "02f31ceb33a10dbc80c180eb67e0ab0fb5423019081f673650cd5ade4152e45c",
+    "definitions-7.json": "beb52b9235cae3f3d7e090284eb5d7838d68b6b1733875304a3f31dab630fdc0",
+    "definitions-8.json": "0909058e5f8c7665e791d41b5590809890757b1ca67b0490a4930c7fb55e0ff0",
+    "definitions-9.json": "1d96b3ccddc00728ca874bfe99e5b3db9367735413a08164134b45d624656973",
+    "definitions-10.json": "80130d2e1955a67bbc0cece57709f0dfae62e23177e391c49dbd180285586298",
+    "definitions-11.json": "bb083df84b312885dda14b8f72ce0787db47af49e86d70f22baf8584cbd8515b"
+  },
+  "limitations": "Conservative starter pools, not exhaustive regional dictionaries. Accepted guesses use source regional-sense labels and inherited form labels with reviewed exceptions; general French remains shared. Regional labels are incomplete, so this is not exhaustive national dictionary separation. Frequency is historical mixed-region spelling frequency, not Canadian/France sense frequency. A small explicit regional allowlist distinguishes answers; other senses remain visible and labelled. Some Canadian additions are specifically Québécois. Native-human review has not been performed."
+}

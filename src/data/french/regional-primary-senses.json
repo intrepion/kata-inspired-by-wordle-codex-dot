@@ -1,0 +1,96 @@
+{
+  "fr-CA": {
+    "CEGEP": {
+      "sourceWord": "cégep",
+      "partOfSpeech": "noun",
+      "gloss": "cégep (college in Québec)"
+    },
+    "TUQUE": {
+      "sourceWord": "tuque",
+      "partOfSpeech": "noun",
+      "gloss": "toque (knit cap)"
+    },
+    "BLEUET": {
+      "sourceWord": "bleuet",
+      "partOfSpeech": "noun",
+      "gloss": "North American blueberry (Vaccinium angustifolium)"
+    },
+    "DEPANNEUR": {
+      "sourceWord": "dépanneur",
+      "partOfSpeech": "noun",
+      "gloss": "convenience store"
+    },
+    "MAGASINAGE": {
+      "sourceWord": "magasinage",
+      "partOfSpeech": "noun",
+      "gloss": "shopping"
+    },
+    "POUDRERIE": {
+      "sourceWord": "poudrerie",
+      "partOfSpeech": "noun",
+      "gloss": "blowing snow"
+    },
+    "MITAINE": {
+      "sourceWord": "mitaine",
+      "partOfSpeech": "noun",
+      "gloss": "mitten"
+    },
+    "CLAVARDAGE": {
+      "sourceWord": "clavardage",
+      "partOfSpeech": "noun",
+      "gloss": "online chatting"
+    },
+    "BALADO": {
+      "sourceWord": "balado",
+      "partOfSpeech": "noun",
+      "gloss": "podcast"
+    },
+    "CHANDAIL": {
+      "sourceWord": "chandail",
+      "partOfSpeech": "noun",
+      "gloss": "sweater, jumper"
+    },
+    "COURRIEL": {
+      "sourceWord": "courriel",
+      "partOfSpeech": "noun",
+      "gloss": "email (message sent through an electronic system)"
+    },
+    "POURRIEL": {
+      "sourceWord": "pourriel",
+      "partOfSpeech": "noun",
+      "gloss": "spam, junk mail"
+    }
+  },
+  "fr-FR": {
+    "BONNET": {
+      "sourceWord": "bonnet",
+      "partOfSpeech": "noun",
+      "gloss": "a knitted hat, usually woollen"
+    },
+    "MYRTILLE": {
+      "sourceWord": "myrtille",
+      "partOfSpeech": "noun",
+      "gloss": "blueberry (fruit), bilberry"
+    },
+    "PULL": {
+      "sourceWord": "pull",
+      "partOfSpeech": "noun",
+      "gloss": "pullover"
+    },
+    "SHOPPING": {
+      "sourceWord": "shopping",
+      "partOfSpeech": "noun",
+      "gloss": "shopping (act of shopping)"
+    },
+    "MAIL": {
+      "sourceWord": "mail",
+      "partOfSpeech": "noun",
+      "gloss": "email"
+    },
+    "MOUFLE": {
+      "sourceWord": "moufle",
+      "partOfSpeech": "noun",
+      "gloss": "mitten"
+    }
+  }
+}

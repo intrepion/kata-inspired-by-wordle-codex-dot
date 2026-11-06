@@ -6,8 +6,9 @@ import {impossibleStatus,type ImpossibleRun} from './impossible.ts';
 import type {AdviceResult,Suggestion,AdviceKind} from './advice-protocol.ts';
 export {adviceKey} from './advice-protocol.ts';
 export type {AdviceRequest,AdviceReply,AdviceResult,Suggestion} from './advice-protocol.ts';
-const weights=[729,243,81,27,9,3,1];
-const place=(length:number,index:number)=>weights[7-length+index];
+// Every supported 3–11-letter pool needs a complete ternary clue code.
+const weights=Array.from({length:11},(_,index)=>3**(10-index));
+const place=(length:number,index:number)=>weights[weights.length-length+index];
 const encode=(word:string)=>[...word].map(letter=>letter.charCodeAt(0)-65);
 const dictionaries=new Map<string,{word:string;letters:number[]}[]>();
 function dictionaryFor(length:number,language:Language){const key=`${language}:${length}`;let result=dictionaries.get(key);if(!result){result=[...vocabulary(length,language).allowed].sort().map(word=>({word,letters:encode(word)}));dictionaries.set(key,result)}return result}

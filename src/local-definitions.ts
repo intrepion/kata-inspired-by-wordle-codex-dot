@@ -1,3 +1,4 @@
+import {dutchDefinition} from './dutch-definitions.ts';
 import {definitionText,type DefinitionResult} from './definitions.ts';
 import {teachingFor} from './learning.ts';
 import {TranslationClient} from './translations.ts';
@@ -25,6 +26,7 @@ const englishPending=new Map<number,Promise<Table>>();
 const pending=new Map<number,Promise<Table>>();const translations=new TranslationClient();
 /** Same-origin static chunks only. Source links are attribution, never fetched here. */
 export async function localDefinition(word:string,language:Language):Promise<DefinitionResult>{
+ if(language==='nl-NL')return dutchDefinition(word);
  if(language==='fil-PH')return filipinoDefinition(word);
  if(language==='es-MX'){
   const teaching=teachingFor(word,language);

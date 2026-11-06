@@ -287,3 +287,49 @@ node scripts/generate-filipino.mjs --check
 ```
 
 `src/data/filipino/source.json` pins artifacts and extracted inputs. `coverage.json` records generated hashes and coverage. `review.json` records editorial exclusions and gloss omissions. Retained data and modified selections remain under CC BY-SA 4.0, with attribution and modification notices. These notices add no restrictions beyond the source terms and make no legal warranty.
+
+# Dutch (Netherlands)
+
+`nl-NL` uses a separate source-backed dictionary for lengths 3–11, with an English
+interface and locally bundled English dictionary meanings. **82,165 accepted
+guesses** are separate from **2,123 possible answers**. Answers require a standalone
+eligible sense, wordfreq Zipf ≥4.3 and explicit independent model editorial review
+of all 2,187 qualified candidates; 64 are excluded with reasons. This is not
+native-human certification or exhaustive Netherlands-specific usage review.
+Answer counts for lengths 3–11 are 160, 333, 327, 386, 309, 240, 181, 113 and 74.
+
+The lexical input is English Wiktionary contributors’ Dutch data distributed by
+Kaikki as its **deprecated postprocessed per-language** JSONL snapshot, not current
+raw Wiktextract data. Exact URL:
+https://kaikki.org/dictionary/Dutch/kaikki.org-dictionary-Dutch.jsonl
+Retrieved November 6, 2026; 257,235,436 bytes; SHA-256
+`6e3335a4bcf9739cae0a7490beb1f31d8e8dcec61475fc701a6cfe63cdd65438`.
+No exact article revision is supplied. Retained lexical fields have original
+headwords and per-record hashes. Enrichment fields, quotations, examples, media,
+etymology and translations are omitted. Definitions preserve usage labels and
+are bounded to eight entries and eight senses per entry.
+
+Frequency data is wordfreq 3.0.2 by Robyn Speer and contributors, pinned revision
+`372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b`, `small_nl.msgpack.gz`;
+132,025 bytes; SHA-256
+`ae0d64f10e9d11898b2b9481c0b20698ec40c79b8025edfdd70856bd593ad4b0`.
+These are historical mixed-region spelling frequencies, not current Netherlands
+sense frequencies. Full pinned README, source credits, MIT software notice and
+CC BY-SA 4.0 data license ship under [Dutch notices](public/third-party/nl-NL/NOTICE.txt).
+Adapted lexical data, frequency data and selections remain **CC BY-SA 4.0**,
+separate from application-code licensing.
+
+NFC preserves accents and trema; IJ occupies two tiles, including Unicode Ĳ/ĳ
+normalized to IJ. Y is never mapped to IJ. Punctuation and spaces are not silently
+removed. Broader guesses can include labelled inflected, historical or regional
+forms that are not answer candidates. Definitions load lazily by length from
+same-origin bundled chunks and never fall back to English homographs. No gameplay
+word is automatically transmitted to a third-party dictionary.
+
+`src/data/dutch/source.json` pins inputs; `coverage.json` pins generated output
+hashes; `review.json` records the independent review; `answer-selection.json`
+preserves the qualifying evidence. [Detailed pipeline and reproduction](docs/sources/dutch.md).
+Run `node scripts/generate-dutch.mjs --check` offline, or reproduce lexical inputs
+with `python3 scripts/import-dutch.py /path/dutch.jsonl /path/small_nl.msgpack.gz --check`.
+Dutch adds distinct dataset IDs and save keys; all prior language data and saves
+remain unchanged. This local addition does not authorize publication.

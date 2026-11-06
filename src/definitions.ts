@@ -21,7 +21,7 @@ export function definitionText(raw:unknown,limit=1800):string {
  }).replace(/[\u0000-\u001f\u007f]/g,' ').replace(/\s+/g,' ').trim().slice(0,limit);
 }
 export function parseDefinitions(payload:unknown,rawWord:string,language:Language='en'):DefinitionResult {
- const [sourceCode,sourceName]=({en:['en','English'],'es-MX':['es','Spanish'],'fil-PH':['tl','Tagalog']} as const)[language];
+ const [sourceCode,sourceName]=({en:['en','English'],'es-MX':['es','Spanish'],'fil-PH':['tl','Tagalog'],'nl-NL':['nl','Dutch']} as const)[language];
  const word=definitionWord(rawWord,language);if(!word||!object(payload)||(sourceCode in payload&&!Array.isArray(payload[sourceCode])))throw new DefinitionError('invalid');
  const entries:DefinitionEntry[]=[];
  for(const entry of (Array.isArray(payload[sourceCode])?payload[sourceCode] as unknown[]:[]).slice(0,8)){

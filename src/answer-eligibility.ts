@@ -17,6 +17,7 @@ for(const entry of [...fiveLetterCuration.removed,...Object.values(lengthCuratio
 export function answerEligibility(raw:string,length:WordLength,language:Language):AnswerEligibility {
  const word=normalizeGuess(raw,language),{answers,allowed}=vocabulary(length,language);
  if(answers.includes(word))return {possible:true,reason:'On this language and length’s answer list. This does not say whether it still fits the clues.'};
+ if(language==='nl-NL'&&allowed.has(word))return {possible:false,reason:'Valid guess; not selected by this list’s documented commonness, standalone-sense and Netherlands usage policy.'};
  if(language==='fil-PH'&&allowed.has(word)){const review=(filipinoReview as Record<string,{reason:string;exclude?:boolean}>)[word];return {possible:false,reason:`Valid guess; ${review?.exclude?review.reason:'not selected by this list’s conservative commonness and standalone-sense policy.'}`};}
  if(language==='es-MX'&&allowed.has(word))return {possible:false,reason:`Valid guess; ${spanishReasons.get(word)??'not selected by this list’s documented frequency and base-word policy.'}`};
  const excluded=language==='en'&&word.length===length?exclusions.get(word):undefined;

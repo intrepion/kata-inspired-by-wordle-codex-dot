@@ -2,7 +2,7 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English and Spanish, five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
 Formerly Morrowmark. Original notebooks and preferences are preserved during the English answer-guide update; compatible progress carries forward.
 
@@ -247,3 +247,13 @@ Optional vowel stress/glottal marks (acute, grave and circumflex) normalize away
 Guesses are attested lowercase lexical headwords from the pinned English Wiktionary Tagalog extract. Possible answers require a qualifying standalone sense and wordfreq Filipino spelling frequency of at least Zipf 4.5, then explicit editorial exclusions. The frequency is historical and not sense-specific. A full independent model review of the 266 provisional candidates produced seven answer exclusions and one omitted erroneous gloss; that is not native-speaker validation. Plural/verb-form-only senses, archaic/rare/offensive labels, alternative-only spellings and known clippings do not automatically become answers. Definitions do not determine guess acceptance. No live dictionary or translation requests occur.
 
 Each Filipino notebook, variant and statistic uses its own `.fil-PH` namespace. Adding Filipino does not change the storage reset epoch or clear English/Spanish progress. Sources and terms are in [WORDS-LICENSE.md](WORDS-LICENSE.md) and the bundled [Filipino notice](public/third-party/fil-PH/NOTICE.txt). Reproduce generated data offline with `node scripts/generate-filipino.mjs --check`; full source extraction commands and hashes are in the license document.
+
+## Dutch (Netherlands)
+
+Select **Nederlands (Nederland)** for Dutch puzzles, with an English interface and sourced English meanings. Dutch supports lengths 3–11 across the existing rules and difficulties. The common answer pool is separate from the broader attested guess list. Inflections and less common words can be accepted guesses without becoming answers. Source labels are used to exclude marked non-Netherlands senses from answers, but the source is general Dutch, not an exhaustive Netherlands dictionary. Independent model review is not native-human certification.
+
+IJ takes **two tiles**: IJS has three letters and IJZER has five. The Unicode ligatures Ĳ/ĳ normalize to IJ, never Y. Accents and trema remain distinct: CAFÉ differs from CAFE and REËEL differs from REEEL. Use the accented on-screen keys or a Dutch keyboard. No punctuation is silently stripped.
+
+Definitions are bundled locally and retain Wiktionary attribution, sense labels and CC BY-SA 4.0 terms. Wordfreq supplies historical spelling frequency, not proof that every meaning is common. [Source details](WORDS-LICENSE.md) and [Dutch notices](public/third-party/nl-NL/NOTICE.txt).
+
+Dutch adds its own `.nl-NL` save namespace. Existing English, Spanish and Filipino datasets, notebooks, statistics and preferences are unchanged. No storage reset or publication is part of this addition.

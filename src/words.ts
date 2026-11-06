@@ -1,3 +1,4 @@
+import DUTCH from './data/dutch/vocabulary.json';
 import FILIPINO from './data/filipino/vocabulary.json';
 import {SPANISH_EXTENDED_VOCABULARY} from './data/spanish/extended-vocabulary.ts';
 import {EXTENDED_VOCABULARY} from './data/extended-vocabulary.ts';
@@ -23,25 +24,29 @@ for(const [length,data] of Object.entries(EXTENDED_VOCABULARY))vocabularies.set(
 const spanishVocabularies=new Map<number,{answers:string[];allowed:Set<string>}>();
 for(const length of [4,5,6,7] as const){const data=SPANISH_VOCABULARY[length];spanishVocabularies.set(length,{answers:data.answers,allowed:new Set(data.guesses)})}
 for(const [length,data] of Object.entries(SPANISH_EXTENDED_VOCABULARY))spanishVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
+const dutchVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();
+for (const [length,data] of Object.entries(DUTCH)) dutchVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
 const filipinoVocabulary = {answers: FILIPINO.answers, allowed: new Set(FILIPINO.guesses)};
 export function supportedLengths(language: Language): readonly WordLength[] {
- return language === 'fil-PH' ? [5] : WORD_LENGTHS;
+ return language === 'fil-PH' ? [5] : language === 'nl-NL' ? WORD_LENGTHS.filter(length => dutchVocabularies.has(length)) : WORD_LENGTHS;
 }
 export function isSupportedLength(length: number, language: Language): boolean {
  return supportedLengths(language).some(value => value === length);
 }
 export function vocabulary(length: number = 5, language: Language = 'en'): {answers: string[]; allowed: Set<string>} {
  if (!isSupportedLength(length, language)) throw new Error('This language and word length are not available.');
- const words = language === 'fil-PH' ? filipinoVocabulary : (language === 'es-MX' ? spanishVocabularies : vocabularies).get(length);
+ const words = language === 'fil-PH' ? filipinoVocabulary : (language === 'es-MX' ? spanishVocabularies : language === 'nl-NL' ? dutchVocabularies : vocabularies).get(length);
  if (!words) throw new Error('This language and word length are not available.');
  return words;
 }
 export function answerDataset(length: number = 5, language: Language = 'en'): string {
+ if (language === 'nl-NL') return `nl-NL-wiktionary-wordfreq-${length}-v1`;
  if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-5-beta-v1';
  if (language === 'es-MX') return length >= 4 && length <= 7 ? `es-MX-wiktionary-wordfreq-${length}-v1` : `es-MX-wiktionary-wordfreq-extended-${length}-v1`;
  return length === 5 ? ANSWER_DATASET : `scowl-2020.12.07-${length}-answers-v${length===3?1:2}`;
 }
 export function absurdDataset(length: number = 5, language: Language = 'en'): string {
+ if (language === 'nl-NL') return `nl-NL-wiktionary-wordfreq-absurd-${length}-v1`;
  if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-absurd-5-beta-v1';
  if (language === 'es-MX') return length >= 4 && length <= 7 ? `es-MX-wiktionary-wordfreq-absurd-${length}-v1` : `es-MX-wiktionary-wordfreq-extended-absurd-${length}-v1`;
  return length === 5 ? ABSURD_DATASET : `scowl-2020.12.07-${length}-absurd-v${length===3?1:2}`;

@@ -220,3 +220,21 @@ The English audit adds 184 explicit exclusions across lengths 3–11 while prese
 Migration regressions cover compatible and removed-answer rounds in all five rulesets, old daily schedules, completed removed-answer results, stale-tab ledgers, repeated loads, rollover, original-value exports, partial/quota failure, language/preference isolation, difficulty exposure and first-result identity. Review caught and verified fixes for a stale completed Daily being rebuilt against a new answer, replacement One Practice inheriting old exposure, and reset active notebooks being reimported. No blocking code-review findings remain.
 
 The non-Beta Filipino presentation passed isolated desktop/mobile interaction checks before the English migration changes. The earlier 80-case Filipino matrix is historical evidence, not a fresh run against the final migration build. `scripts/check-english-progress.mjs` prepares ten explicit disposable-profile desktop/mobile migration scenarios and passes syntax checking, but was not executed during this release because the permitted isolated UI runtime was unavailable. Do not describe that harness as a passing browser test. Final migration confidence comes from the 434-test suite, code review and build checks; physical-device and native-speaker validation are not claimed. Publication and the disclosed incompatible-round restarts were authorized separately after the original-data preservation behavior was explained.
+
+## Dutch (Netherlands), November 6, 2026
+
+Added `nl-NL` with 2,123 possible answers and 82,165 accepted guesses across lengths 3–11. Source import/checksum verification and offline generation checks pass. Every accepted guess has at least one bounded English dictionary meaning, with original headword attribution. All 2,187 source/frequency-qualified answer candidates received independent model review; 64 exclusions are recorded. This is not native-human certification. The deprecated postprocessed Kaikki snapshot and incomplete regional/sense coverage are explicitly disclosed.
+
+Final automated verification:
+- `npm run check`: passed type checking, **491 tests**, and production build.
+- `npm run build:pages`: passed.
+- `npm audit --audit-level=moderate`: zero vulnerabilities.
+- `node scripts/verify-arcade.mjs`: passed existing capture-manifest verification.
+- `git diff --check`: clean.
+- 57 Dutch tests cover all supported lengths, four difficulties, daily/practice and adaptive persistence, One possibility uniqueness, daily Absurd reachability, viable Smashare pairs, Letroso lengths, definitions, spelling/diacritics, isolated statistics, and old-save preservation.
+
+Independent code review found that advice encoding had only seven ternary weights, producing invalid ranking numbers at 8–11 letters. The fix supplies all eleven positions. New tests independently score clues and ranking metrics at each long length; the AANDACHT/AANKOMEN reproduction now has finite, correct optimal and suboptimal results. Re-review found no remaining blocker within the reviewed scope. No existing answer datasets, storage keys, storage epoch or prior language vocabulary/meaning files changed.
+
+Browser checks used a separate local origin at `http://127.0.0.1:5309`, avoiding existing user saves. In Chrome, verified Dutch selection; normal Conquest submission of WATER; on-screen trema entry REËEL and its English meaning; reload restoration of both guesses; switching to English and back retaining the Dutch notebook; Absurd submission and target-elimination result; One possibility's given BLAUW clue; Smashare accepting GROEN + ENKEL as GROENKEL with both definitions; and Letroso accepting IJS as three tiles with the ice meaning. Desktop and emulated 390 × 844 layouts showed readable controls, board, source attribution and all accented-key rows. Emulation is not physical-device testing. Every length/difficulty combination is covered by domain tests, not claimed as individually clicked in the browser.
+
+Builds retain the existing large-chunk warning; Dutch meanings are split into nine lazy chunks. Broader guesses include labelled regional/historical/inflected forms. No runtime external dictionary requests, new runtime dependencies, source upload, push or deployment were performed. This is a local implementation pending publication approval.

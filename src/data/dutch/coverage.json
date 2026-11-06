@@ -1,0 +1,72 @@
+{
+  "version": "nl-NL-v1",
+  "language": "nl-NL",
+  "minimumZipf": 4.3,
+  "lengths": {
+    "3": {
+      "answers": 160,
+      "guesses": 770,
+      "definedGuesses": 770
+    },
+    "4": {
+      "answers": 333,
+      "guesses": 2284,
+      "definedGuesses": 2284
+    },
+    "5": {
+      "answers": 327,
+      "guesses": 4381,
+      "definedGuesses": 4381
+    },
+    "6": {
+      "answers": 386,
+      "guesses": 8059,
+      "definedGuesses": 8059
+    },
+    "7": {
+      "answers": 309,
+      "guesses": 11091,
+      "definedGuesses": 11091
+    },
+    "8": {
+      "answers": 240,
+      "guesses": 13318,
+      "definedGuesses": 13318
+    },
+    "9": {
+      "answers": 181,
+      "guesses": 14918,
+      "definedGuesses": 14918
+    },
+    "10": {
+      "answers": 113,
+      "guesses": 14654,
+      "definedGuesses": 14654
+    },
+    "11": {
+      "answers": 74,
+      "guesses": 12690,
+      "definedGuesses": 12690
+    }
+  },
+  "review": "Explicit independent model-reviewed allowlist, not native-human certification.",
+  "inputs": {
+    "lexical-evidence.json": "c8730ffd8da62cc308fba49bdf442847dacac2748246950869b1a46cc15664d2",
+    "frequency-evidence.json": "236bfbb6bbae85150fa4fb15a023e8e708ef1b442ec29c3220d0ef7761b98c33",
+    "review.json": "a56b3ea04fa9a329d45a78bd6446a85e4b9cede387f276ea41f633b8ebaebea0"
+  },
+  "outputs": {
+    "vocabulary.json": "e7c91667b37599d0ff0e96156d5a18b74b1b350e568d5163e0bbd044782bda68",
+    "answer-selection.json": "b4a410eb3598755c2208d51f66eb86d49af7c81bc068546c704626532677b00b",
+    "definitions-3.json": "5aaafb11359561d133622bb597350850131bd6a49892ee555821e3a376b560f2",
+    "definitions-4.json": "7be871cc32e1731ee2edf2bf3bc6d942e29931cc46d94d21cb798c6e3118e2f9",
+    "definitions-5.json": "4e29b2cd56d7a86f58cda73f4e9c64d5a6d9b409656c38eca8fbcd504c946cd4",
+    "definitions-6.json": "df2d0d7e3fe0082d24b3158009351316174e7454d0a047caa1f12b2d90bded22",
+    "definitions-7.json": "b8bc1c57e63bcb90bfbffc1d63e453850d26251c227e90a40e809fced579e49f",
+    "definitions-8.json": "930cc119c11411c52743564c97bcb5d7e958af4f375434410ca3223cf5ecbad7",
+    "definitions-9.json": "e1f7c9ff4a2034dc6652cfec8665ce9c751fc68774685afefabfae15a875275f",
+    "definitions-10.json": "ef2815cf2a7ff39729138f9cd1f95177c2f7dfadd7e0a7aa5e15ad64fd06c83a",
+    "definitions-11.json": "d9f0e007232fcf27fa72d824720b2457e0d26235f50f96bf5626e261d8cae99b"
+  },
+  "limitations": "Conservative starter answer pool. Frequency is historical mixed-region spelling frequency, not current Netherlands sense frequency. Source labels and model review may be incomplete. Broader guesses include labelled historical, regional and inflected entries. No exhaustive morphology coverage."
+}

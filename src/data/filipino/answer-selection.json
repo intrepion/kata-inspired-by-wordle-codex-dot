@@ -1,0 +1,7328 @@
+{
+  "ABALA": {
+    "zipf": 4.66,
+    "senses": [
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "noun",
+        "gloss": "trouble; bother; inconvenience",
+        "tags": []
+      },
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "noun",
+        "gloss": "interruption; delay; disturbance",
+        "tags": []
+      },
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "noun",
+        "gloss": "act of borrowing from someone",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "adj",
+        "gloss": "busy; preoccupied; distracted",
+        "tags": []
+      },
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "adj",
+        "gloss": "absorbed; obsessed; engrossed; preoccupied",
+        "tags": []
+      },
+      {
+        "sourceWord": "abala",
+        "partOfSpeech": "adj",
+        "gloss": "inconvenient; bothersome",
+        "tags": []
+      }
+    ]
+  },
+  "AGHAM": {
+    "zipf": 4.77,
+    "senses": [
+      {
+        "sourceWord": "agham",
+        "partOfSpeech": "noun",
+        "gloss": "science",
+        "tags": []
+      }
+    ]
+  },
+  "AKALA": {
+    "zipf": 5.1,
+    "senses": [
+      {
+        "sourceWord": "akala",
+        "partOfSpeech": "noun",
+        "gloss": "presumption; surmise; assumption; thinking",
+        "tags": []
+      },
+      {
+        "sourceWord": "akala",
+        "partOfSpeech": "noun",
+        "gloss": "belief; opinion",
+        "tags": []
+      }
+    ]
+  },
+  "AKLAT": {
+    "zipf": 5.23,
+    "senses": [
+      {
+        "sourceWord": "aklat",
+        "partOfSpeech": "noun",
+        "gloss": "book; tome; volume",
+        "tags": []
+      }
+    ]
+  },
+  "AKTOR": {
+    "zipf": 5.06,
+    "senses": [
+      {
+        "sourceWord": "aktor",
+        "partOfSpeech": "noun",
+        "gloss": "actor",
+        "tags": []
+      }
+    ]
+  },
+  "ALAGA": {
+    "zipf": 4.64,
+    "senses": [
+      {
+        "sourceWord": "alaga",
+        "partOfSpeech": "noun",
+        "gloss": "care; caution",
+        "tags": []
+      },
+      {
+        "sourceWord": "alaga",
+        "partOfSpeech": "noun",
+        "gloss": "ward (someone or something being cared for)",
+        "tags": []
+      },
+      {
+        "sourceWord": "alaga",
+        "partOfSpeech": "noun",
+        "gloss": "pet",
+        "tags": []
+      },
+      {
+        "sourceWord": "alaga",
+        "partOfSpeech": "adj",
+        "gloss": "under the care of someone (of a person, animal, plant, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "alaga",
+        "partOfSpeech": "adj",
+        "gloss": "well-kept; well-cared for; carefully tended",
+        "tags": []
+      }
+    ]
+  },
+  "ALALA": {
+    "zipf": 4.66,
+    "senses": [
+      {
+        "sourceWord": "alala",
+        "partOfSpeech": "adj",
+        "gloss": "worried; anxious",
+        "tags": []
+      },
+      {
+        "sourceWord": "alala",
+        "partOfSpeech": "noun",
+        "gloss": "recollection; memory",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "ALBUM": {
+    "zipf": 4.87,
+    "senses": [
+      {
+        "sourceWord": "album",
+        "partOfSpeech": "noun",
+        "gloss": "album",
+        "tags": []
+      }
+    ]
+  },
+  "ANIME": {
+    "zipf": 4.63,
+    "senses": [
+      {
+        "sourceWord": "anime",
+        "partOfSpeech": "noun",
+        "gloss": "anime (Japanese animation)",
+        "tags": []
+      }
+    ]
+  },
+  "ANTAS": {
+    "zipf": 5.2,
+    "senses": [
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "social position; rank; class",
+        "tags": []
+      },
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "degree of progress; level of development",
+        "tags": []
+      },
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "phase; stage",
+        "tags": []
+      },
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "academic degree",
+        "tags": []
+      },
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "step; level; degree; grade",
+        "tags": []
+      },
+      {
+        "sourceWord": "antas",
+        "partOfSpeech": "noun",
+        "gloss": "rim of a wheel",
+        "tags": []
+      }
+    ]
+  },
+  "ARMAS": {
+    "zipf": 4.52,
+    "senses": [
+      {
+        "sourceWord": "armas",
+        "partOfSpeech": "noun",
+        "gloss": "weapon; arms",
+        "tags": []
+      }
+    ]
+  },
+  "ASAWA": {
+    "zipf": 5.41,
+    "senses": [
+      {
+        "sourceWord": "asawa",
+        "partOfSpeech": "noun",
+        "gloss": "spouse",
+        "tags": []
+      },
+      {
+        "sourceWord": "asawa",
+        "partOfSpeech": "noun",
+        "gloss": "husband",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "asawa",
+        "partOfSpeech": "noun",
+        "gloss": "wife",
+        "tags": [
+          "broadly"
+        ]
+      }
+    ]
+  },
+  "ATAKE": {
+    "zipf": 4.72,
+    "senses": [
+      {
+        "sourceWord": "atake",
+        "partOfSpeech": "noun",
+        "gloss": "attack; assault",
+        "tags": []
+      },
+      {
+        "sourceWord": "atake",
+        "partOfSpeech": "noun",
+        "gloss": "approach (manner of making or solving)",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "AWARD": {
+    "zipf": 4.66,
+    "senses": [
+      {
+        "sourceWord": "award",
+        "partOfSpeech": "noun",
+        "gloss": "award (trophy or medal)",
+        "tags": []
+      },
+      {
+        "sourceWord": "award",
+        "partOfSpeech": "noun",
+        "gloss": "award (decision of arbitrators)",
+        "tags": []
+      }
+    ]
+  },
+  "AYOKO": {
+    "zipf": 4.73,
+    "senses": [
+      {
+        "sourceWord": "ayoko",
+        "partOfSpeech": "intj",
+        "gloss": "used to express one's own aversion to something or someone: I don't want it; I don't like to",
+        "tags": []
+      }
+    ]
+  },
+  "BABAE": {
+    "zipf": 5.95,
+    "senses": [
+      {
+        "sourceWord": "babae",
+        "partOfSpeech": "noun",
+        "gloss": "woman; girl; female",
+        "tags": []
+      },
+      {
+        "sourceWord": "babae",
+        "partOfSpeech": "noun",
+        "gloss": "mistress; concubine; other woman",
+        "tags": []
+      },
+      {
+        "sourceWord": "babae",
+        "partOfSpeech": "noun",
+        "gloss": "female connector; female fastener",
+        "tags": []
+      }
+    ]
+  },
+  "BABOY": {
+    "zipf": 4.81,
+    "senses": [
+      {
+        "sourceWord": "baboy",
+        "partOfSpeech": "noun",
+        "gloss": "pig (mammal of genus Sus)",
+        "tags": []
+      },
+      {
+        "sourceWord": "baboy",
+        "partOfSpeech": "noun",
+        "gloss": "pork",
+        "tags": []
+      },
+      {
+        "sourceWord": "baboy",
+        "partOfSpeech": "adj",
+        "gloss": "dirty; unsanitary; filthy",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "baboy",
+        "partOfSpeech": "adj",
+        "gloss": "indecent; vulgar",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BAGAY": {
+    "zipf": 6.02,
+    "senses": [
+      {
+        "sourceWord": "bagay",
+        "partOfSpeech": "noun",
+        "gloss": "thing; object; item",
+        "tags": []
+      },
+      {
+        "sourceWord": "bagay",
+        "partOfSpeech": "noun",
+        "gloss": "affair; matter",
+        "tags": []
+      },
+      {
+        "sourceWord": "bagay",
+        "partOfSpeech": "adj",
+        "gloss": "proper; fit; suitable; matching",
+        "tags": []
+      }
+    ]
+  },
+  "BAGYO": {
+    "zipf": 4.77,
+    "senses": [
+      {
+        "sourceWord": "bagyo",
+        "partOfSpeech": "noun",
+        "gloss": "typhoon; tropical cyclone; storm; tempest",
+        "tags": []
+      },
+      {
+        "sourceWord": "bagyo",
+        "partOfSpeech": "noun",
+        "gloss": "bad circumstance that befalls someone",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BAHAY": {
+    "zipf": 6,
+    "senses": [
+      {
+        "sourceWord": "bahay",
+        "partOfSpeech": "noun",
+        "gloss": "house",
+        "tags": []
+      },
+      {
+        "sourceWord": "bahay",
+        "partOfSpeech": "noun",
+        "gloss": "edifice; building; hall",
+        "tags": []
+      },
+      {
+        "sourceWord": "bahay",
+        "partOfSpeech": "noun",
+        "gloss": "residence; home; abode; dwelling",
+        "tags": []
+      },
+      {
+        "sourceWord": "bahay",
+        "partOfSpeech": "noun",
+        "gloss": "set; meld",
+        "tags": []
+      },
+      {
+        "sourceWord": "bahay",
+        "partOfSpeech": "noun",
+        "gloss": "smaller holes of a congkak board",
+        "tags": []
+      }
+    ]
+  },
+  "BAKAL": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "iron",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "steel",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "horseshoe",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "act of horseshoeing a horse",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "adj",
+        "gloss": "made of iron",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "adj",
+        "gloss": "made of steel",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "stave tipped with iron used in planting seed or seedlings",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "noun",
+        "gloss": "act of digging small holes in the ground with a stave for planting",
+        "tags": []
+      },
+      {
+        "sourceWord": "bakal",
+        "partOfSpeech": "adj",
+        "gloss": "planted in the manner of digging small holes in the ground (of seeds or seedlings)",
+        "tags": []
+      }
+    ]
+  },
+  "BAKIT": {
+    "zipf": 6,
+    "senses": [
+      {
+        "sourceWord": "bakit",
+        "partOfSpeech": "adv",
+        "gloss": "why; for what reason",
+        "tags": []
+      }
+    ]
+  },
+  "BALAK": {
+    "zipf": 4.8,
+    "senses": [
+      {
+        "sourceWord": "balak",
+        "partOfSpeech": "noun",
+        "gloss": "plan; intention; purpose",
+        "tags": []
+      },
+      {
+        "sourceWord": "balak",
+        "partOfSpeech": "noun",
+        "gloss": "calculation; computation",
+        "tags": []
+      }
+    ]
+  },
+  "BALAT": {
+    "zipf": 5.07,
+    "senses": [
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "skin",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "pelt; hide; animal skin",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "rind; peel",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "wrapper; packaging (of chips, candy, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "shell (of eggs, mollusks, nuts, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "cover (of a book)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "bark (of a tree)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "husk (of a coconut)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balat",
+        "partOfSpeech": "noun",
+        "gloss": "birthmark on one's skin; livid spot on one's skin",
+        "tags": []
+      }
+    ]
+  },
+  "BALIK": {
+    "zipf": 4.71,
+    "senses": [
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "return; going back (to a place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "giving back; return (of an object)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "restoration; return to a former position",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "retreat; turning back",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "repetition",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "turning over (of food cooked on a grill or live coal)",
+        "tags": []
+      },
+      {
+        "sourceWord": "balik",
+        "partOfSpeech": "noun",
+        "gloss": "karma",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "BANAL": {
+    "zipf": 5.27,
+    "senses": [
+      {
+        "sourceWord": "banal",
+        "partOfSpeech": "adj",
+        "gloss": "holy; sacred; blessed",
+        "tags": []
+      },
+      {
+        "sourceWord": "banal",
+        "partOfSpeech": "adj",
+        "gloss": "virtuous; righteous",
+        "tags": []
+      },
+      {
+        "sourceWord": "banal",
+        "partOfSpeech": "adj",
+        "gloss": "pious; devout",
+        "tags": []
+      }
+    ]
+  },
+  "BANDA": {
+    "zipf": 4.75,
+    "senses": [
+      {
+        "sourceWord": "banda",
+        "partOfSpeech": "noun",
+        "gloss": "band (of musicians)",
+        "tags": []
+      },
+      {
+        "sourceWord": "banda",
+        "partOfSpeech": "noun",
+        "gloss": "group of people, animals, fowl, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "banda",
+        "partOfSpeech": "noun",
+        "gloss": "narrow strip of band (such as ribbon or metal bands)",
+        "tags": []
+      },
+      {
+        "sourceWord": "banda",
+        "partOfSpeech": "noun",
+        "gloss": "direction; side; place",
+        "tags": []
+      },
+      {
+        "sourceWord": "banda",
+        "partOfSpeech": "prep",
+        "gloss": "around (of location or time)",
+        "tags": []
+      }
+    ]
+  },
+  "BANSA": {
+    "zipf": 5.95,
+    "senses": [
+      {
+        "sourceWord": "bansa",
+        "partOfSpeech": "noun",
+        "gloss": "nation",
+        "tags": []
+      },
+      {
+        "sourceWord": "bansa",
+        "partOfSpeech": "noun",
+        "gloss": "country",
+        "tags": []
+      }
+    ]
+  },
+  "BANYO": {
+    "zipf": 4.54,
+    "senses": [
+      {
+        "sourceWord": "banyo",
+        "partOfSpeech": "noun",
+        "gloss": "bathroom; shower room / area; bath; bathtub",
+        "tags": []
+      },
+      {
+        "sourceWord": "banyo",
+        "partOfSpeech": "noun",
+        "gloss": "lavatory; toilet; WC; comfort room; restroom",
+        "tags": []
+      }
+    ]
+  },
+  "BARKO": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "barko",
+        "partOfSpeech": "noun",
+        "gloss": "ship",
+        "tags": []
+      }
+    ]
+  },
+  "BASTA": {
+    "zipf": 5.27,
+    "senses": [
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "intj",
+        "gloss": "used to react when one refuses to give an explanation: just because!; none of your business!; no need to ask!; whatever!",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "intj",
+        "gloss": "used to react to one's sudden loss for words during an explanation",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "conj",
+        "gloss": "as long as; provided that; only if",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "adv",
+        "gloss": "used to reduce the force of an imperative: simply; just",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "adv",
+        "gloss": "used to emphasize that one's knowledge or concern is limited: just; all I know is that; all that matters is that; all I can say is that",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "adv",
+        "gloss": "just; only; merely (used in the negative)",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "adv",
+        "gloss": "used to emphasize lack of discernment in one's actions: just",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "noun",
+        "gloss": "packaging; packing; baling",
+        "tags": []
+      },
+      {
+        "sourceWord": "basta",
+        "partOfSpeech": "noun",
+        "gloss": "bundle; bale; large bundle",
+        "tags": []
+      }
+    ]
+  },
+  "BATAS": {
+    "zipf": 5.53,
+    "senses": [
+      {
+        "sourceWord": "batas",
+        "partOfSpeech": "noun",
+        "gloss": "law",
+        "tags": []
+      },
+      {
+        "sourceWord": "batas",
+        "partOfSpeech": "noun",
+        "gloss": "decree",
+        "tags": []
+      },
+      {
+        "sourceWord": "batas",
+        "partOfSpeech": "noun",
+        "gloss": "command",
+        "tags": []
+      },
+      {
+        "sourceWord": "batas",
+        "partOfSpeech": "noun",
+        "gloss": "unstitching of clothes",
+        "tags": []
+      },
+      {
+        "sourceWord": "batas",
+        "partOfSpeech": "noun",
+        "gloss": "shortcut (such as estuary when traveling by water)",
+        "tags": []
+      }
+    ]
+  },
+  "BATAY": {
+    "zipf": 5.18,
+    "senses": [
+      {
+        "sourceWord": "batay",
+        "partOfSpeech": "adj",
+        "gloss": "based (on); taken (from)",
+        "tags": []
+      }
+    ]
+  },
+  "BAWAL": {
+    "zipf": 5.33,
+    "senses": [
+      {
+        "sourceWord": "bawal",
+        "partOfSpeech": "adj",
+        "gloss": "not allowed; prohibited; forbidden",
+        "tags": []
+      }
+    ]
+  },
+  "BAWAT": {
+    "zipf": 5.78,
+    "senses": [
+      {
+        "sourceWord": "bawat",
+        "partOfSpeech": "det",
+        "gloss": "each; every",
+        "tags": []
+      }
+    ]
+  },
+  "BAYAD": {
+    "zipf": 4.81,
+    "senses": [
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "noun",
+        "gloss": "payment",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "noun",
+        "gloss": "installment",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "noun",
+        "gloss": "paying or discharge of debt or loan",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "noun",
+        "gloss": "salary; wage; compensation",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "noun",
+        "gloss": "articles bought",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayad",
+        "partOfSpeech": "adj",
+        "gloss": "paid",
+        "tags": []
+      }
+    ]
+  },
+  "BAYAN": {
+    "zipf": 5.81,
+    "senses": [
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "city",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "downtown; commercial district",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "town; municipality",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "nation; state; country",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "motherland; native land",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "people; citizenry; the public",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "noun",
+        "gloss": "Memecylon ovatum",
+        "tags": []
+      },
+      {
+        "sourceWord": "bayan",
+        "partOfSpeech": "adj",
+        "gloss": "folk; popular (usually in compounds)",
+        "tags": [
+          "relational"
+        ]
+      }
+    ]
+  },
+  "BESES": {
+    "zipf": 5.23,
+    "senses": [
+      {
+        "sourceWord": "beses",
+        "partOfSpeech": "noun",
+        "gloss": "time; instance; repetition",
+        "tags": []
+      }
+    ]
+  },
+  "BIBIG": {
+    "zipf": 4.97,
+    "senses": [
+      {
+        "sourceWord": "bibig",
+        "partOfSpeech": "noun",
+        "gloss": "mouth (of a person)",
+        "tags": []
+      },
+      {
+        "sourceWord": "bibig",
+        "partOfSpeech": "noun",
+        "gloss": "mouthpiece (for someone)",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BIGAS": {
+    "zipf": 4.55,
+    "senses": [
+      {
+        "sourceWord": "bigas",
+        "partOfSpeech": "noun",
+        "gloss": "husked, uncooked rice",
+        "tags": []
+      }
+    ]
+  },
+  "BIGAT": {
+    "zipf": 4.75,
+    "senses": [
+      {
+        "sourceWord": "bigat",
+        "partOfSpeech": "noun",
+        "gloss": "weight",
+        "tags": []
+      },
+      {
+        "sourceWord": "bigat",
+        "partOfSpeech": "noun",
+        "gloss": "graveness; gravity of a situation",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BIGAY": {
+    "zipf": 4.52,
+    "senses": [
+      {
+        "sourceWord": "bigay",
+        "partOfSpeech": "noun",
+        "gloss": "something given; present; gift",
+        "tags": []
+      },
+      {
+        "sourceWord": "bigay",
+        "partOfSpeech": "noun",
+        "gloss": "act of giving something",
+        "tags": []
+      },
+      {
+        "sourceWord": "bigay",
+        "partOfSpeech": "adj",
+        "gloss": "given as a gift, present, donation, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "bigay",
+        "partOfSpeech": "adj",
+        "gloss": "with all effort (of one's performance or actions)",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "BIGLA": {
+    "zipf": 5.14,
+    "senses": [
+      {
+        "sourceWord": "bigla",
+        "partOfSpeech": "adj",
+        "gloss": "sudden; abrupt",
+        "tags": []
+      },
+      {
+        "sourceWord": "bigla",
+        "partOfSpeech": "adv",
+        "gloss": "suddenly; abruptly",
+        "tags": []
+      }
+    ]
+  },
+  "BILIS": {
+    "zipf": 4.84,
+    "senses": [
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "noun",
+        "gloss": "speed",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "noun",
+        "gloss": "promptness; quickness",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "noun",
+        "gloss": "velocity",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "noun",
+        "gloss": "tempo",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "noun",
+        "gloss": "ultimate syllabic stress (without a glottal ending)",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilis",
+        "partOfSpeech": "intj",
+        "gloss": "faster! hurry up; quick!",
+        "tags": []
+      }
+    ]
+  },
+  "BILOG": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "noun",
+        "gloss": "circle",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "noun",
+        "gloss": "roundness",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "noun",
+        "gloss": "plumpness; rotundity",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "noun",
+        "gloss": "circumference",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "adj",
+        "gloss": "circular",
+        "tags": []
+      },
+      {
+        "sourceWord": "bilog",
+        "partOfSpeech": "adj",
+        "gloss": "round; spherical",
+        "tags": []
+      }
+    ]
+  },
+  "BOSES": {
+    "zipf": 4.96,
+    "senses": [
+      {
+        "sourceWord": "boses",
+        "partOfSpeech": "noun",
+        "gloss": "voice",
+        "tags": []
+      },
+      {
+        "sourceWord": "boses",
+        "partOfSpeech": "noun",
+        "gloss": "right to express an opinion",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BRASO": {
+    "zipf": 4.76,
+    "senses": [
+      {
+        "sourceWord": "braso",
+        "partOfSpeech": "noun",
+        "gloss": "arm",
+        "tags": []
+      },
+      {
+        "sourceWord": "braso",
+        "partOfSpeech": "noun",
+        "gloss": "force",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "BUHAT": {
+    "zipf": 4.5,
+    "senses": [
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "noun",
+        "gloss": "lifting; carrying; raising upward",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "noun",
+        "gloss": "object being lifted; object being carried",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "noun",
+        "gloss": "carrying (one's team)",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "adv",
+        "gloss": "since; from",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "adj",
+        "gloss": "originated; derived; based (from)",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhat",
+        "partOfSpeech": "adj",
+        "gloss": "native (of)",
+        "tags": []
+      }
+    ]
+  },
+  "BUHAY": {
+    "zipf": 6.18,
+    "senses": [
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "noun",
+        "gloss": "life",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "noun",
+        "gloss": "existence; living",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "noun",
+        "gloss": "source of living",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "noun",
+        "gloss": "action; animation",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "noun",
+        "gloss": "story; main part of a tale",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "adj",
+        "gloss": "alive; living; mabuhay",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "adj",
+        "gloss": "prosperous; thriving",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "adj",
+        "gloss": "animated; lively; spirited",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "adj",
+        "gloss": "functioning; running",
+        "tags": []
+      },
+      {
+        "sourceWord": "buhay",
+        "partOfSpeech": "adj",
+        "gloss": "clear and vivid (of color)",
+        "tags": []
+      }
+    ]
+  },
+  "BUHOK": {
+    "zipf": 5.44,
+    "senses": [
+      {
+        "sourceWord": "buhok",
+        "partOfSpeech": "noun",
+        "gloss": "hair",
+        "tags": []
+      }
+    ]
+  },
+  "BUKAS": {
+    "zipf": 5.18,
+    "senses": [
+      {
+        "sourceWord": "bukas",
+        "partOfSpeech": "adj",
+        "gloss": "open",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukas",
+        "partOfSpeech": "adj",
+        "gloss": "turned on; powered on",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "bukas",
+        "partOfSpeech": "noun",
+        "gloss": "act of opening",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukas",
+        "partOfSpeech": "noun",
+        "gloss": "turning on or powering on a machine",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "bukas",
+        "partOfSpeech": "adv",
+        "gloss": "tomorrow",
+        "tags": []
+      }
+    ]
+  },
+  "BUKOD": {
+    "zipf": 5.21,
+    "senses": [
+      {
+        "sourceWord": "bukod",
+        "partOfSpeech": "adj",
+        "gloss": "separate; apart; segregated",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukod",
+        "partOfSpeech": "adv",
+        "gloss": "aside (from); apart (from)",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukod",
+        "partOfSpeech": "adv",
+        "gloss": "moreover; besides; in addition to",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukod",
+        "partOfSpeech": "noun",
+        "gloss": "act of living separately from someone",
+        "tags": []
+      },
+      {
+        "sourceWord": "bukod",
+        "partOfSpeech": "noun",
+        "gloss": "act of putting aside something for someone",
+        "tags": []
+      }
+    ]
+  },
+  "BUMUO": {
+    "zipf": 4.85,
+    "senses": [
+      {
+        "sourceWord": "bumuo",
+        "partOfSpeech": "verb",
+        "gloss": "to form; to make up; to construct; to constitute",
+        "tags": []
+      }
+    ]
+  },
+  "BUNGA": {
+    "zipf": 4.87,
+    "senses": [
+      {
+        "sourceWord": "bunga",
+        "partOfSpeech": "noun",
+        "gloss": "fruit",
+        "tags": []
+      },
+      {
+        "sourceWord": "bunga",
+        "partOfSpeech": "noun",
+        "gloss": "result; effect; consequence",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "bunga",
+        "partOfSpeech": "noun",
+        "gloss": "profit; fruit; gain",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "bunga",
+        "partOfSpeech": "noun",
+        "gloss": "areca palm (Areca catechu)",
+        "tags": []
+      },
+      {
+        "sourceWord": "bunga",
+        "partOfSpeech": "noun",
+        "gloss": "areca nut",
+        "tags": []
+      }
+    ]
+  },
+  "BUTAS": {
+    "zipf": 4.74,
+    "senses": [
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "hole; pit",
+        "tags": []
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "orifice; opening; mouth; outlet",
+        "tags": []
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "eye (of a needle)",
+        "tags": []
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "leak; crack",
+        "tags": []
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "act of boring a hole; perforation",
+        "tags": []
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "noun",
+        "gloss": "loophole; means of escape",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "butas",
+        "partOfSpeech": "adj",
+        "gloss": "perforated; punctured; with hole or holes",
+        "tags": []
+      }
+    ]
+  },
+  "BUWAN": {
+    "zipf": 5.5,
+    "senses": [
+      {
+        "sourceWord": "buwan",
+        "partOfSpeech": "noun",
+        "gloss": "moon",
+        "tags": []
+      },
+      {
+        "sourceWord": "buwan",
+        "partOfSpeech": "noun",
+        "gloss": "month",
+        "tags": []
+      }
+    ]
+  },
+  "BUWIS": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "buwis",
+        "partOfSpeech": "noun",
+        "gloss": "tax; tariff; taxation",
+        "tags": []
+      },
+      {
+        "sourceWord": "buwis",
+        "partOfSpeech": "noun",
+        "gloss": "tribute; forced payment",
+        "tags": []
+      },
+      {
+        "sourceWord": "buwis",
+        "partOfSpeech": "noun",
+        "gloss": "crop share",
+        "tags": []
+      },
+      {
+        "sourceWord": "buwis",
+        "partOfSpeech": "noun",
+        "gloss": "something given as a sacrifice",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "DAGAT": {
+    "zipf": 5.23,
+    "senses": [
+      {
+        "sourceWord": "dagat",
+        "partOfSpeech": "noun",
+        "gloss": "ocean; sea",
+        "tags": []
+      },
+      {
+        "sourceWord": "dagat",
+        "partOfSpeech": "noun",
+        "gloss": "bay; gulf",
+        "tags": []
+      },
+      {
+        "sourceWord": "dagat",
+        "partOfSpeech": "noun",
+        "gloss": "lake",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "DAHAN": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "dahan",
+        "partOfSpeech": "noun",
+        "gloss": "slowness; moderation (of movement or action)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahan",
+        "partOfSpeech": "noun",
+        "gloss": "softness; lowness (of voice)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahan",
+        "partOfSpeech": "noun",
+        "gloss": "carefulness; caution",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahan",
+        "partOfSpeech": "noun",
+        "gloss": "control; moderation (as in drinking, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahan",
+        "partOfSpeech": "noun",
+        "gloss": "control (of one's temper)",
+        "tags": []
+      }
+    ]
+  },
+  "DAHIL": {
+    "zipf": 6.37,
+    "senses": [
+      {
+        "sourceWord": "dahil",
+        "partOfSpeech": "conj",
+        "gloss": "because; since; for the reason that",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahil",
+        "partOfSpeech": "noun",
+        "gloss": "cause; reason",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahil",
+        "partOfSpeech": "noun",
+        "gloss": "purpose; motive",
+        "tags": []
+      }
+    ]
+  },
+  "DAHON": {
+    "zipf": 4.67,
+    "senses": [
+      {
+        "sourceWord": "dahon",
+        "partOfSpeech": "noun",
+        "gloss": "leaf (part of a plant)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahon",
+        "partOfSpeech": "noun",
+        "gloss": "sheet of paper; leaf (of a book)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dahon",
+        "partOfSpeech": "noun",
+        "gloss": "movable frame or panelling (of a door or window)",
+        "tags": []
+      }
+    ]
+  },
+  "DALOY": {
+    "zipf": 4.6,
+    "senses": [
+      {
+        "sourceWord": "daloy",
+        "partOfSpeech": "noun",
+        "gloss": "continuous flow (of liquid, electricity, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "daloy",
+        "partOfSpeech": "noun",
+        "gloss": "ooze; oozing; slow flow",
+        "tags": []
+      },
+      {
+        "sourceWord": "daloy",
+        "partOfSpeech": "noun",
+        "gloss": "spring (of water)",
+        "tags": []
+      },
+      {
+        "sourceWord": "daloy",
+        "partOfSpeech": "noun",
+        "gloss": "leak; leakage",
+        "tags": []
+      }
+    ]
+  },
+  "DAMIT": {
+    "zipf": 5.22,
+    "senses": [
+      {
+        "sourceWord": "damit",
+        "partOfSpeech": "noun",
+        "gloss": "clothes; clothing; dress",
+        "tags": []
+      },
+      {
+        "sourceWord": "damit",
+        "partOfSpeech": "noun",
+        "gloss": "cloth; textile",
+        "tags": []
+      }
+    ]
+  },
+  "DAPAT": {
+    "zipf": 6.14,
+    "senses": [
+      {
+        "sourceWord": "dapat",
+        "partOfSpeech": "verb",
+        "gloss": "must; should; ought to",
+        "tags": []
+      },
+      {
+        "sourceWord": "dapat",
+        "partOfSpeech": "noun",
+        "gloss": "that which is right; that which is proper",
+        "tags": []
+      },
+      {
+        "sourceWord": "dapat",
+        "partOfSpeech": "adj",
+        "gloss": "right; fitting; appropriate",
+        "tags": []
+      },
+      {
+        "sourceWord": "dapat",
+        "partOfSpeech": "adj",
+        "gloss": "worthy; deserving",
+        "tags": []
+      }
+    ]
+  },
+  "DATOS": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "datos",
+        "partOfSpeech": "noun",
+        "gloss": "data",
+        "tags": []
+      }
+    ]
+  },
+  "DILAW": {
+    "zipf": 4.62,
+    "senses": [
+      {
+        "sourceWord": "dilaw",
+        "partOfSpeech": "adj",
+        "gloss": "yellow",
+        "tags": []
+      },
+      {
+        "sourceWord": "dilaw",
+        "partOfSpeech": "noun",
+        "gloss": "yellow",
+        "tags": []
+      },
+      {
+        "sourceWord": "dilaw",
+        "partOfSpeech": "noun",
+        "gloss": "turmeric (Curcuma longa)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dilaw",
+        "partOfSpeech": "noun",
+        "gloss": "jaundice",
+        "tags": []
+      }
+    ]
+  },
+  "DIYAN": {
+    "zipf": 5,
+    "senses": [
+      {
+        "sourceWord": "diyan",
+        "partOfSpeech": "adv",
+        "gloss": "there (far from the speaker, but near the person addressed)",
+        "tags": []
+      }
+    ]
+  },
+  "DIYOS": {
+    "zipf": 5.8,
+    "senses": [
+      {
+        "sourceWord": "diyos",
+        "partOfSpeech": "noun",
+        "gloss": "god",
+        "tags": []
+      }
+    ]
+  },
+  "DRAMA": {
+    "zipf": 5.2,
+    "senses": [
+      {
+        "sourceWord": "drama",
+        "partOfSpeech": "noun",
+        "gloss": "drama; stage play",
+        "tags": []
+      },
+      {
+        "sourceWord": "drama",
+        "partOfSpeech": "noun",
+        "gloss": "theatrics; histrionics",
+        "tags": []
+      }
+    ]
+  },
+  "DROGA": {
+    "zipf": 4.6,
+    "senses": [
+      {
+        "sourceWord": "droga",
+        "partOfSpeech": "noun",
+        "gloss": "drug (typically illegal psychoactive substance)",
+        "tags": []
+      }
+    ]
+  },
+  "DULOT": {
+    "zipf": 4.84,
+    "senses": [
+      {
+        "sourceWord": "dulot",
+        "partOfSpeech": "noun",
+        "gloss": "result; effect",
+        "tags": []
+      },
+      {
+        "sourceWord": "dulot",
+        "partOfSpeech": "noun",
+        "gloss": "offering; offer",
+        "tags": []
+      },
+      {
+        "sourceWord": "dulot",
+        "partOfSpeech": "noun",
+        "gloss": "presenting; offering (of a gift to someone)",
+        "tags": []
+      },
+      {
+        "sourceWord": "dulot",
+        "partOfSpeech": "noun",
+        "gloss": "serving (of food or drink to someone)",
+        "tags": []
+      }
+    ]
+  },
+  "GAANO": {
+    "zipf": 5.34,
+    "senses": [
+      {
+        "sourceWord": "gaano",
+        "partOfSpeech": "pron",
+        "gloss": "how (of quantity, measurements, etc.); what quantity or amount; how much",
+        "tags": [
+          "interrogative"
+        ]
+      }
+    ]
+  },
+  "GABAY": {
+    "zipf": 4.62,
+    "senses": [
+      {
+        "sourceWord": "gabay",
+        "partOfSpeech": "noun",
+        "gloss": "guide",
+        "tags": []
+      },
+      {
+        "sourceWord": "gabay",
+        "partOfSpeech": "noun",
+        "gloss": "person who conducts another by the hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "gabay",
+        "partOfSpeech": "noun",
+        "gloss": "banister handrail; railing",
+        "tags": []
+      }
+    ]
+  },
+  "GALAW": {
+    "zipf": 4.68,
+    "senses": [
+      {
+        "sourceWord": "galaw",
+        "partOfSpeech": "noun",
+        "gloss": "movement; motion (of animate objects)",
+        "tags": []
+      },
+      {
+        "sourceWord": "galaw",
+        "partOfSpeech": "noun",
+        "gloss": "movement (of inanimate objects)",
+        "tags": []
+      },
+      {
+        "sourceWord": "galaw",
+        "partOfSpeech": "noun",
+        "gloss": "act of moving a thing from its place",
+        "tags": []
+      },
+      {
+        "sourceWord": "galaw",
+        "partOfSpeech": "noun",
+        "gloss": "theft",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "GALIT": {
+    "zipf": 5.25,
+    "senses": [
+      {
+        "sourceWord": "galit",
+        "partOfSpeech": "noun",
+        "gloss": "anger; ire",
+        "tags": []
+      },
+      {
+        "sourceWord": "galit",
+        "partOfSpeech": "noun",
+        "gloss": "indignation; wrath; rancor",
+        "tags": []
+      },
+      {
+        "sourceWord": "galit",
+        "partOfSpeech": "adj",
+        "gloss": "angry",
+        "tags": []
+      },
+      {
+        "sourceWord": "galit",
+        "partOfSpeech": "adj",
+        "gloss": "indignant",
+        "tags": []
+      }
+    ]
+  },
+  "GAMIT": {
+    "zipf": 5.56,
+    "senses": [
+      {
+        "sourceWord": "gamit",
+        "partOfSpeech": "noun",
+        "gloss": "thing; anything that one uses",
+        "tags": []
+      },
+      {
+        "sourceWord": "gamit",
+        "partOfSpeech": "noun",
+        "gloss": "utensil; tool; paraphernalia",
+        "tags": []
+      },
+      {
+        "sourceWord": "gamit",
+        "partOfSpeech": "noun",
+        "gloss": "use; usage; utility",
+        "tags": []
+      },
+      {
+        "sourceWord": "gamit",
+        "partOfSpeech": "noun",
+        "gloss": "act of using something",
+        "tags": []
+      },
+      {
+        "sourceWord": "gamit",
+        "partOfSpeech": "adj",
+        "gloss": "already used",
+        "tags": []
+      }
+    ]
+  },
+  "GAMOT": {
+    "zipf": 5.12,
+    "senses": [
+      {
+        "sourceWord": "gamot",
+        "partOfSpeech": "noun",
+        "gloss": "medicine; remedy; cure",
+        "tags": []
+      },
+      {
+        "sourceWord": "gamot",
+        "partOfSpeech": "noun",
+        "gloss": "treatment (of someone's ailment)",
+        "tags": []
+      }
+    ]
+  },
+  "GANAP": {
+    "zipf": 5.25,
+    "senses": [
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "adj",
+        "gloss": "complete; full; exact",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "adj",
+        "gloss": "finished; completed",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "adj",
+        "gloss": "fulfilled; done",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "adj",
+        "gloss": "perfect; without error",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "adj",
+        "gloss": "absolute",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "noun",
+        "gloss": "fulfillment; performance (of one's duty)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "noun",
+        "gloss": "acting (in a play, film, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "noun",
+        "gloss": "holding (of a meeting, event, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "noun",
+        "gloss": "completeness",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganap",
+        "partOfSpeech": "noun",
+        "gloss": "occurrence; happening",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "GANDA": {
+    "zipf": 5.16,
+    "senses": [
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "beauty",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "splendor",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "fineness; excellence; fine quality (of someone's work, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "fineness; brightness (of weather)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "garlic chive; Chinese chive",
+        "tags": []
+      },
+      {
+        "sourceWord": "ganda",
+        "partOfSpeech": "noun",
+        "gloss": "annual interest of a hundred percent on a loan",
+        "tags": []
+      }
+    ]
+  },
+  "GATAS": {
+    "zipf": 4.71,
+    "senses": [
+      {
+        "sourceWord": "gatas",
+        "partOfSpeech": "noun",
+        "gloss": "milk",
+        "tags": []
+      },
+      {
+        "sourceWord": "gatas",
+        "partOfSpeech": "noun",
+        "gloss": "milking (of a mammal)",
+        "tags": []
+      },
+      {
+        "sourceWord": "gatas",
+        "partOfSpeech": "adj",
+        "gloss": "milked",
+        "tags": []
+      },
+      {
+        "sourceWord": "gatas",
+        "partOfSpeech": "noun",
+        "gloss": "trail; footpath recognized by less and thinner growth of weeds and grass",
+        "tags": []
+      }
+    ]
+  },
+  "GAWIN": {
+    "zipf": 5.67,
+    "senses": [
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to create; to make",
+        "tags": []
+      },
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to do; to perform (one's duty, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to execute; to perform (a certain act)",
+        "tags": []
+      },
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to repair",
+        "tags": []
+      },
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to follow (an advice, order, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "gawin",
+        "partOfSpeech": "verb",
+        "gloss": "to fulfill (a promise)",
+        "tags": []
+      }
+    ]
+  },
+  "GAYON": {
+    "zipf": 5.16,
+    "senses": [
+      {
+        "sourceWord": "gayon",
+        "partOfSpeech": "adv",
+        "gloss": "like that; in that particular manner (far from both the speaker and the person addressed)",
+        "tags": [
+          "formal"
+        ]
+      },
+      {
+        "sourceWord": "gayon",
+        "partOfSpeech": "adj",
+        "gloss": "such; aforementioned",
+        "tags": [
+          "formal"
+        ]
+      }
+    ]
+  },
+  "GILID": {
+    "zipf": 4.93,
+    "senses": [
+      {
+        "sourceWord": "gilid",
+        "partOfSpeech": "noun",
+        "gloss": "border; edge; margin; rim; corner",
+        "tags": []
+      }
+    ]
+  },
+  "GINTO": {
+    "zipf": 4.86,
+    "senses": [
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "noun",
+        "gloss": "gold",
+        "tags": []
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "noun",
+        "gloss": "gold coin",
+        "tags": []
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "noun",
+        "gloss": "gold (color/colour)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "noun",
+        "gloss": "money",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "noun",
+        "gloss": "riches; wealth",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "adj",
+        "gloss": "made of gold",
+        "tags": []
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "adj",
+        "gloss": "golden (color/colour)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ginto",
+        "partOfSpeech": "adj",
+        "gloss": "of great value",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "GITNA": {
+    "zipf": 5.16,
+    "senses": [
+      {
+        "sourceWord": "gitna",
+        "partOfSpeech": "noun",
+        "gloss": "center; middle",
+        "tags": []
+      }
+    ]
+  },
+  "GRABE": {
+    "zipf": 4.74,
+    "senses": [
+      {
+        "sourceWord": "grabe",
+        "partOfSpeech": "adj",
+        "gloss": "grave; serious",
+        "tags": []
+      },
+      {
+        "sourceWord": "grabe",
+        "partOfSpeech": "adj",
+        "gloss": "outrageous; intense",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "grabe",
+        "partOfSpeech": "intj",
+        "gloss": "expression of astonishment at the gravity or outrageousness of the situation: whoa! wow!",
+        "tags": []
+      }
+    ]
+  },
+  "GRUPO": {
+    "zipf": 5.34,
+    "senses": [
+      {
+        "sourceWord": "grupo",
+        "partOfSpeech": "noun",
+        "gloss": "group",
+        "tags": []
+      },
+      {
+        "sourceWord": "grupo",
+        "partOfSpeech": "noun",
+        "gloss": "gang",
+        "tags": []
+      }
+    ]
+  },
+  "GUBAT": {
+    "zipf": 4.51,
+    "senses": [
+      {
+        "sourceWord": "gubat",
+        "partOfSpeech": "noun",
+        "gloss": "woods; woodland; forest",
+        "tags": []
+      },
+      {
+        "sourceWord": "gubat",
+        "partOfSpeech": "noun",
+        "gloss": "thick growth of bushes; thicket",
+        "tags": []
+      }
+    ]
+  },
+  "GULAT": {
+    "zipf": 4.51,
+    "senses": [
+      {
+        "sourceWord": "gulat",
+        "partOfSpeech": "noun",
+        "gloss": "shock; startle",
+        "tags": []
+      },
+      {
+        "sourceWord": "gulat",
+        "partOfSpeech": "noun",
+        "gloss": "act of causing someone to be surprised, shocked, or frightened",
+        "tags": []
+      },
+      {
+        "sourceWord": "gulat",
+        "partOfSpeech": "adj",
+        "gloss": "shocked; startled; surprised",
+        "tags": []
+      }
+    ]
+  },
+  "GULAY": {
+    "zipf": 4.7,
+    "senses": [
+      {
+        "sourceWord": "gulay",
+        "partOfSpeech": "noun",
+        "gloss": "vegetable",
+        "tags": []
+      },
+      {
+        "sourceWord": "gulay",
+        "partOfSpeech": "noun",
+        "gloss": "cooking of a vegetable",
+        "tags": []
+      },
+      {
+        "sourceWord": "gulay",
+        "partOfSpeech": "adj",
+        "gloss": "light blue (color/colour)",
+        "tags": []
+      },
+      {
+        "sourceWord": "gulay",
+        "partOfSpeech": "adj",
+        "gloss": "very weak (due to disease)",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "GUSTO": {
+    "zipf": 6.02,
+    "senses": [
+      {
+        "sourceWord": "gusto",
+        "partOfSpeech": "noun",
+        "gloss": "want; like; desire",
+        "tags": []
+      },
+      {
+        "sourceWord": "gusto",
+        "partOfSpeech": "verb",
+        "gloss": "to want; to like",
+        "tags": []
+      }
+    ]
+  },
+  "GUTOM": {
+    "zipf": 4.72,
+    "senses": [
+      {
+        "sourceWord": "gutom",
+        "partOfSpeech": "noun",
+        "gloss": "hunger",
+        "tags": []
+      },
+      {
+        "sourceWord": "gutom",
+        "partOfSpeech": "noun",
+        "gloss": "strong desire; craving",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "gutom",
+        "partOfSpeech": "adj",
+        "gloss": "hungry",
+        "tags": []
+      },
+      {
+        "sourceWord": "gutom",
+        "partOfSpeech": "adj",
+        "gloss": "eager",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "HALIK": {
+    "zipf": 4.64,
+    "senses": [
+      {
+        "sourceWord": "halik",
+        "partOfSpeech": "noun",
+        "gloss": "kiss",
+        "tags": []
+      }
+    ]
+  },
+  "HALIP": {
+    "zipf": 5.19,
+    "senses": [
+      {
+        "sourceWord": "halip",
+        "partOfSpeech": "noun",
+        "gloss": "substitute; alternate",
+        "tags": []
+      },
+      {
+        "sourceWord": "halip",
+        "partOfSpeech": "noun",
+        "gloss": "one's stead; one's place",
+        "tags": []
+      },
+      {
+        "sourceWord": "halip",
+        "partOfSpeech": "noun",
+        "gloss": "changing of something with another",
+        "tags": []
+      }
+    ]
+  },
+  "HALOS": {
+    "zipf": 5.56,
+    "senses": [
+      {
+        "sourceWord": "halos",
+        "partOfSpeech": "adv",
+        "gloss": "almost; nearly",
+        "tags": []
+      }
+    ]
+  },
+  "HANAY": {
+    "zipf": 5,
+    "senses": [
+      {
+        "sourceWord": "hanay",
+        "partOfSpeech": "noun",
+        "gloss": "row; file; line; rank",
+        "tags": []
+      },
+      {
+        "sourceWord": "hanay",
+        "partOfSpeech": "noun",
+        "gloss": "forming of a line",
+        "tags": []
+      },
+      {
+        "sourceWord": "hanay",
+        "partOfSpeech": "noun",
+        "gloss": "arranging in a line",
+        "tags": []
+      },
+      {
+        "sourceWord": "hanay",
+        "partOfSpeech": "noun",
+        "gloss": "order; orderly arrangement",
+        "tags": []
+      },
+      {
+        "sourceWord": "hanay",
+        "partOfSpeech": "noun",
+        "gloss": "enumeration",
+        "tags": []
+      }
+    ]
+  },
+  "HANDA": {
+    "zipf": 5.07,
+    "senses": [
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "adj",
+        "gloss": "ready; prepared",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "adj",
+        "gloss": "watchful; on the alert",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "noun",
+        "gloss": "preparation; act of preparing",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "noun",
+        "gloss": "things to be prepared (for a trip, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "noun",
+        "gloss": "alertness; watchfulness",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "noun",
+        "gloss": "readiness for help",
+        "tags": []
+      },
+      {
+        "sourceWord": "handa",
+        "partOfSpeech": "noun",
+        "gloss": "food served during a party, feast, banquet, etc.",
+        "tags": []
+      }
+    ]
+  },
+  "HAPON": {
+    "zipf": 5.19,
+    "senses": [
+      {
+        "sourceWord": "hapon",
+        "partOfSpeech": "noun",
+        "gloss": "afternoon",
+        "tags": []
+      },
+      {
+        "sourceWord": "hapon",
+        "partOfSpeech": "noun",
+        "gloss": "supper; dinner",
+        "tags": []
+      },
+      {
+        "sourceWord": "hapon",
+        "partOfSpeech": "noun",
+        "gloss": "perching of a bird",
+        "tags": []
+      },
+      {
+        "sourceWord": "hapon",
+        "partOfSpeech": "noun",
+        "gloss": "roosting of fowls (usually in the late afternoon to rest and sleep)",
+        "tags": []
+      }
+    ]
+  },
+  "HARAP": {
+    "zipf": 5.18,
+    "senses": [
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "front; forefront",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "threshold",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "facade; front of a building",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "presence; attendance",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "presenting of oneself to someone",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "submission for discussion or approval (of papers, reports, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "actual attendance; actual performance (of one's duty)",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "attention given (to a visitor or guest)",
+        "tags": []
+      },
+      {
+        "sourceWord": "harap",
+        "partOfSpeech": "noun",
+        "gloss": "genitals",
+        "tags": [
+          "euphemistic"
+        ]
+      }
+    ]
+  },
+  "HAWAK": {
+    "zipf": 5.07,
+    "senses": [
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "noun",
+        "gloss": "holding of something in one's hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "noun",
+        "gloss": "act of holding on to something (to support oneself)",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "noun",
+        "gloss": "object held by one's hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "noun",
+        "gloss": "possession; ownership (of power, responsibility, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "noun",
+        "gloss": "act of taking a woman as one's common-law wife",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "adj",
+        "gloss": "held by the hand; in one's hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "hawak",
+        "partOfSpeech": "adj",
+        "gloss": "in one's possession or responsibility",
+        "tags": []
+      }
+    ]
+  },
+  "HAYOP": {
+    "zipf": 5.19,
+    "senses": [
+      {
+        "sourceWord": "hayop",
+        "partOfSpeech": "noun",
+        "gloss": "animal",
+        "tags": []
+      },
+      {
+        "sourceWord": "hayop",
+        "partOfSpeech": "noun",
+        "gloss": "beast; brute; creature",
+        "tags": [
+          "broadly"
+        ]
+      }
+    ]
+  },
+  "HIGIT": {
+    "zipf": 5.7,
+    "senses": [
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "adv",
+        "gloss": "more (than)",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "adv",
+        "gloss": "better (than)",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "noun",
+        "gloss": "excess; surplus",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "noun",
+        "gloss": "surpassing",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "noun",
+        "gloss": "advantage; quality of being better (than another)",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "noun",
+        "gloss": "difference; remainder",
+        "tags": []
+      },
+      {
+        "sourceWord": "higit",
+        "partOfSpeech": "noun",
+        "gloss": "stretching or pulling something tightly until taut",
+        "tags": []
+      }
+    ]
+  },
+  "HINDI": {
+    "zipf": 6.96,
+    "senses": [
+      {
+        "sourceWord": "hindi",
+        "partOfSpeech": "adv",
+        "gloss": "no; not",
+        "tags": []
+      },
+      {
+        "sourceWord": "hindi",
+        "partOfSpeech": "intj",
+        "gloss": "no",
+        "tags": []
+      }
+    ]
+  },
+  "HIRAP": {
+    "zipf": 5.19,
+    "senses": [
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "noun",
+        "gloss": "difficulty; hardship (of a task or action)",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "noun",
+        "gloss": "poverty",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "noun",
+        "gloss": "suffering; affliction",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "noun",
+        "gloss": "childbirth pains or labor",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "adj",
+        "gloss": "struggling; suffering",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "adj",
+        "gloss": "overburdened, burdened with too much work",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "adj",
+        "gloss": "tired; weary; exhausted",
+        "tags": []
+      },
+      {
+        "sourceWord": "hirap",
+        "partOfSpeech": "adj",
+        "gloss": "poor; indigent; destitute; needy",
+        "tags": []
+      }
+    ]
+  },
+  "HOTEL": {
+    "zipf": 4.8,
+    "senses": [
+      {
+        "sourceWord": "hotel",
+        "partOfSpeech": "noun",
+        "gloss": "hotel",
+        "tags": []
+      }
+    ]
+  },
+  "HUGIS": {
+    "zipf": 4.79,
+    "senses": [
+      {
+        "sourceWord": "hugis",
+        "partOfSpeech": "noun",
+        "gloss": "shape; form",
+        "tags": []
+      },
+      {
+        "sourceWord": "hugis",
+        "partOfSpeech": "noun",
+        "gloss": "figure; appearance; looks",
+        "tags": []
+      },
+      {
+        "sourceWord": "hugis",
+        "partOfSpeech": "noun",
+        "gloss": "shaping (into a certain form)",
+        "tags": []
+      }
+    ]
+  },
+  "HUKBO": {
+    "zipf": 4.78,
+    "senses": [
+      {
+        "sourceWord": "hukbo",
+        "partOfSpeech": "noun",
+        "gloss": "army; troop; legion",
+        "tags": []
+      },
+      {
+        "sourceWord": "hukbo",
+        "partOfSpeech": "noun",
+        "gloss": "posse; crowd; large group of people (such as workers)",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "hukbo",
+        "partOfSpeech": "noun",
+        "gloss": "the military",
+        "tags": []
+      }
+    ]
+  },
+  "HUWAG": {
+    "zipf": 5.72,
+    "senses": [
+      {
+        "sourceWord": "huwag",
+        "partOfSpeech": "verb",
+        "gloss": "do not; don't",
+        "tags": []
+      },
+      {
+        "sourceWord": "huwag",
+        "partOfSpeech": "intj",
+        "gloss": "don't!",
+        "tags": []
+      }
+    ]
+  },
+  "IBABA": {
+    "zipf": 4.81,
+    "senses": [
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "noun",
+        "gloss": "place under; underneath; under part",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "noun",
+        "gloss": "lower part",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "noun",
+        "gloss": "ground floor; basement; downstairs",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "noun",
+        "gloss": "base; foot (of a staircase, mountain, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "noun",
+        "gloss": "southern part of a district or town; opposite of the uptown district",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to bring downstairs",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to put down a thing on something",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to bring down (from a tree, pole, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to lower; to make lower (of the position of something)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to bring down (of prices, rank, position, etc.)",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to make softer; to lower (of volume)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to lower or soften (one's voice)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ibaba",
+        "partOfSpeech": "verb",
+        "gloss": "to be carried piggyback",
+        "tags": []
+      }
+    ]
+  },
+  "ILANG": {
+    "zipf": 6.08,
+    "senses": [
+      {
+        "sourceWord": "ilang",
+        "partOfSpeech": "noun",
+        "gloss": "desert",
+        "tags": []
+      },
+      {
+        "sourceWord": "ilang",
+        "partOfSpeech": "noun",
+        "gloss": "isolated, unfrequented place; wilderness",
+        "tags": []
+      },
+      {
+        "sourceWord": "ilang",
+        "partOfSpeech": "noun",
+        "gloss": "wide, open space or field",
+        "tags": []
+      },
+      {
+        "sourceWord": "ilang",
+        "partOfSpeech": "adj",
+        "gloss": "isolated; unfrequented (of a place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ilang",
+        "partOfSpeech": "adj",
+        "gloss": "feeling awkward, uncomfortable, or out of place",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "ILONG": {
+    "zipf": 4.82,
+    "senses": [
+      {
+        "sourceWord": "ilong",
+        "partOfSpeech": "noun",
+        "gloss": "nose",
+        "tags": []
+      }
+    ]
+  },
+  "INGAT": {
+    "zipf": 4.73,
+    "senses": [
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "noun",
+        "gloss": "caution; carefulness",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "noun",
+        "gloss": "care; close attention",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "noun",
+        "gloss": "something kept for safekeeping",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "noun",
+        "gloss": "quality possessed",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "noun",
+        "gloss": "possession (as of firearms)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "intj",
+        "gloss": "take care!",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingat",
+        "partOfSpeech": "adj",
+        "gloss": "being careful or cautious",
+        "tags": []
+      }
+    ]
+  },
+  "INGAY": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "ingay",
+        "partOfSpeech": "noun",
+        "gloss": "noise",
+        "tags": []
+      },
+      {
+        "sourceWord": "ingay",
+        "partOfSpeech": "noun",
+        "gloss": "tumult; uproar",
+        "tags": []
+      }
+    ]
+  },
+  "ISAMA": {
+    "zipf": 4.62,
+    "senses": [
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be brought along; to be taken along (of a person)",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be included (into a group)",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be mixed; to be added into a mixture",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be enclosed (in an envelope with a letter)",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be brought to live with oneself (in the same room or house)",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to be integrated; to be incorporated",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to cause to go bad",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to cause to turn into disrepute (of a person)",
+        "tags": []
+      },
+      {
+        "sourceWord": "isama",
+        "partOfSpeech": "verb",
+        "gloss": "to make into a business partner",
+        "tags": []
+      }
+    ]
+  },
+  "ITAAS": {
+    "zipf": 5.12,
+    "senses": [
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "noun",
+        "gloss": "upstairs",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "noun",
+        "gloss": "top (of a hill, mountain, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "noun",
+        "gloss": "vast space above",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "noun",
+        "gloss": "heaven",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "noun",
+        "gloss": "high position (in an organization, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "verb",
+        "gloss": "to raise; to lift",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "verb",
+        "gloss": "to increase; to raise (of prices)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "verb",
+        "gloss": "to promote (of an employee)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "verb",
+        "gloss": "to put on top (of something)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itaas",
+        "partOfSpeech": "verb",
+        "gloss": "to make louder; to raise (of volume)",
+        "tags": []
+      }
+    ]
+  },
+  "ITAGO": {
+    "zipf": 4.53,
+    "senses": [
+      {
+        "sourceWord": "itago",
+        "partOfSpeech": "verb",
+        "gloss": "to hide; to conceal",
+        "tags": []
+      },
+      {
+        "sourceWord": "itago",
+        "partOfSpeech": "verb",
+        "gloss": "to keep for safekeeping; to keep and save for the future",
+        "tags": []
+      },
+      {
+        "sourceWord": "itago",
+        "partOfSpeech": "verb",
+        "gloss": "to keep and put aside (after using)",
+        "tags": []
+      },
+      {
+        "sourceWord": "itago",
+        "partOfSpeech": "verb",
+        "gloss": "to keep as a secret",
+        "tags": []
+      }
+    ]
+  },
+  "ITLOG": {
+    "zipf": 4.83,
+    "senses": [
+      {
+        "sourceWord": "itlog",
+        "partOfSpeech": "noun",
+        "gloss": "egg",
+        "tags": []
+      },
+      {
+        "sourceWord": "itlog",
+        "partOfSpeech": "noun",
+        "gloss": "score of zero (on an examination, game, etc.)",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "KAHIT": {
+    "zipf": 6.13,
+    "senses": [
+      {
+        "sourceWord": "kahit",
+        "partOfSpeech": "conj",
+        "gloss": "even though; although; even if",
+        "tags": []
+      }
+    ]
+  },
+  "KAHOY": {
+    "zipf": 4.9,
+    "senses": [
+      {
+        "sourceWord": "kahoy",
+        "partOfSpeech": "noun",
+        "gloss": "wood",
+        "tags": []
+      },
+      {
+        "sourceWord": "kahoy",
+        "partOfSpeech": "noun",
+        "gloss": "lumber",
+        "tags": []
+      },
+      {
+        "sourceWord": "kahoy",
+        "partOfSpeech": "noun",
+        "gloss": "firewood",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "kahoy",
+        "partOfSpeech": "adj",
+        "gloss": "wooden",
+        "tags": []
+      }
+    ]
+  },
+  "KALYE": {
+    "zipf": 4.67,
+    "senses": [
+      {
+        "sourceWord": "kalye",
+        "partOfSpeech": "noun",
+        "gloss": "street",
+        "tags": []
+      }
+    ]
+  },
+  "KAMAY": {
+    "zipf": 5.59,
+    "senses": [
+      {
+        "sourceWord": "kamay",
+        "partOfSpeech": "noun",
+        "gloss": "hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "kamay",
+        "partOfSpeech": "noun",
+        "gloss": "something that resembles a human hand",
+        "tags": []
+      },
+      {
+        "sourceWord": "kamay",
+        "partOfSpeech": "noun",
+        "gloss": "clock or watch hand (index or pointer on a dial)",
+        "tags": []
+      },
+      {
+        "sourceWord": "kamay",
+        "partOfSpeech": "noun",
+        "gloss": "promise of marriage",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "kamay",
+        "partOfSpeech": "adj",
+        "gloss": "accustomed; suited (in operating a tool or task)",
+        "tags": []
+      }
+    ]
+  },
+  "KANAN": {
+    "zipf": 4.58,
+    "senses": [
+      {
+        "sourceWord": "kanan",
+        "partOfSpeech": "adj",
+        "gloss": "right (of direction)",
+        "tags": []
+      },
+      {
+        "sourceWord": "kanan",
+        "partOfSpeech": "adj",
+        "gloss": "right hand (specifically)",
+        "tags": []
+      }
+    ]
+  },
+  "KANTA": {
+    "zipf": 5.45,
+    "senses": [
+      {
+        "sourceWord": "kanta",
+        "partOfSpeech": "noun",
+        "gloss": "song; chant",
+        "tags": []
+      },
+      {
+        "sourceWord": "kanta",
+        "partOfSpeech": "noun",
+        "gloss": "act of singing",
+        "tags": []
+      }
+    ]
+  },
+  "KAPAG": {
+    "zipf": 6.13,
+    "senses": [
+      {
+        "sourceWord": "kapag",
+        "partOfSpeech": "conj",
+        "gloss": "if",
+        "tags": []
+      },
+      {
+        "sourceWord": "kapag",
+        "partOfSpeech": "prep",
+        "gloss": "when; at (or as soon as) that time that; if",
+        "tags": []
+      }
+    ]
+  },
+  "KARNE": {
+    "zipf": 4.87,
+    "senses": [
+      {
+        "sourceWord": "karne",
+        "partOfSpeech": "noun",
+        "gloss": "meat",
+        "tags": []
+      }
+    ]
+  },
+  "KASAL": {
+    "zipf": 4.92,
+    "senses": [
+      {
+        "sourceWord": "kasal",
+        "partOfSpeech": "noun",
+        "gloss": "wedding; marriage",
+        "tags": []
+      },
+      {
+        "sourceWord": "kasal",
+        "partOfSpeech": "adj",
+        "gloss": "married; wed",
+        "tags": []
+      }
+    ]
+  },
+  "KATAO": {
+    "zipf": 4.66,
+    "senses": [
+      {
+        "sourceWord": "katao",
+        "partOfSpeech": "noun",
+        "gloss": "individual; a single person",
+        "tags": []
+      }
+    ]
+  },
+  "KAYSA": {
+    "zipf": 5.35,
+    "senses": [
+      {
+        "sourceWord": "kaysa",
+        "partOfSpeech": "conj",
+        "gloss": "than",
+        "tags": []
+      },
+      {
+        "sourceWord": "kaysa",
+        "partOfSpeech": "prep",
+        "gloss": "rather than; instead of",
+        "tags": []
+      }
+    ]
+  },
+  "KILOS": {
+    "zipf": 4.77,
+    "senses": [
+      {
+        "sourceWord": "kilos",
+        "partOfSpeech": "noun",
+        "gloss": "movement; motion; move; moving",
+        "tags": []
+      },
+      {
+        "sourceWord": "kilos",
+        "partOfSpeech": "noun",
+        "gloss": "act; action (in drama, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "kilos",
+        "partOfSpeech": "noun",
+        "gloss": "behavior; manner or way of acting; conduct",
+        "tags": []
+      },
+      {
+        "sourceWord": "kilos",
+        "partOfSpeech": "noun",
+        "gloss": "demeanor",
+        "tags": []
+      }
+    ]
+  },
+  "KLASE": {
+    "zipf": 5.16,
+    "senses": [
+      {
+        "sourceWord": "klase",
+        "partOfSpeech": "noun",
+        "gloss": "class (group of students)",
+        "tags": []
+      },
+      {
+        "sourceWord": "klase",
+        "partOfSpeech": "noun",
+        "gloss": "group within society",
+        "tags": []
+      }
+    ]
+  },
+  "KLIMA": {
+    "zipf": 4.51,
+    "senses": [
+      {
+        "sourceWord": "klima",
+        "partOfSpeech": "noun",
+        "gloss": "climate",
+        "tags": []
+      }
+    ]
+  },
+  "KOPYA": {
+    "zipf": 4.51,
+    "senses": [
+      {
+        "sourceWord": "kopya",
+        "partOfSpeech": "noun",
+        "gloss": "act of copying",
+        "tags": []
+      },
+      {
+        "sourceWord": "kopya",
+        "partOfSpeech": "noun",
+        "gloss": "copy; duplicate",
+        "tags": []
+      },
+      {
+        "sourceWord": "kopya",
+        "partOfSpeech": "noun",
+        "gloss": "copy of a book, magazine, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "kopya",
+        "partOfSpeech": "adj",
+        "gloss": "copied; unoriginal",
+        "tags": []
+      }
+    ]
+  },
+  "KORTE": {
+    "zipf": 4.8,
+    "senses": [
+      {
+        "sourceWord": "korte",
+        "partOfSpeech": "noun",
+        "gloss": "court (collective body of persons forming the retinue of a sovereign or person high in authority)",
+        "tags": []
+      },
+      {
+        "sourceWord": "korte",
+        "partOfSpeech": "noun",
+        "gloss": "court",
+        "tags": []
+      },
+      {
+        "sourceWord": "korte",
+        "partOfSpeech": "noun",
+        "gloss": "shape; form",
+        "tags": []
+      },
+      {
+        "sourceWord": "korte",
+        "partOfSpeech": "noun",
+        "gloss": "cut; style",
+        "tags": []
+      }
+    ]
+  },
+  "KOTSE": {
+    "zipf": 4.67,
+    "senses": [
+      {
+        "sourceWord": "kotse",
+        "partOfSpeech": "noun",
+        "gloss": "car; automobile",
+        "tags": []
+      },
+      {
+        "sourceWord": "kotse",
+        "partOfSpeech": "noun",
+        "gloss": "train car; railroad car; railway carriage",
+        "tags": []
+      }
+    ]
+  },
+  "KULAY": {
+    "zipf": 5.4,
+    "senses": [
+      {
+        "sourceWord": "kulay",
+        "partOfSpeech": "noun",
+        "gloss": "color",
+        "tags": []
+      },
+      {
+        "sourceWord": "kulay",
+        "partOfSpeech": "noun",
+        "gloss": "character; nature",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "kulay",
+        "partOfSpeech": "noun",
+        "gloss": "race; nationality",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "kulay",
+        "partOfSpeech": "noun",
+        "gloss": "color (standard or banner)",
+        "tags": []
+      }
+    ]
+  },
+  "KUNDI": {
+    "zipf": 5.36,
+    "senses": [
+      {
+        "sourceWord": "kundi",
+        "partOfSpeech": "prep",
+        "gloss": "except; but; besides",
+        "tags": []
+      },
+      {
+        "sourceWord": "kundi",
+        "partOfSpeech": "adv",
+        "gloss": "so; then; in that case",
+        "tags": []
+      }
+    ]
+  },
+  "KUNIN": {
+    "zipf": 4.72,
+    "senses": [
+      {
+        "sourceWord": "kunin",
+        "partOfSpeech": "verb",
+        "gloss": "to take something by the hand; to fetch; to grab",
+        "tags": []
+      },
+      {
+        "sourceWord": "kunin",
+        "partOfSpeech": "verb",
+        "gloss": "to take (a subject, course, or program)",
+        "tags": []
+      },
+      {
+        "sourceWord": "kunin",
+        "partOfSpeech": "verb",
+        "gloss": "to get; to accept (an object being given)",
+        "tags": []
+      }
+    ]
+  },
+  "KURSO": {
+    "zipf": 4.72,
+    "senses": [
+      {
+        "sourceWord": "kurso",
+        "partOfSpeech": "noun",
+        "gloss": "course (of study, application, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "kurso",
+        "partOfSpeech": "noun",
+        "gloss": "diarrhea",
+        "tags": []
+      }
+    ]
+  },
+  "LABAN": {
+    "zipf": 5.66,
+    "senses": [
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "noun",
+        "gloss": "fight; quarrel",
+        "tags": []
+      },
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "noun",
+        "gloss": "match; contest; game",
+        "tags": []
+      },
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "noun",
+        "gloss": "going against; opposition",
+        "tags": []
+      },
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "noun",
+        "gloss": "fact or condition of being against or contradictory",
+        "tags": []
+      },
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "adj",
+        "gloss": "against; contrary; opposed",
+        "tags": []
+      },
+      {
+        "sourceWord": "laban",
+        "partOfSpeech": "intj",
+        "gloss": "expression of encouragement: fight!",
+        "tags": []
+      }
+    ]
+  },
+  "LABAS": {
+    "zipf": 5.4,
+    "senses": [
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "adv",
+        "gloss": "outside",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "outside; exterior",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "coming out; appearance (from being inside or in hiding)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "coming out; leaving (of one's school or work)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "release (of publications)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "discharge (of blood, pus, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "part; role (of an actor)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "showing (of a play, film, or television program)",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "schedule of a program",
+        "tags": []
+      },
+      {
+        "sourceWord": "labas",
+        "partOfSpeech": "noun",
+        "gloss": "blue lotus (Nymphaea nouchali)",
+        "tags": []
+      }
+    ]
+  },
+  "LABIS": {
+    "zipf": 5.14,
+    "senses": [
+      {
+        "sourceWord": "labis",
+        "partOfSpeech": "noun",
+        "gloss": "surplus; excess",
+        "tags": []
+      },
+      {
+        "sourceWord": "labis",
+        "partOfSpeech": "noun",
+        "gloss": "remaining; leftover",
+        "tags": []
+      },
+      {
+        "sourceWord": "labis",
+        "partOfSpeech": "adj",
+        "gloss": "excessive; more than enough",
+        "tags": []
+      }
+    ]
+  },
+  "LAGAY": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "act of putting or placing something on or in a certain place, application, putting on",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "state; condition",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "the manner by which a thing is placed or set up",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "position; place; location",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "lot; piece (of land)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "depositing of money",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "appearance",
+        "tags": []
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "bribe; bribery",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "lagay",
+        "partOfSpeech": "noun",
+        "gloss": "bet in gambling",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "LAHAT": {
+    "zipf": 6.47,
+    "senses": [
+      {
+        "sourceWord": "lahat",
+        "partOfSpeech": "adj",
+        "gloss": "all",
+        "tags": []
+      },
+      {
+        "sourceWord": "lahat",
+        "partOfSpeech": "pron",
+        "gloss": "all; everyone; everybody",
+        "tags": []
+      },
+      {
+        "sourceWord": "lahat",
+        "partOfSpeech": "pron",
+        "gloss": "everything",
+        "tags": []
+      }
+    ]
+  },
+  "LAKAD": {
+    "zipf": 4.66,
+    "senses": [
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "walk; walking",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "things to do; plan",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "departure; leaving from a certain place",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "purpose in going to a certain place; mission; errand",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "act of approaching someone (as in seeking approval or favorable action on something)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "trend; progress (of a business, political campaign, etc.)",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "noun",
+        "gloss": "running condition (of a machine, engine, motor, etc.)",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "intj",
+        "gloss": "go ahead! go!",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "adj",
+        "gloss": "fond of walking or roaming around",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "adj",
+        "gloss": "barefoot",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakad",
+        "partOfSpeech": "adj",
+        "gloss": "walking (not riding a vehicle)",
+        "tags": []
+      }
+    ]
+  },
+  "LAKAS": {
+    "zipf": 5.34,
+    "senses": [
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "strength; vigor",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "power; might",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "loudness; volume (of sound)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "efficacy; effectiveness",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "healthiness (of one's body)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "highness of temperature (of fever)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "intensity of one's illness",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "daringness; fearlessness (of one's will or spirit)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "influence",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "heaviness of rain",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "strength of sales",
+        "tags": []
+      },
+      {
+        "sourceWord": "lakas",
+        "partOfSpeech": "noun",
+        "gloss": "velocity; speed (of a running vehicle)",
+        "tags": []
+      }
+    ]
+  },
+  "LAMAN": {
+    "zipf": 5.1,
+    "senses": [
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "meat; flesh",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "muscle",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "solid part of a fruit, nut, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "content (of a container, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "meaning; substance; purport",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "capacity",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "root crop; tuber",
+        "tags": []
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "one's child",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "laman",
+        "partOfSpeech": "noun",
+        "gloss": "worldliness",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "LEGAL": {
+    "zipf": 4.82,
+    "senses": [
+      {
+        "sourceWord": "legal",
+        "partOfSpeech": "adj",
+        "gloss": "legal",
+        "tags": []
+      }
+    ]
+  },
+  "LIBRE": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "adj",
+        "gloss": "free; free of charge; gratis",
+        "tags": []
+      },
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "adj",
+        "gloss": "free of responsibility",
+        "tags": []
+      },
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "adj",
+        "gloss": "safe",
+        "tags": []
+      },
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "adj",
+        "gloss": "vacant; not working",
+        "tags": []
+      },
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "adj",
+        "gloss": "open",
+        "tags": []
+      },
+      {
+        "sourceWord": "libre",
+        "partOfSpeech": "noun",
+        "gloss": "treat (to a meal, etc.)",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "LIBRO": {
+    "zipf": 4.83,
+    "senses": [
+      {
+        "sourceWord": "libro",
+        "partOfSpeech": "noun",
+        "gloss": "book",
+        "tags": []
+      },
+      {
+        "sourceWord": "libro",
+        "partOfSpeech": "noun",
+        "gloss": "journal; daybook",
+        "tags": []
+      },
+      {
+        "sourceWord": "libro",
+        "partOfSpeech": "noun",
+        "gloss": "logbook; record book",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "libro",
+        "partOfSpeech": "noun",
+        "gloss": "omasum",
+        "tags": []
+      }
+    ]
+  },
+  "LIDER": {
+    "zipf": 4.6,
+    "senses": [
+      {
+        "sourceWord": "lider",
+        "partOfSpeech": "noun",
+        "gloss": "leader",
+        "tags": []
+      },
+      {
+        "sourceWord": "lider",
+        "partOfSpeech": "noun",
+        "gloss": "perpetrator",
+        "tags": []
+      }
+    ]
+  },
+  "LIHAM": {
+    "zipf": 4.57,
+    "senses": [
+      {
+        "sourceWord": "liham",
+        "partOfSpeech": "noun",
+        "gloss": "letter; written message",
+        "tags": []
+      },
+      {
+        "sourceWord": "liham",
+        "partOfSpeech": "noun",
+        "gloss": "writing of a letter or message",
+        "tags": []
+      }
+    ]
+  },
+  "LIHIM": {
+    "zipf": 4.76,
+    "senses": [
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "noun",
+        "gloss": "secret",
+        "tags": []
+      },
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "noun",
+        "gloss": "mystery",
+        "tags": []
+      },
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "noun",
+        "gloss": "keeping of a secret",
+        "tags": []
+      },
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "adj",
+        "gloss": "secret",
+        "tags": []
+      },
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "adj",
+        "gloss": "hidden; kept from sight",
+        "tags": []
+      },
+      {
+        "sourceWord": "lihim",
+        "partOfSpeech": "adj",
+        "gloss": "secretive",
+        "tags": []
+      }
+    ]
+  },
+  "LIKAS": {
+    "zipf": 5.03,
+    "senses": [
+      {
+        "sourceWord": "likas",
+        "partOfSpeech": "adj",
+        "gloss": "natural; inborn; innate",
+        "tags": []
+      },
+      {
+        "sourceWord": "likas",
+        "partOfSpeech": "adj",
+        "gloss": "copious; plentiful; abundant",
+        "tags": []
+      },
+      {
+        "sourceWord": "likas",
+        "partOfSpeech": "noun",
+        "gloss": "evacuation; exodus",
+        "tags": []
+      },
+      {
+        "sourceWord": "likas",
+        "partOfSpeech": "noun",
+        "gloss": "evacuee",
+        "tags": []
+      },
+      {
+        "sourceWord": "likas",
+        "partOfSpeech": "adj",
+        "gloss": "evacuated from a certain place (of people)",
+        "tags": []
+      }
+    ]
+  },
+  "LIKOD": {
+    "zipf": 5.31,
+    "senses": [
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "back",
+        "tags": []
+      },
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "back (part opposite the front)",
+        "tags": []
+      },
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "rear; hinder part",
+        "tags": []
+      },
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "reverse side",
+        "tags": []
+      },
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "back (of a chair)",
+        "tags": []
+      },
+      {
+        "sourceWord": "likod",
+        "partOfSpeech": "noun",
+        "gloss": "person responsible",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "LINYA": {
+    "zipf": 4.99,
+    "senses": [
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "line (made by a pen, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "file; row",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "line (of text)",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "line (of a telephone, network, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "route (of vehicles, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "boundary; limit",
+        "tags": []
+      },
+      {
+        "sourceWord": "linya",
+        "partOfSpeech": "noun",
+        "gloss": "profession; occupation; business",
+        "tags": []
+      }
+    ]
+  },
+  "LOKAL": {
+    "zipf": 5.15,
+    "senses": [
+      {
+        "sourceWord": "lokal",
+        "partOfSpeech": "adj",
+        "gloss": "local (pertaining to a certain locality)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lokal",
+        "partOfSpeech": "noun",
+        "gloss": "local (a branch of an organization, especially a religious one)",
+        "tags": []
+      }
+    ]
+  },
+  "LUBOS": {
+    "zipf": 4.84,
+    "senses": [
+      {
+        "sourceWord": "lubos",
+        "partOfSpeech": "adj",
+        "gloss": "complete; full; absolute",
+        "tags": []
+      },
+      {
+        "sourceWord": "lubos",
+        "partOfSpeech": "adv",
+        "gloss": "completely; fully; absolutely",
+        "tags": []
+      }
+    ]
+  },
+  "LUGAR": {
+    "zipf": 5.77,
+    "senses": [
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "place; location",
+        "tags": []
+      },
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "position",
+        "tags": []
+      },
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "territory",
+        "tags": []
+      },
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "vacancy (in an office, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "opportunity; chance",
+        "tags": []
+      },
+      {
+        "sourceWord": "lugar",
+        "partOfSpeech": "noun",
+        "gloss": "district; area",
+        "tags": []
+      }
+    ]
+  },
+  "LUPON": {
+    "zipf": 4.58,
+    "senses": [
+      {
+        "sourceWord": "lupon",
+        "partOfSpeech": "noun",
+        "gloss": "committee",
+        "tags": []
+      },
+      {
+        "sourceWord": "lupon",
+        "partOfSpeech": "noun",
+        "gloss": "board; council",
+        "tags": []
+      },
+      {
+        "sourceWord": "lupon",
+        "partOfSpeech": "noun",
+        "gloss": "commission",
+        "tags": []
+      }
+    ]
+  },
+  "MAAGA": {
+    "zipf": 4.85,
+    "senses": [
+      {
+        "sourceWord": "maaga",
+        "partOfSpeech": "adj",
+        "gloss": "early",
+        "tags": []
+      }
+    ]
+  },
+  "MAHAL": {
+    "zipf": 5.52,
+    "senses": [
+      {
+        "sourceWord": "mahal",
+        "partOfSpeech": "adj",
+        "gloss": "expensive; high-priced",
+        "tags": []
+      },
+      {
+        "sourceWord": "mahal",
+        "partOfSpeech": "adj",
+        "gloss": "dear; precious; cherished",
+        "tags": []
+      },
+      {
+        "sourceWord": "mahal",
+        "partOfSpeech": "noun",
+        "gloss": "expensive items",
+        "tags": []
+      },
+      {
+        "sourceWord": "mahal",
+        "partOfSpeech": "noun",
+        "gloss": "beloved",
+        "tags": []
+      }
+    ]
+  },
+  "MALAY": {
+    "zipf": 4.86,
+    "senses": [
+      {
+        "sourceWord": "malay",
+        "partOfSpeech": "noun",
+        "gloss": "knowledge; awareness; consciousness",
+        "tags": []
+      }
+    ]
+  },
+  "MANOK": {
+    "zipf": 4.82,
+    "senses": [
+      {
+        "sourceWord": "manok",
+        "partOfSpeech": "noun",
+        "gloss": "chicken (bird)",
+        "tags": []
+      },
+      {
+        "sourceWord": "manok",
+        "partOfSpeech": "noun",
+        "gloss": "chicken (meat)",
+        "tags": []
+      },
+      {
+        "sourceWord": "manok",
+        "partOfSpeech": "noun",
+        "gloss": "bet; preferred candidate (usually in matchmaking, competitions, or elections)",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "MEDYO": {
+    "zipf": 5.34,
+    "senses": [
+      {
+        "sourceWord": "medyo",
+        "partOfSpeech": "adv",
+        "gloss": "rather; somewhat; a little bit; kind of",
+        "tags": []
+      }
+    ]
+  },
+  "METRO": {
+    "zipf": 5.09,
+    "senses": [
+      {
+        "sourceWord": "metro",
+        "partOfSpeech": "noun",
+        "gloss": "meter (unit of length)",
+        "tags": []
+      },
+      {
+        "sourceWord": "metro",
+        "partOfSpeech": "noun",
+        "gloss": "meter (measuring instrument)",
+        "tags": []
+      },
+      {
+        "sourceWord": "metro",
+        "partOfSpeech": "noun",
+        "gloss": "taximeter",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "metro",
+        "partOfSpeech": "noun",
+        "gloss": "tape measure, measuring tape",
+        "tags": [
+          "broadly"
+        ]
+      }
+    ]
+  },
+  "MISMO": {
+    "zipf": 5.09,
+    "senses": [
+      {
+        "sourceWord": "mismo",
+        "partOfSpeech": "adj",
+        "gloss": "specifically",
+        "tags": []
+      },
+      {
+        "sourceWord": "mismo",
+        "partOfSpeech": "adj",
+        "gloss": "self; myself; yourself; himself; herself; itself; ourselves; themselves",
+        "tags": []
+      },
+      {
+        "sourceWord": "mismo",
+        "partOfSpeech": "intj",
+        "gloss": "exactly! right on!",
+        "tags": []
+      }
+    ]
+  },
+  "MUKHA": {
+    "zipf": 5.86,
+    "senses": [
+      {
+        "sourceWord": "mukha",
+        "partOfSpeech": "noun",
+        "gloss": "face",
+        "tags": []
+      },
+      {
+        "sourceWord": "mukha",
+        "partOfSpeech": "adj",
+        "gloss": "looking like; seeming",
+        "tags": []
+      }
+    ]
+  },
+  "MUNDO": {
+    "zipf": 5.72,
+    "senses": [
+      {
+        "sourceWord": "mundo",
+        "partOfSpeech": "noun",
+        "gloss": "world; the earth",
+        "tags": []
+      }
+    ]
+  },
+  "NAMAN": {
+    "zipf": 6.52,
+    "senses": [
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used to soften requests with a mild reproach",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used to express dissimilarity or contrast between two situations, instances, or cases: on the other hand; meanwhile; instead; this time",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used after predicate adjectives or adjectives in exclamation with a critical or negative attitude",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used to emphasize contrast to what the listener or other people may think",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used to express the turn of somebody or something",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "particle",
+        "gloss": "used to emphasize providing information to prove a point",
+        "tags": []
+      },
+      {
+        "sourceWord": "naman",
+        "partOfSpeech": "intj",
+        "gloss": "of course!; surely",
+        "tags": []
+      }
+    ]
+  },
+  "NAMIN": {
+    "zipf": 6.01,
+    "senses": [
+      {
+        "sourceWord": "namin",
+        "partOfSpeech": "adj",
+        "gloss": "by us, of us",
+        "tags": []
+      },
+      {
+        "sourceWord": "namin",
+        "partOfSpeech": "adj",
+        "gloss": "our (exclusive of person spoken to)",
+        "tags": []
+      }
+    ]
+  },
+  "NANAY": {
+    "zipf": 5.2,
+    "senses": [
+      {
+        "sourceWord": "nanay",
+        "partOfSpeech": "noun",
+        "gloss": "mother",
+        "tags": []
+      },
+      {
+        "sourceWord": "nanay",
+        "partOfSpeech": "noun",
+        "gloss": "term of address for a mother: mom; mum; mommy; mummy; momma; Ma; maw",
+        "tags": [
+          "informal"
+        ]
+      }
+    ]
+  },
+  "NATIN": {
+    "zipf": 6.1,
+    "senses": [
+      {
+        "sourceWord": "natin",
+        "partOfSpeech": "pron",
+        "gloss": "by us; of us (including the person talking to)",
+        "tags": []
+      },
+      {
+        "sourceWord": "natin",
+        "partOfSpeech": "pron",
+        "gloss": "our",
+        "tags": []
+      }
+    ]
+  },
+  "NGITI": {
+    "zipf": 4.78,
+    "senses": [
+      {
+        "sourceWord": "ngiti",
+        "partOfSpeech": "noun",
+        "gloss": "smile",
+        "tags": []
+      }
+    ]
+  },
+  "NINYO": {
+    "zipf": 5.13,
+    "senses": [
+      {
+        "sourceWord": "ninyo",
+        "partOfSpeech": "det",
+        "gloss": "your",
+        "tags": []
+      },
+      {
+        "sourceWord": "ninyo",
+        "partOfSpeech": "pron",
+        "gloss": "yours",
+        "tags": [
+          "possessive"
+        ]
+      }
+    ]
+  },
+  "NIYAN": {
+    "zipf": 4.71,
+    "senses": [
+      {
+        "sourceWord": "niyan",
+        "partOfSpeech": "adj",
+        "gloss": "of that (referring to a thing near the person spoken to)",
+        "tags": []
+      }
+    ]
+  },
+  "ORDER": {
+    "zipf": 4.92,
+    "senses": [
+      {
+        "sourceWord": "order",
+        "partOfSpeech": "noun",
+        "gloss": "order (request for some product or service)",
+        "tags": []
+      },
+      {
+        "sourceWord": "order",
+        "partOfSpeech": "noun",
+        "gloss": "order (arrangement)",
+        "tags": []
+      }
+    ]
+  },
+  "PAANO": {
+    "zipf": 5.82,
+    "senses": [
+      {
+        "sourceWord": "paano",
+        "partOfSpeech": "pron",
+        "gloss": "how (in what manner)",
+        "tags": [
+          "interrogative"
+        ]
+      }
+    ]
+  },
+  "PADER": {
+    "zipf": 4.77,
+    "senses": [
+      {
+        "sourceWord": "pader",
+        "partOfSpeech": "noun",
+        "gloss": "stone or concrete wall or fence",
+        "tags": []
+      }
+    ]
+  },
+  "PADRE": {
+    "zipf": 4.51,
+    "senses": [
+      {
+        "sourceWord": "padre",
+        "partOfSpeech": "noun",
+        "gloss": "father",
+        "tags": []
+      },
+      {
+        "sourceWord": "padre",
+        "partOfSpeech": "noun",
+        "gloss": "a term of respectful address for a priest",
+        "tags": []
+      }
+    ]
+  },
+  "PAGKA": {
+    "zipf": 5.02,
+    "senses": [
+      {
+        "sourceWord": "pagka",
+        "partOfSpeech": "conj",
+        "gloss": "if",
+        "tags": []
+      },
+      {
+        "sourceWord": "pagka",
+        "partOfSpeech": "prep",
+        "gloss": "when; at (or as soon as) that time that; if",
+        "tags": []
+      }
+    ]
+  },
+  "PAGOD": {
+    "zipf": 4.87,
+    "senses": [
+      {
+        "sourceWord": "pagod",
+        "partOfSpeech": "noun",
+        "gloss": "tiredness; fatigue",
+        "tags": []
+      },
+      {
+        "sourceWord": "pagod",
+        "partOfSpeech": "adj",
+        "gloss": "tired; weary; exhausted",
+        "tags": []
+      }
+    ]
+  },
+  "PAKSA": {
+    "zipf": 4.98,
+    "senses": [
+      {
+        "sourceWord": "paksa",
+        "partOfSpeech": "noun",
+        "gloss": "subject",
+        "tags": [
+          "subjective"
+        ]
+      },
+      {
+        "sourceWord": "paksa",
+        "partOfSpeech": "noun",
+        "gloss": "topic",
+        "tags": []
+      }
+    ]
+  },
+  "PANAY": {
+    "zipf": 4.7,
+    "senses": [
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adj",
+        "gloss": "of one kind; pure; unmixed; all inclusive",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adj",
+        "gloss": "frequent",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adj",
+        "gloss": "continuous; nonstop",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adj",
+        "gloss": "full",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adj",
+        "gloss": "flat; even",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adv",
+        "gloss": "often; frequently",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "adv",
+        "gloss": "continuously; nonstop",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "noun",
+        "gloss": "a kind of taffy or molasses candy",
+        "tags": []
+      },
+      {
+        "sourceWord": "panay",
+        "partOfSpeech": "noun",
+        "gloss": "water jar",
+        "tags": []
+      }
+    ]
+  },
+  "PANIG": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "panig",
+        "partOfSpeech": "noun",
+        "gloss": "panel (as the side of a wood board)",
+        "tags": []
+      },
+      {
+        "sourceWord": "panig",
+        "partOfSpeech": "noun",
+        "gloss": "side (in two or more opposing entities)",
+        "tags": []
+      },
+      {
+        "sourceWord": "panig",
+        "partOfSpeech": "noun",
+        "gloss": "act of taking sides",
+        "tags": []
+      },
+      {
+        "sourceWord": "panig",
+        "partOfSpeech": "noun",
+        "gloss": "section; division; area; part; region",
+        "tags": []
+      }
+    ]
+  },
+  "PAPEL": {
+    "zipf": 5.23,
+    "senses": [
+      {
+        "sourceWord": "papel",
+        "partOfSpeech": "noun",
+        "gloss": "paper",
+        "tags": []
+      },
+      {
+        "sourceWord": "papel",
+        "partOfSpeech": "noun",
+        "gloss": "role",
+        "tags": []
+      },
+      {
+        "sourceWord": "papel",
+        "partOfSpeech": "adj",
+        "gloss": "weak; flimsy",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "PARTE": {
+    "zipf": 4.81,
+    "senses": [
+      {
+        "sourceWord": "parte",
+        "partOfSpeech": "noun",
+        "gloss": "part; bit; portion; section; particular location in a certain place",
+        "tags": []
+      },
+      {
+        "sourceWord": "parte",
+        "partOfSpeech": "noun",
+        "gloss": "share; portion; piece; slice; cut; part of a division",
+        "tags": []
+      },
+      {
+        "sourceWord": "parte",
+        "partOfSpeech": "noun",
+        "gloss": "role; stint; part (in a theatrical play, drama, or film shoot)",
+        "tags": []
+      }
+    ]
+  },
+  "PASOK": {
+    "zipf": 4.78,
+    "senses": [
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "noun",
+        "gloss": "entry; act of entering",
+        "tags": []
+      },
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "noun",
+        "gloss": "admission",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "noun",
+        "gloss": "infiltration; trespassing",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "noun",
+        "gloss": "A work day; a school day",
+        "tags": []
+      },
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "adj",
+        "gloss": "the state of having entered",
+        "tags": []
+      },
+      {
+        "sourceWord": "pasok",
+        "partOfSpeech": "intj",
+        "gloss": "enter!",
+        "tags": []
+      }
+    ]
+  },
+  "PATAY": {
+    "zipf": 5.17,
+    "senses": [
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "cadaver; corpse; dead body of a person",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "carcass; the dead body of an animal",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "state or condition of being dead",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "the dead; those who have died",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "act of killing something or someone",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "noun",
+        "gloss": "act of shutting off something",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "adj",
+        "gloss": "dead; lifeless; no longer living",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "adj",
+        "gloss": "off; not on; unpowered (as of a light, machine)",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "adj",
+        "gloss": "dried; no longer growing (as of plants)",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "adj",
+        "gloss": "obsolete; extinct; no longer in use (as of a word, language, or law)",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "adj",
+        "gloss": "smitten; in love; head over heels",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "intj",
+        "gloss": "oh no",
+        "tags": []
+      },
+      {
+        "sourceWord": "patay",
+        "partOfSpeech": "intj",
+        "gloss": "expression when one is doomed to be severely punished: dead meat",
+        "tags": []
+      }
+    ]
+  },
+  "PAWIS": {
+    "zipf": 4.58,
+    "senses": [
+      {
+        "sourceWord": "pawis",
+        "partOfSpeech": "noun",
+        "gloss": "perspiration; sweat",
+        "tags": []
+      },
+      {
+        "sourceWord": "pawis",
+        "partOfSpeech": "noun",
+        "gloss": "vapor",
+        "tags": []
+      },
+      {
+        "sourceWord": "pawis",
+        "partOfSpeech": "noun",
+        "gloss": "flow; drip; exudation",
+        "tags": []
+      },
+      {
+        "sourceWord": "pawis",
+        "partOfSpeech": "noun",
+        "gloss": "work; labor",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "pawis",
+        "partOfSpeech": "adj",
+        "gloss": "sweating; sweaty",
+        "tags": []
+      }
+    ]
+  },
+  "PETSA": {
+    "zipf": 4.67,
+    "senses": [
+      {
+        "sourceWord": "petsa",
+        "partOfSpeech": "noun",
+        "gloss": "date",
+        "tags": []
+      }
+    ]
+  },
+  "PILIT": {
+    "zipf": 4.82,
+    "senses": [
+      {
+        "sourceWord": "pilit",
+        "partOfSpeech": "adj",
+        "gloss": "forced; strained",
+        "tags": []
+      },
+      {
+        "sourceWord": "pilit",
+        "partOfSpeech": "adj",
+        "gloss": "labored; done with difficulty",
+        "tags": []
+      }
+    ]
+  },
+  "PINTO": {
+    "zipf": 4.64,
+    "senses": [
+      {
+        "sourceWord": "pinto",
+        "partOfSpeech": "noun",
+        "gloss": "door",
+        "tags": []
+      }
+    ]
+  },
+  "PLANO": {
+    "zipf": 5.04,
+    "senses": [
+      {
+        "sourceWord": "plano",
+        "partOfSpeech": "noun",
+        "gloss": "plan; intent",
+        "tags": []
+      }
+    ]
+  },
+  "PONDO": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "pondo",
+        "partOfSpeech": "noun",
+        "gloss": "fund; funding",
+        "tags": []
+      }
+    ]
+  },
+  "PULIS": {
+    "zipf": 4.76,
+    "senses": [
+      {
+        "sourceWord": "pulis",
+        "partOfSpeech": "noun",
+        "gloss": "police officer; policeman; policewoman",
+        "tags": []
+      },
+      {
+        "sourceWord": "pulis",
+        "partOfSpeech": "noun",
+        "gloss": "the police; police force",
+        "tags": []
+      }
+    ]
+  },
+  "PUNTO": {
+    "zipf": 4.84,
+    "senses": [
+      {
+        "sourceWord": "punto",
+        "partOfSpeech": "noun",
+        "gloss": "point",
+        "tags": []
+      },
+      {
+        "sourceWord": "punto",
+        "partOfSpeech": "noun",
+        "gloss": "accent",
+        "tags": []
+      },
+      {
+        "sourceWord": "punto",
+        "partOfSpeech": "noun",
+        "gloss": "dialect",
+        "tags": [
+          "broadly"
+        ]
+      }
+    ]
+  },
+  "RADYO": {
+    "zipf": 4.56,
+    "senses": [
+      {
+        "sourceWord": "radyo",
+        "partOfSpeech": "noun",
+        "gloss": "radio (device)",
+        "tags": []
+      },
+      {
+        "sourceWord": "radyo",
+        "partOfSpeech": "noun",
+        "gloss": "radio (technology)",
+        "tags": []
+      },
+      {
+        "sourceWord": "radyo",
+        "partOfSpeech": "noun",
+        "gloss": "radiogram",
+        "tags": []
+      },
+      {
+        "sourceWord": "radyo",
+        "partOfSpeech": "noun",
+        "gloss": "radius",
+        "tags": []
+      }
+    ]
+  },
+  "REYNA": {
+    "zipf": 4.85,
+    "senses": [
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "queen; queen consort (wife of a king)",
+        "tags": []
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "queen; female monarch",
+        "tags": []
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "important woman in an event (such as in a festival, party, etc.)",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "queen",
+        "tags": []
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "queen",
+        "tags": []
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "queen (reproductive female insect in a hive)",
+        "tags": []
+      },
+      {
+        "sourceWord": "reyna",
+        "partOfSpeech": "noun",
+        "gloss": "effeminate man",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "SABAY": {
+    "zipf": 5.29,
+    "senses": [
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "adj",
+        "gloss": "at the same time; simultaneous",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "adj",
+        "gloss": "travelling together (of people to the same place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "adv",
+        "gloss": "at the same time; simultaneously",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "adv",
+        "gloss": "together (of people travelling to the same place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "adv",
+        "gloss": "then (soon afterward)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "noun",
+        "gloss": "act of travelling to the same place together",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "noun",
+        "gloss": "act of doing something at the same time",
+        "tags": []
+      },
+      {
+        "sourceWord": "sabay",
+        "partOfSpeech": "noun",
+        "gloss": "simultaneous occurrence",
+        "tags": []
+      }
+    ]
+  },
+  "SAGOT": {
+    "zipf": 5.39,
+    "senses": [
+      {
+        "sourceWord": "sagot",
+        "partOfSpeech": "noun",
+        "gloss": "reply; response",
+        "tags": []
+      },
+      {
+        "sourceWord": "sagot",
+        "partOfSpeech": "noun",
+        "gloss": "answer; solution (to a problem)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sagot",
+        "partOfSpeech": "noun",
+        "gloss": "backtalk (verbal impudence or argument especially to someone of authority)",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "sagot",
+        "partOfSpeech": "noun",
+        "gloss": "assumption of another's responsibility",
+        "tags": []
+      },
+      {
+        "sourceWord": "sagot",
+        "partOfSpeech": "noun",
+        "gloss": "rebuttal",
+        "tags": []
+      }
+    ]
+  },
+  "SAHOD": {
+    "zipf": 4.58,
+    "senses": [
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "wage; salary",
+        "tags": []
+      },
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "receiving of one's salary",
+        "tags": []
+      },
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "payday",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "receptacle placed under something (to hold or catch flowing water, falling objects, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "act of receiving something with open hand/s",
+        "tags": []
+      },
+      {
+        "sourceWord": "sahod",
+        "partOfSpeech": "noun",
+        "gloss": "position of an open hand in receiving something",
+        "tags": []
+      }
+    ]
+  },
+  "SAKIT": {
+    "zipf": 5.8,
+    "senses": [
+      {
+        "sourceWord": "sakit",
+        "partOfSpeech": "noun",
+        "gloss": "disease; sickness; illness; ailment",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakit",
+        "partOfSpeech": "noun",
+        "gloss": "pain; painfulness",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakit",
+        "partOfSpeech": "noun",
+        "gloss": "diligence; perseverance; consistent effort",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakit",
+        "partOfSpeech": "noun",
+        "gloss": "interest; concern (for)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakit",
+        "partOfSpeech": "noun",
+        "gloss": "suffering",
+        "tags": []
+      }
+    ]
+  },
+  "SAKOP": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "occupation; act of occupying (of an enemy possession, territory, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "part occupied (of an enemy possession, territory, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "subject; vassal; underling; dependent",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "act of putting under one's jurisdiction or power",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "extent or limit of one's jurisdiction",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "noun",
+        "gloss": "portion that comprises one's property",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "adj",
+        "gloss": "occupied by the enemy",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "adj",
+        "gloss": "under someone's jurisdiction or power",
+        "tags": []
+      },
+      {
+        "sourceWord": "sakop",
+        "partOfSpeech": "adj",
+        "gloss": "owned (of a portion that comprises one's property)",
+        "tags": []
+      }
+    ]
+  },
+  "SANAY": {
+    "zipf": 4.63,
+    "senses": [
+      {
+        "sourceWord": "sanay",
+        "partOfSpeech": "adj",
+        "gloss": "experienced; well-trained; trained",
+        "tags": []
+      },
+      {
+        "sourceWord": "sanay",
+        "partOfSpeech": "adj",
+        "gloss": "adapted; accustomed (to a certain place, situation, climate, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sanay",
+        "partOfSpeech": "adj",
+        "gloss": "expert",
+        "tags": []
+      },
+      {
+        "sourceWord": "sanay",
+        "partOfSpeech": "noun",
+        "gloss": "rehearsal; training; exercise; practicing to gain expertise; sharpening or honing of one's skills",
+        "tags": []
+      }
+    ]
+  },
+  "SANHI": {
+    "zipf": 5.35,
+    "senses": [
+      {
+        "sourceWord": "sanhi",
+        "partOfSpeech": "noun",
+        "gloss": "cause; reason; motive",
+        "tags": []
+      }
+    ]
+  },
+  "SANTO": {
+    "zipf": 4.85,
+    "senses": [
+      {
+        "sourceWord": "santo",
+        "partOfSpeech": "noun",
+        "gloss": "saint (especially a male saint)",
+        "tags": []
+      },
+      {
+        "sourceWord": "santo",
+        "partOfSpeech": "noun",
+        "gloss": "image or statue of a saint",
+        "tags": []
+      },
+      {
+        "sourceWord": "santo",
+        "partOfSpeech": "adj",
+        "gloss": "referring to an important figure, item, or event which had a masculine gender in Spanish: holy; sacred (used in certain expressions)",
+        "tags": []
+      }
+    ]
+  },
+  "SAPAT": {
+    "zipf": 5.16,
+    "senses": [
+      {
+        "sourceWord": "sapat",
+        "partOfSpeech": "adj",
+        "gloss": "enough; sufficient; adequate",
+        "tags": []
+      },
+      {
+        "sourceWord": "sapat",
+        "partOfSpeech": "adv",
+        "gloss": "sufficiently; enough; adequately",
+        "tags": []
+      },
+      {
+        "sourceWord": "sapat",
+        "partOfSpeech": "noun",
+        "gloss": "condition of being sufficient or adequate",
+        "tags": []
+      }
+    ]
+  },
+  "SARAP": {
+    "zipf": 5.26,
+    "senses": [
+      {
+        "sourceWord": "sarap",
+        "partOfSpeech": "noun",
+        "gloss": "tastiness; deliciousness; pleasant taste (of food)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sarap",
+        "partOfSpeech": "noun",
+        "gloss": "pleasure; comfort; satisfaction; enjoyment; relish",
+        "tags": []
+      }
+    ]
+  },
+  "SAYAW": {
+    "zipf": 4.74,
+    "senses": [
+      {
+        "sourceWord": "sayaw",
+        "partOfSpeech": "noun",
+        "gloss": "dance",
+        "tags": []
+      }
+    ]
+  },
+  "SERYE": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "serye",
+        "partOfSpeech": "noun",
+        "gloss": "series (things alike in a row)",
+        "tags": []
+      },
+      {
+        "sourceWord": "serye",
+        "partOfSpeech": "noun",
+        "gloss": "series; episode; serialized version",
+        "tags": []
+      }
+    ]
+  },
+  "SIGAW": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "sigaw",
+        "partOfSpeech": "noun",
+        "gloss": "shout; yell; howl; bawl",
+        "tags": []
+      },
+      {
+        "sourceWord": "sigaw",
+        "partOfSpeech": "noun",
+        "gloss": "loud call for help",
+        "tags": []
+      },
+      {
+        "sourceWord": "sigaw",
+        "partOfSpeech": "noun",
+        "gloss": "angry outburst",
+        "tags": []
+      },
+      {
+        "sourceWord": "sigaw",
+        "partOfSpeech": "noun",
+        "gloss": "forced confession (of a secret, etc.)",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "sigaw",
+        "partOfSpeech": "noun",
+        "gloss": "revelation; disclosure (of a secret, etc.)",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "SIGLO": {
+    "zipf": 4.77,
+    "senses": [
+      {
+        "sourceWord": "siglo",
+        "partOfSpeech": "noun",
+        "gloss": "century",
+        "tags": []
+      }
+    ]
+  },
+  "SIKAT": {
+    "zipf": 5.1,
+    "senses": [
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "noun",
+        "gloss": "rise; rising (on the sky of the sun, moon, stars, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "noun",
+        "gloss": "rays (of the sun, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "noun",
+        "gloss": "brightness; splendor; brilliance",
+        "tags": []
+      },
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "noun",
+        "gloss": "rise to popularity; becoming popular",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "adj",
+        "gloss": "famous; popular; well-known",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "sikat",
+        "partOfSpeech": "adj",
+        "gloss": "brilliant; at the zenith",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "SILID": {
+    "zipf": 4.85,
+    "senses": [
+      {
+        "sourceWord": "silid",
+        "partOfSpeech": "noun",
+        "gloss": "room (in a building)",
+        "tags": []
+      },
+      {
+        "sourceWord": "silid",
+        "partOfSpeech": "noun",
+        "gloss": "placing of something into a container",
+        "tags": []
+      },
+      {
+        "sourceWord": "silid",
+        "partOfSpeech": "noun",
+        "gloss": "content",
+        "tags": []
+      },
+      {
+        "sourceWord": "silid",
+        "partOfSpeech": "noun",
+        "gloss": "closet or small room for storage (especially in a rural native house)",
+        "tags": []
+      }
+    ]
+  },
+  "SIYAM": {
+    "zipf": 4.63,
+    "senses": [
+      {
+        "sourceWord": "siyam",
+        "partOfSpeech": "num",
+        "gloss": "nine",
+        "tags": []
+      }
+    ]
+  },
+  "SOBRA": {
+    "zipf": 5.03,
+    "senses": [
+      {
+        "sourceWord": "sobra",
+        "partOfSpeech": "noun",
+        "gloss": "surplus; excess; extra",
+        "tags": []
+      },
+      {
+        "sourceWord": "sobra",
+        "partOfSpeech": "adj",
+        "gloss": "excessive; too much",
+        "tags": []
+      },
+      {
+        "sourceWord": "sobra",
+        "partOfSpeech": "adj",
+        "gloss": "excess; surplus",
+        "tags": []
+      },
+      {
+        "sourceWord": "sobra",
+        "partOfSpeech": "adv",
+        "gloss": "so; very",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "SUGAT": {
+    "zipf": 4.52,
+    "senses": [
+      {
+        "sourceWord": "sugat",
+        "partOfSpeech": "noun",
+        "gloss": "wound; cut (any open injury on the skin)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sugat",
+        "partOfSpeech": "noun",
+        "gloss": "any hurt or injury to one's feelings, reputation, etc.",
+        "tags": [
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "sugat",
+        "partOfSpeech": "adj",
+        "gloss": "wounded",
+        "tags": []
+      }
+    ]
+  },
+  "SUKAT": {
+    "zipf": 4.95,
+    "senses": [
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "noun",
+        "gloss": "measurement; measure; dimension",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "noun",
+        "gloss": "act of measuring",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "noun",
+        "gloss": "act of trying the size of clothing, footwear, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "noun",
+        "gloss": "measure",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adj",
+        "gloss": "sufficient; enough",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "intj",
+        "gloss": "expressing wonder, surprise, or disapproval: imagine!",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adv",
+        "gloss": "just; merely; simply",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adj",
+        "gloss": "measured",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adj",
+        "gloss": "fit; fitted",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adj",
+        "gloss": "calculated, restrained, and deliberate",
+        "tags": []
+      },
+      {
+        "sourceWord": "sukat",
+        "partOfSpeech": "adj",
+        "gloss": "steady, slow, and deliberate",
+        "tags": []
+      }
+    ]
+  },
+  "SULAT": {
+    "zipf": 4.87,
+    "senses": [
+      {
+        "sourceWord": "sulat",
+        "partOfSpeech": "noun",
+        "gloss": "writing (on paper, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sulat",
+        "partOfSpeech": "noun",
+        "gloss": "act of writing",
+        "tags": []
+      },
+      {
+        "sourceWord": "sulat",
+        "partOfSpeech": "noun",
+        "gloss": "handwriting; penmanship",
+        "tags": []
+      },
+      {
+        "sourceWord": "sulat",
+        "partOfSpeech": "noun",
+        "gloss": "letter (written message)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sulat",
+        "partOfSpeech": "noun",
+        "gloss": "epistle",
+        "tags": []
+      }
+    ]
+  },
+  "SUNOD": {
+    "zipf": 5.18,
+    "senses": [
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "adj",
+        "gloss": "following another; next; subsequent (of someone or something)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "adj",
+        "gloss": "based from (used with sa)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "noun",
+        "gloss": "one that follows another; the next",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "noun",
+        "gloss": "act of obeying; act of following (orders, instructions, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "noun",
+        "gloss": "act of following someone",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunod",
+        "partOfSpeech": "noun",
+        "gloss": "act of following a model or plan (in making something)",
+        "tags": []
+      }
+    ]
+  },
+  "SUNOG": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "sunog",
+        "partOfSpeech": "noun",
+        "gloss": "fire; conflagration (especially uncontrolled and destructive)",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunog",
+        "partOfSpeech": "noun",
+        "gloss": "act of burning something",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunog",
+        "partOfSpeech": "intj",
+        "gloss": "fire!; there's a fire!",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunog",
+        "partOfSpeech": "adj",
+        "gloss": "burnt completely; burnt to ashes",
+        "tags": []
+      },
+      {
+        "sourceWord": "sunog",
+        "partOfSpeech": "adj",
+        "gloss": "sunburned",
+        "tags": []
+      }
+    ]
+  },
+  "TAGAL": {
+    "zipf": 4.86,
+    "senses": [
+      {
+        "sourceWord": "tagal",
+        "partOfSpeech": "noun",
+        "gloss": "duration of time",
+        "tags": []
+      },
+      {
+        "sourceWord": "tagal",
+        "partOfSpeech": "noun",
+        "gloss": "long time",
+        "tags": []
+      },
+      {
+        "sourceWord": "tagal",
+        "partOfSpeech": "noun",
+        "gloss": "ability or capacity to endure",
+        "tags": []
+      }
+    ]
+  },
+  "TAKBO": {
+    "zipf": 4.65,
+    "senses": [
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "run; act of running",
+        "tags": []
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "operation; working condition (of a machine, motor, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "progress; condition (of a business)",
+        "tags": []
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "trend (of the times)",
+        "tags": []
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "flow (of water, blood, electric current, etc.)",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "running; entry (of a candidate in an election)",
+        "tags": []
+      },
+      {
+        "sourceWord": "takbo",
+        "partOfSpeech": "noun",
+        "gloss": "running away; escaping",
+        "tags": []
+      }
+    ]
+  },
+  "TAKOT": {
+    "zipf": 5.25,
+    "senses": [
+      {
+        "sourceWord": "takot",
+        "partOfSpeech": "adj",
+        "gloss": "afraid",
+        "tags": []
+      },
+      {
+        "sourceWord": "takot",
+        "partOfSpeech": "noun",
+        "gloss": "fear; fright",
+        "tags": []
+      }
+    ]
+  },
+  "TANDA": {
+    "zipf": 4.71,
+    "senses": [
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "sign; mark; indication",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "marker; anything used to mark a place",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "old person",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "oldness; old age",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "age (of a person, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "act of remembering; act of retaining one's memory",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "memory; recollection",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "remembrance; memorial",
+        "tags": []
+      },
+      {
+        "sourceWord": "tanda",
+        "partOfSpeech": "noun",
+        "gloss": "shift; turn; rotation (in one's work, performance, etc.)",
+        "tags": []
+      }
+    ]
+  },
+  "TAPAT": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "facing the front; in front",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "direct; straight (as a route to a certain place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "sincere; genuine; real",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "loyal; faithful; devoted",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "honest; just; truthful",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "adj",
+        "gloss": "upfront; frank; candid; straightforward; open",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "side opposite or fronting another",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "act of staying or stopping in front",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "act of going through the direct route (to a certain place)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "direct route from one place to another",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "act of telling the truth",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "act of admitting or confessing (of one's guilt or crime)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "quality of being sincere or honest",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapat",
+        "partOfSpeech": "noun",
+        "gloss": "last price",
+        "tags": []
+      }
+    ]
+  },
+  "TAPOS": {
+    "zipf": 5.56,
+    "senses": [
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "adj",
+        "gloss": "completed; finished",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "adj",
+        "gloss": "over; ended; concluded",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "adj",
+        "gloss": "graduated (of a student)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "last day of a novena",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "end of a mourning period of a departed relative",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "finishing; completion (of something being done)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "coming to an end; conclusion (of a program, meeting, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "act of graduating (of a student)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "noun",
+        "gloss": "complete stop of rain, typhoon, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "tapos",
+        "partOfSpeech": "adv",
+        "gloss": "then; and then",
+        "tags": []
+      }
+    ]
+  },
+  "TATAK": {
+    "zipf": 4.54,
+    "senses": [
+      {
+        "sourceWord": "tatak",
+        "partOfSpeech": "noun",
+        "gloss": "brand; label; trademark",
+        "tags": []
+      },
+      {
+        "sourceWord": "tatak",
+        "partOfSpeech": "noun",
+        "gloss": "stamp; seal",
+        "tags": []
+      },
+      {
+        "sourceWord": "tatak",
+        "partOfSpeech": "noun",
+        "gloss": "mark; imprint; impression",
+        "tags": []
+      },
+      {
+        "sourceWord": "tatak",
+        "partOfSpeech": "noun",
+        "gloss": "sign; identifying mark",
+        "tags": []
+      },
+      {
+        "sourceWord": "tatak",
+        "partOfSpeech": "noun",
+        "gloss": "brand (made by burning with a hot iron to mark cattle)",
+        "tags": []
+      }
+    ]
+  },
+  "TATAY": {
+    "zipf": 5.04,
+    "senses": [
+      {
+        "sourceWord": "tatay",
+        "partOfSpeech": "noun",
+        "gloss": "father (male parent)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tatay",
+        "partOfSpeech": "noun",
+        "gloss": "term of address for a father: dad; daddy; pops; Pa; paw; papa; poppa",
+        "tags": [
+          "informal"
+        ]
+      }
+    ]
+  },
+  "TATLO": {
+    "zipf": 4.9,
+    "senses": [
+      {
+        "sourceWord": "tatlo",
+        "partOfSpeech": "num",
+        "gloss": "three",
+        "tags": []
+      }
+    ]
+  },
+  "TAWAG": {
+    "zipf": 5.18,
+    "senses": [
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "act of calling someone (by name or by signalling)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "act of calling on the telephone, telegram, etc.",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "telephone call",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "term; identifying name; what something is called",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "call; summons",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "roll call",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "banns (announcement of a forthcoming marriage)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "announcement (as by a loud crier)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "doctor's call or visit (especially on request by someone)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "fee for a doctor's call or visit",
+        "tags": []
+      },
+      {
+        "sourceWord": "tawag",
+        "partOfSpeech": "noun",
+        "gloss": "announcement of the rate of betting (as by a tahor or a kristo)",
+        "tags": []
+      }
+    ]
+  },
+  "TIMOG": {
+    "zipf": 4.9,
+    "senses": [
+      {
+        "sourceWord": "timog",
+        "partOfSpeech": "noun",
+        "gloss": "south",
+        "tags": []
+      }
+    ]
+  },
+  "TINIG": {
+    "zipf": 4.71,
+    "senses": [
+      {
+        "sourceWord": "tinig",
+        "partOfSpeech": "noun",
+        "gloss": "voice",
+        "tags": []
+      },
+      {
+        "sourceWord": "tinig",
+        "partOfSpeech": "noun",
+        "gloss": "voice",
+        "tags": []
+      },
+      {
+        "sourceWord": "tinig",
+        "partOfSpeech": "noun",
+        "gloss": "tone; intonation (of one's voice)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tinig",
+        "partOfSpeech": "noun",
+        "gloss": "expression; right to express (of one's opinion, choice, or request)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tinig",
+        "partOfSpeech": "noun",
+        "gloss": "mouthpiece (as of the government)",
+        "tags": []
+      }
+    ]
+  },
+  "TIPAN": {
+    "zipf": 4.76,
+    "senses": [
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "noun",
+        "gloss": "appointment; engagement; tryst",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "noun",
+        "gloss": "act of arranging an appointment (with someone)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "noun",
+        "gloss": "covenant; testament",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "noun",
+        "gloss": "date promised for the settlement of an obligation (such as debt)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "noun",
+        "gloss": "engagement; betrothal",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "verb",
+        "gloss": "to be tipped (to given gratuity to)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tipan",
+        "partOfSpeech": "verb",
+        "gloss": "to be tipped (to be given confidential information; to give a tip-off (about something))",
+        "tags": []
+      }
+    ]
+  },
+  "TITIK": {
+    "zipf": 4.55,
+    "senses": [
+      {
+        "sourceWord": "titik",
+        "partOfSpeech": "noun",
+        "gloss": "letter (of the alphabet)",
+        "tags": []
+      },
+      {
+        "sourceWord": "titik",
+        "partOfSpeech": "noun",
+        "gloss": "inscription; writing",
+        "tags": []
+      },
+      {
+        "sourceWord": "titik",
+        "partOfSpeech": "noun",
+        "gloss": "handwriting; penmanship",
+        "tags": []
+      },
+      {
+        "sourceWord": "titik",
+        "partOfSpeech": "noun",
+        "gloss": "lyrics",
+        "tags": []
+      }
+    ]
+  },
+  "TIYAK": {
+    "zipf": 5.07,
+    "senses": [
+      {
+        "sourceWord": "tiyak",
+        "partOfSpeech": "adj",
+        "gloss": "sure; certain; without doubt",
+        "tags": []
+      }
+    ]
+  },
+  "TIYAN": {
+    "zipf": 5.05,
+    "senses": [
+      {
+        "sourceWord": "tiyan",
+        "partOfSpeech": "noun",
+        "gloss": "abdomen; belly; paunch",
+        "tags": []
+      }
+    ]
+  },
+  "TOTOO": {
+    "zipf": 5.48,
+    "senses": [
+      {
+        "sourceWord": "totoo",
+        "partOfSpeech": "adj",
+        "gloss": "true; real; authentic; genuine",
+        "tags": []
+      },
+      {
+        "sourceWord": "totoo",
+        "partOfSpeech": "adj",
+        "gloss": "sincere",
+        "tags": []
+      },
+      {
+        "sourceWord": "totoo",
+        "partOfSpeech": "noun",
+        "gloss": "truth",
+        "tags": []
+      },
+      {
+        "sourceWord": "totoo",
+        "partOfSpeech": "adv",
+        "gloss": "really",
+        "tags": []
+      }
+    ]
+  },
+  "TUBIG": {
+    "zipf": 5.56,
+    "senses": [
+      {
+        "sourceWord": "tubig",
+        "partOfSpeech": "noun",
+        "gloss": "water",
+        "tags": []
+      },
+      {
+        "sourceWord": "tubig",
+        "partOfSpeech": "noun",
+        "gloss": "body of open water (as opposed to land)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tubig",
+        "partOfSpeech": "adj",
+        "gloss": "watery",
+        "tags": []
+      },
+      {
+        "sourceWord": "tubig",
+        "partOfSpeech": "adj",
+        "gloss": "talkative and dishonest (of a person)",
+        "tags": []
+      }
+    ]
+  },
+  "TUGON": {
+    "zipf": 4.78,
+    "senses": [
+      {
+        "sourceWord": "tugon",
+        "partOfSpeech": "noun",
+        "gloss": "reply; response",
+        "tags": []
+      },
+      {
+        "sourceWord": "tugon",
+        "partOfSpeech": "noun",
+        "gloss": "solution; answer; addressing a problem",
+        "tags": []
+      },
+      {
+        "sourceWord": "tugon",
+        "partOfSpeech": "noun",
+        "gloss": "act of answering (a letter, question, argument, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tugon",
+        "partOfSpeech": "noun",
+        "gloss": "rebuttal; defense",
+        "tags": []
+      }
+    ]
+  },
+  "TULAD": {
+    "zipf": 5.96,
+    "senses": [
+      {
+        "sourceWord": "tulad",
+        "partOfSpeech": "noun",
+        "gloss": "act of copying or imitating",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulad",
+        "partOfSpeech": "noun",
+        "gloss": "likeness; something similar or alike to another",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulad",
+        "partOfSpeech": "noun",
+        "gloss": "comparing; comparison",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulad",
+        "partOfSpeech": "adj",
+        "gloss": "like; similar to",
+        "tags": []
+      }
+    ]
+  },
+  "TULOG": {
+    "zipf": 4.73,
+    "senses": [
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "noun",
+        "gloss": "sleep; slumber",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "noun",
+        "gloss": "act of knocking out",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      },
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "adj",
+        "gloss": "asleep; sleeping",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "adj",
+        "gloss": "mentally dull or idle",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "adj",
+        "gloss": "not earning",
+        "tags": []
+      },
+      {
+        "sourceWord": "tulog",
+        "partOfSpeech": "adj",
+        "gloss": "knocked out",
+        "tags": [
+          "colloquial",
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "TULOY": {
+    "zipf": 5.31,
+    "senses": [
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "noun",
+        "gloss": "act of continuing or going on (as planned or scheduled)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "noun",
+        "gloss": "act of staying temporarily in someone's place (especially overnight)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "noun",
+        "gloss": "temporary guest or visitor; sojourner",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "noun",
+        "gloss": "condition of being continuous",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "adj",
+        "gloss": "without postponement; as planned or scheduled (of an event, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "adj",
+        "gloss": "staying temporarily only (of a guest or visitor)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "intj",
+        "gloss": "continue!; proceed!",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "intj",
+        "gloss": "come in!",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "adv",
+        "gloss": "afterwards",
+        "tags": []
+      },
+      {
+        "sourceWord": "tuloy",
+        "partOfSpeech": "particle",
+        "gloss": "expresses an undesired or unexpected consequence or result: afterwards; as a result",
+        "tags": []
+      }
+    ]
+  },
+  "TUNAY": {
+    "zipf": 5.74,
+    "senses": [
+      {
+        "sourceWord": "tunay",
+        "partOfSpeech": "adj",
+        "gloss": "true; real; genuine",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunay",
+        "partOfSpeech": "adj",
+        "gloss": "certain; reliable",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunay",
+        "partOfSpeech": "adj",
+        "gloss": "right; correct",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunay",
+        "partOfSpeech": "adv",
+        "gloss": "truly; really",
+        "tags": []
+      }
+    ]
+  },
+  "TUNGO": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "noun",
+        "gloss": "act of going or leaving towards a certain destination",
+        "tags": []
+      },
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "noun",
+        "gloss": "direction (of the wind, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "noun",
+        "gloss": "aim; purpose; objective",
+        "tags": [
+          "colloquial"
+        ]
+      },
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "noun",
+        "gloss": "act of lowering or bending the head forward",
+        "tags": []
+      },
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "noun",
+        "gloss": "bent or bowed head (as in shame, defeat, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "tungo",
+        "partOfSpeech": "adj",
+        "gloss": "with or having the head bowed or bent forward",
+        "tags": []
+      }
+    ]
+  },
+  "TUNOG": {
+    "zipf": 4.96,
+    "senses": [
+      {
+        "sourceWord": "tunog",
+        "partOfSpeech": "noun",
+        "gloss": "sound",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunog",
+        "partOfSpeech": "noun",
+        "gloss": "sonority; resonance; clear and strong sound",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunog",
+        "partOfSpeech": "noun",
+        "gloss": "tone; quality of sound",
+        "tags": []
+      },
+      {
+        "sourceWord": "tunog",
+        "partOfSpeech": "noun",
+        "gloss": "popularity",
+        "tags": [
+          "figuratively"
+        ]
+      }
+    ]
+  },
+  "UGALI": {
+    "zipf": 4.75,
+    "senses": [
+      {
+        "sourceWord": "ugali",
+        "partOfSpeech": "noun",
+        "gloss": "conduct; habit; personal behavior or conduct",
+        "tags": []
+      },
+      {
+        "sourceWord": "ugali",
+        "partOfSpeech": "noun",
+        "gloss": "character; nature (of a person)",
+        "tags": []
+      },
+      {
+        "sourceWord": "ugali",
+        "partOfSpeech": "noun",
+        "gloss": "inclination; propensity",
+        "tags": []
+      },
+      {
+        "sourceWord": "ugali",
+        "partOfSpeech": "noun",
+        "gloss": "tradition; long-established custom or practice",
+        "tags": []
+      }
+    ]
+  },
+  "UGNAY": {
+    "zipf": 4.59,
+    "senses": [
+      {
+        "sourceWord": "ugnay",
+        "partOfSpeech": "noun",
+        "gloss": "point of connection or attachment; joint",
+        "tags": []
+      },
+      {
+        "sourceWord": "ugnay",
+        "partOfSpeech": "noun",
+        "gloss": "state or condition of being connected or related to each other",
+        "tags": []
+      }
+    ]
+  },
+  "UMAGA": {
+    "zipf": 5.3,
+    "senses": [
+      {
+        "sourceWord": "umaga",
+        "partOfSpeech": "noun",
+        "gloss": "morning",
+        "tags": []
+      },
+      {
+        "sourceWord": "umaga",
+        "partOfSpeech": "verb",
+        "gloss": "to be early",
+        "tags": [
+          "colloquial"
+        ]
+      }
+    ]
+  },
+  "UMUWI": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "umuwi",
+        "partOfSpeech": "verb",
+        "gloss": "to go home; to return (to one's house, town, province, country, etc.)",
+        "tags": []
+      }
+    ]
+  },
+  "UNLAD": {
+    "zipf": 5.05,
+    "senses": [
+      {
+        "sourceWord": "unlad",
+        "partOfSpeech": "noun",
+        "gloss": "progress; advancement; improvement",
+        "tags": []
+      },
+      {
+        "sourceWord": "unlad",
+        "partOfSpeech": "noun",
+        "gloss": "act of advancing towards progress",
+        "tags": []
+      }
+    ]
+  },
+  "UPANG": {
+    "zipf": 6.36,
+    "senses": [
+      {
+        "sourceWord": "upang",
+        "partOfSpeech": "conj",
+        "gloss": "so that; in order that",
+        "tags": []
+      }
+    ]
+  },
+  "UPUAN": {
+    "zipf": 4.69,
+    "senses": [
+      {
+        "sourceWord": "upuan",
+        "partOfSpeech": "noun",
+        "gloss": "chair (anything used to sit on)",
+        "tags": []
+      },
+      {
+        "sourceWord": "upuan",
+        "partOfSpeech": "noun",
+        "gloss": "act of sitting at the same time (of a number of people)",
+        "tags": []
+      },
+      {
+        "sourceWord": "upuan",
+        "partOfSpeech": "verb",
+        "gloss": "to sit on something",
+        "tags": []
+      }
+    ]
+  },
+  "UTANG": {
+    "zipf": 4.91,
+    "senses": [
+      {
+        "sourceWord": "utang",
+        "partOfSpeech": "noun",
+        "gloss": "debt; account; liability or obligation to pay; loan",
+        "tags": []
+      },
+      {
+        "sourceWord": "utang",
+        "partOfSpeech": "noun",
+        "gloss": "act of borrowing money, or contracting a loan (as from a bank, etc.)",
+        "tags": []
+      },
+      {
+        "sourceWord": "utang",
+        "partOfSpeech": "noun",
+        "gloss": "act of buying something on credit",
+        "tags": []
+      },
+      {
+        "sourceWord": "utang",
+        "partOfSpeech": "adj",
+        "gloss": "borrowed; obtained as a loan or obligation to pay",
+        "tags": []
+      },
+      {
+        "sourceWord": "utang",
+        "partOfSpeech": "adj",
+        "gloss": "bought on credit",
+        "tags": []
+      }
+    ]
+  },
+  "VIDEO": {
+    "zipf": 5.41,
+    "senses": [
+      {
+        "sourceWord": "video",
+        "partOfSpeech": "noun",
+        "gloss": "video",
+        "tags": []
+      }
+    ]
+  },
+  "VIRUS": {
+    "zipf": 4.6,
+    "senses": [
+      {
+        "sourceWord": "virus",
+        "partOfSpeech": "noun",
+        "gloss": "virus",
+        "tags": []
+      },
+      {
+        "sourceWord": "virus",
+        "partOfSpeech": "noun",
+        "gloss": "computer virus",
+        "tags": []
+      }
+    ]
+  },
+  "WAKAS": {
+    "zipf": 4.92,
+    "senses": [
+      {
+        "sourceWord": "wakas",
+        "partOfSpeech": "noun",
+        "gloss": "end; finish; conclusion",
+        "tags": []
+      },
+      {
+        "sourceWord": "wakas",
+        "partOfSpeech": "noun",
+        "gloss": "death",
+        "tags": [
+          "broadly"
+        ]
+      },
+      {
+        "sourceWord": "wakas",
+        "partOfSpeech": "noun",
+        "gloss": "consequence; outcome",
+        "tags": [
+          "broadly"
+        ]
+      }
+    ]
+  },
+  "YAMAN": {
+    "zipf": 4.7,
+    "senses": [
+      {
+        "sourceWord": "yaman",
+        "partOfSpeech": "noun",
+        "gloss": "wealth; riches; fortune; valuable possessions",
+        "tags": []
+      },
+      {
+        "sourceWord": "yaman",
+        "partOfSpeech": "noun",
+        "gloss": "richness; wealthiness",
+        "tags": []
+      },
+      {
+        "sourceWord": "yaman",
+        "partOfSpeech": "noun",
+        "gloss": "act of becoming rich or wealthy",
+        "tags": []
+      },
+      {
+        "sourceWord": "yaman",
+        "partOfSpeech": "noun",
+        "gloss": "plentifulness; abundance; opulence",
+        "tags": []
+      },
+      {
+        "sourceWord": "yaman",
+        "partOfSpeech": "noun",
+        "gloss": "resource (something used to achieve an objective)",
+        "tags": []
+      }
+    ]
+  },
+  "YUGTO": {
+    "zipf": 5.11,
+    "senses": [
+      {
+        "sourceWord": "yugto",
+        "partOfSpeech": "noun",
+        "gloss": "part (of a series)",
+        "tags": []
+      },
+      {
+        "sourceWord": "yugto",
+        "partOfSpeech": "noun",
+        "gloss": "division or act in a stageplay or drama",
+        "tags": []
+      },
+      {
+        "sourceWord": "yugto",
+        "partOfSpeech": "noun",
+        "gloss": "phase",
+        "tags": []
+      }
+    ]
+  }
+}

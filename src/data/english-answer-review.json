@@ -1,0 +1,2833 @@
+{
+  "schema": 1,
+  "policy": "english-plural-past-review-2026-11-06",
+  "scope": "Supplemental word-by-word corrections to AGID filtering, 3–11 letters. Evidence is reviewed, not blindly accepted; unsupported mappings are labelled. Existing accepted guesses and pinned source data are unchanged.",
+  "inputs": {
+    "agid-extended-lengths.txt": "8a19f62bbe9bb5f883943442ffa4dd450752e54453debcfb4d51a10d1eb05216",
+    "agid-other-lengths.txt": "4bb5c9fee474b09ecbee2f849ec2abd7047cfa77ed0f019007519c1334a6dc8a",
+    "agid-relevant.txt": "873a12300c5121520589b93006ba14a4cf5d7e6231ac4a75c338ce33bc451cb9",
+    "definitions/4.json": "8775c562000eee2bcd124a68a562cb4023f449633cc81d98a1709191e5ca0ab6",
+    "definitions/5.json": "ef2c40365ad365eba4a1ca7d4765655ad4c6d88ac931e7a6b20a241fbfcd2418",
+    "definitions/6.json": "402913c082899cfa527ae4662e43acb9fbb9288fe68073856575e13071805dc1",
+    "definitions/7.json": "a10f29083afa3d664bbe252b8c584f5899739cb6e59fb1904f9c46cd1c5c2f69",
+    "definitions/english-5.json": "371fa8f29b7effda94c8aa438867b593690ddc6afeec3752e24046cb39bf53b3",
+    "definitions/english-6.json": "081e6d2c4e7d25e71c1b7f2fc86bf03ebf1e36e5f3d017c793a69b3170d054d5",
+    "definitions/english-7.json": "1404df551bb99b9d041060e0c931bf1d975740ecb7296650d4dda6f9f6ea3664",
+    "definitions/extended-10.json": "e02b623c15756c111cb85551963fa1f11116c709db2db5c444e46e557832040f",
+    "definitions/extended-11.json": "24bfc353cd8cd9d5e9199eb4725d1cb5a296ba12e449d782a4c886024bddad05",
+    "definitions/extended-8.json": "5c0936977a930fb09bf31ab16ddb07673b4447d473da19a4c8418eeabb92bfc3",
+    "definitions/extended-9.json": "4d9c5065fa4fa2d3ba0fc9a7ebb446afb130c87ec99e8ba43cb90aa3d0963423"
+  },
+  "exclude": {
+    "ALMS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/4.json",
+          "word": "ALMS",
+          "entrySha256": "15b0ed60dc1601ecc786897ae9cff6cbc72ac92c03d57eac272a9410498049a6"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "AMENDS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "AMENDS",
+          "entrySha256": "02d8f2e8d4d5f03825f29c4cc6b7a189cdd0bee1b48cf9cb2a39da3661f31284"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ANNALS": {
+      "kind": "plural",
+      "lemma": "annal",
+      "reason": "Reviewed noun plural of annal; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "annal N?: annals"
+        },
+        {
+          "file": "definitions/english-6.json",
+          "word": "ANNALS",
+          "entrySha256": "d022bc662c44666288face9686294e31dbf55b82ebe303794fc03658aa9f1e94"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "APPETISERS": {
+      "kind": "plural",
+      "lemma": "appetiser",
+      "reason": "Reviewed noun plural of appetiser; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "appetiser N?: appetisers"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "APPETISERS",
+          "entrySha256": "85bd56039ca0806da1409c104188eef0907b292f41ca5e8437db4e10bbc86958"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ARREARS": {
+      "kind": "plural",
+      "lemma": "arrear",
+      "reason": "Reviewed noun plural of arrear; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "arrear N?: arrears"
+        },
+        {
+          "file": "definitions/7.json",
+          "word": "ARREARS",
+          "entrySha256": "37aa9fbe8f2642cea6bbd503e0aa8baf3c54399c245059afde6ee62d98d77540"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BACKWOODS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "backwood N?: backwoods"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "BACKWOODS",
+          "entrySha256": "48acaaacb08ab9ba2ddfe3fd17bbb5a53f1bd5f246599d2d01f05a8824719653"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BALDS": {
+      "kind": "plural",
+      "lemma": "bald",
+      "reason": "Reviewed noun plural of bald; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "BALDS",
+          "entrySha256": "7fb00a6f4f3238c8f659be2324c7da277c312586013e2878261002dc6a2281c1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BEDCLOTHES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/bedclothes",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "BIFOCALS": {
+      "kind": "plural",
+      "lemma": "bifocal",
+      "reason": "Reviewed noun plural of bifocal; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "bifocal N?: bifocals"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BLOGGED": {
+      "kind": "past",
+      "lemma": "blog",
+      "reason": "Reviewed finite past-tense form of blog, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "BLOGGED",
+          "entrySha256": "0e9e8eccb4f6e12513ee56f19a207962f55d0feb915cf2f5c9b783c71398db48"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BLOGGERS": {
+      "kind": "plural",
+      "lemma": "blogger",
+      "reason": "Reviewed noun plural of blogger; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "BLOGGERS",
+          "entrySha256": "d167bebb2298e87db2099542d345df084db1867c76ae6ffcd31f43427918bf73"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BLOGS": {
+      "kind": "plural",
+      "lemma": "blog",
+      "reason": "Reviewed noun plural of blog; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/5.json",
+          "word": "BLOGS",
+          "entrySha256": "d59f0c14fd31c63c5b2e014b8c42777e60496c5f183e8bffff68062f9e78760b"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BLUNTS": {
+      "kind": "plural",
+      "lemma": "blunt",
+      "reason": "Reviewed noun plural of blunt; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "BLUNTS",
+          "entrySha256": "09d14325e20f36bf8f78611aa7369671748b547fdb5220392f635a71d04b5eb2"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BREAKPOINTS": {
+      "kind": "plural",
+      "lemma": "breakpoint",
+      "reason": "Reviewed noun plural of breakpoint; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "breakpoint N?: breakpoints"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "BRITCHES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/britches",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "BUSHELLINGS": {
+      "kind": "plural",
+      "lemma": "bushelling",
+      "reason": "Reviewed noun plural of bushelling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "bushelling N?: bushelling, bushellings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CAPITALISED": {
+      "kind": "past",
+      "lemma": "capitalise",
+      "reason": "Reviewed finite past-tense form of capitalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "capitalise V?: capitalised | capitalising | capitalises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "CAPITALISED",
+          "entrySha256": "ed7ac6fbb953dd69bd5279c2184e9b319a222159545ab7abd864b7ffcd3337de"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CATEGORISED": {
+      "kind": "past",
+      "lemma": "categorise",
+      "reason": "Reviewed finite past-tense form of categorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "categorise V?: categorised | categorising | categorises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "CATEGORISED",
+          "entrySha256": "92b27537edfe3fd8290d253afe82a5bba76ab706751d0703914318b6dbd71008"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CELLULARS": {
+      "kind": "plural",
+      "lemma": "cellular",
+      "reason": "Reviewed noun plural of cellular; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-9.json",
+          "word": "CELLULARS",
+          "entrySha256": "ff6974a799b66802847d7f8941859d2ad37a68d23ac83aaad7be3df23b859794"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CENTRALISED": {
+      "kind": "past",
+      "lemma": "centralise",
+      "reason": "Reviewed finite past-tense form of centralise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "centralise V?: centralised | centralising | centralises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "CENTRALISED",
+          "entrySha256": "7c1783aad683e44f48a2be53d4908ca46738c68f6a73c1bd84860f858f48bce1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CLOTHES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "CLOTHES",
+          "entrySha256": "d4a3345ab011e2e60b082d09f211cba458671dac5558c1d1a4e9aa4b255b78a7"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "COLONES": {
+      "kind": "plural",
+      "lemma": "colón",
+      "reason": "Reviewed noun plural of colón; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "colone N?: colones"
+        },
+        {
+          "file": "definitions/english-7.json",
+          "word": "COLONES",
+          "entrySha256": "352b104368b805205a99ba578c56db7498798231815639e44a406ac27f4eb7fe"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "COLONISED": {
+      "kind": "past",
+      "lemma": "colonise",
+      "reason": "Reviewed finite past-tense form of colonise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "colonise V?: colonised | colonising | colonises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "COLONISED",
+          "entrySha256": "70b84c61ffc7af48687326ee39924604716351a24e375159b99e377144c3bc0e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "COLOUREDS": {
+      "kind": "plural",
+      "lemma": "coloured",
+      "reason": "Reviewed noun plural of coloured; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "coloured N?: coloureds"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "COMMUTES": {
+      "kind": "plural",
+      "lemma": "commute",
+      "reason": "Reviewed noun plural of commute; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "COMMUTES",
+          "entrySha256": "02d8205036e3fef7a9aa15129be557c5b525dfa8cc823f426c006fe7232ed4dd"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CONSULTS": {
+      "kind": "plural",
+      "lemma": "consult",
+      "reason": "Reviewed noun plural of consult; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "CONSULTS",
+          "entrySha256": "fbcc80255df7fa2ea4f42a71807646ac27799dc5cbc866b57750b39173ce716a"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CORNFLAKES": {
+      "kind": "plural",
+      "lemma": "cornflake",
+      "reason": "Reviewed noun plural of cornflake; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "cornflake N?: cornflakes"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "COSTED": {
+      "kind": "past",
+      "lemma": "cost",
+      "reason": "Reviewed finite past-tense form of cost, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-relevant.txt",
+          "line": "cost V: cost, costed 2 | costing | costs"
+        },
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "cost V: cost, costed 2 | costing | costs"
+        },
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "coste V?: costed | costing | costes"
+        },
+        {
+          "file": "definitions/6.json",
+          "word": "COSTED",
+          "entrySha256": "72f2c44bd39317ae795de006d40437a1be606e0a83f9f0be6e5babc003be203a"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "CREATIVES": {
+      "kind": "plural",
+      "lemma": "creative",
+      "reason": "Reviewed noun plural of creative; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://en.wiktionary.org/wiki/creatives",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "DELIMITERS": {
+      "kind": "plural",
+      "lemma": "delimiter",
+      "reason": "Reviewed noun plural of delimiter; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "delimiter N?: delimiters"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DEMORALISED": {
+      "kind": "past",
+      "lemma": "demoralise",
+      "reason": "Reviewed finite past-tense form of demoralise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "demoralise V?: demoralised | demoralising | demoralises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "DEMORALISED",
+          "entrySha256": "a298e40f5fa0f69b127aabded77aea204da1cb5ce70d5f41a63ae44d54a4db24"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DEODORISED": {
+      "kind": "past",
+      "lemma": "deodorise",
+      "reason": "Reviewed finite past-tense form of deodorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "deodorise V?: deodorised | deodorising | deodorises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "DEODORISED",
+          "entrySha256": "8838080817dd057906d1b8e66c0140bcccdb0fd275903e2a7f6a174cdc911987"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DESCRIPTORS": {
+      "kind": "plural",
+      "lemma": "descriptor",
+      "reason": "Reviewed noun plural of descriptor; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "descriptor N?: descriptors"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DIALINGS": {
+      "kind": "plural",
+      "lemma": "dialing",
+      "reason": "Reviewed noun plural of dialing; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "dialing N?: dialings"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "dialing N?: dialings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DIALLINGS": {
+      "kind": "plural",
+      "lemma": "dialling",
+      "reason": "Reviewed noun plural of dialling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "dialling N?: dialling, diallings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DIGITISED": {
+      "kind": "past",
+      "lemma": "digitise",
+      "reason": "Reviewed finite past-tense form of digitise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "digitise V?: digitised | digitising | digitises"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DISCONNECTS": {
+      "kind": "plural",
+      "lemma": "disconnect",
+      "reason": "Reviewed noun plural of disconnect; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-11.json",
+          "word": "DISCONNECTS",
+          "entrySha256": "74a59bbe8fa381ed31d2426117ef281e3857b84955c9f36ce88f6a125cebc074"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DOLDRUMS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/doldrums",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "DROPPINGS": {
+      "kind": "plural",
+      "lemma": "dropping",
+      "reason": "Reviewed noun plural of dropping; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "dropping N?: droppings"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "DROPPINGS",
+          "entrySha256": "0c9f48ea37e56dd69884045d072008ec20711b8f74b2409d0db112a1d00c6194"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DUCKLINGS": {
+      "kind": "plural",
+      "lemma": "duckling",
+      "reason": "Reviewed noun plural of duckling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "duckling N: duckling, ducklings~ 1"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "DUCKLINGS",
+          "entrySha256": "092fc91756ee51fd62d4799876590931cc63ad6a5e75819baa08be87e14b86c5"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DUELLINGS": {
+      "kind": "plural",
+      "lemma": "duelling",
+      "reason": "Reviewed noun plural of duelling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "duelling N?: duelling, duellings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "DUMPLINGS": {
+      "kind": "plural",
+      "lemma": "dumpling",
+      "reason": "Reviewed noun plural of dumpling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "dumpling N: dumpling, dumplings~ 1"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "DUMPLINGS",
+          "entrySha256": "146848a466837b4461f8c2110af521ace57013f1e073cc29e1e50b2db7c96c94"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "EARNINGS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "earning N?: earnings"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "earning N?: earnings"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "EARNINGS",
+          "entrySha256": "9d4635c1e1da5f38c2ecb6255ae724bbc11a07e9be03558cbbeaf89adacd4df9"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "EMBEDS": {
+      "kind": "plural",
+      "lemma": "embed",
+      "reason": "Reviewed noun plural of embed; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "EMBEDS",
+          "entrySha256": "6345f0e3d64cd8999f732759615ba076c84fe032863992e8aee9fa5ddcb17dc2"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ENAMELLINGS": {
+      "kind": "plural",
+      "lemma": "enamelling",
+      "reason": "Reviewed noun plural of enamelling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "enamelling N?: enamelling, enamellings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ENTRAILS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "entrail N?: entrails"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "ENTRAILS",
+          "entrySha256": "5c15b4331ffea363d57a51a688ca777ababcffa84efdcf910885e62851edcbce"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ENVIRONS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/environs?topic=environments-and-localities",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "EQUALISED": {
+      "kind": "past",
+      "lemma": "equalise",
+      "reason": "Reviewed finite past-tense form of equalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "equalise V?: equalised | equalising | equalises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "EQUALISED",
+          "entrySha256": "5eeca1ab40b6db9dbcbe5ecf5d1109731ddf28accd0eac276975b81fb3ea24ce"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FAECES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "FAECES",
+          "entrySha256": "825ae951a4bfe0128abecc707995d22aa1426479aafab0101064d89443e0a87c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FECES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/5.json",
+          "word": "FECES",
+          "entrySha256": "5712d4042da53d7599c4ca3292bf5e7d527954004bf1ec563482998f3718520e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FEELINGS": {
+      "kind": "plural",
+      "lemma": "feeling",
+      "reason": "Reviewed noun plural of feeling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "feeling N: feeling, feelings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "feeling N: feeling, feelings~ 1"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "FEELINGS",
+          "entrySha256": "88f122d8f16b0810116f671c3496941e0a46e5975d02247d005ddb3669a33da3"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FERTILISED": {
+      "kind": "past",
+      "lemma": "fertilise",
+      "reason": "Reviewed finite past-tense form of fertilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "fertilise V?: fertilised | fertilising | fertilises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "FERTILISED",
+          "entrySha256": "4941c141e42fe47c244bec6e7952ff7d352b569e5ec73b3658defca0eb36ae58"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FERTILISERS": {
+      "kind": "plural",
+      "lemma": "fertiliser",
+      "reason": "Reviewed noun plural of fertiliser; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "fertiliser N?: fertilisers"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "FERTILISERS",
+          "entrySha256": "6081224318a776b6183cbe2d95595bb16cb713dd123a36363fadf77b16d96b3a"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FINALISED": {
+      "kind": "past",
+      "lemma": "finalise",
+      "reason": "Reviewed finite past-tense form of finalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "finalis V?: finalised! | finalising! | finalises"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "finalise V?: finalised | finalising | finalises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "FINALISED",
+          "entrySha256": "24bf6d265b107fb70474c18ac2c2805e282cf1fbc6100ec33e9082a63a828431"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FLAMMABLES": {
+      "kind": "plural",
+      "lemma": "flammable",
+      "reason": "Reviewed noun plural of flammable; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "flammable N?: flammables"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FORMALISED": {
+      "kind": "past",
+      "lemma": "formalise",
+      "reason": "Reviewed finite past-tense form of formalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "formalise V?: formalised | formalising | formalises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "FORMALISED",
+          "entrySha256": "a54096115879f322a34518264a67c48d7589cb14b0e556c90e1d3f57b05d6f3c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FOSSILISED": {
+      "kind": "past",
+      "lemma": "fossilise",
+      "reason": "Reviewed finite past-tense form of fossilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "fossilise V?: fossilised | fossilising | fossilises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "FOSSILISED",
+          "entrySha256": "95c0a317fcbc2968e302b846b10cb9b794ccc1e967e90ed2c5c233612e42b197"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FOUNDLINGS": {
+      "kind": "plural",
+      "lemma": "foundling",
+      "reason": "Reviewed noun plural of foundling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "foundling N: foundling, foundlings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FRATERNISED": {
+      "kind": "past",
+      "lemma": "fraternise",
+      "reason": "Reviewed finite past-tense form of fraternise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "fraternise V?: fraternised | fraternising | fraternises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "FRATERNISED",
+          "entrySha256": "c79ebee420b32071d90928fc6fa6ef7b44246894d22ce413b89d43f79fbe13ef"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "FURNISHINGS": {
+      "kind": "plural",
+      "lemma": "furnishing",
+      "reason": "Reviewed noun plural of furnishing; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "furnishing N?: furnishings"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "FURNISHINGS",
+          "entrySha256": "aa7b128f9dab9e10d7d97a5b4219b6a466d3982915b58a9da1caf0d705496cf4"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "GENITALS": {
+      "kind": "plural",
+      "lemma": "genital",
+      "reason": "Reviewed noun plural of genital; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "genital N?: genitals"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "genital N?: genitals"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "GENITALS",
+          "entrySha256": "3182402ea0561a0da6bebe50d42dfff125f079c0181ac5ff6ab1b5ea336224a3"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "GLAMORISED": {
+      "kind": "past",
+      "lemma": "glamorise",
+      "reason": "Reviewed finite past-tense form of glamorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "glamorise V?: glamorised | glamorising | glamorises"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "GOSLINGS": {
+      "kind": "plural",
+      "lemma": "gosling",
+      "reason": "Reviewed noun plural of gosling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "gosling N: gosling, goslings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "gosling N: gosling, goslings~ 1"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "GOSLINGS",
+          "entrySha256": "6916f8312a89c08984946f84957a34ad77e1407160b5162ab914d558d315f789"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "GYBES": {
+      "kind": "plural",
+      "lemma": "gybe",
+      "reason": "Reviewed noun plural of gybe; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "GYBES",
+          "entrySha256": "c78bcda7e05db43da697008619b0bf63ff199b831199dd48a0cf438cae7a985a"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "HANDSHAKES": {
+      "kind": "plural",
+      "lemma": "handshake",
+      "reason": "Reviewed noun plural of handshake; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "handshake N: handshake, handshakes~ 1"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "HANDSHAKES",
+          "entrySha256": "49d9e3522d4f5d58ea37dcfec53631ce5a7920de8d7e53d19dd926868a2a058c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "HARMONISED": {
+      "kind": "past",
+      "lemma": "harmonise",
+      "reason": "Reviewed finite past-tense form of harmonise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "harmonise V?: harmonised | harmonising | harmonises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "HARMONISED",
+          "entrySha256": "f72a88147bd599084ffdf9e1f900e0bdecb4de2430e0fb5b6e5db85b56ec524d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "HOMOGENISED": {
+      "kind": "past",
+      "lemma": "homogenise",
+      "reason": "Reviewed finite past-tense form of homogenise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "homogenise V?: homogenised | homogenising | homogenises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "HOMOGENISED",
+          "entrySha256": "ccb845b1c2db46ee7f5796148122662673d4a158effef343e93a2f6a857d76dd"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "HYPNOTISED": {
+      "kind": "past",
+      "lemma": "hypnotise",
+      "reason": "Reviewed finite past-tense form of hypnotise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "hypnotise V?: hypnotised | hypnotising | hypnotises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "HYPNOTISED",
+          "entrySha256": "a333cf1e9dc9de7d53c3086093b348572ae61e60508dbf312f1d4b61b17f254c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "IDENTIFIERS": {
+      "kind": "plural",
+      "lemma": "identifier",
+      "reason": "Reviewed noun plural of identifier; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "identifier N?: identifiers"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "IDENTIFIERS",
+          "entrySha256": "fd959ae53e82a75debc4ff5f3b9dd41204cbaf1c198eb7b2540f0381192616cc"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "IDOLISED": {
+      "kind": "past",
+      "lemma": "idolise",
+      "reason": "Reviewed finite past-tense form of idolise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "idolise V?: idolised | idolising | idolises"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "idolise V?: idolised | idolising | idolises"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "IDOLISED",
+          "entrySha256": "406f625eb148f2aaff71209a7110531810f82cb704cb3ec67f40e10d13d75aa0"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "IMMOBILISED": {
+      "kind": "past",
+      "lemma": "immobilise",
+      "reason": "Reviewed finite past-tense form of immobilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "immobilise V?: immobilised | immobilising | immobilises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "IMMOBILISED",
+          "entrySha256": "10ccd51a7e138e2ba05cfe9685347d490de53784f50f958250d96d8dc1c0e950"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "IMMUNISED": {
+      "kind": "past",
+      "lemma": "immunise",
+      "reason": "Reviewed finite past-tense form of immunise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "immunise V?: immunised | immunising | immunises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "IMMUNISED",
+          "entrySha256": "54c79f9dd8f6cf828dd656584d9e38fbd9b6f787033a5995cbb41745c6cc3f16"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "IMPOUNDS": {
+      "kind": "plural",
+      "lemma": "impound",
+      "reason": "Reviewed noun plural of impound; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "IMPOUNDS",
+          "entrySha256": "03b107a11253dabc35699b2db98dd257fbc034e3cab4e6f1abcf7deda4a3553b"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "INCREMENTED": {
+      "kind": "past",
+      "lemma": "increment",
+      "reason": "Reviewed finite past-tense form of increment, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "increment V?: incremented | incrementing | increments"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "INCREMENTED",
+          "entrySha256": "f598650d9f6e21605d92e8b027ba2d98f978f87a975dffb9d4127232c2863d73"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "INITIALISED": {
+      "kind": "past",
+      "lemma": "initialise",
+      "reason": "Reviewed finite past-tense form of initialise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "initialise V?: initialised | initialising | initialises"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "INKLINGS": {
+      "kind": "plural",
+      "lemma": "inkling",
+      "reason": "Reviewed noun plural of inkling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "inkling N: inkling, inklings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "inkling N: inkling, inklings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "INNARDS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "INNARDS",
+          "entrySha256": "9753606c78a3f2b2a15e6a4b7c051aab2a1438765133f970d1c2a2b5a68c11a1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ISOLATES": {
+      "kind": "plural",
+      "lemma": "isolate",
+      "reason": "Reviewed noun plural of isolate; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "ISOLATES",
+          "entrySha256": "6868b0c369b45d718e6b1616fd72a8a6dbdf1b4cad168bb5dd1db2f8ed22ac49"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ITALICISED": {
+      "kind": "past",
+      "lemma": "italicise",
+      "reason": "Reviewed finite past-tense form of italicise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "italicise V?: italicised | italicising | italicises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "ITALICISED",
+          "entrySha256": "e3d08828ef581322ce7278ba0ca0660d66ed07d6f676afebc7f802f765c10062"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ITEMISED": {
+      "kind": "past",
+      "lemma": "itemise",
+      "reason": "Reviewed finite past-tense form of itemise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "itemise V?: itemised | itemising | itemises"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "itemise V?: itemised | itemising | itemises"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "ITEMISED",
+          "entrySha256": "bd37082289cd0bfacbb1272cb86719e5e2689e4c25d983e8407b869fd2aba99e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "JEOPARDISED": {
+      "kind": "past",
+      "lemma": "jeopardise",
+      "reason": "Reviewed finite past-tense form of jeopardise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "jeopardise V?: jeopardised | jeopardising | jeopardises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "JEOPARDISED",
+          "entrySha256": "dca5cb6ca7badfe92d92dfaf39b1745e739546f5f3dcd823a96167c7e761abf4"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "JITTERS": {
+      "kind": "plural",
+      "lemma": "jitter",
+      "reason": "Reviewed noun plural of jitter; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "JITTERS",
+          "entrySha256": "cf46b0552d57afe964fdf55d06b1b6b024d1f6819410f04d5d54af5413641d09"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "KIDNAPS": {
+      "kind": "plural",
+      "lemma": "kidnap",
+      "reason": "Reviewed noun plural of kidnap; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "KIDNAPS",
+          "entrySha256": "f817a7705e8cb794584e19c6f02bedcd53965a2ce77f912ed3f4b06206b942b8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "KNICKERS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "knicker N?: knickers"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "KNICKERS",
+          "entrySha256": "7bda208890791d97cb1a26628f6fbf94dd80fe908f9a25ed888ed8e5ed44f49f"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "LAZIES": {
+      "kind": "plural",
+      "lemma": "lazy",
+      "reason": "Reviewed noun plural of lazy; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "LAZIES",
+          "entrySha256": "1047a50f7f44cfbcd3fd6a30b83cb772c8e80017d1580e8191415196a186fd0c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "LEGALISED": {
+      "kind": "past",
+      "lemma": "legalise",
+      "reason": "Reviewed finite past-tense form of legalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "legalise V?: legalised | legalising | legalises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "LEGALISED",
+          "entrySha256": "53084cdac529c5fc1eb5a72b118fe94d9c9a62c6cf94571d49f4b2066e2d9280"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "LIBERALISED": {
+      "kind": "past",
+      "lemma": "liberalise",
+      "reason": "Reviewed finite past-tense form of liberalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "liberalise V?: liberalised | liberalising | liberalises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "LIBERALISED",
+          "entrySha256": "1f07b4f20a443481747641e7f3c3ddeb06a53a2273e4ab71a2318953df93fedb"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "LIFEFORMS": {
+      "kind": "plural",
+      "lemma": "lifeform",
+      "reason": "Reviewed noun plural of lifeform; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://en.wiktionary.org/w/index.php?title=lifeforms&oldid=55339491",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "LISTENS": {
+      "kind": "plural",
+      "lemma": "listen",
+      "reason": "Reviewed noun plural of listen; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "LISTENS",
+          "entrySha256": "879e854d24de51089a17f13ea81b2573ebc096a4d882b3ab637d7f864284ecd8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MAINTAINERS": {
+      "kind": "plural",
+      "lemma": "maintainer",
+      "reason": "Reviewed noun plural of maintainer; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "maintainer N?: maintainers"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MARIA": {
+      "kind": "plural",
+      "lemma": "mare",
+      "reason": "Reviewed noun plural of mare; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "MARIA",
+          "entrySha256": "d56c93e10cbf68fc4cff1fc06a03c69f4e494afd5e93d8794df4973840ded3bd"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MAXIMISED": {
+      "kind": "past",
+      "lemma": "maximise",
+      "reason": "Reviewed finite past-tense form of maximise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "maximise V?: maximised | maximising | maximises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "MAXIMISED",
+          "entrySha256": "ef163205a8fb3e41b28dd30c01ded510b110114747e8e77f0a22c3138ae462d9"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MECHANISED": {
+      "kind": "past",
+      "lemma": "mechanise",
+      "reason": "Reviewed finite past-tense form of mechanise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "mechanise V?: mechanised | mechanising | mechanises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "MECHANISED",
+          "entrySha256": "9767e16c769d5bb596662a8d2651174f448492ed26bb446d5b3729d1c264c3cb"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MEMORISED": {
+      "kind": "past",
+      "lemma": "memorise",
+      "reason": "Reviewed finite past-tense form of memorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "memorise V?: memorised | memorising | memorises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "MEMORISED",
+          "entrySha256": "c93d9130366b3ef2dc3e51b0d07d8b1e5a091d861261525020d592a149b005bc"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MERGES": {
+      "kind": "plural",
+      "lemma": "merge",
+      "reason": "Reviewed noun plural of merge; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "MERGES",
+          "entrySha256": "f4bb8ef48a612148c6675c3eb29b19a0d54033e49e442a381942234652347352"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MINIMISED": {
+      "kind": "past",
+      "lemma": "minimise",
+      "reason": "Reviewed finite past-tense form of minimise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "minimise V?: minimised | minimising | minimises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "MINIMISED",
+          "entrySha256": "bd305283036c60a94d6b2f7dc118e4576e3928aef420f69f4256da2756387f07"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MOBILISED": {
+      "kind": "past",
+      "lemma": "mobilise",
+      "reason": "Reviewed finite past-tense form of mobilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "mobilise V?: mobilised | mobilising | mobilises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "MOBILISED",
+          "entrySha256": "6ee9452da67cd9a034a07da53e6caee84999dd3f57377ca8781c8bd566dd97b1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MODELINGS": {
+      "kind": "plural",
+      "lemma": "modeling",
+      "reason": "Reviewed noun plural of modeling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "modeling N: modeling, modelings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MODERNISED": {
+      "kind": "past",
+      "lemma": "modernise",
+      "reason": "Reviewed finite past-tense form of modernise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "modernise V?: modernised | modernising | modernises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "MODERNISED",
+          "entrySha256": "33a7e3392c40f8c9dbef7c8e7abdd774463db534618c30973d06e6ceebd4b7f8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MONOPOLISED": {
+      "kind": "past",
+      "lemma": "monopolise",
+      "reason": "Reviewed finite past-tense form of monopolise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "monopolise V?: monopolised | monopolising | monopolises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "MONOPOLISED",
+          "entrySha256": "dec44e2fcf2eacab77593d5fa729684990c7f380ba45fb74c3d55a154ad9b6bb"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MOTORISED": {
+      "kind": "past",
+      "lemma": "motorise",
+      "reason": "Reviewed finite past-tense form of motorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "motorise V?: motorised | motorising | motorises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "MOTORISED",
+          "entrySha256": "6f6bc50aa7a4baede1ca303ab771d17a7ec92ea30ffd1cd046ce73dd4669ac55"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "MOUSES": {
+      "kind": "plural",
+      "lemma": "mouse",
+      "reason": "Reviewed noun plural of mouse; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "MOUSES",
+          "entrySha256": "055182d61c9f2e67a36d0a2f16d54c0a1a4504720fb6ee6b28a4862279965223"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "NATURALISED": {
+      "kind": "past",
+      "lemma": "naturalise",
+      "reason": "Reviewed finite past-tense form of naturalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "naturalise V?: naturalised | naturalising | naturalises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "NATURALISED",
+          "entrySha256": "043661603033a39d7ae444a97821440f1553d8ab01b9669901bab80bccba6518"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "NEUTRALISED": {
+      "kind": "past",
+      "lemma": "neutralise",
+      "reason": "Reviewed finite past-tense form of neutralise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "neutralise V?: neutralised | neutralising | neutralises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "NEUTRALISED",
+          "entrySha256": "bafba6ce634078a8ba0e408feff8334499dd9bfc7535ac472dd534becf656e06"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "NULLS": {
+      "kind": "plural",
+      "lemma": "null",
+      "reason": "Reviewed noun plural of null; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/5.json",
+          "word": "NULLS",
+          "entrySha256": "741f2f8f4c8f46e7b2403d0f6eaa7883da7dd544e5d4b7ce66ad6fc0ca269fca"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "OODLES": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "OODLES",
+          "entrySha256": "b1a2fe9e2a81f2e6e2c6c48dfcece107fcda0f3a33c57731bfcf0aa49c1962b9"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "OPTIMISED": {
+      "kind": "past",
+      "lemma": "optimise",
+      "reason": "Reviewed finite past-tense form of optimise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "optimise V?: optimised | optimising | optimises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "OPTIMISED",
+          "entrySha256": "f82e86e73459b1104ffc3a7449f566ceda27c08cadd67b70a6709f2b78fd725d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "ORGANISERS": {
+      "kind": "plural",
+      "lemma": "organiser",
+      "reason": "Reviewed noun plural of organiser; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "organiser N?: organisers"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "ORGANISERS",
+          "entrySha256": "65f608410aba7db9c28b0873ffa940a9268d7e32517f3cc040aaa14661e3f615"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PASTEURISED": {
+      "kind": "past",
+      "lemma": "pasteurise",
+      "reason": "Reviewed finite past-tense form of pasteurise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "pasteurise V?: pasteurised | pasteurising | pasteurises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "PASTEURISED",
+          "entrySha256": "497984f45e20664372a228314f076d399ee21fbcad79c87db99a35a5c5926d68"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PATRONISED": {
+      "kind": "past",
+      "lemma": "patronise",
+      "reason": "Reviewed finite past-tense form of patronise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "patronise V?: patronised | patronising | patronises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "PATRONISED",
+          "entrySha256": "ab1089980833df4c2837b2670c26cb4afd7c7d435f59002b1f21a7ff7bcc5753"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PENALISED": {
+      "kind": "past",
+      "lemma": "penalise",
+      "reason": "Reviewed finite past-tense form of penalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "penalise V?: penalised | penalising | penalises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "PENALISED",
+          "entrySha256": "643b8ac91f5a7b13acd45a9a3a1a085435b1f984d2695f4aff940f16d042626d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PENCILLINGS": {
+      "kind": "plural",
+      "lemma": "pencilling",
+      "reason": "Reviewed noun plural of pencilling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "pencilling N?: pencilling, pencillings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PLIERS": {
+      "kind": "plural",
+      "lemma": "plier",
+      "reason": "Reviewed noun plural of plier; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "plier N?: pliers"
+        },
+        {
+          "file": "definitions/english-6.json",
+          "word": "PLIERS",
+          "entrySha256": "eaa2ae831739c4ca94a8393f1f62811aa356be1c30c32853643bb1f241db8197"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "POLARISED": {
+      "kind": "past",
+      "lemma": "polarise",
+      "reason": "Reviewed finite past-tense form of polarise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "polarise V?: polarised | polarising | polarises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "POLARISED",
+          "entrySha256": "57b7be83093306e14b66d70b1a92d1405cd29f1f5f8cb2e5a922bfdf6e13093e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "POPULARISED": {
+      "kind": "past",
+      "lemma": "popularise",
+      "reason": "Reviewed finite past-tense form of popularise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "popularise V?: popularised | popularising | popularises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "POPULARISED",
+          "entrySha256": "74a74c05c2683e47fd849187f63ebd2fac6b617587a2dc10d73e47782f0a2946"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PRACTICALS": {
+      "kind": "plural",
+      "lemma": "practical",
+      "reason": "Reviewed noun plural of practical; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "practical N?: practicals"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PREDEFINED": {
+      "kind": "past",
+      "lemma": "predefine",
+      "reason": "Reviewed finite past-tense form of predefine, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "predefine V?: predefined | predefining | predefines"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "PREDEFINED",
+          "entrySha256": "82209f9683591fd8c836833644193f4f6418f59e41db0dd5729d11fc52b05a0c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PREVIEWERS": {
+      "kind": "plural",
+      "lemma": "previewer",
+      "reason": "Reviewed noun plural of previewer; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "previewer N?: previewers"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PRIVATISED": {
+      "kind": "past",
+      "lemma": "privatise",
+      "reason": "Reviewed finite past-tense form of privatise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "privatise V?: privatised | privatising | privatises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "PRIVATISED",
+          "entrySha256": "e45b33ae8db66e43bc5c0a342d436e265441f9058a3c0e03907f0d349f81a60f"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PROCEEDS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "PROCEEDS",
+          "entrySha256": "856f0cefbba89c8b56efc08e1f8958d3d521d85bb71ee5ce153d598c909619b0"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PSYCHS": {
+      "kind": "plural",
+      "lemma": "psych",
+      "reason": "Reviewed noun plural of psych; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "PSYCHS",
+          "entrySha256": "b6b1bb302f2d0bcd1192a5029f760afd5f09e55eb7eb4d4688f93ef3ccd37e4e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "PULVERISED": {
+      "kind": "past",
+      "lemma": "pulverise",
+      "reason": "Reviewed finite past-tense form of pulverise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "pulverise V?: pulverised | pulverising | pulverises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "PULVERISED",
+          "entrySha256": "9b637de863fa8611da0f63ec725dc20c7f8dea68cb451d92749882e61bd07dde"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RAILINGS": {
+      "kind": "plural",
+      "lemma": "railing",
+      "reason": "Reviewed noun plural of railing; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "railing N: railing, railings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "railing N: railing, railings~ 1"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "RAILINGS",
+          "entrySha256": "aa4323053498fe48a24b73d3839baa96687af021d4bf6f7705a971d9b7a3bea6"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RARES": {
+      "kind": "plural",
+      "lemma": "rare",
+      "reason": "Reviewed noun plural of rare; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "RARES",
+          "entrySha256": "aac4e998fedd07e503771262ca7c203522327f7c16712cff2e7f46c7a0dd950d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REALISED": {
+      "kind": "past",
+      "lemma": "realise",
+      "reason": "Reviewed finite past-tense form of realise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "realise V?: realised | realising | realises"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "realise V?: realised | realising | realises"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "REALISED",
+          "entrySha256": "a9007dc6d296fd328f0b9aa14a5dfd7a8756303d58b2b281c3c946091945ffa7"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RECHARGES": {
+      "kind": "plural",
+      "lemma": "recharge",
+      "reason": "Reviewed noun plural of recharge; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-9.json",
+          "word": "RECHARGES",
+          "entrySha256": "a2f074c784bcd8fc354ab64b5a87251ee3d00a43e4a2b4342f24138dc09d9775"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RECOGNISED": {
+      "kind": "past",
+      "lemma": "recognise",
+      "reason": "Reviewed finite past-tense form of recognise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "recognise V?: recognised | recognising | recognises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "RECOGNISED",
+          "entrySha256": "40f4fbd87594c86b17458ec8f95d7236f4663b30fc33cd5eed8524901b16b193"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RECOMPILED": {
+      "kind": "past",
+      "lemma": "recompile",
+      "reason": "Reviewed finite past-tense form of recompile, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "recompile V?: recompiled | recompiling | recompiles"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "RECOMPILED",
+          "entrySha256": "fc82c1ab71faef3d9032368e61bb69d230f06703381f57bc8c607014bd19816e"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REDESIGNS": {
+      "kind": "plural",
+      "lemma": "redesign",
+      "reason": "Reviewed noun plural of redesign; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-9.json",
+          "word": "REDESIGNS",
+          "entrySha256": "6cd63dd222ef7ec194a8c9b1fce613f914d0cdf7bcdd2b767edb727b838a1ab3"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REDIRECTS": {
+      "kind": "plural",
+      "lemma": "redirect",
+      "reason": "Reviewed noun plural of redirect; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/extended-9.json",
+          "word": "REDIRECTS",
+          "entrySha256": "50f961c99b84f0e1f551f73ac63685339feedf186a4679b4078ab52d85adf0d7"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REFORMATTED": {
+      "kind": "past",
+      "lemma": "reformat",
+      "reason": "Reviewed finite past-tense form of reformat, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "reformat V?: reformatted | reformatting | reformats"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REGALIA": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "REGALIA",
+          "entrySha256": "a6601af4e96ea185d2d5ebc739b4b1eec8f6a5e202313d245318f74b4e75bddd"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REMAINS": {
+      "kind": "plural",
+      "lemma": "remain",
+      "reason": "Reviewed noun plural of remain; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "REMAINS",
+          "entrySha256": "0aaf2c372d7328e6737437e26b0cdb5ba9138b5fac954d42161fdbea58c38c8f"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REORGANISED": {
+      "kind": "past",
+      "lemma": "reorganise",
+      "reason": "Reviewed finite past-tense form of reorganise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "reorganise V?: reorganised | reorganising | reorganises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "REORGANISED",
+          "entrySha256": "746c12007cb8b630c9c4a19298e0393dc7407f317bd055517f27a00dbfea7dd6"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REREADS": {
+      "kind": "plural",
+      "lemma": "reread",
+      "reason": "Reviewed noun plural of reread; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "REREADS",
+          "entrySha256": "0bd8993a4c5dc5dc681c4f6ffbacc5a0166e7ca5e5942e2fab1cc4df86a11e28"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "RETRIES": {
+      "kind": "plural",
+      "lemma": "retry",
+      "reason": "Reviewed noun plural of retry; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "RETRIES",
+          "entrySha256": "4b22e08190a49fed45c81673395e81856c89a8dee40f1ea05970e874f3376041"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REUSES": {
+      "kind": "plural",
+      "lemma": "reuse",
+      "reason": "Reviewed noun plural of reuse; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "REUSES",
+          "entrySha256": "d022b3b1351e30d9d827d13e373c20654922f33fa9faa3191c7c19acb5281218"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "REVELLINGS": {
+      "kind": "plural",
+      "lemma": "revelling",
+      "reason": "Reviewed noun plural of revelling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "revelling N?: revelling, revellings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SAPLINGS": {
+      "kind": "plural",
+      "lemma": "sapling",
+      "reason": "Reviewed noun plural of sapling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "sapling N: sapling, saplings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "sapling N: sapling, saplings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SATIRISED": {
+      "kind": "past",
+      "lemma": "satirise",
+      "reason": "Reviewed finite past-tense form of satirise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "satirise V?: satirised | satirising | satirises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "SATIRISED",
+          "entrySha256": "929dcfca30c3513ddfa693928d32f2461da315e2993688612cffea2653ef2ced"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SCANDALISED": {
+      "kind": "past",
+      "lemma": "scandalise",
+      "reason": "Reviewed finite past-tense form of scandalise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "scandalise V?: scandalised | scandalising | scandalises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "SCANDALISED",
+          "entrySha256": "3cb00c28e468ea9aa175f01b6cab655a3abb7ffffef8cadef7909d8cefa8477c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SCISSORS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/extended-8.json",
+          "word": "SCISSORS",
+          "entrySha256": "be9e04294ef745374785ec0d48e4eb427749ce7a63eafa914343ca887377217d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SCOTCHS": {
+      "kind": "reviewed",
+      "reason": "Reviewed apparent variant inflection of scotch in SCOWL; no qualifying independent English base-word sense was established. This uncertain spelling is not presented as a verified standard plural.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof."
+    },
+    "SCRAMS": {
+      "kind": "plural",
+      "lemma": "scram",
+      "reason": "Reviewed noun plural of scram; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "SCRAMS",
+          "entrySha256": "be08356ce8f74f41d4e4dfe7fe12bf8d22861754b885e86819a82a22ab37b2c8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SCRUTINISED": {
+      "kind": "past",
+      "lemma": "scrutinise",
+      "reason": "Reviewed finite past-tense form of scrutinise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "scrutinise V?: scrutinised | scrutinising | scrutinises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "SCRUTINISED",
+          "entrySha256": "f77d746f28c95a03b29dea558a996a5d483480056584d111cccf5081712c1840"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SEEDLINGS": {
+      "kind": "plural",
+      "lemma": "seedling",
+      "reason": "Reviewed noun plural of seedling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "seedling N: seedling, seedlings~ 1"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "SEEDLINGS",
+          "entrySha256": "c64d35aef2f77f498690e9c18228506f7f9a4dcea707cd210de5df944bde3e86"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SIBLINGS": {
+      "kind": "plural",
+      "lemma": "sibling",
+      "reason": "Reviewed noun plural of sibling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "sibling N: sibling, siblings~ 1"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "sibling N: sibling, siblings~ 1"
+        },
+        {
+          "file": "definitions/extended-8.json",
+          "word": "SIBLINGS",
+          "entrySha256": "8f7c347ae85bc42ba08381078ffbcb0ea20f7c43b625a9ba0cfb47c0c827fd83"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SLIMS": {
+      "kind": "plural",
+      "lemma": "slim",
+      "reason": "Reviewed noun plural of slim; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "SLIMS",
+          "entrySha256": "c4d2bc074a924bdd9c5a3cb3f3e2aea449eaa4e1e15c86f65ad8ffe551abe8f3"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SMITHEREENS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://dictionary.cambridge.org/dictionary/english/smithereens",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "SOCIALISED": {
+      "kind": "past",
+      "lemma": "socialise",
+      "reason": "Reviewed finite past-tense form of socialise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "socialise V?: socialised | socialising | socialises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "SOCIALISED",
+          "entrySha256": "0b8e3430d353c37eb1573477a217259f7eebb7cae91e8eb8265ec02f80abff7a"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SPAYS": {
+      "kind": "plural",
+      "lemma": "spay",
+      "reason": "Reviewed noun plural of spay; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-5.json",
+          "word": "SPAYS",
+          "entrySha256": "c9ae65dc075dafa129f04bfa624364515b17f65b4679a87b87a81e94e8a5e615"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SPECIALISED": {
+      "kind": "past",
+      "lemma": "specialise",
+      "reason": "Reviewed finite past-tense form of specialise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "specialise V?: specialised | specialising | specialises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "SPECIALISED",
+          "entrySha256": "29ffb20fdd698eb7e76f55e7fdd1a6513f534955bd818328c4ce1b174304c41d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "STABILISED": {
+      "kind": "past",
+      "lemma": "stabilise",
+      "reason": "Reviewed finite past-tense form of stabilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "stabilise V?: stabilised | stabilising | stabilises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "STABILISED",
+          "entrySha256": "31e82fabee1ec4b0db52cd175280743e46889adfcd4e640eb66f77b60e5aac82"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "STERILISED": {
+      "kind": "past",
+      "lemma": "sterilise",
+      "reason": "Reviewed finite past-tense form of sterilise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "sterilise V?: sterilised | sterilising | sterilises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "STERILISED",
+          "entrySha256": "6b9fe5afa0b8cc3c8593ee82e2f93f3dd1a2db8ca3a3fa6a372cbf8e62c5413b"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "STICKIES": {
+      "kind": "plural",
+      "lemma": "sticky",
+      "reason": "Reviewed noun plural of sticky; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof.",
+      "externalReview": {
+        "url": "https://www.dictionary.com/browse/stickies",
+        "checked": "2026-11-06",
+        "note": "Dictionary entry/search result corroborates the reviewed plural spelling; no definition prose copied."
+      }
+    },
+    "SUBSIDISED": {
+      "kind": "past",
+      "lemma": "subsidise",
+      "reason": "Reviewed finite past-tense form of subsidise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "subsidise V?: subsidised | subsidising | subsidises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "SUBSIDISED",
+          "entrySha256": "f501615e97eb320b47517594eb95ddbbdc22bd1ec3b4a7e6d837f2519f6920e4"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SUMMARISED": {
+      "kind": "past",
+      "lemma": "summarise",
+      "reason": "Reviewed finite past-tense form of summarise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "summarise V?: summarised | summarising | summarises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "SUMMARISED",
+          "entrySha256": "2558f4348243f422881dbec7d3994bbbe0d616924f0c3d7098000fabbed380de"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SUNGLASSES": {
+      "kind": "plural",
+      "lemma": "sunglass",
+      "reason": "Reviewed noun plural of sunglass; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "sunglass N?: sunglasses"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "SUNGLASSES",
+          "entrySha256": "4e4c3575d9ea3fd36f95d8dfc5c99872435f1c01fada44a711940948c1674917"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SWEARS": {
+      "kind": "plural",
+      "lemma": "swear",
+      "reason": "Reviewed noun plural of swear; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "SWEARS",
+          "entrySha256": "40d4c23a5ea429dd77924a9fea3e958462083c5f1a3202525614e9f081a5674c"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SWINES": {
+      "kind": "plural",
+      "lemma": "swine",
+      "reason": "Reviewed noun plural of swine; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/6.json",
+          "word": "SWINES",
+          "entrySha256": "ac098e2db067b54c85e678c7828186b078a1c55efc7511cc5dee12d0116385d8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SYMBOLISED": {
+      "kind": "past",
+      "lemma": "symbolise",
+      "reason": "Reviewed finite past-tense form of symbolise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "symbolise V?: symbolised | symbolising | symbolises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "SYMBOLISED",
+          "entrySha256": "3a75657796a226fe20390cb45debe3cce5c4da48c9eecd1af58d73d4c87ef390"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "SYMPATHISED": {
+      "kind": "past",
+      "lemma": "sympathise",
+      "reason": "Reviewed finite past-tense form of sympathise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "sympathise V?: sympathised | sympathising | sympathises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "SYMPATHISED",
+          "entrySha256": "1a84055d4c8e38bac0a500bf53c1abdf50fbe06636a2eb7b19d6d703cfc7b25d"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TENDERISED": {
+      "kind": "past",
+      "lemma": "tenderise",
+      "reason": "Reviewed finite past-tense form of tenderise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "tenderise V?: tenderised | tenderising | tenderises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "TENDERISED",
+          "entrySha256": "1d0f26f45fc244680eca751ef6599f9534e5ad6820bdd0623a53271e32aff1c8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TERRORISED": {
+      "kind": "past",
+      "lemma": "terrorise",
+      "reason": "Reviewed finite past-tense form of terrorise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "terrorise V?: terrorised | terrorising | terrorises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "TERRORISED",
+          "entrySha256": "fd3f10178abcc31a48a3d2dfc4f188c7f74efef550017287c9b6f3b26a5720da"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TIGHTS": {
+      "kind": "plural",
+      "lemma": "tight",
+      "reason": "Reviewed noun plural of tight; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-relevant.txt",
+          "line": "tight N?: tights"
+        },
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "tight N?: tights"
+        },
+        {
+          "file": "definitions/6.json",
+          "word": "TIGHTS",
+          "entrySha256": "d32fe6c76a70cc51fb9e63998721c0c0d4cbfeeb67be1a947492e7d78b754913"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TIMESCALES": {
+      "kind": "plural",
+      "lemma": "timescale",
+      "reason": "Reviewed noun plural of timescale; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "timescale N?: timescales"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TRAUMATISED": {
+      "kind": "past",
+      "lemma": "traumatise",
+      "reason": "Reviewed finite past-tense form of traumatise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "traumatise V?: traumatised | traumatising | traumatises"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "TRAUMATISED",
+          "entrySha256": "ff6310d2af11ca762cf163e091881658d055526f321e4fa9778cfe75325deb4b"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TRAVELINGS": {
+      "kind": "plural",
+      "lemma": "traveling",
+      "reason": "Reviewed noun plural of traveling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "traveling N: traveling, travelings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TRIALED": {
+      "kind": "past",
+      "lemma": "trial",
+      "reason": "Reviewed finite past-tense form of trial, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "definitions/7.json",
+          "word": "TRIALED",
+          "entrySha256": "91f7158a4577ef1758de7a9648ce5ae14da038ae9bc317c40d5218dd55455403"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TUNNELINGS": {
+      "kind": "plural",
+      "lemma": "tunneling",
+      "reason": "Reviewed noun plural of tunneling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "tunneling N?: tunnelings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TUNNELLINGS": {
+      "kind": "plural",
+      "lemma": "tunnelling",
+      "reason": "Reviewed noun plural of tunnelling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "tunnelling N?: tunnelling, tunnellings"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "TYRANNISED": {
+      "kind": "past",
+      "lemma": "tyrannise",
+      "reason": "Reviewed finite past-tense form of tyrannise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "tyrannis V?: tyrannised! | tyrannising! | tyrannises"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "tyrannise V?: tyrannised | tyrannising | tyrannises"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "UNDERPANTS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/extended-10.json",
+          "word": "UNDERPANTS",
+          "entrySha256": "72db007f9921d1c9c2043b51ee721e759c4755476e68df23c9d6415e8b2e1164"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "UNIONISED": {
+      "kind": "past",
+      "lemma": "unionise",
+      "reason": "Reviewed finite past-tense form of unionise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "unionise V?: unionised | unionising | unionises"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "UNIONISED",
+          "entrySha256": "a7c8c215f75b49ad77534d31141388c3af59ffd8dab0a5703df412860634c0e3"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "UNSTUCK": {
+      "kind": "past",
+      "lemma": "unstick",
+      "reason": "Reviewed finite past-tense form of unstick, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "unstick V?: unstuck | unsticking | unsticks"
+        },
+        {
+          "file": "definitions/english-7.json",
+          "word": "UNSTUCK",
+          "entrySha256": "72cc000588825aea97a82a38d365f88481ca12be793c4b45eb14d1a3582148eb"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "VISUALISED": {
+      "kind": "past",
+      "lemma": "visualise",
+      "reason": "Reviewed finite past-tense form of visualise, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "visualise V?: visualised | visualising | visualises"
+        },
+        {
+          "file": "definitions/extended-10.json",
+          "word": "VISUALISED",
+          "entrySha256": "8e01268ecb863bff1921f6a85acc79f183fbe653214dbd40673a579b4a2f9769"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WASTELANDS": {
+      "kind": "plural",
+      "lemma": "wasteland",
+      "reason": "Reviewed noun plural of wasteland; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "wasteland N: wasteland, wastelands~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WATERLOGGED": {
+      "kind": "past",
+      "lemma": "waterlog",
+      "reason": "Reviewed finite past-tense form of waterlog, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "waterlog V?: waterlogged | waterlogging | waterlogs"
+        },
+        {
+          "file": "definitions/extended-11.json",
+          "word": "WATERLOGGED",
+          "entrySha256": "70a38690ae13cd8afe9557632e899658c2a450ba986b02a7748d4ff9b86ae5d8"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WEAKLINGS": {
+      "kind": "plural",
+      "lemma": "weakling",
+      "reason": "Reviewed noun plural of weakling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "weakling N: weakling, weaklings~ 1"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WEASELLED": {
+      "kind": "past",
+      "lemma": "weasel",
+      "reason": "Reviewed finite past-tense form of weasel, not merely a past-participle-only form.",
+      "evidence": [
+        {
+          "file": "agid-other-lengths.txt",
+          "line": "weasel V: weaseled, weaselled 2 | weaseling, weaselling 2 | weasels"
+        },
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "weasel V: weaseled, weaselled 2 | weaseling, weaselling 2 | weasels"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WHISKYS": {
+      "kind": "reviewed",
+      "reason": "Reviewed apparent variant plural spelling of whisky in SCOWL; no qualifying independent base-word sense was established. This uncertain spelling is not presented as a verified standard plural.",
+      "evidence": [],
+      "review": "Model linguistic review; the current pinned morphology/definition snapshots do not supply this mapping. The accepted SCOWL spelling alone is not grammatical proof."
+    },
+    "WITHERS": {
+      "kind": "reviewed",
+      "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list.",
+      "evidence": [
+        {
+          "file": "definitions/english-7.json",
+          "word": "WITHERS",
+          "entrySha256": "ba50609d540cfa3aee8e86e4a366f063cc676bba14128531ba3e7c8f7d384baf"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "WOULDS": {
+      "kind": "plural",
+      "lemma": "would",
+      "reason": "Reviewed noun plural of would; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "definitions/english-6.json",
+          "word": "WOULDS",
+          "entrySha256": "9c4d282358994d820ac5ed8b4463f13337b3c9914cf09a2c106bb5f66ef5ebfa"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    },
+    "YEARLINGS": {
+      "kind": "plural",
+      "lemma": "yearling",
+      "reason": "Reviewed noun plural of yearling; an overlapping inflected present-tense reading does not supply an independent base sense.",
+      "evidence": [
+        {
+          "file": "agid-extended-lengths.txt",
+          "line": "yearling N: yearling, yearlings~ 1"
+        },
+        {
+          "file": "definitions/extended-9.json",
+          "word": "YEARLINGS",
+          "entrySha256": "92bce8e54650993a9cce8bafbf8494bf9da97552b77aa0e84741d0bf45550782"
+        }
+      ],
+      "review": "Model linguistic review of the listed inflection and available pinned evidence; no native-human certification."
+    }
+  },
+  "keep": {
+    "ALGA": "Singular base noun, not the speculative plural of algum.",
+    "ANUS": "Singular base noun, not the uncertain anu plural.",
+    "ASHAMED": "Ordinary lexical adjective; ashame is not an ordinary contemporary finite base verb.",
+    "BELATED": "Ordinary lexical adjective; belate is a rare/historical finite base.",
+    "BELOVED": "Ordinary lexical adjective/noun; belove is a rare/historical finite base.",
+    "BOA": "Singular base noun, not the speculative plural of boon.",
+    "CHANCING": "Present participle; the Simple English past-tense label is inaccurate.",
+    "CHEQUED": "Uncertain AGID question-marked past mapping and possible historical checkered adjective; defer exclusion without stronger lexical evidence.",
+    "CONFETTI": "Contemporary mass noun, not merely an Italian plural.",
+    "DATA": "Contemporary independent mass noun.",
+    "DEMENTED": "Ordinary lexical adjective; dement is an uncommon finite verb.",
+    "DIABETES": "Singular disease-name base noun, not a plural inferred from S.",
+    "EATEN": "Past-participle-only form, not finite past (ate).",
+    "ECONOMICS": "Singular discipline-name noun.",
+    "EKES": "Ordinary present verb; the rare noun eke mapping is insufficient for an additional exclusion.",
+    "FORCEPS": "Established singular use (a forceps), with invariant plural.",
+    "FORETHOUGHT": "Independent advance-planning noun.",
+    "FOUND": "Independent base verb establish.",
+    "FROZEN": "Past-participle-only form, not finite past (froze); the Simple English label is inaccurate.",
+    "GALLOWS": "Independent singular use (a gallows), with invariant plural.",
+    "HAIRED": "Ordinary noun-derived adjective; the uncommon finite verb hair is not the ordinary reading.",
+    "IRKS": "Ordinary present verb; the rare noun irk mapping is insufficient for an additional exclusion.",
+    "JELLS": "Ordinary present verb; uncommon noun jell mapping was not independently qualified.",
+    "JERKING": "Present participle; the Simple English past-tense label is inaccurate.",
+    "LOOSES": "Ordinary present verb; uncommon noun loose mapping was not independently qualified.",
+    "LOSES": "Present-tense-only ordinary reading; an uncertain los noun mapping is not sufficient.",
+    "MATHEMATICS": "Singular discipline-name noun.",
+    "MEANS": "Independent singular method or instrument.",
+    "MEASLES": "Singular disease-name use supplies a lexical base sense.",
+    "MOLASSES": "Contemporary mass noun.",
+    "MOPED": "Independent vehicle noun.",
+    "MUMPS": "Singular disease-name use supplies a lexical base sense.",
+    "NIPPING": "Present participle; the Simple English past-tense label is inaccurate.",
+    "NOVA": "Independent singular astronomical noun.",
+    "OVERWROUGHT": "Lexical adjective; rare historical past of overwork does not override the ordinary sense.",
+    "PEA": "Singular base noun, not the speculative plural of peon.",
+    "RENOWNED": "Ordinary lexical adjective; renown as a finite verb is uncommon.",
+    "ROUSES": "Ordinary present verb; uncommon noun rouse mapping was not independently qualified.",
+    "RUGGED": "Ordinary lexical adjective, not just an inflection of the uncommon verb rug.",
+    "SAGA": "Independent singular narrative noun.",
+    "SEDUCING": "Present participle; the Simple English past-tense label is inaccurate.",
+    "SEEMS": "Present-tense-only form under the existing policy.",
+    "SHEEP": "Invariant singular/base word.",
+    "SMITES": "Ordinary present verb; uncommon noun smite mapping was not independently qualified.",
+    "STAID": "Ordinary lexical adjective; archaic finite past of stay is not a qualifying exclusion.",
+    "SUDS": "Independent base verb meaning cover with suds.",
+    "TAKEN": "Past-participle-only form, not finite past (took).",
+    "THANKS": "Independent common interjection expressing gratitude, not only a plural noun or present verb.",
+    "TRODDEN": "Past-participle-only form, not finite past (trod); the Simple English label is inaccurate.",
+    "WATERWORKS": "Established singular water-supply plant sense (a waterworks), with invariant plural.",
+    "WIZENED": "Ordinary lexical adjective; wizen is an uncommon finite verb.",
+    "WOUND": "Independent injury noun/base verb."
+  }
+}

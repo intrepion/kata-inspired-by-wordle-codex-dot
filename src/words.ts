@@ -1,3 +1,4 @@
+import FILIPINO from './data/filipino/vocabulary.json';
 import {SPANISH_EXTENDED_VOCABULARY} from './data/spanish/extended-vocabulary.ts';
 import {EXTENDED_VOCABULARY} from './data/extended-vocabulary.ts';
 import {SPANISH_VOCABULARY} from './data/spanish/vocabulary.ts';
@@ -6,10 +7,10 @@ import {ACCEPTED_GUESSES} from './data/scowl-guesses.ts';
 import {CURATED_ANSWERS} from './data/scowl-answers.ts';
 /** Independently sourced common-tier SCOWL words; see WORDS-LICENSE.md. */
 export const PREVIOUS_ANSWER_DATASET='scowl-2020.12.07-common35-v1';
-export const ANSWER_DATASET='scowl-2020.12.07-answers-v2';
+export const ANSWER_DATASET='scowl-2020.12.07-answers-v3';
 export const ANSWERS=CURATED_ANSWERS;
 export const ALLOWED=new Set(ACCEPTED_GUESSES);
-export const ABSURD_DATASET='scowl-2020.12.07-absurd-v2';
+export const ABSURD_DATASET='scowl-2020.12.07-absurd-v3';
 
 import {LENGTH_VOCABULARY} from './data/length-vocabulary.ts';
 export const WORD_LENGTHS=[3,4,5,6,7,8,9,10,11] as const;
@@ -22,7 +23,26 @@ for(const [length,data] of Object.entries(EXTENDED_VOCABULARY))vocabularies.set(
 const spanishVocabularies=new Map<number,{answers:string[];allowed:Set<string>}>();
 for(const length of [4,5,6,7] as const){const data=SPANISH_VOCABULARY[length];spanishVocabularies.set(length,{answers:data.answers,allowed:new Set(data.guesses)})}
 for(const [length,data] of Object.entries(SPANISH_EXTENDED_VOCABULARY))spanishVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
-export function isSupportedLength(length:number,_language:Language):boolean{return isWordLength(length)}
-export function vocabulary(length:number=5,language:Language='en'):{answers:string[];allowed:Set<string>}{const words=(language==='es-MX'?spanishVocabularies:vocabularies).get(length);if(!words)throw new Error('This language and word length are not available.');return words}
-export function answerDataset(length:number=5,language:Language='en'):string {if(language==='es-MX')return length>=4&&length<=7?`es-MX-wiktionary-wordfreq-${length}-v1`:`es-MX-wiktionary-wordfreq-extended-${length}-v1`;return length===5?ANSWER_DATASET:`scowl-2020.12.07-${length}-answers-v1`}
-export function absurdDataset(length:number=5,language:Language='en'):string {if(language==='es-MX')return length>=4&&length<=7?`es-MX-wiktionary-wordfreq-absurd-${length}-v1`:`es-MX-wiktionary-wordfreq-extended-absurd-${length}-v1`;return length===5?ABSURD_DATASET:`scowl-2020.12.07-${length}-absurd-v1`}
+const filipinoVocabulary = {answers: FILIPINO.answers, allowed: new Set(FILIPINO.guesses)};
+export function supportedLengths(language: Language): readonly WordLength[] {
+ return language === 'fil-PH' ? [5] : WORD_LENGTHS;
+}
+export function isSupportedLength(length: number, language: Language): boolean {
+ return supportedLengths(language).some(value => value === length);
+}
+export function vocabulary(length: number = 5, language: Language = 'en'): {answers: string[]; allowed: Set<string>} {
+ if (!isSupportedLength(length, language)) throw new Error('This language and word length are not available.');
+ const words = language === 'fil-PH' ? filipinoVocabulary : (language === 'es-MX' ? spanishVocabularies : vocabularies).get(length);
+ if (!words) throw new Error('This language and word length are not available.');
+ return words;
+}
+export function answerDataset(length: number = 5, language: Language = 'en'): string {
+ if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-5-beta-v1';
+ if (language === 'es-MX') return length >= 4 && length <= 7 ? `es-MX-wiktionary-wordfreq-${length}-v1` : `es-MX-wiktionary-wordfreq-extended-${length}-v1`;
+ return length === 5 ? ANSWER_DATASET : `scowl-2020.12.07-${length}-answers-v${length===3?1:2}`;
+}
+export function absurdDataset(length: number = 5, language: Language = 'en'): string {
+ if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-absurd-5-beta-v1';
+ if (language === 'es-MX') return length >= 4 && length <= 7 ? `es-MX-wiktionary-wordfreq-absurd-${length}-v1` : `es-MX-wiktionary-wordfreq-extended-absurd-${length}-v1`;
+ return length === 5 ? ABSURD_DATASET : `scowl-2020.12.07-${length}-absurd-v${length===3?1:2}`;
+}

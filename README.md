@@ -2,9 +2,9 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: four to seven letters, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English and Spanish, five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
-Formerly Morrowmark. Existing notebooks, preferences and storage keys stay compatible.
+Formerly Morrowmark. Original notebooks and preferences are preserved during the English answer-guide update; compatible progress carries forward.
 
 ## Play locally
 
@@ -30,7 +30,7 @@ Open http://127.0.0.1:5298. The launcher checks the port and refuses to replace 
 
 In Daily, Practice or Absurd, open **Settings (⚙) → Difficulty**: **Easy**, Normal, Hard, or Strict.
 
-- **Easy:** unrestricted guesses plus **Optimal guesses** below the keyboard. These are the five strongest one-step worst-case guesses based only on revealed clues, with exploratory guesses allowed. Candidate answers start from all 2,103 curated words and are filtered by observed feedback; the hidden selected word is never used to choose advice. Before any guess, Easy automatically shows loading and then five Optimal opening guesses below the keyboard. A visible hint above the board points there. Fresh rounds, reloads and mode switches keep this behavior; no first guess is required. A singleton is offered as a direct solve.
+- **Easy:** unrestricted guesses plus **Optimal guesses** below the keyboard. These are the five strongest one-step worst-case guesses based only on revealed clues, with exploratory guesses allowed. Candidate answers start from all 2,094 curated words and are filtered by observed feedback; the hidden selected word is never used to choose advice. Before any guess, Easy automatically shows loading and then five Optimal opening guesses below the keyboard. A visible hint above the board points there. Fresh rounds, reloads and mode switches keep this behavior; no first guess is required. A singleton is offered as a direct solve.
 - **Normal:** any accepted dictionary word.
 - **Hard:** fixed greens and reuse revealed green/yellow copies; gray letters and previous yellow positions remain allowed.
 - **Strict:** fit all earlier clues, including yellow exclusions and duplicate minimum/maximum counts.
@@ -47,21 +47,21 @@ Absurd supports the same four global difficulties. Select **Absurd → Settings 
 
 Select **Absurd** next to Daily dispatch and Practice. Choose Easy, Normal, Hard or Strict in Settings. The 11,193-word dictionary remains available subject to the chosen clue restrictions. Your global difficulty follows you into Absurd.
 
-There is no preselected answer. Each valid guess partitions the surviving 2,103-answer pool by duplicate-aware feedback; the largest group survives. Equal groups avoid all-green when possible, then use a fixed left-to-right pattern order (absent, elsewhere, exact). The visible count shows remaining possibilities. Clues never contradict previous rows. This maximizes immediate survivors; it is not a solver or a claim that winning is mathematically impossible.
+There is no preselected answer. Each valid guess partitions the surviving 2,094-answer pool by duplicate-aware feedback; the largest group survives. Equal groups avoid all-green when possible, then use a fixed left-to-right pattern order (absent, elsewhere, exact). The visible count shows remaining possibilities. Clues never contradict previous rows. This maximizes immediate survivors; it is not a solver or a claim that winning is mathematically impossible.
 
 You win only on an all-green selected row; six accepted guesses otherwise end the round and reveal **one surviving answer**, clearly identified as an example. Invalid/repeated guesses spend no turn. The separate adaptive round, draft and current result resume after reload and UTC rollover, without affecting daily marks or streaks. **New Absurd round** uses the global difficulty and starts the same deterministic full pool and confirms before replacing unfinished play. Completed results remain shareable until starting a new round; shares identify Absurd/adaptive, the selected difficulty and any permanent Assisted marker. There is no lifetime Absurd result history.
 
-When enabled in Settings, **Suboptimal** appears below the keyboard in any mode. “Leaves 1,307 of 2,103” means at least 796 eliminations are guaranteed. Words remain playable. No information list appears for a finished round; Suboptimal explains when a singleton has no meaningful ranking. Missing advice settings default off.
+When enabled in Settings, **Suboptimal** appears below the keyboard in any mode. A suggestion’s “leaves” count is the largest possible remaining group. Subtract it from the current candidate count to find the minimum number of eliminations. Words remain playable. No information list appears for a finished round; Suboptimal explains when a singleton has no meaningful ranking. Missing advice settings default off.
 
 See [adaptive rules, tie-breaking and persistence](docs/adr/0006-impossible-variant.md).
 
 ## Vocabulary provenance and scope
 
-Both lists are independently sourced, modified selections from **SCOWL 2020.12.07**, release revision `5ef55f9c42730ebe4394a78b77855468a6f15dd2`. The **2,103-answer pool** starts from the 3,493 words in SCOWL’s small/common tier (≤35), then applies pinned AGID plural/past-tense filtering and reviewed exceptions; the **11,193 accepted guesses** use its broader word-game tier (≤80). Only lowercase five-letter ASCII entries from general, American and British word categories are included. Names, abbreviations, contractions, extra variant categories and accented forms are excluded; recognized regular/irregular plural nouns and past-tense verbs are removed from answers, while they remain valid guesses. Clear common independent senses (FOUND, WOUND, SPOKE), invariant base forms (SHEEP), and non-past S/ED words remain. Present-tense-only forms and past-participle-only forms are not generally excluded. This is a documented policy with source gaps, not exhaustive grammatical classification. This is a common-tier selection, not a claim of manual editorial review or official Wordle/NYT parity. Every answer is accepted.
+Both lists are independently sourced, modified selections from **SCOWL 2020.12.07**, release revision `5ef55f9c42730ebe4394a78b77855468a6f15dd2`. The **2,094-answer pool** starts from the 3,493 words in SCOWL’s small/common tier (≤35), then applies pinned AGID plural/past-tense filtering and reviewed exceptions; the **11,193 accepted guesses** use its broader word-game tier (≤80). Only lowercase five-letter ASCII entries from general, American and British word categories are included. Names, abbreviations, contractions, extra variant categories and accented forms are excluded; recognized regular/irregular plural nouns and past-tense verbs are removed from answers, while they remain valid guesses. Clear common independent senses (FOUND, WOUND, SPOKE), invariant base forms (SHEEP), and non-past S/ED words remain. Present-tense-only forms and past-participle-only forms are not generally excluded. This is a documented policy with source gaps, not exhaustive grammatical classification. This is a common-tier selection, not a claim of manual editorial review or official Wordle/NYT parity. Every answer is accepted.
 
 See [WORDS-LICENSE.md](WORDS-LICENSE.md) for archive/input checksums, exact selection and source-specific terms. The full upstream [Copyright/permission notices](public/third-party/SCOWL-Copyright.txt) ship with the site and are linked in About the words. They explicitly permit redistribution under the retained terms; no code MIT license is substituted for data permissions. Both retired Wordle-extracted snapshots, generated modules, old notice and obsolete migration list are removed. The previous source-specific permission uncertainty is no longer relied upon; this is not a legal warranty.
 
-Regenerate offline with `node scripts/generate-vocabulary.mjs`, or verify with `--check`. To reproduce the filtered input snapshot from the pinned official archive, run `python3 scripts/import-scowl.py /path/scowl-2020.12.07.tar.gz --check`. Builds do not download dictionaries. See [the replacement decision](docs/adr/0017-independent-scowl-vocabulary.md). The new dataset identifier restarts incompatible rounds/results once; valid difficulty, contrast and explicit advice preferences from the previous SCOWL guide are retained. New-guide progress persists normally. Repository publication and the GitHub Pages pilot were explicitly authorized.
+Regenerate offline with `node scripts/generate-vocabulary.mjs`, or verify with `--check`. To reproduce the filtered input snapshot from the pinned official archive, run `python3 scripts/import-scowl.py /path/scowl-2020.12.07.tar.gz --check`. Builds do not download dictionaries. See [the replacement decision](docs/adr/0017-independent-scowl-vocabulary.md). The current answer-guide migration keeps original English data separately, preserves validated results and compatible progress, and starts only incompatible rounds afresh. Preferences remain unchanged. See the preservation decision below. Repository publication and the GitHub Pages pilot were explicitly authorized.
 
 ## Engineering and checks
 
@@ -76,31 +76,35 @@ Browser evidence and independent review findings are recorded in [docs/QA.md](do
 
 Definitions appear automatically below **every submitted guess**, including restored guesses, within **Optimal/Suboptimal suggestions**, and beside **revealed answers**. There are no Define buttons or lookup dialog. A concise primary meaning is immediately readable; **More meanings** expands additional parts of speech/senses with native keyboard controls. Hidden unsolved answers, drafts and undisplayed candidate words are never fetched.
 
-The visible disclosure explains automatic requests to English Wiktionary. Each request contains only one displayed word, a generic application identifier and normal browser network metadata (including IP address). Cookies and referrer are omitted; the provider can see and correlate the displayed words and your IP address. No puzzle identifier, draft, selected hidden answer, saved statistics, account identifier or credentials are sent. This is a free public experimental endpoint with no key/account and incomplete coverage. Missing English definitions do not invalidate guesses.
+Meanings load from bundled, same-origin files. The app does not automatically send displayed words, guesses or puzzle state to an external dictionary or translation service. Source links open only when selected. Definitions have partial sense coverage; a missing meaning never invalidates an accepted guess.
 
-Selected senses are attributed to **Wiktionary contributors**, with source-entry and **CC BY-SA 4.0** links. Plain text only: formatting is removed, long entries shortened, and media/examples omitted. More meanings provides up to eight entry groups and eight senses per group. Definitions never alter scoring, difficulty, accepted words, answer pools, assistance or saved progress.
+Sourced senses retain the appropriate Wiktionary attribution and CC BY-SA 4.0 links. Spanish teaching-derived meanings are separately identified and use their own source notices. Filipino uses selected English Wiktionary Tagalog senses, with original headword links. Plain text only: formatting is removed, long entries shortened, and media/examples omitted from the dictionary sections. More meanings provides bounded additional entries and senses. Definitions never alter scoring, difficulty, accepted words, answer pools, assistance or saved progress.
 
-Automatic lookup uses a 180ms debounce, at most **two simultaneous requests**, per-word deduplication, six-second timeout and cancellation/stale-response guards. Only the current displayed set (at most six guesses, ten advice words and a revealed answer) enters the queue. A 64-entry cache in this tab retains success for 24 hours and missing entries for five minutes; reloads fetch displayed words again. Failures show unavailable/offline/timeout text and are not automatically retried in a loop; reload to retry. Cached words remain readable offline until expiry. English meanings are looked up on demand; the Spanish teaching selection described below is bundled. See [source/terms](docs/adr/0011-word-definitions.md) and [inline UX decision](docs/adr/0016-inline-definitions.md).
+Lookups are deduplicated and cancelled when context changes; stale replies cannot replace another language’s meanings. Only visible words are requested from the bundled modules, and unavailable meanings stay unavailable rather than receiving invented text. Historical remote-lookup decisions are retained in the ADRs; the current source and local delivery are documented in WORDS-LICENSE.md.
 
 
 ## What Absurd’s count means
 
-Absurd displays **curated answers remaining**, using the2,103-word answer pool. Accepted guesses come from the broader11,193-word dictionary and can fit all revealed clues without belonging to that pool. The counter does not count every clue-consistent accepted guess. Easy’s direct solve and advice candidate counts use the same curated pool.
+Absurd displays **curated answers remaining**, using the2,094-word answer pool. Accepted guesses come from the broader11,193-word dictionary and can fit all revealed clues without belonging to that pool. The counter does not count every clue-consistent accepted guess. Easy’s direct solve and advice candidate counts use the same curated pool.
 
-With the SCOWL replacement, the reported AUDIO→ENTRY→BEACH→VALVE→GAFFE sequence yields **2,103→412→61→28→13→7**. Those are curated survivors, independently checked against the new data; feedback differs from the retired guide where the largest bucket differs. The two former ending words are absent from the new accepted dictionary and spend no turn. Tests cover current sixth-turn outcomes, reconstruction and advice counts.
+With the SCOWL replacement, the reported AUDIO→ENTRY→BEACH→VALVE→GAFFE sequence yields **2,094→410→60→27→12→6**. Those are curated survivors, independently checked against the new data; feedback differs from the retired guide where the largest bucket differs. The two former ending words are absent from the new accepted dictionary and spend no turn. Tests cover current sixth-turn outcomes, reconstruction and advice counts.
 
 
 ## Absurd pool and save compatibility
 
-Absurd’s selection, remaining count, reveal and advice use exactly the current2,103 curated answers. All11,193 accepted words remain guesses subject to difficulty. Exploratory guesses do not become answers. The new dataset identifier rejects old snapshots rather than replaying their clues against a different pool. Current-guide progress resumes normally.
+Absurd’s selection, remaining count, reveal and advice use exactly the current2,094 curated answers. All11,193 accepted words remain guesses subject to difficulty. Exploratory guesses do not become answers. The new dataset identifier rejects old snapshots rather than replaying their clues against a different pool. Current-guide progress resumes normally.
 
-## First-use reset for this update
+## English answer-update compatibility
 
-At the user's request, this update performs a one-time versioned reset of this deployment's Morrowmark-owned storage: all English/Spanish lengths, variants, rounds, history, statistics, assistance and settings. Defaults are English, five letters, Normal, Suboptimal/high contrast off. Unrelated origin keys and another deployment's namespace remain untouched. The reset runs before saved language/length selection, then writes its epoch marker; subsequent progress and preferences persist normally. There is no recurring reload reset. See [current policy/reset decision](docs/adr/0023-spanish-verb-policy-fresh-start.md).
+The November 6 update does not perform a global fresh start. The old automatic reset described in ADR0023 is retired. Affected English notebooks use a separate active namespace while every original stored value remains untouched. Three-letter English, Spanish, Filipino and shared preferences retain their existing keys. **Settings → Download original English notebooks** exports the original data without uploading it.
+
+Validated historical results and statistics carry forward. Compatible fixed-answer rounds keep their exact answers, guesses and drafts. Active Absurd rounds and unfinished rounds whose answers were removed restart with the corrected pool and require Start; original data remains available. Completed fixed-answer rounds can retain a removed answer because they allow no new guesses. Smashare and Letroso retain compatible saved answers and their statistics; incompatible boards remain in the original export. Prior-list daily boards and shares are labelled **Previous English answer list**. Existing completed daily outcomes stay authoritative, so a replacement cannot count twice.
+
+Close older tabs and refresh when updating. An old tab can still write its original namespace after the one-time import, but it cannot overwrite new progress. See [the full preservation and variant behavior](docs/adr/0037-english-answer-progress-preservation.md).
 
 ## Answer-form curation
 
-The current guide excludes 1,390 entries from the original common-tier answer selection: 1,109 mapped noun plurals,279 mapped past-tense forms and two reviewed uncertain forms. All11,193 accepted guesses remain byte-identical. AGID2016.01.19 is pinned at the same official repository revision as SCOWL, with reproducible extraction and complete [AGID permission/source notices](public/third-party/AGID-Copyright.txt). The generated audit is src/data/answer-curation.json and reviewed decisions are src/data/answer-form-overrides.json. See [policy and limits](docs/adr/0019-answer-form-curation.md) and WORDS-LICENSE.md. The user subsequently authorized publishing this filtering update and a GitHub Pages pilot.
+The current five-letter guide excludes 1,399 entries from the original 3,493-word common-tier selection, leaving 2,094 answers. The November 6 review adds nine five-letter exclusions and 184 total exclusions across 3–11 letters, without changing any accepted-guess list. It individually checks forms missed because AGID marks a part of speech or variant as uncertain, plus plural-only nouns and lexical homographs. This is not blanket suffix stripping. AGID2016.01.19 is pinned at the same official repository revision as SCOWL, with reproducible extraction and complete [AGID permission/source notices](public/third-party/AGID-Copyright.txt). The generated audit is src/data/answer-curation.json. Earlier decisions remain in src/data/answer-form-overrides.json; the supplemental review and evidence are in src/data/english-answer-review.json. Common independent base senses and lexical adjectives remain eligible, while inflection-only plural/past readings do not. Present-only and participle-only forms remain outside this exclusion policy. See [the supplemental audit](docs/adr/0036-english-supplemental-form-audit.md), [earlier policy and limits](docs/adr/0019-answer-form-curation.md), and WORDS-LICENSE.md. The user subsequently authorized publishing this filtering update and a GitHub Pages pilot.
 
 ## GitHub Pages pilot
 
@@ -112,21 +116,21 @@ Public pilot: use the **Play Online** link above. The user authorized removing t
 
 ## Choose a word length
 
-Use **Word length** above the board to select 3–11 letters in English or Spanish. Five remains the default. Daily, Practice and Absurd all use the selected length, with six attempts and all four difficulties. Switching opens/resumes a separate notebook: guesses, drafts, local settings and daily statistics stay with their own length; difficulty is global. New progress persists independently after the one-time fresh start. Shares show the length. Erase saved notebook clears only the selected length.
+Use **Word length** above the board to select 3–11 letters in English or Spanish. Five remains the default. Daily, Practice and Absurd all use the selected length, with six attempts and all four difficulties. Switching opens/resumes a separate notebook: guesses, drafts, local settings and daily statistics stay with their own length; difficulty is global. New progress persists independently, with original English data retained during the answer-guide migration. Shares show the length. Erase saved notebook clears only the selected length.
 
 | Letters | Curated answers | Valid guesses |
 |---|---:|---:|
 |3|447|1,151|
-|4|1,480|4,964|
-|5|2,103|11,193|
-|6|3,166|19,816|
-|7|4,138|29,870|
-|8|4,234|37,175|
-|9|3,734|36,799|
-|10|2,831|32,523|
-|11|1,783|25,693|
+|4|1,479|4,964|
+|5|2,094|11,193|
+|6|3,148|19,816|
+|7|4,121|29,870|
+|8|4,208|37,175|
+|9|3,700|36,799|
+|10|2,788|32,523|
+|11|1,747|25,693|
 
-The English pools use the pinned, licensed SCOWL/AGID sources. Earlier 4–7 pools also have reviewed homograph overrides; the additional lengths do not. Existing sources and notebook behavior are documented in [the word-length decision](docs/adr/0020-selectable-word-length.md) and the extended section below. Every answer is an accepted guess of the same length. Easy and optional Suboptimal search only the selected length; seven-letter opening analysis can take around ten seconds on this development machine, longer on slower devices. It runs in a cancellable worker with loading text so play can continue. Inline meanings have incomplete bundled coverage at every length. The Pages build includes selectable lengths.
+The English pools use the pinned, licensed SCOWL/AGID sources. The earlier 4–7 pools retain reviewed homograph overrides; the November 6 supplemental review checks missed forms and ambiguous independent senses across all lengths. Existing sources and notebook behavior are documented in [the word-length decision](docs/adr/0020-selectable-word-length.md) and the extended section below. Every answer is an accepted guess of the same length. Easy and optional Suboptimal search only the selected length; seven-letter opening analysis can take around ten seconds on this development machine, longer on slower devices. It runs in a cancellable worker with loading text so play can continue. Inline meanings have incomplete bundled coverage at every length. The Pages build includes selectable lengths.
 
 ## Language, Spanish possible answers and teaching
 
@@ -174,7 +178,7 @@ Generated translation audits are local outputs, prepared automatically before te
 
 ## Local-first meanings
 
-Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. For the original 4–7-letter lists, English has 61,910 of 65,843 accepted words with selected bundled definitions: the original 17,676 Simple English Wiktionary entries plus 44,234 English Wiktionary gap entries. Definitions load by length, totalling 10.08 MB of JSON (about 2.34 MB gzip); 3,933 words remain unavailable. Usage labels and grammatical form references are retained; not every sense is included. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
+Visible words use bundled English/Spanish meanings. No word is automatically sent to an external dictionary or translation service; source links open only when selected. For the original 4–7-letter lists, English has 61,910 of 65,843 accepted words with selected bundled definitions: the original 17,676 Simple English Wiktionary entries plus 44,208 English Wiktionary gap entries. Definitions load by length, totalling 10.08 MB of JSON (about 2.34 MB gzip); 3,933 words remain unavailable. Usage labels and grammatical form references are retained; not every sense is included. Spanish reuses the existing 61,129 supported meanings/learning translations, with original attribution and honest gaps. This update adds no new Spanish translations. [Data, licenses, reproduction and limits](WORDS-LICENSE.md#local-inline-meanings).
 
 ## Starting puzzles and viewing statistics
 
@@ -215,9 +219,9 @@ Smashare joins two distinct words of the selected length. The **first two letter
 
 ### Additional English word lengths
 
-English supports 3–11 letters in all four rulesets and both schedules. The new 3 and 8–11 pools come from the pinned SCOWL/AGID sources, with no per-word morphology review; see WORDS-LICENSE.md. The Spanish 3 and 8–11 lists use the pinned RLA-es spelling source and a newer Spanish Wiktionary extract with the same frequency and source-label filters; unlike the earlier 4–7 lists, the new answer selections and source-provided English equivalents have not been individually reviewed. Frequency and sense labels are incomplete and do not guarantee Mexican usage. Definitions for the new English lengths have partial Simple English Wiktionary coverage. For the large new 8–11-letter pools, full optimal/suboptimal ranking is unavailable when a word pool would require more than 25 million comparisons; Easy remains playable and the screen explains this limitation. Long Smashare boards scroll horizontally.
+English supports 3–11 letters in all five rulesets and both schedules. The 3 and 8–11 pools come from the pinned SCOWL/AGID sources. The November 6 review adds explicit word-by-word corrections to the original automatic filtering, without claiming exhaustive sense classification; see WORDS-LICENSE.md. The Spanish 3 and 8–11 lists use the pinned RLA-es spelling source and a newer Spanish Wiktionary extract with the same frequency and source-label filters; unlike the earlier 4–7 lists, the new answer selections and source-provided English equivalents have not been individually reviewed. Frequency and sense labels are incomplete and do not guarantee Mexican usage. Definitions for the new English lengths have partial Simple English Wiktionary coverage. For the large new 8–11-letter pools, full optimal/suboptimal ranking is unavailable when a word pool would require more than 25 million comparisons; Easy remains playable and the screen explains this limitation. Long Smashare boards scroll horizontally.
 
-For the new English lengths, answer / accepted-guess counts are: 3: **447 / 1,151**; 8: **4,234 / 37,175**; 9: **3,734 / 36,799**; 10: **2,831 / 32,523**; 11: **1,783 / 25,693**. Simple English meanings cover 396, 3,289, 2,843, 2,128 and 1,324 of those answer words respectively; accepted-guess coverage is lower, and a missing meaning does not affect word validation.
+For the new English lengths, answer / accepted-guess counts are: 3: **447 / 1,151**; 8: **4,208 / 37,175**; 9: **3,700 / 36,799**; 10: **2,788 / 32,523**; 11: **1,747 / 25,693**. Simple English meanings cover 396, 3,271, 2,818, 2,099 and 1,298 of those answer words respectively; accepted-guess coverage is lower, and a missing meaning does not affect word validation.
 
 Spanish 3 and 8–11 counts (possible answers / accepted guesses / answers with a sourced English equivalent): **3: 147 / 529 / 98; 8: 1,016 / 64,730 / 677; 9: 742 / 82,132 / 530; 10: 575 / 90,422 / 394; 11: 386 / 82,029 / 255**. The spelling lists include broad inflections; answer selection requires a frequency-qualified, source-labeled base sense. The equivalents are incomplete and unreviewed. See `public/third-party/spanish-extended/NOTICE.txt` and `WORDS-LICENSE.md`.
 
@@ -230,3 +234,16 @@ Daily and Practice have isolated saves and statistics. The former selected-lengt
 The **Theme** control in the header offers System (the default), Light and Dark. The choice is saved in this browser independently of game progress, and System follows changes to the device preference. Clue symbols and invalid-word underlines remain available in either theme.
 
 New Smashare and Letroso rounds ask for difficulty before play, just like the other rulesets. Existing saved rounds resume as before, and choosing a difficulty only becomes global when Start puzzle is pressed.
+
+
+## Filipino (Philippines), five letters
+
+Select **Language → Filipino (Philippines)**. The interface and meanings stay in English. The Tagalog-based starter has **259 common possible answers** and **3,354 source-backed accepted guesses**, with at least one bundled sourced meaning for every accepted spelling. This is selected dictionary coverage, not every Filipino word or inflection, and does not represent all Philippine languages. No native-human certification is claimed.
+
+All five rulesets support Daily and Practice with Easy, Normal, Hard and Strict. Filipino is five-letter only. Letroso therefore uses a five-letter answer and five-letter guesses, rather than pretending the selection supports every 3–11-letter length. Smashare uses two five-letter component words. Existing English/Spanish length choices, vocabulary and notebooks are unchanged.
+
+Optional vowel stress/glottal marks (acute, grave and circumflex) normalize away for play; Ñ remains distinct from N, and NG occupies two tiles. Punctuation is not stripped to manufacture words: hyphenated, apostrophized and multiword forms are outside this starter. Source spellings and meaning labels remain available for attribution. Folding marks can combine meanings.
+
+Guesses are attested lowercase lexical headwords from the pinned English Wiktionary Tagalog extract. Possible answers require a qualifying standalone sense and wordfreq Filipino spelling frequency of at least Zipf 4.5, then explicit editorial exclusions. The frequency is historical and not sense-specific. A full independent model review of the 266 provisional candidates produced seven answer exclusions and one omitted erroneous gloss; that is not native-speaker validation. Plural/verb-form-only senses, archaic/rare/offensive labels, alternative-only spellings and known clippings do not automatically become answers. Definitions do not determine guess acceptance. No live dictionary or translation requests occur.
+
+Each Filipino notebook, variant and statistic uses its own `.fil-PH` namespace. Adding Filipino does not change the storage reset epoch or clear English/Spanish progress. Sources and terms are in [WORDS-LICENSE.md](WORDS-LICENSE.md) and the bundled [Filipino notice](public/third-party/fil-PH/NOTICE.txt). Reproduce generated data offline with `node scripts/generate-filipino.mjs --check`; full source extraction commands and hashes are in the license document.

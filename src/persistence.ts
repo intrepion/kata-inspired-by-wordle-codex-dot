@@ -1,5 +1,6 @@
+import {previousEnglishDataset,previousEnglishAnswers} from './legacy-english.ts';
 import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
-import {readNotebookStats,recordCompletion,type NotebookStats} from './notebook-statistics.ts';
+import {readNotebookStats,recordCompletion,initializeNotebookStats,type NotebookStats} from './notebook-statistics.ts';
 import {validUniqueClue} from './one.ts';
 import {validLetters,type Language} from './language.ts';
 import {newImpossible,restoreImpossible,impossibleSnapshot,type ImpossibleRun} from './impossible.ts';
@@ -8,7 +9,7 @@ import {dailyAnswer, difficulty, DAY, newRun, status, submit, continueGuessing, 
 export const SAVE_KEY='morrowmark.v1';
 export interface HistoricalResult {won:boolean;turns:number;gaveUp?:boolean;extended?:boolean}
 export interface Save extends DailyScheduleContext {
- version:3; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'|'one'; impossible:ImpossibleRun; one:Run;
+ version:3; englishAnswerUpdate?:true; dailyScheduleVersion?:1; dataset:string; notebookStats?:NotebookStats; language?:Language; history:Record<string,HistoricalResult>; date:string; dailyDate?:string; daily:Run; practice:Run; mode:'daily'|'practice'|'impossible'|'one'; impossible:ImpossibleRun; one:Run;
  results:Record<string,string[]>; settings:{contrast:boolean;hardMode:boolean;strictMode?:boolean;easyMode?:boolean;suboptimal?:boolean};
 }
 export function emptySave(date:string,mode:boolean|Difficulty=false,length=5,language:Language='en'):Save {
@@ -45,9 +46,11 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
  try{
   const value:unknown=JSON.parse(raw);
   if(!object(value)||value.version!==3)return save;
-  if((value.language!==undefined&&value.language!==language)||(language==='es-MX'&&value.language!=='es-MX'))return save;
+  if((value.language!==undefined&&value.language!==language)||(language!=='en'&&value.language!==language))return save;
+  const updatedEnglish=language==='en'&&value.dataset===previousEnglishDataset(length);let restartedDaily=false;
+  if(language==='en'&&(updatedEnglish||value.englishAnswerUpdate===true))save.englishAnswerUpdate=true;
   const replacedGuide=(language==='en'&&length===5&&value.dataset===PREVIOUS_ANSWER_DATASET)||(language==='es-MX'&&(value.dataset===`es-MX-rla2.9-starter-${length}-v1`||value.dataset===`es-MX-rla2.9-common-${length}-v2`));
-  if(value.dataset!==answerDataset(length,language)&&!replacedGuide)return save;
+  if(value.dataset!==answerDataset(length,language)&&!replacedGuide&&!updatedEnglish)return save;
   if(value.dailyScheduleVersion!==undefined&&value.dailyScheduleVersion!==DAILY_SCHEDULE_VERSION)return save;
   const schedules:NonNullable<Save['dailySchedules']>={};
   if(object(value.dailySchedules))for(const [date,kind] of Object.entries(value.dailySchedules))if(validDate(date)&&date>=DAILY_SHUFFLE_START&&date<=today&&kind===LEGACY_DAILY_SCHEDULE)schedules[date]=kind;
@@ -59,6 +62,16 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
    for(const date of dates)if(validDate(date)&&date>=DAILY_SHUFFLE_START&&date<=today)schedules[date]=LEGACY_DAILY_SCHEDULE;
   }
   if(Object.keys(schedules).length)save.dailySchedules=schedules;
+  if(language==='en'&&previousEnglishDataset(length)){
+   const previous:NonNullable<Save['englishAnswerSchedules']>={};
+   if(object(value.englishAnswerSchedules))for(const [date,kind] of Object.entries(value.englishAnswerSchedules))if(kind==='previous'&&validDate(date)&&date<=today)previous[date]='previous';
+   if(updatedEnglish){
+    const dates=new Set([...Object.keys(object(value.results)?value.results:{}),...Object.keys(object(value.history)?value.history:{})]);
+    if(object(value.daily))dates.add(validDate(value.dailyDate)?value.dailyDate:String(value.date));
+    for(const date of dates)if(validDate(date)&&date<=today)previous[date]='previous';
+   }
+   if(Object.keys(previous).length)save.englishAnswerSchedules=previous;
+  }
   save.settings.hardMode=object(value.settings)&&(value.settings.hardMode===true||value.settings.difficulty==='hard');
   if(object(value.settings)&&(value.settings.easyMode===true||value.settings.difficulty==='easy')){save.settings.easyMode=true;save.settings.hardMode=false;}
   if(object(value.settings)&&value.settings.suboptimal===true)save.settings.suboptimal=true;
@@ -86,7 +99,12 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   const roundDate=validDate(value.dailyDate)&&value.dailyDate<=today?value.dailyDate:value.date;
   if(validDate(roundDate)&&roundDate<=today){
    const run=validatedRun(value.daily,notebookDailyAnswer(save,roundDate,length,language),language);
-   if(run){recordDaily(save,roundDate,run);recordCompletion(save,'daily',roundDate,run);
+   if(run&&status(run)==='playing'&&!save.results[roundDate]&&save.englishAnswerSchedules?.[roundDate]==='previous'&&!ANSWERS.includes(run.answer)){
+    // A removed answer cannot remain a live puzzle: advice must use the eligible pool.
+    restartedDaily=true;delete save.englishAnswerSchedules[roundDate];if(!Object.keys(save.englishAnswerSchedules).length)delete save.englishAnswerSchedules;
+    save.daily=newRun(notebookDailyAnswer(save,today,length,language),storedDifficulty(object(value.daily)?value.daily:{}),language);
+    if(save.notebookStats){save.notebookStats.exposure.daily=null;delete save.notebookStats.setupPending?.daily;}
+   }else if(run){recordDaily(save,roundDate,run);recordCompletion(save,'daily',roundDate,run);
     if(roundDate===today){save.daily=run}
     else if(status(run)==='playing'&&run.continuation&&!save.results[roundDate]){save.daily=run;save.dailyDate=roundDate}
    }
@@ -98,13 +116,30 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
    const matching=save.daily.guesses.length===guesses.length&&save.daily.guesses.every((guess,i)=>guess===guesses[i]);
    save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
   }
-  if(object(value.practice)&&typeof value.practice.answer==='string'&&ANSWERS.includes(value.practice.answer)){
-   save.practice=validatedRun(value.practice,value.practice.answer,language)??save.practice;
+  if(object(value.practice)&&typeof value.practice.answer==='string'&&(ANSWERS.includes(value.practice.answer)||save.englishAnswerUpdate&&previousEnglishAnswers(length)?.includes(value.practice.answer))){
+   const run=validatedRun(value.practice,value.practice.answer,language);
+   if(run&&(ANSWERS.includes(run.answer)||save.englishAnswerUpdate&&status(run)!=='playing'&&previousEnglishAnswers(length)?.includes(run.answer)))save.practice=run;
   }
   const adaptive=restoreImpossible(value.impossible)??restoreImpossible(value.absurd)??restoreImpossible(value.evil);
-  save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible('normal',length,language);if(target)save.impossible.target=target;
+  save.impossible=adaptive?.answer.length===length&&(adaptive.language??'en')===language?adaptive:newImpossible(updatedEnglish&&object(value.impossible)?storedDifficulty(value.impossible):'normal',length,language);if(target)save.impossible.target=target;
+  if(updatedEnglish)initializeNotebookStats(save);
+  if(updatedEnglish&&save.notebookStats){
+   const marks=save.notebookStats;if(restartedDaily){marks.exposure.daily=null;delete marks.setupPending?.daily;}
+   // New practice rounds must not inherit completed round IDs or exposure.
+   for(const mode of ['practice','impossible'] as const){
+    const restarted=mode==='impossible'?!adaptive:!object(value.practice)||save.practice.answer!==value.practice.answer;
+    if(restarted&&mode==='practice'&&object(value.practice))save.practice=newRun(save.practice.answer,storedDifficulty(value.practice),language);
+    if(restarted&&!(mode==='impossible'&&target)){
+     marks.active[mode]=`${mode}:${marks.nextId++}`;marks.exposure[mode]=null;delete marks.setupPending?.[mode];
+    }else if(restarted&&!marks.records[marks.active[mode]]){marks.exposure[mode]=null;delete marks.setupPending?.[mode];}
+   }
+  }
   recordCompletion(save,'daily',dailyPuzzleDate(save));recordCompletion(save,'practice',today);recordCompletion(save,'impossible',today);
-  if(object(value.one)&&typeof value.one.answer==='string'&&ANSWERS.includes(value.one.answer)){const one=validatedRun(value.one,value.one.answer,language);if(one&&one.guesses.length&&validUniqueClue(one.answer,one.guesses[0],ANSWERS))save.one=one;}
+  if(object(value.one)&&typeof value.one.answer==='string'&&(ANSWERS.includes(value.one.answer)||save.englishAnswerUpdate&&previousEnglishAnswers(length)?.includes(value.one.answer))){
+   const one=validatedRun(value.one,value.one.answer,language),previous=previousEnglishAnswers(length);
+   if(one&&one.guesses.length&&(ANSWERS.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],ANSWERS)||save.englishAnswerUpdate&&status(one)!=='playing'&&previous?.includes(one.answer)&&validUniqueClue(one.answer,one.guesses[0],previous)))save.one=one;
+  }
+  if(updatedEnglish&&object(value.one)&&Array.isArray(value.one.guesses)&&value.one.guesses.length&&!save.one.guesses.length&&save.notebookStats){save.notebookStats.exposure.one=null;delete save.notebookStats.setupPending?.one;}
   recordCompletion(save,'one',today);
   save.mode=storedMode(value.mode);if(save.mode==='one'&&!save.one.guesses.length)save.mode='daily';
   save.settings.contrast=object(value.settings)&&value.settings.contrast===true;

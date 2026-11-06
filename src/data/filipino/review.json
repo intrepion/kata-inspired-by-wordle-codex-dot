@@ -1,0 +1,38 @@
+{
+  "AMANG": {
+    "exclude": true,
+    "reason": "Conservative editorial review: the qualifying boy/laddie sense is uncertain for contemporary common-answer use; father senses are regional and spelling frequency can also reflect ama plus a linker."
+  },
+  "BURAT": {
+    "exclude": true,
+    "reason": "Editorial exclusion from surprise answers: explicit sexual/anatomical meanings. Remains an attested guess with labelled source meanings."
+  },
+  "DIREK": {
+    "exclude": true,
+    "reason": "Source etymology identifies a clipping of direktor. Excluded to apply the no-clippings answer policy consistently; remains a valid colloquial guess.",
+    "sourceUrl": "https://en.wiktionary.org/wiki/direk#Tagalog"
+  },
+  "KOREA": {
+    "exclude": true,
+    "reason": "Sense-frequency ambiguity: retained machine-belt senses are not established as common; the spelling frequency can reflect the country name."
+  },
+  "MAARI": {
+    "exclude": true,
+    "reason": "Conservative editorial review pending native editorial confirmation of contemporary familiarity. Source records maari as a valid possible/can form, not a misspelling.",
+    "sourceUrl": "https://en.wiktionary.org/wiki/maari#Tagalog"
+  },
+  "MAYOR": {
+    "exclude": true,
+    "reason": "Sense-frequency ambiguity: retained main/principal/greater meanings are not the elected-official sense likely contributing to spelling frequency."
+  },
+  "TAONG": {
+    "exclude": true,
+    "reason": "Sense-frequency ambiguity: uncommon veil/container meanings can inherit high frequency from ordinary linker forms of tao or taon."
+  },
+  "KLASE": {
+    "omitGlosses": [
+      "grouping below phylum and above kingdom"
+    ],
+    "reason": "Omit erroneous taxonomy wording; keep ordinary class/student meanings. No replacement definition is invented."
+  }
+}

@@ -1,4 +1,4 @@
-import {isLanguage,validLetters,type Language} from './language.ts';
+import {isLanguage,validLetters,languageLabel,type Language} from './language.ts';
 import {vocabulary,absurdDataset,isWordLength,isSupportedLength} from './words.ts';
 import {newRun,score,submit,difficulty,awaitingContinuation,continueGuessing,setDifficulty,clueConstraintError,type Difficulty,type Run,type Clue,type Outcome} from './domain.ts';
 
@@ -73,5 +73,5 @@ export function restoreImpossible(value:unknown):ImpossibleRun|null {
 }
 export function impossibleShare(run:ImpossibleRun):string {
  const glyph={exact:'■',elsewhere:'◩',absent:'□'};
- return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · Absurd · ${run.answer.length} letters · adaptive · ${difficulty(run)[0].toUpperCase()+difficulty(run).slice(1)}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${impossibleStatus(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.feedback.map(row=>row.map(clue=>glyph[clue]).join('')).join('\n')}\n${run.candidates.length} possible ${run.candidates.length===1?'answer remains':'answers remain'}\n■ exact · ◩ elsewhere · □ absent`;
+ return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · Absurd · ${run.answer.length} letters · adaptive · ${difficulty(run)[0].toUpperCase()+difficulty(run).slice(1)}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${impossibleStatus(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.feedback.map(row=>row.map(clue=>glyph[clue]).join('')).join('\n')}\n${run.candidates.length} possible ${run.candidates.length===1?'answer remains':'answers remain'}\n■ exact · ◩ elsewhere · □ absent`;
 }

@@ -2,7 +2,7 @@ import {test} from 'node:test';import assert from 'node:assert/strict';
 import {remainingAnswerCount,observedClues,type Observations} from '../src/observations.ts';
 import {newRun,submit} from '../src/domain.ts';
 test('remaining count starts full, follows exact duplicate-aware feedback and ignores drafts/invalid guesses',()=>{
- let run=newRun('APPLE');assert.equal(remainingAnswerCount(observedClues(run)),2103);
+ let run=newRun('APPLE');assert.equal(remainingAnswerCount(observedClues(run)),2094);
  // Exact A; one L elsewhere; E elsewhere; no Y: AGILE,AISLE,AMBLE,AMPLE,ANGLE,ANKLE,APPLE.
  run=submit(run,'ALLEY').run;assert.equal(remainingAnswerCount(observedClues(run)),7);
  const invalid=submit(run,'NOPE').run;assert.equal(remainingAnswerCount(observedClues(invalid)),7);

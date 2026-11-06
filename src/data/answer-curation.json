@@ -1,7 +1,7 @@
 {
-  "policy": "qualified-plural-past-exclusions-v2",
+  "policy": "qualified-plural-past-exclusions-v3",
   "baseAnswers": 3493,
-  "answers": 2103,
+  "answers": 2094,
   "removed": [
     {
       "word": "ACHED",
@@ -324,6 +324,16 @@
         {
           "kind": "plural",
           "lemma": "bake"
+        }
+      ]
+    },
+    {
+      "word": "BALDS",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "bald",
+          "reason": "Reviewed noun plural of bald; an overlapping inflected present-tense reading does not supply an independent base sense."
         }
       ]
     },
@@ -715,6 +725,16 @@
         {
           "kind": "plural",
           "lemma": "bloc"
+        }
+      ]
+    },
+    {
+      "word": "BLOGS",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "blog",
+          "reason": "Reviewed noun plural of blog; an overlapping inflected present-tense reading does not supply an independent base sense."
         }
       ]
     },
@@ -3248,6 +3268,15 @@
       ]
     },
     {
+      "word": "FECES",
+      "reasons": [
+        {
+          "kind": "reviewed",
+          "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+        }
+      ]
+    },
+    {
       "word": "FEEDS",
       "reasons": [
         {
@@ -4477,6 +4506,16 @@
         {
           "kind": "past",
           "lemma": "gybe"
+        }
+      ]
+    },
+    {
+      "word": "GYBES",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "gybe",
+          "reason": "Reviewed noun plural of gybe; an overlapping inflected present-tense reading does not supply an independent base sense."
         }
       ]
     },
@@ -6470,6 +6509,16 @@
       ]
     },
     {
+      "word": "MARIA",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "mare",
+          "reason": "Reviewed noun plural of mare; an overlapping inflected present-tense reading does not supply an independent base sense."
+        }
+      ]
+    },
+    {
       "word": "MARKS",
       "reasons": [
         {
@@ -7294,6 +7343,16 @@
         {
           "kind": "plural",
           "lemma": "nude"
+        }
+      ]
+    },
+    {
+      "word": "NULLS",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "null",
+          "reason": "Reviewed noun plural of null; an overlapping inflected present-tense reading does not supply an independent base sense."
         }
       ]
     },
@@ -8621,6 +8680,16 @@
       ]
     },
     {
+      "word": "RARES",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "rare",
+          "reason": "Reviewed noun plural of rare; an overlapping inflected present-tense reading does not supply an independent base sense."
+        }
+      ]
+    },
+    {
       "word": "RASPS",
       "reasons": [
         {
@@ -9853,6 +9922,16 @@
       ]
     },
     {
+      "word": "SLIMS",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "slim",
+          "reason": "Reviewed noun plural of slim; an overlapping inflected present-tense reading does not supply an independent base sense."
+        }
+      ]
+    },
+    {
       "word": "SLIPS",
       "reasons": [
         {
@@ -10227,6 +10306,16 @@
         {
           "kind": "plural",
           "lemma": "spat"
+        }
+      ]
+    },
+    {
+      "word": "SPAYS",
+      "reasons": [
+        {
+          "kind": "plural",
+          "lemma": "spay",
+          "reason": "Reviewed noun plural of spay; an overlapping inflected present-tense reading does not supply an independent base sense."
         }
       ]
     },

@@ -1,5 +1,5 @@
 /** Interpret pinned AGID grammar, never guess grammatical number/tense from word suffixes. */
-export function curateAnswers(base,raw,overrides){
+export function curateAnswers(base,raw,overrides,reviewed={}){
  const candidates=new Set(base),matches=new Map();
  for(const line of raw.split(/\r?\n/)){
   const record=/^([A-Za-z']+) ([VNA])(\?)?: (.*)$/.exec(line);if(!record)continue;
@@ -15,5 +15,6 @@ export function curateAnswers(base,raw,overrides){
  }
  for(const [word,reason] of Object.entries(overrides.keep)){if(!/^[A-Z]{4,7}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase())||!matches.has(word.toLowerCase()))throw new Error(`Invalid/redundant answer keep override: ${word}`);matches.delete(word.toLowerCase())}
  for(const [word,reason] of Object.entries(overrides.exclude)){if(!/^[A-Z]{4,7}$/.test(word)||typeof reason!=='string'||!reason.trim()||!candidates.has(word.toLowerCase()))throw new Error(`Invalid answer exclusion: ${word}`);matches.set(word.toLowerCase(),[{kind:'reviewed',reason}])}
+ for(const [word,entry]of Object.entries(reviewed)){if(!/^[A-Z]{3,11}$/.test(word)||!candidates.has(word.toLowerCase()))throw Error(`Invalid supplemental answer exclusion: ${word}`);if(matches.has(word.toLowerCase()))throw Error(`Redundant supplemental answer exclusion: ${word}`);const {kind,lemma,reason}=entry;matches.set(word.toLowerCase(),[{kind,...(lemma?{lemma}:{}),reason}])}
  return {answers:base.filter(word=>!matches.has(word)),removed:[...matches].sort(([a],[b])=>a<b?-1:a>b?1:0).map(([word,reasons])=>({word:word.toUpperCase(),reasons}))};
 }

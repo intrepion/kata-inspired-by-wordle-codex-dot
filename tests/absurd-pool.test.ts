@@ -6,7 +6,7 @@ import {ANSWERS,ALLOWED} from '../src/words.ts';
 
 test('Absurd can select answers only from the current curated pool while accepting broader guesses',()=>{
  const run=newImpossible();
- assert.equal(run.candidates.length,2103);
+ assert.equal(run.candidates.length,2094);
  assert.deepEqual(new Set(run.candidates),new Set(ANSWERS));
  assert.equal(run.candidates.includes('XYLEM'),false);assert.equal(ALLOWED.has('XYLEM'),true);
 });
@@ -24,7 +24,7 @@ test('all pre-update round formats reset to first-use defaults',()=>{
 
 import {impossibleShare} from '../src/impossible.ts';
 test('adaptive shares use the Absurd name and identify the curated count',()=>{
- const share=impossibleShare(newImpossible());assert.match(share,/Lexi Conquest · Absurd · 5 letters · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/2103 possible answers remain/);
+ const share=impossibleShare(newImpossible());assert.match(share,/Lexi Conquest · Absurd · 5 letters · adaptive/);assert.doesNotMatch(share,/Evil|Impossible/);assert.match(share,/2094 possible answers remain/);
 });
 
 import {submitImpossible,restoreImpossible,impossibleSnapshot,impossibleStatus} from '../src/impossible.ts';
@@ -54,9 +54,9 @@ test('new Absurd snapshots and all old naming aliases reconstruct the same curat
 });
 test('Absurd advice counts only curated candidates and ignores unsupported pool overrides',()=>{
  let run=newImpossible('easy');for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;
- assert.equal(run.candidates.length,7);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);
+ assert.equal(run.candidates.length,6);assert.deepEqual(possibleAnswers(observedClues(run)),run.candidates);
  const oldScope={...observedClues(run),candidatePool:'accepted'};assert.deepEqual(possibleAnswers(oldScope),run.candidates);
- for(const kind of ['optimal','suboptimal'] as const)assert.equal(analyzeObservations(observedClues(run),kind).totalCandidates,7);
+ for(const kind of ['optimal','suboptimal'] as const)assert.equal(analyzeObservations(observedClues(run),kind).totalCandidates,6);
 });
 test('out-of-pool cached candidates cannot become an Absurd reveal and obsolete dataset snapshots fail closed',()=>{
  let run=newImpossible();for(const word of ['AUDIO','ENTRY','BEACH','VALVE','GAFFE'])run=submitImpossible(run,word).run;

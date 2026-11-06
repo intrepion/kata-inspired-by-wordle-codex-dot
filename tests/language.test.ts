@@ -9,7 +9,7 @@ const answerCounts:Record<number,number>=selection.counts;
 import {vocabulary} from '../src/words.ts';
 test('Mexican Spanish has source-filtered possible answers and a broader matching licensed guess dictionary at every length',()=>{
  for(const length of [4,5,6,7]){const es=vocabulary(length,'es-MX');assert.equal(es.answers.length,answerCounts[length]);assert.ok(es.allowed.size>2000);assert.ok(es.answers.every(word=>word.length===length&&es.allowed.has(word)));assert.ok([...es.allowed].every(word=>word.length===length));}
- assert.ok(vocabulary(4,'es-MX').allowed.has('AÑOS'));assert.ok(!vocabulary(4,'es-MX').answers.includes('AÑOS'));assert.ok(vocabulary(5,'es-MX').allowed.has('COMIÓ'));assert.ok(!vocabulary(5,'es-MX').answers.includes('COMIÓ'));assert.ok(vocabulary(4,'es-MX').answers.includes('VINO'));assert.ok(vocabulary(7,'es-MX').answers.includes('VIERNES'));assert.equal(vocabulary(5).answers.length,2103);
+ assert.ok(vocabulary(4,'es-MX').allowed.has('AÑOS'));assert.ok(!vocabulary(4,'es-MX').answers.includes('AÑOS'));assert.ok(vocabulary(5,'es-MX').allowed.has('COMIÓ'));assert.ok(!vocabulary(5,'es-MX').answers.includes('COMIÓ'));assert.ok(vocabulary(4,'es-MX').answers.includes('VINO'));assert.ok(vocabulary(7,'es-MX').answers.includes('VIERNES'));assert.equal(vocabulary(5).answers.length,2094);
 });
 import {newRun,submit,score,difficulty,dailyAnswer,choosePractice,type Difficulty} from '../src/domain.ts';
 import {newImpossible,submitImpossible,impossibleSnapshot,restoreImpossible,impossibleStatus} from '../src/impossible.ts';

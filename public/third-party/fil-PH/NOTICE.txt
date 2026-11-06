@@ -1,0 +1,55 @@
+Lexi Conquest: Filipino (Philippines), five-letter selection
+
+Derived lexical data and frequency-based selections: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: CC-BY-SA-4.0.txt in this directory. Game code has its separate license.
+
+Lexical data: English Wiktionary contributors, Tagalog entries, extracted by
+Wiktextract and distributed by Kaikki. User-facing Filipino support is
+Tagalog-based; it does not include all Philippine languages.
+Source: https://kaikki.org/dictionary/Tagalog/kaikki.org-dictionary-Tagalog.jsonl
+Source index and rights: https://kaikki.org/dictionary/
+Source entry links: https://en.wiktionary.org/wiki/<original-headword>#Tagalog
+Reuse terms: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+
+The pinned input is Kaikki's postprocessed per-language snapshot, deprecated
+upstream, not the raw multilingual Wiktextract extract. Imported 2026-11-06.
+SHA-256: d2824e2bc07e4fac812b936a099226df30159180fa73988e5976b2b1d501b146
+No exact per-entry article revision is supplied. Per-record input hashes and
+original spellings are retained in the repository. Credit: Tatu Ylonen,
+Wiktextract: Wiktionary as Machine-Readable Structured Data, LREC 2022,
+pp. 1317-1325, https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Changes: retain lowercase five-letter lexical headwords, parts of speech,
+selected English glosses, usage labels and form/alternative relationships.
+Exclude enrichment categories/disambiguation, audio, media, quotations,
+examples, etymology, translations and non-Latin spellings. Fold optional vowel
+acute/grave/circumflex marks and case for play, while preserving Ñ. NG occupies
+two tiles. Original source spellings remain in definition attribution. A broad
+attested-guess list and conservative common-answer subset are separate. Source
+usage labels and editorial exclusions filter answers, not every displayed sense.
+At most eight entries and eight senses per entry are displayed per spelling.
+
+Frequency metadata: wordfreq v3.0.2, Robyn Speer and contributors, revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b, small_fil.msgpack.gz.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+SHA-256: e18224d2efa12c3ca6e8eaee76ec4eae0cf4c437988545e8e8dae36a1a7a940d
+Data: CC BY-SA 4.0. Version 3.0.2 software: MIT. Complete pinned README and
+MIT notice are supplied in this directory. Preserve all README source credits,
+including OpenSubtitles and freely available SUBTLEX, Marc Brysbaert and
+coauthors. No corpus sentences are distributed. Retained spelling estimates
+are historical, not current sense-specific or regional frequency measurements.
+For spellings merged by vowel-mark folding, use the maximum estimate, not a sum.
+
+No native-human review or exhaustive Filipino dictionary coverage is claimed.
+Source extraction, labels and model editorial review can contain errors.
+Optional mark folding can combine meanings; dictionary glosses are not full
+lessons or usage guarantees. Authored example sentences are not included.
+Meaning availability never determines whether a word is accepted as a guess.
+No words are automatically sent to an external service by the game.
+
+Sources, checksums, policy and offline reproduction are documented in
+WORDS-LICENSE.md and src/data/filipino/source.json in the source repository:
+https://github.com/intrepion/kata-inspired-by-wordle-codex-dot
+Preserve attribution, modification notices and CC BY-SA 4.0 ShareAlike terms
+when redistributing adapted data. These notices add no extra restrictions.

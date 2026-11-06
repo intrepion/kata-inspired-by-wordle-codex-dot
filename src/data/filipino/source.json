@@ -1,0 +1,33 @@
+{
+  "language": "fil-PH",
+  "sourceLanguage": "tl",
+  "version": "fil-PH-five-letter-beta-v1",
+  "retrieved": "2026-11-06",
+  "wiktionary": {
+    "edition": "English Wiktionary, Tagalog entries",
+    "contributors": "Wiktionary contributors",
+    "artifactUrl": "https://kaikki.org/dictionary/Tagalog/kaikki.org-dictionary-Tagalog.jsonl",
+    "artifactBytes": 153382185,
+    "artifactSha256": "d2824e2bc07e4fac812b936a099226df30159180fa73988e5976b2b1d501b146",
+    "format": "Kaikki postprocessed per-language JSONL; deprecated upstream, not raw Wiktextract data",
+    "landingPage": "https://kaikki.org/dictionary/Tagalog/",
+    "rightsUrl": "https://kaikki.org/dictionary/",
+    "dataLicense": "CC-BY-SA-4.0",
+    "modifications": "Retain lowercase five-character Tagalog headwords, POS, glosses, sense tags and form/alternative relationships only. Omit enrichment categories, disambiguation, audio, examples, quotations, translations, etymology and non-Latin forms. Preserve original headwords and per-record input hashes. Optional vowel acute/grave/circumflex marks are folded for gameplay; Ñ remains distinct. No exact article revision is supplied by this snapshot."
+  },
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_fil.msgpack.gz",
+    "artifactBytes": 132820,
+    "artifactSha256": "e18224d2efa12c3ca6e8eaee76ec4eae0cf4c437988545e8e8dae36a1a7a940d",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "modifications": "Retain five-letter spelling frequency bins matching lexical evidence. For accent-folded homographs use the maximum supplied estimate, not a sum. Historical mixed-corpus spelling frequencies do not certify individual senses or contemporary regional usage."
+  },
+  "inputs": {
+    "lexical-evidence.json": "c8e9ac53036bd88da1ae371665b2c5173d4c1867b6ae1a6f9ee780dab2015bae",
+    "frequency-evidence.json": "9893f6418b43afbb7b1352b64cb976c9057dd504b3ab3498b95680acf46ab05d"
+  }
+}

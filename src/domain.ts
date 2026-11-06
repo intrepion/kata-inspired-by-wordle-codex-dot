@@ -1,5 +1,5 @@
 import {scheduledDailyAnswer} from './daily-schedule.ts';
-import {normalizeGuess,validLetters,type Language} from './language.ts';
+import {normalizeGuess,validLetters,languageLabel,type Language} from './language.ts';
 export type Clue = 'absent' | 'elsewhere' | 'exact';
 export function score(answer:string, guess:string):Clue[] {
  const clues:Clue[]=Array(answer.length).fill('absent');
@@ -106,5 +106,5 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
 }
 export function shareText(date:string, run:Run):string {
  const glyph={exact:'🟩',elsewhere:'🟨',absent:'⬛'};
- return `Lexi Conquest${run.language==='es-MX'?' · Español (México)':''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
+ return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
 }

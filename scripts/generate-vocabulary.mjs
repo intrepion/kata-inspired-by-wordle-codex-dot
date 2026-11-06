@@ -1,3 +1,5 @@
+import {loadEnglishAnswerReview,reviewForLength} from './english-answer-review.mjs';
+const supplementalReview=loadEnglishAnswerReview();
 import {readFileSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {curateAnswers} from './answer-forms.mjs';
@@ -15,8 +17,8 @@ const rawForms=readFileSync(new URL('agid-relevant.txt',data));
 if(createHash('sha256').update(rawForms).digest('hex')!==morphology.snapshotSha256)throw new Error('AGID snapshot changed; review provenance.');
 for(const [path,key] of [['../public/third-party/AGID-Copyright.txt','licenseSha256'],['../docs/sources/agid-2016.01.19-format.txt','formatSha256']])if(createHash('sha256').update(readFileSync(new URL(path,import.meta.url))).digest('hex')!==morphology[key])throw new Error('AGID notice/format changed.');
 const overrides=JSON.parse(readFileSync(new URL('answer-form-overrides.json',data),'utf8'));
-const {answers,removed}=curateAnswers(base,rawForms.toString('utf8'),overrides);
-const report=JSON.stringify({policy:'qualified-plural-past-exclusions-v2',baseAnswers:base.length,answers:answers.length,removed},null,2)+'\n';
+const {answers,removed}=curateAnswers(base,rawForms.toString('utf8'),overrides,reviewForLength(supplementalReview,5));
+const report=JSON.stringify({policy:'qualified-plural-past-exclusions-v3',baseAnswers:base.length,answers:answers.length,removed},null,2)+'\n';
 const reportTarget=new URL('answer-curation.json',data);
 if(process.argv.includes('--check')){if(readFileSync(reportTarget,'utf8')!==report)throw new Error('Regenerate answer curation report.')}else writeFileSync(reportTarget,report);
 if(base.length!==3493||answers.length===0||guesses.length!==11193||answers.some(word=>!guesses.includes(word)))throw new Error('SCOWL vocabulary invariants changed.');

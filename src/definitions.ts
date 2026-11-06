@@ -21,15 +21,16 @@ export function definitionText(raw:unknown,limit=1800):string {
  }).replace(/[\u0000-\u001f\u007f]/g,' ').replace(/\s+/g,' ').trim().slice(0,limit);
 }
 export function parseDefinitions(payload:unknown,rawWord:string,language:Language='en'):DefinitionResult {
- const word=definitionWord(rawWord,language);if(!word||!object(payload)||((language==='en'?'en':'es') in payload&&!Array.isArray(payload[language==='en'?'en':'es'])))throw new DefinitionError('invalid');
+ const [sourceCode,sourceName]=({en:['en','English'],'es-MX':['es','Spanish'],'fil-PH':['tl','Tagalog']} as const)[language];
+ const word=definitionWord(rawWord,language);if(!word||!object(payload)||(sourceCode in payload&&!Array.isArray(payload[sourceCode])))throw new DefinitionError('invalid');
  const entries:DefinitionEntry[]=[];
- for(const entry of (Array.isArray(payload[language==='en'?'en':'es'])?payload[language==='en'?'en':'es'] as unknown[]:[]).slice(0,8)){
-  if(!object(entry)||!Array.isArray(entry.definitions)||(entry.language!==undefined&&entry.language!==(language==='en'?'English':'Spanish')))continue;
+ for(const entry of (Array.isArray(payload[sourceCode])?payload[sourceCode] as unknown[]:[]).slice(0,8)){
+  if(!object(entry)||!Array.isArray(entry.definitions)||(entry.language!==undefined&&entry.language!==sourceName))continue;
   const senses:string[]=[];
   for(const item of entry.definitions){if(!object(item))continue;const sense=definitionText(item.definition);if(sense&&!senses.includes(sense))senses.push(sense);if(senses.length===8)break;}
   if(senses.length)entries.push({partOfSpeech:definitionText(entry.partOfSpeech,80)||'Part of speech not supplied',senses});
  }
- return {word,entries,sourceUrl:`https://en.wiktionary.org/wiki/${encodeURIComponent(word.toLowerCase())}#${language==='en'?'English':'Spanish'}`};
+ return {word,entries,sourceUrl:`https://en.wiktionary.org/wiki/${encodeURIComponent(word.toLowerCase())}#${sourceName}`};
 }
 /** Only words already made visible by play/advice can create a lookup action. */
 export function definitionVisible(word:string,guesses:readonly string[],revealed:string|null,suggestions:readonly string[]=[],language:Language='en'):boolean {

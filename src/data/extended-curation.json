@@ -314,7 +314,7 @@
   },
   "8": {
     "baseAnswers": 6648,
-    "answers": 4234,
+    "answers": 4208,
     "accepted": 37175,
     "removed": [
       {
@@ -2086,6 +2086,16 @@
         ]
       },
       {
+        "word": "BIFOCALS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "bifocal",
+            "reason": "Reviewed noun plural of bifocal; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "BILLIONS",
         "reasons": [
           {
@@ -2217,6 +2227,16 @@
           {
             "kind": "plural",
             "lemma": "blister"
+          }
+        ]
+      },
+      {
+        "word": "BLOGGERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "blogger",
+            "reason": "Reviewed noun plural of blogger; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -2640,6 +2660,15 @@
           {
             "kind": "plural",
             "lemma": "bristle"
+          }
+        ]
+      },
+      {
+        "word": "BRITCHES",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -4344,6 +4373,16 @@
         ]
       },
       {
+        "word": "COMMUTES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "commute",
+            "reason": "Reviewed noun plural of commute; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "COMPACTS",
         "reasons": [
           {
@@ -4601,6 +4640,16 @@
           {
             "kind": "plural",
             "lemma": "consort"
+          }
+        ]
+      },
+      {
+        "word": "CONSULTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "consult",
+            "reason": "Reviewed noun plural of consult; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -6045,6 +6094,16 @@
         ]
       },
       {
+        "word": "DIALINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "dialing",
+            "reason": "Reviewed noun plural of dialing; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "DIAMONDS",
         "reasons": [
           {
@@ -6432,6 +6491,15 @@
         ]
       },
       {
+        "word": "DOLDRUMS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "DOLPHINS",
         "reasons": [
           {
@@ -6680,6 +6748,15 @@
           {
             "kind": "plural",
             "lemma": "earnest"
+          }
+        ]
+      },
+      {
+        "word": "EARNINGS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -7142,6 +7219,15 @@
         ]
       },
       {
+        "word": "ENTRAILS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "ENTRANTS",
         "reasons": [
           {
@@ -7156,6 +7242,15 @@
           {
             "kind": "past",
             "lemma": "entwine"
+          }
+        ]
+      },
+      {
+        "word": "ENVIRONS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -7808,6 +7903,16 @@
           {
             "kind": "plural",
             "lemma": "federal"
+          }
+        ]
+      },
+      {
+        "word": "FEELINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "feeling",
+            "reason": "Reviewed noun plural of feeling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -8739,6 +8844,16 @@
         ]
       },
       {
+        "word": "GENITALS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "genital",
+            "reason": "Reviewed noun plural of genital; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "GENIUSES",
         "reasons": [
           {
@@ -8951,6 +9066,16 @@
           {
             "kind": "plural",
             "lemma": "gorilla"
+          }
+        ]
+      },
+      {
+        "word": "GOSLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "gosling",
+            "reason": "Reviewed noun plural of gosling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -9922,6 +10047,16 @@
         ]
       },
       {
+        "word": "IDOLISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "idolise",
+            "reason": "Reviewed finite past-tense form of idolise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "IDOLIZED",
         "reasons": [
           {
@@ -10062,6 +10197,16 @@
           {
             "kind": "past",
             "lemma": "import"
+          }
+        ]
+      },
+      {
+        "word": "IMPOUNDS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "impound",
+            "reason": "Reviewed noun plural of impound; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -10354,6 +10499,16 @@
         ]
       },
       {
+        "word": "INKLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "inkling",
+            "reason": "Reviewed noun plural of inkling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "INPUTTED",
         "reasons": [
           {
@@ -10597,6 +10752,26 @@
           {
             "kind": "past",
             "lemma": "isolate"
+          }
+        ]
+      },
+      {
+        "word": "ISOLATES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "isolate",
+            "reason": "Reviewed noun plural of isolate; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
+        "word": "ITEMISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "itemise",
+            "reason": "Reviewed finite past-tense form of itemise, not merely a past-participle-only form."
           }
         ]
       },
@@ -10867,6 +11042,15 @@
           {
             "kind": "plural",
             "lemma": "kneecap"
+          }
+        ]
+      },
+      {
+        "word": "KNICKERS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -14807,6 +14991,15 @@
         ]
       },
       {
+        "word": "PROCEEDS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "PROCURED",
         "reasons": [
           {
@@ -15320,6 +15513,16 @@
         ]
       },
       {
+        "word": "RAILINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "railing",
+            "reason": "Reviewed noun plural of railing; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "RAILWAYS",
         "reasons": [
           {
@@ -15469,6 +15672,16 @@
           {
             "kind": "plural",
             "lemma": "reading"
+          }
+        ]
+      },
+      {
+        "word": "REALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "realise",
+            "reason": "Reviewed finite past-tense form of realise, not merely a past-participle-only form."
           }
         ]
       },
@@ -16953,6 +17166,16 @@
         ]
       },
       {
+        "word": "SAPLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "sapling",
+            "reason": "Reviewed noun plural of sapling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "SARCASMS",
         "reasons": [
           {
@@ -17147,6 +17370,15 @@
           {
             "kind": "plural",
             "lemma": "science"
+          }
+        ]
+      },
+      {
+        "word": "SCISSORS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -17889,6 +18121,16 @@
           {
             "kind": "plural",
             "lemma": "shuttle"
+          }
+        ]
+      },
+      {
+        "word": "SIBLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "sibling",
+            "reason": "Reviewed noun plural of sibling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -18951,6 +19193,16 @@
           {
             "kind": "plural",
             "lemma": "sticker"
+          }
+        ]
+      },
+      {
+        "word": "STICKIES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "sticky",
+            "reason": "Reviewed noun plural of sticky; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -22107,7 +22359,7 @@
   },
   "9": {
     "baseAnswers": 5604,
-    "answers": 3734,
+    "answers": 3700,
     "accepted": 36799,
     "removed": [
       {
@@ -23245,6 +23497,15 @@
         ]
       },
       {
+        "word": "BACKWOODS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "BALCONIES",
         "reasons": [
           {
@@ -24320,6 +24581,16 @@
         ]
       },
       {
+        "word": "CELLULARS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "cellular",
+            "reason": "Reviewed noun plural of cellular; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "CENTURIES",
         "reasons": [
           {
@@ -24770,11 +25041,31 @@
         ]
       },
       {
+        "word": "COLONISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "colonise",
+            "reason": "Reviewed finite past-tense form of colonise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "COLONIZED",
         "reasons": [
           {
             "kind": "past",
             "lemma": "colonize"
+          }
+        ]
+      },
+      {
+        "word": "COLOUREDS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "coloured",
+            "reason": "Reviewed noun plural of coloured; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -25589,6 +25880,16 @@
         ]
       },
       {
+        "word": "CREATIVES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "creative",
+            "reason": "Reviewed noun plural of creative; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "CREATURES",
         "reasons": [
           {
@@ -26309,6 +26610,16 @@
         ]
       },
       {
+        "word": "DIALLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "dialling",
+            "reason": "Reviewed noun plural of dialling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "DIALOGUES",
         "reasons": [
           {
@@ -26341,6 +26652,16 @@
           {
             "kind": "plural",
             "lemma": "dietary"
+          }
+        ]
+      },
+      {
+        "word": "DIGITISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "digitise",
+            "reason": "Reviewed finite past-tense form of digitise, not merely a past-participle-only form."
           }
         ]
       },
@@ -27069,6 +27390,16 @@
         ]
       },
       {
+        "word": "DROPPINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "dropping",
+            "reason": "Reviewed noun plural of dropping; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "DRUGGISTS",
         "reasons": [
           {
@@ -27096,11 +27427,41 @@
         ]
       },
       {
+        "word": "DUCKLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "duckling",
+            "reason": "Reviewed noun plural of duckling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
+        "word": "DUELLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "duelling",
+            "reason": "Reviewed noun plural of duelling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "DUMBBELLS",
         "reasons": [
           {
             "kind": "plural",
             "lemma": "dumbbell"
+          }
+        ]
+      },
+      {
+        "word": "DUMPLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "dumpling",
+            "reason": "Reviewed noun plural of dumpling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -27605,6 +27966,16 @@
           {
             "kind": "plural",
             "lemma": "epilogue"
+          }
+        ]
+      },
+      {
+        "word": "EQUALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "equalise",
+            "reason": "Reviewed finite past-tense form of equalise, not merely a past-participle-only form."
           }
         ]
       },
@@ -28199,6 +28570,16 @@
           {
             "kind": "plural",
             "lemma": "filament"
+          }
+        ]
+      },
+      {
+        "word": "FINALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "finalise",
+            "reason": "Reviewed finite past-tense form of finalise, not merely a past-participle-only form."
           }
         ]
       },
@@ -29737,6 +30118,16 @@
         ]
       },
       {
+        "word": "IMMUNISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "immunise",
+            "reason": "Reviewed finite past-tense form of immunise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "IMMUNIZED",
         "reasons": [
           {
@@ -30726,6 +31117,16 @@
         ]
       },
       {
+        "word": "LEGALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "legalise",
+            "reason": "Reviewed finite past-tense form of legalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "LEGALIZED",
         "reasons": [
           {
@@ -30794,6 +31195,16 @@
           {
             "kind": "plural",
             "lemma": "lifeboat"
+          }
+        ]
+      },
+      {
+        "word": "LIFEFORMS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "lifeform",
+            "reason": "Reviewed noun plural of lifeform; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -31311,6 +31722,16 @@
         ]
       },
       {
+        "word": "MAXIMISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "maximise",
+            "reason": "Reviewed finite past-tense form of maximise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "MAXIMIZED",
         "reasons": [
           {
@@ -31397,6 +31818,16 @@
           {
             "kind": "plural",
             "lemma": "memorial"
+          }
+        ]
+      },
+      {
+        "word": "MEMORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "memorise",
+            "reason": "Reviewed finite past-tense form of memorise, not merely a past-participle-only form."
           }
         ]
       },
@@ -31518,6 +31949,16 @@
         ]
       },
       {
+        "word": "MINIMISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "minimise",
+            "reason": "Reviewed finite past-tense form of minimise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "MINIMIZED",
         "reasons": [
           {
@@ -31635,6 +32076,16 @@
         ]
       },
       {
+        "word": "MOBILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "mobilise",
+            "reason": "Reviewed finite past-tense form of mobilise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "MOBILIZED",
         "reasons": [
           {
@@ -31658,6 +32109,16 @@
           {
             "kind": "plural",
             "lemma": "mockery"
+          }
+        ]
+      },
+      {
+        "word": "MODELINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "modeling",
+            "reason": "Reviewed noun plural of modeling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -31838,6 +32299,16 @@
           {
             "kind": "past",
             "lemma": "motivate"
+          }
+        ]
+      },
+      {
+        "word": "MOTORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "motorise",
+            "reason": "Reviewed finite past-tense form of motorise, not merely a past-participle-only form."
           }
         ]
       },
@@ -32504,6 +32975,16 @@
           {
             "kind": "plural",
             "lemma": "optician"
+          }
+        ]
+      },
+      {
+        "word": "OPTIMISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "optimise",
+            "reason": "Reviewed finite past-tense form of optimise, not merely a past-participle-only form."
           }
         ]
       },
@@ -33192,6 +33673,16 @@
         ]
       },
       {
+        "word": "PENALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "penalise",
+            "reason": "Reviewed finite past-tense form of penalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "PENALIZED",
         "reasons": [
           {
@@ -33647,6 +34138,16 @@
           {
             "kind": "plural",
             "lemma": "pockmark"
+          }
+        ]
+      },
+      {
+        "word": "POLARISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "polarise",
+            "reason": "Reviewed finite past-tense form of polarise, not merely a past-participle-only form."
           }
         ]
       },
@@ -34681,6 +35182,16 @@
         ]
       },
       {
+        "word": "RECHARGES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "recharge",
+            "reason": "Reviewed noun plural of recharge; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "RECLAIMED",
         "reasons": [
           {
@@ -34749,6 +35260,26 @@
           {
             "kind": "past",
             "lemma": "redefine"
+          }
+        ]
+      },
+      {
+        "word": "REDESIGNS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "redesign",
+            "reason": "Reviewed noun plural of redesign; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
+        "word": "REDIRECTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "redirect",
+            "reason": "Reviewed noun plural of redirect; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -35482,6 +36013,16 @@
         ]
       },
       {
+        "word": "SATIRISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "satirise",
+            "reason": "Reviewed finite past-tense form of satirise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "SATIRISTS",
         "reasons": [
           {
@@ -35757,6 +36298,16 @@
           {
             "kind": "plural",
             "lemma": "sediment"
+          }
+        ]
+      },
+      {
+        "word": "SEEDLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "seedling",
+            "reason": "Reviewed noun plural of seedling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -38353,6 +38904,16 @@
         ]
       },
       {
+        "word": "UNIONISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "unionise",
+            "reason": "Reviewed finite past-tense form of unionise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "UNIONIZED",
         "reasons": [
           {
@@ -38740,6 +39301,26 @@
         ]
       },
       {
+        "word": "WEAKLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "weakling",
+            "reason": "Reviewed noun plural of weakling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
+        "word": "WEASELLED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "weasel",
+            "reason": "Reviewed finite past-tense form of weasel, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "WEATHERED",
         "reasons": [
           {
@@ -38938,6 +39519,16 @@
         ]
       },
       {
+        "word": "YEARLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "yearling",
+            "reason": "Reviewed noun plural of yearling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "YEARNINGS",
         "reasons": [
           {
@@ -38968,7 +39559,7 @@
   },
   "10": {
     "baseAnswers": 4260,
-    "answers": 2831,
+    "answers": 2788,
     "accepted": 32523,
     "removed": [
       {
@@ -39647,6 +40238,16 @@
         ]
       },
       {
+        "word": "APPETISERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "appetiser",
+            "reason": "Reviewed noun plural of appetiser; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "APPETIZERS",
         "reasons": [
           {
@@ -40129,6 +40730,15 @@
           {
             "kind": "past",
             "lemma": "beautify"
+          }
+        ]
+      },
+      {
+        "word": "BEDCLOTHES",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -41667,6 +42277,16 @@
         ]
       },
       {
+        "word": "CORNFLAKES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "cornflake",
+            "reason": "Reviewed noun plural of cornflake; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "CORONARIES",
         "reasons": [
           {
@@ -42135,6 +42755,16 @@
         ]
       },
       {
+        "word": "DELIMITERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "delimiter",
+            "reason": "Reviewed noun plural of delimiter; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "DELIVERIES",
         "reasons": [
           {
@@ -42167,6 +42797,16 @@
           {
             "kind": "plural",
             "lemma": "deodorant"
+          }
+        ]
+      },
+      {
+        "word": "DEODORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "deodorise",
+            "reason": "Reviewed finite past-tense form of deodorise, not merely a past-participle-only form."
           }
         ]
       },
@@ -43597,6 +44237,16 @@
         ]
       },
       {
+        "word": "FERTILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "fertilise",
+            "reason": "Reviewed finite past-tense form of fertilise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "FERTILIZED",
         "reasons": [
           {
@@ -43647,6 +44297,16 @@
           {
             "kind": "plural",
             "lemma": "flagstone"
+          }
+        ]
+      },
+      {
+        "word": "FLAMMABLES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "flammable",
+            "reason": "Reviewed noun plural of flammable; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -43822,6 +44482,16 @@
         ]
       },
       {
+        "word": "FORMALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "formalise",
+            "reason": "Reviewed finite past-tense form of formalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "FORMALIZED",
         "reasons": [
           {
@@ -43858,11 +44528,31 @@
         ]
       },
       {
+        "word": "FOSSILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "fossilise",
+            "reason": "Reviewed finite past-tense form of fossilise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "FOSSILIZED",
         "reasons": [
           {
             "kind": "past",
             "lemma": "fossilize"
+          }
+        ]
+      },
+      {
+        "word": "FOUNDLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "foundling",
+            "reason": "Reviewed noun plural of foundling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -44088,6 +44778,16 @@
           {
             "kind": "plural",
             "lemma": "gladiator"
+          }
+        ]
+      },
+      {
+        "word": "GLAMORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "glamorise",
+            "reason": "Reviewed finite past-tense form of glamorise, not merely a past-participle-only form."
           }
         ]
       },
@@ -44380,6 +45080,16 @@
         ]
       },
       {
+        "word": "HANDSHAKES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "handshake",
+            "reason": "Reviewed noun plural of handshake; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "HAPPENINGS",
         "reasons": [
           {
@@ -44403,6 +45113,16 @@
           {
             "kind": "plural",
             "lemma": "harmonica"
+          }
+        ]
+      },
+      {
+        "word": "HARMONISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "harmonise",
+            "reason": "Reviewed finite past-tense form of harmonise, not merely a past-participle-only form."
           }
         ]
       },
@@ -44700,6 +45420,16 @@
           {
             "kind": "past",
             "lemma": "hyphenate"
+          }
+        ]
+      },
+      {
+        "word": "HYPNOTISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "hypnotise",
+            "reason": "Reviewed finite past-tense form of hypnotise, not merely a past-participle-only form."
           }
         ]
       },
@@ -45514,6 +46244,16 @@
         ]
       },
       {
+        "word": "ITALICISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "italicise",
+            "reason": "Reviewed finite past-tense form of italicise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "ITALICIZED",
         "reasons": [
           {
@@ -46189,6 +46929,16 @@
         ]
       },
       {
+        "word": "MECHANISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "mechanise",
+            "reason": "Reviewed finite past-tense form of mechanise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "MECHANISMS",
         "reasons": [
           {
@@ -46482,6 +47232,16 @@
           {
             "kind": "plural",
             "lemma": "moderator"
+          }
+        ]
+      },
+      {
+        "word": "MODERNISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "modernise",
+            "reason": "Reviewed finite past-tense form of modernise, not merely a past-participle-only form."
           }
         ]
       },
@@ -46963,6 +47723,16 @@
         ]
       },
       {
+        "word": "ORGANISERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "organiser",
+            "reason": "Reviewed noun plural of organiser; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "ORGANIZERS",
         "reasons": [
           {
@@ -47413,6 +48183,16 @@
         ]
       },
       {
+        "word": "PATRONISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "patronise",
+            "reason": "Reviewed finite past-tense form of patronise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "PATRONIZED",
         "reasons": [
           {
@@ -47845,6 +48625,16 @@
         ]
       },
       {
+        "word": "PRACTICALS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "practical",
+            "reason": "Reviewed noun plural of practical; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "PRAGMATICS",
         "reasons": [
           {
@@ -47877,6 +48667,16 @@
           {
             "kind": "plural",
             "lemma": "precursor"
+          }
+        ]
+      },
+      {
+        "word": "PREDEFINED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "predefine",
+            "reason": "Reviewed finite past-tense form of predefine, not merely a past-participle-only form."
           }
         ]
       },
@@ -47944,6 +48744,16 @@
         ]
       },
       {
+        "word": "PREVIEWERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "previewer",
+            "reason": "Reviewed noun plural of previewer; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "PRIMITIVES",
         "reasons": [
           {
@@ -47994,6 +48804,16 @@
           {
             "kind": "plural",
             "lemma": "privation"
+          }
+        ]
+      },
+      {
+        "word": "PRIVATISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "privatise",
+            "reason": "Reviewed finite past-tense form of privatise, not merely a past-participle-only form."
           }
         ]
       },
@@ -48335,6 +49155,16 @@
         ]
       },
       {
+        "word": "PULVERISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "pulverise",
+            "reason": "Reviewed finite past-tense form of pulverise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "PULVERIZED",
         "reasons": [
           {
@@ -48596,11 +49426,31 @@
         ]
       },
       {
+        "word": "RECOGNISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "recognise",
+            "reason": "Reviewed finite past-tense form of recognise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "RECOGNIZED",
         "reasons": [
           {
             "kind": "past",
             "lemma": "recognize"
+          }
+        ]
+      },
+      {
+        "word": "RECOMPILED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "recompile",
+            "reason": "Reviewed finite past-tense form of recompile, not merely a past-participle-only form."
           }
         ]
       },
@@ -49060,6 +49910,16 @@
           {
             "kind": "plural",
             "lemma": "retriever"
+          }
+        ]
+      },
+      {
+        "word": "REVELLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "revelling",
+            "reason": "Reviewed noun plural of revelling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -49775,6 +50635,16 @@
         ]
       },
       {
+        "word": "SOCIALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "socialise",
+            "reason": "Reviewed finite past-tense form of socialise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "SOCIALISTS",
         "reasons": [
           {
@@ -50000,6 +50870,16 @@
         ]
       },
       {
+        "word": "STABILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "stabilise",
+            "reason": "Reviewed finite past-tense form of stabilise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "STABILIZED",
         "reasons": [
           {
@@ -50068,6 +50948,16 @@
           {
             "kind": "past",
             "lemma": "stencil"
+          }
+        ]
+      },
+      {
+        "word": "STERILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "sterilise",
+            "reason": "Reviewed finite past-tense form of sterilise, not merely a past-participle-only form."
           }
         ]
       },
@@ -50261,6 +51151,16 @@
         ]
       },
       {
+        "word": "SUBSIDISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "subsidise",
+            "reason": "Reviewed finite past-tense form of subsidise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "SUBSIDIZED",
         "reasons": [
           {
@@ -50333,6 +51233,16 @@
         ]
       },
       {
+        "word": "SUMMARISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "summarise",
+            "reason": "Reviewed finite past-tense form of summarise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "SUMMARIZED",
         "reasons": [
           {
@@ -50347,6 +51257,16 @@
           {
             "kind": "plural",
             "lemma": "sunflower"
+          }
+        ]
+      },
+      {
+        "word": "SUNGLASSES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "sunglass",
+            "reason": "Reviewed noun plural of sunglass; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -50500,6 +51420,16 @@
           {
             "kind": "plural",
             "lemma": "syllabus"
+          }
+        ]
+      },
+      {
+        "word": "SYMBOLISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "symbolise",
+            "reason": "Reviewed finite past-tense form of symbolise, not merely a past-participle-only form."
           }
         ]
       },
@@ -50693,6 +51623,16 @@
         ]
       },
       {
+        "word": "TENDERISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "tenderise",
+            "reason": "Reviewed finite past-tense form of tenderise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "TENDERIZED",
         "reasons": [
           {
@@ -50707,6 +51647,16 @@
           {
             "kind": "past",
             "lemma": "terminate"
+          }
+        ]
+      },
+      {
+        "word": "TERRORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "terrorise",
+            "reason": "Reviewed finite past-tense form of terrorise, not merely a past-participle-only form."
           }
         ]
       },
@@ -50806,6 +51756,16 @@
           {
             "kind": "plural",
             "lemma": "tightrope"
+          }
+        ]
+      },
+      {
+        "word": "TIMESCALES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "timescale",
+            "reason": "Reviewed noun plural of timescale; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -51026,6 +51986,16 @@
         ]
       },
       {
+        "word": "TRAVELINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "traveling",
+            "reason": "Reviewed noun plural of traveling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "TRAVELLERS",
         "reasons": [
           {
@@ -51125,6 +52095,16 @@
         ]
       },
       {
+        "word": "TUNNELINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "tunneling",
+            "reason": "Reviewed noun plural of tunneling; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "TURNSTILES",
         "reasons": [
           {
@@ -51157,6 +52137,16 @@
           {
             "kind": "plural",
             "lemma": "twentieth"
+          }
+        ]
+      },
+      {
+        "word": "TYRANNISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "tyrannise",
+            "reason": "Reviewed finite past-tense form of tyrannise, not merely a past-participle-only form."
           }
         ]
       },
@@ -51229,6 +52219,15 @@
           {
             "kind": "past",
             "lemma": "undermine"
+          }
+        ]
+      },
+      {
+        "word": "UNDERPANTS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -51530,6 +52529,16 @@
         ]
       },
       {
+        "word": "VISUALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "visualise",
+            "reason": "Reviewed finite past-tense form of visualise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "VISUALIZED",
         "reasons": [
           {
@@ -51616,6 +52625,16 @@
           {
             "kind": "plural",
             "lemma": "washcloth"
+          }
+        ]
+      },
+      {
+        "word": "WASTELANDS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "wasteland",
+            "reason": "Reviewed noun plural of wasteland; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -51848,7 +52867,7 @@
   },
   "11": {
     "baseAnswers": 2758,
-    "answers": 1783,
+    "answers": 1747,
     "accepted": 25693,
     "removed": [
       {
@@ -52887,6 +53906,16 @@
         ]
       },
       {
+        "word": "BREAKPOINTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "breakpoint",
+            "reason": "Reviewed noun plural of breakpoint; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "BREAKWATERS",
         "reasons": [
           {
@@ -52937,6 +53966,16 @@
           {
             "kind": "plural",
             "lemma": "bureaucrat"
+          }
+        ]
+      },
+      {
+        "word": "BUSHELLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "bushelling",
+            "reason": "Reviewed noun plural of bushelling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -53049,6 +54088,16 @@
         ]
       },
       {
+        "word": "CAPITALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "capitalise",
+            "reason": "Reviewed finite past-tense form of capitalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "CAPITALISTS",
         "reasons": [
           {
@@ -53139,6 +54188,16 @@
         ]
       },
       {
+        "word": "CATEGORISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "categorise",
+            "reason": "Reviewed finite past-tense form of categorise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "CATEGORIZED",
         "reasons": [
           {
@@ -53180,6 +54239,16 @@
           {
             "kind": "plural",
             "lemma": "centimetre"
+          }
+        ]
+      },
+      {
+        "word": "CENTRALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "centralise",
+            "reason": "Reviewed finite past-tense form of centralise, not merely a past-participle-only form."
           }
         ]
       },
@@ -54210,6 +55279,16 @@
         ]
       },
       {
+        "word": "DEMORALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "demoralise",
+            "reason": "Reviewed finite past-tense form of demoralise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "DEMORALIZED",
         "reasons": [
           {
@@ -54287,6 +55366,16 @@
           {
             "kind": "plural",
             "lemma": "descendant"
+          }
+        ]
+      },
+      {
+        "word": "DESCRIPTORS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "descriptor",
+            "reason": "Reviewed noun plural of descriptor; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -54440,6 +55529,16 @@
           {
             "kind": "plural",
             "lemma": "discomfort"
+          }
+        ]
+      },
+      {
+        "word": "DISCONNECTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "disconnect",
+            "reason": "Reviewed noun plural of disconnect; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -54845,6 +55944,16 @@
           {
             "kind": "plural",
             "lemma": "employment"
+          }
+        ]
+      },
+      {
+        "word": "ENAMELLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "enamelling",
+            "reason": "Reviewed noun plural of enamelling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -55281,6 +56390,16 @@
         ]
       },
       {
+        "word": "FERTILISERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "fertiliser",
+            "reason": "Reviewed noun plural of fertiliser; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "FERTILIZERS",
         "reasons": [
           {
@@ -55452,6 +56571,16 @@
         ]
       },
       {
+        "word": "FRATERNISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "fraternise",
+            "reason": "Reviewed finite past-tense form of fraternise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "FRATERNIZED",
         "reasons": [
           {
@@ -55484,6 +56613,16 @@
           {
             "kind": "plural",
             "lemma": "frivolity"
+          }
+        ]
+      },
+      {
+        "word": "FURNISHINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "furnishing",
+            "reason": "Reviewed noun plural of furnishing; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -55830,6 +56969,16 @@
         ]
       },
       {
+        "word": "HOMOGENISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "homogenise",
+            "reason": "Reviewed finite past-tense form of homogenise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "HOMOGENIZED",
         "reasons": [
           {
@@ -55956,6 +57105,16 @@
         ]
       },
       {
+        "word": "IDENTIFIERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "identifier",
+            "reason": "Reviewed noun plural of identifier; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "ILLITERATES",
         "reasons": [
           {
@@ -55997,6 +57156,16 @@
           {
             "kind": "plural",
             "lemma": "immensity"
+          }
+        ]
+      },
+      {
+        "word": "IMMOBILISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "immobilise",
+            "reason": "Reviewed finite past-tense form of immobilise, not merely a past-participle-only form."
           }
         ]
       },
@@ -56132,6 +57301,16 @@
           {
             "kind": "plural",
             "lemma": "incitement"
+          }
+        ]
+      },
+      {
+        "word": "INCREMENTED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "increment",
+            "reason": "Reviewed finite past-tense form of increment, not merely a past-participle-only form."
           }
         ]
       },
@@ -56312,6 +57491,16 @@
           {
             "kind": "plural",
             "lemma": "inhibition"
+          }
+        ]
+      },
+      {
+        "word": "INITIALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "initialise",
+            "reason": "Reviewed finite past-tense form of initialise, not merely a past-participle-only form."
           }
         ]
       },
@@ -56685,6 +57874,16 @@
         ]
       },
       {
+        "word": "JEOPARDISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "jeopardise",
+            "reason": "Reviewed finite past-tense form of jeopardise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "JEOPARDIZED",
         "reasons": [
           {
@@ -56784,6 +57983,16 @@
         ]
       },
       {
+        "word": "LIBERALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "liberalise",
+            "reason": "Reviewed finite past-tense form of liberalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "LIBERALIZED",
         "reasons": [
           {
@@ -56870,6 +58079,16 @@
           {
             "kind": "plural",
             "lemma": "magistrate"
+          }
+        ]
+      },
+      {
+        "word": "MAINTAINERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "maintainer",
+            "reason": "Reviewed noun plural of maintainer; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -57144,6 +58363,16 @@
         ]
       },
       {
+        "word": "MONOPOLISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "monopolise",
+            "reason": "Reviewed finite past-tense form of monopolise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "MONOPOLIZED",
         "reasons": [
           {
@@ -57225,6 +58454,16 @@
         ]
       },
       {
+        "word": "NATURALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "naturalise",
+            "reason": "Reviewed finite past-tense form of naturalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "NATURALISTS",
         "reasons": [
           {
@@ -57275,6 +58514,16 @@
           {
             "kind": "past",
             "lemma": "neighbour"
+          }
+        ]
+      },
+      {
+        "word": "NEUTRALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "neutralise",
+            "reason": "Reviewed finite past-tense form of neutralise, not merely a past-participle-only form."
           }
         ]
       },
@@ -57688,6 +58937,16 @@
         ]
       },
       {
+        "word": "PASTEURISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "pasteurise",
+            "reason": "Reviewed finite past-tense form of pasteurise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "PASTEURIZED",
         "reasons": [
           {
@@ -57729,6 +58988,16 @@
           {
             "kind": "plural",
             "lemma": "pedestrian"
+          }
+        ]
+      },
+      {
+        "word": "PENCILLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "pencilling",
+            "reason": "Reviewed noun plural of pencilling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -58116,6 +59385,16 @@
           {
             "kind": "plural",
             "lemma": "polynomial"
+          }
+        ]
+      },
+      {
+        "word": "POPULARISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "popularise",
+            "reason": "Reviewed finite past-tense form of popularise, not merely a past-participle-only form."
           }
         ]
       },
@@ -58705,6 +59984,16 @@
         ]
       },
       {
+        "word": "REFORMATTED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "reformat",
+            "reason": "Reviewed finite past-tense form of reformat, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "REFURBISHED",
         "reasons": [
           {
@@ -58782,6 +60071,16 @@
           {
             "kind": "plural",
             "lemma": "renovation"
+          }
+        ]
+      },
+      {
+        "word": "REORGANISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "reorganise",
+            "reason": "Reviewed finite past-tense form of reorganise, not merely a past-participle-only form."
           }
         ]
       },
@@ -59155,6 +60454,16 @@
         ]
       },
       {
+        "word": "SCANDALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "scandalise",
+            "reason": "Reviewed finite past-tense form of scandalise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "SCANDALIZED",
         "reasons": [
           {
@@ -59169,6 +60478,16 @@
           {
             "kind": "past",
             "lemma": "scapegoat"
+          }
+        ]
+      },
+      {
+        "word": "SCRUTINISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "scrutinise",
+            "reason": "Reviewed finite past-tense form of scrutinise, not merely a past-participle-only form."
           }
         ]
       },
@@ -59398,6 +60717,15 @@
         ]
       },
       {
+        "word": "SMITHEREENS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "SMOKESTACKS",
         "reasons": [
           {
@@ -59466,6 +60794,16 @@
           {
             "kind": "past",
             "lemma": "spearhead"
+          }
+        ]
+      },
+      {
+        "word": "SPECIALISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "specialise",
+            "reason": "Reviewed finite past-tense form of specialise, not merely a past-participle-only form."
           }
         ]
       },
@@ -59799,6 +61137,16 @@
           {
             "kind": "plural",
             "lemma": "swordfish"
+          }
+        ]
+      },
+      {
+        "word": "SYMPATHISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "sympathise",
+            "reason": "Reviewed finite past-tense form of sympathise, not merely a past-participle-only form."
           }
         ]
       },
@@ -60172,6 +61520,16 @@
         ]
       },
       {
+        "word": "TRAUMATISED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "traumatise",
+            "reason": "Reviewed finite past-tense form of traumatise, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "TRAUMATIZED",
         "reasons": [
           {
@@ -60231,6 +61589,16 @@
           {
             "kind": "plural",
             "lemma": "triplicate"
+          }
+        ]
+      },
+      {
+        "word": "TUNNELLINGS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "tunnelling",
+            "reason": "Reviewed noun plural of tunnelling; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -60465,6 +61833,16 @@
           {
             "kind": "plural",
             "lemma": "waterfront"
+          }
+        ]
+      },
+      {
+        "word": "WATERLOGGED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "waterlog",
+            "reason": "Reviewed finite past-tense form of waterlog, not merely a past-participle-only form."
           }
         ]
       },

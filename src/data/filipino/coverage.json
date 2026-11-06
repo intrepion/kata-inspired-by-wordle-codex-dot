@@ -1,0 +1,23 @@
+{
+  "version": "fil-PH-five-letter-beta-v1",
+  "language": "fil-PH",
+  "wordLength": 5,
+  "minimumZipf": 4.5,
+  "accepted": 3354,
+  "answers": 259,
+  "definedGuesses": 3354,
+  "definedAnswers": 259,
+  "reviewedExclusions": 7,
+  "reviewedMeaningCorrections": 1,
+  "inputs": {
+    "lexical-evidence.json": "c8e9ac53036bd88da1ae371665b2c5173d4c1867b6ae1a6f9ee780dab2015bae",
+    "frequency-evidence.json": "9893f6418b43afbb7b1352b64cb976c9057dd504b3ab3498b95680acf46ab05d",
+    "review.json": "94e581d13853a9c6de3178c718cb626f12c398797c699a8a5a3427766b26717e"
+  },
+  "outputs": {
+    "vocabulary.json": "14f25005aa790fc03f45c6e8670f7d4dea7e35970997c88c2c4e58fce5d09486",
+    "definitions.json": "8c7c971ea5ff6b0d0f0b874213f54cf1dff10569a8be3e54c1b37ee79f2af5a9",
+    "answer-selection.json": "1602669546ee1b647d7a6a6eee3379a5c212f0d1f074fcb95563988dacc1cf98"
+  },
+  "limitations": "Conservative source-label/frequency selection with explicit editorial exclusions; not native-human certification. Guesses are attested headwords only, not exhaustive inflection coverage. Optional vowel marks collapse meanings; labels and historical spelling frequency can be incomplete."
+}

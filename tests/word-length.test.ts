@@ -3,7 +3,7 @@ import {test} from 'node:test';import assert from 'node:assert/strict';
 import {vocabulary} from '../src/words.ts';
 test('each selectable length has independently curated answers and matching broad guesses, preserving the five-letter guide',()=>{
  for(const length of [4,5,6,7]){const {answers,allowed}=vocabulary(length);assert.ok(answers.length>500);assert.ok(allowed.size>answers.length);assert.ok(answers.every(word=>word.length===length&&allowed.has(word)));assert.ok([...allowed].every(word=>word.length===length));}
- assert.equal(vocabulary(5).answers.length,2103);assert.equal(vocabulary(5).allowed.size,11193);
+ assert.equal(vocabulary(5).answers.length,2094);assert.equal(vocabulary(5).allowed.size,11193);
 });
 import {newImpossible,submitImpossible,impossibleSnapshot,restoreImpossible} from '../src/impossible.ts';
 import {observedClues,possibleAnswers} from '../src/observations.ts';
@@ -59,11 +59,11 @@ test('length switches cancel old advice and never reuse a different-length empty
  const workers:{onmessage:AdviceWorker['onmessage'];onerror:AdviceWorker['onerror'];postMessage:(request:AdviceRequest)=>void;terminate:()=>void;terminated:boolean;request?:AdviceRequest}[]=[];
  const session=new AdviceSession(()=>{const worker={onmessage:null,onerror:null,terminated:false,postMessage(request:AdviceRequest){this.request=request},terminate(){this.terminated=true},request:undefined as AdviceRequest|undefined};workers.push(worker);return worker},()=>{});
  session.show(observedClues(newImpossible('easy',7)),'optimal');const first=workers[0],late=first.onmessage;assert.equal(first.request?.observations.wordLength,7);session.show(observedClues(newImpossible('easy',4)),'optimal');assert.equal(first.terminated,true);assert.notEqual(first.request?.key,workers[1].request?.key);
- const result={totalCandidates:1480,eligibleWords:1,suggestions:[]};workers[1].onmessage?.call(workers[1] as unknown as Worker,{data:{key:workers[1].request!.key,result}} as unknown as MessageEvent<AdviceReply>);assert.equal(session.state.phase,'ready');late?.call(first as unknown as Worker,{data:{key:first.request!.key,result:{...result,totalCandidates:4138}}} as unknown as MessageEvent<AdviceReply>);assert.equal(session.state.phase==='ready'&&session.state.result.totalCandidates,1480);session.show(null);assert.equal(session.state.phase,'hidden');
+ const result={totalCandidates:1479,eligibleWords:1,suggestions:[]};workers[1].onmessage?.call(workers[1] as unknown as Worker,{data:{key:workers[1].request!.key,result}} as unknown as MessageEvent<AdviceReply>);assert.equal(session.state.phase,'ready');late?.call(first as unknown as Worker,{data:{key:first.request!.key,result:{...result,totalCandidates:4138}}} as unknown as MessageEvent<AdviceReply>);assert.equal(session.state.phase==='ready'&&session.state.result.totalCandidates,1479);session.show(null);assert.equal(session.state.phase,'hidden');
 });
 import {execFileSync} from 'node:child_process';
 test('new length datasets reproduce offline and apply licensed morphology rather than suffix guesses',()=>{
- assert.match(execFileSync(process.execPath,['scripts/generate-lengths.mjs','--check'],{encoding:'utf8'}),/7 4138 answers 29870 guesses/);
+ assert.match(execFileSync(process.execPath,['scripts/generate-lengths.mjs','--check'],{encoding:'utf8'}),/7 4121 answers 29870 guesses/);
  for(const [length,removed] of [[4,['CATS','FEET','WENT','SAID']],[6,['HOUSES','BAKERS','CALLED']],[7,['FARMERS','BROUGHT','WROUGHT']]] as const)for(const word of removed){assert.ok(vocabulary(length).allowed.has(word),word);assert.ok(!vocabulary(length).answers.includes(word),word)}
  for(const [length,kept] of [[4,['DEAD','SEED','BORE','ROSE','DOVE','FEED','WEED','SHOT','DATA']],[6,['PLANET','GROUND']],[7,['JOURNEY','THOUGHT','OVERLAY','REBOUND','WORSTED']]] as const)for(const word of kept)assert.ok(vocabulary(length).answers.includes(word),word);
 });

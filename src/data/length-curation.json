@@ -1,7 +1,7 @@
 {
   "4": {
     "baseAnswers": 1889,
-    "answers": 1480,
+    "answers": 1479,
     "accepted": 4964,
     "removed": [
       {
@@ -100,6 +100,15 @@
           {
             "kind": "plural",
             "lemma": "ale"
+          }
+        ]
+      },
+      {
+        "word": "ALMS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -3717,7 +3726,7 @@
   },
   "6": {
     "baseAnswers": 5360,
-    "answers": 3166,
+    "answers": 3148,
     "accepted": 19816,
     "removed": [
       {
@@ -4000,6 +4009,15 @@
         ]
       },
       {
+        "word": "AMENDS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "AMUSED",
         "reasons": [
           {
@@ -4050,6 +4068,16 @@
           {
             "kind": "plural",
             "lemma": "ankle"
+          }
+        ]
+      },
+      {
+        "word": "ANNALS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "annal",
+            "reason": "Reviewed noun plural of annal; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -5116,6 +5144,16 @@
           {
             "kind": "plural",
             "lemma": "bluff"
+          }
+        ]
+      },
+      {
+        "word": "BLUNTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "blunt",
+            "reason": "Reviewed noun plural of blunt; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -7180,6 +7218,16 @@
         ]
       },
       {
+        "word": "COSTED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "cost",
+            "reason": "Reviewed finite past-tense form of cost, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "COUGHS",
         "reasons": [
           {
@@ -8651,6 +8699,16 @@
         ]
       },
       {
+        "word": "EMBEDS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "embed",
+            "reason": "Reviewed noun plural of embed; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "EMBERS",
         "reasons": [
           {
@@ -8872,6 +8930,15 @@
           {
             "kind": "plural",
             "lemma": "facet"
+          }
+        ]
+      },
+      {
+        "word": "FAECES",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -12925,6 +12992,16 @@
         ]
       },
       {
+        "word": "LAZIES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "lazy",
+            "reason": "Reviewed noun plural of lazy; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "LEADED",
         "reasons": [
           {
@@ -13940,6 +14017,16 @@
         ]
       },
       {
+        "word": "MERGES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "merge",
+            "reason": "Reviewed noun plural of merge; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "MERITS",
         "reasons": [
           {
@@ -14377,6 +14464,16 @@
           {
             "kind": "past",
             "lemma": "mouse"
+          }
+        ]
+      },
+      {
+        "word": "MOUSES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "mouse",
+            "reason": "Reviewed noun plural of mouse; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -14903,6 +15000,15 @@
           {
             "kind": "plural",
             "lemma": "onus"
+          }
+        ]
+      },
+      {
+        "word": "OODLES",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },
@@ -15882,6 +15988,16 @@
         ]
       },
       {
+        "word": "PLIERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "plier",
+            "reason": "Reviewed noun plural of plier; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "PLOWED",
         "reasons": [
           {
@@ -16391,6 +16507,16 @@
           {
             "kind": "plural",
             "lemma": "psalm"
+          }
+        ]
+      },
+      {
+        "word": "PSYCHS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "psych",
+            "reason": "Reviewed noun plural of psych; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -17174,6 +17300,16 @@
           {
             "kind": "past",
             "lemma": "reuse"
+          }
+        ]
+      },
+      {
+        "word": "REUSES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "reuse",
+            "reason": "Reviewed noun plural of reuse; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -18105,6 +18241,16 @@
           {
             "kind": "plural",
             "lemma": "scowl"
+          }
+        ]
+      },
+      {
+        "word": "SCRAMS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "scram",
+            "reason": "Reviewed noun plural of scram; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -20740,6 +20886,16 @@
         ]
       },
       {
+        "word": "SWEARS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "swear",
+            "reason": "Reviewed noun plural of swear; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "SWEATS",
         "reasons": [
           {
@@ -20790,6 +20946,16 @@
           {
             "kind": "plural",
             "lemma": "swill"
+          }
+        ]
+      },
+      {
+        "word": "SWINES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "swine",
+            "reason": "Reviewed noun plural of swine; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -21415,6 +21581,16 @@
           {
             "kind": "plural",
             "lemma": "tiger"
+          }
+        ]
+      },
+      {
+        "word": "TIGHTS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "tight",
+            "reason": "Reviewed noun plural of tight; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -23326,6 +23502,16 @@
         ]
       },
       {
+        "word": "WOULDS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "would",
+            "reason": "Reviewed noun plural of would; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "WOUNDS",
         "reasons": [
           {
@@ -23554,7 +23740,7 @@
   },
   "7": {
     "baseAnswers": 6803,
-    "answers": 4138,
+    "answers": 4121,
     "accepted": 29870,
     "removed": [
       {
@@ -24242,6 +24428,16 @@
           {
             "kind": "past",
             "lemma": "array"
+          }
+        ]
+      },
+      {
+        "word": "ARREARS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "arrear",
+            "reason": "Reviewed noun plural of arrear; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -25299,6 +25495,16 @@
           {
             "kind": "past",
             "lemma": "block"
+          }
+        ]
+      },
+      {
+        "word": "BLOGGED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "blog",
+            "reason": "Reviewed finite past-tense form of blog, not merely a past-participle-only form."
           }
         ]
       },
@@ -27556,6 +27762,15 @@
         ]
       },
       {
+        "word": "CLOTHES",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "CLOTTED",
         "reasons": [
           {
@@ -27732,6 +27947,16 @@
           {
             "kind": "plural",
             "lemma": "collie"
+          }
+        ]
+      },
+      {
+        "word": "COLONES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "colón",
+            "reason": "Reviewed noun plural of colón; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -34079,6 +34304,15 @@
         ]
       },
       {
+        "word": "INNARDS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "INNINGS",
         "reasons": [
           {
@@ -34439,6 +34673,16 @@
         ]
       },
       {
+        "word": "JITTERS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "jitter",
+            "reason": "Reviewed noun plural of jitter; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "JOCKEYS",
         "reasons": [
           {
@@ -34628,6 +34872,16 @@
           {
             "kind": "plural",
             "lemma": "kettle"
+          }
+        ]
+      },
+      {
+        "word": "KIDNAPS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "kidnap",
+            "reason": "Reviewed noun plural of kidnap; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -35132,6 +35386,16 @@
           {
             "kind": "plural",
             "lemma": "liquor"
+          }
+        ]
+      },
+      {
+        "word": "LISTENS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "listen",
+            "reason": "Reviewed noun plural of listen; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -40066,6 +40330,15 @@
         ]
       },
       {
+        "word": "REGALIA",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
+          }
+        ]
+      },
+      {
         "word": "REGARDS",
         "reasons": [
           {
@@ -40179,6 +40452,16 @@
           {
             "kind": "plural",
             "lemma": "reload"
+          }
+        ]
+      },
+      {
+        "word": "REMAINS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "remain",
+            "reason": "Reviewed noun plural of remain; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -40372,6 +40655,16 @@
         ]
       },
       {
+        "word": "REREADS",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "reread",
+            "reason": "Reviewed noun plural of reread; an overlapping inflected present-tense reading does not supply an independent base sense."
+          }
+        ]
+      },
+      {
         "word": "RESCUED",
         "reasons": [
           {
@@ -40503,6 +40796,16 @@
           {
             "kind": "plural",
             "lemma": "retort"
+          }
+        ]
+      },
+      {
+        "word": "RETRIES",
+        "reasons": [
+          {
+            "kind": "plural",
+            "lemma": "retry",
+            "reason": "Reviewed noun plural of retry; an overlapping inflected present-tense reading does not supply an independent base sense."
           }
         ]
       },
@@ -41439,6 +41742,15 @@
           {
             "kind": "past",
             "lemma": "scorn"
+          }
+        ]
+      },
+      {
+        "word": "SCOTCHS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed apparent variant inflection of scotch in SCOWL; no qualifying independent English base-word sense was established. This uncertain spelling is not presented as a verified standard plural."
           }
         ]
       },
@@ -45735,6 +46047,16 @@
         ]
       },
       {
+        "word": "TRIALED",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "trial",
+            "reason": "Reviewed finite past-tense form of trial, not merely a past-participle-only form."
+          }
+        ]
+      },
+      {
         "word": "TRICKED",
         "reasons": [
           {
@@ -46262,6 +46584,16 @@
           {
             "kind": "plural",
             "lemma": "unity"
+          }
+        ]
+      },
+      {
+        "word": "UNSTUCK",
+        "reasons": [
+          {
+            "kind": "past",
+            "lemma": "unstick",
+            "reason": "Reviewed finite past-tense form of unstick, not merely a past-participle-only form."
           }
         ]
       },
@@ -47125,6 +47457,15 @@
         ]
       },
       {
+        "word": "WHISKYS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed apparent variant plural spelling of whisky in SCOWL; no qualifying independent base-word sense was established. This uncertain spelling is not presented as a verified standard plural."
+          }
+        ]
+      },
+      {
         "word": "WHIZZED",
         "reasons": [
           {
@@ -47309,6 +47650,15 @@
           {
             "kind": "plural",
             "lemma": "witch"
+          }
+        ]
+      },
+      {
+        "word": "WITHERS",
+        "reasons": [
+          {
+            "kind": "reviewed",
+            "reason": "Reviewed plural-only noun; no common independent singular or uninflected base sense qualifies for this answer list."
           }
         ]
       },

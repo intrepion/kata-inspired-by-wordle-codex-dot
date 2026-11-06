@@ -1,6 +1,7 @@
 import {definitionText,type DefinitionResult} from './definitions.ts';
 import {teachingFor} from './learning.ts';
 import {TranslationClient} from './translations.ts';
+import {filipinoDefinition} from './filipino-definitions.ts';
 import type {Language} from './language.ts';
 type Table=Record<string,{partOfSpeech:string;senses:string[]}[]>;
 const loaders:Record<number,()=>Promise<Table>>={
@@ -24,6 +25,7 @@ const englishPending=new Map<number,Promise<Table>>();
 const pending=new Map<number,Promise<Table>>();const translations=new TranslationClient();
 /** Same-origin static chunks only. Source links are attribution, never fetched here. */
 export async function localDefinition(word:string,language:Language):Promise<DefinitionResult>{
+ if(language==='fil-PH')return filipinoDefinition(word);
  if(language==='es-MX'){
   const teaching=teachingFor(word,language);
   if(teaching?.translation.trim())return {word,entries:[{partOfSpeech:'English meaning · reviewed learning material',senses:[definitionText(teaching.translation)]}],sourceUrl:'./third-party/spanish-teaching/NOTICE.txt',sourceLabel:'AI-authored teaching · independently model-reviewed · CC BY-SA 4.0',license:'CC-BY-SA-4.0',note:'Original learning material, not a dictionary quotation or human/native-certified translation.'};

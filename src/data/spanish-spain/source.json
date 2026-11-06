@@ -1,0 +1,39 @@
+{
+  "version": "es-ES-rla-2.9-wiktionary-wordfreq-v1",
+  "locale": "es-ES",
+  "dictionary": {
+    "project": "Recursos Lingüísticos Abiertos del Español",
+    "release": "2.9",
+    "tag": "v2.9",
+    "revision": "ea82c1214ead57740798acf66a1e18e5ac874c41",
+    "source": "https://github.com/sbosio/rla-es/tree/ea82c1214ead57740798acf66a1e18e5ac874c41",
+    "artifactUrl": "https://github.com/sbosio/rla-es/releases/download/v2.9/es_ES.xpi",
+    "artifactSha256": "49157e6094f70d1c136efa0843c304e4977307c1e0b2b2716f480399fb8385ef",
+    "licenseChoice": "MPL-1.1",
+    "originalLicenseOptions": "GPL-3.0-or-later OR LGPL-3.0-or-later OR MPL-1.1-or-later",
+    "parser": "nspell 2.1.5 (MIT), development only",
+    "files": {
+      "GPLv3.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "LGPLv3.txt": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "LICENSE.md": "2b70fd5cb8d3b34cc6ae322c969557a2270b99017594addb2531ef5ffd9e1b17",
+      "MPL-1.1.txt": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f",
+      "README.txt": "455632a3a3588573452522fb745cf28fe695b886a7e662d0a493f3237f7d46ed",
+      "es-ES.aff": "e73a9bf8e1383f4986a5dc9e2fbed49371c0c61f511c626d15586bd433c1cad9",
+      "es-ES.dic": "92992d3bd1c393cab1c66d954802466ae44964ccbd23953c22dafa0bb4e37341"
+    },
+    "policy": "Expand the pinned es-ES dictionary with nspell 2.1.5 (MIT, development only), lowercase NFC forms of 3–11 Spanish letters. Preserve accents, Ü and Ñ."
+  },
+  "inputs": {
+    "lexical-evidence.json": "a9028810bcd21fd054b4ae988e5056e07648d6e1801bcb004eea2b09d7cb2648",
+    "extended-lexical-evidence.json": "ea1c59cfccb07d77423dd4ca5550f4c10a66860abad31e73e885e97be4442663",
+    "frequency-evidence.json": "6b86854712ff4a34e8f30e34c9395356c48dd6da4e73f41cda72ce5183c1ab24",
+    "extended-frequency-evidence.json": "f86515216d6f8eb27d454d239dc492c467c40d613adc6e5eb233b1354c6f7d69",
+    "selection-overrides.json": "7a7a75e29a657b3c82bf22810bad89bcdcee3da34e7e728d38e10c42ccbbf173",
+    "selection-source.json": "0960fe03d0ddfce64e92914bae7f47ff874ce834b1bf8365975a3ae640e15086",
+    "extended-source.json": "ccd78072f8d356517a34feed8fc565b3ae6503dbd8cf8f134acdae9f9824a0a6"
+  },
+  "minimumZipf": 3.5,
+  "sourceNotes": "Reuse the pinned Spanish Wiktionary and wordfreq extracts described by spanish/selection-source.json and spanish/extended-source.json. Their acquisition was scoped to es-MX accepted forms and frequency-qualified entries; unrepresented es-ES words remain guess-only. No country-specific corpus-frequency claim.",
+  "selection": "es-ES RLA spelling filter, Zipf >= 3.5, source-labelled independent nonplural base senses suitable for Spain, inherited morphology/commonness exclusions, and explicit Spain sense overrides. No per-length count cap.",
+  "definitionLicense": "CC-BY-SA-4.0"
+}

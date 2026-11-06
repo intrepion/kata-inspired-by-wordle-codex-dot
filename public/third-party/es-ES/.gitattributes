@@ -1,0 +1,9 @@
+# Preserve byte-identical upstream dictionary and license whitespace.
+*.aff -whitespace
+*.dic -whitespace
+GPLv3.txt -whitespace
+LGPLv3.txt -whitespace
+MPL-1.1.txt -whitespace
+LICENSE.md -whitespace
+README.txt -whitespace
+CC-BY-SA-4.0.txt -whitespace

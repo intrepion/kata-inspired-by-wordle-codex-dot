@@ -1,0 +1,49 @@
+Lexi Conquest: Español (España), dataset es-ES-rla-2.9-wiktionary-wordfreq-v1
+
+Accepted spelling forms
+Recursos Lingüísticos Abiertos del Español (RLA-es), release 2.9.
+https://github.com/sbosio/rla-es/tree/ea82c1214ead57740798acf66a1e18e5ac874c41
+https://github.com/sbosio/rla-es/releases/download/v2.9/es_ES.xpi
+Original es-ES.aff and es-ES.dic are retained here unmodified, together with
+upstream README and license texts. This project chooses MPL 1.1 from the
+upstream MPL/GPL/LGPL options. The generated spelling lists are modifications
+of these sources and remain covered by MPL 1.1. Their source and generator
+are available in the repository. nspell 2.1.5 (MIT) is build-only, not shipped
+as runtime code. The dictionary records spellings, not regional commonness.
+
+Answer selection and dictionary meanings
+Wiktionary contributors, Spanish-language Wiktionary, CC BY-SA 4.0.
+https://es.wiktionary.org/
+https://kaikki.org/dictionary/rawdata.html
+Retained evidence was extracted by Wiktextract and distributed by Kaikki.
+The Spanish-edition raw artifacts do not supply exact source-page revisions.
+Per-entry raw-line hashes and word source links remain in the shared evidence.
+The original pinned 4–7-letter and extended extracts and artifact hashes are
+recorded in src/data/spanish/selection-source.json and extended-source.json.
+The Spain pack reuses those extracts under their original license; it does
+not claim that those mixed-region data were acquired specifically for Spain.
+Definitions are abridged, formatting is removed, supplied labels are retained,
+and answer senses are filtered and ordered for Spain. They are Spanish text,
+not English translations or Mexico-context AI-authored lessons.
+
+wordfreq 3.0.2, Robyn Speer and contributors, data CC BY-SA 4.0, code MIT.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+Full wordfreq acknowledgments and underlying source credits, including
+SUBTLEX, are retained in ../spanish-selection/wordfreq-README.md, with its MIT
+license alongside it. General Spanish spelling frequencies are not
+Spain-specific, current, or sense-specific frequency measurements.
+
+The combined answer selection, meanings and adaptation metadata are under
+CC BY-SA 4.0. A copy is included here. See src/data/spanish-spain/source.json,
+review.json, coverage.json, and scripts/generate-spanish-spain.mjs for exact
+pinned inputs, modifications and reproducible output checksums. Reproduce
+with: node scripts/generate-spanish-spain.mjs --check
+
+Limitations
+The reused lexical extraction was scoped to Mexican-dictionary accepted
+spellings at Zipf >= 3.5. An es-ES spelling absent from that evidence remains
+a valid guess but cannot automatically become an answer. All selected answers
+have bundled source meanings; broader guess definitions are incomplete.
+Source regional labels and model review are not native-human certification.
+Other-region and grammatical labels may appear in guess-only definitions.
+Accents, Ü and Ñ remain distinct. The Mexico pack is unchanged.

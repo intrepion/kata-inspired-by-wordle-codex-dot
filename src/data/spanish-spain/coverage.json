@@ -1,0 +1,85 @@
+{
+  "version": "es-ES-rla-2.9-wiktionary-wordfreq-v1",
+  "locale": "es-ES",
+  "minimumZipf": 3.5,
+  "lengths": {
+    "3": {
+      "answers": 142,
+      "guesses": 536,
+      "definedAnswers": 142,
+      "definedGuesses": 201
+    },
+    "4": {
+      "answers": 466,
+      "guesses": 3029,
+      "definedAnswers": 466,
+      "definedGuesses": 760
+    },
+    "5": {
+      "answers": 856,
+      "guesses": 10485,
+      "definedAnswers": 856,
+      "definedGuesses": 1659
+    },
+    "6": {
+      "answers": 947,
+      "guesses": 24077,
+      "definedAnswers": 947,
+      "definedGuesses": 2017
+    },
+    "7": {
+      "answers": 1057,
+      "guesses": 47068,
+      "definedAnswers": 1057,
+      "definedGuesses": 2392
+    },
+    "8": {
+      "answers": 1013,
+      "guesses": 73371,
+      "definedAnswers": 1013,
+      "definedGuesses": 2287
+    },
+    "9": {
+      "answers": 742,
+      "guesses": 95311,
+      "definedAnswers": 742,
+      "definedGuesses": 1737
+    },
+    "10": {
+      "answers": 575,
+      "guesses": 107232,
+      "definedAnswers": 575,
+      "definedGuesses": 1282
+    },
+    "11": {
+      "answers": 384,
+      "guesses": 99801,
+      "definedAnswers": 384,
+      "definedGuesses": 811
+    }
+  },
+  "reviewSha256": "9bd19a7a2502e619a4cec5146726bd7e27205d711b1bd6d43ad1d512488fe41e",
+  "inputs": {
+    "lexical-evidence.json": "a9028810bcd21fd054b4ae988e5056e07648d6e1801bcb004eea2b09d7cb2648",
+    "extended-lexical-evidence.json": "ea1c59cfccb07d77423dd4ca5550f4c10a66860abad31e73e885e97be4442663",
+    "frequency-evidence.json": "6b86854712ff4a34e8f30e34c9395356c48dd6da4e73f41cda72ce5183c1ab24",
+    "extended-frequency-evidence.json": "f86515216d6f8eb27d454d239dc492c467c40d613adc6e5eb233b1354c6f7d69",
+    "selection-overrides.json": "7a7a75e29a657b3c82bf22810bad89bcdcee3da34e7e728d38e10c42ccbbf173",
+    "selection-source.json": "0960fe03d0ddfce64e92914bae7f47ff874ce834b1bf8365975a3ae640e15086",
+    "extended-source.json": "ccd78072f8d356517a34feed8fc565b3ae6503dbd8cf8f134acdae9f9824a0a6"
+  },
+  "outputs": {
+    "vocabulary.json": "38d49b4d7ee18aa3915a3d4415e1864b63d201c5e277fb3bc2ad9b56bd75e7ca",
+    "answer-selection.json": "c88834c36790f76362ade0906efe2a799c38320b6b711735d9ad8f5a04d69c4d",
+    "definitions-3.json": "ffc78fbe1f036daeb771d520bc9a7fd549c2e79494ccd845844d19e4bc358d1d",
+    "definitions-4.json": "98eb807a0e371c5fdb7e41fbf2d88cb9a44f830c92053a80168f45ab435262cc",
+    "definitions-5.json": "d4dbe5f40715353ff0fb32e7ca3f147677a920704f579fed96207b64ce1e4cf4",
+    "definitions-6.json": "0860fd01c4500d86fd9d8a1a55d62a61bb1ee5b5afd318d7c16b217235733be6",
+    "definitions-7.json": "e3c365cb47ee7d4db15f30fae91fb9a4d40936d6672196a79438331865bc6160",
+    "definitions-8.json": "ce69681b83ddba5596f8ee0a11182c7c6095ab7aa86e7019d20b1abd7a1aa808",
+    "definitions-9.json": "6fdef0b6c5afeb8b42ced3af1d1c6ad35253518b52f083225baf7b9a9fec3e84",
+    "definitions-10.json": "275acbf9c76a52a935858226ffe6054b74a3adf230da7ca0b6e67f401aee4266",
+    "definitions-11.json": "211c7d988bd8c3f865cb18b35c4efada1fce0a833069b9beea17ef2fc25086ae"
+  },
+  "limitations": "Reuse the pinned Spanish Wiktionary and wordfreq extracts described by spanish/selection-source.json and spanish/extended-source.json. Their acquisition was scoped to es-MX accepted forms and frequency-qualified entries; unrepresented es-ES words remain guess-only. No country-specific corpus-frequency claim. Definitions are selected Spanish-language Wiktionary meanings, not English translations. General spelling frequency and source labels do not certify every sense as common throughout Spain. No native-human review."
+}

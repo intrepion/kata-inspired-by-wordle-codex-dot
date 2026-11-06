@@ -1,0 +1,20 @@
+{
+  "method": "Model review of newly eligible Spain senses and inherited exclusions. Not human/native certification or a Spain-specific frequency study.",
+  "policy": "Keep inherited grammar, homograph, commonness and suitability exclusions, except COGER whose coarse Mexico reading does not make its ordinary Spain grasp/take sense unsuitable. The explicit new exclusions below prevent spelling frequency for another reading from qualifying a marginal sense.",
+  "preferred": {
+    "COCHE": {"entry": 0, "sense": 1, "reason": "Use the Spain-labelled motor vehicle meaning before the historical carriage meaning."},
+    "PISO": {"entry": 0, "sense": 3, "reason": "Show the ordinary Spain apartment meaning before the action of stepping."},
+    "MÓVIL": {"entry": 1, "sense": 3, "reason": "Prefer the ordinary mobile telephone noun for this regional pack."},
+    "PATATA": {"entry": 0, "sense": 1, "reason": "Prefer the edible potato tuber to the long botanical description."},
+    "ORDENADOR": {"entry": 0, "sense": 0, "reason": "Prefer the Spain-labelled computer meaning."},
+    "CHINA": {"entry": 2, "sense": 0, "reason": "Independent ordinary small-stone noun, not the country name or feminine agreement form."},
+    "COGER": {"entry": 0, "sense": 1, "overrideInheritedExclusion": true, "reason": "Ordinary neutral Spain infinitive meaning to take or grasp, explicitly source-labelled Spain."},
+    "VALE": {"entry": 1, "sense": 0, "reason": "Independent assent interjection, not the conjugation of valer."}
+  },
+  "newlyEligibleReviewed": ["BIRRA", "CHAVAL", "CHINA", "COGER", "GUAY", "ICONO", "JUDÍA", "PATATA", "SAUDÍ", "TIROTEO", "ULTRA", "VENGA", "VÍDEO", "CERCANÍAS"],
+  "excluded": {
+    "FLASH": "The retained Spain sense is a specific frozen treat; spelling frequency also reflects the photographic loanword and does not establish that retained sense as common.",
+    "SALIDO": "The only qualifying independent Spain sense is sexually charged; keep it guess-only under the inherited conservative suitability approach.",
+    "TUS": "Spelling frequency reflects the possessive plural, not the retained uncommon dog-calling interjection. Keep it guess-only."
+  }
+}

@@ -23,8 +23,8 @@ test('completion records are isolated and idempotent across schedules',async()=>
  const answer=dailyLetroso('2026-11-02',3,'en'),run=submitLetroso(newLetroso(answer,'en','normal'),answer).run;const records=addLetrosoResult([],'day','2026-11-02',run);assert.equal(addLetrosoResult(records,'day','2026-11-02',run).length,1);assert.equal(summarizeSmash(records,'all','all','2026-11-02').wins,1);assert.equal(summarizeSmash(records,'hard','all','2026-11-02').played,0);
 });
 test('Easy suggestions depend only on public clues and stay consistent',async()=>{
- const {suggestLetroso}=await import('../src/letroso.ts');const a=newLetroso('APPLE','en','easy'),b=newLetroso('CRANE','en','easy');assert.deepEqual(suggestLetroso(a),suggestLetroso(b));
- const run=submitLetroso(a,'CRANE').run,result=suggestLetroso(run);for(const word of result.words)assert.deepEqual(orderFeedback(word,'CRANE'),orderFeedback('APPLE','CRANE'));
+ const {observedLetrosoClues,possibleLetrosoAnswers}=await import('../src/letroso-advice.ts');const candidates=(run:Parameters<typeof observedLetrosoClues>[0])=>possibleLetrosoAnswers(observedLetrosoClues(run));const a=newLetroso('APPLE','en','easy'),b=newLetroso('CRANE','en','easy');assert.deepEqual(candidates(a),candidates(b));
+ const run=submitLetroso(a,'CRANE').run,result=candidates(run);for(const word of result)assert.deepEqual(orderFeedback(word,'CRANE'),orderFeedback('APPLE','CRANE'));
 });
 test('unlimited play continues beyond six and restores all guesses',()=>{
  const answer=dailyLetroso('2026-11-02',3,'en');let run=newLetroso(answer,'en','normal');const choices=[...vocabulary(3,'en').allowed].filter(w=>w!==answer).slice(0,7);

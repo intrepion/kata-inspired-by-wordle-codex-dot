@@ -1,3 +1,4 @@
+import {observedLetrosoClues,possibleLetrosoAnswers} from '../src/letroso-advice.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -14,7 +15,7 @@ import {adviceKey} from '../src/advice-protocol.ts';
 import {analyzeObservations} from '../src/evil-advice.ts';
 import {dailyOneMix} from '../src/daily-variants.ts';
 import {smashPairCount,dailySmashPair,newSmashRun,submitSmash,restoreSmashRun} from '../src/smashare.ts';
-import {dailyHiddenLetroso,practiceHiddenLetroso,newLetroso,submitLetroso,restoreLetroso,suggestLetroso,letrosoShare} from '../src/letroso.ts';
+import {dailyHiddenLetroso,practiceHiddenLetroso,newLetroso,submitLetroso,restoreLetroso,letrosoShare} from '../src/letroso.ts';
 import {invalidDraft} from '../src/draft-validity.ts';
 import {localDefinition} from '../src/local-definitions.ts';
 import {DefinitionClient,parseDefinitions} from '../src/definitions.ts';
@@ -88,7 +89,7 @@ test('Filipino Letroso uses only supported lengths, rejects other lengths withou
  const run=newLetroso('BUHAY',language,'normal');for(const word of ['ARAW','BAHAYAN','BA'])assert.ok(submitLetroso(run,word).error);
  assert.equal(submitLetroso(run,'búhay').run.guesses[0],'BUHAY');assert.equal(invalidDraft('ARAW','letroso',5,language),true);assert.equal(invalidDraft('BAHAY','letroso',5,language),false);
  assert.equal(restoreLetroso({...run,draft:'BAHAYA'},language,5),undefined);assert.equal(restoreLetroso({...run,length:4,answer:'ARAW'},language,4),undefined);
- assert.ok(suggestLetroso(run).words.every(word=>word.length===5));assert.match(letrosoShare(run,date),/Filipino/);
+ assert.ok(possibleLetrosoAnswers(observedLetrosoClues(run)).every(word=>word.length===5));assert.match(letrosoShare(run,date),/Filipino/);
 });
 
 test('Filipino advice uses matching pools and language-specific cache identity without hidden answers',()=>{

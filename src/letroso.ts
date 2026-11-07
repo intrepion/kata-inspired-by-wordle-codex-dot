@@ -68,13 +68,3 @@ export function restoreLetroso(raw:unknown,language:Language,length:number,expec
  return {...run,draft,...(v.started===false?{started:false}:{}),easiest:v.easiest??v.difficulty!,assisted:v.assisted??false,...(v.roundId?{roundId:v.roundId}:{})};
  }catch{return}}
 export function letrosoShare(run:LetrosoRun,date:string):string {const glyph={ordered:'🟩',present:'🟨',absent:'⬛'};return `Lexi Conquest${run.language==='en'?'':` · ${languageLabel(run.language)}`} · Letroso · ${date} UTC · ${run.length} letters\n${letrosoStatus(run)==='won'?run.guesses.length:'X'} guesses\n${run.guesses.map(g=>orderFeedback(run.answer,g,run.language,run.dutchRules).map(t=>`${t.joinPrevious?'─':''}${t.start?'(' : ''}${glyph[t.kind]}${t.end?')':''}`).join('')).join('\n')}`}
-/** Unranked candidates inferred solely from public clue rows; the search is bounded. */
-export function suggestLetroso(run:LetrosoRun,limit=5,budget=500):{words:string[];scanned:number;truncated:boolean}{
- const observations=run.guesses.map(guess=>signature(orderFeedback(run.answer,guess,run.language,run.dutchRules))),pool=supportedLengths(run.language).flatMap(length=>vocabulary(length,run.language).answers),words:string[]=[],seen=new Set<string>();let scanned=0;
- for(const word of pool){if(scanned>=budget)return {words,scanned,truncated:true};scanned++;if(run.guesses.some(guess=>normalizeGuess(guess,run.language,run.dutchRules)===normalizeGuess(word,run.language,run.dutchRules)))continue;
-  const key=normalizeGuess(word,run.language,run.dutchRules);
-  if(!seen.has(key)&&run.guesses.every((guess,i)=>signature(orderFeedback(word,guess,run.language,run.dutchRules))===observations[i])){words.push(word);seen.add(key)}
-  if(words.length>=limit)return {words,scanned,truncated:scanned<pool.length};
- }
- return {words,scanned,truncated:false};
-}

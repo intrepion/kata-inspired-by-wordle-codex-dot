@@ -1,3 +1,4 @@
+import {observedLetrosoClues,possibleLetrosoAnswers} from '../src/letroso-advice.ts';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -14,7 +15,7 @@ import {adviceKey} from '../src/advice-protocol.ts';
 import {analyzeObservations,feedbackCode} from '../src/evil-advice.ts';
 import {dailyOneMix,dailyAbsurdTarget} from '../src/daily-variants.ts';
 import {smashPairCount,dailySmashPair,newSmashRun,submitSmash,restoreSmashRun} from '../src/smashare.ts';
-import {dailyHiddenLetroso,practiceHiddenLetroso,newLetroso,submitLetroso,restoreLetroso,suggestLetroso,letrosoShare} from '../src/letroso.ts';
+import {dailyHiddenLetroso,practiceHiddenLetroso,newLetroso,submitLetroso,restoreLetroso,letrosoShare} from '../src/letroso.ts';
 import {invalidDraft} from '../src/draft-validity.ts';
 import {localDefinition} from '../src/local-definitions.ts';
 import {DefinitionClient,parseDefinitions} from '../src/definitions.ts';
@@ -89,7 +90,7 @@ test('Dutch Letroso accepts every supported length and preserves accent spelling
   const answer=vocabulary(length,language).answers[0],run=newLetroso(answer,language,level),solved=submitLetroso(run,answer);assert.equal(solved.error,undefined);
   assert.deepEqual(restoreLetroso(solved.run,language,length),solved.run);assert.ok(submitLetroso(run,'AA').error);assert.match(letrosoShare(solved.run,date),/Nederlands/);
  }
- const run=newLetroso('WATER',language,'easy');assert.ok(suggestLetroso(run).words.every(word=>vocabulary(word.length,language).answers.includes(word)));
+ const run=newLetroso('WATER',language,'easy');assert.ok(possibleLetrosoAnswers(observedLetrosoClues(run)).every(word=>vocabulary(word.length,language).answers.includes(word)));
 });
 
 test('Dutch advice uses matching pools and separate language cache identity',()=>{

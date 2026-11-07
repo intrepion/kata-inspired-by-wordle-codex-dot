@@ -101,7 +101,7 @@ test('Dutch advice uses matching pools and separate language cache identity',()=
 
 test('Dutch saves and statistics stay isolated without resetting existing languages',()=>{
  for(const path of ['/','/kata-inspired-by-wordle-codex-dot/']){
-  const keys=LANGUAGES.map(lang=>activeSaveKeyForPath(path,5,lang));assert.equal(new Set(keys).size,LANGUAGES.length);assert.ok(keys.at(-1)!.endsWith('.nl-NL'));
+  const keys=LANGUAGES.map(lang=>activeSaveKeyForPath(path,5,lang));assert.equal(new Set(keys).size,LANGUAGES.length);assert.ok(activeSaveKeyForPath(path,5,'nl-NL').endsWith('.nl-NL'));
   const state=new Map([[keys[0],'english'],[keys[1],'spanish'],[keys[2],'filipino'],[keys[3],'dutch'],[storageEpochKey(path),STORAGE_EPOCH],['unrelated','keep'],[activeSaveKeyForPath(path)+'.import-complete','1']]);
   const storage={get length(){return state.size},key:(i:number)=>[...state.keys()][i]??null,getItem:(key:string)=>state.get(key)??null,setItem:(key:string,value:string)=>{state.set(key,value)},removeItem:(key:string)=>{state.delete(key)}};
   const before=[...state];assert.equal(resetStorageForUpdate(storage,path),false);assert.equal(preserveEnglishStorageForUpdate(storage,path),0);assert.deepEqual([...state],before);

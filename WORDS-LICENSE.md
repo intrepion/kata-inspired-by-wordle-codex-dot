@@ -342,3 +342,20 @@ Playable English now has separate `en-US`, `en-GB` and `en-AU` lists generated b
 Spanish (Spain) source selection, transformations and license choices are documented in [docs/spanish-spain-sources.md](docs/spanish-spain-sources.md). The retained [Spain notice](public/third-party/es-ES/NOTICE.txt) identifies RLA-es 2.9 and Wiktionary evidence. Spain definitions are Spanish-language meanings, not translations or Mexico-specific lessons.
 
 French Canada/France sources, regional review and transformations are documented in [docs/french-varieties.md](docs/french-varieties.md) and by the retained [French notice](public/third-party/fr/NOTICE.txt) and the source manifests in `src/data/french/`. English Wiktionary senses retain CC BY-SA 4.0 attribution. Wordfreq supplies frequency evidence under its retained source notices. Canonical accented/ligature spellings are retained separately from accent-folded gameplay keys.
+
+# German (Germany)
+
+`de-DE` adds an independent 3–11-letter dictionary and locally bundled English
+meanings. Wiktionary lexical records and wordfreq-derived selection data remain
+**CC BY-SA 4.0**, separate from the application code license. Exact source URLs,
+artifact and retained-input hashes, transformations, count/coverage evidence,
+editorial review and reproduction commands are recorded in
+[German sources](docs/german-sources.md), `src/data/german/source.json` and
+`src/data/german/coverage.json`. Complete source acknowledgments and license text
+ship under [German notices](public/third-party/de-DE/NOTICE.txt).
+
+NFC preserves umlauts. Ä, Ö, Ü and ß each occupy one tile; capital ẞ is used for ß
+before uppercasing, without SS expansion. Source headwords preserve noun case and
+original spelling in reveals and attribution links. Regional and frequency evidence
+is incomplete and not native-human certification. No existing language datasets
+or saves are replaced.

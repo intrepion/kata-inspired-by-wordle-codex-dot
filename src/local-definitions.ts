@@ -1,3 +1,4 @@
+import {germanDefinition} from './german-definitions.ts';
 import {frenchDefinition} from './french-definitions.ts';
 import {spanishSpainDefinition} from './spanish-spain-definitions.ts';
 import {dutchDefinition} from './dutch-definitions.ts';
@@ -31,6 +32,7 @@ export async function localDefinition(word:string,language:Language):Promise<Def
  if(language==='fr-FR'||language==='fr-CA')return frenchDefinition(word,language);
  if(language==='es-ES')return spanishSpainDefinition(word);
  if(language==='nl-NL')return dutchDefinition(word);
+ if(language==='de-DE')return germanDefinition(word);
  if(language==='fil-PH')return filipinoDefinition(word);
  if(language==='es-MX'){
   const teaching=teachingFor(word,language);

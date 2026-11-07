@@ -2,7 +2,7 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English, Spanish, French and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany) and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
 Formerly Morrowmark. Language and variety are selected separately. Each variety has its own word lists, progress and statistics. Old mixed-English games are not imported into the new English notebooks; other language saves and shared preferences stay unchanged.
 
@@ -13,6 +13,7 @@ Choose **Language → Variety** before playing. The game remembers your last var
 - English: **United States**, **United Kingdom**, **Australia**. Separate SCOWL regional answer and accepted-guess lists, 3–11 letters. Five-letter answer counts: **2,074 US**, **2,067 British**, **2,087 Australian**. COLOR/COLOUR and CENTER/CENTRE follow the selected spelling category, not a mixed list.
 - Español: **México** and **España**, 3–11 letters. Spain uses its own dictionary and region-compatible answer selection. Spain's bundled meanings are **Spanish definitions, not English translations**. Mexican teaching remains in Mexico's notebook only. Accents, Ü and Ñ stay distinct.
 - Français: **France** and **Canada**, 3–11 letters. Conservative region-specific answer and guess selections share ordinary French words. Accents and ç do not affect play. Œ/OE and Æ/AE use two tiles; reveals retain the correct original spelling. English meanings are bundled. Regional coverage is a starter selection, not an exhaustive or native-human-reviewed dictionary.
+- Deutsch: **Deutschland**, 3–11 letters. Ä, Ö, Ü and ß are distinct one-tile letters; ß displays as capital ẞ on tiles. Use the German QWERTZ on-screen keyboard or type the original spelling. AE/OE/UE and SS are not aliases. Reveals retain dictionary spelling and noun capitalization. Sourced English meanings are bundled locally. [Sources and selection](docs/german-sources.md).
 - Nederlands: **Nederland**, unchanged, 3–11 letters.
 - Filipino: **Philippines**, unchanged, five letters.
 

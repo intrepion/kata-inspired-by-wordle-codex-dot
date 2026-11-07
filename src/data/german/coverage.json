@@ -1,0 +1,76 @@
+{
+  "version": "de-DE-v1",
+  "language": "de-DE",
+  "minimumZipf": 4.3,
+  "guessMinimumZipf": 2.5,
+  "orthography": "NFC A–Z Ä Ö Ü ẞ; sharp s uppercases to one-tile ẞ. No accent folding or transliteration. Canonical source case retained separately.",
+  "frequencyNormalization": "Upstream casefold merges ß and ss for frequency only; lexical/gameplay keys remain distinct.",
+  "lengths": {
+    "3": {
+      "answers": 103,
+      "guesses": 505,
+      "definedGuesses": 505
+    },
+    "4": {
+      "answers": 305,
+      "guesses": 1311,
+      "definedGuesses": 1311
+    },
+    "5": {
+      "answers": 332,
+      "guesses": 2400,
+      "definedGuesses": 2400
+    },
+    "6": {
+      "answers": 424,
+      "guesses": 3446,
+      "definedGuesses": 3446
+    },
+    "7": {
+      "answers": 332,
+      "guesses": 3587,
+      "definedGuesses": 3587
+    },
+    "8": {
+      "answers": 254,
+      "guesses": 3798,
+      "definedGuesses": 3798
+    },
+    "9": {
+      "answers": 211,
+      "guesses": 3859,
+      "definedGuesses": 3859
+    },
+    "10": {
+      "answers": 127,
+      "guesses": 3422,
+      "definedGuesses": 3422
+    },
+    "11": {
+      "answers": 85,
+      "guesses": 2791,
+      "definedGuesses": 2791
+    }
+  },
+  "review": "Explicit independent model-reviewed allowlist, not native-human certification. Umlauts and ẞ remain distinct single tiles; canonical source case is preserved.",
+  "inputs": {
+    "lexical-evidence.json": "e2212734b589e2fbf731fe5f3cc830cd6cbf10d3654f9ef02949522e46134ffa",
+    "frequency-evidence.json": "5d3916e64040c3702ace76cf89ed34ea99ba7c13f6f01f21617f34269375a0fb",
+    "review.json": "86b9dcbc5db0c50c40c59da0568d8475fcc16218ef53e3ade80a455d43a09b26"
+  },
+  "outputs": {
+    "vocabulary.json": "4da6c9bba4b5b6486edff683eff060a8dcfdcc66d8bf8b4675267f2b6cf05c64",
+    "answer-selection.json": "99d5581fcd623fee82af9cd396d6dc6d28f23b68732534069a9f023874584bbb",
+    "canonical-spellings.json": "fea5bb939cddc0b31d75dddb3d0a748c0c68f75d8eb2cb65c3feec284b0af705",
+    "definitions-3.json": "0c946f78c3f0ad1bffb89ce5ed974f3af07741e0cdfb4378f39c71b1b7b8aeee",
+    "definitions-4.json": "3a2f2912b9bf1571ed81e3bb4cdb1eb17df24e854188f12af53e48f1f63d291c",
+    "definitions-5.json": "1b48b4bb76f5ebd26befd1455812dad403af8092d561013252b10a63672f9e80",
+    "definitions-6.json": "e6ec5fc0eddba99f19e753f04b0ecf1dfdc8117f9df1ea5b6e00d2f2b544ee56",
+    "definitions-7.json": "db1c45550cbc12f7170a389b576814f0091043e1cabe7105a78a58b8fc1ce54d",
+    "definitions-8.json": "cd8636ec13c6103fd33c4c48b1aa8326d8deba8f2eaa9ed4a57056264655dafe",
+    "definitions-9.json": "dce991bb52b0af6ab4541ff7d6475ee8388a8bd621a0081a578de823b5ae7ec1",
+    "definitions-10.json": "7243412e1b050a84db14075d6285c81d492e1b0727f512e4846a4088a55da1e2",
+    "definitions-11.json": "94c05183876090eda290f3462924de6736fa4048c2887c286924dd5e62225d9d"
+  },
+  "limitations": "Conservative starter answer pool. Frequency is historical mixed-region spelling frequency, not current Germany sense frequency. Source labels and model review may be incomplete. Broader guesses include labelled historical, regional and inflected entries. No exhaustive morphology coverage."
+}

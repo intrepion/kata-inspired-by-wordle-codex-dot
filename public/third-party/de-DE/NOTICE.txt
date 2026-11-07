@@ -1,0 +1,54 @@
+Lexi Conquest: German (Germany), 3–11-tile selection
+
+Adapted lexical data, frequency data and selections: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: CC-BY-SA-4.0.txt. Game code retains its separate license.
+
+English Wiktionary contributors, German entries, extracted by Wiktextract and
+distributed by Kaikki. Source entry attribution:
+https://en.wiktionary.org/wiki/<original-headword>#German
+https://kaikki.org/dictionary/German/kaikki.org-dictionary-German.jsonl
+https://kaikki.org/dictionary/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+Snapshot retrieved 2026-11-07, SHA-256:
+4fb15662a125085e1eb6b533a210b45edcdffa7b8e72e07634f46e1485e4e715
+Kaikki postprocessed per-language extract (deprecated upstream), not the raw
+multilingual Wiktextract export. No individual article revision is provided.
+Original headwords and per-record source hashes remain in repository evidence.
+Credit: Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data,
+LREC 2022, pp. 1317–1325,
+https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Modifications: retain attested 3–11-tile German headwords in lexical POS
+(excluding proper names), English glosses, usage labels and form/alternative
+relationships with historical wordfreq spelling Zipf >=2.5. Omit media, examples,
+quotations, etymology, translations, categories and other enrichment. Tiles use
+NFC and uppercase, replacing ß with ẞ before case conversion. Ä, Ö, Ü and ẞ
+are distinct single tiles; no transliteration. Borrowings with other diacritics,
+hyphenated compounds and spaces are excluded. Canonical source case/spelling
+are preserved separately, including German noun capitalization. A deterministic
+first eligible headword is chosen when multiple source spellings share tiles;
+all supplied entries remain available within display limits of eight entries
+and eight senses each. Broad guesses include inflections and labelled regional,
+historical or sensitive senses. Answers require a standalone eligible sense,
+Zipf >=4.3 and explicit independent model editorial approval. Selection targets
+contemporary standard German in Germany, not exhaustive regional separation.
+
+Frequency: wordfreq 3.0.2, Robyn Speer and contributors, revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b, small_de.msgpack.gz.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+SHA-256: 2115b5bb4adb671a3352555a480b9c2f5b03493e9f7e4047997361d62310017a
+Data: CC BY-SA 4.0. Software: MIT. Complete pinned README and MIT notice supplied.
+Preserve all README source credits including OpenSubtitles and freely available
+SUBTLEX, Marc Brysbaert and coauthors. No corpus sentences are redistributed.
+For case-normalized spellings, retain the maximum estimate, not a sum.
+Historical mixed-region spelling frequency does not prove current German
+commonness or sense frequency. No native-human review is claimed.
+
+Sources, pins, policy and reproduction: docs/german-sources.md and
+src/data/german/source.json in https://github.com/intrepion/kata-inspired-by-wordle-codex-dot
+Preserve attribution, modification notices and ShareAlike terms when
+redistributing adapted data. These notices impose no extra restrictions.
+
+Frequency-only normalization: wordfreq upstream Unicode casefolds ß to ss. Both attested spellings therefore use the same spelling-frequency bin, without merging gameplay tiles or definitions. This can overestimate an individual spelling or sense; editorial review remains required. Primary implementation: https://github.com/rspeer/wordfreq/blob/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/preprocess.py

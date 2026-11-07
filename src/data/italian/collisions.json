@@ -1,0 +1,674 @@
+{
+  "ABBANDONO": [
+    "ABBANDONO",
+    "ABBANDONÒ"
+  ],
+  "ABILITA": [
+    "ABILITA",
+    "ABILITÀ"
+  ],
+  "ACCETTO": [
+    "ACCETTO",
+    "ACCETTÒ"
+  ],
+  "ACCOMPAGNO": [
+    "ACCOMPAGNO",
+    "ACCOMPAGNÒ"
+  ],
+  "ACQUISTO": [
+    "ACQUISTO",
+    "ACQUISTÒ"
+  ],
+  "AFFIDO": [
+    "AFFIDO",
+    "AFFIDÒ"
+  ],
+  "AFFINCHE": [
+    "AFFINCHÈ",
+    "AFFINCHÉ"
+  ],
+  "AIUTO": [
+    "AIUTO",
+    "AIUTÒ"
+  ],
+  "ALZO": [
+    "ALZO",
+    "ALZÒ"
+  ],
+  "AMO": [
+    "AMO",
+    "AMÒ"
+  ],
+  "ANNUNCIO": [
+    "ANNUNCIO",
+    "ANNUNCIÒ"
+  ],
+  "ANZICHE": [
+    "ANZICHÈ",
+    "ANZICHÉ"
+  ],
+  "APPOGGIO": [
+    "APPOGGIO",
+    "APPOGGIÒ"
+  ],
+  "APPROVO": [
+    "APPROVO",
+    "APPROVÒ"
+  ],
+  "APRI": [
+    "APRI",
+    "APRÌ"
+  ],
+  "ARRIVO": [
+    "ARRIVO",
+    "ARRIVÒ"
+  ],
+  "ASSICURO": [
+    "ASSICURO",
+    "ASSICURÒ"
+  ],
+  "ATTACCO": [
+    "ATTACCO",
+    "ATTACCÒ"
+  ],
+  "ATTRAVERSO": [
+    "ATTRAVERSO",
+    "ATTRAVERSÒ"
+  ],
+  "AUMENTO": [
+    "AUMENTO",
+    "AUMENTÒ"
+  ],
+  "AVANZO": [
+    "AVANZO",
+    "AVANZÒ"
+  ],
+  "AVVICINO": [
+    "AVVICINO",
+    "AVVICINÒ"
+  ],
+  "AVVIO": [
+    "AVVIO",
+    "AVVIÒ"
+  ],
+  "BENCHE": [
+    "BENCHÈ",
+    "BENCHÉ"
+  ],
+  "CAFFE": [
+    "CAFFE",
+    "CAFFÈ",
+    "CAFFÉ"
+  ],
+  "CALAMITA": [
+    "CALAMITA",
+    "CALAMITÀ"
+  ],
+  "CAMBIO": [
+    "CAMBIO",
+    "CAMBIÒ"
+  ],
+  "CANTO": [
+    "CANTO",
+    "CANTÒ"
+  ],
+  "CAPACITA": [
+    "CAPACITA",
+    "CAPACITÀ"
+  ],
+  "CAPI": [
+    "CAPI",
+    "CAPÌ"
+  ],
+  "CAPITO": [
+    "CAPITO",
+    "CAPITÒ"
+  ],
+  "CASINO": [
+    "CASINO",
+    "CASINÒ"
+  ],
+  "CERCO": [
+    "CERCO",
+    "CERCÒ"
+  ],
+  "CESSO": [
+    "CESSO",
+    "CESSÒ"
+  ],
+  "CHE": [
+    "CHE",
+    "CHÈ",
+    "CHÉ"
+  ],
+  "CHIAMO": [
+    "CHIAMO",
+    "CHIAMÒ"
+  ],
+  "CIOE": [
+    "CIOÈ",
+    "CIOÉ"
+  ],
+  "CITTA": [
+    "CITTA",
+    "CITTÀ"
+  ],
+  "COLPI": [
+    "COLPI",
+    "COLPÌ"
+  ],
+  "COMANDO": [
+    "COMANDO",
+    "COMANDÒ"
+  ],
+  "COMINCIO": [
+    "COMINCIO",
+    "COMINCIÒ"
+  ],
+  "COMMENTO": [
+    "COMMENTO",
+    "COMMENTÒ"
+  ],
+  "COMPRO": [
+    "COMPRO",
+    "COMPRÒ"
+  ],
+  "CONDANNO": [
+    "CONDANNO",
+    "CONDANNÒ"
+  ],
+  "CONFERMO": [
+    "CONFERMO",
+    "CONFERMÒ"
+  ],
+  "CONTINUO": [
+    "CONTINUO",
+    "CONTINUÒ"
+  ],
+  "COSI": [
+    "COSI",
+    "COSÌ"
+  ],
+  "COSTO": [
+    "COSTO",
+    "COSTÒ"
+  ],
+  "CREO": [
+    "CREO",
+    "CREÒ"
+  ],
+  "DEDICO": [
+    "DEDICO",
+    "DEDICÒ"
+  ],
+  "DEI": [
+    "DEI",
+    "DÈI"
+  ],
+  "DICHIARO": [
+    "DICHIARO",
+    "DICHIARÒ"
+  ],
+  "DIVENTO": [
+    "DIVENTO",
+    "DIVENTÒ"
+  ],
+  "DONO": [
+    "DONO",
+    "DONÒ"
+  ],
+  "DOPODICHE": [
+    "DOPODICHÈ",
+    "DOPODICHÉ"
+  ],
+  "DURO": [
+    "DURO",
+    "DURÒ"
+  ],
+  "ENTRO": [
+    "ENTRO",
+    "ENTRÒ"
+  ],
+  "EREDITA": [
+    "EREDITA",
+    "EREDITÀ"
+  ],
+  "ESERCITO": [
+    "ESERCITO",
+    "ESERCITÒ"
+  ],
+  "ETA": [
+    "ETA",
+    "ETÀ"
+  ],
+  "FACILITA": [
+    "FACILITA",
+    "FACILITÀ"
+  ],
+  "FARO": [
+    "FARO",
+    "FARÒ"
+  ],
+  "FELICITA": [
+    "FELICITA",
+    "FELICITÀ"
+  ],
+  "FERMO": [
+    "FERMO",
+    "FERMÒ"
+  ],
+  "FINCHE": [
+    "FINCHE",
+    "FINCHÈ",
+    "FINCHÉ"
+  ],
+  "FINI": [
+    "FINI",
+    "FINÌ"
+  ],
+  "FONDO": [
+    "FONDO",
+    "FONDÒ"
+  ],
+  "FUGGI": [
+    "FUGGI",
+    "FUGGÌ"
+  ],
+  "GETTO": [
+    "GETTO",
+    "GETTÒ"
+  ],
+  "GIACCHE": [
+    "GIACCHE",
+    "GIACCHÉ"
+  ],
+  "GIRO": [
+    "GIRO",
+    "GIRÒ"
+  ],
+  "GIU": [
+    "GIU",
+    "GIÙ"
+  ],
+  "GRAVITA": [
+    "GRAVITA",
+    "GRAVITÀ"
+  ],
+  "GUARDO": [
+    "GUARDO",
+    "GUARDÒ"
+  ],
+  "GUIDO": [
+    "GUIDO",
+    "GUIDÒ"
+  ],
+  "INCONTRO": [
+    "INCONTRO",
+    "INCONTRÒ"
+  ],
+  "INFINITA": [
+    "INFINITA",
+    "INFINITÀ"
+  ],
+  "INIZIO": [
+    "INIZIO",
+    "INIZIÒ"
+  ],
+  "INSEGNO": [
+    "INSEGNO",
+    "INSEGNÒ"
+  ],
+  "INVIO": [
+    "INVIO",
+    "INVIÒ"
+  ],
+  "INVITO": [
+    "INVITO",
+    "INVITÒ"
+  ],
+  "LANCIO": [
+    "LANCIO",
+    "LANCIÒ"
+  ],
+  "LASCIO": [
+    "LASCIO",
+    "LASCIÒ"
+  ],
+  "LAVORO": [
+    "LAVORO",
+    "LAVORÒ"
+  ],
+  "LEGGERA": [
+    "LEGGERA",
+    "LEGGERÀ"
+  ],
+  "LEGGERO": [
+    "LEGGERO",
+    "LEGGERÒ"
+  ],
+  "LIBERO": [
+    "LIBERO",
+    "LIBERÒ"
+  ],
+  "LIBERTA": [
+    "LIBERTA",
+    "LIBERTÀ"
+  ],
+  "LIMITO": [
+    "LIMITO",
+    "LIMITÒ"
+  ],
+  "MANCO": [
+    "MANCO",
+    "MANCÒ"
+  ],
+  "MANDO": [
+    "MANDO",
+    "MANDÒ"
+  ],
+  "MANIFESTO": [
+    "MANIFESTO",
+    "MANIFESTÒ"
+  ],
+  "MENU": [
+    "MENU",
+    "MENÙ"
+  ],
+  "META": [
+    "META",
+    "METÀ"
+  ],
+  "MOBILITA": [
+    "MOBILITA",
+    "MOBILITÀ"
+  ],
+  "MORI": [
+    "MORI",
+    "MORÌ"
+  ],
+  "MOSTRO": [
+    "MOSTRO",
+    "MOSTRÒ"
+  ],
+  "MUTO": [
+    "MUTO",
+    "MUTÒ"
+  ],
+  "NECESSITA": [
+    "NECESSITA",
+    "NECESSITÀ"
+  ],
+  "NONCHE": [
+    "NONCHÈ",
+    "NONCHÉ"
+  ],
+  "NOTO": [
+    "NOTO",
+    "NOTÒ"
+  ],
+  "OCCUPO": [
+    "OCCUPO",
+    "OCCUPÒ"
+  ],
+  "OFFRI": [
+    "OFFRI",
+    "OFFRÌ"
+  ],
+  "ONESTA": [
+    "ONESTA",
+    "ONESTÀ"
+  ],
+  "ORDINO": [
+    "ORDINO",
+    "ORDINÒ"
+  ],
+  "ORGANIZZO": [
+    "ORGANIZZO",
+    "ORGANIZZÒ"
+  ],
+  "OSSERVO": [
+    "OSSERVO",
+    "OSSERVÒ"
+  ],
+  "PAGO": [
+    "PAGO",
+    "PAGÒ"
+  ],
+  "PAPA": [
+    "PAPA",
+    "PAPÀ"
+  ],
+  "PARLO": [
+    "PARLO",
+    "PARLÒ"
+  ],
+  "PARTECIPO": [
+    "PARTECIPO",
+    "PARTECIPÒ"
+  ],
+  "PARTI": [
+    "PARTI",
+    "PARTÌ"
+  ],
+  "PASSERA": [
+    "PASSERA",
+    "PASSERÀ"
+  ],
+  "PASSO": [
+    "PASSO",
+    "PASSÒ"
+  ],
+  "PENSO": [
+    "PENSO",
+    "PENSÒ"
+  ],
+  "PERCHE": [
+    "PERCHE",
+    "PERCHÈ",
+    "PERCHÉ"
+  ],
+  "PERO": [
+    "PERO",
+    "PERÒ"
+  ],
+  "PIE": [
+    "PIE",
+    "PIÈ"
+  ],
+  "POICHE": [
+    "POICHÈ",
+    "POICHÉ"
+  ],
+  "PORTO": [
+    "PORTO",
+    "PORTÒ"
+  ],
+  "PREPARO": [
+    "PREPARO",
+    "PREPARÒ"
+  ],
+  "PRESENTO": [
+    "PRESENTO",
+    "PRESENTÒ"
+  ],
+  "PRESSOCHE": [
+    "PRESSOCHÈ",
+    "PRESSOCHÉ"
+  ],
+  "PROSEGUI": [
+    "PROSEGUI",
+    "PROSEGUÌ"
+  ],
+  "PROVO": [
+    "PROVO",
+    "PROVÒ"
+  ],
+  "PUBBLICO": [
+    "PUBBLICO",
+    "PUBBLICÒ"
+  ],
+  "QUI": [
+    "QUI",
+    "QUÌ"
+  ],
+  "RACCONTO": [
+    "RACCONTO",
+    "RACCONTÒ"
+  ],
+  "REALIZZO": [
+    "REALIZZO",
+    "REALIZZÒ"
+  ],
+  "RESTO": [
+    "RESTO",
+    "RESTÒ"
+  ],
+  "RICORDO": [
+    "RICORDO",
+    "RICORDÒ"
+  ],
+  "RIFIUTO": [
+    "RIFIUTO",
+    "RIFIUTÒ"
+  ],
+  "RIPORTO": [
+    "RIPORTO",
+    "RIPORTÒ"
+  ],
+  "RITIRO": [
+    "RITIRO",
+    "RITIRÒ"
+  ],
+  "RITORNO": [
+    "RITORNO",
+    "RITORNÒ"
+  ],
+  "RITROVO": [
+    "RITROVO",
+    "RITROVÒ"
+  ],
+  "ROSSOBLU": [
+    "ROSSOBLU",
+    "ROSSOBLÙ"
+  ],
+  "SALI": [
+    "SALI",
+    "SALÌ"
+  ],
+  "SALVO": [
+    "SALVO",
+    "SALVÒ"
+  ],
+  "SCOPPIO": [
+    "SCOPPIO",
+    "SCOPPIÒ"
+  ],
+  "SCOPRI": [
+    "SCOPRI",
+    "SCOPRÌ"
+  ],
+  "SEGNO": [
+    "SEGNO",
+    "SEGNÒ"
+  ],
+  "SEGUI": [
+    "SEGUI",
+    "SEGUÌ"
+  ],
+  "SEMBRO": [
+    "SEMBRO",
+    "SEMBRÒ"
+  ],
+  "SENNO": [
+    "SENNO",
+    "SENNÒ"
+  ],
+  "SENTI": [
+    "SENTI",
+    "SENTÌ"
+  ],
+  "SERVI": [
+    "SERVI",
+    "SERVÌ"
+  ],
+  "SPARO": [
+    "SPARO",
+    "SPARÒ"
+  ],
+  "SPIEGO": [
+    "SPIEGO",
+    "SPIEGÒ"
+  ],
+  "SPOSO": [
+    "SPOSO",
+    "SPOSÒ"
+  ],
+  "STA": [
+    "STA",
+    "STÀ"
+  ],
+  "STABILI": [
+    "STABILI",
+    "STABILÌ"
+  ],
+  "STABILITA": [
+    "STABILITA",
+    "STABILITÀ"
+  ],
+  "STUDIO": [
+    "STUDIO",
+    "STUDIÒ"
+  ],
+  "SUPERO": [
+    "SUPERO",
+    "SUPERÒ"
+  ],
+  "SVILUPPO": [
+    "SVILUPPO",
+    "SVILUPPÒ"
+  ],
+  "TENTO": [
+    "TENTO",
+    "TENTÒ"
+  ],
+  "TERRA": [
+    "TERRA",
+    "TERRÀ"
+  ],
+  "THE": [
+    "THE",
+    "THÈ"
+  ],
+  "TOCCO": [
+    "TOCCO",
+    "TOCCÒ"
+  ],
+  "TORNO": [
+    "TORNO",
+    "TORNÒ"
+  ],
+  "TRATTO": [
+    "TRATTO",
+    "TRATTÒ"
+  ],
+  "TROVO": [
+    "TROVO",
+    "TROVÒ"
+  ],
+  "UNI": [
+    "UNI",
+    "UNÌ"
+  ],
+  "UNITA": [
+    "UNITA",
+    "UNITÀ"
+  ],
+  "USO": [
+    "USO",
+    "USÒ"
+  ],
+  "VOLO": [
+    "VOLO",
+    "VOLÒ"
+  ]
+}

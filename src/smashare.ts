@@ -5,8 +5,8 @@ import {isPortuguese,normalizeGuess,savedDutchRules,validLetters,type DutchRules
 /** Word 1 starts with the two letters that end word 2. The displayed merge reads word 2, then word 1. */
 export type SmashPair={first:string;second:string;merged:string};
 export function makeSmashPair(first:string,second:string,language:Language='en'):SmashPair|undefined {
- // Only the new Portuguese datasets use folded seams; older daily pair schedules stay fixed.
- const a=isPortuguese(language)?normalizeGuess(first,language):first,b=isPortuguese(language)?normalizeGuess(second,language):second;
+ // Only the Portuguese and Italian datasets use folded seams; older daily pair schedules stay fixed.
+ const a=(isPortuguese(language)||language==='it-IT')?normalizeGuess(first,language):first,b=(isPortuguese(language)||language==='it-IT')?normalizeGuess(second,language):second;
  if(first.length!==second.length||first.length<3||a.slice(0,2)!==b.slice(-2)||a===b)return;
  return {first,second,merged:second+first.slice(2)};
 }
@@ -23,7 +23,7 @@ const cache=new Map<string,{groups:Group[];total:number}>();
 function candidates(length:number,language:Language){
  const key=answerDataset(length,language),old=cache.get(key);if(old)return old;
  const answers=[...vocabulary(length,language).answers].sort(),prefixes=new Map<string,string[]>();
- const spelling=(word:string)=>isPortuguese(language)?normalizeGuess(word,language):word;
+ const spelling=(word:string)=>(isPortuguese(language)||language==='it-IT')?normalizeGuess(word,language):word;
  for(const word of answers){const key=spelling(word).slice(0,2),group=prefixes.get(key)??[];group.push(word);prefixes.set(key,group)}
  const groups:Group[]=[];let total=0;
  for(const second of answers){const firsts=(prefixes.get(spelling(second).slice(-2))??[]).filter(first=>spelling(first)!==spelling(second));if(firsts.length){groups.push({second,firsts});total+=firsts.length}}

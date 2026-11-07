@@ -1,3 +1,4 @@
+import {italianSwedishDefinition} from './italian-swedish-definitions.ts';
 import {russianDefinition} from './russian-definitions.ts';
 import {portugueseDefinition} from './portuguese-definitions.ts';
 import {germanDefinition} from './german-definitions.ts';
@@ -31,6 +32,7 @@ const englishPending=new Map<number,Promise<Table>>();
 const pending=new Map<number,Promise<Table>>();const translations=new TranslationClient();
 /** Same-origin static chunks only. Source links are attribution, never fetched here. */
 export async function localDefinition(word:string,language:Language):Promise<DefinitionResult>{
+ if(language==='it-IT'||language==='sv-SE')return italianSwedishDefinition(word,language);
  if(language==='pt-BR'||language==='pt-PT')return portugueseDefinition(word,language);
  if(language==='fr-FR'||language==='fr-CA')return frenchDefinition(word,language);
  if(language==='es-ES')return spanishSpainDefinition(word);

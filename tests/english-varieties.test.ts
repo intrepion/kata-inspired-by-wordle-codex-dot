@@ -14,7 +14,7 @@ test('English varieties are distinct playable choices, with no mixed option or u
  assert.ok(languages.LANGUAGES.includes('en-US'));
  assert.ok(languages.LANGUAGES.includes('en-GB'));
  assert.ok(!languages.LANGUAGES.includes('en'));
- assert.deepEqual(languages.LANGUAGE_FAMILIES.map(item=>item.id),['en','es','fr','fil','nl','de','pt','ru']);
+ assert.deepEqual(languages.LANGUAGE_FAMILIES.map(item=>item.id),['en','es','fr','fil','nl','de','pt','ru','it','sv']);
  assert.deepEqual(languages.varietiesFor('en').map(item=>item.id),['en-US','en-GB','en-AU']);
  assert.deepEqual(languages.varietiesFor('es').map(item=>item.id),['es-MX','es-ES']);
  assert.equal(languages.selectedLanguage('en'),'en-US');

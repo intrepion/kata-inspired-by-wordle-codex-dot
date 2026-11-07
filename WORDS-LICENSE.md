@@ -376,3 +376,23 @@ Selection retains canonical accented answer spellings while comparison keys fold
 ## Russian (Russia), 3–11 letters
 
 Russian data is adapted from English Wiktionary Russian entries via Kaikki and wordfreq 3.0.2 under CC BY-SA 4.0, independently of the game code license. Exact artifacts, checksums, reduced evidence and modifications are recorded in `src/data/russian/source.json`, `coverage.json` and [source documentation](docs/russian-sources.md). Full attribution, license and wordfreq source credits ship in [the Russian notice](public/third-party/ru-RU/NOTICE.txt) and adjacent license/README files. Original source headwords and per-record hashes are retained. Selected English glosses preserve source labels. Exact NFC Cyrillic spelling keeps Ё/Е and Й/И distinct; attested alternatives may be separate guesses but are not aliases. Candidate answers undergo an explicit independent model review, not native-human certification. Frequency-only Ё estimates take the maximum of the exact spelling and its Е counterpart, reflecting optional dots in print without merging lexical/gameplay identities; these estimates may overstate a particular sense. Full raw-source import and reduced-evidence generation are reproducible offline; builds do not download dictionaries.
+
+## Italian (Italy) and Swedish (Sweden), 3–11 letters
+
+The new `it-IT` and `sv-SE` packs adapt English Wiktionary data via Kaikki and
+wordfreq 3.0.2 spelling frequencies under **CC BY-SA 4.0**. Exact download URLs,
+byte sizes and SHA-256 pins are in each language's `source.json`; generated
+coverage and hashes are in `coverage.json`. Every candidate receives an explicit
+model editorial decision and source-exact primary sense. This is not native-human
+certification or exhaustive country-specific coverage.
+
+Full license text, contributor attribution, source-entry links, modification notices
+and the pinned wordfreq README/source credits ship in `public/third-party/it-IT/`
+and `public/third-party/sv-SE/`. The pinned wordfreq software is MIT; its data is
+not relicensed by the application. Original headwords and input line hashes remain
+in the repository. No quotations, examples or media are imported.
+
+Italian vowel accents fold only for play; original spellings remain in reveals and
+meanings, and accent-colliding answers are deduplicated. Swedish Å, Ä and Ö are
+distinct; loanwords with accents outside the 29-letter alphabet are intentionally
+omitted, not silently respelled. [Sources, decisions, limitations and reproduction](docs/italian-swedish-sources.md).

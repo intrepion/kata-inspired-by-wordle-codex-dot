@@ -1,0 +1,102 @@
+{
+  "version": "it-IT-v1",
+  "language": "it-IT",
+  "minimumZipfByLength": {
+    "3": 4.3,
+    "4": 4.3,
+    "5": 4.3,
+    "6": 4.3,
+    "7": 4.3,
+    "8": 4.3,
+    "9": 4.3,
+    "10": 4.3,
+    "11": 4.3
+  },
+  "guessMinimumZipf": 2.5,
+  "lengths": {
+    "3": {
+      "answers": 63,
+      "guesses": 315,
+      "definedGuesses": 315,
+      "missingMeanings": []
+    },
+    "4": {
+      "answers": 180,
+      "guesses": 1080,
+      "definedGuesses": 1080,
+      "missingMeanings": []
+    },
+    "5": {
+      "answers": 355,
+      "guesses": 2385,
+      "definedGuesses": 2384,
+      "missingMeanings": [
+        "OMINO"
+      ]
+    },
+    "6": {
+      "answers": 405,
+      "guesses": 3181,
+      "definedGuesses": 3180,
+      "missingMeanings": [
+        "TALORA"
+      ]
+    },
+    "7": {
+      "answers": 391,
+      "guesses": 4522,
+      "definedGuesses": 4519,
+      "missingMeanings": [
+        "GIACOMO",
+        "MUGELLO",
+        "PERFINO"
+      ]
+    },
+    "8": {
+      "answers": 367,
+      "guesses": 4696,
+      "definedGuesses": 4696,
+      "missingMeanings": []
+    },
+    "9": {
+      "answers": 225,
+      "guesses": 4231,
+      "definedGuesses": 4230,
+      "missingMeanings": [
+        "BABILONIA"
+      ]
+    },
+    "10": {
+      "answers": 174,
+      "guesses": 3397,
+      "definedGuesses": 3397,
+      "missingMeanings": []
+    },
+    "11": {
+      "answers": 125,
+      "guesses": 2241,
+      "definedGuesses": 2241,
+      "missingMeanings": []
+    }
+  },
+  "inputs": {
+    "lexical-evidence.json": "d7a4946777fa9d854c40030bf96c2c5d355bdc91dfde92d19d6db13da79605e3",
+    "frequency-evidence.json": "de541fc95d5a119347bd97404ea45d079fc1334827aa74b198d0b9b3e5386bc4",
+    "review.json": "2fa31cab04d5f5b20e8a6fd2a1e2cc65549abe1e188e5fdf77c3c42ceedc0b37"
+  },
+  "outputs": {
+    "vocabulary.json": "4087c2440fe368ca88a73f3adf08e9e0a78709a5b5fcc3fc5e6e9b7fa1e3293e",
+    "answer-selection.json": "bca7a55833d2363fffcda7a2370fe72c51b1f548a455c8476cebe33772d607b0",
+    "collisions.json": "5041f797db7dfcfe325938985577968ff38190c0469f8b5e17ed8384646a9952",
+    "definitions-3.json": "81e1c1b81f6de9c78dd1765946a0880cfdbc4b5c491d08e3d1d8e98eef549231",
+    "definitions-4.json": "90b7595305b58abf05fd783514a3a0b4c4dcb4751ca30cc5d88f12377d2c0cdd",
+    "definitions-5.json": "d51ea22135b49a2afd417a50f319aa3be82277e5159bc258d7eb4e80f857ec06",
+    "definitions-6.json": "12d2ea9b87712491eb2ddeadced02fc262c0accfacc6d19ee9943961cd512e09",
+    "definitions-7.json": "163d302e561cfcb0fa5a9b3d3c4da26b5d47d7584a6f03ce7269ff06179da4b8",
+    "definitions-8.json": "d283b6c30a12f07e7d1db41817ed1e992a29df6a0d8016ace9eae1d0a33fa25a",
+    "definitions-9.json": "06438fb91e247a0b0f543ba43d6e176835fa2fe54e58d39fecc1f8c66ab224e3",
+    "definitions-10.json": "1f9ad0034f21130a0fa3336605007421bcc038044b9144cfd51da4548c51997a",
+    "definitions-11.json": "c96f65ddba90c0bca63780d7ecbdb3a5024002f684f5c57e293976295a5a8b4b"
+  },
+  "limitations": "Explicit model editorial review, not native-human certification. Historical spelling frequency is not sense-specific or exclusive to Italy/Sweden. Labels and sense coverage may be incomplete. Broader guesses include inflections and uncommon words. Italian accents fold only for play; Swedish Å Ä Ö remain distinct. Swedish accented loanwords outside the 29-letter alphabet are omitted, never silently folded."
+}

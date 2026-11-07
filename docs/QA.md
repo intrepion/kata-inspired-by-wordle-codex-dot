@@ -303,3 +303,67 @@ The browser run covered 40 variety × mode × schedule flows at both viewport si
 The answer lists contain **1,453 Brazil** and **2,007 Portugal** words. Accepted source spellings total **7,227 / 9,536**, representing **7,206 / 9,498** folded guess keys; each has at least one sourced English sense or labelled form/reference. Every length has at least 61 curated answers, valid Smashare pairs and five verified Daily One clues. The datasets are conservative regional dictionary-headword selections plus a specifically verified Brazil CASA affix exception, not exhaustive morphology or native-human certification. Sources and rights are recorded in [Portuguese sources](portuguese-sources.md) and ADR 0042.
 
 No commit, push, remote branch, merge, source upload or deployment was performed. Publication remains a separate approval.
+
+## Italian (Italy) and Swedish (Sweden), November 7, 2026
+
+Initial QA was performed locally in the existing Mac checkout before separately
+authorized publication. Added two independent 3–11-letter language packs, sourced
+English meanings, keyboard/help/selectors, save identities and documented licenses.
+Italian has 2,285 possible answers and 26,048 accepted source spellings. Swedish has
+1,773 possible answers and 21,174 accepted spellings. All selected answers have an
+English primary sense. Six Italian and twelve Swedish broader guesses deliberately
+have no displayed meaning after unresolved/defective gloss suppression; coverage
+lists them explicitly. Model editorial review is not native-human certification.
+
+Final validation:
+
+- Both raw-source import `--check` replays passed against downloaded SHA-256-pinned
+  Kaikki and wordfreq artifacts. Offline generation `--check` passed.
+- `npm run check` passed: strict TypeScript, **690/690 tests**, production build.
+- `npm audit --audit-level=moderate` reported **0 vulnerabilities**; dependencies
+  were not changed. `git diff --check` passed.
+- `scripts/check-italian-swedish-browser.mjs` passed **40** desktop/mobile × language
+  × mode × schedule flows on `127.0.0.1:4184`. Daily and Practice exercised Conquest,
+  Absurd, One possibility, Smashare and Letroso. Every 3–11-letter selector was
+  exercised separately. Domain tests cover all five rule sets at every length.
+- Reloads resume saved rounds/drafts; changing languages restores prior state.
+  Seeded untouched language notebooks and unrelated storage remained byte-identical.
+  Stats filters selected the correct language/variety; help, About, stats and
+  settings dismissals preserved progress. No page errors or external dictionary
+  requests occurred.
+- Every on-screen key was exercised. Decomposed Unicode input was tested. Italian
+  accents solve equivalently, keep the correct revealed spelling and cannot be
+  resubmitted as a new guess. Swedish Å/Ä/Ö cannot be replaced by A/O. Source-linked
+  English meanings load locally. Layout checks passed at 390px and 320px widths.
+- A separate production-build smoke test passed for both languages through the
+  pre-existing `127.0.0.1:5298` server, using disposable browser contexts. Fixed-
+  viewport screenshots were visually reviewed for the Italian primary meaning and
+  Swedish keyboard. No user browser storage was altered by QA.
+
+Issues caught and fixed during validation:
+
+- The first Swedish eleven-letter pool had no Smashare pair. An explicit Zipf 4.0
+  cutoff for that length, with individual review of added candidates, supplies 52
+  answers and 14 valid pairs. Other lengths retain Zipf 4.3.
+- Untranslated synonym references and several defective source glosses were
+  suppressed, with exact strings retained in review evidence. Affected words remain
+  guesses but cannot be answers without a valid sourced primary sense.
+- Plain Italian accent-colliding guesses initially showed an archaic alias first.
+  The merged definition group now puts the reviewed primary sense first: CITTA
+  shows città, “town, city,” while other senses remain available and the reveal
+  retains CITTÀ. This has domain and browser regressions.
+
+Limits: no physical mobile device or native-human linguistic certification. The
+existing large-bundle Vite warning remains; build succeeds. Full-page Chrome
+captures after viewport resizing produced stitching artifacts, so visual sign-off
+used fixed-viewport captures plus unique-DOM checks. Temporary QA server/browser
+processes were closed; the pre-existing local preview server was left unchanged.
+
+Publication preflight: `npm run build:pages` and
+`node --import tsx scripts/check-italian-swedish-pages.mjs` passed against the actual
+production build under `/kata-inspired-by-wordle-codex-dot/`. The suite covers 40
+desktop/mobile language/rules/schedule flows, reloads, all length selectors,
+eleven-letter Smashare in both languages, decomposed accented input, source-linked
+English meanings, Swedish keyboard keys, statistics filters, source/license files,
+asset responses and isolation from unrelated storage. It can be rerun against the
+published site with `BASE_URL`; it does not rely on development-only `/src/` URLs.

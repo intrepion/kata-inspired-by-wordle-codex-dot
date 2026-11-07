@@ -1,0 +1,4 @@
+{
+ "italian":{"code":"it","locale":"it-IT","lexicalSha256":"f112deb9747b7f33f4247da4999dfba0aa739bb4aaff9dd42fdf0615918a9c11","frequencySha256":"07a4355d735d9cc864ce9fe679d94a13dee4cefa2495b6b013ecdb214b231c66"},
+ "swedish":{"code":"sv","locale":"sv-SE","lexicalSha256":"1121d05e5b1fdee55d95d857700bd9f2fec333b9d404877082e83742e7b9df01","frequencySha256":"a7c52a3d3576db1b7d4280be47aafccabdc70f9a56c5a40bc94b9139e271adf6"}
+}

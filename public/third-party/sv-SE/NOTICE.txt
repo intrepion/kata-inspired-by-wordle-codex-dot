@@ -1,0 +1,48 @@
+Lexi Conquest: Swedish (Sweden), 3–11-letter selection
+
+Adapted lexical evidence, definitions and wordfreq-derived selection: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Complete license supplied in CC-BY-SA-4.0.txt. Game code retains its separate license.
+
+English Wiktionary contributors, Swedish entries, via Kaikki/Wiktextract.
+Original source article attribution: https://en.wiktionary.org/wiki/<original-headword>#Swedish
+https://kaikki.org/dictionary/Swedish/kaikki.org-dictionary-Swedish.jsonl
+https://kaikki.org/dictionary/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+Retrieved 2026-11-07. SHA-256: 1121d05e5b1fdee55d95d857700bd9f2fec333b9d404877082e83742e7b9df01
+Kaikki postprocessed per-language JSONL, deprecated upstream, not raw multilingual
+Wiktextract. Exact article revisions are not supplied. Original headwords and
+per-record source hashes are retained in repository evidence.
+Credit: Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data,
+LREC 2022, pp. 1317–1325, https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Modifications: retain attested lexical headwords, English senses, usage labels and
+form/alternative relationships for 3–11 letters and historical spelling Zipf >=2.5.
+Exclude proper-name POS and explicitly other-country-labelled senses. Omit source
+media, examples, quotations, translations, etymology and enrichment categories.
+Broader guesses include inflections and uncommon senses. Answer candidates require
+Zipf >=4.3 (>=4.0 for Swedish eleven-letter words) and an eligible standalone sense, followed by explicit model editorial
+review. Selected primary senses are exact source evidence. Runtime display retains
+up to eight entries per original spelling and eight senses per entry. Bare unresolved
+synonym references and explicitly reviewed defective glosses are omitted from runtime
+meanings without removing their source evidence or guess membership.
+NFC preserves Å, Ä and Ö as distinct letters. The accepted alphabet is A–Z plus Å Ä Ö. Valid Swedish accented loanwords outside this alphabet, such as ENTRÉ, are omitted from this starter selection rather than silently respelled.
+
+Frequency: wordfreq 3.0.2, Robyn Speer and contributors, pinned revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b.
+https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_sv.msgpack.gz
+SHA-256: a7c52a3d3576db1b7d4280be47aafccabdc70f9a56c5a40bc94b9139e271adf6
+Data CC BY-SA 4.0; this pinned release's software MIT. Complete pinned README and
+MIT license accompany this notice. Preserve source credits, including OpenSubtitles,
+freely available SUBTLEX and the acknowledgments to Marc Brysbaert and coauthors.
+No corpus sentences are redistributed. Exact NFC case-normalized spelling uses
+maximum supplied frequency, not an invented sum; no accent aliases in frequency.
+
+Historical mixed-corpus frequencies are not individual-sense frequencies or proof
+of exclusively Sweden usage. Source labels and model review are incomplete;
+this is a conservative starter, not native-human certification or an exhaustive
+dictionary. See docs/italian-swedish-sources.md and src/data/swedish/source.json in
+https://github.com/intrepion/kata-inspired-by-wordle-codex-dot for pins and recipes.
+Preserve attribution, modification notices and ShareAlike terms when redistributing
+adapted data. These notices impose no additional restrictions.

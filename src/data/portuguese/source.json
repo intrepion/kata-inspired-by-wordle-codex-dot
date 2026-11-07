@@ -1,0 +1,62 @@
+{
+  "languages": [
+    "pt-BR",
+    "pt-PT"
+  ],
+  "sourceLanguage": "pt",
+  "version": "pt-varieties-v1",
+  "retrieved": "2026-11-07",
+  "wiktionary": {
+    "edition": "English Wiktionary, Portuguese entries",
+    "contributors": "Wiktionary contributors",
+    "artifactUrl": "https://kaikki.org/dictionary/Portuguese/kaikki.org-dictionary-Portuguese.jsonl",
+    "artifactBytes": 610118098,
+    "artifactSha256": "eae83ef2e7a683d60e4171514704b462be08b706381c4065a326f4dfa3614a64",
+    "format": "Kaikki postprocessed per-language JSONL",
+    "landingPage": "https://kaikki.org/dictionary/Portuguese/",
+    "rightsUrl": "https://kaikki.org/dictionary/",
+    "dataLicense": "CC-BY-SA-4.0",
+    "modifications": "Retain lowercase 3–11-letter Portuguese lexical headwords, Zipf >=2.5, POS, senses, labels, form/alternative relationships and source-record hashes. Exclude names, punctuation, examples, quotations, etymology and media. Exact article revisions are unavailable. Region membership is verified separately."
+  },
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_pt.msgpack.gz",
+    "artifactBytes": 147253,
+    "artifactSha256": "fe4e551f6da739583d66cd5ef4fca28a1ccfa2ae5a53a5cbf48aa73dd7c91e0c",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "modifications": "Retain spelling frequencies matching lexical evidence. Historical mixed-region frequency is not sense-specific or proof of regional usage."
+  },
+  "regionalSources": {
+    "br": {
+      "name": "VERO 3.2, LibreOffice dictionary snapshot",
+      "revision": "c0865a85eb67dc377f2cf8e8fe2c4fa9e53f0dcb",
+      "url": "https://github.com/LibreOffice/dictionaries/tree/c0865a85eb67dc377f2cf8e8fe2c4fa9e53f0dcb/pt_BR",
+      "license": "LGPL-3.0",
+      "licenseChoice": "README explicitly offers LGPL version 3 and MPL without a version. This distribution uses LGPL-3.0, not an inferred MPL version.",
+      "localSource": "public/third-party/pt-BR",
+      "files": {
+        "pt_BR.aff": "21d8ad2a769a60e17e2b5ea4ef11d4d593a58b9e2a82d642ef82d6a4c5523865",
+        "pt_BR.dic": "a38bfb26b68ece2834e79fe83e48d5792652970ace12db89d1b9674bf9933183"
+      }
+    },
+    "pt": {
+      "name": "Natura hunspell-pt_PT-20251001 (post-AO1990; separate preao archive not used)",
+      "url": "https://natura.di.uminho.pt/download/sources/Dictionaries/hunspell/hunspell-pt_PT-20251001.tar.gz",
+      "archiveSha256": "2066157087e83264484a6d564e1d85258fe2c5eddb9713a42d6f6cf06b0a2ed9",
+      "license": "MPL-1.1",
+      "licenseChoice": "README/COPYING explicitly offers GPL-2.0, LGPL-2.1 or MPL-1.1. This distribution uses MPL-1.1.",
+      "localSource": "public/third-party/pt-PT",
+      "files": {
+        "pt_PT.aff": "975a209fcc892cb382fa5f34a28c391a39668661ce373ae071287809c5fcae24",
+        "pt_PT.dic": "e29ba2d7aa8a2ad43e9cb46ac6473064b661545c87002aea90e18899d98d3cc9"
+      }
+    }
+  },
+  "inputs": {
+    "lexical-evidence.json": "e13ea0006d7454db34482c3788eccbde02f0b17455e3d32f43cbda4a64236c95",
+    "frequency-evidence.json": "6b3608098986244d336cfada6fbbd382027b0ab71d1695f36cce3e8a8825d4c6"
+  }
+}

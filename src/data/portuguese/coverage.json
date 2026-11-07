@@ -1,0 +1,174 @@
+{
+  "version": "pt-varieties-v1",
+  "lengths": {
+    "br": {
+      "3": {
+        "answers": 82,
+        "guesses": 173,
+        "foldedGuesses": 167,
+        "definedGuesses": 173,
+        "smasharePairs": 27
+      },
+      "4": {
+        "answers": 126,
+        "guesses": 408,
+        "foldedGuesses": 401,
+        "definedGuesses": 408,
+        "smasharePairs": 174
+      },
+      "5": {
+        "answers": 267,
+        "guesses": 942,
+        "foldedGuesses": 939,
+        "definedGuesses": 942,
+        "smasharePairs": 687
+      },
+      "6": {
+        "answers": 262,
+        "guesses": 1121,
+        "foldedGuesses": 1117,
+        "definedGuesses": 1121,
+        "smasharePairs": 574
+      },
+      "7": {
+        "answers": 237,
+        "guesses": 1228,
+        "foldedGuesses": 1228,
+        "definedGuesses": 1228,
+        "smasharePairs": 442
+      },
+      "8": {
+        "answers": 202,
+        "guesses": 1280,
+        "foldedGuesses": 1279,
+        "definedGuesses": 1280,
+        "smasharePairs": 172
+      },
+      "9": {
+        "answers": 123,
+        "guesses": 959,
+        "foldedGuesses": 959,
+        "definedGuesses": 959,
+        "smasharePairs": 128
+      },
+      "10": {
+        "answers": 93,
+        "guesses": 696,
+        "foldedGuesses": 696,
+        "definedGuesses": 696,
+        "smasharePairs": 69
+      },
+      "11": {
+        "answers": 61,
+        "guesses": 420,
+        "foldedGuesses": 420,
+        "definedGuesses": 420,
+        "smasharePairs": 30
+      }
+    },
+    "pt": {
+      "3": {
+        "answers": 92,
+        "guesses": 207,
+        "foldedGuesses": 197,
+        "definedGuesses": 207,
+        "smasharePairs": 36
+      },
+      "4": {
+        "answers": 216,
+        "guesses": 715,
+        "foldedGuesses": 705,
+        "definedGuesses": 715,
+        "smasharePairs": 581
+      },
+      "5": {
+        "answers": 418,
+        "guesses": 1411,
+        "foldedGuesses": 1403,
+        "definedGuesses": 1411,
+        "smasharePairs": 1731
+      },
+      "6": {
+        "answers": 346,
+        "guesses": 1463,
+        "foldedGuesses": 1457,
+        "definedGuesses": 1463,
+        "smasharePairs": 1042
+      },
+      "7": {
+        "answers": 339,
+        "guesses": 1719,
+        "foldedGuesses": 1718,
+        "definedGuesses": 1719,
+        "smasharePairs": 927
+      },
+      "8": {
+        "answers": 261,
+        "guesses": 1621,
+        "foldedGuesses": 1619,
+        "definedGuesses": 1621,
+        "smasharePairs": 342
+      },
+      "9": {
+        "answers": 159,
+        "guesses": 1117,
+        "foldedGuesses": 1117,
+        "definedGuesses": 1117,
+        "smasharePairs": 237
+      },
+      "10": {
+        "answers": 113,
+        "guesses": 810,
+        "foldedGuesses": 809,
+        "definedGuesses": 810,
+        "smasharePairs": 140
+      },
+      "11": {
+        "answers": 63,
+        "guesses": 473,
+        "foldedGuesses": 473,
+        "definedGuesses": 473,
+        "smasharePairs": 48
+      }
+    }
+  },
+  "limitations": "Conservative starter lists, not exhaustive or native-human certified. Mixed-region historical spelling frequency does not certify individual senses. Accepted guesses are attested Wiktionary headwords exact headwords in the regional Hunspell dictionary, plus the explicitly proven BR CASA form; not all generated inflections.",
+  "br": {
+    "membershipSha256": "cb2c124d1005f04e9f4f3034c2a8f16a558c03e0c8fbfc6a7eb7fade98a0091e",
+    "reviewSha256": "e6b675acaf50e698659bbba993e6ac0ebbb03aed241fc62efc1d8f11c26693f3",
+    "candidateCount": 1482,
+    "collisionKeys": 20
+  },
+  "pt": {
+    "membershipSha256": "2e41c716d1347163cd42486a9161447989414f9f3b6e995ecc90caec265674a5",
+    "reviewSha256": "23fde2fb701239ec9ab07c77d74c21d8fd212bc4503fa7130511bb82f3982af0",
+    "candidateCount": 2055,
+    "collisionKeys": 38
+  },
+  "outputs": {
+    "definitions-br-3.json": "71d890805b9991f3eec81bd0287c96ba2187c514887d9fde13626cf0695ce2d5",
+    "definitions-br-4.json": "4e555f7a14edbe5b320f709253d3182b1cef301003a09a90fb8572a911972c33",
+    "definitions-br-5.json": "0b2b260ad069ce2ee031763427ce95ecb9a2aa0ac7778bebeed42f6b122beb63",
+    "definitions-br-6.json": "5bf590434ef6dfefcc2e74fa01b3f223d7e8579de89f5d40a27e4b1c9d73a0a7",
+    "definitions-br-7.json": "9585f3e41b068e4a61dae322d29c1e7ab279c277f69baebdf17ee924072b8c88",
+    "definitions-br-8.json": "1e842da6e090a1d2f1b699487e1ade7fd3866a5bd4aa0d8aa459a5f5baf11b53",
+    "definitions-br-9.json": "30beb48972220fba470cf89e4df31e1d8d28b54a1b70d56a2d4d134eae6b7684",
+    "definitions-br-10.json": "f6edc9ad956a4fb933e0aea78a5b41629c9ab6cc672d61fb23915c3f00bd17ad",
+    "definitions-br-11.json": "5d07fa1f409967c4e5c32069d0cadeb8a80f83b04fff494ddf4f1cdecb145481",
+    "vocabulary-br.json": "3d9ecb3e79df014affe41dd27d3bceb4a40a6c47651483dc9fc32d9d8f4c92f0",
+    "answer-selection-br.json": "3b4ed98c215cef5393594be245b273f286f36772bab35fd81f6ba8468486e6de",
+    "collisions-br.json": "3c55a7305d65fbcbd9b1cdd9ec7ea04cce5fa15d2ed322a028290d2a4fee58f6",
+    "definitions-pt-3.json": "1a3453fe693e527dc9e457011dc579a3febe85af450ce28ec8e195dd8685708c",
+    "definitions-pt-4.json": "76523844a89bafb2a8c06add394da95eaadfe17eeb301a01cc6e7b78d9b13d05",
+    "definitions-pt-5.json": "8e456c04607084f6ccb187b3511b40ec98c092f6dbec5a2dc3dde8a502dd6afc",
+    "definitions-pt-6.json": "4cb4d614c40b831839b9639b8f74ca23912a88316053a62b232c7f354f69aa35",
+    "definitions-pt-7.json": "7f1f2ebd75c92c4e120ec8fd9368d4053d83957de679c631f479e2bc02373ab4",
+    "definitions-pt-8.json": "530143029b4dd3f203eba03cdf8c2f05c82d8c1b22813c603c9a4318cdfd5a96",
+    "definitions-pt-9.json": "24f4ba78c3addf3c3dd2a1274c7d35d4c8d7246a9422d169ae33962209277cb8",
+    "definitions-pt-10.json": "0f4d66fe46b2bdac9dc63a4a24a3e37753223c7578ae755acfac91f221f48f4e",
+    "definitions-pt-11.json": "bc80690eaa2a6be79147b4b41ee66728aa95e94ea495f7f88f089df0f5526aa3",
+    "vocabulary-pt.json": "999f5dc4e08e8690034a3532f01dbdf1554233209a679c35689513bb4246611d",
+    "answer-selection-pt.json": "d69998ea0828d6a4841df7807f36e6b7b9972e41048a0cbf78d47adbff685de1",
+    "collisions-pt.json": "d71d40368b126e792acd00dab1d45b7947611d4f29e8eb9864e9b08c242d778b"
+  }
+}

@@ -21,3 +21,15 @@ public/third-party/simple-english-definitions/CC-BY-SA-4.0.txt -whitespace
 public/third-party/spanish-teaching/CC-BY-SA-4.0.txt -whitespace
 public/third-party/english-definitions/CC-BY-SA-4.0.txt -whitespace
 public/third-party/fil-PH/CC-BY-SA-4.0.txt -whitespace
+
+# Byte-identical Portuguese regional source dictionaries and license notices.
+public/third-party/pt-BR/pt_BR.aff -whitespace
+public/third-party/pt-BR/pt_BR.dic -whitespace
+public/third-party/pt-BR/README_pt_BR.txt -whitespace
+public/third-party/pt-BR/LGPL-3.0.txt -whitespace
+public/third-party/pt-BR/GPL-3.0.txt -whitespace
+public/third-party/pt-PT/pt_PT.aff -whitespace
+public/third-party/pt-PT/pt_PT.dic -whitespace
+public/third-party/pt-PT/README_pt_PT.txt -whitespace
+public/third-party/pt-PT/COPYING -whitespace
+public/third-party/pt/CC-BY-SA-4.0.txt -whitespace

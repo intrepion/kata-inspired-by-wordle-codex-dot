@@ -1,6 +1,6 @@
 import {localDefinition} from './local-definitions.ts';
 import {learningFor} from './learning.ts';
-import {isFrench,normalizeGuess,normalizeSpelling,validLetters,type Language} from './language.ts';
+import {isFrench,isPortuguese,normalizeGuess,normalizeSpelling,validLetters,type Language} from './language.ts';
 export const DEFINITION_SOURCE='Wiktionary contributors';
 export const DEFINITION_LICENSE='https://creativecommons.org/licenses/by-sa/4.0/';
 export const DEFINITION_ENDPOINT='https://en.wiktionary.org/api/rest_v1/page/definition/';
@@ -9,7 +9,7 @@ export interface DefinitionResult {word:string;entries:DefinitionEntry[];sourceU
 export type DefinitionFailure='network'|'timeout'|'invalid'|'cancelled';
 export class DefinitionError extends Error {constructor(readonly reason:DefinitionFailure){super(reason)}}
 const object=(value:unknown):value is Record<string,unknown>=>typeof value==='object'&&value!==null&&!Array.isArray(value);
-export function definitionWord(raw:string,language:Language='en'):string|null {const word=language==='nl-NL'||isFrench(language)?normalizeSpelling(raw,language):normalizeGuess(raw,language);return word.length>=3&&word.length<=11&&validLetters(word,language)?word:null}
+export function definitionWord(raw:string,language:Language='en'):string|null {const word=language==='nl-NL'||isFrench(language)||isPortuguese(language)?normalizeSpelling(raw,language):normalizeGuess(raw,language);return word.length>=3&&word.length<=11&&validLetters(word,language)?word:null}
 /** Extract readable text only. This output is always rendered with textContent, never as HTML. */
 export function definitionText(raw:unknown,limit=1800):string {
  if(typeof raw!=='string'||raw.length>20000)return '';
@@ -21,7 +21,7 @@ export function definitionText(raw:unknown,limit=1800):string {
  }).replace(/[\u0000-\u001f\u007f]/g,' ').replace(/\s+/g,' ').trim().slice(0,limit);
 }
 export function parseDefinitions(payload:unknown,rawWord:string,language:Language='en'):DefinitionResult {
- const [sourceCode,sourceName]=({en:['en','English'],'en-US':['en','English'],'en-GB':['en','English'],'en-AU':['en','English'],'es-MX':['es','Spanish'],'es-ES':['es','Spanish'],'fr-FR':['fr','French'],'fr-CA':['fr','French'],'fil-PH':['tl','Tagalog'],'nl-NL':['nl','Dutch'],'de-DE':['de','German']} as const)[language];
+ const [sourceCode,sourceName]=({en:['en','English'],'en-US':['en','English'],'en-GB':['en','English'],'en-AU':['en','English'],'es-MX':['es','Spanish'],'es-ES':['es','Spanish'],'fr-FR':['fr','French'],'fr-CA':['fr','French'],'fil-PH':['tl','Tagalog'],'nl-NL':['nl','Dutch'],'de-DE':['de','German'],'pt-BR':['pt','Portuguese'],'pt-PT':['pt','Portuguese']} as const)[language];
  const word=definitionWord(rawWord,language);if(!word||!object(payload)||(sourceCode in payload&&!Array.isArray(payload[sourceCode])))throw new DefinitionError('invalid');
  const entries:DefinitionEntry[]=[];
  for(const entry of (Array.isArray(payload[sourceCode])?payload[sourceCode] as unknown[]:[]).slice(0,8)){

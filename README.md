@@ -2,7 +2,7 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany) and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany), Portuguese (Brazil and Portugal) and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
 Formerly Morrowmark. Language and variety are selected separately. Each variety has its own word lists, progress and statistics. Old mixed-English games are not imported into the new English notebooks; other language saves and shared preferences stay unchanged.
 
@@ -13,6 +13,7 @@ Choose **Language → Variety** before playing. The game remembers your last var
 - English: **United States**, **United Kingdom**, **Australia**. Separate SCOWL regional answer and accepted-guess lists, 3–11 letters. Five-letter answer counts: **2,074 US**, **2,067 British**, **2,087 Australian**. COLOR/COLOUR and CENTER/CENTRE follow the selected spelling category, not a mixed list.
 - Español: **México** and **España**, 3–11 letters. Spain uses its own dictionary and region-compatible answer selection. Spain's bundled meanings are **Spanish definitions, not English translations**. Mexican teaching remains in Mexico's notebook only. Accents, Ü and Ñ stay distinct.
 - Français: **France** and **Canada**, 3–11 letters. Conservative region-specific answer and guess selections share ordinary French words. Accents and ç do not affect play. Œ/OE and Æ/AE use two tiles; reveals retain the correct original spelling. English meanings are bundled. Regional coverage is a starter selection, not an exhaustive or native-human-reviewed dictionary.
+- Português: **Brasil** and **Portugal**, 3–11 letters in Conquest, Absurd, One possibility, Smashare and Letroso. Separate regional dictionaries, answer pools, UTC daily puzzles, saved progress and statistics. Accents and ç do not affect validation, clues or wins; original spellings remain in reveals. CH, LH and NH each use two tiles. English meanings are bundled locally. Accent-colliding spellings share one gameplay identity and cannot compete as separate answers. [Sources, selection and coverage limits](docs/portuguese-sources.md).
 - Deutsch: **Deutschland**, 3–11 letters. Ä, Ö, Ü and ß are distinct one-tile letters; ß displays as capital ẞ on tiles. Use the German QWERTZ on-screen keyboard or type the original spelling. AE/OE/UE and SS are not aliases. Reveals retain dictionary spelling and noun capitalization. Sourced English meanings are bundled locally. [Sources and selection](docs/german-sources.md).
 - Nederlands: **Nederland**, unchanged, 3–11 letters.
 - Filipino: **Philippines**, unchanged, five letters.
@@ -274,3 +275,13 @@ Saved Dutch rounds opened before this change retain their original accent-sensit
 Definitions are bundled locally and retain Wiktionary attribution, sense labels and CC BY-SA 4.0 terms. Wordfreq supplies historical spelling frequency, not proof that every meaning is common. [Source details](WORDS-LICENSE.md) and [Dutch notices](public/third-party/nl-NL/NOTICE.txt).
 
 Dutch adds its own `.nl-NL` save namespace. Existing English, Spanish and Filipino datasets, notebooks, statistics and preferences are unchanged. No storage reset or publication is part of this addition.
+
+## Portuguese regional puzzles
+
+Choose **Language → Português**, then **Brasil** or **Portugal**. The interface remains in English. Both varieties support 3–11 letters, all five rule sets, Daily and Practice schedules, and Easy, Normal, Hard and Strict difficulty. Regional spelling sources validate separate guess lists; curated possible answers are a smaller selection. Ordinary shared Portuguese words can appear in both varieties. This is a regional starter selection, not an exhaustive dictionary or native-human certification.
+
+Type **ACAO** for **AÇÃO** or **CORACAO** for **CORAÇÃO**: accents, tilde and cedilla fold for scoring and duplicate checks. Reveals keep the original spelling. Accent collisions such as **AVÓ/AVÔ** have only one selected answer per variety, so a single guess cannot leave two indistinguishable answers. Plain-input meanings can display both headwords with their individual source links; an accented reveal keeps its exact headword. Punctuation is not silently removed.
+
+Portuguese Smashare compares shared two-letter seams after folding and requires two different gameplay words. Both component spellings survive in the reveal. The new Portuguese behavior does not alter existing languages’ pair schedules or rewrite old notebooks. Portugal and Brazil keep independent language/length/mode keys; shared difficulty remains global. Switching varieties resumes that variety’s saved game.
+
+The bundled data, provenance, source licenses, reproducible generation instructions and current counts are described in [Portuguese sources](docs/portuguese-sources.md). Missing meanings never invalidate a guess. No live dictionary or translation service is called during play.

@@ -1,0 +1,49 @@
+Portuguese (Brazil / Portugal) data for Lexi Conquest, 2026-11-07
+
+Regional spelling validation:
+- Brazil: VERO 3.2, Raimundo Santos Moura and contributors, copyright 2006–2013.
+  LibreOffice dictionaries commit c0865a85eb67dc377f2cf8e8fe2c4fa9e53f0dcb.
+  README explicitly offers GNU LGPL version 3 and an unspecified MPL version.
+  We use LGPL-3.0, not an assumed MPL version. Original unmodified pt_BR.aff,
+  pt_BR.dic, README, LGPL-3.0 and GPL-3.0 license texts are in ../pt-BR/.
+  https://github.com/LibreOffice/dictionaries/tree/c0865a85eb67dc377f2cf8e8fe2c4fa9e53f0dcb/pt_BR
+- Portugal: Natura, José João de Almeida, Rui Vilela, Alberto Simões,
+  Departamento de Informática, Universidade do Minho, copyright 2006–2009.
+  hunspell-pt_PT-20251001 is the post-AO1990 release, not the separate preao archive.
+  README/COPYING offers GPL-2.0, LGPL-2.1 or MPL-1.1; we use MPL-1.1.
+  Original unmodified pt_PT.aff, pt_PT.dic, README and full COPYING are in ../pt-PT/.
+  https://natura.di.uminho.pt/download/sources/Dictionaries/hunspell/hunspell-pt_PT-20251001.tar.gz
+
+Lexical spellings and English senses:
+Wiktionary contributors, English Wiktionary Portuguese entries, CC BY-SA 4.0.
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: https://kaikki.org/dictionary/Portuguese/kaikki.org-dictionary-Portuguese.jsonl
+Original headword links are retained in each displayed definition. Only selected
+plain-text lexical senses, labels and form references are used; examples,
+quotations, media and etymologies are omitted. Exact article revisions were not
+provided by the snapshot. Definitions are separate from regional spelling tests.
+
+Frequency data: wordfreq 3.0.2, Robyn Speer and contributors, CC BY-SA 4.0 data.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+The software is MIT; this does not relicense its frequency data.
+
+Changes: lowercase Portuguese lexical spellings of 3–11 letters are filtered by
+historical spelling frequency, checked against exact headwords in the selected regional dictionary, with one
+explicit VERO CASA form proven from the CASAR source row. No complete affix
+expansion is claimed. Candidate answers receive explicit review. Accents
+and cedilla are retained in answer identities and ignored in gameplay keys.
+Collision audits and regional membership evidence are separate from meanings.
+This is starter coverage, not an exhaustive dictionary or native-human review.
+
+The repository's MIT code license does not replace these data licenses.
+Wiktionary/wordfreq lexical evidence, selected lexical spellings, English senses
+and their modifications retain CC BY-SA 4.0. VERO and Natura source files and
+regional membership evidence retain their respective LGPL-3.0 / MPL-1.1 rights;
+no blanket relicensing is intended. All dictionary sources supplied here are
+unmodified. The corresponding source, modification scripts, membership reports,
+reviews, hashes and generation instructions are supplied in the project under
+src/data/portuguese/, scripts/import-portuguese.py, scripts/generate-portuguese.mjs
+and docs/portuguese-sources.md. Source and modifications remain available under
+their applicable licenses; there is no restriction on modifying/replacing these
+files for personal use or distributing them under those licenses.

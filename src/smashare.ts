@@ -1,11 +1,13 @@
 import {score,validDate,type Clue} from './domain.ts';
 import {answerDataset,vocabulary} from './words.ts';
-import {normalizeGuess,savedDutchRules,validLetters,type DutchRules,type Language} from './language.ts';
+import {isPortuguese,normalizeGuess,savedDutchRules,validLetters,type DutchRules,type Language} from './language.ts';
 
 /** Word 1 starts with the two letters that end word 2. The displayed merge reads word 2, then word 1. */
 export type SmashPair={first:string;second:string;merged:string};
-export function makeSmashPair(first:string,second:string):SmashPair|undefined {
- if(first.length!==second.length||first.length<3||first.slice(0,2)!==second.slice(-2)||first===second)return;
+export function makeSmashPair(first:string,second:string,language:Language='en'):SmashPair|undefined {
+ // Only the new Portuguese datasets use folded seams; older daily pair schedules stay fixed.
+ const a=isPortuguese(language)?normalizeGuess(first,language):first,b=isPortuguese(language)?normalizeGuess(second,language):second;
+ if(first.length!==second.length||first.length<3||a.slice(0,2)!==b.slice(-2)||a===b)return;
  return {first,second,merged:second+first.slice(2)};
 }
 export function parseSmashGuess(raw:string,length:number,language:Language,dutchRules:DutchRules=2):SmashPair|undefined {
@@ -13,7 +15,7 @@ export function parseSmashGuess(raw:string,length:number,language:Language,dutch
  if(!validLetters(merged,language)||merged.length!==2*length-2)return;
  const second=merged.slice(0,length),first=merged.slice(length-2);
  const allowed=vocabulary(length,language,dutchRules).allowed;
- return allowed.has(first)&&allowed.has(second)?makeSmashPair(first,second):undefined;
+ return allowed.has(first)&&allowed.has(second)?makeSmashPair(first,second,language):undefined;
 }
 function hash(value:string):number {let n=2166136261;for(const c of value)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0}
 type Group={second:string;firsts:string[]};
@@ -21,15 +23,16 @@ const cache=new Map<string,{groups:Group[];total:number}>();
 function candidates(length:number,language:Language){
  const key=answerDataset(length,language),old=cache.get(key);if(old)return old;
  const answers=[...vocabulary(length,language).answers].sort(),prefixes=new Map<string,string[]>();
- for(const word of answers){const key=word.slice(0,2),group=prefixes.get(key)??[];group.push(word);prefixes.set(key,group)}
+ const spelling=(word:string)=>isPortuguese(language)?normalizeGuess(word,language):word;
+ for(const word of answers){const key=spelling(word).slice(0,2),group=prefixes.get(key)??[];group.push(word);prefixes.set(key,group)}
  const groups:Group[]=[];let total=0;
- for(const second of answers){const firsts=(prefixes.get(second.slice(-2))??[]).filter(first=>first!==second);if(firsts.length){groups.push({second,firsts});total+=firsts.length}}
+ for(const second of answers){const firsts=(prefixes.get(spelling(second).slice(-2))??[]).filter(first=>spelling(first)!==spelling(second));if(firsts.length){groups.push({second,firsts});total+=firsts.length}}
  const result={groups,total};cache.set(key,result);return result;
 }
 export function smashPairCount(length:number,language:Language):number {return candidates(length,language).total}
 function selectPair(index:number,length:number,language:Language):SmashPair {
  const {groups,total}=candidates(length,language);if(!total)throw new Error('No valid Smashare pairs for this language and length.');
- let offset=index%total;for(const group of groups){if(offset<group.firsts.length)return makeSmashPair(group.firsts[offset],group.second)!;offset-=group.firsts.length}
+ let offset=index%total;for(const group of groups){if(offset<group.firsts.length)return makeSmashPair(group.firsts[offset],group.second,language)!;offset-=group.firsts.length}
  throw new Error('Invalid pair index.');
 }
 export function dailySmashPair(date:string,length:number,language:Language):SmashPair {
@@ -46,7 +49,7 @@ export function scoreSmash(answer:SmashPair,guess:SmashPair,language:Language='e
 import {clueConstraintError,type Difficulty} from './domain.ts';
 export interface SmashRun {dutchRules?:DutchRules;started?:boolean;answer:SmashPair;guesses:string[];draft:string;language:Language;length:number;difficulty:Difficulty;roundId?:string;easiest?:Difficulty;assisted?:boolean;continuation?:'pending'|'unlimited';gaveUp?:boolean}
 export function newSmashRun(answer:SmashPair,language:Language,difficulty:Difficulty='normal',dutchRules:DutchRules=2):SmashRun {
- const length=answer.first.length,rebuilt=makeSmashPair(answer.first,answer.second);
+ const length=answer.first.length,rebuilt=makeSmashPair(answer.first,answer.second,language);
  if(!rebuilt||rebuilt.merged!==answer.merged||!vocabulary(length,language).answers.includes(answer.first)||!vocabulary(length,language).answers.includes(answer.second))throw new Error('Invalid Smashare answer pair.');
  return {...(language==='nl-NL'?{dutchRules}:{}),answer:rebuilt,guesses:[],draft:'',language,length,difficulty,easiest:difficulty,assisted:difficulty==='easy'};
 }
@@ -97,7 +100,7 @@ export function suggestSmash(run:SmashRun,limit=5,budget=30000):{pairs:SmashPair
  const {groups,total}=candidates(run.length,run.language);const pairs:SmashPair[]=[],seen=new Set<string>();let scanned=0;
  for(const group of groups)for(const first of group.firsts){
   if(scanned>=budget)return {pairs,scanned,truncated:scanned<total};scanned++;
-  const pair=makeSmashPair(first,group.second)!;if(run.guesses.some(guess=>normalizeGuess(guess,run.language,run.dutchRules)===normalizeGuess(pair.merged,run.language,run.dutchRules)))continue;
+  const pair=makeSmashPair(first,group.second,run.language)!;if(run.guesses.some(guess=>normalizeGuess(guess,run.language,run.dutchRules)===normalizeGuess(pair.merged,run.language,run.dutchRules)))continue;
   const key=normalizeGuess(pair.merged,run.language,run.dutchRules);
   if(!seen.has(key)&&observations.every(({guess,clues})=>score(pair.merged,guess,run.language,run.dutchRules).join(',')===clues)){pairs.push(pair);seen.add(key)}
   if(pairs.length>=limit)return {pairs,scanned,truncated:scanned<total};

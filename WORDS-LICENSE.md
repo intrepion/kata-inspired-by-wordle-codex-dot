@@ -359,3 +359,16 @@ before uppercasing, without SS expansion. Source headwords preserve noun case an
 original spelling in reveals and attribution links. Regional and frequency evidence
 is incomplete and not native-human certification. No existing language datasets
 or saves are replaced.
+
+## Portuguese Brazil and Portugal (3–11 letters)
+
+See [Portuguese sources and reproducibility](docs/portuguese-sources.md) and `src/data/portuguese/source.json` for exact source hashes and transformations. Runtime English meanings and selected lexical evidence are English Wiktionary Portuguese entries (Wiktionary contributors, CC BY-SA 4.0) and wordfreq 3.0.2 data (Robyn Speer and contributors, CC BY-SA 4.0), with source links and labels retained. Wordfreq software's MIT license does not relicense its data.
+
+Regional spelling evidence is kept separate:
+
+- Brazil: VERO 3.2 by Raimundo Santos Moura and contributors, LibreOffice dictionaries revision `c0865a85eb67dc377f2cf8e8fe2c4fa9e53f0dcb`. README explicitly names LGPL version 3; its MPL alternative has no version, so this distribution chooses **LGPL-3.0**. Unmodified dictionary/affix source files, README, LGPL-3.0 and GPL-3.0 texts ship in `public/third-party/pt-BR/`.
+- Portugal: Natura `hunspell-pt_PT-20251001`, post-AO1990, by José João de Almeida, Rui Vilela and Alberto Simões, Universidade do Minho. The source explicitly offers GPL-2.0/LGPL-2.1/MPL-1.1; this distribution chooses **MPL-1.1**. Unmodified dictionary/affix sources, README and full COPYING ship in `public/third-party/pt-PT/`.
+
+Lexical spellings are independently checked against exact regional headword rows, with one explicit source-proven VERO CASA affix exception, not unrestricted affix expansion. Regional membership reports retain the corresponding dictionary rights. Lexical evidence, meanings and selected lexical spellings retain CC BY-SA 4.0; no blanket MIT/CC relicensing of Hunspell sources is intended. The original sources and all modification scripts, manifests, review records and generation instructions are provided in the repository. The project's MIT code license does not override these licenses. Full aggregate notice and CC BY-SA text ship in `public/third-party/pt/`.
+
+Selection retains canonical accented answer spellings while comparison keys fold accents/cedilla; collision reports preserve aliases. English definitions are selected source senses, not generated translations. This is a conservative model-reviewed starter, not native-human certification or exhaustive regional/inflection coverage.

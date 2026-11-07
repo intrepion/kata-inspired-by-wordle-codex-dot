@@ -282,3 +282,24 @@ Domain checks additionally cover all nine lengths for every regional pack, local
 Limitations are disclosed in the UI and source documents: France/Canada regional labels are incomplete and the packs are conservative starter selections, Spain meanings are Spanish definitions rather than English translations, and Australian entries without approved standalone senses remain guesses only. Missing meanings are never invented. Shared ordinary words legitimately occur in several varieties.
 
 No push, remote branch, merge, source upload or deployment was performed for this revision. Publication requires a separate approval.
+
+## Portuguese Brazil and Portugal, November 7, 2026
+
+Both Portuguese varieties support lengths 3–11, Conquest, Absurd, One possibility, Smashare and Letroso, Daily/Practice schedules and all four difficulties. Canonical accents and ç remain in reveals while input, duplicate checks, clues and wins use folded keys. Each regional answer pool has one answer per folded key. Portuguese Smashare folds its seam comparison without changing existing languages' schedules.
+
+Final verification:
+- `npm run check`: strict TypeScript, **633 passing tests**, zero failures/skips, and production build.
+- `npm run build:pages`: passed. The existing large-chunk warning remains; eager app code/data is about 24.4 MB minified / 7.0 MB gzip. Cold-network loading performance was not benchmarked.
+- `npm audit --audit-level=moderate`: zero vulnerabilities.
+- Portuguese importer reproduction and `node scripts/generate-portuguese.mjs --verify-regions --check`: passed against pinned sources. Four data tests additionally verify exact reviewed primary-gloss ordering, region membership, coverage and collisions.
+- Portuguese language/integration tests cover both varieties at every length and difficulty across all five modes, including deterministic Daily targets/clues/pairs, practice, canonical reveals, NFC/NFD input, repeated-letter scoring, save replay, advice and English source identity.
+- A separate comparison with unchanged commit `9043252` checked **91 pre-Portuguese locale/length combinations across three dates**. Existing answer/guess lists, dataset IDs, root/project save keys, daily answers, daily Smashare pairs and encoded/restored completed notebooks matched byte-for-byte.
+- `git diff --check`: clean.
+
+`node scripts/check-portuguese-browser.mjs` passed on a disposable real HTTP server at **127.0.0.1:4179**, with separate Chrome contexts at desktop 1440×1100 and emulated mobile 390×844. The script accepts `PLAYWRIGHT_MODULE` and `PLAYWRIGHT_CHANNEL` for the installed test browser. It stopped its temporary server and browser after completion.
+
+The browser run covered 40 variety × mode × schedule flows at both viewport sizes, all 3–11 length selectors, submitting guesses, reloading saved rounds, switching varieties and resuming, decomposed accented keyboard events with canonical reveals, plain AVO showing both avó and avô source links, Help/Escape and About/Close, and byte-identical preservation of seeded existing-language saves and unrelated storage. There were no JavaScript errors, external dictionary requests or page-wide horizontal overflow. Desktop/mobile screenshots were inspected visually. This is emulated/synthetic input coverage, not physical mobile-IME certification. An initial attribution assertion timed out during overlapping data regeneration; the complete frozen-data rerun passed.
+
+The answer lists contain **1,453 Brazil** and **2,007 Portugal** words. Accepted source spellings total **7,227 / 9,536**, representing **7,206 / 9,498** folded guess keys; each has at least one sourced English sense or labelled form/reference. Every length has at least 61 curated answers, valid Smashare pairs and five verified Daily One clues. The datasets are conservative regional dictionary-headword selections plus a specifically verified Brazil CASA affix exception, not exhaustive morphology or native-human certification. Sources and rights are recorded in [Portuguese sources](portuguese-sources.md) and ADR 0042.
+
+No commit, push, remote branch, merge, source upload or deployment was performed. Publication remains a separate approval.

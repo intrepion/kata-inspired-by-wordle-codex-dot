@@ -1,0 +1,82 @@
+{
+  "version": "uk-UA-v1",
+  "language": "uk-UA",
+  "minimumZipf": 4.3,
+  "editorialSupplements": {
+    "ҐРУНТ": {
+      "minimumZipf": 3.82,
+      "reason": "Standard familiar lemma: soil, ground; historical frequency under the general 4.3 threshold. Individually reviewed; Ґ remains distinct."
+    }
+  },
+  "guessMinimumZipf": 2.5,
+  "orthography": "NFC Ukrainian 33-letter alphabet. Й/И, Ї/І, Є/Е and Ґ/Г remain distinct. Ь occupies one tile. No accent folding, transliteration or apostrophe stripping. Canonical source spelling retained separately.",
+  "frequencyNormalization": "NFC uppercase only. All Ukrainian letters remain distinct. Maximum case-normalized spelling frequency, not a sum; sense frequency is not certified.",
+  "lengths": {
+    "3": {
+      "answers": 100,
+      "guesses": 465,
+      "definedGuesses": 465
+    },
+    "4": {
+      "answers": 199,
+      "guesses": 1183,
+      "definedGuesses": 1183
+    },
+    "5": {
+      "answers": 281,
+      "guesses": 2141,
+      "definedGuesses": 2141
+    },
+    "6": {
+      "answers": 270,
+      "guesses": 2676,
+      "definedGuesses": 2676
+    },
+    "7": {
+      "answers": 214,
+      "guesses": 2770,
+      "definedGuesses": 2770
+    },
+    "8": {
+      "answers": 189,
+      "guesses": 2655,
+      "definedGuesses": 2655
+    },
+    "9": {
+      "answers": 158,
+      "guesses": 2309,
+      "definedGuesses": 2309
+    },
+    "10": {
+      "answers": 98,
+      "guesses": 1724,
+      "definedGuesses": 1724
+    },
+    "11": {
+      "answers": 53,
+      "guesses": 1228,
+      "definedGuesses": 1228
+    }
+  },
+  "review": "Explicit independent model-reviewed allowlist, not native-human certification. Й and Ї remain distinct single tiles; canonical source spelling is preserved.",
+  "inputs": {
+    "lexical-evidence.json": "0550da3f784d4bbfda2b585a5cd49d2a154d8e12b6b921714aa779dba10b6413",
+    "frequency-evidence.json": "937b3804e3719d611da2194e50ecff0f708db55c1ae7615525c9c7ae825f3c71",
+    "review.json": "2203ff02739de476519314dcf908ff17d2e3242b8bc67915463605bda032f9a1"
+  },
+  "outputs": {
+    "vocabulary.json": "63ac3d7d387ec4e57feaaff2d5c3bd38ad3d999b01934b773a7b0d6b8b3e0227",
+    "answer-selection.json": "5edb18b1d5f3b3e30fbfa2de2fa5b6937f2b5c271419952e7a5646da5bc6f57f",
+    "canonical-spellings.json": "0cd67b68d72b3ccd2485cbb153743489828e1bfa48b135f703ab791ff8cce831",
+    "definitions-3.json": "aec26d29e0d6cf550bf46e73ceef760ea4df36fefa572876ae50319490ebfbf6",
+    "definitions-4.json": "bac701a88dbc09068b7291eb1658b183e918894f01f5afc2dd6c4c23683987f4",
+    "definitions-5.json": "b233140fab03cc50ef2b35b6f8fef05cb1afd412ddda597e2427289490f18450",
+    "definitions-6.json": "c916f157632c25d9a7205c8342eaef18330ef2e9cfbecb48fe4e531db53897b8",
+    "definitions-7.json": "91b75acb546511ae1e40bb35c61765c3a6a9cb2d03a7cb914facf3bfef4e3915",
+    "definitions-8.json": "d80edff5b0055ec9ec565ba9efeb934900b3f13782a313cd47e14cae281401ca",
+    "definitions-9.json": "32d84c9a6526dae4291e7bf505d42dc1c2e6ff4ab2958b1fea48eb7de0bdc4e9",
+    "definitions-10.json": "e3842d3e455e31e96d6eb9402e0865d26e38180078d05b5b57912491c5643fff",
+    "definitions-11.json": "6d10be4e9d9b9369ab5e2b3bbd1ff069c82a64de91e6f6befea3529659a35832"
+  },
+  "limitations": "Conservative starter answer pool. Frequency is historical mixed-region spelling frequency, not current Ukraine-specific sense frequency. Source labels and model review may be incomplete. Broader guesses include labelled historical, regional and inflected entries. No exhaustive morphology coverage."
+}

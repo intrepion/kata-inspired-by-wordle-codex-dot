@@ -20,5 +20,6 @@ test('Swedish preserves its three distinct extra letters, with full keyboard sup
 });
 test('new language rules leave existing orthography unchanged',()=>{
  assert.equal(normalizeGuess('niño','es-MX'),'NIÑO');assert.equal(normalizeGuess('Straße','de-DE'),'STRAẞE');assert.equal(normalizeGuess('ёлка','ru-RU'),'ЁЛКА');assert.equal(normalizeGuess('avó','pt-BR'),'AVO');
- assert.match(readFileSync('index.html','utf8'),/<meta name="description" content="[^"]*Italian and Swedish/);
+ const description=readFileSync('index.html','utf8').match(/<meta name="description" content="([^"]*)"/)?.[1]??'';
+ for(const language of ['Italian','Swedish'])assert.ok(description.includes(language));
 });

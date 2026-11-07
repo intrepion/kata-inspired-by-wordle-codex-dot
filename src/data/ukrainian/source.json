@@ -1,0 +1,33 @@
+{
+  "language": "uk-UA",
+  "sourceLanguage": "uk",
+  "version": "uk-UA-v1",
+  "retrieved": "2026-11-07",
+  "wiktionary": {
+    "edition": "English Wiktionary, Ukrainian entries",
+    "contributors": "Wiktionary contributors",
+    "artifactUrl": "https://kaikki.org/dictionary/Ukrainian/kaikki.org-dictionary-Ukrainian.jsonl",
+    "artifactBytes": 322795063,
+    "artifactSha256": "31e8e39f48feae391478f1fe2c37d003053cf88f2dd4f2d97d5d19c7bc432a90",
+    "format": "Kaikki postprocessed per-language JSONL; deprecated upstream, not raw Wiktextract data",
+    "landingPage": "https://kaikki.org/dictionary/Ukrainian/",
+    "rightsUrl": "https://kaikki.org/dictionary/",
+    "dataLicense": "CC-BY-SA-4.0",
+    "modifications": "Retain 3–11-tile Ukrainian headwords, excluding proper-name POS, with Zipf >=2.5, parts of speech, glosses, sense tags and form/alternative relationships only. Omit enrichment categories, disambiguation, audio, examples, quotations, translations, etymology and non-Ukrainian scripts/spellings. Preserve original headwords and per-record input hashes. NFC and uppercase preserve Й, Ї, І, Є and Ґ as distinct letters. Ь is one tile. No transliteration or accent stripping. Only the 33 Ukrainian letters are playable. Apostrophes are excluded, never removed to manufacture misspellings. Exact source spelling and case are retained. No exact article revision is supplied by this snapshot."
+  },
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_uk.msgpack.gz",
+    "artifactBytes": 272025,
+    "artifactSha256": "c8cc895dd13da4a905d268d96382f2675f49fed770e89804c4f8f114a2564dec",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "modifications": "Retain 3–11-letter spelling frequency bins matching Ukrainian lexical evidence. No letter folding or transliteration. For case-normalized homographs use the maximum supplied estimate, not a sum. Historical mixed-corpus spelling frequencies do not certify individual senses or contemporary regional usage."
+  },
+  "inputs": {
+    "lexical-evidence.json": "0550da3f784d4bbfda2b585a5cd49d2a154d8e12b6b921714aa779dba10b6413",
+    "frequency-evidence.json": "937b3804e3719d611da2194e50ecff0f708db55c1ae7615525c9c7ae825f3c71"
+  }
+}

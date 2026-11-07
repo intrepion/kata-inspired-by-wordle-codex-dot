@@ -396,3 +396,9 @@ Italian vowel accents fold only for play; original spellings remain in reveals a
 meanings, and accent-colliding answers are deduplicated. Swedish Å, Ä and Ö are
 distinct; loanwords with accents outside the 29-letter alphabet are intentionally
 omitted, not silently respelled. [Sources, decisions, limitations and reproduction](docs/italian-swedish-sources.md).
+
+## Ukrainian (Ukraine), 3–11 letters
+
+Ukrainian lexical data and English meanings adapt English Wiktionary Ukrainian entries via Kaikki, with wordfreq 3.0.2 frequency evidence, under CC BY-SA 4.0 independently of the game code license. Exact artifacts, checksums and transformations are in `src/data/ukrainian/source.json`, `coverage.json` and [source documentation](docs/ukrainian-sources.md). Full attribution, license and wordfreq credits ship in [the Ukrainian notice](public/third-party/uk-UA/NOTICE.txt) and adjacent files. Original source headwords and per-record hashes are retained. No VESUM data is used.
+
+Only the 33 Ukrainian letters are playable. NFC preserves Ґ/Г, Є/Е, Ї/І and Й/И as distinct; Ь is one tile. Apostrophized words are excluded, not respelled without required punctuation. English glosses retain source labels and original-headword links. Answers use Zipf >=4.3 plus one explicit independently reviewed exception, ҐРУНТ at 3.82. Model editorial review does not constitute native-human certification. Frequency does not prove individual-sense commonness or exclusive regional usage. The Kaikki snapshot is its deprecated postprocessed per-language artifact, not the raw multilingual export. Exact individual article revisions are unavailable. Source import and offline reduced-evidence generation are reproducible; builds do not download dictionaries.

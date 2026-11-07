@@ -367,3 +367,28 @@ eleven-letter Smashare in both languages, decomposed accented input, source-link
 English meanings, Swedish keyboard keys, statistics filters, source/license files,
 asset responses and isolation from unrelated storage. It can be rerun against the
 published site with `BASE_URL`; it does not rely on development-only `/src/` URLs.
+
+## Ukrainian (Ukraine), November 7, 2026
+
+Implemented on the verified Italian/Swedish base `6140280` in an isolated worktree.
+No existing answer dataset IDs or notebook namespaces changed.
+
+- TDD: Ukrainian language/keyboard/metadata tests were observed failing before implementation, then passed. The complete final suite passes **717/717** tests.
+- `npm run check` passes TypeScript, all tests and normal production build. `npm run build:pages` passes. Vite retains the existing large-chunk advisory; it is a warning, not a failed build.
+- Exact pinned full-source importer check and reduced-evidence generator check pass. SHA-256 pins cover original lexical/frequency inputs, reduced evidence, candidate review and generated outputs.
+- Independent model editorial review classified every candidate; final pack contains **1,562 answers** and **17,151 accepted guesses**, each with a local English meaning. ҐРУНТ is the sole documented below-4.3 editorial exception. No native-human certification is claimed.
+- Independent read-only implementation/data-policy review found no blocking issue.
+
+Run the local browser checks with Chrome and the documented Playwright path:
+
+```sh
+node scripts/check-ukrainian-browser.mjs
+npm run build:pages
+node --import tsx scripts/check-ukrainian-pages.mjs
+```
+
+Both use disposable browser contexts and local `127.0.0.1` servers. The development suite passes **20 desktop/mobile mode/schedule flows**, covering Conquest, Absurd, One possibility, Smashare and Letroso in Daily and Practice, guess submission and reload restoration. It also checks all lengths 3–11, each of the 33 on-screen letters, rejection of Russian-only letters/Latin lookalikes/apostrophe keys, NFC-decomposed Й/Ї, distinct Ґ/Г and Ї/І, language switching and restored drafts, Help/About/Statistics/Settings dismissal, attributed English meanings, byte-identical unrelated language saves and no external dictionary requests. Narrow-screen layout has no page-wide overflow at 320px. Desktop and mobile screenshots were visually reviewed.
+
+The actual Pages-build suite serves the project subpath and passes another **20 desktop/mobile flows**, reloads and lengths 3–11. It solves eleven-letter Smashare, verifies ҐРУНТ input/reveal and its English meaning, clicks Ґ Є І Ї Ь keys, checks statistics identity and source/license/README HTTP200 responses. No JavaScript errors, failed assets or external dictionary requests occurred.
+
+Domain tests cover all supported lengths, all five modes, duplicate-letter scoring, native-letter distinctions, all four fixed/ordered/Smashare difficulty levels, deterministic daily cycles, reachable Absurd targets, unique One clues, save replay and language-isolated advice/eligibility. Apostrophized words are excluded rather than silently respelled. This section records local validation only; it does not claim publication or live-site verification.

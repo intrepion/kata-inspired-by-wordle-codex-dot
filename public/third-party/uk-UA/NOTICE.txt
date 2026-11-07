@@ -1,0 +1,55 @@
+Lexi Conquest: Ukrainian (Ukraine), 3–11-letter selection
+
+Adapted lexical data, frequency data and selections: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: CC-BY-SA-4.0.txt. Game code retains its separate license.
+
+English Wiktionary contributors, Ukrainian entries, extracted by Wiktextract and
+distributed by Kaikki. Source entry attribution:
+https://en.wiktionary.org/wiki/<original-headword>#Ukrainian
+https://kaikki.org/dictionary/Ukrainian/kaikki.org-dictionary-Ukrainian.jsonl
+https://kaikki.org/dictionary/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+Snapshot retrieved 2026-11-07, SHA-256:
+31e8e39f48feae391478f1fe2c37d003053cf88f2dd4f2d97d5d19c7bc432a90
+Kaikki postprocessed per-language extract (deprecated upstream), not the raw
+multilingual Wiktextract export. No individual article revision is provided.
+Original headwords and per-record source hashes remain in repository evidence.
+Credit: Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data,
+LREC 2022, pp. 1317–1325,
+https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Modifications: retain attested 3–11-letter Ukrainian headwords in lexical POS
+(excluding proper names), English glosses, usage labels and form/alternative
+relationships with historical wordfreq spelling Zipf >=2.5. Omit media, examples,
+quotations, etymology, translations, categories and other enrichment. Tiles use
+NFC and uppercase. Й/И, Ї/І, Є/Е and Ґ/Г remain distinct; Ь is one tile.
+No diacritic stripping, transliteration, Latin lookalikes, stress marks, hyphens
+or spaces are accepted. Apostrophized words are excluded, never silently
+respelt by deleting required apostrophes. Canonical source spelling is retained.
+Up to eight source entries and eight senses per entry accompany each guess.
+Broad guesses include attested inflections, alternatives and labelled uncommon,
+historical, regional or sensitive senses. Answers require a standalone eligible
+sense, Zipf >=4.3 and explicit independent model editorial approval, except
+individually reviewed ҐРУНТ (soil/ground), exact spelling Zipf 3.82. This one
+ordinary lemma is an explicit editorial exception; its historical sense does
+not qualify it, and Ґ/Г are never merged.
+Selection targets contemporary standard Ukrainian in Ukraine, not exhaustive
+regional separation. No native-human review or certification is claimed.
+
+Frequency: wordfreq 3.0.2, Robyn Speer and contributors, revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b, small_uk.msgpack.gz.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+SHA-256: c8cc895dd13da4a905d268d96382f2675f49fed770e89804c4f8f114a2564dec
+Data: CC BY-SA 4.0. Software: MIT. Complete pinned README and MIT notice supplied.
+Preserve all README source credits including OpenSubtitles and freely available
+SUBTLEX, Marc Brysbaert and coauthors. No corpus sentences are redistributed.
+For case-normalized spellings retain the maximum estimate, not a sum. No letter
+aliases are applied to frequency. Historical spelling frequency does not prove
+current Ukraine-specific commonness or sense frequency.
+
+Sources, pins, policy and reproduction: docs/ukrainian-sources.md and
+src/data/ukrainian/source.json in https://github.com/intrepion/kata-inspired-by-wordle-codex-dot
+No VESUM data is used. Preserve attribution, modification notices and ShareAlike
+terms when redistributing adapted data. These notices add no extra restrictions.

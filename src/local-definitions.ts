@@ -1,3 +1,4 @@
+import {ukrainianDefinition} from './ukrainian-definitions.ts';
 import {italianSwedishDefinition} from './italian-swedish-definitions.ts';
 import {russianDefinition} from './russian-definitions.ts';
 import {portugueseDefinition} from './portuguese-definitions.ts';
@@ -37,6 +38,7 @@ export async function localDefinition(word:string,language:Language):Promise<Def
  if(language==='fr-FR'||language==='fr-CA')return frenchDefinition(word,language);
  if(language==='es-ES')return spanishSpainDefinition(word);
  if(language==='nl-NL')return dutchDefinition(word);
+ if(language==='uk-UA')return ukrainianDefinition(word);
  if(language==='ru-RU')return russianDefinition(word);
  if(language==='de-DE')return germanDefinition(word);
  if(language==='fil-PH')return filipinoDefinition(word);

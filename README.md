@@ -2,7 +2,7 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany), Portuguese (Brazil and Portugal) and Dutch (Netherlands), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany), Portuguese (Brazil and Portugal), Dutch (Netherlands) and Russian (Russia), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
 Formerly Morrowmark. Language and variety are selected separately. Each variety has its own word lists, progress and statistics. Old mixed-English games are not imported into the new English notebooks; other language saves and shared preferences stay unchanged.
 
@@ -15,6 +15,7 @@ Choose **Language → Variety** before playing. The game remembers your last var
 - Français: **France** and **Canada**, 3–11 letters. Conservative region-specific answer and guess selections share ordinary French words. Accents and ç do not affect play. Œ/OE and Æ/AE use two tiles; reveals retain the correct original spelling. English meanings are bundled. Regional coverage is a starter selection, not an exhaustive or native-human-reviewed dictionary.
 - Português: **Brasil** and **Portugal**, 3–11 letters in Conquest, Absurd, One possibility, Smashare and Letroso. Separate regional dictionaries, answer pools, UTC daily puzzles, saved progress and statistics. Accents and ç do not affect validation, clues or wins; original spellings remain in reveals. CH, LH and NH each use two tiles. English meanings are bundled locally. Accent-colliding spellings share one gameplay identity and cannot compete as separate answers. [Sources, selection and coverage limits](docs/portuguese-sources.md).
 - Deutsch: **Deutschland**, 3–11 letters. Ä, Ö, Ü and ß are distinct one-tile letters; ß displays as capital ẞ on tiles. Use the German QWERTZ on-screen keyboard or type the original spelling. AE/OE/UE and SS are not aliases. Reveals retain dictionary spelling and noun capitalization. Sourced English meanings are bundled locally. [Sources and selection](docs/german-sources.md).
+- Русский: **Россия**, 3–11 letters in all five modes. A native Cyrillic keyboard and NFC normalization preserve Й/И and Ё/Е as distinct letters; Ъ and Ь each take one tile. Latin lookalikes and transliterations are not aliases. Curated answers and broader guesses have locally bundled English meanings. Russian daily puzzles, progress and statistics are separate. [Sources and selection](docs/russian-sources.md).
 - Nederlands: **Nederland**, unchanged, 3–11 letters.
 - Filipino: **Philippines**, unchanged, five letters.
 
@@ -34,7 +35,7 @@ Open http://127.0.0.1:5298. The launcher checks the port and refuses to replace 
 
 ## Rules and records
 
-- Type A–Z or tap keys. Enter submits, Backspace / ⌫ erases. Unknown, incomplete and already-submitted guesses spend no turn. Six accepted guesses finish the puzzle; a win finishes immediately.
+- Type letters for the selected language or tap its on-screen keys. Enter submits, Backspace / ⌫ erases. Unknown, incomplete and already-submitted guesses spend no turn. Six accepted guesses finish the puzzle; a win finishes immediately.
 - ✓ means the correct position; ↔ means another position; × means no unmatched copy remains. Exact matches consume copies first; remaining matches allocate left-to-right. APPLE / ALLEY yields ✓ ↔ × ↔ ×. Clues have symbols and accessible names, plus optional high contrast.
 - Daily identity is one deterministic puzzle per **UTC date**, changing at **00:00 UTC**. The device clock supplies the date. On **November 1, 2026 at 00:00 UTC**, each language/length switches to a shared seeded shuffle: every possible answer appears once per cycle, then the same shuffled cycle repeats. Earlier dates keep their original alphabetical schedule. Saved old-client rounds keep their original answer and are labelled **Legacy daily schedule** when needed; new dates use the shuffle. Ordinary unfinished rounds expire at rollover without a loss; pending/unlimited continuations keep their original puzzle date. Input, focus and a 15-second timer detect rollover. [Algorithm, migration and publication-boundary requirements](docs/adr/0034-shared-shuffled-daily-schedule.md).
 - Completed daily results count once by date. Played, wins, win rate, guess distribution, current and best streaks derive from the validated result ledger. A streak requires consecutive UTC dates won. Missing a date or losing breaks it; yesterday's winning streak remains current until today is lost or the next day is missed. Practice never counts.

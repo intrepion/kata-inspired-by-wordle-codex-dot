@@ -1,0 +1,55 @@
+Lexi Conquest: Russian (Russia), 3–11-letter selection
+
+Adapted lexical data, frequency data and selections: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: CC-BY-SA-4.0.txt. Game code retains its separate license.
+
+English Wiktionary contributors, Russian entries, extracted by Wiktextract and
+distributed by Kaikki. Source entry attribution:
+https://en.wiktionary.org/wiki/<original-headword>#Russian
+https://kaikki.org/dictionary/Russian/kaikki.org-dictionary-Russian.jsonl
+https://kaikki.org/dictionary/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+Snapshot retrieved 2026-11-07, SHA-256:
+9078947aa21ed33ccfe9ada814fa70605c282a26bc0b7d60e388865da17984b7
+Kaikki postprocessed per-language extract (deprecated upstream), not the raw
+multilingual Wiktextract export. No individual article revision is provided.
+Original headwords and per-record source hashes remain in repository evidence.
+Credit: Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data,
+LREC 2022, pp. 1317–1325,
+https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Modifications: retain attested 3–11-letter Russian headwords in lexical POS
+(excluding proper names), English glosses, usage labels and form/alternative
+relationships with historical wordfreq spelling Zipf >=2.5. Omit media, examples,
+quotations, etymology, translations, categories and other enrichment. Tiles use
+NFC and uppercase. Й and Ё are distinct from И and Е; no diacritic stripping,
+transliteration, Latin lookalikes, stress marks, hyphens or spaces are accepted.
+Canonical source spelling is retained separately. Up to eight source entries
+and eight senses per entry are bundled for each accepted guess.
+Broad guesses include attested inflections, alternative spellings and labelled
+regional, historical or sensitive senses. An Е alternative is a separate guess,
+not an alias for Ё. Answers require a standalone eligible sense, Zipf >=4.3 and
+explicit independent model editorial approval. Selection targets contemporary
+standard Russian in Russia, not exhaustive regional separation.
+
+Frequency: wordfreq 3.0.2, Robyn Speer and contributors, revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b, small_ru.msgpack.gz.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+SHA-256: ddb45281a609f8c5c4bf3ece7b045c540f76fe36bb438a108e2a45c6f593a078
+Data: CC BY-SA 4.0. Software: MIT. Complete pinned README and MIT notice supplied.
+Preserve all README source credits including OpenSubtitles and freely available
+SUBTLEX, Marc Brysbaert and coauthors. No corpus sentences are redistributed.
+For case-normalized spellings retain the maximum estimate, not a sum.
+For lexical Ё words, frequency uses the maximum exact spelling and Е counterpart
+estimate, reflecting ordinary print without dots. This frequency-only fallback
+never merges lexical/gameplay keys and may overestimate an individual sense.
+Й and И never fold.
+Historical mixed-region spelling frequency does not prove current Russian
+commonness or sense frequency. No native-human review is claimed.
+
+Sources, pins, policy and reproduction: docs/russian-sources.md and
+src/data/russian/source.json in https://github.com/intrepion/kata-inspired-by-wordle-codex-dot
+Preserve attribution, modification notices and ShareAlike terms when
+redistributing adapted data. These notices impose no extra restrictions.

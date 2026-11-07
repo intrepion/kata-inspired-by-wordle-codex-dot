@@ -1,3 +1,4 @@
+import RUSSIAN from './data/russian/vocabulary.json';
 import PORTUGUESE_BR from './data/portuguese/vocabulary-br.json';
 import PORTUGUESE_PT from './data/portuguese/vocabulary-pt.json';
 import GERMAN from './data/german/vocabulary.json';
@@ -31,6 +32,8 @@ for(const [length,data] of Object.entries(EXTENDED_VOCABULARY))vocabularies.set(
 const spanishVocabularies=new Map<number,{answers:string[];allowed:Set<string>}>();
 for(const length of [4,5,6,7] as const){const data=SPANISH_VOCABULARY[length];spanishVocabularies.set(length,{answers:data.answers,allowed:new Set(data.guesses)})}
 for(const [length,data] of Object.entries(SPANISH_EXTENDED_VOCABULARY))spanishVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
+const russianVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();
+for (const [length,data] of Object.entries(RUSSIAN)) russianVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
 const germanVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();
 for (const [length,data] of Object.entries(GERMAN)) germanVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
 const dutchVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();
@@ -45,7 +48,7 @@ const portugueseVocabularies=new Map<string,Map<number,{answers:string[];allowed
 for(const [locale,source]of [['pt-BR',PORTUGUESE_BR],['pt-PT',PORTUGUESE_PT]] as const)portugueseVocabularies.set(locale,new Map(Object.entries(source).map(([length,data])=>[Number(length),{answers:data.answers,allowed:new Set(data.guesses)}])));
 const filipinoVocabulary = {answers: FILIPINO.answers, allowed: new Set(FILIPINO.guesses)};
 export function supportedLengths(language: Language): readonly WordLength[] {
- return language === 'de-DE' ? WORD_LENGTHS.filter(length => germanVocabularies.has(length)) : language === 'fil-PH' ? [5] : language === 'nl-NL' ? WORD_LENGTHS.filter(length => dutchVocabularies.has(length)) : WORD_LENGTHS;
+ return language === 'ru-RU' ? WORD_LENGTHS.filter(length => russianVocabularies.has(length)) : language === 'de-DE' ? WORD_LENGTHS.filter(length => germanVocabularies.has(length)) : language === 'fil-PH' ? [5] : language === 'nl-NL' ? WORD_LENGTHS.filter(length => dutchVocabularies.has(length)) : WORD_LENGTHS;
 }
 export function isSupportedLength(length: number, language: Language): boolean {
  return supportedLengths(language).some(value => value === length);
@@ -59,7 +62,7 @@ class EquivalentGuessSet extends Set<string> {
 }
 export function vocabulary(length: number = 5, language: Language = 'en', dutchRules: DutchRules = 2): {answers: string[]; allowed: Set<string>} {
  if (!isSupportedLength(length, language)) throw new Error('This language and word length are not available.');
- const words = portugueseVocabularies.has(language) ? portugueseVocabularies.get(language)!.get(length) : frenchVocabularies.has(language) ? frenchVocabularies.get(language)!.get(length) : englishVarieties.has(language) ? englishVarieties.get(language)!.get(length) : language === 'fil-PH' ? filipinoVocabulary : (language === 'de-DE' ? germanVocabularies : language === 'es-ES' ? spainVocabularies : language === 'es-MX' ? spanishVocabularies : language === 'nl-NL' ? dutchVocabularies : vocabularies).get(length);
+ const words = portugueseVocabularies.has(language) ? portugueseVocabularies.get(language)!.get(length) : frenchVocabularies.has(language) ? frenchVocabularies.get(language)!.get(length) : englishVarieties.has(language) ? englishVarieties.get(language)!.get(length) : language === 'fil-PH' ? filipinoVocabulary : (language === 'ru-RU' ? russianVocabularies : language === 'de-DE' ? germanVocabularies : language === 'es-ES' ? spainVocabularies : language === 'es-MX' ? spanishVocabularies : language === 'nl-NL' ? dutchVocabularies : vocabularies).get(length);
  if (!words) throw new Error('This language and word length are not available.');
  if(usesAccentEquivalence(language,dutchRules)){const key=language+':'+length;let folded=foldedVocabularies.get(key);if(!folded){folded={answers:words.answers,allowed:new EquivalentGuessSet(words.allowed,language)};foldedVocabularies.set(key,folded)}return folded}
  return words;
@@ -69,6 +72,7 @@ export function answerDataset(length: number = 5, language: Language = 'en'): st
  if(isPortuguese(language))return `${language}-regional-wiktionary-${length}-v1`;
  if(isFrench(language))return `${language}-wiktionary-wordfreq-${length}-v1`;
  if(language==='es-ES')return `es-ES-rla-2.9-wiktionary-wordfreq-${length}-v1`;
+ if (language === 'ru-RU') return `ru-RU-wiktionary-wordfreq-${length}-v1`;
  if (language === 'de-DE') return `de-DE-wiktionary-wordfreq-${length}-v1`;
  if (language === 'nl-NL') return `nl-NL-wiktionary-wordfreq-${length}-v1`;
  if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-5-beta-v1';
@@ -80,6 +84,7 @@ export function absurdDataset(length: number = 5, language: Language = 'en'): st
  if(isPortuguese(language))return `${language}-regional-wiktionary-absurd-${length}-v1`;
  if(isFrench(language))return `${language}-wiktionary-wordfreq-absurd-${length}-v1`;
  if(language==='es-ES')return `es-ES-rla-2.9-wiktionary-wordfreq-absurd-${length}-v1`;
+ if (language === 'ru-RU') return `ru-RU-wiktionary-wordfreq-absurd-${length}-v1`;
  if (language === 'de-DE') return `de-DE-wiktionary-wordfreq-absurd-${length}-v1`;
  if (language === 'nl-NL') return `nl-NL-wiktionary-wordfreq-absurd-${length}-v1`;
  if (language === 'fil-PH') return 'fil-PH-wiktionary-wordfreq-absurd-5-beta-v1';

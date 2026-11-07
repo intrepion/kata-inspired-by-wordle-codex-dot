@@ -1,13 +1,13 @@
 import germanCanonical from './data/german/canonical-spellings.json';
 import {frenchTileSpelling,frenchDisplaySpelling} from './french-orthography.ts';
 // Bare en is retained solely to validate historical notebooks, never offered for play.
-export type Language = 'en' | 'en-US' | 'en-GB' | 'en-AU' | 'es-MX' | 'es-ES' | 'fr-FR' | 'fr-CA' | 'fil-PH' | 'nl-NL' | 'de-DE' | 'pt-BR' | 'pt-PT';
+export type Language = 'en' | 'en-US' | 'en-GB' | 'en-AU' | 'es-MX' | 'es-ES' | 'fr-FR' | 'fr-CA' | 'fil-PH' | 'nl-NL' | 'de-DE' | 'pt-BR' | 'pt-PT' | 'ru-RU';
 export type DutchRules = 1 | 2;
 /** Unmarked persisted rounds predate accent folding. */
 export function savedDutchRules(value: unknown): DutchRules {
  return value !== null && typeof value === 'object' && 'dutchRules' in value && value.dutchRules === 2 ? 2 : 1;
 }
-export const LANGUAGES: readonly Language[] = ['en-US', 'en-GB', 'en-AU', 'es-MX', 'es-ES', 'fr-FR', 'fr-CA', 'fil-PH', 'nl-NL', 'de-DE', 'pt-BR', 'pt-PT'];
+export const LANGUAGES: readonly Language[] = ['en-US', 'en-GB', 'en-AU', 'es-MX', 'es-ES', 'fr-FR', 'fr-CA', 'fil-PH', 'nl-NL', 'de-DE', 'pt-BR', 'pt-PT', 'ru-RU'];
 export const LANGUAGE_FAMILIES = [
  {id:'en',label:'English',varieties:[{id:'en-US',label:'United States'},{id:'en-GB',label:'United Kingdom'},{id:'en-AU',label:'Australia'}]},
  {id:'es',label:'Español',varieties:[{id:'es-MX',label:'México'},{id:'es-ES',label:'España'}]},
@@ -16,6 +16,7 @@ export const LANGUAGE_FAMILIES = [
  {id:'nl',label:'Nederlands',varieties:[{id:'nl-NL',label:'Nederland'}]},
  {id:'de',label:'Deutsch',varieties:[{id:'de-DE',label:'Deutschland'}]},
  {id:'pt',label:'Português',varieties:[{id:'pt-BR',label:'Brasil'},{id:'pt-PT',label:'Portugal'}]},
+ {id:'ru',label:'Русский',varieties:[{id:'ru-RU',label:'Россия'}]},
 ] as const;
 export type LanguageFamily = typeof LANGUAGE_FAMILIES[number]['id'];
 export function languageFamily(language:Language):LanguageFamily {return language.split('-')[0] as LanguageFamily}
@@ -35,6 +36,8 @@ export function isLanguage(value: unknown): value is Language {
 /** Filipino gameplay uses everyday spelling: optional vowel stress/glottal marks
  * are folded, but Ñ remains distinct. NG is entered as two ordinary tiles. */
 export function normalizeSpelling(raw: string, language: Language = 'en'): string {
+ // Russian short-i and yo are letters, never marks to strip. Compose before casing.
+ if(language==='ru-RU')return raw.normalize('NFC').toLocaleUpperCase('ru-RU');
  // Dutch IJ is a digraph (two tiles); compatibility ligatures are equivalent, not Y.
  if(language==='de-DE')return raw.normalize('NFC').replace(/ß/g,'ẞ').toLocaleUpperCase('de-DE');
  if(isFrench(language))return frenchTileSpelling(raw);
@@ -50,7 +53,7 @@ export function normalizeGuess(raw: string, language: Language = 'en', dutchRule
  return usesAccentEquivalence(language,dutchRules) ? spelling.normalize('NFD').replace(/\p{M}/gu, '').normalize('NFC') : spelling;
 }
 export function isLetter(raw: string, language: Language = 'en'): boolean {
- return (language==='de-DE' ? /^[A-ZÄÖÜẞ]$/ : isPortuguese(language) ? /^[A-ZÁÀÂÃÉÊÍÓÔÕÚÜÇ]$/ : isFrench(language) ? /^[A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸ]$/ : language === 'nl-NL' ? /^[A-ZÀÁÂÄÇÈÉÊËÍÎÏÓÔÖÙÚÛÜ]$/ : isSpanish(language) ? /^[A-ZÁÉÍÓÚÜÑ]$/ : language === 'fil-PH' ? /^[A-ZÑ]$/ : /^[A-Z]$/).test(raw);
+ return (language==='ru-RU' ? /^[А-ЯЁ]$/u : language==='de-DE' ? /^[A-ZÄÖÜẞ]$/ : isPortuguese(language) ? /^[A-ZÁÀÂÃÉÊÍÓÔÕÚÜÇ]$/ : isFrench(language) ? /^[A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸ]$/ : language === 'nl-NL' ? /^[A-ZÀÁÂÄÇÈÉÊËÍÎÏÓÔÖÙÚÛÜ]$/ : isSpanish(language) ? /^[A-ZÁÉÍÓÚÜÑ]$/ : language === 'fil-PH' ? /^[A-ZÑ]$/ : /^[A-Z]$/).test(raw);
 }
 /** One keyboard event may contain the Dutch IJ ligature, normalized to two tiles. */
 export function isLetterInput(raw: string, language: Language): boolean {
@@ -60,10 +63,10 @@ export function validLetters(raw: string, language: Language = 'en'): boolean {
  return [...raw].every(letter => isLetter(letter, language));
 }
 export function languageLabel(language: Language): string {
- return {en: 'English (legacy mixed list)', 'en-US':'American English', 'en-GB':'British English', 'en-AU':'Australian English', 'es-MX': 'Español (México)', 'es-ES':'Español (España)', 'fr-FR':'Français (France)', 'fr-CA':'Français (Canada)', 'fil-PH': 'Filipino (Philippines)', 'nl-NL': 'Nederlands (Nederland)', 'de-DE':'Deutsch (Deutschland)', 'pt-BR':'Português (Brasil)', 'pt-PT':'Português (Portugal)'}[language];
+ return {en: 'English (legacy mixed list)', 'en-US':'American English', 'en-GB':'British English', 'en-AU':'Australian English', 'es-MX': 'Español (México)', 'es-ES':'Español (España)', 'fr-FR':'Français (France)', 'fr-CA':'Français (Canada)', 'fil-PH': 'Filipino (Philippines)', 'nl-NL': 'Nederlands (Nederland)', 'de-DE':'Deutsch (Deutschland)', 'pt-BR':'Português (Brasil)', 'pt-PT':'Português (Portugal)', 'ru-RU':'Русский (Россия)'}[language];
 }
 export function keyboardRows(language: Language,dutchRules:DutchRules=2): readonly string[] {
- return language==='de-DE' ? ['QWERTZUIOP', 'ASDFGHJKL', '↵YXCVBNM⌫', 'ÄÖÜẞ'] : language === 'nl-NL' && dutchRules === 2 ? ['QWERTYUIOP', 'ASDFGHJKL', '↵ZXCVBNM⌫'] : language === 'nl-NL'
+ return language==='ru-RU' ? ['ЙЦУКЕНГШЩЗХЪ', 'ФЫВАПРОЛДЖЭ', '↵ЯЧСМИТЬБЮ⌫', 'Ё'] : language==='de-DE' ? ['QWERTZUIOP', 'ASDFGHJKL', '↵YXCVBNM⌫', 'ÄÖÜẞ'] : language === 'nl-NL' && dutchRules === 2 ? ['QWERTYUIOP', 'ASDFGHJKL', '↵ZXCVBNM⌫'] : language === 'nl-NL'
   ? ['QWERTYUIOP', 'ASDFGHJKL', '↵ZXCVBNM⌫', 'ÀÁÂÄÇÈÉÊË', 'ÍÎÏÓÔÖÙÚÛÜ']
   : isSpanish(language)
   ? ['QWERTYUIOP', 'ASDFGHJKLÑ', '↵ZXCVBNM⌫', 'ÁÉÍÓÚÜ']

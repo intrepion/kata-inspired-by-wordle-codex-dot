@@ -1,0 +1,77 @@
+{
+  "version": "ru-RU-v1",
+  "language": "ru-RU",
+  "minimumZipf": 4.3,
+  "guessMinimumZipf": 2.5,
+  "orthography": "NFC А–Я and Ё. Й and Ё remain distinct from И and Е. No accent folding or transliteration. Canonical source spelling retained separately.",
+  "frequencyNormalization": "Frequency-only maximum of Ё spelling and Е counterpart for lexical Ё words. Lexical/gameplay Ё/Е and Й/И remain distinct; sense frequency is not certified.",
+  "lengths": {
+    "3": {
+      "answers": 105,
+      "guesses": 804,
+      "definedGuesses": 804
+    },
+    "4": {
+      "answers": 194,
+      "guesses": 2259,
+      "definedGuesses": 2259
+    },
+    "5": {
+      "answers": 281,
+      "guesses": 4400,
+      "definedGuesses": 4400
+    },
+    "6": {
+      "answers": 291,
+      "guesses": 5945,
+      "definedGuesses": 5945
+    },
+    "7": {
+      "answers": 240,
+      "guesses": 6968,
+      "definedGuesses": 6968
+    },
+    "8": {
+      "answers": 174,
+      "guesses": 6366,
+      "definedGuesses": 6366
+    },
+    "9": {
+      "answers": 125,
+      "guesses": 5413,
+      "definedGuesses": 5413
+    },
+    "10": {
+      "answers": 84,
+      "guesses": 3931,
+      "definedGuesses": 3931
+    },
+    "11": {
+      "answers": 56,
+      "guesses": 2757,
+      "definedGuesses": 2757
+    }
+  },
+  "review": "Explicit independent model-reviewed allowlist, not native-human certification. Й and Ё remain distinct single tiles; canonical source spelling is preserved.",
+  "inputs": {
+    "frequency-alias-evidence.json": "11342058be0479ac85c001ecbb242bb31a28d8724fd03d40ac4ca02dad75142e",
+    "lexical-evidence.json": "c2ec0149dfffe3b202ac588a275aa50a1548f2a4c1aade67ac612af7ae86340c",
+    "frequency-evidence.json": "1e77231914b08d25ea22399cdaaf03c242e3d51c8096af925b3dfce2d564b7bb",
+    "review.json": "d8b9c96969cba2c49857126ae86089eaf6a96e438c7d7edc6c6ed28fb414b1f9"
+  },
+  "outputs": {
+    "vocabulary.json": "651acb781fbb7744c5437c1490805ece3b8e2651f243cbb864438410316f6ca9",
+    "answer-selection.json": "3578ffa6af8343484a66d19525d3bf4faee7ca519f68e023b5d1782dce435b4c",
+    "canonical-spellings.json": "82ca19df84645c3a8d5a03f1533969a64c4b83f5a548fb6da9e114dc91854cfd",
+    "definitions-3.json": "84fc348f7a3b1c5b6977c6103bd25de17384e3c2647f6d7b455b3c2675d041e1",
+    "definitions-4.json": "e930764c4e7fde937b41e6be06d8f779495481e08327c9aac96977d3cfa5e0c3",
+    "definitions-5.json": "04d3c96dcf522d6dfdc24822f298fdcbc34fffb50d50586fec1eaecc749a5b2a",
+    "definitions-6.json": "a2332f09f7a33857cd95d5e3bdcde2ffb3ba021d6fd03ef890afe58b71d7e21b",
+    "definitions-7.json": "b2748300c43cd2c2c29296dcba59204e151bca8a3322f7d4f3daa5f0bf661711",
+    "definitions-8.json": "bf5f75bcba698b43598837e10b321b6f32fa446355865998d1ebde5bf4a61a74",
+    "definitions-9.json": "537f4216d34fa101d02dbf154323588d614d08be28c6333239b86031d5d998bb",
+    "definitions-10.json": "ef3a4265283d7694bc48952a6ada0023411bb614548e141383406b8c18430448",
+    "definitions-11.json": "e8bf2c72faf6c638d2dca6bf51d59d50cb6788ae01ad851775eee44effe69b14"
+  },
+  "limitations": "Conservative starter answer pool. Frequency is historical mixed-region spelling frequency, not current Russia-specific sense frequency. Source labels and model review may be incomplete. Broader guesses include labelled historical, regional and inflected entries. No exhaustive morphology coverage."
+}

@@ -1,0 +1,34 @@
+{
+  "language": "ru-RU",
+  "sourceLanguage": "ru",
+  "version": "ru-RU-v1",
+  "retrieved": "2026-11-07",
+  "wiktionary": {
+    "edition": "English Wiktionary, Russian entries",
+    "contributors": "Wiktionary contributors",
+    "artifactUrl": "https://kaikki.org/dictionary/Russian/kaikki.org-dictionary-Russian.jsonl",
+    "artifactBytes": 948499874,
+    "artifactSha256": "9078947aa21ed33ccfe9ada814fa70605c282a26bc0b7d60e388865da17984b7",
+    "format": "Kaikki postprocessed per-language JSONL; deprecated upstream, not raw Wiktextract data",
+    "landingPage": "https://kaikki.org/dictionary/Russian/",
+    "rightsUrl": "https://kaikki.org/dictionary/",
+    "dataLicense": "CC-BY-SA-4.0",
+    "modifications": "Retain 3–11-tile Russian headwords, excluding proper-name POS, with Zipf >=2.5, parts of speech, glosses, sense tags and form/alternative relationships only. Omit enrichment categories, disambiguation, audio, examples, quotations, translations, etymology and non-Russian scripts/spellings. Preserve original headwords and per-record input hashes. NFC and uppercase preserve Й and Ё as distinct letters from И and Е. No transliteration or accent stripping. Only А–Я and Ё are playable. Exact source spelling and case are retained. No exact article revision is supplied by this snapshot."
+  },
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_ru.msgpack.gz",
+    "artifactBytes": 348771,
+    "artifactSha256": "ddb45281a609f8c5c4bf3ece7b045c540f76fe36bb438a108e2a45c6f593a078",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "modifications": "Retain 3–11-letter spelling frequency bins matching lexical evidence. For lexical Ё words use the maximum exact spelling and its Е spelling frequency, reflecting optional dots in ordinary Russian writing. This is a frequency-only estimate, never a lexical/gameplay alias, and can overestimate a specific sense. Й and И never fold. Editorial review is separate. For case-normalized homographs use the maximum supplied estimate, not a sum. Historical mixed-corpus spelling frequencies do not certify individual senses or contemporary regional usage."
+  },
+  "inputs": {
+    "frequency-alias-evidence.json": "11342058be0479ac85c001ecbb242bb31a28d8724fd03d40ac4ca02dad75142e",
+    "lexical-evidence.json": "c2ec0149dfffe3b202ac588a275aa50a1548f2a4c1aade67ac612af7ae86340c",
+    "frequency-evidence.json": "1e77231914b08d25ea22399cdaaf03c242e3d51c8096af925b3dfce2d564b7bb"
+  }
+}

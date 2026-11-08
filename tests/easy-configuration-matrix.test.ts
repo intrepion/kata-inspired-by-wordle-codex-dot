@@ -16,7 +16,7 @@ const configurations=LANGUAGES.flatMap(language=>supportedLengths(language).map(
 const key=(word:string,language:Language)=>normalizeGuess(word,language);
 
 test('Easy matrix covers every offered locale and supported length',()=>{
- assert.equal(LANGUAGES.length,16);assert.equal(configurations.length,136);
+ assert.equal(LANGUAGES.length,17);assert.equal(configurations.length,145);
  assert.deepEqual(supportedLengths('fil-PH'),[5]);
 });
 for(const {language,length} of configurations)test(`Easy configuration ${language} / ${length}: schedules, rulesets, reload, sticky assistance`,()=>{

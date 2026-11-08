@@ -1,0 +1,78 @@
+{
+  "version": "ro-RO-v1",
+  "language": "ro-RO",
+  "minimumZipf": 4.3,
+  "editorialSupplements": {},
+  "guessMinimumZipf": 2.5,
+  "rejectedSourceSenses": 29,
+  "orthography": "NFC Romanian 31-letter alphabet. Ă, Â, Î, Ș and Ț remain distinct. Legacy Ş/Ţ map to Ș/Ț only. No accent folding, transliteration or punctuation stripping. Canonical source spelling retained separately.",
+  "frequencyNormalization": "NFC uppercase and legacy cedilla-to-comma aliases. All 31 Romanian letters remain distinct. Maximum case-normalized spelling frequency, not a sum; sense frequency is not certified.",
+  "lengths": {
+    "3": {
+      "answers": 129,
+      "guesses": 519,
+      "definedGuesses": 519
+    },
+    "4": {
+      "answers": 247,
+      "guesses": 1255,
+      "definedGuesses": 1255
+    },
+    "5": {
+      "answers": 338,
+      "guesses": 2114,
+      "definedGuesses": 2114
+    },
+    "6": {
+      "answers": 321,
+      "guesses": 2544,
+      "definedGuesses": 2544
+    },
+    "7": {
+      "answers": 285,
+      "guesses": 2671,
+      "definedGuesses": 2671
+    },
+    "8": {
+      "answers": 219,
+      "guesses": 2227,
+      "definedGuesses": 2227
+    },
+    "9": {
+      "answers": 127,
+      "guesses": 1629,
+      "definedGuesses": 1629
+    },
+    "10": {
+      "answers": 75,
+      "guesses": 1115,
+      "definedGuesses": 1115
+    },
+    "11": {
+      "answers": 29,
+      "guesses": 610,
+      "definedGuesses": 610
+    }
+  },
+  "review": "Explicit independent model-reviewed allowlist, not native-human certification. Ă, Â, Î, Ș and Ț remain distinct single tiles; canonical source spelling is preserved.",
+  "inputs": {
+    "lexical-evidence.json": "04442c71b28572585a52ee44ea6714e6f7f6ccb239117e99e99c13a00754c4e6",
+    "frequency-evidence.json": "9af9a3bb07cbb2acadec7bb5d36a46312f4171a9302043f0c7e2b1ca6afe2059",
+    "review.json": "8889750fb210eb25d13fc3dd5167cc5bbe298e8e24964d475a586bd93b065bc0"
+  },
+  "outputs": {
+    "vocabulary.json": "acb977369cf8acf16d74fb40532ba83f2f209bedf15dfd08afd51af1d3d54357",
+    "answer-selection.json": "d0b3297571981af917b91d1c591a8f68008d3d46f0edd9a1ad2ae5d453d39946",
+    "canonical-spellings.json": "7e04793a59978ad471d4528ef872f64df8baeae282b0a69099ab826e8e87ae00",
+    "definitions-3.json": "4bab4a074ac12b6940009977be664509b4c4749ad9c94acdb8c2665e5adef05f",
+    "definitions-4.json": "619df2b4b0da52025aa069d045a169f0dc16ab9691f4a457abd4adb1f7789643",
+    "definitions-5.json": "47fd038a62eb92c1f96dfe6ca2a3306c6a20a1f300de6abfcfcdc07f49125e8a",
+    "definitions-6.json": "1ca2c45c05bf3d09a55dd16b4e70f53ab928365f0fa9a46e0a04ffa7f88807fa",
+    "definitions-7.json": "52c0583699f5fe6b67bd9fb1e7709934a06c889622f593c2ee887bc5a4057ee0",
+    "definitions-8.json": "34c70e0e5e117fc6154dfce36b5eaa01cbb0151f6fd3c7a6d5e6adbc71283bd4",
+    "definitions-9.json": "7359e87a43523d1341c875084e232be2babc40dba696dec86b97aa305851e077",
+    "definitions-10.json": "dcdb2b1d1074299265175ace650aeed5feeafac4fc319b7a472cd6d02643384c",
+    "definitions-11.json": "0f6ea7880f5f662e241651a789f7747ae815f24e3c92a14ecb6632063db2bc91"
+  },
+  "limitations": "Conservative starter answer pool. Frequency is historical mixed-region spelling frequency, not current Romania-specific sense frequency. Source labels and model review may be incomplete. Broader guesses include labelled historical, regional and inflected entries. No exhaustive morphology coverage."
+}

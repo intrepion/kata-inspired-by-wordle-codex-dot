@@ -1,3 +1,4 @@
+import ROMANIAN from './data/romanian/vocabulary.json';
 import UKRAINIAN from './data/ukrainian/vocabulary.json';
 import ITALIAN from './data/italian/vocabulary.json';
 import SWEDISH from './data/swedish/vocabulary.json';
@@ -36,7 +37,7 @@ const spanishVocabularies=new Map<number,{answers:string[];allowed:Set<string>}>
 for(const length of [4,5,6,7] as const){const data=SPANISH_VOCABULARY[length];spanishVocabularies.set(length,{answers:data.answers,allowed:new Set(data.guesses)})}
 for(const [length,data] of Object.entries(SPANISH_EXTENDED_VOCABULARY))spanishVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
 const addedVocabularies=new Map<string,Map<number,{answers:string[];allowed:Set<string>}>>();
-for(const [locale,source]of [['it-IT',ITALIAN],['sv-SE',SWEDISH],['uk-UA',UKRAINIAN]] as const)addedVocabularies.set(locale,new Map(Object.entries(source).map(([length,data])=>[Number(length),{answers:data.answers,allowed:new Set(data.guesses)}])));
+for(const [locale,source]of [['it-IT',ITALIAN],['sv-SE',SWEDISH],['uk-UA',UKRAINIAN],['ro-RO',ROMANIAN]] as const)addedVocabularies.set(locale,new Map(Object.entries(source).map(([length,data])=>[Number(length),{answers:data.answers,allowed:new Set(data.guesses)}])));
 const russianVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();
 for (const [length,data] of Object.entries(RUSSIAN)) russianVocabularies.set(Number(length),{answers:data.answers,allowed:new Set(data.guesses)});
 const germanVocabularies = new Map<number,{answers:string[];allowed:Set<string>}>();

@@ -1,0 +1,54 @@
+Lexi Conquest: Romanian (Romania), 3–11-letter starter selection
+
+Adapted lexical data, frequency data and selections: CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: CC-BY-SA-4.0.txt. Game code retains its separate license.
+
+English Wiktionary contributors, Romanian entries, extracted by Wiktextract and
+distributed by Kaikki. Source entry attribution:
+https://en.wiktionary.org/wiki/<original-headword>#Romanian
+https://kaikki.org/dictionary/Romanian/kaikki.org-dictionary-Romanian.jsonl
+https://kaikki.org/dictionary/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content
+Snapshot retrieved 2026-11-08, SHA-256:
+b5e98b66c32271d3df2857d6684f510a0adb634e22bf0382fd44973b00a48708
+Kaikki postprocessed per-language extract (deprecated upstream), not the raw
+multilingual Wiktextract export. No individual article revision is supplied.
+Original headwords and per-record source hashes remain in repository evidence.
+Credit: Tatu Ylonen, Wiktextract: Wiktionary as Machine-Readable Structured Data,
+LREC 2022, pp. 1317–1325,
+https://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.140.pdf
+
+Modifications: retain attested 3–11-letter Romanian headwords in lexical POS
+(excluding proper names), English glosses, usage labels and form/alternative
+relationships with historical wordfreq spelling Zipf >=2.5. Omit media, examples,
+quotations, etymology, translations, categories and other enrichment. Tiles use
+NFC and uppercase. Ă, Â, Î, Ș and Ț remain distinct; all are single tiles.
+Legacy Ş/Ţ are input and source-matching aliases of Ș/Ț, never of plain S/T.
+No accent folding, transliteration, stress marks, hyphens or spaces are accepted.
+Words requiring punctuation are excluded, not respelt by deleting punctuation.
+Original source spelling is retained for attribution. Known misleading or inadequately qualified senses are explicitly removed.
+Up to eight source
+entries and eight senses per entry accompany each guess.
+Broad guesses include attested inflections, alternatives and labelled uncommon,
+historical, regional or sensitive senses. Answers require a standalone eligible
+sense, Zipf >=4.3 and explicit independent model editorial approval.
+Selection targets contemporary standard Romanian used in Romania, not exhaustive
+regional separation. No native-human review or certification is claimed.
+
+Frequency: wordfreq 3.0.2, Robyn Speer and contributors, revision
+372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b, small_ro.msgpack.gz.
+https://github.com/rspeer/wordfreq/tree/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b
+SHA-256: c17fe82952ed209bb45b95c56cb5c7f077ca921a84578c3807d48ddc1dd842e2
+Data: CC BY-SA 4.0. Software: MIT. Pinned README and MIT notice supplied.
+Preserve all README source credits including OpenSubtitles and freely available
+SUBTLEX, Marc Brysbaert and coauthors. No corpus sentences are redistributed.
+For case-normalized/cedilla-alias spellings retain the maximum estimate, not a
+sum. Historical mixed-corpus spelling frequency does not prove current
+Romania-specific commonness or individual-sense frequency.
+
+Sources, pins, policy and reproduction: docs/romanian-sources.md and
+src/data/romanian/source.json in https://github.com/intrepion/kata-inspired-by-wordle-codex-dot
+Preserve attribution, modification notices and ShareAlike terms when
+redistributing adapted data. These notices add no extra restrictions.

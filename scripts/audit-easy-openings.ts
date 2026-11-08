@@ -28,7 +28,7 @@ for(const language of LANGUAGES)for(const length of supportedLengths(language)){
  const seen=new Set<string>();
  for(const suggestion of result.suggestions){const play=normalizeGuess(suggestion.word,language);assert.equal(play.length,length);assert.ok(allowed.has(play));assert.ok(!seen.has(play));assert.ok(!guesses.includes(play));seen.add(play);verifyScores(answers,suggestion.word,language,suggestion)}
 }
-assert.equal(standard.length,136);
+assert.equal(standard.length,145);
 if(!process.argv.includes('--standard-only'))for(const language of LANGUAGES){
  const lengths=supportedLengths(language),unique=new Map<string,string>();
  for(const length of lengths)for(const word of vocabulary(length,language).answers){const play=normalizeGuess(word,language);if(!unique.has(play))unique.set(play,word)}

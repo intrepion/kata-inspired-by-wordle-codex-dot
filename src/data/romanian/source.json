@@ -1,0 +1,33 @@
+{
+  "language": "ro-RO",
+  "sourceLanguage": "ro",
+  "version": "ro-RO-v1",
+  "retrieved": "2026-11-08",
+  "wiktionary": {
+    "edition": "English Wiktionary, Romanian entries",
+    "contributors": "Wiktionary contributors",
+    "artifactUrl": "https://kaikki.org/dictionary/Romanian/kaikki.org-dictionary-Romanian.jsonl",
+    "artifactBytes": 434336969,
+    "artifactSha256": "b5e98b66c32271d3df2857d6684f510a0adb634e22bf0382fd44973b00a48708",
+    "format": "Kaikki postprocessed per-language JSONL; deprecated upstream, not raw Wiktextract data",
+    "landingPage": "https://kaikki.org/dictionary/Romanian/",
+    "rightsUrl": "https://kaikki.org/dictionary/",
+    "dataLicense": "CC-BY-SA-4.0",
+    "modifications": "Retain 3–11-tile Romanian headwords, excluding proper-name POS, with Zipf >=2.5, parts of speech, glosses, sense tags and form/alternative relationships only. Omit enrichment categories, disambiguation, audio, examples, quotations, translations, etymology and non-Romanian scripts/spellings. Preserve original headwords and per-record input hashes. NFC and uppercase preserve Ă, Â, Î, Ș and Ț as distinct letters. Legacy cedilla ş/ţ map to comma-below ș/ț; no plain-letter aliases or accent stripping. Only the 31 Romanian letters are playable. Apostrophes and hyphens are excluded, never removed to manufacture misspellings. Exact source spelling and case are retained. No exact article revision is supplied by this snapshot."
+  },
+  "wordfreq": {
+    "author": "Robyn Speer and contributors",
+    "version": "3.0.2",
+    "revision": "372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b",
+    "artifactUrl": "https://raw.githubusercontent.com/rspeer/wordfreq/372f6dbb3bd2ad4b675a3b18b94d44d0dd5fea8b/wordfreq/data/small_ro.msgpack.gz",
+    "artifactBytes": 196154,
+    "artifactSha256": "c17fe82952ed209bb45b95c56cb5c7f077ca921a84578c3807d48ddc1dd842e2",
+    "dataLicense": "CC-BY-SA-4.0",
+    "softwareLicense": "MIT",
+    "modifications": "Retain 3–11-letter spelling frequency bins matching Romanian lexical evidence. NFC and uppercase with legacy cedilla-to-comma aliases only. No plain-letter folding or transliteration. For case-normalized homographs use the maximum supplied estimate, not a sum. Historical mixed-corpus spelling frequencies do not certify individual senses or contemporary regional usage."
+  },
+  "inputs": {
+    "lexical-evidence.json": "04442c71b28572585a52ee44ea6714e6f7f6ccb239117e99e99c13a00754c4e6",
+    "frequency-evidence.json": "9af9a3bb07cbb2acadec7bb5d36a46312f4171a9302043f0c7e2b1ca6afe2059"
+  }
+}

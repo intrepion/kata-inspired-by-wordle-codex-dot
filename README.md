@@ -2,7 +2,7 @@
 
 [**Play Online**](https://intrepion.github.io/kata-inspired-by-wordle-codex-dot/)
 
-A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany), Portuguese (Brazil and Portugal), Dutch (Netherlands), Russian (Russia), Italian (Italy), Swedish (Sweden) and Ukrainian (Ukraine), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
+A quiet daily word dispatch: three to eleven letters in English, Spanish, French, German (Germany), Portuguese (Brazil and Portugal), Dutch (Netherlands), Russian (Russia), Italian (Italy), Swedish (Sweden), Ukrainian (Ukraine) and Romanian (Romania), five in Filipino, six fieldnotes, one small discovery. Original paper-and-ink design, writing and CSS illustration, inspired by five-letter deduction puzzles.
 
 Formerly Morrowmark. Language and variety are selected separately. Each variety has its own word lists, progress and statistics. Old mixed-English games are not imported into the new English notebooks; other language saves and shared preferences stay unchanged.
 
@@ -19,6 +19,7 @@ Choose **Language → Variety** before playing. The game remembers your last var
 - Русский: **Россия**, 3–11 letters in all five modes. A native Cyrillic keyboard and NFC normalization preserve Й/И and Ё/Е as distinct letters; Ъ and Ь each take one tile. Latin lookalikes and transliterations are not aliases. Curated answers and broader guesses have locally bundled English meanings. Russian daily puzzles, progress and statistics are separate. [Sources and selection](docs/russian-sources.md).
 - Italiano: **Italia**, 3–11 letters in all five modes. Italian vowel accents do not affect play; correct spellings remain in reveals and English meanings. Accent-colliding spellings share a gameplay identity. Separate notebooks and statistics.
 - Svenska: **Sverige**, 3–11 letters in all five modes. Å, Ä and Ö stay distinct with dedicated keyboard keys and Unicode NFC. Sourced English meanings and independent saves. This starter excludes accented loanwords outside the 29-letter alphabet rather than respelling them. [Both languages: sources and coverage](docs/italian-swedish-sources.md).
+- Română: **România**, 3–11 letters in all five modes. Ă, Â, Î, Ș and Ț remain distinct single-tile letters with dedicated keys. Legacy cedilla Ş/Ţ are aliases of Ș/Ț, never S/T. 1,770 model-reviewed answers and 14,684 dictionary-backed guesses with bundled English meanings. Independent notebooks and statistics. This starter includes only 29 eleven-letter answers and is not native-human certified. [Sources, review and coverage limits](docs/romanian-sources.md).
 - Nederlands: **Nederland**, unchanged, 3–11 letters.
 - Filipino: **Philippines**, unchanged, five letters.
 

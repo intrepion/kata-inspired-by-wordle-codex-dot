@@ -1,3 +1,4 @@
+import {matchesLetterHint,type PublicLetterHint} from './letter-hints.ts';
 import {normalizeGuess,type Language,type DutchRules} from './language.ts';
 import {vocabulary} from './words.ts';
 import {possibleAnswers,type Observations} from './observations.ts';
@@ -20,7 +21,7 @@ export function feedbackCode(answer:readonly number[],guess:readonly number[]):n
  return code;
 }
 /** Descending largest bucket, then alphabetical word: least guaranteed elimination first. */
-function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'language'|'dutchRules'>,kind:AdviceKind,limit=5):AdviceResult {
+function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'language'|'dutchRules'>&{letterHint?:PublicLetterHint},kind:AdviceKind,limit=5):AdviceResult {
  const language=run.language??'en',dutchRules=run.dutchRules??2,gameplay=(word:string)=>normalizeGuess(word,language,dutchRules);
  const guessed=new Set(run.guesses.map(gameplay));
  const totalCandidates=run.candidates.length,length=run.candidates[0]?.length??run.guesses[0]?.length??5;
@@ -29,7 +30,7 @@ function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'l
  const candidateWords=new Set(run.candidates.map(gameplay));
  const candidates=run.candidates.map(word=>encode(gameplay(word)));
  const histories=run.guesses.map((word,row)=>({letters:encode(gameplay(word)),code:run.feedback[row].reduce((sum,clue,i)=>sum+place(length,i)*({absent:0,elsewhere:1,exact:2}[clue]),0)}));
- const eligible=dictionaryFor(length,language,dutchRules).filter(({word,letters})=>!guessed.has(gameplay(word))&&!(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)));
+ const eligible=dictionaryFor(length,language,dutchRules).filter(({word,letters})=>(kind!=='suboptimal'||matchesLetterHint(word,run.letterHint,language,dutchRules))&&!guessed.has(gameplay(word))&&!(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)));
  // Bound quadratic letter comparisons, not the answer pool. Affordable analyses
  // retain the complete ranking; long/large dictionaries use a reproducible shortlist.
  const comparisonBudget=Math.floor(25_000_000*25/(length*length));

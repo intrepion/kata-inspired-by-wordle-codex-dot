@@ -294,3 +294,19 @@ The bundled data, provenance, source licenses, reproducible generation instructi
 ## Clue contrast regression checks
 
 `npm run check` includes numeric contrast and duplicate-letter keyboard tests. For local Chrome screenshots and responsive gameplay checks at 320, 390, and 1440 pixels, run `node scripts/check-clue-contrast.mjs`. It uses disposable browser contexts and a loopback server; set `PLAYWRIGHT_MODULE` to an installed Playwright `index.mjs` if the default neighboring checkout is unavailable. Screenshots and measured ratios are written to `.local/clue-contrast/`.
+
+## Optional letter hints
+
+Conquest, One possibility and Smashare offer **Reveal a letter** after Start, at
+any difficulty. Once per round, it reveals the first position not already green,
+without using a guess or changing your draft. The round becomes **Assisted**.
+Hard and Strict use that position in later guesses. The reveal survives reload,
+difficulty changes and restarting the same puzzle; a new round starts fresh.
+Absurd and Letroso do not offer letter reveals. One possibility's given clue is
+not counted as a letter hint.
+
+Statistics has a separate **Letter hints** filter: All results, With letter hints,
+Without letter hints, and unrecorded hint history when saved metadata is invalid.
+Easy suggestions still count as assistance even without a letter reveal. Shares
+identify a used hint without exposing it. Existing saves and results are retained;
+close older tabs and refresh before using this version. [Rules and compatibility](docs/adr/0045-letter-reveal-hints.md).

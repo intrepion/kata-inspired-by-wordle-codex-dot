@@ -410,3 +410,52 @@ Final checks:
 Desktop 1440×1100, mobile 390×844 and narrow 320×780 screenshots were visually inspected. Browser contexts were disposable; QA did not modify the user's browser storage. Temporary test servers bound only to `127.0.0.1` and stopped afterward. A separate session-only preview of the built game was left at `http://127.0.0.1:5318/`, without replacing existing servers or adding login/boot startup.
 
 These are Chrome viewport emulation and synthetic keyboard/NFC/legacy-cedilla checks, not physical iOS/Android keyboard or native-speaker certification. The Romanian UI remains English. Eleven-letter coverage is intentionally limited to 29 answers. Reproduction and linguistic limits: [Romanian sources](romanian-sources.md).
+
+## Letter reveal hints — 8 November 2026
+
+Implemented on an isolated local worktree from published main `9d3c350`. This
+section records local verification only, not publication or live-site testing.
+
+- `npm run check`: **1,131 tests passed**, strict TypeScript and production build.
+- `npm run build:pages`: passed on the production subpath.
+- `npm audit --audit-level=moderate`: **0 vulnerabilities**; dependency lockfile unchanged.
+- `tests/letter-hints-domain.test.ts` and `tests/letter-hint-statistics.test.ts`
+  add **21 tests**, including all supported ordinary locale/length/difficulty
+  round trips, normalized/distinct letters, duplicates, One's given clue, Smashare
+  overlap, chronological Hard/Strict restrictions, one-use enforcement, candidate
+  filtering, independent advice scoring, legacy records, filter intersections,
+  terminal idempotence and corrupt/stale-save preservation.
+
+Independent review identified two persistence issues before delivery. Conflicting
+hint chronology is now quarantined without discarding valid Smashare progress or
+downgrading valid ordinary difficulty. A stale Daily snapshot retains assistance
+and known hint usage from its authoritative completed record without inventing a
+position. Regression tests cover both, repeated restoration and invalid base-game
+rejection. Marker-aware statistics preserve the known count. Final review found
+no outstanding blocker. Optimal Easy advice keeps exploratory dictionary guesses;
+hints narrow possible answers, while Suboptimal stays clue-consistent. Independent
+scoring and shortlist checks cover that distinction.
+
+All browser checks use disposable Chrome contexts and servers bound to
+`127.0.0.1`, never the user's existing browser data:
+
+- `scripts/check-letter-hints.mjs`: **12** desktop/mobile rules × schedule flows,
+  covering Conquest, One possibility and Smashare in Daily and Practice. Checks
+  cover the Start gate, untouched drafts/turns, repeated activation, reload,
+  navigation through excluded modes, solving, completed restoration, separate
+  hints/assistance filters, spoiler-free sharing, fresh rounds and unrelated
+  storage. No page errors, external requests or page-wide horizontal overflow.
+- `scripts/check-letter-hints-interruptions.mjs`: **1280px and 320px** checks for
+  hint-aware Easy worker requests and candidate counts, Hard rejection, Give Up
+  cancellation and a zero-guess loss, a conflicting difficulty upgrade, same-round
+  restart with retained hint, and reload. Hint and statistics screenshots were
+  visually inspected at both widths.
+- `scripts/check-letter-hints-pages.mjs`: **6** final compiled-build checks at
+  1280px/390px on `/kata-inspired-by-wordle-codex-dot/`, covering each supported
+  hinted mode's reveal, solve, spoiler-free share, reload and filters. No failed
+  assets, JavaScript errors or page-wide overflow.
+
+Existing large dictionary/definition chunk warnings remain. This is not formal
+screen-reader certification or exhaustive cross-browser testing. No runtime
+package, telemetry, external service, answer dataset change or storage reset was
+introduced. New saves should not be edited through an older cached client.

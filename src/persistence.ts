@@ -1,3 +1,4 @@
+import {restoreLetterHint} from './letter-hints.ts';
 import {previousEnglishDataset,previousEnglishAnswers} from './legacy-english.ts';
 import {notebookDailyAnswer,DAILY_SCHEDULE_VERSION,DAILY_SHUFFLE_START,LEGACY_DAILY_SCHEDULE,type DailyScheduleContext} from './daily-schedule.ts';
 import {readNotebookStats,recordCompletion,initializeNotebookStats,type NotebookStats} from './notebook-statistics.ts';
@@ -28,12 +29,21 @@ function validatedRun(value:unknown, answer:string,language:Language='en'):Run|n
  const continuation=value.continuation==='pending'||value.continuation==='unlimited'?value.continuation:undefined;
  if(continuation==='pending'&&(guesses.length!==6||seen.has(key(answer)))||continuation==='unlimited'&&(guesses.length<6||guesses.length===6&&seen.has(key(answer))))return null;
  const draft=typeof value.draft==='string'&&validLetters(key(value.draft),language)&&key(value.draft).length<=answer.length?key(value.draft):'';
- const run:Run={answer,guesses,draft,...(language==='nl-NL'?{dutchRules}:{}),...(language==='en'?{}:{language}),...(continuation?{continuation}:{}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&!seen.has(key(answer))&&(guesses.length<6||continuation)?{gaveUp:true}:{})};
+ const hint=restoreLetterHint(value,answer.length,guesses.length);
+ const run:Run={answer,guesses,draft,...hint,...(language==='nl-NL'?{dutchRules}:{}),...(language==='en'?{}:{language}),...(continuation?{continuation}:{}),...(value.assisted===true||value.easyMode===true||value.difficulty==='easy'?{assisted:true}:{}),...(value.gaveUp===true&&!seen.has(key(answer))&&(guesses.length<6||continuation)?{gaveUp:true}:{})};
  if(status(run)!=='playing'||awaitingContinuation(run))run.draft='';
  const selected=storedDifficulty(value);if(selected==='easy')run.easyMode=true;
  if(selected==='strict'||selected==='hard'){
-  let replay=newRun(answer,selected,language,dutchRules);
-  for(const guess of guesses){if(awaitingContinuation(replay)&&continuation==='unlimited')replay=continueGuessing(replay);const next=submit(replay,guess);if(next.error)return run;replay=next.run}
+  const validReplay=(withHint:boolean)=>{
+   let replay={...newRun(answer,selected,language,dutchRules),...(withHint?hint:{})};
+   for(const guess of guesses){if(awaitingContinuation(replay)&&continuation==='unlimited')replay=continueGuessing(replay);const next=submit(replay,guess);if(next.error)return false;replay=next.run}
+   return true;
+  };
+  if(!validReplay(true)){
+   if(!hint.letterHint||!validReplay(false))return run;
+   // Valid original history must not lose its difficulty because hint metadata is corrupt.
+   delete run.letterHint;run.letterHintInvalid=true;run.assisted=true;
+  }
   if(selected==='strict')run.strictMode=true;else run.hardMode=true;
  }
  return run;
@@ -115,8 +125,9 @@ export function decode(raw:string|null,today:string,length=5,language:Language='
   const activeDate=dailyPuzzleDate(save);
   if(save.results[activeDate]){
    const guesses=save.results[activeDate];
+   const terminalRecord=save.notebookStats?.records['daily:'+activeDate];
    const matching=save.daily.guesses.length===guesses.length&&save.daily.guesses.every((guess,i)=>guess===guesses[i]);
-   save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language,save.history[activeDate]?.dutchRules??1),guesses:[...guesses],...(matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
+   save.daily={...newRun(notebookDailyAnswer(save,activeDate,length,language),matching?difficulty(save.daily):'normal',language,save.history[activeDate]?.dutchRules??1),guesses:[...guesses],...(matching&&save.daily.letterHint?{letterHint:save.daily.letterHint}:{}),...(matching&&save.daily.letterHintInvalid?{letterHintInvalid:true as const}:{}),...(terminalRecord?.letterHints===1||matching&&save.daily.letterHintUsed?{letterHintUsed:true as const}:{}),...(terminalRecord?.assisted===true||terminalRecord?.letterHints===1||matching&&save.daily.assisted?{assisted:true}:{}),...(save.history[activeDate]?.gaveUp?{gaveUp:true}:{}),...(save.history[activeDate]?.extended?{continuation:'unlimited' as const}:save.history[activeDate]?.gaveUp&&guesses.length===6?{continuation:'pending' as const}:{})};
   }
   if(object(value.practice)&&typeof value.practice.answer==='string'&&(ANSWERS.includes(value.practice.answer)||save.englishAnswerUpdate&&previousEnglishAnswers(length)?.includes(value.practice.answer))){
    const run=validatedRun(value.practice,value.practice.answer,language);

@@ -39,7 +39,7 @@ export class AdviceSession {
     this.emit({phase:'ready',key,result:reply.result});
    };
    worker.onerror=()=>{if(generation!==this.generation)return;this.cancel();this.emit({phase:'error',key,message:'Analysis unavailable. All accepted guesses remain playable.'});};
-   worker.postMessage({key,observations:{...(run.language==='nl-NL'?{dutchRules:run.dutchRules??2}:{}),...(run.language?{language:run.language}:{}),...(run.wordLength===undefined||run.wordLength===5?{}:{wordLength:run.wordLength}),guesses:[...run.guesses],feedback:run.feedback.map(row=>[...row]),finished:run.finished},kind});
+   worker.postMessage({key,observations:{...(run.letterHint?{letterHint:{position:run.letterHint.position,letter:run.letterHint.letter}}:{}),...(run.language==='nl-NL'?{dutchRules:run.dutchRules??2}:{}),...(run.language?{language:run.language}:{}),...(run.wordLength===undefined||run.wordLength===5?{}:{wordLength:run.wordLength}),guesses:[...run.guesses],feedback:run.feedback.map(row=>[...row]),finished:run.finished},kind});
   }catch{this.cancel();this.emit({phase:'error',key,message:'Analysis unavailable. All accepted guesses remain playable.'});}
  }
  stop():void {this.cancel();this.emit({phase:'hidden'});}

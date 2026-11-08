@@ -6,7 +6,13 @@ import type {Save} from './persistence.ts';
 export type StatsMode='daily'|'practice'|'impossible'|'one';
 export type StatsDifficulty=Difficulty|'legacy';
 export type AssistanceFilter='all'|'assisted'|'unassisted'|'unknown';
-export interface Completion {mode:StatsMode;date:string|null;difficulty:StatsDifficulty;assisted:boolean|null;won:boolean;turns:number;order:number;gaveUp?:boolean;extended?:boolean;targetMiss?:boolean}
+export type LetterHintFilter='all'|'with'|'without'|'unknown';
+export type LetterHintCount=0|1|null;
+/** Missing metadata predates hints. Malformed metadata stays unrecorded across writes. Older-client downgrade writers are unsupported. */
+export function readLetterHintCount(value:unknown):LetterHintCount {return value===undefined?0:value===0||value===1?value:null}
+export function matchesLetterHints(value:unknown,filter:LetterHintFilter):boolean {const count=readLetterHintCount(value);return filter==='all'||filter==='with'&&count===1||filter==='without'&&count===0||filter==='unknown'&&count===null}
+export function runLetterHintCount(run:{letterHint?:unknown;letterHintUsed?:boolean;letterHintInvalid?:boolean}):LetterHintCount {return run.letterHint||run.letterHintUsed===true?1:run.letterHintInvalid?null:0}
+export interface Completion {mode:StatsMode;date:string|null;difficulty:StatsDifficulty;assisted:boolean|null;letterHints?:LetterHintCount;won:boolean;turns:number;order:number;gaveUp?:boolean;extended?:boolean;targetMiss?:boolean}
 export interface NotebookStats {version:1;nextId:number;nextOrder:number;active:Record<StatsMode,string>;records:Record<string,Completion>;exposure:Record<StatsMode,StatsDifficulty|null>;setupPending?:Partial<Record<StatsMode,boolean>>}
 const levels=['easy','normal','hard','strict','legacy'];
 const modes:StatsMode[]=['daily','practice','impossible','one'];
@@ -25,7 +31,7 @@ export function readNotebookStats(raw:unknown,today:string):NotebookStats|undefi
   if(v.date!==null&&(!validDate(v.date)||v.date>today))continue;
   if(v.mode==='daily'&&(v.date===null||id!=='daily:'+v.date))continue;
   if(v.date===null&&v.difficulty!=='legacy')continue;
-  records[id]={mode:v.mode as StatsMode,date:v.date as string|null,difficulty:v.difficulty as StatsDifficulty,assisted:v.assisted as boolean|null,won:v.won,turns:Number(v.turns),order:v.order,...(v.gaveUp===true?{gaveUp:true}:{}),...(v.targetMiss===true?{targetMiss:true}:{}),...(v.extended===true?{extended:true}:{})};
+  records[id]={mode:v.mode as StatsMode,date:v.date as string|null,difficulty:v.difficulty as StatsDifficulty,assisted:v.assisted as boolean|null,letterHints:readLetterHintCount(v.letterHints),won:v.won,turns:Number(v.turns),order:v.order,...(v.gaveUp===true?{gaveUp:true}:{}),...(v.targetMiss===true?{targetMiss:true}:{}),...(v.extended===true?{extended:true}:{})};
   maxOrder=Math.max(maxOrder,v.order);if(v.mode!=='daily')maxId=Math.max(maxId,Number(id.split(':')[1]));
  }
  const active={} as Record<StatsMode,string>;
@@ -40,9 +46,10 @@ export function initializeNotebookStats(save:Save,fresh=false):boolean {
  const data:NotebookStats={version:1,nextId:4,nextOrder:1,active:{daily:'daily:'+(save.dailyDate??save.date),practice:'practice:1',impossible:'impossible:2',one:'one:3'},records:{},exposure:{daily:fresh?null:'legacy',practice:fresh?null:'legacy',impossible:fresh?null:'legacy',one:null}};save.notebookStats=data;
  const previous={...save.history};for(const [date,guesses] of Object.entries(save.results))previous[date]={won:guesses.some(guess=>normalizeGuess(guess,save.language,save.history[date]?.dutchRules??1)===normalizeGuess(notebookDailyAnswer(save,date,save.daily.answer.length,save.language),save.language,save.history[date]?.dutchRules??1)),turns:guesses.length,...(save.history[date]?.gaveUp?{gaveUp:true}:{}),...(save.history[date]?.extended?{extended:true}:{})};
  if(terminal(save.daily)!=='playing')previous[(save.dailyDate??save.date)]={won:terminal(save.daily)==='won',turns:save.daily.guesses.length,...(save.daily.gaveUp?{gaveUp:true}:{}),...(save.daily.continuation==='unlimited'?{extended:true}:{})};
- for(const date of Object.keys(previous).sort())if(validDate(date)&&date<=save.date){const value=previous[date];data.records['daily:'+date]={mode:'daily',date,difficulty:'legacy',assisted:null,won:value.won,turns:value.turns,order:data.nextOrder++,...(value.gaveUp?{gaveUp:true}:{}),...(value.extended?{extended:true}:{})}}
+ for(const date of Object.keys(previous).sort())if(validDate(date)&&date<=save.date){const value=previous[date];data.records['daily:'+date]={mode:'daily',date,difficulty:'legacy',assisted:null,letterHints:0,won:value.won,turns:value.turns,order:data.nextOrder++,...(value.gaveUp?{gaveUp:true}:{}),...(value.extended?{extended:true}:{})}}
  if(save.daily.assisted===true&&data.records['daily:'+(save.dailyDate??save.date)])data.records['daily:'+(save.dailyDate??save.date)].assisted=true;
- for(const mode of ['practice','impossible'] as const){const run=save[mode];if(terminal(run)!=='playing')data.records[data.active[mode]]={mode,date:null,difficulty:'legacy',assisted:run.assisted===true?true:null,won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})}}
+ const dailyRecord=data.records['daily:'+(save.dailyDate??save.date)];if(dailyRecord&&terminal(save.daily)!=='playing')dailyRecord.letterHints=runLetterHintCount(save.daily);
+ for(const mode of ['practice','impossible'] as const){const run=save[mode];if(terminal(run)!=='playing')data.records[data.active[mode]]={mode,date:null,difficulty:'legacy',assisted:run.assisted===true?true:null,letterHints:runLetterHintCount(run),won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})}}
  return true;
 }
 /** Explicit starts distinguish identical replayed words/rows. Unfinished restarts add no result. */
@@ -73,18 +80,18 @@ export function recordCompletion(save:Save,mode:StatsMode,date=mode==='daily'?(s
  if((run.language??'en')!==(save.language??'en')||run.answer.length!==save.daily.answer.length||(mode==='impossible')!==isImpossible(run))return false;
  if(mode==='daily'&&run.answer!==notebookDailyAnswer(save,date,run.answer.length,run.language))return false;
  const id=mode==='daily'?'daily:'+date:data.active[mode];if(!id||data.records[id])return false;
- data.records[id]={mode,date,difficulty:data.exposure[mode]??'legacy',assisted:run.assisted===true||data.exposure[mode]==='easy'?true:data.exposure[mode]==='legacy'||data.exposure[mode]===null?null:false,won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(isImpossible(run)&&run.target&&!run.candidates.includes(run.target)?{targetMiss:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};return true;
+ data.records[id]={mode,date,difficulty:data.exposure[mode]??'legacy',assisted:run.assisted===true||data.exposure[mode]==='easy'?true:data.exposure[mode]==='legacy'||data.exposure[mode]===null?null:false,letterHints:runLetterHintCount(run),won:terminal(run)==='won',turns:run.guesses.length,order:data.nextOrder++,...(run.gaveUp?{gaveUp:true}:{}),...(isImpossible(run)&&run.target&&!run.candidates.includes(run.target)?{targetMiss:true}:{}),...(run.continuation==='unlimited'?{extended:true}:{})};return true;
 }
 /** Call before saving; restoration also settles interrupted terminal saves idempotently. */
 export function settleNotebookStats(save:Save):void {
  initializeNotebookStats(save);const data=save.notebookStats!;if(data.active.daily!=='daily:'+(save.dailyDate??save.date)){data.active.daily='daily:'+(save.dailyDate??save.date);data.exposure.daily=null}
  for(const mode of modes){if(!data.active[mode])startStatsRound(save,mode);recordCompletion(save,mode)}
 }
-export function notebookStatistics(save:Save,mode:StatsMode,selected:StatsDifficulty|'all',today:string,assistance:AssistanceFilter='all') {
+export function notebookStatistics(save:Save,mode:StatsMode,selected:StatsDifficulty|'all',today:string,assistance:AssistanceFilter='all',letterHints:LetterHintFilter='all') {
  initializeNotebookStats(save);
- const results=Object.values(save.notebookStats!.records).filter(r=>r.mode===mode&&(selected==='all'||r.difficulty===selected)&&(r.date===null||r.date<=today)&&(assistance==='all'||assistance==='unknown'&&r.assisted===null||assistance==='assisted'&&r.assisted===true||assistance==='unassisted'&&r.assisted===false)).sort((a,b)=>mode==='daily'?(a.date??'').localeCompare(b.date??''):a.order-b.order);
+ const results=Object.values(save.notebookStats!.records).filter(r=>r.mode===mode&&matchesLetterHints(r.letterHints,letterHints)&&(selected==='all'||r.difficulty===selected)&&(r.date===null||r.date<=today)&&(assistance==='all'||assistance==='unknown'&&r.assisted===null||assistance==='assisted'&&r.assisted===true||assistance==='unassisted'&&r.assisted===false)).sort((a,b)=>mode==='daily'?(a.date??'').localeCompare(b.date??''):a.order-b.order);
  const histogram=[0,0,0,0,0,0];let wins=0,current=0,best=0,last='';
  for(const r of results){if(r.won){wins++;if(r.turns<=6)histogram[r.turns-1]++;current=mode==='daily'?(last&&Date.parse(r.date!)-Date.parse(last)===DAY?current+1:1):current+1;best=Math.max(best,current);last=r.date??''}else{current=0;last=''}}
  if(mode==='daily'){const yesterday=new Date(Date.parse(today)-DAY).toISOString().slice(0,10);if(last!==today&&last!==yesterday||last===yesterday&&Object.values(save.notebookStats!.records).some(r=>r.mode==='daily'&&r.date===today)&&!results.some(r=>r.date===today))current=0}
- return {played:results.length,wins,withinSixWins:results.filter(r=>r.won&&r.turns<=6).length,extendedWins:results.filter(r=>r.won&&r.turns>6).length,extendedPlayed:results.filter(r=>r.extended).length,losses:results.length-wins,gaveUp:results.filter(r=>r.gaveUp===true).length,percent:results.length?Math.round(100*wins/results.length):0,current,best,histogram,assisted:results.filter(r=>r.assisted===true).length,unknownAssistance:results.filter(r=>r.assisted===null).length,legacy:results.filter(r=>r.difficulty==='legacy').length};
+ return {withLetterHints:results.filter(r=>readLetterHintCount(r.letterHints)===1).length,unknownLetterHints:results.filter(r=>readLetterHintCount(r.letterHints)===null).length,played:results.length,wins,withinSixWins:results.filter(r=>r.won&&r.turns<=6).length,extendedWins:results.filter(r=>r.won&&r.turns>6).length,extendedPlayed:results.filter(r=>r.extended).length,losses:results.length-wins,gaveUp:results.filter(r=>r.gaveUp===true).length,percent:results.length?Math.round(100*wins/results.length):0,current,best,histogram,assisted:results.filter(r=>r.assisted===true).length,unknownAssistance:results.filter(r=>r.assisted===null).length,legacy:results.filter(r=>r.difficulty==='legacy').length};
 }

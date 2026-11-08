@@ -1,3 +1,4 @@
+import {letterHintConstraintError} from './letter-hints.ts';
 import {isImpossible,impossibleStatus} from './impossible.ts';
 import {difficulty,score,status,clueConstraintError,type Difficulty,type Run} from './domain.ts';
 export function decodeGlobalDifficulty(raw:string|null,fallback:Difficulty='normal'):Difficulty {return raw==='easy'||raw==='normal'||raw==='hard'||raw==='strict'?raw:fallback}
@@ -10,7 +11,7 @@ export function applyGlobalDifficulty<T extends Run>(run:T,selected:Difficulty):
  if(selected==='hard'||selected==='strict'){
   const feedback=isImpossible(run)?run.feedback:run.guesses.map(guess=>score(run.answer,guess,run.language,run.dutchRules));
   for(let index=0;index<run.guesses.length;index++){
-   const error=clueConstraintError({...next,guesses:run.guesses.slice(0,index)},run.guesses[index],feedback.slice(0,index));
+   const error=letterHintConstraintError({...next,guesses:run.guesses.slice(0,index)},run.guesses[index])??clueConstraintError({...next,guesses:run.guesses.slice(0,index)},run.guesses[index],feedback.slice(0,index));
    if(error)return {run,error:`Earlier guess ${index+1} (${run.guesses[index]}) does not meet ${selected==='hard'?'Hard':'Strict'} rules. ${error} Start this round over or choose another global difficulty.`};
   }
  }

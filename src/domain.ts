@@ -1,3 +1,5 @@
+export {canRevealLetterHint,revealLetterHint} from './letter-hints.ts';
+import {publicLetterHint,letterHintShareLabel,letterHintConstraintError,type LetterHint} from './letter-hints.ts';
 import {scheduledDailyAnswer} from './daily-schedule.ts';
 import {usesAccentEquivalence,normalizeGuess,validLetters,languageLabel,type DutchRules,type Language} from './language.ts';
 export type Clue = 'absent' | 'elsewhere' | 'exact';
@@ -16,7 +18,7 @@ export function score(answer:string, guess:string,language:Language='en',dutchRu
 }
 
 import {vocabulary} from './words.ts';
-export interface Run {dutchRules?:DutchRules;answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited'}
+export interface Run {letterHint?:LetterHint;letterHintInvalid?:true;letterHintUsed?:true;dutchRules?:DutchRules;answer:string; guesses:string[]; draft:string; language?:Language; hardMode?:boolean;strictMode?:boolean;easyMode?:boolean;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited'}
 export type Outcome = 'playing'|'won'|'lost';
 export const DAY=86_400_000;
 export function dateKey(now:Date):string {return now.toISOString().slice(0,10)}
@@ -46,7 +48,7 @@ export function submit(run:Run, raw:string):{run:Run;error?:string} {
  const ALLOWED=vocabulary(run.answer.length,language,run.dutchRules).allowed;
  if(!ALLOWED.has(guess)) return {run,error:'That word is outside our field guide.'};
  if(run.guesses.some(previous=>normalizeGuess(previous,language,run.dutchRules)===guess)) return {run,error:'Already noted. Try a different word.'};
- if(run.strictMode||run.hardMode){const error=clueConstraintError(run,guess,run.guesses.map(previous=>score(run.answer,previous,run.language,run.dutchRules)));if(error)return {run,error};}
+ if(run.strictMode||run.hardMode){const error=letterHintConstraintError(run,guess)??clueConstraintError(run,guess,run.guesses.map(previous=>score(run.answer,previous,run.language,run.dutchRules)));if(error)return {run,error};}
  return {run:{...run,guesses:[...run.guesses,guess],draft:'',...(run.guesses.length===5&&guess!==normalizeGuess(run.answer,language,run.dutchRules)?{continuation:'pending' as const}:{})}};
 }
 export function clueConstraintError(run:Pick<Run,'guesses'|'hardMode'|'strictMode'|'language'|'dutchRules'>,guess:string,feedback:readonly (readonly Clue[])[]):string|undefined {
@@ -99,6 +101,7 @@ export function keyboardClues(run:Run):Record<string,Clue> {
  for(const previous of run.guesses) {const guess=normalizeGuess(previous,run.language,run.dutchRules);score(run.answer,guess,run.language,run.dutchRules).forEach((clue,i)=>{
   if(result[guess[i]]===undefined || rank[clue]>rank[result[guess[i]]]) result[guess[i]]=clue;
  });}
+ const hint=publicLetterHint(run);if(hint)result[hint.letter]='exact';
  return result;
 }
 export function rollover(previousDate:string,run:Run,date:string):Run {return previousDate===date?run:newRun(dailyAnswer(date,run.answer.length,run.language),difficulty(run),run.language)}
@@ -109,5 +112,5 @@ export function choosePractice(previous:string, random=Math.random,mode:boolean|
 }
 export function shareText(date:string, run:Run):string {
  const glyph={exact:'🟩',elsewhere:'🟨',absent:'⬛'};
- return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g,run.language,run.dutchRules).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
+ return `Lexi Conquest${run.language&&run.language!=='en'?` · ${languageLabel(run.language)}`:''} · ${date} UTC · ${run.answer.length} letters${difficulty(run)==='normal'?'':` · ${difficulty(run)==='strict'?'Strict':difficulty(run)==='easy'?'Easy':'Hard'}`}${run.assisted?' · Assisted':''}${letterHintShareLabel(run)}${run.gaveUp?' · Gave up':''}${run.continuation==='unlimited'?' · Extended play':''}\n${status(run)==='won'?run.guesses.length:'X'}/${run.continuation==='unlimited'?'∞':'6'}\n${run.guesses.map(g=>score(run.answer,g,run.language,run.dutchRules).map(c=>glyph[c]).join('')).join('\n')}\n🟩 exact · 🟨 elsewhere · ⬛ absent`;
 }

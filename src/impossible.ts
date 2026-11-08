@@ -2,7 +2,7 @@ import {usesAccentEquivalence,normalizeGuess,savedDutchRules,isLanguage,validLet
 import {vocabulary,absurdDataset,isWordLength,isSupportedLength} from './words.ts';
 import {newRun,score,submit,difficulty,awaitingContinuation,continueGuessing,setDifficulty,clueConstraintError,type Difficulty,type Run,type Clue,type Outcome} from './domain.ts';
 
-export interface ImpossibleRun extends Run {version:1;variant:'impossible';candidates:string[];feedback:Clue[][];target?:string}
+export interface ImpossibleRun extends Run {letterHint?:never;letterHintInvalid?:never;version:1;variant:'impossible';candidates:string[];feedback:Clue[][];target?:string}
 export interface ImpossibleSnapshot {dutchRules?:DutchRules;version:2;dataset:string;guesses:string[];draft:string;difficulty?:Difficulty;assisted?:boolean;gaveUp?:boolean;continuation?:'pending'|'unlimited';wordLength?:number;language?:Language}
 export function isImpossible(run:Run):run is ImpossibleRun {return 'variant' in run&&run.variant==='impossible'}
 const digit={absent:'0',elsewhere:'1',exact:'2'};
@@ -26,7 +26,7 @@ export function largestBucket(candidates:readonly string[],guess:string,language
 }
 export function newImpossible(level:Difficulty='normal',length=5,language:Language='en',dutchRules:DutchRules=2):ImpossibleRun {
  const candidates=[...vocabulary(length,language).answers].sort();
- return {...newRun(candidates[0],level,language,dutchRules),version:1,variant:'impossible',candidates,feedback:[]};
+ return {...newRun(candidates[0],level,language,dutchRules),letterHint:undefined,letterHintInvalid:undefined,version:1,variant:'impossible',candidates,feedback:[]};
 }
 export function impossibleStatus(run:ImpossibleRun):Outcome {
  return run.target&&!run.candidates.includes(run.target)?'lost':run.feedback.at(-1)?.every(clue=>clue==='exact')?(run.target&&run.answer!==run.target?'lost':'won'):run.gaveUp||run.guesses.length>=6&&!run.continuation?'lost':'playing';
@@ -40,12 +40,12 @@ export function submitImpossible(run:ImpossibleRun,raw:string):{run:ImpossibleRu
  const guess=checked.run.guesses.at(-1)!;
  const error=clueConstraintError(run,guess,run.feedback);if(error)return {run,error};
  const selected=largestBucket(run.candidates,guess,run.language,run.dutchRules);
- return {run:{...newRun(selected.candidates[0],difficulty(run),run.language,run.dutchRules),version:1,variant:'impossible',...(run.target?{target:run.target}:{}),guesses:checked.run.guesses,candidates:selected.candidates,feedback:[...run.feedback,selected.feedback],...(run.assisted?{assisted:true}:{}),...(run.continuation==='unlimited'?{continuation:'unlimited' as const}:checked.run.guesses.length===6&&!selected.feedback.every(clue=>clue==='exact')?{continuation:'pending' as const}:{})}};
+ return {run:{...newRun(selected.candidates[0],difficulty(run),run.language,run.dutchRules),letterHint:undefined,letterHintInvalid:undefined,version:1,variant:'impossible',...(run.target?{target:run.target}:{}),guesses:checked.run.guesses,candidates:selected.candidates,feedback:[...run.feedback,selected.feedback],...(run.assisted?{assisted:true}:{}),...(run.continuation==='unlimited'?{continuation:'unlimited' as const}:checked.run.guesses.length===6&&!selected.feedback.every(clue=>clue==='exact')?{continuation:'pending' as const}:{})}};
 }
 export function setImpossibleDifficulty(run:ImpossibleRun,selected:Difficulty):{run:ImpossibleRun;error?:string} {
  const result=setDifficulty(run,selected,impossibleStatus(run));
  if(result.error)return {run,error:result.error};
- return {run:{...result.run,version:run.version,variant:run.variant,candidates:run.candidates,feedback:run.feedback}};
+ return {run:{...result.run,letterHint:undefined,letterHintInvalid:undefined,version:run.version,variant:run.variant,candidates:run.candidates,feedback:run.feedback}};
 }
 export function impossibleSnapshot(run:ImpossibleRun):ImpossibleSnapshot {return {...(run.language==='nl-NL'?{dutchRules:run.dutchRules??2}:{}),version:2,dataset:absurdDataset(run.answer.length,run.language),...(run.language?{language:run.language}:{}),...(run.answer.length===5?{}:{wordLength:run.answer.length}),difficulty:difficulty(run),guesses:[...run.guesses],draft:run.draft,...(run.assisted?{assisted:true}:{}),...(run.gaveUp?{gaveUp:true}:{}),...(run.continuation?{continuation:run.continuation}:{})}}
 export function restoreImpossible(value:unknown):ImpossibleRun|null {

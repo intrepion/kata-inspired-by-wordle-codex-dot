@@ -1,0 +1,40 @@
+/** Local-only integration regression, disposable Chrome contexts. Never uses the user's browser saves. */
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdirSync} from 'node:fs';
+import {resolve} from 'node:path';
+import {pathToFileURL} from 'node:url';
+const root=resolve(new URL('..',import.meta.url).pathname),port=Number(process.env.HINT_QA_PORT??4194),base=`http://127.0.0.1:${port}`;
+const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE??resolve(root,'../kata-inspired-by-pikmin-codex-dot/node_modules/playwright/index.mjs')));
+const server=spawn(process.execPath,['node_modules/vite/bin/vite.js','--host','127.0.0.1','--port',String(port),'--strictPort'],{cwd:root,stdio:['ignore','pipe','pipe']});let output='';server.stdout.on('data',s=>output+=s);server.stderr.on('data',s=>output+=s);
+let browser;const reports=[];
+async function stored(page,rules,schedule){return page.evaluate(async({rules,schedule})=>{const {activeSaveKeyForPath}=await import('/src/site.ts'),{variantKey}=await import('/src/variant-context.ts');const date=new Date().toISOString().slice(0,10),baseKey=activeSaveKeyForPath('/',5,'en-US'),key=variantKey(baseKey,{rules,schedule},date)+(rules==='smashare'?'.game':'');const value=JSON.parse(localStorage.getItem(key));return {key,value,run:rules==='smashare'?value:value[rules==='one'?'one':schedule]};},{rules,schedule})}
+async function type(page,word,submit=false){await page.locator('body').click({position:{x:1,y:1}});for(const key of word)await page.evaluate(key=>window.dispatchEvent(new KeyboardEvent('keydown',{key,bubbles:true,cancelable:true})),key);if(submit)await page.keyboard.press('Enter')}
+async function value(page,label){return Number(await page.locator(`[data-stat="${label}"]`).textContent())}
+try{
+ for(let i=0;;i++){if(server.exitCode!==null)throw Error(output);try{if((await fetch(base)).ok)break}catch{}if(i>600)throw Error('Server timeout: '+output);await new Promise(r=>setTimeout(r,200))}
+ browser=await chromium.launch({headless:true,channel:process.env.PLAYWRIGHT_CHANNEL??'chrome'});
+ for(const [label,viewport] of [['desktop',{width:1440,height:1100}],['mobile',{width:390,height:844}]]){
+  for(const rules of ['conquest','one','smashare'])for(const schedule of ['daily','practice']){
+   const context=await browser.newContext({viewport}),page=await context.newPage(),errors=[],external=[];page.on('pageerror',e=>errors.push(String(e)));page.on('request',r=>{if(!r.url().startsWith(base)&&!r.url().startsWith('data:'))external.push(r.url())});
+   await context.addInitScript(()=>{if(!localStorage.getItem('hint-test-initialized')){localStorage.setItem('morrowmark.v1.language','en-US');localStorage.setItem('morrowmark.v1.difficulty','normal');localStorage.setItem('unrelated-app','unchanged');localStorage.setItem('hint-test-initialized','1')}Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{}},configurable:true})});
+   await page.goto(base);await page.locator('#mode-select').selectOption(rules);await page.locator('#schedule-select').selectOption(schedule);assert.ok(await page.locator('#puzzle-setup').isVisible());assert.equal(await page.getByRole('button',{name:'Reveal a letter',exact:true}).count(),0);
+   const level=rules==='conquest'?'strict':rules==='one'?'hard':'normal';await page.locator('#start-difficulty').selectOption(level);await page.locator('#start-puzzle').click();
+   const before=await stored(page,rules,schedule);await type(page,'AB');const draft=(await stored(page,rules,schedule)).run.draft;assert.equal(draft,'AB');
+   await page.getByRole('button',{name:'Reveal a letter',exact:true}).click();const after=await stored(page,rules,schedule),hint=after.run.letterHint;assert.ok(hint);assert.equal(after.run.guesses.length,before.run.guesses.length);assert.equal(after.run.draft,draft);assert.equal(after.run.assisted,true);assert.equal(hint.afterGuess,before.run.guesses.length);assert.ok(await page.getByRole('button',{name:'Letter hint used',exact:true}).isDisabled());
+   const panel=page.locator(rules==='smashare'?'#smash-letter-hint':'#letter-hint-panel');assert.match(await panel.textContent(),new RegExp(`Position ${hint.position+1} is `));
+   await page.getByRole('button',{name:'Letter hint used',exact:true}).evaluate(button=>button.click());assert.deepEqual((await stored(page,rules,schedule)).run,after.run,'repeat activation does not use another hint');
+   await page.reload();await page.locator('#mode-select').waitFor();assert.deepEqual((await stored(page,rules,schedule)).run,after.run,'reload retains hint, draft and history');
+   await page.locator('#mode-select').selectOption('absurd');assert.equal(await page.getByRole('button',{name:'Reveal a letter',exact:true}).count(),0);await page.locator('#mode-select').selectOption('letroso');assert.equal(await page.getByRole('button',{name:'Reveal a letter',exact:true}).count(),0);await page.locator('#mode-select').selectOption(rules);assert.deepEqual((await stored(page,rules,schedule)).run,after.run,'other modes preserve the hinted round');
+   await page.locator('body').click({position:{x:1,y:1}});await page.keyboard.press('Backspace');await page.keyboard.press('Backspace');const answer=rules==='smashare'?after.run.answer.merged:after.run.answer;await type(page,answer,true);const done=await stored(page,rules,schedule);assert.equal(done.run.guesses.at(-1),answer);assert.deepEqual(done.run.letterHint,hint);assert.ok(await page.getByRole('button',{name:'Letter hint used',exact:true}).isDisabled());
+   await page.locator('#stats').click();assert.equal(await value(page,'Played'),1);await page.locator('#stats-letter-hints').selectOption('with');assert.equal(await value(page,'Won'),1);await page.locator('#stats-assistance').selectOption('unassisted');assert.equal(await value(page,'Played'),0);await page.locator('#stats-assistance').selectOption('assisted');assert.equal(await value(page,'Played'),1);await page.locator('#stats-letter-hints').selectOption('without');assert.equal(await value(page,'Played'),0);await page.locator('#stats-letter-hints').selectOption('all');assert.equal(await value(page,'Played'),1);await page.keyboard.press('Escape');
+   if(schedule==='daily'){await page.getByRole('button',{name:/Copy spoiler-free result/}).click();const share=await page.locator(rules==='smashare'?'#smash-share-text':'#share-text').inputValue();assert.match(share,/1 letter hint/);assert.match(share,/Assisted/);assert.ok(!share.includes(answer),'share does not expose answer');await page.keyboard.press('Escape')}
+   await page.reload();await page.locator('#mode-select').waitFor();assert.deepEqual((await stored(page,rules,schedule)).run,done.run,'completed hint remains visible after reload');await page.locator('#stats').click();assert.equal(await value(page,'Played'),1);await page.keyboard.press('Escape');
+   if(schedule==='practice'){await page.getByRole('button',{name:rules==='smashare'?'New practice':rules==='one'?'New one possibility ↗':'Fresh practice ↗',exact:true}).click();assert.ok(await page.locator('#puzzle-setup').isVisible());await page.locator('#start-puzzle').click();assert.equal((await stored(page,rules,schedule)).run.letterHint,undefined);assert.ok(await page.getByRole('button',{name:'Reveal a letter',exact:true}).isEnabled())}
+   assert.equal(await page.evaluate(()=>localStorage.getItem('unrelated-app')),'unchanged');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no page horizontal overflow');assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
+   if(process.env.SCREENSHOT_DIR&&schedule==='daily'){mkdirSync(process.env.SCREENSHOT_DIR,{recursive:true});await page.screenshot({path:resolve(process.env.SCREENSHOT_DIR,`hint-${label}-${rules}.png`),fullPage:true})}
+   reports.push({viewport:label,rules,schedule,level});await context.close();console.log('PASS',label,rules,schedule,'hint/draft/turns/reload/modes/stats/share/new-round');
+  }
+ }
+ console.log(JSON.stringify({passed:reports.length,reports},null,2));
+}finally{if(browser)await browser.close();server.kill('SIGTERM')}

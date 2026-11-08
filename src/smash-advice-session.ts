@@ -29,7 +29,7 @@ export class SmashAdviceSession {
    };
    worker.onerror=()=>{if(generation!==this.generation||this.key!==key)return;worker.terminate();this.worker=null;this.generation++;this.emit({phase:'error',message:'Suggestions unavailable. All accepted guesses remain playable.'})};
    // Copy only the documented public fields, even if a caller passes a wider object.
-   const observations:SmashObservations={language:input.language,...(input.language==='nl-NL'?{dutchRules:input.dutchRules??2}:{}),length:input.length,guesses:[...input.guesses],feedback:input.feedback.map(row=>[...row]),finished:input.finished};
+   const observations:SmashObservations={...(input.letterHint?{letterHint:{position:input.letterHint.position,letter:input.letterHint.letter}}:{}),language:input.language,...(input.language==='nl-NL'?{dutchRules:input.dutchRules??2}:{}),length:input.length,guesses:[...input.guesses],feedback:input.feedback.map(row=>[...row]),finished:input.finished};
    const request:SmashAdviceRequest={key,observations};worker.postMessage(request);
   }catch{this.worker?.terminate();this.worker=null;this.generation++;this.emit({phase:'error',message:'Suggestions unavailable. All accepted guesses remain playable.'})}
  }

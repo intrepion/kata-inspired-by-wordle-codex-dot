@@ -76,3 +76,7 @@
 @media(forced-colors:active){.key.absent{border-style:dashed}.key.exact{border-style:double;border-width:3px}.key.elsewhere{border-bottom-width:4px}}
 
 .tile.exact b,.tile.elsewhere b,.tile.absent b{transform:translateY(-5px)}
+
+/* The optional reveal is separate from guesses; text remains useful without color. */
+.letter-hint{border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:12px 0;background:var(--paper)}
+.letter-hint[hidden]{display:none}.letter-hint p{margin:6px 0 0;overflow-wrap:anywhere}.letter-hint button{min-height:44px;text-align:left}.letter-hint button:disabled{opacity:.7;cursor:default}.letter-hint p:focus{outline:2px solid var(--ink);outline-offset:4px}

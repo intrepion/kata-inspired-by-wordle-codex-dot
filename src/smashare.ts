@@ -89,23 +89,42 @@ export function restoreSmashRun(raw:unknown,language:Language,length:number,expe
   if(value.assisted!==undefined&&typeof value.assisted!=='boolean')return;
   if(value.roundId!==undefined&&(typeof value.roundId!=='string'||value.roundId.length>100))return;
   if(value.started!==undefined&&typeof value.started!=='boolean'||value.started===false&&(value.guesses.length>0||!!draft||value.gaveUp===true))return;
-  if(value.easiest===undefined)delete run.easiest;if(value.assisted===undefined)delete run.assisted;
-  return {...run,draft,...(value.started===false?{started:false}:{}),...(typeof value.roundId==='string'?{roundId:value.roundId}:{}),...(value.easiest?{easiest:value.easiest as Difficulty}:{}),...(value.assisted===true?{assisted:true}:{})};
+  if(value.easiest===undefined&&run.difficulty!=='easy')delete run.easiest;if(value.assisted===undefined&&run.difficulty!=='easy')delete run.assisted;
+  const rank={easy:0,normal:1,hard:2,strict:3},savedEasiest=value.easiest as Difficulty|undefined;
+  const restoredEasiest=run.difficulty==='easy'?'easy':savedEasiest&&rank[savedEasiest]>rank[run.difficulty]?run.difficulty:savedEasiest;
+  return {...run,draft,...(value.started===false?{started:false}:{}),...(typeof value.roundId==='string'?{roundId:value.roundId}:{}),...(restoredEasiest?{easiest:restoredEasiest}:{}),...(value.assisted===true||restoredEasiest==='easy'?{assisted:true}:{})};
  }catch{return}
 }
 
-/** Candidate suggestions use only the clues already revealed, never the hidden answer. */
-export function suggestSmash(run:SmashRun,limit=5,budget=30000):{pairs:SmashPair[];scanned:number;truncated:boolean} {
- const observations=run.guesses.map(guess=>({guess,clues:score(run.answer.merged,guess,run.language,run.dutchRules).join(',')}));
- const {groups,total}=candidates(run.length,run.language);const pairs:SmashPair[]=[],seen=new Set<string>();let scanned=0;
+/** Only public feedback crosses the suggestion boundary. */
+export interface SmashObservations {language:Language;dutchRules?:DutchRules;length:number;guesses:string[];feedback:Clue[][];finished:boolean}
+export interface SmashAdviceResult {pairs:SmashPair[];scanned:number;truncated:boolean}
+export function observedSmashClues(run:SmashRun):SmashObservations {
+ return {language:run.language,...(run.language==='nl-NL'?{dutchRules:run.dutchRules??2}:{}),length:run.length,guesses:[...run.guesses],feedback:run.guesses.map(guess=>score(run.answer.merged,guess,run.language,run.dutchRules)),finished:smashStatus(run)!=='playing'};
+}
+/** Search every scheduled pair if necessary. The display limit is not a search
+ * budget: empty means no unguessed pair fits. These are examples, not rankings. */
+export function analyzeSmashObservations(input:SmashObservations,limit=5):SmashAdviceResult {
+ if(!Number.isInteger(limit)||limit<1)throw new Error('Suggestion limit must be a positive integer.');
+ if(input.guesses.length!==input.feedback.length||input.feedback.some(row=>row.length!==2*input.length-2||row.some(clue=>!['exact','elsewhere','absent'].includes(clue))))throw new Error('Invalid Smashare observations.');
+ if(input.finished)return {pairs:[],scanned:0,truncated:false};
+ const normalize=(word:string)=>normalizeGuess(word,input.language,input.dutchRules);
+ const history=input.guesses.map((guess,i)=>({guess:normalize(guess),clues:input.feedback[i].join(',')}));
+ const guessed=new Set(history.map(row=>row.guess));
+ const {groups,total}=candidates(input.length,input.language),pairs:SmashPair[]=[],seen=new Set<string>();let scanned=0;
  for(const group of groups)for(const first of group.firsts){
-  if(scanned>=budget)return {pairs,scanned,truncated:scanned<total};scanned++;
-  const pair=makeSmashPair(first,group.second,run.language)!;if(run.guesses.some(guess=>normalizeGuess(guess,run.language,run.dutchRules)===normalizeGuess(pair.merged,run.language,run.dutchRules)))continue;
-  const key=normalizeGuess(pair.merged,run.language,run.dutchRules);
-  if(!seen.has(key)&&observations.every(({guess,clues})=>score(pair.merged,guess,run.language,run.dutchRules).join(',')===clues)){pairs.push(pair);seen.add(key)}
+  scanned++;
+  const pair=makeSmashPair(first,group.second,input.language)!,play=normalize(pair.merged);
+  if(guessed.has(play)||seen.has(play))continue;seen.add(play);
+  // Both sides are normalized under the selected locale and Dutch rules.
+  if(history.every(({guess,clues})=>score(play,guess).join(',')===clues))pairs.push(pair);
   if(pairs.length>=limit)return {pairs,scanned,truncated:scanned<total};
  }
  return {pairs,scanned,truncated:false};
+}
+/** Compatibility wrapper; old scan budgets no longer discard valid answers. */
+export function suggestSmash(run:SmashRun,limit=5,_legacyBudget?:number):SmashAdviceResult {
+ return analyzeSmashObservations(observedSmashClues(run),limit);
 }
 export function changeSmashDifficulty(run:SmashRun,selected:Difficulty):{run:SmashRun;error?:string} {
  if(smashStatus(run)!=='playing')return {run,error:'This round is complete.'};

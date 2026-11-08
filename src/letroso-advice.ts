@@ -45,7 +45,7 @@ function shortlist(candidates:Candidate[]):Candidate[] {
  const groups=new Map<number,Candidate[]>();for(const {candidate} of scored){let group=groups.get(candidate.play.length);if(!group){group=[];groups.set(candidate.play.length,group)}group.push(candidate)}
  // Bound ranking cost, with at least two choices per surviving length. Even the
  // largest dictionaries stay off the UI thread and can be cancelled immediately.
- const limit=Math.max(groups.size*2,Math.min(64,Math.floor(1_500_000/candidates.length)));
+ const limit=Math.max(groups.size*2,Math.min(64,Math.floor(500_000/candidates.length)));
  const selected=new Set<Candidate>();for(const group of groups.values())for(const candidate of group.slice(0,Math.max(2,Math.floor(limit/groups.size))))selected.add(candidate);
  for(const {candidate} of scored){if(selected.size>=limit)break;selected.add(candidate)}
  return [...selected];

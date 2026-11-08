@@ -9,7 +9,7 @@ export type {AdviceRequest,AdviceReply,AdviceResult,Suggestion} from './advice-p
 // Every supported 3–11-letter pool needs a complete ternary clue code.
 const weights=Array.from({length:11},(_,index)=>3**(10-index));
 const place=(length:number,index:number)=>weights[weights.length-length+index];
-const encode=(word:string)=>[...word].map(letter=>letter.charCodeAt(0)-65);
+const encode=(word:string)=>[...word].map(letter=>letter.codePointAt(0)!);
 const dictionaries=new Map<string,{word:string;letters:number[]}[]>();
 function dictionaryFor(length:number,language:Language,dutchRules:DutchRules){const key=`${language}:${length}:${dutchRules}`;let result=dictionaries.get(key);if(!result){const seen=new Set<string>();result=[...vocabulary(length,language,dutchRules).allowed].sort().flatMap(word=>{const gameplay=normalizeGuess(word,language,dutchRules);if(seen.has(gameplay))return [];seen.add(gameplay);return [{word,letters:encode(gameplay)}]});dictionaries.set(key,result)}return result}
 /** Allocation-free encoding of the same exact-first, left-to-right duplicate scoring. */
@@ -29,15 +29,30 @@ function rankGuesses(run:Pick<ImpossibleRun,'guesses'|'feedback'|'candidates'|'l
  const candidateWords=new Set(run.candidates.map(gameplay));
  const candidates=run.candidates.map(word=>encode(gameplay(word)));
  const histories=run.guesses.map((word,row)=>({letters:encode(gameplay(word)),code:run.feedback[row].reduce((sum,clue,i)=>sum+place(length,i)*({absent:0,elsewhere:1,exact:2}[clue]),0)}));
- const buckets=new Uint16Array(3**length),ranked:Suggestion[]=[];let eligibleWords=0;
- for(const {word,letters} of dictionaryFor(length,language,dutchRules)){
-  if(guessed.has(gameplay(word))||(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)))continue;
-  eligibleWords++;buckets.fill(0);let largest=0,sumSquares=0;
-  for(const answer of candidates){const count=++buckets[feedbackCode(answer,letters)];sumSquares+=2*count-1;if(count>largest)largest=count;}
+ const eligible=dictionaryFor(length,language,dutchRules).filter(({word,letters})=>!guessed.has(gameplay(word))&&!(kind==='suboptimal'&&histories.some(previous=>feedbackCode(letters,previous.letters)!==previous.code)));
+ // Bound quadratic letter comparisons, not the answer pool. Affordable analyses
+ // retain the complete ranking; long/large dictionaries use a reproducible shortlist.
+ const comparisonBudget=Math.floor(25_000_000*25/(length*length));
+ const shortlistSize=Math.max(5,Math.min(256,Math.floor(comparisonBudget/totalCandidates)));
+ let evaluated=eligible;
+ if(eligible.length*totalCandidates>comparisonBudget){
+  const selected=new Set<(typeof eligible)[number]>();
+  const sample=(words:typeof eligible,count:number)=>{for(let i=0;i<Math.min(count,words.length);i++)selected.add(words[Math.floor(i*words.length/Math.min(count,words.length))]);};
+  // Include possible direct answers as well as exploratory dictionary guesses.
+  sample(eligible.filter(({word})=>candidateWords.has(gameplay(word))),Math.floor(shortlistSize/2));
+  sample(eligible,shortlistSize-selected.size);
+  for(const entry of eligible){if(selected.size>=shortlistSize)break;selected.add(entry);}
+  evaluated=[...selected];
+ }
+ const buckets=new Uint32Array(3**length),touched:number[]=[],ranked:Suggestion[]=[];
+ for(const {word,letters} of evaluated){
+  for(const code of touched)buckets[code]=0;touched.length=0;
+  let largest=0,sumSquares=0;
+  for(const answer of candidates){const code=feedbackCode(answer,letters),count=++buckets[code];if(count===1)touched.push(code);sumSquares+=2*count-1;if(count>largest)largest=count;}
   ranked.push({word,worstCaseLeft:largest,guaranteedEliminations:totalCandidates-largest,...(kind==='optimal'?{expectedSurvivors:sumSquares/totalCandidates}:{})});
  }
  ranked.sort((a,b)=>(kind==='suboptimal'?b.worstCaseLeft-a.worstCaseLeft:a.worstCaseLeft-b.worstCaseLeft||(a.expectedSurvivors!-b.expectedSurvivors!)||Number(candidateWords.has(gameplay(b.word)))-Number(candidateWords.has(gameplay(a.word))))||(a.word<b.word?-1:a.word>b.word?1:0));
- return {totalCandidates,eligibleWords,suggestions:ranked.slice(0,Math.max(0,Math.min(5,limit)))};
+ return {totalCandidates,eligibleWords:eligible.length,...(evaluated.length<eligible.length?{evaluatedWords:evaluated.length}:{}),suggestions:ranked.slice(0,Math.max(0,Math.min(5,limit)))};
 }
 
 /** Compatibility seam for Evil fixtures; the application uses observed-clue analysis below. */

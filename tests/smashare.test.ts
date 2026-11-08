@@ -88,3 +88,14 @@ test('statistics contexts separate all rules and schedules without changing lega
   if(schedule==='daily'&&rules!=='conquest')assert.ok(key.includes('2026-11-02'));
  }
 });
+
+
+test('restoration preserves known earlier Easy assistance after changing difficulty',async()=>{
+ const {newSmashRun,restoreSmashRun,submitSmash}=await import('../src/smashare.ts');
+ for(const difficulty of ['normal','hard','strict'] as const)for(const assisted of [false,undefined])for(const finished of [false,true]){
+  let run=newSmashRun(dailySmashPair('2026-11-02',5,'en'),'en',difficulty);
+  if(finished)run=submitSmash(run,run.answer.merged).run;
+  const restored=restoreSmashRun({...run,easiest:'easy',assisted},'en',5)!;
+  assert.ok(restored);assert.equal(restored.difficulty,difficulty);assert.equal(restored.easiest,'easy');assert.equal(restored.assisted,true);
+ }
+});
